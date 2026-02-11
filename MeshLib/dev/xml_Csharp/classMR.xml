@@ -9039,7 +9039,7 @@ input contours must be closed within the area of distance map and be consistentl
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>returns edge&apos;s metric that depends both on edge&apos;s length and on the angle between its left and right faces </para>
+<para>not-negative metric that depends both on edge&apos;s length and on the angle between its left and right faces </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -9098,6 +9098,86 @@ input contours must be closed within the area of distance map and be consistentl
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" line="105" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" bodystart="105" bodyend="112"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1a2fcba47c25ff40cb37b0b8fb99ae9eaf" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Function_FloatFuncFromMREdgeId</type>
+        <definition>static unsafe MR.Std.Function_FloatFuncFromMREdgeId MR.edgeAbsCurvMetric</definition>
+        <argsstring>(MR.Const_Mesh mesh, float? angleSinFactor=null, float? angleSinForBoundary=null)</argsstring>
+        <name>edgeAbsCurvMetric</name>
+        <qualifiedname>MR.edgeAbsCurvMetric</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>float?</type>
+          <declname>angleSinFactor</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>float?</type>
+          <declname>angleSinForBoundary</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>not-negative metric that depends both on edge&apos;s length and on the angle between its left and right faces (ignoring the different between convex and concave) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>angleSinFactor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>multiplier before absolute value of dihedral angle sine in edge metric calculation: zero - planar case, larger values of (PI - dihedral angle) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>angleSinForBoundary</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>consider this dihedral angle sine for boundary edges; this metric is symmetric: m(e) == m(e.sym()) Generated from function <computeroutput><ref refid="classMR_1a2fcba47c25ff40cb37b0b8fb99ae9eaf" kindref="member">MR.edgeAbsCurvMetric</ref></computeroutput>. Parameter <computeroutput>angleSinFactor</computeroutput> defaults to <computeroutput>2</computeroutput>. Parameter <computeroutput>angleSinForBoundary</computeroutput> defaults to <computeroutput>0</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" line="123" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" bodystart="123" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a691a0066561cf8ada79857061b1a4ebf" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Function_FloatFuncFromMREdgeId</type>
+        <definition>static unsafe MR.Std.Function_FloatFuncFromMREdgeId MR.edgeAbsCurvMetric</definition>
+        <argsstring>(MR.Const_MeshTopology topology, MR.Const_VertCoords points, float? angleSinFactor=null, float? angleSinForBoundary=null)</argsstring>
+        <name>edgeAbsCurvMetric</name>
+        <qualifiedname>MR.edgeAbsCurvMetric</qualifiedname>
+        <param>
+          <type>MR.Const_MeshTopology</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>MR.Const_VertCoords</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>float?</type>
+          <declname>angleSinFactor</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>float?</type>
+          <declname>angleSinForBoundary</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1a2fcba47c25ff40cb37b0b8fb99ae9eaf" kindref="member">MR.edgeAbsCurvMetric</ref></computeroutput>. Parameter <computeroutput>angleSinFactor</computeroutput> defaults to <computeroutput>2</computeroutput>. Parameter <computeroutput>angleSinForBoundary</computeroutput> defaults to <computeroutput>0</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" line="137" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" bodystart="137" bodyend="144"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1a0d09501d3a12d82c5c7b0082b9974773" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Function_FloatFuncFromMREdgeId</type>
         <definition>static unsafe MR.Std.Function_FloatFuncFromMREdgeId MR.edgeTableSymMetric</definition>
@@ -9119,7 +9199,7 @@ input contours must be closed within the area of distance map and be consistentl
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" line="119" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" bodystart="119" bodyend="124"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" line="151" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" bodystart="151" bodyend="156"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a9bc46ac9a7351f9747cc7e39205a63dd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -35579,7 +35659,7 @@ If the triangles are disjoint, p and q give the closest points of s and t respec
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" line="332" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" bodystart="332" bodyend="340"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" line="336" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" bodystart="336" bodyend="344"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1aaf12b860959be4155aeb8aa7fef6f13e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MREdgeId</type>
@@ -35611,7 +35691,7 @@ If the triangles are disjoint, p and q give the closest points of s and t respec
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" line="351" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" bodystart="351" bodyend="359"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" line="355" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" bodystart="355" bodyend="363"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ab18c3d680d5c9c23e988d7dead8b7c8a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MREdgeId</type>
@@ -35634,7 +35714,7 @@ If the triangles are disjoint, p and q give the closest points of s and t respec
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" line="365" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" bodystart="365" bodyend="373"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" line="369" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" bodystart="369" bodyend="377"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1afaf026178c7ccbe2c7d27a8064daa553" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_StdVectorMREdgeId</type>
@@ -35666,7 +35746,7 @@ If the triangles are disjoint, p and q give the closest points of s and t respec
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" line="383" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" bodystart="383" bodyend="388"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" line="387" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" bodystart="387" bodyend="392"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a495179015bfa8aba5ea3d7f98b4df030" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_StdVectorMREdgeId</type>
@@ -35689,7 +35769,7 @@ If the triangles are disjoint, p and q give the closest points of s and t respec
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" line="394" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" bodystart="394" bodyend="399"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" line="398" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" bodystart="398" bodyend="403"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1aeb2c051d5fe722dc318afb98df86962b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
@@ -35713,7 +35793,7 @@ If the triangles are disjoint, p and q give the closest points of s and t respec
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" line="407" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" bodystart="407" bodyend="415"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" line="411" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" bodystart="411" bodyend="419"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a0ffba9170d9de407e5822d23a24df0d8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Optional_MRVertBitSet</type>
@@ -41291,6 +41371,8 @@ If the triangles are disjoint, p and q give the closest points of s and t respec
       <member refid="classMR_1a64b49580ddad63043b74bf4bf4efe29f" prot="public" virt="non-virtual"><scope>MR</scope><name>doubleOffsetMesh</name></member>
       <member refid="classMR_1af35b31f2daa88520a99fc84091ffcd57" prot="public" virt="non-virtual"><scope>MR</scope><name>doubleOffsetVdb</name></member>
       <member refid="classMR_1ac637663a362a0e3540940f2072a28ed4" prot="public" virt="non-virtual"><scope>MR</scope><name>duplicateMultiHoleVertices</name></member>
+      <member refid="classMR_1a2fcba47c25ff40cb37b0b8fb99ae9eaf" prot="public" virt="non-virtual"><scope>MR</scope><name>edgeAbsCurvMetric</name></member>
+      <member refid="classMR_1a691a0066561cf8ada79857061b1a4ebf" prot="public" virt="non-virtual"><scope>MR</scope><name>edgeAbsCurvMetric</name></member>
       <member refid="classMR_1ad1e68b9ff1948a814bf42cda0bd42606" prot="public" virt="non-virtual"><scope>MR</scope><name>edgeCenter</name></member>
       <member refid="classMR_1a1b4269c2add83a6f45e8015fddb85682" prot="public" virt="non-virtual"><scope>MR</scope><name>edgeCurvMetric</name></member>
       <member refid="classMR_1a3954aea13ae7cbcbcec1ce049213ce3a" prot="public" virt="non-virtual"><scope>MR</scope><name>edgeCurvMetric</name></member>

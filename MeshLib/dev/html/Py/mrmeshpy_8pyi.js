@@ -1723,6 +1723,8 @@ var mrmeshpy_8pyi =
     [ "doubleOffsetMesh", "mrmeshpy_8pyi.html#a7ed7b51800939e663ecd3731112be359", null ],
     [ "doubleOffsetVdb", "mrmeshpy_8pyi.html#a68088f2c20bed0acc64b70443d0c84a7", null ],
     [ "duplicateMultiHoleVertices", "mrmeshpy_8pyi.html#a29d860e030bcb88c49723b059809c397", null ],
+    [ "edgeAbsCurvMetric", "mrmeshpy_8pyi.html#a4af72f5b670df357eb00e9990fc92be0", null ],
+    [ "edgeAbsCurvMetric", "mrmeshpy_8pyi.html#a9bfaafc54f17b8a57a52fe474f0b4436", null ],
     [ "edgeCenter", "mrmeshpy_8pyi.html#ae8d0573f1691558f21b4a62255d26d5f", null ],
     [ "edgeCurvMetric", "mrmeshpy_8pyi.html#a2880b21430b6f1280ac5a956b7380f42", null ],
     [ "edgeCurvMetric", "mrmeshpy_8pyi.html#aebdaf7eff4a50246424223dfaa7b04fa", null ],

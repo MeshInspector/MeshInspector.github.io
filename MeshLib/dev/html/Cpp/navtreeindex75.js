@@ -1,5 +1,6 @@
 var NAVTREEINDEX75 =
 {
+"structMR_1_1ImGuiMenu_1_1TagEditorState.html#ac6de01ecc7438107c57d834ed8291c86":[6,0,1,0,1,324,2,3],
 "structMR_1_1ImGuiMenu_1_1TagEditorState.html#ac6de01ecc7438107c57d834ed8291c86":[6,0,2,0,2,306,2,3],
 "structMR_1_1ImGuiMenu_1_1TagEditorState.html#aea360d36502bf0c3741c65d73b499f83":[6,0,1,0,1,324,2,0],
 "structMR_1_1ImGuiMenu_1_1TagEditorState.html#aea360d36502bf0c3741c65d73b499f83":[6,0,2,0,2,306,2,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX75 =
 "structMR_1_1LineSegm.html#af25a41f042c3bade3e1bd129c6c69702":[6,0,1,0,1,366,2],
 "structMR_1_1LineSegm.html#af25a41f042c3bade3e1bd129c6c69702":[6,0,2,0,2,348,2],
 "structMR_1_1LineSegm.html#afcb4423f5becc13fff968c531455f4e8":[6,0,1,0,1,366,9],
-"structMR_1_1LineSegm.html#afcb4423f5becc13fff968c531455f4e8":[6,0,2,0,2,348,9],
-"structMR_1_1LinesLoadSettings.html":[6,0,1,0,1,367]
+"structMR_1_1LineSegm.html#afcb4423f5becc13fff968c531455f4e8":[6,0,2,0,2,348,9]
 };

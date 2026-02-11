@@ -171,7 +171,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>returns edge&apos;s metric that depends both on edge&apos;s length and on the angle between its left and right faces <parameterlist kind="param"><parameteritem>
+<para>not-negative metric that depends both on edge&apos;s length and on the angle between its left and right faces <parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>angleSinFactor</parametername>
 </parameternamelist>
@@ -226,6 +226,84 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeMetric.h" line="38" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeMetric.h" declline="38" declcolumn="24"/>
       </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1gad21f6edd94bf386e087fa44863421357" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> EdgeMetric</type>
+        <definition>MRMESH_API EdgeMetric MR::edgeAbsCurvMetric</definition>
+        <argsstring>(const Mesh &amp;mesh, float angleSinFactor=2, float angleSinForBoundary=0)</argsstring>
+        <name>edgeAbsCurvMetric</name>
+        <qualifiedname>MR::edgeAbsCurvMetric</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>angleSinFactor</declname>
+          <defval>2</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>angleSinForBoundary</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>not-negative metric that depends both on edge&apos;s length and on the angle between its left and right faces (ignoring the different between convex and concave) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>angleSinFactor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>multiplier before absolute value of dihedral angle sine in edge metric calculation: zero - planar case, larger values of (PI - dihedral angle) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>angleSinForBoundary</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>consider this dihedral angle sine for boundary edges; this metric is symmetric: m(e) == m(e.sym()) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeMetric.h" line="44" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeMetric.h" declline="44" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1ga7bcb3a4cdb884f47b198536773f19d73" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> EdgeMetric</type>
+        <definition>MRMESH_API EdgeMetric MR::edgeAbsCurvMetric</definition>
+        <argsstring>(const MeshTopology &amp;topology, const VertCoords &amp;points, float angleSinFactor=2, float angleSinForBoundary=0)</argsstring>
+        <name>edgeAbsCurvMetric</name>
+        <qualifiedname>MR::edgeAbsCurvMetric</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>const VertCoords &amp;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>angleSinFactor</declname>
+          <defval>2</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>angleSinForBoundary</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeMetric.h" line="45" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeMetric.h" declline="45" declcolumn="24"/>
+      </memberdef>
       <memberdef kind="function" id="group__SurfacePathGroup_1ga04e5ae2dd9a34149d37b4c31364b4b68" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> EdgeMetric</type>
         <definition>MRMESH_API EdgeMetric MR::edgeTableSymMetric</definition>
@@ -247,29 +325,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeMetric.h" line="42" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeMetric.h" declline="42" declcolumn="24"/>
-      </memberdef>
-      <memberdef kind="function" id="group__SurfacePathGroup_1ga2182b04a7c6e0750621fd0d7de0685f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>MR_BIND_IGNORE EdgeMetric</type>
-        <definition>MR_BIND_IGNORE EdgeMetric MR::edgeTableMetric</definition>
-        <argsstring>(const MeshTopology &amp;topology, const EdgeMetric &amp;metric)</argsstring>
-        <name>edgeTableMetric</name>
-        <qualifiedname>MR::edgeTableMetric</qualifiedname>
-        <param>
-          <type>const MeshTopology &amp;</type>
-          <declname>topology</declname>
-        </param>
-        <param>
-          <type>const EdgeMetric &amp;</type>
-          <declname>metric</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeMetric.h" line="44" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeMetric.h" bodystart="44" bodyend="45"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeMetric.h" line="49" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeMetric.h" declline="49" declcolumn="24"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="user-defined">

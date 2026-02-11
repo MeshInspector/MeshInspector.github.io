@@ -1764,6 +1764,8 @@ var classMR =
     [ "doubleOffsetMesh", "classMR.html#a64b49580ddad63043b74bf4bf4efe29f", null ],
     [ "doubleOffsetVdb", "classMR.html#af35b31f2daa88520a99fc84091ffcd57", null ],
     [ "duplicateMultiHoleVertices", "classMR.html#ac637663a362a0e3540940f2072a28ed4", null ],
+    [ "edgeAbsCurvMetric", "classMR.html#a2fcba47c25ff40cb37b0b8fb99ae9eaf", null ],
+    [ "edgeAbsCurvMetric", "classMR.html#a691a0066561cf8ada79857061b1a4ebf", null ],
     [ "edgeCenter", "classMR.html#ad1e68b9ff1948a814bf42cda0bd42606", null ],
     [ "edgeCurvMetric", "classMR.html#a1b4269c2add83a6f45e8015fddb85682", null ],
     [ "edgeCurvMetric", "classMR.html#a3954aea13ae7cbcbcec1ce049213ce3a", null ],

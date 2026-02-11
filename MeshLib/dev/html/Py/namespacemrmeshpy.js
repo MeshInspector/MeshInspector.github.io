@@ -1567,6 +1567,8 @@ var namespacemrmeshpy =
     [ "doubleOffsetMesh", "namespacemrmeshpy.html#a7ed7b51800939e663ecd3731112be359", null ],
     [ "doubleOffsetVdb", "namespacemrmeshpy.html#a68088f2c20bed0acc64b70443d0c84a7", null ],
     [ "duplicateMultiHoleVertices", "namespacemrmeshpy.html#a29d860e030bcb88c49723b059809c397", null ],
+    [ "edgeAbsCurvMetric", "namespacemrmeshpy.html#a4af72f5b670df357eb00e9990fc92be0", null ],
+    [ "edgeAbsCurvMetric", "namespacemrmeshpy.html#a9bfaafc54f17b8a57a52fe474f0b4436", null ],
     [ "edgeCenter", "namespacemrmeshpy.html#ae8d0573f1691558f21b4a62255d26d5f", null ],
     [ "edgeCurvMetric", "namespacemrmeshpy.html#a2880b21430b6f1280ac5a956b7380f42", null ],
     [ "edgeCurvMetric", "namespacemrmeshpy.html#aebdaf7eff4a50246424223dfaa7b04fa", null ],

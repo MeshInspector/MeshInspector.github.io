@@ -1,5 +1,7 @@
 var NAVTREEINDEX64 =
 {
+"classMR_1_1VertBitSet.html#afa7f3cc55152ea00616cec07b68aea10":[6,3,0,0,0,910,15],
+"classMR_1_1VertColorMapAggregator.html":[6,3,0,0,0,912],
 "classMR_1_1VertColorMapAggregator.html#a613707b4dfd8cb911957861f8184925b":[6,3,0,0,0,912,11],
 "classMR_1_1VertColorMapAggregator.html#a674c9bca51f3b15790f8b0dfc318a4bb":[6,3,0,0,0,912,12],
 "classMR_1_1VertColorMapAggregator.html#a67bffe0ab2ee44dbd7d3943559c4e554":[6,3,0,0,0,912,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX64 =
 "classMR_1_1ViewportProperty__MRColor.html#a6fdd1a87e13db02f35cf3ef15629e7b2":[6,3,0,0,0,928,11],
 "classMR_1_1ViewportProperty__MRColor.html#a83acfa4a667e4ce0f17b9905ec38240d":[6,3,0,0,0,928,10],
 "classMR_1_1ViewportProperty__MRColor.html#acc01a6b509a04f2d6b2e6b12665cb1c9":[6,3,0,0,0,928,0],
-"classMR_1_1ViewportProperty__MRColor.html#aeb093f985166d0538659314723c5bc31":[6,3,0,0,0,928,5],
-"classMR_1_1ViewportProperty__MRColor.html#aefddc9d908e4f06b99937732eb6a1e76":[6,3,0,0,0,928,9],
-"classMR_1_1ViewportProperty__MRColor.html#af171988e499c1f9501f06e9d38ad5990":[6,3,0,0,0,928,7]
+"classMR_1_1ViewportProperty__MRColor.html#aeb093f985166d0538659314723c5bc31":[6,3,0,0,0,928,5]
 };

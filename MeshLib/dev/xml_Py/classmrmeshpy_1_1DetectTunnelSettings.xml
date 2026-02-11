@@ -262,7 +262,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>if true then for every basis loop, findShortestCoLoop will be called;
+<para><verbatim>if true then for every basis loop, findSmallestMetricCoLoop will be called;
 it typically results in shorter tunnels found, but requires more time per iteration, and more iterations to find all tunnels
 </verbatim> </para>
         </detaileddescription>
@@ -391,7 +391,7 @@ on a big mesh with many tunnels even one iteration can take a while
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>maximal length of tunnel loops to consider
+<para><verbatim>maximal summed metric of tunnel loops to detect
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
@@ -433,13 +433,15 @@ on a big mesh with many tunnels even one iteration can take a while
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>metric for detectBasisTunnels,
-if no metric is given then discreteMinusAbsMeanCurvatureMetric will be used
+<para><verbatim>edge metric that will be used in optimizations,
+if co-loops are enabled then this metric must be not-negative,
+if no metric is given then either discreteMinusAbsMeanCurvatureMetric (if buildCoLoops = false) or edgeLengthMetric (if buildCoLoops = true) will be used,
+using caching via edgeTableSymMetric function can improve the performance, especially in buildCoLoops = true mode
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12822" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12822" bodyend="12826"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12822" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12822" bodyend="12828"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DetectTunnelSettings_1a95925c956233579872e5d4d2ba529f9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -461,7 +463,7 @@ if no metric is given then discreteMinusAbsMeanCurvatureMetric will be used
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12828" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12828" bodyend="12829"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12830" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12830" bodyend="12831"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DetectTunnelSettings_1abae1388d40047094fc6f5ebf31ffa28c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
@@ -481,7 +483,7 @@ if no metric is given then discreteMinusAbsMeanCurvatureMetric will be used
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12831" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12831" bodyend="12834"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12833" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12833" bodyend="12836"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1DetectTunnelSettings_1a06978cd60b53f9f59c14e265e51bf7ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -503,7 +505,7 @@ if no metric is given then discreteMinusAbsMeanCurvatureMetric will be used
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12836" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12836" bodyend="12837"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12838" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12838" bodyend="12839"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -529,7 +531,7 @@ if no metric is given then discreteMinusAbsMeanCurvatureMetric will be used
         <label>typing</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12751" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12751" bodyend="12837"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12751" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12751" bodyend="12839"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1DetectTunnelSettings_1acef38158f3180f14eca7faa6dc1d9c6b" prot="public" virt="non-virtual"><scope>mrmeshpy::DetectTunnelSettings</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1DetectTunnelSettings_1a4780f054b8c777b9fc1023365b0a2954" prot="public" virt="non-virtual"><scope>mrmeshpy::DetectTunnelSettings</scope><name>__init__</name></member>

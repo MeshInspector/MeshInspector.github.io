@@ -1,5 +1,7 @@
 var NAVTREEINDEX53 =
 {
+"classMR_1_1SliceInfoBase.html#ac22c20d95109a16b908078f5895b917e":[6,3,0,0,0,759,5],
+"classMR_1_1SliceInfoBase.html#ae118a1cc82fc59d928616819c655a94e":[6,3,0,0,0,759,1],
 "classMR_1_1SliceInfoBase.html#ae9dcdaa280dc5cc300c30b9cc1298695":[6,3,0,0,0,759,3],
 "classMR_1_1SomeLocalTriangulations.html":[6,3,0,0,0,760],
 "classMR_1_1SomeLocalTriangulations.html#a025e91ded83fa1c8f05c2e0f815677d4":[6,3,0,0,0,760,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX53 =
 "classMR_1_1SymMatrix2i.html#ab560ff60d67a962a200d64c30ed9dafa":[6,3,0,0,0,777,7],
 "classMR_1_1SymMatrix2i.html#ac40a8f1a8d4761f6738f770c2d88429d":[6,3,0,0,0,777,3],
 "classMR_1_1SymMatrix2i64.html":[6,3,0,0,0,778],
-"classMR_1_1SymMatrix2i64.html#a343ace80824e6297a4245928ff3a32e2":[6,3,0,0,0,778,1],
-"classMR_1_1SymMatrix2i64.html#a3fc7e844665a8c4feaf15271ee4ce3f3":[6,3,0,0,0,778,10],
-"classMR_1_1SymMatrix2i64.html#a49b2301fd92a5b8886897711675fd89d":[6,3,0,0,0,778,8]
+"classMR_1_1SymMatrix2i64.html#a343ace80824e6297a4245928ff3a32e2":[6,3,0,0,0,778,1]
 };

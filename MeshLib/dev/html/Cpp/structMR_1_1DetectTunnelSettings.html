@@ -157,7 +157,7 @@ $(function(){initNavTree('structMR_1_1DetectTunnelSettings.html',''); initResiza
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:abce133e9001f28cbce044fc8c1206ace" id="r_abce133e9001f28cbce044fc8c1206ace"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abce133e9001f28cbce044fc8c1206ace">maxTunnelLength</a> = FLT_MAX</td></tr>
-<tr class="memdesc:abce133e9001f28cbce044fc8c1206ace"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximal length of tunnel loops to consider  <br /></td></tr>
+<tr class="memdesc:abce133e9001f28cbce044fc8c1206ace"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximal summed metric of tunnel loops to detect  <br /></td></tr>
 <tr class="separator:abce133e9001f28cbce044fc8c1206ace"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27a0181891bd9064803eb7608e3f0e10" id="r_a27a0181891bd9064803eb7608e3f0e10"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27a0181891bd9064803eb7608e3f0e10">maxIters</a> = 1</td></tr>
 <tr class="separator:a27a0181891bd9064803eb7608e3f0e10"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -183,7 +183,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if true then for every basis loop, findShortestCoLoop will be called; it typically results in shorter tunnels found, but requires more time per iteration, and more iterations to find all tunnels </p>
+<p>if true then for every basis loop, findSmallestMetricCoLoop will be called; it typically results in shorter tunnels found, but requires more time per iteration, and more iterations to find all tunnels </p>
 
 </div>
 </div>
@@ -229,7 +229,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>maximal length of tunnel loops to consider </p>
+<p>maximal summed metric of tunnel loops to detect </p>
 
 </div>
 </div>
@@ -244,7 +244,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>metric for detectBasisTunnels, if no metric is given then discreteMinusAbsMeanCurvatureMetric will be used </p>
+<p>edge metric that will be used in optimizations, if co-loops are enabled then this metric must be not-negative, if no metric is given then either discreteMinusAbsMeanCurvatureMetric (if buildCoLoops = false) or edgeLengthMetric (if buildCoLoops = true) will be used, using caching via edgeTableSymMetric function can improve the performance, especially in buildCoLoops = true mode </p>
 
 </div>
 </div>
