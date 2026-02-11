@@ -161,6 +161,10 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a3bdeb5a4cdd00fc36ce6089cede17c0b" id="r_a3bdeb5a4cdd00fc36ce6089cede17c0b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3bdeb5a4cdd00fc36ce6089cede17c0b">minWeight</a> = 1</td></tr>
 <tr class="memdesc:a3bdeb5a4cdd00fc36ce6089cede17c0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">minimum sum of influence weights from surrounding points for a triangle to appear, meaning that there shall be at least this number of points in close proximity  <br /></td></tr>
 <tr class="separator:a3bdeb5a4cdd00fc36ce6089cede17c0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a233f40339195db2ce32c5bd0ff6fcba3" id="r_a233f40339195db2ce32c5bd0ff6fcba3"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a233f40339195db2ce32c5bd0ff6fcba3">invSigmaModifier</a> = 0.5f</td></tr>
+<tr class="separator:a233f40339195db2ce32c5bd0ff6fcba3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd4ee185f46d54c4c9a9c62b2e2c6376" id="r_afd4ee185f46d54c4c9a9c62b2e2c6376"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd4ee185f46d54c4c9a9c62b2e2c6376">sqrtAngleWeight</a> { false }</td></tr>
+<tr class="separator:afd4ee185f46d54c4c9a9c62b2e2c6376"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a00eeb792ec36e21c8cc51989d1052210" id="r_a00eeb792ec36e21c8cc51989d1052210"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00eeb792ec36e21c8cc51989d1052210">voxelSize</a> = 0</td></tr>
 <tr class="separator:a00eeb792ec36e21c8cc51989d1052210"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad30c0a7b27c4a1b5818cb7fc981403c3" id="r_ad30c0a7b27c4a1b5818cb7fc981403c3"><td class="memItemLeft" align="right" valign="top">const VertColors *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad30c0a7b27c4a1b5818cb7fc981403c3">ptColors</a> = nullptr</td></tr>
@@ -229,6 +233,21 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a233f40339195db2ce32c5bd0ff6fcba3" name="a233f40339195db2ce32c5bd0ff6fcba3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a233f40339195db2ce32c5bd0ff6fcba3">&#9670;&#160;</a></span>invSigmaModifier</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::PointsToMeshParameters::invSigmaModifier = 0.5f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>coefficient used for weight calculation: e^(dist^2 * -invSigmaModifier * sigma^-2) values: (0;inf) </p>
+
+</div>
+</div>
 <a id="a3bdeb5a4cdd00fc36ce6089cede17c0b" name="a3bdeb5a4cdd00fc36ce6089cede17c0b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3bdeb5a4cdd00fc36ce6089cede17c0b">&#9670;&#160;</a></span>minWeight</h2>
 
@@ -289,6 +308,21 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>it the distance of highest influence of a point; the maximal influence distance is 3*sigma; beyond that distance the influence is strictly zero </p>
+
+</div>
+</div>
+<a id="afd4ee185f46d54c4c9a9c62b2e2c6376" name="afd4ee185f46d54c4c9a9c62b2e2c6376"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd4ee185f46d54c4c9a9c62b2e2c6376">&#9670;&#160;</a></span>sqrtAngleWeight</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::PointsToMeshParameters::sqrtAngleWeight { false }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>changes the way point angle affects weight, by default it is linearly increasing with dot product if enabled - increasing as dot product^(0.5) (with respect to its sign) </p>
 
 </div>
 </div>

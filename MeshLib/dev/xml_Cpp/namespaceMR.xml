@@ -34798,7 +34798,7 @@ actually all zeros </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToDistanceVolume.h" line="26" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToDistanceVolume.h" declline="26" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToDistanceVolume.h" line="34" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToDistanceVolume.h" declline="34" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1a2a68dc1cf487d20d55f20f536c2dedfc" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> FunctionVolume</type>
@@ -34821,7 +34821,7 @@ actually all zeros </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToDistanceVolume.h" line="29" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToDistanceVolume.h" declline="29" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToDistanceVolume.h" line="37" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToDistanceVolume.h" declline="37" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1a1746d757b12ddb4f1527a3c3b361ec4c" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; VertColors &gt;</type>
@@ -34910,7 +34910,7 @@ actually all zeros </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToDistanceVolume.h" line="39" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToDistanceVolume.h" declline="39" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToDistanceVolume.h" line="47" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToDistanceVolume.h" declline="47" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1abbc1adfce73c26127f80973b21afcbf4" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
@@ -34933,7 +34933,7 @@ actually all zeros </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToMeshFusion.h" line="48" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToMeshFusion.h" declline="48" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToMeshFusion.h" line="56" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToMeshFusion.h" declline="56" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1a2ab4d2b336d770d981bb072ffd205f44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref> &gt;</type>

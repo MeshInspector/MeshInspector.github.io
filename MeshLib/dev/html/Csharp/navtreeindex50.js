@@ -1,5 +1,9 @@
 var NAVTREEINDEX50 =
 {
+"classMR_1_1Polynomial__Float__0.html#a68989b471d3852dd7e7da9a238bf1a41":[6,3,0,0,0,692,1],
+"classMR_1_1Polynomial__Float__0.html#a79fcb84251dc5d84f83428cef9fa084e":[6,3,0,0,0,692,4],
+"classMR_1_1Polynomial__Float__0.html#af03903345c9d927c7758686af4a13699":[6,3,0,0,0,692,3],
+"classMR_1_1Polynomial__Float__0.html#af332bae5b3bd2f1e46fc819fe91f8182":[6,3,0,0,0,692,0],
 "classMR_1_1Polynomial__Float__1.html":[6,3,0,0,0,693],
 "classMR_1_1Polynomial__Float__1.html#a0f6f22b05bf9b96db63b9e727f9d7380":[6,3,0,0,0,693,4],
 "classMR_1_1Polynomial__Float__1.html#a7b948dd9376ebfef314bec46beb14453":[6,3,0,0,0,693,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX50 =
 "classMR_1_1RadiusMeasurementObject.html#ad66e266faf26f0db5084167cc86e13f6":[6,3,0,0,0,715,44],
 "classMR_1_1RadiusMeasurementObject.html#ad9775cc17f851e7361fdd7637fa635af":[6,3,0,0,0,715,28],
 "classMR_1_1RadiusMeasurementObject.html#ade40579c00b12392728f888fb662bd06":[6,3,0,0,0,715,16],
-"classMR_1_1RadiusMeasurementObject.html#ae0b8392c581c228708b6f4438b389cb3":[6,3,0,0,0,715,51],
-"classMR_1_1RadiusMeasurementObject.html#ae825f0b041d1699de4c43f3114c32184":[6,3,0,0,0,715,50],
-"classMR_1_1RadiusMeasurementObject.html#aedfe34be1e6d2f647a149754b5068934":[6,3,0,0,0,715,38],
-"classMR_1_1RadiusMeasurementObject.html#af4c40a50201f9f81d05dbc82a63bf1f2":[6,3,0,0,0,715,18],
-"classMR_1_1RadiusMeasurementObject.html#af73c234a9610fe6ef89b970f1479faee":[6,3,0,0,0,715,53]
+"classMR_1_1RadiusMeasurementObject.html#ae0b8392c581c228708b6f4438b389cb3":[6,3,0,0,0,715,51]
 };

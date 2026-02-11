@@ -195,6 +195,10 @@ Properties</h2></td></tr>
 <tr class="memitem:adbef596027a558f43194134340ad1b25" id="r_adbef596027a558f43194134340ad1b25"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adbef596027a558f43194134340ad1b25">minWeight</a><code> [get]</code></td></tr>
 <tr class="memdesc:adbef596027a558f43194134340ad1b25"><td class="mdescLeft">&#160;</td><td class="mdescRight">minimum sum of influence weights from surrounding points for a voxel to get a value, meaning that there shall be at least this number of points in close proximity  <br /></td></tr>
 <tr class="separator:adbef596027a558f43194134340ad1b25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a651bc31c7fee04dc0bc47641145328ba" id="r_a651bc31c7fee04dc0bc47641145328ba"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a651bc31c7fee04dc0bc47641145328ba">invSigmaModifier</a><code> [get]</code></td></tr>
+<tr class="separator:a651bc31c7fee04dc0bc47641145328ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5b32dadccfb86de157bc5d4a8a81893" id="r_ad5b32dadccfb86de157bc5d4a8a81893"><td class="memItemLeft" align="right" valign="top">new unsafe ref bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5b32dadccfb86de157bc5d4a8a81893">sqrtAngleWeight</a><code> [get]</code></td></tr>
+<tr class="separator:ad5b32dadccfb86de157bc5d4a8a81893"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f357b8a92d7d96dee1473d3b61586e6" id="r_a4f357b8a92d7d96dee1473d3b61586e6"><td class="memItemLeft" align="right" valign="top">new unsafe MR.? Const_VertCoords&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f357b8a92d7d96dee1473d3b61586e6">ptNormals</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:a4f357b8a92d7d96dee1473d3b61586e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional input: if this pointer is set then function will use these normals instead of ones present in cloud  <br /></td></tr>
 <tr class="separator:a4f357b8a92d7d96dee1473d3b61586e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -424,6 +428,29 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="a651bc31c7fee04dc0bc47641145328ba" name="a651bc31c7fee04dc0bc47641145328ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a651bc31c7fee04dc0bc47641145328ba">&#9670;&#160;</a></span>invSigmaModifier</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">new unsafe ref float MR.PointsToDistanceVolumeParams.invSigmaModifier</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>coefficient used for weight calculation: e^(dist^2 * -invSigmaModifier * sigma^-2) values: (0;inf) </p>
+
+</div>
+</div>
 <a id="adbef596027a558f43194134340ad1b25" name="adbef596027a558f43194134340ad1b25"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adbef596027a558f43194134340ad1b25">&#9670;&#160;</a></span>minWeight</h2>
 
@@ -516,6 +543,29 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>it the distance of highest influence of a point; the maximal influence distance is 3*sigma; beyond that distance the influence is strictly zero </p>
+
+</div>
+</div>
+<a id="ad5b32dadccfb86de157bc5d4a8a81893" name="ad5b32dadccfb86de157bc5d4a8a81893"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5b32dadccfb86de157bc5d4a8a81893">&#9670;&#160;</a></span>sqrtAngleWeight</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">new unsafe ref bool MR.PointsToDistanceVolumeParams.sqrtAngleWeight</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>changes the way point angle affects weight, by default it is linearly increasing with dot product if enabled - increasing as dot product^(0.5) (with respect to its sign) </p>
 
 </div>
 </div>

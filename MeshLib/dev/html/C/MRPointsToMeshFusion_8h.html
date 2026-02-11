@@ -153,6 +153,7 @@ $(function(){initNavTree('MRPointsToMeshFusion_8h.html',''); initResizable(true)
 <div class="contents">
 <div class="textblock"><code>#include &lt;MRCMisc/common.h&gt;</code><br />
 <code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 </div>
 <p><a href="MRPointsToMeshFusion_8h_source.html">Go to the source code of this file.</a></p>
@@ -184,6 +185,18 @@ Functions</h2></td></tr>
 <tr class="separator:a996bea93cf5ce0e12e5efbaafe65b56c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c248e2f22f0e8a3b844e5b4556f1adb" id="r_a2c248e2f22f0e8a3b844e5b4556f1adb"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c248e2f22f0e8a3b844e5b4556f1adb">MR_PointsToMeshParameters_GetMutable_minWeight</a> (<a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_this)</td></tr>
 <tr class="separator:a2c248e2f22f0e8a3b844e5b4556f1adb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a127533903f16d0c2a9d34af42f0fab53" id="r_a127533903f16d0c2a9d34af42f0fab53"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a127533903f16d0c2a9d34af42f0fab53">MR_PointsToMeshParameters_Get_invSigmaModifier</a> (const <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_this)</td></tr>
+<tr class="separator:a127533903f16d0c2a9d34af42f0fab53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a034f78c5cba6357e5b738b6ab38598de" id="r_a034f78c5cba6357e5b738b6ab38598de"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a034f78c5cba6357e5b738b6ab38598de">MR_PointsToMeshParameters_Set_invSigmaModifier</a> (<a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_this, float value)</td></tr>
+<tr class="separator:a034f78c5cba6357e5b738b6ab38598de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a531c118e12646e9985a5b916860c5ee8" id="r_a531c118e12646e9985a5b916860c5ee8"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a531c118e12646e9985a5b916860c5ee8">MR_PointsToMeshParameters_GetMutable_invSigmaModifier</a> (<a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_this)</td></tr>
+<tr class="separator:a531c118e12646e9985a5b916860c5ee8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acac8439750c699315202332db91d4ec2" id="r_acac8439750c699315202332db91d4ec2"><td class="memItemLeft" align="right" valign="top">MRC_API const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acac8439750c699315202332db91d4ec2">MR_PointsToMeshParameters_Get_sqrtAngleWeight</a> (const <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_this)</td></tr>
+<tr class="separator:acac8439750c699315202332db91d4ec2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d3768a9f56e60ce39c6deeba6d2240e" id="r_a8d3768a9f56e60ce39c6deeba6d2240e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d3768a9f56e60ce39c6deeba6d2240e">MR_PointsToMeshParameters_Set_sqrtAngleWeight</a> (<a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_this, bool value)</td></tr>
+<tr class="separator:a8d3768a9f56e60ce39c6deeba6d2240e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaaa28ff4d4238b734e5c88b7b5f1c111" id="r_aaaa28ff4d4238b734e5c88b7b5f1c111"><td class="memItemLeft" align="right" valign="top">MRC_API bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaaa28ff4d4238b734e5c88b7b5f1c111">MR_PointsToMeshParameters_GetMutable_sqrtAngleWeight</a> (<a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_this)</td></tr>
+<tr class="separator:aaaa28ff4d4238b734e5c88b7b5f1c111"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30bd875d3288b2f01e9c9fc0403b3bfb" id="r_a30bd875d3288b2f01e9c9fc0403b3bfb"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30bd875d3288b2f01e9c9fc0403b3bfb">MR_PointsToMeshParameters_Get_voxelSize</a> (const <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_this)</td></tr>
 <tr class="separator:a30bd875d3288b2f01e9c9fc0403b3bfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a70aa6d57f226ed981c9ec2a480cd1550" id="r_a70aa6d57f226ed981c9ec2a480cd1550"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70aa6d57f226ed981c9ec2a480cd1550">MR_PointsToMeshParameters_Set_voxelSize</a> (<a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_this, float value)</td></tr>
@@ -447,6 +460,24 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a127533903f16d0c2a9d34af42f0fab53" name="a127533903f16d0c2a9d34af42f0fab53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a127533903f16d0c2a9d34af42f0fab53">&#9670;&#160;</a></span>MR_PointsToMeshParameters_Get_invSigmaModifier()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const float * MR_PointsToMeshParameters_Get_invSigmaModifier </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>coefficient used for weight calculation: e^(dist^2 * -invSigmaModifier * sigma^-2) values: (0;inf) Returns a pointer to a member variable of class <code>MR::PointsToMeshParameters</code> named <code>invSigmaModifier</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
 <a id="a2ab8a39701d697b8f00ba1d5e75874f7" name="a2ab8a39701d697b8f00ba1d5e75874f7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2ab8a39701d697b8f00ba1d5e75874f7">&#9670;&#160;</a></span>MR_PointsToMeshParameters_Get_minWeight()</h2>
 
@@ -519,6 +550,24 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="acac8439750c699315202332db91d4ec2" name="acac8439750c699315202332db91d4ec2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acac8439750c699315202332db91d4ec2">&#9670;&#160;</a></span>MR_PointsToMeshParameters_Get_sqrtAngleWeight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const bool * MR_PointsToMeshParameters_Get_sqrtAngleWeight </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>changes the way point angle affects weight, by default it is linearly increasing with dot product if enabled - increasing as dot product^(0.5) (with respect to its sign) Returns a pointer to a member variable of class <code>MR::PointsToMeshParameters</code> named <code>sqrtAngleWeight</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
 <a id="aac559e8007d69d44294fb8967700b910" name="aac559e8007d69d44294fb8967700b910"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aac559e8007d69d44294fb8967700b910">&#9670;&#160;</a></span>MR_PointsToMeshParameters_Get_vColors()</h2>
 
@@ -552,6 +601,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Size of voxel in grid conversions; The user is responsible for setting some positive value here Returns a pointer to a member variable of class <code>MR::PointsToMeshParameters</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a531c118e12646e9985a5b916860c5ee8" name="a531c118e12646e9985a5b916860c5ee8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a531c118e12646e9985a5b916860c5ee8">&#9670;&#160;</a></span>MR_PointsToMeshParameters_GetMutable_invSigmaModifier()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API float * MR_PointsToMeshParameters_GetMutable_invSigmaModifier </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>coefficient used for weight calculation: e^(dist^2 * -invSigmaModifier * sigma^-2) values: (0;inf) Returns a mutable pointer to a member variable of class <code>MR::PointsToMeshParameters</code> named <code>invSigmaModifier</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -624,6 +691,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>it the distance of highest influence of a point; the maximal influence distance is 3*sigma; beyond that distance the influence is strictly zero Returns a mutable pointer to a member variable of class <code>MR::PointsToMeshParameters</code> named <code>sigma</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aaaa28ff4d4238b734e5c88b7b5f1c111" name="aaaa28ff4d4238b734e5c88b7b5f1c111"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaaa28ff4d4238b734e5c88b7b5f1c111">&#9670;&#160;</a></span>MR_PointsToMeshParameters_GetMutable_sqrtAngleWeight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool * MR_PointsToMeshParameters_GetMutable_sqrtAngleWeight </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>changes the way point angle affects weight, by default it is linearly increasing with dot product if enabled - increasing as dot product^(0.5) (with respect to its sign) Returns a mutable pointer to a member variable of class <code>MR::PointsToMeshParameters</code> named <code>sqrtAngleWeight</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -704,6 +789,28 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. The reference to the parameter <code>ptr</code> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="a034f78c5cba6357e5b738b6ab38598de" name="a034f78c5cba6357e5b738b6ab38598de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a034f78c5cba6357e5b738b6ab38598de">&#9670;&#160;</a></span>MR_PointsToMeshParameters_Set_invSigmaModifier()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_PointsToMeshParameters_Set_invSigmaModifier </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>coefficient used for weight calculation: e^(dist^2 * -invSigmaModifier * sigma^-2) values: (0;inf) Modifies a member variable of class <code>MR::PointsToMeshParameters</code> named <code>invSigmaModifier</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>invSigmaModifier</code>. </p>
 
 </div>
 </div>
@@ -797,6 +904,28 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>it the distance of highest influence of a point; the maximal influence distance is 3*sigma; beyond that distance the influence is strictly zero Modifies a member variable of class <code>MR::PointsToMeshParameters</code> named <code>sigma</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>sigma</code>. </p>
+
+</div>
+</div>
+<a id="a8d3768a9f56e60ce39c6deeba6d2240e" name="a8d3768a9f56e60ce39c6deeba6d2240e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d3768a9f56e60ce39c6deeba6d2240e">&#9670;&#160;</a></span>MR_PointsToMeshParameters_Set_sqrtAngleWeight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_PointsToMeshParameters_Set_sqrtAngleWeight </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>changes the way point angle affects weight, by default it is linearly increasing with dot product if enabled - increasing as dot product^(0.5) (with respect to its sign) Modifies a member variable of class <code>MR::PointsToMeshParameters</code> named <code>sqrtAngleWeight</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>sqrtAngleWeight</code>. </p>
 
 </div>
 </div>

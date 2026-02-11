@@ -154,6 +154,7 @@ $(function(){initNavTree('MRPointsToDistanceVolume_8h.html',''); initResizable(t
 <div class="textblock"><code>#include &lt;<a class="el" href="MRVector3_8h_source.html">MRCMesh/MRVector3.h</a>&gt;</code><br />
 <code>#include &lt;MRCMisc/common.h&gt;</code><br />
 <code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 </div>
 <p><a href="MRPointsToDistanceVolume_8h_source.html">Go to the source code of this file.</a></p>
@@ -195,6 +196,18 @@ Functions</h2></td></tr>
 <tr class="separator:abddfefcba6877b819e4db2c1db2f901f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e724f5a82032e2aeb1d0df71c949779" id="r_a6e724f5a82032e2aeb1d0df71c949779"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e724f5a82032e2aeb1d0df71c949779">MR_PointsToDistanceVolumeParams_GetMutable_minWeight</a> (<a class="el" href="MRDistanceVolumeParams_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *_this)</td></tr>
 <tr class="separator:a6e724f5a82032e2aeb1d0df71c949779"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cd9b6bffc032642a90856f9ea0c41a9" id="r_a7cd9b6bffc032642a90856f9ea0c41a9"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7cd9b6bffc032642a90856f9ea0c41a9">MR_PointsToDistanceVolumeParams_Get_invSigmaModifier</a> (const <a class="el" href="MRDistanceVolumeParams_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *_this)</td></tr>
+<tr class="separator:a7cd9b6bffc032642a90856f9ea0c41a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0694c7b3d25ebc1f3e64715edf35a98" id="r_ac0694c7b3d25ebc1f3e64715edf35a98"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0694c7b3d25ebc1f3e64715edf35a98">MR_PointsToDistanceVolumeParams_Set_invSigmaModifier</a> (<a class="el" href="MRDistanceVolumeParams_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *_this, float value)</td></tr>
+<tr class="separator:ac0694c7b3d25ebc1f3e64715edf35a98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea55c70eb62f5d91d432a361fcfb6752" id="r_aea55c70eb62f5d91d432a361fcfb6752"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea55c70eb62f5d91d432a361fcfb6752">MR_PointsToDistanceVolumeParams_GetMutable_invSigmaModifier</a> (<a class="el" href="MRDistanceVolumeParams_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *_this)</td></tr>
+<tr class="separator:aea55c70eb62f5d91d432a361fcfb6752"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af04a80befe81c8788a73be80ba3fa732" id="r_af04a80befe81c8788a73be80ba3fa732"><td class="memItemLeft" align="right" valign="top">MRC_API const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af04a80befe81c8788a73be80ba3fa732">MR_PointsToDistanceVolumeParams_Get_sqrtAngleWeight</a> (const <a class="el" href="MRDistanceVolumeParams_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *_this)</td></tr>
+<tr class="separator:af04a80befe81c8788a73be80ba3fa732"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adae64568705ac7abf4cded4fdcc2d0a4" id="r_adae64568705ac7abf4cded4fdcc2d0a4"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adae64568705ac7abf4cded4fdcc2d0a4">MR_PointsToDistanceVolumeParams_Set_sqrtAngleWeight</a> (<a class="el" href="MRDistanceVolumeParams_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *_this, bool value)</td></tr>
+<tr class="separator:adae64568705ac7abf4cded4fdcc2d0a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27ca12ed8129d386135931471d70a75a" id="r_a27ca12ed8129d386135931471d70a75a"><td class="memItemLeft" align="right" valign="top">MRC_API bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27ca12ed8129d386135931471d70a75a">MR_PointsToDistanceVolumeParams_GetMutable_sqrtAngleWeight</a> (<a class="el" href="MRDistanceVolumeParams_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *_this)</td></tr>
+<tr class="separator:a27ca12ed8129d386135931471d70a75a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34d2b69b546284ee48850e57ac8db7f8" id="r_a34d2b69b546284ee48850e57ac8db7f8"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34d2b69b546284ee48850e57ac8db7f8">MR_PointsToDistanceVolumeParams_Get_ptNormals</a> (const <a class="el" href="MRDistanceVolumeParams_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *_this)</td></tr>
 <tr class="separator:a34d2b69b546284ee48850e57ac8db7f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6616320b7c9b95e7c461e528b4d57ce" id="r_ae6616320b7c9b95e7c461e528b4d57ce"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6616320b7c9b95e7c461e528b4d57ce">MR_PointsToDistanceVolumeParams_Set_ptNormals</a> (<a class="el" href="MRDistanceVolumeParams_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *_this, const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *value)</td></tr>
@@ -653,6 +666,24 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a7cd9b6bffc032642a90856f9ea0c41a9" name="a7cd9b6bffc032642a90856f9ea0c41a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cd9b6bffc032642a90856f9ea0c41a9">&#9670;&#160;</a></span>MR_PointsToDistanceVolumeParams_Get_invSigmaModifier()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const float * MR_PointsToDistanceVolumeParams_Get_invSigmaModifier </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRDistanceVolumeParams_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>coefficient used for weight calculation: e^(dist^2 * -invSigmaModifier * sigma^-2) values: (0;inf) Returns a pointer to a member variable of class <code>MR::PointsToDistanceVolumeParams</code> named <code>invSigmaModifier</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
 <a id="ae716ab1ae7db859dc03d3ad565ce6a3a" name="ae716ab1ae7db859dc03d3ad565ce6a3a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae716ab1ae7db859dc03d3ad565ce6a3a">&#9670;&#160;</a></span>MR_PointsToDistanceVolumeParams_Get_minWeight()</h2>
 
@@ -725,6 +756,24 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="af04a80befe81c8788a73be80ba3fa732" name="af04a80befe81c8788a73be80ba3fa732"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af04a80befe81c8788a73be80ba3fa732">&#9670;&#160;</a></span>MR_PointsToDistanceVolumeParams_Get_sqrtAngleWeight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const bool * MR_PointsToDistanceVolumeParams_Get_sqrtAngleWeight </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRDistanceVolumeParams_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>changes the way point angle affects weight, by default it is linearly increasing with dot product if enabled - increasing as dot product^(0.5) (with respect to its sign) Returns a pointer to a member variable of class <code>MR::PointsToDistanceVolumeParams</code> named <code>sqrtAngleWeight</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
 <a id="ac314545b1246858981e88f6f079feb64" name="ac314545b1246858981e88f6f079feb64"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac314545b1246858981e88f6f079feb64">&#9670;&#160;</a></span>MR_PointsToDistanceVolumeParams_Get_voxelSize()</h2>
 
@@ -776,6 +825,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>num voxels along each axis Returns a mutable pointer to a member variable of class <code>MR::PointsToDistanceVolumeParams</code> named <code>dimensions</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aea55c70eb62f5d91d432a361fcfb6752" name="aea55c70eb62f5d91d432a361fcfb6752"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea55c70eb62f5d91d432a361fcfb6752">&#9670;&#160;</a></span>MR_PointsToDistanceVolumeParams_GetMutable_invSigmaModifier()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API float * MR_PointsToDistanceVolumeParams_GetMutable_invSigmaModifier </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRDistanceVolumeParams_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>coefficient used for weight calculation: e^(dist^2 * -invSigmaModifier * sigma^-2) values: (0;inf) Returns a mutable pointer to a member variable of class <code>MR::PointsToDistanceVolumeParams</code> named <code>invSigmaModifier</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -848,6 +915,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>it the distance of highest influence of a point; the maximal influence distance is 3*sigma; beyond that distance the influence is strictly zero Returns a mutable pointer to a member variable of class <code>MR::PointsToDistanceVolumeParams</code> named <code>sigma</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a27ca12ed8129d386135931471d70a75a" name="a27ca12ed8129d386135931471d70a75a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27ca12ed8129d386135931471d70a75a">&#9670;&#160;</a></span>MR_PointsToDistanceVolumeParams_GetMutable_sqrtAngleWeight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool * MR_PointsToDistanceVolumeParams_GetMutable_sqrtAngleWeight </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRDistanceVolumeParams_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>changes the way point angle affects weight, by default it is linearly increasing with dot product if enabled - increasing as dot product^(0.5) (with respect to its sign) Returns a mutable pointer to a member variable of class <code>MR::PointsToDistanceVolumeParams</code> named <code>sqrtAngleWeight</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -981,6 +1066,28 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ac0694c7b3d25ebc1f3e64715edf35a98" name="ac0694c7b3d25ebc1f3e64715edf35a98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0694c7b3d25ebc1f3e64715edf35a98">&#9670;&#160;</a></span>MR_PointsToDistanceVolumeParams_Set_invSigmaModifier()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_PointsToDistanceVolumeParams_Set_invSigmaModifier </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRDistanceVolumeParams_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>coefficient used for weight calculation: e^(dist^2 * -invSigmaModifier * sigma^-2) values: (0;inf) Modifies a member variable of class <code>MR::PointsToDistanceVolumeParams</code> named <code>invSigmaModifier</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>invSigmaModifier</code>. </p>
+
+</div>
+</div>
 <a id="abddfefcba6877b819e4db2c1db2f901f" name="abddfefcba6877b819e4db2c1db2f901f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abddfefcba6877b819e4db2c1db2f901f">&#9670;&#160;</a></span>MR_PointsToDistanceVolumeParams_Set_minWeight()</h2>
 
@@ -1066,6 +1173,28 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>it the distance of highest influence of a point; the maximal influence distance is 3*sigma; beyond that distance the influence is strictly zero Modifies a member variable of class <code>MR::PointsToDistanceVolumeParams</code> named <code>sigma</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>sigma</code>. </p>
+
+</div>
+</div>
+<a id="adae64568705ac7abf4cded4fdcc2d0a4" name="adae64568705ac7abf4cded4fdcc2d0a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adae64568705ac7abf4cded4fdcc2d0a4">&#9670;&#160;</a></span>MR_PointsToDistanceVolumeParams_Set_sqrtAngleWeight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_PointsToDistanceVolumeParams_Set_sqrtAngleWeight </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRDistanceVolumeParams_8h.html#a62f44af92ecc2488d2abf67bc90c6804">MR_PointsToDistanceVolumeParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>changes the way point angle affects weight, by default it is linearly increasing with dot product if enabled - increasing as dot product^(0.5) (with respect to its sign) Modifies a member variable of class <code>MR::PointsToDistanceVolumeParams</code> named <code>sqrtAngleWeight</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>sqrtAngleWeight</code>. </p>
 
 </div>
 </div>

@@ -230,17 +230,17 @@ var NAVTREEINDEX =
 "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#ae94f3eb91aef633aa6d0552e48b597a9",
 "structMR_1_1Pdf_1_1Cell.html#a245d62df8e188f91420e92890664e866",
 "structMR_1_1PointCloudPart.html#adb49365fb60e376e6302ffa62d2b534a",
-"structMR_1_1PolylineToDistanceVolumeParams.html#ab80f4c22db4b7f1c01ea5dcd11adda1c",
-"structMR_1_1RawTiffOutput.html#ab63212231c28e54f0070c1283711a98a",
-"structMR_1_1RibbonNotification.html#a156a1963010372c4c838def5344897ab",
-"structMR_1_1SelfIntersections_1_1Settings.html#a89959b4882d33598d9220db080145bc5af2901a893d204f609b9d6d6b11a481b4",
-"structMR_1_1StopOnTrueCombiner.html",
-"structMR_1_1ToolPathParams.html#a785fe1445fcc56a97f20cf9daf8356e9",
-"structMR_1_1TriPoint.html#aaebb5e3d0837bb5c59e39b23498ccaa2",
-"structMR_1_1UI_1_1TestEngine_1_1ButtonEntry.html#a09f3fe261438edd0071ac8dd34a503a1",
-"structMR_1_1Vector3.html#a3032e40b08150686195023c67dd9b749",
-"structMR_1_1ViewerSignals.html#aec2623361d53a899b2aace77b421aa54",
-"structMR_1_1WatershedGraph_1_1BdInfo.html#a1cef595f818149e8ab3c459988194aac"
+"structMR_1_1PolylineSubdivideSettings.html#afd1b05e15df328d6581de39d05ef0ba2",
+"structMR_1_1RawTiffOutput.html#a274e87eb13cf3064d528d5799b534c2d",
+"structMR_1_1RibbonMenu_1_1DrawGroupConfig.html#a0b1bb44ee2f0cfdbab7b516b3ce2a6f8",
+"structMR_1_1SelfIntersections_1_1Settings.html#a27581dba0d20048070937e95346b4224",
+"structMR_1_1SplineSettings.html#ae191af78be4cbd6a213f4296abadbaab",
+"structMR_1_1ToolPathParams.html#a369d0d2f955fa0ff8c3d1f01c5d78679",
+"structMR_1_1TriPoint.html#a443eb1cdffa8cf6269dce8d4f7712a3b",
+"structMR_1_1UI_1_1SeparatorParams.html#a9b20fca071888883ff3bf93187e13e24",
+"structMR_1_1Vector3.html#a08dc1dd8f81a858ba4f2a61519fd8add",
+"structMR_1_1ViewerSignals.html#adcfb289fd724ae26e9e419d15291f2b7",
+"structMR_1_1WatershedGraph_1_1BasinInfo.html#ad87c8f736d8d1dea1c3085b690ddbab3"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

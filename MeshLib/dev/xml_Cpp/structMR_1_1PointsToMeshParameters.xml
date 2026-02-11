@@ -36,6 +36,38 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToMeshFusion.h" line="20" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToMeshFusion.h" bodystart="20" bodyend="-1"/>
       </memberdef>
+      <memberdef kind="variable" id="structMR_1_1PointsToMeshParameters_1a233f40339195db2ce32c5bd0ff6fcba3" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::PointsToMeshParameters::invSigmaModifier</definition>
+        <argsstring></argsstring>
+        <name>invSigmaModifier</name>
+        <qualifiedname>MR::PointsToMeshParameters::invSigmaModifier</qualifiedname>
+        <initializer>= 0.5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>coefficient used for weight calculation: e^(dist^2 * -invSigmaModifier * sigma^-2) values: (0;inf) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToMeshFusion.h" line="24" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToMeshFusion.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1PointsToMeshParameters_1afd4ee185f46d54c4c9a9c62b2e2c6376" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::PointsToMeshParameters::sqrtAngleWeight</definition>
+        <argsstring></argsstring>
+        <name>sqrtAngleWeight</name>
+        <qualifiedname>MR::PointsToMeshParameters::sqrtAngleWeight</qualifiedname>
+        <initializer>{ false }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>changes the way point angle affects weight, by default it is linearly increasing with dot product if enabled - increasing as dot product^(0.5) (with respect to its sign) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToMeshFusion.h" line="28" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToMeshFusion.h" bodystart="28" bodyend="28"/>
+      </memberdef>
       <memberdef kind="variable" id="structMR_1_1PointsToMeshParameters_1a00eeb792ec36e21c8cc51989d1052210" prot="public" static="no" mutable="no">
         <type>float</type>
         <definition>float MR::PointsToMeshParameters::voxelSize</definition>
@@ -50,7 +82,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToMeshFusion.h" line="24" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToMeshFusion.h" bodystart="24" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToMeshFusion.h" line="32" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToMeshFusion.h" bodystart="32" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1PointsToMeshParameters_1ad30c0a7b27c4a1b5818cb7fc981403c3" prot="public" static="no" mutable="no">
         <type>const VertColors *</type>
@@ -66,7 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToMeshFusion.h" line="27" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToMeshFusion.h" bodystart="27" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToMeshFusion.h" line="35" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToMeshFusion.h" bodystart="35" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1PointsToMeshParameters_1a72818af22d20fbdc8695061a8dd48c85" prot="public" static="no" mutable="no">
         <type>VertColors *</type>
@@ -82,7 +114,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToMeshFusion.h" line="30" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToMeshFusion.h" bodystart="30" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToMeshFusion.h" line="38" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToMeshFusion.h" bodystart="38" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1PointsToMeshParameters_1a1f8072d5242c289b8aa4c442285102e2" prot="public" static="no" mutable="no">
         <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
@@ -97,7 +129,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToMeshFusion.h" line="33" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToMeshFusion.h" bodystart="33" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToMeshFusion.h" line="41" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToMeshFusion.h" bodystart="41" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1PointsToMeshParameters_1af3662f6cb85200f4c4cda226fbccd906" prot="public" static="no" mutable="no">
         <type><ref refid="namespaceMR_1ac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref> std::function&lt; <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;(const <ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref> &amp;cloud, const <ref refid="structMR_1_1PointsToDistanceVolumeParams" kindref="compound">PointsToDistanceVolumeParams</ref> &amp;params, std::function&lt; <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;(const SimpleVolumeMinMax &amp;<ref refid="namespaceMR_1a83e40508b3f05b594da19748c1da2d05" kindref="member">volume</ref>, int zOffset)&gt; addPart, int layerOverlap)&gt;</type>
@@ -112,7 +144,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToMeshFusion.h" line="37" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToMeshFusion.h" bodystart="37" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToMeshFusion.h" line="45" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToMeshFusion.h" bodystart="45" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1PointsToMeshParameters_1a8b138263fc573979abd2164776d90cf1" prot="public" static="no" mutable="no">
         <type><ref refid="namespaceMR_1ac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref> std::function&lt; <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; SimpleVolumeMinMax &gt;(const <ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref> &amp;cloud, const <ref refid="structMR_1_1PointsToDistanceVolumeParams" kindref="compound">PointsToDistanceVolumeParams</ref> &amp;params)&gt;</type>
@@ -127,7 +159,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToMeshFusion.h" line="40" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToMeshFusion.h" bodystart="40" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToMeshFusion.h" line="48" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToMeshFusion.h" bodystart="48" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1PointsToMeshParameters_1a822cdf3f2f86316327a0960f8057a642" prot="public" static="no" mutable="no">
         <type><ref refid="namespaceMR_1ac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref> std::function&lt; bool(const <ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref> &amp;cloud, const <ref refid="structMR_1_1PointsToDistanceVolumeParams" kindref="compound">PointsToDistanceVolumeParams</ref> &amp;params)&gt;</type>
@@ -142,22 +174,24 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToMeshFusion.h" line="43" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToMeshFusion.h" bodystart="43" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToMeshFusion.h" line="51" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToMeshFusion.h" bodystart="51" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToMeshFusion.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToMeshFusion.h" bodystart="14" bodyend="44"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToMeshFusion.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToMeshFusion.h" bodystart="14" bodyend="52"/>
     <listofallmembers>
       <member refid="structMR_1_1PointsToMeshParameters_1a822cdf3f2f86316327a0960f8057a642" prot="public" virt="non-virtual"><scope>MR::PointsToMeshParameters</scope><name>canCreateVolume</name></member>
       <member refid="structMR_1_1PointsToMeshParameters_1a8b138263fc573979abd2164776d90cf1" prot="public" virt="non-virtual"><scope>MR::PointsToMeshParameters</scope><name>createVolumeCallback</name></member>
       <member refid="structMR_1_1PointsToMeshParameters_1af3662f6cb85200f4c4cda226fbccd906" prot="public" virt="non-virtual"><scope>MR::PointsToMeshParameters</scope><name>createVolumeCallbackByParts</name></member>
+      <member refid="structMR_1_1PointsToMeshParameters_1a233f40339195db2ce32c5bd0ff6fcba3" prot="public" virt="non-virtual"><scope>MR::PointsToMeshParameters</scope><name>invSigmaModifier</name></member>
       <member refid="structMR_1_1PointsToMeshParameters_1a3bdeb5a4cdd00fc36ce6089cede17c0b" prot="public" virt="non-virtual"><scope>MR::PointsToMeshParameters</scope><name>minWeight</name></member>
       <member refid="structMR_1_1PointsToMeshParameters_1a1f8072d5242c289b8aa4c442285102e2" prot="public" virt="non-virtual"><scope>MR::PointsToMeshParameters</scope><name>progress</name></member>
       <member refid="structMR_1_1PointsToMeshParameters_1ad30c0a7b27c4a1b5818cb7fc981403c3" prot="public" virt="non-virtual"><scope>MR::PointsToMeshParameters</scope><name>ptColors</name></member>
       <member refid="structMR_1_1PointsToMeshParameters_1a3b8a586729f91eac7c41aea0f4e22e06" prot="public" virt="non-virtual"><scope>MR::PointsToMeshParameters</scope><name>sigma</name></member>
+      <member refid="structMR_1_1PointsToMeshParameters_1afd4ee185f46d54c4c9a9c62b2e2c6376" prot="public" virt="non-virtual"><scope>MR::PointsToMeshParameters</scope><name>sqrtAngleWeight</name></member>
       <member refid="structMR_1_1PointsToMeshParameters_1a72818af22d20fbdc8695061a8dd48c85" prot="public" virt="non-virtual"><scope>MR::PointsToMeshParameters</scope><name>vColors</name></member>
       <member refid="structMR_1_1PointsToMeshParameters_1a00eeb792ec36e21c8cc51989d1052210" prot="public" virt="non-virtual"><scope>MR::PointsToMeshParameters</scope><name>voxelSize</name></member>
     </listofallmembers>

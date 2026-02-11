@@ -1,5 +1,9 @@
 var NAVTREEINDEX66 =
 {
+"classMR_1_1VoxelsLoad.html#ad7cbf91611e36bcb683c94e67694d9fb":[6,3,0,0,0,941,20],
+"classMR_1_1VoxelsLoad.html#ae6b7c814d22e78f2aa73967d3b95e662":[6,3,0,0,0,941,11],
+"classMR_1_1VoxelsLoad.html#aea2d7dc667c45f613ee5d25c18fa4df1":[6,3,0,0,0,941,14],
+"classMR_1_1VoxelsLoad.html#aedec4862bd0fa283e388b9eaf9a29211":[6,3,0,0,0,941,30],
 "classMR_1_1VoxelsLoad.html#af012b14b36371a75d0d7019391f409d2":[6,3,0,0,0,941,13],
 "classMR_1_1VoxelsLoad.html#af26449e3e5319319879f6d9b986310a2":[6,3,0,0,0,941,15],
 "classMR_1_1VoxelsLoad.html#af4a7b58b7d059d78314e3128c491752b":[6,3,0,0,0,941,29],
@@ -245,9 +249,5 @@ var NAVTREEINDEX66 =
 "classMR_1_1WriteRawTiffParams.html#abc02ffe814d9bcc71b0e4ea52b3d0665":[6,3,0,0,0,962,4],
 "classMR_1_1WriteRawTiffParams.html#abc0afa83f98059096f6c250fba32b534":[6,3,0,0,0,962,8],
 "classMR_1_1WriteRawTiffParams.html#abd24c49fd356529eef939005a3824f55":[6,3,0,0,0,962,5],
-"classMR_1_1WriteRawTiffParams.html#ae70e2ac981ce94191e14b68b97c7dceb":[6,3,0,0,0,962,0],
-"classMR_1_1XfBasedCache__MRBox3f.html":[6,3,0,0,0,963],
-"classMR_1_1XfBasedCache__MRBox3f.html#a039231e4dcad3c236d356e87f071df3b":[6,3,0,0,0,963,0],
-"classMR_1_1XfBasedCache__MRBox3f.html#a1587cbafac478bdfe7ff2b0cd8451189":[6,3,0,0,0,963,5],
-"classMR_1_1XfBasedCache__MRBox3f.html#a32900f8b614e428d9c827fff4021a466":[6,3,0,0,0,963,3]
+"classMR_1_1WriteRawTiffParams.html#ae70e2ac981ce94191e14b68b97c7dceb":[6,3,0,0,0,962,0]
 };

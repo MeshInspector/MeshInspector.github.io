@@ -37,6 +37,38 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToDistanceVolume.h" line="19" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToDistanceVolume.h" bodystart="19" bodyend="-1"/>
       </memberdef>
+      <memberdef kind="variable" id="structMR_1_1PointsToDistanceVolumeParams_1a92d4aead46ac278be1c9152c417996d2" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::PointsToDistanceVolumeParams::invSigmaModifier</definition>
+        <argsstring></argsstring>
+        <name>invSigmaModifier</name>
+        <qualifiedname>MR::PointsToDistanceVolumeParams::invSigmaModifier</qualifiedname>
+        <initializer>= 0.5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>coefficient used for weight calculation: e^(dist^2 * -invSigmaModifier * sigma^-2) values: (0;inf) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToDistanceVolume.h" line="23" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToDistanceVolume.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1PointsToDistanceVolumeParams_1a274559a52cc5261e0889ea85b133b605" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::PointsToDistanceVolumeParams::sqrtAngleWeight</definition>
+        <argsstring></argsstring>
+        <name>sqrtAngleWeight</name>
+        <qualifiedname>MR::PointsToDistanceVolumeParams::sqrtAngleWeight</qualifiedname>
+        <initializer>{ false }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>changes the way point angle affects weight, by default it is linearly increasing with dot product if enabled - increasing as dot product^(0.5) (with respect to its sign) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToDistanceVolume.h" line="27" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToDistanceVolume.h" bodystart="27" bodyend="27"/>
+      </memberdef>
       <memberdef kind="variable" id="structMR_1_1PointsToDistanceVolumeParams_1a6253a7998223b8c2a5fffd0092b5883b" prot="public" static="no" mutable="no">
         <type>const VertNormals *</type>
         <definition>const VertNormals* MR::PointsToDistanceVolumeParams::ptNormals</definition>
@@ -51,7 +83,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToDistanceVolume.h" line="22" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToDistanceVolume.h" bodystart="22" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToDistanceVolume.h" line="30" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToDistanceVolume.h" bodystart="30" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -82,14 +114,16 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToDistanceVolume.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToDistanceVolume.h" bodystart="13" bodyend="23"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToDistanceVolume.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToDistanceVolume.h" bodystart="13" bodyend="31"/>
     <listofallmembers>
       <member refid="structMR_1_1DistanceVolumeParams_1a920081c5dce988d2f087b470ea72803a" prot="public" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>cb</name></member>
       <member refid="structMR_1_1DistanceVolumeParams_1ade7c79fd5b25f3a928fa747f8e6d61d2" prot="public" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>dimensions</name></member>
+      <member refid="structMR_1_1PointsToDistanceVolumeParams_1a92d4aead46ac278be1c9152c417996d2" prot="public" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>invSigmaModifier</name></member>
       <member refid="structMR_1_1PointsToDistanceVolumeParams_1a7716b4700ce22b3eedf9da8864d8480f" prot="public" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>minWeight</name></member>
       <member refid="structMR_1_1DistanceVolumeParams_1a57f0f5741fc414817c5c20a26970ec30" prot="public" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>origin</name></member>
       <member refid="structMR_1_1PointsToDistanceVolumeParams_1a6253a7998223b8c2a5fffd0092b5883b" prot="public" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>ptNormals</name></member>
       <member refid="structMR_1_1PointsToDistanceVolumeParams_1a400737e4e31275ad8d54da9d1c2fc611" prot="public" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>sigma</name></member>
+      <member refid="structMR_1_1PointsToDistanceVolumeParams_1a274559a52cc5261e0889ea85b133b605" prot="public" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>sqrtAngleWeight</name></member>
       <member refid="structMR_1_1DistanceVolumeParams_1a1cb9a2d437a8280082f79d22a1fd1ab4" prot="public" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>voxelSize</name></member>
     </listofallmembers>
   </compounddef>

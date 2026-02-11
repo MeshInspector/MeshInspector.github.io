@@ -14690,6 +14690,8 @@
   <compound refid="classMR_1_1PointsToDistanceVolumeParams" kind="class"><name>MR::PointsToDistanceVolumeParams</name>
     <member refid="classMR_1_1PointsToDistanceVolumeParams_1acb1ef65210623db843c66d65d307e196" kind="property"><name>sigma</name></member>
     <member refid="classMR_1_1PointsToDistanceVolumeParams_1adbef596027a558f43194134340ad1b25" kind="property"><name>minWeight</name></member>
+    <member refid="classMR_1_1PointsToDistanceVolumeParams_1a651bc31c7fee04dc0bc47641145328ba" kind="property"><name>invSigmaModifier</name></member>
+    <member refid="classMR_1_1PointsToDistanceVolumeParams_1ad5b32dadccfb86de157bc5d4a8a81893" kind="property"><name>sqrtAngleWeight</name></member>
     <member refid="classMR_1_1PointsToDistanceVolumeParams_1a4f357b8a92d7d96dee1473d3b61586e6" kind="property"><name>ptNormals</name></member>
     <member refid="classMR_1_1PointsToDistanceVolumeParams_1a2058c4708b7528d1d26f891ff721b220" kind="property"><name>origin</name></member>
     <member refid="classMR_1_1PointsToDistanceVolumeParams_1a55203693765836a074062cfbd502d8f2" kind="property"><name>cb</name></member>
@@ -14706,6 +14708,8 @@
   <compound refid="classMR_1_1PointsToMeshParameters" kind="class"><name>MR::PointsToMeshParameters</name>
     <member refid="classMR_1_1PointsToMeshParameters_1a58a4f83b2417d6c88131a6d0c43b1f57" kind="property"><name>sigma</name></member>
     <member refid="classMR_1_1PointsToMeshParameters_1a5ff8455f44ce9ed6c9b7fd3496d854d3" kind="property"><name>minWeight</name></member>
+    <member refid="classMR_1_1PointsToMeshParameters_1aa61a7dd4cb2710f70845c9b3795b9e8d" kind="property"><name>invSigmaModifier</name></member>
+    <member refid="classMR_1_1PointsToMeshParameters_1a10bb4252fcde94c4eb0b5cff47961e4f" kind="property"><name>sqrtAngleWeight</name></member>
     <member refid="classMR_1_1PointsToMeshParameters_1a1f898069b35d15056dcb8fbd26242357" kind="property"><name>voxelSize</name></member>
     <member refid="classMR_1_1PointsToMeshParameters_1affb338bbb532625c6377d3a5c08059b8" kind="property"><name>ptColors</name></member>
     <member refid="classMR_1_1PointsToMeshParameters_1af0f8c78fe86d196cb36164132d7ea88e" kind="property"><name>vColors</name></member>
