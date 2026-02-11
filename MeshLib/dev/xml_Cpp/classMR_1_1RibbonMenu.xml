@@ -1,0 +1,2428 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RibbonMenu" kind="class" language="C++" prot="public">
+    <compoundname>MR::RibbonMenu</compoundname>
+    <basecompoundref refid="classMR_1_1ImGuiMenu" prot="public" virt="non-virtual">MR::ImGuiMenu</basecompoundref>
+    <includes refid="MRRibbonMenu_8h" local="no">MRRibbonMenu.h</includes>
+    <innerclass refid="structMR_1_1RibbonMenu_1_1CustomContextMenuCheckbox" prot="private">MR::RibbonMenu::CustomContextMenuCheckbox</innerclass>
+    <innerclass refid="structMR_1_1RibbonMenu_1_1DialogItemPtr" prot="protected">MR::RibbonMenu::DialogItemPtr</innerclass>
+    <innerclass refid="structMR_1_1RibbonMenu_1_1DrawGroupConfig" prot="protected">MR::RibbonMenu::DrawGroupConfig</innerclass>
+    <sectiondef kind="private-type">
+      <memberdef kind="enum" id="classMR_1_1RibbonMenu_1af8f659a638712863260fa7636adb4588" prot="private" static="no" strong="yes">
+        <type></type>
+        <name>CollapseState</name>
+        <qualifiedname>MR::RibbonMenu::CollapseState</qualifiedname>
+        <enumvalue id="classMR_1_1RibbonMenu_1af8f659a638712863260fa7636adb4588a03f4a47830f97377a35321051685071e" prot="private">
+          <name>Closed</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1RibbonMenu_1af8f659a638712863260fa7636adb4588a1a11b1adc359c03db0ca798a00e2632c" prot="private">
+          <name>Opened</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1RibbonMenu_1af8f659a638712863260fa7636adb4588a3c5e891bff07947cbae2fda89162df9f" prot="private">
+          <name>Pinned</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="288" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="289" bodyend="293"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classMR_1_1RibbonMenu_1ad03e656d4344c5a4266fa1ae56827d6c" prot="public" static="no">
+        <type>boost::signals2::signal&lt; void(int prevTabId, int newTabId)&gt;</type>
+        <definition>using MR::RibbonMenu::TabChangedSignal =  boost::signals2::signal&lt;void( int prevTabId, int newTabId )&gt;</definition>
+        <argsstring></argsstring>
+        <name>TabChangedSignal</name>
+        <qualifiedname>MR::RibbonMenu::TabChangedSignal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="123" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-type">
+      <memberdef kind="typedef" id="classMR_1_1RibbonMenu_1ad0d582e1904c2ad88eee5f4bfe814f83" prot="protected" static="no">
+        <type>std::vector&lt; <ref refid="structMR_1_1RibbonMenu_1_1DrawGroupConfig" kindref="compound">DrawGroupConfig</ref> &gt;</type>
+        <definition>using MR::RibbonMenu::DrawTabConfig =  std::vector&lt;DrawGroupConfig&gt;</definition>
+        <argsstring></argsstring>
+        <name>DrawTabConfig</name>
+        <qualifiedname>MR::RibbonMenu::DrawTabConfig</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="157" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="157" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classMR_1_1RibbonMenu_1afd52ffe86f76c1dcae019262f3722fd3" prot="public" static="no" mutable="no">
+        <type><ref refid="classMR_1_1RibbonMenu_1ad03e656d4344c5a4266fa1ae56827d6c" kindref="member">TabChangedSignal</ref></type>
+        <definition>TabChangedSignal MR::RibbonMenu::tabChangedSignal</definition>
+        <argsstring></argsstring>
+        <name>tabChangedSignal</name>
+        <qualifiedname>MR::RibbonMenu::tabChangedSignal</qualifiedname>
+        <briefdescription>
+<para>this signal is called when active tab changes </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="125" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1RibbonMenu_1a2f639a83635dfb22ba89545a6dc9d85e" prot="protected" static="no" mutable="no">
+        <type><ref refid="structMR_1_1RibbonMenu_1_1DialogItemPtr" kindref="compound">DialogItemPtr</ref></type>
+        <definition>DialogItemPtr MR::RibbonMenu::activeBlockingItem_</definition>
+        <argsstring></argsstring>
+        <name>activeBlockingItem_</name>
+        <qualifiedname>MR::RibbonMenu::activeBlockingItem_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="183" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="183" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RibbonMenu_1acf628a7bb9081d2c4b3d3405e96e85b4" prot="protected" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="structMR_1_1RibbonMenu_1_1DialogItemPtr" kindref="compound">DialogItemPtr</ref> &gt;</type>
+        <definition>std::vector&lt;DialogItemPtr&gt; MR::RibbonMenu::activeNonBlockingItems_</definition>
+        <argsstring></argsstring>
+        <name>activeNonBlockingItems_</name>
+        <qualifiedname>MR::RibbonMenu::activeNonBlockingItems_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="184" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="184" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RibbonMenu_1a8d13b702d7c6dad7794328080b6562e0" prot="protected" static="no" mutable="no">
+        <type>std::vector&lt; std::shared_ptr&lt; const <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &gt;</type>
+        <definition>std::vector&lt;std::shared_ptr&lt;const Object&gt; &gt; MR::RibbonMenu::prevFrameSelectedObjectsCache_</definition>
+        <argsstring></argsstring>
+        <name>prevFrameSelectedObjectsCache_</name>
+        <qualifiedname>MR::RibbonMenu::prevFrameSelectedObjectsCache_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="210" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="210" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RibbonMenu_1ac86c4630adf085f601be813f0d81b827" prot="protected" static="no" mutable="no">
+        <type><ref refid="classMR_1_1RibbonMenuSearch" kindref="compound">RibbonMenuSearch</ref></type>
+        <definition>RibbonMenuSearch MR::RibbonMenu::searcher_</definition>
+        <argsstring></argsstring>
+        <name>searcher_</name>
+        <qualifiedname>MR::RibbonMenu::searcher_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="251" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="251" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1RibbonMenu_1a9de4fc9facc10e4a60cdd6140d8128b6" prot="private" static="no" mutable="no">
+        <type>ImVec2</type>
+        <definition>ImVec2 MR::RibbonMenu::activeListPos_</definition>
+        <argsstring></argsstring>
+        <name>activeListPos_</name>
+        <qualifiedname>MR::RibbonMenu::activeListPos_</qualifiedname>
+        <initializer>{ 0,0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="261" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="261" bodyend="261"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RibbonMenu_1a76f7a59ee445cafaae44e63de4b482d0" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::RibbonMenu::activeListPressed_</definition>
+        <argsstring></argsstring>
+        <name>activeListPressed_</name>
+        <qualifiedname>MR::RibbonMenu::activeListPressed_</qualifiedname>
+        <initializer>{ false }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="262" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="262" bodyend="262"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RibbonMenu_1a230fe187c275ff7b61d5ca8f40d2088e" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::RibbonMenu::transformClipboardText_</definition>
+        <argsstring></argsstring>
+        <name>transformClipboardText_</name>
+        <qualifiedname>MR::RibbonMenu::transformClipboardText_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="268" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="268" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RibbonMenu_1a45da65c950e713ce5c2d7a16d9460091" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::RibbonMenu::currentTopPanelHeight_</definition>
+        <argsstring></argsstring>
+        <name>currentTopPanelHeight_</name>
+        <qualifiedname>MR::RibbonMenu::currentTopPanelHeight_</qualifiedname>
+        <initializer>= 113</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="270" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="270" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RibbonMenu_1a529d097846dbeb6b6c920552ed4fdcc8" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::RibbonMenu::topPanelOpenedHeight_</definition>
+        <argsstring></argsstring>
+        <name>topPanelOpenedHeight_</name>
+        <qualifiedname>MR::RibbonMenu::topPanelOpenedHeight_</qualifiedname>
+        <initializer>= 113</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="271" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="271" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RibbonMenu_1ab36bd1545f96a4f5df1289ab88be741f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::RibbonMenu::topPanelHiddenHeight_</definition>
+        <argsstring></argsstring>
+        <name>topPanelHiddenHeight_</name>
+        <qualifiedname>MR::RibbonMenu::topPanelHiddenHeight_</qualifiedname>
+        <initializer>= 33</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="272" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="272" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RibbonMenu_1ae386af7889ce33a8c3d0ceb71e1ca81c" prot="private" static="no" mutable="no">
+        <type>ImVec2</type>
+        <definition>ImVec2 MR::RibbonMenu::sceneSize_</definition>
+        <argsstring></argsstring>
+        <name>sceneSize_</name>
+        <qualifiedname>MR::RibbonMenu::sceneSize_</qualifiedname>
+        <initializer>{ 310, 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="274" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="274" bodyend="274"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RibbonMenu_1ab3558b78d7b0ae1292fb5aee66287285" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::RibbonMenu::informationHeight_</definition>
+        <argsstring></argsstring>
+        <name>informationHeight_</name>
+        <qualifiedname>MR::RibbonMenu::informationHeight_</qualifiedname>
+        <initializer>{ 0.f }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="275" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="275" bodyend="275"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RibbonMenu_1add021abfb6808482ea3aa86a8db32522" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::RibbonMenu::transformHeight_</definition>
+        <argsstring></argsstring>
+        <name>transformHeight_</name>
+        <qualifiedname>MR::RibbonMenu::transformHeight_</qualifiedname>
+        <initializer>{ 0.f }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="276" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="276" bodyend="276"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RibbonMenu_1a031dbe6db3d3a3fb49fae05710bc724a" prot="private" static="no" mutable="no">
+        <type><ref refid="structMR_1_1RibbonMenuUIConfig" kindref="compound">RibbonMenuUIConfig</ref></type>
+        <definition>RibbonMenuUIConfig MR::RibbonMenu::menuUIConfig_</definition>
+        <argsstring></argsstring>
+        <name>menuUIConfig_</name>
+        <qualifiedname>MR::RibbonMenu::menuUIConfig_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="278" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="278" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RibbonMenu_1a429be394132a4217f60fe095ef658829" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::RibbonMenu::blockingHighlightTimer_</definition>
+        <argsstring></argsstring>
+        <name>blockingHighlightTimer_</name>
+        <qualifiedname>MR::RibbonMenu::blockingHighlightTimer_</qualifiedname>
+        <initializer>{ 0.0f }</initializer>
+        <briefdescription>
+<para>how long blocking window will blink in seconds </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="281" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="281" bodyend="281"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RibbonMenu_1a8bb8f40cba94a969573fe41fd42cc1cb" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::RibbonMenu::tabPanelScroll_</definition>
+        <argsstring></argsstring>
+        <name>tabPanelScroll_</name>
+        <qualifiedname>MR::RibbonMenu::tabPanelScroll_</qualifiedname>
+        <initializer>{ 0.0f }</initializer>
+        <briefdescription>
+<para>current scroll position of tabs panel </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="284" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="284" bodyend="284"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RibbonMenu_1ad2a4931d55215f901548e8c7a7fabf48" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::RibbonMenu::autoCloseBlockingPlugins_</definition>
+        <argsstring></argsstring>
+        <name>autoCloseBlockingPlugins_</name>
+        <qualifiedname>MR::RibbonMenu::autoCloseBlockingPlugins_</qualifiedname>
+        <initializer>{ true }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="286" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="286" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RibbonMenu_1a7490e418a373fbd6573c352908bfdad1" prot="private" static="no" mutable="no">
+        <type>enum MR::RibbonMenu::CollapseState</type>
+        <definition>enum MR::RibbonMenu::CollapseState MR::RibbonMenu::Pinned</definition>
+        <argsstring></argsstring>
+        <name>Pinned</name>
+        <qualifiedname>MR::RibbonMenu::Pinned</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="293" column="41"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RibbonMenu_1a1b9011fe50941846005d4ee62a1b7e1e" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::RibbonMenu::openedMaxSecs_</definition>
+        <argsstring></argsstring>
+        <name>openedMaxSecs_</name>
+        <qualifiedname>MR::RibbonMenu::openedMaxSecs_</qualifiedname>
+        <initializer>{ 2.0f }</initializer>
+        <briefdescription>
+<para>seconds to stay opened if not pinned </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="295" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="295" bodyend="295"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RibbonMenu_1a0a63cb85d39c61c8d5ea0111658976ff" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::RibbonMenu::openedTimer_</definition>
+        <argsstring></argsstring>
+        <name>openedTimer_</name>
+        <qualifiedname>MR::RibbonMenu::openedTimer_</qualifiedname>
+        <initializer>{ openedMaxSecs_ }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="296" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="296" bodyend="296"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RibbonMenu_1ade2a48eec1124ec87a78f013122f2ba1" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::RibbonMenu::activeTabIndex_</definition>
+        <argsstring></argsstring>
+        <name>activeTabIndex_</name>
+        <qualifiedname>MR::RibbonMenu::activeTabIndex_</qualifiedname>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="298" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="298" bodyend="298"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RibbonMenu_1af5677bcbb4776e2670fad996581794b9" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1RibbonFontManager" kindref="compound">RibbonFontManager</ref></type>
+        <definition>RibbonFontManager MR::RibbonMenu::fontManager_</definition>
+        <argsstring></argsstring>
+        <name>fontManager_</name>
+        <qualifiedname>MR::RibbonMenu::fontManager_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="299" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="299" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RibbonMenu_1aeda8867e04b01d5338a6eda930065060" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1RibbonButtonDrawer" kindref="compound">RibbonButtonDrawer</ref></type>
+        <definition>RibbonButtonDrawer MR::RibbonMenu::buttonDrawer_</definition>
+        <argsstring></argsstring>
+        <name>buttonDrawer_</name>
+        <qualifiedname>MR::RibbonMenu::buttonDrawer_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="300" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="300" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RibbonMenu_1aef895921e09dfff59ed30263ab3353f0" prot="private" static="no" mutable="no">
+        <type>std::unordered_map&lt; std::string, CustomContextMenuCheckbox &gt;</type>
+        <definition>std::unordered_map&lt;std::string, CustomContextMenuCheckbox&gt; MR::RibbonMenu::customCheckBox_</definition>
+        <argsstring></argsstring>
+        <name>customCheckBox_</name>
+        <qualifiedname>MR::RibbonMenu::customCheckBox_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="302" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="302" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RibbonMenu_1a943f8a972e6fd6e1c85ceed8a570dd03" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; <ref refid="classMR_1_1Toolbar" kindref="compound">Toolbar</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;Toolbar&gt; MR::RibbonMenu::toolbar_</definition>
+        <argsstring></argsstring>
+        <name>toolbar_</name>
+        <qualifiedname>MR::RibbonMenu::toolbar_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="304" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="304" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RibbonMenu_1ae3cde2b3ee8000617184405042f8407f" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1RibbonNotifier" kindref="compound">RibbonNotifier</ref></type>
+        <definition>RibbonNotifier MR::RibbonMenu::notifier_</definition>
+        <argsstring></argsstring>
+        <name>notifier_</name>
+        <qualifiedname>MR::RibbonMenu::notifier_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="305" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="305" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RibbonMenu_1a094dbe3390138c463d3267a16e4c4486" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1AsyncRequest" kindref="compound">AsyncRequest</ref></type>
+        <definition>AsyncRequest MR::RibbonMenu::asyncRequest_</definition>
+        <argsstring></argsstring>
+        <name>asyncRequest_</name>
+        <qualifiedname>MR::RibbonMenu::asyncRequest_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="307" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="307" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1aa34b69e6496e1988fcf4618bd5275b26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API</type>
+        <definition>MRVIEWER_API MR::RibbonMenu::RibbonMenu</definition>
+        <argsstring>()</argsstring>
+        <name>RibbonMenu</name>
+        <qualifiedname>MR::RibbonMenu::RibbonMenu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="37" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1a019c89ffbf679cc555e78b3e56ab52cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API</type>
+        <definition>MRVIEWER_API MR::RibbonMenu::~RibbonMenu</definition>
+        <argsstring>()</argsstring>
+        <name>~RibbonMenu</name>
+        <qualifiedname>MR::RibbonMenu::~RibbonMenu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="38" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1ae2e7e583583cdbdbb47b0e02f01cabea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::RibbonMenu::setCustomContextCheckbox</definition>
+        <argsstring>(const std::string &amp;name, CustomContextMenuCheckbox customContextMenuCheckbox)</argsstring>
+        <name>setCustomContextCheckbox</name>
+        <qualifiedname>MR::RibbonMenu::setCustomContextCheckbox</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>CustomContextMenuCheckbox</type>
+          <declname>customContextMenuCheckbox</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>adds a custom checkBox to the context menu it is applied to the selected objects </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="45" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1a75ae516e9ba2cc3916a137c3b723da57" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::RibbonMenu::init</definition>
+        <argsstring>(MR::Viewer *_viewer) override</argsstring>
+        <name>init</name>
+        <qualifiedname>MR::RibbonMenu::init</qualifiedname>
+        <reimplements refid="classMR_1_1ImGuiMenu_1acf26f479a1c27455aadd05900f3832bd">init</reimplements>
+        <param>
+          <type><ref refid="classMR_1_1Viewer" kindref="compound">MR::Viewer</ref> *</type>
+          <declname>_viewer</declname>
+        </param>
+        <briefdescription>
+<para>This function is called when the viewer is initialized (no mesh will be loaded at this stage) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="49" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1a304f2add3b4e9221b6accdcf46c2bb68" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::RibbonMenu::shutdown</definition>
+        <argsstring>() override</argsstring>
+        <name>shutdown</name>
+        <qualifiedname>MR::RibbonMenu::shutdown</qualifiedname>
+        <reimplements refid="classMR_1_1ImGuiMenu_1ae8ea9f87c7bb3f33454eacc1a708eae8">shutdown</reimplements>
+        <briefdescription>
+<para>This function is called before shutdown. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="51" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1aeb9475e92afc11246ebbc3f39dadebf9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::RibbonMenu::openToolbarCustomize</definition>
+        <argsstring>()</argsstring>
+        <name>openToolbarCustomize</name>
+        <qualifiedname>MR::RibbonMenu::openToolbarCustomize</qualifiedname>
+        <briefdescription>
+<para>open <ref refid="classMR_1_1Toolbar" kindref="compound">Toolbar</ref> Customize modal popup </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="54" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1a9bbdaa0865f099c7e385ac1ea6b7bbf3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::RibbonMenu::load_font</definition>
+        <argsstring>(int font_size=13) override</argsstring>
+        <name>load_font</name>
+        <qualifiedname>MR::RibbonMenu::load_font</qualifiedname>
+        <reimplements refid="classMR_1_1ImGuiMenu_1a423490d7e386f490c25a410dba86479e">load_font</reimplements>
+        <param>
+          <type>int</type>
+          <declname>font_size</declname>
+          <defval>13</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="56" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1ac60708d073d431fe51934044e473b07c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API std::filesystem::path</type>
+        <definition>virtual MRVIEWER_API std::filesystem::path MR::RibbonMenu::getMenuFontPath</definition>
+        <argsstring>() const override</argsstring>
+        <name>getMenuFontPath</name>
+        <qualifiedname>MR::RibbonMenu::getMenuFontPath</qualifiedname>
+        <reimplements refid="classMR_1_1ImGuiMenu_1ac9903c4ecfd72b4f98e4c1aff9492b54">getMenuFontPath</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="58" column="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1ab638723ae879c04abcf7677c3975e255" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::RibbonMenu::pinTopPanel</definition>
+        <argsstring>(bool on)</argsstring>
+        <name>pinTopPanel</name>
+        <qualifiedname>MR::RibbonMenu::pinTopPanel</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <briefdescription>
+<para>set top panel pinned and unpinned </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="61" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1a44506d22fa2c6befeaf375791931282e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API bool</type>
+        <definition>MRVIEWER_API bool MR::RibbonMenu::isTopPannelPinned</definition>
+        <argsstring>() const</argsstring>
+        <name>isTopPannelPinned</name>
+        <qualifiedname>MR::RibbonMenu::isTopPannelPinned</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="62" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1a079f402544435dce5e38c654ca9c604c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int MR::RibbonMenu::getTopPanelOpenedHeight</definition>
+        <argsstring>() const</argsstring>
+        <name>getTopPanelOpenedHeight</name>
+        <qualifiedname>MR::RibbonMenu::getTopPanelOpenedHeight</qualifiedname>
+        <briefdescription>
+<para>this functions allow you to get top panel height (before scaling) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="64" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="64" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1a527fe41687fdc31790622eff98c59402" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int MR::RibbonMenu::getTopPanelHiddenHeight</definition>
+        <argsstring>() const</argsstring>
+        <name>getTopPanelHiddenHeight</name>
+        <qualifiedname>MR::RibbonMenu::getTopPanelHiddenHeight</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="65" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="65" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1ae0972a03e4e4507e77657b90ec8b08fd" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int MR::RibbonMenu::getTopPanelCurrentHeight</definition>
+        <argsstring>() const</argsstring>
+        <name>getTopPanelCurrentHeight</name>
+        <qualifiedname>MR::RibbonMenu::getTopPanelCurrentHeight</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="66" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="66" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1a0b8580dee2b479f1b332f441905c330d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::RibbonMenu::setTopPanelMaxOpenedTimer</definition>
+        <argsstring>(float sec)</argsstring>
+        <name>setTopPanelMaxOpenedTimer</name>
+        <qualifiedname>MR::RibbonMenu::setTopPanelMaxOpenedTimer</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>sec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>set maximum wait time (in seconds) before top panel is closed after mouse leaves it (only when not pinned) minimum value is 0 seconds, panel will close immediately after mouse leaves it </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="69" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="69" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1a97c470b0974a29e162afe5b7393113e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::RibbonMenu::setQuickAccessListVersion</definition>
+        <argsstring>(int version)</argsstring>
+        <name>setQuickAccessListVersion</name>
+        <qualifiedname>MR::RibbonMenu::setQuickAccessListVersion</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+<para>set quick access menu item list version </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="72" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1ac80823b6e10ba2e99fca77006ffb7dc4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::RibbonMenu::readQuickAccessList</definition>
+        <argsstring>(const Json::Value &amp;root)</argsstring>
+        <name>readQuickAccessList</name>
+        <qualifiedname>MR::RibbonMenu::readQuickAccessList</qualifiedname>
+        <param>
+          <type>const Json::Value &amp;</type>
+          <declname>root</declname>
+        </param>
+        <briefdescription>
+<para>read quick access menu items list from json </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="74" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1aa074446a9a5446cd760d9246633c5045" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::RibbonMenu::resetQuickAccessList</definition>
+        <argsstring>()</argsstring>
+        <name>resetQuickAccessList</name>
+        <qualifiedname>MR::RibbonMenu::resetQuickAccessList</qualifiedname>
+        <briefdescription>
+<para>reset quick access menu items list to default </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="77" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1a5904f7f7bd80695bec495d8079cd9e42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector2i</type>
+        <definition>Vector2i MR::RibbonMenu::getSceneSize</definition>
+        <argsstring>()</argsstring>
+        <name>getSceneSize</name>
+        <qualifiedname>MR::RibbonMenu::getSceneSize</qualifiedname>
+        <briefdescription>
+<para>get Scene List window size </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="80" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="80" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1afefdd706402e7ad5daf3433c54ae87dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::RibbonMenu::setSceneSize</definition>
+        <argsstring>(const Vector2i &amp;size)</argsstring>
+        <name>setSceneSize</name>
+        <qualifiedname>MR::RibbonMenu::setSceneSize</qualifiedname>
+        <param>
+          <type>const Vector2i &amp;</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>set Scene List window size </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="83" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1a42ad9dbceb71795dfcc7faec3a4fada5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::RibbonMenu::hasActiveBlockingItem</definition>
+        <argsstring>() const</argsstring>
+        <name>hasActiveBlockingItem</name>
+        <qualifiedname>MR::RibbonMenu::hasActiveBlockingItem</qualifiedname>
+        <briefdescription>
+<para>returns true if any blocking plugin is now active </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="86" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="86" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1a031930c9c0f444b92a9252828cfa3ef4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::RibbonMenu::hasAnyActiveItem</definition>
+        <argsstring>() const</argsstring>
+        <name>hasAnyActiveItem</name>
+        <qualifiedname>MR::RibbonMenu::hasAnyActiveItem</qualifiedname>
+        <briefdescription>
+<para>returns true if any plugin is now active </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="88" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="88" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1afc750c1fa4b01d0cdf604d601194f436" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::RibbonMenu::updateItemStatus</definition>
+        <argsstring>(const std::string &amp;itemName)</argsstring>
+        <name>updateItemStatus</name>
+        <qualifiedname>MR::RibbonMenu::updateItemStatus</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>itemName</declname>
+        </param>
+        <briefdescription>
+<para>updates status of item if it was changed outside of menu </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="91" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1af87aa13ddadb0bc96103d7ce892a88b9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int MR::RibbonMenu::getActiveTabIndex</definition>
+        <argsstring>() const</argsstring>
+        <name>getActiveTabIndex</name>
+        <qualifiedname>MR::RibbonMenu::getActiveTabIndex</qualifiedname>
+        <briefdescription>
+<para>returns index of active tab in <ref refid="classMR_1_1RibbonSchemaHolder_1a07e8558bf86dd569ca7acedfbce55d9a" kindref="member">RibbonSchemaHolder::schema()</ref>.tabsOrder </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="94" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="94" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1aafbb9fbb81efc86a0331f89e181268cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1RibbonFontManager" kindref="compound">RibbonFontManager</ref> &amp;</type>
+        <definition>RibbonFontManager &amp; MR::RibbonMenu::getFontManager</definition>
+        <argsstring>()</argsstring>
+        <name>getFontManager</name>
+        <qualifiedname>MR::RibbonMenu::getFontManager</qualifiedname>
+        <briefdescription>
+<para>get access to Ribbon font manager </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="98" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="98" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1ae0840c947fea974de909fbaee8e7829e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1RibbonButtonDrawer" kindref="compound">RibbonButtonDrawer</ref> &amp;</type>
+        <definition>RibbonButtonDrawer &amp; MR::RibbonMenu::getRibbonButtonDrawer</definition>
+        <argsstring>()</argsstring>
+        <name>getRibbonButtonDrawer</name>
+        <qualifiedname>MR::RibbonMenu::getRibbonButtonDrawer</qualifiedname>
+        <briefdescription>
+<para>get access to Ribbon button drawer </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="101" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="101" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1accfa4d95ab6fdfea5313e29cf32417bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1Toolbar" kindref="compound">Toolbar</ref> &amp;</type>
+        <definition>Toolbar &amp; MR::RibbonMenu::getToolbar</definition>
+        <argsstring>()</argsstring>
+        <name>getToolbar</name>
+        <qualifiedname>MR::RibbonMenu::getToolbar</qualifiedname>
+        <briefdescription>
+<para>get access to Ribbon <ref refid="classMR_1_1Toolbar" kindref="compound">Toolbar</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="104" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="104" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1ab0cfd87f2c0b8073dbdd093be4e7eb2f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1RibbonNotifier" kindref="compound">RibbonNotifier</ref> &amp;</type>
+        <definition>RibbonNotifier &amp; MR::RibbonMenu::getRibbonNotifier</definition>
+        <argsstring>()</argsstring>
+        <name>getRibbonNotifier</name>
+        <qualifiedname>MR::RibbonMenu::getRibbonNotifier</qualifiedname>
+        <briefdescription>
+<para>get access to Ribbon notifier </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="107" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="107" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1a175b4ff452a54f2c42cf45767732d435" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::RibbonMenu::setActiveListPos</definition>
+        <argsstring>(const ImVec2 &amp;pos)</argsstring>
+        <name>setActiveListPos</name>
+        <qualifiedname>MR::RibbonMenu::setActiveListPos</qualifiedname>
+        <param>
+          <type>const ImVec2 &amp;</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="109" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="109" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1a0fb26215796f94ee53da988ac6bf07e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::RibbonMenu::showActiveList</definition>
+        <argsstring>()</argsstring>
+        <name>showActiveList</name>
+        <qualifiedname>MR::RibbonMenu::showActiveList</qualifiedname>
+        <briefdescription>
+<para>set active plugins list showed </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="112" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="112" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1aed6ba0bf1f0630bcf43a1a070149b088" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::RibbonMenu::pushNotification</definition>
+        <argsstring>(const RibbonNotification &amp;notification)</argsstring>
+        <name>pushNotification</name>
+        <qualifiedname>MR::RibbonMenu::pushNotification</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1RibbonNotification" kindref="compound">RibbonNotification</ref> &amp;</type>
+          <declname>notification</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>adds new notification to notifier list draws it first </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="116" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1a4cce1421ecc6e05c9d0f5dc3d5a8c74f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::RibbonMenu::getAutoCloseBlockingPlugins</definition>
+        <argsstring>() const</argsstring>
+        <name>getAutoCloseBlockingPlugins</name>
+        <qualifiedname>MR::RibbonMenu::getAutoCloseBlockingPlugins</qualifiedname>
+        <briefdescription>
+<para>returns flag defining if closing plugin on opening another one is enabled </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="128" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="128" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1aa5c9439e803a30622f7ecfeee5e7091d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::RibbonMenu::setAutoCloseBlockingPlugins</definition>
+        <argsstring>(bool value)</argsstring>
+        <name>setAutoCloseBlockingPlugins</name>
+        <qualifiedname>MR::RibbonMenu::setAutoCloseBlockingPlugins</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>sets flag defining if closing plugin on opening another one is enabled or not </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="130" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="130" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1ae8f7513715e9612b9c4a4e5b9005382c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="structMR_1_1RibbonMenuUIConfig" kindref="compound">RibbonMenuUIConfig</ref> &amp;</type>
+        <definition>const RibbonMenuUIConfig &amp; MR::RibbonMenu::getMenuUIConfig</definition>
+        <argsstring>() const</argsstring>
+        <name>getMenuUIConfig</name>
+        <qualifiedname>MR::RibbonMenu::getMenuUIConfig</qualifiedname>
+        <briefdescription>
+<para>returns current menu ui configuration (find more in <ref refid="structMR_1_1RibbonMenuUIConfig" kindref="compound">RibbonMenuUIConfig</ref> comments) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="133" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="133" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1a1ff3e6eb8d078f9be90f61e18065f9ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::RibbonMenu::setMenuUIConfig</definition>
+        <argsstring>(const RibbonMenuUIConfig &amp;newConfig)</argsstring>
+        <name>setMenuUIConfig</name>
+        <qualifiedname>MR::RibbonMenu::setMenuUIConfig</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1RibbonMenuUIConfig" kindref="compound">RibbonMenuUIConfig</ref> &amp;</type>
+          <declname>newConfig</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="134" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1a1cf2af4dc1d82b20087764071b206770" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::RibbonMenu::drawGroupUngroupButton</definition>
+        <argsstring>(const std::vector&lt; std::shared_ptr&lt; Object &gt; &gt; &amp;selected)</argsstring>
+        <name>drawGroupUngroupButton</name>
+        <qualifiedname>MR::RibbonMenu::drawGroupUngroupButton</qualifiedname>
+        <param>
+          <type>const std::vector&lt; std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &gt; &amp;</type>
+          <declname>selected</declname>
+        </param>
+        <briefdescription>
+<para>======== selected objects options drawing </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="137" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1abfc163ec42e5bf049a816c152460856e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::RibbonMenu::drawSelectSubtreeButton</definition>
+        <argsstring>(const std::vector&lt; std::shared_ptr&lt; Object &gt; &gt; &amp;selected)</argsstring>
+        <name>drawSelectSubtreeButton</name>
+        <qualifiedname>MR::RibbonMenu::drawSelectSubtreeButton</qualifiedname>
+        <param>
+          <type>const std::vector&lt; std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &gt; &amp;</type>
+          <declname>selected</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="138" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1ac152da8bac9875d752a7d081e66ebc44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::RibbonMenu::drawCloneButton</definition>
+        <argsstring>(const std::vector&lt; std::shared_ptr&lt; Object &gt; &gt; &amp;selected)</argsstring>
+        <name>drawCloneButton</name>
+        <qualifiedname>MR::RibbonMenu::drawCloneButton</qualifiedname>
+        <param>
+          <type>const std::vector&lt; std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &gt; &amp;</type>
+          <declname>selected</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="139" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1aca1d176aa04db7ea2b5d342cb0b102ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::RibbonMenu::drawCustomCheckBox</definition>
+        <argsstring>(const std::vector&lt; std::shared_ptr&lt; Object &gt; &gt; &amp;selected, SelectedTypesMask selectedMask)</argsstring>
+        <name>drawCustomCheckBox</name>
+        <qualifiedname>MR::RibbonMenu::drawCustomCheckBox</qualifiedname>
+        <param>
+          <type>const std::vector&lt; std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &gt; &amp;</type>
+          <declname>selected</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceMR_1a08fcff6c599b446c2e39ef49b4f62fc0" kindref="member">SelectedTypesMask</ref></type>
+          <declname>selectedMask</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="140" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1a18077dcd5d907b01b628b87a176caf7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::RibbonMenu::drawCloneSelectionButton</definition>
+        <argsstring>(const std::vector&lt; std::shared_ptr&lt; Object &gt; &gt; &amp;selected)</argsstring>
+        <name>drawCloneSelectionButton</name>
+        <qualifiedname>MR::RibbonMenu::drawCloneSelectionButton</qualifiedname>
+        <param>
+          <type>const std::vector&lt; std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &gt; &amp;</type>
+          <declname>selected</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="141" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1ad91246c3334e9c7beaf92098272f9e4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::RibbonMenu::drawMergeSubtreeButton</definition>
+        <argsstring>(const std::vector&lt; std::shared_ptr&lt; Object &gt; &gt; &amp;selected)</argsstring>
+        <name>drawMergeSubtreeButton</name>
+        <qualifiedname>MR::RibbonMenu::drawMergeSubtreeButton</qualifiedname>
+        <param>
+          <type>const std::vector&lt; std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &gt; &amp;</type>
+          <declname>selected</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="142" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1a46a9c1a6ee76ad876cce3d279b8a825f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API std::shared_ptr&lt; <ref refid="classMR_1_1RibbonMenu" kindref="compound">RibbonMenu</ref> &gt;</type>
+        <definition>static MRVIEWER_API std::shared_ptr&lt; RibbonMenu &gt; MR::RibbonMenu::instance</definition>
+        <argsstring>()</argsstring>
+        <name>instance</name>
+        <qualifiedname>MR::RibbonMenu::instance</qualifiedname>
+        <briefdescription>
+<para>returns RibonMenu from ViewerInstance() </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="41" column="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1a7c94fe45ae2d51829d9addd732902930" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>static MRVIEWER_API void MR::RibbonMenu::cloneTree</definition>
+        <argsstring>(const std::vector&lt; std::shared_ptr&lt; Object &gt; &gt; &amp;selectedObjects)</argsstring>
+        <name>cloneTree</name>
+        <qualifiedname>MR::RibbonMenu::cloneTree</qualifiedname>
+        <param>
+          <type>const std::vector&lt; std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &gt; &amp;</type>
+          <declname>selectedObjects</declname>
+        </param>
+        <briefdescription>
+<para>clones given objects with sub-objects (except for ancillary and unrecognized children) and undo </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="119" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1ab49d948508071def5a525123250da7f8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>static MRVIEWER_API void MR::RibbonMenu::cloneSelectedPart</definition>
+        <argsstring>(const std::shared_ptr&lt; Object &gt; &amp;object)</argsstring>
+        <name>cloneSelectedPart</name>
+        <qualifiedname>MR::RibbonMenu::cloneSelectedPart</qualifiedname>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &amp;</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+<para>clones selected part of given object as separate object (faces, points) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="121" column="30"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1a67906df788caa39e03d62d6df651f050" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::RibbonMenu::drawBigButtonItem_</definition>
+        <argsstring>(const MenuItemInfo &amp;item)</argsstring>
+        <name>drawBigButtonItem_</name>
+        <qualifiedname>MR::RibbonMenu::drawBigButtonItem_</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1MenuItemInfo" kindref="compound">MenuItemInfo</ref> &amp;</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+<para>draw single item </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="145" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1a3d177f8768aa87645a633f7e5e3dd0ba" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::RibbonMenu::drawSmallButtonsSet_</definition>
+        <argsstring>(const std::vector&lt; std::string &gt; &amp;group, int setFrontIndex, int setLength, bool withText)</argsstring>
+        <name>drawSmallButtonsSet_</name>
+        <qualifiedname>MR::RibbonMenu::drawSmallButtonsSet_</qualifiedname>
+        <param>
+          <type>const std::vector&lt; std::string &gt; &amp;</type>
+          <declname>group</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>setFrontIndex</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>setLength</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>withText</declname>
+        </param>
+        <briefdescription>
+<para>draw set of small text buttons </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="147" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1a3e0bbf51d01df0169ab4de593b8f3e95" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API <ref refid="classMR_1_1RibbonMenu_1ad0d582e1904c2ad88eee5f4bfe814f83" kindref="member">DrawTabConfig</ref></type>
+        <definition>virtual MRVIEWER_API DrawTabConfig MR::RibbonMenu::setupItemsGroupConfig_</definition>
+        <argsstring>(const std::vector&lt; std::string &gt; &amp;groupsInTab, const std::string &amp;tabName, bool centerItems)</argsstring>
+        <name>setupItemsGroupConfig_</name>
+        <qualifiedname>MR::RibbonMenu::setupItemsGroupConfig_</qualifiedname>
+        <param>
+          <type>const std::vector&lt; std::string &gt; &amp;</type>
+          <declname>groupsInTab</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>tabName</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>centerItems</declname>
+        </param>
+        <briefdescription>
+<para>draw group of items </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="159" column="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1aabaa3a2750696ccfb5e18682b7c7638b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::RibbonMenu::setupItemsGroup_</definition>
+        <argsstring>(const std::vector&lt; std::string &gt; &amp;groupsInTab, const std::string &amp;tabName, bool centerItems)</argsstring>
+        <name>setupItemsGroup_</name>
+        <qualifiedname>MR::RibbonMenu::setupItemsGroup_</qualifiedname>
+        <param>
+          <type>const std::vector&lt; std::string &gt; &amp;</type>
+          <declname>groupsInTab</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>tabName</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>centerItems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="160" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1aa55c3fbd9f75acc5b51ecba5402c8fb6" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::RibbonMenu::drawItemsGroup_</definition>
+        <argsstring>(const std::string &amp;tabName, const std::string &amp;groupName, DrawGroupConfig config)</argsstring>
+        <name>drawItemsGroup_</name>
+        <qualifiedname>MR::RibbonMenu::drawItemsGroup_</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>tabName</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>groupName</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1RibbonMenu_1_1DrawGroupConfig" kindref="compound">DrawGroupConfig</ref></type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="161" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1a981b9e4f52d4679a09fbbca4dab08573" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API bool</type>
+        <definition>virtual MRVIEWER_API bool MR::RibbonMenu::itemPressed_</definition>
+        <argsstring>(const std::shared_ptr&lt; RibbonMenuItem &gt; &amp;item, const std::string &amp;requiremetnsHint={})</argsstring>
+        <name>itemPressed_</name>
+        <qualifiedname>MR::RibbonMenu::itemPressed_</qualifiedname>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="classMR_1_1RibbonMenuItem" kindref="compound">RibbonMenuItem</ref> &gt; &amp;</type>
+          <declname>item</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>requiremetnsHint</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>ribbon menu item pressed requiremetnsHint - text that is showed if tool is unavailable (if empty then tool is available) returns true if item was actually activated or deactivated with press action </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="166" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1a3f2b825159346f39db3cde812e624bfb" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API std::string</type>
+        <definition>virtual MRVIEWER_API std::string MR::RibbonMenu::getRequirements_</definition>
+        <argsstring>(const std::shared_ptr&lt; RibbonMenuItem &gt; &amp;item) const</argsstring>
+        <name>getRequirements_</name>
+        <qualifiedname>MR::RibbonMenu::getRequirements_</qualifiedname>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="classMR_1_1RibbonMenuItem" kindref="compound">RibbonMenuItem</ref> &gt; &amp;</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+<para>returns requirements line for given tool, empty line means that tool is available </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="169" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1a536aa66aca49a47e58d15a786e574cb9" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::RibbonMenu::drawActiveBlockingDialog_</definition>
+        <argsstring>()</argsstring>
+        <name>drawActiveBlockingDialog_</name>
+        <qualifiedname>MR::RibbonMenu::drawActiveBlockingDialog_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="171" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1a2b8f24d719c5b2f849c6a2da6a8e6a05" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::RibbonMenu::drawActiveNonBlockingDialogs_</definition>
+        <argsstring>()</argsstring>
+        <name>drawActiveNonBlockingDialogs_</name>
+        <qualifiedname>MR::RibbonMenu::drawActiveNonBlockingDialogs_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="172" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1a9435ce4367ec159b1b5746aaafcc5652" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::RibbonMenu::postResize_</definition>
+        <argsstring>(int width, int height) override</argsstring>
+        <name>postResize_</name>
+        <qualifiedname>MR::RibbonMenu::postResize_</qualifiedname>
+        <reimplements refid="classMR_1_1ImGuiMenu_1a16a6844acf0cd5b7f1b4dfe41979e796">postResize_</reimplements>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+<para>Scene events. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="174" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1ad3c1eb063654b601259d343d6644e863" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::RibbonMenu::postRescale_</definition>
+        <argsstring>(float x, float y) override</argsstring>
+        <name>postRescale_</name>
+        <qualifiedname>MR::RibbonMenu::postRescale_</qualifiedname>
+        <reimplements refid="classMR_1_1ImGuiMenu_1aff46cdf1806900d19d9806e28d325659">postRescale_</reimplements>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="175" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1a842d003c447ddd1af577f4cb2ffb9021" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::RibbonMenu::drawItemDialog_</definition>
+        <argsstring>(DialogItemPtr &amp;itemPtr)</argsstring>
+        <name>drawItemDialog_</name>
+        <qualifiedname>MR::RibbonMenu::drawItemDialog_</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1RibbonMenu_1_1DialogItemPtr" kindref="compound">DialogItemPtr</ref> &amp;</type>
+          <declname>itemPtr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="185" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1ab54d2add039ebbbdb20f83d97b45ab9b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::RibbonMenu::drawTopPanel_</definition>
+        <argsstring>(bool drawTabs=true, bool centerItems=false)</argsstring>
+        <name>drawTopPanel_</name>
+        <qualifiedname>MR::RibbonMenu::drawTopPanel_</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>drawTabs</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>centerItems</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>Draw ribbon top panel. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="188" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1ae5c7eee292020a3a3252fef4b98278c5" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::RibbonMenu::drawRibbonSceneList_</definition>
+        <argsstring>()</argsstring>
+        <name>drawRibbonSceneList_</name>
+        <qualifiedname>MR::RibbonMenu::drawRibbonSceneList_</qualifiedname>
+        <briefdescription>
+<para>Draw scene list window with content. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="190" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1a99c15fc2adc0e0b9ec601cedaa53dc4b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API Vector2f</type>
+        <definition>virtual MRVIEWER_API Vector2f MR::RibbonMenu::drawRibbonSceneResizeLine_</definition>
+        <argsstring>()</argsstring>
+        <name>drawRibbonSceneResizeLine_</name>
+        <qualifiedname>MR::RibbonMenu::drawRibbonSceneResizeLine_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Draw vertical line at the right border of scene to enable resize of scene list returns size of scene window </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="193" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1afc3d25a8a8f6b8f82503f575646ee430" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::RibbonMenu::drawRibbonViewportsLabels_</definition>
+        <argsstring>()</argsstring>
+        <name>drawRibbonViewportsLabels_</name>
+        <qualifiedname>MR::RibbonMenu::drawRibbonViewportsLabels_</qualifiedname>
+        <briefdescription>
+<para>Draw viewport id and projection type for all viewporrts. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="195" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1a6fc2094b16a4d78ed17836196ae98439" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::RibbonMenu::drawRibbonSceneInformation_</definition>
+        <argsstring>(const std::vector&lt; std::shared_ptr&lt; Object &gt; &gt; &amp;selected)</argsstring>
+        <name>drawRibbonSceneInformation_</name>
+        <qualifiedname>MR::RibbonMenu::drawRibbonSceneInformation_</qualifiedname>
+        <param>
+          <type>const std::vector&lt; std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &gt; &amp;</type>
+          <declname>selected</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="197" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1a5edd9fcd5ab9a62bbfda2489c6205c9e" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API bool</type>
+        <definition>virtual MRVIEWER_API bool MR::RibbonMenu::drawCollapsingHeaderTransform_</definition>
+        <argsstring>() override</argsstring>
+        <name>drawCollapsingHeaderTransform_</name>
+        <qualifiedname>MR::RibbonMenu::drawCollapsingHeaderTransform_</qualifiedname>
+        <reimplements refid="classMR_1_1ImGuiMenu_1a4d7a22f188b50d351cefdec8196a9dce">drawCollapsingHeaderTransform_</reimplements>
+        <briefdescription>
+<para>override this to customize appearance of collapsing headers for transform block </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="199" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1aed3d5ce11a8471f66e67bb6997bd6e54" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API bool</type>
+        <definition>virtual MRVIEWER_API bool MR::RibbonMenu::drawTransformContextMenu_</definition>
+        <argsstring>(const std::shared_ptr&lt; Object &gt; &amp;selected) override</argsstring>
+        <name>drawTransformContextMenu_</name>
+        <qualifiedname>MR::RibbonMenu::drawTransformContextMenu_</qualifiedname>
+        <reimplements refid="classMR_1_1ImGuiMenu_1ac40c4ccc20532c621364545dc961f65a">drawTransformContextMenu_</reimplements>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &amp;</type>
+          <declname>selected</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="200" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1a2a3532d56a6f52a63ab5514063fa8875" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::RibbonMenu::addRibbonItemShortcut_</definition>
+        <argsstring>(const std::string &amp;itemName, const ShortcutKey &amp;key, ShortcutCategory category)</argsstring>
+        <name>addRibbonItemShortcut_</name>
+        <qualifiedname>MR::RibbonMenu::addRibbonItemShortcut_</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>itemName</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1ShortcutKey" kindref="compound">ShortcutKey</ref> &amp;</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceMR_1abeff4ec21e8ee2ea544cdb4ce4d55d6b" kindref="member">ShortcutCategory</ref></type>
+          <declname>category</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="202" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1a1d80aef71da13b99c1360a4180110f25" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::RibbonMenu::setupShortcuts_</definition>
+        <argsstring>() override</argsstring>
+        <name>setupShortcuts_</name>
+        <qualifiedname>MR::RibbonMenu::setupShortcuts_</qualifiedname>
+        <reimplements refid="classMR_1_1ImGuiMenu_1a133e9d1bc1eaddc62bc3607ef1c16dc1">setupShortcuts_</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="204" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1a361cde7981902393e0db66ef54bf937e" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::RibbonMenu::drawShortcutsWindow_</definition>
+        <argsstring>() override</argsstring>
+        <name>drawShortcutsWindow_</name>
+        <qualifiedname>MR::RibbonMenu::drawShortcutsWindow_</qualifiedname>
+        <reimplements refid="classMR_1_1ImGuiMenu_1a1a2ff7496cd88b62087cf3adef33dee1">drawShortcutsWindow_</reimplements>
+        <briefdescription>
+<para>A virtual function for drawing of the dialog with shortcuts. It can be overriden in the inherited classes. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="206" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1a566e74703b12f0c2cd8873fe0ca33e50" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::RibbonMenu::readMenuItemsStructure_</definition>
+        <argsstring>()</argsstring>
+        <name>readMenuItemsStructure_</name>
+        <qualifiedname>MR::RibbonMenu::readMenuItemsStructure_</qualifiedname>
+        <briefdescription>
+<para>reads files with panel description </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="208" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1a49282539dbdead7ced3a92ce1409d0c3" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API bool</type>
+        <definition>virtual MRVIEWER_API bool MR::RibbonMenu::drawCollapsingHeader_</definition>
+        <argsstring>(const char *label, ImGuiTreeNodeFlags flags=0) override</argsstring>
+        <name>drawCollapsingHeader_</name>
+        <qualifiedname>MR::RibbonMenu::drawCollapsingHeader_</qualifiedname>
+        <reimplements refid="classMR_1_1ImGuiMenu_1ad7c9e77d4351091f9ed719f00a3d294b">drawCollapsingHeader_</reimplements>
+        <param>
+          <type>const char *</type>
+          <declname>label</declname>
+        </param>
+        <param>
+          <type>ImGuiTreeNodeFlags</type>
+          <declname>flags</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>override this to have custom <ref refid="namespaceMR_1_1UI" kindref="compound">UI</ref> in &quot;Selection Properties&quot; window (under &quot;Draw Options&quot;) </para>
+        </briefdescription>
+        <detaileddescription>
+<para>override this to customize appearance of collapsing headers </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="212" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1a49daca6118b0fa3460e5f9c85d2f8070" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::RibbonMenu::highlightBlocking_</definition>
+        <argsstring>()</argsstring>
+        <name>highlightBlocking_</name>
+        <qualifiedname>MR::RibbonMenu::highlightBlocking_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="214" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1a035dcccea06c6fcf45d34ecb843607f9" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::RibbonMenu::drawSceneListButtons_</definition>
+        <argsstring>()</argsstring>
+        <name>drawSceneListButtons_</name>
+        <qualifiedname>MR::RibbonMenu::drawSceneListButtons_</qualifiedname>
+        <briefdescription>
+<para>draw scene list buttons </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="217" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1ae93d370f0f4950d0cb6c7c7ebbe6a6d9" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::RibbonMenu::fixViewportsSize_</definition>
+        <argsstring>(int w, int h)</argsstring>
+        <name>fixViewportsSize_</name>
+        <qualifiedname>MR::RibbonMenu::fixViewportsSize_</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+<para>updates viewport sizes with respect to ribbon top and left panels </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="220" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1a6eca8ec42be5e0e43ee29c4e45d12430" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::RibbonMenu::drawActiveList_</definition>
+        <argsstring>()</argsstring>
+        <name>drawActiveList_</name>
+        <qualifiedname>MR::RibbonMenu::drawActiveList_</qualifiedname>
+        <briefdescription>
+<para>need to be called if you override windows pipeline and use ActiveListPlugin </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="223" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1a597bf3251a597e7d18def3c23b156d45" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::RibbonMenu::drawNotifications_</definition>
+        <argsstring>()</argsstring>
+        <name>drawNotifications_</name>
+        <qualifiedname>MR::RibbonMenu::drawNotifications_</qualifiedname>
+        <briefdescription>
+<para>call this to draw <ref refid="classMR_1_1RibbonNotifier" kindref="compound">RibbonNotifier</ref> with respect of scene size and ribbon top panel </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="226" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1ad83984d816bde0619ef416625513f3e8" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::RibbonMenu::updateTopPanelSize_</definition>
+        <argsstring>(bool drawTabs)</argsstring>
+        <name>updateTopPanelSize_</name>
+        <qualifiedname>MR::RibbonMenu::updateTopPanelSize_</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>drawTabs</declname>
+        </param>
+        <briefdescription>
+<para>this function changes internal sizes of topPanel when it is enabled or disabled </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="229" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1ac2d5ada5e234407fedd50acae414feb9" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::RibbonMenu::drawHeaderQuickAccess_</definition>
+        <argsstring>()</argsstring>
+        <name>drawHeaderQuickAccess_</name>
+        <qualifiedname>MR::RibbonMenu::drawHeaderQuickAccess_</qualifiedname>
+        <briefdescription>
+<para>draw quick access bar at header level </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="232" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1af433c2d8c1718241a40ae3b15a5b80c1" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API float</type>
+        <definition>virtual MRVIEWER_API float MR::RibbonMenu::drawHeaderHelpers_</definition>
+        <argsstring>(float requiredTabSize)</argsstring>
+        <name>drawHeaderHelpers_</name>
+        <qualifiedname>MR::RibbonMenu::drawHeaderHelpers_</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>requiredTabSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>this functions draws header helpers:<orderedlist>
+<listitem><para>Active tools list</para>
+</listitem><listitem><para>Search bar</para>
+</listitem><listitem><para>Help button</para>
+</listitem><listitem><para>Ribbon pin/unpin button returns width available for drawing tabs </para>
+</listitem></orderedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="240" column="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1a74725cc224e9f050790abef346ddba93" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::RibbonMenu::drawActiveListButton_</definition>
+        <argsstring>(float btnSize)</argsstring>
+        <name>drawActiveListButton_</name>
+        <qualifiedname>MR::RibbonMenu::drawActiveListButton_</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>btnSize</declname>
+        </param>
+        <briefdescription>
+<para>helper list of active tools </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="243" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1a1567084f559553c43c93c235931bfdfa" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::RibbonMenu::drawSearchButton_</definition>
+        <argsstring>()</argsstring>
+        <name>drawSearchButton_</name>
+        <qualifiedname>MR::RibbonMenu::drawSearchButton_</qualifiedname>
+        <briefdescription>
+<para>header helper search bar at panel </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="245" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1a3a1db6b21c215e078cc28f9410d0345f" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::RibbonMenu::drawCollapseButton_</definition>
+        <argsstring>()</argsstring>
+        <name>drawCollapseButton_</name>
+        <qualifiedname>MR::RibbonMenu::drawCollapseButton_</qualifiedname>
+        <briefdescription>
+<para>header helper button to pin/unpin ribbon </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="247" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1a5c662079dee88d267ae6ae55a20fbe29" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::RibbonMenu::drawHelpButton_</definition>
+        <argsstring>(const std::string &amp;url)</argsstring>
+        <name>drawHelpButton_</name>
+        <qualifiedname>MR::RibbonMenu::drawHelpButton_</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>url</declname>
+        </param>
+        <briefdescription>
+<para>header helper button link to help page </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="249" column="31"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1ae0bfe34e5c35fc0de2da68e440ccc904" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::RibbonMenu::changeTab_</definition>
+        <argsstring>(int newTab)</argsstring>
+        <name>changeTab_</name>
+        <qualifiedname>MR::RibbonMenu::changeTab_</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>newTab</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="254" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1a5ccd24b000bbc0b039ffa0d64d0d58e4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::RibbonMenu::sortObjectsRecursive_</definition>
+        <argsstring>(std::shared_ptr&lt; Object &gt; object)</argsstring>
+        <name>sortObjectsRecursive_</name>
+        <qualifiedname>MR::RibbonMenu::sortObjectsRecursive_</qualifiedname>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt;</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="256" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1ac2b0a4ece891ff060bed7ecf57645b01" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::RibbonMenu::drawHeaderPannel_</definition>
+        <argsstring>()</argsstring>
+        <name>drawHeaderPannel_</name>
+        <qualifiedname>MR::RibbonMenu::drawHeaderPannel_</qualifiedname>
+        <briefdescription>
+<para>part of top panel </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="259" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1a507633033ab9a43b99eadcd8df8aac7e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::RibbonMenu::beginTopPanel_</definition>
+        <argsstring>()</argsstring>
+        <name>beginTopPanel_</name>
+        <qualifiedname>MR::RibbonMenu::beginTopPanel_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="264" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1ab1c3276976baf58b98027bcd729eb536" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::RibbonMenu::endTopPanel_</definition>
+        <argsstring>()</argsstring>
+        <name>endTopPanel_</name>
+        <qualifiedname>MR::RibbonMenu::endTopPanel_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="265" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonMenu_1a74de55fb9baffb8d206a32782cf194b2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::RibbonMenu::drawTopPanelOpened_</definition>
+        <argsstring>(bool drawTabs, bool centerItems)</argsstring>
+        <name>drawTopPanelOpened_</name>
+        <qualifiedname>MR::RibbonMenu::drawTopPanelOpened_</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>drawTabs</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>centerItems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="266" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class to control and render ribbon-style menu stores menu items, menu structure is provided by <computeroutput>menuItemsStructure.json</computeroutput> file (parsed on init) </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>Connectables...</label>
+      </node>
+      <node id="2">
+        <label>MR::ImGuiMenu</label>
+        <link refid="classMR_1_1ImGuiMenu"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::MultiListener&lt; MouseDownListener, MouseMoveListener, MouseUpListener, MouseScrollListener, CursorEntranceListener, CharPressedListener, KeyDownListener, KeyUpListener, KeyRepeatListener, SpaceMouseMoveListener, SpaceMouseDownListener, TouchpadRotateGestureBeginListener, TouchpadRotateGestureUpdateListener, TouchpadRotateGestureEndListener, TouchpadSwipeGestureBeginListener, TouchpadSwipeGestureUpdateListener, TouchpadSwipeGestureEndListener, TouchpadZoomGestureBeginListener, TouchpadZoomGestureUpdateListener, TouchpadZoomGestureEndListener, PostResizeListener, PostRescaleListener, PostFocusListener &gt;</label>
+        <link refid="structMR_1_1MultiListener"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::RibbonMenu</label>
+        <link refid="classMR_1_1RibbonMenu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::ViewerPlugin</label>
+        <link refid="classMR_1_1ViewerPlugin"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6">
+        <label>Connectables...</label>
+      </node>
+      <node id="2">
+        <label>MR::ImGuiMenu</label>
+        <link refid="classMR_1_1ImGuiMenu"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>frameTimeMillisecThreshold_</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>oldLabelParams_</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>selectedViewport_</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>tagEditorState_</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MR::ImGuiMenu::LabelParams</label>
+        <link refid="structMR_1_1ImGuiMenu_1_1LabelParams"/>
+      </node>
+      <node id="10">
+        <label>MR::ImGuiMenu::TagEditorState</label>
+        <link refid="structMR_1_1ImGuiMenu_1_1TagEditorState"/>
+      </node>
+      <node id="5">
+        <label>MR::MultiListener&lt; MouseDownListener, MouseMoveListener, MouseUpListener, MouseScrollListener, CursorEntranceListener, CharPressedListener, KeyDownListener, KeyUpListener, KeyRepeatListener, SpaceMouseMoveListener, SpaceMouseDownListener, TouchpadRotateGestureBeginListener, TouchpadRotateGestureUpdateListener, TouchpadRotateGestureEndListener, TouchpadSwipeGestureBeginListener, TouchpadSwipeGestureUpdateListener, TouchpadSwipeGestureEndListener, TouchpadZoomGestureBeginListener, TouchpadZoomGestureUpdateListener, TouchpadZoomGestureEndListener, PostResizeListener, PostRescaleListener, PostFocusListener &gt;</label>
+        <link refid="structMR_1_1MultiListener"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::RibbonMenu</label>
+        <link refid="classMR_1_1RibbonMenu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>activeBlockingItem_</edgelabel>
+        </childnode>
+        <childnode refid="12" relation="usage">
+          <edgelabel>searcher_</edgelabel>
+        </childnode>
+      </node>
+      <node id="11">
+        <label>MR::RibbonMenu::DialogItemPtr</label>
+        <link refid="structMR_1_1RibbonMenu_1_1DialogItemPtr"/>
+      </node>
+      <node id="12">
+        <label>MR::RibbonMenuSearch</label>
+        <link refid="classMR_1_1RibbonMenuSearch"/>
+        <childnode refid="13" relation="usage">
+          <edgelabel>onFocusSignal</edgelabel>
+        </childnode>
+        <childnode refid="15" relation="usage">
+          <edgelabel>onToolActivateSignal</edgelabel>
+        </childnode>
+      </node>
+      <node id="13">
+        <label>MR::Signal&lt; void()&gt;</label>
+        <link refid="structMR_1_1Signal"/>
+        <childnode refid="14" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>MR::Signal&lt; void(std::shared_ptr&lt; MR::RibbonMenuItem &gt;)&gt;</label>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::Viewer</label>
+        <link refid="classMR_1_1Viewer"/>
+      </node>
+      <node id="3">
+        <label>MR::ViewerPlugin</label>
+        <link refid="classMR_1_1ViewerPlugin"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>viewer</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
+        <label>MR::ViewportId</label>
+        <link refid="classMR_1_1ViewportId"/>
+      </node>
+      <node id="14">
+        <label>boost::signals2::signal&lt; void() &gt;</label>
+      </node>
+      <node id="16">
+        <label>boost::signals2::signal&lt; void(std::shared_ptr&lt; MR::RibbonMenuItem &gt;) &gt;</label>
+      </node>
+      <node id="7">
+        <label>long</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="23" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="24" bodyend="309"/>
+    <listofallmembers>
+      <member refid="classMR_1_1RibbonMenu_1a2f639a83635dfb22ba89545a6dc9d85e" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>activeBlockingItem_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a9de4fc9facc10e4a60cdd6140d8128b6" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>activeListPos_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a76f7a59ee445cafaae44e63de4b482d0" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>activeListPressed_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1acf628a7bb9081d2c4b3d3405e96e85b4" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>activeNonBlockingItems_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1ade2a48eec1124ec87a78f013122f2ba1" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>activeTabIndex_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a623682b4c72a120b6972a719f75d4282" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>add_modifier</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a2a3532d56a6f52a63ab5514063fa8875" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>addRibbonItemShortcut_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a79fec46acf5000a119ac7c3ce90a3da5" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>allowObjectsRemoval</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1acdcda8b2bba5f78579846e3596ab3c42" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>allowRemoval_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a42d36b1b6c1d3d5f973f5bb0b994ba44" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>allowSceneReorder</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1ab5abbf10004a75a69b1704b7af20e5b3" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>anyImGuiWindowIsHovered</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1ad3c1c5744647a6fd39a4296770a420f6" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>anyUiObjectIsHovered</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a094dbe3390138c463d3267a16e4c4486" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>asyncRequest_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1ad2a4931d55215f901548e8c7a7fabf48" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>autoCloseBlockingPlugins_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a507633033ab9a43b99eadcd8df8aac7e" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>beginTopPanel_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a429be394132a4217f60fe095ef658829" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>blockingHighlightTimer_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1aeda8867e04b01d5338a6eda930065060" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>buttonDrawer_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a9e71b44d5c09846170d097db09e2750a" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>calcSelectedTypesMask</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1af766771b374fc76627721e89e97b0573" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>callback_draw_custom_window</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a58d1777909c66022cb848ad4bfd08e6c" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>callback_draw_viewer_menu</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a48361f3a545ce8d2eea45667c5e25775" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>callback_draw_viewer_window</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a70e1b99ed1657729d0a89c8c8bd00e59" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>capturedMouse_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1ae0bfe34e5c35fc0de2da68e440ccc904" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>changeTab_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a8da06f115c5429d5c17a35ba02da2eb4" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>checkPossibilityObjectRemoval</name></member>
+      <member refid="classMR_1_1RibbonMenu_1ab49d948508071def5a525123250da7f8" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>cloneSelectedPart</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a7c94fe45ae2d51829d9addd732902930" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>cloneTree</name></member>
+      <member refid="classMR_1_1RibbonMenu_1af8f659a638712863260fa7636adb4588" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>CollapseState</name></member>
+      <member refid="structMR_1_1MultiListener_1af3312c12e653a48eaee4680364e72f27" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>connect</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a5211abf1979e6de5356bf10417272d04" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>context_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a2a88aa32db69286a1b09237c0bdadfd6" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>CoordType</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a45da65c950e713ce5c2d7a16d9460091" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>currentTopPanelHeight_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a6704f92b807e648f697c3313347d8001" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>cursorEntrance_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1aef895921e09dfff59ed30263ab3353f0" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>customCheckBox_</name></member>
+      <member refid="structMR_1_1MultiListener_1acfa598489bfbc3b88c84b029213d042c" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>disconnect</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a7d69c77712f963358e34a99c4eb27b8a" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>draw_custom_selection_properties</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a0d7ed7302aaadf4457e4e0e381bfaedf" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>draw_custom_window</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a06b63d6e0f840a978d53ab48129df966" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>draw_helpers</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a0e5fbe43cf10672413ba99ee734efbf6" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>draw_labels_window</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a0e6e81174d86126a578915516a77134a" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>draw_menu</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a52c9719c16910b21da7ba53e511aa7cc" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>draw_scene_list</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a19f8c069859057e2b94e0581392811fd" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>draw_scene_list_content</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1ad8af0b75810e306754f798aa50faec9b" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>draw_selection_properties</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1af67d48be36abd965d153cd88aa0f3638" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>draw_selection_properties_content</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a8816c5eec0cd0dbf6a48ffb892cacb8e" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>draw_text</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1afa605ceb7d771db8326713487bc76779" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>draw_viewer_window</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a536aa66aca49a47e58d15a786e574cb9" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawActiveBlockingDialog_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a6eca8ec42be5e0e43ee29c4e45d12430" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawActiveList_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a74725cc224e9f050790abef346ddba93" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawActiveListButton_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a2b8f24d719c5b2f849c6a2da6a8e6a05" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawActiveNonBlockingDialogs_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a223a369cd0143ab0fd5e6d5577641ab4" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawAdvancedOptions</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a67906df788caa39e03d62d6df651f050" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawBigButtonItem_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1ac152da8bac9875d752a7d081e66ebc44" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawCloneButton</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a18077dcd5d907b01b628b87a176caf7f" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawCloneSelectionButton</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a3a1db6b21c215e078cc28f9410d0345f" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawCollapseButton_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a49282539dbdead7ced3a92ce1409d0c3" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawCollapsingHeader_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a5edd9fcd5ab9a62bbfda2489c6205c9e" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawCollapsingHeaderTransform_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1af76f6326506b7340794051ec1fa60782" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawComparablePropertiesEditor_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1aca1d176aa04db7ea2b5d342cb0b102ac" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawCustomCheckBox</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a60feeb812f9b38fdb42b0e3aa55b44f3" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawCustomSelectionInformation_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a9af6848400197f4024584b77d9a9dc55" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawDrawOptionsCheckboxes</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1ae222c9e1c96773c161341f616707e6ce" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawDrawOptionsColors</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a6454c87e178e7cc91a395fb2ce4b3c10" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawFeaturePropertiesEditor_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a53d8e6df5755a98f1e793f6bc4bf0f89" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawGeneralOptions</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a1cf2af4dc1d82b20087764071b206770" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawGroupUngroupButton</name></member>
+      <member refid="classMR_1_1RibbonMenu_1af433c2d8c1718241a40ae3b15a5b80c1" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawHeaderHelpers_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1ac2b0a4ece891ff060bed7ecf57645b01" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawHeaderPannel_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1ac2d5ada5e234407fedd50acae414feb9" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawHeaderQuickAccess_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a5c662079dee88d267ae6ae55a20fbe29" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawHelpButton_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a842d003c447ddd1af577f4cb2ffb9021" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawItemDialog_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1aa55c3fbd9f75acc5b51ecba5402c8fb6" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawItemsGroup_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1ad91246c3334e9c7beaf92098272f9e4b" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawMergeSubtreeButton</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a6a60ab6a3f2d56c380d10b0911d6c7b1" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawModalMessage_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a597bf3251a597e7d18def3c23b156d45" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawNotifications_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a84850cbba56bfddc430ce99e51b91b71" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawRemoveButton</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a6fc2094b16a4d78ed17836196ae98439" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawRibbonSceneInformation_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1ae5c7eee292020a3a3252fef4b98278c5" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawRibbonSceneList_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a99c15fc2adc0e0b9ec601cedaa53dc4b" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawRibbonSceneResizeLine_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1afc3d25a8a8f6b8f82503f575646ee430" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawRibbonViewportsLabels_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a035dcccea06c6fcf45d34ecb843607f9" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawSceneListButtons_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a942483ecfa0154d8246586de1560c3eb" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>DrawSceneUiSignal</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1ae71e78bd6eb312fb03d4b7931a3d3241" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawSceneUiSignal</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a1567084f559553c43c93c235931bfdfa" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawSearchButton_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a99d49a0c86f16f2e917e71c81efe4187" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawSelectionInformation_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1abfc163ec42e5bf049a816c152460856e" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawSelectSubtreeButton</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a361cde7981902393e0db66ef54bf937e" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawShortcutsWindow_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a3d177f8768aa87645a633f7e5e3dd0ba" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawSmallButtonsSet_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1ad0d582e1904c2ad88eee5f4bfe814f83" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>DrawTabConfig</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a0df92b241b5b7ddcc8f855ed329f2eeb" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawTagInformation_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1ab54d2add039ebbbdb20f83d97b45ab9b" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawTopPanel_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a74de55fb9baffb8d206a32782cf194b2" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawTopPanelOpened_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a318c4a57bcb4a30a7620d3c954668c5a" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawTransform_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1aed3d5ce11a8471f66e67bb6997bd6e54" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawTransformContextMenu_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a9603f5d80ca9f918df4d86d0a40a94ab" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>editedFeatureObject_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a6afa105ae1f7116d82db1d5068aef0ef" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>editedFeatureObjectOldXf_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1aa2d17638d5eae8d84052a441927c8e2e" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>enableSavedDialogPositions</name></member>
+      <member refid="classMR_1_1RibbonMenu_1ab1c3276976baf58b98027bcd729eb536" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>endTopPanel_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a8f01e9d7c731a69186508c03397c09f1" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>expandObjectTreeAndScroll</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1aca84b210ea3b4853487a073ab51ee99e" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>finishFrame</name></member>
+      <member refid="classMR_1_1RibbonMenu_1ae93d370f0f4950d0cb6c7c7ebbe6a6d9" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>fixViewportsSize_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1af5677bcbb4776e2670fad996581794b9" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>fontManager_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a5ddf7775cb2ef343f9725d01c61e655b" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>frameTimeMillisecThreshold_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1af87aa13ddadb0bc96103d7ce892a88b9" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>getActiveTabIndex</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a4cce1421ecc6e05c9d0f5dc3d5a8c74f" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>getAutoCloseBlockingPlugins</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1ae5d94dd8a1dc073888a8e0424f6bdfa5" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>getCurrentContext</name></member>
+      <member refid="classMR_1_1RibbonMenu_1aafbb9fbb81efc86a0331f89e181268cb" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>getFontManager</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1aa42442fae2b45f724400fbfa87716738" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>getLastFocusedPlugin</name></member>
+      <member refid="classMR_1_1RibbonMenu_1ac60708d073d431fe51934044e473b07c" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>getMenuFontPath</name></member>
+      <member refid="classMR_1_1RibbonMenu_1ae8f7513715e9612b9c4a4e5b9005382c" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>getMenuUIConfig</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a3f2b825159346f39db3cde812e624bfb" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>getRequirements_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1ae0840c947fea974de909fbaee8e7829e" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>getRibbonButtonDrawer</name></member>
+      <member refid="classMR_1_1RibbonMenu_1ab0cfd87f2c0b8073dbdd093be4e7eb2f" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>getRibbonNotifier</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a6991399e6f33fd30c2ddf2482fa849c0" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>getSceneInfoItemWidth_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a0d3348b637e1e6672669ff2da445a8e8" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>getSceneObjectsList</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a5904f7f7bd80695bec495d8079cd9e42" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>getSceneSize</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a6313d10e2b78aadec08af6df6ce0df6b" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>getShortcutManager</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a71eee39290bad9e423c351d3e5199f06" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>getShowShortcuts</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a94d45ffa94d1720d85a4120b6e769b55" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>getStoredColor_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1accfa4d95ab6fdfea5313e29cf32417bd" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>getToolbar</name></member>
+      <member refid="classMR_1_1RibbonMenu_1ae0972a03e4e4507e77657b90ec8b08fd" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>getTopPanelCurrentHeight</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a527fe41687fdc31790622eff98c59402" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>getTopPanelHiddenHeight</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a079f402544435dce5e38c654ca9c604c" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>getTopPanelOpenedHeight</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a12da43f010acf739a8eccfc33ecdeb04" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>getUiRenderManager</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a1e1cc9fce0ffe6ffb4bb3920f586cefb" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>getUserScaling</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a42ad9dbceb71795dfcc7faec3a4fada5" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>hasActiveBlockingItem</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a031930c9c0f444b92a9252828cfa3ef4" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>hasAnyActiveItem</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1ac28c9493029fa946734f3ed3980b6a68" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>hidpi_scaling</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a56862fe69e7b443b52c3ec99d13981a0" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>hidpi_scaling_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a49daca6118b0fa3460e5f9c85d2f8070" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>highlightBlocking_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a2fc0e85a12011b7f97ae8de0c9174217aac4ef274f96fe2180181b165f1a20f43" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>Horizontal</name></member>
+      <member refid="classMR_1_1RibbonMenu_1ab3558b78d7b0ae1292fb5aee66287285" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>informationHeight_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a75ae516e9ba2cc3916a137c3b723da57" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>init</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a3425b4fd87149a0b1038c2caf99fb4ab" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>initBackend</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a46a9c1a6ee76ad876cce3d279b8a825f" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>instance</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a44726097595253c81b8abae8fe5fe91f" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>invertedRotation_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a3af61c19b91ea2126bb2ffdea304cba9" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>isSavedDialogPositionsEnabled</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a44506d22fa2c6befeaf375791931282e" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>isTopPannelPinned</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a981b9e4f52d4679a09fbbca4dab08573" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>itemPressed_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1ae809764ef8ca8203ef9f26e34abb2c2f" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>lastRenameObj_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a9bbdaa0865f099c7e385ac1ea6b7bbf3" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>load_font</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a96f0bc9450fbe39ac5e90abcbc52c36a" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>Local</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1ad09d9b751f97c0d1e2ba46c849392a7c" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>mainWindowPos_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a348b708be326f0e5f3a65a9be9f143b9" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>mainWindowSize_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a0e7dfc4d1ce4492b22b5430476500520" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>make_color_selector</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a47c3996c85c24d180bec9f89358e666e" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>make_light_strength</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a344b3a7a1c2340b70efb4c3d5ffa920f" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>make_points_discretization</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a0b9508550f2dc503c7e8bfe4d20c6756" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>make_slider</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a2cde4a8f3fa825bbab90240c16545c1a" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>make_visualize_checkbox</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a2a967e9c0fa0dcd8845ce52d4b5bb065" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>make_width</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a6b675470dbdebfb5d03efb515c5e8b63" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>menu_scaling</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a031dbe6db3d3a3fb49fae05710bc724a" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>menuUIConfig_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1afea5ae3d33013ab15abbe5747b71e139" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>modalMessageType_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a870366d79164cd2f0909a5d12d551eea" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>modifiers_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a108b6e7b1762c1e145d04713a3badf63" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>NameTagClickSignal</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1ad64a7ae50d9825e9690b7c2cae8a7cc1" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>nameTagClickSignal</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1acf12d9bbd08c5c2a1b528461e7294587" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>NameTagSelectionMode</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a4e9570d57a509d6e4a02c3893c617fe4" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>needModalBgChange_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1ae3cde2b3ee8000617184405042f8407f" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>notifier_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1aabb7d476614f65f1d63a7135ffb63a18" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>oldLabelParams_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a7906a1932a537af9cea6a47dcc68a00d" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>onCharPressed_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a0e858510ba6a8fd6ef7f6a8875c6c36d" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>onKeyDown_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a3b05cbee00a414bd0c9184b9563abff0" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>onKeyRepeat_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a753fd5393ff4b24834ef25607ca2eaf4" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>onKeyUp_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a5b4a5520d05a30f780c06a061325e121" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>onMouseDown_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a6fcea5fac57d33dc003165a9ece2b51b" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>onMouseMove_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a294419b7fa4605c3e9d701e12368445e" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>onMouseScroll_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a4698fb9422936fc36f43f4dcb02fb3d2" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>onMouseUp_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a1b9011fe50941846005d4ee62a1b7e1e" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>openedMaxSecs_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a0a63cb85d39c61c8d5ea0111658976ff" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>openedTimer_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1aeb9475e92afc11246ebbc3f39dadebf9" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>openToolbarCustomize</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a7490e418a373fbd6573c352908bfdad1" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>Pinned</name></member>
+      <member refid="classMR_1_1RibbonMenu_1ab638723ae879c04abcf7677c3975e255" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>pinTopPanel</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a68decea45636d9cf3ddd402a7ed91222" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>pixel_ratio</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a864fd56e49c33e4847536e2665132196" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>pixel_ratio_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1ad68df6b8216d5bb1c4b0b0d0ed0147c4" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>pollEventsInPreDraw</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a43c1faf504ab05faff5dd7aadbf0ce81" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>popUpRenameBuffer_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a551ad5455fbfb7e59f498036018a9b1b" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>postFocus_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1ad3c1eb063654b601259d343d6644e863" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>postRescale_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a9435ce4367ec159b1b5746aaafcc5652" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>postResize_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1aed028910bb5ce3eedfa0802afa5e040d" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>prevFrameFocusPlugin_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a8d13b702d7c6dad7794328080b6562e0" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>prevFrameSelectedObjectsCache_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1aed6ba0bf1f0630bcf43a1a070149b088" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>pushNotification</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a2fc0e85a12011b7f97ae8de0c9174217adc0daeba4c8bbd059be0547682073d26" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>Quad</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a566e74703b12f0c2cd8873fe0ca33e50" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>readMenuItemsStructure_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1ac80823b6e10ba2e99fca77006ffb7dc4" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>readQuickAccessList</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a9859a64886007cc8433d38e0ab48ed66" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>reload_font</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1ae9bb69c3589e2a7be927ce74e0b1f2ac" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>renameBuffer_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a76cda98d1dc4caae438ec0501f7bde8f" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>rescaleStyle_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1aa074446a9a5446cd760d9246633c5045" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>resetQuickAccessList</name></member>
+      <member refid="classMR_1_1RibbonMenu_1aa34b69e6496e1988fcf4618bd5275b26" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>RibbonMenu</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a69ba22274265966f6ddc7eabf3eb78a9" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>savedDialogPositionEnabled_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a7d0715a8cba151ac2cf1b9260c778350" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>sceneObjectsList_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1ae386af7889ce33a8c3d0ceb71e1ca81c" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>sceneSize_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a503f28da6e0267912172f146e9e5ecea" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>sceneWindowPos_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a1995588bf4401620b33e1a4e6ed8c15d" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>sceneWindowSize_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1ac86c4630adf085f601be813f0d81b827" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>searcher_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a493d46d4f1ecabb263dc5528086e2660" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>searchPluginsString_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a25d70db427b76e61497c7fe1c62ac778" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>selectedViewport_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1aca4f11387f1bcb127e2e9dfd5eef27fa" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>selectionChangedToSingleObj_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a53309002abe5f491c36f5ef71490a8e9" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>selectionLocalBox_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1ac8a4b5b373c2e5ab3e633a34fd148f12" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>selectionWorldBox_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a175b4ff452a54f2c42cf45767732d435" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>setActiveListPos</name></member>
+      <member refid="classMR_1_1RibbonMenu_1aa5c9439e803a30622f7ecfeee5e7091d" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>setAutoCloseBlockingPlugins</name></member>
+      <member refid="classMR_1_1RibbonMenu_1ae2e7e583583cdbdbb47b0e02f01cabea" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>setCustomContextCheckbox</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a6e83c3a2b5060c5372ee9c2bb1157282" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>setDrawTimeMillisecThreshold</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a1ff3e6eb8d078f9be90f61e18065f9ae" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>setMenuUIConfig</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a760f379753472105d9f5cbefaeecc741" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>setObjectTreeState</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a97c470b0974a29e162afe5b7393113e3" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>setQuickAccessListVersion</name></member>
+      <member refid="classMR_1_1RibbonMenu_1afefdd706402e7ad5daf3433c54ae87dc" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>setSceneSize</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a86b80144e3a19e663a44c52daa73f55d" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>setShowShortcuts</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a0b8580dee2b479f1b332f441905c330d" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>setTopPanelMaxOpenedTimer</name></member>
+      <member refid="classMR_1_1RibbonMenu_1aabaa3a2750696ccfb5e18682b7c7638b" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>setupItemsGroup_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a3e0bbf51d01df0169ab4de593b8f3e95" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>setupItemsGroupConfig_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a1d80aef71da13b99c1360a4180110f25" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>setupShortcuts_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1ae1070bda705ced4859b5b72a381c0432" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>setUserScaling</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1af12f28cc32062db2ff2e65a8abeab3ca" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>shortcutManager_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a0fb26215796f94ee53da988ac6bf07e7" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>showActiveList</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1af0b38f50d2a1f161806e3cdca4a7846c" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>showEditTag_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a9d77cd28320ae4333fc7e5b9c5a4d38b" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>showInfoModal_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a2a048091853e02ff674893add9adf7e3" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>showModalMessage</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a09e144807f360fa5ae2c48aa130a940d" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>showRenameModal_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a02f96b228edc61b7c42ab06b759d6f5d" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>showShortcuts_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1ab14610cb6f67cd8617dd1750924c854f" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>showStatistics_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a304f2add3b4e9221b6accdcf46c2bb68" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>shutdown</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a95c82c0734872d0f3d937e4653c60574" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>simulateNameTagClick</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1aa3b2a929f13cffa8c834e72a56c9dc94" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>simulateNameTagClickWithKeyboardModifiers</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a4235036156971a18b7ef3ad2e50c0291" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>Single</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a2fc0e85a12011b7f97ae8de0c9174217a16ee997f93f02c6f4f9374faac3d45d2" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>Single</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a5ccd24b000bbc0b039ffa0d64d0d58e4" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>sortObjectsRecursive_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a4060b3a583e77e5b681d7fb9ecc49846" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>spaceMouseDown_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1ad16e3a9ef41b44123e96565a98582cda" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>spaceMouseMove_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a917a445993fd54f9097b63dd7377c691" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>startFrame</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a42944b2f8a7080c6a06c93633f97cb4c" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>storedColor_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a030eb50192d51050ab5c5aa34e63929d" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>storedModalMessage_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1ad03e656d4344c5a4266fa1ae56827d6c" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>TabChangedSignal</name></member>
+      <member refid="classMR_1_1RibbonMenu_1afd52ffe86f76c1dcae019262f3722fd3" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>tabChangedSignal</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a8bb8f40cba94a969573fe41fd42cc1cb" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>tabPanelScroll_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1afa4ddd1abc45868c85e00d51ff1bee16" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>tagEditorState_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a642eba300ae802eed145b8f3df8eb9c5" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>tagNewName_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a943f8a972e6fd6e1c85ceed8a570dd03" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>toolbar_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1ab36bd1545f96a4f5df1289ab88be741f" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>topPanelHiddenHeight_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a529d097846dbeb6b6c920552ed4fdcc8" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>topPanelOpenedHeight_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1ae066809443102cbe5292c380ceb24331" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>touchpadRotateGestureBegin_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1ab17e611f2f8ceb1096d1ea82e52fa819" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>touchpadRotateGestureEnd_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1ad643f6137f4b2d4869a009a40f716346" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>touchpadRotateGestureUpdate_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a16d62bdb2a3278ade5f315b24ed2477c" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>touchpadSwipeGestureBegin_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1aff463379fb884a74986f40aff951fb64" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>touchpadSwipeGestureEnd_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a346d5dfb27bcdd169d5a51702396da40" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>touchpadSwipeGestureUpdate_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a1065bf25259c52604ca9fb26da03cd6a" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>touchpadZoomGestureBegin_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a772230273af61c56a22656823bc62403" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>touchpadZoomGestureEnd_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a6e66701283ee97b5ff913eb99b22b975" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>touchpadZoomGestureUpdate_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a230fe187c275ff7b61d5ca8f40d2088e" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>transformClipboardText_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1add021abfb6808482ea3aa86a8db32522" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>transformHeight_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a6695a9712b5cfa0478fc548bb675085a" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>tryRenameSelectedObject</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1ac676c6482bdbd381c6a69ec47774f8eb" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>uiRenderManager_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1afd9b841be73749d7e6b9ccbd81ba5afd" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>uniformScale_</name></member>
+      <member refid="classMR_1_1RibbonMenu_1afc750c1fa4b01d0cdf604d601194f436" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>updateItemStatus</name></member>
+      <member refid="classMR_1_1RibbonMenu_1ad83984d816bde0619ef416625513f3e8" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>updateTopPanelSize_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1aa80cfb0d46a306f3db6578f73214759d" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>userScaling_</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a2fc0e85a12011b7f97ae8de0c9174217a2ab058d39efcb9723ff4e31b061058b0" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>Vertical</name></member>
+      <member refid="classMR_1_1ViewerPlugin_1ad12538d77ebcf356c03469cbce40abae" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>viewer</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a2fc0e85a12011b7f97ae8de0c9174217" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>ViewportConfigurations</name></member>
+      <member refid="classMR_1_1ImGuiMenu_1a22b27718dfcaa0c7a6c683598c89b75d" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>xfHistUpdated_</name></member>
+      <member refid="structMR_1_1MultiListener_1a726f5e2601b7f25e31824a0cac630fb2" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>~MultiListener</name></member>
+      <member refid="classMR_1_1RibbonMenu_1a019c89ffbf679cc555e78b3e56ab52cd" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>~RibbonMenu</name></member>
+      <member refid="classMR_1_1ViewerPlugin_1ad7fd0e80e15b5c45837fc005c71c9eab" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>~ViewerPlugin</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

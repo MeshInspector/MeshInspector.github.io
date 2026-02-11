@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RenderObjectBuffer" kind="class" language="C++" prot="public">
+    <compoundname>MR::RenderObjectBuffer</compoundname>
+    <includes refid="MRRenderHelpers_8h" local="no">MRRenderHelpers.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1RenderObjectBuffer_1af9861d4c2dda1de9631b99cd6b2f19c0" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1Buffer" kindref="compound">Buffer</ref>&lt; std::byte &gt;</type>
+        <definition>Buffer&lt;std::byte&gt; MR::RenderObjectBuffer::buffer_</definition>
+        <argsstring></argsstring>
+        <name>buffer_</name>
+        <qualifiedname>MR::RenderObjectBuffer::buffer_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderHelpers.h" line="81" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderHelpers.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1RenderObjectBuffer_1aecb1aa9a47f7fb1520033ea260ec7b8b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classMR_1_1RenderBufferRef" kindref="compound">RenderBufferRef</ref>&lt; T &gt;</type>
+        <definition>RenderBufferRef&lt; T &gt; MR::RenderObjectBuffer::prepareBuffer</definition>
+        <argsstring>(std::size_t glSize, bool dirty=true)</argsstring>
+        <name>prepareBuffer</name>
+        <qualifiedname>MR::RenderObjectBuffer::prepareBuffer</qualifiedname>
+        <param>
+          <type>std::size_t</type>
+          <declname>glSize</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>dirty</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderHelpers.h" line="67" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderHelpers.h" bodystart="67" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderObjectBuffer_1ab02cd1ea0027d6d6976037b84fbbbe33" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t MR::RenderObjectBuffer::heapBytes</definition>
+        <argsstring>() const</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR::RenderObjectBuffer::heapBytes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderHelpers.h" line="78" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderHelpers.h" bodystart="78" bodyend="78"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>provides shared buffer for loading different types of data to GL memory </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderHelpers.h" line="63" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderHelpers.h" bodystart="64" bodyend="82"/>
+    <listofallmembers>
+      <member refid="classMR_1_1RenderObjectBuffer_1af9861d4c2dda1de9631b99cd6b2f19c0" prot="private" virt="non-virtual"><scope>MR::RenderObjectBuffer</scope><name>buffer_</name></member>
+      <member refid="classMR_1_1RenderObjectBuffer_1ab02cd1ea0027d6d6976037b84fbbbe33" prot="public" virt="non-virtual"><scope>MR::RenderObjectBuffer</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1RenderObjectBuffer_1aecb1aa9a47f7fb1520033ea260ec7b8b" prot="public" virt="non-virtual"><scope>MR::RenderObjectBuffer</scope><name>prepareBuffer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1BooleanPreCutResult" kind="class" language="C#" prot="public">
+    <compoundname>MR::BooleanPreCutResult</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_BooleanPreCutResult</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1BooleanPreCutResult_1a7c03684c0d1803ea8482a97aa5615f4c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+        <definition>new unsafe MR.Mesh MR.BooleanPreCutResult.mesh</definition>
+        <argsstring></argsstring>
+        <name>mesh</name>
+        <qualifiedname>MR.BooleanPreCutResult.mesh</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="498" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="498" bodyend="498"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1BooleanPreCutResult_1af16cc3517fc72a4a4ffd89119df82ffe" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Vector_MROneMeshContour</type>
+        <definition>new unsafe MR.Std.Vector_MROneMeshContour MR.BooleanPreCutResult.contours</definition>
+        <argsstring></argsstring>
+        <name>contours</name>
+        <qualifiedname>MR.BooleanPreCutResult.contours</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="500" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="500" bodyend="500"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1BooleanPreCutResult_1ab50085855e8904add5805a824700b346" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.BooleanPreCutResult.BooleanPreCutResult</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>BooleanPreCutResult</name>
+        <qualifiedname>MR.BooleanPreCutResult.BooleanPreCutResult</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="526" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="526" bodyend="530"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1BooleanPreCutResult_1a347ec655c5fe4cc2ee051cdf2d26e515" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.BooleanPreCutResult.BooleanPreCutResult</definition>
+        <argsstring>()</argsstring>
+        <name>BooleanPreCutResult</name>
+        <qualifiedname>MR.BooleanPreCutResult.BooleanPreCutResult</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="536" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="536" bodyend="542"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BooleanPreCutResult_1a97845352bcc67158449f376daacbd1e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.BooleanPreCutResult.BooleanPreCutResult</definition>
+        <argsstring>(MR._ByValue_Mesh mesh, MR.Std._ByValue_Vector_MROneMeshContour contours)</argsstring>
+        <name>BooleanPreCutResult</name>
+        <qualifiedname>MR.BooleanPreCutResult.BooleanPreCutResult</qualifiedname>
+        <param>
+          <type>MR._ByValue_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Vector_MROneMeshContour</type>
+          <declname>contours</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1BooleanPreCutResult" kindref="compound">MR.BooleanPreCutResult</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="547" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="547" bodyend="555"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BooleanPreCutResult_1af902c0299cad7168b2894edae0f91223" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.BooleanPreCutResult.BooleanPreCutResult</definition>
+        <argsstring>(MR._ByValue_BooleanPreCutResult _other)</argsstring>
+        <name>BooleanPreCutResult</name>
+        <qualifiedname>MR.BooleanPreCutResult.BooleanPreCutResult</qualifiedname>
+        <param>
+          <type>MR._ByValue_BooleanPreCutResult</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.BooleanPreCutResult.BooleanPreCutResult</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="560" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="560" bodyend="567"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BooleanPreCutResult_1a467dcde1c3f18ddb767d6df39fc4ed66" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.BooleanPreCutResult.BooleanPreCutResult</definition>
+        <argsstring>(Const_BooleanPreCutResult _other)</argsstring>
+        <name>BooleanPreCutResult</name>
+        <qualifiedname>MR.BooleanPreCutResult.BooleanPreCutResult</qualifiedname>
+        <param>
+          <type>Const_BooleanPreCutResult</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.BooleanPreCutResult.BooleanPreCutResult</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="572" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="572" bodyend="572"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BooleanPreCutResult_1aac3507e8def6bc3c0e1acf7b3dff3783" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.BooleanPreCutResult.BooleanPreCutResult</definition>
+        <argsstring>(BooleanPreCutResult _other)</argsstring>
+        <name>BooleanPreCutResult</name>
+        <qualifiedname>MR.BooleanPreCutResult.BooleanPreCutResult</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1BooleanPreCutResult" kindref="compound">BooleanPreCutResult</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.BooleanPreCutResult.BooleanPreCutResult</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="577" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="577" bodyend="577"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BooleanPreCutResult_1ad95b7991fa790ca489f351c3dd21c528" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1BooleanPreCutResult" kindref="compound">MR.BooleanPreCutResult</ref></type>
+        <definition>unsafe MR.BooleanPreCutResult MR.BooleanPreCutResult.assign</definition>
+        <argsstring>(MR._ByValue_BooleanPreCutResult _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.BooleanPreCutResult.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_BooleanPreCutResult</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.BooleanPreCutResult.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="582" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="582" bodyend="589"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1BooleanPreCutResult" kindref="compound">MR.BooleanPreCutResult</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_BooleanPreCutResult</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.BooleanPreCutResult</label>
+        <link refid="classMR_1_1BooleanPreCutResult"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_BooleanPreCutResult &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_BooleanPreCutResult</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.BooleanPreCutResult</label>
+        <link refid="classMR_1_1BooleanPreCutResult"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_BooleanPreCutResult &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="496" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="497" bodyend="590"/>
+    <listofallmembers>
+      <member refid="classMR_1_1BooleanPreCutResult_1ad95b7991fa790ca489f351c3dd21c528" prot="public" virt="non-virtual"><scope>MR::BooleanPreCutResult</scope><name>assign</name></member>
+      <member refid="classMR_1_1BooleanPreCutResult_1ab50085855e8904add5805a824700b346" prot="package" virt="non-virtual"><scope>MR::BooleanPreCutResult</scope><name>BooleanPreCutResult</name></member>
+      <member refid="classMR_1_1BooleanPreCutResult_1a347ec655c5fe4cc2ee051cdf2d26e515" prot="public" virt="non-virtual"><scope>MR::BooleanPreCutResult</scope><name>BooleanPreCutResult</name></member>
+      <member refid="classMR_1_1BooleanPreCutResult_1a97845352bcc67158449f376daacbd1e1" prot="public" virt="non-virtual"><scope>MR::BooleanPreCutResult</scope><name>BooleanPreCutResult</name></member>
+      <member refid="classMR_1_1BooleanPreCutResult_1af902c0299cad7168b2894edae0f91223" prot="public" virt="non-virtual"><scope>MR::BooleanPreCutResult</scope><name>BooleanPreCutResult</name></member>
+      <member refid="classMR_1_1BooleanPreCutResult_1a467dcde1c3f18ddb767d6df39fc4ed66" prot="public" virt="non-virtual"><scope>MR::BooleanPreCutResult</scope><name>BooleanPreCutResult</name></member>
+      <member refid="classMR_1_1BooleanPreCutResult_1aac3507e8def6bc3c0e1acf7b3dff3783" prot="public" virt="non-virtual"><scope>MR::BooleanPreCutResult</scope><name>BooleanPreCutResult</name></member>
+      <member refid="classMR_1_1BooleanPreCutResult_1af16cc3517fc72a4a4ffd89119df82ffe" prot="public" virt="non-virtual"><scope>MR::BooleanPreCutResult</scope><name>contours</name></member>
+      <member refid="classMR_1_1BooleanPreCutResult_1a7c03684c0d1803ea8482a97aa5615f4c" prot="public" virt="non-virtual"><scope>MR::BooleanPreCutResult</scope><name>mesh</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1EdgePathsBuilderT_1_1CandidateVert" kind="struct" language="C++" prot="private">
+    <compoundname>MR::EdgePathsBuilderT::CandidateVert</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1EdgePathsBuilderT_1_1CandidateVert_1a36a3edb3148be58b6f020a1df9723df8" prot="public" static="no" mutable="no">
+        <type>VertId</type>
+        <definition>VertId MR::EdgePathsBuilderT&lt; MetricToPenalty &gt;::CandidateVert::v</definition>
+        <argsstring></argsstring>
+        <name>v</name>
+        <qualifiedname>MR::EdgePathsBuilderT::CandidateVert::v</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" line="105" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1EdgePathsBuilderT_1_1CandidateVert_1ae535b54cf5106417da209d0f0dbcc42a" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::EdgePathsBuilderT&lt; MetricToPenalty &gt;::CandidateVert::penalty</definition>
+        <argsstring></argsstring>
+        <name>penalty</name>
+        <qualifiedname>MR::EdgePathsBuilderT::CandidateVert::penalty</qualifiedname>
+        <initializer>= FLT_MAX</initializer>
+        <briefdescription>
+<para>best penalty to reach this vertex </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" line="107" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="structMR_1_1EdgePathsBuilderT_1_1CandidateVert_1a2479fd18962eebc79164a5a5485a0c31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator&lt;</definition>
+        <argsstring>(const CandidateVert &amp;a, const CandidateVert &amp;b)</argsstring>
+        <name>operator&lt;</name>
+        <qualifiedname>MR::EdgePathsBuilderT::CandidateVert::operator&lt;</qualifiedname>
+        <param>
+          <type>const CandidateVert &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const CandidateVert &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>smaller penalty to be the first </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" line="110" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" bodystart="110" bodyend="113"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" line="103" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" bodystart="104" bodyend="114"/>
+    <listofallmembers>
+      <member refid="structMR_1_1EdgePathsBuilderT_1_1CandidateVert_1a2479fd18962eebc79164a5a5485a0c31" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT::CandidateVert</scope><name>operator&lt;</name></member>
+      <member refid="structMR_1_1EdgePathsBuilderT_1_1CandidateVert_1ae535b54cf5106417da209d0f0dbcc42a" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT::CandidateVert</scope><name>penalty</name></member>
+      <member refid="structMR_1_1EdgePathsBuilderT_1_1CandidateVert_1a36a3edb3148be58b6f020a1df9723df8" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT::CandidateVert</scope><name>v</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

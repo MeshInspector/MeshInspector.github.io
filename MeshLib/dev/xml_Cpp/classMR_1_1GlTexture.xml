@@ -1,0 +1,472 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1GlTexture" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>MR::GlTexture</compoundname>
+    <derivedcompoundref refid="classMR_1_1GlTexture2" prot="public" virt="non-virtual">MR::GlTexture2</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1GlTexture2DArray" prot="public" virt="non-virtual">MR::GlTexture2DArray</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1GlTexture3" prot="public" virt="non-virtual">MR::GlTexture3</derivedcompoundref>
+    <includes refid="MRGLTexture_8h" local="no">MRGLTexture.h</includes>
+    <innerclass refid="structMR_1_1GlTexture_1_1Settings" prot="public">MR::GlTexture::Settings</innerclass>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classMR_1_1GlTexture_1a41901568843aff73ce764e7d07c0a81f" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>GLuint</type>
+        <definition>GLuint MR::GlTexture::NO_TEX</definition>
+        <argsstring></argsstring>
+        <name>NO_TEX</name>
+        <qualifiedname>MR::GlTexture::NO_TEX</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" line="20" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1GlTexture_1a9bb5bb53fefb3f277a36f6fabfe202cf" prot="protected" static="no" mutable="no">
+        <type>GLuint</type>
+        <definition>GLuint MR::GlTexture::textureID_</definition>
+        <argsstring></argsstring>
+        <name>textureID_</name>
+        <qualifiedname>MR::GlTexture::textureID_</qualifiedname>
+        <initializer>= <ref refid="classMR_1_1GlTexture_1a41901568843aff73ce764e7d07c0a81f" kindref="member">NO_TEX</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" line="86" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1GlTexture_1a24981e85fee9e75367aa3d9d3293f542" prot="protected" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t MR::GlTexture::size_</definition>
+        <argsstring></argsstring>
+        <name>size_</name>
+        <qualifiedname>MR::GlTexture::size_</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" line="87" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1GlTexture_1a3b04ff9e583e09691f0a425bc68ea939" prot="protected" static="no" mutable="no">
+        <type>GLenum</type>
+        <definition>GLenum MR::GlTexture::type_</definition>
+        <argsstring></argsstring>
+        <name>type_</name>
+        <qualifiedname>MR::GlTexture::type_</qualifiedname>
+        <initializer>= <ref refid="classMR_1_1GlTexture_1a41901568843aff73ce764e7d07c0a81f" kindref="member">NO_TEX</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" line="88" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1GlTexture_1a7be43c41cc0cfc57c53d4e3cac02a449" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API</type>
+        <definition>MRVIEWER_API MR::GlTexture::GlTexture</definition>
+        <argsstring>(GLenum val)</argsstring>
+        <name>GlTexture</name>
+        <qualifiedname>MR::GlTexture::GlTexture</qualifiedname>
+        <param>
+          <type>GLenum</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" line="22" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GlTexture_1a628b06fbd65ce8a5e40f9f3f62e15d5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::GlTexture::GlTexture</definition>
+        <argsstring>(const GlTexture &amp;)=delete</argsstring>
+        <name>GlTexture</name>
+        <qualifiedname>MR::GlTexture::GlTexture</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1GlTexture" kindref="compound">GlTexture</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" line="24" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GlTexture_1ab3beacb78e2572350f1b40b817059e4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API</type>
+        <definition>MRVIEWER_API MR::GlTexture::GlTexture</definition>
+        <argsstring>(GlTexture &amp;&amp;r)</argsstring>
+        <name>GlTexture</name>
+        <qualifiedname>MR::GlTexture::GlTexture</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1GlTexture" kindref="compound">GlTexture</ref> &amp;&amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" line="25" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GlTexture_1a381d704de87710189350e842dab5ad18" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API</type>
+        <definition>virtual MRVIEWER_API MR::GlTexture::~GlTexture</definition>
+        <argsstring>()</argsstring>
+        <name>~GlTexture</name>
+        <qualifiedname>MR::GlTexture::~GlTexture</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" line="26" column="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GlTexture_1ac05f999428948991b9e2451bf4d1cf19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMR_1_1GlTexture" kindref="compound">GlTexture</ref> &amp;</type>
+        <definition>GlTexture &amp; MR::GlTexture::operator=</definition>
+        <argsstring>(const GlTexture &amp;)=delete</argsstring>
+        <name>operator=</name>
+        <qualifiedname>MR::GlTexture::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1GlTexture" kindref="compound">GlTexture</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" line="28" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GlTexture_1a04a1b44a9277a7f2dad9ca4c4ea14815" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1GlTexture" kindref="compound">GlTexture</ref> &amp;</type>
+        <definition>GlTexture &amp; MR::GlTexture::operator=</definition>
+        <argsstring>(GlTexture &amp;&amp;r)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>MR::GlTexture::operator=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1GlTexture" kindref="compound">GlTexture</ref> &amp;&amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" line="29" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GlTexture_1a573e81765c41c4a83462f9a3a00823de" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto MR::GlTexture::getId</definition>
+        <argsstring>() const</argsstring>
+        <name>getId</name>
+        <qualifiedname>MR::GlTexture::getId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" line="34" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" bodystart="34" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GlTexture_1af07d1c7bc9944130437dcddb3c74465a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::GlTexture::valid</definition>
+        <argsstring>() const</argsstring>
+        <name>valid</name>
+        <qualifiedname>MR::GlTexture::valid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" line="35" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" bodystart="35" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GlTexture_1a31f2ca34c59318a7c4d59d8a4a37782a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t MR::GlTexture::size</definition>
+        <argsstring>() const</argsstring>
+        <name>size</name>
+        <qualifiedname>MR::GlTexture::size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" line="36" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GlTexture_1a93b01874cfb524236811acf50f7af69c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::GlTexture::gen</definition>
+        <argsstring>()</argsstring>
+        <name>gen</name>
+        <qualifiedname>MR::GlTexture::gen</qualifiedname>
+        <briefdescription>
+<para>generates new texture </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" line="39" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GlTexture_1a14068864ba6ea4ba93a3504914da5318" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::GlTexture::del</definition>
+        <argsstring>()</argsstring>
+        <name>del</name>
+        <qualifiedname>MR::GlTexture::del</qualifiedname>
+        <briefdescription>
+<para>deletes the texture </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" line="42" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GlTexture_1ae1b7d7ab7174f46431b88ca69d8ee589" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::GlTexture::bind</definition>
+        <argsstring>()</argsstring>
+        <name>bind</name>
+        <qualifiedname>MR::GlTexture::bind</qualifiedname>
+        <briefdescription>
+<para>binds current texture to OpenGL context </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" line="45" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GlTexture_1a9ba560fc0c6f4da706a9249b33cc51d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::GlTexture::loadData</definition>
+        <argsstring>(const Settings &amp;settings, const char *arr)</argsstring>
+        <name>loadData</name>
+        <qualifiedname>MR::GlTexture::loadData</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1GlTexture_1_1Settings" kindref="compound">Settings</ref> &amp;</type>
+          <declname>settings</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>arr</declname>
+        </param>
+        <briefdescription>
+<para>creates GL data texture using given data and binds it </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" line="67" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GlTexture_1a3ac4435c96afe603c9f4fac5e7bbb2cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename C</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void MR::GlTexture::loadData</definition>
+        <argsstring>(const Settings &amp;settings, const C &amp;cont)</argsstring>
+        <name>loadData</name>
+        <qualifiedname>MR::GlTexture::loadData</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1GlTexture_1_1Settings" kindref="compound">Settings</ref> &amp;</type>
+          <declname>settings</declname>
+        </param>
+        <param>
+          <type>const C &amp;</type>
+          <declname>cont</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" line="69" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" bodystart="69" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GlTexture_1a5a0c8eb224d884d8a585e73ef2c4ca2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::GlTexture::loadDataOpt</definition>
+        <argsstring>(bool refresh, const Settings &amp;settings, const char *arr)</argsstring>
+        <name>loadDataOpt</name>
+        <qualifiedname>MR::GlTexture::loadDataOpt</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>refresh</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1GlTexture_1_1Settings" kindref="compound">Settings</ref> &amp;</type>
+          <declname>settings</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>arr</declname>
+        </param>
+        <briefdescription>
+<para>binds current texture to OpenGL context, optionally refreshing its data </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" line="76" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GlTexture_1a5574566e892c3526ffd4737e97872d9e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename C</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void MR::GlTexture::loadDataOpt</definition>
+        <argsstring>(bool refresh, const Settings &amp;settings, const C &amp;cont)</argsstring>
+        <name>loadDataOpt</name>
+        <qualifiedname>MR::GlTexture::loadDataOpt</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>refresh</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1GlTexture_1_1Settings" kindref="compound">Settings</ref> &amp;</type>
+          <declname>settings</declname>
+        </param>
+        <param>
+          <type>const C &amp;</type>
+          <declname>cont</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" line="78" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" bodystart="78" bodyend="82"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1GlTexture_1a7edea799f883097742210ebea4aefac5" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void MR::GlTexture::texImage_</definition>
+        <argsstring>(const Settings &amp;settings, const char *arr)=0</argsstring>
+        <name>texImage_</name>
+        <qualifiedname>MR::GlTexture::texImage_</qualifiedname>
+        <reimplementedby refid="classMR_1_1GlTexture2_1adce912da4ddd9bd0fa0b552eeb1106a9">texImage_</reimplementedby>
+        <reimplementedby refid="classMR_1_1GlTexture2DArray_1a6db1a3eebb16008d58a2d0fd1569b6cb">texImage_</reimplementedby>
+        <reimplementedby refid="classMR_1_1GlTexture3_1a49ccd143a196b6bfd0e18aaf10e40773">texImage_</reimplementedby>
+        <param>
+          <type>const <ref refid="structMR_1_1GlTexture_1_1Settings" kindref="compound">Settings</ref> &amp;</type>
+          <declname>settings</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>arr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" line="85" column="18"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1GlTexture_1afab7151082898cb970d9fc514e3c2d27" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::GlTexture::detach_</definition>
+        <argsstring>()</argsstring>
+        <name>detach_</name>
+        <qualifiedname>MR::GlTexture::detach_</qualifiedname>
+        <briefdescription>
+<para>another object takes control over the GL texture </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" line="93" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>represents OpenGL texture owner, and allows uploading data in it remembering texture size </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::GlTexture</label>
+        <link refid="classMR_1_1GlTexture"/>
+      </node>
+      <node id="2">
+        <label>MR::GlTexture2</label>
+        <link refid="classMR_1_1GlTexture2"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::GlTexture2DArray</label>
+        <link refid="classMR_1_1GlTexture2DArray"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::GlTexture3</label>
+        <link refid="classMR_1_1GlTexture3"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" bodystart="18" bodyend="94"/>
+    <listofallmembers>
+      <member refid="classMR_1_1GlTexture_1ae1b7d7ab7174f46431b88ca69d8ee589" prot="public" virt="non-virtual"><scope>MR::GlTexture</scope><name>bind</name></member>
+      <member refid="classMR_1_1GlTexture_1a14068864ba6ea4ba93a3504914da5318" prot="public" virt="non-virtual"><scope>MR::GlTexture</scope><name>del</name></member>
+      <member refid="classMR_1_1GlTexture_1afab7151082898cb970d9fc514e3c2d27" prot="private" virt="non-virtual"><scope>MR::GlTexture</scope><name>detach_</name></member>
+      <member refid="classMR_1_1GlTexture_1a93b01874cfb524236811acf50f7af69c" prot="public" virt="non-virtual"><scope>MR::GlTexture</scope><name>gen</name></member>
+      <member refid="classMR_1_1GlTexture_1a573e81765c41c4a83462f9a3a00823de" prot="public" virt="non-virtual"><scope>MR::GlTexture</scope><name>getId</name></member>
+      <member refid="classMR_1_1GlTexture_1a7be43c41cc0cfc57c53d4e3cac02a449" prot="public" virt="non-virtual"><scope>MR::GlTexture</scope><name>GlTexture</name></member>
+      <member refid="classMR_1_1GlTexture_1a628b06fbd65ce8a5e40f9f3f62e15d5e" prot="public" virt="non-virtual"><scope>MR::GlTexture</scope><name>GlTexture</name></member>
+      <member refid="classMR_1_1GlTexture_1ab3beacb78e2572350f1b40b817059e4f" prot="public" virt="non-virtual"><scope>MR::GlTexture</scope><name>GlTexture</name></member>
+      <member refid="classMR_1_1GlTexture_1a9ba560fc0c6f4da706a9249b33cc51d4" prot="public" virt="non-virtual"><scope>MR::GlTexture</scope><name>loadData</name></member>
+      <member refid="classMR_1_1GlTexture_1a3ac4435c96afe603c9f4fac5e7bbb2cc" prot="public" virt="non-virtual"><scope>MR::GlTexture</scope><name>loadData</name></member>
+      <member refid="classMR_1_1GlTexture_1a5a0c8eb224d884d8a585e73ef2c4ca2f" prot="public" virt="non-virtual"><scope>MR::GlTexture</scope><name>loadDataOpt</name></member>
+      <member refid="classMR_1_1GlTexture_1a5574566e892c3526ffd4737e97872d9e" prot="public" virt="non-virtual"><scope>MR::GlTexture</scope><name>loadDataOpt</name></member>
+      <member refid="classMR_1_1GlTexture_1a41901568843aff73ce764e7d07c0a81f" prot="public" virt="non-virtual"><scope>MR::GlTexture</scope><name>NO_TEX</name></member>
+      <member refid="classMR_1_1GlTexture_1ac05f999428948991b9e2451bf4d1cf19" prot="public" virt="non-virtual"><scope>MR::GlTexture</scope><name>operator=</name></member>
+      <member refid="classMR_1_1GlTexture_1a04a1b44a9277a7f2dad9ca4c4ea14815" prot="public" virt="non-virtual"><scope>MR::GlTexture</scope><name>operator=</name></member>
+      <member refid="classMR_1_1GlTexture_1a31f2ca34c59318a7c4d59d8a4a37782a" prot="public" virt="non-virtual"><scope>MR::GlTexture</scope><name>size</name></member>
+      <member refid="classMR_1_1GlTexture_1a24981e85fee9e75367aa3d9d3293f542" prot="protected" virt="non-virtual"><scope>MR::GlTexture</scope><name>size_</name></member>
+      <member refid="classMR_1_1GlTexture_1a7edea799f883097742210ebea4aefac5" prot="protected" virt="pure-virtual"><scope>MR::GlTexture</scope><name>texImage_</name></member>
+      <member refid="classMR_1_1GlTexture_1a9bb5bb53fefb3f277a36f6fabfe202cf" prot="protected" virt="non-virtual"><scope>MR::GlTexture</scope><name>textureID_</name></member>
+      <member refid="classMR_1_1GlTexture_1a3b04ff9e583e09691f0a425bc68ea939" prot="protected" virt="non-virtual"><scope>MR::GlTexture</scope><name>type_</name></member>
+      <member refid="classMR_1_1GlTexture_1af07d1c7bc9944130437dcddb3c74465a" prot="public" virt="non-virtual"><scope>MR::GlTexture</scope><name>valid</name></member>
+      <member refid="classMR_1_1GlTexture_1a381d704de87710189350e842dab5ad18" prot="public" virt="virtual"><scope>MR::GlTexture</scope><name>~GlTexture</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

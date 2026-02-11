@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1RenderDimensions_1_1PointParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::RenderDimensions::PointParams</compoundname>
+    <includes refid="MRRenderDimensions_8h" local="no">MRRenderDimensions.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1RenderDimensions_1_1PointParams_1aea6f31dfb7d778a350dfcabd1315dbce" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1RenderDimensions_1_1CommonParams" kindref="compound">CommonParams</ref></type>
+        <definition>CommonParams MR::RenderDimensions::PointParams::common</definition>
+        <argsstring></argsstring>
+        <name>common</name>
+        <qualifiedname>MR::RenderDimensions::PointParams::common</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" line="37" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RenderDimensions_1_1PointParams_1ac96e5a8845f39132130d9eddc3454385" prot="public" static="no" mutable="no">
+        <type>Vector3f</type>
+        <definition>Vector3f MR::RenderDimensions::PointParams::point</definition>
+        <argsstring></argsstring>
+        <name>point</name>
+        <qualifiedname>MR::RenderDimensions::PointParams::point</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" line="39" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RenderDimensions_1_1PointParams_1ac542eb79cceb0b5afb0d5017b72cd552" prot="public" static="no" mutable="no">
+        <type>ImVec2</type>
+        <definition>ImVec2 MR::RenderDimensions::PointParams::align</definition>
+        <argsstring></argsstring>
+        <name>align</name>
+        <qualifiedname>MR::RenderDimensions::PointParams::align</qualifiedname>
+        <initializer>= ImVec2( 1, 1 )</initializer>
+        <briefdescription>
+<para>The world point. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>[1,1] to display the text to the bottom-right of the point, [-1,-1] to display it to the top-left. Typically either X or Y here should be 1 or -1. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" line="43" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RenderDimensions_1_1PointParams_1a6ab7fef3f21c5bd1bd25a4c95f645e13" prot="public" static="no" mutable="no">
+        <type>std::optional&lt; Vector3f &gt;</type>
+        <definition>std::optional&lt;Vector3f&gt; MR::RenderDimensions::PointParams::referencePoint</definition>
+        <argsstring></argsstring>
+        <name>referencePoint</name>
+        <qualifiedname>MR::RenderDimensions::PointParams::referencePoint</qualifiedname>
+        <briefdescription>
+<para>If specified, we&apos;re comparing <computeroutput>point</computeroutput> against this position. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" line="46" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RenderDimensions_1_1PointParams_1aba30935609c38d5f95567ac57c0c404f" prot="public" static="no" mutable="no">
+        <type>Vector3f</type>
+        <definition>Vector3f MR::RenderDimensions::PointParams::referenceNormal</definition>
+        <argsstring></argsstring>
+        <name>referenceNormal</name>
+        <qualifiedname>MR::RenderDimensions::PointParams::referenceNormal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Only makes sense if <computeroutput>referencePoint</computeroutput> is set. If specified, we&apos;re measuring along this normal. Otherwise we&apos;re using eucledian distance. This doesn&apos;t need to be normalized. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" line="51" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RenderDimensions_1_1PointParams_1a3f121ad1c8bf6dae5c94c8fd8db92f3b" prot="public" static="no" mutable="no">
+        <type>std::optional&lt; <ref refid="structMR_1_1RenderDimensions_1_1Tolerance" kindref="compound">Tolerance</ref> &gt;</type>
+        <definition>std::optional&lt;Tolerance&gt; MR::RenderDimensions::PointParams::tolerance</definition>
+        <argsstring></argsstring>
+        <name>tolerance</name>
+        <qualifiedname>MR::RenderDimensions::PointParams::tolerance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tolerances. Only make sense if <computeroutput>referencePoint</computeroutput> is set. The <computeroutput>.negative</computeroutput> here only makes sense if <computeroutput>referenceNormal</computeroutput> is also set. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" line="55" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RenderDimensions_1_1PointParams_1a7e497a083e2528f951bf48ea00473a3f" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::RenderDimensions::PointParams::capIsVisible</definition>
+        <argsstring></argsstring>
+        <name>capIsVisible</name>
+        <qualifiedname>MR::RenderDimensions::PointParams::capIsVisible</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>Whether to draw the cap or not. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" line="58" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR::Object</label>
+        <link refid="classMR_1_1Object"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>worldXfChangedSignal</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>xf_</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>visibilityMask_</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR::ObjectChildrenHolder</label>
+        <link refid="classMR_1_1ObjectChildrenHolder"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>parent_</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::RenderDimensions::CommonParams</label>
+        <link refid="structMR_1_1RenderDimensions_1_1CommonParams"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>objectToSelect</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::RenderDimensions::PointParams</label>
+        <link refid="structMR_1_1RenderDimensions_1_1PointParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>common</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MR::Signal&lt; void()&gt;</label>
+        <link refid="structMR_1_1Signal"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>MR::UniquePtr&lt; MR::IRenderObject &gt;</label>
+        <link refid="structMR_1_1UniquePtr"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>MR::ViewportMask</label>
+        <link refid="classMR_1_1ViewportMask"/>
+      </node>
+      <node id="8">
+        <label>MR::ViewportProperty&lt; AffineXf3f &gt;</label>
+        <link refid="classMR_1_1ViewportProperty"/>
+      </node>
+      <node id="12">
+        <label>MR::ViewportProperty&lt; MR::Color &gt;</label>
+        <link refid="classMR_1_1ViewportProperty"/>
+      </node>
+      <node id="13">
+        <label>MR::ViewportProperty&lt; uint8_t &gt;</label>
+        <link refid="classMR_1_1ViewportProperty"/>
+      </node>
+      <node id="3">
+        <label>MR::VisualObject</label>
+        <link refid="classMR_1_1VisualObject"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>renderObj_</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>clipByPlane_</edgelabel>
+          <edgelabel>depthTest_</edgelabel>
+          <edgelabel>invertNormals_</edgelabel>
+          <edgelabel>pickable_</edgelabel>
+          <edgelabel>showName_</edgelabel>
+        </childnode>
+        <childnode refid="12" relation="usage">
+          <edgelabel>backFacesColor_</edgelabel>
+          <edgelabel>selectedColor_</edgelabel>
+          <edgelabel>unselectedColor_</edgelabel>
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>globalAlpha_</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>boost::signals2::signal&lt; void() &gt;</label>
+      </node>
+      <node id="11">
+        <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" line="35" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" bodystart="36" bodyend="59"/>
+    <listofallmembers>
+      <member refid="structMR_1_1RenderDimensions_1_1PointParams_1ac542eb79cceb0b5afb0d5017b72cd552" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::PointParams</scope><name>align</name></member>
+      <member refid="structMR_1_1RenderDimensions_1_1PointParams_1a7e497a083e2528f951bf48ea00473a3f" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::PointParams</scope><name>capIsVisible</name></member>
+      <member refid="structMR_1_1RenderDimensions_1_1PointParams_1aea6f31dfb7d778a350dfcabd1315dbce" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::PointParams</scope><name>common</name></member>
+      <member refid="structMR_1_1RenderDimensions_1_1PointParams_1ac96e5a8845f39132130d9eddc3454385" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::PointParams</scope><name>point</name></member>
+      <member refid="structMR_1_1RenderDimensions_1_1PointParams_1aba30935609c38d5f95567ac57c0c404f" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::PointParams</scope><name>referenceNormal</name></member>
+      <member refid="structMR_1_1RenderDimensions_1_1PointParams_1a6ab7fef3f21c5bd1bd25a4c95f645e13" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::PointParams</scope><name>referencePoint</name></member>
+      <member refid="structMR_1_1RenderDimensions_1_1PointParams_1a3f121ad1c8bf6dae5c94c8fd8db92f3b" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::PointParams</scope><name>tolerance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1FindProjectionOnPointsSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::FindProjectionOnPointsSettings</compoundname>
+    <includes refid="MRPointsProject_8h" local="no">MRPointsProject.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1FindProjectionOnPointsSettings_1a3f9c60f79369db701c3869e757686217" prot="public" static="no" mutable="no">
+        <type>const <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> *</type>
+        <definition>const BitSet* MR::FindProjectionOnPointsSettings::valid</definition>
+        <argsstring></argsstring>
+        <name>valid</name>
+        <qualifiedname>MR::FindProjectionOnPointsSettings::valid</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>bitset of valid input points </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" line="78" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1FindProjectionOnPointsSettings_1ad8f6c40c1465fcd41082510e2022e694" prot="public" static="no" mutable="no">
+        <type>const AffineXf3f *</type>
+        <definition>const AffineXf3f* MR::FindProjectionOnPointsSettings::xf</definition>
+        <argsstring></argsstring>
+        <name>xf</name>
+        <qualifiedname>MR::FindProjectionOnPointsSettings::xf</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>affine transformation for input points </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" line="80" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1FindProjectionOnPointsSettings_1a51086d69676631deb69313f75b2d8379" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::FindProjectionOnPointsSettings::upDistLimitSq</definition>
+        <argsstring></argsstring>
+        <name>upDistLimitSq</name>
+        <qualifiedname>MR::FindProjectionOnPointsSettings::upDistLimitSq</qualifiedname>
+        <initializer>= FLT_MAX</initializer>
+        <briefdescription>
+<para>upper limit on the distance in question, if the real distance is larger than the function exits returning upDistLimitSq and no valid point </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" line="82" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1FindProjectionOnPointsSettings_1a33ab001af75b70c47485278f07082bd5" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::FindProjectionOnPointsSettings::loDistLimitSq</definition>
+        <argsstring></argsstring>
+        <name>loDistLimitSq</name>
+        <qualifiedname>MR::FindProjectionOnPointsSettings::loDistLimitSq</qualifiedname>
+        <initializer>= 0.f</initializer>
+        <briefdescription>
+<para>low limit on the distance in question, if a point is found within this distance then it is immediately returned without searching for a closer one </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" line="84" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1FindProjectionOnPointsSettings_1a41d849f8892e4ddc754d38672dde5152" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::FindProjectionOnPointsSettings::skipSameIndex</definition>
+        <argsstring></argsstring>
+        <name>skipSameIndex</name>
+        <qualifiedname>MR::FindProjectionOnPointsSettings::skipSameIndex</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>if true, discards a projection candidate with the same index as the target point </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" line="86" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1FindProjectionOnPointsSettings_1aa4d8d3a3b0dac4b24f0e182945040220" prot="public" static="no" mutable="no">
+        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+        <definition>ProgressCallback MR::FindProjectionOnPointsSettings::cb</definition>
+        <argsstring></argsstring>
+        <name>cb</name>
+        <qualifiedname>MR::FindProjectionOnPointsSettings::cb</qualifiedname>
+        <briefdescription>
+<para>progress callback </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" line="88" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>settings for <ref refid="classMR_1_1IPointsProjector_1a73d0b887b876f110e3fb6554422f9a31" kindref="member">IPointsProjector::findProjections</ref> </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::BitSet</label>
+        <link refid="classMR_1_1BitSet"/>
+      </node>
+      <node id="1">
+        <label>MR::FindProjectionOnPointsSettings</label>
+        <link refid="structMR_1_1FindProjectionOnPointsSettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>valid</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" line="75" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" bodystart="76" bodyend="89"/>
+    <listofallmembers>
+      <member refid="structMR_1_1FindProjectionOnPointsSettings_1aa4d8d3a3b0dac4b24f0e182945040220" prot="public" virt="non-virtual"><scope>MR::FindProjectionOnPointsSettings</scope><name>cb</name></member>
+      <member refid="structMR_1_1FindProjectionOnPointsSettings_1a33ab001af75b70c47485278f07082bd5" prot="public" virt="non-virtual"><scope>MR::FindProjectionOnPointsSettings</scope><name>loDistLimitSq</name></member>
+      <member refid="structMR_1_1FindProjectionOnPointsSettings_1a41d849f8892e4ddc754d38672dde5152" prot="public" virt="non-virtual"><scope>MR::FindProjectionOnPointsSettings</scope><name>skipSameIndex</name></member>
+      <member refid="structMR_1_1FindProjectionOnPointsSettings_1a51086d69676631deb69313f75b2d8379" prot="public" virt="non-virtual"><scope>MR::FindProjectionOnPointsSettings</scope><name>upDistLimitSq</name></member>
+      <member refid="structMR_1_1FindProjectionOnPointsSettings_1a3f9c60f79369db701c3869e757686217" prot="public" virt="non-virtual"><scope>MR::FindProjectionOnPointsSettings</scope><name>valid</name></member>
+      <member refid="structMR_1_1FindProjectionOnPointsSettings_1ad8f6c40c1465fcd41082510e2022e694" prot="public" virt="non-virtual"><scope>MR::FindProjectionOnPointsSettings</scope><name>xf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

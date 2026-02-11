@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1UniqueTemporaryFolder" kind="class" language="C++" prot="public">
+    <compoundname>MR::UniqueTemporaryFolder</compoundname>
+    <includes refid="MRUniqueTemporaryFolder_8h" local="no">MRUniqueTemporaryFolder.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1UniqueTemporaryFolder_1abd89fab59fca651ac998d7bac4973f72" prot="private" static="no" mutable="no">
+        <type>std::filesystem::path</type>
+        <definition>std::filesystem::path MR::UniqueTemporaryFolder::folder_</definition>
+        <argsstring></argsstring>
+        <name>folder_</name>
+        <qualifiedname>MR::UniqueTemporaryFolder::folder_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueTemporaryFolder.h" line="37" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueTemporaryFolder.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1UniqueTemporaryFolder_1acdbe5464e0796cb2b8b083d58804a4be" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1a3f12c695d99ddb646e5d824fa7257413" kindref="member">FolderCallback</ref></type>
+        <definition>FolderCallback MR::UniqueTemporaryFolder::onPreTempFolderDelete_</definition>
+        <argsstring></argsstring>
+        <name>onPreTempFolderDelete_</name>
+        <qualifiedname>MR::UniqueTemporaryFolder::onPreTempFolderDelete_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueTemporaryFolder.h" line="38" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueTemporaryFolder.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1UniqueTemporaryFolder_1ace9464c8f12cf5ffa4258eff7b5114e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <definition>MRMESH_API MR::UniqueTemporaryFolder::UniqueTemporaryFolder</definition>
+        <argsstring>(FolderCallback onPreTempFolderDelete={})</argsstring>
+        <name>UniqueTemporaryFolder</name>
+        <qualifiedname>MR::UniqueTemporaryFolder::UniqueTemporaryFolder</qualifiedname>
+        <param>
+          <type><ref refid="namespaceMR_1a3f12c695d99ddb646e5d824fa7257413" kindref="member">FolderCallback</ref></type>
+          <declname>onPreTempFolderDelete</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>creates new folder in temp directory </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueTemporaryFolder.h" line="18" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UniqueTemporaryFolder_1a175a2246818aaee34d1f1be05f2d3256" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref></type>
+        <definition>MRMESH_API MR::UniqueTemporaryFolder::~UniqueTemporaryFolder</definition>
+        <argsstring>()</argsstring>
+        <name>~UniqueTemporaryFolder</name>
+        <qualifiedname>MR::UniqueTemporaryFolder::~UniqueTemporaryFolder</qualifiedname>
+        <briefdescription>
+<para>removes folder with all its content </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueTemporaryFolder.h" line="21" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UniqueTemporaryFolder_1a8ec198312afe50720d7c5ab8ef8cfc46" prot="public" static="no" const="yes" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::UniqueTemporaryFolder::operator bool</definition>
+        <argsstring>() const</argsstring>
+        <name>operator bool</name>
+        <qualifiedname>MR::UniqueTemporaryFolder::operator bool</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueTemporaryFolder.h" line="23" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueTemporaryFolder.h" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UniqueTemporaryFolder_1a990b724a34e3cff31ff265fee8ab84b5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::filesystem::path</type>
+        <definition>std::filesystem::path MR::UniqueTemporaryFolder::operator/</definition>
+        <argsstring>(const std::filesystem::path &amp;child) const</argsstring>
+        <name>operator/</name>
+        <qualifiedname>MR::UniqueTemporaryFolder::operator/</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>child</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueTemporaryFolder.h" line="31" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueTemporaryFolder.h" bodystart="31" bodyend="34"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>helper class to create a temporary folder; the folder will be removed on the object&apos;s destruction </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueTemporaryFolder.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniqueTemporaryFolder.h" bodystart="15" bodyend="39"/>
+    <listofallmembers>
+      <member refid="classMR_1_1UniqueTemporaryFolder_1abd89fab59fca651ac998d7bac4973f72" prot="private" virt="non-virtual"><scope>MR::UniqueTemporaryFolder</scope><name>folder_</name></member>
+      <member refid="classMR_1_1UniqueTemporaryFolder_1acdbe5464e0796cb2b8b083d58804a4be" prot="private" virt="non-virtual"><scope>MR::UniqueTemporaryFolder</scope><name>onPreTempFolderDelete_</name></member>
+      <member refid="classMR_1_1UniqueTemporaryFolder_1a8ec198312afe50720d7c5ab8ef8cfc46" prot="public" virt="non-virtual"><scope>MR::UniqueTemporaryFolder</scope><name>operator bool</name></member>
+      <member refid="classMR_1_1UniqueTemporaryFolder_1a990b724a34e3cff31ff265fee8ab84b5" prot="public" virt="non-virtual"><scope>MR::UniqueTemporaryFolder</scope><name>operator/</name></member>
+      <member refid="classMR_1_1UniqueTemporaryFolder_1ace9464c8f12cf5ffa4258eff7b5114e5" prot="public" virt="non-virtual"><scope>MR::UniqueTemporaryFolder</scope><name>UniqueTemporaryFolder</name></member>
+      <member refid="classMR_1_1UniqueTemporaryFolder_1a175a2246818aaee34d1f1be05f2d3256" prot="public" virt="non-virtual"><scope>MR::UniqueTemporaryFolder</scope><name>~UniqueTemporaryFolder</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrviewerpy_1_1UiValueString" kind="class" language="Python" prot="public">
+    <compoundname>mrviewerpy::UiValueString</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrviewerpy_1_1UiValueString_1a33aa1bbce9ddb6dc57f7429c22e79b07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>list[str]|None</type>
+        <definition> list[str] | None mrviewerpy.UiValueString.allowed</definition>
+        <argsstring>(self)</argsstring>
+        <name>allowed</name>
+        <qualifiedname>mrviewerpy.UiValueString.allowed</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="182" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="182" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrviewerpy_1_1UiValueString_1abec5cfbe975535c861f4b592638a5544" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrviewerpy.UiValueString.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrviewerpy.UiValueString.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="185" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="185" bodyend="186"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="180" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="180" bodyend="186"/>
+    <listofallmembers>
+      <member refid="classmrviewerpy_1_1UiValueString_1a33aa1bbce9ddb6dc57f7429c22e79b07" prot="public" virt="non-virtual"><scope>mrviewerpy::UiValueString</scope><name>allowed</name></member>
+      <member refid="classmrviewerpy_1_1UiValueString_1abec5cfbe975535c861f4b592638a5544" prot="public" virt="non-virtual"><scope>mrviewerpy::UiValueString</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

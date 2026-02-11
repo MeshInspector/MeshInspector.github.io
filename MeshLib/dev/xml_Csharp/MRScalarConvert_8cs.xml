@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRScalarConvert_8cs" kind="file" language="C#">
+    <compoundname>MRScalarConvert.cs</compoundname>
+    <innerclass refid="classMR" prot="public">MR</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">partial<sp/>class<sp/></highlight><highlight class="normal"><ref refid="classMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="2"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="classMR_1a84b05c595bca2e76755d6b627c5b940e" kindref="member">ScalarType</ref><sp/>:<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1a84b05c595bca2e76755d6b627c5b940eab31df9c476d20e85ff898121efe11b5a" kindref="member">UInt8</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1a84b05c595bca2e76755d6b627c5b940ea7d839b2c12bfd40ac121b4cc9e81c539" kindref="member">Int8</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1a84b05c595bca2e76755d6b627c5b940ea8bd950a9d7779b83f5c30046c9aaf1cf" kindref="member">UInt16</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1a84b05c595bca2e76755d6b627c5b940ea39bc2ae44b184207f560ff8619823208" kindref="member">Int16</ref><sp/>=<sp/>3,</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1a84b05c595bca2e76755d6b627c5b940eae7956ed7be1c5025a27ed3cb42a396bd" kindref="member">UInt32</ref><sp/>=<sp/>4,</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1a84b05c595bca2e76755d6b627c5b940eac06129f6e6e15c09328365e553f1dc31" kindref="member">Int32</ref><sp/>=<sp/>5,</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1a84b05c595bca2e76755d6b627c5b940eaaf71234725f0470ccf993e263a8b820a" kindref="member">UInt64</ref><sp/>=<sp/>6,</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1a84b05c595bca2e76755d6b627c5b940eafbde23b11d7e59af7828e81144c8b487" kindref="member">Int64</ref><sp/>=<sp/>7,</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1a84b05c595bca2e76755d6b627c5b940ea166495adc0d0f53bee6baecc577f5204" kindref="member">Float32</ref><sp/>=<sp/>8,</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1a84b05c595bca2e76755d6b627c5b940ead2b556d8a8f5c8ac323f51a4b82e79a0" kindref="member">Float64</ref><sp/>=<sp/>9,</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1a84b05c595bca2e76755d6b627c5b940ea3dced80f38319c510aa418c1dee5e142" kindref="member">Float32_4</ref><sp/>=<sp/>10,</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1a84b05c595bca2e76755d6b627c5b940ea88183b946cc5f0e8c96b2e66e1c74a7e" kindref="member">Unknown</ref><sp/>=<sp/>11,</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1a743e44071d03602617e933180226f550ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">Count</ref><sp/>=<sp/>12,</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>unsafe<sp/>MR.Std.Function_FloatFuncFromConstCharPtr<sp/><ref refid="classMR_1ab856b3c0b5185aaae8cebead64c50436" kindref="member">getTypeConverter</ref>(<ref refid="classMR" kindref="compound">MR</ref>.<ref refid="classMR_1a84b05c595bca2e76755d6b627c5b940e" kindref="member">ScalarType</ref><sp/>scalarType,<sp/>ulong<sp/>range,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>min)</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[System.Runtime.InteropServices.DllImport(</highlight><highlight class="stringliteral">&quot;MeshLibC2&quot;</highlight><highlight class="normal">,<sp/>EntryPoint<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;MR_getTypeConverter&quot;</highlight><highlight class="normal">,<sp/>ExactSpelling<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>MR.Std.Function_FloatFuncFromConstCharPtr._Underlying<sp/>*__MR_getTypeConverter(<ref refid="classMR" kindref="compound">MR</ref>.<ref refid="classMR_1a84b05c595bca2e76755d6b627c5b940e" kindref="member">ScalarType</ref><sp/>scalarType,<sp/>ulong<sp/>range,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>min);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal">(__MR_getTypeConverter(scalarType,<sp/>range,<sp/>min),<sp/>is_owning:<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRScalarConvert.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1OutputFlows" kind="class" language="C#" prot="public">
+    <compoundname>MR::OutputFlows</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_OutputFlows</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1OutputFlows_1a407e12bf8e1b8f830a6fdcbb340097b3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? <ref refid="classMR_1_1Polyline3" kindref="compound">Polyline3</ref></type>
+        <definition>new unsafe MR.? Polyline3 MR.OutputFlows.pPolyline</definition>
+        <argsstring></argsstring>
+        <name>pPolyline</name>
+        <qualifiedname>MR.OutputFlows.pPolyline</qualifiedname>
+        <briefdescription>
+<para>optional output: lines of all flows </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="366" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="367" bodyend="376"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1OutputFlows_1a58cc929825802bcd08dbbf8ebb88c8cc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? <ref refid="classMR_1_1UndirectedEdgeScalars" kindref="compound">UndirectedEdgeScalars</ref></type>
+        <definition>new unsafe MR.? UndirectedEdgeScalars MR.OutputFlows.pFlowPerEdge</definition>
+        <argsstring></argsstring>
+        <name>pFlowPerEdge</name>
+        <qualifiedname>MR.OutputFlows.pFlowPerEdge</qualifiedname>
+        <briefdescription>
+<para>optional output: flow in each line of outPolyline </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="379" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="380" bodyend="389"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1OutputFlows_1a14d9785a1a0bedfc6cb7f28951452946" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.OutputFlows.amountGreaterThan</definition>
+        <argsstring></argsstring>
+        <name>amountGreaterThan</name>
+        <qualifiedname>MR.OutputFlows.amountGreaterThan</qualifiedname>
+        <briefdescription>
+<para>output in outPolyline only the flows with the amount greater than </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="392" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="392" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1OutputFlows_1a8069f96da1152360622a2abe7423cc16" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.OutputFlows.OutputFlows</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>OutputFlows</name>
+        <qualifiedname>MR.OutputFlows.OutputFlows</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="396" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="396" bodyend="400"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1OutputFlows_1aa3db10cac2334cff1f5cae6fe1892ad3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.OutputFlows.OutputFlows</definition>
+        <argsstring>()</argsstring>
+        <name>OutputFlows</name>
+        <qualifiedname>MR.OutputFlows.OutputFlows</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="406" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="406" bodyend="412"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1OutputFlows_1ab0a854e80c40ee135f2ba414f11e99e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.OutputFlows.OutputFlows</definition>
+        <argsstring>(MR.Polyline3? pPolyline, MR.UndirectedEdgeScalars? pFlowPerEdge, float amountGreaterThan)</argsstring>
+        <name>OutputFlows</name>
+        <qualifiedname>MR.OutputFlows.OutputFlows</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Polyline3" kindref="compound">MR.Polyline3</ref>?</type>
+          <declname>pPolyline</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1UndirectedEdgeScalars" kindref="compound">MR.UndirectedEdgeScalars</ref>?</type>
+          <declname>pFlowPerEdge</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>amountGreaterThan</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1OutputFlows" kindref="compound">MR.OutputFlows</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="417" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="417" bodyend="425"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1OutputFlows_1a04bf6e3d051f5f3255b401362265bb9c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.OutputFlows.OutputFlows</definition>
+        <argsstring>(MR.Const_OutputFlows _other)</argsstring>
+        <name>OutputFlows</name>
+        <qualifiedname>MR.OutputFlows.OutputFlows</qualifiedname>
+        <param>
+          <type>MR.Const_OutputFlows</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.OutputFlows.OutputFlows</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="430" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="430" bodyend="437"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1OutputFlows_1ad5307566194b657868b12e2f6ec214b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.OutputFlows.OutputFlows</definition>
+        <argsstring>(OutputFlows _other)</argsstring>
+        <name>OutputFlows</name>
+        <qualifiedname>MR.OutputFlows.OutputFlows</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1OutputFlows" kindref="compound">OutputFlows</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.OutputFlows.OutputFlows</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="442" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="442" bodyend="442"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1OutputFlows_1a08ae2a9a8454057a58610986421de55d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1OutputFlows" kindref="compound">MR.OutputFlows</ref></type>
+        <definition>unsafe MR.OutputFlows MR.OutputFlows.assign</definition>
+        <argsstring>(MR.Const_OutputFlows _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.OutputFlows.assign</qualifiedname>
+        <param>
+          <type>MR.Const_OutputFlows</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.OutputFlows.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="447" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="447" bodyend="454"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1OutputFlows" kindref="compound">MR.OutputFlows</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_OutputFlows</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.OutputFlows</label>
+        <link refid="classMR_1_1OutputFlows"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_OutputFlows &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_OutputFlows</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.OutputFlows</label>
+        <link refid="classMR_1_1OutputFlows"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_OutputFlows &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="363" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="364" bodyend="455"/>
+    <listofallmembers>
+      <member refid="classMR_1_1OutputFlows_1a14d9785a1a0bedfc6cb7f28951452946" prot="public" virt="non-virtual"><scope>MR::OutputFlows</scope><name>amountGreaterThan</name></member>
+      <member refid="classMR_1_1OutputFlows_1a08ae2a9a8454057a58610986421de55d" prot="public" virt="non-virtual"><scope>MR::OutputFlows</scope><name>assign</name></member>
+      <member refid="classMR_1_1OutputFlows_1a8069f96da1152360622a2abe7423cc16" prot="package" virt="non-virtual"><scope>MR::OutputFlows</scope><name>OutputFlows</name></member>
+      <member refid="classMR_1_1OutputFlows_1aa3db10cac2334cff1f5cae6fe1892ad3" prot="public" virt="non-virtual"><scope>MR::OutputFlows</scope><name>OutputFlows</name></member>
+      <member refid="classMR_1_1OutputFlows_1ab0a854e80c40ee135f2ba414f11e99e5" prot="public" virt="non-virtual"><scope>MR::OutputFlows</scope><name>OutputFlows</name></member>
+      <member refid="classMR_1_1OutputFlows_1a04bf6e3d051f5f3255b401362265bb9c" prot="public" virt="non-virtual"><scope>MR::OutputFlows</scope><name>OutputFlows</name></member>
+      <member refid="classMR_1_1OutputFlows_1ad5307566194b657868b12e2f6ec214b6" prot="public" virt="non-virtual"><scope>MR::OutputFlows</scope><name>OutputFlows</name></member>
+      <member refid="classMR_1_1OutputFlows_1a58cc929825802bcd08dbbf8ebb88c8cc" prot="public" virt="non-virtual"><scope>MR::OutputFlows</scope><name>pFlowPerEdge</name></member>
+      <member refid="classMR_1_1OutputFlows_1a407e12bf8e1b8f830a6fdcbb340097b3" prot="public" virt="non-virtual"><scope>MR::OutputFlows</scope><name>pPolyline</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,309 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ChangeColoringType" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ChangeColoringType</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1HistoryAction" prot="public" virt="non-virtual">mrmeshpy.HistoryAction</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ChangeColoringType_1ae06293561b7e91684173e258e8b13d28" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.ChangeColoringType::Obj</definition>
+        <argsstring></argsstring>
+        <name>Obj</name>
+        <qualifiedname>mrmeshpy.ChangeColoringType.Obj</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1VisualObject" kindref="compound">VisualObject</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7498" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7498" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeColoringType_1a2cf6016379153c68da9c317033bb7f6f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeColoringType.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangeColoringType.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7501" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7501" bodyend="7502"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeColoringType_1aabb4d07abe05d95bc79df5486808050d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeColoringType.action</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>action</name>
+        <qualifiedname>mrmeshpy.ChangeColoringType.action</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1a2199dde1385a22cd938f9112386930a9">action</reimplements>
+        <param>
+          <type>*</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>actionType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>This function is called on history action (undo, redo, etc.)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7504" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7504" bodyend="7505"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeColoringType_1a73d441a67225fdd5bbe7824be6c3171c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ChangeColoringType" kindref="compound">ChangeColoringType</ref></type>
+        <definition> ChangeColoringType mrmeshpy.ChangeColoringType.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ChangeColoringType.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7508" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7508" bodyend="7509"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeColoringType_1a73d441a67225fdd5bbe7824be6c3171c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ChangeColoringType" kindref="compound">ChangeColoringType</ref></type>
+        <definition> ChangeColoringType mrmeshpy.ChangeColoringType.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ChangeColoringType.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7512" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7512" bodyend="7513"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeColoringType_1addfbcacb9bcaf13a16569ea231f551e0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeColoringType.setObjectDirty</definition>
+        <argsstring>(VisualObject obj)</argsstring>
+        <name>setObjectDirty</name>
+        <qualifiedname>mrmeshpy.ChangeColoringType.setObjectDirty</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VisualObject" kindref="compound">VisualObject</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7515" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7515" bodyend="7516"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeColoringType_1a5f1315e6a251684f3f8ae5a7db9770ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeColoringType.__init__</definition>
+        <argsstring>(self, str name, VisualObject obj)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangeColoringType.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VisualObject" kindref="compound">VisualObject</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>use this constructor to remember object&apos;s coloring type before making any changes in it
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7518" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7518" bodyend="7521"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeColoringType_1a198936374ec1c5f09fc96a5352d30e6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeColoringType.__init__</definition>
+        <argsstring>(self, str name, VisualObject obj, ColoringType newType)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangeColoringType.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VisualObject" kindref="compound">VisualObject</ref></type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ColoringType" kindref="compound">ColoringType</ref></type>
+          <declname>newType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>use this constructor to remember object&apos;s coloring type and immediate set new value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7523" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7523" bodyend="7526"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeColoringType_1a1f691a747aeedf924a1d0fed47087559" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeColoringType.__init__</definition>
+        <argsstring>(self, ChangeColoringType arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangeColoringType.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ChangeColoringType" kindref="compound">ChangeColoringType</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7528" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7528" bodyend="7531"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeColoringType_1ab1ea1bba516bee9cc073a80cd2a4b28f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ChangeColoringType.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.ChangeColoringType.heapBytes</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1a264e20dd6ab37f662580467faa52b10d">heapBytes</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7532" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7532" bodyend="7533"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeColoringType_1a73346535e0dbf5ce6183618d53bb62b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ChangeColoringType.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.ChangeColoringType.name</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1ae7381d8eabc34dc5007f597956d64c2a">name</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7534" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7534" bodyend="7535"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ChangeColoringType
+
+History action for ColoringType change
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.ChangeColoringType</label>
+        <link refid="classmrmeshpy_1_1ChangeColoringType"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.HistoryAction</label>
+        <link refid="classmrmeshpy_1_1HistoryAction"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ChangeColoringType</label>
+        <link refid="classmrmeshpy_1_1ChangeColoringType"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.HistoryAction</label>
+        <link refid="classmrmeshpy_1_1HistoryAction"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7492" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7492" bodyend="7535"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ChangeColoringType_1a2cf6016379153c68da9c317033bb7f6f" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeColoringType</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangeColoringType_1a5f1315e6a251684f3f8ae5a7db9770ad" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeColoringType</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangeColoringType_1a198936374ec1c5f09fc96a5352d30e6f" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeColoringType</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangeColoringType_1a1f691a747aeedf924a1d0fed47087559" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeColoringType</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangeColoringType_1aabb4d07abe05d95bc79df5486808050d" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeColoringType</scope><name>action</name></member>
+      <member refid="classmrmeshpy_1_1ChangeColoringType_1ab1ea1bba516bee9cc073a80cd2a4b28f" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeColoringType</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1ChangeColoringType_1a73346535e0dbf5ce6183618d53bb62b9" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeColoringType</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1ChangeColoringType_1ae06293561b7e91684173e258e8b13d28" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeColoringType</scope><name>Obj</name></member>
+      <member refid="classmrmeshpy_1_1ChangeColoringType_1a73d441a67225fdd5bbe7824be6c3171c" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeColoringType</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ChangeColoringType_1a73d441a67225fdd5bbe7824be6c3171c" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeColoringType</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ChangeColoringType_1addfbcacb9bcaf13a16569ea231f551e0" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeColoringType</scope><name>setObjectDirty</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

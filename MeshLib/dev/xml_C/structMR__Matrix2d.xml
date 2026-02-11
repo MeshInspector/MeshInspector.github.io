@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR__Matrix2d" kind="struct" language="C++" prot="public">
+    <compoundname>MR_Matrix2d</compoundname>
+    <includes refid="MRMatrix2_8h" local="no">MRMatrix2.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR__Matrix2d_1a3cd6db01cb1e22c79f603e4a81e94011" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref></type>
+        <definition>MR_Vector2d MR_Matrix2d::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <qualifiedname>MR_Matrix2d::x</qualifiedname>
+        <briefdescription>
+<para>rows, identity matrix by default </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix2.h" line="59" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix2.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR__Matrix2d_1ad94dda79ed82546495459108b665ab4e" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref></type>
+        <definition>MR_Vector2d MR_Matrix2d::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <qualifiedname>MR_Matrix2d::y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix2.h" line="60" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix2.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>arbitrary 2x2 matrix Generated from class <computeroutput>MR::Matrix2d</computeroutput>. </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR_Matrix2d</label>
+        <link refid="structMR__Matrix2d"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>x</edgelabel>
+          <edgelabel>y</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR_Vector2d</label>
+        <link refid="structMR__Vector2d"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix2.h" line="56" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix2.h" bodystart="57" bodyend="61"/>
+    <listofallmembers>
+      <member refid="structMR__Matrix2d_1a3cd6db01cb1e22c79f603e4a81e94011" prot="public" virt="non-virtual"><scope>MR_Matrix2d</scope><name>x</name></member>
+      <member refid="structMR__Matrix2d_1ad94dda79ed82546495459108b665ab4e" prot="public" virt="non-virtual"><scope>MR_Matrix2d</scope><name>y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRPolylineProject_8h" kind="file" language="C++">
+    <compoundname>MRPolylineProject.h</compoundname>
+    <includes refid="MRId_8h" local="yes">MRId.h</includes>
+    <includes refid="MRVector3_8h" local="yes">MRVector3.h</includes>
+    <includes local="no">cfloat</includes>
+    <includes local="no">functional</includes>
+    <includedby refid="MRPolyline2Project_8h" local="yes">MRPolyline2Project.h</includedby>
+    <incdepgraph>
+      <node id="5">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>MRConstants.h</label>
+        <link refid="MRConstants_8h"/>
+      </node>
+      <node id="2">
+        <label>MRId.h</label>
+        <link refid="MRId_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="3">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRPolylineProject.h</label>
+        <link refid="MRPolylineProject_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="7">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="20">
+        <label>algorithm</label>
+      </node>
+      <node id="8">
+        <label>array</label>
+      </node>
+      <node id="13">
+        <label>cassert</label>
+      </node>
+      <node id="24">
+        <label>cfloat</label>
+      </node>
+      <node id="21">
+        <label>cmath</label>
+      </node>
+      <node id="14">
+        <label>cstddef</label>
+      </node>
+      <node id="22">
+        <label>cstring</label>
+      </node>
+      <node id="12">
+        <label>functional</label>
+      </node>
+      <node id="23">
+        <label>iosfwd</label>
+      </node>
+      <node id="11">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="10">
+        <label>string</label>
+      </node>
+      <node id="15">
+        <label>type_traits</label>
+      </node>
+      <node id="16">
+        <label>utility</label>
+      </node>
+      <node id="9">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>MRPolyline2Project.h</label>
+        <link refid="MRPolyline2Project_8h"/>
+      </node>
+      <node id="1">
+        <label>MRPolylineProject.h</label>
+        <link refid="MRPolylineProject_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structMR_1_1PolylineProjectionResult" prot="public">MR::PolylineProjectionResult</innerclass>
+    <innerclass refid="structMR_1_1PolylineProjectionResult3Arg" prot="public">MR::PolylineProjectionResult3Arg</innerclass>
+    <innerclass refid="structMR_1_1PolylineProjectionWithOffsetResult" prot="public">MR::PolylineProjectionWithOffsetResult</innerclass>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRId_8h" kindref="compound">MRId.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRVector3_8h" kindref="compound">MRVector3.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cfloat&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;functional&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V&gt;</highlight></codeline>
+<codeline lineno="14" refid="structMR_1_1PolylineProjectionResult" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1PolylineProjectionResult" kindref="compound">PolylineProjectionResult</ref></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17" refid="structMR_1_1PolylineProjectionResult_1a575d694a03d4903a8b460aeba47cfe1c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>UndirectedEdgeId<sp/><ref refid="structMR_1_1PolylineProjectionResult_1a575d694a03d4903a8b460aeba47cfe1c" kindref="member">line</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="structMR_1_1PolylineProjectionResult_1a954df3a650cf8eeea5e253acae8126bd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>V<sp/><ref refid="structMR_1_1PolylineProjectionResult_1a954df3a650cf8eeea5e253acae8126bd" kindref="member">point</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="structMR_1_1PolylineProjectionResult_1a81f4cd1607e7835a737edcf9011740d8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PolylineProjectionResult_1a81f4cd1607e7835a737edcf9011740d8" kindref="member">distSq</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="structMR_1_1PolylineProjectionResult_1a7a353323e51db61fabf08080cbe55598" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PolylineProjectionResult_1a7a353323e51db61fabf08080cbe55598" kindref="member">valid</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PolylineProjectionResult_1a575d694a03d4903a8b460aeba47cfe1c" kindref="member">line</ref>.valid();<sp/>}</highlight></codeline>
+<codeline lineno="27" refid="structMR_1_1PolylineProjectionResult_1a65b3a379e994fdd5dd100ddb4cb1d02c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal"><sp/>bool()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PolylineProjectionResult_1a575d694a03d4903a8b460aeba47cfe1c" kindref="member">line</ref>.valid();<sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="group__AABBTreeGroup_1ga7f7211a85409018fd8ee71495646faa3" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>PolylineProjectionResult2<sp/><ref refid="group__AABBTreeGroup_1ga7f7211a85409018fd8ee71495646faa3" kindref="member">findProjectionOnPolyline2</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>pt,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline2&amp;<sp/>polyline,</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>upDistLimitSq<sp/>=<sp/>FLT_MAX,<sp/>AffineXf2f*<sp/>xf<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>loDistLimitSq<sp/>=<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="group__AABBTreeGroup_1ga5e71a300face382a26ba8596d9b19820" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>PolylineProjectionResult3<sp/><ref refid="group__AABBTreeGroup_1ga5e71a300face382a26ba8596d9b19820" kindref="member">findProjectionOnPolyline</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>pt,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline3&amp;<sp/>polyline,</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>upDistLimitSq<sp/>=<sp/>FLT_MAX,<sp/>AffineXf3f*<sp/>xf<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>loDistLimitSq<sp/>=<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="structMR_1_1PolylineProjectionResult3Arg" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1PolylineProjectionResult3Arg" kindref="compound">PolylineProjectionResult3Arg</ref><sp/>:<sp/>PolylineProjectionResult3</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="50" refid="structMR_1_1PolylineProjectionResult3Arg_1a2cf18e52c58f017c162f7f60ad2c514e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VertId<sp/><ref refid="structMR_1_1PolylineProjectionResult3Arg_1a2cf18e52c58f017c162f7f60ad2c514e" kindref="member">pointId</ref>;<sp/></highlight></codeline>
+<codeline lineno="51"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="group__AABBTreeGroup_1ga491ccc452b2d068da6ce82aaebcd5372" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1PolylineProjectionResult3Arg" kindref="compound">PolylineProjectionResult3Arg</ref><sp/><ref refid="group__AABBTreeGroup_1ga491ccc452b2d068da6ce82aaebcd5372" kindref="member">findMaxProjectionOnPolyline</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertCoords&amp;<sp/>points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline3&amp;<sp/>polyline,</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet*<sp/>pointsRegion<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/>AffineXf3f*<sp/>xf<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>loDistLimitSq<sp/>=<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="group__AABBTreeGroup_1gaa484a0628a7ac3858cd590589687141c" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>PolylineProjectionResult3<sp/><ref refid="group__AABBTreeGroup_1ga5e71a300face382a26ba8596d9b19820" kindref="member">findProjectionOnPolyline</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Line3f&amp;<sp/>ln,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline3&amp;<sp/>polyline,</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>upDistLimitSq<sp/>=<sp/>FLT_MAX,<sp/>AffineXf3f*<sp/>xf<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>loDistLimitSq<sp/>=<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V&gt;</highlight></codeline>
+<codeline lineno="72" refid="structMR_1_1PolylineProjectionWithOffsetResult" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1PolylineProjectionWithOffsetResult" kindref="compound">PolylineProjectionWithOffsetResult</ref></highlight></codeline>
+<codeline lineno="73"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="75" refid="structMR_1_1PolylineProjectionWithOffsetResult_1a11d0a9e4090b200e7152c1d2000db9c3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>UndirectedEdgeId<sp/><ref refid="structMR_1_1PolylineProjectionWithOffsetResult_1a11d0a9e4090b200e7152c1d2000db9c3" kindref="member">line</ref>;</highlight></codeline>
+<codeline lineno="77" refid="structMR_1_1PolylineProjectionWithOffsetResult_1ac03c6975d60108034bbd6964a751d08d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>V<sp/><ref refid="structMR_1_1PolylineProjectionWithOffsetResult_1ac03c6975d60108034bbd6964a751d08d" kindref="member">point</ref>;</highlight></codeline>
+<codeline lineno="79" refid="structMR_1_1PolylineProjectionWithOffsetResult_1af9b6fe85013195dcada09f829b2c552d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PolylineProjectionWithOffsetResult_1af9b6fe85013195dcada09f829b2c552d" kindref="member">dist</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="group__AABBTreeGroup_1gaf2ef419d4414bb6d0efa0c918b21bddf" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="namespaceMR_1acdd7942df456145c6efbf9d6524f3f88" kindref="member">Polyline2ProjectionWithOffsetResult</ref><sp/><ref refid="group__AABBTreeGroup_1gaf2ef419d4414bb6d0efa0c918b21bddf" kindref="member">findProjectionOnPolyline2WithOffset</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>pt,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline2&amp;<sp/>polyline,</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;float, UndirectedEdgeId&gt;</ref>&amp;<sp/>offsetPerEdge,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>upDistLimit<sp/>=<sp/>FLT_MAX,<sp/>AffineXf2f*<sp/>xf<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>loDistLimit<sp/>=<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99" refid="group__AABBTreeGroup_1ga834d7e50b54b1b8c511990fc9d14c09c" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>PolylineProjectionWithOffsetResult3<sp/><ref refid="group__AABBTreeGroup_1ga834d7e50b54b1b8c511990fc9d14c09c" kindref="member">findProjectionOnPolylineWithOffset</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>pt,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline3&amp;<sp/>polyline,</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;float, UndirectedEdgeId&gt;</ref>&amp;<sp/>offsetPerEdge,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>upDistLimit<sp/>=<sp/>FLT_MAX,<sp/>AffineXf3f*<sp/>xf<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>loDistLimit<sp/>=<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V&gt;</highlight></codeline>
+<codeline lineno="103" refid="group__AABBTreeGroup_1gac2b944209dd41b786a30b1d537639470" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__AABBTreeGroup_1gac2b944209dd41b786a30b1d537639470" kindref="member">FoundEdgeCallback</ref><sp/>=<sp/>std::function&lt;void(<sp/>UndirectedEdgeId,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>V&amp;<sp/>closestPt,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>distSq<sp/>)&gt;;</highlight></codeline>
+<codeline lineno="104" refid="group__AABBTreeGroup_1ga5e0d9af4be57927671a26f2c4588a515" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__AABBTreeGroup_1ga5e0d9af4be57927671a26f2c4588a515" kindref="member">FoundEdgeCallback2</ref><sp/>=<sp/><ref refid="group__AABBTreeGroup_1gac2b944209dd41b786a30b1d537639470" kindref="member">FoundEdgeCallback&lt;Vector2f&gt;</ref>;</highlight></codeline>
+<codeline lineno="105" refid="group__AABBTreeGroup_1ga865abfe228b7d60d582d2c6ce24ffb19" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__AABBTreeGroup_1ga865abfe228b7d60d582d2c6ce24ffb19" kindref="member">FoundEdgeCallback3</ref><sp/>=<sp/><ref refid="group__AABBTreeGroup_1gac2b944209dd41b786a30b1d537639470" kindref="member">FoundEdgeCallback&lt;Vector3f&gt;</ref>;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="group__AABBTreeGroup_1ga5ce436376c8036ec99459d3ccea88788" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__AABBTreeGroup_1ga5ce436376c8036ec99459d3ccea88788" kindref="member">findEdgesInBall</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline2&amp;<sp/>polyline,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>center,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__AABBTreeGroup_1ga5e0d9af4be57927671a26f2c4588a515" kindref="member">FoundEdgeCallback2</ref>&amp;<sp/>foundCallback,<sp/>AffineXf2f*<sp/>xf<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111" refid="group__AABBTreeGroup_1ga799578a1ff64417ca5aa5c72fa15bb2f" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__AABBTreeGroup_1ga5ce436376c8036ec99459d3ccea88788" kindref="member">findEdgesInBall</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline3&amp;<sp/>polyline,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>center,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__AABBTreeGroup_1ga865abfe228b7d60d582d2c6ce24ffb19" kindref="member">FoundEdgeCallback3</ref>&amp;<sp/>foundCallback,<sp/>AffineXf3f*<sp/>xf<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114" refid="group__AABBTreeGroup_1ga50911249a881bd7365929503c138d8fa" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__AABBTreeGroup_1ga50911249a881bd7365929503c138d8fa" kindref="member">findMeshEdgesInBall</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AABBTreePolyline3&amp;<sp/>tree,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>center,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__AABBTreeGroup_1ga865abfe228b7d60d582d2c6ce24ffb19" kindref="member">FoundEdgeCallback3</ref>&amp;<sp/>foundCallback,<sp/>AffineXf3f*<sp/>xf<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="group__AABBTreeGroup_1ga64c37b9a7a04aa567390955a50891b57" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>PolylineProjectionResult3<sp/><ref refid="group__AABBTreeGroup_1ga64c37b9a7a04aa567390955a50891b57" kindref="member">findProjectionOnMeshEdges</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>pt,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AABBTreePolyline3&amp;<sp/>tree,</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>upDistLimitSq<sp/>=<sp/>FLT_MAX,<sp/>AffineXf3f*<sp/>xf<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>loDistLimitSq<sp/>=<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131" refid="group__AABBTreeGroup_1gaccdf7712b3c2bc175e4b09aae138aa40" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>PolylineProjectionResult3<sp/><ref refid="group__AABBTreeGroup_1ga64c37b9a7a04aa567390955a50891b57" kindref="member">findProjectionOnMeshEdges</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Line3f&amp;<sp/>ln,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AABBTreePolyline3&amp;<sp/>tree,</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>upDistLimitSq<sp/>=<sp/>FLT_MAX,<sp/>AffineXf3f*<sp/>xf<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>loDistLimitSq<sp/>=<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal">}<sp/></highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h"/>
+  </compounddef>
+</doxygen>

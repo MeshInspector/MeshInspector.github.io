@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth" kind="struct" language="C++" prot="public">
+    <compoundname>MR::RibbonButtonDrawer::ButtonItemWidth</compoundname>
+    <includes refid="MRRibbonButtonDrawer_8h" local="no">MRRibbonButtonDrawer.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth_1a4a178e6ea3323a12fdb7394b7f89cd71" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::RibbonButtonDrawer::ButtonItemWidth::baseWidth</definition>
+        <argsstring></argsstring>
+        <name>baseWidth</name>
+        <qualifiedname>MR::RibbonButtonDrawer::ButtonItemWidth::baseWidth</qualifiedname>
+        <initializer>{ 0.0f }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" line="74" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" bodystart="74" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth_1a9048532b67f8ae6a79ec42cf2a196ddf" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::RibbonButtonDrawer::ButtonItemWidth::additionalWidth</definition>
+        <argsstring></argsstring>
+        <name>additionalWidth</name>
+        <qualifiedname>MR::RibbonButtonDrawer::ButtonItemWidth::additionalWidth</qualifiedname>
+        <initializer>{ 0.0f }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" line="75" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" bodystart="75" bodyend="75"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" line="72" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" bodystart="73" bodyend="76"/>
+    <listofallmembers>
+      <member refid="structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth_1a9048532b67f8ae6a79ec42cf2a196ddf" prot="public" virt="non-virtual"><scope>MR::RibbonButtonDrawer::ButtonItemWidth</scope><name>additionalWidth</name></member>
+      <member refid="structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth_1a4a178e6ea3323a12fdb7394b7f89cd71" prot="public" virt="non-virtual"><scope>MR::RibbonButtonDrawer::ButtonItemWidth</scope><name>baseWidth</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

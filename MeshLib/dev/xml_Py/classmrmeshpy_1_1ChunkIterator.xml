@@ -1,0 +1,423 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ChunkIterator" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ChunkIterator</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ChunkIterator_1a37e6ca0466ad6692a0984b73506128af" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ChunkIterator::__hash__</definition>
+        <argsstring></argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.ChunkIterator.__hash__</qualifiedname>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9220" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9220" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ChunkIterator_1a14791bfdb588f44884c8fc80d5e6f3bc" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ChunkIterator::_offsetof_chunkSize</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_chunkSize</name>
+        <qualifiedname>mrmeshpy.ChunkIterator._offsetof_chunkSize</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9221" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9221" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ChunkIterator_1a3c13d9619a7bcdd20a96467644ce77b2" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ChunkIterator::_offsetof_index</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_index</name>
+        <qualifiedname>mrmeshpy.ChunkIterator._offsetof_index</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9222" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9222" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ChunkIterator_1a4795377662976ff46632b27e9138b9ac" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ChunkIterator::_offsetof_overlap</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_overlap</name>
+        <qualifiedname>mrmeshpy.ChunkIterator._offsetof_overlap</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9223" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9223" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ChunkIterator_1a8c38ff5a9bf83a1149ce83b76c7f2bc8" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ChunkIterator::_offsetof_totalSize</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_totalSize</name>
+        <qualifiedname>mrmeshpy.ChunkIterator._offsetof_totalSize</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9224" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9224" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ChunkIterator_1aeb3053f9943122978976d693be12b360" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int mrmeshpy.ChunkIterator::pointer</definition>
+        <argsstring></argsstring>
+        <name>pointer</name>
+        <qualifiedname>mrmeshpy.ChunkIterator.pointer</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1Chunk" kindref="compound">Chunk</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9229" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9229" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ChunkIterator_1a05c31a6c1616b7257b53b19a690ad7fe" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.ChunkIterator::reference</definition>
+        <argsstring></argsstring>
+        <name>reference</name>
+        <qualifiedname>mrmeshpy.ChunkIterator.reference</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1Chunk" kindref="compound">Chunk</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9230" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9230" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ChunkIterator_1a01646069ec8ab60bd1c229340b3d54b6" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.ChunkIterator::value_type</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>mrmeshpy.ChunkIterator.value_type</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1Chunk" kindref="compound">Chunk</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9231" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9231" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ChunkIterator_1a7c4fadc30ff8a415c94bd4cb699b5137" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChunkIterator.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChunkIterator.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9234" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9234" bodyend="9235"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChunkIterator_1a18c579db806ef06bac09cf9ed5c59783" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ChunkIterator" kindref="compound">ChunkIterator</ref></type>
+        <definition> ChunkIterator mrmeshpy.ChunkIterator.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ChunkIterator.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9238" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9238" bodyend="9239"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChunkIterator_1a18c579db806ef06bac09cf9ed5c59783" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ChunkIterator" kindref="compound">ChunkIterator</ref></type>
+        <definition> ChunkIterator mrmeshpy.ChunkIterator.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ChunkIterator.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9242" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9242" bodyend="9243"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChunkIterator_1a18c579db806ef06bac09cf9ed5c59783" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ChunkIterator" kindref="compound">ChunkIterator</ref></type>
+        <definition> ChunkIterator mrmeshpy.ChunkIterator.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ChunkIterator.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9246" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9246" bodyend="9247"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ChunkIterator_1ac5a3cfcd2f8f3b091de99bf5cea9aafe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ChunkIterator.__eq__</definition>
+        <argsstring>(self, ChunkIterator other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.ChunkIterator.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ChunkIterator" kindref="compound">ChunkIterator</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9248" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9248" bodyend="9249"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChunkIterator_1a7c30bd10737317adec7417da5f59f935" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChunkIterator.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChunkIterator.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9251" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9251" bodyend="9252"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChunkIterator_1aa62d120ea5d052a1019bc9bfaed72c81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChunkIterator.__init__</definition>
+        <argsstring>(self, ChunkIterator arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChunkIterator.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ChunkIterator" kindref="compound">ChunkIterator</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9254" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9254" bodyend="9257"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChunkIterator_1a01510381466efa5dff2194697cf60fb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChunkIterator.__init__</definition>
+        <argsstring>(self, int totalSize, int chunkSize, int overlap, int index)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChunkIterator.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>totalSize</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>chunkSize</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>overlap</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9259" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9259" bodyend="9262"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChunkIterator_1a0a2613750bba49a89b39d8d7470869d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Chunk" kindref="compound">Chunk</ref></type>
+        <definition> Chunk mrmeshpy.ChunkIterator.__mul__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__mul__</name>
+        <qualifiedname>mrmeshpy.ChunkIterator.__mul__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9263" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9263" bodyend="9264"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChunkIterator_1a737382505edc364dcd15e0beb55e306e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ChunkIterator" kindref="compound">ChunkIterator</ref></type>
+        <definition> ChunkIterator mrmeshpy.ChunkIterator.operator</definition>
+        <argsstring>(self)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ChunkIterator.operator</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9266" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9266" bodyend="9267"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChunkIterator_1a838bcfc9f080c2ab70259636abc2adac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Chunk" kindref="compound">Chunk</ref></type>
+        <definition> Chunk mrmeshpy.ChunkIterator.operatorminus</definition>
+        <argsstring>(self)</argsstring>
+        <name>operatorminus</name>
+        <qualifiedname>mrmeshpy.ChunkIterator.operatorminus</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9268" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9268" bodyend="9269"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ChunkIterator
+
+iterator class for array chunks
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ChunkIterator</label>
+        <link refid="classmrmeshpy_1_1ChunkIterator"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_chunkSize</edgelabel>
+          <edgelabel>_offsetof_index</edgelabel>
+          <edgelabel>_offsetof_overlap</edgelabel>
+          <edgelabel>_offsetof_totalSize</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9214" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9214" bodyend="9269"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ChunkIterator_1ac5a3cfcd2f8f3b091de99bf5cea9aafe" prot="public" virt="non-virtual"><scope>mrmeshpy::ChunkIterator</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1ChunkIterator_1a37e6ca0466ad6692a0984b73506128af" prot="private" virt="non-virtual"><scope>mrmeshpy::ChunkIterator</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1ChunkIterator_1a7c4fadc30ff8a415c94bd4cb699b5137" prot="public" virt="non-virtual"><scope>mrmeshpy::ChunkIterator</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChunkIterator_1a7c30bd10737317adec7417da5f59f935" prot="public" virt="non-virtual"><scope>mrmeshpy::ChunkIterator</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChunkIterator_1aa62d120ea5d052a1019bc9bfaed72c81" prot="public" virt="non-virtual"><scope>mrmeshpy::ChunkIterator</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChunkIterator_1a01510381466efa5dff2194697cf60fb9" prot="public" virt="non-virtual"><scope>mrmeshpy::ChunkIterator</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChunkIterator_1a0a2613750bba49a89b39d8d7470869d1" prot="public" virt="non-virtual"><scope>mrmeshpy::ChunkIterator</scope><name>__mul__</name></member>
+      <member refid="classmrmeshpy_1_1ChunkIterator_1a14791bfdb588f44884c8fc80d5e6f3bc" prot="protected" virt="non-virtual"><scope>mrmeshpy::ChunkIterator</scope><name>_offsetof_chunkSize</name></member>
+      <member refid="classmrmeshpy_1_1ChunkIterator_1a3c13d9619a7bcdd20a96467644ce77b2" prot="protected" virt="non-virtual"><scope>mrmeshpy::ChunkIterator</scope><name>_offsetof_index</name></member>
+      <member refid="classmrmeshpy_1_1ChunkIterator_1a4795377662976ff46632b27e9138b9ac" prot="protected" virt="non-virtual"><scope>mrmeshpy::ChunkIterator</scope><name>_offsetof_overlap</name></member>
+      <member refid="classmrmeshpy_1_1ChunkIterator_1a8c38ff5a9bf83a1149ce83b76c7f2bc8" prot="protected" virt="non-virtual"><scope>mrmeshpy::ChunkIterator</scope><name>_offsetof_totalSize</name></member>
+      <member refid="classmrmeshpy_1_1ChunkIterator_1a18c579db806ef06bac09cf9ed5c59783" prot="public" virt="non-virtual"><scope>mrmeshpy::ChunkIterator</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ChunkIterator_1a18c579db806ef06bac09cf9ed5c59783" prot="public" virt="non-virtual"><scope>mrmeshpy::ChunkIterator</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ChunkIterator_1a18c579db806ef06bac09cf9ed5c59783" prot="public" virt="non-virtual"><scope>mrmeshpy::ChunkIterator</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ChunkIterator_1a737382505edc364dcd15e0beb55e306e" prot="public" virt="non-virtual"><scope>mrmeshpy::ChunkIterator</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ChunkIterator_1a838bcfc9f080c2ab70259636abc2adac" prot="public" virt="non-virtual"><scope>mrmeshpy::ChunkIterator</scope><name>operatorminus</name></member>
+      <member refid="classmrmeshpy_1_1ChunkIterator_1aeb3053f9943122978976d693be12b360" prot="public" virt="non-virtual"><scope>mrmeshpy::ChunkIterator</scope><name>pointer</name></member>
+      <member refid="classmrmeshpy_1_1ChunkIterator_1a05c31a6c1616b7257b53b19a690ad7fe" prot="public" virt="non-virtual"><scope>mrmeshpy::ChunkIterator</scope><name>reference</name></member>
+      <member refid="classmrmeshpy_1_1ChunkIterator_1a01646069ec8ab60bd1c229340b3d54b6" prot="public" virt="non-virtual"><scope>mrmeshpy::ChunkIterator</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

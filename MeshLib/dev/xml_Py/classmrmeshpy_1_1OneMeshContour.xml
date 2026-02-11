@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1OneMeshContour" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::OneMeshContour</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1OneMeshContour_1af6d6ae7b997b3a2afd12e4fdfee5d987" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OneMeshContour::_offsetof_closed</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_closed</name>
+        <qualifiedname>mrmeshpy.OneMeshContour._offsetof_closed</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41583" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41583" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1OneMeshContour_1a3ca42fe8380b9f929720ffa8da83dd11" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OneMeshContour::_offsetof_intersections</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_intersections</name>
+        <qualifiedname>mrmeshpy.OneMeshContour._offsetof_intersections</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41584" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41584" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1OneMeshContour_1a0c152349040c6c539595a8d18427b799" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OneMeshContour.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.OneMeshContour.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41589" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41589" bodyend="41590"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OneMeshContour_1aedcf86764680c6f274a5030d4fda5b78" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1OneMeshContour" kindref="compound">OneMeshContour</ref></type>
+        <definition> OneMeshContour mrmeshpy.OneMeshContour.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.OneMeshContour.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41593" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41593" bodyend="41594"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OneMeshContour_1aedcf86764680c6f274a5030d4fda5b78" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1OneMeshContour" kindref="compound">OneMeshContour</ref></type>
+        <definition> OneMeshContour mrmeshpy.OneMeshContour.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.OneMeshContour.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41597" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41597" bodyend="41598"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1OneMeshContour_1af74823f44272f9ac1b1af1c896786a30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OneMeshContour.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.OneMeshContour.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41600" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41600" bodyend="41601"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OneMeshContour_1a3beb120ca8cc7806aacec053bcba43c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OneMeshContour.__init__</definition>
+        <argsstring>(self, OneMeshContour arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.OneMeshContour.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1OneMeshContour" kindref="compound">OneMeshContour</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41603" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41603" bodyend="41606"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OneMeshContour_1af46734b926ff5bb7af91dad9a7846472" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OneMeshContour.__init__</definition>
+        <argsstring>(self, std_vector_OneMeshIntersection intersections, bool closed)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.OneMeshContour.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__OneMeshIntersection" kindref="compound">std_vector_OneMeshIntersection</ref></type>
+          <declname>intersections</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>closed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41608" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41608" bodyend="41611"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::OneMeshContour
+
+One contour on mesh
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.OneMeshContour</label>
+        <link refid="classmrmeshpy_1_1OneMeshContour"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_closed</edgelabel>
+          <edgelabel>_offsetof_intersections</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41577" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41577" bodyend="41611"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1OneMeshContour_1a0c152349040c6c539595a8d18427b799" prot="public" virt="non-virtual"><scope>mrmeshpy::OneMeshContour</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1OneMeshContour_1af74823f44272f9ac1b1af1c896786a30" prot="public" virt="non-virtual"><scope>mrmeshpy::OneMeshContour</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1OneMeshContour_1a3beb120ca8cc7806aacec053bcba43c7" prot="public" virt="non-virtual"><scope>mrmeshpy::OneMeshContour</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1OneMeshContour_1af46734b926ff5bb7af91dad9a7846472" prot="public" virt="non-virtual"><scope>mrmeshpy::OneMeshContour</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1OneMeshContour_1af6d6ae7b997b3a2afd12e4fdfee5d987" prot="protected" virt="non-virtual"><scope>mrmeshpy::OneMeshContour</scope><name>_offsetof_closed</name></member>
+      <member refid="classmrmeshpy_1_1OneMeshContour_1a3ca42fe8380b9f929720ffa8da83dd11" prot="protected" virt="non-virtual"><scope>mrmeshpy::OneMeshContour</scope><name>_offsetof_intersections</name></member>
+      <member refid="classmrmeshpy_1_1OneMeshContour_1aedcf86764680c6f274a5030d4fda5b78" prot="public" virt="non-virtual"><scope>mrmeshpy::OneMeshContour</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1OneMeshContour_1aedcf86764680c6f274a5030d4fda5b78" prot="public" virt="non-virtual"><scope>mrmeshpy::OneMeshContour</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

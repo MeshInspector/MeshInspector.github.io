@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRPythonAppendCommand_8h" kind="file" language="C++">
+    <compoundname>MRPythonAppendCommand.h</compoundname>
+    <includes refid="MRCommandLoop_8h" local="yes">MRCommandLoop.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCommandLoop.h</label>
+        <link refid="MRCommandLoop_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRPythonAppendCommand.h</label>
+        <link refid="MRPythonAppendCommand_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>condition_variable</label>
+      </node>
+      <node id="3">
+        <label>exports.h</label>
+      </node>
+      <node id="5">
+        <label>functional</label>
+      </node>
+      <node id="7">
+        <label>mutex</label>
+      </node>
+      <node id="4">
+        <label>queue</label>
+      </node>
+      <node id="8">
+        <label>thread</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRCommandLoop_8h" kindref="compound">MRCommandLoop.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>F,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal">...<sp/>Args&gt;</highlight></codeline>
+<codeline lineno="10" refid="namespaceMR_1af07768b4409c36a0b8cc9b9849f82691" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1af07768b4409c36a0b8cc9b9849f82691" kindref="member">pythonAppendOrRun</ref>(<sp/>F<sp/>func,<sp/>Args&amp;&amp;...<sp/>args<sp/>)</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>deferredAction<sp/>=<sp/>[funcLocal<sp/>=<sp/>std::move(<sp/>func<sp/>),<sp/>&amp;...argsLocal<sp/>=<sp/>args]()<sp/></highlight><highlight class="keyword">mutable</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>funcLocal(<sp/>std::forward&lt;Args&gt;(<sp/>argsLocal<sp/>)...<sp/>);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1CommandLoop_1a10e006b28fa9dbd3572e3b43c8037640" kindref="member">MR::CommandLoop::runCommandFromGUIThread</ref>(<sp/>std::move(<sp/>deferredAction<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>R,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal">...<sp/>Args&gt;</highlight></codeline>
+<codeline lineno="23" refid="namespaceMR_1a0f61ad5fbd50836547b99cd10c78763f" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a0f61ad5fbd50836547b99cd10c78763f" kindref="member">pythonRunFromGUIThread</ref>(<sp/>std::function&lt;R(<sp/>Args...<sp/>)&gt;&amp;&amp;<sp/>f<sp/>)<sp/>-&gt;<sp/>std::function&lt;void(<sp/>Args...<sp/>)&gt;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">[fLocal<sp/>=<sp/>std::move(<sp/>f<sp/>)](<sp/>Args&amp;&amp;...<sp/>args<sp/>)<sp/></highlight><highlight class="keyword">mutable</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1af07768b4409c36a0b8cc9b9849f82691" kindref="member">pythonAppendOrRun</ref>(<sp/>fLocal,<sp/>std::forward&lt;Args&gt;(<sp/>args<sp/>)...<sp/>);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>F&gt;</highlight></codeline>
+<codeline lineno="33" refid="namespaceMR_1a98815b53a5018d4a910654f696d65b57" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a0f61ad5fbd50836547b99cd10c78763f" kindref="member">pythonRunFromGUIThread</ref>(<sp/>F&amp;&amp;<sp/>f<sp/>)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a0f61ad5fbd50836547b99cd10c78763f" kindref="member">pythonRunFromGUIThread</ref>(<sp/>std::function(<sp/>std::forward&lt;F&gt;(<sp/>f<sp/>)<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>R,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal">...<sp/>Args&gt;</highlight></codeline>
+<codeline lineno="39" refid="namespaceMR_1a01c442c33cfa7f1e68e1261ab49b71b5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a0f61ad5fbd50836547b99cd10c78763f" kindref="member">pythonRunFromGUIThread</ref>(<sp/>R(<sp/>T::*<sp/>memFunction<sp/>)(<sp/>Args...<sp/>)<sp/>)</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a0f61ad5fbd50836547b99cd10c78763f" kindref="member">pythonRunFromGUIThread</ref>(<sp/>std::function&lt;R(<sp/>T*,<sp/>Args...<sp/>)&gt;(<sp/>std::mem_fn(<sp/>memFunction<sp/>)<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPythonAppendCommand.h"/>
+  </compounddef>
+</doxygen>

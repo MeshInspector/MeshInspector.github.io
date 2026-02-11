@@ -1,0 +1,444 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1UnionFind__VertId" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::UnionFind_VertId</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__VertId_1a034e03369c321055d49c2a662b0db14b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UnionFind_VertId.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UnionFind_VertId.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59879" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59879" bodyend="59880"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__VertId_1a0e3bdd1a0abdd0fa789510d1fbbdb1e9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UnionFind__VertId" kindref="compound">UnionFind_VertId</ref></type>
+        <definition> UnionFind_VertId mrmeshpy.UnionFind_VertId.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.UnionFind_VertId.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59883" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59883" bodyend="59884"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__VertId_1a0e3bdd1a0abdd0fa789510d1fbbdb1e9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UnionFind__VertId" kindref="compound">UnionFind_VertId</ref></type>
+        <definition> UnionFind_VertId mrmeshpy.UnionFind_VertId.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.UnionFind_VertId.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59887" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59887" bodyend="59888"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__VertId_1a825c1dcf3df5e9c81e127851cc52abbb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UnionFind_VertId.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UnionFind_VertId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59890" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59890" bodyend="59891"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__VertId_1ade70f94d324997ada37b004f9afd181b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UnionFind_VertId.__init__</definition>
+        <argsstring>(self, int size)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UnionFind_VertId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates union-find with given number of elements, each element is the only one in its disjoint set
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59893" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59893" bodyend="59896"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__VertId_1a4d4b88b6d60dd1dfd3fa8d3eae0edb1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UnionFind_VertId.__init__</definition>
+        <argsstring>(self, UnionFind_VertId arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UnionFind_VertId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UnionFind__VertId" kindref="compound">UnionFind_VertId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59898" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59898" bodyend="59901"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__VertId_1a10ea5991461c4f10ff3f58aa4abbb506" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition> VertId mrmeshpy.UnionFind_VertId.find</definition>
+        <argsstring>(self, VertId a)</argsstring>
+        <name>find</name>
+        <qualifiedname>mrmeshpy.UnionFind_VertId.find</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>finds the root of the set containing given element with optimizing data structure updates
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59902" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59902" bodyend="59905"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__VertId_1a0c33811d07fde956c7fd1c47ec8e51f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition> VertId mrmeshpy.UnionFind_VertId.findUpdateRange</definition>
+        <argsstring>(self, VertId a, VertId begin, VertId end)</argsstring>
+        <name>findUpdateRange</name>
+        <qualifiedname>mrmeshpy.UnionFind_VertId.findUpdateRange</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>begin</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>finds the root of the set containing given element with optimizing data structure in the range [begin, end)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59906" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59906" bodyend="59909"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__VertId_1abed6c7f321fcee5a139d7534596f5e4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.UnionFind_VertId.isRoot</definition>
+        <argsstring>(self, VertId a)</argsstring>
+        <name>isRoot</name>
+        <qualifiedname>mrmeshpy.UnionFind_VertId.isRoot</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if given element is the root of some set
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59910" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59910" bodyend="59913"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__VertId_1a0841acfc9c9010918d28b4caa8e79f14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition> VertId mrmeshpy.UnionFind_VertId.parent</definition>
+        <argsstring>(self, VertId a)</argsstring>
+        <name>parent</name>
+        <qualifiedname>mrmeshpy.UnionFind_VertId.parent</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return parent element of this element, which is equal to given element only for set&apos;s root
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59914" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59914" bodyend="59917"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__VertId_1a2ee113dfce61f4f263d6e02b565feb78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertMap" kindref="compound">VertMap</ref></type>
+        <definition> VertMap mrmeshpy.UnionFind_VertId.parents</definition>
+        <argsstring>(self)</argsstring>
+        <name>parents</name>
+        <qualifiedname>mrmeshpy.UnionFind_VertId.parents</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>gets the parents of all elements as is
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59918" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59918" bodyend="59921"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__VertId_1a2820b2d43deefae768bc24106f582ed9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UnionFind_VertId.reset</definition>
+        <argsstring>(self, int size)</argsstring>
+        <name>reset</name>
+        <qualifiedname>mrmeshpy.UnionFind_VertId.reset</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>resets union-find to represent given number of elements, each element is the only one in its disjoint set
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59922" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59922" bodyend="59925"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__VertId_1aad810d3809d72d95df8c393a8e2758eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertMap" kindref="compound">VertMap</ref></type>
+        <definition> VertMap mrmeshpy.UnionFind_VertId.roots</definition>
+        <argsstring>(self)</argsstring>
+        <name>roots</name>
+        <qualifiedname>mrmeshpy.UnionFind_VertId.roots</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets the root of corresponding set as the parent of each element, then returns the vector
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59926" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59926" bodyend="59929"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__VertId_1adfd64d2db8acb69e4f532a74e7580945" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.UnionFind_VertId.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.UnionFind_VertId.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the number of elements in union-find
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59930" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59930" bodyend="59933"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__VertId_1aaff8d19f441bca53227725acf189f7de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.UnionFind_VertId.sizeOfComp</definition>
+        <argsstring>(self, VertId a)</argsstring>
+        <name>sizeOfComp</name>
+        <qualifiedname>mrmeshpy.UnionFind_VertId.sizeOfComp</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the number of elements in the set containing given element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59934" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59934" bodyend="59937"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__VertId_1ad66c14ecb73549bc4b25672c3c12925d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>tuple[<ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref>, bool]</type>
+        <definition> tuple[VertId, bool] mrmeshpy.UnionFind_VertId.unite</definition>
+        <argsstring>(self, VertId first, VertId second)</argsstring>
+        <name>unite</name>
+        <qualifiedname>mrmeshpy.UnionFind_VertId.unite</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>second</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>unite two elements,
+\\return first: new common root, second: true = union was done, false = first and second were already united
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59938" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59938" bodyend="59942"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__VertId_1abc566a4715321e261b21e336cd3c8740" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.UnionFind_VertId.united</definition>
+        <argsstring>(self, VertId first, VertId second)</argsstring>
+        <name>united</name>
+        <qualifiedname>mrmeshpy.UnionFind_VertId.united</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>second</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if given two elements are from one set
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59943" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59943" bodyend="59946"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::UnionFind&lt;MR::VertId&gt;
+
+
+\\brief Union-find data structure for representing disjoin sets of elements with few very quick operations:
+1) union of two sets in one,
+2) checking whether two elements pertain to the same set,
+3) finding representative element (root) of each set by any set&apos;s element
+\\tparam I is the identifier of a set&apos;s element, e.g. FaceId
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59866" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59866" bodyend="59946"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1UnionFind__VertId_1a034e03369c321055d49c2a662b0db14b" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_VertId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UnionFind__VertId_1a825c1dcf3df5e9c81e127851cc52abbb" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_VertId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UnionFind__VertId_1ade70f94d324997ada37b004f9afd181b" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_VertId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UnionFind__VertId_1a4d4b88b6d60dd1dfd3fa8d3eae0edb1b" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_VertId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UnionFind__VertId_1a10ea5991461c4f10ff3f58aa4abbb506" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_VertId</scope><name>find</name></member>
+      <member refid="classmrmeshpy_1_1UnionFind__VertId_1a0c33811d07fde956c7fd1c47ec8e51f1" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_VertId</scope><name>findUpdateRange</name></member>
+      <member refid="classmrmeshpy_1_1UnionFind__VertId_1abed6c7f321fcee5a139d7534596f5e4c" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_VertId</scope><name>isRoot</name></member>
+      <member refid="classmrmeshpy_1_1UnionFind__VertId_1a0e3bdd1a0abdd0fa789510d1fbbdb1e9" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_VertId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1UnionFind__VertId_1a0e3bdd1a0abdd0fa789510d1fbbdb1e9" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_VertId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1UnionFind__VertId_1a0841acfc9c9010918d28b4caa8e79f14" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_VertId</scope><name>parent</name></member>
+      <member refid="classmrmeshpy_1_1UnionFind__VertId_1a2ee113dfce61f4f263d6e02b565feb78" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_VertId</scope><name>parents</name></member>
+      <member refid="classmrmeshpy_1_1UnionFind__VertId_1a2820b2d43deefae768bc24106f582ed9" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_VertId</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1UnionFind__VertId_1aad810d3809d72d95df8c393a8e2758eb" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_VertId</scope><name>roots</name></member>
+      <member refid="classmrmeshpy_1_1UnionFind__VertId_1adfd64d2db8acb69e4f532a74e7580945" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_VertId</scope><name>size</name></member>
+      <member refid="classmrmeshpy_1_1UnionFind__VertId_1aaff8d19f441bca53227725acf189f7de" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_VertId</scope><name>sizeOfComp</name></member>
+      <member refid="classmrmeshpy_1_1UnionFind__VertId_1ad66c14ecb73549bc4b25672c3c12925d" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_VertId</scope><name>unite</name></member>
+      <member refid="classmrmeshpy_1_1UnionFind__VertId_1abc566a4715321e261b21e336cd3c8740" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_VertId</scope><name>united</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

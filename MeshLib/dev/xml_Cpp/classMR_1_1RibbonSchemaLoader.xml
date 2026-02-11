@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RibbonSchemaLoader" kind="class" language="C++" prot="public">
+    <compoundname>MR::RibbonSchemaLoader</compoundname>
+    <includes refid="MRRibbonSchema_8h" local="no">MRRibbonSchema.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1RibbonSchemaLoader_1ae9f61f9ad1a6e1cfbcdb30e93799a046" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::RibbonSchemaLoader::RibbonSchemaLoader</definition>
+        <argsstring>()=default</argsstring>
+        <name>RibbonSchemaLoader</name>
+        <qualifiedname>MR::RibbonSchemaLoader::RibbonSchemaLoader</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="133" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonSchemaLoader_1a0bdc0e74b5b855dc50f9d3ed83b7ecad" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual MR::RibbonSchemaLoader::~RibbonSchemaLoader</definition>
+        <argsstring>()=default</argsstring>
+        <name>~RibbonSchemaLoader</name>
+        <qualifiedname>MR::RibbonSchemaLoader::~RibbonSchemaLoader</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="134" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonSchemaLoader_1ad9dde65427b1793ba6f4fa13663a5ec5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::RibbonSchemaLoader::loadSchema</definition>
+        <argsstring>() const</argsstring>
+        <name>loadSchema</name>
+        <qualifiedname>MR::RibbonSchemaLoader::loadSchema</qualifiedname>
+        <briefdescription>
+<para>Loads schema from files. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="137" column="31"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1RibbonSchemaLoader_1ae1fb56f73fe32143e7af41b9a6ef2a78" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>static MRVIEWER_API void MR::RibbonSchemaLoader::readMenuItemsList</definition>
+        <argsstring>(const Json::Value &amp;root, MenuItemsList &amp;list)</argsstring>
+        <name>readMenuItemsList</name>
+        <qualifiedname>MR::RibbonSchemaLoader::readMenuItemsList</qualifiedname>
+        <param>
+          <type>const Json::Value &amp;</type>
+          <declname>root</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceMR_1a8201e149aed09ff61bb82c538012fbd1" kindref="member">MenuItemsList</ref> &amp;</type>
+          <declname>list</declname>
+        </param>
+        <briefdescription>
+<para>Reads schema items list from <computeroutput>root</computeroutput> to <computeroutput>list</computeroutput> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="140" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonSchemaLoader_1a41b33cc8ea85e93c4afed1e130fbd709" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>static MRVIEWER_API void MR::RibbonSchemaLoader::recalcItemSizes</definition>
+        <argsstring>()</argsstring>
+        <name>recalcItemSizes</name>
+        <qualifiedname>MR::RibbonSchemaLoader::recalcItemSizes</qualifiedname>
+        <briefdescription>
+<para>Recalc items sizes. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="143" column="30"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1RibbonSchemaLoader_1a691ceda2aee5d313445759892065cfa6" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API std::vector&lt; std::filesystem::path &gt;</type>
+        <definition>virtual MRVIEWER_API std::vector&lt; std::filesystem::path &gt; MR::RibbonSchemaLoader::getStructureFiles_</definition>
+        <argsstring>(const std::string &amp;fileExtension) const</argsstring>
+        <name>getStructureFiles_</name>
+        <qualifiedname>MR::RibbonSchemaLoader::getStructureFiles_</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>fileExtension</declname>
+        </param>
+        <briefdescription>
+<para>finds structure json files in exe directory </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="146" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonSchemaLoader_1a21064610abab0a6524a91349d54a0470" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::RibbonSchemaLoader::sortFilesByOrder_</definition>
+        <argsstring>(std::vector&lt; std::filesystem::path &gt; &amp;files) const</argsstring>
+        <name>sortFilesByOrder_</name>
+        <qualifiedname>MR::RibbonSchemaLoader::sortFilesByOrder_</qualifiedname>
+        <param>
+          <type>std::vector&lt; std::filesystem::path &gt; &amp;</type>
+          <declname>files</declname>
+        </param>
+        <briefdescription>
+<para>sort structure json files by order </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="148" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonSchemaLoader_1ab7e8563a297450e4086c93062470453b" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::RibbonSchemaLoader::readItemsJson_</definition>
+        <argsstring>(const std::filesystem::path &amp;path) const</argsstring>
+        <name>readItemsJson_</name>
+        <qualifiedname>MR::RibbonSchemaLoader::readItemsJson_</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+<para>appends one menu items json info </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="150" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonSchemaLoader_1a8922f80db8dd50ace1d0414338bc9a90" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::RibbonSchemaLoader::readItemsJson_</definition>
+        <argsstring>(const Json::Value &amp;root) const</argsstring>
+        <name>readItemsJson_</name>
+        <qualifiedname>MR::RibbonSchemaLoader::readItemsJson_</qualifiedname>
+        <param>
+          <type>const Json::Value &amp;</type>
+          <declname>root</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="151" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonSchemaLoader_1a6ab581434c5e1a94a44c8d1307a9ba5e" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::RibbonSchemaLoader::readUIJson_</definition>
+        <argsstring>(const std::filesystem::path &amp;path) const</argsstring>
+        <name>readUIJson_</name>
+        <qualifiedname>MR::RibbonSchemaLoader::readUIJson_</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+<para>appends one ui json info </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="153" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RibbonSchemaLoader_1ae18febd5f891538a94cd80c617a2c7f0" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::RibbonSchemaLoader::readUIJson_</definition>
+        <argsstring>(const Json::Value &amp;root) const</argsstring>
+        <name>readUIJson_</name>
+        <qualifiedname>MR::RibbonSchemaLoader::readUIJson_</qualifiedname>
+        <param>
+          <type>const Json::Value &amp;</type>
+          <declname>root</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="154" column="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Class for loading ribbon schema from structure files (basically called from <ref refid="classMR_1_1RibbonMenu" kindref="compound">RibbonMenu</ref>, but can be called separately) </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="130" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" bodystart="131" bodyend="155"/>
+    <listofallmembers>
+      <member refid="classMR_1_1RibbonSchemaLoader_1a691ceda2aee5d313445759892065cfa6" prot="protected" virt="virtual"><scope>MR::RibbonSchemaLoader</scope><name>getStructureFiles_</name></member>
+      <member refid="classMR_1_1RibbonSchemaLoader_1ad9dde65427b1793ba6f4fa13663a5ec5" prot="public" virt="virtual"><scope>MR::RibbonSchemaLoader</scope><name>loadSchema</name></member>
+      <member refid="classMR_1_1RibbonSchemaLoader_1ab7e8563a297450e4086c93062470453b" prot="protected" virt="non-virtual"><scope>MR::RibbonSchemaLoader</scope><name>readItemsJson_</name></member>
+      <member refid="classMR_1_1RibbonSchemaLoader_1a8922f80db8dd50ace1d0414338bc9a90" prot="protected" virt="non-virtual"><scope>MR::RibbonSchemaLoader</scope><name>readItemsJson_</name></member>
+      <member refid="classMR_1_1RibbonSchemaLoader_1ae1fb56f73fe32143e7af41b9a6ef2a78" prot="public" virt="non-virtual"><scope>MR::RibbonSchemaLoader</scope><name>readMenuItemsList</name></member>
+      <member refid="classMR_1_1RibbonSchemaLoader_1a6ab581434c5e1a94a44c8d1307a9ba5e" prot="protected" virt="non-virtual"><scope>MR::RibbonSchemaLoader</scope><name>readUIJson_</name></member>
+      <member refid="classMR_1_1RibbonSchemaLoader_1ae18febd5f891538a94cd80c617a2c7f0" prot="protected" virt="non-virtual"><scope>MR::RibbonSchemaLoader</scope><name>readUIJson_</name></member>
+      <member refid="classMR_1_1RibbonSchemaLoader_1a41b33cc8ea85e93c4afed1e130fbd709" prot="public" virt="non-virtual"><scope>MR::RibbonSchemaLoader</scope><name>recalcItemSizes</name></member>
+      <member refid="classMR_1_1RibbonSchemaLoader_1ae9f61f9ad1a6e1cfbcdb30e93799a046" prot="public" virt="non-virtual"><scope>MR::RibbonSchemaLoader</scope><name>RibbonSchemaLoader</name></member>
+      <member refid="classMR_1_1RibbonSchemaLoader_1a21064610abab0a6524a91349d54a0470" prot="protected" virt="non-virtual"><scope>MR::RibbonSchemaLoader</scope><name>sortFilesByOrder_</name></member>
+      <member refid="classMR_1_1RibbonSchemaLoader_1a0bdc0e74b5b855dc50f9d3ed83b7ecad" prot="public" virt="virtual"><scope>MR::RibbonSchemaLoader</scope><name>~RibbonSchemaLoader</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

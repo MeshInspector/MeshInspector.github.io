@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1SetViewportConfigPresetMenuItem" kind="class" language="C++" prot="public">
+    <compoundname>MR::SetViewportConfigPresetMenuItem</compoundname>
+    <basecompoundref refid="classMR_1_1RibbonMenuItem" prot="public" virt="non-virtual">MR::RibbonMenuItem</basecompoundref>
+    <includes refid="MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h" local="no">MRSceneControlMenuItems.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classMR_1_1SetViewportConfigPresetMenuItem_1a3d2a81d9958b76933c36a468144ccc9d" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>Type</name>
+        <qualifiedname>MR::SetViewportConfigPresetMenuItem::Type</qualifiedname>
+        <enumvalue id="classMR_1_1SetViewportConfigPresetMenuItem_1a3d2a81d9958b76933c36a468144ccc9da66ba162102bbf6ae31b522aec561735e" prot="public">
+          <name>Single</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1SetViewportConfigPresetMenuItem_1a3d2a81d9958b76933c36a468144ccc9dac1b5fa03ecdb95d4a45dd1c40b02527f" prot="public">
+          <name>Horizontal</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1SetViewportConfigPresetMenuItem_1a3d2a81d9958b76933c36a468144ccc9da06ce2a25e5d12c166a36f654dbea6012" prot="public">
+          <name>Vertical</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1SetViewportConfigPresetMenuItem_1a3d2a81d9958b76933c36a468144ccc9dae9017664588010860a92ceb5f8fcb824" prot="public">
+          <name>Quad</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1SetViewportConfigPresetMenuItem_1a3d2a81d9958b76933c36a468144ccc9da92640bd72988395b326c888614f8937a" prot="public">
+          <name>Hex</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1SetViewportConfigPresetMenuItem_1a3d2a81d9958b76933c36a468144ccc9dae93f994f01c537c4e2f7d8528c3eb5e9" prot="public">
+          <name>Count</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" line="71" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" bodystart="72" bodyend="79"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1SetViewportConfigPresetMenuItem_1ae8ac23a9f4c37d4123681c75e9227665" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1SetViewportConfigPresetMenuItem_1a3d2a81d9958b76933c36a468144ccc9d" kindref="member">Type</ref></type>
+        <definition>Type MR::SetViewportConfigPresetMenuItem::type_</definition>
+        <argsstring></argsstring>
+        <name>type_</name>
+        <qualifiedname>MR::SetViewportConfigPresetMenuItem::type_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" line="84" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SetViewportConfigPresetMenuItem_1a601a4ffb01fc7ba75260df1e707a1fac" prot="private" static="no" mutable="no">
+        <type>std::function&lt; void(const <ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref> appendedViewports, <ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref> oldActiveViewport)&gt;</type>
+        <definition>std::function&lt;void( const ViewportMask appendedViewports, ViewportId oldActiveViewport )&gt; MR::SetViewportConfigPresetMenuItem::updateViewports_</definition>
+        <argsstring></argsstring>
+        <name>updateViewports_</name>
+        <qualifiedname>MR::SetViewportConfigPresetMenuItem::updateViewports_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" line="85" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1SetViewportConfigPresetMenuItem_1aa5f3104ebb87b4497658882eaf9511cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::SetViewportConfigPresetMenuItem::SetViewportConfigPresetMenuItem</definition>
+        <argsstring>(Type type)</argsstring>
+        <name>SetViewportConfigPresetMenuItem</name>
+        <qualifiedname>MR::SetViewportConfigPresetMenuItem::SetViewportConfigPresetMenuItem</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1SetViewportConfigPresetMenuItem_1a3d2a81d9958b76933c36a468144ccc9d" kindref="member">Type</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" line="80" column="4"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SetViewportConfigPresetMenuItem_1af38a4828a4d0a03c1ff96f685d5bc06f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR::SetViewportConfigPresetMenuItem::setCustomUpdateViewports</definition>
+        <argsstring>(const std::function&lt; void(const ViewportMask, ViewportId)&gt; &amp;callback)</argsstring>
+        <name>setCustomUpdateViewports</name>
+        <qualifiedname>MR::SetViewportConfigPresetMenuItem::setCustomUpdateViewports</qualifiedname>
+        <param>
+          <type>const std::function&lt; void(const <ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref>, <ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref>)&gt; &amp;</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" line="81" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" bodystart="81" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SetViewportConfigPresetMenuItem_1aab1e4ca9d8717e7092bf07b4ff40434a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool MR::SetViewportConfigPresetMenuItem::action</definition>
+        <argsstring>() override</argsstring>
+        <name>action</name>
+        <qualifiedname>MR::SetViewportConfigPresetMenuItem::action</qualifiedname>
+        <reimplements refid="classMR_1_1RibbonMenuItem_1a4af847e120965263839d2628cf7dd979">action</reimplements>
+        <briefdescription>
+<para>returns true if state of item changed </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" line="82" column="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>MR::ISceneStateCheck</label>
+        <link refid="classMR_1_1ISceneStateCheck"/>
+      </node>
+      <node id="2">
+        <label>MR::RibbonMenuItem</label>
+        <link refid="classMR_1_1RibbonMenuItem"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::SetViewportConfigPresetMenuItem</label>
+        <link refid="classMR_1_1SetViewportConfigPresetMenuItem"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>MR::ISceneStateCheck</label>
+        <link refid="classMR_1_1ISceneStateCheck"/>
+      </node>
+      <node id="2">
+        <label>MR::RibbonMenuItem</label>
+        <link refid="classMR_1_1RibbonMenuItem"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::SetViewportConfigPresetMenuItem</label>
+        <link refid="classMR_1_1SetViewportConfigPresetMenuItem"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" line="68" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h" bodystart="69" bodyend="86"/>
+    <listofallmembers>
+      <member refid="classMR_1_1SetViewportConfigPresetMenuItem_1aab1e4ca9d8717e7092bf07b4ff40434a" prot="public" virt="virtual"><scope>MR::SetViewportConfigPresetMenuItem</scope><name>action</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1ac9fd2cbdcf5356c6fbb093464568afdc" prot="public" virt="virtual"><scope>MR::SetViewportConfigPresetMenuItem</scope><name>blocking</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1a1141be44babb4a13201487188c332668" prot="public" virt="virtual"><scope>MR::SetViewportConfigPresetMenuItem</scope><name>dropItems</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1a4799011be3410f46444164d6d00b966e" prot="public" virt="non-virtual"><scope>MR::SetViewportConfigPresetMenuItem</scope><name>DropItemsList</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1a2f25401d4b94a752bd63b79152673ab5" prot="protected" virt="non-virtual"><scope>MR::SetViewportConfigPresetMenuItem</scope><name>dropList_</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1a88f1487695e2012ebb1cacbc1a59775a" prot="public" virt="virtual"><scope>MR::SetViewportConfigPresetMenuItem</scope><name>getDynamicTooltip</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1a3b30bb82fe11901e3d971d3b761f5bf2" prot="public" virt="virtual"><scope>MR::SetViewportConfigPresetMenuItem</scope><name>isActive</name></member>
+      <member refid="classMR_1_1ISceneStateCheck_1adedf10c80ddfebcb456559fa828065c0" prot="public" virt="virtual"><scope>MR::SetViewportConfigPresetMenuItem</scope><name>isAvailable</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1a957422a15704b2f8854bfd0b2d1ae76d" prot="public" virt="non-virtual"><scope>MR::SetViewportConfigPresetMenuItem</scope><name>MR_DELETE_MOVE</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1abf4ea13c8983c44214b92a066e8b7659" prot="public" virt="non-virtual"><scope>MR::SetViewportConfigPresetMenuItem</scope><name>name</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1ad3e0eda49eae11a9fba79187c62e07bb" prot="public" virt="non-virtual"><scope>MR::SetViewportConfigPresetMenuItem</scope><name>RibbonMenuItem</name></member>
+      <member refid="classMR_1_1SetViewportConfigPresetMenuItem_1af38a4828a4d0a03c1ff96f685d5bc06f" prot="public" virt="virtual"><scope>MR::SetViewportConfigPresetMenuItem</scope><name>setCustomUpdateViewports</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1af417cbe66b6559e5df0122377c5a3628" prot="public" virt="non-virtual"><scope>MR::SetViewportConfigPresetMenuItem</scope><name>setDropItemsFromItemList</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1ab499c9049737793e6b1994048b99952c" prot="public" virt="non-virtual"><scope>MR::SetViewportConfigPresetMenuItem</scope><name>setRibbonItemType</name></member>
+      <member refid="classMR_1_1SetViewportConfigPresetMenuItem_1aa5f3104ebb87b4497658882eaf9511cc" prot="public" virt="non-virtual"><scope>MR::SetViewportConfigPresetMenuItem</scope><name>SetViewportConfigPresetMenuItem</name></member>
+      <member refid="classMR_1_1SetViewportConfigPresetMenuItem_1a3d2a81d9958b76933c36a468144ccc9d" prot="public" virt="non-virtual"><scope>MR::SetViewportConfigPresetMenuItem</scope><name>Type</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1a15b6a4b9f191b8716be1199364bb74e0" prot="public" virt="virtual"><scope>MR::SetViewportConfigPresetMenuItem</scope><name>type</name></member>
+      <member refid="classMR_1_1SetViewportConfigPresetMenuItem_1ae8ac23a9f4c37d4123681c75e9227665" prot="private" virt="non-virtual"><scope>MR::SetViewportConfigPresetMenuItem</scope><name>type_</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1a327958b76ec3d044202620beafe67c93" prot="public" virt="virtual"><scope>MR::SetViewportConfigPresetMenuItem</scope><name>uiName</name></member>
+      <member refid="classMR_1_1SetViewportConfigPresetMenuItem_1a601a4ffb01fc7ba75260df1e707a1fac" prot="private" virt="non-virtual"><scope>MR::SetViewportConfigPresetMenuItem</scope><name>updateViewports_</name></member>
+      <member refid="classMR_1_1ISceneStateCheck_1ad6d7bd5bc97dd4a629de5e0a33af3afe" prot="public" virt="virtual"><scope>MR::SetViewportConfigPresetMenuItem</scope><name>~ISceneStateCheck</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1ac8074b75f1c764d041b11210b5b7541c" prot="public" virt="virtual"><scope>MR::SetViewportConfigPresetMenuItem</scope><name>~RibbonMenuItem</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

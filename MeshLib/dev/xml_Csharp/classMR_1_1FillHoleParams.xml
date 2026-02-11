@@ -1,0 +1,351 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1FillHoleParams" kind="class" language="C#" prot="private">
+    <compoundname>MR::FillHoleParams</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_FillHoleParams</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1FillHoleParams_1a238b95687d6651d2f4714aa4d7abb636" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.FillHoleMetric</type>
+        <definition>new unsafe MR.FillHoleMetric MR.FillHoleParams.metric</definition>
+        <argsstring></argsstring>
+        <name>metric</name>
+        <qualifiedname>MR.FillHoleParams.metric</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Specifies triangulation metric<linebreak/>
+default for <ref refid="classMR_1a62bc429ce182f953c2f0db902be80f4d" kindref="member">MR.fillHole</ref>: getCircumscribedFillMetric<linebreak/>
+<simplesect kind="see"><para>FillHoleMetric </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="232" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="232" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1FillHoleParams_1aa210a2ddcc147781549d86a306b6a56b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.FillHoleParams.smoothBd</definition>
+        <argsstring></argsstring>
+        <name>smoothBd</name>
+        <qualifiedname>MR.FillHoleParams.smoothBd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If true, hole filling will minimize the sum of metrics including boundary edges, where one triangle was present before hole filling, and another is added during hole filling. This makes boundary edges same smooth as inner edges of the patch. If false, edge metric will not be applied to boundary edges, and the patch tends to make a sharper turn there. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="239" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="239" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1FillHoleParams_1a1772afb629afe7982250629b28329952" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? <ref refid="classMR_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition>new unsafe MR.? FaceBitSet MR.FillHoleParams.outNewFaces</definition>
+        <argsstring></argsstring>
+        <name>outNewFaces</name>
+        <qualifiedname>MR.FillHoleParams.outNewFaces</qualifiedname>
+        <briefdescription>
+<para>If not nullptr accumulate new faces. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="242" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="243" bodyend="252"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1FillHoleParams_1a15717d3256161f0c69e468709f5c8a2b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref MR.FillHoleParams.MultipleEdgesResolveMode</type>
+        <definition>new unsafe ref MR.FillHoleParams.MultipleEdgesResolveMode MR.FillHoleParams.multipleEdgesResolveMode</definition>
+        <argsstring></argsstring>
+        <name>multipleEdgesResolveMode</name>
+        <qualifiedname>MR.FillHoleParams.multipleEdgesResolveMode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="254" column="72" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="254" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1FillHoleParams_1a9d0f4d7c8a3642008f2b21651929fa75" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.FillHoleParams.makeDegenerateBand</definition>
+        <argsstring></argsstring>
+        <name>makeDegenerateBand</name>
+        <qualifiedname>MR.FillHoleParams.makeDegenerateBand</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If true creates degenerate faces band around hole to have sharp angle visualization <simplesect kind="warning"><para>This flag bad for result topology, most likely you do not need it </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="259" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="259" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1FillHoleParams_1ac51dc8a6227d48485ba26359354505ab" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref int</type>
+        <definition>new unsafe ref int MR.FillHoleParams.maxPolygonSubdivisions</definition>
+        <argsstring></argsstring>
+        <name>maxPolygonSubdivisions</name>
+        <qualifiedname>MR.FillHoleParams.maxPolygonSubdivisions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The maximum number of polygon subdivisions on a triangle and two smaller polygons, must be 2 or larger </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="264" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="264" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1FillHoleParams_1a03c8aeac4c0ec38300b0f71fbf54ba59" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.Misc.? Box&lt; byte &gt;</type>
+        <definition>new unsafe MR.Misc.? Box&lt;byte&gt; MR.FillHoleParams.stopBeforeBadTriangulation</definition>
+        <argsstring></argsstring>
+        <name>stopBeforeBadTriangulation</name>
+        <qualifiedname>MR.FillHoleParams.stopBeforeBadTriangulation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Input/output value, if it is present: returns true if triangulation was bad and do not actually fill hole, if triangulation is ok returns false; if it is not present fill hole trivially in case of bad triangulation, (or leaves bad triangulation, depending on metric) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="271" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="272" bodyend="281"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1FillHoleParams_1a2d1c0445bee676d959e83bb1ca013ecf" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FillHoleParams.FillHoleParams</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>FillHoleParams</name>
+        <qualifiedname>MR.FillHoleParams.FillHoleParams</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="300" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="300" bodyend="304"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1FillHoleParams_1a46a1af49fc62424e921655fdf575c3cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FillHoleParams.FillHoleParams</definition>
+        <argsstring>()</argsstring>
+        <name>FillHoleParams</name>
+        <qualifiedname>MR.FillHoleParams.FillHoleParams</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="310" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="310" bodyend="316"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FillHoleParams_1ac81bf5744eb55bef9212ffc3acc1f916" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FillHoleParams.FillHoleParams</definition>
+        <argsstring>(MR._ByValue_FillHoleMetric metric, bool smoothBd, MR.FaceBitSet? outNewFaces, MR.FillHoleParams.MultipleEdgesResolveMode multipleEdgesResolveMode, bool makeDegenerateBand, int maxPolygonSubdivisions, MR.Misc.InOut&lt; bool &gt;? stopBeforeBadTriangulation)</argsstring>
+        <name>FillHoleParams</name>
+        <qualifiedname>MR.FillHoleParams.FillHoleParams</qualifiedname>
+        <param>
+          <type>MR._ByValue_FillHoleMetric</type>
+          <declname>metric</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>smoothBd</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref>?</type>
+          <declname>outNewFaces</declname>
+        </param>
+        <param>
+          <type>MR.FillHoleParams.MultipleEdgesResolveMode</type>
+          <declname>multipleEdgesResolveMode</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>makeDegenerateBand</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxPolygonSubdivisions</declname>
+        </param>
+        <param>
+          <type>MR.Misc.InOut&lt; bool &gt;?</type>
+          <declname>stopBeforeBadTriangulation</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput>MR.FillHoleParams</computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="321" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="321" bodyend="331"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FillHoleParams_1ad292c525ec8cf8b843368dfa668c1fc3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FillHoleParams.FillHoleParams</definition>
+        <argsstring>(MR._ByValue_FillHoleParams _other)</argsstring>
+        <name>FillHoleParams</name>
+        <qualifiedname>MR.FillHoleParams.FillHoleParams</qualifiedname>
+        <param>
+          <type>MR._ByValue_FillHoleParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.FillHoleParams.FillHoleParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="336" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="336" bodyend="343"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FillHoleParams_1a7fc309d78471ad4a2b3679c82bd1544f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.FillHoleParams.FillHoleParams</definition>
+        <argsstring>(Const_FillHoleParams _other)</argsstring>
+        <name>FillHoleParams</name>
+        <qualifiedname>MR.FillHoleParams.FillHoleParams</qualifiedname>
+        <param>
+          <type>Const_FillHoleParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.FillHoleParams.FillHoleParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="348" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="348" bodyend="348"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FillHoleParams_1ac7cdbc641f9121af4690f235c9b93660" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.FillHoleParams.FillHoleParams</definition>
+        <argsstring>(FillHoleParams _other)</argsstring>
+        <name>FillHoleParams</name>
+        <qualifiedname>MR.FillHoleParams.FillHoleParams</qualifiedname>
+        <param>
+          <type>FillHoleParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.FillHoleParams.FillHoleParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="353" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="353" bodyend="353"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FillHoleParams_1a4710791165568eff0693dfbd561f9dde" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.FillHoleParams</type>
+        <definition>unsafe MR.FillHoleParams MR.FillHoleParams.assign</definition>
+        <argsstring>(MR._ByValue_FillHoleParams _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.FillHoleParams.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_FillHoleParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.FillHoleParams.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="358" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="358" bodyend="365"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Parameters structure for <ref refid="classMR_1a62bc429ce182f953c2f0db902be80f4d" kindref="member">MR.fillHole</ref><linebreak/>
+Structure has some options to control <ref refid="classMR_1a62bc429ce182f953c2f0db902be80f4d" kindref="member">MR.fillHole</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="classMR_1a62bc429ce182f953c2f0db902be80f4d" kindref="member">fillHole</ref> </para>
+</simplesect>
+<simplesect kind="see"><para>FillHoleMetric Generated from class <computeroutput>MR.FillHoleParams</computeroutput>. This is the const half of the class.</para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classMR_1a62bc429ce182f953c2f0db902be80f4d" kindref="member">fillHole</ref> </para>
+</simplesect>
+<simplesect kind="see"><para>FillHoleMetric Generated from class <computeroutput>MR.FillHoleParams</computeroutput>. This is the non-const half of the class. </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_FillHoleParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.FillHoleParams</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_FillHoleParams &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_FillHoleParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.FillHoleParams</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_FillHoleParams &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="226" column="11"/>
+    <listofallmembers>
+      <member refid="classMR_1_1FillHoleParams_1a4710791165568eff0693dfbd561f9dde" prot="public" virt="non-virtual"><scope>MR::FillHoleParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1FillHoleParams_1a2d1c0445bee676d959e83bb1ca013ecf" prot="package" virt="non-virtual"><scope>MR::FillHoleParams</scope><name>FillHoleParams</name></member>
+      <member refid="classMR_1_1FillHoleParams_1a46a1af49fc62424e921655fdf575c3cf" prot="public" virt="non-virtual"><scope>MR::FillHoleParams</scope><name>FillHoleParams</name></member>
+      <member refid="classMR_1_1FillHoleParams_1ac81bf5744eb55bef9212ffc3acc1f916" prot="public" virt="non-virtual"><scope>MR::FillHoleParams</scope><name>FillHoleParams</name></member>
+      <member refid="classMR_1_1FillHoleParams_1ad292c525ec8cf8b843368dfa668c1fc3" prot="public" virt="non-virtual"><scope>MR::FillHoleParams</scope><name>FillHoleParams</name></member>
+      <member refid="classMR_1_1FillHoleParams_1a7fc309d78471ad4a2b3679c82bd1544f" prot="public" virt="non-virtual"><scope>MR::FillHoleParams</scope><name>FillHoleParams</name></member>
+      <member refid="classMR_1_1FillHoleParams_1ac7cdbc641f9121af4690f235c9b93660" prot="public" virt="non-virtual"><scope>MR::FillHoleParams</scope><name>FillHoleParams</name></member>
+      <member refid="classMR_1_1FillHoleParams_1a9d0f4d7c8a3642008f2b21651929fa75" prot="public" virt="non-virtual"><scope>MR::FillHoleParams</scope><name>makeDegenerateBand</name></member>
+      <member refid="classMR_1_1FillHoleParams_1ac51dc8a6227d48485ba26359354505ab" prot="public" virt="non-virtual"><scope>MR::FillHoleParams</scope><name>maxPolygonSubdivisions</name></member>
+      <member refid="classMR_1_1FillHoleParams_1a238b95687d6651d2f4714aa4d7abb636" prot="public" virt="non-virtual"><scope>MR::FillHoleParams</scope><name>metric</name></member>
+      <member refid="classMR_1_1FillHoleParams_1a15717d3256161f0c69e468709f5c8a2b" prot="public" virt="non-virtual"><scope>MR::FillHoleParams</scope><name>multipleEdgesResolveMode</name></member>
+      <member refid="classMR_1_1FillHoleParams_1a1772afb629afe7982250629b28329952" prot="public" virt="non-virtual"><scope>MR::FillHoleParams</scope><name>outNewFaces</name></member>
+      <member refid="classMR_1_1FillHoleParams_1aa210a2ddcc147781549d86a306b6a56b" prot="public" virt="non-virtual"><scope>MR::FillHoleParams</scope><name>smoothBd</name></member>
+      <member refid="classMR_1_1FillHoleParams_1a03c8aeac4c0ec38300b0f71fbf54ba59" prot="public" virt="non-virtual"><scope>MR::FillHoleParams</scope><name>stopBeforeBadTriangulation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

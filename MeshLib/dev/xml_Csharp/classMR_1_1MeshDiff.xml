@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1MeshDiff" kind="class" language="C#" prot="public">
+    <compoundname>MR::MeshDiff</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_MeshDiff</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1MeshDiff_1a69cc6359b400f72291a4b68c1a53bd25" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MeshDiff.MeshDiff</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>MeshDiff</name>
+        <qualifiedname>MR.MeshDiff.MeshDiff</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDiff.cs" line="106" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDiff.cs" bodystart="106" bodyend="106"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1MeshDiff_1a4f205e4e1fd57fb2dd050915d9d607da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MeshDiff.MeshDiff</definition>
+        <argsstring>()</argsstring>
+        <name>MeshDiff</name>
+        <qualifiedname>MR.MeshDiff.MeshDiff</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDiff.cs" line="111" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDiff.cs" bodystart="111" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshDiff_1aaf6526c557c92b3f5b3e9fc5bce095f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MeshDiff.MeshDiff</definition>
+        <argsstring>(MR._ByValue_MeshDiff _other)</argsstring>
+        <name>MeshDiff</name>
+        <qualifiedname>MR.MeshDiff.MeshDiff</qualifiedname>
+        <param>
+          <type>MR._ByValue_MeshDiff</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.MeshDiff.MeshDiff</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDiff.cs" line="121" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDiff.cs" bodystart="121" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshDiff_1a0f00cc150e69f340e0b233207925e9a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.MeshDiff.MeshDiff</definition>
+        <argsstring>(Const_MeshDiff _other)</argsstring>
+        <name>MeshDiff</name>
+        <qualifiedname>MR.MeshDiff.MeshDiff</qualifiedname>
+        <param>
+          <type>Const_MeshDiff</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.MeshDiff.MeshDiff</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDiff.cs" line="132" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDiff.cs" bodystart="132" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshDiff_1a9357d78269748233754f5667658ffa2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.MeshDiff.MeshDiff</definition>
+        <argsstring>(MeshDiff _other)</argsstring>
+        <name>MeshDiff</name>
+        <qualifiedname>MR.MeshDiff.MeshDiff</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1MeshDiff" kindref="compound">MeshDiff</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.MeshDiff.MeshDiff</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDiff.cs" line="137" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDiff.cs" bodystart="137" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshDiff_1a8a1b3b57fc35c627e6c0ddfeb4233c8d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MeshDiff.MeshDiff</definition>
+        <argsstring>(MR.Const_Mesh from, MR.Const_Mesh to)</argsstring>
+        <name>MeshDiff</name>
+        <qualifiedname>MR.MeshDiff.MeshDiff</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>to</declname>
+        </param>
+        <briefdescription>
+<para>computes the difference, that can be applied to mesh-from in order to get mesh-to Generated from constructor <computeroutput>MR.MeshDiff.MeshDiff</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDiff.cs" line="143" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDiff.cs" bodystart="143" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshDiff_1a2969ef471c11d299873c5859e13824c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1MeshDiff" kindref="compound">MR.MeshDiff</ref></type>
+        <definition>unsafe MR.MeshDiff MR.MeshDiff.assign</definition>
+        <argsstring>(MR._ByValue_MeshDiff _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.MeshDiff.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_MeshDiff</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.MeshDiff.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDiff.cs" line="155" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDiff.cs" bodystart="155" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshDiff_1a81527234b7da2d1b541ba756bf43881a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.MeshDiff.applyAndSwap</definition>
+        <argsstring>(MR.Mesh m)</argsstring>
+        <name>applyAndSwap</name>
+        <qualifiedname>MR.MeshDiff.applyAndSwap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+<para>given mesh-from on input converts it in mesh-to, this object is updated to become the reverse difference from original mesh-to to original mesh-from Generated from method <computeroutput><ref refid="classMR_1_1MeshDiff_1a81527234b7da2d1b541ba756bf43881a" kindref="member">MR.MeshDiff.applyAndSwap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDiff.cs" line="169" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDiff.cs" bodystart="169" bodyend="174"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>this object stores a difference between two meshes: both in coordinates and in topology </para>
+    </briefdescription>
+    <detaileddescription>
+<para>if the meshes are similar then this object is small, if the meshes are very distinct then this object will be even larger than one mesh itself Generated from class <computeroutput><ref refid="classMR_1_1MeshDiff" kindref="compound">MR.MeshDiff</ref></computeroutput>. This is the non-const half of the class. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_MeshDiff</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.MeshDiff</label>
+        <link refid="classMR_1_1MeshDiff"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_MeshDiff &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_MeshDiff</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.MeshDiff</label>
+        <link refid="classMR_1_1MeshDiff"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_MeshDiff &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDiff.cs" line="104" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDiff.cs" bodystart="105" bodyend="175"/>
+    <listofallmembers>
+      <member refid="classMR_1_1MeshDiff_1a81527234b7da2d1b541ba756bf43881a" prot="public" virt="non-virtual"><scope>MR::MeshDiff</scope><name>applyAndSwap</name></member>
+      <member refid="classMR_1_1MeshDiff_1a2969ef471c11d299873c5859e13824c2" prot="public" virt="non-virtual"><scope>MR::MeshDiff</scope><name>assign</name></member>
+      <member refid="classMR_1_1MeshDiff_1a69cc6359b400f72291a4b68c1a53bd25" prot="package" virt="non-virtual"><scope>MR::MeshDiff</scope><name>MeshDiff</name></member>
+      <member refid="classMR_1_1MeshDiff_1a4f205e4e1fd57fb2dd050915d9d607da" prot="public" virt="non-virtual"><scope>MR::MeshDiff</scope><name>MeshDiff</name></member>
+      <member refid="classMR_1_1MeshDiff_1aaf6526c557c92b3f5b3e9fc5bce095f1" prot="public" virt="non-virtual"><scope>MR::MeshDiff</scope><name>MeshDiff</name></member>
+      <member refid="classMR_1_1MeshDiff_1a0f00cc150e69f340e0b233207925e9a1" prot="public" virt="non-virtual"><scope>MR::MeshDiff</scope><name>MeshDiff</name></member>
+      <member refid="classMR_1_1MeshDiff_1a9357d78269748233754f5667658ffa2d" prot="public" virt="non-virtual"><scope>MR::MeshDiff</scope><name>MeshDiff</name></member>
+      <member refid="classMR_1_1MeshDiff_1a8a1b3b57fc35c627e6c0ddfeb4233c8d" prot="public" virt="non-virtual"><scope>MR::MeshDiff</scope><name>MeshDiff</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

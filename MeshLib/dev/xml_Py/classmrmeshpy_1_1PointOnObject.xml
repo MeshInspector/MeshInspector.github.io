@@ -1,0 +1,272 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1PointOnObject" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::PointOnObject</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1PointOnObject_1a3465a5665f75c8bcf496369cc7854351" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PointOnObject::_offsetof_point</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_point</name>
+        <qualifiedname>mrmeshpy.PointOnObject._offsetof_point</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44782" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44782" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PointOnObject_1afb4747654ce7320ec1858b2f46df95b9" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PointOnObject::_offsetof_zBuffer</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_zBuffer</name>
+        <qualifiedname>mrmeshpy.PointOnObject._offsetof_zBuffer</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44783" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44783" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PointOnObject_1a4c843e660828b37cd4ff9323cc7c9072" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointOnObject.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PointOnObject.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44786" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44786" bodyend="44787"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointOnObject_1a7829fd75809bd74009d7322b8c3fe1b8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointOnObject" kindref="compound">PointOnObject</ref></type>
+        <definition> PointOnObject mrmeshpy.PointOnObject.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PointOnObject.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44790" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44790" bodyend="44791"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointOnObject_1a7829fd75809bd74009d7322b8c3fe1b8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointOnObject" kindref="compound">PointOnObject</ref></type>
+        <definition> PointOnObject mrmeshpy.PointOnObject.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PointOnObject.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44794" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44794" bodyend="44795"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PointOnObject_1a116a233210e1ac990ca517de2a2419d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointOnObject.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PointOnObject.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44797" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44797" bodyend="44798"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointOnObject_1ad0e677d6bd551751050adc2b9de256d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointOnObject.__init__</definition>
+        <argsstring>(self, PointOnObject arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PointOnObject.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointOnObject" kindref="compound">PointOnObject</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44800" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44800" bodyend="44803"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointOnObject_1a2744f03fccfb9f71362cb41c2ab20f12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.PointOnObject.point</definition>
+        <argsstring>(self)</argsstring>
+        <name>point</name>
+        <qualifiedname>mrmeshpy.PointOnObject.point</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>3D location on the object in local coordinates
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44805" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44805" bodyend="44808"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointOnObject_1aa2432637938d5bdf9ed6b639ad62221d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointOnObject.point</definition>
+        <argsstring>(self, Vector3f arg1)</argsstring>
+        <name>point</name>
+        <qualifiedname>mrmeshpy.PointOnObject.point</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44810" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44810" bodyend="44811"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointOnObject_1a0fbb804a2968caaef871439392ceec66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.PointOnObject.zBuffer</definition>
+        <argsstring>(self)</argsstring>
+        <name>zBuffer</name>
+        <qualifiedname>mrmeshpy.PointOnObject.zBuffer</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>z buffer value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44813" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44813" bodyend="44816"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointOnObject_1a9cc5c4c87acfd364aa44ff4bec857c75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointOnObject.zBuffer</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>zBuffer</name>
+        <qualifiedname>mrmeshpy.PointOnObject.zBuffer</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44818" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44818" bodyend="44819"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::PointOnObject
+
+point located on either
+1. face of ObjectMesh
+2. line of ObjectLines
+3. point of ObjectPoints
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.PointOnObject</label>
+        <link refid="classmrmeshpy_1_1PointOnObject"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_point</edgelabel>
+          <edgelabel>_offsetof_zBuffer</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44773" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44773" bodyend="44819"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1PointOnObject_1a4c843e660828b37cd4ff9323cc7c9072" prot="public" virt="non-virtual"><scope>mrmeshpy::PointOnObject</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PointOnObject_1a116a233210e1ac990ca517de2a2419d0" prot="public" virt="non-virtual"><scope>mrmeshpy::PointOnObject</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PointOnObject_1ad0e677d6bd551751050adc2b9de256d2" prot="public" virt="non-virtual"><scope>mrmeshpy::PointOnObject</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PointOnObject_1a3465a5665f75c8bcf496369cc7854351" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointOnObject</scope><name>_offsetof_point</name></member>
+      <member refid="classmrmeshpy_1_1PointOnObject_1afb4747654ce7320ec1858b2f46df95b9" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointOnObject</scope><name>_offsetof_zBuffer</name></member>
+      <member refid="classmrmeshpy_1_1PointOnObject_1a7829fd75809bd74009d7322b8c3fe1b8" prot="public" virt="non-virtual"><scope>mrmeshpy::PointOnObject</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1PointOnObject_1a7829fd75809bd74009d7322b8c3fe1b8" prot="public" virt="non-virtual"><scope>mrmeshpy::PointOnObject</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1PointOnObject_1a2744f03fccfb9f71362cb41c2ab20f12" prot="public" virt="non-virtual"><scope>mrmeshpy::PointOnObject</scope><name>point</name></member>
+      <member refid="classmrmeshpy_1_1PointOnObject_1aa2432637938d5bdf9ed6b639ad62221d" prot="public" virt="non-virtual"><scope>mrmeshpy::PointOnObject</scope><name>point</name></member>
+      <member refid="classmrmeshpy_1_1PointOnObject_1a0fbb804a2968caaef871439392ceec66" prot="public" virt="non-virtual"><scope>mrmeshpy::PointOnObject</scope><name>zBuffer</name></member>
+      <member refid="classmrmeshpy_1_1PointOnObject_1a9cc5c4c87acfd364aa44ff4bec857c75" prot="public" virt="non-virtual"><scope>mrmeshpy::PointOnObject</scope><name>zBuffer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1unsigned__char__output" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::unsigned_char_output</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1unsigned__char__output_1a3b7a6ad1828ce16a2a5967a74fc24ee5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.unsigned_char_output.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.unsigned_char_output.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95226" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95226" bodyend="95227"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1unsigned__char__output_1a58ee4284e37cf74bd39e9b023ba79186" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.unsigned_char_output.__init__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.unsigned_char_output.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95229" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95229" bodyend="95230"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1unsigned__char__output_1abb7a4e77600b88cb43edce05de492d73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.unsigned_char_output.__init__</definition>
+        <argsstring>(self, int arg0, int arg1)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.unsigned_char_output.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95232" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95232" bodyend="95233"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1unsigned__char__output_1a9c9f64c2cc7eda65219160a7b4e28e55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.unsigned_char_output.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.unsigned_char_output.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95234" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95234" bodyend="95235"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1unsigned__char__output_1a0cbbdb96d78e8b4bcd9a6288cd358ba8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.unsigned_char_output.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.unsigned_char_output.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>If the list contains exactly one value, returns it. Otherwise throws.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95237" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95237" bodyend="95240"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1unsigned__char__output_1ae38d03c5311a8bfe30bf4f4aac62ae02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.unsigned_char_output.value</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.unsigned_char_output.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95242" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95242" bodyend="95243"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>A helper class containing a list of scalars. This is used for functions with scalar output parameters.
+NOTE: If a function outputs an array, you must manually resize this to the correct size or risk undefined behavior.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95219" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95219" bodyend="95243"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1unsigned__char__output_1a3b7a6ad1828ce16a2a5967a74fc24ee5" prot="public" virt="non-virtual"><scope>mrmeshpy::unsigned_char_output</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1unsigned__char__output_1a58ee4284e37cf74bd39e9b023ba79186" prot="public" virt="non-virtual"><scope>mrmeshpy::unsigned_char_output</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1unsigned__char__output_1abb7a4e77600b88cb43edce05de492d73" prot="public" virt="non-virtual"><scope>mrmeshpy::unsigned_char_output</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1unsigned__char__output_1a9c9f64c2cc7eda65219160a7b4e28e55" prot="public" virt="non-virtual"><scope>mrmeshpy::unsigned_char_output</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1unsigned__char__output_1a0cbbdb96d78e8b4bcd9a6288cd358ba8" prot="public" virt="non-virtual"><scope>mrmeshpy::unsigned_char_output</scope><name>value</name></member>
+      <member refid="classmrmeshpy_1_1unsigned__char__output_1ae38d03c5311a8bfe30bf4f4aac62ae02" prot="public" virt="non-virtual"><scope>mrmeshpy::unsigned_char_output</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

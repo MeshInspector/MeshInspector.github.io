@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__Features__Primitives__Plane" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__Features__Primitives__Plane_1a2e54f397c3beba1f85a610d1533f13db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78986" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78986" bodyend="78987"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__Features__Primitives__Plane_1a24c951aafd21c35a79f065bb26dd7d09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane.__init__</definition>
+        <argsstring>(self, std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__Features__Primitives__Plane" kindref="compound">std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78989" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78989" bodyend="78990"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__Features__Primitives__Plane_1a67c4edafadbbb75da719bd4ce864852a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane.__init__</definition>
+        <argsstring>(self, Sphere3f arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Sphere3f" kindref="compound">Sphere3f</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78992" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78992" bodyend="78993"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__Features__Primitives__Plane_1aa371fcedb37e2f750681ac41f869eaa8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane.__init__</definition>
+        <argsstring>(self, Features.Primitives.ConeSegment arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Features.Primitives.ConeSegment</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78995" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78995" bodyend="78996"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__Features__Primitives__Plane_1a6390af799a88c1952a3ceb533b23ef98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane.__init__</definition>
+        <argsstring>(self, Features.Primitives.Plane arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane" kindref="compound">Features.Primitives.Plane</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78998" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78998" bodyend="78999"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__Features__Primitives__Plane_1a72195ec3708c961e96287b2a5c91f9d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane.current_type</definition>
+        <argsstring>(self)</argsstring>
+        <name>current_type</name>
+        <qualifiedname>mrmeshpy.std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane.current_type</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns the current type name as a string. Call `get_&lt;TypeName&gt;()` to get the value.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79000" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79000" bodyend="79003"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__Features__Primitives__Plane_1a4604354ff4001ba96888ab6b3f0715dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Features.Primitives.ConeSegment</ref></type>
+        <definition> Features.Primitives.ConeSegment mrmeshpy.std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane.get_Features_Primitives_ConeSegment</definition>
+        <argsstring>(self)</argsstring>
+        <name>get_Features_Primitives_ConeSegment</name>
+        <qualifiedname>mrmeshpy.std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane.get_Features_Primitives_ConeSegment</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return this alternative, or throw if it&apos;s not active.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79004" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79004" bodyend="79007"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__Features__Primitives__Plane_1a1fa773f527483391079941c50f2b1fac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane" kindref="compound">Features.Primitives.Plane</ref></type>
+        <definition> Features.Primitives.Plane mrmeshpy.std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane.get_Features_Primitives_Plane</definition>
+        <argsstring>(self)</argsstring>
+        <name>get_Features_Primitives_Plane</name>
+        <qualifiedname>mrmeshpy.std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane.get_Features_Primitives_Plane</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return this alternative, or throw if it&apos;s not active.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79008" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79008" bodyend="79011"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__Features__Primitives__Plane_1ad192662866389f9c2e1b9b4eea3bcf8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Sphere3f" kindref="compound">Sphere3f</ref></type>
+        <definition> Sphere3f mrmeshpy.std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane.get_Sphere_Vector3_float</definition>
+        <argsstring>(self)</argsstring>
+        <name>get_Sphere_Vector3_float</name>
+        <qualifiedname>mrmeshpy.std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane.get_Sphere_Vector3_float</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return this alternative, or throw if it&apos;s not active.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79012" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79012" bodyend="79015"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Aliases:  Features.Primitives.Variant, std_variant_Sphere3f_Features_Primitives_ConeSegment_Features_Primitives_Plane
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78981" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78981" bodyend="79015"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__Features__Primitives__Plane_1a2e54f397c3beba1f85a610d1533f13db" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__Features__Primitives__Plane_1a24c951aafd21c35a79f065bb26dd7d09" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__Features__Primitives__Plane_1a67c4edafadbbb75da719bd4ce864852a" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__Features__Primitives__Plane_1aa371fcedb37e2f750681ac41f869eaa8" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__Features__Primitives__Plane_1a6390af799a88c1952a3ceb533b23ef98" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__Features__Primitives__Plane_1a72195ec3708c961e96287b2a5c91f9d5" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane</scope><name>current_type</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__Features__Primitives__Plane_1a4604354ff4001ba96888ab6b3f0715dd" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane</scope><name>get_Features_Primitives_ConeSegment</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__Features__Primitives__Plane_1a1fa773f527483391079941c50f2b1fac" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane</scope><name>get_Features_Primitives_Plane</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__Features__Primitives__Plane_1ad192662866389f9c2e1b9b4eea3bcf8e" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane</scope><name>get_Sphere_Vector3_float</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

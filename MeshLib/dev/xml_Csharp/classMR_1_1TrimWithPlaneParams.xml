@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1TrimWithPlaneParams" kind="class" language="C#" prot="public">
+    <compoundname>MR::TrimWithPlaneParams</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_TrimWithPlaneParams</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1TrimWithPlaneParams_1ac6bda8d02678708d5cf85f108e53f742" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1Plane3f" kindref="compound">MR.Plane3f</ref></type>
+        <definition>new unsafe MR.Plane3f MR.TrimWithPlaneParams.plane</definition>
+        <argsstring></argsstring>
+        <name>plane</name>
+        <qualifiedname>MR.TrimWithPlaneParams.plane</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="127" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="127" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1TrimWithPlaneParams_1a99d8d589dbba19c3e1b11ff130b9af30" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.TrimWithPlaneParams.eps</definition>
+        <argsstring></argsstring>
+        <name>eps</name>
+        <qualifiedname>MR.TrimWithPlaneParams.eps</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="130" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1TrimWithPlaneParams_1a7c9ae9b50387cae2a8f2df53230bf971" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_VoidFuncFromMREdgeIdMREdgeIdFloat</type>
+        <definition>new unsafe MR.Std.Function_VoidFuncFromMREdgeIdMREdgeIdFloat MR.TrimWithPlaneParams.onEdgeSplitCallback</definition>
+        <argsstring></argsstring>
+        <name>onEdgeSplitCallback</name>
+        <qualifiedname>MR.TrimWithPlaneParams.onEdgeSplitCallback</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="133" column="75" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="133" bodyend="133"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1TrimWithPlaneParams_1a5090c34a8eebcf82030fe6746403dfa3" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.TrimWithPlaneParams.TrimWithPlaneParams</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>TrimWithPlaneParams</name>
+        <qualifiedname>MR.TrimWithPlaneParams.TrimWithPlaneParams</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="159" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="159" bodyend="163"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1TrimWithPlaneParams_1a83c436b07cf5583bb54ac607faa5cd93" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.TrimWithPlaneParams.TrimWithPlaneParams</definition>
+        <argsstring>()</argsstring>
+        <name>TrimWithPlaneParams</name>
+        <qualifiedname>MR.TrimWithPlaneParams.TrimWithPlaneParams</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="169" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="169" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TrimWithPlaneParams_1a76878c8d8b9fc42af06ab1a4cdcb4665" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.TrimWithPlaneParams.TrimWithPlaneParams</definition>
+        <argsstring>(MR.Const_Plane3f plane, float eps, MR.Std._ByValue_Function_VoidFuncFromMREdgeIdMREdgeIdFloat onEdgeSplitCallback)</argsstring>
+        <name>TrimWithPlaneParams</name>
+        <qualifiedname>MR.TrimWithPlaneParams.TrimWithPlaneParams</qualifiedname>
+        <param>
+          <type>MR.Const_Plane3f</type>
+          <declname>plane</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>eps</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_VoidFuncFromMREdgeIdMREdgeIdFloat</type>
+          <declname>onEdgeSplitCallback</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1TrimWithPlaneParams" kindref="compound">MR.TrimWithPlaneParams</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="180" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="180" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TrimWithPlaneParams_1a219020ab2b983b93484a0aad01dce02d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.TrimWithPlaneParams.TrimWithPlaneParams</definition>
+        <argsstring>(MR._ByValue_TrimWithPlaneParams _other)</argsstring>
+        <name>TrimWithPlaneParams</name>
+        <qualifiedname>MR.TrimWithPlaneParams.TrimWithPlaneParams</qualifiedname>
+        <param>
+          <type>MR._ByValue_TrimWithPlaneParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.TrimWithPlaneParams.TrimWithPlaneParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="193" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="193" bodyend="200"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TrimWithPlaneParams_1a1456d7a08c4946124be679c913730858" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.TrimWithPlaneParams.TrimWithPlaneParams</definition>
+        <argsstring>(Const_TrimWithPlaneParams _other)</argsstring>
+        <name>TrimWithPlaneParams</name>
+        <qualifiedname>MR.TrimWithPlaneParams.TrimWithPlaneParams</qualifiedname>
+        <param>
+          <type>Const_TrimWithPlaneParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.TrimWithPlaneParams.TrimWithPlaneParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="205" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="205" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TrimWithPlaneParams_1af3e5eb147cd03147b10d42fbbfef02a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.TrimWithPlaneParams.TrimWithPlaneParams</definition>
+        <argsstring>(TrimWithPlaneParams _other)</argsstring>
+        <name>TrimWithPlaneParams</name>
+        <qualifiedname>MR.TrimWithPlaneParams.TrimWithPlaneParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1TrimWithPlaneParams" kindref="compound">TrimWithPlaneParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.TrimWithPlaneParams.TrimWithPlaneParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="210" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="210" bodyend="210"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TrimWithPlaneParams_1a15226809745221df4286466804cf1936" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1TrimWithPlaneParams" kindref="compound">MR.TrimWithPlaneParams</ref></type>
+        <definition>unsafe MR.TrimWithPlaneParams MR.TrimWithPlaneParams.assign</definition>
+        <argsstring>(MR._ByValue_TrimWithPlaneParams _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.TrimWithPlaneParams.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_TrimWithPlaneParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.TrimWithPlaneParams.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="215" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="215" bodyend="222"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1TrimWithPlaneParams" kindref="compound">MR.TrimWithPlaneParams</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_TrimWithPlaneParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.TrimWithPlaneParams</label>
+        <link refid="classMR_1_1TrimWithPlaneParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_TrimWithPlaneParams &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_TrimWithPlaneParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.TrimWithPlaneParams</label>
+        <link refid="classMR_1_1TrimWithPlaneParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_TrimWithPlaneParams &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="124" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="125" bodyend="223"/>
+    <listofallmembers>
+      <member refid="classMR_1_1TrimWithPlaneParams_1a15226809745221df4286466804cf1936" prot="public" virt="non-virtual"><scope>MR::TrimWithPlaneParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1TrimWithPlaneParams_1a99d8d589dbba19c3e1b11ff130b9af30" prot="public" virt="non-virtual"><scope>MR::TrimWithPlaneParams</scope><name>eps</name></member>
+      <member refid="classMR_1_1TrimWithPlaneParams_1a7c9ae9b50387cae2a8f2df53230bf971" prot="public" virt="non-virtual"><scope>MR::TrimWithPlaneParams</scope><name>onEdgeSplitCallback</name></member>
+      <member refid="classMR_1_1TrimWithPlaneParams_1ac6bda8d02678708d5cf85f108e53f742" prot="public" virt="non-virtual"><scope>MR::TrimWithPlaneParams</scope><name>plane</name></member>
+      <member refid="classMR_1_1TrimWithPlaneParams_1a5090c34a8eebcf82030fe6746403dfa3" prot="package" virt="non-virtual"><scope>MR::TrimWithPlaneParams</scope><name>TrimWithPlaneParams</name></member>
+      <member refid="classMR_1_1TrimWithPlaneParams_1a83c436b07cf5583bb54ac607faa5cd93" prot="public" virt="non-virtual"><scope>MR::TrimWithPlaneParams</scope><name>TrimWithPlaneParams</name></member>
+      <member refid="classMR_1_1TrimWithPlaneParams_1a76878c8d8b9fc42af06ab1a4cdcb4665" prot="public" virt="non-virtual"><scope>MR::TrimWithPlaneParams</scope><name>TrimWithPlaneParams</name></member>
+      <member refid="classMR_1_1TrimWithPlaneParams_1a219020ab2b983b93484a0aad01dce02d" prot="public" virt="non-virtual"><scope>MR::TrimWithPlaneParams</scope><name>TrimWithPlaneParams</name></member>
+      <member refid="classMR_1_1TrimWithPlaneParams_1a1456d7a08c4946124be679c913730858" prot="public" virt="non-virtual"><scope>MR::TrimWithPlaneParams</scope><name>TrimWithPlaneParams</name></member>
+      <member refid="classMR_1_1TrimWithPlaneParams_1af3e5eb147cd03147b10d42fbbfef02a1" prot="public" virt="non-virtual"><scope>MR::TrimWithPlaneParams</scope><name>TrimWithPlaneParams</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

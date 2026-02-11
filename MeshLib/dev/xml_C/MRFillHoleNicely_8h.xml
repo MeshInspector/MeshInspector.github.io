@@ -1,0 +1,1503 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRFillHoleNicely_8h" kind="file" language="C++">
+    <compoundname>MRFillHoleNicely.h</compoundname>
+    <includes refid="MREnums_8h" local="no">MRCMesh/MREnums.h</includes>
+    <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
+    <includes local="no">MRCMisc/common.h</includes>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMesh/MREnums.h</label>
+        <link refid="MREnums_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRFillHoleNicely.h</label>
+        <link refid="MRFillHoleNicely_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRCMesh/MRId.h</label>
+        <link refid="MRId_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MRCMisc/common.h</label>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+      <node id="7">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRFillHoleNicely_8h_1aba7bc6ac732c34fd4721c543fa3445ea" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref></type>
+        <definition>typedef struct MR_FaceBitSet MR_FaceBitSet</definition>
+        <argsstring></argsstring>
+        <name>MR_FaceBitSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="15" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRFillHoleNicely_8h_1a88c7503c40b624a577fda0eab1faa5fa" prot="public" static="no">
+        <type>struct <ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref></type>
+        <definition>typedef struct MR_FaceColors MR_FaceColors</definition>
+        <argsstring></argsstring>
+        <name>MR_FaceColors</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="16" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRFillHoleNicely_8h_1aac50ce209302ca1c9b23e6ea4dcfd3b4" prot="public" static="no">
+        <type>struct <ref refid="MRFillHoleNicely_8h_1aac50ce209302ca1c9b23e6ea4dcfd3b4" kindref="member">MR_FillHoleParams</ref></type>
+        <definition>typedef struct MR_FillHoleParams MR_FillHoleParams</definition>
+        <argsstring></argsstring>
+        <name>MR_FillHoleParams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="17" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRFillHoleNicely_8h_1a31b172f68efca6438544d56eb86d6f40" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref></type>
+        <definition>typedef struct MR_Mesh MR_Mesh</definition>
+        <argsstring></argsstring>
+        <name>MR_Mesh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="18" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRFillHoleNicely_8h_1ac7f59a6736b29701d7e619412b6e2890" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref></type>
+        <definition>typedef struct MR_UndirectedEdgeBitSet MR_UndirectedEdgeBitSet</definition>
+        <argsstring></argsstring>
+        <name>MR_UndirectedEdgeBitSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="19" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRFillHoleNicely_8h_1a20dc7d636220f61a60c7ae92b8caa768" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref></type>
+        <definition>typedef struct MR_VertColors MR_VertColors</definition>
+        <argsstring></argsstring>
+        <name>MR_VertColors</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="20" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRFillHoleNicely_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref></type>
+        <definition>typedef struct MR_VertCoords2 MR_VertCoords2</definition>
+        <argsstring></argsstring>
+        <name>MR_VertCoords2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="21" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRFillHoleNicely_8h_1a5406af15a4ce0b3061cd59f056e30578" prot="public" static="no">
+        <type>struct <ref refid="MRFillHoleNicely_8h_1a5406af15a4ce0b3061cd59f056e30578" kindref="member">MR_std_function_bool_from_MR_EdgeId</ref></type>
+        <definition>typedef struct MR_std_function_bool_from_MR_EdgeId MR_std_function_bool_from_MR_EdgeId</definition>
+        <argsstring></argsstring>
+        <name>MR_std_function_bool_from_MR_EdgeId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="22" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" prot="public" static="no">
+        <type>struct <ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref></type>
+        <definition>typedef struct MR_std_function_void_from_MR_EdgeId_MR_EdgeId MR_std_function_void_from_MR_EdgeId_MR_EdgeId</definition>
+        <argsstring></argsstring>
+        <name>MR_std_function_void_from_MR_EdgeId_MR_EdgeId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="23" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" prot="public" static="no">
+        <type>struct <ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref></type>
+        <definition>typedef struct MR_FillHoleNicelySettings MR_FillHoleNicelySettings</definition>
+        <argsstring></argsstring>
+        <name>MR_FillHoleNicelySettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::FillHoleNicelySettings</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="28" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1a67b8cdb54298cf10acb5f0174b33c25c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRFillHoleNicely_8h_1aac50ce209302ca1c9b23e6ea4dcfd3b4" kindref="member">MR_FillHoleParams</ref> *</type>
+        <definition>MRC_API const MR_FillHoleParams * MR_FillHoleNicelySettings_Get_triangulateParams</definition>
+        <argsstring>(const MR_FillHoleNicelySettings *_this)</argsstring>
+        <name>MR_FillHoleNicelySettings_Get_triangulateParams</name>
+        <param>
+          <type>const <ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>how to triangulate the hole, must be specified by the user Returns a pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>triangulateParams</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="34" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="34" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1ab5e0296af47593f684980f691d80143c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_FillHoleNicelySettings_Set_triangulateParams</definition>
+        <argsstring>(MR_FillHoleNicelySettings *_this, MR_PassBy value_pass_by, MR_FillHoleParams *value)</argsstring>
+        <name>MR_FillHoleNicelySettings_Set_triangulateParams</name>
+        <param>
+          <type><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>value_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRFillHoleNicely_8h_1aac50ce209302ca1c9b23e6ea4dcfd3b4" kindref="member">MR_FillHoleParams</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>how to triangulate the hole, must be specified by the user Modifies a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>triangulateParams</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>triangulateParams</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>triangulateParams</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="41" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="41" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1ae3411a95acb44ba899af394e71c242c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRFillHoleNicely_8h_1aac50ce209302ca1c9b23e6ea4dcfd3b4" kindref="member">MR_FillHoleParams</ref> *</type>
+        <definition>MRC_API MR_FillHoleParams * MR_FillHoleNicelySettings_GetMutable_triangulateParams</definition>
+        <argsstring>(MR_FillHoleNicelySettings *_this)</argsstring>
+        <name>MR_FillHoleNicelySettings_GetMutable_triangulateParams</name>
+        <param>
+          <type><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>how to triangulate the hole, must be specified by the user Returns a mutable pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>triangulateParams</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="47" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="47" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1a47e125ad8ba1ae4b38a139794b337b8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const bool *</type>
+        <definition>MRC_API const bool * MR_FillHoleNicelySettings_Get_triangulateOnly</definition>
+        <argsstring>(const MR_FillHoleNicelySettings *_this)</argsstring>
+        <name>MR_FillHoleNicelySettings_Get_triangulateOnly</name>
+        <param>
+          <type>const <ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If false then additional vertices are created inside the patch for best mesh quality Returns a pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>triangulateOnly</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="53" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="53" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1a6e29032ba5f70e6f74ee1ada98a7e6ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_FillHoleNicelySettings_Set_triangulateOnly</definition>
+        <argsstring>(MR_FillHoleNicelySettings *_this, bool value)</argsstring>
+        <name>MR_FillHoleNicelySettings_Set_triangulateOnly</name>
+        <param>
+          <type><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If false then additional vertices are created inside the patch for best mesh quality Modifies a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>triangulateOnly</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>triangulateOnly</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="59" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="59" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1ace83f14ecda58bb62495b0a35e22ae02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool *</type>
+        <definition>MRC_API bool * MR_FillHoleNicelySettings_GetMutable_triangulateOnly</definition>
+        <argsstring>(MR_FillHoleNicelySettings *_this)</argsstring>
+        <name>MR_FillHoleNicelySettings_GetMutable_triangulateOnly</name>
+        <param>
+          <type><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If false then additional vertices are created inside the patch for best mesh quality Returns a mutable pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>triangulateOnly</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="65" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="65" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1a73cc35e9c49fbdd839e081c8b1711e14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref> *const *</type>
+        <definition>MRC_API MR_UndirectedEdgeBitSet *const  * MR_FillHoleNicelySettings_Get_notFlippable</definition>
+        <argsstring>(const MR_FillHoleNicelySettings *_this)</argsstring>
+        <name>MR_FillHoleNicelySettings_Get_notFlippable</name>
+        <param>
+          <type>const <ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>in triangulateOnly = false mode, edges specified by this bit-set will never be flipped, but they can be split so it is updated during the operation Returns a pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>notFlippable</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="71" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="71" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1af76a7088a7d350b03f93558647c13d2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_FillHoleNicelySettings_Set_notFlippable</definition>
+        <argsstring>(MR_FillHoleNicelySettings *_this, MR_UndirectedEdgeBitSet *value)</argsstring>
+        <name>MR_FillHoleNicelySettings_Set_notFlippable</name>
+        <param>
+          <type><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>in triangulateOnly = false mode, edges specified by this bit-set will never be flipped, but they can be split so it is updated during the operation Modifies a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>notFlippable</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>notFlippable</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>notFlippable</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="78" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="78" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1ad21a761fb2430c5c604cc029eb51d7d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref> **</type>
+        <definition>MRC_API MR_UndirectedEdgeBitSet ** MR_FillHoleNicelySettings_GetMutable_notFlippable</definition>
+        <argsstring>(MR_FillHoleNicelySettings *_this)</argsstring>
+        <name>MR_FillHoleNicelySettings_GetMutable_notFlippable</name>
+        <param>
+          <type><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>in triangulateOnly = false mode, edges specified by this bit-set will never be flipped, but they can be split so it is updated during the operation Returns a mutable pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>notFlippable</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="84" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="84" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1a85d9130ff30e297da0c49d5f9c6e6e89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_FillHoleNicelySettings_Get_maxEdgeLen</definition>
+        <argsstring>(const MR_FillHoleNicelySettings *_this)</argsstring>
+        <name>MR_FillHoleNicelySettings_Get_maxEdgeLen</name>
+        <param>
+          <type>const <ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Subdivision is stopped when all edges inside or on the boundary of the region are not longer than this value Returns a pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>maxEdgeLen</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="90" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="90" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1a6f3533f96f28e85cc90af55e1119e870" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_FillHoleNicelySettings_Set_maxEdgeLen</definition>
+        <argsstring>(MR_FillHoleNicelySettings *_this, float value)</argsstring>
+        <name>MR_FillHoleNicelySettings_Set_maxEdgeLen</name>
+        <param>
+          <type><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Subdivision is stopped when all edges inside or on the boundary of the region are not longer than this value Modifies a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>maxEdgeLen</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxEdgeLen</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="96" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="96" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1a8277e978d1e255195e6816a18aae4cba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_FillHoleNicelySettings_GetMutable_maxEdgeLen</definition>
+        <argsstring>(MR_FillHoleNicelySettings *_this)</argsstring>
+        <name>MR_FillHoleNicelySettings_GetMutable_maxEdgeLen</name>
+        <param>
+          <type><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Subdivision is stopped when all edges inside or on the boundary of the region are not longer than this value Returns a mutable pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>maxEdgeLen</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="102" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="102" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1a32a9ed436fb2439ab1b2c92683927023" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const int *</type>
+        <definition>MRC_API const int * MR_FillHoleNicelySettings_Get_maxEdgeSplits</definition>
+        <argsstring>(const MR_FillHoleNicelySettings *_this)</argsstring>
+        <name>MR_FillHoleNicelySettings_Get_maxEdgeSplits</name>
+        <param>
+          <type>const <ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Maximum number of edge splits allowed during subdivision Returns a pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>maxEdgeSplits</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="108" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="108" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1a9cf9c96577abe68f60837e3b236b7775" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_FillHoleNicelySettings_Set_maxEdgeSplits</definition>
+        <argsstring>(MR_FillHoleNicelySettings *_this, int value)</argsstring>
+        <name>MR_FillHoleNicelySettings_Set_maxEdgeSplits</name>
+        <param>
+          <type><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Maximum number of edge splits allowed during subdivision Modifies a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>maxEdgeSplits</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxEdgeSplits</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="114" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="114" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1a723bf0a04ed62d5972ba3cd0a7a2cd40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API int *</type>
+        <definition>MRC_API int * MR_FillHoleNicelySettings_GetMutable_maxEdgeSplits</definition>
+        <argsstring>(MR_FillHoleNicelySettings *_this)</argsstring>
+        <name>MR_FillHoleNicelySettings_GetMutable_maxEdgeSplits</name>
+        <param>
+          <type><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Maximum number of edge splits allowed during subdivision Returns a mutable pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>maxEdgeSplits</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="120" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="120" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1a2d79cce6011d3fe9ac407dbf6a2664ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_FillHoleNicelySettings_Get_maxAngleChangeAfterFlip</definition>
+        <argsstring>(const MR_FillHoleNicelySettings *_this)</argsstring>
+        <name>MR_FillHoleNicelySettings_Get_maxAngleChangeAfterFlip</name>
+        <param>
+          <type>const <ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Improves local mesh triangulation by doing edge flips if it does not change dihedral angle more than on this value (in radians) Returns a pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>maxAngleChangeAfterFlip</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="126" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="126" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1ab780e7084262ccef332749c15212b4b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_FillHoleNicelySettings_Set_maxAngleChangeAfterFlip</definition>
+        <argsstring>(MR_FillHoleNicelySettings *_this, float value)</argsstring>
+        <name>MR_FillHoleNicelySettings_Set_maxAngleChangeAfterFlip</name>
+        <param>
+          <type><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Improves local mesh triangulation by doing edge flips if it does not change dihedral angle more than on this value (in radians) Modifies a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>maxAngleChangeAfterFlip</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxAngleChangeAfterFlip</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="132" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="132" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1af5636d4044f782e973aa5ccabb429c67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_FillHoleNicelySettings_GetMutable_maxAngleChangeAfterFlip</definition>
+        <argsstring>(MR_FillHoleNicelySettings *_this)</argsstring>
+        <name>MR_FillHoleNicelySettings_GetMutable_maxAngleChangeAfterFlip</name>
+        <param>
+          <type><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Improves local mesh triangulation by doing edge flips if it does not change dihedral angle more than on this value (in radians) Returns a mutable pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>maxAngleChangeAfterFlip</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="138" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="138" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1a4542b5be7b62576ce607b2a4ec67ec07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const bool *</type>
+        <definition>MRC_API const bool * MR_FillHoleNicelySettings_Get_smoothCurvature</definition>
+        <argsstring>(const MR_FillHoleNicelySettings *_this)</argsstring>
+        <name>MR_FillHoleNicelySettings_Get_smoothCurvature</name>
+        <param>
+          <type>const <ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Whether to make patch over the hole smooth both inside and on its boundary with existed surface Returns a pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>smoothCurvature</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="144" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="144" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1ade1dfd5344e3c131de5cccdc133eac84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_FillHoleNicelySettings_Set_smoothCurvature</definition>
+        <argsstring>(MR_FillHoleNicelySettings *_this, bool value)</argsstring>
+        <name>MR_FillHoleNicelySettings_Set_smoothCurvature</name>
+        <param>
+          <type><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Whether to make patch over the hole smooth both inside and on its boundary with existed surface Modifies a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>smoothCurvature</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>smoothCurvature</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="150" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="150" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1a9ebb889372128db4eea0d994291fed9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool *</type>
+        <definition>MRC_API bool * MR_FillHoleNicelySettings_GetMutable_smoothCurvature</definition>
+        <argsstring>(MR_FillHoleNicelySettings *_this)</argsstring>
+        <name>MR_FillHoleNicelySettings_GetMutable_smoothCurvature</name>
+        <param>
+          <type><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Whether to make patch over the hole smooth both inside and on its boundary with existed surface Returns a mutable pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>smoothCurvature</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="156" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="156" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1ab376b5de5a3ca99d149f51bb62766621" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const bool *</type>
+        <definition>MRC_API const bool * MR_FillHoleNicelySettings_Get_naturalSmooth</definition>
+        <argsstring>(const MR_FillHoleNicelySettings *_this)</argsstring>
+        <name>MR_FillHoleNicelySettings_Get_naturalSmooth</name>
+        <param>
+          <type>const <ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Additionally smooth 3 layers of vertices near hole boundary both inside and outside of the hole Returns a pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>naturalSmooth</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="162" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="162" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1ae7720d85f43ee72f5327e78f14896b7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_FillHoleNicelySettings_Set_naturalSmooth</definition>
+        <argsstring>(MR_FillHoleNicelySettings *_this, bool value)</argsstring>
+        <name>MR_FillHoleNicelySettings_Set_naturalSmooth</name>
+        <param>
+          <type><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Additionally smooth 3 layers of vertices near hole boundary both inside and outside of the hole Modifies a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>naturalSmooth</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>naturalSmooth</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="168" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="168" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1a83097cc5c3e7d3e22d4a86d175e9b603" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool *</type>
+        <definition>MRC_API bool * MR_FillHoleNicelySettings_GetMutable_naturalSmooth</definition>
+        <argsstring>(MR_FillHoleNicelySettings *_this)</argsstring>
+        <name>MR_FillHoleNicelySettings_GetMutable_naturalSmooth</name>
+        <param>
+          <type><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Additionally smooth 3 layers of vertices near hole boundary both inside and outside of the hole Returns a mutable pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>naturalSmooth</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="174" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="174" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1a8bd232dca7f6b7e889ea1c97c0f5ff0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRFillHoleNicely_8h_1a5406af15a4ce0b3061cd59f056e30578" kindref="member">MR_std_function_bool_from_MR_EdgeId</ref> *</type>
+        <definition>MRC_API const MR_std_function_bool_from_MR_EdgeId * MR_FillHoleNicelySettings_Get_beforeEdgeSplit</definition>
+        <argsstring>(const MR_FillHoleNicelySettings *_this)</argsstring>
+        <name>MR_FillHoleNicelySettings_Get_beforeEdgeSplit</name>
+        <param>
+          <type>const <ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(If this is set) this function is called in subdivision each time edge (e) is going to split, if it returns false then this split will be skipped Returns a pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>beforeEdgeSplit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="180" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="180" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1ab8f4519ad1a08c86c2cd3208e6260c66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_FillHoleNicelySettings_Set_beforeEdgeSplit</definition>
+        <argsstring>(MR_FillHoleNicelySettings *_this, MR_PassBy value_pass_by, MR_std_function_bool_from_MR_EdgeId *value)</argsstring>
+        <name>MR_FillHoleNicelySettings_Set_beforeEdgeSplit</name>
+        <param>
+          <type><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>value_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRFillHoleNicely_8h_1a5406af15a4ce0b3061cd59f056e30578" kindref="member">MR_std_function_bool_from_MR_EdgeId</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(If this is set) this function is called in subdivision each time edge (e) is going to split, if it returns false then this split will be skipped Modifies a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>beforeEdgeSplit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>beforeEdgeSplit</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>beforeEdgeSplit</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="187" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="187" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1acccc7b9c1a0910292080454a0fdf9f3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRFillHoleNicely_8h_1a5406af15a4ce0b3061cd59f056e30578" kindref="member">MR_std_function_bool_from_MR_EdgeId</ref> *</type>
+        <definition>MRC_API MR_std_function_bool_from_MR_EdgeId * MR_FillHoleNicelySettings_GetMutable_beforeEdgeSplit</definition>
+        <argsstring>(MR_FillHoleNicelySettings *_this)</argsstring>
+        <name>MR_FillHoleNicelySettings_GetMutable_beforeEdgeSplit</name>
+        <param>
+          <type><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(If this is set) this function is called in subdivision each time edge (e) is going to split, if it returns false then this split will be skipped Returns a mutable pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>beforeEdgeSplit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="193" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="193" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1aa706c930fcb6434c9370774d8394ab5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref> *</type>
+        <definition>MRC_API const MR_std_function_void_from_MR_EdgeId_MR_EdgeId * MR_FillHoleNicelySettings_Get_onEdgeSplit</definition>
+        <argsstring>(const MR_FillHoleNicelySettings *_this)</argsstring>
+        <name>MR_FillHoleNicelySettings_Get_onEdgeSplit</name>
+        <param>
+          <type>const <ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(If this is set) this function is called in subdivision each time edge (e) is split into (e1-&gt;e), but before the ring is made Delone Returns a pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>onEdgeSplit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="199" column="61" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="199" declcolumn="61"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1a55b4c09c3aadf9d5ec55ae6ba9daad89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_FillHoleNicelySettings_Set_onEdgeSplit</definition>
+        <argsstring>(MR_FillHoleNicelySettings *_this, MR_PassBy value_pass_by, MR_std_function_void_from_MR_EdgeId_MR_EdgeId *value)</argsstring>
+        <name>MR_FillHoleNicelySettings_Set_onEdgeSplit</name>
+        <param>
+          <type><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>value_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(If this is set) this function is called in subdivision each time edge (e) is split into (e1-&gt;e), but before the ring is made Delone Modifies a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>onEdgeSplit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>onEdgeSplit</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>onEdgeSplit</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="206" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="206" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1a88b27a6cbedcf5c84099b0f035b8b236" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref> *</type>
+        <definition>MRC_API MR_std_function_void_from_MR_EdgeId_MR_EdgeId * MR_FillHoleNicelySettings_GetMutable_onEdgeSplit</definition>
+        <argsstring>(MR_FillHoleNicelySettings *_this)</argsstring>
+        <name>MR_FillHoleNicelySettings_GetMutable_onEdgeSplit</name>
+        <param>
+          <type><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(If this is set) this function is called in subdivision each time edge (e) is split into (e1-&gt;e), but before the ring is made Delone Returns a mutable pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>onEdgeSplit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="212" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="212" declcolumn="55"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1ab502877acc987c9cb004d827d95efcab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MREnums_8h_1a9a47d4f1ed7f02b8923ccde473d7ab50" kindref="member">MR_EdgeWeights</ref> *</type>
+        <definition>MRC_API const MR_EdgeWeights * MR_FillHoleNicelySettings_Get_edgeWeights</definition>
+        <argsstring>(const MR_FillHoleNicelySettings *_this)</argsstring>
+        <name>MR_FillHoleNicelySettings_Get_edgeWeights</name>
+        <param>
+          <type>const <ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>edge weighting scheme for smoothCurvature mode Returns a pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>edgeWeights</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="218" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="218" declcolumn="30"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1a2bbbc82eabd00ed4dc7be4549871d170" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_FillHoleNicelySettings_Set_edgeWeights</definition>
+        <argsstring>(MR_FillHoleNicelySettings *_this, MR_EdgeWeights value)</argsstring>
+        <name>MR_FillHoleNicelySettings_Set_edgeWeights</name>
+        <param>
+          <type><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MREnums_8h_1a9a47d4f1ed7f02b8923ccde473d7ab50" kindref="member">MR_EdgeWeights</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>edge weighting scheme for smoothCurvature mode Modifies a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>edgeWeights</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>edgeWeights</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>edgeWeights</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="225" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="225" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1a3b9977f9b0fbdabdc9567494fe0b6f43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MREnums_8h_1a9a47d4f1ed7f02b8923ccde473d7ab50" kindref="member">MR_EdgeWeights</ref> *</type>
+        <definition>MRC_API MR_EdgeWeights * MR_FillHoleNicelySettings_GetMutable_edgeWeights</definition>
+        <argsstring>(MR_FillHoleNicelySettings *_this)</argsstring>
+        <name>MR_FillHoleNicelySettings_GetMutable_edgeWeights</name>
+        <param>
+          <type><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>edge weighting scheme for smoothCurvature mode Returns a mutable pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>edgeWeights</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="231" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="231" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1ab6cce011c702d0b347a4b16c74c943b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MREnums_8h_1ae6b0258254d005d6b726579dd8ae29b3" kindref="member">MR_VertexMass</ref> *</type>
+        <definition>MRC_API const MR_VertexMass * MR_FillHoleNicelySettings_Get_vmass</definition>
+        <argsstring>(const MR_FillHoleNicelySettings *_this)</argsstring>
+        <name>MR_FillHoleNicelySettings_Get_vmass</name>
+        <param>
+          <type>const <ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>vertex mass scheme for smoothCurvature mode Returns a pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>vmass</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="237" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="237" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1a1017085705f3746ceea800f6115676df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_FillHoleNicelySettings_Set_vmass</definition>
+        <argsstring>(MR_FillHoleNicelySettings *_this, MR_VertexMass value)</argsstring>
+        <name>MR_FillHoleNicelySettings_Set_vmass</name>
+        <param>
+          <type><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MREnums_8h_1ae6b0258254d005d6b726579dd8ae29b3" kindref="member">MR_VertexMass</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>vertex mass scheme for smoothCurvature mode Modifies a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>vmass</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>vmass</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>vmass</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="244" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="244" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1a082d311afe820f7b77307040f088692a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MREnums_8h_1ae6b0258254d005d6b726579dd8ae29b3" kindref="member">MR_VertexMass</ref> *</type>
+        <definition>MRC_API MR_VertexMass * MR_FillHoleNicelySettings_GetMutable_vmass</definition>
+        <argsstring>(MR_FillHoleNicelySettings *_this)</argsstring>
+        <name>MR_FillHoleNicelySettings_GetMutable_vmass</name>
+        <param>
+          <type><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>vertex mass scheme for smoothCurvature mode Returns a mutable pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>vmass</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="250" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="250" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1ad71fe9b08805bef53c4482aab7983497" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref> *const *</type>
+        <definition>MRC_API MR_VertCoords2 *const  * MR_FillHoleNicelySettings_Get_uvCoords</definition>
+        <argsstring>(const MR_FillHoleNicelySettings *_this)</argsstring>
+        <name>MR_FillHoleNicelySettings_Get_uvCoords</name>
+        <param>
+          <type>const <ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional uv-coordinates of vertices; if provided then elements corresponding to new vertices will be added there Returns a pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>uvCoords</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="256" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="256" declcolumn="30"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1aaf320b467ec84c08b4f015742baec14a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_FillHoleNicelySettings_Set_uvCoords</definition>
+        <argsstring>(MR_FillHoleNicelySettings *_this, MR_VertCoords2 *value)</argsstring>
+        <name>MR_FillHoleNicelySettings_Set_uvCoords</name>
+        <param>
+          <type><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional uv-coordinates of vertices; if provided then elements corresponding to new vertices will be added there Modifies a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>uvCoords</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>uvCoords</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>uvCoords</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="263" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="263" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1a22a0d23ebd9ff4330fbf1281adf1ea92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref> **</type>
+        <definition>MRC_API MR_VertCoords2 ** MR_FillHoleNicelySettings_GetMutable_uvCoords</definition>
+        <argsstring>(MR_FillHoleNicelySettings *_this)</argsstring>
+        <name>MR_FillHoleNicelySettings_GetMutable_uvCoords</name>
+        <param>
+          <type><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional uv-coordinates of vertices; if provided then elements corresponding to new vertices will be added there Returns a mutable pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>uvCoords</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="269" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="269" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1ad8f1f8d97cbe529a3b629caf783ea8b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> *const *</type>
+        <definition>MRC_API MR_VertColors *const  * MR_FillHoleNicelySettings_Get_colorMap</definition>
+        <argsstring>(const MR_FillHoleNicelySettings *_this)</argsstring>
+        <name>MR_FillHoleNicelySettings_Get_colorMap</name>
+        <param>
+          <type>const <ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional colors of vertices; if provided then elements corresponding to new vertices will be added there Returns a pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>colorMap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="275" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="275" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1a8e0c5b3de60afa49fb2835c718969fa0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_FillHoleNicelySettings_Set_colorMap</definition>
+        <argsstring>(MR_FillHoleNicelySettings *_this, MR_VertColors *value)</argsstring>
+        <name>MR_FillHoleNicelySettings_Set_colorMap</name>
+        <param>
+          <type><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional colors of vertices; if provided then elements corresponding to new vertices will be added there Modifies a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>colorMap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>colorMap</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>colorMap</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="282" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="282" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1acd03f61925010b547468f8b9511878fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> **</type>
+        <definition>MRC_API MR_VertColors ** MR_FillHoleNicelySettings_GetMutable_colorMap</definition>
+        <argsstring>(MR_FillHoleNicelySettings *_this)</argsstring>
+        <name>MR_FillHoleNicelySettings_GetMutable_colorMap</name>
+        <param>
+          <type><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional colors of vertices; if provided then elements corresponding to new vertices will be added there Returns a mutable pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>colorMap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="288" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="288" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1a005636c8fd17fd6c0e1341f445d03b18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref> *const *</type>
+        <definition>MRC_API MR_FaceColors *const  * MR_FillHoleNicelySettings_Get_faceColors</definition>
+        <argsstring>(const MR_FillHoleNicelySettings *_this)</argsstring>
+        <name>MR_FillHoleNicelySettings_Get_faceColors</name>
+        <param>
+          <type>const <ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional colors of faces; if provided then elements corresponding to new faces will be added there Returns a pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>faceColors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="294" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="294" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1ab3f125756cf5182b9139a022db08844b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_FillHoleNicelySettings_Set_faceColors</definition>
+        <argsstring>(MR_FillHoleNicelySettings *_this, MR_FaceColors *value)</argsstring>
+        <name>MR_FillHoleNicelySettings_Set_faceColors</name>
+        <param>
+          <type><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional colors of faces; if provided then elements corresponding to new faces will be added there Modifies a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>faceColors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>faceColors</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>faceColors</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="301" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="301" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1a7d1f4d3ba6fca6a32def4eeb5d68a41d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref> **</type>
+        <definition>MRC_API MR_FaceColors ** MR_FillHoleNicelySettings_GetMutable_faceColors</definition>
+        <argsstring>(MR_FillHoleNicelySettings *_this)</argsstring>
+        <name>MR_FillHoleNicelySettings_GetMutable_faceColors</name>
+        <param>
+          <type><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional colors of faces; if provided then elements corresponding to new faces will be added there Returns a mutable pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>faceColors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="307" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="307" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1aede06964c8730d3f04ffd2f61ba4b3e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+        <definition>MRC_API MR_FillHoleNicelySettings * MR_FillHoleNicelySettings_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_FillHoleNicelySettings_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRFillHoleNicely_8h_1a67771281432dc871ebcd3d18bd7b1794" kindref="member">MR_FillHoleNicelySettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="311" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="311" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1aaf23876b801472bf026e45287122fa22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+        <definition>MRC_API MR_FillHoleNicelySettings * MR_FillHoleNicelySettings_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_FillHoleNicelySettings_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRFillHoleNicely_8h_1a9de48941a230f6e0031462d89600ebb1" kindref="member">MR_FillHoleNicelySettings_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRFillHoleNicely_8h_1aa31cc67434c6833e73e60376463fc21e" kindref="member">MR_FillHoleNicelySettings_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRFillHoleNicely_8h_1af9b7c1ec7f8e10521c6196b8a8722a95" kindref="member">MR_FillHoleNicelySettings_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="316" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="316" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1ab2a3b6d42a8c70a2df99c12d200df452" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+        <definition>MRC_API MR_FillHoleNicelySettings * MR_FillHoleNicelySettings_ConstructFrom</definition>
+        <argsstring>(MR_PassBy triangulateParams_pass_by, MR_FillHoleParams *triangulateParams, bool triangulateOnly, MR_UndirectedEdgeBitSet *notFlippable, float maxEdgeLen, int maxEdgeSplits, float maxAngleChangeAfterFlip, bool smoothCurvature, bool naturalSmooth, MR_PassBy beforeEdgeSplit_pass_by, MR_std_function_bool_from_MR_EdgeId *beforeEdgeSplit, MR_PassBy onEdgeSplit_pass_by, MR_std_function_void_from_MR_EdgeId_MR_EdgeId *onEdgeSplit, MR_EdgeWeights edgeWeights, MR_VertexMass vmass, MR_VertCoords2 *uvCoords, MR_VertColors *colorMap, MR_FaceColors *faceColors)</argsstring>
+        <name>MR_FillHoleNicelySettings_ConstructFrom</name>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>triangulateParams_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRFillHoleNicely_8h_1aac50ce209302ca1c9b23e6ea4dcfd3b4" kindref="member">MR_FillHoleParams</ref> *</type>
+          <declname>triangulateParams</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>triangulateOnly</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref> *</type>
+          <declname>notFlippable</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxEdgeLen</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxEdgeSplits</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxAngleChangeAfterFlip</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>smoothCurvature</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>naturalSmooth</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>beforeEdgeSplit_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRFillHoleNicely_8h_1a5406af15a4ce0b3061cd59f056e30578" kindref="member">MR_std_function_bool_from_MR_EdgeId</ref> *</type>
+          <declname>beforeEdgeSplit</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>onEdgeSplit_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref> *</type>
+          <declname>onEdgeSplit</declname>
+        </param>
+        <param>
+          <type><ref refid="MREnums_8h_1a9a47d4f1ed7f02b8923ccde473d7ab50" kindref="member">MR_EdgeWeights</ref></type>
+          <declname>edgeWeights</declname>
+        </param>
+        <param>
+          <type><ref refid="MREnums_8h_1ae6b0258254d005d6b726579dd8ae29b3" kindref="member">MR_VertexMass</ref></type>
+          <declname>vmass</declname>
+        </param>
+        <param>
+          <type><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref> *</type>
+          <declname>uvCoords</declname>
+        </param>
+        <param>
+          <type><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> *</type>
+          <declname>colorMap</declname>
+        </param>
+        <param>
+          <type><ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref> *</type>
+          <declname>faceColors</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::FillHoleNicelySettings</computeroutput> elementwise. The reference to the parameter <computeroutput>triangulateParams</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>notFlippable</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>beforeEdgeSplit</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>onEdgeSplit</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>edgeWeights</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>vmass</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>uvCoords</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>colorMap</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>faceColors</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRFillHoleNicely_8h_1a67771281432dc871ebcd3d18bd7b1794" kindref="member">MR_FillHoleNicelySettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="330" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="330" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1af9b7c1ec7f8e10521c6196b8a8722a95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+        <definition>MRC_API const MR_FillHoleNicelySettings * MR_FillHoleNicelySettings_OffsetPtr</definition>
+        <argsstring>(const MR_FillHoleNicelySettings *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_FillHoleNicelySettings_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="334" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="334" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1aa31cc67434c6833e73e60376463fc21e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+        <definition>MRC_API MR_FillHoleNicelySettings * MR_FillHoleNicelySettings_OffsetMutablePtr</definition>
+        <argsstring>(MR_FillHoleNicelySettings *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_FillHoleNicelySettings_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="338" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="338" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1a4408c3477ba03690cc4e1535732a5e88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+        <definition>MRC_API MR_FillHoleNicelySettings * MR_FillHoleNicelySettings_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy _other_pass_by, MR_FillHoleNicelySettings *_other)</argsstring>
+        <name>MR_FillHoleNicelySettings_ConstructFromAnother</name>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::FillHoleNicelySettings::FillHoleNicelySettings</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRFillHoleNicely_8h_1a67771281432dc871ebcd3d18bd7b1794" kindref="member">MR_FillHoleNicelySettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="343" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="343" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1a67771281432dc871ebcd3d18bd7b1794" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_FillHoleNicelySettings_Destroy</definition>
+        <argsstring>(const MR_FillHoleNicelySettings *_this)</argsstring>
+        <name>MR_FillHoleNicelySettings_Destroy</name>
+        <param>
+          <type>const <ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_FillHoleNicelySettings</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="346" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="346" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1a9de48941a230f6e0031462d89600ebb1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_FillHoleNicelySettings_DestroyArray</definition>
+        <argsstring>(const MR_FillHoleNicelySettings *_this)</argsstring>
+        <name>MR_FillHoleNicelySettings_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_FillHoleNicelySettings</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="349" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="349" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1a49994e3b5782817eb1af33b628246d79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+        <definition>MRC_API MR_FillHoleNicelySettings * MR_FillHoleNicelySettings_AssignFromAnother</definition>
+        <argsstring>(MR_FillHoleNicelySettings *_this, MR_PassBy _other_pass_by, MR_FillHoleNicelySettings *_other)</argsstring>
+        <name>MR_FillHoleNicelySettings_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::FillHoleNicelySettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="356" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="356" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillHoleNicely_8h_1aad4bf2948424d03f9069844d877608d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *</type>
+        <definition>MRC_API MR_FaceBitSet * MR_fillHoleNicely</definition>
+        <argsstring>(MR_Mesh *mesh, MR_EdgeId holeEdge, const MR_FillHoleNicelySettings *settings)</argsstring>
+        <name>MR_fillHoleNicely</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref></type>
+          <declname>holeEdge</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>fills a hole in mesh specified by one of its edge, optionally subdivides new patch on smaller triangles, optionally make smooth connection with existing triangles outside the hole <simplesect kind="return"><para>triangles of the patch Generated from function <computeroutput>MR::fillHoleNicely</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>settings</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBitSet_8h_1a4ebdc52390d331e5313d029ce55682ab" kindref="member">MR_FaceBitSet_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="366" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="366" declcolumn="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MREnums_8h" kindref="compound">MRCMesh/MREnums.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRId_8h" kindref="compound">MRCMesh/MRId.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="MRFillHoleNicely_8h_1aba7bc6ac732c34fd4721c543fa3445ea" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="MRFillHoleNicely_8h_1a88c7503c40b624a577fda0eab1faa5fa" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref><sp/><ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="MRFillHoleNicely_8h_1aac50ce209302ca1c9b23e6ea4dcfd3b4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFillHoleNicely_8h_1aac50ce209302ca1c9b23e6ea4dcfd3b4" kindref="member">MR_FillHoleParams</ref><sp/><ref refid="MRFillHoleNicely_8h_1aac50ce209302ca1c9b23e6ea4dcfd3b4" kindref="member">MR_FillHoleParams</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshFillHole.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="MRFillHoleNicely_8h_1a31b172f68efca6438544d56eb86d6f40" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="MRFillHoleNicely_8h_1ac7f59a6736b29701d7e619412b6e2890" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="MRFillHoleNicely_8h_1a20dc7d636220f61a60c7ae92b8caa768" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="MRFillHoleNicely_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="MRFillHoleNicely_8h_1a5406af15a4ce0b3061cd59f056e30578" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFillHoleNicely_8h_1a5406af15a4ce0b3061cd59f056e30578" kindref="member">MR_std_function_bool_from_MR_EdgeId</ref><sp/><ref refid="MRFillHoleNicely_8h_1a5406af15a4ce0b3061cd59f056e30578" kindref="member">MR_std_function_bool_from_MR_EdgeId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_MR_EdgeId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref><sp/><ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_void_from_MR_EdgeId_MR_EdgeId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="MRFillHoleNicely_8h_1a67b8cdb54298cf10acb5f0174b33c25c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1aac50ce209302ca1c9b23e6ea4dcfd3b4" kindref="member">MR_FillHoleParams</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1a67b8cdb54298cf10acb5f0174b33c25c" kindref="member">MR_FillHoleNicelySettings_Get_triangulateParams</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="MRFillHoleNicely_8h_1ab5e0296af47593f684980f691d80143c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1ab5e0296af47593f684980f691d80143c" kindref="member">MR_FillHoleNicelySettings_Set_triangulateParams</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRFillHoleNicely_8h_1aac50ce209302ca1c9b23e6ea4dcfd3b4" kindref="member">MR_FillHoleParams</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="MRFillHoleNicely_8h_1ae3411a95acb44ba899af394e71c242c2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillHoleNicely_8h_1aac50ce209302ca1c9b23e6ea4dcfd3b4" kindref="member">MR_FillHoleParams</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1ae3411a95acb44ba899af394e71c242c2" kindref="member">MR_FillHoleNicelySettings_GetMutable_triangulateParams</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="MRFillHoleNicely_8h_1a47e125ad8ba1ae4b38a139794b337b8f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRFillHoleNicely_8h_1a47e125ad8ba1ae4b38a139794b337b8f" kindref="member">MR_FillHoleNicelySettings_Get_triangulateOnly</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="MRFillHoleNicely_8h_1a6e29032ba5f70e6f74ee1ada98a7e6ff" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6e29032ba5f70e6f74ee1ada98a7e6ff" kindref="member">MR_FillHoleNicelySettings_Set_triangulateOnly</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="MRFillHoleNicely_8h_1ace83f14ecda58bb62495b0a35e22ae02" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRFillHoleNicely_8h_1ace83f14ecda58bb62495b0a35e22ae02" kindref="member">MR_FillHoleNicelySettings_GetMutable_triangulateOnly</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="MRFillHoleNicely_8h_1a73cc35e9c49fbdd839e081c8b1711e14" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRFillHoleNicely_8h_1a73cc35e9c49fbdd839e081c8b1711e14" kindref="member">MR_FillHoleNicelySettings_Get_notFlippable</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="MRFillHoleNicely_8h_1af76a7088a7d350b03f93558647c13d2d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1af76a7088a7d350b03f93558647c13d2d" kindref="member">MR_FillHoleNicelySettings_Set_notFlippable</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this,<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="MRFillHoleNicely_8h_1ad21a761fb2430c5c604cc029eb51d7d2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>**<ref refid="MRFillHoleNicely_8h_1ad21a761fb2430c5c604cc029eb51d7d2" kindref="member">MR_FillHoleNicelySettings_GetMutable_notFlippable</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="MRFillHoleNicely_8h_1a85d9130ff30e297da0c49d5f9c6e6e89" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRFillHoleNicely_8h_1a85d9130ff30e297da0c49d5f9c6e6e89" kindref="member">MR_FillHoleNicelySettings_Get_maxEdgeLen</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="MRFillHoleNicely_8h_1a6f3533f96f28e85cc90af55e1119e870" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6f3533f96f28e85cc90af55e1119e870" kindref="member">MR_FillHoleNicelySettings_Set_maxEdgeLen</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102" refid="MRFillHoleNicely_8h_1a8277e978d1e255195e6816a18aae4cba" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRFillHoleNicely_8h_1a8277e978d1e255195e6816a18aae4cba" kindref="member">MR_FillHoleNicelySettings_GetMutable_maxEdgeLen</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="MRFillHoleNicely_8h_1a32a9ed436fb2439ab1b2c92683927023" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRFillHoleNicely_8h_1a32a9ed436fb2439ab1b2c92683927023" kindref="member">MR_FillHoleNicelySettings_Get_maxEdgeSplits</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114" refid="MRFillHoleNicely_8h_1a9cf9c96577abe68f60837e3b236b7775" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a9cf9c96577abe68f60837e3b236b7775" kindref="member">MR_FillHoleNicelySettings_Set_maxEdgeSplits</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120" refid="MRFillHoleNicely_8h_1a723bf0a04ed62d5972ba3cd0a7a2cd40" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRFillHoleNicely_8h_1a723bf0a04ed62d5972ba3cd0a7a2cd40" kindref="member">MR_FillHoleNicelySettings_GetMutable_maxEdgeSplits</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126" refid="MRFillHoleNicely_8h_1a2d79cce6011d3fe9ac407dbf6a2664ec" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRFillHoleNicely_8h_1a2d79cce6011d3fe9ac407dbf6a2664ec" kindref="member">MR_FillHoleNicelySettings_Get_maxAngleChangeAfterFlip</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132" refid="MRFillHoleNicely_8h_1ab780e7084262ccef332749c15212b4b0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1ab780e7084262ccef332749c15212b4b0" kindref="member">MR_FillHoleNicelySettings_Set_maxAngleChangeAfterFlip</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138" refid="MRFillHoleNicely_8h_1af5636d4044f782e973aa5ccabb429c67" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRFillHoleNicely_8h_1af5636d4044f782e973aa5ccabb429c67" kindref="member">MR_FillHoleNicelySettings_GetMutable_maxAngleChangeAfterFlip</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144" refid="MRFillHoleNicely_8h_1a4542b5be7b62576ce607b2a4ec67ec07" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRFillHoleNicely_8h_1a4542b5be7b62576ce607b2a4ec67ec07" kindref="member">MR_FillHoleNicelySettings_Get_smoothCurvature</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150" refid="MRFillHoleNicely_8h_1ade1dfd5344e3c131de5cccdc133eac84" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1ade1dfd5344e3c131de5cccdc133eac84" kindref="member">MR_FillHoleNicelySettings_Set_smoothCurvature</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156" refid="MRFillHoleNicely_8h_1a9ebb889372128db4eea0d994291fed9a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRFillHoleNicely_8h_1a9ebb889372128db4eea0d994291fed9a" kindref="member">MR_FillHoleNicelySettings_GetMutable_smoothCurvature</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162" refid="MRFillHoleNicely_8h_1ab376b5de5a3ca99d149f51bb62766621" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRFillHoleNicely_8h_1ab376b5de5a3ca99d149f51bb62766621" kindref="member">MR_FillHoleNicelySettings_Get_naturalSmooth</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168" refid="MRFillHoleNicely_8h_1ae7720d85f43ee72f5327e78f14896b7b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1ae7720d85f43ee72f5327e78f14896b7b" kindref="member">MR_FillHoleNicelySettings_Set_naturalSmooth</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174" refid="MRFillHoleNicely_8h_1a83097cc5c3e7d3e22d4a86d175e9b603" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRFillHoleNicely_8h_1a83097cc5c3e7d3e22d4a86d175e9b603" kindref="member">MR_FillHoleNicelySettings_GetMutable_naturalSmooth</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180" refid="MRFillHoleNicely_8h_1a8bd232dca7f6b7e889ea1c97c0f5ff0f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a5406af15a4ce0b3061cd59f056e30578" kindref="member">MR_std_function_bool_from_MR_EdgeId</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1a8bd232dca7f6b7e889ea1c97c0f5ff0f" kindref="member">MR_FillHoleNicelySettings_Get_beforeEdgeSplit</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187" refid="MRFillHoleNicely_8h_1ab8f4519ad1a08c86c2cd3208e6260c66" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1ab8f4519ad1a08c86c2cd3208e6260c66" kindref="member">MR_FillHoleNicelySettings_Set_beforeEdgeSplit</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRFillHoleNicely_8h_1a5406af15a4ce0b3061cd59f056e30578" kindref="member">MR_std_function_bool_from_MR_EdgeId</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193" refid="MRFillHoleNicely_8h_1acccc7b9c1a0910292080454a0fdf9f3f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillHoleNicely_8h_1a5406af15a4ce0b3061cd59f056e30578" kindref="member">MR_std_function_bool_from_MR_EdgeId</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1acccc7b9c1a0910292080454a0fdf9f3f" kindref="member">MR_FillHoleNicelySettings_GetMutable_beforeEdgeSplit</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199" refid="MRFillHoleNicely_8h_1aa706c930fcb6434c9370774d8394ab5a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1aa706c930fcb6434c9370774d8394ab5a" kindref="member">MR_FillHoleNicelySettings_Get_onEdgeSplit</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206" refid="MRFillHoleNicely_8h_1a55b4c09c3aadf9d5ec55ae6ba9daad89" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a55b4c09c3aadf9d5ec55ae6ba9daad89" kindref="member">MR_FillHoleNicelySettings_Set_onEdgeSplit</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212" refid="MRFillHoleNicely_8h_1a88b27a6cbedcf5c84099b0f035b8b236" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1a88b27a6cbedcf5c84099b0f035b8b236" kindref="member">MR_FillHoleNicelySettings_GetMutable_onEdgeSplit</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight></codeline>
+<codeline lineno="218" refid="MRFillHoleNicely_8h_1ab502877acc987c9cb004d827d95efcab" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnums_8h_1a9a47d4f1ed7f02b8923ccde473d7ab50" kindref="member">MR_EdgeWeights</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1ab502877acc987c9cb004d827d95efcab" kindref="member">MR_FillHoleNicelySettings_Get_edgeWeights</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225" refid="MRFillHoleNicely_8h_1a2bbbc82eabd00ed4dc7be4549871d170" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a2bbbc82eabd00ed4dc7be4549871d170" kindref="member">MR_FillHoleNicelySettings_Set_edgeWeights</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this,<sp/><ref refid="MREnums_8h_1a9a47d4f1ed7f02b8923ccde473d7ab50" kindref="member">MR_EdgeWeights</ref><sp/>value);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231" refid="MRFillHoleNicely_8h_1a3b9977f9b0fbdabdc9567494fe0b6f43" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREnums_8h_1a9a47d4f1ed7f02b8923ccde473d7ab50" kindref="member">MR_EdgeWeights</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1a3b9977f9b0fbdabdc9567494fe0b6f43" kindref="member">MR_FillHoleNicelySettings_GetMutable_edgeWeights</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight></codeline>
+<codeline lineno="237" refid="MRFillHoleNicely_8h_1ab6cce011c702d0b347a4b16c74c943b5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnums_8h_1ae6b0258254d005d6b726579dd8ae29b3" kindref="member">MR_VertexMass</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1ab6cce011c702d0b347a4b16c74c943b5" kindref="member">MR_FillHoleNicelySettings_Get_vmass</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244" refid="MRFillHoleNicely_8h_1a1017085705f3746ceea800f6115676df" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a1017085705f3746ceea800f6115676df" kindref="member">MR_FillHoleNicelySettings_Set_vmass</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this,<sp/><ref refid="MREnums_8h_1ae6b0258254d005d6b726579dd8ae29b3" kindref="member">MR_VertexMass</ref><sp/>value);</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"></highlight></codeline>
+<codeline lineno="250" refid="MRFillHoleNicely_8h_1a082d311afe820f7b77307040f088692a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREnums_8h_1ae6b0258254d005d6b726579dd8ae29b3" kindref="member">MR_VertexMass</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1a082d311afe820f7b77307040f088692a" kindref="member">MR_FillHoleNicelySettings_GetMutable_vmass</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight></codeline>
+<codeline lineno="256" refid="MRFillHoleNicely_8h_1ad71fe9b08805bef53c4482aab7983497" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRFillHoleNicely_8h_1ad71fe9b08805bef53c4482aab7983497" kindref="member">MR_FillHoleNicelySettings_Get_uvCoords</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"></highlight></codeline>
+<codeline lineno="263" refid="MRFillHoleNicely_8h_1aaf320b467ec84c08b4f015742baec14a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1aaf320b467ec84c08b4f015742baec14a" kindref="member">MR_FillHoleNicelySettings_Set_uvCoords</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this,<sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight></codeline>
+<codeline lineno="269" refid="MRFillHoleNicely_8h_1a22a0d23ebd9ff4330fbf1281adf1ea92" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/>**<ref refid="MRFillHoleNicely_8h_1a22a0d23ebd9ff4330fbf1281adf1ea92" kindref="member">MR_FillHoleNicelySettings_GetMutable_uvCoords</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"></highlight></codeline>
+<codeline lineno="275" refid="MRFillHoleNicely_8h_1ad8f1f8d97cbe529a3b629caf783ea8b1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRFillHoleNicely_8h_1ad8f1f8d97cbe529a3b629caf783ea8b1" kindref="member">MR_FillHoleNicelySettings_Get_colorMap</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"></highlight></codeline>
+<codeline lineno="282" refid="MRFillHoleNicely_8h_1a8e0c5b3de60afa49fb2835c718969fa0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a8e0c5b3de60afa49fb2835c718969fa0" kindref="member">MR_FillHoleNicelySettings_Set_colorMap</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this,<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"></highlight></codeline>
+<codeline lineno="288" refid="MRFillHoleNicely_8h_1acd03f61925010b547468f8b9511878fc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>**<ref refid="MRFillHoleNicely_8h_1acd03f61925010b547468f8b9511878fc" kindref="member">MR_FillHoleNicelySettings_GetMutable_colorMap</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"></highlight></codeline>
+<codeline lineno="294" refid="MRFillHoleNicely_8h_1a005636c8fd17fd6c0e1341f445d03b18" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRFillHoleNicely_8h_1a005636c8fd17fd6c0e1341f445d03b18" kindref="member">MR_FillHoleNicelySettings_Get_faceColors</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"></highlight></codeline>
+<codeline lineno="301" refid="MRFillHoleNicely_8h_1ab3f125756cf5182b9139a022db08844b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1ab3f125756cf5182b9139a022db08844b" kindref="member">MR_FillHoleNicelySettings_Set_faceColors</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this,<sp/><ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"></highlight></codeline>
+<codeline lineno="307" refid="MRFillHoleNicely_8h_1a7d1f4d3ba6fca6a32def4eeb5d68a41d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref><sp/>**<ref refid="MRFillHoleNicely_8h_1a7d1f4d3ba6fca6a32def4eeb5d68a41d" kindref="member">MR_FillHoleNicelySettings_GetMutable_faceColors</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"></highlight></codeline>
+<codeline lineno="311" refid="MRFillHoleNicely_8h_1aede06964c8730d3f04ffd2f61ba4b3e4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1aede06964c8730d3f04ffd2f61ba4b3e4" kindref="member">MR_FillHoleNicelySettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"></highlight></codeline>
+<codeline lineno="316" refid="MRFillHoleNicely_8h_1aaf23876b801472bf026e45287122fa22" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1aaf23876b801472bf026e45287122fa22" kindref="member">MR_FillHoleNicelySettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"></highlight></codeline>
+<codeline lineno="330" refid="MRFillHoleNicely_8h_1ab2a3b6d42a8c70a2df99c12d200df452" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1ab2a3b6d42a8c70a2df99c12d200df452" kindref="member">MR_FillHoleNicelySettings_ConstructFrom</ref>(MR_PassBy<sp/>triangulateParams_pass_by,<sp/><ref refid="MRFillHoleNicely_8h_1aac50ce209302ca1c9b23e6ea4dcfd3b4" kindref="member">MR_FillHoleParams</ref><sp/>*triangulateParams,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>triangulateOnly,<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*notFlippable,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxEdgeLen,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maxEdgeSplits,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxAngleChangeAfterFlip,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>smoothCurvature,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>naturalSmooth,<sp/>MR_PassBy<sp/>beforeEdgeSplit_pass_by,<sp/><ref refid="MRFillHoleNicely_8h_1a5406af15a4ce0b3061cd59f056e30578" kindref="member">MR_std_function_bool_from_MR_EdgeId</ref><sp/>*beforeEdgeSplit,<sp/>MR_PassBy<sp/>onEdgeSplit_pass_by,<sp/><ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref><sp/>*onEdgeSplit,<sp/><ref refid="MREnums_8h_1a9a47d4f1ed7f02b8923ccde473d7ab50" kindref="member">MR_EdgeWeights</ref><sp/>edgeWeights,<sp/><ref refid="MREnums_8h_1ae6b0258254d005d6b726579dd8ae29b3" kindref="member">MR_VertexMass</ref><sp/>vmass,<sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/>*uvCoords,<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*colorMap,<sp/><ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref><sp/>*faceColors);</highlight></codeline>
+<codeline lineno="331"><highlight class="normal"></highlight></codeline>
+<codeline lineno="334" refid="MRFillHoleNicely_8h_1af9b7c1ec7f8e10521c6196b8a8722a95" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1af9b7c1ec7f8e10521c6196b8a8722a95" kindref="member">MR_FillHoleNicelySettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"></highlight></codeline>
+<codeline lineno="338" refid="MRFillHoleNicely_8h_1aa31cc67434c6833e73e60376463fc21e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1aa31cc67434c6833e73e60376463fc21e" kindref="member">MR_FillHoleNicelySettings_OffsetMutablePtr</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"></highlight></codeline>
+<codeline lineno="343" refid="MRFillHoleNicely_8h_1a4408c3477ba03690cc4e1535732a5e88" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1a4408c3477ba03690cc4e1535732a5e88" kindref="member">MR_FillHoleNicelySettings_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"></highlight></codeline>
+<codeline lineno="346" refid="MRFillHoleNicely_8h_1a67771281432dc871ebcd3d18bd7b1794" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a67771281432dc871ebcd3d18bd7b1794" kindref="member">MR_FillHoleNicelySettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"></highlight></codeline>
+<codeline lineno="349" refid="MRFillHoleNicely_8h_1a9de48941a230f6e0031462d89600ebb1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a9de48941a230f6e0031462d89600ebb1" kindref="member">MR_FillHoleNicelySettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="350"><highlight class="normal"></highlight></codeline>
+<codeline lineno="356" refid="MRFillHoleNicely_8h_1a49994e3b5782817eb1af33b628246d79" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1a49994e3b5782817eb1af33b628246d79" kindref="member">MR_FillHoleNicelySettings_AssignFromAnother</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="357"><highlight class="normal"></highlight></codeline>
+<codeline lineno="366" refid="MRFillHoleNicely_8h_1aad4bf2948424d03f9069844d877608d7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1aad4bf2948424d03f9069844d877608d7" kindref="member">MR_fillHoleNicely</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>holeEdge,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="367"><highlight class="normal"></highlight></codeline>
+<codeline lineno="368"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="369"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="370"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h"/>
+  </compounddef>
+</doxygen>

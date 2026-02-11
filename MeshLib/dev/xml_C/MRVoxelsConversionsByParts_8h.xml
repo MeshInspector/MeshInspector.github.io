@@ -1,0 +1,1049 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRVoxelsConversionsByParts_8h" kind="file" language="C++">
+    <compoundname>MRVoxelsConversionsByParts.h</compoundname>
+    <includes refid="MRVector3_8h" local="no">MRCMesh/MRVector3.h</includes>
+    <includes local="no">MRCMisc/common.h</includes>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMesh/MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRVoxelsConversionsByParts.h</label>
+        <link refid="MRVoxelsConversionsByParts_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+      </node>
+      <node id="4">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="5">
+        <label>stdbool.h</label>
+      </node>
+      <node id="6">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRVoxelsConversionsByParts_8h_1ac262f87c0239d73aafc464289f6eb02e" prot="public" static="no">
+        <type>struct <ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref></type>
+        <definition>typedef struct MR_PartMapping MR_PartMapping</definition>
+        <argsstring></argsstring>
+        <name>MR_PartMapping</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" line="13" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRVoxelsConversionsByParts_8h_1a627d491d276d54a9eef9d074a1a08a99" prot="public" static="no">
+        <type>struct <ref refid="MRVoxelsConversionsByParts_8h_1a627d491d276d54a9eef9d074a1a08a99" kindref="member">MR_std_function_void_from_MR_Mesh_ref</ref></type>
+        <definition>typedef struct MR_std_function_void_from_MR_Mesh_ref MR_std_function_void_from_MR_Mesh_ref</definition>
+        <argsstring></argsstring>
+        <name>MR_std_function_void_from_MR_Mesh_ref</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" line="14" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRVoxelsConversionsByParts_8h_1a842bc31e7d75a88d0b83a0aa19c6b27f" prot="public" static="no">
+        <type>struct <ref refid="MRVoxelsConversionsByParts_8h_1a842bc31e7d75a88d0b83a0aa19c6b27f" kindref="member">MR_std_function_void_from_MR_Mesh_ref_const_MR_PartMapping_ref</ref></type>
+        <definition>typedef struct MR_std_function_void_from_MR_Mesh_ref_const_MR_PartMapping_ref MR_std_function_void_from_MR_Mesh_ref_const_MR_PartMapping_ref</definition>
+        <argsstring></argsstring>
+        <name>MR_std_function_void_from_MR_Mesh_ref_const_MR_PartMapping_ref</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" line="15" column="77" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRVoxelsConversionsByParts_8h_1ab3955429925136008c4cf12497066877" prot="public" static="no">
+        <type>struct <ref refid="MRVoxelsConversionsByParts_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref></type>
+        <definition>typedef struct MR_std_function_void_from_MR_Mesh_ref_float_float MR_std_function_void_from_MR_Mesh_ref_float_float</definition>
+        <argsstring></argsstring>
+        <name>MR_std_function_void_from_MR_Mesh_ref_float_float</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" line="16" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" prot="public" static="no">
+        <type>struct <ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref></type>
+        <definition>typedef struct MR_MergeVolumePartSettings MR_MergeVolumePartSettings</definition>
+        <argsstring></argsstring>
+        <name>MR_MergeVolumePartSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::MergeVolumePartSettings</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" line="28" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" prot="public" static="no">
+        <type>struct <ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref></type>
+        <definition>typedef struct MR_VolumeToMeshByPartsSettings MR_VolumeToMeshByPartsSettings</definition>
+        <argsstring></argsstring>
+        <name>MR_VolumeToMeshByPartsSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::VolumeToMeshByPartsSettings</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" line="39" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1a154b6e12b1351c75ee9d5c88d013a6a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRVoxelsConversionsByParts_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref> *</type>
+        <definition>MRC_API const MR_std_function_void_from_MR_Mesh_ref_float_float * MR_MergeVolumePartSettings_Get_preCut</definition>
+        <argsstring>(const MR_MergeVolumePartSettings *_this)</argsstring>
+        <name>MR_MergeVolumePartSettings_Get_preCut</name>
+        <param>
+          <type>const <ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::MergeVolumePartSettings</computeroutput> named <computeroutput>preCut</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" line="44" column="65" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" declline="44" declcolumn="65"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1a9a3a9e3bf2f4f9da33056ec034e19e22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MergeVolumePartSettings_Set_preCut</definition>
+        <argsstring>(MR_MergeVolumePartSettings *_this, MR_PassBy value_pass_by, MR_std_function_void_from_MR_Mesh_ref_float_float *value)</argsstring>
+        <name>MR_MergeVolumePartSettings_Set_preCut</name>
+        <param>
+          <type><ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>value_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRVoxelsConversionsByParts_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::MergeVolumePartSettings</computeroutput> named <computeroutput>preCut</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>preCut</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>preCut</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" line="50" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" declline="50" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1a8d7858b5bb7d722105c8a46c15c64fa8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRVoxelsConversionsByParts_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref> *</type>
+        <definition>MRC_API MR_std_function_void_from_MR_Mesh_ref_float_float * MR_MergeVolumePartSettings_GetMutable_preCut</definition>
+        <argsstring>(MR_MergeVolumePartSettings *_this)</argsstring>
+        <name>MR_MergeVolumePartSettings_GetMutable_preCut</name>
+        <param>
+          <type><ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::MergeVolumePartSettings</computeroutput> named <computeroutput>preCut</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" line="55" column="59" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" declline="55" declcolumn="59"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1abce80ce871fc3c5b982321adfda94bd0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRVoxelsConversionsByParts_8h_1a627d491d276d54a9eef9d074a1a08a99" kindref="member">MR_std_function_void_from_MR_Mesh_ref</ref> *</type>
+        <definition>MRC_API const MR_std_function_void_from_MR_Mesh_ref * MR_MergeVolumePartSettings_Get_postCut</definition>
+        <argsstring>(const MR_MergeVolumePartSettings *_this)</argsstring>
+        <name>MR_MergeVolumePartSettings_Get_postCut</name>
+        <param>
+          <type>const <ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::MergeVolumePartSettings</computeroutput> named <computeroutput>postCut</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" line="60" column="53" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" declline="60" declcolumn="53"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1ac57154fae4546a32d325d08eecb1fab9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MergeVolumePartSettings_Set_postCut</definition>
+        <argsstring>(MR_MergeVolumePartSettings *_this, MR_PassBy value_pass_by, MR_std_function_void_from_MR_Mesh_ref *value)</argsstring>
+        <name>MR_MergeVolumePartSettings_Set_postCut</name>
+        <param>
+          <type><ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>value_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRVoxelsConversionsByParts_8h_1a627d491d276d54a9eef9d074a1a08a99" kindref="member">MR_std_function_void_from_MR_Mesh_ref</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::MergeVolumePartSettings</computeroutput> named <computeroutput>postCut</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>postCut</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>postCut</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" line="66" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" declline="66" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1a8a7d631b0914417c4c9464fb24b1e44b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRVoxelsConversionsByParts_8h_1a627d491d276d54a9eef9d074a1a08a99" kindref="member">MR_std_function_void_from_MR_Mesh_ref</ref> *</type>
+        <definition>MRC_API MR_std_function_void_from_MR_Mesh_ref * MR_MergeVolumePartSettings_GetMutable_postCut</definition>
+        <argsstring>(MR_MergeVolumePartSettings *_this)</argsstring>
+        <name>MR_MergeVolumePartSettings_GetMutable_postCut</name>
+        <param>
+          <type><ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::MergeVolumePartSettings</computeroutput> named <computeroutput>postCut</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" line="71" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" declline="71" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1a5619e0016fabd1d61681124381ddb477" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRVoxelsConversionsByParts_8h_1a842bc31e7d75a88d0b83a0aa19c6b27f" kindref="member">MR_std_function_void_from_MR_Mesh_ref_const_MR_PartMapping_ref</ref> *</type>
+        <definition>MRC_API const MR_std_function_void_from_MR_Mesh_ref_const_MR_PartMapping_ref * MR_MergeVolumePartSettings_Get_postMerge</definition>
+        <argsstring>(const MR_MergeVolumePartSettings *_this)</argsstring>
+        <name>MR_MergeVolumePartSettings_Get_postMerge</name>
+        <param>
+          <type>const <ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::MergeVolumePartSettings</computeroutput> named <computeroutput>postMerge</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" line="76" column="78" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" declline="76" declcolumn="78"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1af2a8c103f46d7923d968ec8e48f2f642" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MergeVolumePartSettings_Set_postMerge</definition>
+        <argsstring>(MR_MergeVolumePartSettings *_this, MR_PassBy value_pass_by, MR_std_function_void_from_MR_Mesh_ref_const_MR_PartMapping_ref *value)</argsstring>
+        <name>MR_MergeVolumePartSettings_Set_postMerge</name>
+        <param>
+          <type><ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>value_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRVoxelsConversionsByParts_8h_1a842bc31e7d75a88d0b83a0aa19c6b27f" kindref="member">MR_std_function_void_from_MR_Mesh_ref_const_MR_PartMapping_ref</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::MergeVolumePartSettings</computeroutput> named <computeroutput>postMerge</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>postMerge</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>postMerge</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" line="82" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" declline="82" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1a20184a773b9a2b239f9ddf10c72dc47f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRVoxelsConversionsByParts_8h_1a842bc31e7d75a88d0b83a0aa19c6b27f" kindref="member">MR_std_function_void_from_MR_Mesh_ref_const_MR_PartMapping_ref</ref> *</type>
+        <definition>MRC_API MR_std_function_void_from_MR_Mesh_ref_const_MR_PartMapping_ref * MR_MergeVolumePartSettings_GetMutable_postMerge</definition>
+        <argsstring>(MR_MergeVolumePartSettings *_this)</argsstring>
+        <name>MR_MergeVolumePartSettings_GetMutable_postMerge</name>
+        <param>
+          <type><ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::MergeVolumePartSettings</computeroutput> named <computeroutput>postMerge</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" line="87" column="72" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" declline="87" declcolumn="72"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1a3a3341a7092f75cf3905f2394e095bfe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref> *</type>
+        <definition>MRC_API const MR_PartMapping * MR_MergeVolumePartSettings_Get_mapping</definition>
+        <argsstring>(const MR_MergeVolumePartSettings *_this)</argsstring>
+        <name>MR_MergeVolumePartSettings_Get_mapping</name>
+        <param>
+          <type>const <ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>mapping with initialized maps required for the <computeroutput>postMerge</computeroutput> callback Returns a pointer to a member variable of class <computeroutput>MR::MergeVolumePartSettings</computeroutput> named <computeroutput>mapping</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" line="93" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" declline="93" declcolumn="30"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1ab3ee9281a1adf767a30dc10fc5727d96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MergeVolumePartSettings_Set_mapping</definition>
+        <argsstring>(MR_MergeVolumePartSettings *_this, const MR_PartMapping *value)</argsstring>
+        <name>MR_MergeVolumePartSettings_Set_mapping</name>
+        <param>
+          <type><ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>mapping with initialized maps required for the <computeroutput>postMerge</computeroutput> callback Modifies a member variable of class <computeroutput>MR::MergeVolumePartSettings</computeroutput> named <computeroutput>mapping</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>mapping</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>mapping</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" line="101" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" declline="101" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1abbe3b1c6e61bf584979740f24fa4a11b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref> *</type>
+        <definition>MRC_API MR_PartMapping * MR_MergeVolumePartSettings_GetMutable_mapping</definition>
+        <argsstring>(MR_MergeVolumePartSettings *_this)</argsstring>
+        <name>MR_MergeVolumePartSettings_GetMutable_mapping</name>
+        <param>
+          <type><ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>mapping with initialized maps required for the <computeroutput>postMerge</computeroutput> callback Returns a mutable pointer to a member variable of class <computeroutput>MR::MergeVolumePartSettings</computeroutput> named <computeroutput>mapping</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" line="107" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" declline="107" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1a464cd92fd34c53d7d550adbf78bc688c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+        <definition>MRC_API const MR_Vector3f * MR_MergeVolumePartSettings_Get_origin</definition>
+        <argsstring>(const MR_MergeVolumePartSettings *_this)</argsstring>
+        <name>MR_MergeVolumePartSettings_Get_origin</name>
+        <param>
+          <type>const <ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>origin (position of the (0;0;0) voxel) of the voxel volume part, usually specified for SimpleVolume Returns a pointer to a member variable of class <computeroutput>MR::MergeVolumePartSettings</computeroutput> named <computeroutput>origin</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" line="113" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" declline="113" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1a7545b9a3d90935f2d12ce5cd799f4b2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MergeVolumePartSettings_Set_origin</definition>
+        <argsstring>(MR_MergeVolumePartSettings *_this, MR_Vector3f value)</argsstring>
+        <name>MR_MergeVolumePartSettings_Set_origin</name>
+        <param>
+          <type><ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>origin (position of the (0;0;0) voxel) of the voxel volume part, usually specified for SimpleVolume Modifies a member variable of class <computeroutput>MR::MergeVolumePartSettings</computeroutput> named <computeroutput>origin</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>origin</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>origin</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" line="120" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" declline="120" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1a27bd788ea302fb4312c9365a28751193" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+        <definition>MRC_API MR_Vector3f * MR_MergeVolumePartSettings_GetMutable_origin</definition>
+        <argsstring>(MR_MergeVolumePartSettings *_this)</argsstring>
+        <name>MR_MergeVolumePartSettings_GetMutable_origin</name>
+        <param>
+          <type><ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>origin (position of the (0;0;0) voxel) of the voxel volume part, usually specified for SimpleVolume Returns a mutable pointer to a member variable of class <computeroutput>MR::MergeVolumePartSettings</computeroutput> named <computeroutput>origin</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" line="126" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" declline="126" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1a178737b3411a84cac7b9e7c3cfbff52c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref> *</type>
+        <definition>MRC_API MR_MergeVolumePartSettings * MR_MergeVolumePartSettings_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_MergeVolumePartSettings_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVoxelsConversionsByParts_8h_1a7126fc34e4cec40699c9fff0dc7aa9d2" kindref="member">MR_MergeVolumePartSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" line="130" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" declline="130" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1aff7b2a0ca3ef374fe49b66d02b82bd3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref> *</type>
+        <definition>MRC_API MR_MergeVolumePartSettings * MR_MergeVolumePartSettings_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_MergeVolumePartSettings_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRVoxelsConversionsByParts_8h_1a4f60d331ef42aa07473f2e199535ef21" kindref="member">MR_MergeVolumePartSettings_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRVoxelsConversionsByParts_8h_1a853fcae38602df00bba9ba4f65d60489" kindref="member">MR_MergeVolumePartSettings_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRVoxelsConversionsByParts_8h_1ae8d3f6a665d156a04cfc2a59b15e4b44" kindref="member">MR_MergeVolumePartSettings_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" line="135" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" declline="135" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1a96b22d3d52b1378f994b44a9914b9da0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref> *</type>
+        <definition>MRC_API MR_MergeVolumePartSettings * MR_MergeVolumePartSettings_ConstructFrom</definition>
+        <argsstring>(MR_PassBy preCut_pass_by, MR_std_function_void_from_MR_Mesh_ref_float_float *preCut, MR_PassBy postCut_pass_by, MR_std_function_void_from_MR_Mesh_ref *postCut, MR_PassBy postMerge_pass_by, MR_std_function_void_from_MR_Mesh_ref_const_MR_PartMapping_ref *postMerge, const MR_PartMapping *mapping, MR_Vector3f origin)</argsstring>
+        <name>MR_MergeVolumePartSettings_ConstructFrom</name>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>preCut_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRVoxelsConversionsByParts_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref> *</type>
+          <declname>preCut</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>postCut_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRVoxelsConversionsByParts_8h_1a627d491d276d54a9eef9d074a1a08a99" kindref="member">MR_std_function_void_from_MR_Mesh_ref</ref> *</type>
+          <declname>postCut</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>postMerge_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRVoxelsConversionsByParts_8h_1a842bc31e7d75a88d0b83a0aa19c6b27f" kindref="member">MR_std_function_void_from_MR_Mesh_ref_const_MR_PartMapping_ref</ref> *</type>
+          <declname>postMerge</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref> *</type>
+          <declname>mapping</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref></type>
+          <declname>origin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::MergeVolumePartSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>preCut</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>postCut</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>postMerge</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>mapping</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>mapping</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>origin</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVoxelsConversionsByParts_8h_1a7126fc34e4cec40699c9fff0dc7aa9d2" kindref="member">MR_MergeVolumePartSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" line="146" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" declline="146" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1ae8d3f6a665d156a04cfc2a59b15e4b44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref> *</type>
+        <definition>MRC_API const MR_MergeVolumePartSettings * MR_MergeVolumePartSettings_OffsetPtr</definition>
+        <argsstring>(const MR_MergeVolumePartSettings *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_MergeVolumePartSettings_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" line="150" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" declline="150" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1a853fcae38602df00bba9ba4f65d60489" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref> *</type>
+        <definition>MRC_API MR_MergeVolumePartSettings * MR_MergeVolumePartSettings_OffsetMutablePtr</definition>
+        <argsstring>(MR_MergeVolumePartSettings *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_MergeVolumePartSettings_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" line="154" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" declline="154" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1a8a63cf9fae5631d989514bea8df3b1cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref> *</type>
+        <definition>MRC_API MR_MergeVolumePartSettings * MR_MergeVolumePartSettings_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy _other_pass_by, MR_MergeVolumePartSettings *_other)</argsstring>
+        <name>MR_MergeVolumePartSettings_ConstructFromAnother</name>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::MergeVolumePartSettings::MergeVolumePartSettings</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVoxelsConversionsByParts_8h_1a7126fc34e4cec40699c9fff0dc7aa9d2" kindref="member">MR_MergeVolumePartSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" line="159" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" declline="159" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1a7126fc34e4cec40699c9fff0dc7aa9d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MergeVolumePartSettings_Destroy</definition>
+        <argsstring>(const MR_MergeVolumePartSettings *_this)</argsstring>
+        <name>MR_MergeVolumePartSettings_Destroy</name>
+        <param>
+          <type>const <ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_MergeVolumePartSettings</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" line="162" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" declline="162" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1a4f60d331ef42aa07473f2e199535ef21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MergeVolumePartSettings_DestroyArray</definition>
+        <argsstring>(const MR_MergeVolumePartSettings *_this)</argsstring>
+        <name>MR_MergeVolumePartSettings_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_MergeVolumePartSettings</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" line="165" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" declline="165" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1a0a96d9a441de0161f38b7041a4515fd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref> *</type>
+        <definition>MRC_API MR_MergeVolumePartSettings * MR_MergeVolumePartSettings_AssignFromAnother</definition>
+        <argsstring>(MR_MergeVolumePartSettings *_this, MR_PassBy _other_pass_by, MR_MergeVolumePartSettings *_other)</argsstring>
+        <name>MR_MergeVolumePartSettings_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::MergeVolumePartSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" line="172" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" declline="172" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1a3206d1e8b1274fb26a7b3f95ec02679b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const MR_uint64_t *</type>
+        <definition>MRC_API const MR_uint64_t * MR_VolumeToMeshByPartsSettings_Get_maxVolumePartMemoryUsage</definition>
+        <argsstring>(const MR_VolumeToMeshByPartsSettings *_this)</argsstring>
+        <name>MR_VolumeToMeshByPartsSettings_Get_maxVolumePartMemoryUsage</name>
+        <param>
+          <type>const <ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::VolumeToMeshByPartsSettings</computeroutput> named <computeroutput>maxVolumePartMemoryUsage</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" line="178" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" declline="178" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1a04380d4fcd144405555ff507670b17c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_VolumeToMeshByPartsSettings_Set_maxVolumePartMemoryUsage</definition>
+        <argsstring>(MR_VolumeToMeshByPartsSettings *_this, MR_uint64_t value)</argsstring>
+        <name>MR_VolumeToMeshByPartsSettings_Set_maxVolumePartMemoryUsage</name>
+        <param>
+          <type><ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_uint64_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::VolumeToMeshByPartsSettings</computeroutput> named <computeroutput>maxVolumePartMemoryUsage</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>maxVolumePartMemoryUsage</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>maxVolumePartMemoryUsage</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" line="185" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" declline="185" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1abdf5af483c849be4fa6e6eda8b23d2eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API MR_uint64_t *</type>
+        <definition>MRC_API MR_uint64_t * MR_VolumeToMeshByPartsSettings_GetMutable_maxVolumePartMemoryUsage</definition>
+        <argsstring>(MR_VolumeToMeshByPartsSettings *_this)</argsstring>
+        <name>MR_VolumeToMeshByPartsSettings_GetMutable_maxVolumePartMemoryUsage</name>
+        <param>
+          <type><ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::VolumeToMeshByPartsSettings</computeroutput> named <computeroutput>maxVolumePartMemoryUsage</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" line="191" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" declline="191" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1a994fd117a0060e9feab41a07d6de2eab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const MR_uint64_t *</type>
+        <definition>MRC_API const MR_uint64_t * MR_VolumeToMeshByPartsSettings_Get_stripeOverlap</definition>
+        <argsstring>(const MR_VolumeToMeshByPartsSettings *_this)</argsstring>
+        <name>MR_VolumeToMeshByPartsSettings_Get_stripeOverlap</name>
+        <param>
+          <type>const <ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>overlap in voxels between two parts Returns a pointer to a member variable of class <computeroutput>MR::VolumeToMeshByPartsSettings</computeroutput> named <computeroutput>stripeOverlap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" line="197" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" declline="197" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1a1faebdec734124afc7ef61c005709f73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_VolumeToMeshByPartsSettings_Set_stripeOverlap</definition>
+        <argsstring>(MR_VolumeToMeshByPartsSettings *_this, MR_uint64_t value)</argsstring>
+        <name>MR_VolumeToMeshByPartsSettings_Set_stripeOverlap</name>
+        <param>
+          <type><ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_uint64_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>overlap in voxels between two parts Modifies a member variable of class <computeroutput>MR::VolumeToMeshByPartsSettings</computeroutput> named <computeroutput>stripeOverlap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>stripeOverlap</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>stripeOverlap</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" line="204" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" declline="204" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1a6b18473ba4ade764f682aa596ea2d1c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API MR_uint64_t *</type>
+        <definition>MRC_API MR_uint64_t * MR_VolumeToMeshByPartsSettings_GetMutable_stripeOverlap</definition>
+        <argsstring>(MR_VolumeToMeshByPartsSettings *_this)</argsstring>
+        <name>MR_VolumeToMeshByPartsSettings_GetMutable_stripeOverlap</name>
+        <param>
+          <type><ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>overlap in voxels between two parts Returns a mutable pointer to a member variable of class <computeroutput>MR::VolumeToMeshByPartsSettings</computeroutput> named <computeroutput>stripeOverlap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" line="210" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" declline="210" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1af771c41dc2fd0a62791153065997b7b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref> *</type>
+        <definition>MRC_API MR_VolumeToMeshByPartsSettings * MR_VolumeToMeshByPartsSettings_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_VolumeToMeshByPartsSettings_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVoxelsConversionsByParts_8h_1a5957544935a5611880b90acc611b8c68" kindref="member">MR_VolumeToMeshByPartsSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" line="214" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" declline="214" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1afbad9b2127e512a75290334b1ac69b3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref> *</type>
+        <definition>MRC_API MR_VolumeToMeshByPartsSettings * MR_VolumeToMeshByPartsSettings_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_VolumeToMeshByPartsSettings_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRVoxelsConversionsByParts_8h_1a1682a6e4f5935673bbfdb05819aef9c7" kindref="member">MR_VolumeToMeshByPartsSettings_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRVoxelsConversionsByParts_8h_1a7a85f9a23bd15ff2d5b37b25be7f06e9" kindref="member">MR_VolumeToMeshByPartsSettings_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRVoxelsConversionsByParts_8h_1affdfcee46a0e467331dd35b09f904d89" kindref="member">MR_VolumeToMeshByPartsSettings_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" line="219" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" declline="219" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1a3119ff4ee552665be31c97411325daef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref> *</type>
+        <definition>MRC_API MR_VolumeToMeshByPartsSettings * MR_VolumeToMeshByPartsSettings_ConstructFrom</definition>
+        <argsstring>(MR_uint64_t maxVolumePartMemoryUsage, MR_uint64_t stripeOverlap)</argsstring>
+        <name>MR_VolumeToMeshByPartsSettings_ConstructFrom</name>
+        <param>
+          <type>MR_uint64_t</type>
+          <declname>maxVolumePartMemoryUsage</declname>
+        </param>
+        <param>
+          <type>MR_uint64_t</type>
+          <declname>stripeOverlap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::VolumeToMeshByPartsSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>maxVolumePartMemoryUsage</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>stripeOverlap</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVoxelsConversionsByParts_8h_1a5957544935a5611880b90acc611b8c68" kindref="member">MR_VolumeToMeshByPartsSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" line="226" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" declline="226" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1affdfcee46a0e467331dd35b09f904d89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref> *</type>
+        <definition>MRC_API const MR_VolumeToMeshByPartsSettings * MR_VolumeToMeshByPartsSettings_OffsetPtr</definition>
+        <argsstring>(const MR_VolumeToMeshByPartsSettings *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_VolumeToMeshByPartsSettings_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" line="230" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" declline="230" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1a7a85f9a23bd15ff2d5b37b25be7f06e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref> *</type>
+        <definition>MRC_API MR_VolumeToMeshByPartsSettings * MR_VolumeToMeshByPartsSettings_OffsetMutablePtr</definition>
+        <argsstring>(MR_VolumeToMeshByPartsSettings *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_VolumeToMeshByPartsSettings_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" line="234" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" declline="234" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1a290a1e853d0cbb424d096eb43e4529d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref> *</type>
+        <definition>MRC_API MR_VolumeToMeshByPartsSettings * MR_VolumeToMeshByPartsSettings_ConstructFromAnother</definition>
+        <argsstring>(const MR_VolumeToMeshByPartsSettings *_other)</argsstring>
+        <name>MR_VolumeToMeshByPartsSettings_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::VolumeToMeshByPartsSettings::VolumeToMeshByPartsSettings</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVoxelsConversionsByParts_8h_1a5957544935a5611880b90acc611b8c68" kindref="member">MR_VolumeToMeshByPartsSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" line="240" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" declline="240" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1a5957544935a5611880b90acc611b8c68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_VolumeToMeshByPartsSettings_Destroy</definition>
+        <argsstring>(const MR_VolumeToMeshByPartsSettings *_this)</argsstring>
+        <name>MR_VolumeToMeshByPartsSettings_Destroy</name>
+        <param>
+          <type>const <ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_VolumeToMeshByPartsSettings</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" line="243" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" declline="243" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1a1682a6e4f5935673bbfdb05819aef9c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_VolumeToMeshByPartsSettings_DestroyArray</definition>
+        <argsstring>(const MR_VolumeToMeshByPartsSettings *_this)</argsstring>
+        <name>MR_VolumeToMeshByPartsSettings_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_VolumeToMeshByPartsSettings</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" line="246" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" declline="246" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRVoxelsConversionsByParts_8h_1aaa0e593a7e8f879b17b5d2ef3d9c305d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref> *</type>
+        <definition>MRC_API MR_VolumeToMeshByPartsSettings * MR_VolumeToMeshByPartsSettings_AssignFromAnother</definition>
+        <argsstring>(MR_VolumeToMeshByPartsSettings *_this, const MR_VolumeToMeshByPartsSettings *_other)</argsstring>
+        <name>MR_VolumeToMeshByPartsSettings_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::VolumeToMeshByPartsSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" line="254" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h" declline="254" declcolumn="40"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRVector3_8h" kindref="compound">MRCMesh/MRVector3.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="MRVoxelsConversionsByParts_8h_1ac262f87c0239d73aafc464289f6eb02e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref><sp/><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPartMapping.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="MRVoxelsConversionsByParts_8h_1a627d491d276d54a9eef9d074a1a08a99" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVoxelsConversionsByParts_8h_1a627d491d276d54a9eef9d074a1a08a99" kindref="member">MR_std_function_void_from_MR_Mesh_ref</ref><sp/><ref refid="MRVoxelsConversionsByParts_8h_1a627d491d276d54a9eef9d074a1a08a99" kindref="member">MR_std_function_void_from_MR_Mesh_ref</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_void_from_MR_Mesh_ref.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="MRVoxelsConversionsByParts_8h_1a842bc31e7d75a88d0b83a0aa19c6b27f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVoxelsConversionsByParts_8h_1a842bc31e7d75a88d0b83a0aa19c6b27f" kindref="member">MR_std_function_void_from_MR_Mesh_ref_const_MR_PartMapping_ref</ref><sp/><ref refid="MRVoxelsConversionsByParts_8h_1a842bc31e7d75a88d0b83a0aa19c6b27f" kindref="member">MR_std_function_void_from_MR_Mesh_ref_const_MR_PartMapping_ref</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_void_from_MR_Mesh_ref_const_MR_PartMapping_ref.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="MRVoxelsConversionsByParts_8h_1ab3955429925136008c4cf12497066877" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVoxelsConversionsByParts_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref><sp/><ref refid="MRVoxelsConversionsByParts_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_void_from_MR_Mesh_ref_float_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref><sp/><ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref><sp/><ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref>;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="MRVoxelsConversionsByParts_8h_1a154b6e12b1351c75ee9d5c88d013a6a4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsConversionsByParts_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref><sp/>*<ref refid="MRVoxelsConversionsByParts_8h_1a154b6e12b1351c75ee9d5c88d013a6a4" kindref="member">MR_MergeVolumePartSettings_Get_preCut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="MRVoxelsConversionsByParts_8h_1a9a3a9e3bf2f4f9da33056ec034e19e22" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsConversionsByParts_8h_1a9a3a9e3bf2f4f9da33056ec034e19e22" kindref="member">MR_MergeVolumePartSettings_Set_preCut</ref>(<ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRVoxelsConversionsByParts_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="MRVoxelsConversionsByParts_8h_1a8d7858b5bb7d722105c8a46c15c64fa8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVoxelsConversionsByParts_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref><sp/>*<ref refid="MRVoxelsConversionsByParts_8h_1a8d7858b5bb7d722105c8a46c15c64fa8" kindref="member">MR_MergeVolumePartSettings_GetMutable_preCut</ref>(<ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="MRVoxelsConversionsByParts_8h_1abce80ce871fc3c5b982321adfda94bd0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsConversionsByParts_8h_1a627d491d276d54a9eef9d074a1a08a99" kindref="member">MR_std_function_void_from_MR_Mesh_ref</ref><sp/>*<ref refid="MRVoxelsConversionsByParts_8h_1abce80ce871fc3c5b982321adfda94bd0" kindref="member">MR_MergeVolumePartSettings_Get_postCut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="MRVoxelsConversionsByParts_8h_1ac57154fae4546a32d325d08eecb1fab9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsConversionsByParts_8h_1ac57154fae4546a32d325d08eecb1fab9" kindref="member">MR_MergeVolumePartSettings_Set_postCut</ref>(<ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRVoxelsConversionsByParts_8h_1a627d491d276d54a9eef9d074a1a08a99" kindref="member">MR_std_function_void_from_MR_Mesh_ref</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="MRVoxelsConversionsByParts_8h_1a8a7d631b0914417c4c9464fb24b1e44b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVoxelsConversionsByParts_8h_1a627d491d276d54a9eef9d074a1a08a99" kindref="member">MR_std_function_void_from_MR_Mesh_ref</ref><sp/>*<ref refid="MRVoxelsConversionsByParts_8h_1a8a7d631b0914417c4c9464fb24b1e44b" kindref="member">MR_MergeVolumePartSettings_GetMutable_postCut</ref>(<ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="MRVoxelsConversionsByParts_8h_1a5619e0016fabd1d61681124381ddb477" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsConversionsByParts_8h_1a842bc31e7d75a88d0b83a0aa19c6b27f" kindref="member">MR_std_function_void_from_MR_Mesh_ref_const_MR_PartMapping_ref</ref><sp/>*<ref refid="MRVoxelsConversionsByParts_8h_1a5619e0016fabd1d61681124381ddb477" kindref="member">MR_MergeVolumePartSettings_Get_postMerge</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="MRVoxelsConversionsByParts_8h_1af2a8c103f46d7923d968ec8e48f2f642" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsConversionsByParts_8h_1af2a8c103f46d7923d968ec8e48f2f642" kindref="member">MR_MergeVolumePartSettings_Set_postMerge</ref>(<ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRVoxelsConversionsByParts_8h_1a842bc31e7d75a88d0b83a0aa19c6b27f" kindref="member">MR_std_function_void_from_MR_Mesh_ref_const_MR_PartMapping_ref</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="MRVoxelsConversionsByParts_8h_1a20184a773b9a2b239f9ddf10c72dc47f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVoxelsConversionsByParts_8h_1a842bc31e7d75a88d0b83a0aa19c6b27f" kindref="member">MR_std_function_void_from_MR_Mesh_ref_const_MR_PartMapping_ref</ref><sp/>*<ref refid="MRVoxelsConversionsByParts_8h_1a20184a773b9a2b239f9ddf10c72dc47f" kindref="member">MR_MergeVolumePartSettings_GetMutable_postMerge</ref>(<ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="MRVoxelsConversionsByParts_8h_1a3a3341a7092f75cf3905f2394e095bfe" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref><sp/>*<ref refid="MRVoxelsConversionsByParts_8h_1a3a3341a7092f75cf3905f2394e095bfe" kindref="member">MR_MergeVolumePartSettings_Get_mapping</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="MRVoxelsConversionsByParts_8h_1ab3ee9281a1adf767a30dc10fc5727d96" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsConversionsByParts_8h_1ab3ee9281a1adf767a30dc10fc5727d96" kindref="member">MR_MergeVolumePartSettings_Set_mapping</ref>(<ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="MRVoxelsConversionsByParts_8h_1abbe3b1c6e61bf584979740f24fa4a11b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref><sp/>*<ref refid="MRVoxelsConversionsByParts_8h_1abbe3b1c6e61bf584979740f24fa4a11b" kindref="member">MR_MergeVolumePartSettings_GetMutable_mapping</ref>(<ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="MRVoxelsConversionsByParts_8h_1a464cd92fd34c53d7d550adbf78bc688c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRVoxelsConversionsByParts_8h_1a464cd92fd34c53d7d550adbf78bc688c" kindref="member">MR_MergeVolumePartSettings_Get_origin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120" refid="MRVoxelsConversionsByParts_8h_1a7545b9a3d90935f2d12ce5cd799f4b2c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsConversionsByParts_8h_1a7545b9a3d90935f2d12ce5cd799f4b2c" kindref="member">MR_MergeVolumePartSettings_Set_origin</ref>(<ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>value);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126" refid="MRVoxelsConversionsByParts_8h_1a27bd788ea302fb4312c9365a28751193" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRVoxelsConversionsByParts_8h_1a27bd788ea302fb4312c9365a28751193" kindref="member">MR_MergeVolumePartSettings_GetMutable_origin</ref>(<ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="MRVoxelsConversionsByParts_8h_1a178737b3411a84cac7b9e7c3cfbff52c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref><sp/>*<ref refid="MRVoxelsConversionsByParts_8h_1a178737b3411a84cac7b9e7c3cfbff52c" kindref="member">MR_MergeVolumePartSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135" refid="MRVoxelsConversionsByParts_8h_1aff7b2a0ca3ef374fe49b66d02b82bd3f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref><sp/>*<ref refid="MRVoxelsConversionsByParts_8h_1aff7b2a0ca3ef374fe49b66d02b82bd3f" kindref="member">MR_MergeVolumePartSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146" refid="MRVoxelsConversionsByParts_8h_1a96b22d3d52b1378f994b44a9914b9da0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref><sp/>*<ref refid="MRVoxelsConversionsByParts_8h_1a96b22d3d52b1378f994b44a9914b9da0" kindref="member">MR_MergeVolumePartSettings_ConstructFrom</ref>(MR_PassBy<sp/>preCut_pass_by,<sp/><ref refid="MRVoxelsConversionsByParts_8h_1ab3955429925136008c4cf12497066877" kindref="member">MR_std_function_void_from_MR_Mesh_ref_float_float</ref><sp/>*preCut,<sp/>MR_PassBy<sp/>postCut_pass_by,<sp/><ref refid="MRVoxelsConversionsByParts_8h_1a627d491d276d54a9eef9d074a1a08a99" kindref="member">MR_std_function_void_from_MR_Mesh_ref</ref><sp/>*postCut,<sp/>MR_PassBy<sp/>postMerge_pass_by,<sp/><ref refid="MRVoxelsConversionsByParts_8h_1a842bc31e7d75a88d0b83a0aa19c6b27f" kindref="member">MR_std_function_void_from_MR_Mesh_ref_const_MR_PartMapping_ref</ref><sp/>*postMerge,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ac262f87c0239d73aafc464289f6eb02e" kindref="member">MR_PartMapping</ref><sp/>*mapping,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>origin);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150" refid="MRVoxelsConversionsByParts_8h_1ae8d3f6a665d156a04cfc2a59b15e4b44" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref><sp/>*<ref refid="MRVoxelsConversionsByParts_8h_1ae8d3f6a665d156a04cfc2a59b15e4b44" kindref="member">MR_MergeVolumePartSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154" refid="MRVoxelsConversionsByParts_8h_1a853fcae38602df00bba9ba4f65d60489" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref><sp/>*<ref refid="MRVoxelsConversionsByParts_8h_1a853fcae38602df00bba9ba4f65d60489" kindref="member">MR_MergeVolumePartSettings_OffsetMutablePtr</ref>(<ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="MRVoxelsConversionsByParts_8h_1a8a63cf9fae5631d989514bea8df3b1cc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref><sp/>*<ref refid="MRVoxelsConversionsByParts_8h_1a8a63cf9fae5631d989514bea8df3b1cc" kindref="member">MR_MergeVolumePartSettings_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162" refid="MRVoxelsConversionsByParts_8h_1a7126fc34e4cec40699c9fff0dc7aa9d2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsConversionsByParts_8h_1a7126fc34e4cec40699c9fff0dc7aa9d2" kindref="member">MR_MergeVolumePartSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165" refid="MRVoxelsConversionsByParts_8h_1a4f60d331ef42aa07473f2e199535ef21" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsConversionsByParts_8h_1a4f60d331ef42aa07473f2e199535ef21" kindref="member">MR_MergeVolumePartSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172" refid="MRVoxelsConversionsByParts_8h_1a0a96d9a441de0161f38b7041a4515fd3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref><sp/>*<ref refid="MRVoxelsConversionsByParts_8h_1a0a96d9a441de0161f38b7041a4515fd3" kindref="member">MR_MergeVolumePartSettings_AssignFromAnother</ref>(<ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRVoxelsConversionsByParts_8h_1acc3cb5528ab92ee2723356ec1c0582c4" kindref="member">MR_MergeVolumePartSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight><highlight class="comment">//<sp/>256<sp/>MiB</highlight></codeline>
+<codeline lineno="178" refid="MRVoxelsConversionsByParts_8h_1a3206d1e8b1274fb26a7b3f95ec02679b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MR_uint64_t<sp/>*<ref refid="MRVoxelsConversionsByParts_8h_1a3206d1e8b1274fb26a7b3f95ec02679b" kindref="member">MR_VolumeToMeshByPartsSettings_Get_maxVolumePartMemoryUsage</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight><highlight class="comment">//<sp/>256<sp/>MiB</highlight></codeline>
+<codeline lineno="185" refid="MRVoxelsConversionsByParts_8h_1a04380d4fcd144405555ff507670b17c5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsConversionsByParts_8h_1a04380d4fcd144405555ff507670b17c5" kindref="member">MR_VolumeToMeshByPartsSettings_Set_maxVolumePartMemoryUsage</ref>(<ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref><sp/>*_this,<sp/>MR_uint64_t<sp/>value);</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight><highlight class="comment">//<sp/>256<sp/>MiB</highlight></codeline>
+<codeline lineno="191" refid="MRVoxelsConversionsByParts_8h_1abdf5af483c849be4fa6e6eda8b23d2eb" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/>*<ref refid="MRVoxelsConversionsByParts_8h_1abdf5af483c849be4fa6e6eda8b23d2eb" kindref="member">MR_VolumeToMeshByPartsSettings_GetMutable_maxVolumePartMemoryUsage</ref>(<ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197" refid="MRVoxelsConversionsByParts_8h_1a994fd117a0060e9feab41a07d6de2eab" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MR_uint64_t<sp/>*<ref refid="MRVoxelsConversionsByParts_8h_1a994fd117a0060e9feab41a07d6de2eab" kindref="member">MR_VolumeToMeshByPartsSettings_Get_stripeOverlap</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204" refid="MRVoxelsConversionsByParts_8h_1a1faebdec734124afc7ef61c005709f73" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsConversionsByParts_8h_1a1faebdec734124afc7ef61c005709f73" kindref="member">MR_VolumeToMeshByPartsSettings_Set_stripeOverlap</ref>(<ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref><sp/>*_this,<sp/>MR_uint64_t<sp/>value);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210" refid="MRVoxelsConversionsByParts_8h_1a6b18473ba4ade764f682aa596ea2d1c9" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/>*<ref refid="MRVoxelsConversionsByParts_8h_1a6b18473ba4ade764f682aa596ea2d1c9" kindref="member">MR_VolumeToMeshByPartsSettings_GetMutable_stripeOverlap</ref>(<ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214" refid="MRVoxelsConversionsByParts_8h_1af771c41dc2fd0a62791153065997b7b7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref><sp/>*<ref refid="MRVoxelsConversionsByParts_8h_1af771c41dc2fd0a62791153065997b7b7" kindref="member">MR_VolumeToMeshByPartsSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight></codeline>
+<codeline lineno="219" refid="MRVoxelsConversionsByParts_8h_1afbad9b2127e512a75290334b1ac69b3b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref><sp/>*<ref refid="MRVoxelsConversionsByParts_8h_1afbad9b2127e512a75290334b1ac69b3b" kindref="member">MR_VolumeToMeshByPartsSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight></codeline>
+<codeline lineno="226" refid="MRVoxelsConversionsByParts_8h_1a3119ff4ee552665be31c97411325daef" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref><sp/>*<ref refid="MRVoxelsConversionsByParts_8h_1a3119ff4ee552665be31c97411325daef" kindref="member">MR_VolumeToMeshByPartsSettings_ConstructFrom</ref>(MR_uint64_t<sp/>maxVolumePartMemoryUsage,<sp/>MR_uint64_t<sp/>stripeOverlap);</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230" refid="MRVoxelsConversionsByParts_8h_1affdfcee46a0e467331dd35b09f904d89" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref><sp/>*<ref refid="MRVoxelsConversionsByParts_8h_1affdfcee46a0e467331dd35b09f904d89" kindref="member">MR_VolumeToMeshByPartsSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="234" refid="MRVoxelsConversionsByParts_8h_1a7a85f9a23bd15ff2d5b37b25be7f06e9" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref><sp/>*<ref refid="MRVoxelsConversionsByParts_8h_1a7a85f9a23bd15ff2d5b37b25be7f06e9" kindref="member">MR_VolumeToMeshByPartsSettings_OffsetMutablePtr</ref>(<ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="240" refid="MRVoxelsConversionsByParts_8h_1a290a1e853d0cbb424d096eb43e4529d4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref><sp/>*<ref refid="MRVoxelsConversionsByParts_8h_1a290a1e853d0cbb424d096eb43e4529d4" kindref="member">MR_VolumeToMeshByPartsSettings_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight></codeline>
+<codeline lineno="243" refid="MRVoxelsConversionsByParts_8h_1a5957544935a5611880b90acc611b8c68" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsConversionsByParts_8h_1a5957544935a5611880b90acc611b8c68" kindref="member">MR_VolumeToMeshByPartsSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"></highlight></codeline>
+<codeline lineno="246" refid="MRVoxelsConversionsByParts_8h_1a1682a6e4f5935673bbfdb05819aef9c7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsConversionsByParts_8h_1a1682a6e4f5935673bbfdb05819aef9c7" kindref="member">MR_VolumeToMeshByPartsSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254" refid="MRVoxelsConversionsByParts_8h_1aaa0e593a7e8f879b17b5d2ef3d9c305d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref><sp/>*<ref refid="MRVoxelsConversionsByParts_8h_1aaa0e593a7e8f879b17b5d2ef3d9c305d" kindref="member">MR_VolumeToMeshByPartsSettings_AssignFromAnother</ref>(<ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsConversionsByParts_8h_1a74fea0531c2b15694d05f7dbda765bf0" kindref="member">MR_VolumeToMeshByPartsSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="256"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="257"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="258"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsConversionsByParts.h"/>
+  </compounddef>
+</doxygen>

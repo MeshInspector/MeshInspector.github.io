@@ -1,0 +1,368 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Axis" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Axis</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Axis_1ace7f7b8a29772c8b960cf2dbd3a5ff8b" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Axis::Count</definition>
+        <argsstring></argsstring>
+        <name>Count</name>
+        <qualifiedname>mrmeshpy.Axis.Count</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1Axis" kindref="compound">Axis</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1862" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1862" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Axis_1ac17a1c443db9ce61475127cae558ad6c" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Axis::X</definition>
+        <argsstring></argsstring>
+        <name>X</name>
+        <qualifiedname>mrmeshpy.Axis.X</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1Axis" kindref="compound">Axis</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1863" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1863" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Axis_1af529553fe5aca86a19a240bced2434b3" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Axis::Y</definition>
+        <argsstring></argsstring>
+        <name>Y</name>
+        <qualifiedname>mrmeshpy.Axis.Y</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1Axis" kindref="compound">Axis</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1864" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1864" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Axis_1adfe00f1d50012274533417affb4a779a" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Axis::Z</definition>
+        <argsstring></argsstring>
+        <name>Z</name>
+        <qualifiedname>mrmeshpy.Axis.Z</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1Axis" kindref="compound">Axis</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1865" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1865" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Axis_1ae8be0cb463c47d068bba5f882967d18f" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Axis::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.Axis.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1Axis" kindref="compound">Axis</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1866" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1866" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Axis_1a04d41b5d44e629462c433be7a0a1707f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Axis.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.Axis.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1867" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1867" bodyend="1868"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Axis_1ae2100295d2d5ce4965f21824b4cca4ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Axis.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.Axis.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1869" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1869" bodyend="1870"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Axis_1a75b3ef7d148053c8c89997467392a449" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Axis.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.Axis.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1871" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1871" bodyend="1872"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Axis_1a850d88b03e1ee60620719b01e3ffa03a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Axis.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.Axis.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1873" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1873" bodyend="1874"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Axis_1a9cc109896e9d5ceeec36b11732e1d278" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Axis.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Axis.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1875" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1875" bodyend="1876"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Axis_1a8595c9ce66777b680aa24a0b43d064c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Axis.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.Axis.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1877" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1877" bodyend="1878"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Axis_1ab7777a275482df1addaa34b63780b19b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Axis.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.Axis.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1879" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1879" bodyend="1880"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Axis_1a042b2af8721fd47ff5b7b817d0a2e7f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.Axis.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.Axis.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1881" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1881" bodyend="1882"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Axis_1a82535eb19e28747afb8944b7d42abdb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Axis.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.Axis.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1883" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1883" bodyend="1884"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Axis_1aee773eb0310a26ee2ef0148c48c6ef16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.Axis.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.Axis.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1885" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1885" bodyend="1886"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Axis_1ab6b33732dd0e72753df8d36d04754edb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.Axis.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.Axis.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1888" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1888" bodyend="1889"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Axis_1aae948b90b3f9d5fe8f5b866b569f15ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Axis.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.Axis.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1891" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1891" bodyend="1892"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  X
+
+  Y
+
+  Z
+
+  Count
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.Axis</label>
+        <link refid="classmrmeshpy_1_1Axis"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Count</edgelabel>
+          <edgelabel>X</edgelabel>
+          <edgelabel>Y</edgelabel>
+          <edgelabel>Z</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1850" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1850" bodyend="1892"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Axis_1a04d41b5d44e629462c433be7a0a1707f" prot="public" virt="non-virtual"><scope>mrmeshpy::Axis</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1Axis_1ae2100295d2d5ce4965f21824b4cca4ac" prot="public" virt="non-virtual"><scope>mrmeshpy::Axis</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1Axis_1a75b3ef7d148053c8c89997467392a449" prot="public" virt="non-virtual"><scope>mrmeshpy::Axis</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1Axis_1a850d88b03e1ee60620719b01e3ffa03a" prot="public" virt="non-virtual"><scope>mrmeshpy::Axis</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1Axis_1a9cc109896e9d5ceeec36b11732e1d278" prot="public" virt="non-virtual"><scope>mrmeshpy::Axis</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Axis_1a8595c9ce66777b680aa24a0b43d064c4" prot="public" virt="non-virtual"><scope>mrmeshpy::Axis</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1Axis_1ae8be0cb463c47d068bba5f882967d18f" prot="private" virt="non-virtual"><scope>mrmeshpy::Axis</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1Axis_1ab7777a275482df1addaa34b63780b19b" prot="public" virt="non-virtual"><scope>mrmeshpy::Axis</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1Axis_1a042b2af8721fd47ff5b7b817d0a2e7f0" prot="public" virt="non-virtual"><scope>mrmeshpy::Axis</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1Axis_1a82535eb19e28747afb8944b7d42abdb2" prot="public" virt="non-virtual"><scope>mrmeshpy::Axis</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1Axis_1aee773eb0310a26ee2ef0148c48c6ef16" prot="public" virt="non-virtual"><scope>mrmeshpy::Axis</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1Axis_1ace7f7b8a29772c8b960cf2dbd3a5ff8b" prot="public" virt="non-virtual"><scope>mrmeshpy::Axis</scope><name>Count</name></member>
+      <member refid="classmrmeshpy_1_1Axis_1ab6b33732dd0e72753df8d36d04754edb" prot="public" virt="non-virtual"><scope>mrmeshpy::Axis</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1Axis_1aae948b90b3f9d5fe8f5b866b569f15ab" prot="public" virt="non-virtual"><scope>mrmeshpy::Axis</scope><name>value</name></member>
+      <member refid="classmrmeshpy_1_1Axis_1ac17a1c443db9ce61475127cae558ad6c" prot="public" virt="non-virtual"><scope>mrmeshpy::Axis</scope><name>X</name></member>
+      <member refid="classmrmeshpy_1_1Axis_1af529553fe5aca86a19a240bced2434b3" prot="public" virt="non-virtual"><scope>mrmeshpy::Axis</scope><name>Y</name></member>
+      <member refid="classmrmeshpy_1_1Axis_1adfe00f1d50012274533417affb4a779a" prot="public" virt="non-virtual"><scope>mrmeshpy::Axis</scope><name>Z</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR__VertId" kind="struct" language="C++" prot="public">
+    <compoundname>MR_VertId</compoundname>
+    <includes refid="MRId_8h" local="no">MRId.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR__VertId_1aa09d1de62013d40fe76ab8402a15a4f7" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR_VertId::id_</definition>
+        <argsstring></argsstring>
+        <name>id_</name>
+        <qualifiedname>MR_VertId::id_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRId.h" line="56" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRId.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Generated from class <computeroutput>MR::VertId</computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR::NoDefInit&lt;MR::VertId&gt;</computeroutput> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRId.h" line="54" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRId.h" bodystart="55" bodyend="57"/>
+    <listofallmembers>
+      <member refid="structMR__VertId_1aa09d1de62013d40fe76ab8402a15a4f7" prot="public" virt="non-virtual"><scope>MR_VertId</scope><name>id_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

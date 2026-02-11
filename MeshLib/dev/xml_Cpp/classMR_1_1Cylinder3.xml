@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Cylinder3" kind="class" language="C++" prot="public">
+    <compoundname>MR::Cylinder3</compoundname>
+    <includes refid="MRCylinder3_8h" local="no">MRCylinder3.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classMR_1_1Cylinder3_1a65afcbe0b70345dae107e699760f116d" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1a7eef389e2e2dd24fc59576c7ad184eb5" kindref="member">Line3</ref>&lt; T &gt;</type>
+        <definition>Line3&lt;T&gt; MR::Cylinder3&lt; T &gt;::mainAxis</definition>
+        <argsstring></argsstring>
+        <name>mainAxis</name>
+        <qualifiedname>MR::Cylinder3::mainAxis</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinder3.h" line="50" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinder3.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Cylinder3_1a1badba33dd4c2e2d83af7d18fdb2e605" prot="public" static="no" mutable="no">
+        <type>T</type>
+        <definition>T MR::Cylinder3&lt; T &gt;::radius</definition>
+        <argsstring></argsstring>
+        <name>radius</name>
+        <qualifiedname>MR::Cylinder3::radius</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinder3.h" line="51" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinder3.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Cylinder3_1a49761af205e8affe422e2ff23a49935b" prot="public" static="no" mutable="no">
+        <type>T</type>
+        <definition>T MR::Cylinder3&lt; T &gt;::length</definition>
+        <argsstring></argsstring>
+        <name>length</name>
+        <qualifiedname>MR::Cylinder3::length</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinder3.h" line="52" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinder3.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Cylinder3_1a2724ae87e66c30b14b9c64852d404fb4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::Cylinder3&lt; T &gt;::Cylinder3</definition>
+        <argsstring>()</argsstring>
+        <name>Cylinder3</name>
+        <qualifiedname>MR::Cylinder3::Cylinder3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinder3.h" line="14" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinder3.h" bodystart="14" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cylinder3_1a207b6871fc0227d093441a7c12305b89" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::Cylinder3&lt; T &gt;::Cylinder3</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;inCenter, const Vector3&lt; T &gt; &amp;inDirectoin, T inRadius, T inLength)</argsstring>
+        <name>Cylinder3</name>
+        <qualifiedname>MR::Cylinder3::Cylinder3</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+          <declname>inCenter</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+          <declname>inDirectoin</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>inRadius</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>inLength</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinder3.h" line="17" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinder3.h" bodystart="17" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cylinder3_1a3b378f8ca92a85ffc3053dcf19cddfa1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::Cylinder3&lt; T &gt;::Cylinder3</definition>
+        <argsstring>(const Line3&lt; T &gt; &amp;inAxis, T inRadius, T inLength)</argsstring>
+        <name>Cylinder3</name>
+        <qualifiedname>MR::Cylinder3::Cylinder3</qualifiedname>
+        <param>
+          <type>const <ref refid="namespaceMR_1a7eef389e2e2dd24fc59576c7ad184eb5" kindref="member">Line3</ref>&lt; T &gt; &amp;</type>
+          <declname>inAxis</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>inRadius</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>inLength</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinder3.h" line="23" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinder3.h" bodystart="23" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cylinder3_1a8d4a9e9f09d98b1f8fd1fe07bb507344" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+        <definition>Vector3&lt; T &gt; &amp; MR::Cylinder3&lt; T &gt;::center</definition>
+        <argsstring>(void)</argsstring>
+        <name>center</name>
+        <qualifiedname>MR::Cylinder3::center</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinder3.h" line="30" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinder3.h" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cylinder3_1a69c15d8609407d79671f321442db4645" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+        <definition>const Vector3&lt; T &gt; &amp; MR::Cylinder3&lt; T &gt;::center</definition>
+        <argsstring>(void) const</argsstring>
+        <name>center</name>
+        <qualifiedname>MR::Cylinder3::center</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinder3.h" line="35" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinder3.h" bodystart="35" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cylinder3_1a73db02d177fabef0c760323da5251084" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+        <definition>Vector3&lt; T &gt; &amp; MR::Cylinder3&lt; T &gt;::direction</definition>
+        <argsstring>(void)</argsstring>
+        <name>direction</name>
+        <qualifiedname>MR::Cylinder3::direction</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinder3.h" line="40" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinder3.h" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cylinder3_1ad0a19bee1540de375bc6a6b7feb7973b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+        <definition>const Vector3&lt; T &gt; &amp; MR::Cylinder3&lt; T &gt;::direction</definition>
+        <argsstring>(void) const</argsstring>
+        <name>direction</name>
+        <qualifiedname>MR::Cylinder3::direction</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinder3.h" line="45" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinder3.h" bodystart="45" bodyend="48"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A class describing a cylinder as a mathematical object.A cylinder is represented by a centerline, a radius, and a length.template &lt;typename T&gt; TODO: <ref refid="classMR_1_1Cylinder3" kindref="compound">Cylinder3</ref> could be infinite. For example for infinite <ref refid="classMR_1_1Cylinder3" kindref="compound">Cylinder3</ref> we could use negative length or length = -1 </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::Cylinder3&lt; T &gt;</label>
+        <link refid="classMR_1_1Cylinder3"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>mainAxis</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::Line&lt; T &gt;</label>
+        <link refid="structMR_1_1Line"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinder3.h" line="11" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinder3.h" bodystart="12" bodyend="53"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Cylinder3_1a8d4a9e9f09d98b1f8fd1fe07bb507344" prot="public" virt="non-virtual"><scope>MR::Cylinder3</scope><name>center</name></member>
+      <member refid="classMR_1_1Cylinder3_1a69c15d8609407d79671f321442db4645" prot="public" virt="non-virtual"><scope>MR::Cylinder3</scope><name>center</name></member>
+      <member refid="classMR_1_1Cylinder3_1a2724ae87e66c30b14b9c64852d404fb4" prot="public" virt="non-virtual"><scope>MR::Cylinder3</scope><name>Cylinder3</name></member>
+      <member refid="classMR_1_1Cylinder3_1a207b6871fc0227d093441a7c12305b89" prot="public" virt="non-virtual"><scope>MR::Cylinder3</scope><name>Cylinder3</name></member>
+      <member refid="classMR_1_1Cylinder3_1a3b378f8ca92a85ffc3053dcf19cddfa1" prot="public" virt="non-virtual"><scope>MR::Cylinder3</scope><name>Cylinder3</name></member>
+      <member refid="classMR_1_1Cylinder3_1a73db02d177fabef0c760323da5251084" prot="public" virt="non-virtual"><scope>MR::Cylinder3</scope><name>direction</name></member>
+      <member refid="classMR_1_1Cylinder3_1ad0a19bee1540de375bc6a6b7feb7973b" prot="public" virt="non-virtual"><scope>MR::Cylinder3</scope><name>direction</name></member>
+      <member refid="classMR_1_1Cylinder3_1a49761af205e8affe422e2ff23a49935b" prot="public" virt="non-virtual"><scope>MR::Cylinder3</scope><name>length</name></member>
+      <member refid="classMR_1_1Cylinder3_1a65afcbe0b70345dae107e699760f116d" prot="public" virt="non-virtual"><scope>MR::Cylinder3</scope><name>mainAxis</name></member>
+      <member refid="classMR_1_1Cylinder3_1a1badba33dd4c2e2d83af7d18fdb2e605" prot="public" virt="non-virtual"><scope>MR::Cylinder3</scope><name>radius</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

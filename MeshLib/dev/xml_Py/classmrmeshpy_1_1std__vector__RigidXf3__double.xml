@@ -1,0 +1,605 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1std__vector__RigidXf3__double" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::std_vector_RigidXf3_double</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1std__vector__RigidXf3__double_1a80fa060506af0e442e85427f3c5b1184" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.std_vector_RigidXf3_double::element_type_byte_size</definition>
+        <argsstring></argsstring>
+        <name>element_type_byte_size</name>
+        <qualifiedname>mrmeshpy.std_vector_RigidXf3_double.element_type_byte_size</qualifiedname>
+        <initializer>=  48</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86962" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86962" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__RigidXf3__double_1a3933213633afee60a24b56ac2c052aac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_RigidXf3_double.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.std_vector_RigidXf3_double.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Check whether the list is nonempty
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86963" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86963" bodyend="86966"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__RigidXf3__double_1a74784cdc71e46909d80606918ed5a2a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_RigidXf3_double.__delitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_RigidXf3_double.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Delete the list elements at index ``i``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86968" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86968" bodyend="86971"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__RigidXf3__double_1ae44865b22ddbaf9b7288e151ca57c5dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_RigidXf3_double.__delitem__</definition>
+        <argsstring>(self, slice arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_RigidXf3_double.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Delete list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86973" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86973" bodyend="86976"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__RigidXf3__double_1ad1ddc78b13a0a44249a973734c46bc0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__RigidXf3__double" kindref="compound">std_vector_RigidXf3_double</ref></type>
+        <definition> std_vector_RigidXf3_double mrmeshpy.std_vector_RigidXf3_double.__getitem__</definition>
+        <argsstring>(self, slice s)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_RigidXf3_double.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Retrieve list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86978" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86978" bodyend="86981"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__RigidXf3__double_1a2bc070c53a16924cd4b2f64f832d5def" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RigidXf3d" kindref="compound">RigidXf3d</ref></type>
+        <definition> RigidXf3d mrmeshpy.std_vector_RigidXf3_double.__getitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_RigidXf3_double.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86983" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86983" bodyend="86984"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__RigidXf3__double_1a2f1d4e532b4e53fcb1a47115626d9ea5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_RigidXf3_double.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_RigidXf3_double.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86986" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86986" bodyend="86987"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__RigidXf3__double_1a6acf3b952b94cb606e6e5958414f2621" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_RigidXf3_double.__init__</definition>
+        <argsstring>(self, typing.Iterable arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_RigidXf3_double.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86989" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86989" bodyend="86990"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__RigidXf3__double_1aa6c4773c598fcf2bc9c3365309a4bcb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_RigidXf3_double.__init__</definition>
+        <argsstring>(self, std_vector_RigidXf3_double arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_RigidXf3_double.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__RigidXf3__double" kindref="compound">std_vector_RigidXf3_double</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86992" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86992" bodyend="86993"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__RigidXf3__double_1aab702a3b53f5841b957a1afc41b695c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1RigidXf3d" kindref="compound">RigidXf3d</ref>]</type>
+        <definition> typing.Iterator[RigidXf3d] mrmeshpy.std_vector_RigidXf3_double.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.std_vector_RigidXf3_double.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86994" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86994" bodyend="86995"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__RigidXf3__double_1af10bab45677eeb9777d25240eaf136fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_RigidXf3_double.__len__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__len__</name>
+        <qualifiedname>mrmeshpy.std_vector_RigidXf3_double.__len__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86996" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86996" bodyend="86997"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__RigidXf3__double_1ab24b641e1aafe25dbc2f4445ae8f5e9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_RigidXf3_double.__setitem__</definition>
+        <argsstring>(self, int arg0, RigidXf3d arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_RigidXf3_double.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RigidXf3d" kindref="compound">RigidXf3d</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86999" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86999" bodyend="87000"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__RigidXf3__double_1a86f4164e94986181b5602d7bddcaf11f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_RigidXf3_double.__setitem__</definition>
+        <argsstring>(self, slice arg0, std_vector_RigidXf3_double arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_RigidXf3_double.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__RigidXf3__double" kindref="compound">std_vector_RigidXf3_double</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Assign list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87002" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87002" bodyend="87005"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__RigidXf3__double_1a2ed302984651d9f6bd1841c0ccd15026" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_RigidXf3_double.append</definition>
+        <argsstring>(self, RigidXf3d x)</argsstring>
+        <name>append</name>
+        <qualifiedname>mrmeshpy.std_vector_RigidXf3_double.append</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RigidXf3d" kindref="compound">RigidXf3d</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Add an item to the end of the list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87006" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87006" bodyend="87009"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__RigidXf3__double_1a6444fa34f671bf1fc5e91e79601ae082" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_RigidXf3_double.clear</definition>
+        <argsstring>(self)</argsstring>
+        <name>clear</name>
+        <qualifiedname>mrmeshpy.std_vector_RigidXf3_double.clear</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Clear the contents
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87010" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87010" bodyend="87013"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__RigidXf3__double_1a6bdb7ce1024236c002928a38dc9c7d62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_RigidXf3_double.data_pointer</definition>
+        <argsstring>(self)</argsstring>
+        <name>data_pointer</name>
+        <qualifiedname>mrmeshpy.std_vector_RigidXf3_double.data_pointer</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns the pointer to the contiguous vector contents, as an integer.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87014" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87014" bodyend="87017"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__RigidXf3__double_1aabdf7263492354b4f41ff94cc9a89c75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_RigidXf3_double.empty</definition>
+        <argsstring>(self)</argsstring>
+        <name>empty</name>
+        <qualifiedname>mrmeshpy.std_vector_RigidXf3_double.empty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87018" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87018" bodyend="87019"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__RigidXf3__double_1acde1688924d80bb60d44a7af45796e38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_RigidXf3_double.extend</definition>
+        <argsstring>(self, std_vector_RigidXf3_double L)</argsstring>
+        <name>extend</name>
+        <qualifiedname>mrmeshpy.std_vector_RigidXf3_double.extend</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__RigidXf3__double" kindref="compound">std_vector_RigidXf3_double</ref></type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Extend the list by appending all the items in the given list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87021" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87021" bodyend="87024"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__RigidXf3__double_1af5ca811cbe3cdc64b3ebd0dab38ce04d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_RigidXf3_double.extend</definition>
+        <argsstring>(self, typing.Iterable L)</argsstring>
+        <name>extend</name>
+        <qualifiedname>mrmeshpy.std_vector_RigidXf3_double.extend</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Extend the list by appending all the items in the given list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87026" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87026" bodyend="87029"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__RigidXf3__double_1af61e9717d26292fb035f391e343fbcd9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_RigidXf3_double.insert</definition>
+        <argsstring>(self, int i, RigidXf3d x)</argsstring>
+        <name>insert</name>
+        <qualifiedname>mrmeshpy.std_vector_RigidXf3_double.insert</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RigidXf3d" kindref="compound">RigidXf3d</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Insert an item at a given position.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87030" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87030" bodyend="87033"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__RigidXf3__double_1abaf20edaf985b19e4332d67524fcb10d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RigidXf3d" kindref="compound">RigidXf3d</ref></type>
+        <definition> RigidXf3d mrmeshpy.std_vector_RigidXf3_double.pop</definition>
+        <argsstring>(self)</argsstring>
+        <name>pop</name>
+        <qualifiedname>mrmeshpy.std_vector_RigidXf3_double.pop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove and return the last item
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87035" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87035" bodyend="87038"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__RigidXf3__double_1a6a4c5384a3622e8eba89bfe69d7302c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RigidXf3d" kindref="compound">RigidXf3d</ref></type>
+        <definition> RigidXf3d mrmeshpy.std_vector_RigidXf3_double.pop</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>pop</name>
+        <qualifiedname>mrmeshpy.std_vector_RigidXf3_double.pop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove and return the item at index ``i``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87040" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87040" bodyend="87043"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__RigidXf3__double_1a42d3c7be50ddc89baddbb1f3157f9bf4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_RigidXf3_double.resize</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.std_vector_RigidXf3_double.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87045" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87045" bodyend="87046"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__RigidXf3__double_1a143d3073533ed6bf06e4ed68c26ba631" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_RigidXf3_double.resize</definition>
+        <argsstring>(self, int arg0, RigidXf3d arg1)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.std_vector_RigidXf3_double.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RigidXf3d" kindref="compound">RigidXf3d</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87048" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87048" bodyend="87049"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__RigidXf3__double_1a6afb0ba01924c3c58fe295277b295734" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_RigidXf3_double.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.std_vector_RigidXf3_double.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87050" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87050" bodyend="87051"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Aliases:  std_vector_RigidXf3d
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.std_vector_RigidXf3_double</label>
+        <link refid="classmrmeshpy_1_1std__vector__RigidXf3__double"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>element_type_byte_size</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86958" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86958" bodyend="87051"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1std__vector__RigidXf3__double_1a3933213633afee60a24b56ac2c052aac" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_RigidXf3_double</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__RigidXf3__double_1a74784cdc71e46909d80606918ed5a2a3" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_RigidXf3_double</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__RigidXf3__double_1ae44865b22ddbaf9b7288e151ca57c5dc" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_RigidXf3_double</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__RigidXf3__double_1ad1ddc78b13a0a44249a973734c46bc0f" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_RigidXf3_double</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__RigidXf3__double_1a2bc070c53a16924cd4b2f64f832d5def" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_RigidXf3_double</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__RigidXf3__double_1a2f1d4e532b4e53fcb1a47115626d9ea5" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_RigidXf3_double</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__RigidXf3__double_1a6acf3b952b94cb606e6e5958414f2621" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_RigidXf3_double</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__RigidXf3__double_1aa6c4773c598fcf2bc9c3365309a4bcb7" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_RigidXf3_double</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__RigidXf3__double_1aab702a3b53f5841b957a1afc41b695c8" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_RigidXf3_double</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__RigidXf3__double_1af10bab45677eeb9777d25240eaf136fa" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_RigidXf3_double</scope><name>__len__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__RigidXf3__double_1ab24b641e1aafe25dbc2f4445ae8f5e9b" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_RigidXf3_double</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__RigidXf3__double_1a86f4164e94986181b5602d7bddcaf11f" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_RigidXf3_double</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__RigidXf3__double_1a2ed302984651d9f6bd1841c0ccd15026" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_RigidXf3_double</scope><name>append</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__RigidXf3__double_1a6444fa34f671bf1fc5e91e79601ae082" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_RigidXf3_double</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__RigidXf3__double_1a6bdb7ce1024236c002928a38dc9c7d62" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_RigidXf3_double</scope><name>data_pointer</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__RigidXf3__double_1a80fa060506af0e442e85427f3c5b1184" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_RigidXf3_double</scope><name>element_type_byte_size</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__RigidXf3__double_1aabdf7263492354b4f41ff94cc9a89c75" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_RigidXf3_double</scope><name>empty</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__RigidXf3__double_1acde1688924d80bb60d44a7af45796e38" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_RigidXf3_double</scope><name>extend</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__RigidXf3__double_1af5ca811cbe3cdc64b3ebd0dab38ce04d" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_RigidXf3_double</scope><name>extend</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__RigidXf3__double_1af61e9717d26292fb035f391e343fbcd9" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_RigidXf3_double</scope><name>insert</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__RigidXf3__double_1abaf20edaf985b19e4332d67524fcb10d" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_RigidXf3_double</scope><name>pop</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__RigidXf3__double_1a6a4c5384a3622e8eba89bfe69d7302c5" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_RigidXf3_double</scope><name>pop</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__RigidXf3__double_1a42d3c7be50ddc89baddbb1f3157f9bf4" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_RigidXf3_double</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__RigidXf3__double_1a143d3073533ed6bf06e4ed68c26ba631" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_RigidXf3_double</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__RigidXf3__double_1a6afb0ba01924c3c58fe295277b295734" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_RigidXf3_double</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

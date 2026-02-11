@@ -1,0 +1,390 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1VertColorMapAggregator" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::VertColorMapAggregator</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1VertColorMapAggregator_1a9be634ded18214003d7421dca0d6b2e9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VertColorMapAggregator.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VertColorMapAggregator.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70097" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70097" bodyend="70098"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertColorMapAggregator_1a57377a33b82278042cf9356cd96c1620" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertColorMapAggregator" kindref="compound">VertColorMapAggregator</ref></type>
+        <definition> VertColorMapAggregator mrmeshpy.VertColorMapAggregator.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.VertColorMapAggregator.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70101" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70101" bodyend="70102"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertColorMapAggregator_1a57377a33b82278042cf9356cd96c1620" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertColorMapAggregator" kindref="compound">VertColorMapAggregator</ref></type>
+        <definition> VertColorMapAggregator mrmeshpy.VertColorMapAggregator.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.VertColorMapAggregator.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70105" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70105" bodyend="70106"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1VertColorMapAggregator_1a4a117155e81101952d4c3b3d7abac4b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VertColorMapAggregator.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VertColorMapAggregator.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70108" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70108" bodyend="70109"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertColorMapAggregator_1ac91093bd934704d1f15c1b8091176f69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VertColorMapAggregator.__init__</definition>
+        <argsstring>(self, VertColorMapAggregator arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VertColorMapAggregator.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertColorMapAggregator" kindref="compound">VertColorMapAggregator</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70111" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70111" bodyend="70114"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertColorMapAggregator_1a48fff858c4f53a2b7a858a3c99db95bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertColors" kindref="compound">VertColors</ref></type>
+        <definition> VertColors mrmeshpy.VertColorMapAggregator.aggregate</definition>
+        <argsstring>(self, VertBitSet elementBitSet)</argsstring>
+        <name>aggregate</name>
+        <qualifiedname>mrmeshpy.VertColorMapAggregator.aggregate</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>elementBitSet</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>get aggregated color map for active elements
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70115" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70115" bodyend="70118"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertColorMapAggregator_1aa7afe6148ba60b95b8aecc31f8b9cb8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VertColorMapAggregator.erase</definition>
+        <argsstring>(self, int i, int n=1)</argsstring>
+        <name>erase</name>
+        <qualifiedname>mrmeshpy.VertColorMapAggregator.erase</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>erase n color map from #i 
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70119" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70119" bodyend="70122"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertColorMapAggregator_1a078a9969cfa93776ef78aa865f186dfe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.VertColorMapAggregator.getColorMapNumber</definition>
+        <argsstring>(self)</argsstring>
+        <name>getColorMapNumber</name>
+        <qualifiedname>mrmeshpy.VertColorMapAggregator.getColorMapNumber</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>get number of accumulated color maps
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70123" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70123" bodyend="70126"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertColorMapAggregator_1ab6424260ceab8637232758445cab5bdc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ColorMapAggregator__VertTag__PartialColorMap" kindref="compound">ColorMapAggregator_VertTag_PartialColorMap</ref></type>
+        <definition> ColorMapAggregator_VertTag_PartialColorMap mrmeshpy.VertColorMapAggregator.getPartialColorMap</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>getPartialColorMap</name>
+        <qualifiedname>mrmeshpy.VertColorMapAggregator.getPartialColorMap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>get partial color map map by index
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70127" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70127" bodyend="70130"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertColorMapAggregator_1a14c74b4a16e42879bc684d9d5af58f09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VertColorMapAggregator.insert</definition>
+        <argsstring>(self, int i, ColorMapAggregator_VertTag_PartialColorMap partitialColorMap)</argsstring>
+        <name>insert</name>
+        <qualifiedname>mrmeshpy.VertColorMapAggregator.insert</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ColorMapAggregator__VertTag__PartialColorMap" kindref="compound">ColorMapAggregator_VertTag_PartialColorMap</ref></type>
+          <declname>partitialColorMap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>insert color map before element #i (0 - minimum priority)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70131" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70131" bodyend="70134"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertColorMapAggregator_1af0c408d4ab06861f6c0ba95ae27256d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VertColorMapAggregator.pushBack</definition>
+        <argsstring>(self, ColorMapAggregator_VertTag_PartialColorMap partitialColorMap)</argsstring>
+        <name>pushBack</name>
+        <qualifiedname>mrmeshpy.VertColorMapAggregator.pushBack</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ColorMapAggregator__VertTag__PartialColorMap" kindref="compound">ColorMapAggregator_VertTag_PartialColorMap</ref></type>
+          <declname>partitialColorMap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>add color map after all (more priority)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70135" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70135" bodyend="70138"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertColorMapAggregator_1a7aa430fccf341e710826a4f1028e96e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VertColorMapAggregator.replace</definition>
+        <argsstring>(self, int i, ColorMapAggregator_VertTag_PartialColorMap partitialColorMap)</argsstring>
+        <name>replace</name>
+        <qualifiedname>mrmeshpy.VertColorMapAggregator.replace</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ColorMapAggregator__VertTag__PartialColorMap" kindref="compound">ColorMapAggregator_VertTag_PartialColorMap</ref></type>
+          <declname>partitialColorMap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>replace color map in #i position
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70139" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70139" bodyend="70142"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertColorMapAggregator_1ac200b3f73bcb68debfa1c788b75ba83b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VertColorMapAggregator.reset</definition>
+        <argsstring>(self)</argsstring>
+        <name>reset</name>
+        <qualifiedname>mrmeshpy.VertColorMapAggregator.reset</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>reset all accumulated color map
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70143" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70143" bodyend="70146"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertColorMapAggregator_1a19ca19d90f523fea70a1a203540a6877" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VertColorMapAggregator.setDefaultColor</definition>
+        <argsstring>(self, Color color)</argsstring>
+        <name>setDefaultColor</name>
+        <qualifiedname>mrmeshpy.VertColorMapAggregator.setDefaultColor</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>set default (background) color
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70147" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70147" bodyend="70150"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertColorMapAggregator_1abfb03aca8828bcf48f559ad7a7923665" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VertColorMapAggregator.setMode</definition>
+        <argsstring>(self, ColorMapAggregator_VertTag_AggregateMode mode)</argsstring>
+        <name>setMode</name>
+        <qualifiedname>mrmeshpy.VertColorMapAggregator.setMode</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ColorMapAggregator__VertTag__AggregateMode" kindref="compound">ColorMapAggregator_VertTag_AggregateMode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>set color map aggregating mode
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70151" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70151" bodyend="70154"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::VertColorMapAggregator
+
+
+ @brief Class for aggregate several color map in one
+ Color maps are aggregated according order</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70086" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70086" bodyend="70154"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1VertColorMapAggregator_1a9be634ded18214003d7421dca0d6b2e9" prot="public" virt="non-virtual"><scope>mrmeshpy::VertColorMapAggregator</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VertColorMapAggregator_1a4a117155e81101952d4c3b3d7abac4b2" prot="public" virt="non-virtual"><scope>mrmeshpy::VertColorMapAggregator</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VertColorMapAggregator_1ac91093bd934704d1f15c1b8091176f69" prot="public" virt="non-virtual"><scope>mrmeshpy::VertColorMapAggregator</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VertColorMapAggregator_1a48fff858c4f53a2b7a858a3c99db95bb" prot="public" virt="non-virtual"><scope>mrmeshpy::VertColorMapAggregator</scope><name>aggregate</name></member>
+      <member refid="classmrmeshpy_1_1VertColorMapAggregator_1aa7afe6148ba60b95b8aecc31f8b9cb8b" prot="public" virt="non-virtual"><scope>mrmeshpy::VertColorMapAggregator</scope><name>erase</name></member>
+      <member refid="classmrmeshpy_1_1VertColorMapAggregator_1a078a9969cfa93776ef78aa865f186dfe" prot="public" virt="non-virtual"><scope>mrmeshpy::VertColorMapAggregator</scope><name>getColorMapNumber</name></member>
+      <member refid="classmrmeshpy_1_1VertColorMapAggregator_1ab6424260ceab8637232758445cab5bdc" prot="public" virt="non-virtual"><scope>mrmeshpy::VertColorMapAggregator</scope><name>getPartialColorMap</name></member>
+      <member refid="classmrmeshpy_1_1VertColorMapAggregator_1a14c74b4a16e42879bc684d9d5af58f09" prot="public" virt="non-virtual"><scope>mrmeshpy::VertColorMapAggregator</scope><name>insert</name></member>
+      <member refid="classmrmeshpy_1_1VertColorMapAggregator_1a57377a33b82278042cf9356cd96c1620" prot="public" virt="non-virtual"><scope>mrmeshpy::VertColorMapAggregator</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1VertColorMapAggregator_1a57377a33b82278042cf9356cd96c1620" prot="public" virt="non-virtual"><scope>mrmeshpy::VertColorMapAggregator</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1VertColorMapAggregator_1af0c408d4ab06861f6c0ba95ae27256d3" prot="public" virt="non-virtual"><scope>mrmeshpy::VertColorMapAggregator</scope><name>pushBack</name></member>
+      <member refid="classmrmeshpy_1_1VertColorMapAggregator_1a7aa430fccf341e710826a4f1028e96e9" prot="public" virt="non-virtual"><scope>mrmeshpy::VertColorMapAggregator</scope><name>replace</name></member>
+      <member refid="classmrmeshpy_1_1VertColorMapAggregator_1ac200b3f73bcb68debfa1c788b75ba83b" prot="public" virt="non-virtual"><scope>mrmeshpy::VertColorMapAggregator</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1VertColorMapAggregator_1a19ca19d90f523fea70a1a203540a6877" prot="public" virt="non-virtual"><scope>mrmeshpy::VertColorMapAggregator</scope><name>setDefaultColor</name></member>
+      <member refid="classmrmeshpy_1_1VertColorMapAggregator_1abfb03aca8828bcf48f559ad7a7923665" prot="public" virt="non-virtual"><scope>mrmeshpy::VertColorMapAggregator</scope><name>setMode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

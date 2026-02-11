@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1BaseRenderParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::BaseRenderParams</compoundname>
+    <derivedcompoundref refid="structMR_1_1ModelBaseRenderParams" prot="public" virt="non-virtual">MR::ModelBaseRenderParams</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1UiRenderParams" prot="public" virt="non-virtual">MR::UiRenderParams</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1Viewport_1_1LinePointImmediateRenderParams" prot="public" virt="non-virtual">MR::Viewport::LinePointImmediateRenderParams</derivedcompoundref>
+    <includes refid="MRIRenderObject_8h" local="no">MRIRenderObject.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1BaseRenderParams_1a564bcf6e1925912d15fa1cb20a3b0a3c" prot="public" static="no" mutable="no">
+        <type>const Matrix4f &amp;</type>
+        <definition>const Matrix4f&amp; MR::BaseRenderParams::viewMatrix</definition>
+        <argsstring></argsstring>
+        <name>viewMatrix</name>
+        <qualifiedname>MR::BaseRenderParams::viewMatrix</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="34" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1BaseRenderParams_1ab108063540156c1b73540c07c48e6d01" prot="public" static="no" mutable="no">
+        <type>const Matrix4f &amp;</type>
+        <definition>const Matrix4f&amp; MR::BaseRenderParams::projMatrix</definition>
+        <argsstring></argsstring>
+        <name>projMatrix</name>
+        <qualifiedname>MR::BaseRenderParams::projMatrix</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="35" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1BaseRenderParams_1adf952473500110be7f693c5d725f6fde" prot="public" static="no" mutable="no">
+        <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+        <definition>ViewportId MR::BaseRenderParams::viewportId</definition>
+        <argsstring></argsstring>
+        <name>viewportId</name>
+        <qualifiedname>MR::BaseRenderParams::viewportId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="36" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1BaseRenderParams_1aabb1d7dfa544bd6cb1d98a79a8d036a9" prot="public" static="no" mutable="no">
+        <type>Vector4i</type>
+        <definition>Vector4i MR::BaseRenderParams::viewport</definition>
+        <argsstring></argsstring>
+        <name>viewport</name>
+        <qualifiedname>MR::BaseRenderParams::viewport</qualifiedname>
+        <briefdescription>
+<para>id of the viewport </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="37" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Common rendering parameters for meshes and <ref refid="namespaceMR_1_1UI" kindref="compound">UI</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::BaseRenderParams</label>
+        <link refid="structMR_1_1BaseRenderParams"/>
+      </node>
+      <node id="2">
+        <label>MR::ModelBaseRenderParams</label>
+        <link refid="structMR_1_1ModelBaseRenderParams"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::ModelRenderParams</label>
+        <link refid="structMR_1_1ModelRenderParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::UiRenderParams</label>
+        <link refid="structMR_1_1UiRenderParams"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR::Viewport::LinePointImmediateRenderParams</label>
+        <link refid="structMR_1_1Viewport_1_1LinePointImmediateRenderParams"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::BaseRenderParams</label>
+        <link refid="structMR_1_1BaseRenderParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>viewportId</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::ViewportId</label>
+        <link refid="classMR_1_1ViewportId"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="32" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="33" bodyend="38"/>
+    <listofallmembers>
+      <member refid="structMR_1_1BaseRenderParams_1ab108063540156c1b73540c07c48e6d01" prot="public" virt="non-virtual"><scope>MR::BaseRenderParams</scope><name>projMatrix</name></member>
+      <member refid="structMR_1_1BaseRenderParams_1a564bcf6e1925912d15fa1cb20a3b0a3c" prot="public" virt="non-virtual"><scope>MR::BaseRenderParams</scope><name>viewMatrix</name></member>
+      <member refid="structMR_1_1BaseRenderParams_1aabb1d7dfa544bd6cb1d98a79a8d036a9" prot="public" virt="non-virtual"><scope>MR::BaseRenderParams</scope><name>viewport</name></member>
+      <member refid="structMR_1_1BaseRenderParams_1adf952473500110be7f693c5d725f6fde" prot="public" virt="non-virtual"><scope>MR::BaseRenderParams</scope><name>viewportId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,560 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1DetectTunnelSettings" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::DetectTunnelSettings</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1DetectTunnelSettings_1a21ddb580218a8dce4852a3633d31684d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DetectTunnelSettings::_offsetof_buildCoLoops</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_buildCoLoops</name>
+        <qualifiedname>mrmeshpy.DetectTunnelSettings._offsetof_buildCoLoops</qualifiedname>
+        <initializer>=  40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12755" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12755" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DetectTunnelSettings_1a5caa95118399595b6ae0cdc0df3f9ae8" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DetectTunnelSettings::_offsetof_filterEquivalentCoLoops</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_filterEquivalentCoLoops</name>
+        <qualifiedname>mrmeshpy.DetectTunnelSettings._offsetof_filterEquivalentCoLoops</qualifiedname>
+        <initializer>=  41</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12756" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12756" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DetectTunnelSettings_1a25eec453ff3d216d91d611c55bc160dc" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DetectTunnelSettings::_offsetof_maxIters</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxIters</name>
+        <qualifiedname>mrmeshpy.DetectTunnelSettings._offsetof_maxIters</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12757" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12757" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DetectTunnelSettings_1abd78ab206539c5ece4d6aecde2c59ba3" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DetectTunnelSettings::_offsetof_maxTunnelLength</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxTunnelLength</name>
+        <qualifiedname>mrmeshpy.DetectTunnelSettings._offsetof_maxTunnelLength</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12758" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12758" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DetectTunnelSettings_1a6e44e86f2ac2261b20d9e11a9870905b" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DetectTunnelSettings::_offsetof_metric</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_metric</name>
+        <qualifiedname>mrmeshpy.DetectTunnelSettings._offsetof_metric</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12759" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12759" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DetectTunnelSettings_1a78cb96c48b4c48c33670fc2f46155180" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DetectTunnelSettings::_offsetof_progress</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_progress</name>
+        <qualifiedname>mrmeshpy.DetectTunnelSettings._offsetof_progress</qualifiedname>
+        <initializer>=  48</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12760" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12760" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1DetectTunnelSettings_1acef38158f3180f14eca7faa6dc1d9c6b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DetectTunnelSettings.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DetectTunnelSettings.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12763" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12763" bodyend="12764"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DetectTunnelSettings_1ad9fc200abe2d5620abbbea6f6fff2f5f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DetectTunnelSettings" kindref="compound">DetectTunnelSettings</ref></type>
+        <definition> DetectTunnelSettings mrmeshpy.DetectTunnelSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.DetectTunnelSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12767" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12767" bodyend="12768"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DetectTunnelSettings_1ad9fc200abe2d5620abbbea6f6fff2f5f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DetectTunnelSettings" kindref="compound">DetectTunnelSettings</ref></type>
+        <definition> DetectTunnelSettings mrmeshpy.DetectTunnelSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.DetectTunnelSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12771" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12771" bodyend="12772"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1DetectTunnelSettings_1a4780f054b8c777b9fc1023365b0a2954" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DetectTunnelSettings.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DetectTunnelSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12774" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12774" bodyend="12775"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DetectTunnelSettings_1a317de0ed166625210cc55aa260efd286" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DetectTunnelSettings.__init__</definition>
+        <argsstring>(self, DetectTunnelSettings arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DetectTunnelSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1DetectTunnelSettings" kindref="compound">DetectTunnelSettings</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12777" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12777" bodyend="12780"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DetectTunnelSettings_1ae0c7d277647ebbd3ff9741d887d444e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DetectTunnelSettings.__init__</definition>
+        <argsstring>(self, float maxTunnelLength, int maxIters, func_float_from_Id_EdgeTag metric, bool buildCoLoops, bool filterEquivalentCoLoops, func_bool_from_float progress)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DetectTunnelSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxTunnelLength</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxIters</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__float__from__Id__EdgeTag" kindref="compound">func_float_from_Id_EdgeTag</ref></type>
+          <declname>metric</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>buildCoLoops</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>filterEquivalentCoLoops</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>progress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12782" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12782" bodyend="12785"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DetectTunnelSettings_1a4cc87e8cc6903205f7e0419e8f0ada2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.DetectTunnelSettings.buildCoLoops</definition>
+        <argsstring>(self)</argsstring>
+        <name>buildCoLoops</name>
+        <qualifiedname>mrmeshpy.DetectTunnelSettings.buildCoLoops</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if true then for every basis loop, findShortestCoLoop will be called;
+it typically results in shorter tunnels found, but requires more time per iteration, and more iterations to find all tunnels
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12787" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12787" bodyend="12791"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DetectTunnelSettings_1aeaafe0839a6317a6a5893315c22418a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DetectTunnelSettings.buildCoLoops</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>buildCoLoops</name>
+        <qualifiedname>mrmeshpy.DetectTunnelSettings.buildCoLoops</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12793" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12793" bodyend="12794"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DetectTunnelSettings_1ab2b764fcd6384fe60130983cf88c129c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.DetectTunnelSettings.filterEquivalentCoLoops</definition>
+        <argsstring>(self)</argsstring>
+        <name>filterEquivalentCoLoops</name>
+        <qualifiedname>mrmeshpy.DetectTunnelSettings.filterEquivalentCoLoops</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if ( buildCoLoops ) then some tunnel loops can be equivalent (e.g. they cut the same handle twice),
+this option activates their filtering out, but it is very slow
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12796" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12796" bodyend="12800"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DetectTunnelSettings_1a0e4e7443b32dd80895725461f857e3fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DetectTunnelSettings.filterEquivalentCoLoops</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>filterEquivalentCoLoops</name>
+        <qualifiedname>mrmeshpy.DetectTunnelSettings.filterEquivalentCoLoops</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12802" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12802" bodyend="12803"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DetectTunnelSettings_1a766da3ca2829e9b5b8ff6af989f1849e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.DetectTunnelSettings.maxIters</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxIters</name>
+        <qualifiedname>mrmeshpy.DetectTunnelSettings.maxIters</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>maximal number of iterations to detect all tunnels;
+on a big mesh with many tunnels even one iteration can take a while
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12805" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12805" bodyend="12809"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DetectTunnelSettings_1ae7545134a25b35222ffb06adb589b56f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DetectTunnelSettings.maxIters</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>maxIters</name>
+        <qualifiedname>mrmeshpy.DetectTunnelSettings.maxIters</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12811" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12811" bodyend="12812"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DetectTunnelSettings_1a3793d92955cebfc52e5703a3b362415d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.DetectTunnelSettings.maxTunnelLength</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxTunnelLength</name>
+        <qualifiedname>mrmeshpy.DetectTunnelSettings.maxTunnelLength</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>maximal length of tunnel loops to consider
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12814" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12814" bodyend="12817"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DetectTunnelSettings_1ae91060c41c254aa10739d96b18c5b8be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DetectTunnelSettings.maxTunnelLength</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>maxTunnelLength</name>
+        <qualifiedname>mrmeshpy.DetectTunnelSettings.maxTunnelLength</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12819" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12819" bodyend="12820"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DetectTunnelSettings_1af4c7b8303b5a65af64911206cbce8c5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__float__from__Id__EdgeTag" kindref="compound">func_float_from_Id_EdgeTag</ref></type>
+        <definition> func_float_from_Id_EdgeTag mrmeshpy.DetectTunnelSettings.metric</definition>
+        <argsstring>(self)</argsstring>
+        <name>metric</name>
+        <qualifiedname>mrmeshpy.DetectTunnelSettings.metric</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>metric for detectBasisTunnels,
+if no metric is given then discreteMinusAbsMeanCurvatureMetric will be used
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12822" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12822" bodyend="12826"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DetectTunnelSettings_1a95925c956233579872e5d4d2ba529f9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DetectTunnelSettings.metric</definition>
+        <argsstring>(self, func_float_from_Id_EdgeTag arg1)</argsstring>
+        <name>metric</name>
+        <qualifiedname>mrmeshpy.DetectTunnelSettings.metric</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__float__from__Id__EdgeTag" kindref="compound">func_float_from_Id_EdgeTag</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12828" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12828" bodyend="12829"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DetectTunnelSettings_1abae1388d40047094fc6f5ebf31ffa28c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+        <definition> func_bool_from_float mrmeshpy.DetectTunnelSettings.progress</definition>
+        <argsstring>(self)</argsstring>
+        <name>progress</name>
+        <qualifiedname>mrmeshpy.DetectTunnelSettings.progress</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>to report algorithm progress and cancel from outside
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12831" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12831" bodyend="12834"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DetectTunnelSettings_1a06978cd60b53f9f59c14e265e51bf7ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DetectTunnelSettings.progress</definition>
+        <argsstring>(self, func_bool_from_float arg1)</argsstring>
+        <name>progress</name>
+        <qualifiedname>mrmeshpy.DetectTunnelSettings.progress</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12836" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12836" bodyend="12837"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::DetectTunnelSettings
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.DetectTunnelSettings</label>
+        <link refid="classmrmeshpy_1_1DetectTunnelSettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_buildCoLoops</edgelabel>
+          <edgelabel>_offsetof_filterEquivalentCoLoops</edgelabel>
+          <edgelabel>_offsetof_maxIters</edgelabel>
+          <edgelabel>_offsetof_maxTunnelLength</edgelabel>
+          <edgelabel>_offsetof_metric</edgelabel>
+          <edgelabel>_offsetof_progress</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12751" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12751" bodyend="12837"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1DetectTunnelSettings_1acef38158f3180f14eca7faa6dc1d9c6b" prot="public" virt="non-virtual"><scope>mrmeshpy::DetectTunnelSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DetectTunnelSettings_1a4780f054b8c777b9fc1023365b0a2954" prot="public" virt="non-virtual"><scope>mrmeshpy::DetectTunnelSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DetectTunnelSettings_1a317de0ed166625210cc55aa260efd286" prot="public" virt="non-virtual"><scope>mrmeshpy::DetectTunnelSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DetectTunnelSettings_1ae0c7d277647ebbd3ff9741d887d444e0" prot="public" virt="non-virtual"><scope>mrmeshpy::DetectTunnelSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DetectTunnelSettings_1a21ddb580218a8dce4852a3633d31684d" prot="protected" virt="non-virtual"><scope>mrmeshpy::DetectTunnelSettings</scope><name>_offsetof_buildCoLoops</name></member>
+      <member refid="classmrmeshpy_1_1DetectTunnelSettings_1a5caa95118399595b6ae0cdc0df3f9ae8" prot="protected" virt="non-virtual"><scope>mrmeshpy::DetectTunnelSettings</scope><name>_offsetof_filterEquivalentCoLoops</name></member>
+      <member refid="classmrmeshpy_1_1DetectTunnelSettings_1a25eec453ff3d216d91d611c55bc160dc" prot="protected" virt="non-virtual"><scope>mrmeshpy::DetectTunnelSettings</scope><name>_offsetof_maxIters</name></member>
+      <member refid="classmrmeshpy_1_1DetectTunnelSettings_1abd78ab206539c5ece4d6aecde2c59ba3" prot="protected" virt="non-virtual"><scope>mrmeshpy::DetectTunnelSettings</scope><name>_offsetof_maxTunnelLength</name></member>
+      <member refid="classmrmeshpy_1_1DetectTunnelSettings_1a6e44e86f2ac2261b20d9e11a9870905b" prot="protected" virt="non-virtual"><scope>mrmeshpy::DetectTunnelSettings</scope><name>_offsetof_metric</name></member>
+      <member refid="classmrmeshpy_1_1DetectTunnelSettings_1a78cb96c48b4c48c33670fc2f46155180" prot="protected" virt="non-virtual"><scope>mrmeshpy::DetectTunnelSettings</scope><name>_offsetof_progress</name></member>
+      <member refid="classmrmeshpy_1_1DetectTunnelSettings_1a4cc87e8cc6903205f7e0419e8f0ada2e" prot="public" virt="non-virtual"><scope>mrmeshpy::DetectTunnelSettings</scope><name>buildCoLoops</name></member>
+      <member refid="classmrmeshpy_1_1DetectTunnelSettings_1aeaafe0839a6317a6a5893315c22418a4" prot="public" virt="non-virtual"><scope>mrmeshpy::DetectTunnelSettings</scope><name>buildCoLoops</name></member>
+      <member refid="classmrmeshpy_1_1DetectTunnelSettings_1ab2b764fcd6384fe60130983cf88c129c" prot="public" virt="non-virtual"><scope>mrmeshpy::DetectTunnelSettings</scope><name>filterEquivalentCoLoops</name></member>
+      <member refid="classmrmeshpy_1_1DetectTunnelSettings_1a0e4e7443b32dd80895725461f857e3fc" prot="public" virt="non-virtual"><scope>mrmeshpy::DetectTunnelSettings</scope><name>filterEquivalentCoLoops</name></member>
+      <member refid="classmrmeshpy_1_1DetectTunnelSettings_1a766da3ca2829e9b5b8ff6af989f1849e" prot="public" virt="non-virtual"><scope>mrmeshpy::DetectTunnelSettings</scope><name>maxIters</name></member>
+      <member refid="classmrmeshpy_1_1DetectTunnelSettings_1ae7545134a25b35222ffb06adb589b56f" prot="public" virt="non-virtual"><scope>mrmeshpy::DetectTunnelSettings</scope><name>maxIters</name></member>
+      <member refid="classmrmeshpy_1_1DetectTunnelSettings_1a3793d92955cebfc52e5703a3b362415d" prot="public" virt="non-virtual"><scope>mrmeshpy::DetectTunnelSettings</scope><name>maxTunnelLength</name></member>
+      <member refid="classmrmeshpy_1_1DetectTunnelSettings_1ae91060c41c254aa10739d96b18c5b8be" prot="public" virt="non-virtual"><scope>mrmeshpy::DetectTunnelSettings</scope><name>maxTunnelLength</name></member>
+      <member refid="classmrmeshpy_1_1DetectTunnelSettings_1af4c7b8303b5a65af64911206cbce8c5b" prot="public" virt="non-virtual"><scope>mrmeshpy::DetectTunnelSettings</scope><name>metric</name></member>
+      <member refid="classmrmeshpy_1_1DetectTunnelSettings_1a95925c956233579872e5d4d2ba529f9f" prot="public" virt="non-virtual"><scope>mrmeshpy::DetectTunnelSettings</scope><name>metric</name></member>
+      <member refid="classmrmeshpy_1_1DetectTunnelSettings_1ad9fc200abe2d5620abbbea6f6fff2f5f" prot="public" virt="non-virtual"><scope>mrmeshpy::DetectTunnelSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1DetectTunnelSettings_1ad9fc200abe2d5620abbbea6f6fff2f5f" prot="public" virt="non-virtual"><scope>mrmeshpy::DetectTunnelSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1DetectTunnelSettings_1abae1388d40047094fc6f5ebf31ffa28c" prot="public" virt="non-virtual"><scope>mrmeshpy::DetectTunnelSettings</scope><name>progress</name></member>
+      <member refid="classmrmeshpy_1_1DetectTunnelSettings_1a06978cd60b53f9f59c14e265e51bf7ef" prot="public" virt="non-virtual"><scope>mrmeshpy::DetectTunnelSettings</scope><name>progress</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

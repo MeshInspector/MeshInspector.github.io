@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRWriter_8h" kind="file" language="C++">
+    <compoundname>MRWriter.h</compoundname>
+    <includedby refid="MRMesh_8h" local="yes">MRMesh.h</includedby>
+    <invincdepgraph>
+      <node id="6">
+        <label>MRCudaFastWindingNumber.h</label>
+        <link refid="MRCudaFastWindingNumber_8h"/>
+      </node>
+      <node id="7">
+        <label>MRCudaMeshDistanceMap.h</label>
+        <link refid="MRCudaMeshDistanceMap_8h"/>
+      </node>
+      <node id="8">
+        <label>MRCudaSolarRadiation.h</label>
+        <link refid="MRCudaSolarRadiation_8h"/>
+      </node>
+      <node id="3">
+        <label>MRAddNoise.h</label>
+        <link refid="MRAddNoise_8h"/>
+      </node>
+      <node id="4">
+        <label>MRChangeMeshAction.h</label>
+        <link refid="MRChangeMeshAction_8h"/>
+      </node>
+      <node id="9">
+        <label>MREdgePathsBuilder.h</label>
+        <link refid="MREdgePathsBuilder_8h"/>
+      </node>
+      <node id="10">
+        <label>MREmbedTerrainStructure.h</label>
+        <link refid="MREmbedTerrainStructure_8h"/>
+      </node>
+      <node id="11">
+        <label>MRMakeSphereMesh.h</label>
+        <link refid="MRMakeSphereMesh_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRMesh.h</label>
+        <link refid="MRMesh_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>MRMeshBoolean.h</label>
+        <link refid="MRMeshBoolean_8h"/>
+      </node>
+      <node id="14">
+        <label>MRMeshBooleanFacade.h</label>
+        <link refid="MRMeshBooleanFacade_8h"/>
+      </node>
+      <node id="16">
+        <label>MRMeshBuilder.h</label>
+        <link refid="MRMeshBuilder_8h"/>
+      </node>
+      <node id="17">
+        <label>MRMeshDecimateCallbacks.h</label>
+        <link refid="MRMeshDecimateCallbacks_8h"/>
+      </node>
+      <node id="18">
+        <label>MRMeshLoadObj.h</label>
+        <link refid="MRMeshLoadObj_8h"/>
+      </node>
+      <node id="19">
+        <label>MRMeshSaveObj.h</label>
+        <link refid="MRMeshSaveObj_8h"/>
+      </node>
+      <node id="20">
+        <label>MRMeshSubdivideCallbacks.h</label>
+        <link refid="MRMeshSubdivideCallbacks_8h"/>
+      </node>
+      <node id="21">
+        <label>MRPartialChangeMeshAction.h</label>
+        <link refid="MRPartialChangeMeshAction_8h"/>
+      </node>
+      <node id="22">
+        <label>MRPointCloudTriangulation.h</label>
+        <link refid="MRPointCloudTriangulation_8h"/>
+      </node>
+      <node id="23">
+        <label>MRProjectionMeshAttribute.h</label>
+        <link refid="MRProjectionMeshAttribute_8h"/>
+      </node>
+      <node id="24">
+        <label>MRTerrainTriangulation.h</label>
+        <link refid="MRTerrainTriangulation_8h"/>
+      </node>
+      <node id="12">
+        <label>MRUVSphere.h</label>
+        <link refid="MRUVSphere_8h"/>
+      </node>
+      <node id="26">
+        <label>MRUniteManyMeshes.h</label>
+        <link refid="MRUniteManyMeshes_8h"/>
+      </node>
+      <node id="1">
+        <label>MRWriter.h</label>
+        <link refid="MRWriter_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>MRMeshBoundarySelectionWidget.h</label>
+        <link refid="MRMeshBoundarySelectionWidget_8h"/>
+      </node>
+      <node id="5">
+        <label>MRChangeVoxelsAction.h</label>
+        <link refid="MRChangeVoxelsAction_8h"/>
+      </node>
+      <node id="25">
+        <label>MRToolPath.h</label>
+        <link refid="MRToolPath_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structMR_1_1Writer" prot="public">MR::Writer</innerclass>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="MRWriter_8h_1a76ba7d688be2473881f1f42c2f685060" prot="public" static="no">
+        <name>MR_WRITER</name>
+        <param><defname>obj</defname></param>
+        <initializer><ref refid="structMR_1_1Writer" kindref="compound">MR::Writer</ref> _writer( obj );</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWriter.h" line="15" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWriter.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="8" refid="structMR_1_1Writer" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Writer" kindref="compound">Writer</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10" refid="structMR_1_1Writer_1a1ff0e2daeb475fb1edc47380d8255f59" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>T<sp/>&amp;<sp/><ref refid="structMR_1_1Writer_1a1ff0e2daeb475fb1edc47380d8255f59" kindref="member">obj</ref>;</highlight></codeline>
+<codeline lineno="11" refid="structMR_1_1Writer_1abf4ee009f08992fff0aadc8ee8e79daa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Writer_1abf4ee009f08992fff0aadc8ee8e79daa" kindref="member">Writer</ref>(<sp/>T<sp/>&amp;<sp/>o<sp/>)<sp/>:<sp/><ref refid="structMR_1_1Writer_1a1ff0e2daeb475fb1edc47380d8255f59" kindref="member">obj</ref>(<sp/>o<sp/>)<sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="12" refid="structMR_1_1Writer_1aa459ed75918dac0dd5c9055f24c156f6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Writer_1aa459ed75918dac0dd5c9055f24c156f6" kindref="member">~Writer</ref>()<sp/>{<sp/><ref refid="structMR_1_1Writer_1a1ff0e2daeb475fb1edc47380d8255f59" kindref="member">obj</ref>.invalidateCaches();<sp/>}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="MRWriter_8h_1a76ba7d688be2473881f1f42c2f685060" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MR_WRITER(<sp/>obj<sp/>)<sp/>MR::Writer<sp/>_writer(<sp/>obj<sp/>);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}<sp/></highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWriter.h"/>
+  </compounddef>
+</doxygen>

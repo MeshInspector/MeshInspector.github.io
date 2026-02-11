@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1SceneStateAtLeastCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4" kind="class" language="C++" prot="public">
+    <compoundname>MR::SceneStateAtLeastCheck&lt; N, ObjectT, NoModelCheck &gt;</compoundname>
+    <basecompoundref refid="classMR_1_1ISceneStateCheck" prot="public" virt="virtual">MR::ISceneStateCheck</basecompoundref>
+    <includes refid="MRSceneStateCheck_8h" local="no">MRSceneStateCheck.h</includes>
+    <templateparamlist>
+      <param>
+        <type>unsigned</type>
+        <declname>N</declname>
+        <defname>N</defname>
+      </param>
+      <param>
+        <type>typename ObjectT</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1SceneStateAtLeastCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4_1a7a8e1ee90b1f6cd47ff73d47a6320eb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual MR::SceneStateAtLeastCheck&lt; N, ObjectT, NoModelCheck &gt;::~SceneStateAtLeastCheck</definition>
+        <argsstring>()=default</argsstring>
+        <name>~SceneStateAtLeastCheck</name>
+        <qualifiedname>MR::SceneStateAtLeastCheck&lt; N, ObjectT, NoModelCheck &gt;::~SceneStateAtLeastCheck</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneStateCheck.h" line="146" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SceneStateAtLeastCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4_1ada07dbc40e00184718f0de785d6500e8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>std::string</type>
+        <definition>virtual std::string MR::SceneStateAtLeastCheck&lt; N, ObjectT, NoModelCheck &gt;::isAvailable</definition>
+        <argsstring>(const std::vector&lt; std::shared_ptr&lt; const Object &gt; &gt; &amp;objs) const override</argsstring>
+        <name>isAvailable</name>
+        <qualifiedname>MR::SceneStateAtLeastCheck&lt; N, ObjectT, NoModelCheck &gt;::isAvailable</qualifiedname>
+        <reimplements refid="classMR_1_1ISceneStateCheck_1adedf10c80ddfebcb456559fa828065c0">isAvailable</reimplements>
+        <param>
+          <type>const std::vector&lt; std::shared_ptr&lt; const <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &gt; &amp;</type>
+        </param>
+        <briefdescription>
+<para>return empty string if all requirements are satisfied, otherwise return first unsatisfied requirement </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneStateCheck.h" line="147" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneStateCheck.h" bodystart="147" bodyend="150"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::ISceneStateCheck</label>
+        <link refid="classMR_1_1ISceneStateCheck"/>
+      </node>
+      <node id="1">
+        <label>MR::SceneStateAtLeastCheck&lt; N, ObjectT, NoModelCheck &gt;</label>
+        <link refid="classMR_1_1SceneStateAtLeastCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::ISceneStateCheck</label>
+        <link refid="classMR_1_1ISceneStateCheck"/>
+      </node>
+      <node id="1">
+        <label>MR::SceneStateAtLeastCheck&lt; N, ObjectT, NoModelCheck &gt;</label>
+        <link refid="classMR_1_1SceneStateAtLeastCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneStateCheck.h" line="143" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneStateCheck.h" bodystart="144" bodyend="151"/>
+    <listofallmembers>
+      <member refid="classMR_1_1SceneStateAtLeastCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4_1ada07dbc40e00184718f0de785d6500e8" prot="public" virt="virtual"><scope>MR::SceneStateAtLeastCheck&lt; N, ObjectT, NoModelCheck &gt;</scope><name>isAvailable</name></member>
+      <member refid="classMR_1_1ISceneStateCheck_1ad6d7bd5bc97dd4a629de5e0a33af3afe" prot="public" virt="virtual"><scope>MR::SceneStateAtLeastCheck&lt; N, ObjectT, NoModelCheck &gt;</scope><name>~ISceneStateCheck</name></member>
+      <member refid="classMR_1_1SceneStateAtLeastCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4_1a7a8e1ee90b1f6cd47ff73d47a6320eb9" prot="public" virt="virtual"><scope>MR::SceneStateAtLeastCheck&lt; N, ObjectT, NoModelCheck &gt;</scope><name>~SceneStateAtLeastCheck</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MeshTopology_1_1HalfEdgeRecord" kind="struct" language="C++" prot="private">
+    <compoundname>MR::MeshTopology::HalfEdgeRecord</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1MeshTopology_1_1HalfEdgeRecord_1aa79948207ce03ac940110fc5b6eeadad" prot="public" static="no" mutable="no">
+        <type>EdgeId</type>
+        <definition>EdgeId MR::MeshTopology::HalfEdgeRecord::next</definition>
+        <argsstring></argsstring>
+        <name>next</name>
+        <qualifiedname>MR::MeshTopology::HalfEdgeRecord::next</qualifiedname>
+        <briefdescription>
+<para>next counter clock wise half-edge in the origin ring </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTopology.h" line="560" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTopology.h" bodystart="560" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1MeshTopology_1_1HalfEdgeRecord_1a72d923a9f0e2f0b8bf55d43bbd30bc2c" prot="public" static="no" mutable="no">
+        <type>EdgeId</type>
+        <definition>EdgeId MR::MeshTopology::HalfEdgeRecord::prev</definition>
+        <argsstring></argsstring>
+        <name>prev</name>
+        <qualifiedname>MR::MeshTopology::HalfEdgeRecord::prev</qualifiedname>
+        <briefdescription>
+<para>next clock wise half-edge in the origin ring </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTopology.h" line="561" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTopology.h" bodystart="561" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1MeshTopology_1_1HalfEdgeRecord_1a2408c1ef3fd6c369eebe4355ae4ea4bc" prot="public" static="no" mutable="no">
+        <type>VertId</type>
+        <definition>VertId MR::MeshTopology::HalfEdgeRecord::org</definition>
+        <argsstring></argsstring>
+        <name>org</name>
+        <qualifiedname>MR::MeshTopology::HalfEdgeRecord::org</qualifiedname>
+        <briefdescription>
+<para>vertex at the origin of the edge </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTopology.h" line="562" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTopology.h" bodystart="562" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1MeshTopology_1_1HalfEdgeRecord_1ab3e0a1e7779d04f8555ba394cd33ca44" prot="public" static="no" mutable="no">
+        <type>FaceId</type>
+        <definition>FaceId MR::MeshTopology::HalfEdgeRecord::left</definition>
+        <argsstring></argsstring>
+        <name>left</name>
+        <qualifiedname>MR::MeshTopology::HalfEdgeRecord::left</qualifiedname>
+        <briefdescription>
+<para>face at the left of the edge </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTopology.h" line="563" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTopology.h" bodystart="563" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1MeshTopology_1_1HalfEdgeRecord_1a4cce7def49dbe7470ef6d7c0aa86d5ec" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::MeshTopology::HalfEdgeRecord::operator==</definition>
+        <argsstring>(const HalfEdgeRecord &amp;b) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR::MeshTopology::HalfEdgeRecord::operator==</qualifiedname>
+        <param>
+          <type>const HalfEdgeRecord &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTopology.h" line="565" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTopology.h" bodystart="565" bodyend="568"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1MeshTopology_1_1HalfEdgeRecord_1a52461c28c53cb8304e151cdbe8f0f989" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::MeshTopology::HalfEdgeRecord::HalfEdgeRecord</definition>
+        <argsstring>() noexcept=default</argsstring>
+        <name>HalfEdgeRecord</name>
+        <qualifiedname>MR::MeshTopology::HalfEdgeRecord::HalfEdgeRecord</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTopology.h" line="569" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1MeshTopology_1_1HalfEdgeRecord_1a1d0f48356164a758058b0338d1006522" prot="public" static="no" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::MeshTopology::HalfEdgeRecord::HalfEdgeRecord</definition>
+        <argsstring>(NoInit) noexcept</argsstring>
+        <name>HalfEdgeRecord</name>
+        <qualifiedname>MR::MeshTopology::HalfEdgeRecord::HalfEdgeRecord</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1NoInit" kindref="compound">NoInit</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTopology.h" line="570" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTopology.h" bodystart="570" bodyend="570"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>data of every half-edge, align to put whole record in one cache line </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTopology.h" line="558" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTopology.h" bodystart="559" bodyend="571"/>
+    <listofallmembers>
+      <member refid="structMR_1_1MeshTopology_1_1HalfEdgeRecord_1a52461c28c53cb8304e151cdbe8f0f989" prot="public" virt="non-virtual"><scope>MR::MeshTopology::HalfEdgeRecord</scope><name>HalfEdgeRecord</name></member>
+      <member refid="structMR_1_1MeshTopology_1_1HalfEdgeRecord_1a1d0f48356164a758058b0338d1006522" prot="public" virt="non-virtual"><scope>MR::MeshTopology::HalfEdgeRecord</scope><name>HalfEdgeRecord</name></member>
+      <member refid="structMR_1_1MeshTopology_1_1HalfEdgeRecord_1ab3e0a1e7779d04f8555ba394cd33ca44" prot="public" virt="non-virtual"><scope>MR::MeshTopology::HalfEdgeRecord</scope><name>left</name></member>
+      <member refid="structMR_1_1MeshTopology_1_1HalfEdgeRecord_1aa79948207ce03ac940110fc5b6eeadad" prot="public" virt="non-virtual"><scope>MR::MeshTopology::HalfEdgeRecord</scope><name>next</name></member>
+      <member refid="structMR_1_1MeshTopology_1_1HalfEdgeRecord_1a4cce7def49dbe7470ef6d7c0aa86d5ec" prot="public" virt="non-virtual"><scope>MR::MeshTopology::HalfEdgeRecord</scope><name>operator==</name></member>
+      <member refid="structMR_1_1MeshTopology_1_1HalfEdgeRecord_1a2408c1ef3fd6c369eebe4355ae4ea4bc" prot="public" virt="non-virtual"><scope>MR::MeshTopology::HalfEdgeRecord</scope><name>org</name></member>
+      <member refid="structMR_1_1MeshTopology_1_1HalfEdgeRecord_1a72d923a9f0e2f0b8bf55d43bbd30bc2c" prot="public" virt="non-virtual"><scope>MR::MeshTopology::HalfEdgeRecord</scope><name>prev</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="namespaceMR_1_1StyleConsts_1_1ProgressBar" kind="namespace" language="C++">
+    <compoundname>MR::StyleConsts::ProgressBar</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespaceMR_1_1StyleConsts_1_1ProgressBar_1a0e136117cf759046ebb381d8b7f51f23" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>float</type>
+        <definition>float MR::StyleConsts::ProgressBar::internalSpacing</definition>
+        <argsstring></argsstring>
+        <name>internalSpacing</name>
+        <qualifiedname>MR::StyleConsts::ProgressBar::internalSpacing</qualifiedname>
+        <initializer>= 16.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonConstants.h" line="85" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonConstants.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceMR_1_1StyleConsts_1_1ProgressBar_1a467066b4c41a91512fcfee5c76e236ca" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>float</type>
+        <definition>float MR::StyleConsts::ProgressBar::rounding</definition>
+        <argsstring></argsstring>
+        <name>rounding</name>
+        <qualifiedname>MR::StyleConsts::ProgressBar::rounding</qualifiedname>
+        <initializer>= 8.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonConstants.h" line="86" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonConstants.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceMR_1_1StyleConsts_1_1ProgressBar_1a941b167d61d8a5ba4ff489d0ddac477e" prot="public" static="no" constexpr="yes" mutable="no">
+        <type><ref refid="structMR_1_1Color" kindref="compound">Color</ref></type>
+        <definition>Color MR::StyleConsts::ProgressBar::textColor</definition>
+        <argsstring></argsstring>
+        <name>textColor</name>
+        <qualifiedname>MR::StyleConsts::ProgressBar::textColor</qualifiedname>
+        <initializer>= <ref refid="structMR_1_1Color" kindref="compound">Color</ref>( 117, 125, 136 )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonConstants.h" line="88" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonConstants.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonConstants.h" line="82" column="1"/>
+  </compounddef>
+</doxygen>

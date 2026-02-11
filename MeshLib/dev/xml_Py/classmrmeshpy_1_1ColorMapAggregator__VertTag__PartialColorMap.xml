@@ -1,0 +1,298 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ColorMapAggregator__VertTag__PartialColorMap" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ColorMapAggregator_VertTag_PartialColorMap</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ColorMapAggregator__VertTag__PartialColorMap_1a2009abcab401abb6d609ab43ce4d2e0d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ColorMapAggregator_VertTag_PartialColorMap::_offsetof_colorMap</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_colorMap</name>
+        <qualifiedname>mrmeshpy.ColorMapAggregator_VertTag_PartialColorMap._offsetof_colorMap</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9812" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9812" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ColorMapAggregator__VertTag__PartialColorMap_1a74e0589b3f53494dbac7c242f61a90b6" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ColorMapAggregator_VertTag_PartialColorMap::_offsetof_elements</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_elements</name>
+        <qualifiedname>mrmeshpy.ColorMapAggregator_VertTag_PartialColorMap._offsetof_elements</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9813" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9813" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ColorMapAggregator__VertTag__PartialColorMap_1ab41ebe46ac4aa27d240b3c61ee4176b9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ColorMapAggregator_VertTag_PartialColorMap.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ColorMapAggregator_VertTag_PartialColorMap.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9816" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9816" bodyend="9817"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ColorMapAggregator__VertTag__PartialColorMap_1a22f0e277c6b54c37f9358432f100d600" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ColorMapAggregator__VertTag__PartialColorMap" kindref="compound">ColorMapAggregator_VertTag_PartialColorMap</ref></type>
+        <definition> ColorMapAggregator_VertTag_PartialColorMap mrmeshpy.ColorMapAggregator_VertTag_PartialColorMap.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ColorMapAggregator_VertTag_PartialColorMap.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9820" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9820" bodyend="9821"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ColorMapAggregator__VertTag__PartialColorMap_1a22f0e277c6b54c37f9358432f100d600" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ColorMapAggregator__VertTag__PartialColorMap" kindref="compound">ColorMapAggregator_VertTag_PartialColorMap</ref></type>
+        <definition> ColorMapAggregator_VertTag_PartialColorMap mrmeshpy.ColorMapAggregator_VertTag_PartialColorMap.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ColorMapAggregator_VertTag_PartialColorMap.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9824" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9824" bodyend="9825"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ColorMapAggregator__VertTag__PartialColorMap_1aabdc82297b07f0e0baec509f41b4eacf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ColorMapAggregator_VertTag_PartialColorMap.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ColorMapAggregator_VertTag_PartialColorMap.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9827" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9827" bodyend="9828"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ColorMapAggregator__VertTag__PartialColorMap_1a3a23d98640a9b123645e386866c26792" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ColorMapAggregator_VertTag_PartialColorMap.__init__</definition>
+        <argsstring>(self, ColorMapAggregator_VertTag_PartialColorMap arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ColorMapAggregator_VertTag_PartialColorMap.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ColorMapAggregator__VertTag__PartialColorMap" kindref="compound">ColorMapAggregator_VertTag_PartialColorMap</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9830" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9830" bodyend="9833"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ColorMapAggregator__VertTag__PartialColorMap_1a04c5c8d90732a5ac3729e0ed366ab54f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ColorMapAggregator_VertTag_PartialColorMap.__init__</definition>
+        <argsstring>(self, VertColors colorMap, VertBitSet elements)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ColorMapAggregator_VertTag_PartialColorMap.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertColors" kindref="compound">VertColors</ref></type>
+          <declname>colorMap</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>elements</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9835" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9835" bodyend="9838"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ColorMapAggregator__VertTag__PartialColorMap_1a22f4a5fb46030abe970f45d1fddb3122" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertColors" kindref="compound">VertColors</ref></type>
+        <definition> VertColors mrmeshpy.ColorMapAggregator_VertTag_PartialColorMap.colorMap</definition>
+        <argsstring>(self)</argsstring>
+        <name>colorMap</name>
+        <qualifiedname>mrmeshpy.ColorMapAggregator_VertTag_PartialColorMap.colorMap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>color map
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9840" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9840" bodyend="9843"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ColorMapAggregator__VertTag__PartialColorMap_1a3c6475f3d0145487baa99cd3d235746f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ColorMapAggregator_VertTag_PartialColorMap.colorMap</definition>
+        <argsstring>(self, VertColors arg1)</argsstring>
+        <name>colorMap</name>
+        <qualifiedname>mrmeshpy.ColorMapAggregator_VertTag_PartialColorMap.colorMap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertColors" kindref="compound">VertColors</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9845" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9845" bodyend="9846"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ColorMapAggregator__VertTag__PartialColorMap_1a9e74daf3fe983cd3ab54612488c581f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.ColorMapAggregator_VertTag_PartialColorMap.elements</definition>
+        <argsstring>(self)</argsstring>
+        <name>elements</name>
+        <qualifiedname>mrmeshpy.ColorMapAggregator_VertTag_PartialColorMap.elements</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>bitset of elements for which the color map is applied
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9848" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9848" bodyend="9851"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ColorMapAggregator__VertTag__PartialColorMap_1ae37ae0218f687e69c9642940ababc689" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ColorMapAggregator_VertTag_PartialColorMap.elements</definition>
+        <argsstring>(self, VertBitSet arg1)</argsstring>
+        <name>elements</name>
+        <qualifiedname>mrmeshpy.ColorMapAggregator_VertTag_PartialColorMap.elements</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9853" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9853" bodyend="9854"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ColorMapAggregator&lt;MR::VertTag&gt;::PartialColorMap
+
+partial color map
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ColorMapAggregator_VertTag_PartialColorMap</label>
+        <link refid="classmrmeshpy_1_1ColorMapAggregator__VertTag__PartialColorMap"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_colorMap</edgelabel>
+          <edgelabel>_offsetof_elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9806" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9806" bodyend="9854"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ColorMapAggregator__VertTag__PartialColorMap_1ab41ebe46ac4aa27d240b3c61ee4176b9" prot="public" virt="non-virtual"><scope>mrmeshpy::ColorMapAggregator_VertTag_PartialColorMap</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ColorMapAggregator__VertTag__PartialColorMap_1aabdc82297b07f0e0baec509f41b4eacf" prot="public" virt="non-virtual"><scope>mrmeshpy::ColorMapAggregator_VertTag_PartialColorMap</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ColorMapAggregator__VertTag__PartialColorMap_1a3a23d98640a9b123645e386866c26792" prot="public" virt="non-virtual"><scope>mrmeshpy::ColorMapAggregator_VertTag_PartialColorMap</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ColorMapAggregator__VertTag__PartialColorMap_1a04c5c8d90732a5ac3729e0ed366ab54f" prot="public" virt="non-virtual"><scope>mrmeshpy::ColorMapAggregator_VertTag_PartialColorMap</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ColorMapAggregator__VertTag__PartialColorMap_1a2009abcab401abb6d609ab43ce4d2e0d" prot="protected" virt="non-virtual"><scope>mrmeshpy::ColorMapAggregator_VertTag_PartialColorMap</scope><name>_offsetof_colorMap</name></member>
+      <member refid="classmrmeshpy_1_1ColorMapAggregator__VertTag__PartialColorMap_1a74e0589b3f53494dbac7c242f61a90b6" prot="protected" virt="non-virtual"><scope>mrmeshpy::ColorMapAggregator_VertTag_PartialColorMap</scope><name>_offsetof_elements</name></member>
+      <member refid="classmrmeshpy_1_1ColorMapAggregator__VertTag__PartialColorMap_1a22f4a5fb46030abe970f45d1fddb3122" prot="public" virt="non-virtual"><scope>mrmeshpy::ColorMapAggregator_VertTag_PartialColorMap</scope><name>colorMap</name></member>
+      <member refid="classmrmeshpy_1_1ColorMapAggregator__VertTag__PartialColorMap_1a3c6475f3d0145487baa99cd3d235746f" prot="public" virt="non-virtual"><scope>mrmeshpy::ColorMapAggregator_VertTag_PartialColorMap</scope><name>colorMap</name></member>
+      <member refid="classmrmeshpy_1_1ColorMapAggregator__VertTag__PartialColorMap_1a9e74daf3fe983cd3ab54612488c581f9" prot="public" virt="non-virtual"><scope>mrmeshpy::ColorMapAggregator_VertTag_PartialColorMap</scope><name>elements</name></member>
+      <member refid="classmrmeshpy_1_1ColorMapAggregator__VertTag__PartialColorMap_1ae37ae0218f687e69c9642940ababc689" prot="public" virt="non-virtual"><scope>mrmeshpy::ColorMapAggregator_VertTag_PartialColorMap</scope><name>elements</name></member>
+      <member refid="classmrmeshpy_1_1ColorMapAggregator__VertTag__PartialColorMap_1a22f0e277c6b54c37f9358432f100d600" prot="public" virt="non-virtual"><scope>mrmeshpy::ColorMapAggregator_VertTag_PartialColorMap</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ColorMapAggregator__VertTag__PartialColorMap_1a22f0e277c6b54c37f9358432f100d600" prot="public" virt="non-virtual"><scope>mrmeshpy::ColorMapAggregator_VertTag_PartialColorMap</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

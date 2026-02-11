@@ -1,0 +1,395 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1VolumeSegmenter" kind="class" language="C++" prot="public">
+    <compoundname>MR::VolumeSegmenter</compoundname>
+    <includes refid="MRVolumeSegment_8h" local="no">MRVolumeSegment.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classMR_1_1VolumeSegmenter_1a892a75dc2e76c1953d6968a1cdefe8b5" prot="public" static="no" strong="no">
+        <type></type>
+        <name>SeedType</name>
+        <qualifiedname>MR::VolumeSegmenter::SeedType</qualifiedname>
+        <enumvalue id="classMR_1_1VolumeSegmenter_1a892a75dc2e76c1953d6968a1cdefe8b5a21796cca7989a91c8335cd29c782f5be" prot="public">
+          <name>Inside</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1VolumeSegmenter_1a892a75dc2e76c1953d6968a1cdefe8b5ac24c0463f4a46b890b5cac084adf0d2f" prot="public">
+          <name>Outside</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1VolumeSegmenter_1a892a75dc2e76c1953d6968a1cdefe8b5a28f16f91e9d9bf0f446669e4cdd98750" prot="public">
+          <name>Count</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" line="70" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" bodystart="71" bodyend="75"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1VolumeSegmenter_1ab633eba0a366f0f2bef7fc0b70406ef9" prot="private" static="no" mutable="no">
+        <type>const VdbVolume &amp;</type>
+        <definition>const VdbVolume&amp; MR::VolumeSegmenter::volume_</definition>
+        <argsstring></argsstring>
+        <name>volume_</name>
+        <qualifiedname>MR::VolumeSegmenter::volume_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" line="101" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1VolumeSegmenter_1a70c92848f9d8cea41e3149fe1e26bdcc" prot="private" static="no" mutable="no">
+        <type>SimpleVolumeMinMax</type>
+        <definition>SimpleVolumeMinMax MR::VolumeSegmenter::volumePart_</definition>
+        <argsstring></argsstring>
+        <name>volumePart_</name>
+        <qualifiedname>MR::VolumeSegmenter::volumePart_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" line="103" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1VolumeSegmenter_1a684d68eec27b5e63ebbc7770e2e6576c" prot="private" static="no" mutable="no">
+        <type>Vector3i</type>
+        <definition>Vector3i MR::VolumeSegmenter::minVoxel_</definition>
+        <argsstring></argsstring>
+        <name>minVoxel_</name>
+        <qualifiedname>MR::VolumeSegmenter::minVoxel_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" line="105" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1VolumeSegmenter_1a58ec85ddbe342629f52ead7f3d9d0c51" prot="private" static="no" mutable="no">
+        <type>Vector3i</type>
+        <definition>Vector3i MR::VolumeSegmenter::maxVoxel_</definition>
+        <argsstring></argsstring>
+        <name>maxVoxel_</name>
+        <qualifiedname>MR::VolumeSegmenter::maxVoxel_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" line="106" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1VolumeSegmenter_1aaa79f9dcef8955caf49b8a5d8c839022" prot="private" static="no" mutable="no">
+        <type>std::array&lt; std::vector&lt; Vector3i &gt;, size_t(<ref refid="classMR_1_1VolumeSegmenter_1a892a75dc2e76c1953d6968a1cdefe8b5a28f16f91e9d9bf0f446669e4cdd98750" kindref="member">SeedType::Count</ref>)&gt;</type>
+        <definition>std::array&lt;std::vector&lt;Vector3i&gt;, size_t( SeedType::Count )&gt; MR::VolumeSegmenter::seeds_</definition>
+        <argsstring></argsstring>
+        <name>seeds_</name>
+        <qualifiedname>MR::VolumeSegmenter::seeds_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" line="108" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1VolumeSegmenter_1aec57e45c906a5cfdc4dfee0744c67686" prot="private" static="no" mutable="no">
+        <type>std::array&lt; VoxelBitSet, size_t(<ref refid="classMR_1_1VolumeSegmenter_1a892a75dc2e76c1953d6968a1cdefe8b5a28f16f91e9d9bf0f446669e4cdd98750" kindref="member">SeedType::Count</ref>)&gt;</type>
+        <definition>std::array&lt;VoxelBitSet, size_t( SeedType::Count )&gt; MR::VolumeSegmenter::seedsInVolumePartSpace_</definition>
+        <argsstring></argsstring>
+        <name>seedsInVolumePartSpace_</name>
+        <qualifiedname>MR::VolumeSegmenter::seedsInVolumePartSpace_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" line="109" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1VolumeSegmenter_1a35dbf145ff403bdcb941e71616e383bd" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::VolumeSegmenter::seedsChanged_</definition>
+        <argsstring></argsstring>
+        <name>seedsChanged_</name>
+        <qualifiedname>MR::VolumeSegmenter::seedsChanged_</qualifiedname>
+        <initializer>{true}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" line="111" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" bodystart="111" bodyend="111"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1VolumeSegmenter_1ab7609ff9b44fa7139370e8384ef35ced" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref></type>
+        <definition>MRVOXELS_API MR::VolumeSegmenter::VolumeSegmenter</definition>
+        <argsstring>(const VdbVolume &amp;volume)</argsstring>
+        <name>VolumeSegmenter</name>
+        <qualifiedname>MR::VolumeSegmenter::VolumeSegmenter</qualifiedname>
+        <param>
+          <type>const VdbVolume &amp;</type>
+          <declname>volume</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" line="68" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VolumeSegmenter_1aeee33a2e1bd2471294daeaa604369631" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> void</type>
+        <definition>MRVOXELS_API void MR::VolumeSegmenter::addPathSeeds</definition>
+        <argsstring>(const VoxelMetricParameters &amp;metricParameters, SeedType seedType, float exponentModifier=-1.0f)</argsstring>
+        <name>addPathSeeds</name>
+        <qualifiedname>MR::VolumeSegmenter::addPathSeeds</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1VoxelMetricParameters" kindref="compound">VoxelMetricParameters</ref> &amp;</type>
+          <declname>metricParameters</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1VolumeSegmenter_1a892a75dc2e76c1953d6968a1cdefe8b5" kindref="member">SeedType</ref></type>
+          <declname>seedType</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>exponentModifier</declname>
+          <defval>-1.0f</defval>
+        </param>
+        <briefdescription>
+<para>Builds path with given parameters, marks result as seedType seeds. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" line="78" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VolumeSegmenter_1a8accea0d8e4c056fb387513d10d41640" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> void</type>
+        <definition>MRVOXELS_API void MR::VolumeSegmenter::setSeeds</definition>
+        <argsstring>(const std::vector&lt; Vector3i &gt; &amp;seeds, SeedType seedType)</argsstring>
+        <name>setSeeds</name>
+        <qualifiedname>MR::VolumeSegmenter::setSeeds</qualifiedname>
+        <param>
+          <type>const std::vector&lt; Vector3i &gt; &amp;</type>
+          <declname>seeds</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1VolumeSegmenter_1a892a75dc2e76c1953d6968a1cdefe8b5" kindref="member">SeedType</ref></type>
+          <declname>seedType</declname>
+        </param>
+        <briefdescription>
+<para>Reset seeds with given ones. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" line="81" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VolumeSegmenter_1a6b0600fe25a2fbc95527fe3b999ef9d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> void</type>
+        <definition>MRVOXELS_API void MR::VolumeSegmenter::addSeeds</definition>
+        <argsstring>(const std::vector&lt; Vector3i &gt; &amp;seeds, SeedType seedType)</argsstring>
+        <name>addSeeds</name>
+        <qualifiedname>MR::VolumeSegmenter::addSeeds</qualifiedname>
+        <param>
+          <type>const std::vector&lt; Vector3i &gt; &amp;</type>
+          <declname>seeds</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1VolumeSegmenter_1a892a75dc2e76c1953d6968a1cdefe8b5" kindref="member">SeedType</ref></type>
+          <declname>seedType</declname>
+        </param>
+        <briefdescription>
+<para>Adds new seeds to stored. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" line="84" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VolumeSegmenter_1ad6047f29bf52a2e1859c00880382c6f0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> const std::vector&lt; Vector3i &gt; &amp;</type>
+        <definition>MRVOXELS_API const std::vector&lt; Vector3i &gt; &amp; MR::VolumeSegmenter::getSeeds</definition>
+        <argsstring>(SeedType seedType) const</argsstring>
+        <name>getSeeds</name>
+        <qualifiedname>MR::VolumeSegmenter::getSeeds</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VolumeSegmenter_1a892a75dc2e76c1953d6968a1cdefe8b5" kindref="member">SeedType</ref></type>
+          <declname>seedType</declname>
+        </param>
+        <briefdescription>
+<para>Return currently stored seeds. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" line="87" column="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VolumeSegmenter_1a0cc8f6e40de564a414a9929ff63d5f9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; VoxelBitSet &gt;</type>
+        <definition>MRVOXELS_API Expected&lt; VoxelBitSet &gt; MR::VolumeSegmenter::segmentVolume</definition>
+        <argsstring>(float segmentationExponentModifier=3000.0f, int voxelsExpansion=25, ProgressCallback cb={})</argsstring>
+        <name>segmentVolume</name>
+        <qualifiedname>MR::VolumeSegmenter::segmentVolume</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>segmentationExponentModifier</declname>
+          <defval>3000.0f</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>voxelsExpansion</declname>
+          <defval>25</defval>
+        </param>
+        <param>
+          <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+          <declname>cb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>Segments volume, return inside part segmentation (VoxelBitSet in space of VolumePart) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" line="90" column="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VolumeSegmenter_1a1afe2c227ee25b71b24c84a7697afdf6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">MR::Mesh</ref> &gt;</type>
+        <definition>MRVOXELS_API Expected&lt; MR::Mesh &gt; MR::VolumeSegmenter::createMeshFromSegmentation</definition>
+        <argsstring>(const VoxelBitSet &amp;segmentation) const</argsstring>
+        <name>createMeshFromSegmentation</name>
+        <qualifiedname>MR::VolumeSegmenter::createMeshFromSegmentation</qualifiedname>
+        <param>
+          <type>const VoxelBitSet &amp;</type>
+          <declname>segmentation</declname>
+        </param>
+        <briefdescription>
+<para>Returns mesh of given segment. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" line="93" column="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VolumeSegmenter_1a48cec84248c8d9ec9a256f05a574add6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> const Vector3i &amp;</type>
+        <definition>MRVOXELS_API const Vector3i &amp; MR::VolumeSegmenter::getVolumePartDimensions</definition>
+        <argsstring>() const</argsstring>
+        <name>getVolumePartDimensions</name>
+        <qualifiedname>MR::VolumeSegmenter::getVolumePartDimensions</qualifiedname>
+        <briefdescription>
+<para>Dimensions of volume part, filled after segmentation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" line="96" column="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VolumeSegmenter_1a2e6d2f06d40f3437e049a6e4b9846a61" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> const Vector3i &amp;</type>
+        <definition>MRVOXELS_API const Vector3i &amp; MR::VolumeSegmenter::getMinVoxel</definition>
+        <argsstring>() const</argsstring>
+        <name>getMinVoxel</name>
+        <qualifiedname>MR::VolumeSegmenter::getMinVoxel</qualifiedname>
+        <briefdescription>
+<para>Min voxel of volume part box in whole volume space, filled after segmentation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" line="99" column="33"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1VolumeSegmenter_1a7d7648c1e8f909e478f588054648f89a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::VolumeSegmenter::setupVolumePart_</definition>
+        <argsstring>(int voxelsExpansion)</argsstring>
+        <name>setupVolumePart_</name>
+        <qualifiedname>MR::VolumeSegmenter::setupVolumePart_</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>voxelsExpansion</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" line="113" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Class for voxels segmentation. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><table rows="1" cols="3"><caption id="classMR_1_1VolumeSegmenter_1VolumeSegmenter_examples"></caption>
+<row>
+<entry thead="no"><para><image type="html" name="voxel_segmentation_0_0.png" width="350cm">Before (a)</image>
+ </para>
+</entry><entry thead="no"><para><image type="html" name="voxel_segmentation_0_1.png" width="350cm">Before (b)</image>
+  </para>
+</entry><entry thead="no"><para><image type="html" name="voxel_segmentation_0_2.png" width="350cm">After</image>
+  </para>
+</entry></row>
+</table>
+</para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" line="65" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeSegment.h" bodystart="66" bodyend="114"/>
+    <listofallmembers>
+      <member refid="classMR_1_1VolumeSegmenter_1aeee33a2e1bd2471294daeaa604369631" prot="public" virt="non-virtual"><scope>MR::VolumeSegmenter</scope><name>addPathSeeds</name></member>
+      <member refid="classMR_1_1VolumeSegmenter_1a6b0600fe25a2fbc95527fe3b999ef9d0" prot="public" virt="non-virtual"><scope>MR::VolumeSegmenter</scope><name>addSeeds</name></member>
+      <member refid="classMR_1_1VolumeSegmenter_1a892a75dc2e76c1953d6968a1cdefe8b5a28f16f91e9d9bf0f446669e4cdd98750" prot="public" virt="non-virtual"><scope>MR::VolumeSegmenter</scope><name>Count</name></member>
+      <member refid="classMR_1_1VolumeSegmenter_1a1afe2c227ee25b71b24c84a7697afdf6" prot="public" virt="non-virtual"><scope>MR::VolumeSegmenter</scope><name>createMeshFromSegmentation</name></member>
+      <member refid="classMR_1_1VolumeSegmenter_1a2e6d2f06d40f3437e049a6e4b9846a61" prot="public" virt="non-virtual"><scope>MR::VolumeSegmenter</scope><name>getMinVoxel</name></member>
+      <member refid="classMR_1_1VolumeSegmenter_1ad6047f29bf52a2e1859c00880382c6f0" prot="public" virt="non-virtual"><scope>MR::VolumeSegmenter</scope><name>getSeeds</name></member>
+      <member refid="classMR_1_1VolumeSegmenter_1a48cec84248c8d9ec9a256f05a574add6" prot="public" virt="non-virtual"><scope>MR::VolumeSegmenter</scope><name>getVolumePartDimensions</name></member>
+      <member refid="classMR_1_1VolumeSegmenter_1a892a75dc2e76c1953d6968a1cdefe8b5a21796cca7989a91c8335cd29c782f5be" prot="public" virt="non-virtual"><scope>MR::VolumeSegmenter</scope><name>Inside</name></member>
+      <member refid="classMR_1_1VolumeSegmenter_1a58ec85ddbe342629f52ead7f3d9d0c51" prot="private" virt="non-virtual"><scope>MR::VolumeSegmenter</scope><name>maxVoxel_</name></member>
+      <member refid="classMR_1_1VolumeSegmenter_1a684d68eec27b5e63ebbc7770e2e6576c" prot="private" virt="non-virtual"><scope>MR::VolumeSegmenter</scope><name>minVoxel_</name></member>
+      <member refid="classMR_1_1VolumeSegmenter_1a892a75dc2e76c1953d6968a1cdefe8b5ac24c0463f4a46b890b5cac084adf0d2f" prot="public" virt="non-virtual"><scope>MR::VolumeSegmenter</scope><name>Outside</name></member>
+      <member refid="classMR_1_1VolumeSegmenter_1aaa79f9dcef8955caf49b8a5d8c839022" prot="private" virt="non-virtual"><scope>MR::VolumeSegmenter</scope><name>seeds_</name></member>
+      <member refid="classMR_1_1VolumeSegmenter_1a35dbf145ff403bdcb941e71616e383bd" prot="private" virt="non-virtual"><scope>MR::VolumeSegmenter</scope><name>seedsChanged_</name></member>
+      <member refid="classMR_1_1VolumeSegmenter_1aec57e45c906a5cfdc4dfee0744c67686" prot="private" virt="non-virtual"><scope>MR::VolumeSegmenter</scope><name>seedsInVolumePartSpace_</name></member>
+      <member refid="classMR_1_1VolumeSegmenter_1a892a75dc2e76c1953d6968a1cdefe8b5" prot="public" virt="non-virtual"><scope>MR::VolumeSegmenter</scope><name>SeedType</name></member>
+      <member refid="classMR_1_1VolumeSegmenter_1a0cc8f6e40de564a414a9929ff63d5f9a" prot="public" virt="non-virtual"><scope>MR::VolumeSegmenter</scope><name>segmentVolume</name></member>
+      <member refid="classMR_1_1VolumeSegmenter_1a8accea0d8e4c056fb387513d10d41640" prot="public" virt="non-virtual"><scope>MR::VolumeSegmenter</scope><name>setSeeds</name></member>
+      <member refid="classMR_1_1VolumeSegmenter_1a7d7648c1e8f909e478f588054648f89a" prot="private" virt="non-virtual"><scope>MR::VolumeSegmenter</scope><name>setupVolumePart_</name></member>
+      <member refid="classMR_1_1VolumeSegmenter_1ab633eba0a366f0f2bef7fc0b70406ef9" prot="private" virt="non-virtual"><scope>MR::VolumeSegmenter</scope><name>volume_</name></member>
+      <member refid="classMR_1_1VolumeSegmenter_1a70c92848f9d8cea41e3149fe1e26bdcc" prot="private" virt="non-virtual"><scope>MR::VolumeSegmenter</scope><name>volumePart_</name></member>
+      <member refid="classMR_1_1VolumeSegmenter_1ab7609ff9b44fa7139370e8384ef35ced" prot="public" virt="non-virtual"><scope>MR::VolumeSegmenter</scope><name>VolumeSegmenter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

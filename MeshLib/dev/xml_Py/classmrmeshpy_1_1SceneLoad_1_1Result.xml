@@ -1,0 +1,495 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1SceneLoad_1_1Result" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::SceneLoad::Result</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneLoad_1_1Result_1a3a5c33dd0fd0aaa61c415d82403fa68c" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneLoad.Result::_offsetof_errorSummary</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_errorSummary</name>
+        <qualifiedname>mrmeshpy.SceneLoad.Result._offsetof_errorSummary</qualifiedname>
+        <initializer>=  48</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50964" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50964" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneLoad_1_1Result_1afde4b6c20716066035b871c6ee7b7f4c" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneLoad.Result::_offsetof_isSceneConstructed</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_isSceneConstructed</name>
+        <qualifiedname>mrmeshpy.SceneLoad.Result._offsetof_isSceneConstructed</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50965" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50965" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneLoad_1_1Result_1abcd93e16caab52293f1a7bb617d8ecad" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneLoad.Result::_offsetof_loadedFiles</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_loadedFiles</name>
+        <qualifiedname>mrmeshpy.SceneLoad.Result._offsetof_loadedFiles</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50966" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50966" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneLoad_1_1Result_1a82945f0d29811f90157d057aa0749564" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneLoad.Result::_offsetof_scene</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_scene</name>
+        <qualifiedname>mrmeshpy.SceneLoad.Result._offsetof_scene</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50967" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50967" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneLoad_1_1Result_1aeb72bcaa68f9349ce03023f1cf826314" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneLoad.Result::_offsetof_warningSummary</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_warningSummary</name>
+        <qualifiedname>mrmeshpy.SceneLoad.Result._offsetof_warningSummary</qualifiedname>
+        <initializer>=  80</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50968" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50968" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneLoad_1_1Result_1a9cb676d4113ba9c1c9927b64f260b66d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SceneLoad.Result.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SceneLoad.Result.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50971" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50971" bodyend="50972"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneLoad_1_1Result_1abbebafdb2b13e0bb8a65afa2637b1040" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SceneLoad_1_1Result" kindref="compound">SceneLoad.Result</ref></type>
+        <definition> SceneLoad.Result mrmeshpy.SceneLoad.Result.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.SceneLoad.Result.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50975" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50975" bodyend="50976"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneLoad_1_1Result_1abbebafdb2b13e0bb8a65afa2637b1040" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SceneLoad_1_1Result" kindref="compound">SceneLoad.Result</ref></type>
+        <definition> SceneLoad.Result mrmeshpy.SceneLoad.Result.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.SceneLoad.Result.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50979" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50979" bodyend="50980"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneLoad_1_1Result_1a7771783be12add88ee6dffa122217df1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SceneLoad.Result.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SceneLoad.Result.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50982" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50982" bodyend="50983"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneLoad_1_1Result_1a329d91f3d2abaf16f618d8cfefc5167a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SceneLoad.Result.__init__</definition>
+        <argsstring>(self, SceneLoad.Result arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SceneLoad.Result.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SceneLoad_1_1Result" kindref="compound">SceneLoad.Result</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50985" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50985" bodyend="50988"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneLoad_1_1Result_1a7a74a73b77d614cd28ca1fac1347a7a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SceneLoad.Result.__init__</definition>
+        <argsstring>(self, SceneRootObject scene, bool isSceneConstructed, std_vector_std_filesystem_path loadedFiles, str errorSummary, str warningSummary)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SceneLoad.Result.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SceneRootObject" kindref="compound">SceneRootObject</ref></type>
+          <declname>scene</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isSceneConstructed</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__filesystem__path" kindref="compound">std_vector_std_filesystem_path</ref></type>
+          <declname>loadedFiles</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>errorSummary</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>warningSummary</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50990" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50990" bodyend="50993"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneLoad_1_1Result_1a37b17122dfa4c1cef41d4da10f75e787" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.SceneLoad.Result.errorSummary</definition>
+        <argsstring>(self)</argsstring>
+        <name>errorSummary</name>
+        <qualifiedname>mrmeshpy.SceneLoad.Result.errorSummary</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Error summary text
+TODO: user-defined error format
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50995" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50995" bodyend="50999"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneLoad_1_1Result_1a37fc77be8f25da03011c5a488d8c45c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SceneLoad.Result.errorSummary</definition>
+        <argsstring>(self, str arg1)</argsstring>
+        <name>errorSummary</name>
+        <qualifiedname>mrmeshpy.SceneLoad.Result.errorSummary</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51001" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51001" bodyend="51002"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneLoad_1_1Result_1ab4f7cdac9ec513f5f519131e69697ffb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.SceneLoad.Result.isSceneConstructed</definition>
+        <argsstring>(self)</argsstring>
+        <name>isSceneConstructed</name>
+        <qualifiedname>mrmeshpy.SceneLoad.Result.isSceneConstructed</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Marks whether the scene was loaded from a single file (false) or was built from scratch (true)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51004" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51004" bodyend="51007"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneLoad_1_1Result_1aa518d6efe0470b553f54cd165b0d3c56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SceneLoad.Result.isSceneConstructed</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>isSceneConstructed</name>
+        <qualifiedname>mrmeshpy.SceneLoad.Result.isSceneConstructed</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51009" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51009" bodyend="51010"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneLoad_1_1Result_1a949701c52ed79deb5978879318a464c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__std__filesystem__path" kindref="compound">std_vector_std_filesystem_path</ref></type>
+        <definition> std_vector_std_filesystem_path mrmeshpy.SceneLoad.Result.loadedFiles</definition>
+        <argsstring>(self)</argsstring>
+        <name>loadedFiles</name>
+        <qualifiedname>mrmeshpy.SceneLoad.Result.loadedFiles</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>List of successfully loaded files
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51012" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51012" bodyend="51015"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneLoad_1_1Result_1aba33bdad2c6701a6bdf9876f92404d4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SceneLoad.Result.loadedFiles</definition>
+        <argsstring>(self, std_vector_std_filesystem_path arg1)</argsstring>
+        <name>loadedFiles</name>
+        <qualifiedname>mrmeshpy.SceneLoad.Result.loadedFiles</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__filesystem__path" kindref="compound">std_vector_std_filesystem_path</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51017" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51017" bodyend="51018"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneLoad_1_1Result_1adfcb13dcd621d37e71a86e929d73791b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SceneRootObject" kindref="compound">SceneRootObject</ref></type>
+        <definition> SceneRootObject mrmeshpy.SceneLoad.Result.scene</definition>
+        <argsstring>(self)</argsstring>
+        <name>scene</name>
+        <qualifiedname>mrmeshpy.SceneLoad.Result.scene</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>The loaded scene or empty object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51020" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51020" bodyend="51023"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneLoad_1_1Result_1a2801a63c60aa7544b6d576d9bcb1aef3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SceneLoad.Result.scene</definition>
+        <argsstring>(self, SceneRootObject arg1)</argsstring>
+        <name>scene</name>
+        <qualifiedname>mrmeshpy.SceneLoad.Result.scene</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SceneRootObject" kindref="compound">SceneRootObject</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51025" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51025" bodyend="51026"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneLoad_1_1Result_1a759ba63b9a64cc341ba17866f25ebaa7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.SceneLoad.Result.warningSummary</definition>
+        <argsstring>(self)</argsstring>
+        <name>warningSummary</name>
+        <qualifiedname>mrmeshpy.SceneLoad.Result.warningSummary</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Warning summary text
+TODO: user-defined warning format
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51028" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51028" bodyend="51032"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneLoad_1_1Result_1abcbc8f8a3ea0be251d2eb1ed14fdab74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SceneLoad.Result.warningSummary</definition>
+        <argsstring>(self, str arg1)</argsstring>
+        <name>warningSummary</name>
+        <qualifiedname>mrmeshpy.SceneLoad.Result.warningSummary</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51034" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51034" bodyend="51036"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::SceneLoad::Result
+
+Scene loading result
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.SceneLoad.Result</label>
+        <link refid="classmrmeshpy_1_1SceneLoad_1_1Result"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_errorSummary</edgelabel>
+          <edgelabel>_offsetof_isSceneConstructed</edgelabel>
+          <edgelabel>_offsetof_loadedFiles</edgelabel>
+          <edgelabel>_offsetof_scene</edgelabel>
+          <edgelabel>_offsetof_warningSummary</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50958" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50958" bodyend="51035"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1SceneLoad_1_1Result_1a9cb676d4113ba9c1c9927b64f260b66d" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneLoad::Result</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SceneLoad_1_1Result_1a7771783be12add88ee6dffa122217df1" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneLoad::Result</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SceneLoad_1_1Result_1a329d91f3d2abaf16f618d8cfefc5167a" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneLoad::Result</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SceneLoad_1_1Result_1a7a74a73b77d614cd28ca1fac1347a7a1" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneLoad::Result</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SceneLoad_1_1Result_1a3a5c33dd0fd0aaa61c415d82403fa68c" prot="protected" virt="non-virtual"><scope>mrmeshpy::SceneLoad::Result</scope><name>_offsetof_errorSummary</name></member>
+      <member refid="classmrmeshpy_1_1SceneLoad_1_1Result_1afde4b6c20716066035b871c6ee7b7f4c" prot="protected" virt="non-virtual"><scope>mrmeshpy::SceneLoad::Result</scope><name>_offsetof_isSceneConstructed</name></member>
+      <member refid="classmrmeshpy_1_1SceneLoad_1_1Result_1abcd93e16caab52293f1a7bb617d8ecad" prot="protected" virt="non-virtual"><scope>mrmeshpy::SceneLoad::Result</scope><name>_offsetof_loadedFiles</name></member>
+      <member refid="classmrmeshpy_1_1SceneLoad_1_1Result_1a82945f0d29811f90157d057aa0749564" prot="protected" virt="non-virtual"><scope>mrmeshpy::SceneLoad::Result</scope><name>_offsetof_scene</name></member>
+      <member refid="classmrmeshpy_1_1SceneLoad_1_1Result_1aeb72bcaa68f9349ce03023f1cf826314" prot="protected" virt="non-virtual"><scope>mrmeshpy::SceneLoad::Result</scope><name>_offsetof_warningSummary</name></member>
+      <member refid="classmrmeshpy_1_1SceneLoad_1_1Result_1a37b17122dfa4c1cef41d4da10f75e787" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneLoad::Result</scope><name>errorSummary</name></member>
+      <member refid="classmrmeshpy_1_1SceneLoad_1_1Result_1a37fc77be8f25da03011c5a488d8c45c2" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneLoad::Result</scope><name>errorSummary</name></member>
+      <member refid="classmrmeshpy_1_1SceneLoad_1_1Result_1ab4f7cdac9ec513f5f519131e69697ffb" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneLoad::Result</scope><name>isSceneConstructed</name></member>
+      <member refid="classmrmeshpy_1_1SceneLoad_1_1Result_1aa518d6efe0470b553f54cd165b0d3c56" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneLoad::Result</scope><name>isSceneConstructed</name></member>
+      <member refid="classmrmeshpy_1_1SceneLoad_1_1Result_1a949701c52ed79deb5978879318a464c3" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneLoad::Result</scope><name>loadedFiles</name></member>
+      <member refid="classmrmeshpy_1_1SceneLoad_1_1Result_1aba33bdad2c6701a6bdf9876f92404d4c" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneLoad::Result</scope><name>loadedFiles</name></member>
+      <member refid="classmrmeshpy_1_1SceneLoad_1_1Result_1abbebafdb2b13e0bb8a65afa2637b1040" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneLoad::Result</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1SceneLoad_1_1Result_1abbebafdb2b13e0bb8a65afa2637b1040" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneLoad::Result</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1SceneLoad_1_1Result_1adfcb13dcd621d37e71a86e929d73791b" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneLoad::Result</scope><name>scene</name></member>
+      <member refid="classmrmeshpy_1_1SceneLoad_1_1Result_1a2801a63c60aa7544b6d576d9bcb1aef3" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneLoad::Result</scope><name>scene</name></member>
+      <member refid="classmrmeshpy_1_1SceneLoad_1_1Result_1a759ba63b9a64cc341ba17866f25ebaa7" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneLoad::Result</scope><name>warningSummary</name></member>
+      <member refid="classmrmeshpy_1_1SceneLoad_1_1Result_1abcbc8f8a3ea0be251d2eb1ed14fdab74" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneLoad::Result</scope><name>warningSummary</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

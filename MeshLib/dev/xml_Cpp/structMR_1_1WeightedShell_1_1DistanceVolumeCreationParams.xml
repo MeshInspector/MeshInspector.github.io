@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1WeightedShell_1_1DistanceVolumeCreationParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::WeightedShell::DistanceVolumeCreationParams</compoundname>
+    <includes refid="MRWeightedPointsShell_8h" local="no">MRWeightedPointsShell.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1WeightedShell_1_1DistanceVolumeCreationParams_1a29acc2ff0fb3ba09c6eecaf68f3a5f65" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1DistanceVolumeParams" kindref="compound">DistanceVolumeParams</ref></type>
+        <definition>DistanceVolumeParams MR::WeightedShell::DistanceVolumeCreationParams::vol</definition>
+        <argsstring></argsstring>
+        <name>vol</name>
+        <qualifiedname>MR::WeightedShell::DistanceVolumeCreationParams::vol</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" line="18" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1WeightedShell_1_1DistanceVolumeCreationParams_1a767746c507a11feeea1dcaf6e35cb2e3" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1DistanceFromWeightedPointsComputeParams" kindref="compound">DistanceFromWeightedPointsComputeParams</ref></type>
+        <definition>DistanceFromWeightedPointsComputeParams MR::WeightedShell::DistanceVolumeCreationParams::dist</definition>
+        <argsstring></argsstring>
+        <name>dist</name>
+        <qualifiedname>MR::WeightedShell::DistanceVolumeCreationParams::dist</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" line="20" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>MR::DistanceFromWeightedPointsComputeParams</label>
+        <link refid="structMR_1_1DistanceFromWeightedPointsComputeParams"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::DistanceFromWeightedPointsParams</label>
+        <link refid="structMR_1_1DistanceFromWeightedPointsParams"/>
+      </node>
+      <node id="2">
+        <label>MR::DistanceVolumeParams</label>
+        <link refid="structMR_1_1DistanceVolumeParams"/>
+      </node>
+      <node id="1">
+        <label>MR::WeightedShell::DistanceVolumeCreationParams</label>
+        <link refid="structMR_1_1WeightedShell_1_1DistanceVolumeCreationParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>vol</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>dist</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" bodystart="17" bodyend="21"/>
+    <listofallmembers>
+      <member refid="structMR_1_1WeightedShell_1_1DistanceVolumeCreationParams_1a767746c507a11feeea1dcaf6e35cb2e3" prot="public" virt="non-virtual"><scope>MR::WeightedShell::DistanceVolumeCreationParams</scope><name>dist</name></member>
+      <member refid="structMR_1_1WeightedShell_1_1DistanceVolumeCreationParams_1a29acc2ff0fb3ba09c6eecaf68f3a5f65" prot="public" virt="non-virtual"><scope>MR::WeightedShell::DistanceVolumeCreationParams</scope><name>vol</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

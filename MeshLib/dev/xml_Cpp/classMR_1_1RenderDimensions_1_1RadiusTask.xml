@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RenderDimensions_1_1RadiusTask" kind="class" language="C++" prot="public">
+    <compoundname>MR::RenderDimensions::RadiusTask</compoundname>
+    <basecompoundref refid="classMR_1_1BasicClickableRectUiRenderTask" prot="public" virt="non-virtual">MR::BasicClickableRectUiRenderTask</basecompoundref>
+    <includes refid="MRRenderDimensions_8h" local="no">MRRenderDimensions.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1RenderDimensions_1_1RadiusTask_1ac56785bf8f23f397f8ea18f078c71291" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1Viewport" kindref="compound">Viewport</ref> *</type>
+        <definition>Viewport* MR::RenderDimensions::RadiusTask::viewport_</definition>
+        <argsstring></argsstring>
+        <name>viewport_</name>
+        <qualifiedname>MR::RenderDimensions::RadiusTask::viewport_</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" line="103" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderDimensions_1_1RadiusTask_1a97e0d58aed41180535441978005193bf" prot="private" static="no" mutable="no">
+        <type><ref refid="structMR_1_1Color" kindref="compound">Color</ref></type>
+        <definition>Color MR::RenderDimensions::RadiusTask::color_</definition>
+        <argsstring></argsstring>
+        <name>color_</name>
+        <qualifiedname>MR::RenderDimensions::RadiusTask::color_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" line="104" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderDimensions_1_1RadiusTask_1a79c3174102aa3b2522545dd3c830e399" prot="private" static="no" mutable="no">
+        <type><ref refid="structMR_1_1RenderDimensions_1_1RadiusParams" kindref="compound">RadiusParams</ref></type>
+        <definition>RadiusParams MR::RenderDimensions::RadiusTask::params_</definition>
+        <argsstring></argsstring>
+        <name>params_</name>
+        <qualifiedname>MR::RenderDimensions::RadiusTask::params_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" line="105" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1RenderDimensions_1_1RadiusTask_1a44b4da055074668472c0c6167666a668" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::RenderDimensions::RadiusTask::RadiusTask</definition>
+        <argsstring>()</argsstring>
+        <name>RadiusTask</name>
+        <qualifiedname>MR::RenderDimensions::RadiusTask::RadiusTask</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" line="108" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" bodystart="108" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderDimensions_1_1RadiusTask_1a30249fdc01e8ba2c00b5d79d76a11d65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API</type>
+        <definition>MRVIEWER_API MR::RenderDimensions::RadiusTask::RadiusTask</definition>
+        <argsstring>(const UiRenderParams &amp;uiParams, const AffineXf3f &amp;xf, Color color, const RadiusParams &amp;params)</argsstring>
+        <name>RadiusTask</name>
+        <qualifiedname>MR::RenderDimensions::RadiusTask::RadiusTask</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1UiRenderParams" kindref="compound">UiRenderParams</ref> &amp;</type>
+          <declname>uiParams</declname>
+        </param>
+        <param>
+          <type>const AffineXf3f &amp;</type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Color" kindref="compound">Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1RenderDimensions_1_1RadiusParams" kindref="compound">RadiusParams</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" line="110" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderDimensions_1_1RadiusTask_1a92a6cd4467f318bc11276902ed2cdc6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::RenderDimensions::RadiusTask::renderPass</definition>
+        <argsstring>() override</argsstring>
+        <name>renderPass</name>
+        <qualifiedname>MR::RenderDimensions::RadiusTask::renderPass</qualifiedname>
+        <reimplements refid="structMR_1_1BasicUiRenderTask_1a0e70a7984fb642613e50942b4f53c724">renderPass</reimplements>
+        <briefdescription>
+<para>This is the main rendering pass. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" line="111" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderDimensions_1_1RadiusTask_1a66cde8c6627ff073cd168f2378752c14" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::RenderDimensions::RadiusTask::onClick</definition>
+        <argsstring>() override</argsstring>
+        <name>onClick</name>
+        <qualifiedname>MR::RenderDimensions::RadiusTask::onClick</qualifiedname>
+        <reimplements refid="classMR_1_1BasicClickableRectUiRenderTask_1a39048fbb209483a86815166a42245eb3">onClick</reimplements>
+        <briefdescription>
+<para>Implement <computeroutput><ref refid="classMR_1_1BasicClickableRectUiRenderTask" kindref="compound">BasicClickableRectUiRenderTask</ref></computeroutput>: </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" line="114" column="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::BasicClickableRectUiRenderTask</label>
+        <link refid="classMR_1_1BasicClickableRectUiRenderTask"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::BasicUiRenderTask</label>
+        <link refid="structMR_1_1BasicUiRenderTask"/>
+      </node>
+      <node id="1">
+        <label>MR::RenderDimensions::RadiusTask</label>
+        <link refid="classMR_1_1RenderDimensions_1_1RadiusTask"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::BasicClickableRectUiRenderTask</label>
+        <link refid="classMR_1_1BasicClickableRectUiRenderTask"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::BasicUiRenderTask</label>
+        <link refid="structMR_1_1BasicUiRenderTask"/>
+      </node>
+      <node id="1">
+        <label>MR::RenderDimensions::RadiusTask</label>
+        <link refid="classMR_1_1RenderDimensions_1_1RadiusTask"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" line="101" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" bodystart="102" bodyend="115"/>
+    <listofallmembers>
+      <member refid="classMR_1_1BasicClickableRectUiRenderTask_1a399c5f6acb8eeb36add889e1bd4cef99" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::RadiusTask</scope><name>BasicClickableRectUiRenderTask</name></member>
+      <member refid="classMR_1_1BasicClickableRectUiRenderTask_1a7d2604474a74167ceaa7eb132072b9c4" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::RadiusTask</scope><name>BasicClickableRectUiRenderTask</name></member>
+      <member refid="structMR_1_1BasicUiRenderTask_1a09fdc1e47a7a92974a945bfcc98be400" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::RadiusTask</scope><name>BasicUiRenderTask</name></member>
+      <member refid="structMR_1_1BasicUiRenderTask_1a25c71025ea06023cb9d2007b8d3908a3" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::RadiusTask</scope><name>BasicUiRenderTask</name></member>
+      <member refid="structMR_1_1BasicUiRenderTask_1a7a289817074d4a9c546aca337082d21b" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::RadiusTask</scope><name>BasicUiRenderTask</name></member>
+      <member refid="classMR_1_1BasicClickableRectUiRenderTask_1a3f269328b594b62b2356a95a95cdeedd" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::RadiusTask</scope><name>clickableCornerA</name></member>
+      <member refid="classMR_1_1BasicClickableRectUiRenderTask_1a8135d7c948f4c4712f0fc3c82fd3a0b4" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::RadiusTask</scope><name>clickableCornerB</name></member>
+      <member refid="classMR_1_1RenderDimensions_1_1RadiusTask_1a97e0d58aed41180535441978005193bf" prot="private" virt="non-virtual"><scope>MR::RenderDimensions::RadiusTask</scope><name>color_</name></member>
+      <member refid="classMR_1_1BasicClickableRectUiRenderTask_1a59897da65259f4cb8c6018ac88fa97fb" prot="public" virt="virtual"><scope>MR::RenderDimensions::RadiusTask</scope><name>earlyBackwardPass</name></member>
+      <member refid="classMR_1_1BasicClickableRectUiRenderTask_1a8b878fe507e8be18b19469d53e7e10ef" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::RadiusTask</scope><name>enabled</name></member>
+      <member refid="structMR_1_1BasicUiRenderTask_1ab4d07ed1576fec164c6c0308c3cbbb3d" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::RadiusTask</scope><name>InteractionMask</name></member>
+      <member refid="classMR_1_1BasicClickableRectUiRenderTask_1a75630bde88b307b104f2456a516af5db" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::RadiusTask</scope><name>isActive</name></member>
+      <member refid="classMR_1_1BasicClickableRectUiRenderTask_1a816f2a94a5b1508d2fb4fa3d3eeb2a48" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::RadiusTask</scope><name>isHovered</name></member>
+      <member refid="classMR_1_1RenderDimensions_1_1RadiusTask_1a66cde8c6627ff073cd168f2378752c14" prot="public" virt="virtual"><scope>MR::RenderDimensions::RadiusTask</scope><name>onClick</name></member>
+      <member refid="classMR_1_1BasicClickableRectUiRenderTask_1ae4cd26a146e8e880ab41c0d4a04df064" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::RadiusTask</scope><name>operator=</name></member>
+      <member refid="structMR_1_1BasicUiRenderTask_1a0f482dbbdc6658514696e4dc9294a58a" prot="public" virt="non-virtual" ambiguityscope="MR::BasicUiRenderTask::"><scope>MR::RenderDimensions::RadiusTask</scope><name>operator=</name></member>
+      <member refid="structMR_1_1BasicUiRenderTask_1ae03db3414263164b9321a4ed5d41838a" prot="public" virt="non-virtual" ambiguityscope="MR::BasicUiRenderTask::"><scope>MR::RenderDimensions::RadiusTask</scope><name>operator=</name></member>
+      <member refid="classMR_1_1RenderDimensions_1_1RadiusTask_1a79c3174102aa3b2522545dd3c830e399" prot="private" virt="non-virtual"><scope>MR::RenderDimensions::RadiusTask</scope><name>params_</name></member>
+      <member refid="classMR_1_1RenderDimensions_1_1RadiusTask_1a44b4da055074668472c0c6167666a668" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::RadiusTask</scope><name>RadiusTask</name></member>
+      <member refid="classMR_1_1RenderDimensions_1_1RadiusTask_1a30249fdc01e8ba2c00b5d79d76a11d65" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::RadiusTask</scope><name>RadiusTask</name></member>
+      <member refid="classMR_1_1RenderDimensions_1_1RadiusTask_1a92a6cd4467f318bc11276902ed2cdc6a" prot="public" virt="virtual"><scope>MR::RenderDimensions::RadiusTask</scope><name>renderPass</name></member>
+      <member refid="structMR_1_1BasicUiRenderTask_1a381d7376f63599633389b7ff83ded538" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::RadiusTask</scope><name>renderTaskDepth</name></member>
+      <member refid="classMR_1_1RenderDimensions_1_1RadiusTask_1ac56785bf8f23f397f8ea18f078c71291" prot="private" virt="non-virtual"><scope>MR::RenderDimensions::RadiusTask</scope><name>viewport_</name></member>
+      <member refid="classMR_1_1BasicClickableRectUiRenderTask_1a7945d284200ce4786772e175d14fc85a" prot="public" virt="virtual"><scope>MR::RenderDimensions::RadiusTask</scope><name>~BasicClickableRectUiRenderTask</name></member>
+      <member refid="structMR_1_1BasicUiRenderTask_1aa45e39c8e875d9033360ff63d3f750f4" prot="public" virt="virtual"><scope>MR::RenderDimensions::RadiusTask</scope><name>~BasicUiRenderTask</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

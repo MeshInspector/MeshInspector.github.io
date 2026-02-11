@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1NoDefInit__MRGraphVertId" kind="class" language="C#" prot="public">
+    <compoundname>MR::NoDefInit_MRGraphVertId</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_NoDefInit_MRGraphVertId</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1NoDefInit__MRGraphVertId_1a7c26565b83b9a92d631d3019100e82a5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref int</type>
+        <definition>new unsafe ref int MR.NoDefInit_MRGraphVertId.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <qualifiedname>MR.NoDefInit_MRGraphVertId.id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="1722" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="1722" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1NoDefInit__MRGraphVertId_1a168495f234ce8d299b3627e935868b06" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.NoDefInit_MRGraphVertId.operator MR.Box_GraphVertId</definition>
+        <argsstring>(NoDefInit_MRGraphVertId self)</argsstring>
+        <name>operator MR.Box_GraphVertId</name>
+        <qualifiedname>MR.NoDefInit_MRGraphVertId.operator MR.Box_GraphVertId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1NoDefInit__MRGraphVertId" kindref="compound">NoDefInit_MRGraphVertId</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="1713" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="1713" bodyend="1720"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1NoDefInit__MRGraphVertId_1a6a5e9d47d7594e5486035242f35dc07f" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.NoDefInit_MRGraphVertId.NoDefInit_MRGraphVertId</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>NoDefInit_MRGraphVertId</name>
+        <qualifiedname>MR.NoDefInit_MRGraphVertId.NoDefInit_MRGraphVertId</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="1726" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="1726" bodyend="1730"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1NoDefInit__MRGraphVertId_1a91555ce8ac44295b55102956a06deaf4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.NoDefInit_MRGraphVertId.NoDefInit_MRGraphVertId</definition>
+        <argsstring>()</argsstring>
+        <name>NoDefInit_MRGraphVertId</name>
+        <qualifiedname>MR.NoDefInit_MRGraphVertId.NoDefInit_MRGraphVertId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="1736" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="1736" bodyend="1742"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NoDefInit__MRGraphVertId_1a0db606e081ca3a652a374be522630f24" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.NoDefInit_MRGraphVertId.NoDefInit_MRGraphVertId</definition>
+        <argsstring>(MR.Const_NoDefInit_MRGraphVertId _other)</argsstring>
+        <name>NoDefInit_MRGraphVertId</name>
+        <qualifiedname>MR.NoDefInit_MRGraphVertId.NoDefInit_MRGraphVertId</qualifiedname>
+        <param>
+          <type>MR.Const_NoDefInit_MRGraphVertId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.NoDefInit&lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&gt;::NoDefInit</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="1747" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="1747" bodyend="1754"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NoDefInit__MRGraphVertId_1a7cda7df0970d66557440ecff2ccbc585" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.NoDefInit_MRGraphVertId.NoDefInit_MRGraphVertId</definition>
+        <argsstring>(NoDefInit_MRGraphVertId _other)</argsstring>
+        <name>NoDefInit_MRGraphVertId</name>
+        <qualifiedname>MR.NoDefInit_MRGraphVertId.NoDefInit_MRGraphVertId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1NoDefInit__MRGraphVertId" kindref="compound">NoDefInit_MRGraphVertId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.NoDefInit&lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&gt;::NoDefInit</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="1759" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="1759" bodyend="1759"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NoDefInit__MRGraphVertId_1a34d98e824ec203b849a363fe0ea6e1b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1NoDefInit__MRGraphVertId" kindref="compound">MR.NoDefInit_MRGraphVertId</ref></type>
+        <definition>unsafe MR.NoDefInit_MRGraphVertId MR.NoDefInit_MRGraphVertId.assign</definition>
+        <argsstring>(MR.Const_NoDefInit_MRGraphVertId _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.NoDefInit_MRGraphVertId.assign</qualifiedname>
+        <param>
+          <type>MR.Const_NoDefInit_MRGraphVertId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.NoDefInit&lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="1764" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="1764" bodyend="1771"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NoDefInit__MRGraphVertId_1adf9b96b1345d079f608974ba70778560" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref int</type>
+        <definition>unsafe ref int MR.NoDefInit_MRGraphVertId.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <qualifiedname>MR.NoDefInit_MRGraphVertId.get</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.NoDefInit&lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&gt;::get</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="1776" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="1776" bodyend="1781"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NoDefInit__MRGraphVertId_1a81f988f2ab8d551b360102472a973d57" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
+        <definition>unsafe ref MR.GraphVertId MR.NoDefInit_MRGraphVertId.subAssign</definition>
+        <argsstring>(int a)</argsstring>
+        <name>subAssign</name>
+        <qualifiedname>MR.NoDefInit_MRGraphVertId.subAssign</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.NoDefInit&lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&gt;::operator-=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="1786" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="1786" bodyend="1791"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NoDefInit__MRGraphVertId_1a61e8705572bf90aea0d704b009d5b0bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
+        <definition>unsafe ref MR.GraphVertId MR.NoDefInit_MRGraphVertId.addAssign</definition>
+        <argsstring>(int a)</argsstring>
+        <name>addAssign</name>
+        <qualifiedname>MR.NoDefInit_MRGraphVertId.addAssign</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.NoDefInit&lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&gt;::operator+=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="1796" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="1796" bodyend="1801"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput>MR.NoDefInit&lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></computeroutput> This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_NoDefInit_MRGraphVertId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.NoDefInit_MRGraphVertId</label>
+        <link refid="classMR_1_1NoDefInit__MRGraphVertId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_NoDefInit_MRGraphVertId &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.GraphVertId &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_NoDefInit_MRGraphVertId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.NoDefInit_MRGraphVertId</label>
+        <link refid="classMR_1_1NoDefInit__MRGraphVertId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_NoDefInit_MRGraphVertId &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.GraphVertId &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="1710" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="1711" bodyend="1802"/>
+    <listofallmembers>
+      <member refid="classMR_1_1NoDefInit__MRGraphVertId_1a61e8705572bf90aea0d704b009d5b0bf" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphVertId</scope><name>addAssign</name></member>
+      <member refid="classMR_1_1NoDefInit__MRGraphVertId_1a34d98e824ec203b849a363fe0ea6e1b3" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphVertId</scope><name>assign</name></member>
+      <member refid="classMR_1_1NoDefInit__MRGraphVertId_1adf9b96b1345d079f608974ba70778560" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphVertId</scope><name>get</name></member>
+      <member refid="classMR_1_1NoDefInit__MRGraphVertId_1a7c26565b83b9a92d631d3019100e82a5" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphVertId</scope><name>id</name></member>
+      <member refid="classMR_1_1NoDefInit__MRGraphVertId_1a6a5e9d47d7594e5486035242f35dc07f" prot="package" virt="non-virtual"><scope>MR::NoDefInit_MRGraphVertId</scope><name>NoDefInit_MRGraphVertId</name></member>
+      <member refid="classMR_1_1NoDefInit__MRGraphVertId_1a91555ce8ac44295b55102956a06deaf4" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphVertId</scope><name>NoDefInit_MRGraphVertId</name></member>
+      <member refid="classMR_1_1NoDefInit__MRGraphVertId_1a0db606e081ca3a652a374be522630f24" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphVertId</scope><name>NoDefInit_MRGraphVertId</name></member>
+      <member refid="classMR_1_1NoDefInit__MRGraphVertId_1a7cda7df0970d66557440ecff2ccbc585" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphVertId</scope><name>NoDefInit_MRGraphVertId</name></member>
+      <member refid="classMR_1_1NoDefInit__MRGraphVertId_1a168495f234ce8d299b3627e935868b06" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphVertId</scope><name>operator MR.Box_GraphVertId</name></member>
+      <member refid="classMR_1_1NoDefInit__MRGraphVertId_1a81f988f2ab8d551b360102472a973d57" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphVertId</scope><name>subAssign</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1StitchHolesParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::StitchHolesParams</compoundname>
+    <includes refid="MRMeshFillHole_8h" local="no">MRMeshFillHole.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1StitchHolesParams_1ac806ee8caa2479cc244851eaac1e7020" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1FillHoleMetric" kindref="compound">FillHoleMetric</ref></type>
+        <definition>FillHoleMetric MR::StitchHolesParams::metric</definition>
+        <argsstring></argsstring>
+        <name>metric</name>
+        <qualifiedname>MR::StitchHolesParams::metric</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Specifies triangulation metric<linebreak/>
+default for <ref refid="group__FillHoleGroup_1gaa096c69aa6c5cf97a783e92aa3a70157" kindref="member">MR::buildCylinderBetweenTwoHoles</ref>: getComplexStitchMetric <simplesect kind="see"><para><ref refid="structMR_1_1FillHoleMetric" kindref="compound">FillHoleMetric</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="89" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1StitchHolesParams_1a472b65c8cadbd4c6cf5c2acbf4302f66" prot="public" static="no" mutable="no">
+        <type>FaceBitSet *</type>
+        <definition>FaceBitSet* MR::StitchHolesParams::outNewFaces</definition>
+        <argsstring></argsstring>
+        <name>outNewFaces</name>
+        <qualifiedname>MR::StitchHolesParams::outNewFaces</qualifiedname>
+        <initializer>{ nullptr }</initializer>
+        <briefdescription>
+<para>If not nullptr accumulate new faces. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="91" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" bodystart="91" bodyend="91"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Parameters structure for <ref refid="group__FillHoleGroup_1gaa096c69aa6c5cf97a783e92aa3a70157" kindref="member">MR::buildCylinderBetweenTwoHoles</ref><linebreak/>
+Structure has some options to control <ref refid="group__FillHoleGroup_1gaa096c69aa6c5cf97a783e92aa3a70157" kindref="member">MR::buildCylinderBetweenTwoHoles</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="group__FillHoleGroup_1gaa096c69aa6c5cf97a783e92aa3a70157" kindref="member">buildCylinderBetweenTwoHoles</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="structMR_1_1FillHoleMetric" kindref="compound">FillHoleMetric</ref> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::FillHoleMetric</label>
+        <link refid="structMR_1_1FillHoleMetric"/>
+      </node>
+      <node id="1">
+        <label>MR::StitchHolesParams</label>
+        <link refid="structMR_1_1StitchHolesParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>metric</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="83" column="1"/>
+    <listofallmembers>
+      <member refid="structMR_1_1StitchHolesParams_1ac806ee8caa2479cc244851eaac1e7020" prot="public" virt="non-virtual"><scope>MR::StitchHolesParams</scope><name>metric</name></member>
+      <member refid="structMR_1_1StitchHolesParams_1a472b65c8cadbd4c6cf5c2acbf4302f66" prot="public" virt="non-virtual"><scope>MR::StitchHolesParams</scope><name>outNewFaces</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

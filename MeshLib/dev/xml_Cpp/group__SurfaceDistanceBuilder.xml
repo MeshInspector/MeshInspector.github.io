@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__SurfaceDistanceBuilder" kind="group">
+    <compoundname>SurfaceDistanceBuilder</compoundname>
+    <title>Group Surface Distance Builder</title>
+    <innerclass refid="structMR_1_1VertDistance" prot="public">MR::VertDistance</innerclass>
+    <innerclass refid="classMR_1_1SurfaceDistanceBuilder" prot="public">MR::SurfaceDistanceBuilder</innerclass>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__SurfaceDistanceBuilder_1ga6116f007cc43a35299cac2d382c9ba9e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::operator&lt;</definition>
+        <argsstring>(const VertDistance &amp;a, const VertDistance &amp;b)</argsstring>
+        <name>operator&lt;</name>
+        <qualifiedname>MR::operator&lt;</qualifiedname>
+        <param>
+          <type>const VertDistance &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const VertDistance &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>smaller distance to be the first </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" line="29" column="8" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfaceDistanceBuilder.h" bodystart="29" bodyend="32"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

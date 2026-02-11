@@ -1,0 +1,653 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RenderLinesObject" kind="class" language="C++" prot="public">
+    <compoundname>MR::RenderLinesObject</compoundname>
+    <basecompoundref refid="classMR_1_1IRenderObject" prot="public" virt="virtual">MR::IRenderObject</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1RenderWrapObject_1_1Wrapper" prot="public" virt="non-virtual">MR::RenderWrapObject::Wrapper&lt; WrappedModelSubobject&lt; IsPrimary, ObjectLines &gt;, RenderLinesObject &gt;</derivedcompoundref>
+    <includes refid="MRRenderLinesObject_8h" local="no">MRRenderLinesObject.h</includes>
+    <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="classMR_1_1RenderLinesObject_1a113d7ee8bb8a894bcab50bb29828e562" prot="private" static="no">
+        <type>unsigned int</type>
+        <definition>typedef unsigned int MR::RenderLinesObject::GLuint</definition>
+        <argsstring></argsstring>
+        <name>GLuint</name>
+        <qualifiedname>MR::RenderLinesObject::GLuint</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLinesObject.h" line="29" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLinesObject.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1RenderLinesObject_1ab6115b85f29ccc53045b4c2681cf214a" prot="private" static="no" mutable="no">
+        <type>const <ref refid="classMR_1_1ObjectLinesHolder" kindref="compound">ObjectLinesHolder</ref> *</type>
+        <definition>const ObjectLinesHolder* MR::RenderLinesObject::objLines_</definition>
+        <argsstring></argsstring>
+        <name>objLines_</name>
+        <qualifiedname>MR::RenderLinesObject::objLines_</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLinesObject.h" line="26" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLinesObject.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderLinesObject_1aa8e2b63643ea563bb220d431f79bab7e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::RenderLinesObject::lineIndicesSize_</definition>
+        <argsstring></argsstring>
+        <name>lineIndicesSize_</name>
+        <qualifiedname>MR::RenderLinesObject::lineIndicesSize_</qualifiedname>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLinesObject.h" line="27" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLinesObject.h" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderLinesObject_1a8fbcd5d30e35ba92077f497bea9e5fa5" prot="private" static="no" mutable="no">
+        <type>GLuint</type>
+        <definition>GLuint MR::RenderLinesObject::linesArrayObjId_</definition>
+        <argsstring></argsstring>
+        <name>linesArrayObjId_</name>
+        <qualifiedname>MR::RenderLinesObject::linesArrayObjId_</qualifiedname>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLinesObject.h" line="31" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLinesObject.h" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderLinesObject_1a29e1ec2f4d51e10a4187a85a612a1bbc" prot="private" static="no" mutable="no">
+        <type>GLuint</type>
+        <definition>GLuint MR::RenderLinesObject::linesPickerArrayObjId_</definition>
+        <argsstring></argsstring>
+        <name>linesPickerArrayObjId_</name>
+        <qualifiedname>MR::RenderLinesObject::linesPickerArrayObjId_</qualifiedname>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLinesObject.h" line="32" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLinesObject.h" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderLinesObject_1a3cdc8a24af3af561724aec9875e3f641" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1GlTexture2" kindref="compound">GlTexture2</ref></type>
+        <definition>GlTexture2 MR::RenderLinesObject::positionsTex_</definition>
+        <argsstring></argsstring>
+        <name>positionsTex_</name>
+        <qualifiedname>MR::RenderLinesObject::positionsTex_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLinesObject.h" line="34" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLinesObject.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderLinesObject_1ac63f7831409d2dc2e41ee91f8664c80a" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1GlTexture2" kindref="compound">GlTexture2</ref></type>
+        <definition>GlTexture2 MR::RenderLinesObject::accumScreenLengthTex_</definition>
+        <argsstring></argsstring>
+        <name>accumScreenLengthTex_</name>
+        <qualifiedname>MR::RenderLinesObject::accumScreenLengthTex_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLinesObject.h" line="35" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLinesObject.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderLinesObject_1afc71f2189b1c4941b34c79b4f01ea5be" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1GlTexture2" kindref="compound">GlTexture2</ref></type>
+        <definition>GlTexture2 MR::RenderLinesObject::vertColorsTex_</definition>
+        <argsstring></argsstring>
+        <name>vertColorsTex_</name>
+        <qualifiedname>MR::RenderLinesObject::vertColorsTex_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLinesObject.h" line="36" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLinesObject.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderLinesObject_1a2aade4f6316ce66ba0b36be8aa3b7bdc" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1GlTexture2" kindref="compound">GlTexture2</ref></type>
+        <definition>GlTexture2 MR::RenderLinesObject::lineColorsTex_</definition>
+        <argsstring></argsstring>
+        <name>lineColorsTex_</name>
+        <qualifiedname>MR::RenderLinesObject::lineColorsTex_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLinesObject.h" line="37" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLinesObject.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderLinesObject_1a20f50bdf5b07519ba025379a20beadb2" prot="private" static="no" mutable="no">
+        <type>Matrix4f</type>
+        <definition>Matrix4f MR::RenderLinesObject::prevProj_</definition>
+        <argsstring></argsstring>
+        <name>prevProj_</name>
+        <qualifiedname>MR::RenderLinesObject::prevProj_</qualifiedname>
+        <briefdescription>
+<para>these are to be checked as dirty flag for calculating screen length on CPU </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLinesObject.h" line="57" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLinesObject.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderLinesObject_1a91ec61330dc7b2e2deae622146433345" prot="private" static="no" mutable="no">
+        <type>Matrix4f</type>
+        <definition>Matrix4f MR::RenderLinesObject::prevView_</definition>
+        <argsstring></argsstring>
+        <name>prevView_</name>
+        <qualifiedname>MR::RenderLinesObject::prevView_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLinesObject.h" line="58" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLinesObject.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderLinesObject_1ad4056cbfffbe77d9df6bccfa7e6aa8ac" prot="private" static="no" mutable="no">
+        <type>Matrix4f</type>
+        <definition>Matrix4f MR::RenderLinesObject::prevModel_</definition>
+        <argsstring></argsstring>
+        <name>prevModel_</name>
+        <qualifiedname>MR::RenderLinesObject::prevModel_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLinesObject.h" line="59" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLinesObject.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderLinesObject_1af9e1ebe6f0aa4fc43cb9a4d29bcdbced" prot="private" static="no" mutable="no">
+        <type>Vector4i</type>
+        <definition>Vector4i MR::RenderLinesObject::prevViewport_</definition>
+        <argsstring></argsstring>
+        <name>prevViewport_</name>
+        <qualifiedname>MR::RenderLinesObject::prevViewport_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLinesObject.h" line="60" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLinesObject.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderLinesObject_1a0a2cdb3e814f9e472f93ff98dea3b31b" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::RenderLinesObject::needUpdateScreenLengths_</definition>
+        <argsstring></argsstring>
+        <name>needUpdateScreenLengths_</name>
+        <qualifiedname>MR::RenderLinesObject::needUpdateScreenLengths_</qualifiedname>
+        <initializer>{ true }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLinesObject.h" line="64" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLinesObject.h" bodystart="64" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderLinesObject_1a4adacde27112c584e9f46ad417345117" prot="private" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t MR::RenderLinesObject::dirty_</definition>
+        <argsstring></argsstring>
+        <name>dirty_</name>
+        <qualifiedname>MR::RenderLinesObject::dirty_</qualifiedname>
+        <briefdescription>
+<para>Marks dirty buffers that need to be uploaded to OpenGL. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLinesObject.h" line="66" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLinesObject.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1RenderLinesObject_1a58baf835fad2015a8cef32639cd2115d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::RenderLinesObject::RenderLinesObject</definition>
+        <argsstring>(const VisualObject &amp;visObj)</argsstring>
+        <name>RenderLinesObject</name>
+        <qualifiedname>MR::RenderLinesObject::RenderLinesObject</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref> &amp;</type>
+          <declname>visObj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLinesObject.h" line="16" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderLinesObject_1a72fd92c9c31f2a2920ea89af4c0e4885" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::RenderLinesObject::~RenderLinesObject</definition>
+        <argsstring>()</argsstring>
+        <name>~RenderLinesObject</name>
+        <qualifiedname>MR::RenderLinesObject::~RenderLinesObject</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLinesObject.h" line="17" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderLinesObject_1a8412df02cc59f812bae34332eb7da1bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool MR::RenderLinesObject::render</definition>
+        <argsstring>(const ModelRenderParams &amp;params) override</argsstring>
+        <name>render</name>
+        <qualifiedname>MR::RenderLinesObject::render</qualifiedname>
+        <reimplements refid="classMR_1_1IRenderObject_1a02b8e566ef48df489cddb77a759ec3c4">render</reimplements>
+        <reimplementedby refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent_1aac7d0eb9a73f28680925b75d122b66a4">render</reimplementedby>
+        <param>
+          <type>const <ref refid="structMR_1_1ModelRenderParams" kindref="compound">ModelRenderParams</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>Returns true if something was rendered, or false if nothing to render. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>These functions do: 1) bind data 2) pass shaders arguments 3) draw data</para>
+<para>Those dummy definitions remove undefined references in <computeroutput><ref refid="classMR_1_1RenderObjectCombinator" kindref="compound">RenderObjectCombinator</ref></computeroutput> when it calls non-overridden pure virtual methods. We could check in <computeroutput><ref refid="classMR_1_1RenderObjectCombinator" kindref="compound">RenderObjectCombinator</ref></computeroutput> if they&apos;re overridden or not, but it&apos;s easier to just define them. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLinesObject.h" line="19" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderLinesObject_1ad30e617ed0e05dd26727e86018cb4366" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR::RenderLinesObject::renderPicker</definition>
+        <argsstring>(const ModelBaseRenderParams &amp;params, unsigned geomId) override</argsstring>
+        <name>renderPicker</name>
+        <qualifiedname>MR::RenderLinesObject::renderPicker</qualifiedname>
+        <reimplements refid="classMR_1_1IRenderObject_1aa40c8d73952eceb8d676864c3cd30738">renderPicker</reimplements>
+        <reimplementedby refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent_1a7223265f55a1d01543ece7518bc011ff">renderPicker</reimplementedby>
+        <param>
+          <type>const <ref refid="structMR_1_1ModelBaseRenderParams" kindref="compound">ModelBaseRenderParams</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>unsigned</type>
+          <declname>geomId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLinesObject.h" line="20" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderLinesObject_1a25db5445ddf1fea48fe51be05daa5605" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>size_t</type>
+        <definition>virtual size_t MR::RenderLinesObject::heapBytes</definition>
+        <argsstring>() const override</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR::RenderLinesObject::heapBytes</qualifiedname>
+        <reimplements refid="classMR_1_1IRenderObject_1a79569d09a46b696bc119c62ac7faaad8">heapBytes</reimplements>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLinesObject.h" line="21" column="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderLinesObject_1a536334f5c2028c4b2480759621cc6e9a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>size_t</type>
+        <definition>virtual size_t MR::RenderLinesObject::glBytes</definition>
+        <argsstring>() const override</argsstring>
+        <name>glBytes</name>
+        <qualifiedname>MR::RenderLinesObject::glBytes</qualifiedname>
+        <reimplements refid="classMR_1_1IRenderObject_1adefa4d9a963e416cc21d7116749cdffe">glBytes</reimplements>
+        <briefdescription>
+<para>returns the amount of memory this object allocated in OpenGL </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLinesObject.h" line="22" column="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderLinesObject_1a84c3a8d6e9caedfefff441da8809dec0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR::RenderLinesObject::forceBindAll</definition>
+        <argsstring>() override</argsstring>
+        <name>forceBindAll</name>
+        <qualifiedname>MR::RenderLinesObject::forceBindAll</qualifiedname>
+        <reimplements refid="classMR_1_1IRenderObject_1a6cc3204a31145ab371e129da393b7215">forceBindAll</reimplements>
+        <briefdescription>
+<para>binds all data for this render object, not to bind ever again (until object becomes dirty) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLinesObject.h" line="23" column="18"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1RenderLinesObject_1a5a4e765817fbc716e2412b792bb20a0f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::RenderLinesObject::render_</definition>
+        <argsstring>(const ModelRenderParams &amp;params, bool points, RenderModelPassMask desiredPass)</argsstring>
+        <name>render_</name>
+        <qualifiedname>MR::RenderLinesObject::render_</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1ModelRenderParams" kindref="compound">ModelRenderParams</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceMR_1a712ee084e6055ce8fadbbe8cf8b3f6ce" kindref="member">RenderModelPassMask</ref></type>
+          <declname>desiredPass</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLinesObject.h" line="39" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderLinesObject_1aabf736098b2733395b26196d856079ac" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::RenderLinesObject::renderPicker_</definition>
+        <argsstring>(const ModelBaseRenderParams &amp;params, unsigned geomId, bool points)</argsstring>
+        <name>renderPicker_</name>
+        <qualifiedname>MR::RenderLinesObject::renderPicker_</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1ModelBaseRenderParams" kindref="compound">ModelBaseRenderParams</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>unsigned</type>
+          <declname>geomId</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>points</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLinesObject.h" line="40" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderLinesObject_1a19a839ab6b329f05f590524967414e62" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::RenderLinesObject::bindPositions_</definition>
+        <argsstring>(GLuint shaderId)</argsstring>
+        <name>bindPositions_</name>
+        <qualifiedname>MR::RenderLinesObject::bindPositions_</qualifiedname>
+        <param>
+          <type>GLuint</type>
+          <declname>shaderId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLinesObject.h" line="42" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderLinesObject_1a0258d8b608d79b6e94a00275ca8f2d1a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::RenderLinesObject::calcAndBindLength_</definition>
+        <argsstring>(const ModelRenderParams &amp;params, GLuint shaderId)</argsstring>
+        <name>calcAndBindLength_</name>
+        <qualifiedname>MR::RenderLinesObject::calcAndBindLength_</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1ModelRenderParams" kindref="compound">ModelRenderParams</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>GLuint</type>
+          <declname>shaderId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLinesObject.h" line="43" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderLinesObject_1a28cec058407553b31e64b2b7bbb50fab" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::RenderLinesObject::bindLines_</definition>
+        <argsstring>(GLStaticHolder::ShaderType shaderType)</argsstring>
+        <name>bindLines_</name>
+        <qualifiedname>MR::RenderLinesObject::bindLines_</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748" kindref="member">GLStaticHolder::ShaderType</ref></type>
+          <declname>shaderType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLinesObject.h" line="45" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderLinesObject_1ae7bf2554a561a4adb7dacf4f8db2b946" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::RenderLinesObject::bindLinesPicker_</definition>
+        <argsstring>(GLStaticHolder::ShaderType shaderType)</argsstring>
+        <name>bindLinesPicker_</name>
+        <qualifiedname>MR::RenderLinesObject::bindLinesPicker_</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1GLStaticHolder_1a00a040d6d7d04967fe9f892d8cb76748" kindref="member">GLStaticHolder::ShaderType</ref></type>
+          <declname>shaderType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLinesObject.h" line="46" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderLinesObject_1ae76acfe9c60f883ebf2f3f64ace2c2fe" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::RenderLinesObject::initBuffers_</definition>
+        <argsstring>()</argsstring>
+        <name>initBuffers_</name>
+        <qualifiedname>MR::RenderLinesObject::initBuffers_</qualifiedname>
+        <briefdescription>
+<para>Create a new set of OpenGL buffer objects. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLinesObject.h" line="49" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderLinesObject_1ada4befec2d1fddb7e17284846ff960ac" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::RenderLinesObject::freeBuffers_</definition>
+        <argsstring>()</argsstring>
+        <name>freeBuffers_</name>
+        <qualifiedname>MR::RenderLinesObject::freeBuffers_</qualifiedname>
+        <briefdescription>
+<para>Release the OpenGL buffer objects. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLinesObject.h" line="52" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderLinesObject_1a42d9288f23c690b2cd834242a3fea9bb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::RenderLinesObject::update_</definition>
+        <argsstring>()</argsstring>
+        <name>update_</name>
+        <qualifiedname>MR::RenderLinesObject::update_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLinesObject.h" line="54" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderLinesObject_1af6e78ad901233c023cb8e54270039148" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::RenderLinesObject::needAccumLengthDirtyUpdate_</definition>
+        <argsstring>(const ModelRenderParams &amp;params)</argsstring>
+        <name>needAccumLengthDirtyUpdate_</name>
+        <qualifiedname>MR::RenderLinesObject::needAccumLengthDirtyUpdate_</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1ModelRenderParams" kindref="compound">ModelRenderParams</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLinesObject.h" line="61" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderLinesObject_1aa00ae920a4f1842e78463344a05cc9dc" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::RenderLinesObject::resetAccumLengthDirty_</definition>
+        <argsstring>(const ModelRenderParams &amp;params)</argsstring>
+        <name>resetAccumLengthDirty_</name>
+        <qualifiedname>MR::RenderLinesObject::resetAccumLengthDirty_</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1ModelRenderParams" kindref="compound">ModelRenderParams</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLinesObject.h" line="62" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::IRenderObject</label>
+        <link refid="classMR_1_1IRenderObject"/>
+      </node>
+      <node id="4">
+        <label>MR::RenderFeatures::RenderFeatureComponent&lt; IsPrimary, ObjectLines, RenderLinesObject &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR::RenderFeatures::RenderFeatureLinesComponent&lt; IsPrimary &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1RenderFeatureLinesComponent"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::RenderLinesObject</label>
+        <link refid="classMR_1_1RenderLinesObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::RenderWrapObject::Wrapper&lt; WrappedModelSubobject&lt; IsPrimary, ObjectLines &gt;, RenderLinesObject &gt;</label>
+        <link refid="classMR_1_1RenderWrapObject_1_1Wrapper"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::IRenderObject</label>
+        <link refid="classMR_1_1IRenderObject"/>
+      </node>
+      <node id="1">
+        <label>MR::RenderLinesObject</label>
+        <link refid="classMR_1_1RenderLinesObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLinesObject.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLinesObject.h" bodystart="14" bodyend="67"/>
+    <listofallmembers>
+      <member refid="classMR_1_1RenderLinesObject_1ac63f7831409d2dc2e41ee91f8664c80a" prot="private" virt="non-virtual"><scope>MR::RenderLinesObject</scope><name>accumScreenLengthTex_</name></member>
+      <member refid="classMR_1_1RenderLinesObject_1a28cec058407553b31e64b2b7bbb50fab" prot="private" virt="non-virtual"><scope>MR::RenderLinesObject</scope><name>bindLines_</name></member>
+      <member refid="classMR_1_1RenderLinesObject_1ae7bf2554a561a4adb7dacf4f8db2b946" prot="private" virt="non-virtual"><scope>MR::RenderLinesObject</scope><name>bindLinesPicker_</name></member>
+      <member refid="classMR_1_1RenderLinesObject_1a19a839ab6b329f05f590524967414e62" prot="private" virt="non-virtual"><scope>MR::RenderLinesObject</scope><name>bindPositions_</name></member>
+      <member refid="classMR_1_1RenderLinesObject_1a0258d8b608d79b6e94a00275ca8f2d1a" prot="private" virt="non-virtual"><scope>MR::RenderLinesObject</scope><name>calcAndBindLength_</name></member>
+      <member refid="classMR_1_1RenderLinesObject_1a4adacde27112c584e9f46ad417345117" prot="private" virt="non-virtual"><scope>MR::RenderLinesObject</scope><name>dirty_</name></member>
+      <member refid="classMR_1_1RenderLinesObject_1a84c3a8d6e9caedfefff441da8809dec0" prot="public" virt="virtual"><scope>MR::RenderLinesObject</scope><name>forceBindAll</name></member>
+      <member refid="classMR_1_1RenderLinesObject_1ada4befec2d1fddb7e17284846ff960ac" prot="private" virt="non-virtual"><scope>MR::RenderLinesObject</scope><name>freeBuffers_</name></member>
+      <member refid="classMR_1_1RenderLinesObject_1a536334f5c2028c4b2480759621cc6e9a" prot="public" virt="virtual"><scope>MR::RenderLinesObject</scope><name>glBytes</name></member>
+      <member refid="classMR_1_1RenderLinesObject_1a113d7ee8bb8a894bcab50bb29828e562" prot="private" virt="non-virtual"><scope>MR::RenderLinesObject</scope><name>GLuint</name></member>
+      <member refid="classMR_1_1RenderLinesObject_1a25db5445ddf1fea48fe51be05daa5605" prot="public" virt="virtual"><scope>MR::RenderLinesObject</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1RenderLinesObject_1ae76acfe9c60f883ebf2f3f64ace2c2fe" prot="private" virt="non-virtual"><scope>MR::RenderLinesObject</scope><name>initBuffers_</name></member>
+      <member refid="classMR_1_1RenderLinesObject_1a2aade4f6316ce66ba0b36be8aa3b7bdc" prot="private" virt="non-virtual"><scope>MR::RenderLinesObject</scope><name>lineColorsTex_</name></member>
+      <member refid="classMR_1_1RenderLinesObject_1aa8e2b63643ea563bb220d431f79bab7e" prot="private" virt="non-virtual"><scope>MR::RenderLinesObject</scope><name>lineIndicesSize_</name></member>
+      <member refid="classMR_1_1RenderLinesObject_1a8fbcd5d30e35ba92077f497bea9e5fa5" prot="private" virt="non-virtual"><scope>MR::RenderLinesObject</scope><name>linesArrayObjId_</name></member>
+      <member refid="classMR_1_1RenderLinesObject_1a29e1ec2f4d51e10a4187a85a612a1bbc" prot="private" virt="non-virtual"><scope>MR::RenderLinesObject</scope><name>linesPickerArrayObjId_</name></member>
+      <member refid="classMR_1_1RenderLinesObject_1af6e78ad901233c023cb8e54270039148" prot="private" virt="non-virtual"><scope>MR::RenderLinesObject</scope><name>needAccumLengthDirtyUpdate_</name></member>
+      <member refid="classMR_1_1RenderLinesObject_1a0a2cdb3e814f9e472f93ff98dea3b31b" prot="private" virt="non-virtual"><scope>MR::RenderLinesObject</scope><name>needUpdateScreenLengths_</name></member>
+      <member refid="classMR_1_1RenderLinesObject_1ab6115b85f29ccc53045b4c2681cf214a" prot="private" virt="non-virtual"><scope>MR::RenderLinesObject</scope><name>objLines_</name></member>
+      <member refid="classMR_1_1RenderLinesObject_1a3cdc8a24af3af561724aec9875e3f641" prot="private" virt="non-virtual"><scope>MR::RenderLinesObject</scope><name>positionsTex_</name></member>
+      <member refid="classMR_1_1RenderLinesObject_1ad4056cbfffbe77d9df6bccfa7e6aa8ac" prot="private" virt="non-virtual"><scope>MR::RenderLinesObject</scope><name>prevModel_</name></member>
+      <member refid="classMR_1_1RenderLinesObject_1a20f50bdf5b07519ba025379a20beadb2" prot="private" virt="non-virtual"><scope>MR::RenderLinesObject</scope><name>prevProj_</name></member>
+      <member refid="classMR_1_1RenderLinesObject_1a91ec61330dc7b2e2deae622146433345" prot="private" virt="non-virtual"><scope>MR::RenderLinesObject</scope><name>prevView_</name></member>
+      <member refid="classMR_1_1RenderLinesObject_1af9e1ebe6f0aa4fc43cb9a4d29bcdbced" prot="private" virt="non-virtual"><scope>MR::RenderLinesObject</scope><name>prevViewport_</name></member>
+      <member refid="classMR_1_1RenderLinesObject_1a8412df02cc59f812bae34332eb7da1bf" prot="public" virt="virtual"><scope>MR::RenderLinesObject</scope><name>render</name></member>
+      <member refid="classMR_1_1RenderLinesObject_1a5a4e765817fbc716e2412b792bb20a0f" prot="private" virt="non-virtual"><scope>MR::RenderLinesObject</scope><name>render_</name></member>
+      <member refid="classMR_1_1RenderLinesObject_1a58baf835fad2015a8cef32639cd2115d" prot="public" virt="non-virtual"><scope>MR::RenderLinesObject</scope><name>RenderLinesObject</name></member>
+      <member refid="classMR_1_1RenderLinesObject_1ad30e617ed0e05dd26727e86018cb4366" prot="public" virt="virtual"><scope>MR::RenderLinesObject</scope><name>renderPicker</name></member>
+      <member refid="classMR_1_1RenderLinesObject_1aabf736098b2733395b26196d856079ac" prot="private" virt="non-virtual"><scope>MR::RenderLinesObject</scope><name>renderPicker_</name></member>
+      <member refid="classMR_1_1IRenderObject_1a82fb37eb78d6e11f1b41f3fc2a99c5eb" prot="public" virt="virtual"><scope>MR::RenderLinesObject</scope><name>renderUi</name></member>
+      <member refid="classMR_1_1RenderLinesObject_1aa00ae920a4f1842e78463344a05cc9dc" prot="private" virt="non-virtual"><scope>MR::RenderLinesObject</scope><name>resetAccumLengthDirty_</name></member>
+      <member refid="classMR_1_1RenderLinesObject_1a42d9288f23c690b2cd834242a3fea9bb" prot="private" virt="non-virtual"><scope>MR::RenderLinesObject</scope><name>update_</name></member>
+      <member refid="classMR_1_1RenderLinesObject_1afc71f2189b1c4941b34c79b4f01ea5be" prot="private" virt="non-virtual"><scope>MR::RenderLinesObject</scope><name>vertColorsTex_</name></member>
+      <member refid="classMR_1_1IRenderObject_1acb87b662f59e2d557580f2ad1f38fa7a" prot="public" virt="virtual"><scope>MR::RenderLinesObject</scope><name>~IRenderObject</name></member>
+      <member refid="classMR_1_1RenderLinesObject_1a72fd92c9c31f2a2920ea89af4c0e4885" prot="public" virt="non-virtual"><scope>MR::RenderLinesObject</scope><name>~RenderLinesObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

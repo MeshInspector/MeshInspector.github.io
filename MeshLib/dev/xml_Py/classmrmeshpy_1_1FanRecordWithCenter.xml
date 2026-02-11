@@ -1,0 +1,275 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1FanRecordWithCenter" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::FanRecordWithCenter</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1FanRecord" prot="public" virt="non-virtual">mrmeshpy.FanRecord</basecompoundref>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1FanRecordWithCenter_1a20bb81a3738f7e8f0338e15b9a81f6f2" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FanRecordWithCenter::_offsetof_center</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_center</name>
+        <qualifiedname>mrmeshpy.FanRecordWithCenter._offsetof_center</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17635" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17635" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FanRecordWithCenter_1a78bc93e8e5739f94d48eaad05f786735" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FanRecordWithCenter.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FanRecordWithCenter.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FanRecord_1af1a72eb8481cf1719e4b70557895d60b">__init__</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17638" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17638" bodyend="17639"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FanRecordWithCenter_1a78bc93e8e5739f94d48eaad05f786735" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FanRecordWithCenter.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FanRecordWithCenter.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FanRecord_1af1a72eb8481cf1719e4b70557895d60b">__init__</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17642" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17642" bodyend="17643"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FanRecordWithCenter_1ad2405ab24621d31eae35c8b16f6a7fe3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FanRecordWithCenter" kindref="compound">FanRecordWithCenter</ref></type>
+        <definition> FanRecordWithCenter mrmeshpy.FanRecordWithCenter.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.FanRecordWithCenter.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FanRecord_1a80d77f3dd50bec819e12774b76678722">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17646" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17646" bodyend="17647"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FanRecordWithCenter_1ad2405ab24621d31eae35c8b16f6a7fe3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FanRecordWithCenter" kindref="compound">FanRecordWithCenter</ref></type>
+        <definition> FanRecordWithCenter mrmeshpy.FanRecordWithCenter.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.FanRecordWithCenter.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FanRecord_1a80d77f3dd50bec819e12774b76678722">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17650" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17650" bodyend="17651"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FanRecordWithCenter_1a9763b8976aa503132fa3ff96bc6644af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FanRecordWithCenter.__init__</definition>
+        <argsstring>(self, VertId c=..., VertId b=..., int fn=0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FanRecordWithCenter.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FanRecord_1af1a72eb8481cf1719e4b70557895d60b">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>c</declname>
+          <defval>...</defval>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>b</declname>
+          <defval>...</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>fn</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17653" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17653" bodyend="17654"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FanRecordWithCenter_1a190d8145c44ff43dd07c2048aebd1e3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FanRecordWithCenter.__init__</definition>
+        <argsstring>(self, FanRecordWithCenter arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FanRecordWithCenter.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FanRecord_1af1a72eb8481cf1719e4b70557895d60b">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FanRecordWithCenter" kindref="compound">FanRecordWithCenter</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17656" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17656" bodyend="17659"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FanRecordWithCenter_1af3bf46f2b3770ad6796e66dca60e88c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition> VertId mrmeshpy.FanRecordWithCenter.center</definition>
+        <argsstring>(self)</argsstring>
+        <name>center</name>
+        <qualifiedname>mrmeshpy.FanRecordWithCenter.center</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>center point in the fan
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17661" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17661" bodyend="17664"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FanRecordWithCenter_1a8097bd4d4ce22648c3dc2fffaa9a1e1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FanRecordWithCenter.center</definition>
+        <argsstring>(self, VertId arg1)</argsstring>
+        <name>center</name>
+        <qualifiedname>mrmeshpy.FanRecordWithCenter.center</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17666" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17666" bodyend="17667"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::FanRecordWithCenter
+
+describes one fan of triangles around a point including the point
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.FanRecordWithCenter</label>
+        <link refid="classmrmeshpy_1_1FanRecordWithCenter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.FanRecord</label>
+        <link refid="classmrmeshpy_1_1FanRecord"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.FanRecordWithCenter</label>
+        <link refid="classmrmeshpy_1_1FanRecordWithCenter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_offsetof_center</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.FanRecord</label>
+        <link refid="classmrmeshpy_1_1FanRecord"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_offsetof_border</edgelabel>
+          <edgelabel>_offsetof_firstNei</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17629" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17629" bodyend="17667"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1FanRecordWithCenter_1a78bc93e8e5739f94d48eaad05f786735" prot="public" virt="non-virtual"><scope>mrmeshpy::FanRecordWithCenter</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FanRecordWithCenter_1a78bc93e8e5739f94d48eaad05f786735" prot="public" virt="non-virtual"><scope>mrmeshpy::FanRecordWithCenter</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FanRecordWithCenter_1a9763b8976aa503132fa3ff96bc6644af" prot="public" virt="non-virtual"><scope>mrmeshpy::FanRecordWithCenter</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FanRecordWithCenter_1a190d8145c44ff43dd07c2048aebd1e3b" prot="public" virt="non-virtual"><scope>mrmeshpy::FanRecordWithCenter</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FanRecordWithCenter_1a20bb81a3738f7e8f0338e15b9a81f6f2" prot="protected" virt="non-virtual"><scope>mrmeshpy::FanRecordWithCenter</scope><name>_offsetof_center</name></member>
+      <member refid="classmrmeshpy_1_1FanRecordWithCenter_1af3bf46f2b3770ad6796e66dca60e88c4" prot="public" virt="non-virtual"><scope>mrmeshpy::FanRecordWithCenter</scope><name>center</name></member>
+      <member refid="classmrmeshpy_1_1FanRecordWithCenter_1a8097bd4d4ce22648c3dc2fffaa9a1e1c" prot="public" virt="non-virtual"><scope>mrmeshpy::FanRecordWithCenter</scope><name>center</name></member>
+      <member refid="classmrmeshpy_1_1FanRecordWithCenter_1ad2405ab24621d31eae35c8b16f6a7fe3" prot="public" virt="non-virtual"><scope>mrmeshpy::FanRecordWithCenter</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1FanRecordWithCenter_1ad2405ab24621d31eae35c8b16f6a7fe3" prot="public" virt="non-virtual"><scope>mrmeshpy::FanRecordWithCenter</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

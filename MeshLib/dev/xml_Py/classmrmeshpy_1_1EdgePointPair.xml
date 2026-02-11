@@ -1,0 +1,251 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1EdgePointPair" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::EdgePointPair</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1EdgePointPair_1a9f71dcafe1d2fa36f62a2475c831b74c" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.EdgePointPair::__hash__</definition>
+        <argsstring></argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.EdgePointPair.__hash__</qualifiedname>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15395" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15395" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1EdgePointPair_1aae39609b714faeff0db7e45d3b1bbccf" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.EdgePointPair::_offsetof_a</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_a</name>
+        <qualifiedname>mrmeshpy.EdgePointPair._offsetof_a</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15396" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15396" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1EdgePointPair_1a6d22483dad718dbdbcc1dbb0ba0f03b9" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.EdgePointPair::_offsetof_b</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_b</name>
+        <qualifiedname>mrmeshpy.EdgePointPair._offsetof_b</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15397" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15397" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgePointPair_1ab3fdec671375227741d88cbbb948f715" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EdgePointPair.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.EdgePointPair.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15402" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15402" bodyend="15403"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgePointPair_1a2e6ab7b8bba11abe0acff201f142f2ab" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgePointPair" kindref="compound">EdgePointPair</ref></type>
+        <definition> EdgePointPair mrmeshpy.EdgePointPair.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.EdgePointPair.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15406" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15406" bodyend="15407"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgePointPair_1a2e6ab7b8bba11abe0acff201f142f2ab" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgePointPair" kindref="compound">EdgePointPair</ref></type>
+        <definition> EdgePointPair mrmeshpy.EdgePointPair.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.EdgePointPair.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15410" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15410" bodyend="15411"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgePointPair_1a517971c035e0dbd90b285b06c6eac6c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.EdgePointPair.__eq__</definition>
+        <argsstring>(self, EdgePointPair rhs)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.EdgePointPair.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgePointPair" kindref="compound">EdgePointPair</ref></type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if two edge-point pairs are equal including equal not-unique representation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15412" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15412" bodyend="15415"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgePointPair_1a59895a38bd404356f4453268ea3f185c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EdgePointPair.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.EdgePointPair.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15417" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15417" bodyend="15418"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgePointPair_1a31ecefb9183d9a965a85f3dc8bd5321e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EdgePointPair.__init__</definition>
+        <argsstring>(self, EdgePoint ia, EdgePoint ib)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.EdgePointPair.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgePoint" kindref="compound">EdgePoint</ref></type>
+          <declname>ia</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgePoint" kindref="compound">EdgePoint</ref></type>
+          <declname>ib</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15420" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15420" bodyend="15421"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgePointPair_1a778c0202f92af81bf2c6d561062f4abe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EdgePointPair.__init__</definition>
+        <argsstring>(self, EdgePointPair arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.EdgePointPair.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgePointPair" kindref="compound">EdgePointPair</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15423" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15423" bodyend="15426"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::EdgePointPair
+
+two edge-points (e.g. representing collision point of two edges)
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.EdgePointPair</label>
+        <link refid="classmrmeshpy_1_1EdgePointPair"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_a</edgelabel>
+          <edgelabel>_offsetof_b</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15389" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15389" bodyend="15426"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1EdgePointPair_1a517971c035e0dbd90b285b06c6eac6c7" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgePointPair</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1EdgePointPair_1a9f71dcafe1d2fa36f62a2475c831b74c" prot="private" virt="non-virtual"><scope>mrmeshpy::EdgePointPair</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1EdgePointPair_1ab3fdec671375227741d88cbbb948f715" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgePointPair</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1EdgePointPair_1a59895a38bd404356f4453268ea3f185c" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgePointPair</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1EdgePointPair_1a31ecefb9183d9a965a85f3dc8bd5321e" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgePointPair</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1EdgePointPair_1a778c0202f92af81bf2c6d561062f4abe" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgePointPair</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1EdgePointPair_1aae39609b714faeff0db7e45d3b1bbccf" prot="protected" virt="non-virtual"><scope>mrmeshpy::EdgePointPair</scope><name>_offsetof_a</name></member>
+      <member refid="classmrmeshpy_1_1EdgePointPair_1a6d22483dad718dbdbcc1dbb0ba0f03b9" prot="protected" virt="non-virtual"><scope>mrmeshpy::EdgePointPair</scope><name>_offsetof_b</name></member>
+      <member refid="classmrmeshpy_1_1EdgePointPair_1a2e6ab7b8bba11abe0acff201f142f2ab" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgePointPair</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1EdgePointPair_1a2e6ab7b8bba11abe0acff201f142f2ab" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgePointPair</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

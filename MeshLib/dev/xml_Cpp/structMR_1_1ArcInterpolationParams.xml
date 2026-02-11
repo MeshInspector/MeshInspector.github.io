@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ArcInterpolationParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ArcInterpolationParams</compoundname>
+    <includes refid="MRToolPath_8h" local="no">MRToolPath.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1ArcInterpolationParams_1a6f075ab660c32eec4c036340e2b88f1c" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::ArcInterpolationParams::eps</definition>
+        <argsstring></argsstring>
+        <name>eps</name>
+        <qualifiedname>MR::ArcInterpolationParams::eps</qualifiedname>
+        <initializer>= {}</initializer>
+        <briefdescription>
+<para>maximal deviation of arc from given path </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" line="86" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" bodystart="86" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ArcInterpolationParams_1a527c4937cd106bad1847ff7adc254bea" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::ArcInterpolationParams::maxRadius</definition>
+        <argsstring></argsstring>
+        <name>maxRadius</name>
+        <qualifiedname>MR::ArcInterpolationParams::maxRadius</qualifiedname>
+        <initializer>= {}</initializer>
+        <briefdescription>
+<para>maximal radius of the arc </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" line="88" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" bodystart="88" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ArcInterpolationParams_1ab7cd8db5e72fb6cad7702d8de23622fe" prot="public" static="no" mutable="no">
+        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+        <definition>ProgressCallback MR::ArcInterpolationParams::cb</definition>
+        <argsstring></argsstring>
+        <name>cb</name>
+        <qualifiedname>MR::ArcInterpolationParams::cb</qualifiedname>
+        <initializer>= {}</initializer>
+        <briefdescription>
+<para>callback for reporting on progress </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" line="90" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" bodystart="90" bodyend="90"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" line="83" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" bodystart="84" bodyend="91"/>
+    <listofallmembers>
+      <member refid="structMR_1_1ArcInterpolationParams_1ab7cd8db5e72fb6cad7702d8de23622fe" prot="public" virt="non-virtual"><scope>MR::ArcInterpolationParams</scope><name>cb</name></member>
+      <member refid="structMR_1_1ArcInterpolationParams_1a6f075ab660c32eec4c036340e2b88f1c" prot="public" virt="non-virtual"><scope>MR::ArcInterpolationParams</scope><name>eps</name></member>
+      <member refid="structMR_1_1ArcInterpolationParams_1a527c4937cd106bad1847ff7adc254bea" prot="public" virt="non-virtual"><scope>MR::ArcInterpolationParams</scope><name>maxRadius</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

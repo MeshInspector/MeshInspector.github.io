@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1NoCtor__GraphVertId" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::NoCtor_GraphVertId</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1NoCtor__GraphVertId_1aa052d7614001567ec787e74a6357784b" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.NoCtor_GraphVertId::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>mrmeshpy.NoCtor_GraphVertId.type</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1NoDefInit__GraphVertId" kindref="compound">NoDefInit_GraphVertId</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36945" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36945" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1NoCtor__GraphVertId_1a8eb34376ed70bac2c9f6bfdc4d125aa7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.NoCtor_GraphVertId.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.NoCtor_GraphVertId.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36948" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36948" bodyend="36949"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NoCtor__GraphVertId_1a1b3114e6eca2193eeb08bda10c7b5084" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NoCtor__GraphVertId" kindref="compound">NoCtor_GraphVertId</ref></type>
+        <definition> NoCtor_GraphVertId mrmeshpy.NoCtor_GraphVertId.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.NoCtor_GraphVertId.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36952" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36952" bodyend="36953"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NoCtor__GraphVertId_1a1b3114e6eca2193eeb08bda10c7b5084" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NoCtor__GraphVertId" kindref="compound">NoCtor_GraphVertId</ref></type>
+        <definition> NoCtor_GraphVertId mrmeshpy.NoCtor_GraphVertId.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.NoCtor_GraphVertId.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36956" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36956" bodyend="36957"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1NoCtor__GraphVertId_1ab883b1f3361464d2e0091088aab6bd9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.NoCtor_GraphVertId.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.NoCtor_GraphVertId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36959" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36959" bodyend="36960"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NoCtor__GraphVertId_1a141735c7562bca544889972a14993330" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.NoCtor_GraphVertId.__init__</definition>
+        <argsstring>(self, NoCtor_GraphVertId arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.NoCtor_GraphVertId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1NoCtor__GraphVertId" kindref="compound">NoCtor_GraphVertId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36962" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36962" bodyend="36965"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NoCtor__GraphVertId_1ab883b1f3361464d2e0091088aab6bd9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.NoCtor_GraphVertId.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.NoCtor_GraphVertId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36967" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36967" bodyend="36970"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::NoCtor&lt;MR::GraphVertId&gt;
+
+for our complex types, return wrapped type with default constructor doing nothing
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36939" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36939" bodyend="36970"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1NoCtor__GraphVertId_1a8eb34376ed70bac2c9f6bfdc4d125aa7" prot="public" virt="non-virtual"><scope>mrmeshpy::NoCtor_GraphVertId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1NoCtor__GraphVertId_1ab883b1f3361464d2e0091088aab6bd9c" prot="public" virt="non-virtual"><scope>mrmeshpy::NoCtor_GraphVertId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1NoCtor__GraphVertId_1a141735c7562bca544889972a14993330" prot="public" virt="non-virtual"><scope>mrmeshpy::NoCtor_GraphVertId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1NoCtor__GraphVertId_1ab883b1f3361464d2e0091088aab6bd9c" prot="public" virt="non-virtual"><scope>mrmeshpy::NoCtor_GraphVertId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1NoCtor__GraphVertId_1a1b3114e6eca2193eeb08bda10c7b5084" prot="public" virt="non-virtual"><scope>mrmeshpy::NoCtor_GraphVertId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1NoCtor__GraphVertId_1a1b3114e6eca2193eeb08bda10c7b5084" prot="public" virt="non-virtual"><scope>mrmeshpy::NoCtor_GraphVertId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1NoCtor__GraphVertId_1aa052d7614001567ec787e74a6357784b" prot="public" virt="non-virtual"><scope>mrmeshpy::NoCtor_GraphVertId</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

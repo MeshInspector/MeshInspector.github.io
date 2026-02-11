@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="namespaceMR_1_1AsyncObjectLoad" kind="namespace" language="C++">
+    <compoundname>MR::AsyncObjectLoad</compoundname>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespaceMR_1_1AsyncObjectLoad_1a00566fda9bf4c9254ac5d2d9ffe7208d" prot="public" static="no">
+        <type>std::function&lt; void(<ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1LoadedObjects" kindref="compound">LoadedObjects</ref> &gt;)&gt;</type>
+        <definition>using MR::AsyncObjectLoad::PostLoadCallback =  std::function&lt;void ( Expected&lt;LoadedObjects&gt; )&gt;</definition>
+        <argsstring></argsstring>
+        <name>PostLoadCallback</name>
+        <qualifiedname>MR::AsyncObjectLoad::PostLoadCallback</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="338" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="338" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceMR_1_1AsyncObjectLoad_1a5be8803f8be8c57d2ec98589759c0507" prot="public" static="no">
+        <type>void(*)(const std::filesystem::path &amp;, <ref refid="namespaceMR_1_1AsyncObjectLoad_1a00566fda9bf4c9254ac5d2d9ffe7208d" kindref="member">PostLoadCallback</ref>, const <ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref> &amp;)</type>
+        <definition>using MR::AsyncObjectLoad::ObjectLoader =  void( * )( const std::filesystem::path&amp;, PostLoadCallback, const ProgressCallback&amp; )</definition>
+        <argsstring></argsstring>
+        <name>ObjectLoader</name>
+        <qualifiedname>MR::AsyncObjectLoad::ObjectLoader</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="339" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="339" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>namespace <ref refid="namespaceMR_1_1ObjectSave" kindref="compound">ObjectSave</ref> </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="335" column="1"/>
+  </compounddef>
+</doxygen>

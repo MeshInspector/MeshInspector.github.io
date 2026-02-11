@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR__UndirectedEdgeId" kind="struct" language="C++" prot="public">
+    <compoundname>MR_UndirectedEdgeId</compoundname>
+    <includes refid="MRId_8h" local="no">MRId.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR__UndirectedEdgeId_1a79953f7d426f4f58d72f4f77735e8089" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR_UndirectedEdgeId::id_</definition>
+        <argsstring></argsstring>
+        <name>id_</name>
+        <qualifiedname>MR_UndirectedEdgeId::id_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRId.h" line="36" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRId.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Generated from class <computeroutput>MR::UndirectedEdgeId</computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR::NoDefInit&lt;MR::UndirectedEdgeId&gt;</computeroutput> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRId.h" line="34" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRId.h" bodystart="35" bodyend="37"/>
+    <listofallmembers>
+      <member refid="structMR__UndirectedEdgeId_1a79953f7d426f4f58d72f4f77735e8089" prot="public" virt="non-virtual"><scope>MR_UndirectedEdgeId</scope><name>id_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

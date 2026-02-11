@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="conceptMR_1_1UI_1_1detail_1_1Scalar" kind="concept">
+    <compoundname>MR::UI::detail::Scalar</compoundname>
+    <includes refid="MRUIStyle_8h" local="no">MRUIStyle.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <initializer>template&lt;typename T&gt;
+concept <ref refid="conceptMR_1_1UI_1_1detail_1_1Scalar" kindref="compound">MR::UI::detail::Scalar</ref> =  std::is_arithmetic_v&lt;T&gt; &amp;&amp; !std::is_same_v&lt;T, bool&gt;    </initializer>
+    <briefdescription>
+<para>Whether <computeroutput>T</computeroutput> is a scalar type that we can use with our widgets. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="350" column="5"/>
+  </compounddef>
+</doxygen>

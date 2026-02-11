@@ -1,0 +1,765 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1MeshLoad" kind="class" language="C#" prot="public">
+    <compoundname>MR::MeshLoad</compoundname>
+    <innerclass refid="classMR_1_1MeshLoad_1_1NamedMesh" prot="public">MR::MeshLoad::NamedMesh</innerclass>
+    <innerclass refid="classMR_1_1MeshLoad_1_1ObjLoadSettings" prot="public">MR::MeshLoad::ObjLoadSettings</innerclass>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1MeshLoad_1a6b19df3e63cd1c399ed8d9e896023526" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+        <definition>static unsafe MR.Mesh MR.MeshLoad.fromCtm</definition>
+        <argsstring>(string file, MR.Const_MeshLoadSettings? settings=null)</argsstring>
+        <name>fromCtm</name>
+        <qualifiedname>MR.MeshLoad.fromCtm</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>MR.Const_MeshLoadSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>loads from .ctm file Generated from function <computeroutput><ref refid="classMR_1_1MeshLoad_1a6b19df3e63cd1c399ed8d9e896023526" kindref="member">MR.MeshLoad.fromCtm</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="1200" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="1200" bodyend="1212"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshLoad_1a1f448c12bb73983175543b2797dfb671" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+        <definition>static unsafe MR.Mesh MR.MeshLoad.fromCtm</definition>
+        <argsstring>(MR.Std.Istream in_, MR.Const_MeshLoadSettings? settings=null)</argsstring>
+        <name>fromCtm</name>
+        <qualifiedname>MR.MeshLoad.fromCtm</qualifiedname>
+        <param>
+          <type>MR.Std.Istream</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type>MR.Const_MeshLoadSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1MeshLoad_1a6b19df3e63cd1c399ed8d9e896023526" kindref="member">MR.MeshLoad.fromCtm</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="1218" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="1218" bodyend="1226"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshLoad_1a3815d5028a423c0371ddd531ebede9f5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+        <definition>static unsafe MR.Mesh MR.MeshLoad.fromStep</definition>
+        <argsstring>(string path, MR.Const_MeshLoadSettings? settings=null)</argsstring>
+        <name>fromStep</name>
+        <qualifiedname>MR.MeshLoad.fromStep</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>MR.Const_MeshLoadSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>load mesh data from STEP file using OpenCASCADE Generated from function <computeroutput><ref refid="classMR_1_1MeshLoad_1a3815d5028a423c0371ddd531ebede9f5" kindref="member">MR.MeshLoad.fromStep</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" line="10" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" bodystart="10" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshLoad_1a857aebb8c9357976e1212d4ff2311251" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+        <definition>static unsafe MR.Mesh MR.MeshLoad.fromStep</definition>
+        <argsstring>(MR.Std.Istream in_, MR.Const_MeshLoadSettings? settings=null)</argsstring>
+        <name>fromStep</name>
+        <qualifiedname>MR.MeshLoad.fromStep</qualifiedname>
+        <param>
+          <type>MR.Std.Istream</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type>MR.Const_MeshLoadSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1MeshLoad_1a3815d5028a423c0371ddd531ebede9f5" kindref="member">MR.MeshLoad.fromStep</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" line="28" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" bodystart="28" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshLoad_1ab07dafbcd59da06933f670040fe97f52" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref></type>
+        <definition>static unsafe MR.Object MR.MeshLoad.fromSceneStepFile</definition>
+        <argsstring>(string path, MR.Const_MeshLoadSettings? settings=null)</argsstring>
+        <name>fromSceneStepFile</name>
+        <qualifiedname>MR.MeshLoad.fromSceneStepFile</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>MR.Const_MeshLoadSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>load scene from STEP file using OpenCASCADE Generated from function <computeroutput><ref refid="classMR_1_1MeshLoad_1ab07dafbcd59da06933f670040fe97f52" kindref="member">MR.MeshLoad.fromSceneStepFile</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" line="43" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" bodystart="43" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshLoad_1a77442ada02ce71b9cf1be7946ab8263b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref></type>
+        <definition>static unsafe MR.Object MR.MeshLoad.fromSceneStepFile</definition>
+        <argsstring>(MR.Std.Istream in_, MR.Const_MeshLoadSettings? settings=null)</argsstring>
+        <name>fromSceneStepFile</name>
+        <qualifiedname>MR.MeshLoad.fromSceneStepFile</qualifiedname>
+        <param>
+          <type>MR.Std.Istream</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type>MR.Const_MeshLoadSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1MeshLoad_1ab07dafbcd59da06933f670040fe97f52" kindref="member">MR.MeshLoad.fromSceneStepFile</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" line="61" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" bodystart="61" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshLoad_1aa4848ac2baf83ab68b7e476127ceb15b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+        <definition>static unsafe MR.Mesh MR.MeshLoad.fromMrmesh</definition>
+        <argsstring>(string file, MR.Const_MeshLoadSettings? settings=null)</argsstring>
+        <name>fromMrmesh</name>
+        <qualifiedname>MR.MeshLoad.fromMrmesh</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>MR.Const_MeshLoadSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>loads mesh from file in internal MeshLib format Generated from function <computeroutput><ref refid="classMR_1_1MeshLoad_1aa4848ac2baf83ab68b7e476127ceb15b" kindref="member">MR.MeshLoad.fromMrmesh</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" line="326" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" bodystart="326" bodyend="338"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshLoad_1ab1c2632f5d8a7b89644f9438ebd3fed9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+        <definition>static unsafe MR.Mesh MR.MeshLoad.fromMrmesh</definition>
+        <argsstring>(MR.Std.Istream in_, MR.Const_MeshLoadSettings? settings=null)</argsstring>
+        <name>fromMrmesh</name>
+        <qualifiedname>MR.MeshLoad.fromMrmesh</qualifiedname>
+        <param>
+          <type>MR.Std.Istream</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type>MR.Const_MeshLoadSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>loads mesh from stream in internal MeshLib format; important on Windows: in stream must be open in binary mode Generated from function <computeroutput><ref refid="classMR_1_1MeshLoad_1aa4848ac2baf83ab68b7e476127ceb15b" kindref="member">MR.MeshLoad.fromMrmesh</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" line="346" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" bodystart="346" bodyend="354"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshLoad_1aa4f8b2a872f07f09bcff02dbdbe5656b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+        <definition>static unsafe MR.Mesh MR.MeshLoad.fromOff</definition>
+        <argsstring>(string file, MR.Const_MeshLoadSettings? settings=null)</argsstring>
+        <name>fromOff</name>
+        <qualifiedname>MR.MeshLoad.fromOff</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>MR.Const_MeshLoadSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>loads mesh from file in .OFF format Generated from function <computeroutput><ref refid="classMR_1_1MeshLoad_1aa4f8b2a872f07f09bcff02dbdbe5656b" kindref="member">MR.MeshLoad.fromOff</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" line="361" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" bodystart="361" bodyend="373"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshLoad_1a1102e760ff9b2c8bb7c065856b2d2744" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+        <definition>static unsafe MR.Mesh MR.MeshLoad.fromOff</definition>
+        <argsstring>(MR.Std.Istream in_, MR.Const_MeshLoadSettings? settings=null)</argsstring>
+        <name>fromOff</name>
+        <qualifiedname>MR.MeshLoad.fromOff</qualifiedname>
+        <param>
+          <type>MR.Std.Istream</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type>MR.Const_MeshLoadSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>loads mesh from stream in .OFF format Generated from function <computeroutput><ref refid="classMR_1_1MeshLoad_1aa4f8b2a872f07f09bcff02dbdbe5656b" kindref="member">MR.MeshLoad.fromOff</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" line="380" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" bodystart="380" bodyend="388"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshLoad_1a3dd0ac7dd44198fa8ccaa1f0ce8915b8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+        <definition>static unsafe MR.Mesh MR.MeshLoad.fromObj</definition>
+        <argsstring>(string file, MR.Const_MeshLoadSettings? settings=null)</argsstring>
+        <name>fromObj</name>
+        <qualifiedname>MR.MeshLoad.fromObj</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>MR.Const_MeshLoadSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>loads mesh from file in .OBJ format Generated from function <computeroutput><ref refid="classMR_1_1MeshLoad_1a3dd0ac7dd44198fa8ccaa1f0ce8915b8" kindref="member">MR.MeshLoad.fromObj</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" line="395" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" bodystart="395" bodyend="407"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshLoad_1a1b2bd3a4795102ebfd5586598d2878ee" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+        <definition>static unsafe MR.Mesh MR.MeshLoad.fromObj</definition>
+        <argsstring>(MR.Std.Istream in_, MR.Const_MeshLoadSettings? settings=null)</argsstring>
+        <name>fromObj</name>
+        <qualifiedname>MR.MeshLoad.fromObj</qualifiedname>
+        <param>
+          <type>MR.Std.Istream</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type>MR.Const_MeshLoadSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>loads mesh from stream in .OBJ format; important on Windows: in stream must be open in binary mode Generated from function <computeroutput><ref refid="classMR_1_1MeshLoad_1a3dd0ac7dd44198fa8ccaa1f0ce8915b8" kindref="member">MR.MeshLoad.fromObj</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" line="415" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" bodystart="415" bodyend="423"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshLoad_1a09653ec5e1a7cc0cfc4f8106ecc4c933" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+        <definition>static unsafe MR.Mesh MR.MeshLoad.fromAnyStl</definition>
+        <argsstring>(string file, MR.Const_MeshLoadSettings? settings=null)</argsstring>
+        <name>fromAnyStl</name>
+        <qualifiedname>MR.MeshLoad.fromAnyStl</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>MR.Const_MeshLoadSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>loads mesh from file in any .STL format: both binary and ASCII Generated from function <computeroutput><ref refid="classMR_1_1MeshLoad_1a09653ec5e1a7cc0cfc4f8106ecc4c933" kindref="member">MR.MeshLoad.fromAnyStl</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" line="430" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" bodystart="430" bodyend="442"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshLoad_1aa08b3cb60ecad8b7f08b7ec9a00e6a6d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+        <definition>static unsafe MR.Mesh MR.MeshLoad.fromAnyStl</definition>
+        <argsstring>(MR.Std.Istream in_, MR.Const_MeshLoadSettings? settings=null)</argsstring>
+        <name>fromAnyStl</name>
+        <qualifiedname>MR.MeshLoad.fromAnyStl</qualifiedname>
+        <param>
+          <type>MR.Std.Istream</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type>MR.Const_MeshLoadSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>loads mesh from stream in any .STL format: both binary and ASCII; important on Windows: in stream must be open in binary mode Generated from function <computeroutput><ref refid="classMR_1_1MeshLoad_1a09653ec5e1a7cc0cfc4f8106ecc4c933" kindref="member">MR.MeshLoad.fromAnyStl</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" line="450" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" bodystart="450" bodyend="458"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshLoad_1a2d0218fccd9ca5feeaf428af4d446a4d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+        <definition>static unsafe MR.Mesh MR.MeshLoad.fromBinaryStl</definition>
+        <argsstring>(string file, MR.Const_MeshLoadSettings? settings=null)</argsstring>
+        <name>fromBinaryStl</name>
+        <qualifiedname>MR.MeshLoad.fromBinaryStl</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>MR.Const_MeshLoadSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>loads mesh from file in binary .STL format Generated from function <computeroutput><ref refid="classMR_1_1MeshLoad_1a2d0218fccd9ca5feeaf428af4d446a4d" kindref="member">MR.MeshLoad.fromBinaryStl</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" line="465" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" bodystart="465" bodyend="477"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshLoad_1a146d5b4a6df0d68b51b6ccf87bc9a514" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+        <definition>static unsafe MR.Mesh MR.MeshLoad.fromBinaryStl</definition>
+        <argsstring>(MR.Std.Istream in_, MR.Const_MeshLoadSettings? settings=null)</argsstring>
+        <name>fromBinaryStl</name>
+        <qualifiedname>MR.MeshLoad.fromBinaryStl</qualifiedname>
+        <param>
+          <type>MR.Std.Istream</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type>MR.Const_MeshLoadSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>loads mesh from stream in binary .STL format; important on Windows: in stream must be open in binary mode Generated from function <computeroutput><ref refid="classMR_1_1MeshLoad_1a2d0218fccd9ca5feeaf428af4d446a4d" kindref="member">MR.MeshLoad.fromBinaryStl</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" line="485" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" bodystart="485" bodyend="493"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshLoad_1af2ca53f28dccee34e3ce10d46ebd1360" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+        <definition>static unsafe MR.Mesh MR.MeshLoad.fromASCIIStl</definition>
+        <argsstring>(string file, MR.Const_MeshLoadSettings? settings=null)</argsstring>
+        <name>fromASCIIStl</name>
+        <qualifiedname>MR.MeshLoad.fromASCIIStl</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>MR.Const_MeshLoadSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>loads mesh from file in textual .STL format Generated from function <computeroutput><ref refid="classMR_1_1MeshLoad_1af2ca53f28dccee34e3ce10d46ebd1360" kindref="member">MR.MeshLoad.fromASCIIStl</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" line="500" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" bodystart="500" bodyend="512"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshLoad_1a6e7d842eabeb4c9dc792432b6ac3fd67" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+        <definition>static unsafe MR.Mesh MR.MeshLoad.fromASCIIStl</definition>
+        <argsstring>(MR.Std.Istream in_, MR.Const_MeshLoadSettings? settings=null)</argsstring>
+        <name>fromASCIIStl</name>
+        <qualifiedname>MR.MeshLoad.fromASCIIStl</qualifiedname>
+        <param>
+          <type>MR.Std.Istream</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type>MR.Const_MeshLoadSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>loads mesh from stream in textual .STL format Generated from function <computeroutput><ref refid="classMR_1_1MeshLoad_1af2ca53f28dccee34e3ce10d46ebd1360" kindref="member">MR.MeshLoad.fromASCIIStl</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" line="519" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" bodystart="519" bodyend="527"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshLoad_1a89ff61c812dcec0e16609fea5493d24c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+        <definition>static unsafe MR.Mesh MR.MeshLoad.fromPly</definition>
+        <argsstring>(string file, MR.Const_MeshLoadSettings? settings=null)</argsstring>
+        <name>fromPly</name>
+        <qualifiedname>MR.MeshLoad.fromPly</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>MR.Const_MeshLoadSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>loads mesh from file in .PLY format; Generated from function <computeroutput><ref refid="classMR_1_1MeshLoad_1a89ff61c812dcec0e16609fea5493d24c" kindref="member">MR.MeshLoad.fromPly</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" line="534" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" bodystart="534" bodyend="546"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshLoad_1af6fbd4d73d3b3d4ad17101bb7182b5bb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+        <definition>static unsafe MR.Mesh MR.MeshLoad.fromPly</definition>
+        <argsstring>(MR.Std.Istream in_, MR.Const_MeshLoadSettings? settings=null)</argsstring>
+        <name>fromPly</name>
+        <qualifiedname>MR.MeshLoad.fromPly</qualifiedname>
+        <param>
+          <type>MR.Std.Istream</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type>MR.Const_MeshLoadSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>loads mesh from stream in .PLY format; important on Windows: in stream must be open in binary mode Generated from function <computeroutput><ref refid="classMR_1_1MeshLoad_1a89ff61c812dcec0e16609fea5493d24c" kindref="member">MR.MeshLoad.fromPly</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" line="554" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" bodystart="554" bodyend="562"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshLoad_1af0272b617b0ff4d5445053ab5f0bafbd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+        <definition>static unsafe MR.Mesh MR.MeshLoad.fromDxf</definition>
+        <argsstring>(string path, MR.Const_MeshLoadSettings? settings=null)</argsstring>
+        <name>fromDxf</name>
+        <qualifiedname>MR.MeshLoad.fromDxf</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>MR.Const_MeshLoadSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>loads mesh from file in .DXF format; Generated from function <computeroutput><ref refid="classMR_1_1MeshLoad_1af0272b617b0ff4d5445053ab5f0bafbd" kindref="member">MR.MeshLoad.fromDxf</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" line="569" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" bodystart="569" bodyend="581"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshLoad_1a0033c99ba79a767c4b97796416401bea" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+        <definition>static unsafe MR.Mesh MR.MeshLoad.fromDxf</definition>
+        <argsstring>(MR.Std.Istream in_, MR.Const_MeshLoadSettings? settings=null)</argsstring>
+        <name>fromDxf</name>
+        <qualifiedname>MR.MeshLoad.fromDxf</qualifiedname>
+        <param>
+          <type>MR.Std.Istream</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type>MR.Const_MeshLoadSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>loads mesh from stream in .DXF format; Generated from function <computeroutput><ref refid="classMR_1_1MeshLoad_1af0272b617b0ff4d5445053ab5f0bafbd" kindref="member">MR.MeshLoad.fromDxf</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" line="588" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" bodystart="588" bodyend="596"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshLoad_1a17927ac2738dc307b6caca3fa4f3de52" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+        <definition>static unsafe MR.Mesh MR.MeshLoad.fromAnySupportedFormat</definition>
+        <argsstring>(string file, MR.Const_MeshLoadSettings? settings=null)</argsstring>
+        <name>fromAnySupportedFormat</name>
+        <qualifiedname>MR.MeshLoad.fromAnySupportedFormat</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>MR.Const_MeshLoadSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>loads mesh from file in the format detected from file extension Generated from function <computeroutput><ref refid="classMR_1_1MeshLoad_1a17927ac2738dc307b6caca3fa4f3de52" kindref="member">MR.MeshLoad.fromAnySupportedFormat</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" line="603" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" bodystart="603" bodyend="615"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshLoad_1a4d7b22c18ce187cc9eaa4a08d075dddf" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+        <definition>static unsafe MR.Mesh MR.MeshLoad.fromAnySupportedFormat</definition>
+        <argsstring>(MR.Std.Istream in_, string extension, MR.Const_MeshLoadSettings? settings=null)</argsstring>
+        <name>fromAnySupportedFormat</name>
+        <qualifiedname>MR.MeshLoad.fromAnySupportedFormat</qualifiedname>
+        <param>
+          <type>MR.Std.Istream</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>extension</declname>
+        </param>
+        <param>
+          <type>MR.Const_MeshLoadSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>loads mesh from stream in the format detected from given extension-string (<computeroutput>*.ext</computeroutput>); important on Windows: in stream must be open in binary mode Generated from function <computeroutput><ref refid="classMR_1_1MeshLoad_1a17927ac2738dc307b6caca3fa4f3de52" kindref="member">MR.MeshLoad.fromAnySupportedFormat</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" line="623" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" bodystart="623" bodyend="635"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshLoad_1a09b8e0d196618f33c39af99989ecdd83" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRMeshLoadNamedMesh</type>
+        <definition>static unsafe MR.Std.Vector_MRMeshLoadNamedMesh MR.MeshLoad.fromSceneObjFile</definition>
+        <argsstring>(string file, bool combineAllObjects, MR.MeshLoad.Const_ObjLoadSettings? settings=null)</argsstring>
+        <name>fromSceneObjFile</name>
+        <qualifiedname>MR.MeshLoad.fromSceneObjFile</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>combineAllObjects</declname>
+        </param>
+        <param>
+          <type>MR.MeshLoad.Const_ObjLoadSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>loads meshes from .obj file Generated from function <computeroutput><ref refid="classMR_1_1MeshLoad_1a09b8e0d196618f33c39af99989ecdd83" kindref="member">MR.MeshLoad.fromSceneObjFile</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoadObj.cs" line="688" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoadObj.cs" bodystart="688" bodyend="700"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshLoad_1a46772cac2cfbb813f60b6bd519043139" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRMeshLoadNamedMesh</type>
+        <definition>static unsafe MR.Std.Vector_MRMeshLoadNamedMesh MR.MeshLoad.fromSceneObjFile</definition>
+        <argsstring>(MR.Std.Istream in_, bool combineAllObjects, string dir, MR.MeshLoad.Const_ObjLoadSettings? settings=null)</argsstring>
+        <name>fromSceneObjFile</name>
+        <qualifiedname>MR.MeshLoad.fromSceneObjFile</qualifiedname>
+        <param>
+          <type>MR.Std.Istream</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>combineAllObjects</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>dir</declname>
+        </param>
+        <param>
+          <type>MR.MeshLoad.Const_ObjLoadSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>loads meshes from a stream with .obj file contents important on Windows: in stream must be open in binary mode </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dir</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>working directory where materials and textures are located Generated from function <computeroutput><ref refid="classMR_1_1MeshLoad_1a09b8e0d196618f33c39af99989ecdd83" kindref="member">MR.MeshLoad.fromSceneObjFile</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoadObj.cs" line="709" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoadObj.cs" bodystart="709" bodyend="721"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshLoad_1adf4be732a02d57b2f8639c941f78fefd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRMeshLoadNamedMesh</type>
+        <definition>static unsafe MR.Std.Vector_MRMeshLoadNamedMesh MR.MeshLoad.fromSceneObjFile</definition>
+        <argsstring>(byte? data, ulong size, bool combineAllObjects, string dir, MR.MeshLoad.Const_ObjLoadSettings? settings=null)</argsstring>
+        <name>fromSceneObjFile</name>
+        <qualifiedname>MR.MeshLoad.fromSceneObjFile</qualifiedname>
+        <param>
+          <type>byte?</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>combineAllObjects</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>dir</declname>
+        </param>
+        <param>
+          <type>MR.MeshLoad.Const_ObjLoadSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>loads meshes from memory array with .obj file contents </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dir</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>working directory where materials and textures are located Generated from function <computeroutput><ref refid="classMR_1_1MeshLoad_1a09b8e0d196618f33c39af99989ecdd83" kindref="member">MR.MeshLoad.fromSceneObjFile</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoadObj.cs" line="729" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoadObj.cs" bodystart="729" bodyend="742"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshLoad_1a32f84956340084a360951274b67db47e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1LoadedObjects" kindref="compound">MR.LoadedObjects</ref></type>
+        <definition>static unsafe MR.LoadedObjects MR.MeshLoad.loadObjectFromObj</definition>
+        <argsstring>(string file, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</argsstring>
+        <name>loadObjectFromObj</name>
+        <qualifiedname>MR.MeshLoad.loadObjectFromObj</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_BoolFuncFromFloat?</type>
+          <declname>cb</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>reads all objects from .OBJ file Generated from function <computeroutput><ref refid="classMR_1_1MeshLoad_1a32f84956340084a360951274b67db47e" kindref="member">MR.MeshLoad.loadObjectFromObj</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoadObj.cs" line="749" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoadObj.cs" bodystart="749" bodyend="761"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="1193" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoadObj.cs" bodystart="4" bodyend="762"/>
+    <listofallmembers>
+      <member refid="classMR_1_1MeshLoad_1a09653ec5e1a7cc0cfc4f8106ecc4c933" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromAnyStl</name></member>
+      <member refid="classMR_1_1MeshLoad_1aa08b3cb60ecad8b7f08b7ec9a00e6a6d" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromAnyStl</name></member>
+      <member refid="classMR_1_1MeshLoad_1a17927ac2738dc307b6caca3fa4f3de52" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromAnySupportedFormat</name></member>
+      <member refid="classMR_1_1MeshLoad_1a4d7b22c18ce187cc9eaa4a08d075dddf" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromAnySupportedFormat</name></member>
+      <member refid="classMR_1_1MeshLoad_1af2ca53f28dccee34e3ce10d46ebd1360" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromASCIIStl</name></member>
+      <member refid="classMR_1_1MeshLoad_1a6e7d842eabeb4c9dc792432b6ac3fd67" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromASCIIStl</name></member>
+      <member refid="classMR_1_1MeshLoad_1a2d0218fccd9ca5feeaf428af4d446a4d" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromBinaryStl</name></member>
+      <member refid="classMR_1_1MeshLoad_1a146d5b4a6df0d68b51b6ccf87bc9a514" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromBinaryStl</name></member>
+      <member refid="classMR_1_1MeshLoad_1a6b19df3e63cd1c399ed8d9e896023526" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromCtm</name></member>
+      <member refid="classMR_1_1MeshLoad_1a1f448c12bb73983175543b2797dfb671" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromCtm</name></member>
+      <member refid="classMR_1_1MeshLoad_1af0272b617b0ff4d5445053ab5f0bafbd" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromDxf</name></member>
+      <member refid="classMR_1_1MeshLoad_1a0033c99ba79a767c4b97796416401bea" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromDxf</name></member>
+      <member refid="classMR_1_1MeshLoad_1aa4848ac2baf83ab68b7e476127ceb15b" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromMrmesh</name></member>
+      <member refid="classMR_1_1MeshLoad_1ab1c2632f5d8a7b89644f9438ebd3fed9" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromMrmesh</name></member>
+      <member refid="classMR_1_1MeshLoad_1a3dd0ac7dd44198fa8ccaa1f0ce8915b8" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromObj</name></member>
+      <member refid="classMR_1_1MeshLoad_1a1b2bd3a4795102ebfd5586598d2878ee" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromObj</name></member>
+      <member refid="classMR_1_1MeshLoad_1aa4f8b2a872f07f09bcff02dbdbe5656b" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromOff</name></member>
+      <member refid="classMR_1_1MeshLoad_1a1102e760ff9b2c8bb7c065856b2d2744" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromOff</name></member>
+      <member refid="classMR_1_1MeshLoad_1a89ff61c812dcec0e16609fea5493d24c" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromPly</name></member>
+      <member refid="classMR_1_1MeshLoad_1af6fbd4d73d3b3d4ad17101bb7182b5bb" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromPly</name></member>
+      <member refid="classMR_1_1MeshLoad_1a09b8e0d196618f33c39af99989ecdd83" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromSceneObjFile</name></member>
+      <member refid="classMR_1_1MeshLoad_1a46772cac2cfbb813f60b6bd519043139" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromSceneObjFile</name></member>
+      <member refid="classMR_1_1MeshLoad_1adf4be732a02d57b2f8639c941f78fefd" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromSceneObjFile</name></member>
+      <member refid="classMR_1_1MeshLoad_1ab07dafbcd59da06933f670040fe97f52" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromSceneStepFile</name></member>
+      <member refid="classMR_1_1MeshLoad_1a77442ada02ce71b9cf1be7946ab8263b" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromSceneStepFile</name></member>
+      <member refid="classMR_1_1MeshLoad_1a3815d5028a423c0371ddd531ebede9f5" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromStep</name></member>
+      <member refid="classMR_1_1MeshLoad_1a857aebb8c9357976e1212d4ff2311251" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromStep</name></member>
+      <member refid="classMR_1_1MeshLoad_1a32f84956340084a360951274b67db47e" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>loadObjectFromObj</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

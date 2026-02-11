@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MeshSave_1_1MeshSaver" kind="struct" language="C++" prot="public">
+    <compoundname>MR::MeshSave::MeshSaver</compoundname>
+    <includes refid="MRIOFormatsRegistry_8h" local="no">MRIOFormatsRegistry.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1MeshSave_1_1MeshSaver_1a4951d53470a1d6ced4ee918e8836c3fc" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1_1MeshSave_1a44ae097f41a9722d0110ffb971ba7ce0" kindref="member">MeshFileSaver</ref></type>
+        <definition>MeshFileSaver MR::MeshSave::MeshSaver::fileSave</definition>
+        <argsstring></argsstring>
+        <name>fileSave</name>
+        <qualifiedname>MR::MeshSave::MeshSaver::fileSave</qualifiedname>
+        <initializer>{ nullptr }</initializer>
+        <briefdescription>
+<para>saver in a file given by its path </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="181" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="181" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1MeshSave_1_1MeshSaver_1a42c3b3942648bbdf04a63ea09d084621" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1_1MeshSave_1a7e16b086c414a0768e241ea5f21ca9b6" kindref="member">MeshStreamSaver</ref></type>
+        <definition>MeshStreamSaver MR::MeshSave::MeshSaver::streamSave</definition>
+        <argsstring></argsstring>
+        <name>streamSave</name>
+        <qualifiedname>MR::MeshSave::MeshSaver::streamSave</qualifiedname>
+        <initializer>{ nullptr }</initializer>
+        <briefdescription>
+<para>saver in a std::ostream </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="184" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="184" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1MeshSave_1_1MeshSaver_1a88e501ec164cae8c6cfe40f5fa7438cc" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1MeshSave_1_1MeshSaverCapabilities" kindref="compound">MeshSaverCapabilities</ref></type>
+        <definition>MeshSaverCapabilities MR::MeshSave::MeshSaver::capabilities</definition>
+        <argsstring></argsstring>
+        <name>capabilities</name>
+        <qualifiedname>MR::MeshSave::MeshSaver::capabilities</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="186" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="186" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::Mesh</label>
+        <link refid="structMR_1_1Mesh"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>topology</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::MeshSave::MeshSaver</label>
+        <link refid="structMR_1_1MeshSave_1_1MeshSaver"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>fileSave</edgelabel>
+          <edgelabel>streamSave</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>capabilities</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::MeshSave::MeshSaverCapabilities</label>
+        <link refid="structMR_1_1MeshSave_1_1MeshSaverCapabilities"/>
+      </node>
+      <node id="3">
+        <label>MR::MeshTopology</label>
+        <link refid="classMR_1_1MeshTopology"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="178" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="179" bodyend="187"/>
+    <listofallmembers>
+      <member refid="structMR_1_1MeshSave_1_1MeshSaver_1a88e501ec164cae8c6cfe40f5fa7438cc" prot="public" virt="non-virtual"><scope>MR::MeshSave::MeshSaver</scope><name>capabilities</name></member>
+      <member refid="structMR_1_1MeshSave_1_1MeshSaver_1a4951d53470a1d6ced4ee918e8836c3fc" prot="public" virt="non-virtual"><scope>MR::MeshSave::MeshSaver</scope><name>fileSave</name></member>
+      <member refid="structMR_1_1MeshSave_1_1MeshSaver_1a42c3b3942648bbdf04a63ea09d084621" prot="public" virt="non-virtual"><scope>MR::MeshSave::MeshSaver</scope><name>streamSave</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

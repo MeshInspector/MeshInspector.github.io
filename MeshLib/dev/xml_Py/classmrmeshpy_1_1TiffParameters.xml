@@ -1,0 +1,377 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1TiffParameters" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::TiffParameters</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1BaseTiffParameters" prot="public" virt="non-virtual">mrmeshpy.BaseTiffParameters</basecompoundref>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1TiffParameters_1ad28c0a3c075e0de9cb12a935b910e037" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.TiffParameters::__hash__</definition>
+        <argsstring></argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.TiffParameters.__hash__</qualifiedname>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56601" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56601" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1TiffParameters_1a076f23ca1ac9ac4a5ca4b86cf7c55059" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.TiffParameters::_offsetof_depth</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_depth</name>
+        <qualifiedname>mrmeshpy.TiffParameters._offsetof_depth</qualifiedname>
+        <initializer>=  36</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56602" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56602" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1TiffParameters_1a22fe6cf2eae59226c85c58532c3fc3b7" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.TiffParameters::_offsetof_layers</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_layers</name>
+        <qualifiedname>mrmeshpy.TiffParameters._offsetof_layers</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56603" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56603" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1TiffParameters_1aec0ffb9ed353de6f59a934aaa4172f00" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.TiffParameters::_offsetof_tileSize</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_tileSize</name>
+        <qualifiedname>mrmeshpy.TiffParameters._offsetof_tileSize</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56604" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56604" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1TiffParameters_1acf48a9f83d2d105c8622fb4673779222" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.TiffParameters::_offsetof_tiled</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_tiled</name>
+        <qualifiedname>mrmeshpy.TiffParameters._offsetof_tiled</qualifiedname>
+        <initializer>=  20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56605" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56605" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1TiffParameters_1a8f0c4c531b9042105ed15f43b1116b15" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.TiffParameters.__eq__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.TiffParameters.__eq__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BaseTiffParameters_1a0cfc2d8dbaa827bb3831fda275faa8f5">__eq__</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56609" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56609" bodyend="56610"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TiffParameters_1a8b7359e57cafc3c35dba79fb2a05bda1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TiffParameters.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TiffParameters.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BaseTiffParameters_1a199dcc77637fc5a6ba8b6bd7e176e63c">__init__</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56613" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56613" bodyend="56614"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TiffParameters_1a5004274eed0cc83fe2af304692de667e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TiffParameters" kindref="compound">TiffParameters</ref></type>
+        <definition> TiffParameters mrmeshpy.TiffParameters.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.TiffParameters.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BaseTiffParameters_1a69d8a9b48bc8d18546a6cd000cff16ee">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56617" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56617" bodyend="56618"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TiffParameters_1a5004274eed0cc83fe2af304692de667e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TiffParameters" kindref="compound">TiffParameters</ref></type>
+        <definition> TiffParameters mrmeshpy.TiffParameters.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.TiffParameters.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BaseTiffParameters_1a69d8a9b48bc8d18546a6cd000cff16ee">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56621" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56621" bodyend="56622"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1TiffParameters_1abd2bc65edbd4c83c1feb9a0f80d9c17d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TiffParameters.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TiffParameters.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BaseTiffParameters_1a199dcc77637fc5a6ba8b6bd7e176e63c">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56624" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56624" bodyend="56625"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TiffParameters_1a1f45c922ee0e86478df53b1824c96008" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TiffParameters.__init__</definition>
+        <argsstring>(self, TiffParameters arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TiffParameters.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BaseTiffParameters_1a199dcc77637fc5a6ba8b6bd7e176e63c">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TiffParameters" kindref="compound">TiffParameters</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56627" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56627" bodyend="56630"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TiffParameters_1a8dc6b61dccbe27bcd4f4020b01d0df36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.TiffParameters.depth</definition>
+        <argsstring>(self)</argsstring>
+        <name>depth</name>
+        <qualifiedname>mrmeshpy.TiffParameters.depth</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>tile depth (if several layers)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56632" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56632" bodyend="56635"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TiffParameters_1a4f2544a1815776aced43a261cfc36680" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TiffParameters.depth</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>depth</name>
+        <qualifiedname>mrmeshpy.TiffParameters.depth</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56637" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56637" bodyend="56638"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TiffParameters_1afce89f5c2994009380c361b85115ba69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.TiffParameters.tiled</definition>
+        <argsstring>(self)</argsstring>
+        <name>tiled</name>
+        <qualifiedname>mrmeshpy.TiffParameters.tiled</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>true if tif file is tiled
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56640" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56640" bodyend="56643"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TiffParameters_1a52b21988e55e57f1a430dee3e185e0b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TiffParameters.tiled</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>tiled</name>
+        <qualifiedname>mrmeshpy.TiffParameters.tiled</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56645" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56645" bodyend="56646"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::TiffParameters
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.TiffParameters</label>
+        <link refid="classmrmeshpy_1_1TiffParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.BaseTiffParameters</label>
+        <link refid="classmrmeshpy_1_1BaseTiffParameters"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.TiffParameters</label>
+        <link refid="classmrmeshpy_1_1TiffParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_offsetof_depth</edgelabel>
+          <edgelabel>_offsetof_layers</edgelabel>
+          <edgelabel>_offsetof_tileSize</edgelabel>
+          <edgelabel>_offsetof_tiled</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.BaseTiffParameters</label>
+        <link refid="classmrmeshpy_1_1BaseTiffParameters"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_offsetof_bytesPerSample</edgelabel>
+          <edgelabel>_offsetof_imageSize</edgelabel>
+          <edgelabel>_offsetof_sampleType</edgelabel>
+          <edgelabel>_offsetof_valueType</edgelabel>
+        </childnode>
+        <childnode refid="2" relation="usage">
+          <edgelabel>sampleType</edgelabel>
+          <edgelabel>valueType</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56597" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56597" bodyend="56646"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1TiffParameters_1a8f0c4c531b9042105ed15f43b1116b15" prot="public" virt="non-virtual"><scope>mrmeshpy::TiffParameters</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1TiffParameters_1ad28c0a3c075e0de9cb12a935b910e037" prot="private" virt="non-virtual"><scope>mrmeshpy::TiffParameters</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1TiffParameters_1a8b7359e57cafc3c35dba79fb2a05bda1" prot="public" virt="non-virtual"><scope>mrmeshpy::TiffParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TiffParameters_1abd2bc65edbd4c83c1feb9a0f80d9c17d" prot="public" virt="non-virtual"><scope>mrmeshpy::TiffParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TiffParameters_1a1f45c922ee0e86478df53b1824c96008" prot="public" virt="non-virtual"><scope>mrmeshpy::TiffParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TiffParameters_1a076f23ca1ac9ac4a5ca4b86cf7c55059" prot="protected" virt="non-virtual"><scope>mrmeshpy::TiffParameters</scope><name>_offsetof_depth</name></member>
+      <member refid="classmrmeshpy_1_1TiffParameters_1a22fe6cf2eae59226c85c58532c3fc3b7" prot="protected" virt="non-virtual"><scope>mrmeshpy::TiffParameters</scope><name>_offsetof_layers</name></member>
+      <member refid="classmrmeshpy_1_1TiffParameters_1acf48a9f83d2d105c8622fb4673779222" prot="protected" virt="non-virtual"><scope>mrmeshpy::TiffParameters</scope><name>_offsetof_tiled</name></member>
+      <member refid="classmrmeshpy_1_1TiffParameters_1aec0ffb9ed353de6f59a934aaa4172f00" prot="protected" virt="non-virtual"><scope>mrmeshpy::TiffParameters</scope><name>_offsetof_tileSize</name></member>
+      <member refid="classmrmeshpy_1_1TiffParameters_1a8dc6b61dccbe27bcd4f4020b01d0df36" prot="public" virt="non-virtual"><scope>mrmeshpy::TiffParameters</scope><name>depth</name></member>
+      <member refid="classmrmeshpy_1_1TiffParameters_1a4f2544a1815776aced43a261cfc36680" prot="public" virt="non-virtual"><scope>mrmeshpy::TiffParameters</scope><name>depth</name></member>
+      <member refid="classmrmeshpy_1_1TiffParameters_1a5004274eed0cc83fe2af304692de667e" prot="public" virt="non-virtual"><scope>mrmeshpy::TiffParameters</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1TiffParameters_1a5004274eed0cc83fe2af304692de667e" prot="public" virt="non-virtual"><scope>mrmeshpy::TiffParameters</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1TiffParameters_1afce89f5c2994009380c361b85115ba69" prot="public" virt="non-virtual"><scope>mrmeshpy::TiffParameters</scope><name>tiled</name></member>
+      <member refid="classmrmeshpy_1_1TiffParameters_1a52b21988e55e57f1a430dee3e185e0b7" prot="public" virt="non-virtual"><scope>mrmeshpy::TiffParameters</scope><name>tiled</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

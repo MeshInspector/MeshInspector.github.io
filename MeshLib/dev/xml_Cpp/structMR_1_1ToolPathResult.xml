@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ToolPathResult" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ToolPathResult</compoundname>
+    <includes refid="MRToolPath_8h" local="no">MRToolPath.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1ToolPathResult_1ae495a5fc24540b7eaf1210872ac5fb3e" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition>Mesh MR::ToolPathResult::modifiedMesh</definition>
+        <argsstring></argsstring>
+        <name>modifiedMesh</name>
+        <qualifiedname>MR::ToolPathResult::modifiedMesh</qualifiedname>
+        <briefdescription>
+<para>mesh after fixing undercuts and offset </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" line="129" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ToolPathResult_1a98b818ec1b422fbe35f5efd57ff37a44" prot="public" static="no" mutable="no">
+        <type>FaceBitSet</type>
+        <definition>FaceBitSet MR::ToolPathResult::modifiedRegion</definition>
+        <argsstring></argsstring>
+        <name>modifiedRegion</name>
+        <qualifiedname>MR::ToolPathResult::modifiedRegion</qualifiedname>
+        <briefdescription>
+<para>selected region projected from the original mesh to the offset </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" line="131" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ToolPathResult_1a327bcaceb046cef6859ddc1293a47e35" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="structMR_1_1GCommand" kindref="compound">GCommand</ref> &gt;</type>
+        <definition>std::vector&lt;GCommand&gt; MR::ToolPathResult::commands</definition>
+        <argsstring></argsstring>
+        <name>commands</name>
+        <qualifiedname>MR::ToolPathResult::commands</qualifiedname>
+        <briefdescription>
+<para>constains type of movement and its feed </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" line="133" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" bodystart="133" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::Mesh</label>
+        <link refid="structMR_1_1Mesh"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>topology</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::MeshTopology</label>
+        <link refid="classMR_1_1MeshTopology"/>
+      </node>
+      <node id="1">
+        <label>MR::ToolPathResult</label>
+        <link refid="structMR_1_1ToolPathResult"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>modifiedMesh</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" line="126" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" bodystart="127" bodyend="134"/>
+    <listofallmembers>
+      <member refid="structMR_1_1ToolPathResult_1a327bcaceb046cef6859ddc1293a47e35" prot="public" virt="non-virtual"><scope>MR::ToolPathResult</scope><name>commands</name></member>
+      <member refid="structMR_1_1ToolPathResult_1ae495a5fc24540b7eaf1210872ac5fb3e" prot="public" virt="non-virtual"><scope>MR::ToolPathResult</scope><name>modifiedMesh</name></member>
+      <member refid="structMR_1_1ToolPathResult_1a98b818ec1b422fbe35f5efd57ff37a44" prot="public" virt="non-virtual"><scope>MR::ToolPathResult</scope><name>modifiedRegion</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

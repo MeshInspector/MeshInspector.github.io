@@ -1,0 +1,468 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1AddCustomThemePlugin" kind="class" language="C++" prot="public">
+    <compoundname>MR::AddCustomThemePlugin</compoundname>
+    <basecompoundref refid="classMR_1_1StateListenerPlugin" prot="public" virt="non-virtual">MR::StateListenerPlugin&lt;&gt;</basecompoundref>
+    <includes refid="MRAddCustomTheme_8h" local="no">MRAddCustomTheme.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1AddCustomThemePlugin_1ac0c7252737c08037ca192037ccaa929b" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::AddCustomThemePlugin::applyToNewObjectsOnly_</definition>
+        <argsstring></argsstring>
+        <name>applyToNewObjectsOnly_</name>
+        <qualifiedname>MR::AddCustomThemePlugin::applyToNewObjectsOnly_</qualifiedname>
+        <initializer>{ true }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRAddCustomTheme.h" line="30" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRAddCustomTheme.h" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1AddCustomThemePlugin_1a9e2ee2d4b6bef3e13837207ada48bccd" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; Vector4f &gt;</type>
+        <definition>std::vector&lt;Vector4f&gt; MR::AddCustomThemePlugin::sceneColors_</definition>
+        <argsstring></argsstring>
+        <name>sceneColors_</name>
+        <qualifiedname>MR::AddCustomThemePlugin::sceneColors_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRAddCustomTheme.h" line="31" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRAddCustomTheme.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1AddCustomThemePlugin_1a2e83d9c83f46b4504a07a4e272000e31" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; Vector4f &gt;</type>
+        <definition>std::vector&lt;Vector4f&gt; MR::AddCustomThemePlugin::ribbonColors_</definition>
+        <argsstring></argsstring>
+        <name>ribbonColors_</name>
+        <qualifiedname>MR::AddCustomThemePlugin::ribbonColors_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRAddCustomTheme.h" line="32" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRAddCustomTheme.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1AddCustomThemePlugin_1a5a0462bde8369c6529b6740225534dc6" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; Vector4f &gt;</type>
+        <definition>std::vector&lt;Vector4f&gt; MR::AddCustomThemePlugin::viewportColors_</definition>
+        <argsstring></argsstring>
+        <name>viewportColors_</name>
+        <qualifiedname>MR::AddCustomThemePlugin::viewportColors_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRAddCustomTheme.h" line="33" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRAddCustomTheme.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1AddCustomThemePlugin_1ae5d828fbfc0805ce759abbf193cc579a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::AddCustomThemePlugin::selectedUserPreset_</definition>
+        <argsstring></argsstring>
+        <name>selectedUserPreset_</name>
+        <qualifiedname>MR::AddCustomThemePlugin::selectedUserPreset_</qualifiedname>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+<para>whole color theme preset </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRAddCustomTheme.h" line="35" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRAddCustomTheme.h" bodystart="35" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1AddCustomThemePlugin_1a8408ba2e1ffac3d02fb824e56d622d14" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt;std::string&gt; MR::AddCustomThemePlugin::userThemesPresets_</definition>
+        <argsstring></argsstring>
+        <name>userThemesPresets_</name>
+        <qualifiedname>MR::AddCustomThemePlugin::userThemesPresets_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRAddCustomTheme.h" line="36" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRAddCustomTheme.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1AddCustomThemePlugin_1aed47acc6c0aee189cc61e91d6cf051d0" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1ColorTheme_1abbecc6afa53db91ada45757b845b5514" kindref="member">ColorTheme::Preset</ref></type>
+        <definition>ColorTheme::Preset MR::AddCustomThemePlugin::preset_</definition>
+        <argsstring></argsstring>
+        <name>preset_</name>
+        <qualifiedname>MR::AddCustomThemePlugin::preset_</qualifiedname>
+        <briefdescription>
+<para><ref refid="namespaceImGui" kindref="compound">ImGui</ref> preset. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRAddCustomTheme.h" line="38" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRAddCustomTheme.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1AddCustomThemePlugin_1a985b2d7480ed09728b906abc9f7aa1e2" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::AddCustomThemePlugin::themeName_</definition>
+        <argsstring></argsstring>
+        <name>themeName_</name>
+        <qualifiedname>MR::AddCustomThemePlugin::themeName_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRAddCustomTheme.h" line="39" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRAddCustomTheme.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1AddCustomThemePlugin_1a2b80328f1f0ec1ad7ccce34cf2b541d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::AddCustomThemePlugin::AddCustomThemePlugin</definition>
+        <argsstring>()</argsstring>
+        <name>AddCustomThemePlugin</name>
+        <qualifiedname>MR::AddCustomThemePlugin::AddCustomThemePlugin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRAddCustomTheme.h" line="14" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddCustomThemePlugin_1a7b6dc8e71e87ec8ef33f6747eeb60b72" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR::AddCustomThemePlugin::drawDialog</definition>
+        <argsstring>(ImGuiContext *) override</argsstring>
+        <name>drawDialog</name>
+        <qualifiedname>MR::AddCustomThemePlugin::drawDialog</qualifiedname>
+        <reimplements refid="classMR_1_1StateBasePlugin_1aa3a6877967ca8f424ed261e43345bd26">drawDialog</reimplements>
+        <param>
+          <type>ImGuiContext *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRAddCustomTheme.h" line="16" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddCustomThemePlugin_1aecd13931098f53d9079f2db0d9375677" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>std::string</type>
+        <definition>virtual std::string MR::AddCustomThemePlugin::isAvailable</definition>
+        <argsstring>(const std::vector&lt; std::shared_ptr&lt; const Object &gt; &gt; &amp;) const override</argsstring>
+        <name>isAvailable</name>
+        <qualifiedname>MR::AddCustomThemePlugin::isAvailable</qualifiedname>
+        <reimplements refid="classMR_1_1ISceneStateCheck_1adedf10c80ddfebcb456559fa828065c0">isAvailable</reimplements>
+        <param>
+          <type>const std::vector&lt; std::shared_ptr&lt; const <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &gt; &amp;</type>
+        </param>
+        <briefdescription>
+<para>return empty string if all requirements are satisfied, otherwise return first unsatisfied requirement </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRAddCustomTheme.h" line="18" column="25"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1AddCustomThemePlugin_1a6b49acec36e8be2f2af1a907b6cd1a58" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool MR::AddCustomThemePlugin::onEnable_</definition>
+        <argsstring>() override</argsstring>
+        <name>onEnable_</name>
+        <qualifiedname>MR::AddCustomThemePlugin::onEnable_</qualifiedname>
+        <reimplements refid="classMR_1_1StateBasePlugin_1a653adb25964ffa5b7ca333c119b2e597">onEnable_</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRAddCustomTheme.h" line="20" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddCustomThemePlugin_1aecb55e414ac02583076be1cb68472e49" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool MR::AddCustomThemePlugin::onDisable_</definition>
+        <argsstring>() override</argsstring>
+        <name>onDisable_</name>
+        <qualifiedname>MR::AddCustomThemePlugin::onDisable_</qualifiedname>
+        <reimplements refid="classMR_1_1StateBasePlugin_1a31980ff25e0e7e77cf8ace037ddd9f68">onDisable_</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRAddCustomTheme.h" line="21" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddCustomThemePlugin_1a46ef653fbe709e6c269f9738915ed805" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::AddCustomThemePlugin::updateThemeNames_</definition>
+        <argsstring>()</argsstring>
+        <name>updateThemeNames_</name>
+        <qualifiedname>MR::AddCustomThemePlugin::updateThemeNames_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRAddCustomTheme.h" line="23" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddCustomThemePlugin_1acfdf72a662b49433d2258aee029db306" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Json::Value</type>
+        <definition>Json::Value MR::AddCustomThemePlugin::makeJson_</definition>
+        <argsstring>()</argsstring>
+        <name>makeJson_</name>
+        <qualifiedname>MR::AddCustomThemePlugin::makeJson_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRAddCustomTheme.h" line="25" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddCustomThemePlugin_1aa9132eb0f31602f0b98ace2823cfd491" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::AddCustomThemePlugin::update_</definition>
+        <argsstring>()</argsstring>
+        <name>update_</name>
+        <qualifiedname>MR::AddCustomThemePlugin::update_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRAddCustomTheme.h" line="27" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AddCustomThemePlugin_1a6812187d616e6ad308698b5817f83006" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string MR::AddCustomThemePlugin::save_</definition>
+        <argsstring>()</argsstring>
+        <name>save_</name>
+        <qualifiedname>MR::AddCustomThemePlugin::save_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRAddCustomTheme.h" line="28" column="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="10">
+        <label>Connectables...</label>
+      </node>
+      <node id="1">
+        <label>MR::AddCustomThemePlugin</label>
+        <link refid="classMR_1_1AddCustomThemePlugin"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MR::IPluginUpdate</label>
+        <link refid="classMR_1_1IPluginUpdate"/>
+      </node>
+      <node id="8">
+        <label>MR::ISceneSelectionChange</label>
+        <link refid="classMR_1_1ISceneSelectionChange"/>
+      </node>
+      <node id="6">
+        <label>MR::ISceneStateCheck</label>
+        <link refid="classMR_1_1ISceneStateCheck"/>
+      </node>
+      <node id="9">
+        <label>MR::MultiListener&lt; Connectables... &gt;</label>
+        <link refid="structMR_1_1MultiListener"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR::RibbonMenuItem</label>
+        <link refid="classMR_1_1RibbonMenuItem"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::StateBasePlugin</label>
+        <link refid="classMR_1_1StateBasePlugin"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::ViewerPlugin</label>
+        <link refid="classMR_1_1ViewerPlugin"/>
+      </node>
+      <node id="2">
+        <label>StatePlugin</label>
+        <link refid="classMR_1_1StateListenerPlugin"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="11">
+        <label>Connectables...</label>
+      </node>
+      <node id="1">
+        <label>MR::AddCustomThemePlugin</label>
+        <link refid="classMR_1_1AddCustomThemePlugin"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MR::IPluginUpdate</label>
+        <link refid="classMR_1_1IPluginUpdate"/>
+      </node>
+      <node id="9">
+        <label>MR::ISceneSelectionChange</label>
+        <link refid="classMR_1_1ISceneSelectionChange"/>
+      </node>
+      <node id="7">
+        <label>MR::ISceneStateCheck</label>
+        <link refid="classMR_1_1ISceneStateCheck"/>
+      </node>
+      <node id="10">
+        <label>MR::MultiListener&lt; Connectables... &gt;</label>
+        <link refid="structMR_1_1MultiListener"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MR::RibbonMenuItem</label>
+        <link refid="classMR_1_1RibbonMenuItem"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::StateBasePlugin</label>
+        <link refid="classMR_1_1StateBasePlugin"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR::Viewer</label>
+        <link refid="classMR_1_1Viewer"/>
+      </node>
+      <node id="4">
+        <label>MR::ViewerPlugin</label>
+        <link refid="classMR_1_1ViewerPlugin"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>viewer</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>StatePlugin</label>
+        <link refid="classMR_1_1StateListenerPlugin"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRAddCustomTheme.h" line="11" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRAddCustomTheme.h" bodystart="12" bodyend="40"/>
+    <listofallmembers>
+      <member refid="classMR_1_1StateBasePlugin_1a3e096e6d2e0ecf98e399691bd99c82f7" prot="public" virt="virtual"><scope>MR::AddCustomThemePlugin</scope><name>action</name></member>
+      <member refid="classMR_1_1AddCustomThemePlugin_1a2b80328f1f0ec1ad7ccce34cf2b541d8" prot="public" virt="non-virtual"><scope>MR::AddCustomThemePlugin</scope><name>AddCustomThemePlugin</name></member>
+      <member refid="classMR_1_1AddCustomThemePlugin_1ac0c7252737c08037ca192037ccaa929b" prot="private" virt="non-virtual"><scope>MR::AddCustomThemePlugin</scope><name>applyToNewObjectsOnly_</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1ae7a96edadae63c78192e0f1f6b1f9db9" prot="public" virt="virtual"><scope>MR::AddCustomThemePlugin</scope><name>blocking</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1a730c0edb5aead3d67519512f5545bd63" prot="public" virt="non-virtual"><scope>MR::AddCustomThemePlugin</scope><name>checkStringMask</name></member>
+      <member refid="structMR_1_1MultiListener_1af3312c12e653a48eaee4680364e72f27" prot="public" virt="virtual"><scope>MR::AddCustomThemePlugin</scope><name>connect</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1a55b362aee5989fe359aadd33c9be78b4" prot="protected" virt="non-virtual"><scope>MR::AddCustomThemePlugin</scope><name>dialogIsCollapsed_</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1ad91197be262f6b569d9234033d73bb8d" prot="public" virt="virtual"><scope>MR::AddCustomThemePlugin</scope><name>dialogIsOpen</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1a1d97f71a0f325fbe29b0bbec3e564204" prot="protected" virt="non-virtual"><scope>MR::AddCustomThemePlugin</scope><name>dialogIsOpen_</name></member>
+      <member refid="structMR_1_1MultiListener_1acfa598489bfbc3b88c84b029213d042c" prot="public" virt="virtual"><scope>MR::AddCustomThemePlugin</scope><name>disconnect</name></member>
+      <member refid="classMR_1_1AddCustomThemePlugin_1a7b6dc8e71e87ec8ef33f6747eeb60b72" prot="public" virt="virtual"><scope>MR::AddCustomThemePlugin</scope><name>drawDialog</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1a1141be44babb4a13201487188c332668" prot="public" virt="virtual"><scope>MR::AddCustomThemePlugin</scope><name>dropItems</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1a4799011be3410f46444164d6d00b966e" prot="public" virt="non-virtual"><scope>MR::AddCustomThemePlugin</scope><name>DropItemsList</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1a2f25401d4b94a752bd63b79152673ab5" prot="protected" virt="non-virtual"><scope>MR::AddCustomThemePlugin</scope><name>dropList_</name></member>
+      <member refid="classMR_1_1StateListenerPlugin_1a7dd63f0fe42b793001a53a4e76b94255" prot="public" virt="virtual"><scope>MR::AddCustomThemePlugin</scope><name>enable</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1a88f1487695e2012ebb1cacbc1a59775a" prot="public" virt="virtual"><scope>MR::AddCustomThemePlugin</scope><name>getDynamicTooltip</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1a54181a3e2d58070b748c4d49c721a0ea" prot="public" virt="non-virtual"><scope>MR::AddCustomThemePlugin</scope><name>getTab</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1a1f81b6898ef7ea347c4639fb8d788bc8" prot="public" virt="non-virtual"><scope>MR::AddCustomThemePlugin</scope><name>getTabName</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1a2cd5d2532aaf3a9fd7283d4bb24a638d" prot="public" virt="virtual"><scope>MR::AddCustomThemePlugin</scope><name>getTooltip</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1aa1855ed7ea42bd976bee234e52655ffd" prot="protected" virt="virtual"><scope>MR::AddCustomThemePlugin</scope><name>ImGuiBeginWindow_</name></member>
+      <member refid="classMR_1_1ViewerPlugin_1a67916b512e8d54ee7cdb8ef1cb4f6794" prot="public" virt="virtual"><scope>MR::AddCustomThemePlugin</scope><name>init</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1a2172655c98b73059ee0bfc8cb3115097" prot="public" virt="virtual"><scope>MR::AddCustomThemePlugin</scope><name>isActive</name></member>
+      <member refid="classMR_1_1AddCustomThemePlugin_1aecd13931098f53d9079f2db0d9375677" prot="public" virt="virtual"><scope>MR::AddCustomThemePlugin</scope><name>isAvailable</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1ae7da0ed13a069a29ec8fac496e7aa065" prot="public" virt="non-virtual"><scope>MR::AddCustomThemePlugin</scope><name>isEnabled</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1a239e7ea5887cf228c8ea6a7eef781a2c" prot="protected" virt="non-virtual"><scope>MR::AddCustomThemePlugin</scope><name>isEnabled_</name></member>
+      <member refid="classMR_1_1AddCustomThemePlugin_1acfdf72a662b49433d2258aee029db306" prot="private" virt="non-virtual"><scope>MR::AddCustomThemePlugin</scope><name>makeJson_</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1a957422a15704b2f8854bfd0b2d1ae76d" prot="public" virt="non-virtual"><scope>MR::AddCustomThemePlugin</scope><name>MR_DELETE_MOVE</name></member>
+      <member refid="classMR_1_1StateListenerPlugin_1a700dee77fa82afbe743aa424eb782e2d" prot="public" virt="non-virtual"><scope>MR::AddCustomThemePlugin</scope><name>MultiListenerBase</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1abf4ea13c8983c44214b92a066e8b7659" prot="public" virt="non-virtual"><scope>MR::AddCustomThemePlugin</scope><name>name</name></member>
+      <member refid="classMR_1_1AddCustomThemePlugin_1aecb55e414ac02583076be1cb68472e49" prot="private" virt="virtual"><scope>MR::AddCustomThemePlugin</scope><name>onDisable_</name></member>
+      <member refid="classMR_1_1AddCustomThemePlugin_1a6b49acec36e8be2f2af1a907b6cd1a58" prot="private" virt="virtual"><scope>MR::AddCustomThemePlugin</scope><name>onEnable_</name></member>
+      <member refid="classMR_1_1IPluginUpdate_1a0ac2f366f4785c61b991e9d38f1c12d1" prot="protected" virt="virtual"><scope>MR::AddCustomThemePlugin</scope><name>onPluginDisable_</name></member>
+      <member refid="classMR_1_1IPluginUpdate_1ac74a796b15f4842c135a9956d270caa3" prot="protected" virt="virtual"><scope>MR::AddCustomThemePlugin</scope><name>onPluginEnable_</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1a3e0c7bd65afe7b25c1f4be31e13ea0c5" prot="public" virt="non-virtual"><scope>MR::AddCustomThemePlugin</scope><name>plugin_name</name></member>
+      <member refid="classMR_1_1StateListenerPlugin_1a1f068c2aecefbd45559101aca348aca3" prot="public" virt="non-virtual"><scope>MR::AddCustomThemePlugin</scope><name>PluginParent</name></member>
+      <member refid="classMR_1_1IPluginUpdate_1a6a79d0d76063de2f4947098cc9cb07a8" prot="public" virt="virtual"><scope>MR::AddCustomThemePlugin</scope><name>preDrawUpdate</name></member>
+      <member refid="classMR_1_1AddCustomThemePlugin_1aed47acc6c0aee189cc61e91d6cf051d0" prot="private" virt="non-virtual"><scope>MR::AddCustomThemePlugin</scope><name>preset_</name></member>
+      <member refid="classMR_1_1AddCustomThemePlugin_1a2e83d9c83f46b4504a07a4e272000e31" prot="private" virt="non-virtual"><scope>MR::AddCustomThemePlugin</scope><name>ribbonColors_</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1ad3e0eda49eae11a9fba79187c62e07bb" prot="public" virt="non-virtual"><scope>MR::AddCustomThemePlugin</scope><name>RibbonMenuItem</name></member>
+      <member refid="classMR_1_1AddCustomThemePlugin_1a6812187d616e6ad308698b5817f83006" prot="private" virt="non-virtual"><scope>MR::AddCustomThemePlugin</scope><name>save_</name></member>
+      <member refid="classMR_1_1AddCustomThemePlugin_1a9e2ee2d4b6bef3e13837207ada48bccd" prot="private" virt="non-virtual"><scope>MR::AddCustomThemePlugin</scope><name>sceneColors_</name></member>
+      <member refid="classMR_1_1AddCustomThemePlugin_1ae5d828fbfc0805ce759abbf193cc579a" prot="private" virt="non-virtual"><scope>MR::AddCustomThemePlugin</scope><name>selectedUserPreset_</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1af417cbe66b6559e5df0122377c5a3628" prot="public" virt="non-virtual"><scope>MR::AddCustomThemePlugin</scope><name>setDropItemsFromItemList</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1ab499c9049737793e6b1994048b99952c" prot="public" virt="non-virtual"><scope>MR::AddCustomThemePlugin</scope><name>setRibbonItemType</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1a1962cf4397a96b2ffc12d9b23ab51cb6" prot="public" virt="non-virtual"><scope>MR::AddCustomThemePlugin</scope><name>setUIName</name></member>
+      <member refid="classMR_1_1IPluginUpdate_1ab6e6e3dcf2ab382434fd967480164324" prot="protected" virt="virtual"><scope>MR::AddCustomThemePlugin</scope><name>shouldClose_</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1af0d68f675e98e0a1ceb44192eaf94a13" prot="public" virt="virtual"><scope>MR::AddCustomThemePlugin</scope><name>shutdown</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1adede9d0773e7eff370bd78dc66a4c898" prot="public" virt="virtual"><scope>MR::AddCustomThemePlugin</scope><name>sortString</name></member>
+      <member refid="classMR_1_1StateListenerPlugin_1a36686d0a6dcae1a1bcce521d5db5e413" prot="public" virt="non-virtual"><scope>MR::AddCustomThemePlugin</scope><name>StateBasePlugin</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1ac3e8d3db81bf9d8a316c46e82f369980" prot="protected" virt="non-virtual"><scope>MR::AddCustomThemePlugin</scope><name>tab_</name></member>
+      <member refid="classMR_1_1AddCustomThemePlugin_1a985b2d7480ed09728b906abc9f7aa1e2" prot="private" virt="non-virtual"><scope>MR::AddCustomThemePlugin</scope><name>themeName_</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1a15b6a4b9f191b8716be1199364bb74e0" prot="public" virt="virtual"><scope>MR::AddCustomThemePlugin</scope><name>type</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1a00b402da6dbcec7d6c97b5c6a16e3924" prot="protected" virt="non-virtual"><scope>MR::AddCustomThemePlugin</scope><name>type_</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1a56d7b27cd916a3ec2fcf0bcb4b7e3d28" prot="public" virt="virtual"><scope>MR::AddCustomThemePlugin</scope><name>uiName</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1a5c9e09293a48644029f129e878ececd6" prot="public" virt="non-virtual"><scope>MR::AddCustomThemePlugin</scope><name>UINameSuffix</name></member>
+      <member refid="classMR_1_1AddCustomThemePlugin_1aa9132eb0f31602f0b98ace2823cfd491" prot="private" virt="non-virtual"><scope>MR::AddCustomThemePlugin</scope><name>update_</name></member>
+      <member refid="classMR_1_1ISceneSelectionChange_1a0e5a18c4e15ba23a7536d1511cb823b6" prot="public" virt="virtual"><scope>MR::AddCustomThemePlugin</scope><name>updateSelection</name></member>
+      <member refid="classMR_1_1AddCustomThemePlugin_1a46ef653fbe709e6c269f9738915ed805" prot="private" virt="non-virtual"><scope>MR::AddCustomThemePlugin</scope><name>updateThemeNames_</name></member>
+      <member refid="classMR_1_1AddCustomThemePlugin_1a8408ba2e1ffac3d02fb824e56d622d14" prot="private" virt="non-virtual"><scope>MR::AddCustomThemePlugin</scope><name>userThemesPresets_</name></member>
+      <member refid="classMR_1_1ViewerPlugin_1ad12538d77ebcf356c03469cbce40abae" prot="protected" virt="non-virtual"><scope>MR::AddCustomThemePlugin</scope><name>viewer</name></member>
+      <member refid="classMR_1_1AddCustomThemePlugin_1a5a0462bde8369c6529b6740225534dc6" prot="private" virt="non-virtual"><scope>MR::AddCustomThemePlugin</scope><name>viewportColors_</name></member>
+      <member refid="classMR_1_1IPluginUpdate_1a3a57e2a35ba84c0bdd2af8a0f162c5f3" prot="public" virt="virtual"><scope>MR::AddCustomThemePlugin</scope><name>~IPluginUpdate</name></member>
+      <member refid="classMR_1_1ISceneSelectionChange_1a46ed29a0c79bdfb7de53ea802fee042c" prot="public" virt="virtual"><scope>MR::AddCustomThemePlugin</scope><name>~ISceneSelectionChange</name></member>
+      <member refid="classMR_1_1ISceneStateCheck_1ad6d7bd5bc97dd4a629de5e0a33af3afe" prot="public" virt="virtual"><scope>MR::AddCustomThemePlugin</scope><name>~ISceneStateCheck</name></member>
+      <member refid="structMR_1_1MultiListener_1a726f5e2601b7f25e31824a0cac630fb2" prot="public" virt="virtual"><scope>MR::AddCustomThemePlugin</scope><name>~MultiListener</name></member>
+      <member refid="classMR_1_1RibbonMenuItem_1ac8074b75f1c764d041b11210b5b7541c" prot="public" virt="virtual"><scope>MR::AddCustomThemePlugin</scope><name>~RibbonMenuItem</name></member>
+      <member refid="classMR_1_1StateBasePlugin_1a9a8917bb4527c6108a4ec176619d2990" prot="public" virt="virtual"><scope>MR::AddCustomThemePlugin</scope><name>~StateBasePlugin</name></member>
+      <member refid="classMR_1_1StateListenerPlugin_1a85268a85190bc88be8cc76981bff5587" prot="public" virt="virtual"><scope>MR::AddCustomThemePlugin</scope><name>~StateListenerPlugin</name></member>
+      <member refid="classMR_1_1ViewerPlugin_1ad7fd0e80e15b5c45837fc005c71c9eab" prot="public" virt="virtual"><scope>MR::AddCustomThemePlugin</scope><name>~ViewerPlugin</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

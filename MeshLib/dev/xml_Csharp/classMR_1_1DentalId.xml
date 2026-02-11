@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1DentalId" kind="class" language="C#" prot="public">
+    <compoundname>MR::DentalId</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_DentalId</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1DentalId_1a8e180e1f6840b7319b0392473b79f3c9" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.DentalId.DentalId</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>DentalId</name>
+        <qualifiedname>MR.DentalId.DentalId</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTeethMaskToDirectionVolume.cs" line="74" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTeethMaskToDirectionVolume.cs" bodystart="74" bodyend="74"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1DentalId_1aca22899cb003a1846667491d9f34df6b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.DentalId.DentalId</definition>
+        <argsstring>(MR.Const_DentalId _other)</argsstring>
+        <name>DentalId</name>
+        <qualifiedname>MR.DentalId.DentalId</qualifiedname>
+        <param>
+          <type>MR.Const_DentalId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.DentalId.DentalId</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTeethMaskToDirectionVolume.cs" line="79" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTeethMaskToDirectionVolume.cs" bodystart="79" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DentalId_1a99aa357d14f15b07c0d7285b81f686e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.DentalId.DentalId</definition>
+        <argsstring>(DentalId _other)</argsstring>
+        <name>DentalId</name>
+        <qualifiedname>MR.DentalId.DentalId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1DentalId" kindref="compound">DentalId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.DentalId.DentalId</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTeethMaskToDirectionVolume.cs" line="90" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTeethMaskToDirectionVolume.cs" bodystart="90" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DentalId_1ab87c6e44f95f2235ccc9eb6ca079fcd1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1DentalId" kindref="compound">MR.DentalId</ref></type>
+        <definition>unsafe MR.DentalId MR.DentalId.assign</definition>
+        <argsstring>(MR.Const_DentalId _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.DentalId.assign</qualifiedname>
+        <param>
+          <type>MR.Const_DentalId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.DentalId.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTeethMaskToDirectionVolume.cs" line="95" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTeethMaskToDirectionVolume.cs" bodystart="95" bodyend="102"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This class represents tooth id Generated from class <computeroutput><ref refid="classMR_1_1DentalId" kindref="compound">MR.DentalId</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_DentalId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.DentalId</label>
+        <link refid="classMR_1_1DentalId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_DentalId &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_DentalId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.DentalId</label>
+        <link refid="classMR_1_1DentalId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_DentalId &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTeethMaskToDirectionVolume.cs" line="72" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTeethMaskToDirectionVolume.cs" bodystart="73" bodyend="103"/>
+    <listofallmembers>
+      <member refid="classMR_1_1DentalId_1ab87c6e44f95f2235ccc9eb6ca079fcd1" prot="public" virt="non-virtual"><scope>MR::DentalId</scope><name>assign</name></member>
+      <member refid="classMR_1_1DentalId_1a8e180e1f6840b7319b0392473b79f3c9" prot="package" virt="non-virtual"><scope>MR::DentalId</scope><name>DentalId</name></member>
+      <member refid="classMR_1_1DentalId_1aca22899cb003a1846667491d9f34df6b" prot="public" virt="non-virtual"><scope>MR::DentalId</scope><name>DentalId</name></member>
+      <member refid="classMR_1_1DentalId_1a99aa357d14f15b07c0d7285b81f686e8" prot="public" virt="non-virtual"><scope>MR::DentalId</scope><name>DentalId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

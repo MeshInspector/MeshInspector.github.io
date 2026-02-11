@@ -1,0 +1,246 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1TriangulationHelpers_1_1TriangulatedFanData" kind="class" language="C#" prot="public">
+    <compoundname>MR::TriangulationHelpers::TriangulatedFanData</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.TriangulationHelpers.Const_TriangulatedFanData</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1TriangulationHelpers_1_1TriangulatedFanData_1a03e86f0d2ec33fb064a00f94d2449de0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Vector_MRVertId</type>
+        <definition>new unsafe MR.Std.Vector_MRVertId MR.TriangulationHelpers.TriangulatedFanData.neighbors</definition>
+        <argsstring></argsstring>
+        <name>neighbors</name>
+        <qualifiedname>MR.TriangulationHelpers.TriangulatedFanData.neighbors</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>clockwise points around center point in (optimized) triangle fan, each pair of points (as well as back()-front() pair) together with the center form a fan triangle </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="441" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="441" bodyend="441"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1TriangulationHelpers_1_1TriangulatedFanData_1a68e81ce6baf35ada71a5d069b4fb964a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Vector_StdPairDoubleInt</type>
+        <definition>new unsafe MR.Std.Vector_StdPairDoubleInt MR.TriangulationHelpers.TriangulatedFanData.cacheAngleOrder</definition>
+        <argsstring></argsstring>
+        <name>cacheAngleOrder</name>
+        <qualifiedname>MR.TriangulationHelpers.TriangulatedFanData.cacheAngleOrder</qualifiedname>
+        <briefdescription>
+<para>temporary reusable storage to avoid allocations for each point </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="444" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="444" bodyend="444"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1TriangulationHelpers_1_1TriangulatedFanData_1ade0f1881fcd4c1bc6a863d8315be7605" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+        <definition>new unsafe ref MR.VertId MR.TriangulationHelpers.TriangulatedFanData.border</definition>
+        <argsstring></argsstring>
+        <name>border</name>
+        <qualifiedname>MR.TriangulationHelpers.TriangulatedFanData.border</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>first border edge (invalid if the center point is not on the boundary) triangle associated with this point is absent </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="448" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="448" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1TriangulationHelpers_1_1TriangulatedFanData_1af5a2a2d498aa2cfabb2d4503c741d2af" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1FewSmallest__MRPointsProjectionResult" kindref="compound">MR.FewSmallest_MRPointsProjectionResult</ref></type>
+        <definition>new unsafe MR.FewSmallest_MRPointsProjectionResult MR.TriangulationHelpers.TriangulatedFanData.nearesetPoints</definition>
+        <argsstring></argsstring>
+        <name>nearesetPoints</name>
+        <qualifiedname>MR.TriangulationHelpers.TriangulatedFanData.nearesetPoints</qualifiedname>
+        <briefdescription>
+<para>the storage to collect n-nearest neighbours, here to avoid allocations for each point </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="451" column="70" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="451" bodyend="451"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1TriangulationHelpers_1_1TriangulatedFanData_1aaac936bc8d83e3bcbbf677c42f2d9511" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.TriangulationHelpers.TriangulatedFanData.TriangulatedFanData</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>TriangulatedFanData</name>
+        <qualifiedname>MR.TriangulationHelpers.TriangulatedFanData.TriangulatedFanData</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="484" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="484" bodyend="488"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1TriangulationHelpers_1_1TriangulatedFanData_1a0e27e047c18ba46627311a09c5d183c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.TriangulationHelpers.TriangulatedFanData.TriangulatedFanData</definition>
+        <argsstring>()</argsstring>
+        <name>TriangulatedFanData</name>
+        <qualifiedname>MR.TriangulationHelpers.TriangulatedFanData.TriangulatedFanData</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="494" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="494" bodyend="500"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriangulationHelpers_1_1TriangulatedFanData_1a113f814c1af5754d6a308964d54b2dc8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.TriangulationHelpers.TriangulatedFanData.TriangulatedFanData</definition>
+        <argsstring>(MR.TriangulationHelpers._ByValue_TriangulatedFanData _other)</argsstring>
+        <name>TriangulatedFanData</name>
+        <qualifiedname>MR.TriangulationHelpers.TriangulatedFanData.TriangulatedFanData</qualifiedname>
+        <param>
+          <type>MR.TriangulationHelpers._ByValue_TriangulatedFanData</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.TriangulationHelpers.TriangulatedFanData.TriangulatedFanData</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="505" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="505" bodyend="512"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriangulationHelpers_1_1TriangulatedFanData_1a7193966f50a2444576822cc1e2bbb57f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.TriangulationHelpers.TriangulatedFanData.TriangulatedFanData</definition>
+        <argsstring>(Const_TriangulatedFanData _other)</argsstring>
+        <name>TriangulatedFanData</name>
+        <qualifiedname>MR.TriangulationHelpers.TriangulatedFanData.TriangulatedFanData</qualifiedname>
+        <param>
+          <type>Const_TriangulatedFanData</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.TriangulationHelpers.TriangulatedFanData.TriangulatedFanData</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="517" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="517" bodyend="517"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriangulationHelpers_1_1TriangulatedFanData_1a4f80eff245ab3f22226296012f2a83c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.TriangulationHelpers.TriangulatedFanData.TriangulatedFanData</definition>
+        <argsstring>(TriangulatedFanData _other)</argsstring>
+        <name>TriangulatedFanData</name>
+        <qualifiedname>MR.TriangulationHelpers.TriangulatedFanData.TriangulatedFanData</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1TriangulationHelpers_1_1TriangulatedFanData" kindref="compound">TriangulatedFanData</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.TriangulationHelpers.TriangulatedFanData.TriangulatedFanData</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="522" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="522" bodyend="522"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriangulationHelpers_1_1TriangulatedFanData_1a0358548d5c527b53caed45ac33d5790f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1TriangulationHelpers_1_1TriangulatedFanData" kindref="compound">MR.TriangulationHelpers.TriangulatedFanData</ref></type>
+        <definition>unsafe MR.TriangulationHelpers.TriangulatedFanData MR.TriangulationHelpers.TriangulatedFanData.assign</definition>
+        <argsstring>(MR.TriangulationHelpers._ByValue_TriangulatedFanData _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.TriangulationHelpers.TriangulatedFanData.assign</qualifiedname>
+        <param>
+          <type>MR.TriangulationHelpers._ByValue_TriangulatedFanData</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.TriangulationHelpers.TriangulatedFanData.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="527" column="69" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="527" bodyend="534"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Data with caches for optimizing fan triangulation Generated from class <computeroutput><ref refid="classMR_1_1TriangulationHelpers_1_1TriangulatedFanData" kindref="compound">MR.TriangulationHelpers.TriangulatedFanData</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_TriangulatedFanData</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.TriangulationHelpers.TriangulatedFanData</label>
+        <link refid="classMR_1_1TriangulationHelpers_1_1TriangulatedFanData"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_TriangulatedFanData &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_TriangulatedFanData</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.TriangulationHelpers.TriangulatedFanData</label>
+        <link refid="classMR_1_1TriangulationHelpers_1_1TriangulatedFanData"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_TriangulatedFanData &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="437" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="438" bodyend="535"/>
+    <listofallmembers>
+      <member refid="classMR_1_1TriangulationHelpers_1_1TriangulatedFanData_1a0358548d5c527b53caed45ac33d5790f" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::TriangulatedFanData</scope><name>assign</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1TriangulatedFanData_1ade0f1881fcd4c1bc6a863d8315be7605" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::TriangulatedFanData</scope><name>border</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1TriangulatedFanData_1a68e81ce6baf35ada71a5d069b4fb964a" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::TriangulatedFanData</scope><name>cacheAngleOrder</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1TriangulatedFanData_1af5a2a2d498aa2cfabb2d4503c741d2af" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::TriangulatedFanData</scope><name>nearesetPoints</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1TriangulatedFanData_1a03e86f0d2ec33fb064a00f94d2449de0" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::TriangulatedFanData</scope><name>neighbors</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1TriangulatedFanData_1aaac936bc8d83e3bcbbf677c42f2d9511" prot="package" virt="non-virtual"><scope>MR::TriangulationHelpers::TriangulatedFanData</scope><name>TriangulatedFanData</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1TriangulatedFanData_1a0e27e047c18ba46627311a09c5d183c7" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::TriangulatedFanData</scope><name>TriangulatedFanData</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1TriangulatedFanData_1a113f814c1af5754d6a308964d54b2dc8" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::TriangulatedFanData</scope><name>TriangulatedFanData</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1TriangulatedFanData_1a7193966f50a2444576822cc1e2bbb57f" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::TriangulatedFanData</scope><name>TriangulatedFanData</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1TriangulatedFanData_1a4f80eff245ab3f22226296012f2a83c1" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::TriangulatedFanData</scope><name>TriangulatedFanData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1UiRenderManager" kind="struct" language="C++" prot="public">
+    <compoundname>MR::UiRenderManager</compoundname>
+    <derivedcompoundref refid="classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl" prot="public" virt="non-virtual">MR::ImGuiMenu::UiRenderManagerImpl</derivedcompoundref>
+    <includes refid="MRIRenderObject_8h" local="no">MRIRenderObject.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1UiRenderManager_1a068f0178b855d81e92b613b5872c99ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual MR::UiRenderManager::~UiRenderManager</definition>
+        <argsstring>()=default</argsstring>
+        <name>~UiRenderManager</name>
+        <qualifiedname>MR::UiRenderManager::~UiRenderManager</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="116" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1UiRenderManager_1ae586ca77f767a1b38c45269b184c7118" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR::UiRenderManager::preRenderViewport</definition>
+        <argsstring>(ViewportId viewport)</argsstring>
+        <name>preRenderViewport</name>
+        <qualifiedname>MR::UiRenderManager::preRenderViewport</qualifiedname>
+        <reimplementedby refid="classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl_1a7347c1740073a409a4350f361af9b816">preRenderViewport</reimplementedby>
+        <param>
+          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>viewport</declname>
+        </param>
+        <briefdescription>
+<para>This is called before doing <computeroutput><ref refid="classMR_1_1IRenderObject_1a82fb37eb78d6e11f1b41f3fc2a99c5eb" kindref="member">IRenderObject::renderUi()</ref></computeroutput> on even object in a viewport. Each viewport is rendered separately. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="119" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="119" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1UiRenderManager_1af9cfebf3c57b3c9b6283d7de32fc4adc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR::UiRenderManager::postRenderViewport</definition>
+        <argsstring>(ViewportId viewport)</argsstring>
+        <name>postRenderViewport</name>
+        <qualifiedname>MR::UiRenderManager::postRenderViewport</qualifiedname>
+        <reimplementedby refid="classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl_1a40f36215f485498d7757d2473e6d2d64">postRenderViewport</reimplementedby>
+        <param>
+          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>viewport</declname>
+        </param>
+        <briefdescription>
+<para>This is called after doing <computeroutput><ref refid="classMR_1_1IRenderObject_1a82fb37eb78d6e11f1b41f3fc2a99c5eb" kindref="member">IRenderObject::renderUi()</ref></computeroutput> on even object in a viewport. Each viewport is rendered separately. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="121" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="121" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1UiRenderManager_1a9601bd6d868289506f00155eb4711f5e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="structMR_1_1BasicUiRenderTask_1_1BackwardPassParams" kindref="compound">BasicUiRenderTask::BackwardPassParams</ref></type>
+        <definition>virtual BasicUiRenderTask::BackwardPassParams MR::UiRenderManager::beginBackwardPass</definition>
+        <argsstring>(ViewportId viewport, UiRenderParams::UiTaskList &amp;tasks)</argsstring>
+        <name>beginBackwardPass</name>
+        <qualifiedname>MR::UiRenderManager::beginBackwardPass</qualifiedname>
+        <reimplementedby refid="classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl_1a1aa058b02893d9bc3fd3589e0dc7bf21">beginBackwardPass</reimplementedby>
+        <param>
+          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>viewport</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1UiRenderParams_1a7db0595bba979c4028be5875ef3e067d" kindref="member">UiRenderParams::UiTaskList</ref> &amp;</type>
+          <declname>tasks</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the parameters for the <computeroutput>IRenderObject::earlyBackwardPass()</computeroutput>. This will be called exactly once per viewport, each time the <ref refid="namespaceMR_1_1UI" kindref="compound">UI</ref> in it is rendered. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="125" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="125" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1UiRenderManager_1aba65991bd7f7faf987ac0662a31a5875" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR::UiRenderManager::finishBackwardPass</definition>
+        <argsstring>(ViewportId viewport, const BasicUiRenderTask::BackwardPassParams &amp;params)</argsstring>
+        <name>finishBackwardPass</name>
+        <qualifiedname>MR::UiRenderManager::finishBackwardPass</qualifiedname>
+        <reimplementedby refid="classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl_1a6eae746d6778e271123fb43ad2f8f4e2">finishBackwardPass</reimplementedby>
+        <param>
+          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>viewport</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1BasicUiRenderTask_1_1BackwardPassParams" kindref="compound">BasicUiRenderTask::BackwardPassParams</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>After the backward pass is performed, the parameters should be passed back into this function. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="127" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="127" bodyend="127"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::ImGuiMenu::UiRenderManagerImpl</label>
+        <link refid="classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::UiRenderManager</label>
+        <link refid="structMR_1_1UiRenderManager"/>
+      </node>
+    </inheritancegraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="114" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="115" bodyend="128"/>
+    <listofallmembers>
+      <member refid="structMR_1_1UiRenderManager_1a9601bd6d868289506f00155eb4711f5e" prot="public" virt="virtual"><scope>MR::UiRenderManager</scope><name>beginBackwardPass</name></member>
+      <member refid="structMR_1_1UiRenderManager_1aba65991bd7f7faf987ac0662a31a5875" prot="public" virt="virtual"><scope>MR::UiRenderManager</scope><name>finishBackwardPass</name></member>
+      <member refid="structMR_1_1UiRenderManager_1af9cfebf3c57b3c9b6283d7de32fc4adc" prot="public" virt="virtual"><scope>MR::UiRenderManager</scope><name>postRenderViewport</name></member>
+      <member refid="structMR_1_1UiRenderManager_1ae586ca77f767a1b38c45269b184c7118" prot="public" virt="virtual"><scope>MR::UiRenderManager</scope><name>preRenderViewport</name></member>
+      <member refid="structMR_1_1UiRenderManager_1a068f0178b855d81e92b613b5872c99ee" prot="public" virt="virtual"><scope>MR::UiRenderManager</scope><name>~UiRenderManager</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

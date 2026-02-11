@@ -1,0 +1,494 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1BendContoursAlongCurveParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::BendContoursAlongCurveParams</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1BendContoursAlongCurveParams_1aa52bc0fd38a767dc5c208175952e8c2d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BendContoursAlongCurveParams::_offsetof_extrusion</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_extrusion</name>
+        <qualifiedname>mrmeshpy.BendContoursAlongCurveParams._offsetof_extrusion</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2896" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2896" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1BendContoursAlongCurveParams_1ad1ca85f050b83cb3f985378bc24777f2" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BendContoursAlongCurveParams::_offsetof_periodicCurve</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_periodicCurve</name>
+        <qualifiedname>mrmeshpy.BendContoursAlongCurveParams._offsetof_periodicCurve</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2897" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2897" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1BendContoursAlongCurveParams_1a71ce749c4e270241f481676169ea4849" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BendContoursAlongCurveParams::_offsetof_pivotBoxPoint</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_pivotBoxPoint</name>
+        <qualifiedname>mrmeshpy.BendContoursAlongCurveParams._offsetof_pivotBoxPoint</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2898" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2898" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1BendContoursAlongCurveParams_1a99bbf97517f4f341e46994ecfe714a6e" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BendContoursAlongCurveParams::_offsetof_pivotCurveTime</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_pivotCurveTime</name>
+        <qualifiedname>mrmeshpy.BendContoursAlongCurveParams._offsetof_pivotCurveTime</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2899" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2899" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1BendContoursAlongCurveParams_1a5621a838ae3a8771b5e87c639c82348e" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BendContoursAlongCurveParams::_offsetof_stretch</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_stretch</name>
+        <qualifiedname>mrmeshpy.BendContoursAlongCurveParams._offsetof_stretch</qualifiedname>
+        <initializer>=  13</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2900" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2900" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1BendContoursAlongCurveParams_1a97b70e96f18ac1b8898835025a561fd2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BendContoursAlongCurveParams.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.BendContoursAlongCurveParams.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2903" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2903" bodyend="2904"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BendContoursAlongCurveParams_1a8296e488893250a61bcc45f9155e6ea2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1BendContoursAlongCurveParams" kindref="compound">BendContoursAlongCurveParams</ref></type>
+        <definition> BendContoursAlongCurveParams mrmeshpy.BendContoursAlongCurveParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.BendContoursAlongCurveParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2907" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2907" bodyend="2908"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BendContoursAlongCurveParams_1a8296e488893250a61bcc45f9155e6ea2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1BendContoursAlongCurveParams" kindref="compound">BendContoursAlongCurveParams</ref></type>
+        <definition> BendContoursAlongCurveParams mrmeshpy.BendContoursAlongCurveParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.BendContoursAlongCurveParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2911" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2911" bodyend="2912"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1BendContoursAlongCurveParams_1a4d1266779ad537755d1deb939f55817a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BendContoursAlongCurveParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.BendContoursAlongCurveParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2914" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2914" bodyend="2915"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BendContoursAlongCurveParams_1a1e8c9ad5ff6625fad0b5be5abb30b25a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BendContoursAlongCurveParams.__init__</definition>
+        <argsstring>(self, BendContoursAlongCurveParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.BendContoursAlongCurveParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BendContoursAlongCurveParams" kindref="compound">BendContoursAlongCurveParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2917" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2917" bodyend="2920"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BendContoursAlongCurveParams_1a655b1327f069daf8c531fd650783a184" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BendContoursAlongCurveParams.__init__</definition>
+        <argsstring>(self, float pivotCurveTime, Vector2f pivotBoxPoint, bool periodicCurve, bool stretch, float extrusion)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.BendContoursAlongCurveParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>pivotCurveTime</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2f" kindref="compound">Vector2f</ref></type>
+          <declname>pivotBoxPoint</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>periodicCurve</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>stretch</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>extrusion</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2922" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2922" bodyend="2925"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BendContoursAlongCurveParams_1a7e4732d8e06c95f5b96866d585a75301" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.BendContoursAlongCurveParams.extrusion</definition>
+        <argsstring>(self)</argsstring>
+        <name>extrusion</name>
+        <qualifiedname>mrmeshpy.BendContoursAlongCurveParams.extrusion</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Contours extrusion outside of curve level
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2927" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2927" bodyend="2930"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BendContoursAlongCurveParams_1ac5ebbb8a6676156e36f5eae9d2da9750" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BendContoursAlongCurveParams.extrusion</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>extrusion</name>
+        <qualifiedname>mrmeshpy.BendContoursAlongCurveParams.extrusion</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2932" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2932" bodyend="2933"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BendContoursAlongCurveParams_1ac5bfd351e1f55df955e980d9a88483c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.BendContoursAlongCurveParams.periodicCurve</definition>
+        <argsstring>(self)</argsstring>
+        <name>periodicCurve</name>
+        <qualifiedname>mrmeshpy.BendContoursAlongCurveParams.periodicCurve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if true, curve parameter will be always within [0,1) with repetition: xr := x - floor(x)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2935" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2935" bodyend="2938"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BendContoursAlongCurveParams_1abc974c52561e2f30bf3077ff4be855a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BendContoursAlongCurveParams.periodicCurve</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>periodicCurve</name>
+        <qualifiedname>mrmeshpy.BendContoursAlongCurveParams.periodicCurve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2940" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2940" bodyend="2941"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BendContoursAlongCurveParams_1a4ecc2a4a680f654b057919bfa51426e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector2f" kindref="compound">Vector2f</ref></type>
+        <definition> Vector2f mrmeshpy.BendContoursAlongCurveParams.pivotBoxPoint</definition>
+        <argsstring>(self)</argsstring>
+        <name>pivotBoxPoint</name>
+        <qualifiedname>mrmeshpy.BendContoursAlongCurveParams.pivotBoxPoint</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Position of the curve(pivotCurveTime) in the contours&apos; bounding box:
+(0, 0) - bottom left, (0, 1) - bottom right, (0.5, 0.5) - center, (1, 1) - top right
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2943" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2943" bodyend="2947"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BendContoursAlongCurveParams_1a35050fa8cf76e698f6d91096d46426e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BendContoursAlongCurveParams.pivotBoxPoint</definition>
+        <argsstring>(self, Vector2f arg1)</argsstring>
+        <name>pivotBoxPoint</name>
+        <qualifiedname>mrmeshpy.BendContoursAlongCurveParams.pivotBoxPoint</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2f" kindref="compound">Vector2f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2949" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2949" bodyend="2950"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BendContoursAlongCurveParams_1aa612fcda28896e3eab649976cf9957d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.BendContoursAlongCurveParams.pivotCurveTime</definition>
+        <argsstring>(self)</argsstring>
+        <name>pivotCurveTime</name>
+        <qualifiedname>mrmeshpy.BendContoursAlongCurveParams.pivotCurveTime</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Position on the curve, where bounding box&apos;s pivot point is mapped
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2952" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2952" bodyend="2955"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BendContoursAlongCurveParams_1a0afdb82a7eccd3d4bc5f101f2ec74d16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BendContoursAlongCurveParams.pivotCurveTime</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>pivotCurveTime</name>
+        <qualifiedname>mrmeshpy.BendContoursAlongCurveParams.pivotCurveTime</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2957" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2957" bodyend="2958"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BendContoursAlongCurveParams_1afab1b591056df323251173137b3e8782" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.BendContoursAlongCurveParams.stretch</definition>
+        <argsstring>(self)</argsstring>
+        <name>stretch</name>
+        <qualifiedname>mrmeshpy.BendContoursAlongCurveParams.stretch</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>stretch all contours along curve to fit in unit curve range
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2960" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2960" bodyend="2963"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BendContoursAlongCurveParams_1a335ce40eecc891eb89fc51bae8ec91b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BendContoursAlongCurveParams.stretch</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>stretch</name>
+        <qualifiedname>mrmeshpy.BendContoursAlongCurveParams.stretch</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2965" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2965" bodyend="2966"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::BendContoursAlongCurveParams
+
+Parameters for aligning 2d contours along given curve
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.BendContoursAlongCurveParams</label>
+        <link refid="classmrmeshpy_1_1BendContoursAlongCurveParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_extrusion</edgelabel>
+          <edgelabel>_offsetof_periodicCurve</edgelabel>
+          <edgelabel>_offsetof_pivotBoxPoint</edgelabel>
+          <edgelabel>_offsetof_pivotCurveTime</edgelabel>
+          <edgelabel>_offsetof_stretch</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2890" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2890" bodyend="2966"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1BendContoursAlongCurveParams_1a97b70e96f18ac1b8898835025a561fd2" prot="public" virt="non-virtual"><scope>mrmeshpy::BendContoursAlongCurveParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BendContoursAlongCurveParams_1a4d1266779ad537755d1deb939f55817a" prot="public" virt="non-virtual"><scope>mrmeshpy::BendContoursAlongCurveParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BendContoursAlongCurveParams_1a1e8c9ad5ff6625fad0b5be5abb30b25a" prot="public" virt="non-virtual"><scope>mrmeshpy::BendContoursAlongCurveParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BendContoursAlongCurveParams_1a655b1327f069daf8c531fd650783a184" prot="public" virt="non-virtual"><scope>mrmeshpy::BendContoursAlongCurveParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BendContoursAlongCurveParams_1aa52bc0fd38a767dc5c208175952e8c2d" prot="protected" virt="non-virtual"><scope>mrmeshpy::BendContoursAlongCurveParams</scope><name>_offsetof_extrusion</name></member>
+      <member refid="classmrmeshpy_1_1BendContoursAlongCurveParams_1ad1ca85f050b83cb3f985378bc24777f2" prot="protected" virt="non-virtual"><scope>mrmeshpy::BendContoursAlongCurveParams</scope><name>_offsetof_periodicCurve</name></member>
+      <member refid="classmrmeshpy_1_1BendContoursAlongCurveParams_1a71ce749c4e270241f481676169ea4849" prot="protected" virt="non-virtual"><scope>mrmeshpy::BendContoursAlongCurveParams</scope><name>_offsetof_pivotBoxPoint</name></member>
+      <member refid="classmrmeshpy_1_1BendContoursAlongCurveParams_1a99bbf97517f4f341e46994ecfe714a6e" prot="protected" virt="non-virtual"><scope>mrmeshpy::BendContoursAlongCurveParams</scope><name>_offsetof_pivotCurveTime</name></member>
+      <member refid="classmrmeshpy_1_1BendContoursAlongCurveParams_1a5621a838ae3a8771b5e87c639c82348e" prot="protected" virt="non-virtual"><scope>mrmeshpy::BendContoursAlongCurveParams</scope><name>_offsetof_stretch</name></member>
+      <member refid="classmrmeshpy_1_1BendContoursAlongCurveParams_1a7e4732d8e06c95f5b96866d585a75301" prot="public" virt="non-virtual"><scope>mrmeshpy::BendContoursAlongCurveParams</scope><name>extrusion</name></member>
+      <member refid="classmrmeshpy_1_1BendContoursAlongCurveParams_1ac5ebbb8a6676156e36f5eae9d2da9750" prot="public" virt="non-virtual"><scope>mrmeshpy::BendContoursAlongCurveParams</scope><name>extrusion</name></member>
+      <member refid="classmrmeshpy_1_1BendContoursAlongCurveParams_1a8296e488893250a61bcc45f9155e6ea2" prot="public" virt="non-virtual"><scope>mrmeshpy::BendContoursAlongCurveParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1BendContoursAlongCurveParams_1a8296e488893250a61bcc45f9155e6ea2" prot="public" virt="non-virtual"><scope>mrmeshpy::BendContoursAlongCurveParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1BendContoursAlongCurveParams_1ac5bfd351e1f55df955e980d9a88483c5" prot="public" virt="non-virtual"><scope>mrmeshpy::BendContoursAlongCurveParams</scope><name>periodicCurve</name></member>
+      <member refid="classmrmeshpy_1_1BendContoursAlongCurveParams_1abc974c52561e2f30bf3077ff4be855a8" prot="public" virt="non-virtual"><scope>mrmeshpy::BendContoursAlongCurveParams</scope><name>periodicCurve</name></member>
+      <member refid="classmrmeshpy_1_1BendContoursAlongCurveParams_1a4ecc2a4a680f654b057919bfa51426e4" prot="public" virt="non-virtual"><scope>mrmeshpy::BendContoursAlongCurveParams</scope><name>pivotBoxPoint</name></member>
+      <member refid="classmrmeshpy_1_1BendContoursAlongCurveParams_1a35050fa8cf76e698f6d91096d46426e1" prot="public" virt="non-virtual"><scope>mrmeshpy::BendContoursAlongCurveParams</scope><name>pivotBoxPoint</name></member>
+      <member refid="classmrmeshpy_1_1BendContoursAlongCurveParams_1aa612fcda28896e3eab649976cf9957d3" prot="public" virt="non-virtual"><scope>mrmeshpy::BendContoursAlongCurveParams</scope><name>pivotCurveTime</name></member>
+      <member refid="classmrmeshpy_1_1BendContoursAlongCurveParams_1a0afdb82a7eccd3d4bc5f101f2ec74d16" prot="public" virt="non-virtual"><scope>mrmeshpy::BendContoursAlongCurveParams</scope><name>pivotCurveTime</name></member>
+      <member refid="classmrmeshpy_1_1BendContoursAlongCurveParams_1afab1b591056df323251173137b3e8782" prot="public" virt="non-virtual"><scope>mrmeshpy::BendContoursAlongCurveParams</scope><name>stretch</name></member>
+      <member refid="classmrmeshpy_1_1BendContoursAlongCurveParams_1a335ce40eecc891eb89fc51bae8ec91b3" prot="public" virt="non-virtual"><scope>mrmeshpy::BendContoursAlongCurveParams</scope><name>stretch</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

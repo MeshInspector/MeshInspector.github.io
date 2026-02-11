@@ -1,0 +1,403 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1PolylineToDistanceVolumeParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::PolylineToDistanceVolumeParams</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1PolylineToDistanceVolumeParams_1a0707d0e21f0ab95d66097d4eaf9665ab" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PolylineToDistanceVolumeParams::_offsetof_cb</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_cb</name>
+        <qualifiedname>mrmeshpy.PolylineToDistanceVolumeParams._offsetof_cb</qualifiedname>
+        <initializer>=  72</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46769" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46769" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PolylineToDistanceVolumeParams_1acb24fc27ffdcc29778999eb59e0bf3af" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PolylineToDistanceVolumeParams::_offsetof_offsetCount</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_offsetCount</name>
+        <qualifiedname>mrmeshpy.PolylineToDistanceVolumeParams._offsetof_offsetCount</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46770" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46770" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PolylineToDistanceVolumeParams_1aa89ea46880143953f229c1413583b3a1" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PolylineToDistanceVolumeParams::_offsetof_outXf</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_outXf</name>
+        <qualifiedname>mrmeshpy.PolylineToDistanceVolumeParams._offsetof_outXf</qualifiedname>
+        <initializer>=  64</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46771" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46771" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PolylineToDistanceVolumeParams_1aeda62f61bb7a7b610bab162dfefe5e36" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PolylineToDistanceVolumeParams::_offsetof_voxelSize</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_voxelSize</name>
+        <qualifiedname>mrmeshpy.PolylineToDistanceVolumeParams._offsetof_voxelSize</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46772" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46772" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PolylineToDistanceVolumeParams_1a06ab5eee1231e505af6dc88e18a20da9" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PolylineToDistanceVolumeParams::_offsetof_worldXf</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_worldXf</name>
+        <qualifiedname>mrmeshpy.PolylineToDistanceVolumeParams._offsetof_worldXf</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46773" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46773" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineToDistanceVolumeParams_1a657e2c2386201e62445d0b9f0658ffa1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineToDistanceVolumeParams.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PolylineToDistanceVolumeParams.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46778" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46778" bodyend="46779"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineToDistanceVolumeParams_1afa195ed5482d61acfabc44c4fce48bce" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PolylineToDistanceVolumeParams" kindref="compound">PolylineToDistanceVolumeParams</ref></type>
+        <definition> PolylineToDistanceVolumeParams mrmeshpy.PolylineToDistanceVolumeParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PolylineToDistanceVolumeParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46782" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46782" bodyend="46783"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineToDistanceVolumeParams_1afa195ed5482d61acfabc44c4fce48bce" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PolylineToDistanceVolumeParams" kindref="compound">PolylineToDistanceVolumeParams</ref></type>
+        <definition> PolylineToDistanceVolumeParams mrmeshpy.PolylineToDistanceVolumeParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PolylineToDistanceVolumeParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46786" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46786" bodyend="46787"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineToDistanceVolumeParams_1a80fc30f54dbbc5cf8c086355854b2d76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineToDistanceVolumeParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PolylineToDistanceVolumeParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46789" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46789" bodyend="46790"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineToDistanceVolumeParams_1a463bb066d98f0935256f3ea109090e7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineToDistanceVolumeParams.__init__</definition>
+        <argsstring>(self, PolylineToDistanceVolumeParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PolylineToDistanceVolumeParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PolylineToDistanceVolumeParams" kindref="compound">PolylineToDistanceVolumeParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46792" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46792" bodyend="46795"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineToDistanceVolumeParams_1ad76f3214093961fc983e64b195dac2cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineToDistanceVolumeParams.__init__</definition>
+        <argsstring>(self, Vector3f voxelSize, float offsetCount, AffineXf3f worldXf, AffineXf3f outXf, func_bool_from_float cb)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PolylineToDistanceVolumeParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>voxelSize</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>offsetCount</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>worldXf</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>outXf</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46797" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46797" bodyend="46800"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineToDistanceVolumeParams_1a728da100cf1681d2222184408bac107e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.PolylineToDistanceVolumeParams.offsetCount</definition>
+        <argsstring>(self)</argsstring>
+        <name>offsetCount</name>
+        <qualifiedname>mrmeshpy.PolylineToDistanceVolumeParams.offsetCount</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>offsetCount - the number of voxels around polyline to calculate distance in (should be positive)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46802" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46802" bodyend="46805"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineToDistanceVolumeParams_1a3aa5580696de2d75be5e6e3964ad06b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineToDistanceVolumeParams.offsetCount</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>offsetCount</name>
+        <qualifiedname>mrmeshpy.PolylineToDistanceVolumeParams.offsetCount</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46807" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46807" bodyend="46808"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineToDistanceVolumeParams_1a0a9c3c132526a2506a04027cbfa638cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+        <definition> AffineXf3f mrmeshpy.PolylineToDistanceVolumeParams.outXf</definition>
+        <argsstring>(self)</argsstring>
+        <name>outXf</name>
+        <qualifiedname>mrmeshpy.PolylineToDistanceVolumeParams.outXf</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional output: xf to original mesh (respecting worldXf)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46810" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46810" bodyend="46813"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineToDistanceVolumeParams_1aac3be6e45dac26bbe93c24c7a6cbb1df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineToDistanceVolumeParams.outXf</definition>
+        <argsstring>(self, AffineXf3f arg1)</argsstring>
+        <name>outXf</name>
+        <qualifiedname>mrmeshpy.PolylineToDistanceVolumeParams.outXf</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46815" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46815" bodyend="46816"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineToDistanceVolumeParams_1a275ff11d698d77cef4a4c5ee918f62d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+        <definition> AffineXf3f mrmeshpy.PolylineToDistanceVolumeParams.worldXf</definition>
+        <argsstring>(self)</argsstring>
+        <name>worldXf</name>
+        <qualifiedname>mrmeshpy.PolylineToDistanceVolumeParams.worldXf</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>line initial transform
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46818" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46818" bodyend="46821"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineToDistanceVolumeParams_1acd5dfbe9cf983ac8cc2abd6c9570f29c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineToDistanceVolumeParams.worldXf</definition>
+        <argsstring>(self, AffineXf3f arg1)</argsstring>
+        <name>worldXf</name>
+        <qualifiedname>mrmeshpy.PolylineToDistanceVolumeParams.worldXf</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46823" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46823" bodyend="46824"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::PolylineToDistanceVolumeParams
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.PolylineToDistanceVolumeParams</label>
+        <link refid="classmrmeshpy_1_1PolylineToDistanceVolumeParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_cb</edgelabel>
+          <edgelabel>_offsetof_offsetCount</edgelabel>
+          <edgelabel>_offsetof_outXf</edgelabel>
+          <edgelabel>_offsetof_voxelSize</edgelabel>
+          <edgelabel>_offsetof_worldXf</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46765" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46765" bodyend="46824"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1PolylineToDistanceVolumeParams_1a657e2c2386201e62445d0b9f0658ffa1" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineToDistanceVolumeParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PolylineToDistanceVolumeParams_1a80fc30f54dbbc5cf8c086355854b2d76" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineToDistanceVolumeParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PolylineToDistanceVolumeParams_1a463bb066d98f0935256f3ea109090e7c" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineToDistanceVolumeParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PolylineToDistanceVolumeParams_1ad76f3214093961fc983e64b195dac2cd" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineToDistanceVolumeParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PolylineToDistanceVolumeParams_1a0707d0e21f0ab95d66097d4eaf9665ab" prot="protected" virt="non-virtual"><scope>mrmeshpy::PolylineToDistanceVolumeParams</scope><name>_offsetof_cb</name></member>
+      <member refid="classmrmeshpy_1_1PolylineToDistanceVolumeParams_1acb24fc27ffdcc29778999eb59e0bf3af" prot="protected" virt="non-virtual"><scope>mrmeshpy::PolylineToDistanceVolumeParams</scope><name>_offsetof_offsetCount</name></member>
+      <member refid="classmrmeshpy_1_1PolylineToDistanceVolumeParams_1aa89ea46880143953f229c1413583b3a1" prot="protected" virt="non-virtual"><scope>mrmeshpy::PolylineToDistanceVolumeParams</scope><name>_offsetof_outXf</name></member>
+      <member refid="classmrmeshpy_1_1PolylineToDistanceVolumeParams_1aeda62f61bb7a7b610bab162dfefe5e36" prot="protected" virt="non-virtual"><scope>mrmeshpy::PolylineToDistanceVolumeParams</scope><name>_offsetof_voxelSize</name></member>
+      <member refid="classmrmeshpy_1_1PolylineToDistanceVolumeParams_1a06ab5eee1231e505af6dc88e18a20da9" prot="protected" virt="non-virtual"><scope>mrmeshpy::PolylineToDistanceVolumeParams</scope><name>_offsetof_worldXf</name></member>
+      <member refid="classmrmeshpy_1_1PolylineToDistanceVolumeParams_1a728da100cf1681d2222184408bac107e" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineToDistanceVolumeParams</scope><name>offsetCount</name></member>
+      <member refid="classmrmeshpy_1_1PolylineToDistanceVolumeParams_1a3aa5580696de2d75be5e6e3964ad06b9" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineToDistanceVolumeParams</scope><name>offsetCount</name></member>
+      <member refid="classmrmeshpy_1_1PolylineToDistanceVolumeParams_1afa195ed5482d61acfabc44c4fce48bce" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineToDistanceVolumeParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1PolylineToDistanceVolumeParams_1afa195ed5482d61acfabc44c4fce48bce" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineToDistanceVolumeParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1PolylineToDistanceVolumeParams_1a0a9c3c132526a2506a04027cbfa638cd" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineToDistanceVolumeParams</scope><name>outXf</name></member>
+      <member refid="classmrmeshpy_1_1PolylineToDistanceVolumeParams_1aac3be6e45dac26bbe93c24c7a6cbb1df" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineToDistanceVolumeParams</scope><name>outXf</name></member>
+      <member refid="classmrmeshpy_1_1PolylineToDistanceVolumeParams_1a275ff11d698d77cef4a4c5ee918f62d8" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineToDistanceVolumeParams</scope><name>worldXf</name></member>
+      <member refid="classmrmeshpy_1_1PolylineToDistanceVolumeParams_1acd5dfbe9cf983ac8cc2abd6c9570f29c" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineToDistanceVolumeParams</scope><name>worldXf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

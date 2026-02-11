@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1Features_1_1MeasureResult_1_1BasicPart" kind="struct" language="C++" prot="public">
+    <compoundname>MR::Features::MeasureResult::BasicPart</compoundname>
+    <derivedcompoundref refid="structMR_1_1Features_1_1MeasureResult_1_1Angle" prot="public" virt="non-virtual">MR::Features::MeasureResult::Angle</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1Features_1_1MeasureResult_1_1Distance" prot="public" virt="non-virtual">MR::Features::MeasureResult::Distance</derivedcompoundref>
+    <includes refid="MRFeatures_8h" local="no">MRFeatures.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1Features_1_1MeasureResult_1_1BasicPart_1a86193b4dbe9a464e56ff2fe272c46486" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1Features_1_1MeasureResult_1ab9a02bda2fc92c73a0d7d637ba562a7e" kindref="member">Status</ref></type>
+        <definition>Status MR::Features::MeasureResult::BasicPart::status</definition>
+        <argsstring></argsstring>
+        <name>status</name>
+        <qualifiedname>MR::Features::MeasureResult::BasicPart::status</qualifiedname>
+        <initializer>= <ref refid="structMR_1_1Features_1_1MeasureResult_1ab9a02bda2fc92c73a0d7d637ba562a7ea558e60239d9c9c3f63fef490b85009bb" kindref="member">Status::notImplemented</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="183" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" bodystart="183" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1Features_1_1MeasureResult_1_1BasicPart_1a7985af9aca32411b60aec8f8e6178e92" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::Features::MeasureResult::BasicPart::operator bool</definition>
+        <argsstring>() const</argsstring>
+        <name>operator bool</name>
+        <qualifiedname>MR::Features::MeasureResult::BasicPart::operator bool</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="184" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" bodystart="184" bodyend="184"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::Features::MeasureResult::Angle</label>
+        <link refid="structMR_1_1Features_1_1MeasureResult_1_1Angle"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::Features::MeasureResult::BasicPart</label>
+        <link refid="structMR_1_1Features_1_1MeasureResult_1_1BasicPart"/>
+      </node>
+      <node id="3">
+        <label>MR::Features::MeasureResult::Distance</label>
+        <link refid="structMR_1_1Features_1_1MeasureResult_1_1Distance"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="181" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" bodystart="182" bodyend="185"/>
+    <listofallmembers>
+      <member refid="structMR_1_1Features_1_1MeasureResult_1_1BasicPart_1a7985af9aca32411b60aec8f8e6178e92" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult::BasicPart</scope><name>operator bool</name></member>
+      <member refid="structMR_1_1Features_1_1MeasureResult_1_1BasicPart_1a86193b4dbe9a464e56ff2fe272c46486" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult::BasicPart</scope><name>status</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

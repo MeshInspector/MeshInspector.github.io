@@ -1,0 +1,298 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1CloudPartMapping" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::CloudPartMapping</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1CloudPartMapping_1a414248fb91821df79d1d186e22b66f57" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.CloudPartMapping::_offsetof_src2tgtVerts</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_src2tgtVerts</name>
+        <qualifiedname>mrmeshpy.CloudPartMapping._offsetof_src2tgtVerts</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9396" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9396" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1CloudPartMapping_1abdf30624b1b4dc8216103dee23439ec8" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.CloudPartMapping::_offsetof_tgt2srcVerts</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_tgt2srcVerts</name>
+        <qualifiedname>mrmeshpy.CloudPartMapping._offsetof_tgt2srcVerts</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9397" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9397" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1CloudPartMapping_1a49660c11373465b84e3be22164b24e7a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CloudPartMapping.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CloudPartMapping.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9400" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9400" bodyend="9401"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CloudPartMapping_1a7c24478d702d57004a96327def4ec1ea" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1CloudPartMapping" kindref="compound">CloudPartMapping</ref></type>
+        <definition> CloudPartMapping mrmeshpy.CloudPartMapping.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.CloudPartMapping.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9404" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9404" bodyend="9405"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CloudPartMapping_1a7c24478d702d57004a96327def4ec1ea" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1CloudPartMapping" kindref="compound">CloudPartMapping</ref></type>
+        <definition> CloudPartMapping mrmeshpy.CloudPartMapping.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.CloudPartMapping.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9408" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9408" bodyend="9409"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1CloudPartMapping_1a92b3959da08f9ef3b7cd33e53fcbae21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CloudPartMapping.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CloudPartMapping.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9411" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9411" bodyend="9412"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CloudPartMapping_1adbd760fc021518104ea1bbdb8227ed28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CloudPartMapping.__init__</definition>
+        <argsstring>(self, CloudPartMapping arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CloudPartMapping.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1CloudPartMapping" kindref="compound">CloudPartMapping</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9414" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9414" bodyend="9417"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CloudPartMapping_1a79012d3e2072e88dc8e39571ccc9b8ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CloudPartMapping.__init__</definition>
+        <argsstring>(self, VertMap src2tgtVerts, VertMap tgt2srcVerts)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CloudPartMapping.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertMap" kindref="compound">VertMap</ref></type>
+          <declname>src2tgtVerts</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertMap" kindref="compound">VertMap</ref></type>
+          <declname>tgt2srcVerts</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9419" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9419" bodyend="9422"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CloudPartMapping_1a88e64a283bd1713901ccb4b69b2c4f29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertMap" kindref="compound">VertMap</ref></type>
+        <definition> VertMap mrmeshpy.CloudPartMapping.src2tgtVerts</definition>
+        <argsstring>(self)</argsstring>
+        <name>src2tgtVerts</name>
+        <qualifiedname>mrmeshpy.CloudPartMapping.src2tgtVerts</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>from.id -&gt; this.id, efficient when full cloud without many invalid points is added into another cloud
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9424" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9424" bodyend="9427"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CloudPartMapping_1aff48f66fe59a208ac071af0b134d3cc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CloudPartMapping.src2tgtVerts</definition>
+        <argsstring>(self, VertMap arg1)</argsstring>
+        <name>src2tgtVerts</name>
+        <qualifiedname>mrmeshpy.CloudPartMapping.src2tgtVerts</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertMap" kindref="compound">VertMap</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9429" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9429" bodyend="9430"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CloudPartMapping_1a9e8381b235be30094925c633e94248e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertMap" kindref="compound">VertMap</ref></type>
+        <definition> VertMap mrmeshpy.CloudPartMapping.tgt2srcVerts</definition>
+        <argsstring>(self)</argsstring>
+        <name>tgt2srcVerts</name>
+        <qualifiedname>mrmeshpy.CloudPartMapping.tgt2srcVerts</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>this.id -&gt; from.id, efficient when any cloud or its part is added into empty cloud
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9432" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9432" bodyend="9435"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CloudPartMapping_1a94345053996bc5c18e5db968fdabf0c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CloudPartMapping.tgt2srcVerts</definition>
+        <argsstring>(self, VertMap arg1)</argsstring>
+        <name>tgt2srcVerts</name>
+        <qualifiedname>mrmeshpy.CloudPartMapping.tgt2srcVerts</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertMap" kindref="compound">VertMap</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9437" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9437" bodyend="9438"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::CloudPartMapping
+
+mapping among elements of source point cloud, from which a part is taken, and target (this) point cloud
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.CloudPartMapping</label>
+        <link refid="classmrmeshpy_1_1CloudPartMapping"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_src2tgtVerts</edgelabel>
+          <edgelabel>_offsetof_tgt2srcVerts</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9390" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9390" bodyend="9438"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1CloudPartMapping_1a49660c11373465b84e3be22164b24e7a" prot="public" virt="non-virtual"><scope>mrmeshpy::CloudPartMapping</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CloudPartMapping_1a92b3959da08f9ef3b7cd33e53fcbae21" prot="public" virt="non-virtual"><scope>mrmeshpy::CloudPartMapping</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CloudPartMapping_1adbd760fc021518104ea1bbdb8227ed28" prot="public" virt="non-virtual"><scope>mrmeshpy::CloudPartMapping</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CloudPartMapping_1a79012d3e2072e88dc8e39571ccc9b8ad" prot="public" virt="non-virtual"><scope>mrmeshpy::CloudPartMapping</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CloudPartMapping_1a414248fb91821df79d1d186e22b66f57" prot="protected" virt="non-virtual"><scope>mrmeshpy::CloudPartMapping</scope><name>_offsetof_src2tgtVerts</name></member>
+      <member refid="classmrmeshpy_1_1CloudPartMapping_1abdf30624b1b4dc8216103dee23439ec8" prot="protected" virt="non-virtual"><scope>mrmeshpy::CloudPartMapping</scope><name>_offsetof_tgt2srcVerts</name></member>
+      <member refid="classmrmeshpy_1_1CloudPartMapping_1a7c24478d702d57004a96327def4ec1ea" prot="public" virt="non-virtual"><scope>mrmeshpy::CloudPartMapping</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1CloudPartMapping_1a7c24478d702d57004a96327def4ec1ea" prot="public" virt="non-virtual"><scope>mrmeshpy::CloudPartMapping</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1CloudPartMapping_1a88e64a283bd1713901ccb4b69b2c4f29" prot="public" virt="non-virtual"><scope>mrmeshpy::CloudPartMapping</scope><name>src2tgtVerts</name></member>
+      <member refid="classmrmeshpy_1_1CloudPartMapping_1aff48f66fe59a208ac071af0b134d3cc5" prot="public" virt="non-virtual"><scope>mrmeshpy::CloudPartMapping</scope><name>src2tgtVerts</name></member>
+      <member refid="classmrmeshpy_1_1CloudPartMapping_1a9e8381b235be30094925c633e94248e3" prot="public" virt="non-virtual"><scope>mrmeshpy::CloudPartMapping</scope><name>tgt2srcVerts</name></member>
+      <member refid="classmrmeshpy_1_1CloudPartMapping_1a94345053996bc5c18e5db968fdabf0c5" prot="public" virt="non-virtual"><scope>mrmeshpy::CloudPartMapping</scope><name>tgt2srcVerts</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

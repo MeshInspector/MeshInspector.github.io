@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ViewportGL_1_1PickColor" kind="struct" language="C++" prot="private">
+    <compoundname>MR::ViewportGL::PickColor</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1ViewportGL_1_1PickColor_1aa3b4158113bf9222c85c1bbe85c1433a" prot="public" static="no" mutable="no">
+        <type>unsigned</type>
+        <definition>unsigned MR::ViewportGL::PickColor::color[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>color</name>
+        <qualifiedname>MR::ViewportGL::PickColor::color</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="108" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="106" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" bodystart="107" bodyend="109"/>
+    <listofallmembers>
+      <member refid="structMR_1_1ViewportGL_1_1PickColor_1aa3b4158113bf9222c85c1bbe85c1433a" prot="public" virt="non-virtual"><scope>MR::ViewportGL::PickColor</scope><name>color</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1UndirectedEdgeIterator" kind="class" language="C++" prot="public">
+    <compoundname>MR::UndirectedEdgeIterator</compoundname>
+    <includes refid="MREdgeIterator_8h" local="no">MREdgeIterator.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classMR_1_1UndirectedEdgeIterator_1a14b6e326990c49dd287dac693682485e" prot="public" static="no">
+        <type>std::forward_iterator_tag</type>
+        <definition>using MR::UndirectedEdgeIterator::iterator_category =  std::forward_iterator_tag</definition>
+        <argsstring></argsstring>
+        <name>iterator_category</name>
+        <qualifiedname>MR::UndirectedEdgeIterator::iterator_category</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeIterator.h" line="14" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeIterator.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classMR_1_1UndirectedEdgeIterator_1afd61e3c0df7e5d0f0b23e76f6f0ca42e" prot="public" static="no">
+        <type>UndirectedEdgeId</type>
+        <definition>using MR::UndirectedEdgeIterator::value_type =  UndirectedEdgeId</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>MR::UndirectedEdgeIterator::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeIterator.h" line="15" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeIterator.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1UndirectedEdgeIterator_1ad213a7293f0731e71a72f9baf3db5d67" prot="private" static="no" mutable="no">
+        <type>const <ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref> *</type>
+        <definition>const MeshTopology* MR::UndirectedEdgeIterator::topology_</definition>
+        <argsstring></argsstring>
+        <name>topology_</name>
+        <qualifiedname>MR::UndirectedEdgeIterator::topology_</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeIterator.h" line="48" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeIterator.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1UndirectedEdgeIterator_1a502040275695ad7cdb51a568c7018fa2" prot="private" static="no" mutable="no">
+        <type>UndirectedEdgeId</type>
+        <definition>UndirectedEdgeId MR::UndirectedEdgeIterator::edge_</definition>
+        <argsstring></argsstring>
+        <name>edge_</name>
+        <qualifiedname>MR::UndirectedEdgeIterator::edge_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeIterator.h" line="49" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeIterator.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeIterator_1a909a01b0735f738d785b0d1688d8b7d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::UndirectedEdgeIterator::UndirectedEdgeIterator</definition>
+        <argsstring>(const MeshTopology &amp;topology)</argsstring>
+        <name>UndirectedEdgeIterator</name>
+        <qualifiedname>MR::UndirectedEdgeIterator::UndirectedEdgeIterator</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref> &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <briefdescription>
+<para>creates begin iterator </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>end has reached</para>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeIterator.h" line="18" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeIterator.h" bodystart="18" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeIterator_1ac2f62dff10799ac6dca52798a4b22a9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::UndirectedEdgeIterator::UndirectedEdgeIterator</definition>
+        <argsstring>()=default</argsstring>
+        <name>UndirectedEdgeIterator</name>
+        <qualifiedname>MR::UndirectedEdgeIterator::UndirectedEdgeIterator</qualifiedname>
+        <briefdescription>
+<para>creates end iterator </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeIterator.h" line="27" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeIterator_1a852c488fe7af6f3a37c24b9756e470f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1UndirectedEdgeIterator" kindref="compound">UndirectedEdgeIterator</ref> &amp;</type>
+        <definition>UndirectedEdgeIterator &amp; MR::UndirectedEdgeIterator::operator++</definition>
+        <argsstring>()</argsstring>
+        <name>operator++</name>
+        <qualifiedname>MR::UndirectedEdgeIterator::operator++</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeIterator.h" line="29" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeIterator.h" bodystart="29" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeIterator_1afb9397abf0ea6c1ab579232a1d3d527e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>UndirectedEdgeId</type>
+        <definition>UndirectedEdgeId MR::UndirectedEdgeIterator::operator*</definition>
+        <argsstring>() const</argsstring>
+        <name>operator*</name>
+        <qualifiedname>MR::UndirectedEdgeIterator::operator*</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeIterator.h" line="45" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeIterator.h" bodystart="45" bodyend="45"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The iterator to find all not-lone undirected edges in the mesh. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeIterator.h" line="11" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeIterator.h" bodystart="12" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classMR_1_1UndirectedEdgeIterator_1a502040275695ad7cdb51a568c7018fa2" prot="private" virt="non-virtual"><scope>MR::UndirectedEdgeIterator</scope><name>edge_</name></member>
+      <member refid="classMR_1_1UndirectedEdgeIterator_1a14b6e326990c49dd287dac693682485e" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeIterator</scope><name>iterator_category</name></member>
+      <member refid="classMR_1_1UndirectedEdgeIterator_1afb9397abf0ea6c1ab579232a1d3d527e" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeIterator</scope><name>operator*</name></member>
+      <member refid="classMR_1_1UndirectedEdgeIterator_1a852c488fe7af6f3a37c24b9756e470f4" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeIterator</scope><name>operator++</name></member>
+      <member refid="classMR_1_1UndirectedEdgeIterator_1ad213a7293f0731e71a72f9baf3db5d67" prot="private" virt="non-virtual"><scope>MR::UndirectedEdgeIterator</scope><name>topology_</name></member>
+      <member refid="classMR_1_1UndirectedEdgeIterator_1a909a01b0735f738d785b0d1688d8b7d6" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeIterator</scope><name>UndirectedEdgeIterator</name></member>
+      <member refid="classMR_1_1UndirectedEdgeIterator_1ac2f62dff10799ac6dca52798a4b22a9f" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeIterator</scope><name>UndirectedEdgeIterator</name></member>
+      <member refid="classMR_1_1UndirectedEdgeIterator_1afd61e3c0df7e5d0f0b23e76f6f0ca42e" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeIterator</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

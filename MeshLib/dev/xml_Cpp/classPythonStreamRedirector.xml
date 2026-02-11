@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classPythonStreamRedirector" kind="class" language="C++" prot="public">
+    <compoundname>PythonStreamRedirector</compoundname>
+    <includes refid="MRPython_8h" local="no">MRPython.h</includes>
+    <templateparamlist>
+      <param>
+        <type><ref refid="MRPython_8h_1a8a65141d9ea4bf9d2e2377ed6b888a1d" kindref="member">StreamType</ref></type>
+        <declname>T</declname>
+        <defname>T</defname>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classPythonStreamRedirector_1aed4fdb47ff4d02fe070e63c1df8af487" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRPYTHON_API void</type>
+        <definition>MRPYTHON_API void PythonStreamRedirector&lt; T &gt;::write</definition>
+        <argsstring>(const std::string &amp;text)</argsstring>
+        <name>write</name>
+        <qualifiedname>PythonStreamRedirector::write</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" line="158" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classPythonStreamRedirector_1a63f9cef709a73596fe385023ffa5a91a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRPYTHON_API void</type>
+        <definition>MRPYTHON_API void PythonStreamRedirector&lt; T &gt;::flush</definition>
+        <argsstring>()</argsstring>
+        <name>flush</name>
+        <qualifiedname>PythonStreamRedirector::flush</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" line="159" column="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classPythonStreamRedirector_1a0c9234c1f59d79b896e2a639758443d7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRPYTHON_API int</type>
+        <definition>static MRPYTHON_API int PythonStreamRedirector&lt; T &gt;::getNumWritten</definition>
+        <argsstring>()</argsstring>
+        <name>getNumWritten</name>
+        <qualifiedname>PythonStreamRedirector::getNumWritten</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" line="160" column="29"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" line="155" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" bodystart="156" bodyend="161"/>
+    <listofallmembers>
+      <member refid="classPythonStreamRedirector_1a63f9cef709a73596fe385023ffa5a91a" prot="public" virt="non-virtual"><scope>PythonStreamRedirector</scope><name>flush</name></member>
+      <member refid="classPythonStreamRedirector_1a0c9234c1f59d79b896e2a639758443d7" prot="public" virt="non-virtual"><scope>PythonStreamRedirector</scope><name>getNumWritten</name></member>
+      <member refid="classPythonStreamRedirector_1aed4fdb47ff4d02fe070e63c1df8af487" prot="public" virt="non-virtual"><scope>PythonStreamRedirector</scope><name>write</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

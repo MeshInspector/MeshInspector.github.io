@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage" kind="struct" language="C++" prot="public">
+    <compoundname>MR::RenderWrapObject::detail::SubobjectStorage</compoundname>
+    <derivedcompoundref refid="classMR_1_1RenderWrapObject_1_1Wrapper" prot="public" virt="non-virtual">MR::RenderWrapObject::Wrapper&lt; WrappedModelSubobject&lt; IsPrimary, ObjectType &gt;, RenderObjectType &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1RenderWrapObject_1_1Wrapper" prot="public" virt="non-virtual">MR::RenderWrapObject::Wrapper&lt; ObjectType, RenderObjectType &gt;</derivedcompoundref>
+    <includes refid="MRRenderWrapObject_8h" local="no">MRRenderWrapObject.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename ObjectType</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage_1aefbb8b64a400a9acc5e776111c7ae297" prot="public" static="no" mutable="no">
+        <type>ObjectType</type>
+        <definition>ObjectType MR::RenderWrapObject::detail::SubobjectStorage&lt; ObjectType &gt;::subobject</definition>
+        <argsstring></argsstring>
+        <name>subobject</name>
+        <qualifiedname>MR::RenderWrapObject::detail::SubobjectStorage::subobject</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderWrapObject.h" line="15" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderWrapObject.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Need this helper base class to make sure the <computeroutput>subobject</computeroutput> is initialized before the render object, otherwise we get a crash. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>MR::RenderFeatures::RenderFeatureComponent&lt; IsPrimary, ObjectType, RenderObjectType &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::RenderWrapObject::Wrapper&lt; ObjectType, RenderObjectType &gt;</label>
+        <link refid="classMR_1_1RenderWrapObject_1_1Wrapper"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::RenderWrapObject::Wrapper&lt; WrappedModelSubobject&lt; IsPrimary, ObjectType &gt;, RenderObjectType &gt;</label>
+        <link refid="classMR_1_1RenderWrapObject_1_1Wrapper"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::RenderWrapObject::detail::SubobjectStorage&lt; ObjectType &gt;</label>
+        <link refid="structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::RenderWrapObject::detail::SubobjectStorage&lt; ObjectType &gt;</label>
+        <link refid="structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>subobject</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ObjectType</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderWrapObject.h" line="13" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderWrapObject.h" bodystart="14" bodyend="16"/>
+    <listofallmembers>
+      <member refid="structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage_1aefbb8b64a400a9acc5e776111c7ae297" prot="public" virt="non-virtual"><scope>MR::RenderWrapObject::detail::SubobjectStorage</scope><name>subobject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

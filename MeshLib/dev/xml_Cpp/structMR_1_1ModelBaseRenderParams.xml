@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ModelBaseRenderParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ModelBaseRenderParams</compoundname>
+    <basecompoundref refid="structMR_1_1BaseRenderParams" prot="public" virt="non-virtual">MR::BaseRenderParams</basecompoundref>
+    <derivedcompoundref refid="structMR_1_1ModelRenderParams" prot="public" virt="non-virtual">MR::ModelRenderParams</derivedcompoundref>
+    <includes refid="MRIRenderObject_8h" local="no">MRIRenderObject.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1ModelBaseRenderParams_1a28337d3d5f8f9cc1db7812bca629ce40" prot="public" static="no" mutable="no">
+        <type>const Matrix4f &amp;</type>
+        <definition>const Matrix4f&amp; MR::ModelBaseRenderParams::modelMatrix</definition>
+        <argsstring></argsstring>
+        <name>modelMatrix</name>
+        <qualifiedname>MR::ModelBaseRenderParams::modelMatrix</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="44" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ModelBaseRenderParams_1a62b1dc3636e8859d7b4f46b53d1e02c8" prot="public" static="no" mutable="no">
+        <type>const Plane3f &amp;</type>
+        <definition>const Plane3f&amp; MR::ModelBaseRenderParams::clipPlane</definition>
+        <argsstring></argsstring>
+        <name>clipPlane</name>
+        <qualifiedname>MR::ModelBaseRenderParams::clipPlane</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="45" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ModelBaseRenderParams_1a4c79d51067cd63730f681f5aa2c4ad67" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1aa1ff587f4ced1a1f1f1be9787830ef93" kindref="member">DepthFunction</ref></type>
+        <definition>DepthFunction MR::ModelBaseRenderParams::depthFunction</definition>
+        <argsstring></argsstring>
+        <name>depthFunction</name>
+        <qualifiedname>MR::ModelBaseRenderParams::depthFunction</qualifiedname>
+        <initializer>= <ref refid="namespaceMR_1aa1ff587f4ced1a1f1f1be9787830ef93a7a1920d61156abc05a60135aefe8bc67" kindref="member">DepthFunction::Default</ref></initializer>
+        <briefdescription>
+<para>viewport clip plane (it is not applied while object does not have clipping flag set) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="46" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Common rendering parameters for meshes (both for primary rendering and for the picker; the picker uses this as is while the primary rendering adds more fields). </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::BaseRenderParams</label>
+        <link refid="structMR_1_1BaseRenderParams"/>
+      </node>
+      <node id="1">
+        <label>MR::ModelBaseRenderParams</label>
+        <link refid="structMR_1_1ModelBaseRenderParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::ModelRenderParams</label>
+        <link refid="structMR_1_1ModelRenderParams"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::BaseRenderParams</label>
+        <link refid="structMR_1_1BaseRenderParams"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>viewportId</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::ModelBaseRenderParams</label>
+        <link refid="structMR_1_1ModelBaseRenderParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::ViewportId</label>
+        <link refid="classMR_1_1ViewportId"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="42" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="43" bodyend="47"/>
+    <listofallmembers>
+      <member refid="structMR_1_1ModelBaseRenderParams_1a62b1dc3636e8859d7b4f46b53d1e02c8" prot="public" virt="non-virtual"><scope>MR::ModelBaseRenderParams</scope><name>clipPlane</name></member>
+      <member refid="structMR_1_1ModelBaseRenderParams_1a4c79d51067cd63730f681f5aa2c4ad67" prot="public" virt="non-virtual"><scope>MR::ModelBaseRenderParams</scope><name>depthFunction</name></member>
+      <member refid="structMR_1_1ModelBaseRenderParams_1a28337d3d5f8f9cc1db7812bca629ce40" prot="public" virt="non-virtual"><scope>MR::ModelBaseRenderParams</scope><name>modelMatrix</name></member>
+      <member refid="structMR_1_1BaseRenderParams_1ab108063540156c1b73540c07c48e6d01" prot="public" virt="non-virtual"><scope>MR::ModelBaseRenderParams</scope><name>projMatrix</name></member>
+      <member refid="structMR_1_1BaseRenderParams_1a564bcf6e1925912d15fa1cb20a3b0a3c" prot="public" virt="non-virtual"><scope>MR::ModelBaseRenderParams</scope><name>viewMatrix</name></member>
+      <member refid="structMR_1_1BaseRenderParams_1aabb1d7dfa544bd6cb1d98a79a8d036a9" prot="public" virt="non-virtual"><scope>MR::ModelBaseRenderParams</scope><name>viewport</name></member>
+      <member refid="structMR_1_1BaseRenderParams_1adf952473500110be7f693c5d725f6fde" prot="public" virt="non-virtual"><scope>MR::ModelBaseRenderParams</scope><name>viewportId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__DistanceMapLoadGroup" kind="group">
+    <compoundname>DistanceMapLoadGroup</compoundname>
+    <title>DistanceMap Load</title>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__DistanceMapLoadGroup_1ga196f8d320afafa3219dfd4fe1fda6ca2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; DistanceMap &gt;</type>
+        <definition>MRMESH_API Expected&lt; DistanceMap &gt; MR::DistanceMapLoad::fromRaw</definition>
+        <argsstring>(const std::filesystem::path &amp;path, const DistanceMapLoadSettings &amp;settings={})</argsstring>
+        <name>fromRaw</name>
+        <qualifiedname>MR::DistanceMapLoad::fromRaw</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>const DistanceMapLoadSettings &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>Load <ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref> from binary file Format: 2 integer - <ref refid="classMR_1_1DistanceMap_1a86f99e58434c2a70fb27a552d08ba50f" kindref="member">DistanceMap.resX</ref> &amp; <ref refid="classMR_1_1DistanceMap_1ab7ce297c0b79b57dba812e3c7511fb56" kindref="member">DistanceMap.resY</ref> [resX * resY] float - matrix of values. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapLoad.h" line="27" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapLoad.h" declline="27" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__DistanceMapLoadGroup_1ga84cffe3f4d1400f8f975c77ffc252126" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>MR_BIND_IGNORE Expected&lt; DistanceMap &gt;</type>
+        <definition>MR_BIND_IGNORE Expected&lt; DistanceMap &gt; MR::DistanceMapLoad::fromRaw</definition>
+        <argsstring>(const std::filesystem::path &amp;path, ProgressCallback progressCb)</argsstring>
+        <name>fromRaw</name>
+        <qualifiedname>MR::DistanceMapLoad::fromRaw</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>ProgressCallback</type>
+          <declname>progressCb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapLoad.h" line="29" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapLoad.h" bodystart="29" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="group__DistanceMapLoadGroup_1gad49c1f0e0cfbd48bee34bfa0c0fc403d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; DistanceMap &gt;</type>
+        <definition>MRMESH_API Expected&lt; DistanceMap &gt; MR::DistanceMapLoad::fromMrDistanceMap</definition>
+        <argsstring>(const std::filesystem::path &amp;path, const DistanceMapLoadSettings &amp;settings={})</argsstring>
+        <name>fromMrDistanceMap</name>
+        <qualifiedname>MR::DistanceMapLoad::fromMrDistanceMap</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>const DistanceMapLoadSettings &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapLoad.h" line="36" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapLoad.h" declline="36" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__DistanceMapLoadGroup_1ga3975372a3d6ef3b6c0ffecd16d39eaba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>MR_BIND_IGNORE Expected&lt; DistanceMap &gt;</type>
+        <definition>MR_BIND_IGNORE Expected&lt; DistanceMap &gt; MR::DistanceMapLoad::fromMrDistanceMap</definition>
+        <argsstring>(const std::filesystem::path &amp;path, DistanceMapToWorld &amp;params, ProgressCallback progressCb={})</argsstring>
+        <name>fromMrDistanceMap</name>
+        <qualifiedname>MR::DistanceMapLoad::fromMrDistanceMap</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>DistanceMapToWorld &amp;</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>ProgressCallback</type>
+          <declname>progressCb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapLoad.h" line="38" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapLoad.h" bodystart="38" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="group__DistanceMapLoadGroup_1ga6df3831c4435d4255414c6215f56c10f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; DistanceMap &gt;</type>
+        <definition>MRMESH_API Expected&lt; DistanceMap &gt; MR::DistanceMapLoad::fromTiff</definition>
+        <argsstring>(const std::filesystem::path &amp;path, const DistanceMapLoadSettings &amp;settings={})</argsstring>
+        <name>fromTiff</name>
+        <qualifiedname>MR::DistanceMapLoad::fromTiff</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>const DistanceMapLoadSettings &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapLoad.h" line="47" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapLoad.h" declline="47" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__DistanceMapLoadGroup_1gab345cb66e5ce36e8727661b2a91f9f02" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>MR_BIND_IGNORE Expected&lt; DistanceMap &gt;</type>
+        <definition>MR_BIND_IGNORE Expected&lt; DistanceMap &gt; MR::DistanceMapLoad::fromTiff</definition>
+        <argsstring>(const std::filesystem::path &amp;path, DistanceMapToWorld &amp;params, ProgressCallback progressCb={})</argsstring>
+        <name>fromTiff</name>
+        <qualifiedname>MR::DistanceMapLoad::fromTiff</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>DistanceMapToWorld &amp;</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>ProgressCallback</type>
+          <declname>progressCb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapLoad.h" line="49" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapLoad.h" bodystart="49" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="group__DistanceMapLoadGroup_1gae00e0a0aa3107cdb195eeb54e1882b33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Expected&lt; DistanceMap &gt;</type>
+        <definition>MRMESH_API Expected&lt; DistanceMap &gt; MR::DistanceMapLoad::fromAnySupportedFormat</definition>
+        <argsstring>(const std::filesystem::path &amp;path, const DistanceMapLoadSettings &amp;settings={})</argsstring>
+        <name>fromAnySupportedFormat</name>
+        <qualifiedname>MR::DistanceMapLoad::fromAnySupportedFormat</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>const DistanceMapLoadSettings &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapLoad.h" line="58" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapLoad.h" declline="58" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__DistanceMapLoadGroup_1ga50b271c979604f387a76f2ca17ca92cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>MR_BIND_IGNORE Expected&lt; DistanceMap &gt;</type>
+        <definition>MR_BIND_IGNORE Expected&lt; DistanceMap &gt; MR::DistanceMapLoad::fromAnySupportedFormat</definition>
+        <argsstring>(const std::filesystem::path &amp;path, DistanceMapToWorld *params, ProgressCallback progressCb={})</argsstring>
+        <name>fromAnySupportedFormat</name>
+        <qualifiedname>MR::DistanceMapLoad::fromAnySupportedFormat</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>DistanceMapToWorld *</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>ProgressCallback</type>
+          <declname>progressCb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapLoad.h" line="60" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapLoad.h" bodystart="60" bodyend="66"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

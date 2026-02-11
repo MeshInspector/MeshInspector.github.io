@@ -1,0 +1,371 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1EdgeLengthMesh" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::EdgeLengthMesh</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1EdgeLengthMesh_1a630118bff82f8aa84dc12ec420c10178" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.EdgeLengthMesh::_offsetof_edgeLengths</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_edgeLengths</name>
+        <qualifiedname>mrmeshpy.EdgeLengthMesh._offsetof_edgeLengths</qualifiedname>
+        <initializer>=  152</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14785" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14785" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1EdgeLengthMesh_1a353bfd060246d16f3e0517c941a75579" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.EdgeLengthMesh::_offsetof_topology</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_topology</name>
+        <qualifiedname>mrmeshpy.EdgeLengthMesh._offsetof_topology</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14786" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14786" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeLengthMesh_1a1a36d2c95ac5669384f215831c33ea6f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EdgeLengthMesh.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.EdgeLengthMesh.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14791" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14791" bodyend="14792"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeLengthMesh_1ab020fab76422350ead3572b3935aa271" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeLengthMesh" kindref="compound">EdgeLengthMesh</ref></type>
+        <definition> EdgeLengthMesh mrmeshpy.EdgeLengthMesh.fromMesh</definition>
+        <argsstring>(Mesh mesh)</argsstring>
+        <name>fromMesh</name>
+        <qualifiedname>mrmeshpy.EdgeLengthMesh.fromMesh</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>construct EdgeLengthMesh from an ordinary mesh
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14794" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14794" bodyend="14797"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeLengthMesh_1a558eebaf62f620045d0fd670e6da0b74" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeLengthMesh" kindref="compound">EdgeLengthMesh</ref></type>
+        <definition> EdgeLengthMesh mrmeshpy.EdgeLengthMesh.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.EdgeLengthMesh.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14800" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14800" bodyend="14801"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeLengthMesh_1a558eebaf62f620045d0fd670e6da0b74" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeLengthMesh" kindref="compound">EdgeLengthMesh</ref></type>
+        <definition> EdgeLengthMesh mrmeshpy.EdgeLengthMesh.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.EdgeLengthMesh.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14804" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14804" bodyend="14805"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeLengthMesh_1a67a94dde701ca0a02099a403166fe534" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EdgeLengthMesh.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.EdgeLengthMesh.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14807" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14807" bodyend="14808"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeLengthMesh_1a31552a1023225405122ae5ef41e16e8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EdgeLengthMesh.__init__</definition>
+        <argsstring>(self, EdgeLengthMesh arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.EdgeLengthMesh.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeLengthMesh" kindref="compound">EdgeLengthMesh</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14810" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14810" bodyend="14813"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeLengthMesh_1a80546aab8a2209c690ffc0c86019c371" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EdgeLengthMesh.__init__</definition>
+        <argsstring>(self, MeshTopology topology, UndirectedEdgeScalars edgeLengths)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.EdgeLengthMesh.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshTopology" kindref="compound">MeshTopology</ref></type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeScalars" kindref="compound">UndirectedEdgeScalars</ref></type>
+          <declname>edgeLengths</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14815" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14815" bodyend="14818"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeLengthMesh_1a65427da5f69866242df4c6bf4f5d3e06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.EdgeLengthMesh.cotan</definition>
+        <argsstring>(self, UndirectedEdgeId ue)</argsstring>
+        <name>cotan</name>
+        <qualifiedname>mrmeshpy.EdgeLengthMesh.cotan</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+          <declname>ue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>computes sum of cotangents of the angle in the left and right triangles opposite to given edge,
+consider cotangents zero for not existing triangles
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14819" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14819" bodyend="14823"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeLengthMesh_1aafe2550d77f53c39171c42e73ca9a9f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.EdgeLengthMesh.edgeLengthAfterFlip</definition>
+        <argsstring>(self, EdgeId e)</argsstring>
+        <name>edgeLengthAfterFlip</name>
+        <qualifiedname>mrmeshpy.EdgeLengthMesh.edgeLengthAfterFlip</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>given the edge with left and right triangular faces, which form together a quadrangle,
+returns the length of geodesic line on original mesh between the vertices of the quadrangle opposite to given edge;
+returns std::nullopt if the geodesic line does not go fully inside the quadrangle
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14824" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14824" bodyend="14829"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeLengthMesh_1a97aeaeb39025db9a7b4d35537ff30057" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.EdgeLengthMesh.flipEdge</definition>
+        <argsstring>(self, EdgeId e)</argsstring>
+        <name>flipEdge</name>
+        <qualifiedname>mrmeshpy.EdgeLengthMesh.flipEdge</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>given the edge with left and right triangular faces, which form together a quadrangle,
+rotates the edge counter-clockwise inside the quadrangle;
+the length of e becomes equal to the length of geodesic line between its new ends on original mesh;
+does not flip and returns false if the geodesic line does not go fully inside the quadrangle
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14830" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14830" bodyend="14836"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeLengthMesh_1a1ac65fa5d05841a4457f08134ac16c8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.EdgeLengthMesh.isDelone</definition>
+        <argsstring>(self, UndirectedEdgeId ue, float threshold=0)</argsstring>
+        <name>isDelone</name>
+        <qualifiedname>mrmeshpy.EdgeLengthMesh.isDelone</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+          <declname>ue</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>threshold</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if given edge satisfies Delaunay conditions,
+returns false if the edge needs to be flipped to satisfy Delaunay conditions,
+passing negative threshold makes more edges satisfy Delaunay conditions
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14837" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14837" bodyend="14842"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeLengthMesh_1a54dd84a66b06fc71f666863a898697a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.EdgeLengthMesh.leftCotan</definition>
+        <argsstring>(self, EdgeId e)</argsstring>
+        <name>leftCotan</name>
+        <qualifiedname>mrmeshpy.EdgeLengthMesh.leftCotan</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>computes cotangent of the angle in the left( e ) triangle opposite to e,
+and returns 0 if left face does not exist
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14843" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14843" bodyend="14847"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::EdgeLengthMesh
+
+Unlike the classic mesh that stores coordinates of its vertices, this class
+stores the lengths of all edges. It can be used for construction of intrinsic Intrinsic Delaunay Triangulations.
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.EdgeLengthMesh</label>
+        <link refid="classmrmeshpy_1_1EdgeLengthMesh"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_edgeLengths</edgelabel>
+          <edgelabel>_offsetof_topology</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14778" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14778" bodyend="14847"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1EdgeLengthMesh_1a1a36d2c95ac5669384f215831c33ea6f" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeLengthMesh</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeLengthMesh_1a67a94dde701ca0a02099a403166fe534" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeLengthMesh</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeLengthMesh_1a31552a1023225405122ae5ef41e16e8e" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeLengthMesh</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeLengthMesh_1a80546aab8a2209c690ffc0c86019c371" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeLengthMesh</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeLengthMesh_1a630118bff82f8aa84dc12ec420c10178" prot="protected" virt="non-virtual"><scope>mrmeshpy::EdgeLengthMesh</scope><name>_offsetof_edgeLengths</name></member>
+      <member refid="classmrmeshpy_1_1EdgeLengthMesh_1a353bfd060246d16f3e0517c941a75579" prot="protected" virt="non-virtual"><scope>mrmeshpy::EdgeLengthMesh</scope><name>_offsetof_topology</name></member>
+      <member refid="classmrmeshpy_1_1EdgeLengthMesh_1a65427da5f69866242df4c6bf4f5d3e06" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeLengthMesh</scope><name>cotan</name></member>
+      <member refid="classmrmeshpy_1_1EdgeLengthMesh_1aafe2550d77f53c39171c42e73ca9a9f8" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeLengthMesh</scope><name>edgeLengthAfterFlip</name></member>
+      <member refid="classmrmeshpy_1_1EdgeLengthMesh_1a97aeaeb39025db9a7b4d35537ff30057" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeLengthMesh</scope><name>flipEdge</name></member>
+      <member refid="classmrmeshpy_1_1EdgeLengthMesh_1ab020fab76422350ead3572b3935aa271" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeLengthMesh</scope><name>fromMesh</name></member>
+      <member refid="classmrmeshpy_1_1EdgeLengthMesh_1a1ac65fa5d05841a4457f08134ac16c8c" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeLengthMesh</scope><name>isDelone</name></member>
+      <member refid="classmrmeshpy_1_1EdgeLengthMesh_1a54dd84a66b06fc71f666863a898697a8" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeLengthMesh</scope><name>leftCotan</name></member>
+      <member refid="classmrmeshpy_1_1EdgeLengthMesh_1a558eebaf62f620045d0fd670e6da0b74" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeLengthMesh</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1EdgeLengthMesh_1a558eebaf62f620045d0fd670e6da0b74" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeLengthMesh</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

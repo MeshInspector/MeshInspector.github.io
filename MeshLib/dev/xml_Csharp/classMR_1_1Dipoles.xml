@@ -1,0 +1,654 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Dipoles" kind="class" language="C#" prot="public">
+    <compoundname>MR::Dipoles</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_Dipoles</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Dipoles_1a8996143184fcc7a4f4a581773b4eb19e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Vector_MRDipole</type>
+        <definition>new unsafe MR.Std.Vector_MRDipole MR.Dipoles.vec</definition>
+        <argsstring></argsstring>
+        <name>vec</name>
+        <qualifiedname>MR.Dipoles.vec</qualifiedname>
+        <briefdescription>
+<para>the user can directly manipulate the vector, anyway she cannot break anything </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2354" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2354" bodyend="2354"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Dipoles_1a3c1c8b1bd6cc0a4385d92839673db507" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe new <ref refid="classMR_1_1Dipole" kindref="compound">MR.Dipole</ref></type>
+        <definition>unsafe new MR.Dipole MR.Dipoles.this[MR.NodeId i]</definition>
+        <argsstring></argsstring>
+        <name>this[MR.NodeId i]</name>
+        <qualifiedname>MR.Dipoles.this[MR.NodeId i]</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Dipoles.operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2512" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2513" bodyend="2520"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Dipoles_1a3e5c63e6809553abf91458b4b9c58999" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Dipoles.Dipoles</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Dipoles</name>
+        <qualifiedname>MR.Dipoles.Dipoles</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2373" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2373" bodyend="2377"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Dipoles_1af2c42fcb85f5f1954b960ff95d855284" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Dipoles.Dipoles</definition>
+        <argsstring>()</argsstring>
+        <name>Dipoles</name>
+        <qualifiedname>MR.Dipoles.Dipoles</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2383" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2383" bodyend="2389"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Dipoles_1ab377f6e1a237c0acdaaf59ec68d777a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Dipoles.Dipoles</definition>
+        <argsstring>(MR._ByValue_Dipoles _other)</argsstring>
+        <name>Dipoles</name>
+        <qualifiedname>MR.Dipoles.Dipoles</qualifiedname>
+        <param>
+          <type>MR._ByValue_Dipoles</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Dipoles.Dipoles</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2394" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2394" bodyend="2401"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Dipoles_1a2873b63df3961321f8d5aec6eeeda17f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Dipoles.Dipoles</definition>
+        <argsstring>(Const_Dipoles _other)</argsstring>
+        <name>Dipoles</name>
+        <qualifiedname>MR.Dipoles.Dipoles</qualifiedname>
+        <param>
+          <type>Const_Dipoles</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Dipoles.Dipoles</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2406" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2406" bodyend="2406"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Dipoles_1ab9fff43945dbf480b756218004ff2264" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Dipoles.Dipoles</definition>
+        <argsstring>(Dipoles _other)</argsstring>
+        <name>Dipoles</name>
+        <qualifiedname>MR.Dipoles.Dipoles</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Dipoles" kindref="compound">Dipoles</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Dipoles.Dipoles</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2411" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2411" bodyend="2411"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Dipoles_1a432402ed8acfc39a2eed6911316488d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Dipoles.Dipoles</definition>
+        <argsstring>(ulong size)</argsstring>
+        <name>Dipoles</name>
+        <qualifiedname>MR.Dipoles.Dipoles</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR.Dipoles.Dipoles</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2417" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2417" bodyend="2423"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Dipoles_1a5eab51aaeffed23cec75b9d756c6c779" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Dipoles.Dipoles</definition>
+        <argsstring>(ulong size, MR.Const_Dipole val)</argsstring>
+        <name>Dipoles</name>
+        <qualifiedname>MR.Dipoles.Dipoles</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>MR.Const_Dipole</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR.Dipoles.Dipoles</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2429" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2429" bodyend="2436"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Dipoles_1afd901e1747851db81ccfbc8bf78062cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Dipoles.Dipoles</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRDipole &gt; vec)</argsstring>
+        <name>Dipoles</name>
+        <qualifiedname>MR.Dipoles.Dipoles</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_MRDipole &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std.vector&lt;T&gt; Generated from constructor <computeroutput>MR.Dipoles.Dipoles</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2442" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2442" bodyend="2449"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Dipoles_1a5f449c34e9132e8b7169761844fe3aa0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Dipoles" kindref="compound">MR.Dipoles</ref></type>
+        <definition>unsafe MR.Dipoles MR.Dipoles.assign</definition>
+        <argsstring>(MR._ByValue_Dipoles _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.Dipoles.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_Dipoles</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Dipoles.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2460" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2460" bodyend="2467"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Dipoles_1aa9bd6466716062dd04491db11f08a925" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Dipoles.clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <qualifiedname>MR.Dipoles.clear</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Dipoles_1aa9bd6466716062dd04491db11f08a925" kindref="member">MR.Dipoles.clear</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2472" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2472" bodyend="2477"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Dipoles_1ad6a5b8198df8ddd034d9a880044904d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Dipoles.resize</definition>
+        <argsstring>(ulong newSize)</argsstring>
+        <name>resize</name>
+        <qualifiedname>MR.Dipoles.resize</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Dipoles_1ad6a5b8198df8ddd034d9a880044904d7" kindref="member">MR.Dipoles.resize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2482" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2482" bodyend="2487"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Dipoles_1a3d55953f492719c7aca8466a696c287d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Dipoles.resize</definition>
+        <argsstring>(ulong newSize, MR.Const_Dipole t)</argsstring>
+        <name>resize</name>
+        <qualifiedname>MR.Dipoles.resize</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type>MR.Const_Dipole</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Dipoles_1ad6a5b8198df8ddd034d9a880044904d7" kindref="member">MR.Dipoles.resize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2492" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2492" bodyend="2497"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Dipoles_1ae5d1869c49be1dfaa073fdd555f34c97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Dipoles.reserve</definition>
+        <argsstring>(ulong capacity)</argsstring>
+        <name>reserve</name>
+        <qualifiedname>MR.Dipoles.reserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>capacity</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Dipoles_1ae5d1869c49be1dfaa073fdd555f34c97" kindref="member">MR.Dipoles.reserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2502" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2502" bodyend="2507"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Dipoles_1a3775d3611c9fcc58bff1ee1e8e2c7a18" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Dipoles.resizeWithReserve</definition>
+        <argsstring>(ulong newSize)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>MR.Dipoles.resizeWithReserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1Dipoles_1a3775d3611c9fcc58bff1ee1e8e2c7a18" kindref="member">MR.Dipoles.resizeWithReserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2526" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2526" bodyend="2531"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Dipoles_1a33ec75a831e9b4e2a90fb088906e7d9d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Dipoles.resizeWithReserve</definition>
+        <argsstring>(ulong newSize, MR.Const_Dipole value)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>MR.Dipoles.resizeWithReserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type>MR.Const_Dipole</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1Dipoles_1a3775d3611c9fcc58bff1ee1e8e2c7a18" kindref="member">MR.Dipoles.resizeWithReserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2537" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2537" bodyend="2542"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Dipoles_1ae0df76679e08e5b21cf7e498161b82a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Dipoles.autoResizeSet</definition>
+        <argsstring>(MR.NodeId pos, ulong len, MR.Const_Dipole val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>MR.Dipoles.autoResizeSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>MR.Const_Dipole</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput><ref refid="classMR_1_1Dipoles_1ae0df76679e08e5b21cf7e498161b82a6" kindref="member">MR.Dipoles.autoResizeSet</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2549" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2549" bodyend="2554"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Dipoles_1a929f5fba424e2b92249d8f6ef8b9d412" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Dipoles.autoResizeSet</definition>
+        <argsstring>(MR.NodeId i, MR.Const_Dipole val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>MR.Dipoles.autoResizeSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>MR.Const_Dipole</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput><ref refid="classMR_1_1Dipoles_1ae0df76679e08e5b21cf7e498161b82a6" kindref="member">MR.Dipoles.autoResizeSet</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2560" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2560" bodyend="2565"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Dipoles_1a11b583021e974bf78abf5c0045954d9f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Dipole" kindref="compound">MR.Dipole</ref></type>
+        <definition>unsafe MR.Dipole MR.Dipoles.autoResizeAt</definition>
+        <argsstring>(MR.NodeId i)</argsstring>
+        <name>autoResizeAt</name>
+        <qualifiedname>MR.Dipoles.autoResizeAt</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>this accessor automatically adjusts the size of the vector Generated from method <computeroutput><ref refid="classMR_1_1Dipoles_1a11b583021e974bf78abf5c0045954d9f" kindref="member">MR.Dipoles.autoResizeAt</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2571" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2571" bodyend="2576"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Dipoles_1abf2a6245c94958b96c85a6ea614b9292" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Dipoles.pushBack</definition>
+        <argsstring>(MR.Const_Dipole t)</argsstring>
+        <name>pushBack</name>
+        <qualifiedname>MR.Dipoles.pushBack</qualifiedname>
+        <param>
+          <type>MR.Const_Dipole</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Dipoles.push_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2581" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2581" bodyend="2586"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Dipoles_1a6bfa87a3f6fd2adaf490463928eb8ec9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Dipoles.pushBack</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Dipole &gt; t)</argsstring>
+        <name>pushBack</name>
+        <qualifiedname>MR.Dipoles.pushBack</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; <ref refid="classMR_1_1Dipole" kindref="compound">MR.Dipole</ref> &gt;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Dipoles.push_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2591" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2591" bodyend="2596"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Dipoles_1aaeb72ff38a76bba93d857876a33cab25" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Dipoles.popBack</definition>
+        <argsstring>()</argsstring>
+        <name>popBack</name>
+        <qualifiedname>MR.Dipoles.popBack</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Dipoles.pop_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2601" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2601" bodyend="2606"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Dipoles_1a17c571d11c674e826f6a772e6349ce0a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Dipole" kindref="compound">MR.Dipole</ref></type>
+        <definition>unsafe MR.Dipole MR.Dipoles.emplaceBack</definition>
+        <argsstring>()</argsstring>
+        <name>emplaceBack</name>
+        <qualifiedname>MR.Dipoles.emplaceBack</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Dipoles.emplace_back&lt;&gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2611" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2611" bodyend="2616"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Dipoles_1a5ee2d0a9170797f13b93a8f536a81016" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new <ref refid="classMR_1_1Dipole" kindref="compound">MR.Dipole</ref></type>
+        <definition>unsafe new MR.Dipole MR.Dipoles.front</definition>
+        <argsstring>()</argsstring>
+        <name>front</name>
+        <qualifiedname>MR.Dipoles.front</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Dipoles_1a5ee2d0a9170797f13b93a8f536a81016" kindref="member">MR.Dipoles.front</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2621" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2621" bodyend="2626"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Dipoles_1aae4a4f0e4c74aa7fb0a151ce09b74fc4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new <ref refid="classMR_1_1Dipole" kindref="compound">MR.Dipole</ref></type>
+        <definition>unsafe new MR.Dipole MR.Dipoles.back</definition>
+        <argsstring>()</argsstring>
+        <name>back</name>
+        <qualifiedname>MR.Dipoles.back</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Dipoles_1aae4a4f0e4c74aa7fb0a151ce09b74fc4" kindref="member">MR.Dipoles.back</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2631" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2631" bodyend="2636"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Dipoles_1ac047d3c847f41ffea2a8a2546f1d4c8d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new MR.? <ref refid="classMR_1_1Dipole" kindref="compound">Dipole</ref></type>
+        <definition>unsafe new MR.? Dipole MR.Dipoles.data</definition>
+        <argsstring>()</argsstring>
+        <name>data</name>
+        <qualifiedname>MR.Dipoles.data</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Dipoles_1ac047d3c847f41ffea2a8a2546f1d4c8d" kindref="member">MR.Dipoles.data</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2641" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2641" bodyend="2647"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Dipoles_1a38268393014d99eb7a40aa803c958e66" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Dipoles.swap</definition>
+        <argsstring>(MR.Dipoles b)</argsstring>
+        <name>swap</name>
+        <qualifiedname>MR.Dipoles.swap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Dipoles" kindref="compound">MR.Dipoles</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Dipoles_1a38268393014d99eb7a40aa803c958e66" kindref="member">MR.Dipoles.swap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2652" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2652" bodyend="2657"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Dipoles_1afcec64e7155abe24b9938b32ea620069" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Dipoles.operator Dipoles</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRDipole &gt; vec)</argsstring>
+        <name>operator Dipoles</name>
+        <qualifiedname>MR.Dipoles.operator Dipoles</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_MRDipole &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std.vector&lt;T&gt; Generated from constructor <computeroutput>MR.Dipoles.Dipoles</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2455" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2455" bodyend="2455"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>std.vector&lt;T&gt;-like container that requires specific indexing type, </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of stored elements </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput><ref refid="classMR_1_1Dipoles" kindref="compound">MR.Dipoles</ref></computeroutput>. This is the non-const half of the class. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_Dipoles</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Dipoles</label>
+        <link refid="classMR_1_1Dipoles"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_Dipoles &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_Dipoles</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Dipoles</label>
+        <link refid="classMR_1_1Dipoles"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_Dipoles &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2351" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2352" bodyend="2658"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Dipoles_1a5f449c34e9132e8b7169761844fe3aa0" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>assign</name></member>
+      <member refid="classMR_1_1Dipoles_1a11b583021e974bf78abf5c0045954d9f" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>autoResizeAt</name></member>
+      <member refid="classMR_1_1Dipoles_1ae0df76679e08e5b21cf7e498161b82a6" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>autoResizeSet</name></member>
+      <member refid="classMR_1_1Dipoles_1a929f5fba424e2b92249d8f6ef8b9d412" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>autoResizeSet</name></member>
+      <member refid="classMR_1_1Dipoles_1aae4a4f0e4c74aa7fb0a151ce09b74fc4" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>back</name></member>
+      <member refid="classMR_1_1Dipoles_1aa9bd6466716062dd04491db11f08a925" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>clear</name></member>
+      <member refid="classMR_1_1Dipoles_1ac047d3c847f41ffea2a8a2546f1d4c8d" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>data</name></member>
+      <member refid="classMR_1_1Dipoles_1a3e5c63e6809553abf91458b4b9c58999" prot="package" virt="non-virtual"><scope>MR::Dipoles</scope><name>Dipoles</name></member>
+      <member refid="classMR_1_1Dipoles_1af2c42fcb85f5f1954b960ff95d855284" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>Dipoles</name></member>
+      <member refid="classMR_1_1Dipoles_1ab377f6e1a237c0acdaaf59ec68d777a2" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>Dipoles</name></member>
+      <member refid="classMR_1_1Dipoles_1a2873b63df3961321f8d5aec6eeeda17f" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>Dipoles</name></member>
+      <member refid="classMR_1_1Dipoles_1ab9fff43945dbf480b756218004ff2264" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>Dipoles</name></member>
+      <member refid="classMR_1_1Dipoles_1a432402ed8acfc39a2eed6911316488d2" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>Dipoles</name></member>
+      <member refid="classMR_1_1Dipoles_1a5eab51aaeffed23cec75b9d756c6c779" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>Dipoles</name></member>
+      <member refid="classMR_1_1Dipoles_1afd901e1747851db81ccfbc8bf78062cb" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>Dipoles</name></member>
+      <member refid="classMR_1_1Dipoles_1a17c571d11c674e826f6a772e6349ce0a" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>emplaceBack</name></member>
+      <member refid="classMR_1_1Dipoles_1a5ee2d0a9170797f13b93a8f536a81016" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>front</name></member>
+      <member refid="classMR_1_1Dipoles_1afcec64e7155abe24b9938b32ea620069" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>operator Dipoles</name></member>
+      <member refid="classMR_1_1Dipoles_1aaeb72ff38a76bba93d857876a33cab25" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>popBack</name></member>
+      <member refid="classMR_1_1Dipoles_1abf2a6245c94958b96c85a6ea614b9292" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>pushBack</name></member>
+      <member refid="classMR_1_1Dipoles_1a6bfa87a3f6fd2adaf490463928eb8ec9" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>pushBack</name></member>
+      <member refid="classMR_1_1Dipoles_1ae5d1869c49be1dfaa073fdd555f34c97" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>reserve</name></member>
+      <member refid="classMR_1_1Dipoles_1ad6a5b8198df8ddd034d9a880044904d7" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>resize</name></member>
+      <member refid="classMR_1_1Dipoles_1a3d55953f492719c7aca8466a696c287d" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>resize</name></member>
+      <member refid="classMR_1_1Dipoles_1a3775d3611c9fcc58bff1ee1e8e2c7a18" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Dipoles_1a33ec75a831e9b4e2a90fb088906e7d9d" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Dipoles_1a38268393014d99eb7a40aa803c958e66" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>swap</name></member>
+      <member refid="classMR_1_1Dipoles_1a3c1c8b1bd6cc0a4385d92839673db507" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>this[MR.NodeId i]</name></member>
+      <member refid="classMR_1_1Dipoles_1a8996143184fcc7a4f4a581773b4eb19e" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>vec</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

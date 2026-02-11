@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1EnumNeihbourFaces" kind="class" language="C++" prot="public">
+    <compoundname>MR::EnumNeihbourFaces</compoundname>
+    <includes refid="MREnumNeighbours_8h" local="no">MREnumNeighbours.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1EnumNeihbourFaces_1a79203f31763f7bc8c5334f9eefa76d4d" prot="private" static="no" mutable="no">
+        <type>FaceBitSet</type>
+        <definition>FaceBitSet MR::EnumNeihbourFaces::visited_</definition>
+        <argsstring></argsstring>
+        <name>visited_</name>
+        <qualifiedname>MR::EnumNeihbourFaces::visited_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREnumNeighbours.h" line="39" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREnumNeighbours.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1EnumNeihbourFaces_1a8577a817df5ed16cbf0b6fef9e9cb16b" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; FaceId &gt;</type>
+        <definition>std::vector&lt;FaceId&gt; MR::EnumNeihbourFaces::bd_</definition>
+        <argsstring></argsstring>
+        <name>bd_</name>
+        <qualifiedname>MR::EnumNeihbourFaces::bd_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREnumNeighbours.h" line="40" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREnumNeighbours.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1EnumNeihbourFaces_1a85f07106265d0d9ea1a93a7fd8ba1973" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::EnumNeihbourFaces::run</definition>
+        <argsstring>(const MeshTopology &amp;topology, VertId start, const FacePredicate &amp;pred)</argsstring>
+        <name>run</name>
+        <qualifiedname>MR::EnumNeihbourFaces::run</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref> &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>VertId</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMR_1a2b15c0d875f91b8c0da03e651251832b" kindref="member">FacePredicate</ref> &amp;</type>
+          <declname>pred</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>invokes given predicate for faces starting from all incident to<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>start</parametername>
+<parametername>and</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>continuing to all immediate neighbours in depth-first order until the predicate returns false </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREnumNeighbours.h" line="36" column="21"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREnumNeighbours.h" line="31" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREnumNeighbours.h" bodystart="32" bodyend="41"/>
+    <listofallmembers>
+      <member refid="classMR_1_1EnumNeihbourFaces_1a8577a817df5ed16cbf0b6fef9e9cb16b" prot="private" virt="non-virtual"><scope>MR::EnumNeihbourFaces</scope><name>bd_</name></member>
+      <member refid="classMR_1_1EnumNeihbourFaces_1a85f07106265d0d9ea1a93a7fd8ba1973" prot="public" virt="non-virtual"><scope>MR::EnumNeihbourFaces</scope><name>run</name></member>
+      <member refid="classMR_1_1EnumNeihbourFaces_1a79203f31763f7bc8c5334f9eefa76d4d" prot="private" virt="non-virtual"><scope>MR::EnumNeihbourFaces</scope><name>visited_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

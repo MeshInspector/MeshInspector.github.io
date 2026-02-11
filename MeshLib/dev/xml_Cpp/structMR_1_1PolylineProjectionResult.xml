@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1PolylineProjectionResult" kind="struct" language="C++" prot="public">
+    <compoundname>MR::PolylineProjectionResult</compoundname>
+    <includes refid="MRPolylineProject_8h" local="no">MRPolylineProject.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename V</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1PolylineProjectionResult_1a575d694a03d4903a8b460aeba47cfe1c" prot="public" static="no" mutable="no">
+        <type>UndirectedEdgeId</type>
+        <definition>UndirectedEdgeId MR::PolylineProjectionResult&lt; V &gt;::line</definition>
+        <argsstring></argsstring>
+        <name>line</name>
+        <qualifiedname>MR::PolylineProjectionResult::line</qualifiedname>
+        <briefdescription>
+<para>polyline&apos;s edge containing the closest point </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" line="17" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1PolylineProjectionResult_1a954df3a650cf8eeea5e253acae8126bd" prot="public" static="no" mutable="no">
+        <type>V</type>
+        <definition>V MR::PolylineProjectionResult&lt; V &gt;::point</definition>
+        <argsstring></argsstring>
+        <name>point</name>
+        <qualifiedname>MR::PolylineProjectionResult::point</qualifiedname>
+        <briefdescription>
+<para>closest point on polyline, transformed by xf if it is given </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" line="20" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1PolylineProjectionResult_1a81f4cd1607e7835a737edcf9011740d8" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::PolylineProjectionResult&lt; V &gt;::distSq</definition>
+        <argsstring></argsstring>
+        <name>distSq</name>
+        <qualifiedname>MR::PolylineProjectionResult::distSq</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>squared distance from pt to proj </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" line="23" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1PolylineProjectionResult_1a7a353323e51db61fabf08080cbe55598" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::PolylineProjectionResult&lt; V &gt;::valid</definition>
+        <argsstring>() const</argsstring>
+        <name>valid</name>
+        <qualifiedname>MR::PolylineProjectionResult::valid</qualifiedname>
+        <briefdescription>
+<para>check for validity, otherwise the projection was not found </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" line="26" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1PolylineProjectionResult_1a65b3a379e994fdd5dd100ddb4cb1d02c" prot="public" static="no" nodiscard="yes" const="yes" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::PolylineProjectionResult&lt; V &gt;::operator bool</definition>
+        <argsstring>() const</argsstring>
+        <name>operator bool</name>
+        <qualifiedname>MR::PolylineProjectionResult::operator bool</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" line="27" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" bodystart="27" bodyend="27"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineProject.h" bodystart="15" bodyend="28"/>
+    <listofallmembers>
+      <member refid="structMR_1_1PolylineProjectionResult_1a81f4cd1607e7835a737edcf9011740d8" prot="public" virt="non-virtual"><scope>MR::PolylineProjectionResult</scope><name>distSq</name></member>
+      <member refid="structMR_1_1PolylineProjectionResult_1a575d694a03d4903a8b460aeba47cfe1c" prot="public" virt="non-virtual"><scope>MR::PolylineProjectionResult</scope><name>line</name></member>
+      <member refid="structMR_1_1PolylineProjectionResult_1a65b3a379e994fdd5dd100ddb4cb1d02c" prot="public" virt="non-virtual"><scope>MR::PolylineProjectionResult</scope><name>operator bool</name></member>
+      <member refid="structMR_1_1PolylineProjectionResult_1a954df3a650cf8eeea5e253acae8126bd" prot="public" virt="non-virtual"><scope>MR::PolylineProjectionResult</scope><name>point</name></member>
+      <member refid="structMR_1_1PolylineProjectionResult_1a7a353323e51db61fabf08080cbe55598" prot="public" virt="non-virtual"><scope>MR::PolylineProjectionResult</scope><name>valid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

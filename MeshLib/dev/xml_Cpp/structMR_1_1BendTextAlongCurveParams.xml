@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1BendTextAlongCurveParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::BendTextAlongCurveParams</compoundname>
+    <includes refid="MRAlignTextToMesh_8h" local="no">MRAlignTextToMesh.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1BendTextAlongCurveParams_1a4a9a6eb9636e1af0ef610b64713efa22" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1SymbolMeshParams" kindref="compound">SymbolMeshParams</ref></type>
+        <definition>SymbolMeshParams MR::BendTextAlongCurveParams::symbolMesh</definition>
+        <argsstring></argsstring>
+        <name>symbolMesh</name>
+        <qualifiedname>MR::BendTextAlongCurveParams::symbolMesh</qualifiedname>
+        <briefdescription>
+<para>parameters of contours to mesh conversion </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRAlignTextToMesh.h" line="49" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRAlignTextToMesh.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1BendTextAlongCurveParams_1a89e409e3deb6eecf6b00364ed3232f32" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::BendTextAlongCurveParams::pivotCurveTime</definition>
+        <argsstring></argsstring>
+        <name>pivotCurveTime</name>
+        <qualifiedname>MR::BendTextAlongCurveParams::pivotCurveTime</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Position on the curve, where bounding box&apos;s pivot point is mapped. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRAlignTextToMesh.h" line="52" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRAlignTextToMesh.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1BendTextAlongCurveParams_1a11ae334627b1839f30cdfb81d2eb2122" prot="public" static="no" mutable="no">
+        <type>Vector2f</type>
+        <definition>Vector2f MR::BendTextAlongCurveParams::pivotBoxPoint</definition>
+        <argsstring></argsstring>
+        <name>pivotBoxPoint</name>
+        <qualifiedname>MR::BendTextAlongCurveParams::pivotBoxPoint</qualifiedname>
+        <initializer>{0.0f, 0.0f}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Position of the curve(pivotCurveTime) in the test&apos; bounding box: (0, 0) - bottom left, (0, 1) - bottom right, (0.5, 0.5) - center, (1, 1) - top right </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRAlignTextToMesh.h" line="56" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRAlignTextToMesh.h" bodystart="56" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1BendTextAlongCurveParams_1a467c8429ca87dff767c0ef4ca53a56b9" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::BendTextAlongCurveParams::fontHeight</definition>
+        <argsstring></argsstring>
+        <name>fontHeight</name>
+        <qualifiedname>MR::BendTextAlongCurveParams::fontHeight</qualifiedname>
+        <initializer>{1.0f}</initializer>
+        <briefdescription>
+<para>Font height, meters. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRAlignTextToMesh.h" line="59" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRAlignTextToMesh.h" bodystart="59" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1BendTextAlongCurveParams_1aa25769e7e2993d6ab9f2a0d7d974c78e" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::BendTextAlongCurveParams::surfaceOffset</definition>
+        <argsstring></argsstring>
+        <name>surfaceOffset</name>
+        <qualifiedname>MR::BendTextAlongCurveParams::surfaceOffset</qualifiedname>
+        <initializer>{1.0f}</initializer>
+        <briefdescription>
+<para>Text mesh inside and outside offset of curve&apos;s surface. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRAlignTextToMesh.h" line="62" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRAlignTextToMesh.h" bodystart="62" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1BendTextAlongCurveParams_1a150d2432577e3c10550d8ac37280d360" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::BendTextAlongCurveParams::fontBasedSizeCalc</definition>
+        <argsstring></argsstring>
+        <name>fontBasedSizeCalc</name>
+        <qualifiedname>MR::BendTextAlongCurveParams::fontBasedSizeCalc</qualifiedname>
+        <initializer>{ false }</initializer>
+        <briefdescription>
+<para>If true then size of each symbol will be calculated from font height, otherwise - on bounding box of the text. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRAlignTextToMesh.h" line="65" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRAlignTextToMesh.h" bodystart="65" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1BendTextAlongCurveParams_1afc50976c15668b5a83ec1be8ed42e136" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::BendTextAlongCurveParams::periodicCurve</definition>
+        <argsstring></argsstring>
+        <name>periodicCurve</name>
+        <qualifiedname>MR::BendTextAlongCurveParams::periodicCurve</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>if true, curve parameter will be always within [0,1) with repetition: xr := x - floor(x) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRAlignTextToMesh.h" line="68" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRAlignTextToMesh.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1BendTextAlongCurveParams_1ac50633d84a0a9324663aa20af82f4c61" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::BendTextAlongCurveParams::stretch</definition>
+        <argsstring></argsstring>
+        <name>stretch</name>
+        <qualifiedname>MR::BendTextAlongCurveParams::stretch</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>stretch whole text along curve to fit in unit curve range </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRAlignTextToMesh.h" line="71" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRAlignTextToMesh.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::BendTextAlongCurveParams</label>
+        <link refid="structMR_1_1BendTextAlongCurveParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>symbolMesh</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::SymbolMeshParams</label>
+        <link refid="structMR_1_1SymbolMeshParams"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRAlignTextToMesh.h" line="46" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRAlignTextToMesh.h" bodystart="47" bodyend="72"/>
+    <listofallmembers>
+      <member refid="structMR_1_1BendTextAlongCurveParams_1a150d2432577e3c10550d8ac37280d360" prot="public" virt="non-virtual"><scope>MR::BendTextAlongCurveParams</scope><name>fontBasedSizeCalc</name></member>
+      <member refid="structMR_1_1BendTextAlongCurveParams_1a467c8429ca87dff767c0ef4ca53a56b9" prot="public" virt="non-virtual"><scope>MR::BendTextAlongCurveParams</scope><name>fontHeight</name></member>
+      <member refid="structMR_1_1BendTextAlongCurveParams_1afc50976c15668b5a83ec1be8ed42e136" prot="public" virt="non-virtual"><scope>MR::BendTextAlongCurveParams</scope><name>periodicCurve</name></member>
+      <member refid="structMR_1_1BendTextAlongCurveParams_1a11ae334627b1839f30cdfb81d2eb2122" prot="public" virt="non-virtual"><scope>MR::BendTextAlongCurveParams</scope><name>pivotBoxPoint</name></member>
+      <member refid="structMR_1_1BendTextAlongCurveParams_1a89e409e3deb6eecf6b00364ed3232f32" prot="public" virt="non-virtual"><scope>MR::BendTextAlongCurveParams</scope><name>pivotCurveTime</name></member>
+      <member refid="structMR_1_1BendTextAlongCurveParams_1ac50633d84a0a9324663aa20af82f4c61" prot="public" virt="non-virtual"><scope>MR::BendTextAlongCurveParams</scope><name>stretch</name></member>
+      <member refid="structMR_1_1BendTextAlongCurveParams_1aa25769e7e2993d6ab9f2a0d7d974c78e" prot="public" virt="non-virtual"><scope>MR::BendTextAlongCurveParams</scope><name>surfaceOffset</name></member>
+      <member refid="structMR_1_1BendTextAlongCurveParams_1a4a9a6eb9636e1af0ef610b64713efa22" prot="public" virt="non-virtual"><scope>MR::BendTextAlongCurveParams</scope><name>symbolMesh</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

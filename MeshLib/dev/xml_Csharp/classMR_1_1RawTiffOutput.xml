@@ -1,0 +1,311 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RawTiffOutput" kind="class" language="C#" prot="public">
+    <compoundname>MR::RawTiffOutput</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_RawTiffOutput</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1RawTiffOutput_1a765f6d3dcdf8a7af0ba48c6bb8c91039" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.Misc.? Box&lt; byte &gt;</type>
+        <definition>new unsafe MR.Misc.? Box&lt;byte&gt; MR.RawTiffOutput.bytes</definition>
+        <argsstring></argsstring>
+        <name>bytes</name>
+        <qualifiedname>MR.RawTiffOutput.bytes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" line="820" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" bodystart="821" bodyend="830"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1RawTiffOutput_1a6d8a4236c52a5a77310bf257bb03d87a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref ulong</type>
+        <definition>new unsafe ref ulong MR.RawTiffOutput.size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <qualifiedname>MR.RawTiffOutput.size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" line="833" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" bodystart="833" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1RawTiffOutput_1ae8eedc5527479a5e786b653891d9cc0e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? <ref refid="classMR_1_1TiffParameters" kindref="compound">TiffParameters</ref></type>
+        <definition>new unsafe MR.? TiffParameters MR.RawTiffOutput.params_</definition>
+        <argsstring></argsstring>
+        <name>params_</name>
+        <qualifiedname>MR.RawTiffOutput.params_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" line="836" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" bodystart="837" bodyend="846"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1RawTiffOutput_1acd0aed5aa0912e5b95ff43d9f7d2c48b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? <ref refid="classMR_1_1Box__AffineXf3f" kindref="compound">Box_AffineXf3f</ref></type>
+        <definition>new unsafe MR.? Box_AffineXf3f MR.RawTiffOutput.p2wXf</definition>
+        <argsstring></argsstring>
+        <name>p2wXf</name>
+        <qualifiedname>MR.RawTiffOutput.p2wXf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" line="849" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" bodystart="850" bodyend="859"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1RawTiffOutput_1a2a209081b70b4aa93b3516bba8e24a06" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.RawTiffOutput.convertToFloat</definition>
+        <argsstring></argsstring>
+        <name>convertToFloat</name>
+        <qualifiedname>MR.RawTiffOutput.convertToFloat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" line="862" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" bodystart="862" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1RawTiffOutput_1a2f55e3fc0f341bbe652a39c2337151e3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.Misc.? Box&lt; float &gt;</type>
+        <definition>new unsafe MR.Misc.? Box&lt;float&gt; MR.RawTiffOutput.min</definition>
+        <argsstring></argsstring>
+        <name>min</name>
+        <qualifiedname>MR.RawTiffOutput.min</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" line="865" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" bodystart="866" bodyend="875"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1RawTiffOutput_1a8b830bd9524b4f3771a419d8a301baed" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.Misc.? Box&lt; float &gt;</type>
+        <definition>new unsafe MR.Misc.? Box&lt;float&gt; MR.RawTiffOutput.max</definition>
+        <argsstring></argsstring>
+        <name>max</name>
+        <qualifiedname>MR.RawTiffOutput.max</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" line="877" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" bodystart="878" bodyend="887"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1RawTiffOutput_1a09a6549627fb629ee6aa27e95871224c" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.RawTiffOutput.RawTiffOutput</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>RawTiffOutput</name>
+        <qualifiedname>MR.RawTiffOutput.RawTiffOutput</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" line="891" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" bodystart="891" bodyend="895"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1RawTiffOutput_1aac82fdd19cd0ad5dc16d223554987caa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.RawTiffOutput.RawTiffOutput</definition>
+        <argsstring>()</argsstring>
+        <name>RawTiffOutput</name>
+        <qualifiedname>MR.RawTiffOutput.RawTiffOutput</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" line="901" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" bodystart="901" bodyend="907"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RawTiffOutput_1ad2c1fbbbced8741107b28336e652c7f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.RawTiffOutput.RawTiffOutput</definition>
+        <argsstring>(MR.Misc.InOut&lt; byte &gt;? bytes, ulong size, MR.TiffParameters? params_, MR.Misc.InOut&lt; MR.AffineXf3f &gt;? p2wXf, bool convertToFloat, MR.Misc.InOut&lt; float &gt;? min, MR.Misc.InOut&lt; float &gt;? max)</argsstring>
+        <name>RawTiffOutput</name>
+        <qualifiedname>MR.RawTiffOutput.RawTiffOutput</qualifiedname>
+        <param>
+          <type>MR.Misc.InOut&lt; byte &gt;?</type>
+          <declname>bytes</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1TiffParameters" kindref="compound">MR.TiffParameters</ref>?</type>
+          <declname>params_</declname>
+        </param>
+        <param>
+          <type>MR.Misc.InOut&lt; <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref> &gt;?</type>
+          <declname>p2wXf</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>convertToFloat</declname>
+        </param>
+        <param>
+          <type>MR.Misc.InOut&lt; float &gt;?</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>MR.Misc.InOut&lt; float &gt;?</type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1RawTiffOutput" kindref="compound">MR.RawTiffOutput</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" line="912" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" bodystart="912" bodyend="927"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RawTiffOutput_1ad299b1395446e1638645021316fdbcc3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.RawTiffOutput.RawTiffOutput</definition>
+        <argsstring>(MR.Const_RawTiffOutput _other)</argsstring>
+        <name>RawTiffOutput</name>
+        <qualifiedname>MR.RawTiffOutput.RawTiffOutput</qualifiedname>
+        <param>
+          <type>MR.Const_RawTiffOutput</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.RawTiffOutput.RawTiffOutput</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" line="932" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" bodystart="932" bodyend="939"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RawTiffOutput_1a79eb20b48f5a4af2e6a7a8d2debc9570" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.RawTiffOutput.RawTiffOutput</definition>
+        <argsstring>(RawTiffOutput _other)</argsstring>
+        <name>RawTiffOutput</name>
+        <qualifiedname>MR.RawTiffOutput.RawTiffOutput</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1RawTiffOutput" kindref="compound">RawTiffOutput</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.RawTiffOutput.RawTiffOutput</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" line="944" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" bodystart="944" bodyend="944"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RawTiffOutput_1ad8619b7de045c46aab5679aa5d03e953" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1RawTiffOutput" kindref="compound">MR.RawTiffOutput</ref></type>
+        <definition>unsafe MR.RawTiffOutput MR.RawTiffOutput.assign</definition>
+        <argsstring>(MR.Const_RawTiffOutput _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.RawTiffOutput.assign</qualifiedname>
+        <param>
+          <type>MR.Const_RawTiffOutput</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.RawTiffOutput.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" line="949" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" bodystart="949" bodyend="956"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1RawTiffOutput" kindref="compound">MR.RawTiffOutput</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_RawTiffOutput</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.RawTiffOutput</label>
+        <link refid="classMR_1_1RawTiffOutput"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_RawTiffOutput &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_RawTiffOutput</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.RawTiffOutput</label>
+        <link refid="classMR_1_1RawTiffOutput"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_RawTiffOutput &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" line="817" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" bodystart="818" bodyend="957"/>
+    <listofallmembers>
+      <member refid="classMR_1_1RawTiffOutput_1ad8619b7de045c46aab5679aa5d03e953" prot="public" virt="non-virtual"><scope>MR::RawTiffOutput</scope><name>assign</name></member>
+      <member refid="classMR_1_1RawTiffOutput_1a765f6d3dcdf8a7af0ba48c6bb8c91039" prot="public" virt="non-virtual"><scope>MR::RawTiffOutput</scope><name>bytes</name></member>
+      <member refid="classMR_1_1RawTiffOutput_1a2a209081b70b4aa93b3516bba8e24a06" prot="public" virt="non-virtual"><scope>MR::RawTiffOutput</scope><name>convertToFloat</name></member>
+      <member refid="classMR_1_1RawTiffOutput_1a8b830bd9524b4f3771a419d8a301baed" prot="public" virt="non-virtual"><scope>MR::RawTiffOutput</scope><name>max</name></member>
+      <member refid="classMR_1_1RawTiffOutput_1a2f55e3fc0f341bbe652a39c2337151e3" prot="public" virt="non-virtual"><scope>MR::RawTiffOutput</scope><name>min</name></member>
+      <member refid="classMR_1_1RawTiffOutput_1acd0aed5aa0912e5b95ff43d9f7d2c48b" prot="public" virt="non-virtual"><scope>MR::RawTiffOutput</scope><name>p2wXf</name></member>
+      <member refid="classMR_1_1RawTiffOutput_1ae8eedc5527479a5e786b653891d9cc0e" prot="public" virt="non-virtual"><scope>MR::RawTiffOutput</scope><name>params_</name></member>
+      <member refid="classMR_1_1RawTiffOutput_1a09a6549627fb629ee6aa27e95871224c" prot="package" virt="non-virtual"><scope>MR::RawTiffOutput</scope><name>RawTiffOutput</name></member>
+      <member refid="classMR_1_1RawTiffOutput_1aac82fdd19cd0ad5dc16d223554987caa" prot="public" virt="non-virtual"><scope>MR::RawTiffOutput</scope><name>RawTiffOutput</name></member>
+      <member refid="classMR_1_1RawTiffOutput_1ad2c1fbbbced8741107b28336e652c7f2" prot="public" virt="non-virtual"><scope>MR::RawTiffOutput</scope><name>RawTiffOutput</name></member>
+      <member refid="classMR_1_1RawTiffOutput_1ad299b1395446e1638645021316fdbcc3" prot="public" virt="non-virtual"><scope>MR::RawTiffOutput</scope><name>RawTiffOutput</name></member>
+      <member refid="classMR_1_1RawTiffOutput_1a79eb20b48f5a4af2e6a7a8d2debc9570" prot="public" virt="non-virtual"><scope>MR::RawTiffOutput</scope><name>RawTiffOutput</name></member>
+      <member refid="classMR_1_1RawTiffOutput_1a6d8a4236c52a5a77310bf257bb03d87a" prot="public" virt="non-virtual"><scope>MR::RawTiffOutput</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

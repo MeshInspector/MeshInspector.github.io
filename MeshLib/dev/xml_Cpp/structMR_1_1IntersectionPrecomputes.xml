@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1IntersectionPrecomputes" kind="struct" language="C++" prot="public">
+    <compoundname>MR::IntersectionPrecomputes</compoundname>
+    <includes refid="MRIntersectionPrecomputes_8h" local="no">MRIntersectionPrecomputes.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-attrib">
+      <member refid="group__AABBTreeGroup_1ga5e3f58e5a000086f4df8523da65c9b4f" kind="variable"><name>invDir</name></member>
+      <member refid="group__AABBTreeGroup_1gaffa5bcb7a516c4dda421ace86e2597c2" kind="variable"><name>maxDimIdxZ</name></member>
+      <member refid="group__AABBTreeGroup_1ga59240ce19dcf5b27221a347b22086fcb" kind="variable"><name>idxX</name></member>
+      <member refid="group__AABBTreeGroup_1ga1e89bb11cf7c4693e1c8839963994a08" kind="variable"><name>idxY</name></member>
+      <member refid="group__AABBTreeGroup_1ga28372a635ba67b43220bc9067be6560d" kind="variable"><name>sign</name></member>
+      <member refid="group__AABBTreeGroup_1ga21465bc7d67177777744f39ac171940c" kind="variable"><name>Sx</name></member>
+      <member refid="group__AABBTreeGroup_1gaf95502c89221bba3187782d4ed18199b" kind="variable"><name>Sy</name></member>
+      <member refid="group__AABBTreeGroup_1ga6159c869b0afc38ccf26091c1681194a" kind="variable"><name>Sz</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__AABBTreeGroup_1ga9984ed4cff38cd012243e835f02e0e92" kind="function"><name>IntersectionPrecomputes</name></member>
+      <member refid="group__AABBTreeGroup_1gac2a5a2178c875139ca3e402c1a46324c" kind="function"><name>IntersectionPrecomputes</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>stores useful precomputed values for presented direction vector</para>
+<para>allows to avoid repeatable computations during intersection finding </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIntersectionPrecomputes.h" line="116" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFwd.h" bodystart="504" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="group__AABBTreeGroup_1ga59240ce19dcf5b27221a347b22086fcb" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes</scope><name>idxX</name></member>
+      <member refid="group__AABBTreeGroup_1ga1e89bb11cf7c4693e1c8839963994a08" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes</scope><name>idxY</name></member>
+      <member refid="group__AABBTreeGroup_1ga9984ed4cff38cd012243e835f02e0e92" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes</scope><name>IntersectionPrecomputes</name></member>
+      <member refid="group__AABBTreeGroup_1gac2a5a2178c875139ca3e402c1a46324c" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes</scope><name>IntersectionPrecomputes</name></member>
+      <member refid="group__AABBTreeGroup_1ga5e3f58e5a000086f4df8523da65c9b4f" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes</scope><name>invDir</name></member>
+      <member refid="group__AABBTreeGroup_1gaffa5bcb7a516c4dda421ace86e2597c2" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes</scope><name>maxDimIdxZ</name></member>
+      <member refid="group__AABBTreeGroup_1ga28372a635ba67b43220bc9067be6560d" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes</scope><name>sign</name></member>
+      <member refid="group__AABBTreeGroup_1ga21465bc7d67177777744f39ac171940c" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes</scope><name>Sx</name></member>
+      <member refid="group__AABBTreeGroup_1gaf95502c89221bba3187782d4ed18199b" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes</scope><name>Sy</name></member>
+      <member refid="group__AABBTreeGroup_1ga6159c869b0afc38ccf26091c1681194a" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes</scope><name>Sz</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

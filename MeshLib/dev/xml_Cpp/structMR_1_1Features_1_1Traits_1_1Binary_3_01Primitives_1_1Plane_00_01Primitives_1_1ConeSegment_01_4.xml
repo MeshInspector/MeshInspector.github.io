@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1ConeSegment_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>MR::Features::Traits::Binary&lt; Primitives::Plane, Primitives::ConeSegment &gt;</compoundname>
+    <includes refid="MRFeatures_8h" local="no">MRFeatures.h</includes>
+    <templateparamlist>
+    </templateparamlist>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1ConeSegment_01_4_1a182d33e799ffdd3e42408fedd13b3720" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="structMR_1_1Features_1_1MeasureResult" kindref="compound">MeasureResult</ref></type>
+        <definition>MRMESH_API MeasureResult MR::Features::Traits::Binary&lt; Primitives::Plane, Primitives::ConeSegment &gt;::measure</definition>
+        <argsstring>(const Primitives::Plane &amp;a, const Primitives::ConeSegment &amp;b) const</argsstring>
+        <name>measure</name>
+        <qualifiedname>MR::Features::Traits::Binary&lt; Primitives::Plane, Primitives::ConeSegment &gt;::measure</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Features_1_1Primitives_1_1Plane" kindref="compound">Primitives::Plane</ref> &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Primitives::ConeSegment</ref> &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="295" column="30"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="293" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" bodystart="294" bodyend="296"/>
+    <listofallmembers>
+      <member refid="structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1ConeSegment_01_4_1a182d33e799ffdd3e42408fedd13b3720" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Binary&lt; Primitives::Plane, Primitives::ConeSegment &gt;</scope><name>measure</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

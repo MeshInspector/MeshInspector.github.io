@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1UI_1_1LineAntialiasingDisabler" kind="class" language="C++" prot="public">
+    <compoundname>MR::UI::LineAntialiasingDisabler</compoundname>
+    <basecompoundref refid="classMR_1_1UI_1_1Disabler" prot="private" virt="non-virtual">MR::UI::Disabler</basecompoundref>
+    <includes refid="MRUIStyle_8h" local="no">MRUIStyle.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1UI_1_1LineAntialiasingDisabler_1a3e96e121ccb7297da23e022c771758d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::UI::LineAntialiasingDisabler::LineAntialiasingDisabler</definition>
+        <argsstring>(ImDrawList &amp;list)</argsstring>
+        <name>LineAntialiasingDisabler</name>
+        <qualifiedname>MR::UI::LineAntialiasingDisabler::LineAntialiasingDisabler</qualifiedname>
+        <param>
+          <type>ImDrawList &amp;</type>
+          <declname>list</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="595" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" bodystart="595" bodyend="597"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>While this exists, it temporarily disables antialiasing for the lines drawn to this list. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::UI::Disabler</label>
+        <link refid="classMR_1_1UI_1_1Disabler"/>
+      </node>
+      <node id="1">
+        <label>MR::UI::LineAntialiasingDisabler</label>
+        <link refid="classMR_1_1UI_1_1LineAntialiasingDisabler"/>
+        <childnode refid="2" relation="private-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::UI::Disabler</label>
+        <link refid="classMR_1_1UI_1_1Disabler"/>
+      </node>
+      <node id="1">
+        <label>MR::UI::LineAntialiasingDisabler</label>
+        <link refid="classMR_1_1UI_1_1LineAntialiasingDisabler"/>
+        <childnode refid="2" relation="private-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="592" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" bodystart="593" bodyend="598"/>
+    <listofallmembers>
+      <member refid="classMR_1_1UI_1_1LineAntialiasingDisabler_1a3e96e121ccb7297da23e022c771758d7" prot="public" virt="non-virtual"><scope>MR::UI::LineAntialiasingDisabler</scope><name>LineAntialiasingDisabler</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

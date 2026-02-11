@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ModelBaseRenderParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ModelBaseRenderParams</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1BaseRenderParams" prot="public" virt="non-virtual">mrmeshpy.BaseRenderParams</basecompoundref>
+    <derivedcompoundref refid="classmrmeshpy_1_1ModelRenderParams" prot="public" virt="non-virtual">mrmeshpy.ModelRenderParams</derivedcompoundref>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ModelBaseRenderParams_1a1aefb9240bd73939f48077f69e7534a1" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ModelBaseRenderParams::_offsetof_clipPlane</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_clipPlane</name>
+        <qualifiedname>mrmeshpy.ModelBaseRenderParams._offsetof_clipPlane</qualifiedname>
+        <initializer>=  48</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35808" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35808" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ModelBaseRenderParams_1ade356b6819548e5c4c3d41f8038e9f11" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ModelBaseRenderParams::_offsetof_depthFunction</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_depthFunction</name>
+        <qualifiedname>mrmeshpy.ModelBaseRenderParams._offsetof_depthFunction</qualifiedname>
+        <initializer>=  56</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35809" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35809" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ModelBaseRenderParams_1adc1d147ef997cadfda305621b5702e95" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ModelBaseRenderParams::_offsetof_modelMatrix</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_modelMatrix</name>
+        <qualifiedname>mrmeshpy.ModelBaseRenderParams._offsetof_modelMatrix</qualifiedname>
+        <initializer>=  40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35810" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35810" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ModelBaseRenderParams_1abddf105506057ff3c27bafbb9578d93c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ModelBaseRenderParams.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ModelBaseRenderParams.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BaseRenderParams_1a3a9c45fbddb33998f5c5f967807197d9">__init__</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1ModelRenderParams_1a2b7734995407ac6f20d01446e50012ee">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ModelRenderParams_1aaf30e04f51f3ccc4ce105d68db95719f">__init__</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35814" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35814" bodyend="35815"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ModelBaseRenderParams_1a999864f6a58fafd7a98ffbb4b122bffa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ModelBaseRenderParams.__init__</definition>
+        <argsstring>(self, ModelBaseRenderParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ModelBaseRenderParams.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BaseRenderParams_1a3a9c45fbddb33998f5c5f967807197d9">__init__</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1ModelRenderParams_1a2b7734995407ac6f20d01446e50012ee">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ModelRenderParams_1aaf30e04f51f3ccc4ce105d68db95719f">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ModelBaseRenderParams" kindref="compound">ModelBaseRenderParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35817" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35817" bodyend="35820"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ModelBaseRenderParams_1ae92beac97e365f7d6538e863182e257b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Plane3f" kindref="compound">Plane3f</ref></type>
+        <definition> Plane3f mrmeshpy.ModelBaseRenderParams.clipPlane</definition>
+        <argsstring>(self)</argsstring>
+        <name>clipPlane</name>
+        <qualifiedname>mrmeshpy.ModelBaseRenderParams.clipPlane</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>viewport clip plane (it is not applied while object does not have clipping flag set)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35822" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35822" bodyend="35825"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ModelBaseRenderParams_1a235b7a0ad2ece15baba598b369f4221a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Matrix4f" kindref="compound">Matrix4f</ref></type>
+        <definition> Matrix4f mrmeshpy.ModelBaseRenderParams.modelMatrix</definition>
+        <argsstring>(self)</argsstring>
+        <name>modelMatrix</name>
+        <qualifiedname>mrmeshpy.ModelBaseRenderParams.modelMatrix</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35827" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35827" bodyend="35828"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ModelBaseRenderParams
+
+Common rendering parameters for meshes (both for primary rendering and for the picker;
+the picker uses this as is while the primary rendering adds more fields).
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.ModelBaseRenderParams</label>
+        <link refid="classmrmeshpy_1_1ModelBaseRenderParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.BaseRenderParams</label>
+        <link refid="classmrmeshpy_1_1BaseRenderParams"/>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.ModelRenderParams</label>
+        <link refid="classmrmeshpy_1_1ModelRenderParams"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ModelBaseRenderParams</label>
+        <link refid="classmrmeshpy_1_1ModelBaseRenderParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_offsetof_clipPlane</edgelabel>
+          <edgelabel>_offsetof_depthFunction</edgelabel>
+          <edgelabel>_offsetof_modelMatrix</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.BaseRenderParams</label>
+        <link refid="classmrmeshpy_1_1BaseRenderParams"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_offsetof_projMatrix</edgelabel>
+          <edgelabel>_offsetof_viewMatrix</edgelabel>
+          <edgelabel>_offsetof_viewport</edgelabel>
+          <edgelabel>_offsetof_viewportId</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35801" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35801" bodyend="35828"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ModelBaseRenderParams_1abddf105506057ff3c27bafbb9578d93c" prot="public" virt="non-virtual"><scope>mrmeshpy::ModelBaseRenderParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ModelBaseRenderParams_1a999864f6a58fafd7a98ffbb4b122bffa" prot="public" virt="non-virtual"><scope>mrmeshpy::ModelBaseRenderParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ModelBaseRenderParams_1a1aefb9240bd73939f48077f69e7534a1" prot="protected" virt="non-virtual"><scope>mrmeshpy::ModelBaseRenderParams</scope><name>_offsetof_clipPlane</name></member>
+      <member refid="classmrmeshpy_1_1ModelBaseRenderParams_1ade356b6819548e5c4c3d41f8038e9f11" prot="protected" virt="non-virtual"><scope>mrmeshpy::ModelBaseRenderParams</scope><name>_offsetof_depthFunction</name></member>
+      <member refid="classmrmeshpy_1_1ModelBaseRenderParams_1adc1d147ef997cadfda305621b5702e95" prot="protected" virt="non-virtual"><scope>mrmeshpy::ModelBaseRenderParams</scope><name>_offsetof_modelMatrix</name></member>
+      <member refid="classmrmeshpy_1_1ModelBaseRenderParams_1ae92beac97e365f7d6538e863182e257b" prot="public" virt="non-virtual"><scope>mrmeshpy::ModelBaseRenderParams</scope><name>clipPlane</name></member>
+      <member refid="classmrmeshpy_1_1ModelBaseRenderParams_1a235b7a0ad2ece15baba598b369f4221a" prot="public" virt="non-virtual"><scope>mrmeshpy::ModelBaseRenderParams</scope><name>modelMatrix</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

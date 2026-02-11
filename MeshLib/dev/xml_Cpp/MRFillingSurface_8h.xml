@@ -1,0 +1,332 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRFillingSurface_8h" kind="file" language="C++">
+    <compoundname>MRFillingSurface.h</compoundname>
+    <includes refid="MRMeshFwd_8h" local="no">MRMesh/MRMeshFwd.h</includes>
+    <includes refid="MRExpected_8h" local="no">MRMesh/MRExpected.h</includes>
+    <includes refid="MRVector3_8h" local="no">MRMesh/MRVector3.h</includes>
+    <includes refid="MRVoxelsFwd_8h" local="no">MRVoxels/MRVoxelsFwd.h</includes>
+    <includes local="no">variant</includes>
+    <includes local="no">optional</includes>
+    <incdepgraph>
+      <node id="4">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>MRConstants.h</label>
+        <link refid="MRConstants_8h"/>
+      </node>
+      <node id="13">
+        <label>MRMesh/MRExpected.h</label>
+        <link refid="MRExpected_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="2">
+        <label>MRMesh/MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>MRMesh/MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="1">
+        <label>MRFillingSurface.h</label>
+        <link refid="MRFillingSurface_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>MRVoxels/MRVoxelsFwd.h</label>
+        <link refid="MRVoxelsFwd_8h"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>config.h</label>
+        <link refid="MRVoxels_2config_8h"/>
+      </node>
+      <node id="6">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="14">
+        <label>MRPch/MRExpected.h</label>
+      </node>
+      <node id="20">
+        <label>algorithm</label>
+      </node>
+      <node id="7">
+        <label>array</label>
+      </node>
+      <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="21">
+        <label>cmath</label>
+      </node>
+      <node id="17">
+        <label>cstddef</label>
+      </node>
+      <node id="22">
+        <label>cstring</label>
+      </node>
+      <node id="11">
+        <label>functional</label>
+      </node>
+      <node id="23">
+        <label>iosfwd</label>
+      </node>
+      <node id="28">
+        <label>optional</label>
+      </node>
+      <node id="10">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="9">
+        <label>string</label>
+      </node>
+      <node id="18">
+        <label>type_traits</label>
+      </node>
+      <node id="24">
+        <label>utility</label>
+      </node>
+      <node id="27">
+        <label>variant</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams" prot="public">MR::FillingSurface::TPMS::VolumeParams</innerclass>
+    <innerclass refid="structMR_1_1FillingSurface_1_1TPMS_1_1MeshParams" prot="public">MR::FillingSurface::TPMS::MeshParams</innerclass>
+    <innerclass refid="structMR_1_1FillingSurface_1_1CellularSurface_1_1Params" prot="public">MR::FillingSurface::CellularSurface::Params</innerclass>
+    <innerclass refid="structMR_1_1FillingSurface_1_1ParamsFacade" prot="public">MR::FillingSurface::ParamsFacade</innerclass>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <innernamespace refid="namespaceMR_1_1FillingSurface">MR::FillingSurface</innernamespace>
+    <innernamespace refid="namespaceMR_1_1FillingSurface_1_1TPMS">MR::FillingSurface::TPMS</innernamespace>
+    <innernamespace refid="namespaceMR_1_1FillingSurface_1_1CellularSurface">MR::FillingSurface::CellularSurface</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRMeshFwd_8h" kindref="compound">MRMesh/MRMeshFwd.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRExpected_8h" kindref="compound">MRMesh/MRExpected.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRVector3_8h" kindref="compound">MRMesh/MRVector3.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRVoxelsFwd_8h" kindref="compound">MRVoxels/MRVoxelsFwd.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;variant&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;optional&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="namespaceMR_1_1FillingSurface" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1FillingSurface" kindref="compound">MR::FillingSurface</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="namespaceMR_1_1FillingSurface_1_1TPMS" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1FillingSurface_1a3ff060a54d2569204983c0341bc857d8ae02916974bfd1ce96e2d39b83612ad92" kindref="member">TPMS</ref><sp/></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="namespaceMR_1_1FillingSurface_1_1TPMS_1aa0042e4e52a341abae2d86e3f384c63f" refkind="member"><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1FillingSurface_1_1TPMS_1aa0042e4e52a341abae2d86e3f384c63f" kindref="member">Type</ref><sp/>:<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1FillingSurface_1_1TPMS_1aa0042e4e52a341abae2d86e3f384c63fac5a9b2c32efbe37da8a1e10009be8b77" kindref="member">SchwartzP</ref>,</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1FillingSurface_1_1TPMS_1aa0042e4e52a341abae2d86e3f384c63fa33d268fa4f51c6af6e70dc55335e76aa" kindref="member">ThickSchwartzP</ref>,</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1FillingSurface_1_1TPMS_1aa0042e4e52a341abae2d86e3f384c63fa5ac1f3e35d09d52b4e556936581cef44" kindref="member">DoubleGyroid</ref>,</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1FillingSurface_1_1TPMS_1aa0042e4e52a341abae2d86e3f384c63fa9e3f153bc66d4e5028f2843a44894038" kindref="member">ThickGyroid</ref>,</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1FillingSurface_1_1TPMS_1aa0042e4e52a341abae2d86e3f384c63fae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">Count</ref></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="namespaceMR_1_1FillingSurface_1_1TPMS_1afb2c96162c63b5ca2d5a82db8fdb91ae" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/>std::vector&lt;std::string&gt;<sp/><ref refid="namespaceMR_1_1FillingSurface_1_1TPMS_1afb2c96162c63b5ca2d5a82db8fdb91ae" kindref="member">getTypeNames</ref>();</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="namespaceMR_1_1FillingSurface_1_1TPMS_1a576e36c9ce6915d80e9d42b035c6bd84" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/>std::vector&lt;std::string&gt;<sp/><ref refid="namespaceMR_1_1FillingSurface_1_1TPMS_1a576e36c9ce6915d80e9d42b035c6bd84" kindref="member">getTypeTooltips</ref>();</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="namespaceMR_1_1FillingSurface_1_1TPMS_1a6b3110f95a9c1eac399d99ef7e699658" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1FillingSurface_1_1TPMS_1a6b3110f95a9c1eac399d99ef7e699658" kindref="member">isThick</ref>(<sp/><ref refid="namespaceMR_1_1FillingSurface_1_1TPMS_1aa0042e4e52a341abae2d86e3f384c63f" kindref="member">Type</ref><sp/>type<sp/>);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="structMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams" kindref="compound">VolumeParams</ref></highlight></codeline>
+<codeline lineno="40"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="41" refid="structMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams_1ab212b169498c626b1686c8bd5897e773" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1FillingSurface_1_1TPMS_1aa0042e4e52a341abae2d86e3f384c63f" kindref="member">Type</ref><sp/><ref refid="structMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams_1ab212b169498c626b1686c8bd5897e773" kindref="member">type</ref><sp/>=<sp/><ref refid="namespaceMR_1_1FillingSurface_1_1TPMS_1aa0042e4e52a341abae2d86e3f384c63fa9e3f153bc66d4e5028f2843a44894038" kindref="member">Type::ThickGyroid</ref>;<sp/></highlight></codeline>
+<codeline lineno="42" refid="structMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams_1aceded37dcd711c7cd1f2aed01f5e21a6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams_1aceded37dcd711c7cd1f2aed01f5e21a6" kindref="member">frequency</ref><sp/>=<sp/>1.f;<sp/></highlight></codeline>
+<codeline lineno="43" refid="structMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams_1a99c86ed6bab979519ec1b5ce2410ee6c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams_1a99c86ed6bab979519ec1b5ce2410ee6c" kindref="member">resolution</ref><sp/>=<sp/>5.f;<sp/></highlight></codeline>
+<codeline lineno="44"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="structMR_1_1FillingSurface_1_1TPMS_1_1MeshParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1FillingSurface_1_1TPMS_1_1MeshParams" kindref="compound">MeshParams</ref><sp/>:<sp/><ref refid="structMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams" kindref="compound">VolumeParams</ref></highlight></codeline>
+<codeline lineno="47"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="48" refid="structMR_1_1FillingSurface_1_1TPMS_1_1MeshParams_1a6124f92134e89389bcb88b08b0a0ca1b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FillingSurface_1_1TPMS_1_1MeshParams_1a6124f92134e89389bcb88b08b0a0ca1b" kindref="member">iso</ref><sp/>=<sp/>0.6f;</highlight></codeline>
+<codeline lineno="49" refid="structMR_1_1FillingSurface_1_1TPMS_1_1MeshParams_1a23e21cd3fa7230a5847e45b9d3d9c99a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FillingSurface_1_1TPMS_1_1MeshParams_1a23e21cd3fa7230a5847e45b9d3d9c99a" kindref="member">decimate</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="namespaceMR_1_1FillingSurface_1_1TPMS_1af995ecaf283d8df86fa127d17b0509b7" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/>FunctionVolume<sp/><ref refid="namespaceMR_1_1FillingSurface_1_1TPMS_1af995ecaf283d8df86fa127d17b0509b7" kindref="member">buildVolume</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/><ref refid="namespaceMR_1a306ff1f62992b3eb33c446913b64188a" kindref="member">size</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams" kindref="compound">VolumeParams</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="namespaceMR_1_1FillingSurface_1_1TPMS_1ac279f46943c72b996f09709527a23b94" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="namespaceMR_1_1FillingSurface_1_1TPMS_1ac279f46943c72b996f09709527a23b94" kindref="member">build</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/><ref refid="namespaceMR_1a306ff1f62992b3eb33c446913b64188a" kindref="member">size</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FillingSurface_1_1TPMS_1_1MeshParams" kindref="compound">MeshParams</ref>&amp;<sp/>params,<sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="namespaceMR_1_1FillingSurface_1_1TPMS_1ac2d8b5eeae913a1894e1d976fc058189" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="namespaceMR_1_1FillingSurface_1_1TPMS_1ac2d8b5eeae913a1894e1d976fc058189" kindref="member">fill</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FillingSurface_1_1TPMS_1_1MeshParams" kindref="compound">MeshParams</ref>&amp;<sp/>params,<sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="namespaceMR_1_1FillingSurface_1_1TPMS_1a98a6ccc16ae5ee2e79ea749544cb3207" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1FillingSurface_1_1TPMS_1a98a6ccc16ae5ee2e79ea749544cb3207" kindref="member">getNumberOfVoxels</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>frequency,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>resolution<sp/>);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="namespaceMR_1_1FillingSurface_1_1TPMS_1a402faa69d015cbefe93eda12fccde96c" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1FillingSurface_1_1TPMS_1a98a6ccc16ae5ee2e79ea749544cb3207" kindref="member">getNumberOfVoxels</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/><ref refid="namespaceMR_1a306ff1f62992b3eb33c446913b64188a" kindref="member">size</ref>,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>frequency,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>resolution<sp/>);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="namespaceMR_1_1FillingSurface_1_1TPMS_1a4f46e2d5cd288b554840b44e8cb0976c" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1FillingSurface_1_1TPMS_1a4f46e2d5cd288b554840b44e8cb0976c" kindref="member">estimateIso</ref>(<sp/><ref refid="namespaceMR_1_1FillingSurface_1_1TPMS_1aa0042e4e52a341abae2d86e3f384c63f" kindref="member">Type</ref><sp/>type,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>targetDensity<sp/>);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="namespaceMR_1_1FillingSurface_1_1TPMS_1af9a30229292b2ad95c3660d9960c6184" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1FillingSurface_1_1TPMS_1af9a30229292b2ad95c3660d9960c6184" kindref="member">estimateDensity</ref>(<sp/><ref refid="namespaceMR_1_1FillingSurface_1_1TPMS_1aa0042e4e52a341abae2d86e3f384c63f" kindref="member">Type</ref><sp/>type,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>targetIso<sp/>);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="namespaceMR_1_1FillingSurface_1_1TPMS_1ab0d1aebd6cc73b3069dce7896b8a8ce4" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1FillingSurface_1_1TPMS_1ab0d1aebd6cc73b3069dce7896b8a8ce4" kindref="member">getMinimalResolution</ref>(<sp/><ref refid="namespaceMR_1_1FillingSurface_1_1TPMS_1aa0042e4e52a341abae2d86e3f384c63f" kindref="member">Type</ref><sp/>type,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>iso<sp/>);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="namespaceMR_1_1FillingSurface_1_1CellularSurface" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">CellularSurface<sp/></highlight></codeline>
+<codeline lineno="87"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="namespaceMR_1_1FillingSurface_1_1CellularSurface_1af4d9ef943b24a672c1140baa211a3819" refkind="member"><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1FillingSurface_1_1CellularSurface_1af4d9ef943b24a672c1140baa211a3819" kindref="member">Type</ref><sp/>:<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1FillingSurface_1_1CellularSurface_1af4d9ef943b24a672c1140baa211a3819a2ec2c2961c7ce5a114d969c1f562a563" kindref="member">Cylinder</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1FillingSurface_1_1CellularSurface_1af4d9ef943b24a672c1140baa211a3819a69ad58d91eec91b5c152d21ca117dc81" kindref="member">Rect</ref></highlight></codeline>
+<codeline lineno="94"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="structMR_1_1FillingSurface_1_1CellularSurface_1_1Params" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1FillingSurface_1_1CellularSurface_1_1Params" kindref="compound">Params</ref></highlight></codeline>
+<codeline lineno="97"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="98" refid="structMR_1_1FillingSurface_1_1CellularSurface_1_1Params_1a641c95a5c242b1135d18d8f1fcd0c52f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1FillingSurface_1_1CellularSurface_1af4d9ef943b24a672c1140baa211a3819" kindref="member">Type</ref><sp/><ref refid="structMR_1_1FillingSurface_1_1CellularSurface_1_1Params_1a641c95a5c242b1135d18d8f1fcd0c52f" kindref="member">type</ref><sp/>=<sp/><ref refid="namespaceMR_1_1FillingSurface_1_1CellularSurface_1af4d9ef943b24a672c1140baa211a3819a2ec2c2961c7ce5a114d969c1f562a563" kindref="member">Type::Cylinder</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="99" refid="structMR_1_1FillingSurface_1_1CellularSurface_1_1Params_1abf117c20996451e5e3e076b1a083a055" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="structMR_1_1FillingSurface_1_1CellularSurface_1_1Params_1abf117c20996451e5e3e076b1a083a055" kindref="member">period</ref><sp/>=<sp/>Vector3f::diagonal(<sp/>1.f<sp/>);<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="100" refid="structMR_1_1FillingSurface_1_1CellularSurface_1_1Params_1acd5082006dfa5e0b7e6e227b7080c69f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="structMR_1_1FillingSurface_1_1CellularSurface_1_1Params_1acd5082006dfa5e0b7e6e227b7080c69f" kindref="member">width</ref><sp/>=<sp/>Vector3f::diagonal(<sp/>0.3f<sp/>);<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="101" refid="structMR_1_1FillingSurface_1_1CellularSurface_1_1Params_1aaa97d32b24da517a5ab568769586e571" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FillingSurface_1_1CellularSurface_1_1Params_1aaa97d32b24da517a5ab568769586e571" kindref="member">r</ref><sp/>=<sp/>0.f;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105" refid="structMR_1_1FillingSurface_1_1CellularSurface_1_1Params_1ade37230975e903a0e87eb93638890fba" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FillingSurface_1_1CellularSurface_1_1Params_1ade37230975e903a0e87eb93638890fba" kindref="member">highRes</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="structMR_1_1FillingSurface_1_1CellularSurface_1_1Params_1a127a01464c363716de91ba32c72d7f54" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FillingSurface_1_1CellularSurface_1_1Params_1a127a01464c363716de91ba32c72d7f54" kindref="member">preserveTips</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="115" refid="namespaceMR_1_1FillingSurface_1_1CellularSurface_1a7b1f32e2858a7557f0903a6528ee9915" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/>std::vector&lt;std::string&gt;<sp/><ref refid="namespaceMR_1_1FillingSurface_1_1CellularSurface_1a7b1f32e2858a7557f0903a6528ee9915" kindref="member">getTypeNames</ref>();</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119" refid="namespaceMR_1_1FillingSurface_1_1CellularSurface_1a9a644fd0f543b423a3e722bf3a17fe14" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="namespaceMR_1_1FillingSurface_1_1CellularSurface_1a9a644fd0f543b423a3e722bf3a17fe14" kindref="member">build</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/><ref refid="namespaceMR_1a306ff1f62992b3eb33c446913b64188a" kindref="member">size</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FillingSurface_1_1CellularSurface_1_1Params" kindref="compound">Params</ref>&amp;<sp/>params,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref>&amp;<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="namespaceMR_1_1FillingSurface_1_1CellularSurface_1a16718da65c52170f8eed5b7df48873e7" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="namespaceMR_1_1FillingSurface_1_1CellularSurface_1a16718da65c52170f8eed5b7df48873e7" kindref="member">fill</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FillingSurface_1_1CellularSurface_1_1Params" kindref="compound">Params</ref>&amp;<sp/>params,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref>&amp;<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125" refid="namespaceMR_1_1FillingSurface_1_1CellularSurface_1a128ae4e0cb0b4dacfdb64a3312ff7bcb" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1FillingSurface_1_1CellularSurface_1a128ae4e0cb0b4dacfdb64a3312ff7bcb" kindref="member">estimateDensity</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>period,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__BoxGroup_1ga03ccb991cf0d9c433fd5a054a5d026af" kindref="member">width</ref>,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>r<sp/>);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="namespaceMR_1_1FillingSurface_1_1CellularSurface_1a23995b41b619c174ea95b0c19e9c57d4" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/>std::optional&lt;float&gt;<sp/><ref refid="namespaceMR_1_1FillingSurface_1_1CellularSurface_1a23995b41b619c174ea95b0c19e9c57d4" kindref="member">estimateWidth</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>period,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>r,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>targetDensity<sp/>);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="namespaceMR_1_1FillingSurface_1a3ff060a54d2569204983c0341bc857d8" refkind="member"><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1FillingSurface_1a3ff060a54d2569204983c0341bc857d8" kindref="member">Kind</ref><sp/>:<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1FillingSurface_1a3ff060a54d2569204983c0341bc857d8ae02916974bfd1ce96e2d39b83612ad92" kindref="member">TPMS</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1FillingSurface_1a3ff060a54d2569204983c0341bc857d8a71e49f0a64aa14c31736b028670cacf3" kindref="member">Cellular</ref></highlight></codeline>
+<codeline lineno="140"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="141" refid="namespaceMR_1_1FillingSurface_1aa858fcdc98b95de42d3f321db70b12b6" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/>std::vector&lt;std::string&gt;<sp/><ref refid="namespaceMR_1_1FillingSurface_1aa858fcdc98b95de42d3f321db70b12b6" kindref="member">getKindNames</ref>();</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="namespaceMR_1_1FillingSurface_1ad93875bd1b990822d6daf1713b791372" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1FillingSurface_1ad93875bd1b990822d6daf1713b791372" kindref="member">MeshParamsRef</ref><sp/>=<sp/>std::variant</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;<sp/>std::reference_wrapper&lt;TPMS::MeshParams&gt;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/>,<sp/>std::reference_wrapper&lt;CellularSurface::Params&gt;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/>&gt;;</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148" refid="namespaceMR_1_1FillingSurface_1a2b60c026ebb4f4454921f21246c78f79" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1FillingSurface_1a2b60c026ebb4f4454921f21246c78f79" kindref="member">ConstMeshParamsRef</ref><sp/>=<sp/>std::variant</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;<sp/>std::reference_wrapper&lt;const<sp/>TPMS::MeshParams&gt;</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>,<sp/>std::reference_wrapper&lt;const<sp/>CellularSurface::Params&gt;</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/>&gt;;</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154" refid="namespaceMR_1_1FillingSurface_1ad9b3bec5316cc054606a4c30507e3ef3" refkind="member"><highlight class="normal"><ref refid="namespaceMR_1ac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="namespaceMR_1_1FillingSurface_1ad9b3bec5316cc054606a4c30507e3ef3" kindref="member">build</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/><ref refid="namespaceMR_1a306ff1f62992b3eb33c446913b64188a" kindref="member">size</ref>,<sp/><ref refid="namespaceMR_1_1FillingSurface_1a2b60c026ebb4f4454921f21246c78f79" kindref="member">ConstMeshParamsRef</ref><sp/>params,<sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="155" refid="namespaceMR_1_1FillingSurface_1af2b39059e0f7cac8eac6c663fd6877ac" refkind="member"><highlight class="normal"><ref refid="namespaceMR_1ac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="namespaceMR_1_1FillingSurface_1af2b39059e0f7cac8eac6c663fd6877ac" kindref="member">fill</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/><ref refid="namespaceMR_1_1FillingSurface_1a2b60c026ebb4f4454921f21246c78f79" kindref="member">ConstMeshParamsRef</ref><sp/>params,<sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="160" refid="structMR_1_1FillingSurface_1_1ParamsFacade" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1ac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/><ref refid="structMR_1_1FillingSurface_1_1ParamsFacade" kindref="compound">ParamsFacade</ref></highlight></codeline>
+<codeline lineno="161"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="162" refid="structMR_1_1FillingSurface_1_1ParamsFacade_1a8325b4ad0b790943397e73efcd5bf41d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>T<sp/><ref refid="structMR_1_1FillingSurface_1_1ParamsFacade_1a8325b4ad0b790943397e73efcd5bf41d" kindref="member">params</ref>;</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164" refid="structMR_1_1FillingSurface_1_1ParamsFacade_1a3f8437e613d46cad940b821aa4eedfa4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="structMR_1_1FillingSurface_1_1ParamsFacade_1a3f8437e613d46cad940b821aa4eedfa4" kindref="member">getPeriod</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="165"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::visit(<sp/><ref refid="structMR_1_1overloaded" kindref="compound">overloaded</ref>{</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[]<sp/>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FillingSurface_1_1TPMS_1_1MeshParams" kindref="compound">TPMS::MeshParams</ref>&amp;<sp/>p<sp/>){<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Vector3f::diagonal(<sp/>1.f<sp/>/<sp/>p.frequency<sp/>);<sp/>},</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[]<sp/>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FillingSurface_1_1CellularSurface_1_1Params" kindref="compound">CellularSurface::Params</ref>&amp;<sp/>p<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>p.period;<sp/>}</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>},<sp/>params<sp/>);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="171"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173" refid="namespaceMR_1_1FillingSurface_1a2c35a3e3b5054de106dda7c8e3e54669" refkind="member"><highlight class="normal"><ref refid="namespaceMR_1_1FillingSurface_1a2c35a3e3b5054de106dda7c8e3e54669" kindref="member">ParamsFacade</ref>(<sp/><ref refid="namespaceMR_1_1FillingSurface_1ad93875bd1b990822d6daf1713b791372" kindref="member">MeshParamsRef</ref><sp/>)<sp/>-&gt;<sp/><ref refid="structMR_1_1FillingSurface_1_1ParamsFacade" kindref="compound">ParamsFacade&lt;MeshParamsRef&gt;</ref>;</highlight></codeline>
+<codeline lineno="174" refid="namespaceMR_1_1FillingSurface_1a2e3d71dbe38121cbb33973133493cc07" refkind="member"><highlight class="normal"><ref refid="namespaceMR_1_1FillingSurface_1a2c35a3e3b5054de106dda7c8e3e54669" kindref="member">ParamsFacade</ref>(<sp/><ref refid="namespaceMR_1_1FillingSurface_1a2b60c026ebb4f4454921f21246c78f79" kindref="member">ConstMeshParamsRef</ref><sp/>)<sp/>-&gt;<sp/><ref refid="structMR_1_1FillingSurface_1_1ParamsFacade" kindref="compound">ParamsFacade&lt;ConstMeshParamsRef&gt;</ref>;</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal">}<sp/></highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFillingSurface.h"/>
+  </compounddef>
+</doxygen>

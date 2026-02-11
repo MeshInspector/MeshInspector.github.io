@@ -1,0 +1,529 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1DistanceToMeshOptions" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::DistanceToMeshOptions</compoundname>
+    <derivedcompoundref refid="classmrmeshpy_1_1SignedDistanceToMeshOptions" prot="public" virt="non-virtual">mrmeshpy.SignedDistanceToMeshOptions</derivedcompoundref>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1DistanceToMeshOptions_1a6b1688da4187aa021d2975bcf17dfd39" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DistanceToMeshOptions::_offsetof_maxDistSq</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxDistSq</name>
+        <qualifiedname>mrmeshpy.DistanceToMeshOptions._offsetof_maxDistSq</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13947" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13947" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DistanceToMeshOptions_1a04e7c3cd4771a2067e7573545ace6887" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DistanceToMeshOptions::_offsetof_minDistSq</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_minDistSq</name>
+        <qualifiedname>mrmeshpy.DistanceToMeshOptions._offsetof_minDistSq</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13948" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13948" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DistanceToMeshOptions_1af8012b6b89f3cabaebcb6000f0eebae8" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DistanceToMeshOptions::_offsetof_nullOutsideMinMax</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_nullOutsideMinMax</name>
+        <qualifiedname>mrmeshpy.DistanceToMeshOptions._offsetof_nullOutsideMinMax</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13949" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13949" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DistanceToMeshOptions_1ad6d4f79ec687fff6ef3a42b14805eb32" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DistanceToMeshOptions::_offsetof_windingNumberBeta</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_windingNumberBeta</name>
+        <qualifiedname>mrmeshpy.DistanceToMeshOptions._offsetof_windingNumberBeta</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13950" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13950" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DistanceToMeshOptions_1a9d401ce5c9f93d40f4caf9d23e1932a2" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DistanceToMeshOptions::_offsetof_windingNumberThreshold</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_windingNumberThreshold</name>
+        <qualifiedname>mrmeshpy.DistanceToMeshOptions._offsetof_windingNumberThreshold</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13951" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13951" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceToMeshOptions_1a018ab9456e66d92f604508f33b5b2f1b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DistanceToMeshOptions.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DistanceToMeshOptions.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1SignedDistanceToMeshOptions_1a2f56735e05fcac7cd56a4e1c677d7466">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SignedDistanceToMeshOptions_1ad55b383858a0417d2464b5c247b39436">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SignedDistanceToMeshOptions_1a2a3ab58e5815530af8cec8eac21cd03d">__init__</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13954" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13954" bodyend="13955"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceToMeshOptions_1aad04048e4bdf3220f965841881cd66f0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DistanceToMeshOptions" kindref="compound">DistanceToMeshOptions</ref></type>
+        <definition> DistanceToMeshOptions mrmeshpy.DistanceToMeshOptions.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.DistanceToMeshOptions.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1SignedDistanceToMeshOptions_1a6ea5ec4c7a627cd0721f7c522818314e">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SignedDistanceToMeshOptions_1a6ea5ec4c7a627cd0721f7c522818314e">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13958" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13958" bodyend="13959"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceToMeshOptions_1aad04048e4bdf3220f965841881cd66f0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DistanceToMeshOptions" kindref="compound">DistanceToMeshOptions</ref></type>
+        <definition> DistanceToMeshOptions mrmeshpy.DistanceToMeshOptions.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.DistanceToMeshOptions.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1SignedDistanceToMeshOptions_1a6ea5ec4c7a627cd0721f7c522818314e">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SignedDistanceToMeshOptions_1a6ea5ec4c7a627cd0721f7c522818314e">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13962" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13962" bodyend="13963"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceToMeshOptions_1aa5a71155931c1d066d5a1e26f45424a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DistanceToMeshOptions.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DistanceToMeshOptions.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1SignedDistanceToMeshOptions_1a2f56735e05fcac7cd56a4e1c677d7466">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SignedDistanceToMeshOptions_1ad55b383858a0417d2464b5c247b39436">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SignedDistanceToMeshOptions_1a2a3ab58e5815530af8cec8eac21cd03d">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13965" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13965" bodyend="13966"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceToMeshOptions_1aefb62cc8be3cdcddff00defdd687e5cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DistanceToMeshOptions.__init__</definition>
+        <argsstring>(self, DistanceToMeshOptions arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DistanceToMeshOptions.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1SignedDistanceToMeshOptions_1a2f56735e05fcac7cd56a4e1c677d7466">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SignedDistanceToMeshOptions_1ad55b383858a0417d2464b5c247b39436">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SignedDistanceToMeshOptions_1a2a3ab58e5815530af8cec8eac21cd03d">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1DistanceToMeshOptions" kindref="compound">DistanceToMeshOptions</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13968" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13968" bodyend="13971"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceToMeshOptions_1a2d7378f391fdcdecc071d5fea21dd54f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DistanceToMeshOptions.__init__</definition>
+        <argsstring>(self, float minDistSq, float maxDistSq, bool nullOutsideMinMax, float windingNumberThreshold, float windingNumberBeta)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DistanceToMeshOptions.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1SignedDistanceToMeshOptions_1a2f56735e05fcac7cd56a4e1c677d7466">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SignedDistanceToMeshOptions_1ad55b383858a0417d2464b5c247b39436">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SignedDistanceToMeshOptions_1a2a3ab58e5815530af8cec8eac21cd03d">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>minDistSq</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxDistSq</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>nullOutsideMinMax</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>windingNumberThreshold</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>windingNumberBeta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13973" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13973" bodyend="13976"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceToMeshOptions_1ad09befd18d3d1af91f3abcdc32723ab8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.DistanceToMeshOptions.maxDistSq</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxDistSq</name>
+        <qualifiedname>mrmeshpy.DistanceToMeshOptions.maxDistSq</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>maximum squared distance from a point to mesh to be computed precisely
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13978" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13978" bodyend="13981"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceToMeshOptions_1a6599e39abe3fb35f92b2bad44faebb84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DistanceToMeshOptions.maxDistSq</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>maxDistSq</name>
+        <qualifiedname>mrmeshpy.DistanceToMeshOptions.maxDistSq</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13983" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13983" bodyend="13984"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceToMeshOptions_1a1a3519767c036b77f65c2f182d35dacb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.DistanceToMeshOptions.minDistSq</definition>
+        <argsstring>(self)</argsstring>
+        <name>minDistSq</name>
+        <qualifiedname>mrmeshpy.DistanceToMeshOptions.minDistSq</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>minimum squared distance from a point to mesh to be computed precisely
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13986" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13986" bodyend="13989"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceToMeshOptions_1a468dbb02cc9ea681838e396fb8677502" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DistanceToMeshOptions.minDistSq</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>minDistSq</name>
+        <qualifiedname>mrmeshpy.DistanceToMeshOptions.minDistSq</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13991" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13991" bodyend="13992"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceToMeshOptions_1a248c4d1374a3f13137c3f1a003b34d36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.DistanceToMeshOptions.nullOutsideMinMax</definition>
+        <argsstring>(self)</argsstring>
+        <name>nullOutsideMinMax</name>
+        <qualifiedname>mrmeshpy.DistanceToMeshOptions.nullOutsideMinMax</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>what to do if actual distance is outside [min, max) range:
+true - return std::nullopt for std::optional&lt;float&gt; or NaN for float,
+false - return approximate value of the distance (with correct sign in case of SignDetectionMode::HoleWindingRule);
+please note that in HoleWindingRule the sign can change even for too small or too large distances,
+so if you would like to get closed mesh from marching cubes, set false here
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13994" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13994" bodyend="14001"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceToMeshOptions_1a44420267d0048d9539a9b6cea0a28ed2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DistanceToMeshOptions.nullOutsideMinMax</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>nullOutsideMinMax</name>
+        <qualifiedname>mrmeshpy.DistanceToMeshOptions.nullOutsideMinMax</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14003" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14003" bodyend="14004"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceToMeshOptions_1ac2a9eda1a9655941090c176d8729bc27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.DistanceToMeshOptions.windingNumberBeta</definition>
+        <argsstring>(self)</argsstring>
+        <name>windingNumberBeta</name>
+        <qualifiedname>mrmeshpy.DistanceToMeshOptions.windingNumberBeta</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>only for SignDetectionMode::HoleWindingRule:
+determines the precision of fast approximation: the more the better, minimum value is 1
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14006" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14006" bodyend="14010"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceToMeshOptions_1a60629749f572b3f2a344828d1d366e21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DistanceToMeshOptions.windingNumberBeta</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>windingNumberBeta</name>
+        <qualifiedname>mrmeshpy.DistanceToMeshOptions.windingNumberBeta</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14012" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14012" bodyend="14013"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceToMeshOptions_1a0b0ea7eed543ddf956334e99c053fc4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.DistanceToMeshOptions.windingNumberThreshold</definition>
+        <argsstring>(self)</argsstring>
+        <name>windingNumberThreshold</name>
+        <qualifiedname>mrmeshpy.DistanceToMeshOptions.windingNumberThreshold</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>only for SignDetectionMode::HoleWindingRule:
+positive distance if winding number below or equal this threshold;
+ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14015" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14015" bodyend="14020"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceToMeshOptions_1afefc0b359fbf40a711bd234dd9efa407" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DistanceToMeshOptions.windingNumberThreshold</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>windingNumberThreshold</name>
+        <qualifiedname>mrmeshpy.DistanceToMeshOptions.windingNumberThreshold</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14022" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14022" bodyend="14023"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::DistanceToMeshOptions
+
+options determining computation of distance from a point to a mesh
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.DistanceToMeshOptions</label>
+        <link refid="classmrmeshpy_1_1DistanceToMeshOptions"/>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.SignedDistanceToMeshOptions</label>
+        <link refid="classmrmeshpy_1_1SignedDistanceToMeshOptions"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.DistanceToMeshOptions</label>
+        <link refid="classmrmeshpy_1_1DistanceToMeshOptions"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_maxDistSq</edgelabel>
+          <edgelabel>_offsetof_minDistSq</edgelabel>
+          <edgelabel>_offsetof_nullOutsideMinMax</edgelabel>
+          <edgelabel>_offsetof_windingNumberBeta</edgelabel>
+          <edgelabel>_offsetof_windingNumberThreshold</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13941" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13941" bodyend="14023"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1DistanceToMeshOptions_1a018ab9456e66d92f604508f33b5b2f1b" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceToMeshOptions</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DistanceToMeshOptions_1aa5a71155931c1d066d5a1e26f45424a5" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceToMeshOptions</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DistanceToMeshOptions_1aefb62cc8be3cdcddff00defdd687e5cb" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceToMeshOptions</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DistanceToMeshOptions_1a2d7378f391fdcdecc071d5fea21dd54f" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceToMeshOptions</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DistanceToMeshOptions_1a6b1688da4187aa021d2975bcf17dfd39" prot="protected" virt="non-virtual"><scope>mrmeshpy::DistanceToMeshOptions</scope><name>_offsetof_maxDistSq</name></member>
+      <member refid="classmrmeshpy_1_1DistanceToMeshOptions_1a04e7c3cd4771a2067e7573545ace6887" prot="protected" virt="non-virtual"><scope>mrmeshpy::DistanceToMeshOptions</scope><name>_offsetof_minDistSq</name></member>
+      <member refid="classmrmeshpy_1_1DistanceToMeshOptions_1af8012b6b89f3cabaebcb6000f0eebae8" prot="protected" virt="non-virtual"><scope>mrmeshpy::DistanceToMeshOptions</scope><name>_offsetof_nullOutsideMinMax</name></member>
+      <member refid="classmrmeshpy_1_1DistanceToMeshOptions_1ad6d4f79ec687fff6ef3a42b14805eb32" prot="protected" virt="non-virtual"><scope>mrmeshpy::DistanceToMeshOptions</scope><name>_offsetof_windingNumberBeta</name></member>
+      <member refid="classmrmeshpy_1_1DistanceToMeshOptions_1a9d401ce5c9f93d40f4caf9d23e1932a2" prot="protected" virt="non-virtual"><scope>mrmeshpy::DistanceToMeshOptions</scope><name>_offsetof_windingNumberThreshold</name></member>
+      <member refid="classmrmeshpy_1_1DistanceToMeshOptions_1ad09befd18d3d1af91f3abcdc32723ab8" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceToMeshOptions</scope><name>maxDistSq</name></member>
+      <member refid="classmrmeshpy_1_1DistanceToMeshOptions_1a6599e39abe3fb35f92b2bad44faebb84" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceToMeshOptions</scope><name>maxDistSq</name></member>
+      <member refid="classmrmeshpy_1_1DistanceToMeshOptions_1a1a3519767c036b77f65c2f182d35dacb" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceToMeshOptions</scope><name>minDistSq</name></member>
+      <member refid="classmrmeshpy_1_1DistanceToMeshOptions_1a468dbb02cc9ea681838e396fb8677502" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceToMeshOptions</scope><name>minDistSq</name></member>
+      <member refid="classmrmeshpy_1_1DistanceToMeshOptions_1a248c4d1374a3f13137c3f1a003b34d36" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceToMeshOptions</scope><name>nullOutsideMinMax</name></member>
+      <member refid="classmrmeshpy_1_1DistanceToMeshOptions_1a44420267d0048d9539a9b6cea0a28ed2" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceToMeshOptions</scope><name>nullOutsideMinMax</name></member>
+      <member refid="classmrmeshpy_1_1DistanceToMeshOptions_1aad04048e4bdf3220f965841881cd66f0" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceToMeshOptions</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1DistanceToMeshOptions_1aad04048e4bdf3220f965841881cd66f0" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceToMeshOptions</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1DistanceToMeshOptions_1ac2a9eda1a9655941090c176d8729bc27" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceToMeshOptions</scope><name>windingNumberBeta</name></member>
+      <member refid="classmrmeshpy_1_1DistanceToMeshOptions_1a60629749f572b3f2a344828d1d366e21" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceToMeshOptions</scope><name>windingNumberBeta</name></member>
+      <member refid="classmrmeshpy_1_1DistanceToMeshOptions_1a0b0ea7eed543ddf956334e99c053fc4f" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceToMeshOptions</scope><name>windingNumberThreshold</name></member>
+      <member refid="classmrmeshpy_1_1DistanceToMeshOptions_1afefc0b359fbf40a711bd234dd9efa407" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceToMeshOptions</scope><name>windingNumberThreshold</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

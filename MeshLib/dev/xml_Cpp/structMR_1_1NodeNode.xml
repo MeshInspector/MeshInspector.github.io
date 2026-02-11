@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1NodeNode" kind="struct" language="C++" prot="public">
+    <compoundname>MR::NodeNode</compoundname>
+    <includes refid="MRAABBTreeNode_8h" local="no">MRAABBTreeNode.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1NodeNode_1aa37922a5069e7815141f8eac1dd07ea2" prot="public" static="no" mutable="no">
+        <type>NodeId</type>
+        <definition>NodeId MR::NodeNode::aNode</definition>
+        <argsstring></argsstring>
+        <name>aNode</name>
+        <qualifiedname>MR::NodeNode::aNode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeNode.h" line="49" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeNode.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1NodeNode_1a79a5205b5b3afdb4525f05a356ec8a18" prot="public" static="no" mutable="no">
+        <type>NodeId</type>
+        <definition>NodeId MR::NodeNode::bNode</definition>
+        <argsstring></argsstring>
+        <name>bNode</name>
+        <qualifiedname>MR::NodeNode::bNode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeNode.h" line="50" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeNode.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeNode.h" line="47" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeNode.h" bodystart="48" bodyend="51"/>
+    <listofallmembers>
+      <member refid="structMR_1_1NodeNode_1aa37922a5069e7815141f8eac1dd07ea2" prot="public" virt="non-virtual"><scope>MR::NodeNode</scope><name>aNode</name></member>
+      <member refid="structMR_1_1NodeNode_1a79a5205b5b3afdb4525f05a356ec8a18" prot="public" virt="non-virtual"><scope>MR::NodeNode</scope><name>bNode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

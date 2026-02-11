@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1AABBTree" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::AABBTree</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__FaceTag__Box3f" prot="public" virt="non-virtual">mrmeshpy.AABBTreeBase_AABBTreeTraits_FaceTag_Box3f</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTree_1a31df616df8ebd38c2ca94d5994b10c59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AABBTree.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.AABBTree.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__FaceTag__Box3f_1acde11bb09859c922ee7a065da1d06747">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTree_1a61d53bd98bc1f2e15dd8e60b2fbb0cbb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AABBTree.__init__</definition>
+        <argsstring>(self, MeshPart mp)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.AABBTree.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__FaceTag__Box3f_1acde11bb09859c922ee7a065da1d06747">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshPart" kindref="compound">MeshPart</ref></type>
+          <declname>mp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates tree for given mesh or its part
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTree_1acc7553c31cfedc725404a6b4739aef0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AABBTree.refit</definition>
+        <argsstring>(self, Mesh mesh, VertBitSet changedVerts)</argsstring>
+        <name>refit</name>
+        <qualifiedname>mrmeshpy.AABBTree.refit</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>changedVerts</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>updates bounding boxes of the nodes containing changed vertices;
+this is a faster alternative to full tree rebuild (but the tree after refit might be less efficient)
+\\param mesh same mesh for which this tree was constructed but with updated coordinates;
+\\param changedVerts vertex ids with modified coordinates (since tree construction or last refit)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20" bodyend="26"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::AABBTree
+
+bounding volume hierarchy
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.AABBTree</label>
+        <link refid="classmrmeshpy_1_1AABBTree"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.AABBTreeBase_AABBTreeTraits_FaceTag_Box3f</label>
+        <link refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__FaceTag__Box3f"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.AABBTree</label>
+        <link refid="classmrmeshpy_1_1AABBTree"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.AABBTreeBase_AABBTreeTraits_FaceTag_Box3f</label>
+        <link refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__FaceTag__Box3f"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6" bodyend="26"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1AABBTree_1a31df616df8ebd38c2ca94d5994b10c59" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTree</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1AABBTree_1a61d53bd98bc1f2e15dd8e60b2fbb0cbb" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTree</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1AABBTree_1acc7553c31cfedc725404a6b4739aef0e" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTree</scope><name>refit</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

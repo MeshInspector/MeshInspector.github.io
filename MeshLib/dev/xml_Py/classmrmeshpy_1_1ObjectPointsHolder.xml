@@ -1,0 +1,1090 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ObjectPointsHolder" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ObjectPointsHolder</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1VisualObject" prot="public" virt="non-virtual">mrmeshpy.VisualObject</basecompoundref>
+    <derivedcompoundref refid="classmrmeshpy_1_1ObjectPoints" prot="public" virt="non-virtual">mrmeshpy.ObjectPoints</derivedcompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ObjectPointsHolder_1ac61ff8ef60a712e675a3c8ab17f17dd2" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ObjectPointsHolder::MaxRenderingPointsDefault</definition>
+        <argsstring></argsstring>
+        <name>MaxRenderingPointsDefault</name>
+        <qualifiedname>mrmeshpy.ObjectPointsHolder.MaxRenderingPointsDefault</qualifiedname>
+        <initializer>=  1000000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40355" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40355" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ObjectPointsHolder_1a1cc6af34b05243eef28caaa3a4e01c9e" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ObjectPointsHolder::MaxRenderingPointsUnlimited</definition>
+        <argsstring></argsstring>
+        <name>MaxRenderingPointsUnlimited</name>
+        <qualifiedname>mrmeshpy.ObjectPointsHolder.MaxRenderingPointsUnlimited</qualifiedname>
+        <initializer>=  2147483647</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40356" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40356" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectPointsHolder_1a985acb1a314c65eec0c07e1edc298de0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ObjectPointsHolder.StaticTypeName</definition>
+        <argsstring>()</argsstring>
+        <name>StaticTypeName</name>
+        <qualifiedname>mrmeshpy.ObjectPointsHolder.StaticTypeName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a2fc458fce133a9ff45056ce820e23234">StaticTypeName</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectPoints_1aad946865ab55a9919b28c6e943a8203c">StaticTypeName</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return name of subtype for serialization purposes
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40358" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40358" bodyend="40359"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectPointsHolder_1a6f5db0cc43a881ac52561a4645bf4067" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Box3f" kindref="compound">Box3f</ref></type>
+        <definition> Box3f mrmeshpy.ObjectPointsHolder.getWorldBox</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>getWorldBox</name>
+        <qualifiedname>mrmeshpy.ObjectPointsHolder.getWorldBox</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a675713afd7ce3e2b8196c36c74f4477e">getWorldBox</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns cached bounding box of this point object in world coordinates;
+if you need bounding box in local coordinates please call getBoundingBox()
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40361" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40361" bodyend="40365"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectPointsHolder_1a9eed396027becfde7d2590df55a49171" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectPointsHolder.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ObjectPointsHolder.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a3aa4d51e5d881a8faec9b51637da6364">__init__</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectPoints_1a7723030d0f3da83fdd9f9f3deb67472d">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectPoints_1a1b8a3423ebe5c2c2bfe68309b0180d64">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40366" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40366" bodyend="40367"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectPointsHolder_1a05046fce43a77b6afcc1baaff512a3df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectPointsHolder.applyScale</definition>
+        <argsstring>(self, float scaleFactor)</argsstring>
+        <name>applyScale</name>
+        <qualifiedname>mrmeshpy.ObjectPointsHolder.applyScale</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1Object_1a1db3f0240dda415f1f066fed72225e16">applyScale</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>scaleFactor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>scale object size (all point positions)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40368" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40368" bodyend="40369"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectPointsHolder_1a3f4e885d3a38cf6190fb47d9eb70c28a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
+        <definition> Object mrmeshpy.ObjectPointsHolder.clone</definition>
+        <argsstring>(self)</argsstring>
+        <name>clone</name>
+        <qualifiedname>mrmeshpy.ObjectPointsHolder.clone</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a1aeb8f658d1ec828372eb5f234f696fd">clone</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectPoints_1a8a2bbd6705202af2e96e68811bad6874">clone</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>clones this object only, without its children,
+making new object the owner of all copied resources
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40370" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40370" bodyend="40371"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectPointsHolder_1aca983616fd85b658d04365afee535e57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectPointsHolder.copyAllSolidColors</definition>
+        <argsstring>(self, ObjectPointsHolder other)</argsstring>
+        <name>copyAllSolidColors</name>
+        <qualifiedname>mrmeshpy.ObjectPointsHolder.copyAllSolidColors</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1ae752ebe42b1366e48661b9f506530f7e">copyAllSolidColors</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectPointsHolder" kindref="compound">ObjectPointsHolder</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>set all object solid colors (front/back/etc.) from other object for all viewports
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40372" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40372" bodyend="40375"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectPointsHolder_1a9a088066148c0c48c0e68497fc4c43a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectPointsHolder.copyColors</definition>
+        <argsstring>(self, ObjectPointsHolder src, VertMap thisToSrc, FaceMap thisToSrcFaces=...)</argsstring>
+        <name>copyColors</name>
+        <qualifiedname>mrmeshpy.ObjectPointsHolder.copyColors</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectPointsHolder" kindref="compound">ObjectPointsHolder</ref></type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertMap" kindref="compound">VertMap</ref></type>
+          <declname>thisToSrc</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceMap" kindref="compound">FaceMap</ref></type>
+          <declname>thisToSrcFaces</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>copies point colors from given source object \\param src using given map \\param thisToSrc
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40376" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40376" bodyend="40379"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectPointsHolder_1aa5327811ea066d5d98c044e893255b1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__ViewportMask" kindref="compound">std_vector_ViewportMask</ref></type>
+        <definition> std_vector_ViewportMask mrmeshpy.ObjectPointsHolder.getAllVisualizeProperties</definition>
+        <argsstring>(self)</argsstring>
+        <name>getAllVisualizeProperties</name>
+        <qualifiedname>mrmeshpy.ObjectPointsHolder.getAllVisualizeProperties</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a99a68c12bda4b4c07f5ba725b2b2af59">getAllVisualizeProperties</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>get all visualize properties masks
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40380" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40380" bodyend="40383"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectPointsHolder_1a17428e81a86fd45e86177ad2e4159016" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ObjectPointsHolder.getMaxRenderingPoints</definition>
+        <argsstring>(self)</argsstring>
+        <name>getMaxRenderingPoints</name>
+        <qualifiedname>mrmeshpy.ObjectPointsHolder.getMaxRenderingPoints</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns maximal number of points that will be rendered
+if actual count of valid points is greater then the points will be sampled
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40384" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40384" bodyend="40388"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectPointsHolder_1a28c53fc71220f305a97ba78a996751c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.ObjectPointsHolder.getPointSize</definition>
+        <argsstring>(self)</argsstring>
+        <name>getPointSize</name>
+        <qualifiedname>mrmeshpy.ObjectPointsHolder.getPointSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns size of points on screen in pixels
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40389" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40389" bodyend="40392"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectPointsHolder_1a12632784dafb76354662feb530fa1f74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ObjectPointsHolder.getRenderDiscretization</definition>
+        <argsstring>(self)</argsstring>
+        <name>getRenderDiscretization</name>
+        <qualifiedname>mrmeshpy.ObjectPointsHolder.getRenderDiscretization</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns rendering discretization
+display each `renderDiscretization`-th point only,
+starting from 0 index, total number is \\ref numRenderingValidPoints()
+\\detail defined by maximum rendered points number as:
+\\ref numValidPoints() / \\ref getMaxRenderingPoints() (rounded up)
+updated when setting `maxRenderingPoints` or changing the cloud (setting `DIRTY_FACE` flag)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40393" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40393" bodyend="40401"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectPointsHolder_1a1a67aae86ed5393d50a75523458a2fa3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.ObjectPointsHolder.getSelectedPoints</definition>
+        <argsstring>(self)</argsstring>
+        <name>getSelectedPoints</name>
+        <qualifiedname>mrmeshpy.ObjectPointsHolder.getSelectedPoints</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>gets current selected points
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40402" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40402" bodyend="40405"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectPointsHolder_1a94cb19be7985b5f85919ca2dec30fd68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.ObjectPointsHolder.getSelectedPointsOrAll</definition>
+        <argsstring>(self)</argsstring>
+        <name>getSelectedPointsOrAll</name>
+        <qualifiedname>mrmeshpy.ObjectPointsHolder.getSelectedPointsOrAll</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns selected points if any, otherwise returns all valid points
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40406" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40406" bodyend="40409"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectPointsHolder_1a97fcfbb65c4e5816301bce582b211f8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+        <definition> Color mrmeshpy.ObjectPointsHolder.getSelectedVerticesColor</definition>
+        <argsstring>(self, ViewportId id=...)</argsstring>
+        <name>getSelectedVerticesColor</name>
+        <qualifiedname>mrmeshpy.ObjectPointsHolder.getSelectedVerticesColor</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns colors of selected vertices
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40410" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40410" bodyend="40413"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectPointsHolder_1a736d352f947cd48789a08b7bc2a44a5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ViewportProperty__Color" kindref="compound">ViewportProperty_Color</ref></type>
+        <definition> ViewportProperty_Color mrmeshpy.ObjectPointsHolder.getSelectedVerticesColorsForAllViewports</definition>
+        <argsstring>(self)</argsstring>
+        <name>getSelectedVerticesColorsForAllViewports</name>
+        <qualifiedname>mrmeshpy.ObjectPointsHolder.getSelectedVerticesColorsForAllViewports</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40414" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40414" bodyend="40415"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectPointsHolder_1a8340eaec22ac538be0b14a8dccef2299" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertColors" kindref="compound">VertColors</ref></type>
+        <definition> VertColors mrmeshpy.ObjectPointsHolder.getVertsColorMap</definition>
+        <argsstring>(self)</argsstring>
+        <name>getVertsColorMap</name>
+        <qualifiedname>mrmeshpy.ObjectPointsHolder.getVertsColorMap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns per-point colors of the object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40416" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40416" bodyend="40419"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectPointsHolder_1adfd38edd1f55d3830f74e675f1b2ab54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
+        <definition> ViewportMask mrmeshpy.ObjectPointsHolder.getVisualizePropertyMask</definition>
+        <argsstring>(self, AnyVisualizeMaskEnum type)</argsstring>
+        <name>getVisualizePropertyMask</name>
+        <qualifiedname>mrmeshpy.ObjectPointsHolder.getVisualizePropertyMask</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a936f4ea388564c3dc033b5abb39993f4">getVisualizePropertyMask</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AnyVisualizeMaskEnum" kindref="compound">AnyVisualizeMaskEnum</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns mask of viewports where given property is set
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40420" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40420" bodyend="40423"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectPointsHolder_1ada36629a3b4cb47e010f60bc26cb7cc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ObjectPointsHolder.hasModel</definition>
+        <argsstring>(self)</argsstring>
+        <name>hasModel</name>
+        <qualifiedname>mrmeshpy.ObjectPointsHolder.hasModel</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1Object_1a3270abd9924fa3f784d3105824979f0b">hasModel</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>does the object have any model available (but possibly empty),
+e.g. ObjectMesh has valid mesh() or ObjectPoints has valid pointCloud()
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40424" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40424" bodyend="40425"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectPointsHolder_1a773dabbf8f4a11cbf42418ca126c9068" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ObjectPointsHolder.hasVisualRepresentation</definition>
+        <argsstring>(self)</argsstring>
+        <name>hasVisualRepresentation</name>
+        <qualifiedname>mrmeshpy.ObjectPointsHolder.hasVisualRepresentation</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1Object_1a21510ca05f3888f5db9ff0aae662c9d1">hasVisualRepresentation</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>does the object have any visual representation (visible points, triangles, edges, etc.), no considering child objects
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40426" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40426" bodyend="40427"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectPointsHolder_1ade90b016167c31e2de1d21d9a05bbd62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ObjectPointsHolder.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.ObjectPointsHolder.heapBytes</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a1a571d9d02df9a2a9dd723f6a71ce398">heapBytes</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40428" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40428" bodyend="40431"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectPointsHolder_1a497dc80faafd710a5606c0434c1094aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ObjectPointsHolder.numRenderingValidPoints</definition>
+        <argsstring>(self)</argsstring>
+        <name>numRenderingValidPoints</name>
+        <qualifiedname>mrmeshpy.ObjectPointsHolder.numRenderingValidPoints</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns count of valid points that will be rendered
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40432" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40432" bodyend="40435"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectPointsHolder_1ab3ec45413c689feed6e3c41013b03345" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ObjectPointsHolder.numSelectedPoints</definition>
+        <argsstring>(self)</argsstring>
+        <name>numSelectedPoints</name>
+        <qualifiedname>mrmeshpy.ObjectPointsHolder.numSelectedPoints</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns cached information about the number of selected points
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40436" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40436" bodyend="40439"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectPointsHolder_1a7ed499b29435313b0f06dd2ae5545304" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ObjectPointsHolder.numValidPoints</definition>
+        <argsstring>(self)</argsstring>
+        <name>numValidPoints</name>
+        <qualifiedname>mrmeshpy.ObjectPointsHolder.numValidPoints</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns cached information about the number of valid points
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40440" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40440" bodyend="40443"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectPointsHolder_1aaf3826262060be74638f5b20f273c8e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+        <definition> PointCloud mrmeshpy.ObjectPointsHolder.pointCloud</definition>
+        <argsstring>(self)</argsstring>
+        <name>pointCloud</name>
+        <qualifiedname>mrmeshpy.ObjectPointsHolder.pointCloud</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40444" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40444" bodyend="40445"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectPointsHolder_1a3027efc64dea7569dd3e7f1062c1b575" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointCloudPart" kindref="compound">PointCloudPart</ref></type>
+        <definition> PointCloudPart mrmeshpy.ObjectPointsHolder.pointCloudPart</definition>
+        <argsstring>(self)</argsstring>
+        <name>pointCloudPart</name>
+        <qualifiedname>mrmeshpy.ObjectPointsHolder.pointCloudPart</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>\\return the pair ( point cloud, selected points ) if any point is selected or full point cloud otherwise
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40446" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40446" bodyend="40449"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectPointsHolder_1a84437a0e674b5dac4596ae997219ed33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectPointsHolder.resetColors</definition>
+        <argsstring>(self)</argsstring>
+        <name>resetColors</name>
+        <qualifiedname>mrmeshpy.ObjectPointsHolder.resetColors</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1abf55328c86b56d62b4b1654186f4f68f">resetColors</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>reset all object colors to their default values from the current theme
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40450" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40450" bodyend="40453"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectPointsHolder_1abc7611457d22550c27df17a2882c2f48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectPointsHolder.resetFrontColor</definition>
+        <argsstring>(self)</argsstring>
+        <name>resetFrontColor</name>
+        <qualifiedname>mrmeshpy.ObjectPointsHolder.resetFrontColor</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a69ef0caef1ec3fa51cab56ad9959bb22">resetFrontColor</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>reset basic object colors to their default values from the current theme
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40454" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40454" bodyend="40457"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectPointsHolder_1ac7bf2ac3747207443f498dc11d9f3c85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectPointsHolder.selectPoints</definition>
+        <argsstring>(self, VertBitSet newSelection)</argsstring>
+        <name>selectPoints</name>
+        <qualifiedname>mrmeshpy.ObjectPointsHolder.selectPoints</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>newSelection</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets current selected points
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40458" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40458" bodyend="40461"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectPointsHolder_1a1dd1183a0433a5c13baf42ce62aafdf6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ObjectPointsHolder.serializeFormat</definition>
+        <argsstring>(self)</argsstring>
+        <name>serializeFormat</name>
+        <qualifiedname>mrmeshpy.ObjectPointsHolder.serializeFormat</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns overriden file extension used to serialize point cloud inside this object, nullptr means defaultSerializePointsFormat()
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40462" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40462" bodyend="40465"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectPointsHolder_1a21ef2275b0fdb3731afa65b42d24dbf9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectPointsHolder.setDirtyFlags</definition>
+        <argsstring>(self, int mask, bool invalidateCaches=True)</argsstring>
+        <name>setDirtyFlags</name>
+        <qualifiedname>mrmeshpy.ObjectPointsHolder.setDirtyFlags</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a883cdf9eb84b10488087440af6534a26">setDirtyFlags</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>mask</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>invalidateCaches</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets some dirty flags for the object (to force its visual update)
+\\param mask is a union of DirtyFlags flags
+\\param invalidateCaches whether to automatically invalidate model caches (pass false here if you manually update the caches)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40466" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40466" bodyend="40467"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectPointsHolder_1a90991b5f70dc84629aa60065d995ef8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectPointsHolder.setMaxRenderingPoints</definition>
+        <argsstring>(self, int val)</argsstring>
+        <name>setMaxRenderingPoints</name>
+        <qualifiedname>mrmeshpy.ObjectPointsHolder.setMaxRenderingPoints</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets maximal number of points that will be rendered
+\\sa \\ref getRenderDiscretization, \\ref MaxRenderingPointsDefault, \\ref MaxRenderingPointsUnlimited
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40468" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40468" bodyend="40472"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectPointsHolder_1a0dd39bef620c75bfad120a451f63908d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectPointsHolder.setPointSize</definition>
+        <argsstring>(self, float size)</argsstring>
+        <name>setPointSize</name>
+        <qualifiedname>mrmeshpy.ObjectPointsHolder.setPointSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets size of points on screen in pixels
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40473" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40473" bodyend="40476"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectPointsHolder_1a1285d38c6bee972fef6fdefa96768716" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectPointsHolder.setSelectedVerticesColor</definition>
+        <argsstring>(self, Color color, ViewportId id=...)</argsstring>
+        <name>setSelectedVerticesColor</name>
+        <qualifiedname>mrmeshpy.ObjectPointsHolder.setSelectedVerticesColor</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets colors of selected vertices
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40477" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40477" bodyend="40480"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectPointsHolder_1a63b633389c06034c31a7a1801ef553a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectPointsHolder.setSelectedVerticesColorsForAllViewports</definition>
+        <argsstring>(self, ViewportProperty_Color val)</argsstring>
+        <name>setSelectedVerticesColorsForAllViewports</name>
+        <qualifiedname>mrmeshpy.ObjectPointsHolder.setSelectedVerticesColorsForAllViewports</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportProperty__Color" kindref="compound">ViewportProperty_Color</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40481" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40481" bodyend="40482"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectPointsHolder_1a939db8be14273da8e6240d297060cb28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectPointsHolder.setSerializeFormat</definition>
+        <argsstring>(self, str newFormat)</argsstring>
+        <name>setSerializeFormat</name>
+        <qualifiedname>mrmeshpy.ObjectPointsHolder.setSerializeFormat</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>newFormat</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>overrides file extension used to serialize point cloud inside this object: must start from &apos;.&apos;,
+nullptr means serialize in defaultSerializePointsFormat()
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40483" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40483" bodyend="40487"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectPointsHolder_1a18a142d167668a329da85d0af6debdf8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectPointsHolder.setVertsColorMap</definition>
+        <argsstring>(self, VertColors vertsColorMap)</argsstring>
+        <name>setVertsColorMap</name>
+        <qualifiedname>mrmeshpy.ObjectPointsHolder.setVertsColorMap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertColors" kindref="compound">VertColors</ref></type>
+          <declname>vertsColorMap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets per-point colors of the object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40488" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40488" bodyend="40491"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectPointsHolder_1ad96af8f45bacc210de03b1f13dc696dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
+        <definition> Object mrmeshpy.ObjectPointsHolder.shallowClone</definition>
+        <argsstring>(self)</argsstring>
+        <name>shallowClone</name>
+        <qualifiedname>mrmeshpy.ObjectPointsHolder.shallowClone</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a2f1849493da5afd051a79175b5f08734">shallowClone</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectPoints_1a817afa6f2021486ff85de4ade8900c6f">shallowClone</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>clones this object only, without its children,
+making new object to share resources with this object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40492" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40492" bodyend="40493"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectPointsHolder_1a20924da44458776bdc8ae1d585d13339" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ObjectPointsHolder.supportsVisualizeProperty</definition>
+        <argsstring>(self, AnyVisualizeMaskEnum type)</argsstring>
+        <name>supportsVisualizeProperty</name>
+        <qualifiedname>mrmeshpy.ObjectPointsHolder.supportsVisualizeProperty</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1af397dd03ebfb70c972d3c4b39e52fc51">supportsVisualizeProperty</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AnyVisualizeMaskEnum" kindref="compound">AnyVisualizeMaskEnum</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns true if this class supports the property `type`. Otherwise passing it to the functions below is illegal.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40494" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40494" bodyend="40495"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectPointsHolder_1ae619aa1d3ffa919568541313c7f6f7dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ObjectPointsHolder.typeName</definition>
+        <argsstring>(self)</argsstring>
+        <name>typeName</name>
+        <qualifiedname>mrmeshpy.ObjectPointsHolder.typeName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a0e188ed95f73756841030840741720e9">typeName</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectPoints_1a9cc9f03414ab03f8e8476c20fdc9aed8">typeName</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40496" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40496" bodyend="40497"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectPointsHolder_1a1f90e5e83a566770f84126a9b3b4fcf2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectPointsHolder.updateSelectedPoints</definition>
+        <argsstring>(self, VertBitSet selection)</argsstring>
+        <name>updateSelectedPoints</name>
+        <qualifiedname>mrmeshpy.ObjectPointsHolder.updateSelectedPoints</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>selection</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>swaps current selected points with the argument
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40498" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40498" bodyend="40501"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectPointsHolder_1a35f2cc652912d18a70a589199a11fc30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectPointsHolder.updateVertsColorMap</definition>
+        <argsstring>(self, VertColors vertsColorMap)</argsstring>
+        <name>updateVertsColorMap</name>
+        <qualifiedname>mrmeshpy.ObjectPointsHolder.updateVertsColorMap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertColors" kindref="compound">VertColors</ref></type>
+          <declname>vertsColorMap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>swaps per-point colors of the object with given argument
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40502" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40502" bodyend="40505"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ObjectPointsHolder
+
+an object that stores a points
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.ObjectPointsHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectPointsHolder"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.Object</label>
+        <link refid="classmrmeshpy_1_1Object"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>mrmeshpy.ObjectChildrenHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectChildrenHolder"/>
+      </node>
+      <node id="5">
+        <label>mrmeshpy.ObjectPoints</label>
+        <link refid="classmrmeshpy_1_1ObjectPoints"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.VisualObject</label>
+        <link refid="classmrmeshpy_1_1VisualObject"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ObjectPointsHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectPointsHolder"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>MaxRenderingPointsDefault</edgelabel>
+          <edgelabel>MaxRenderingPointsUnlimited</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.Object</label>
+        <link refid="classmrmeshpy_1_1Object"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>mrmeshpy.ObjectChildrenHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectChildrenHolder"/>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.VisualObject</label>
+        <link refid="classmrmeshpy_1_1VisualObject"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40349" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40349" bodyend="40505"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ObjectPointsHolder_1a9eed396027becfde7d2590df55a49171" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPointsHolder</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ObjectPointsHolder_1a05046fce43a77b6afcc1baaff512a3df" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPointsHolder</scope><name>applyScale</name></member>
+      <member refid="classmrmeshpy_1_1ObjectPointsHolder_1a3f4e885d3a38cf6190fb47d9eb70c28a" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPointsHolder</scope><name>clone</name></member>
+      <member refid="classmrmeshpy_1_1ObjectPointsHolder_1aca983616fd85b658d04365afee535e57" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPointsHolder</scope><name>copyAllSolidColors</name></member>
+      <member refid="classmrmeshpy_1_1ObjectPointsHolder_1a9a088066148c0c48c0e68497fc4c43a8" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPointsHolder</scope><name>copyColors</name></member>
+      <member refid="classmrmeshpy_1_1ObjectPointsHolder_1aa5327811ea066d5d98c044e893255b1e" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPointsHolder</scope><name>getAllVisualizeProperties</name></member>
+      <member refid="classmrmeshpy_1_1ObjectPointsHolder_1a17428e81a86fd45e86177ad2e4159016" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPointsHolder</scope><name>getMaxRenderingPoints</name></member>
+      <member refid="classmrmeshpy_1_1ObjectPointsHolder_1a28c53fc71220f305a97ba78a996751c4" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPointsHolder</scope><name>getPointSize</name></member>
+      <member refid="classmrmeshpy_1_1ObjectPointsHolder_1a12632784dafb76354662feb530fa1f74" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPointsHolder</scope><name>getRenderDiscretization</name></member>
+      <member refid="classmrmeshpy_1_1ObjectPointsHolder_1a1a67aae86ed5393d50a75523458a2fa3" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPointsHolder</scope><name>getSelectedPoints</name></member>
+      <member refid="classmrmeshpy_1_1ObjectPointsHolder_1a94cb19be7985b5f85919ca2dec30fd68" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPointsHolder</scope><name>getSelectedPointsOrAll</name></member>
+      <member refid="classmrmeshpy_1_1ObjectPointsHolder_1a97fcfbb65c4e5816301bce582b211f8c" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPointsHolder</scope><name>getSelectedVerticesColor</name></member>
+      <member refid="classmrmeshpy_1_1ObjectPointsHolder_1a736d352f947cd48789a08b7bc2a44a5a" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPointsHolder</scope><name>getSelectedVerticesColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1ObjectPointsHolder_1a8340eaec22ac538be0b14a8dccef2299" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPointsHolder</scope><name>getVertsColorMap</name></member>
+      <member refid="classmrmeshpy_1_1ObjectPointsHolder_1adfd38edd1f55d3830f74e675f1b2ab54" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPointsHolder</scope><name>getVisualizePropertyMask</name></member>
+      <member refid="classmrmeshpy_1_1ObjectPointsHolder_1a6f5db0cc43a881ac52561a4645bf4067" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPointsHolder</scope><name>getWorldBox</name></member>
+      <member refid="classmrmeshpy_1_1ObjectPointsHolder_1ada36629a3b4cb47e010f60bc26cb7cc9" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPointsHolder</scope><name>hasModel</name></member>
+      <member refid="classmrmeshpy_1_1ObjectPointsHolder_1a773dabbf8f4a11cbf42418ca126c9068" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPointsHolder</scope><name>hasVisualRepresentation</name></member>
+      <member refid="classmrmeshpy_1_1ObjectPointsHolder_1ade90b016167c31e2de1d21d9a05bbd62" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPointsHolder</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1ObjectPointsHolder_1ac61ff8ef60a712e675a3c8ab17f17dd2" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPointsHolder</scope><name>MaxRenderingPointsDefault</name></member>
+      <member refid="classmrmeshpy_1_1ObjectPointsHolder_1a1cc6af34b05243eef28caaa3a4e01c9e" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPointsHolder</scope><name>MaxRenderingPointsUnlimited</name></member>
+      <member refid="classmrmeshpy_1_1ObjectPointsHolder_1a497dc80faafd710a5606c0434c1094aa" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPointsHolder</scope><name>numRenderingValidPoints</name></member>
+      <member refid="classmrmeshpy_1_1ObjectPointsHolder_1ab3ec45413c689feed6e3c41013b03345" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPointsHolder</scope><name>numSelectedPoints</name></member>
+      <member refid="classmrmeshpy_1_1ObjectPointsHolder_1a7ed499b29435313b0f06dd2ae5545304" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPointsHolder</scope><name>numValidPoints</name></member>
+      <member refid="classmrmeshpy_1_1ObjectPointsHolder_1aaf3826262060be74638f5b20f273c8e3" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPointsHolder</scope><name>pointCloud</name></member>
+      <member refid="classmrmeshpy_1_1ObjectPointsHolder_1a3027efc64dea7569dd3e7f1062c1b575" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPointsHolder</scope><name>pointCloudPart</name></member>
+      <member refid="classmrmeshpy_1_1ObjectPointsHolder_1a84437a0e674b5dac4596ae997219ed33" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPointsHolder</scope><name>resetColors</name></member>
+      <member refid="classmrmeshpy_1_1ObjectPointsHolder_1abc7611457d22550c27df17a2882c2f48" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPointsHolder</scope><name>resetFrontColor</name></member>
+      <member refid="classmrmeshpy_1_1ObjectPointsHolder_1ac7bf2ac3747207443f498dc11d9f3c85" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPointsHolder</scope><name>selectPoints</name></member>
+      <member refid="classmrmeshpy_1_1ObjectPointsHolder_1a1dd1183a0433a5c13baf42ce62aafdf6" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPointsHolder</scope><name>serializeFormat</name></member>
+      <member refid="classmrmeshpy_1_1ObjectPointsHolder_1a21ef2275b0fdb3731afa65b42d24dbf9" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPointsHolder</scope><name>setDirtyFlags</name></member>
+      <member refid="classmrmeshpy_1_1ObjectPointsHolder_1a90991b5f70dc84629aa60065d995ef8d" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPointsHolder</scope><name>setMaxRenderingPoints</name></member>
+      <member refid="classmrmeshpy_1_1ObjectPointsHolder_1a0dd39bef620c75bfad120a451f63908d" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPointsHolder</scope><name>setPointSize</name></member>
+      <member refid="classmrmeshpy_1_1ObjectPointsHolder_1a1285d38c6bee972fef6fdefa96768716" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPointsHolder</scope><name>setSelectedVerticesColor</name></member>
+      <member refid="classmrmeshpy_1_1ObjectPointsHolder_1a63b633389c06034c31a7a1801ef553a4" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPointsHolder</scope><name>setSelectedVerticesColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1ObjectPointsHolder_1a939db8be14273da8e6240d297060cb28" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPointsHolder</scope><name>setSerializeFormat</name></member>
+      <member refid="classmrmeshpy_1_1ObjectPointsHolder_1a18a142d167668a329da85d0af6debdf8" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPointsHolder</scope><name>setVertsColorMap</name></member>
+      <member refid="classmrmeshpy_1_1ObjectPointsHolder_1ad96af8f45bacc210de03b1f13dc696dd" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPointsHolder</scope><name>shallowClone</name></member>
+      <member refid="classmrmeshpy_1_1ObjectPointsHolder_1a985acb1a314c65eec0c07e1edc298de0" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPointsHolder</scope><name>StaticTypeName</name></member>
+      <member refid="classmrmeshpy_1_1ObjectPointsHolder_1a20924da44458776bdc8ae1d585d13339" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPointsHolder</scope><name>supportsVisualizeProperty</name></member>
+      <member refid="classmrmeshpy_1_1ObjectPointsHolder_1ae619aa1d3ffa919568541313c7f6f7dd" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPointsHolder</scope><name>typeName</name></member>
+      <member refid="classmrmeshpy_1_1ObjectPointsHolder_1a1f90e5e83a566770f84126a9b3b4fcf2" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPointsHolder</scope><name>updateSelectedPoints</name></member>
+      <member refid="classmrmeshpy_1_1ObjectPointsHolder_1a35f2cc652912d18a70a589199a11fc30" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectPointsHolder</scope><name>updateVertsColorMap</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

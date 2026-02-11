@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MR2to3_8h" kind="file" language="C++">
+    <compoundname>MR2to3.h</compoundname>
+    <includes refid="MRVector2_8h" local="yes">MRVector2.h</includes>
+    <includes refid="MRVector3_8h" local="yes">MRVector3.h</includes>
+    <includes refid="MRMatrix2_8h" local="yes">MRMatrix2.h</includes>
+    <includes refid="MRMatrix3_8h" local="yes">MRMatrix3.h</includes>
+    <includes refid="MRAffineXf_8h" local="yes">MRAffineXf.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MR2to3.h</label>
+        <link refid="MR2to3_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>MRAffineXf.h</label>
+        <link refid="MRAffineXf_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>MRConstants.h</label>
+        <link refid="MRConstants_8h"/>
+      </node>
+      <node id="3">
+        <label>MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="24">
+        <label>MRMatrix2.h</label>
+        <link refid="MRMatrix2_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>MRMatrix3.h</label>
+        <link refid="MRMatrix3_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRVector2.h</label>
+        <link refid="MRVector2_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="10">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="17">
+        <label>algorithm</label>
+      </node>
+      <node id="11">
+        <label>array</label>
+      </node>
+      <node id="16">
+        <label>cassert</label>
+      </node>
+      <node id="18">
+        <label>cmath</label>
+      </node>
+      <node id="5">
+        <label>cstddef</label>
+      </node>
+      <node id="19">
+        <label>cstring</label>
+      </node>
+      <node id="15">
+        <label>functional</label>
+      </node>
+      <node id="20">
+        <label>iosfwd</label>
+      </node>
+      <node id="14">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="13">
+        <label>string</label>
+      </node>
+      <node id="6">
+        <label>type_traits</label>
+      </node>
+      <node id="21">
+        <label>utility</label>
+      </node>
+      <node id="12">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRVector2_8h" kindref="compound">MRVector2.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRVector3_8h" kindref="compound">MRVector3.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMatrix2_8h" kindref="compound">MRMatrix2.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMatrix3_8h" kindref="compound">MRMatrix3.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRAffineXf_8h" kindref="compound">MRAffineXf.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="21" refid="group__ConversionBetween2and3dimGroup_1ga47acaecbfd1288841aacaed1dc8aaebe" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Vector3" kindref="compound">Vector3&lt;T&gt;</ref><sp/><ref refid="group__ConversionBetween2and3dimGroup_1ga47acaecbfd1288841aacaed1dc8aaebe" kindref="member">to3dim</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Vector2" kindref="compound">Vector2&lt;T&gt;</ref><sp/>&amp;<sp/>v<sp/>)</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{<sp/>v.<ref refid="structMR_1_1Vector2_1a04bd8b12649cc77863672d0a6d31e51c" kindref="member">x</ref>,<sp/>v.<ref refid="structMR_1_1Vector2_1a5186451c51a4f421a0b810a3f836fae8" kindref="member">y</ref>,<sp/>T{0}<sp/>};</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="27" refid="group__ConversionBetween2and3dimGroup_1gad89680ada843258c1768297579000c1b" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Vector2" kindref="compound">Vector2&lt;T&gt;</ref><sp/><ref refid="group__ConversionBetween2and3dimGroup_1gad89680ada843258c1768297579000c1b" kindref="member">to2dim</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Vector3" kindref="compound">Vector3&lt;T&gt;</ref><sp/>&amp;<sp/>v<sp/>)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{<sp/>v.<ref refid="structMR_1_1Vector3_1a3d6f56ed3c525a928116d6c095997c5c" kindref="member">x</ref>,<sp/>v.<ref refid="structMR_1_1Vector3_1a4cbb29e67931176028f57f29b2bd6953" kindref="member">y</ref><sp/>};</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="33" refid="group__ConversionBetween2and3dimGroup_1gaec12159443820ad007ef070ec329a5bd" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Matrix3" kindref="compound">Matrix3&lt;T&gt;</ref><sp/><ref refid="group__ConversionBetween2and3dimGroup_1ga47acaecbfd1288841aacaed1dc8aaebe" kindref="member">to3dim</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Matrix2" kindref="compound">Matrix2&lt;T&gt;</ref><sp/>&amp;<sp/>m<sp/>)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{<sp/><ref refid="group__ConversionBetween2and3dimGroup_1ga47acaecbfd1288841aacaed1dc8aaebe" kindref="member">to3dim</ref>(<sp/>m.<ref refid="structMR_1_1Matrix2_1a07a97bdc2d9081ca6bb3f61742dd1074" kindref="member">x</ref><sp/>),<sp/><ref refid="group__ConversionBetween2and3dimGroup_1ga47acaecbfd1288841aacaed1dc8aaebe" kindref="member">to3dim</ref>(<sp/>m.<ref refid="structMR_1_1Matrix2_1a71548cad8d3164c3d8d15d3e5bbd0b01" kindref="member">y</ref><sp/>),<sp/><ref refid="structMR_1_1Vector3_1aba68004d56f0100e523093390f939910" kindref="member">Vector3&lt;T&gt;::plusZ</ref>()<sp/>};</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="39" refid="group__ConversionBetween2and3dimGroup_1ga56b942afa415c4adc6496cd94d888892" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Matrix2" kindref="compound">Matrix2&lt;T&gt;</ref><sp/><ref refid="group__ConversionBetween2and3dimGroup_1gad89680ada843258c1768297579000c1b" kindref="member">to2dim</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Matrix3" kindref="compound">Matrix3&lt;T&gt;</ref><sp/>&amp;<sp/>m<sp/>)</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{<sp/><ref refid="group__ConversionBetween2and3dimGroup_1gad89680ada843258c1768297579000c1b" kindref="member">to2dim</ref>(<sp/>m.<ref refid="structMR_1_1Matrix3_1a34220148555a9b57f32f7edb08289ea4" kindref="member">x</ref><sp/>),<sp/><ref refid="group__ConversionBetween2and3dimGroup_1gad89680ada843258c1768297579000c1b" kindref="member">to2dim</ref>(<sp/>m.<ref refid="structMR_1_1Matrix3_1aafd25b0c56a5f7a67abb2afa5d652912" kindref="member">y</ref><sp/>)<sp/>};</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="45" refid="group__ConversionBetween2and3dimGroup_1gad5a04e5b51ad4523afb6a14b3d8dd250" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1AffineXf" kindref="compound">AffineXf3&lt;T&gt;</ref><sp/><ref refid="group__ConversionBetween2and3dimGroup_1ga47acaecbfd1288841aacaed1dc8aaebe" kindref="member">to3dim</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf2&lt;T&gt;<sp/>&amp;<sp/>xf<sp/>)</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{<sp/><ref refid="group__ConversionBetween2and3dimGroup_1ga47acaecbfd1288841aacaed1dc8aaebe" kindref="member">to3dim</ref>(<sp/>xf.A<sp/>),<sp/><ref refid="group__ConversionBetween2and3dimGroup_1ga47acaecbfd1288841aacaed1dc8aaebe" kindref="member">to3dim</ref>(<sp/>xf.b<sp/>)<sp/>};</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="51" refid="group__ConversionBetween2and3dimGroup_1ga4a844799c3d17d7ef03c8fbd4e8546b6" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>AffineXf2&lt;T&gt;<sp/><ref refid="group__ConversionBetween2and3dimGroup_1gad89680ada843258c1768297579000c1b" kindref="member">to2dim</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1AffineXf" kindref="compound">AffineXf3&lt;T&gt;</ref><sp/>&amp;<sp/>xf<sp/>)</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{<sp/><ref refid="group__ConversionBetween2and3dimGroup_1gad89680ada843258c1768297579000c1b" kindref="member">to2dim</ref>(<sp/>xf.<ref refid="structMR_1_1AffineXf_1ac50d0dfa0b11a916ac644165073713ca" kindref="member">A</ref><sp/>),<sp/><ref refid="group__ConversionBetween2and3dimGroup_1gad89680ada843258c1768297579000c1b" kindref="member">to2dim</ref>(<sp/>xf.<ref refid="structMR_1_1AffineXf_1abc589d85e328480de8c5972558bd7b3c" kindref="member">b</ref><sp/>)<sp/>};</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal">}<sp/></highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MR2to3.h"/>
+  </compounddef>
+</doxygen>

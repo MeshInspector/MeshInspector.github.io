@@ -1,0 +1,480 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRToFromEigen_8h" kind="file" language="C++">
+    <compoundname>MRToFromEigen.h</compoundname>
+    <includes refid="MRQuaternion_8h" local="yes">MRQuaternion.h</includes>
+    <includes refid="MRVector2_8h" local="yes">MRVector2.h</includes>
+    <includes refid="MRVector3_8h" local="yes">MRVector3.h</includes>
+    <includes refid="MRVector4_8h" local="yes">MRVector4.h</includes>
+    <includes refid="MRSymMatrix2_8h" local="yes">MRSymMatrix2.h</includes>
+    <includes refid="MRSymMatrix3_8h" local="yes">MRSymMatrix3.h</includes>
+    <includes refid="MRSymMatrix4_8h" local="yes">MRSymMatrix4.h</includes>
+    <includes refid="MRMatrix2_8h" local="yes">MRMatrix2.h</includes>
+    <includes refid="MRMatrix3_8h" local="yes">MRMatrix3.h</includes>
+    <includes refid="MRMatrix4_8h" local="yes">MRMatrix4.h</includes>
+    <includes local="no">MRPch/MREigenCore.h</includes>
+    <includedby refid="MRConeApproximator_8h" local="yes">MRConeApproximator.h</includedby>
+    <incdepgraph>
+      <node id="26">
+        <label>MRAffineXf.h</label>
+        <link refid="MRAffineXf_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRAffineXf3.h</label>
+        <link refid="MRAffineXf3_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>MRConstants.h</label>
+        <link refid="MRConstants_8h"/>
+      </node>
+      <node id="5">
+        <label>MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="30">
+        <label>MRMatrix2.h</label>
+        <link refid="MRMatrix2_8h"/>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRMatrix3.h</label>
+        <link refid="MRMatrix3_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>MRMatrix4.h</label>
+        <link refid="MRMatrix4_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRQuaternion.h</label>
+        <link refid="MRQuaternion_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>MRSymMatrix2.h</label>
+        <link refid="MRSymMatrix2_8h"/>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>MRSymMatrix3.h</label>
+        <link refid="MRSymMatrix3_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>MRSymMatrix4.h</label>
+        <link refid="MRSymMatrix4_8h"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRToFromEigen.h</label>
+        <link refid="MRToFromEigen_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>MRVector2.h</label>
+        <link refid="MRVector2_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>MRVector4.h</label>
+        <link refid="MRVector4_8h"/>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="13">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="35">
+        <label>MRPch/MREigenCore.h</label>
+      </node>
+      <node id="21">
+        <label>algorithm</label>
+      </node>
+      <node id="14">
+        <label>array</label>
+      </node>
+      <node id="19">
+        <label>cassert</label>
+      </node>
+      <node id="22">
+        <label>cmath</label>
+      </node>
+      <node id="8">
+        <label>cstddef</label>
+      </node>
+      <node id="23">
+        <label>cstring</label>
+      </node>
+      <node id="18">
+        <label>functional</label>
+      </node>
+      <node id="24">
+        <label>iosfwd</label>
+      </node>
+      <node id="31">
+        <label>limits</label>
+      </node>
+      <node id="17">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="16">
+        <label>string</label>
+      </node>
+      <node id="9">
+        <label>type_traits</label>
+      </node>
+      <node id="25">
+        <label>utility</label>
+      </node>
+      <node id="15">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>MRConeApproximator.h</label>
+        <link refid="MRConeApproximator_8h"/>
+      </node>
+      <node id="1">
+        <label>MRToFromEigen.h</label>
+        <link refid="MRToFromEigen_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRQuaternion_8h" kindref="compound">MRQuaternion.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRVector2_8h" kindref="compound">MRVector2.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRVector3_8h" kindref="compound">MRVector3.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRVector4_8h" kindref="compound">MRVector4.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRSymMatrix2_8h" kindref="compound">MRSymMatrix2.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRSymMatrix3_8h" kindref="compound">MRSymMatrix3.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRSymMatrix4_8h" kindref="compound">MRSymMatrix4.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMatrix2_8h" kindref="compound">MRMatrix2.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMatrix3_8h" kindref="compound">MRMatrix3.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMatrix4_8h" kindref="compound">MRMatrix4.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRPch/MREigenCore.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="22" refid="group__MathGroup_1ga3f97fcf1b362e9c60d8a596aa8d1de68" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Vector2" kindref="compound">Vector2&lt;T&gt;</ref><sp/><ref refid="group__MathGroup_1ga3f97fcf1b362e9c60d8a596aa8d1de68" kindref="member">fromEigen</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Eigen::Matrix&lt;T,<sp/>2,<sp/>1&gt;<sp/>&amp;<sp/>ev<sp/>)</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Vector2" kindref="compound">Vector2&lt;T&gt;</ref>{<sp/>ev.<ref refid="structMR_1_1Vector2_1a04bd8b12649cc77863672d0a6d31e51c" kindref="member">x</ref>(),<sp/>ev.y()<sp/>};</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="28" refid="group__MathGroup_1gac1420892e3e154a187396a8dd5e65291" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>Eigen::Matrix&lt;T,<sp/>2,<sp/>1&gt;<sp/><ref refid="group__MathGroup_1gac1420892e3e154a187396a8dd5e65291" kindref="member">toEigen</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Vector2" kindref="compound">Vector2&lt;T&gt;</ref><sp/>&amp;<sp/>v<sp/>)</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Eigen::Matrix&lt;T,<sp/>2,<sp/>1&gt;{<sp/>v.<ref refid="structMR_1_1Vector2_1a04bd8b12649cc77863672d0a6d31e51c" kindref="member">x</ref>,<sp/>v.<ref refid="structMR_1_1Vector2_1a5186451c51a4f421a0b810a3f836fae8" kindref="member">y</ref><sp/>};</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="34" refid="group__MathGroup_1ga57c0e085976ff3667bcc12e402216d6e" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>Eigen::Matrix&lt;T,<sp/>2,<sp/>2&gt;<sp/><ref refid="group__MathGroup_1gac1420892e3e154a187396a8dd5e65291" kindref="member">toEigen</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SymMatrix2" kindref="compound">SymMatrix2&lt;T&gt;</ref><sp/>&amp;<sp/>m<sp/>)</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>Eigen::Matrix&lt;T,<sp/>2,<sp/>2&gt;<sp/>res;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>res<sp/>&lt;&lt;<sp/>m.<ref refid="structMR_1_1SymMatrix2_1af527509f666f1f4e66becbf773677189" kindref="member">xx</ref>,<sp/>m.<ref refid="structMR_1_1SymMatrix2_1a298176c6fdc19f53dcf4b4c5e9624b01" kindref="member">xy</ref>,</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m.<ref refid="structMR_1_1SymMatrix2_1a298176c6fdc19f53dcf4b4c5e9624b01" kindref="member">xy</ref>,<sp/>m.<ref refid="structMR_1_1SymMatrix2_1a3f9de72646e2a2bbf46b9eb3a2691fc2" kindref="member">yy</ref>;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>res;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="43" refid="group__MathGroup_1ga8888d3eb79b0414fbc4855426d85cf9c" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>Eigen::Matrix&lt;T,<sp/>2,<sp/>2&gt;<sp/><ref refid="group__MathGroup_1gac1420892e3e154a187396a8dd5e65291" kindref="member">toEigen</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Matrix2" kindref="compound">Matrix2&lt;T&gt;</ref><sp/>&amp;<sp/>m<sp/>)</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>Eigen::Matrix&lt;T,<sp/>2,<sp/>2&gt;<sp/>res;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>res<sp/>&lt;&lt;<sp/>m.<ref refid="structMR_1_1Matrix2_1a07a97bdc2d9081ca6bb3f61742dd1074" kindref="member">x</ref>.x,<sp/>m.<ref refid="structMR_1_1Matrix2_1a07a97bdc2d9081ca6bb3f61742dd1074" kindref="member">x</ref>.y,</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m.<ref refid="structMR_1_1Matrix2_1a71548cad8d3164c3d8d15d3e5bbd0b01" kindref="member">y</ref>.x,<sp/>m.<ref refid="structMR_1_1Matrix2_1a71548cad8d3164c3d8d15d3e5bbd0b01" kindref="member">y</ref>.y;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>res;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="52" refid="group__MathGroup_1ga49129aa06221938faa98e6295f0d790b" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Matrix2" kindref="compound">Matrix2&lt;T&gt;</ref><sp/><ref refid="group__MathGroup_1ga3f97fcf1b362e9c60d8a596aa8d1de68" kindref="member">fromEigen</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Eigen::Matrix&lt;T,<sp/>2,<sp/>2&gt;<sp/>&amp;<sp/>m<sp/>)</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Matrix2" kindref="compound">Matrix2&lt;T&gt;</ref><sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/>m(<sp/>0,<sp/>0<sp/>),<sp/>m(<sp/>0,<sp/>1<sp/>)<sp/>},</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/>m(<sp/>1,<sp/>0<sp/>),<sp/>m(<sp/>1,<sp/>1<sp/>)<sp/>}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="61" refid="group__MathGroup_1ga2723ebec7d989320e407d70f0e8c00d4" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Vector3" kindref="compound">Vector3&lt;T&gt;</ref><sp/><ref refid="group__MathGroup_1ga3f97fcf1b362e9c60d8a596aa8d1de68" kindref="member">fromEigen</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Eigen::Matrix&lt;T,<sp/>3,<sp/>1&gt;<sp/>&amp;<sp/>ev<sp/>)</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Vector3" kindref="compound">Vector3&lt;T&gt;</ref>{<sp/>ev.<ref refid="structMR_1_1Vector3_1a3d6f56ed3c525a928116d6c095997c5c" kindref="member">x</ref>(),<sp/>ev.y(),<sp/>ev.z()<sp/>};</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="67" refid="group__MathGroup_1ga73ee1ad324c6bb082a748395b3802916" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>Eigen::Matrix&lt;T,<sp/>3,<sp/>1&gt;<sp/><ref refid="group__MathGroup_1gac1420892e3e154a187396a8dd5e65291" kindref="member">toEigen</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Vector3" kindref="compound">Vector3&lt;T&gt;</ref><sp/>&amp;<sp/>v<sp/>)</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Eigen::Matrix&lt;T,<sp/>3,<sp/>1&gt;{<sp/>v.<ref refid="structMR_1_1Vector3_1a3d6f56ed3c525a928116d6c095997c5c" kindref="member">x</ref>,<sp/>v.<ref refid="structMR_1_1Vector3_1a4cbb29e67931176028f57f29b2bd6953" kindref="member">y</ref>,<sp/>v.<ref refid="structMR_1_1Vector3_1ae596ea6de55c00124d84150eadecd455" kindref="member">z</ref><sp/>};</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="73" refid="group__MathGroup_1ga20b5ff1415d774bc26055b5734f9b306" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>Eigen::Matrix&lt;T,<sp/>3,<sp/>3&gt;<sp/><ref refid="group__MathGroup_1gac1420892e3e154a187396a8dd5e65291" kindref="member">toEigen</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SymMatrix3" kindref="compound">SymMatrix3&lt;T&gt;</ref><sp/>&amp;<sp/>m<sp/>)</highlight></codeline>
+<codeline lineno="74"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>Eigen::Matrix&lt;T,<sp/>3,<sp/>3&gt;<sp/>res;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>res<sp/>&lt;&lt;<sp/>m.<ref refid="structMR_1_1SymMatrix3_1a9bb4e4e398d4c529a5a88c7b95c381c2" kindref="member">xx</ref>,<sp/>m.<ref refid="structMR_1_1SymMatrix3_1a338177889f057fdb4fe9ad0781e40582" kindref="member">xy</ref>,<sp/>m.<ref refid="structMR_1_1SymMatrix3_1a975295446a9281ca38f7ff5967875eb8" kindref="member">xz</ref>,</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m.<ref refid="structMR_1_1SymMatrix3_1a338177889f057fdb4fe9ad0781e40582" kindref="member">xy</ref>,<sp/>m.<ref refid="structMR_1_1SymMatrix3_1ae811049caca3dc4cda97eb36c1b118a7" kindref="member">yy</ref>,<sp/>m.<ref refid="structMR_1_1SymMatrix3_1a6ebdff1e289a9153c5bef3e6a7683b25" kindref="member">yz</ref>,</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m.<ref refid="structMR_1_1SymMatrix3_1a975295446a9281ca38f7ff5967875eb8" kindref="member">xz</ref>,<sp/>m.<ref refid="structMR_1_1SymMatrix3_1a6ebdff1e289a9153c5bef3e6a7683b25" kindref="member">yz</ref>,<sp/>m.<ref refid="structMR_1_1SymMatrix3_1ae0bca6271c1e0d370210fcd54da942ba" kindref="member">zz</ref>;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>res;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="83" refid="group__MathGroup_1gabd50a577d1934b0c0a0aca008de7d541" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>Eigen::Matrix&lt;T,<sp/>3,<sp/>3&gt;<sp/><ref refid="group__MathGroup_1gac1420892e3e154a187396a8dd5e65291" kindref="member">toEigen</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Matrix3" kindref="compound">Matrix3&lt;T&gt;</ref><sp/>&amp;<sp/>m<sp/>)</highlight></codeline>
+<codeline lineno="84"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>Eigen::Matrix&lt;T,<sp/>3,<sp/>3&gt;<sp/>res;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>res<sp/>&lt;&lt;<sp/>m.<ref refid="structMR_1_1Matrix3_1a34220148555a9b57f32f7edb08289ea4" kindref="member">x</ref>.x,<sp/>m.<ref refid="structMR_1_1Matrix3_1a34220148555a9b57f32f7edb08289ea4" kindref="member">x</ref>.y,<sp/>m.<ref refid="structMR_1_1Matrix3_1a34220148555a9b57f32f7edb08289ea4" kindref="member">x</ref>.z,</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m.<ref refid="structMR_1_1Matrix3_1aafd25b0c56a5f7a67abb2afa5d652912" kindref="member">y</ref>.x,<sp/>m.<ref refid="structMR_1_1Matrix3_1aafd25b0c56a5f7a67abb2afa5d652912" kindref="member">y</ref>.y,<sp/>m.<ref refid="structMR_1_1Matrix3_1aafd25b0c56a5f7a67abb2afa5d652912" kindref="member">y</ref>.z,</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m.<ref refid="structMR_1_1Matrix3_1ae0145a330e7ad72bfdb5e8813c7ee37f" kindref="member">z</ref>.x,<sp/>m.<ref refid="structMR_1_1Matrix3_1ae0145a330e7ad72bfdb5e8813c7ee37f" kindref="member">z</ref>.y,<sp/>m.<ref refid="structMR_1_1Matrix3_1ae0145a330e7ad72bfdb5e8813c7ee37f" kindref="member">z</ref>.z;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>res;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="93" refid="group__MathGroup_1ga4374661114398aca454e07dc09a7036c" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Matrix3" kindref="compound">Matrix3&lt;T&gt;</ref><sp/><ref refid="group__MathGroup_1ga3f97fcf1b362e9c60d8a596aa8d1de68" kindref="member">fromEigen</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Eigen::Matrix&lt;T,<sp/>3,<sp/>3&gt;<sp/>&amp;<sp/>m<sp/>)</highlight></codeline>
+<codeline lineno="94"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Matrix3" kindref="compound">Matrix3&lt;T&gt;</ref><sp/>{</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/>m(<sp/>0,<sp/>0<sp/>),<sp/>m(<sp/>0,<sp/>1<sp/>),<sp/>m(<sp/>0,<sp/>2<sp/>)<sp/>},</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/>m(<sp/>1,<sp/>0<sp/>),<sp/>m(<sp/>1,<sp/>1<sp/>),<sp/>m(<sp/>1,<sp/>2<sp/>)<sp/>},</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/>m(<sp/>2,<sp/>0<sp/>),<sp/>m(<sp/>2,<sp/>1<sp/>),<sp/>m(<sp/>2,<sp/>2<sp/>)<sp/>}</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="100"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="103" refid="group__MathGroup_1gad38e7e445e2b0faa925e3df9c0ee75a6" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>Eigen::Matrix&lt;T,<sp/>4,<sp/>4&gt;<sp/><ref refid="group__MathGroup_1gac1420892e3e154a187396a8dd5e65291" kindref="member">toEigen</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SymMatrix4" kindref="compound">SymMatrix4&lt;T&gt;</ref><sp/>&amp;<sp/>m<sp/>)</highlight></codeline>
+<codeline lineno="104"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>Eigen::Matrix&lt;T,<sp/>4,<sp/>4&gt;<sp/>res;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>res<sp/>&lt;&lt;<sp/>m.<ref refid="structMR_1_1SymMatrix4_1a4fb698a206dc30bd585a5dab6ac9c8d1" kindref="member">xx</ref>,<sp/>m.<ref refid="structMR_1_1SymMatrix4_1a81d260c4cff78ebfe4a0b6a1eeead433" kindref="member">xy</ref>,<sp/>m.<ref refid="structMR_1_1SymMatrix4_1a02636edb960785731936c618186131dd" kindref="member">xz</ref>,<sp/>m.<ref refid="structMR_1_1SymMatrix4_1aacd1c64ccc38944a171aa223364256b9" kindref="member">xw</ref>,</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m.<ref refid="structMR_1_1SymMatrix4_1a81d260c4cff78ebfe4a0b6a1eeead433" kindref="member">xy</ref>,<sp/>m.<ref refid="structMR_1_1SymMatrix4_1ac64a17a99da69d6c7352b775c4c034b7" kindref="member">yy</ref>,<sp/>m.<ref refid="structMR_1_1SymMatrix4_1aa9da96b0258f9f938457f9c36503172d" kindref="member">yz</ref>,<sp/>m.<ref refid="structMR_1_1SymMatrix4_1afb5ebef84a840cfde0e7c3faa69da4ab" kindref="member">yw</ref>,</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m.<ref refid="structMR_1_1SymMatrix4_1a02636edb960785731936c618186131dd" kindref="member">xz</ref>,<sp/>m.<ref refid="structMR_1_1SymMatrix4_1aa9da96b0258f9f938457f9c36503172d" kindref="member">yz</ref>,<sp/>m.<ref refid="structMR_1_1SymMatrix4_1a73599b372bfd1917775d5b88bdd9bf19" kindref="member">zz</ref>,<sp/>m.<ref refid="structMR_1_1SymMatrix4_1a4a1f640d731c441127236acba8ffca96" kindref="member">zw</ref>,</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m.<ref refid="structMR_1_1SymMatrix4_1aacd1c64ccc38944a171aa223364256b9" kindref="member">xw</ref>,<sp/>m.<ref refid="structMR_1_1SymMatrix4_1afb5ebef84a840cfde0e7c3faa69da4ab" kindref="member">yw</ref>,<sp/>m.<ref refid="structMR_1_1SymMatrix4_1a4a1f640d731c441127236acba8ffca96" kindref="member">zw</ref>,<sp/>m.<ref refid="structMR_1_1SymMatrix4_1a5f21446d34d40b1bc92d85397bc24134" kindref="member">ww</ref>;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>res;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="114" refid="group__MathGroup_1ga4d999217b3e42b5726808b25c5c988cc" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>Eigen::Matrix&lt;T,<sp/>4,<sp/>4&gt;<sp/><ref refid="group__MathGroup_1gac1420892e3e154a187396a8dd5e65291" kindref="member">toEigen</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Matrix4" kindref="compound">Matrix4&lt;T&gt;</ref><sp/>&amp;<sp/>m<sp/>)</highlight></codeline>
+<codeline lineno="115"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>Eigen::Matrix&lt;T,<sp/>4,<sp/>4&gt;<sp/>res;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>res<sp/>&lt;&lt;<sp/>m.<ref refid="structMR_1_1Matrix4_1afefd6af8bdb869e88d5062c6aa38c746" kindref="member">x</ref>.x,<sp/>m.<ref refid="structMR_1_1Matrix4_1afefd6af8bdb869e88d5062c6aa38c746" kindref="member">x</ref>.y,<sp/>m.<ref refid="structMR_1_1Matrix4_1afefd6af8bdb869e88d5062c6aa38c746" kindref="member">x</ref>.z,<sp/>m.<ref refid="structMR_1_1Matrix4_1afefd6af8bdb869e88d5062c6aa38c746" kindref="member">x</ref>.w,</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m.<ref refid="structMR_1_1Matrix4_1a75f9e05ce8b540c5e85bd3f79ba19381" kindref="member">y</ref>.x,<sp/>m.<ref refid="structMR_1_1Matrix4_1a75f9e05ce8b540c5e85bd3f79ba19381" kindref="member">y</ref>.y,<sp/>m.<ref refid="structMR_1_1Matrix4_1a75f9e05ce8b540c5e85bd3f79ba19381" kindref="member">y</ref>.z,<sp/>m.<ref refid="structMR_1_1Matrix4_1a75f9e05ce8b540c5e85bd3f79ba19381" kindref="member">y</ref>.w,</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m.<ref refid="structMR_1_1Matrix4_1a236c71c6a980ce77ee524f2a4b161271" kindref="member">z</ref>.x,<sp/>m.<ref refid="structMR_1_1Matrix4_1a236c71c6a980ce77ee524f2a4b161271" kindref="member">z</ref>.y,<sp/>m.<ref refid="structMR_1_1Matrix4_1a236c71c6a980ce77ee524f2a4b161271" kindref="member">z</ref>.z,<sp/>m.<ref refid="structMR_1_1Matrix4_1afefd6af8bdb869e88d5062c6aa38c746" kindref="member">x</ref>.w,</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m.<ref refid="structMR_1_1Matrix4_1a9e0640aaf9b368a204fd42127c9e93e3" kindref="member">w</ref>.x,<sp/>m.<ref refid="structMR_1_1Matrix4_1a9e0640aaf9b368a204fd42127c9e93e3" kindref="member">w</ref>.y,<sp/>m.<ref refid="structMR_1_1Matrix4_1a9e0640aaf9b368a204fd42127c9e93e3" kindref="member">w</ref>.z,<sp/>m.<ref refid="structMR_1_1Matrix4_1a9e0640aaf9b368a204fd42127c9e93e3" kindref="member">w</ref>.w;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>res;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="125" refid="group__MathGroup_1ga3a19f42616def07ddf8bbf9e7dfff991" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Matrix4" kindref="compound">Matrix4&lt;T&gt;</ref><sp/><ref refid="group__MathGroup_1ga3f97fcf1b362e9c60d8a596aa8d1de68" kindref="member">fromEigen</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Eigen::Matrix&lt;T,<sp/>4,<sp/>4&gt;<sp/>&amp;<sp/>m<sp/>)</highlight></codeline>
+<codeline lineno="126"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Matrix4" kindref="compound">Matrix4&lt;T&gt;</ref><sp/>{</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/>m(<sp/>0,<sp/>0<sp/>),<sp/>m(<sp/>0,<sp/>1<sp/>),<sp/>m(<sp/>0,<sp/>2<sp/>),<sp/>m(<sp/>0,<sp/>3<sp/>)<sp/>},</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/>m(<sp/>1,<sp/>0<sp/>),<sp/>m(<sp/>1,<sp/>1<sp/>),<sp/>m(<sp/>1,<sp/>2<sp/>),<sp/>m(<sp/>1,<sp/>3<sp/>)<sp/>},</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/>m(<sp/>2,<sp/>0<sp/>),<sp/>m(<sp/>2,<sp/>1<sp/>),<sp/>m(<sp/>2,<sp/>2<sp/>),<sp/>m(<sp/>2,<sp/>3<sp/>)<sp/>},</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/>m(<sp/>3,<sp/>0<sp/>),<sp/>m(<sp/>3,<sp/>1<sp/>),<sp/>m(<sp/>3,<sp/>2<sp/>),<sp/>m(<sp/>3,<sp/>3<sp/>)<sp/>}</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="133"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="136" refid="group__MathGroup_1gad9b8ea723d950187f862ce89900a7534" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Vector4" kindref="compound">Vector4&lt;T&gt;</ref><sp/><ref refid="group__MathGroup_1ga3f97fcf1b362e9c60d8a596aa8d1de68" kindref="member">fromEigen</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Eigen::Matrix&lt;T,<sp/>4,<sp/>1&gt;<sp/>&amp;<sp/>ev<sp/>)</highlight></codeline>
+<codeline lineno="137"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Vector4" kindref="compound">Vector4&lt;T&gt;</ref>{<sp/>ev.<ref refid="structMR_1_1Vector4_1a2430707dabdc5933eb1c27e622a73c04" kindref="member">x</ref>(),<sp/>ev.y(),<sp/>ev.z(),<sp/>ev.w()<sp/>};</highlight></codeline>
+<codeline lineno="139"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="142" refid="group__MathGroup_1gab555a6f9afad6842444fcec85d56aded" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>Eigen::Matrix&lt;T,<sp/>4,<sp/>1&gt;<sp/><ref refid="group__MathGroup_1gac1420892e3e154a187396a8dd5e65291" kindref="member">toEigen</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Vector4" kindref="compound">Vector4&lt;T&gt;</ref><sp/>&amp;<sp/>v<sp/>)</highlight></codeline>
+<codeline lineno="143"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Eigen::Matrix&lt;T,<sp/>4,<sp/>1&gt;{<sp/>v.<ref refid="structMR_1_1Vector4_1a2430707dabdc5933eb1c27e622a73c04" kindref="member">x</ref>,<sp/>v.<ref refid="structMR_1_1Vector4_1a0e6c5be3afc64d0b545923575087bb78" kindref="member">y</ref>,<sp/>v.<ref refid="structMR_1_1Vector4_1a15c59e2cece13e2ed0b5dbb20533b922" kindref="member">z</ref>,<sp/>v.<ref refid="structMR_1_1Vector4_1a2a2d849b18944213202e305115b457a6" kindref="member">w</ref><sp/>};</highlight></codeline>
+<codeline lineno="145"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="148" refid="group__MathGroup_1gaacaca15888bdddf50a5db746c7955ca7" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>Eigen::Matrix&lt;T,<sp/>4,<sp/>1&gt;<sp/><ref refid="group__MathGroup_1gac1420892e3e154a187396a8dd5e65291" kindref="member">toEigen</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Vector3" kindref="compound">Vector3&lt;T&gt;</ref><sp/>&amp;<sp/>v,<sp/>T<sp/>w<sp/>)</highlight></codeline>
+<codeline lineno="149"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Eigen::Matrix&lt;T,<sp/>4,<sp/>1&gt;{<sp/>v.<ref refid="structMR_1_1Vector3_1a3d6f56ed3c525a928116d6c095997c5c" kindref="member">x</ref>,<sp/>v.<ref refid="structMR_1_1Vector3_1a4cbb29e67931176028f57f29b2bd6953" kindref="member">y</ref>,<sp/>v.<ref refid="structMR_1_1Vector3_1ae596ea6de55c00124d84150eadecd455" kindref="member">z</ref>,<sp/>w<sp/>};</highlight></codeline>
+<codeline lineno="151"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="154" refid="group__MathGroup_1ga628c148ec917a4f0bf1398a814476dde" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Quaternion" kindref="compound">Quaternion&lt;T&gt;</ref><sp/><ref refid="group__MathGroup_1ga3f97fcf1b362e9c60d8a596aa8d1de68" kindref="member">fromEigen</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Eigen::Quaternion&lt;T&gt;<sp/>&amp;<sp/>eq<sp/>)</highlight></codeline>
+<codeline lineno="155"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Quaternion" kindref="compound">Quaternion&lt;T&gt;</ref>{<sp/>eq.w(),<sp/>eq.x(),<sp/>eq.y(),<sp/>eq.z()<sp/>};</highlight></codeline>
+<codeline lineno="157"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="160" refid="group__MathGroup_1gad703c1d9a93f5cf4e177808cbfef4deb" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>Eigen::Quaternion&lt;T&gt;<sp/><ref refid="group__MathGroup_1gac1420892e3e154a187396a8dd5e65291" kindref="member">toEigen</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Quaternion" kindref="compound">Quaternion&lt;T&gt;</ref><sp/>&amp;<sp/>q<sp/>)</highlight></codeline>
+<codeline lineno="161"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Eigen::Quaternion&lt;T&gt;{<sp/>q.<ref refid="structMR_1_1Quaternion_1a99d6bff08a40df6a9873566e597b029e" kindref="member">a</ref>,<sp/>q.<ref refid="structMR_1_1Quaternion_1a9c92b4bc72a2fd317f159c70c50e441c" kindref="member">b</ref>,<sp/>q.<ref refid="structMR_1_1Quaternion_1a3408cac17b0213d5213b299ad98f12c3" kindref="member">c</ref>,<sp/>q.<ref refid="structMR_1_1Quaternion_1a14d0a626cbd31413d550eea26b9e3303" kindref="member">d</ref><sp/>};</highlight></codeline>
+<codeline lineno="163"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal">}<sp/></highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h"/>
+  </compounddef>
+</doxygen>

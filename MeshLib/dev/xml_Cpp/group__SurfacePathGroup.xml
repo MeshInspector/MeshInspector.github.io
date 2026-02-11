@@ -1,0 +1,1717 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__SurfacePathGroup" kind="group">
+    <compoundname>SurfacePathGroup</compoundname>
+    <title>Surface Paths</title>
+    <innerclass refid="structMR_1_1VertPathInfo" prot="public">MR::VertPathInfo</innerclass>
+    <innergroup refid="group__PlanarPathGroup">Planar Path</innergroup>
+    <innergroup refid="group__SurfaceDistanceGroup">Surface Distance</innergroup>
+    <innergroup refid="group__SurfaceDistanceBuilder">Group Surface Distance Builder</innergroup>
+    <innergroup refid="group__SurfacePathSubgroup">Surface Path</innergroup>
+    <innergroup refid="group__TunnelDetectorGroup">Tunnel Detector</innergroup>
+    <sectiondef kind="user-defined">
+      <memberdef kind="function" id="group__SurfacePathGroup_1gadd9e6c77ae3fdf22797b82342a1ee1f3" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> EdgeMetric</type>
+        <definition>MRMESH_API EdgeMetric MR::identityMetric</definition>
+        <argsstring>()</argsstring>
+        <name>identityMetric</name>
+        <qualifiedname>MR::identityMetric</qualifiedname>
+        <briefdescription>
+<para>metric returning 1 for every edge </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeMetric.h" line="14" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeMetric.h" declline="14" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1gab0c6bfd4f01e28a6c034a2195143e410" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> EdgeMetric</type>
+        <definition>MRMESH_API EdgeMetric MR::edgeLengthMetric</definition>
+        <argsstring>(const Mesh &amp;mesh)</argsstring>
+        <name>edgeLengthMetric</name>
+        <qualifiedname>MR::edgeLengthMetric</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns edge&apos;s length as a metric; this metric is symmetric: m(e) == m(e.sym()) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeMetric.h" line="18" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeMetric.h" declline="18" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1gad2fc71f60ff8cacbc0318077e2e28051" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> EdgeMetric</type>
+        <definition>MRMESH_API EdgeMetric MR::edgeLengthMetric</definition>
+        <argsstring>(const MeshTopology &amp;topology, const VertCoords &amp;points)</argsstring>
+        <name>edgeLengthMetric</name>
+        <qualifiedname>MR::edgeLengthMetric</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>const VertCoords &amp;</type>
+          <declname>points</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeMetric.h" line="19" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeMetric.h" declline="19" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1gae4866fbd4ec0921d6eed211cbef0e8aa" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> EdgeMetric</type>
+        <definition>MRMESH_API EdgeMetric MR::discreteAbsMeanCurvatureMetric</definition>
+        <argsstring>(const Mesh &amp;mesh)</argsstring>
+        <name>discreteAbsMeanCurvatureMetric</name>
+        <qualifiedname>MR::discreteAbsMeanCurvatureMetric</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns edge&apos;s absolute discrete mean curvature as a metric; the metric is minimal in the planar regions of mesh; this metric is symmetric: m(e) == m(e.sym()) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeMetric.h" line="24" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeMetric.h" declline="24" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1gac27bbe944fd04f789f1c1f0ad8455271" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> EdgeMetric</type>
+        <definition>MRMESH_API EdgeMetric MR::discreteAbsMeanCurvatureMetric</definition>
+        <argsstring>(const MeshTopology &amp;topology, const VertCoords &amp;points)</argsstring>
+        <name>discreteAbsMeanCurvatureMetric</name>
+        <qualifiedname>MR::discreteAbsMeanCurvatureMetric</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>const VertCoords &amp;</type>
+          <declname>points</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeMetric.h" line="25" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeMetric.h" declline="25" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1ga8e15c502056407a36c6d495799f0aa7d" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> EdgeMetric</type>
+        <definition>MRMESH_API EdgeMetric MR::discreteMinusAbsMeanCurvatureMetric</definition>
+        <argsstring>(const Mesh &amp;mesh)</argsstring>
+        <name>discreteMinusAbsMeanCurvatureMetric</name>
+        <qualifiedname>MR::discreteMinusAbsMeanCurvatureMetric</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns minus of edge&apos;s absolute discrete mean curvature as a metric; the metric is minimal in the most curved regions of mesh; this metric is symmetric: m(e) == m(e.sym()) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeMetric.h" line="30" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeMetric.h" declline="30" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1gaa47002070e90f43a82f54ead62a1746f" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> EdgeMetric</type>
+        <definition>MRMESH_API EdgeMetric MR::discreteMinusAbsMeanCurvatureMetric</definition>
+        <argsstring>(const MeshTopology &amp;topology, const VertCoords &amp;points)</argsstring>
+        <name>discreteMinusAbsMeanCurvatureMetric</name>
+        <qualifiedname>MR::discreteMinusAbsMeanCurvatureMetric</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>const VertCoords &amp;</type>
+          <declname>points</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeMetric.h" line="31" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeMetric.h" declline="31" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1ga215f966d7ad4e48210e0de178cb43a06" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> EdgeMetric</type>
+        <definition>MRMESH_API EdgeMetric MR::edgeCurvMetric</definition>
+        <argsstring>(const Mesh &amp;mesh, float angleSinFactor=2, float angleSinForBoundary=0)</argsstring>
+        <name>edgeCurvMetric</name>
+        <qualifiedname>MR::edgeCurvMetric</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>angleSinFactor</declname>
+          <defval>2</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>angleSinForBoundary</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns edge&apos;s metric that depends both on edge&apos;s length and on the angle between its left and right faces <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>angleSinFactor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>multiplier before dihedral angle sine in edge metric calculation (positive to prefer concave angles, negative - convex) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>angleSinForBoundary</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>consider this dihedral angle sine for boundary edges; this metric is symmetric: m(e) == m(e.sym()) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeMetric.h" line="37" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeMetric.h" declline="37" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1ga003755490808d2d716aa0de3c8f733b5" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> EdgeMetric</type>
+        <definition>MRMESH_API EdgeMetric MR::edgeCurvMetric</definition>
+        <argsstring>(const MeshTopology &amp;topology, const VertCoords &amp;points, float angleSinFactor=2, float angleSinForBoundary=0)</argsstring>
+        <name>edgeCurvMetric</name>
+        <qualifiedname>MR::edgeCurvMetric</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>const VertCoords &amp;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>angleSinFactor</declname>
+          <defval>2</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>angleSinForBoundary</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeMetric.h" line="38" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeMetric.h" declline="38" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1ga04e5ae2dd9a34149d37b4c31364b4b68" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> EdgeMetric</type>
+        <definition>MRMESH_API EdgeMetric MR::edgeTableSymMetric</definition>
+        <argsstring>(const MeshTopology &amp;topology, const EdgeMetric &amp;metric)</argsstring>
+        <name>edgeTableSymMetric</name>
+        <qualifiedname>MR::edgeTableSymMetric</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>const EdgeMetric &amp;</type>
+          <declname>metric</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>pre-computes the metric for all mesh edges to quickly return it later for any edge; input metric must be symmetric: metric(e) == metric(e.sym()) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeMetric.h" line="42" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeMetric.h" declline="42" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1ga2182b04a7c6e0750621fd0d7de0685f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>MR_BIND_IGNORE EdgeMetric</type>
+        <definition>MR_BIND_IGNORE EdgeMetric MR::edgeTableMetric</definition>
+        <argsstring>(const MeshTopology &amp;topology, const EdgeMetric &amp;metric)</argsstring>
+        <name>edgeTableMetric</name>
+        <qualifiedname>MR::edgeTableMetric</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>const EdgeMetric &amp;</type>
+          <declname>metric</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeMetric.h" line="44" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeMetric.h" bodystart="44" bodyend="45"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="user-defined">
+      <memberdef kind="function" id="group__SurfacePathGroup_1ga7a492156b75bdd4b9dd72acc28ef2b3e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <definition>MRMESH_API bool MR::isEdgePath</definition>
+        <argsstring>(const MeshTopology &amp;topology, const std::vector&lt; EdgeId &gt; &amp;edges)</argsstring>
+        <name>isEdgePath</name>
+        <qualifiedname>MR::isEdgePath</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; EdgeId &gt; &amp;</type>
+          <declname>edges</declname>
+        </param>
+        <briefdescription>
+<para>returns true if every next edge starts where previous edge ends </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" line="16" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" declline="16" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1gaf669cb8f71c0282ec6c839e2e481dc64" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <definition>MRMESH_API bool MR::isEdgeLoop</definition>
+        <argsstring>(const MeshTopology &amp;topology, const std::vector&lt; EdgeId &gt; &amp;edges)</argsstring>
+        <name>isEdgeLoop</name>
+        <qualifiedname>MR::isEdgeLoop</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; EdgeId &gt; &amp;</type>
+          <declname>edges</declname>
+        </param>
+        <briefdescription>
+<para>returns true if every next edge starts where previous edge ends, and start vertex coincides with finish vertex </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" line="19" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" declline="19" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1gaa9c52e371775dd3dfbbf897f713cddf0" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::vector&lt; EdgeLoop &gt;</type>
+        <definition>MRMESH_API std::vector&lt; EdgeLoop &gt; MR::splitOnSimpleLoops</definition>
+        <argsstring>(const MeshTopology &amp;topology, std::vector&lt; EdgeLoop &gt; &amp;&amp;loops)</argsstring>
+        <name>splitOnSimpleLoops</name>
+        <qualifiedname>MR::splitOnSimpleLoops</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; EdgeLoop &gt; &amp;&amp;</type>
+          <declname>loops</declname>
+        </param>
+        <briefdescription>
+<para>given a number of edge loops, splits every loop that passes via a vertex more than once on smaller loops without self-intersections </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" line="22" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" declline="22" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1ga5ae89c778fe01228f20aa52aa2e160d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::reverse</definition>
+        <argsstring>(EdgePath &amp;path)</argsstring>
+        <name>reverse</name>
+        <qualifiedname>MR::reverse</qualifiedname>
+        <param>
+          <type>EdgePath &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>reverses the order of edges and flips each edge orientation, thus making the opposite directed edge path </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" line="26" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" declline="26" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1ga0f7d06cbd7188f3681347a12699a9cba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::reverse</definition>
+        <argsstring>(std::vector&lt; EdgePath &gt; &amp;paths)</argsstring>
+        <name>reverse</name>
+        <qualifiedname>MR::reverse</qualifiedname>
+        <param>
+          <type>std::vector&lt; EdgePath &gt; &amp;</type>
+          <declname>paths</declname>
+        </param>
+        <briefdescription>
+<para>reverse every path in the vector </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" line="28" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" declline="28" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1ga43a4b5c66e820cc90b986a3bfb4c1998" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> double</type>
+        <definition>MRMESH_API double MR::calcPathMetric</definition>
+        <argsstring>(const EdgePath &amp;path, EdgeMetric metric)</argsstring>
+        <name>calcPathMetric</name>
+        <qualifiedname>MR::calcPathMetric</qualifiedname>
+        <param>
+          <type>const EdgePath &amp;</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>EdgeMetric</type>
+          <declname>metric</declname>
+        </param>
+        <briefdescription>
+<para>computes summed metric of all edges in the path </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" line="31" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" declline="31" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1ga1792643322d571922601c7286a802f51" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double MR::calcPathLength</definition>
+        <argsstring>(const EdgePath &amp;path, const Mesh &amp;mesh)</argsstring>
+        <name>calcPathLength</name>
+        <qualifiedname>MR::calcPathLength</qualifiedname>
+        <param>
+          <type>const EdgePath &amp;</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" line="32" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1ga643c38e76bdce5259ec5ad2f58826699" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> Vector3d</type>
+        <definition>MRMESH_API Vector3d MR::calcOrientedArea</definition>
+        <argsstring>(const EdgeLoop &amp;loop, const Mesh &amp;mesh)</argsstring>
+        <name>calcOrientedArea</name>
+        <qualifiedname>MR::calcOrientedArea</qualifiedname>
+        <param>
+          <type>const EdgeLoop &amp;</type>
+          <declname>loop</declname>
+        </param>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the vector with the magnitude equal to the area surrounded by the loop (if the loop is planar), and directed to see the loop in ccw order from the vector tip </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" line="36" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" declline="36" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1gaf24c647cf0c2aef3425702344a341d55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::sortPathsByMetric</definition>
+        <argsstring>(std::vector&lt; EdgePath &gt; &amp;paths, EdgeMetric metric)</argsstring>
+        <name>sortPathsByMetric</name>
+        <qualifiedname>MR::sortPathsByMetric</qualifiedname>
+        <param>
+          <type>std::vector&lt; EdgePath &gt; &amp;</type>
+          <declname>paths</declname>
+        </param>
+        <param>
+          <type>EdgeMetric</type>
+          <declname>metric</declname>
+        </param>
+        <briefdescription>
+<para>sorts given paths in ascending order of their metrics </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" line="39" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" declline="39" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1gaabc40dcee3ba22d445c0f838f170d549" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::sortPathsByLength</definition>
+        <argsstring>(std::vector&lt; EdgePath &gt; &amp;paths, const Mesh &amp;mesh)</argsstring>
+        <name>sortPathsByLength</name>
+        <qualifiedname>MR::sortPathsByLength</qualifiedname>
+        <param>
+          <type>std::vector&lt; EdgePath &gt; &amp;</type>
+          <declname>paths</declname>
+        </param>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" line="40" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1gab0db7342678536825cb6b3bff51d832d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MRMESH_API void MR::addLeftBand</definition>
+        <argsstring>(const MeshTopology &amp;topology, const EdgeLoop &amp;loop, FaceBitSet &amp;addHere)</argsstring>
+        <name>addLeftBand</name>
+        <qualifiedname>MR::addLeftBand</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>const EdgeLoop &amp;</type>
+          <declname>loop</declname>
+        </param>
+        <param>
+          <type>FaceBitSet &amp;</type>
+          <declname>addHere</declname>
+        </param>
+        <briefdescription>
+<para>adds all faces incident to loop vertices and located to the left from the loop to given FaceBitSet </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" line="43" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" declline="43" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1ga4ef10460976331354fd6633529b31b3f" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> EdgePath</type>
+        <definition>MRMESH_API EdgePath MR::buildShortestPath</definition>
+        <argsstring>(const Mesh &amp;mesh, VertId start, VertId finish, float maxPathLen=FLT_MAX)</argsstring>
+        <name>buildShortestPath</name>
+        <qualifiedname>MR::buildShortestPath</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>VertId</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>VertId</type>
+          <declname>finish</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxPathLen</declname>
+          <defval>FLT_MAX</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>finds the shortest path in euclidean metric from start to finish vertices using Dijkstra algorithm; if no path can be found then empty path is returned </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" line="55" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" declline="55" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1ga8611d32ddf9b64606412154e843658b3" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> EdgePath</type>
+        <definition>MRMESH_API EdgePath MR::buildShortestPathBiDir</definition>
+        <argsstring>(const Mesh &amp;mesh, VertId start, VertId finish, float maxPathLen=FLT_MAX)</argsstring>
+        <name>buildShortestPathBiDir</name>
+        <qualifiedname>MR::buildShortestPathBiDir</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>VertId</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>VertId</type>
+          <declname>finish</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxPathLen</declname>
+          <defval>FLT_MAX</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>finds the shortest path in euclidean metric from start to finish vertices using bidirectional modification of Dijkstra algorithm, constructing the path simultaneously from both start and finish, which is faster for long paths; if no path can be found then empty path is returned </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" line="59" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" declline="59" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1ga406af44e44bb84c41cc380a6ecedc6af" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> EdgePath</type>
+        <definition>MRMESH_API EdgePath MR::buildShortestPathBiDir</definition>
+        <argsstring>(const Mesh &amp;mesh, const MeshTriPoint &amp;start, const MeshTriPoint &amp;finish, VertId *outPathStart=nullptr, VertId *outPathFinish=nullptr, float maxPathLen=FLT_MAX)</argsstring>
+        <name>buildShortestPathBiDir</name>
+        <qualifiedname>MR::buildShortestPathBiDir</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const MeshTriPoint &amp;</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>const MeshTriPoint &amp;</type>
+          <declname>finish</declname>
+        </param>
+        <param>
+          <type>VertId *</type>
+          <declname>outPathStart</declname>
+          <defval>nullptr</defval>
+        </param>
+        <param>
+          <type>VertId *</type>
+          <declname>outPathFinish</declname>
+          <defval>nullptr</defval>
+          <briefdescription><para>if the path is found then its start vertex will be written here (even if start vertex is the same as finish vertex and the path is empty) </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxPathLen</declname>
+          <defval>FLT_MAX</defval>
+          <briefdescription><para>if the path is found then its finish vertex will be written here (even if start vertex is the same as finish vertex and the path is empty) </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>finds the path from a vertex in start-triangle to a vertex in finish-triangle, so that the length start-first_vertex-...-last_vertex-finish is shortest in euclidean metric; using bidirectional modification of Dijkstra algorithm, constructing the path simultaneously from both start and finish, which is faster for long paths; if no path can be found then empty path is returned </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" line="64" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" declline="64" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1gab942014729767c2449b988a793eea5a7" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> EdgePath</type>
+        <definition>MRMESH_API EdgePath MR::buildShortestPathAStar</definition>
+        <argsstring>(const Mesh &amp;mesh, VertId start, VertId finish, float maxPathLen=FLT_MAX)</argsstring>
+        <name>buildShortestPathAStar</name>
+        <qualifiedname>MR::buildShortestPathAStar</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>VertId</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>VertId</type>
+          <declname>finish</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxPathLen</declname>
+          <defval>FLT_MAX</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>finds the shortest path in euclidean metric from start to finish vertices using A* modification of Dijkstra algorithm, which is faster for near linear path; if no path can be found then empty path is returned </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" line="72" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" declline="72" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1gadb5f50d4c624b947f1cce23f36c65361" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> EdgePath</type>
+        <definition>MRMESH_API EdgePath MR::buildShortestPathAStar</definition>
+        <argsstring>(const Mesh &amp;mesh, const MeshTriPoint &amp;start, const MeshTriPoint &amp;finish, VertId *outPathStart=nullptr, VertId *outPathFinish=nullptr, float maxPathLen=FLT_MAX)</argsstring>
+        <name>buildShortestPathAStar</name>
+        <qualifiedname>MR::buildShortestPathAStar</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const MeshTriPoint &amp;</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>const MeshTriPoint &amp;</type>
+          <declname>finish</declname>
+        </param>
+        <param>
+          <type>VertId *</type>
+          <declname>outPathStart</declname>
+          <defval>nullptr</defval>
+        </param>
+        <param>
+          <type>VertId *</type>
+          <declname>outPathFinish</declname>
+          <defval>nullptr</defval>
+          <briefdescription><para>if the path is found then its start vertex will be written here (even if start vertex is the same as finish vertex and the path is empty) </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxPathLen</declname>
+          <defval>FLT_MAX</defval>
+          <briefdescription><para>if the path is found then its finish vertex will be written here (even if start vertex is the same as finish vertex and the path is empty) </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>finds the path from a vertex in start-triangle to a vertex in finish-triangle, so that the length start-first_vertex-...-last_vertex-finish is shortest in euclidean metric; using A* modification of Dijkstra algorithm, which is faster for near linear path; if no path can be found then empty path is returned </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" line="77" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" declline="77" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1gadb0985d5186608aa8786111eead3c759" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> EdgePath</type>
+        <definition>MRMESH_API EdgePath MR::buildShortestPath</definition>
+        <argsstring>(const Mesh &amp;mesh, VertId start, const VertBitSet &amp;finish, float maxPathLen=FLT_MAX)</argsstring>
+        <name>buildShortestPath</name>
+        <qualifiedname>MR::buildShortestPath</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>VertId</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>const VertBitSet &amp;</type>
+          <declname>finish</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxPathLen</declname>
+          <defval>FLT_MAX</defval>
+        </param>
+        <briefdescription>
+<para>builds shortest path in euclidean metric from start to finish vertices; if no path can be found then empty path is returned </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" line="84" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" declline="84" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1ga849a027d86e0a30b1a32b629a14f74f3" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> EdgePath</type>
+        <definition>MRMESH_API EdgePath MR::buildSmallestMetricPath</definition>
+        <argsstring>(const MeshTopology &amp;topology, const EdgeMetric &amp;metric, VertId start, VertId finish, float maxPathMetric=FLT_MAX)</argsstring>
+        <name>buildSmallestMetricPath</name>
+        <qualifiedname>MR::buildSmallestMetricPath</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>const EdgeMetric &amp;</type>
+          <declname>metric</declname>
+        </param>
+        <param>
+          <type>VertId</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>VertId</type>
+          <declname>finish</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxPathMetric</declname>
+          <defval>FLT_MAX</defval>
+        </param>
+        <briefdescription>
+<para>builds shortest path in given metric from start to finish vertices; if no path can be found then empty path is returned </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" line="87" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" declline="87" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1ga31d65cbf03d734606eecb79ae37c605c" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> EdgePath</type>
+        <definition>MRMESH_API EdgePath MR::buildSmallestMetricPathBiDir</definition>
+        <argsstring>(const MeshTopology &amp;topology, const EdgeMetric &amp;metric, VertId start, VertId finish, float maxPathMetric=FLT_MAX)</argsstring>
+        <name>buildSmallestMetricPathBiDir</name>
+        <qualifiedname>MR::buildSmallestMetricPathBiDir</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>const EdgeMetric &amp;</type>
+          <declname>metric</declname>
+        </param>
+        <param>
+          <type>VertId</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>VertId</type>
+          <declname>finish</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxPathMetric</declname>
+          <defval>FLT_MAX</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>finds the smallest metric path from start vertex to finish vertex, using bidirectional modification of Dijkstra algorithm, constructing the path simultaneously from both start and finish, which is faster for long paths; if no path can be found then empty path is returned </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" line="92" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" declline="92" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1gaf64ac38f04f25f28a4a46ae2fc06ff8a" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> EdgePath</type>
+        <definition>MRMESH_API EdgePath MR::buildSmallestMetricPathBiDir</definition>
+        <argsstring>(const MeshTopology &amp;topology, const EdgeMetric &amp;metric, const TerminalVertex *starts, int numStarts, const TerminalVertex *finishes, int numFinishes, VertId *outPathStart=nullptr, VertId *outPathFinish=nullptr, float maxPathMetric=FLT_MAX)</argsstring>
+        <name>buildSmallestMetricPathBiDir</name>
+        <qualifiedname>MR::buildSmallestMetricPathBiDir</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>const EdgeMetric &amp;</type>
+          <declname>metric</declname>
+        </param>
+        <param>
+          <type>const TerminalVertex *</type>
+          <declname>starts</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numStarts</declname>
+        </param>
+        <param>
+          <type>const TerminalVertex *</type>
+          <declname>finishes</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numFinishes</declname>
+        </param>
+        <param>
+          <type>VertId *</type>
+          <declname>outPathStart</declname>
+          <defval>nullptr</defval>
+        </param>
+        <param>
+          <type>VertId *</type>
+          <declname>outPathFinish</declname>
+          <defval>nullptr</defval>
+          <briefdescription><para>if the path is found then its start vertex will be written here (even if start vertex is the same as finish vertex and the path is empty) </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxPathMetric</declname>
+          <defval>FLT_MAX</defval>
+          <briefdescription><para>if the path is found then its finish vertex will be written here (even if start vertex is the same as finish vertex and the path is empty) </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>finds the smallest metric path from one of start vertices to one of the finish vertices, using bidirectional modification of Dijkstra algorithm, constructing the path simultaneously from both starts and finishes, which is faster for long paths; if no path can be found then empty path is returned </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" line="97" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" declline="97" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1gae74cdeb663c4f5c46bb0107a8b1b5c47" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> EdgePath</type>
+        <definition>MRMESH_API EdgePath MR::buildSmallestMetricPath</definition>
+        <argsstring>(const MeshTopology &amp;topology, const EdgeMetric &amp;metric, VertId start, const VertBitSet &amp;finish, float maxPathMetric=FLT_MAX)</argsstring>
+        <name>buildSmallestMetricPath</name>
+        <qualifiedname>MR::buildSmallestMetricPath</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>const EdgeMetric &amp;</type>
+          <declname>metric</declname>
+        </param>
+        <param>
+          <type>VertId</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>const VertBitSet &amp;</type>
+          <declname>finish</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxPathMetric</declname>
+          <defval>FLT_MAX</defval>
+        </param>
+        <briefdescription>
+<para>builds shortest path in given metric from start to finish vertices; if no path can be found then empty path is returned </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" line="105" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" declline="105" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1ga6fdee8dc184f919e5ad6ef399faf48ba" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::vector&lt; VertId &gt;</type>
+        <definition>MRMESH_API std::vector&lt; VertId &gt; MR::getVertexOrdering</definition>
+        <argsstring>(const MeshTopology &amp;topology, VertBitSet region)</argsstring>
+        <name>getVertexOrdering</name>
+        <qualifiedname>MR::getVertexOrdering</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>VertBitSet</type>
+          <declname>region</declname>
+        </param>
+        <briefdescription>
+<para>returns all vertices from given region ordered in each connected component in breadth-first way </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" line="109" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" declline="109" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1gad555d8d4c714e8afe8e6254a6a671f0c" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::vector&lt; EdgeLoop &gt;</type>
+        <definition>MRMESH_API std::vector&lt; EdgeLoop &gt; MR::extractClosedLoops</definition>
+        <argsstring>(const MeshTopology &amp;topology, EdgeBitSet &amp;edges)</argsstring>
+        <name>extractClosedLoops</name>
+        <qualifiedname>MR::extractClosedLoops</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>EdgeBitSet &amp;</type>
+          <declname>edges</declname>
+        </param>
+        <briefdescription>
+<para>finds all closed loops from given edges and removes them from edges </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" line="112" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" declline="112" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1gaa78455fdb147a0790b3838d7d30344f0" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> std::vector&lt; EdgeLoop &gt;</type>
+        <definition>MRMESH_API std::vector&lt; EdgeLoop &gt; MR::extractClosedLoops</definition>
+        <argsstring>(const MeshTopology &amp;topology, const std::vector&lt; EdgeId &gt; &amp;inEdges, EdgeBitSet *outNotLoopEdges=nullptr)</argsstring>
+        <name>extractClosedLoops</name>
+        <qualifiedname>MR::extractClosedLoops</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; EdgeId &gt; &amp;</type>
+          <declname>inEdges</declname>
+        </param>
+        <param>
+          <type>EdgeBitSet *</type>
+          <declname>outNotLoopEdges</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" line="113" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" declline="113" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1gae2366000776e2dc3664a7940a93576b2" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> EdgeLoop</type>
+        <definition>MRMESH_API EdgeLoop MR::extractLongestClosedLoop</definition>
+        <argsstring>(const Mesh &amp;mesh, const std::vector&lt; EdgeId &gt; &amp;inEdges)</argsstring>
+        <name>extractLongestClosedLoop</name>
+        <qualifiedname>MR::extractLongestClosedLoop</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; EdgeId &gt; &amp;</type>
+          <declname>inEdges</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" line="115" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" declline="115" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1ga66d97db02721f28995b008655b007858" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <definition>MRMESH_API bool MR::dilateRegionByMetric</definition>
+        <argsstring>(const MeshTopology &amp;topology, const EdgeMetric &amp;metric, FaceBitSet &amp;region, float dilation, ProgressCallback callback={})</argsstring>
+        <name>dilateRegionByMetric</name>
+        <qualifiedname>MR::dilateRegionByMetric</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>const EdgeMetric &amp;</type>
+          <declname>metric</declname>
+        </param>
+        <param>
+          <type>FaceBitSet &amp;</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>dilation</declname>
+        </param>
+        <param>
+          <type>ProgressCallback</type>
+          <declname>callback</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>expands the region (of faces or vertices) on given metric value. returns false if callback also returns false </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" line="118" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" declline="118" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1ga82a5afb8de3902550a10da9e2444b423" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <definition>MRMESH_API bool MR::dilateRegionByMetric</definition>
+        <argsstring>(const MeshTopology &amp;topology, const EdgeMetric &amp;metric, VertBitSet &amp;region, float dilation, ProgressCallback callback={})</argsstring>
+        <name>dilateRegionByMetric</name>
+        <qualifiedname>MR::dilateRegionByMetric</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>const EdgeMetric &amp;</type>
+          <declname>metric</declname>
+        </param>
+        <param>
+          <type>VertBitSet &amp;</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>dilation</declname>
+        </param>
+        <param>
+          <type>ProgressCallback</type>
+          <declname>callback</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" line="119" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" declline="119" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1ga171493fcbadfb73a4d6a78c595e3bf3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <definition>MRMESH_API bool MR::dilateRegionByMetric</definition>
+        <argsstring>(const MeshTopology &amp;topology, const EdgeMetric &amp;metric, UndirectedEdgeBitSet &amp;region, float dilation, ProgressCallback callback={})</argsstring>
+        <name>dilateRegionByMetric</name>
+        <qualifiedname>MR::dilateRegionByMetric</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>const EdgeMetric &amp;</type>
+          <declname>metric</declname>
+        </param>
+        <param>
+          <type>UndirectedEdgeBitSet &amp;</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>dilation</declname>
+        </param>
+        <param>
+          <type>ProgressCallback</type>
+          <declname>callback</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" line="120" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" declline="120" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1ga8bfca4b235df879903041464da622e0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <definition>MRMESH_API bool MR::erodeRegionByMetric</definition>
+        <argsstring>(const MeshTopology &amp;topology, const EdgeMetric &amp;metric, FaceBitSet &amp;region, float dilation, ProgressCallback callback={})</argsstring>
+        <name>erodeRegionByMetric</name>
+        <qualifiedname>MR::erodeRegionByMetric</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>const EdgeMetric &amp;</type>
+          <declname>metric</declname>
+        </param>
+        <param>
+          <type>FaceBitSet &amp;</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>dilation</declname>
+        </param>
+        <param>
+          <type>ProgressCallback</type>
+          <declname>callback</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>shrinks the region (of faces or vertices) on given metric value. returns false if callback also returns false </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" line="123" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" declline="123" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1gab0aae6697459423bfb236b1913b86cc0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <definition>MRMESH_API bool MR::erodeRegionByMetric</definition>
+        <argsstring>(const MeshTopology &amp;topology, const EdgeMetric &amp;metric, VertBitSet &amp;region, float dilation, ProgressCallback callback={})</argsstring>
+        <name>erodeRegionByMetric</name>
+        <qualifiedname>MR::erodeRegionByMetric</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>const EdgeMetric &amp;</type>
+          <declname>metric</declname>
+        </param>
+        <param>
+          <type>VertBitSet &amp;</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>dilation</declname>
+        </param>
+        <param>
+          <type>ProgressCallback</type>
+          <declname>callback</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" line="124" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" declline="124" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1gad0a3f4dc474226d76e45efc5f9f7f5e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <definition>MRMESH_API bool MR::erodeRegionByMetric</definition>
+        <argsstring>(const MeshTopology &amp;topology, const EdgeMetric &amp;metric, UndirectedEdgeBitSet &amp;region, float dilation, ProgressCallback callback={})</argsstring>
+        <name>erodeRegionByMetric</name>
+        <qualifiedname>MR::erodeRegionByMetric</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>const EdgeMetric &amp;</type>
+          <declname>metric</declname>
+        </param>
+        <param>
+          <type>UndirectedEdgeBitSet &amp;</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>dilation</declname>
+        </param>
+        <param>
+          <type>ProgressCallback</type>
+          <declname>callback</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" line="125" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" declline="125" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1gabe8914755de31512300888af93f5142a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <definition>MRMESH_API bool MR::dilateRegion</definition>
+        <argsstring>(const Mesh &amp;mesh, FaceBitSet &amp;region, float dilation, ProgressCallback callback={})</argsstring>
+        <name>dilateRegion</name>
+        <qualifiedname>MR::dilateRegion</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>FaceBitSet &amp;</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>dilation</declname>
+        </param>
+        <param>
+          <type>ProgressCallback</type>
+          <declname>callback</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>expands the region (of faces or vertices) on given value (in meters). returns false if callback also returns false </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" line="128" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" declline="128" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1gad7e5077703f4e9c731d3ca01a996ced1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <definition>MRMESH_API bool MR::dilateRegion</definition>
+        <argsstring>(const Mesh &amp;mesh, VertBitSet &amp;region, float dilation, ProgressCallback callback={})</argsstring>
+        <name>dilateRegion</name>
+        <qualifiedname>MR::dilateRegion</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>VertBitSet &amp;</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>dilation</declname>
+        </param>
+        <param>
+          <type>ProgressCallback</type>
+          <declname>callback</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" line="129" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" declline="129" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1ga3692c19cc12b5dbfb793357c24f48a3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <definition>MRMESH_API bool MR::dilateRegion</definition>
+        <argsstring>(const Mesh &amp;mesh, UndirectedEdgeBitSet &amp;region, float dilation, ProgressCallback callback={})</argsstring>
+        <name>dilateRegion</name>
+        <qualifiedname>MR::dilateRegion</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>UndirectedEdgeBitSet &amp;</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>dilation</declname>
+        </param>
+        <param>
+          <type>ProgressCallback</type>
+          <declname>callback</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" line="130" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" declline="130" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1ga2ef7ece80ed40c7ff65aae8e213192ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <definition>MRMESH_API bool MR::dilateRegion</definition>
+        <argsstring>(const MeshTopology &amp;topology, const VertCoords &amp;points, FaceBitSet &amp;region, float dilation, ProgressCallback callback={})</argsstring>
+        <name>dilateRegion</name>
+        <qualifiedname>MR::dilateRegion</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>const VertCoords &amp;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>FaceBitSet &amp;</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>dilation</declname>
+        </param>
+        <param>
+          <type>ProgressCallback</type>
+          <declname>callback</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" line="131" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" declline="131" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1ga547c5d883c789600e0ed43b29debcc72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <definition>MRMESH_API bool MR::dilateRegion</definition>
+        <argsstring>(const MeshTopology &amp;topology, const VertCoords &amp;points, VertBitSet &amp;region, float dilation, ProgressCallback callback={})</argsstring>
+        <name>dilateRegion</name>
+        <qualifiedname>MR::dilateRegion</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>const VertCoords &amp;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>VertBitSet &amp;</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>dilation</declname>
+        </param>
+        <param>
+          <type>ProgressCallback</type>
+          <declname>callback</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" line="132" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" declline="132" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1gac1e92a507fa2d123455e8a8585f66524" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <definition>MRMESH_API bool MR::dilateRegion</definition>
+        <argsstring>(const MeshTopology &amp;topology, const VertCoords &amp;points, UndirectedEdgeBitSet &amp;region, float dilation, ProgressCallback callback={})</argsstring>
+        <name>dilateRegion</name>
+        <qualifiedname>MR::dilateRegion</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>const VertCoords &amp;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>UndirectedEdgeBitSet &amp;</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>dilation</declname>
+        </param>
+        <param>
+          <type>ProgressCallback</type>
+          <declname>callback</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" line="133" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" declline="133" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1gab00d0047df6c6bddad2ce44ad87eecb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <definition>MRMESH_API bool MR::erodeRegion</definition>
+        <argsstring>(const Mesh &amp;mesh, FaceBitSet &amp;region, float dilation, ProgressCallback callback={})</argsstring>
+        <name>erodeRegion</name>
+        <qualifiedname>MR::erodeRegion</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>FaceBitSet &amp;</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>dilation</declname>
+        </param>
+        <param>
+          <type>ProgressCallback</type>
+          <declname>callback</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>shrinks the region (of faces or vertices) on given value (in meters). returns false if callback also returns false </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" line="136" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" declline="136" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1ga8cc6869db37a7f25eab14ffe0f83f4e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <definition>MRMESH_API bool MR::erodeRegion</definition>
+        <argsstring>(const Mesh &amp;mesh, VertBitSet &amp;region, float dilation, ProgressCallback callback={})</argsstring>
+        <name>erodeRegion</name>
+        <qualifiedname>MR::erodeRegion</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>VertBitSet &amp;</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>dilation</declname>
+        </param>
+        <param>
+          <type>ProgressCallback</type>
+          <declname>callback</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" line="137" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" declline="137" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1ga49b66a35e3e4f02f4034d338471be491" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <definition>MRMESH_API bool MR::erodeRegion</definition>
+        <argsstring>(const Mesh &amp;mesh, UndirectedEdgeBitSet &amp;region, float dilation, ProgressCallback callback={})</argsstring>
+        <name>erodeRegion</name>
+        <qualifiedname>MR::erodeRegion</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>UndirectedEdgeBitSet &amp;</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>dilation</declname>
+        </param>
+        <param>
+          <type>ProgressCallback</type>
+          <declname>callback</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" line="138" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" declline="138" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1ga283702fa364a20f79eb79fa8d12043b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <definition>MRMESH_API bool MR::erodeRegion</definition>
+        <argsstring>(const MeshTopology &amp;topology, const VertCoords &amp;points, FaceBitSet &amp;region, float dilation, ProgressCallback callback={})</argsstring>
+        <name>erodeRegion</name>
+        <qualifiedname>MR::erodeRegion</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>const VertCoords &amp;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>FaceBitSet &amp;</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>dilation</declname>
+        </param>
+        <param>
+          <type>ProgressCallback</type>
+          <declname>callback</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" line="139" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" declline="139" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1ga2038b7a7017941618db261ca22524c0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <definition>MRMESH_API bool MR::erodeRegion</definition>
+        <argsstring>(const MeshTopology &amp;topology, const VertCoords &amp;points, VertBitSet &amp;region, float dilation, ProgressCallback callback={})</argsstring>
+        <name>erodeRegion</name>
+        <qualifiedname>MR::erodeRegion</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>const VertCoords &amp;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>VertBitSet &amp;</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>dilation</declname>
+        </param>
+        <param>
+          <type>ProgressCallback</type>
+          <declname>callback</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" line="140" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" declline="140" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1ga96b503a81fc3a15687125c8c5a2bb699" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> bool</type>
+        <definition>MRMESH_API bool MR::erodeRegion</definition>
+        <argsstring>(const MeshTopology &amp;topology, const VertCoords &amp;points, UndirectedEdgeBitSet &amp;region, float dilation, ProgressCallback callback={})</argsstring>
+        <name>erodeRegion</name>
+        <qualifiedname>MR::erodeRegion</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>const VertCoords &amp;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>UndirectedEdgeBitSet &amp;</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>dilation</declname>
+        </param>
+        <param>
+          <type>ProgressCallback</type>
+          <declname>callback</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" line="141" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" declline="141" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1ga6e5b3c68fdd285e2d6000b6a83bf9ecd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> int</type>
+        <definition>MRMESH_API int MR::getPathPlaneIntersections</definition>
+        <argsstring>(const Mesh &amp;mesh, const EdgePath &amp;path, const Plane3f &amp;plane, std::vector&lt; MeshEdgePoint &gt; *outIntersections=nullptr)</argsstring>
+        <name>getPathPlaneIntersections</name>
+        <qualifiedname>MR::getPathPlaneIntersections</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const EdgePath &amp;</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>const Plane3f &amp;</type>
+          <declname>plane</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; MeshEdgePoint &gt; *</type>
+          <declname>outIntersections</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>finds all intersection points between given path and plane, adds them in outIntersections and returns their number </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" line="144" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" declline="144" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1ga1608a3645812bea05245447d9c392e4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> int</type>
+        <definition>MRMESH_API int MR::getContourPlaneIntersections</definition>
+        <argsstring>(const Contour3f &amp;path, const Plane3f &amp;plane, std::vector&lt; Vector3f &gt; *outIntersections=nullptr)</argsstring>
+        <name>getContourPlaneIntersections</name>
+        <qualifiedname>MR::getContourPlaneIntersections</qualifiedname>
+        <param>
+          <type>const Contour3f &amp;</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>const Plane3f &amp;</type>
+          <declname>plane</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; Vector3f &gt; *</type>
+          <declname>outIntersections</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>finds all intersection points between given contour and plane, adds them in outIntersections and returns their number </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" line="148" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" declline="148" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1ga0fe533dcbd844a89077b18ebd4dda8fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> int</type>
+        <definition>MRMESH_API int MR::getPathEdgesInPlane</definition>
+        <argsstring>(const Mesh &amp;mesh, const EdgePath &amp;path, const Plane3f &amp;plane, float tolerance=0.0f, std::vector&lt; EdgeId &gt; *outInPlaneEdges=nullptr)</argsstring>
+        <name>getPathEdgesInPlane</name>
+        <qualifiedname>MR::getPathEdgesInPlane</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const EdgePath &amp;</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>const Plane3f &amp;</type>
+          <declname>plane</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>tolerance</declname>
+          <defval>0.0f</defval>
+        </param>
+        <param>
+          <type>std::vector&lt; EdgeId &gt; *</type>
+          <declname>outInPlaneEdges</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>finds all path edges located in given plane with given tolerance, adds them in outInPlaneEdges and returns their number </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" line="152" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePaths.h" declline="152" declcolumn="16"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MeshBuilder_1_1VertDuplication" kind="struct" language="C++" prot="public">
+    <compoundname>MR::MeshBuilder::VertDuplication</compoundname>
+    <includes refid="MRMeshBuilder_8h" local="no">MRMeshBuilder.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1MeshBuilder_1_1VertDuplication_1af11c3a7954be62b84ca6ea3b824ec5a6" prot="public" static="no" mutable="no">
+        <type>VertId</type>
+        <definition>VertId MR::MeshBuilder::VertDuplication::srcVert</definition>
+        <argsstring></argsstring>
+        <name>srcVert</name>
+        <qualifiedname>MR::MeshBuilder::VertDuplication::srcVert</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" line="41" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1MeshBuilder_1_1VertDuplication_1a304fd55bb8ea2a456b8fdf00cce9e14c" prot="public" static="no" mutable="no">
+        <type>VertId</type>
+        <definition>VertId MR::MeshBuilder::VertDuplication::dupVert</definition>
+        <argsstring></argsstring>
+        <name>dupVert</name>
+        <qualifiedname>MR::MeshBuilder::VertDuplication::dupVert</qualifiedname>
+        <briefdescription>
+<para>original vertex before duplication </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" line="42" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" line="39" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" bodystart="40" bodyend="43"/>
+    <listofallmembers>
+      <member refid="structMR_1_1MeshBuilder_1_1VertDuplication_1a304fd55bb8ea2a456b8fdf00cce9e14c" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertDuplication</scope><name>dupVert</name></member>
+      <member refid="structMR_1_1MeshBuilder_1_1VertDuplication_1af11c3a7954be62b84ca6ea3b824ec5a6" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertDuplication</scope><name>srcVert</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

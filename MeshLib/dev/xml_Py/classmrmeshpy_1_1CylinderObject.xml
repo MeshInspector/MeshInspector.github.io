@@ -1,0 +1,608 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1CylinderObject" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::CylinderObject</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter__76fd3e0afd560dcf4b968132e8074b6d" prot="public" virt="non-virtual">mrmeshpy.AddVisualProperties_FeatureObject_DimensionsVisualizePropertyType_diameter_DimensionsVisualizePropertyType_length</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1CylinderObject_1a3e9a467ae77e792262cffb09b38cce45" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.CylinderObject.StaticClassName</definition>
+        <argsstring>()</argsstring>
+        <name>StaticClassName</name>
+        <qualifiedname>mrmeshpy.CylinderObject.StaticClassName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1aaba564f5dadac77ab41a8b7e62ad1392">StaticClassName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return human readable name of subclass
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11508" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11508" bodyend="11509"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CylinderObject_1a0775d8aa7973b5eb6175e3f46f782f52" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.CylinderObject.StaticClassNameInPlural</definition>
+        <argsstring>()</argsstring>
+        <name>StaticClassNameInPlural</name>
+        <qualifiedname>mrmeshpy.CylinderObject.StaticClassNameInPlural</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1aab981810ff3c0db3137491807fe6e769">StaticClassNameInPlural</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return human readable name of subclass in plural form
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11511" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11511" bodyend="11512"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CylinderObject_1a61ec91e17990fbfb2b2a0da7405540b8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.CylinderObject.StaticTypeName</definition>
+        <argsstring>()</argsstring>
+        <name>StaticTypeName</name>
+        <qualifiedname>mrmeshpy.CylinderObject.StaticTypeName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1a332a90b38de94f746ef76c634fbfdb00">StaticTypeName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return name of subtype for serialization purposes
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11514" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11514" bodyend="11515"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1CylinderObject_1a5e6cd93bf59fcbeb0b0c6f05c401caa9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CylinderObject.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CylinderObject.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a3aa4d51e5d881a8faec9b51637da6364">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Creates simple Cylinder object with center in zero and radius - 1
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11517" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11517" bodyend="11520"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CylinderObject_1a01439225547a22c0e47983d8ce72088d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CylinderObject.__init__</definition>
+        <argsstring>(self, std_vector_Vector3_float pointsToApprox)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CylinderObject.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a3aa4d51e5d881a8faec9b51637da6364">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Vector3__float" kindref="compound">std_vector_Vector3_float</ref></type>
+          <declname>pointsToApprox</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Finds best Cylinder to approx given points
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11522" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11522" bodyend="11525"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CylinderObject_1a2480dce940888372c26cbcd0b8236f9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.CylinderObject.className</definition>
+        <argsstring>(self)</argsstring>
+        <name>className</name>
+        <qualifiedname>mrmeshpy.CylinderObject.className</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1a4ff00d6aea25df6e8b48aab21b141e4c">className</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11526" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11526" bodyend="11527"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CylinderObject_1a4b85a21a4b26883cb9b4974663a0170b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.CylinderObject.classNameInPlural</definition>
+        <argsstring>(self)</argsstring>
+        <name>classNameInPlural</name>
+        <qualifiedname>mrmeshpy.CylinderObject.classNameInPlural</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1ab1bd1f5f0f94b0e000d3d525cb290ded">classNameInPlural</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11528" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11528" bodyend="11529"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CylinderObject_1a1bc8bddea8e36a975ed247668424f9e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
+        <definition> Object mrmeshpy.CylinderObject.clone</definition>
+        <argsstring>(self)</argsstring>
+        <name>clone</name>
+        <qualifiedname>mrmeshpy.CylinderObject.clone</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a1aeb8f658d1ec828372eb5f234f696fd">clone</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>clones this object only, without its children,
+making new object the owner of all copied resources
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11530" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11530" bodyend="11531"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CylinderObject_1a7ecec0b28c1910736c0c81288119ff67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty" kindref="compound">std_vector_FeatureObjectSharedProperty</ref></type>
+        <definition> std_vector_FeatureObjectSharedProperty mrmeshpy.CylinderObject.getAllSharedProperties</definition>
+        <argsstring>(self)</argsstring>
+        <name>getAllSharedProperties</name>
+        <qualifiedname>mrmeshpy.CylinderObject.getAllSharedProperties</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1a23676bb9fe5cb1841b3b3aba602cd2d5">getAllSharedProperties</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Create and generate list of bounded getters and setters for the main properties of feature object, together with prop. name for display and edit into UI.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11532" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11532" bodyend="11533"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CylinderObject_1a5facccd36633ed69848a3d24fbd1926b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.CylinderObject.getBasePoint</definition>
+        <argsstring>(self, ViewportId id=...)</argsstring>
+        <name>getBasePoint</name>
+        <qualifiedname>mrmeshpy.CylinderObject.getBasePoint</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1a9bd28c315bbee7dcf28bf18da8c115bc">getBasePoint</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns point considered as base for the feature
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11534" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11534" bodyend="11537"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CylinderObject_1af10b3f11396fe4a923b3c559e806e169" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.CylinderObject.getCenter</definition>
+        <argsstring>(self, ViewportId id=...)</argsstring>
+        <name>getCenter</name>
+        <qualifiedname>mrmeshpy.CylinderObject.getCenter</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>calculates center from xf
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11538" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11538" bodyend="11541"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CylinderObject_1a8ec00d93a2b4a03ea38f946492a23f34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.CylinderObject.getDirection</definition>
+        <argsstring>(self, ViewportId id=...)</argsstring>
+        <name>getDirection</name>
+        <qualifiedname>mrmeshpy.CylinderObject.getDirection</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>calculates main axis direction from xf
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11542" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11542" bodyend="11545"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CylinderObject_1ae3e3b54a19ed8db5072248e64b0d38ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.CylinderObject.getLength</definition>
+        <argsstring>(self, ViewportId id=...)</argsstring>
+        <name>getLength</name>
+        <qualifiedname>mrmeshpy.CylinderObject.getLength</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>calculates cylinder length from xf
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11546" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11546" bodyend="11549"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CylinderObject_1aa79c1d70901d8c56ca084ed909e2383b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.CylinderObject.getRadius</definition>
+        <argsstring>(self, ViewportId id=...)</argsstring>
+        <name>getRadius</name>
+        <qualifiedname>mrmeshpy.CylinderObject.getRadius</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>calculates radius from xf
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11550" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11550" bodyend="11553"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CylinderObject_1a3afc9742feece54cc1c2fe8a15f026d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FeatureObjectProjectPointResult" kindref="compound">FeatureObjectProjectPointResult</ref></type>
+        <definition> FeatureObjectProjectPointResult mrmeshpy.CylinderObject.projectPoint</definition>
+        <argsstring>(self, Vector3f point, ViewportId id=...)</argsstring>
+        <name>projectPoint</name>
+        <qualifiedname>mrmeshpy.CylinderObject.projectPoint</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1a822f830b8766fa6970649a9429520ba4">projectPoint</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Since a point on an abstract feature is difficult to uniquely parameterize,
+the projection function simultaneously returns the normal to the surface at the projection point.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11554" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11554" bodyend="11555"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CylinderObject_1aadea8ea95f4a7d6e7262a61630104d1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CylinderObject.setCenter</definition>
+        <argsstring>(self, Vector3f center, ViewportId id=...)</argsstring>
+        <name>setCenter</name>
+        <qualifiedname>mrmeshpy.CylinderObject.setCenter</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>center</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>updates xf to fit given center
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11556" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11556" bodyend="11559"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CylinderObject_1a5542447d7ea996e28fadd427d4b8640b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CylinderObject.setDirection</definition>
+        <argsstring>(self, Vector3f normal, ViewportId id=...)</argsstring>
+        <name>setDirection</name>
+        <qualifiedname>mrmeshpy.CylinderObject.setDirection</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>normal</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>updates xf to fit main axis
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11560" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11560" bodyend="11563"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CylinderObject_1a9b6ba7c31170d4c348d90cdd97aa6bb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CylinderObject.setLength</definition>
+        <argsstring>(self, float length, ViewportId id=...)</argsstring>
+        <name>setLength</name>
+        <qualifiedname>mrmeshpy.CylinderObject.setLength</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>length</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>updates xf to fit cylinder length
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11564" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11564" bodyend="11567"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CylinderObject_1a1fbe11fbcb0f863f757110ef9db8f559" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CylinderObject.setRadius</definition>
+        <argsstring>(self, float radius, ViewportId id=...)</argsstring>
+        <name>setRadius</name>
+        <qualifiedname>mrmeshpy.CylinderObject.setRadius</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>updates xf to fit given radius
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11568" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11568" bodyend="11571"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CylinderObject_1a2dce5b23cbf3a8c59c1f022eb6eeb51c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
+        <definition> Object mrmeshpy.CylinderObject.shallowClone</definition>
+        <argsstring>(self)</argsstring>
+        <name>shallowClone</name>
+        <qualifiedname>mrmeshpy.CylinderObject.shallowClone</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a2f1849493da5afd051a79175b5f08734">shallowClone</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>clones this object only, without its children,
+making new object to share resources with this object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11572" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11572" bodyend="11573"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CylinderObject_1a7007f9ec38b4c2c61176f1c3e0990e8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.CylinderObject.typeName</definition>
+        <argsstring>(self)</argsstring>
+        <name>typeName</name>
+        <qualifiedname>mrmeshpy.CylinderObject.typeName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1aef685fbdedc360b4ad4d91fc16242463">typeName</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11574" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11574" bodyend="11575"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::CylinderObject
+Aliases:  ObjKindTraits_FeaturesObjectKind_Cylinder.type
+
+Object to show Cylinder feature, position and radius are controlled by xf
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.CylinderObject</label>
+        <link refid="classmrmeshpy_1_1CylinderObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.AddVisualProperties_FeatureObject_DimensionsVisualizePropertyType_diameter_DimensionsVisualizePropertyType_length</label>
+        <link refid="classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter__76fd3e0afd560dcf4b968132e8074b6d"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.FeatureObject</label>
+        <link refid="classmrmeshpy_1_1FeatureObject"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>mrmeshpy.Object</label>
+        <link refid="classmrmeshpy_1_1Object"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>mrmeshpy.ObjectChildrenHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectChildrenHolder"/>
+      </node>
+      <node id="4">
+        <label>mrmeshpy.VisualObject</label>
+        <link refid="classmrmeshpy_1_1VisualObject"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.CylinderObject</label>
+        <link refid="classmrmeshpy_1_1CylinderObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.AddVisualProperties_FeatureObject_DimensionsVisualizePropertyType_diameter_DimensionsVisualizePropertyType_length</label>
+        <link refid="classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter__76fd3e0afd560dcf4b968132e8074b6d"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.FeatureObject</label>
+        <link refid="classmrmeshpy_1_1FeatureObject"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>mrmeshpy.Object</label>
+        <link refid="classmrmeshpy_1_1Object"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>mrmeshpy.ObjectChildrenHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectChildrenHolder"/>
+      </node>
+      <node id="4">
+        <label>mrmeshpy.VisualObject</label>
+        <link refid="classmrmeshpy_1_1VisualObject"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11500" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11500" bodyend="11575"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1CylinderObject_1a5e6cd93bf59fcbeb0b0c6f05c401caa9" prot="public" virt="non-virtual"><scope>mrmeshpy::CylinderObject</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CylinderObject_1a01439225547a22c0e47983d8ce72088d" prot="public" virt="non-virtual"><scope>mrmeshpy::CylinderObject</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CylinderObject_1a2480dce940888372c26cbcd0b8236f9d" prot="public" virt="non-virtual"><scope>mrmeshpy::CylinderObject</scope><name>className</name></member>
+      <member refid="classmrmeshpy_1_1CylinderObject_1a4b85a21a4b26883cb9b4974663a0170b" prot="public" virt="non-virtual"><scope>mrmeshpy::CylinderObject</scope><name>classNameInPlural</name></member>
+      <member refid="classmrmeshpy_1_1CylinderObject_1a1bc8bddea8e36a975ed247668424f9e9" prot="public" virt="non-virtual"><scope>mrmeshpy::CylinderObject</scope><name>clone</name></member>
+      <member refid="classmrmeshpy_1_1CylinderObject_1a7ecec0b28c1910736c0c81288119ff67" prot="public" virt="non-virtual"><scope>mrmeshpy::CylinderObject</scope><name>getAllSharedProperties</name></member>
+      <member refid="classmrmeshpy_1_1CylinderObject_1a5facccd36633ed69848a3d24fbd1926b" prot="public" virt="non-virtual"><scope>mrmeshpy::CylinderObject</scope><name>getBasePoint</name></member>
+      <member refid="classmrmeshpy_1_1CylinderObject_1af10b3f11396fe4a923b3c559e806e169" prot="public" virt="non-virtual"><scope>mrmeshpy::CylinderObject</scope><name>getCenter</name></member>
+      <member refid="classmrmeshpy_1_1CylinderObject_1a8ec00d93a2b4a03ea38f946492a23f34" prot="public" virt="non-virtual"><scope>mrmeshpy::CylinderObject</scope><name>getDirection</name></member>
+      <member refid="classmrmeshpy_1_1CylinderObject_1ae3e3b54a19ed8db5072248e64b0d38ee" prot="public" virt="non-virtual"><scope>mrmeshpy::CylinderObject</scope><name>getLength</name></member>
+      <member refid="classmrmeshpy_1_1CylinderObject_1aa79c1d70901d8c56ca084ed909e2383b" prot="public" virt="non-virtual"><scope>mrmeshpy::CylinderObject</scope><name>getRadius</name></member>
+      <member refid="classmrmeshpy_1_1CylinderObject_1a3afc9742feece54cc1c2fe8a15f026d2" prot="public" virt="non-virtual"><scope>mrmeshpy::CylinderObject</scope><name>projectPoint</name></member>
+      <member refid="classmrmeshpy_1_1CylinderObject_1aadea8ea95f4a7d6e7262a61630104d1a" prot="public" virt="non-virtual"><scope>mrmeshpy::CylinderObject</scope><name>setCenter</name></member>
+      <member refid="classmrmeshpy_1_1CylinderObject_1a5542447d7ea996e28fadd427d4b8640b" prot="public" virt="non-virtual"><scope>mrmeshpy::CylinderObject</scope><name>setDirection</name></member>
+      <member refid="classmrmeshpy_1_1CylinderObject_1a9b6ba7c31170d4c348d90cdd97aa6bb4" prot="public" virt="non-virtual"><scope>mrmeshpy::CylinderObject</scope><name>setLength</name></member>
+      <member refid="classmrmeshpy_1_1CylinderObject_1a1fbe11fbcb0f863f757110ef9db8f559" prot="public" virt="non-virtual"><scope>mrmeshpy::CylinderObject</scope><name>setRadius</name></member>
+      <member refid="classmrmeshpy_1_1CylinderObject_1a2dce5b23cbf3a8c59c1f022eb6eeb51c" prot="public" virt="non-virtual"><scope>mrmeshpy::CylinderObject</scope><name>shallowClone</name></member>
+      <member refid="classmrmeshpy_1_1CylinderObject_1a3e9a467ae77e792262cffb09b38cce45" prot="public" virt="non-virtual"><scope>mrmeshpy::CylinderObject</scope><name>StaticClassName</name></member>
+      <member refid="classmrmeshpy_1_1CylinderObject_1a0775d8aa7973b5eb6175e3f46f782f52" prot="public" virt="non-virtual"><scope>mrmeshpy::CylinderObject</scope><name>StaticClassNameInPlural</name></member>
+      <member refid="classmrmeshpy_1_1CylinderObject_1a61ec91e17990fbfb2b2a0da7405540b8" prot="public" virt="non-virtual"><scope>mrmeshpy::CylinderObject</scope><name>StaticTypeName</name></member>
+      <member refid="classmrmeshpy_1_1CylinderObject_1a7007f9ec38b4c2c61176f1c3e0990e8c" prot="public" virt="non-virtual"><scope>mrmeshpy::CylinderObject</scope><name>typeName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

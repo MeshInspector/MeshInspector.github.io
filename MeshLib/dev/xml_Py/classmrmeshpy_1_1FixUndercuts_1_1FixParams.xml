@@ -1,0 +1,514 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1FixUndercuts_1_1FixParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::FixUndercuts::FixParams</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1FixUndercuts_1_1FixParams_1a6744eb82733197f7d2b774513c201608" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FixUndercuts.FixParams::_offsetof_bottomExtension</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_bottomExtension</name>
+        <qualifiedname>mrmeshpy.FixUndercuts.FixParams._offsetof_bottomExtension</qualifiedname>
+        <initializer>=  20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20664" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20664" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FixUndercuts_1_1FixParams_1a3f8685d613dbe0e978f4eb2538cc1517" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FixUndercuts.FixParams::_offsetof_cb</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_cb</name>
+        <qualifiedname>mrmeshpy.FixUndercuts.FixParams._offsetof_cb</qualifiedname>
+        <initializer>=  40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20665" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20665" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FixUndercuts_1_1FixParams_1a9f5d891930c3446dff2fd3f60319da4d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FixUndercuts.FixParams::_offsetof_findParameters</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_findParameters</name>
+        <qualifiedname>mrmeshpy.FixUndercuts.FixParams._offsetof_findParameters</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20666" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20666" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FixUndercuts_1_1FixParams_1a5f3c575c67bf28cc0c5d03551d78c16e" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FixUndercuts.FixParams::_offsetof_region</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_region</name>
+        <qualifiedname>mrmeshpy.FixUndercuts.FixParams._offsetof_region</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20667" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20667" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FixUndercuts_1_1FixParams_1aa503e9458a58f38634f764c6f0774d8a" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FixUndercuts.FixParams::_offsetof_smooth</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_smooth</name>
+        <qualifiedname>mrmeshpy.FixUndercuts.FixParams._offsetof_smooth</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20668" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20668" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FixUndercuts_1_1FixParams_1a514b3d6aee2f66c29f449ba1d9a86c16" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FixUndercuts.FixParams::_offsetof_voxelSize</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_voxelSize</name>
+        <qualifiedname>mrmeshpy.FixUndercuts.FixParams._offsetof_voxelSize</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20669" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20669" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FixUndercuts_1_1FixParams_1acef2f46f53fac4a0f7288f465b825c66" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FixUndercuts.FixParams.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FixUndercuts.FixParams.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20673" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20673" bodyend="20674"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixUndercuts_1_1FixParams_1a2db4091c6964be254a24dccace253cba" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FixUndercuts_1_1FixParams" kindref="compound">FixUndercuts.FixParams</ref></type>
+        <definition> FixUndercuts.FixParams mrmeshpy.FixUndercuts.FixParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.FixUndercuts.FixParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20677" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20677" bodyend="20678"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixUndercuts_1_1FixParams_1a2db4091c6964be254a24dccace253cba" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FixUndercuts_1_1FixParams" kindref="compound">FixUndercuts.FixParams</ref></type>
+        <definition> FixUndercuts.FixParams mrmeshpy.FixUndercuts.FixParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.FixUndercuts.FixParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20681" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20681" bodyend="20682"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FixUndercuts_1_1FixParams_1a6de6384dd4ce68168bd45a01c66e7bb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FixUndercuts.FixParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FixUndercuts.FixParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20684" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20684" bodyend="20685"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixUndercuts_1_1FixParams_1a31b1027da3a80f949a69d64a8cba90c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FixUndercuts.FixParams.__init__</definition>
+        <argsstring>(self, FixUndercuts.FixParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FixUndercuts.FixParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FixUndercuts_1_1FixParams" kindref="compound">FixUndercuts.FixParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20687" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20687" bodyend="20690"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixUndercuts_1_1FixParams_1af1ef57e8bd8ce10b2215b023a604a262" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FixUndercuts.FixParams.__init__</definition>
+        <argsstring>(self, FixUndercuts.FindParams findParameters, float voxelSize, float bottomExtension, FaceBitSet region, bool smooth, func_bool_from_float cb)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FixUndercuts.FixParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FixUndercuts_1_1FindParams" kindref="compound">FixUndercuts.FindParams</ref></type>
+          <declname>findParameters</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>voxelSize</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>bottomExtension</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>smooth</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20692" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20692" bodyend="20695"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixUndercuts_1_1FixParams_1afea4240bfe67c58ab6db1362a2781955" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.FixUndercuts.FixParams.bottomExtension</definition>
+        <argsstring>(self)</argsstring>
+        <name>bottomExtension</name>
+        <qualifiedname>mrmeshpy.FixUndercuts.FixParams.bottomExtension</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>minimum extension of bottom part of the mesh
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20697" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20697" bodyend="20700"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixUndercuts_1_1FixParams_1a9ec687ac194321ebcadb06578cdfe401" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FixUndercuts.FixParams.bottomExtension</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>bottomExtension</name>
+        <qualifiedname>mrmeshpy.FixUndercuts.FixParams.bottomExtension</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20702" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20702" bodyend="20703"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixUndercuts_1_1FixParams_1a758e94204097a6687e5ff5c37cd525ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FixUndercuts_1_1FindParams" kindref="compound">FixUndercuts.FindParams</ref></type>
+        <definition> FixUndercuts.FindParams mrmeshpy.FixUndercuts.FixParams.findParameters</definition>
+        <argsstring>(self)</argsstring>
+        <name>findParameters</name>
+        <qualifiedname>mrmeshpy.FixUndercuts.FixParams.findParameters</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>parameters of what is considered as undercut
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20705" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20705" bodyend="20708"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixUndercuts_1_1FixParams_1af6e416d20a2a1f944d2421c842dd21c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FixUndercuts.FixParams.findParameters</definition>
+        <argsstring>(self, FixUndercuts.FindParams arg1)</argsstring>
+        <name>findParameters</name>
+        <qualifiedname>mrmeshpy.FixUndercuts.FixParams.findParameters</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FixUndercuts_1_1FindParams" kindref="compound">FixUndercuts.FindParams</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20710" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20710" bodyend="20711"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixUndercuts_1_1FixParams_1afa8c43fd75e40718742d713e51b6542f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition> FaceBitSet mrmeshpy.FixUndercuts.FixParams.region</definition>
+        <argsstring>(self)</argsstring>
+        <name>region</name>
+        <qualifiedname>mrmeshpy.FixUndercuts.FixParams.region</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if set - only this region will be fixed (but still all mesh will be rebuild)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20713" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20713" bodyend="20716"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixUndercuts_1_1FixParams_1af18fdc54ca3955cdaf64837d7a10f2fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FixUndercuts.FixParams.region</definition>
+        <argsstring>(self, FaceBitSet arg1)</argsstring>
+        <name>region</name>
+        <qualifiedname>mrmeshpy.FixUndercuts.FixParams.region</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20718" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20718" bodyend="20719"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixUndercuts_1_1FixParams_1a592cf756a486f3d9f1ef74a645a1c48f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.FixUndercuts.FixParams.smooth</definition>
+        <argsstring>(self)</argsstring>
+        <name>smooth</name>
+        <qualifiedname>mrmeshpy.FixUndercuts.FixParams.smooth</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if true applies one iterations of gaussian filtering for voxels, useful if thin walls expected
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20721" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20721" bodyend="20724"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixUndercuts_1_1FixParams_1ae06b33f6b1ea4f911bae1a28f0cf3cb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FixUndercuts.FixParams.smooth</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>smooth</name>
+        <qualifiedname>mrmeshpy.FixUndercuts.FixParams.smooth</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20726" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20726" bodyend="20727"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixUndercuts_1_1FixParams_1a6a391378d9c66ef152a9feecfd0f4705" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.FixUndercuts.FixParams.voxelSize</definition>
+        <argsstring>(self)</argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>mrmeshpy.FixUndercuts.FixParams.voxelSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>voxel size for internal computations: lower size - better precision but more system resources required
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20729" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20729" bodyend="20732"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixUndercuts_1_1FixParams_1ae18af7330d2cf47b4e075946dc8a365e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FixUndercuts.FixParams.voxelSize</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>mrmeshpy.FixUndercuts.FixParams.voxelSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20734" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20734" bodyend="20736"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::FixUndercuts::FixParams
+
+Fix undercuts function parameters
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.FixUndercuts.FixParams</label>
+        <link refid="classmrmeshpy_1_1FixUndercuts_1_1FixParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_bottomExtension</edgelabel>
+          <edgelabel>_offsetof_cb</edgelabel>
+          <edgelabel>_offsetof_findParameters</edgelabel>
+          <edgelabel>_offsetof_region</edgelabel>
+          <edgelabel>_offsetof_smooth</edgelabel>
+          <edgelabel>_offsetof_voxelSize</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20658" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20658" bodyend="20735"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1FixUndercuts_1_1FixParams_1acef2f46f53fac4a0f7288f465b825c66" prot="public" virt="non-virtual"><scope>mrmeshpy::FixUndercuts::FixParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FixUndercuts_1_1FixParams_1a6de6384dd4ce68168bd45a01c66e7bb5" prot="public" virt="non-virtual"><scope>mrmeshpy::FixUndercuts::FixParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FixUndercuts_1_1FixParams_1a31b1027da3a80f949a69d64a8cba90c1" prot="public" virt="non-virtual"><scope>mrmeshpy::FixUndercuts::FixParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FixUndercuts_1_1FixParams_1af1ef57e8bd8ce10b2215b023a604a262" prot="public" virt="non-virtual"><scope>mrmeshpy::FixUndercuts::FixParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FixUndercuts_1_1FixParams_1a6744eb82733197f7d2b774513c201608" prot="protected" virt="non-virtual"><scope>mrmeshpy::FixUndercuts::FixParams</scope><name>_offsetof_bottomExtension</name></member>
+      <member refid="classmrmeshpy_1_1FixUndercuts_1_1FixParams_1a3f8685d613dbe0e978f4eb2538cc1517" prot="protected" virt="non-virtual"><scope>mrmeshpy::FixUndercuts::FixParams</scope><name>_offsetof_cb</name></member>
+      <member refid="classmrmeshpy_1_1FixUndercuts_1_1FixParams_1a9f5d891930c3446dff2fd3f60319da4d" prot="protected" virt="non-virtual"><scope>mrmeshpy::FixUndercuts::FixParams</scope><name>_offsetof_findParameters</name></member>
+      <member refid="classmrmeshpy_1_1FixUndercuts_1_1FixParams_1a5f3c575c67bf28cc0c5d03551d78c16e" prot="protected" virt="non-virtual"><scope>mrmeshpy::FixUndercuts::FixParams</scope><name>_offsetof_region</name></member>
+      <member refid="classmrmeshpy_1_1FixUndercuts_1_1FixParams_1aa503e9458a58f38634f764c6f0774d8a" prot="protected" virt="non-virtual"><scope>mrmeshpy::FixUndercuts::FixParams</scope><name>_offsetof_smooth</name></member>
+      <member refid="classmrmeshpy_1_1FixUndercuts_1_1FixParams_1a514b3d6aee2f66c29f449ba1d9a86c16" prot="protected" virt="non-virtual"><scope>mrmeshpy::FixUndercuts::FixParams</scope><name>_offsetof_voxelSize</name></member>
+      <member refid="classmrmeshpy_1_1FixUndercuts_1_1FixParams_1afea4240bfe67c58ab6db1362a2781955" prot="public" virt="non-virtual"><scope>mrmeshpy::FixUndercuts::FixParams</scope><name>bottomExtension</name></member>
+      <member refid="classmrmeshpy_1_1FixUndercuts_1_1FixParams_1a9ec687ac194321ebcadb06578cdfe401" prot="public" virt="non-virtual"><scope>mrmeshpy::FixUndercuts::FixParams</scope><name>bottomExtension</name></member>
+      <member refid="classmrmeshpy_1_1FixUndercuts_1_1FixParams_1a758e94204097a6687e5ff5c37cd525ca" prot="public" virt="non-virtual"><scope>mrmeshpy::FixUndercuts::FixParams</scope><name>findParameters</name></member>
+      <member refid="classmrmeshpy_1_1FixUndercuts_1_1FixParams_1af6e416d20a2a1f944d2421c842dd21c8" prot="public" virt="non-virtual"><scope>mrmeshpy::FixUndercuts::FixParams</scope><name>findParameters</name></member>
+      <member refid="classmrmeshpy_1_1FixUndercuts_1_1FixParams_1a2db4091c6964be254a24dccace253cba" prot="public" virt="non-virtual"><scope>mrmeshpy::FixUndercuts::FixParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1FixUndercuts_1_1FixParams_1a2db4091c6964be254a24dccace253cba" prot="public" virt="non-virtual"><scope>mrmeshpy::FixUndercuts::FixParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1FixUndercuts_1_1FixParams_1afa8c43fd75e40718742d713e51b6542f" prot="public" virt="non-virtual"><scope>mrmeshpy::FixUndercuts::FixParams</scope><name>region</name></member>
+      <member refid="classmrmeshpy_1_1FixUndercuts_1_1FixParams_1af18fdc54ca3955cdaf64837d7a10f2fe" prot="public" virt="non-virtual"><scope>mrmeshpy::FixUndercuts::FixParams</scope><name>region</name></member>
+      <member refid="classmrmeshpy_1_1FixUndercuts_1_1FixParams_1a592cf756a486f3d9f1ef74a645a1c48f" prot="public" virt="non-virtual"><scope>mrmeshpy::FixUndercuts::FixParams</scope><name>smooth</name></member>
+      <member refid="classmrmeshpy_1_1FixUndercuts_1_1FixParams_1ae06b33f6b1ea4f911bae1a28f0cf3cb7" prot="public" virt="non-virtual"><scope>mrmeshpy::FixUndercuts::FixParams</scope><name>smooth</name></member>
+      <member refid="classmrmeshpy_1_1FixUndercuts_1_1FixParams_1a6a391378d9c66ef152a9feecfd0f4705" prot="public" virt="non-virtual"><scope>mrmeshpy::FixUndercuts::FixParams</scope><name>voxelSize</name></member>
+      <member refid="classmrmeshpy_1_1FixUndercuts_1_1FixParams_1ae18af7330d2cf47b4e075946dc8a365e" prot="public" virt="non-virtual"><scope>mrmeshpy::FixUndercuts::FixParams</scope><name>voxelSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

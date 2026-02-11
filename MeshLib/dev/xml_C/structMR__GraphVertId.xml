@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR__GraphVertId" kind="struct" language="C++" prot="public">
+    <compoundname>MR_GraphVertId</compoundname>
+    <includes refid="MRId_8h" local="no">MRId.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR__GraphVertId_1af778bf9a44503915cd6dda7e7d09acc7" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR_GraphVertId::id_</definition>
+        <argsstring></argsstring>
+        <name>id_</name>
+        <qualifiedname>MR_GraphVertId::id_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRId.h" line="117" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRId.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Generated from class <computeroutput>MR::GraphVertId</computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR::NoDefInit&lt;MR::GraphVertId&gt;</computeroutput> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRId.h" line="115" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRId.h" bodystart="116" bodyend="118"/>
+    <listofallmembers>
+      <member refid="structMR__GraphVertId_1af778bf9a44503915cd6dda7e7d09acc7" prot="public" virt="non-virtual"><scope>MR_GraphVertId</scope><name>id_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
