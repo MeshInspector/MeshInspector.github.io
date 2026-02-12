@@ -305,6 +305,7 @@ var hierarchy =
     [ "MR::CornerControllerObject", "classMR_1_1CornerControllerObject.html", null ],
     [ "MR::CubicBezierCurve< V >", "structMR_1_1CubicBezierCurve.html", null ],
     [ "MR::CudaAccessor", "classMR_1_1CudaAccessor.html", null ],
+    [ "MR::CurveFunc", "structMR_1_1CurveFunc.html", null ],
     [ "MR::ImGuiMeasurementIndicators::CurveParams", "structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html", null ],
     [ "MR::CurvePoint", "structMR_1_1CurvePoint.html", null ],
     [ "MR::CustomButtonParameters", "structMR_1_1CustomButtonParameters.html", null ],

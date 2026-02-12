@@ -186,6 +186,7 @@ var annotated_dup =
       [ "CubicBezierCurve2f", "classmrmeshpy_1_1CubicBezierCurve2f.html", "classmrmeshpy_1_1CubicBezierCurve2f" ],
       [ "CubicBezierCurve3d", "classmrmeshpy_1_1CubicBezierCurve3d.html", "classmrmeshpy_1_1CubicBezierCurve3d" ],
       [ "CubicBezierCurve3f", "classmrmeshpy_1_1CubicBezierCurve3f.html", "classmrmeshpy_1_1CubicBezierCurve3f" ],
+      [ "CurveFunc", "classmrmeshpy_1_1CurveFunc.html", "classmrmeshpy_1_1CurveFunc" ],
       [ "CurvePoint", "classmrmeshpy_1_1CurvePoint.html", "classmrmeshpy_1_1CurvePoint" ],
       [ "CutByProjectionSettings", "classmrmeshpy_1_1CutByProjectionSettings.html", "classmrmeshpy_1_1CutByProjectionSettings" ],
       [ "CutMeshParameters", "classmrmeshpy_1_1CutMeshParameters.html", "classmrmeshpy_1_1CutMeshParameters" ],

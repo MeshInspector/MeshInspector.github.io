@@ -2223,6 +2223,10 @@
     <member refid="structMR_1_1CursorEntranceListener_1a2d5c27d95f9984ab5220e7c158d41841" kind="function"><name>connect</name></member>
     <member refid="structMR_1_1CursorEntranceListener_1adab2592cc61c2b1c1c6cf9edd031f71b" kind="function"><name>cursorEntrance_</name></member>
   </compound>
+  <compound refid="structMR_1_1CurveFunc" kind="struct"><name>MR::CurveFunc</name>
+    <member refid="structMR_1_1CurveFunc_1a7a92b6effeeb33d9c993fa589c5eff96" kind="variable"><name>func</name></member>
+    <member refid="structMR_1_1CurveFunc_1a21b99a5ca399c63ce98b634bf83fb7fb" kind="variable"><name>totalLength</name></member>
+  </compound>
   <compound refid="structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams" kind="struct"><name>MR::ImGuiMeasurementIndicators::CurveParams</name>
     <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams_1a70593a72a82e65c0669e7eeaea91274e" kind="variable"><name>maxSubdivisionDepth</name></member>
     <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams_1abac2cff41f1bc2c17f07184162976b9f" kind="variable"><name>minSubdivisionDepth</name></member>
@@ -14133,7 +14137,6 @@
     <member refid="namespaceMR_1a740a137f0d7bacae380b12823adae7e6" kind="typedef"><name>BestFitPolynomialf</name></member>
     <member refid="namespaceMR_1aaae9c3e755e20f64341ea4ccc1b0652e" kind="typedef"><name>BestFitPolynomiald</name></member>
     <member refid="namespaceMR_1a2403984460c26289689a1eddd1fb4270" kind="typedef"><name>PathMeshEdgePointCallback</name></member>
-    <member refid="namespaceMR_1a8dffd3366aa2bf51396d6beaf3e47199" kind="typedef"><name>CurveFunc</name></member>
     <member refid="namespaceMR_1a9373564bf8d768311a39df2f41d3d8e4" kind="typedef"><name>CurvePoints</name></member>
     <member refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kind="typedef"><name>Expected</name></member>
     <member refid="namespaceMR_1a7c86003c754649f6ef52d71fcfb9d382" kind="typedef"><name>Unexpected</name></member>
@@ -14453,10 +14456,10 @@
     <member refid="namespaceMR_1a4051b010ed3a3f630d30f6c37ca8133f" kind="function"><name>bendContoursAlongCurve</name></member>
     <member refid="namespaceMR_1a4216194d77fa2405b55e67b177430ef1" kind="function"><name>bendContoursAlongSurfacePath</name></member>
     <member refid="namespaceMR_1a255a8c3a02ec90ae5e76b3c52a5db49d" kind="function"><name>bendContoursAlongSurfacePath</name></member>
-    <member refid="namespaceMR_1ade72d2e5f4e283c92e52eb345fc96f1a" kind="function"><name>findPartialLens</name></member>
+    <member refid="namespaceMR_1a50a414365f27632689e466d8616288f4" kind="function"><name>findPartialLens</name></member>
     <member refid="namespaceMR_1a8106db69dd7d7091f381711d96982a35" kind="function"><name>getCurvePoint</name></member>
-    <member refid="namespaceMR_1a071105a685910abe5dfa30a00eb21e6e" kind="function"><name>curveFromPoints</name></member>
-    <member refid="namespaceMR_1a931e1233023bceb0d651263d17d60eaa" kind="function"><name>curveFromPoints</name></member>
+    <member refid="namespaceMR_1a2a1500ba5291d6dfcb20c3e230c51814" kind="function"><name>curveFromPoints</name></member>
+    <member refid="namespaceMR_1a9a699924824e5de9f52160626d436be2" kind="function"><name>curveFromPoints</name></member>
     <member refid="namespaceMR_1a81c36364408fb0153761ef43b1746a70" kind="function"><name>meshPathCurvePoints</name></member>
     <member refid="namespaceMR_1afce3ee3fdcf54d4005ae930e2697ba31" kind="function"><name>meshPathCurvePoints</name></member>
     <member refid="namespaceMR_1a3289f6374ed80e5ac6467f5029cbc89d" kind="function"><name>addBaseToPlanarMesh</name></member>

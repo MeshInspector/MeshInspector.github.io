@@ -1,0 +1,296 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1CurveFunc" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::CurveFunc</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1CurveFunc_1a379c130da5aa25172c02c2a9f0a71d59" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.CurveFunc::_offsetof_func</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_func</name>
+        <qualifiedname>mrmeshpy.CurveFunc._offsetof_func</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11141" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1CurveFunc_1ade1e384b20b7fbde0f61c5f661e74b22" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.CurveFunc::_offsetof_totalLength</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_totalLength</name>
+        <qualifiedname>mrmeshpy.CurveFunc._offsetof_totalLength</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11142" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11142" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1CurveFunc_1a48ce2f67506119c337922798109a8483" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CurveFunc.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CurveFunc.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11145" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11145" bodyend="11146"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CurveFunc_1a97dedf22fbd407a3dbf3ea42ac90c42e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1CurveFunc" kindref="compound">CurveFunc</ref></type>
+        <definition> CurveFunc mrmeshpy.CurveFunc.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.CurveFunc.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11149" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11149" bodyend="11150"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CurveFunc_1a97dedf22fbd407a3dbf3ea42ac90c42e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1CurveFunc" kindref="compound">CurveFunc</ref></type>
+        <definition> CurveFunc mrmeshpy.CurveFunc.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.CurveFunc.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11153" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11153" bodyend="11154"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1CurveFunc_1af7fe05fcba09cfa3fc6d05dceeb6ab5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CurveFunc.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CurveFunc.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11156" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11156" bodyend="11157"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CurveFunc_1ac28b7951070c75202dc05ae5b5241b50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CurveFunc.__init__</definition>
+        <argsstring>(self, CurveFunc arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CurveFunc.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1CurveFunc" kindref="compound">CurveFunc</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11159" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11159" bodyend="11162"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CurveFunc_1af789f2014937e62fc1b4e81cb9d8ac60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CurveFunc.__init__</definition>
+        <argsstring>(self, func_CurvePoint_from_float func, float totalLength)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CurveFunc.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__CurvePoint__from__float" kindref="compound">func_CurvePoint_from_float</ref></type>
+          <declname>func</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>totalLength</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11164" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11164" bodyend="11167"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CurveFunc_1a40fcd455c41f4f332583fcfdfca18e1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__CurvePoint__from__float" kindref="compound">func_CurvePoint_from_float</ref></type>
+        <definition> func_CurvePoint_from_float mrmeshpy.CurveFunc.func</definition>
+        <argsstring>(self)</argsstring>
+        <name>func</name>
+        <qualifiedname>mrmeshpy.CurveFunc.func</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>curve given as a function: position along curve -&gt; point
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11169" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11169" bodyend="11172"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CurveFunc_1a563497272a919b42037a526274c9bb1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CurveFunc.func</definition>
+        <argsstring>(self, func_CurvePoint_from_float arg1)</argsstring>
+        <name>func</name>
+        <qualifiedname>mrmeshpy.CurveFunc.func</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__CurvePoint__from__float" kindref="compound">func_CurvePoint_from_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11174" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11174" bodyend="11175"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CurveFunc_1a06cd54aeb11c890ad5f5b197123b1f2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.CurveFunc.totalLength</definition>
+        <argsstring>(self)</argsstring>
+        <name>totalLength</name>
+        <qualifiedname>mrmeshpy.CurveFunc.totalLength</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>total length of the given curve
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11177" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11177" bodyend="11180"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CurveFunc_1ab9adaf802764602a0990b7591ec277f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CurveFunc.totalLength</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>totalLength</name>
+        <qualifiedname>mrmeshpy.CurveFunc.totalLength</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11182" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11182" bodyend="11183"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::CurveFunc
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.CurveFunc</label>
+        <link refid="classmrmeshpy_1_1CurveFunc"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_func</edgelabel>
+          <edgelabel>_offsetof_totalLength</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11137" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11137" bodyend="11183"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1CurveFunc_1a48ce2f67506119c337922798109a8483" prot="public" virt="non-virtual"><scope>mrmeshpy::CurveFunc</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CurveFunc_1af7fe05fcba09cfa3fc6d05dceeb6ab5e" prot="public" virt="non-virtual"><scope>mrmeshpy::CurveFunc</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CurveFunc_1ac28b7951070c75202dc05ae5b5241b50" prot="public" virt="non-virtual"><scope>mrmeshpy::CurveFunc</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CurveFunc_1af789f2014937e62fc1b4e81cb9d8ac60" prot="public" virt="non-virtual"><scope>mrmeshpy::CurveFunc</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CurveFunc_1a379c130da5aa25172c02c2a9f0a71d59" prot="protected" virt="non-virtual"><scope>mrmeshpy::CurveFunc</scope><name>_offsetof_func</name></member>
+      <member refid="classmrmeshpy_1_1CurveFunc_1ade1e384b20b7fbde0f61c5f661e74b22" prot="protected" virt="non-virtual"><scope>mrmeshpy::CurveFunc</scope><name>_offsetof_totalLength</name></member>
+      <member refid="classmrmeshpy_1_1CurveFunc_1a40fcd455c41f4f332583fcfdfca18e1a" prot="public" virt="non-virtual"><scope>mrmeshpy::CurveFunc</scope><name>func</name></member>
+      <member refid="classmrmeshpy_1_1CurveFunc_1a563497272a919b42037a526274c9bb1a" prot="public" virt="non-virtual"><scope>mrmeshpy::CurveFunc</scope><name>func</name></member>
+      <member refid="classmrmeshpy_1_1CurveFunc_1a97dedf22fbd407a3dbf3ea42ac90c42e" prot="public" virt="non-virtual"><scope>mrmeshpy::CurveFunc</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1CurveFunc_1a97dedf22fbd407a3dbf3ea42ac90c42e" prot="public" virt="non-virtual"><scope>mrmeshpy::CurveFunc</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1CurveFunc_1a06cd54aeb11c890ad5f5b197123b1f2d" prot="public" virt="non-virtual"><scope>mrmeshpy::CurveFunc</scope><name>totalLength</name></member>
+      <member refid="classmrmeshpy_1_1CurveFunc_1ab9adaf802764602a0990b7591ec277f8" prot="public" virt="non-virtual"><scope>mrmeshpy::CurveFunc</scope><name>totalLength</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

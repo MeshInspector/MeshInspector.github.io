@@ -611,6 +611,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1CursorEntranceListener.html">CursorEntranceListener</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">class to subscribe on CursorEntranceSingal  <a href="structMR_1_1CursorEntranceListener.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1CurveFunc.html">CurveFunc</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1CurvePoint.html">CurvePoint</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1CustomButtonParameters.html">CustomButtonParameters</a></td></tr>
@@ -2291,9 +2293,6 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a2403984460c26289689a1eddd1fb4270" id="r_a2403984460c26289689a1eddd1fb4270"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2403984460c26289689a1eddd1fb4270">PathMeshEdgePointCallback</a> = std::function&lt;void( const <a class="el" href="#a8ffb37085bbd6060f17bcf222941ab8c">MeshEdgePoint</a>&amp; mep )&gt;</td></tr>
 <tr class="memdesc:a2403984460c26289689a1eddd1fb4270"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback for each MeshEdgePoint in path.  <br /></td></tr>
 <tr class="separator:a2403984460c26289689a1eddd1fb4270"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8dffd3366aa2bf51396d6beaf3e47199" id="r_a8dffd3366aa2bf51396d6beaf3e47199"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8dffd3366aa2bf51396d6beaf3e47199">CurveFunc</a> = std::function&lt;<a class="el" href="structMR_1_1CurvePoint.html">CurvePoint</a>(float)&gt;</td></tr>
-<tr class="memdesc:a8dffd3366aa2bf51396d6beaf3e47199"><td class="mdescLeft">&#160;</td><td class="mdescRight">curve given as a function: time -&gt; point  <br /></td></tr>
-<tr class="separator:a8dffd3366aa2bf51396d6beaf3e47199"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9373564bf8d768311a39df2f41d3d8e4" id="r_a9373564bf8d768311a39df2f41d3d8e4"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9373564bf8d768311a39df2f41d3d8e4">CurvePoints</a> = std::vector&lt;<a class="el" href="structMR_1_1CurvePoint.html">CurvePoint</a>&gt;</td></tr>
 <tr class="memdesc:a9373564bf8d768311a39df2f41d3d8e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">curve given as a number of points on it samples at arbitrary steps  <br /></td></tr>
 <tr class="separator:a9373564bf8d768311a39df2f41d3d8e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3401,7 +3400,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a5d85bb6696e4f27accbd2e795fadb536" id="r_a5d85bb6696e4f27accbd2e795fadb536"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d85bb6696e4f27accbd2e795fadb536">alignContoursToMesh</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="#a8746fbb8e09652c686ff0dcf8c01804c">Contours2f</a> &amp;contours, const <a class="el" href="structMR_1_1ContoursMeshAlignParams.html">ContoursMeshAlignParams</a> &amp;params)</td></tr>
 <tr class="memdesc:a5d85bb6696e4f27accbd2e795fadb536"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates planar mesh out of given contour and aligns it to given surface.  <br /></td></tr>
 <tr class="separator:a5d85bb6696e4f27accbd2e795fadb536"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4051b010ed3a3f630d30f6c37ca8133f" id="r_a4051b010ed3a3f630d30f6c37ca8133f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4051b010ed3a3f630d30f6c37ca8133f">bendContoursAlongCurve</a> (const <a class="el" href="#a8746fbb8e09652c686ff0dcf8c01804c">Contours2f</a> &amp;contours, const <a class="el" href="#a8dffd3366aa2bf51396d6beaf3e47199">CurveFunc</a> &amp;curve, const <a class="el" href="structMR_1_1BendContoursAlongCurveParams.html">BendContoursAlongCurveParams</a> &amp;params)</td></tr>
+<tr class="memitem:a4051b010ed3a3f630d30f6c37ca8133f" id="r_a4051b010ed3a3f630d30f6c37ca8133f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4051b010ed3a3f630d30f6c37ca8133f">bendContoursAlongCurve</a> (const <a class="el" href="#a8746fbb8e09652c686ff0dcf8c01804c">Contours2f</a> &amp;contours, const <a class="el" href="structMR_1_1CurveFunc.html">CurveFunc</a> &amp;curve, const <a class="el" href="structMR_1_1BendContoursAlongCurveParams.html">BendContoursAlongCurveParams</a> &amp;params)</td></tr>
 <tr class="memdesc:a4051b010ed3a3f630d30f6c37ca8133f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts contours in thick mesh, and deforms it along given path.  <br /></td></tr>
 <tr class="separator:a4051b010ed3a3f630d30f6c37ca8133f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4216194d77fa2405b55e67b177430ef1" id="r_a4216194d77fa2405b55e67b177430ef1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4216194d77fa2405b55e67b177430ef1">bendContoursAlongSurfacePath</a> (const <a class="el" href="#a8746fbb8e09652c686ff0dcf8c01804c">Contours2f</a> &amp;contours, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, const <a class="el" href="#a7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> &amp;path, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;<a class="el" href="group__BasicGroup.html#gaa162c3dc2622716a0b52d777abfe137a">end</a>, const <a class="el" href="structMR_1_1BendContoursAlongCurveParams.html">BendContoursAlongCurveParams</a> &amp;params)</td></tr>
@@ -3410,14 +3409,14 @@ Functions</h2></td></tr>
 <tr class="memitem:a255a8c3a02ec90ae5e76b3c52a5db49d" id="r_a255a8c3a02ec90ae5e76b3c52a5db49d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a255a8c3a02ec90ae5e76b3c52a5db49d">bendContoursAlongSurfacePath</a> (const <a class="el" href="#a8746fbb8e09652c686ff0dcf8c01804c">Contours2f</a> &amp;contours, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="#a7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> &amp;path, const <a class="el" href="structMR_1_1BendContoursAlongCurveParams.html">BendContoursAlongCurveParams</a> &amp;params)</td></tr>
 <tr class="memdesc:a255a8c3a02ec90ae5e76b3c52a5db49d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts contours in thick mesh, and deforms it along given surface path.  <br /></td></tr>
 <tr class="separator:a255a8c3a02ec90ae5e76b3c52a5db49d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade72d2e5f4e283c92e52eb345fc96f1a" id="r_ade72d2e5f4e283c92e52eb345fc96f1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; float &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade72d2e5f4e283c92e52eb345fc96f1a">findPartialLens</a> (const <a class="el" href="#a9373564bf8d768311a39df2f41d3d8e4">CurvePoints</a> &amp;cp, bool unitLength=true, float *outCurveLen=nullptr)</td></tr>
-<tr class="separator:ade72d2e5f4e283c92e52eb345fc96f1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50a414365f27632689e466d8616288f4" id="r_a50a414365f27632689e466d8616288f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; float &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50a414365f27632689e466d8616288f4">findPartialLens</a> (const <a class="el" href="#a9373564bf8d768311a39df2f41d3d8e4">CurvePoints</a> &amp;cp, float *outCurveLen=nullptr)</td></tr>
+<tr class="separator:a50a414365f27632689e466d8616288f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8106db69dd7d7091f381711d96982a35" id="r_a8106db69dd7d7091f381711d96982a35"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1CurvePoint.html">CurvePoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8106db69dd7d7091f381711d96982a35">getCurvePoint</a> (const <a class="el" href="#a9373564bf8d768311a39df2f41d3d8e4">CurvePoints</a> &amp;cp, const std::vector&lt; float &gt; &amp;lens, float p)</td></tr>
 <tr class="separator:a8106db69dd7d7091f381711d96982a35"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a071105a685910abe5dfa30a00eb21e6e" id="r_a071105a685910abe5dfa30a00eb21e6e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="#a8dffd3366aa2bf51396d6beaf3e47199">CurveFunc</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a071105a685910abe5dfa30a00eb21e6e">curveFromPoints</a> (const <a class="el" href="#a9373564bf8d768311a39df2f41d3d8e4">CurvePoints</a> &amp;cp, bool unitLength=true, float *outCurveLen=nullptr)</td></tr>
-<tr class="separator:a071105a685910abe5dfa30a00eb21e6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a931e1233023bceb0d651263d17d60eaa" id="r_a931e1233023bceb0d651263d17d60eaa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="#a8dffd3366aa2bf51396d6beaf3e47199">CurveFunc</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a931e1233023bceb0d651263d17d60eaa">curveFromPoints</a> (<a class="el" href="#a9373564bf8d768311a39df2f41d3d8e4">CurvePoints</a> &amp;&amp;cp, bool unitLength=true, float *outCurveLen=nullptr)</td></tr>
-<tr class="separator:a931e1233023bceb0d651263d17d60eaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a1500ba5291d6dfcb20c3e230c51814" id="r_a2a1500ba5291d6dfcb20c3e230c51814"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1CurveFunc.html">CurveFunc</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a1500ba5291d6dfcb20c3e230c51814">curveFromPoints</a> (const <a class="el" href="#a9373564bf8d768311a39df2f41d3d8e4">CurvePoints</a> &amp;cp, float *outCurveLen=nullptr)</td></tr>
+<tr class="separator:a2a1500ba5291d6dfcb20c3e230c51814"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a699924824e5de9f52160626d436be2" id="r_a9a699924824e5de9f52160626d436be2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1CurveFunc.html">CurveFunc</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a699924824e5de9f52160626d436be2">curveFromPoints</a> (<a class="el" href="#a9373564bf8d768311a39df2f41d3d8e4">CurvePoints</a> &amp;&amp;cp, float *outCurveLen=nullptr)</td></tr>
+<tr class="separator:a9a699924824e5de9f52160626d436be2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81c36364408fb0153761ef43b1746a70" id="r_a81c36364408fb0153761ef43b1746a70"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a9373564bf8d768311a39df2f41d3d8e4">CurvePoints</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81c36364408fb0153761ef43b1746a70">meshPathCurvePoints</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, const <a class="el" href="#a7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> &amp;path, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;<a class="el" href="group__BasicGroup.html#gaa162c3dc2622716a0b52d777abfe137a">end</a>)</td></tr>
 <tr class="memdesc:a81c36364408fb0153761ef43b1746a70"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts polyline given as a number of MeshTriPoint/MeshEdgePoint into CurvePoints  <br /></td></tr>
 <tr class="separator:a81c36364408fb0153761ef43b1746a70"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -6601,7 +6600,7 @@ same leafs are skipped and different leafs area processed with <code>processLeaf
 <tr class="memitem:afe3d8a0d392d8c39709a37e08a665777" id="r_afe3d8a0d392d8c39709a37e08a665777"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRSymbolMeshFwd_8h.html#a390b9f66fb03f4077f495bc88a5bbe3b">MRSYMBOLMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe3d8a0d392d8c39709a37e08a665777">alignTextToMesh</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1TextMeshAlignParams.html">TextMeshAlignParams</a> &amp;params)</td></tr>
 <tr class="memdesc:afe3d8a0d392d8c39709a37e08a665777"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates symbol mesh and aligns it to given surface.  <br /></td></tr>
 <tr class="separator:afe3d8a0d392d8c39709a37e08a665777"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05f47e9b6592b774b9f2ee9b85d4b0b9" id="r_a05f47e9b6592b774b9f2ee9b85d4b0b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRSymbolMeshFwd_8h.html#a390b9f66fb03f4077f495bc88a5bbe3b">MRSYMBOLMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05f47e9b6592b774b9f2ee9b85d4b0b9">bendTextAlongCurve</a> (const <a class="el" href="#a8dffd3366aa2bf51396d6beaf3e47199">CurveFunc</a> &amp;curve, const <a class="el" href="structMR_1_1BendTextAlongCurveParams.html">BendTextAlongCurveParams</a> &amp;params)</td></tr>
+<tr class="memitem:a05f47e9b6592b774b9f2ee9b85d4b0b9" id="r_a05f47e9b6592b774b9f2ee9b85d4b0b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRSymbolMeshFwd_8h.html#a390b9f66fb03f4077f495bc88a5bbe3b">MRSYMBOLMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05f47e9b6592b774b9f2ee9b85d4b0b9">bendTextAlongCurve</a> (const <a class="el" href="structMR_1_1CurveFunc.html">CurveFunc</a> &amp;curve, const <a class="el" href="structMR_1_1BendTextAlongCurveParams.html">BendTextAlongCurveParams</a> &amp;params)</td></tr>
 <tr class="separator:a05f47e9b6592b774b9f2ee9b85d4b0b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd1074ada517f361b43662a047bf7c6e" id="r_afd1074ada517f361b43662a047bf7c6e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRSymbolMeshFwd_8h.html#a390b9f66fb03f4077f495bc88a5bbe3b">MRSYMBOLMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd1074ada517f361b43662a047bf7c6e">bendTextAlongCurve</a> (const <a class="el" href="#a9373564bf8d768311a39df2f41d3d8e4">CurvePoints</a> &amp;curve, const <a class="el" href="structMR_1_1BendTextAlongCurveParams.html">BendTextAlongCurveParams</a> &amp;params)</td></tr>
 <tr class="memdesc:afd1074ada517f361b43662a047bf7c6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates symbol mesh and deforms it along given curve.  <br /></td></tr>
@@ -8294,22 +8293,6 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8dffd3366aa2bf51396d6beaf3e47199" name="a8dffd3366aa2bf51396d6beaf3e47199"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8dffd3366aa2bf51396d6beaf3e47199">&#9670;&#160;</a></span>CurveFunc</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#a8dffd3366aa2bf51396d6beaf3e47199">MR::CurveFunc</a> = std::function&lt;<a class="el" href="structMR_1_1CurvePoint.html">CurvePoint</a>(float)&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>curve given as a function: time -&gt; point </p>
 
 </div>
 </div>
@@ -13283,7 +13266,7 @@ template&lt;typename T , typename <a class="el" href="#aae89e209e34f26d7ae6dcc7b
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="#a8dffd3366aa2bf51396d6beaf3e47199">CurveFunc</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>curve</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1CurveFunc.html">CurveFunc</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>curve</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -13382,7 +13365,7 @@ template&lt;typename T , typename <a class="el" href="#aae89e209e34f26d7ae6dcc7b
         <tr>
           <td class="memname"><a class="el" href="MRSymbolMeshFwd_8h.html#a390b9f66fb03f4077f495bc88a5bbe3b">MRSYMBOLMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; MR::bendTextAlongCurve </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#a8dffd3366aa2bf51396d6beaf3e47199">CurveFunc</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>curve</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1CurveFunc.html">CurveFunc</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>curve</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -16028,21 +16011,16 @@ template&lt;typename ObjectType &gt; </div>
 
 </div>
 </div>
-<a id="a071105a685910abe5dfa30a00eb21e6e" name="a071105a685910abe5dfa30a00eb21e6e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a071105a685910abe5dfa30a00eb21e6e">&#9670;&#160;</a></span>curveFromPoints() <span class="overload">[1/2]</span></h2>
+<a id="a2a1500ba5291d6dfcb20c3e230c51814" name="a2a1500ba5291d6dfcb20c3e230c51814"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a1500ba5291d6dfcb20c3e230c51814">&#9670;&#160;</a></span>curveFromPoints() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="#a8dffd3366aa2bf51396d6beaf3e47199">CurveFunc</a> &gt; MR::curveFromPoints </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1CurveFunc.html">CurveFunc</a> &gt; MR::curveFromPoints </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a9373564bf8d768311a39df2f41d3d8e4">CurvePoints</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cp</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>unitLength</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -16053,29 +16031,23 @@ template&lt;typename ObjectType &gt; </div>
 </div><div class="memdoc">
 <p>given a polyline by its vertices, returns curve function representing it; return an error if the polyline is less than 2 points or all points have exactly the same location </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">unitLength</td><td>if true, then the lengths are normalized for the last point to have unit length </td></tr>
-    <tr><td class="paramname">outCurveLen</td><td>optional output of the total polyline length (before possible normalization) </td></tr>
+    <tr><td class="paramname">outCurveLen</td><td>optional output of the total polyline length </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="a931e1233023bceb0d651263d17d60eaa" name="a931e1233023bceb0d651263d17d60eaa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a931e1233023bceb0d651263d17d60eaa">&#9670;&#160;</a></span>curveFromPoints() <span class="overload">[2/2]</span></h2>
+<a id="a9a699924824e5de9f52160626d436be2" name="a9a699924824e5de9f52160626d436be2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a699924824e5de9f52160626d436be2">&#9670;&#160;</a></span>curveFromPoints() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="#a8dffd3366aa2bf51396d6beaf3e47199">CurveFunc</a> &gt; MR::curveFromPoints </td>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1CurveFunc.html">CurveFunc</a> &gt; MR::curveFromPoints </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a9373564bf8d768311a39df2f41d3d8e4">CurvePoints</a> &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>cp</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>unitLength</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -21118,8 +21090,8 @@ template&lt;typename <a class="el" href="#aae89e209e34f26d7ae6dcc7b5e7d2851">I</
 
 </div>
 </div>
-<a id="ade72d2e5f4e283c92e52eb345fc96f1a" name="ade72d2e5f4e283c92e52eb345fc96f1a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ade72d2e5f4e283c92e52eb345fc96f1a">&#9670;&#160;</a></span>findPartialLens()</h2>
+<a id="a50a414365f27632689e466d8616288f4" name="a50a414365f27632689e466d8616288f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50a414365f27632689e466d8616288f4">&#9670;&#160;</a></span>findPartialLens()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -21132,19 +21104,13 @@ template&lt;typename <a class="el" href="#aae89e209e34f26d7ae6dcc7b5e7d2851">I</
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>unitLength</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">float *</td>          <td class="paramname"><span class="paramname"><em>outCurveLen</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <p>given a polyline by its vertices, computes partial lengths along the polyline from the initial point; return an error if the polyline is less than 2 points or all points have exactly the same location </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">unitLength</td><td>if true, then the lengths are normalized for the last point to have unit length </td></tr>
-    <tr><td class="paramname">outCurveLen</td><td>optional output of the total polyline length (before possible normalization) </td></tr>
+    <tr><td class="paramname">outCurveLen</td><td>optional output of the total polyline length </td></tr>
   </table>
   </dd>
 </dl>
@@ -23899,7 +23865,7 @@ actually all zeros </p>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>given a polyline by its vertices, and partial lengths as computed by <a class="el" href="#ade72d2e5f4e283c92e52eb345fc96f1a">findPartialLens</a>, finds the location of curve point at the given parameter with extrapolation if p outside [0, lens.back()], execution time is logarithmic relative to the number of points </p>
+<p>given a polyline by its vertices, and partial lengths as computed by <a class="el" href="#a50a414365f27632689e466d8616288f4">findPartialLens</a>, finds the location of curve point at the given parameter with extrapolation if p outside [0, lens.back()], execution time is logarithmic relative to the number of points </p>
 
 </div>
 </div>

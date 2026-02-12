@@ -287,6 +287,7 @@
     <innerclass refid="classMR_1_1CubicBezierCurve2f" prot="public">MR::CubicBezierCurve2f</innerclass>
     <innerclass refid="classMR_1_1CubicBezierCurve3d" prot="public">MR::CubicBezierCurve3d</innerclass>
     <innerclass refid="classMR_1_1CubicBezierCurve3f" prot="public">MR::CubicBezierCurve3f</innerclass>
+    <innerclass refid="classMR_1_1CurveFunc" prot="public">MR::CurveFunc</innerclass>
     <innerclass refid="classMR_1_1CurvePoint" prot="public">MR::CurvePoint</innerclass>
     <innerclass refid="classMR_1_1CutByProjectionSettings" prot="public">MR::CutByProjectionSettings</innerclass>
     <innerclass refid="classMR_1_1CutMeshParameters" prot="private">MR::CutMeshParameters</innerclass>
@@ -4615,12 +4616,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="559" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="559" bodyend="567"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="561" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="561" bodyend="569"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a9a15db1a9e92e11d7091f1d01a326851" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1a2bceefdfc6e8e921215d481f975965a1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
         <definition>static unsafe MR.Mesh MR.bendContoursAlongCurve</definition>
-        <argsstring>(MR.Std.Const_Vector_StdVectorMRVector2f contours, MR.Std.Const_Function_MRCurvePointFuncFromFloat curve, MR.Const_BendContoursAlongCurveParams params_)</argsstring>
+        <argsstring>(MR.Std.Const_Vector_StdVectorMRVector2f contours, MR.Const_CurveFunc curve, MR.Const_BendContoursAlongCurveParams params_)</argsstring>
         <name>bendContoursAlongCurve</name>
         <qualifiedname>MR.bendContoursAlongCurve</qualifiedname>
         <param>
@@ -4628,7 +4629,7 @@
           <declname>contours</declname>
         </param>
         <param>
-          <type>MR.Std.Const_Function_MRCurvePointFuncFromFloat</type>
+          <type>MR.Const_CurveFunc</type>
           <declname>curve</declname>
         </param>
         <param>
@@ -4636,13 +4637,13 @@
           <declname>params_</declname>
         </param>
         <briefdescription>
-<para>Converts contours in thick mesh, and deforms it along given path Generated from function <computeroutput><ref refid="classMR_1a9a15db1a9e92e11d7091f1d01a326851" kindref="member">MR.bendContoursAlongCurve</ref></computeroutput>. </para>
+<para>Converts contours in thick mesh, and deforms it along given path Generated from function <computeroutput><ref refid="classMR_1a2bceefdfc6e8e921215d481f975965a1" kindref="member">MR.bendContoursAlongCurve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="573" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="573" bodyend="581"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="575" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="575" bodyend="583"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a98fab40c5122672e95386c6a2b09d056" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
@@ -4681,7 +4682,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="587" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="587" bodyend="595"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="589" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="589" bodyend="597"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a6d529fd6227792a20af625c6acec8854" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
@@ -4712,22 +4713,17 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="601" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="601" bodyend="609"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="603" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="603" bodyend="611"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a46169bbcdf64a300eb99358b69ecd684" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1ae36ccc03e8d1327f9e5fdad3970e6346" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_Float</type>
         <definition>static unsafe MR.Std.Vector_Float MR.findPartialLens</definition>
-        <argsstring>(MR.Std.Const_Vector_MRCurvePoint cp, bool? unitLength=null, MR.Misc.InOut&lt; float &gt;? outCurveLen=null)</argsstring>
+        <argsstring>(MR.Std.Const_Vector_MRCurvePoint cp, MR.Misc.InOut&lt; float &gt;? outCurveLen=null)</argsstring>
         <name>findPartialLens</name>
         <qualifiedname>MR.findPartialLens</qualifiedname>
         <param>
           <type>MR.Std.Const_Vector_MRCurvePoint</type>
           <declname>cp</declname>
-        </param>
-        <param>
-          <type>bool?</type>
-          <declname>unitLength</declname>
-          <defval>null</defval>
         </param>
         <param>
           <type>MR.Misc.InOut&lt; float &gt;?</type>
@@ -4740,18 +4736,10 @@
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
-<parametername>unitLength</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>if true, then the lengths are normalized for the last point to have unit length </para>
-</parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
 <parametername>outCurveLen</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>optional output of the total polyline length (before possible normalization) Generated from function <computeroutput><ref refid="classMR_1a46169bbcdf64a300eb99358b69ecd684" kindref="member">MR.findPartialLens</ref></computeroutput>. Parameter <computeroutput>unitLength</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+<para>optional output of the total polyline length Generated from function <computeroutput><ref refid="classMR_1ae36ccc03e8d1327f9e5fdad3970e6346" kindref="member">MR.findPartialLens</ref></computeroutput>. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -4759,7 +4747,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="619" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="619" bodyend="631"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="619" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="619" bodyend="630"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a33a17bb8724b71fd9a8a8a94a6f429d0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1CurvePoint" kindref="compound">MR.CurvePoint</ref></type>
@@ -4780,28 +4768,23 @@
           <declname>p</declname>
         </param>
         <briefdescription>
-<para>given a polyline by its vertices, and partial lengths as computed by <ref refid="classMR_1a46169bbcdf64a300eb99358b69ecd684" kindref="member">findPartialLens</ref>, finds the location of curve point at the given parameter with extrapolation if p outside [0, lens.back()], execution time is logarithmic relative to the number of points Generated from function <computeroutput><ref refid="classMR_1a33a17bb8724b71fd9a8a8a94a6f429d0" kindref="member">MR.getCurvePoint</ref></computeroutput>. </para>
+<para>given a polyline by its vertices, and partial lengths as computed by <ref refid="classMR_1ae36ccc03e8d1327f9e5fdad3970e6346" kindref="member">findPartialLens</ref>, finds the location of curve point at the given parameter with extrapolation if p outside [0, lens.back()], execution time is logarithmic relative to the number of points Generated from function <computeroutput><ref refid="classMR_1a33a17bb8724b71fd9a8a8a94a6f429d0" kindref="member">MR.getCurvePoint</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="639" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="639" bodyend="644"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="638" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="638" bodyend="643"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a2c17857da8c15c21f598b946ee980c8f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.Std.Function_MRCurvePointFuncFromFloat</type>
-        <definition>static unsafe MR.Std.Function_MRCurvePointFuncFromFloat MR.curveFromPoints</definition>
-        <argsstring>(MR.Std.Const_Vector_MRCurvePoint cp, bool? unitLength=null, MR.Misc.InOut&lt; float &gt;? outCurveLen=null)</argsstring>
+      <memberdef kind="function" id="classMR_1a2bb308e55083c467197e13949161dc94" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1CurveFunc" kindref="compound">MR.CurveFunc</ref></type>
+        <definition>static unsafe MR.CurveFunc MR.curveFromPoints</definition>
+        <argsstring>(MR.Std.Const_Vector_MRCurvePoint cp, MR.Misc.InOut&lt; float &gt;? outCurveLen=null)</argsstring>
         <name>curveFromPoints</name>
         <qualifiedname>MR.curveFromPoints</qualifiedname>
         <param>
           <type>MR.Std.Const_Vector_MRCurvePoint</type>
           <declname>cp</declname>
-        </param>
-        <param>
-          <type>bool?</type>
-          <declname>unitLength</declname>
-          <defval>null</defval>
         </param>
         <param>
           <type>MR.Misc.InOut&lt; float &gt;?</type>
@@ -4814,18 +4797,10 @@
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
-<parametername>unitLength</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>if true, then the lengths are normalized for the last point to have unit length </para>
-</parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
 <parametername>outCurveLen</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>optional output of the total polyline length (before possible normalization) Generated from function <computeroutput><ref refid="classMR_1a2c17857da8c15c21f598b946ee980c8f" kindref="member">MR.curveFromPoints</ref></computeroutput>. Parameter <computeroutput>unitLength</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+<para>optional output of the total polyline length Generated from function <computeroutput><ref refid="classMR_1a2bb308e55083c467197e13949161dc94" kindref="member">MR.curveFromPoints</ref></computeroutput>. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -4833,12 +4808,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="654" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="654" bodyend="666"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="651" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="651" bodyend="662"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a216dad08cdb4fd9babe7dac69ec37f07" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.Std.Function_MRCurvePointFuncFromFloat</type>
-        <definition>static unsafe MR.Std.Function_MRCurvePointFuncFromFloat MR.curveFromPoints</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRCurvePoint &gt; cp, bool? unitLength=null, MR.Misc.InOut&lt; float &gt;? outCurveLen=null)</argsstring>
+      <memberdef kind="function" id="classMR_1aeb566be45447b462f915fb9557d2e22f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1CurveFunc" kindref="compound">MR.CurveFunc</ref></type>
+        <definition>static unsafe MR.CurveFunc MR.curveFromPoints</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRCurvePoint &gt; cp, MR.Misc.InOut&lt; float &gt;? outCurveLen=null)</argsstring>
         <name>curveFromPoints</name>
         <qualifiedname>MR.curveFromPoints</qualifiedname>
         <param>
@@ -4846,23 +4821,18 @@
           <declname>cp</declname>
         </param>
         <param>
-          <type>bool?</type>
-          <declname>unitLength</declname>
-          <defval>null</defval>
-        </param>
-        <param>
           <type>MR.Misc.InOut&lt; float &gt;?</type>
           <declname>outCurveLen</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1a2c17857da8c15c21f598b946ee980c8f" kindref="member">MR.curveFromPoints</ref></computeroutput>. Parameter <computeroutput>unitLength</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1a2bb308e55083c467197e13949161dc94" kindref="member">MR.curveFromPoints</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="672" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="672" bodyend="684"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="667" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="667" bodyend="678"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a36a865ad21e19474e51f2cf4448bb1cc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MRCurvePoint</type>
@@ -4893,7 +4863,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="690" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="690" bodyend="695"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="684" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="684" bodyend="689"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a3be76cfbfc9b9d79395c268568c458e2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MRCurvePoint</type>
@@ -4916,7 +4886,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="700" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="700" bodyend="705"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="694" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="694" bodyend="699"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a859d57307d0a091d15939f83fb773396" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -4939,7 +4909,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="712" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="712" bodyend="717"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="706" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="706" bodyend="711"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a4b787558bf096cc4d2fa775326d22b1f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
@@ -37615,14 +37585,14 @@ If the triangles are disjoint, p and q give the closest points of s and t respec
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="806" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="806" bodyend="814"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a693d2c738c43ef40475874e1d11a8692" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1aab15e5229b2b90a01416c7f39c9373e2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
         <definition>static unsafe MR.Mesh MR.bendTextAlongCurve</definition>
-        <argsstring>(MR.Std.Const_Function_MRCurvePointFuncFromFloat curve, MR.Const_BendTextAlongCurveParams params_)</argsstring>
+        <argsstring>(MR.Const_CurveFunc curve, MR.Const_BendTextAlongCurveParams params_)</argsstring>
         <name>bendTextAlongCurve</name>
         <qualifiedname>MR.bendTextAlongCurve</qualifiedname>
         <param>
-          <type>MR.Std.Const_Function_MRCurvePointFuncFromFloat</type>
+          <type>MR.Const_CurveFunc</type>
           <declname>curve</declname>
         </param>
         <param>
@@ -37638,7 +37608,7 @@ If the triangles are disjoint, p and q give the closest points of s and t respec
 <parametername>curve</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>converts (x in [0,1], pivotY) into position on curve Generated from function <computeroutput><ref refid="classMR_1a693d2c738c43ef40475874e1d11a8692" kindref="member">MR.bendTextAlongCurve</ref></computeroutput>. </para>
+<para>converts (x in [0,1], pivotY) into position on curve Generated from function <computeroutput><ref refid="classMR_1aab15e5229b2b90a01416c7f39c9373e2" kindref="member">MR.bendTextAlongCurve</ref></computeroutput>. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -37663,7 +37633,7 @@ If the triangles are disjoint, p and q give the closest points of s and t respec
           <declname>params_</declname>
         </param>
         <briefdescription>
-<para>Creates symbol mesh and deforms it along given curve Generated from function <computeroutput><ref refid="classMR_1a693d2c738c43ef40475874e1d11a8692" kindref="member">MR.bendTextAlongCurve</ref></computeroutput>. </para>
+<para>Creates symbol mesh and deforms it along given curve Generated from function <computeroutput><ref refid="classMR_1aab15e5229b2b90a01416c7f39c9373e2" kindref="member">MR.bendTextAlongCurve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -41040,10 +41010,10 @@ If the triangles are disjoint, p and q give the closest points of s and t respec
       <member refid="classMR_1a2a7a6dfea39d35d2c3c85547a4d0988d" prot="public" virt="non-virtual"><scope>MR</scope><name>begin</name></member>
       <member refid="classMR_1a8d6dc1786dff68322fc8cf47c9bd37d0" prot="public" virt="non-virtual"><scope>MR</scope><name>begin</name></member>
       <member refid="classMR_1a9565dc1b97ca09e1517b132574ec516e" prot="public" virt="non-virtual"><scope>MR</scope><name>begin</name></member>
-      <member refid="classMR_1a9a15db1a9e92e11d7091f1d01a326851" prot="public" virt="non-virtual"><scope>MR</scope><name>bendContoursAlongCurve</name></member>
+      <member refid="classMR_1a2bceefdfc6e8e921215d481f975965a1" prot="public" virt="non-virtual"><scope>MR</scope><name>bendContoursAlongCurve</name></member>
       <member refid="classMR_1a98fab40c5122672e95386c6a2b09d056" prot="public" virt="non-virtual"><scope>MR</scope><name>bendContoursAlongSurfacePath</name></member>
       <member refid="classMR_1a6d529fd6227792a20af625c6acec8854" prot="public" virt="non-virtual"><scope>MR</scope><name>bendContoursAlongSurfacePath</name></member>
-      <member refid="classMR_1a693d2c738c43ef40475874e1d11a8692" prot="public" virt="non-virtual"><scope>MR</scope><name>bendTextAlongCurve</name></member>
+      <member refid="classMR_1aab15e5229b2b90a01416c7f39c9373e2" prot="public" virt="non-virtual"><scope>MR</scope><name>bendTextAlongCurve</name></member>
       <member refid="classMR_1a74461600e98acb2439b08e5c7e285db4" prot="public" virt="non-virtual"><scope>MR</scope><name>bendTextAlongCurve</name></member>
       <member refid="classMR_1a87443a035a28f3f1228b55c23d93f196" prot="public" virt="non-virtual"><scope>MR</scope><name>bendTextAlongSurfacePath</name></member>
       <member refid="classMR_1a7564f7b05a81ee1107f6162a7df3dc91" prot="public" virt="non-virtual"><scope>MR</scope><name>bendTextAlongSurfacePath</name></member>
@@ -41238,8 +41208,8 @@ If the triangles are disjoint, p and q give the closest points of s and t respec
       <member refid="classMR_1a03b69fb6605cef78de20490b6dcdafda" prot="public" virt="non-virtual"><scope>MR</scope><name>cross</name></member>
       <member refid="classMR_1a0ad3937367de17466c77e2ee7bb78f09" prot="public" virt="non-virtual"><scope>MR</scope><name>cross</name></member>
       <member refid="classMR_1a554dbbc59d8ad6725d8445d5e217381e" prot="public" virt="non-virtual"><scope>MR</scope><name>cross</name></member>
-      <member refid="classMR_1a2c17857da8c15c21f598b946ee980c8f" prot="public" virt="non-virtual"><scope>MR</scope><name>curveFromPoints</name></member>
-      <member refid="classMR_1a216dad08cdb4fd9babe7dac69ec37f07" prot="public" virt="non-virtual"><scope>MR</scope><name>curveFromPoints</name></member>
+      <member refid="classMR_1a2bb308e55083c467197e13949161dc94" prot="public" virt="non-virtual"><scope>MR</scope><name>curveFromPoints</name></member>
+      <member refid="classMR_1aeb566be45447b462f915fb9557d2e22f" prot="public" virt="non-virtual"><scope>MR</scope><name>curveFromPoints</name></member>
       <member refid="classMR_1adac5939b4aaa58d98e7c81671cc44a95" prot="public" virt="non-virtual"><scope>MR</scope><name>cutAlongEdgeLoop</name></member>
       <member refid="classMR_1a490f7132d9fb92698835c7bf7abe7d17" prot="public" virt="non-virtual"><scope>MR</scope><name>cutAlongEdgeLoop</name></member>
       <member refid="classMR_1a69c80bb31266546933db0c88875afc59" prot="public" virt="non-virtual"><scope>MR</scope><name>cutMesh</name></member>
@@ -41523,7 +41493,7 @@ If the triangles are disjoint, p and q give the closest points of s and t respec
       <member refid="classMR_1a27bf2c0b9934d2e218338a55977b4acd" prot="public" virt="non-virtual"><scope>MR</scope><name>findOutliers</name></member>
       <member refid="classMR_1a03492207be6dbd76f7eab7d2a2c4a08f" prot="public" virt="non-virtual"><scope>MR</scope><name>findOverhangs</name></member>
       <member refid="classMR_1a3b944107ce8c4354150cda1d1498bca6" prot="public" virt="non-virtual"><scope>MR</scope><name>findOverlappingTris</name></member>
-      <member refid="classMR_1a46169bbcdf64a300eb99358b69ecd684" prot="public" virt="non-virtual"><scope>MR</scope><name>findPartialLens</name></member>
+      <member refid="classMR_1ae36ccc03e8d1327f9e5fdad3970e6346" prot="public" virt="non-virtual"><scope>MR</scope><name>findPartialLens</name></member>
       <member refid="classMR_1a35e8ea76f8004f66bf7772a2bac8802a" prot="public" virt="non-virtual"><scope>MR</scope><name>findPointsInBall</name></member>
       <member refid="classMR_1a66ba750763da856004c96000e77974c7" prot="public" virt="non-virtual"><scope>MR</scope><name>findPointsInBall</name></member>
       <member refid="classMR_1acc61356892c36a58df6a464ccc246a9f" prot="public" virt="non-virtual"><scope>MR</scope><name>findPointsInBall</name></member>

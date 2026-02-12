@@ -132,6 +132,7 @@
     <innerclass refid="structMR_1_1CubicBezierCurve" prot="public">MR::CubicBezierCurve</innerclass>
     <innerclass refid="classMR_1_1CudaAccessor" prot="public">MR::CudaAccessor</innerclass>
     <innerclass refid="structMR_1_1CursorEntranceListener" prot="public">MR::CursorEntranceListener</innerclass>
+    <innerclass refid="structMR_1_1CurveFunc" prot="public">MR::CurveFunc</innerclass>
     <innerclass refid="structMR_1_1CurvePoint" prot="public">MR::CurvePoint</innerclass>
     <innerclass refid="structMR_1_1CustomButtonParameters" prot="public">MR::CustomButtonParameters</innerclass>
     <innerclass refid="structMR_1_1CutByProjectionSettings" prot="public">MR::CutByProjectionSettings</innerclass>
@@ -4979,21 +4980,6 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContoursSeparation.h" line="10" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRContoursSeparation.h" bodystart="10" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="typedef" id="namespaceMR_1a8dffd3366aa2bf51396d6beaf3e47199" prot="public" static="no">
-        <type>std::function&lt; <ref refid="structMR_1_1CurvePoint" kindref="compound">CurvePoint</ref>(float)&gt;</type>
-        <definition>using MR::CurveFunc =  std::function&lt;CurvePoint(float)&gt;</definition>
-        <argsstring></argsstring>
-        <name>CurveFunc</name>
-        <qualifiedname>MR::CurveFunc</qualifiedname>
-        <briefdescription>
-<para>curve given as a function: time -&gt; point </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCurve.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCurve.h" bodystart="17" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="namespaceMR_1a9373564bf8d768311a39df2f41d3d8e4" prot="public" static="no">
         <type>std::vector&lt; <ref refid="structMR_1_1CurvePoint" kindref="compound">CurvePoint</ref> &gt;</type>
         <definition>using MR::CurvePoints =  std::vector&lt;CurvePoint&gt;</definition>
@@ -5007,7 +4993,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCurve.h" line="20" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCurve.h" bodystart="20" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCurve.h" line="29" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCurve.h" bodystart="29" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" prot="public" static="no">
         <templateparamlist>
@@ -9190,7 +9176,7 @@ using HashSet = phmap::flat_hash_set&lt;T, <ref refid="namespaceMR_1a3e65b1f5601
           <declname>contours</declname>
         </param>
         <param>
-          <type>const <ref refid="namespaceMR_1a8dffd3366aa2bf51396d6beaf3e47199" kindref="member">CurveFunc</ref> &amp;</type>
+          <type>const <ref refid="structMR_1_1CurveFunc" kindref="compound">CurveFunc</ref> &amp;</type>
           <declname>curve</declname>
         </param>
         <param>
@@ -9204,7 +9190,7 @@ using HashSet = phmap::flat_hash_set&lt;T, <ref refid="namespaceMR_1a3e65b1f5601
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" line="64" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" declline="64" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" line="62" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" declline="62" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1a4216194d77fa2405b55e67b177430ef1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
@@ -9243,7 +9229,7 @@ using HashSet = phmap::flat_hash_set&lt;T, <ref refid="namespaceMR_1a3e65b1f5601
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" line="67" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" declline="67" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" line="65" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" declline="65" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1a255a8c3a02ec90ae5e76b3c52a5db49d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
@@ -9274,22 +9260,17 @@ using HashSet = phmap::flat_hash_set&lt;T, <ref refid="namespaceMR_1a3e65b1f5601
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" line="71" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" declline="71" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" line="69" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" declline="69" declcolumn="21"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceMR_1ade72d2e5f4e283c92e52eb345fc96f1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespaceMR_1a50a414365f27632689e466d8616288f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; std::vector&lt; float &gt; &gt;</type>
         <definition>MRMESH_API Expected&lt; std::vector&lt; float &gt; &gt; MR::findPartialLens</definition>
-        <argsstring>(const CurvePoints &amp;cp, bool unitLength=true, float *outCurveLen=nullptr)</argsstring>
+        <argsstring>(const CurvePoints &amp;cp, float *outCurveLen=nullptr)</argsstring>
         <name>findPartialLens</name>
         <qualifiedname>MR::findPartialLens</qualifiedname>
         <param>
           <type>const <ref refid="namespaceMR_1a9373564bf8d768311a39df2f41d3d8e4" kindref="member">CurvePoints</ref> &amp;</type>
           <declname>cp</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>unitLength</declname>
-          <defval>true</defval>
         </param>
         <param>
           <type>float *</type>
@@ -9301,18 +9282,10 @@ using HashSet = phmap::flat_hash_set&lt;T, <ref refid="namespaceMR_1a3e65b1f5601
         <detaileddescription>
 <para>given a polyline by its vertices, computes partial lengths along the polyline from the initial point; return an error if the polyline is less than 2 points or all points have exactly the same location <parameterlist kind="param"><parameteritem>
 <parameternamelist>
-<parametername>unitLength</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>if true, then the lengths are normalized for the last point to have unit length </para>
-</parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
 <parametername>outCurveLen</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>optional output of the total polyline length (before possible normalization) </para>
+<para>optional output of the total polyline length </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -9320,7 +9293,7 @@ using HashSet = phmap::flat_hash_set&lt;T, <ref refid="namespaceMR_1a3e65b1f5601
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" line="78" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" declline="78" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" line="75" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" declline="75" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1a8106db69dd7d7091f381711d96982a35" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="structMR_1_1CurvePoint" kindref="compound">CurvePoint</ref></type>
@@ -9343,26 +9316,21 @@ using HashSet = phmap::flat_hash_set&lt;T, <ref refid="namespaceMR_1a3e65b1f5601
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>given a polyline by its vertices, and partial lengths as computed by <ref refid="namespaceMR_1ade72d2e5f4e283c92e52eb345fc96f1a" kindref="member">findPartialLens</ref>, finds the location of curve point at the given parameter with extrapolation if p outside [0, lens.back()], execution time is logarithmic relative to the number of points </para>
+<para>given a polyline by its vertices, and partial lengths as computed by <ref refid="namespaceMR_1a50a414365f27632689e466d8616288f4" kindref="member">findPartialLens</ref>, finds the location of curve point at the given parameter with extrapolation if p outside [0, lens.back()], execution time is logarithmic relative to the number of points </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" line="83" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" declline="83" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" line="80" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" declline="80" declcolumn="24"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceMR_1a071105a685910abe5dfa30a00eb21e6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="namespaceMR_1a8dffd3366aa2bf51396d6beaf3e47199" kindref="member">CurveFunc</ref> &gt;</type>
+      <memberdef kind="function" id="namespaceMR_1a2a1500ba5291d6dfcb20c3e230c51814" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1CurveFunc" kindref="compound">CurveFunc</ref> &gt;</type>
         <definition>MRMESH_API Expected&lt; CurveFunc &gt; MR::curveFromPoints</definition>
-        <argsstring>(const CurvePoints &amp;cp, bool unitLength=true, float *outCurveLen=nullptr)</argsstring>
+        <argsstring>(const CurvePoints &amp;cp, float *outCurveLen=nullptr)</argsstring>
         <name>curveFromPoints</name>
         <qualifiedname>MR::curveFromPoints</qualifiedname>
         <param>
           <type>const <ref refid="namespaceMR_1a9373564bf8d768311a39df2f41d3d8e4" kindref="member">CurvePoints</ref> &amp;</type>
           <declname>cp</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>unitLength</declname>
-          <defval>true</defval>
         </param>
         <param>
           <type>float *</type>
@@ -9374,18 +9342,10 @@ using HashSet = phmap::flat_hash_set&lt;T, <ref refid="namespaceMR_1a3e65b1f5601
         <detaileddescription>
 <para>given a polyline by its vertices, returns curve function representing it; return an error if the polyline is less than 2 points or all points have exactly the same location <parameterlist kind="param"><parameteritem>
 <parameternamelist>
-<parametername>unitLength</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>if true, then the lengths are normalized for the last point to have unit length </para>
-</parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
 <parametername>outCurveLen</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>optional output of the total polyline length (before possible normalization) </para>
+<para>optional output of the total polyline length </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -9393,22 +9353,17 @@ using HashSet = phmap::flat_hash_set&lt;T, <ref refid="namespaceMR_1a3e65b1f5601
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" line="89" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" declline="89" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" line="85" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" declline="85" declcolumn="21"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceMR_1a931e1233023bceb0d651263d17d60eaa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="namespaceMR_1a8dffd3366aa2bf51396d6beaf3e47199" kindref="member">CurveFunc</ref> &gt;</type>
+      <memberdef kind="function" id="namespaceMR_1a9a699924824e5de9f52160626d436be2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1CurveFunc" kindref="compound">CurveFunc</ref> &gt;</type>
         <definition>MRMESH_API Expected&lt; CurveFunc &gt; MR::curveFromPoints</definition>
-        <argsstring>(CurvePoints &amp;&amp;cp, bool unitLength=true, float *outCurveLen=nullptr)</argsstring>
+        <argsstring>(CurvePoints &amp;&amp;cp, float *outCurveLen=nullptr)</argsstring>
         <name>curveFromPoints</name>
         <qualifiedname>MR::curveFromPoints</qualifiedname>
         <param>
           <type><ref refid="namespaceMR_1a9373564bf8d768311a39df2f41d3d8e4" kindref="member">CurvePoints</ref> &amp;&amp;</type>
           <declname>cp</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>unitLength</declname>
-          <defval>true</defval>
         </param>
         <param>
           <type>float *</type>
@@ -9421,7 +9376,7 @@ using HashSet = phmap::flat_hash_set&lt;T, <ref refid="namespaceMR_1a3e65b1f5601
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" line="90" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" declline="90" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" line="86" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" declline="86" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1a81c36364408fb0153761ef43b1746a70" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="namespaceMR_1a9373564bf8d768311a39df2f41d3d8e4" kindref="member">CurvePoints</ref></type>
@@ -9452,7 +9407,7 @@ using HashSet = phmap::flat_hash_set&lt;T, <ref refid="namespaceMR_1a3e65b1f5601
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" line="93" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" declline="93" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" line="89" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" declline="89" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1afce3ee3fdcf54d4005ae930e2697ba31" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="namespaceMR_1a9373564bf8d768311a39df2f41d3d8e4" kindref="member">CurvePoints</ref></type>
@@ -9474,7 +9429,7 @@ using HashSet = phmap::flat_hash_set&lt;T, <ref refid="namespaceMR_1a3e65b1f5601
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" line="94" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" declline="94" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" line="90" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" declline="90" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1a3289f6374ed80e5ac6467f5029cbc89d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
@@ -9497,7 +9452,7 @@ using HashSet = phmap::flat_hash_set&lt;T, <ref refid="namespaceMR_1a3e65b1f5601
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" line="98" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" declline="98" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" line="94" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" declline="94" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1abbe2dca6a39a0c9dae0abc3d1a6caac4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref></type>
@@ -30519,7 +30474,7 @@ If the triangles are disjoint, p and q give the closest points of s and t respec
         <name>bendTextAlongCurve</name>
         <qualifiedname>MR::bendTextAlongCurve</qualifiedname>
         <param>
-          <type>const <ref refid="namespaceMR_1a8dffd3366aa2bf51396d6beaf3e47199" kindref="member">CurveFunc</ref> &amp;</type>
+          <type>const <ref refid="structMR_1_1CurveFunc" kindref="compound">CurveFunc</ref> &amp;</type>
           <declname>curve</declname>
         </param>
         <param>

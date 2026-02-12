@@ -149,6 +149,7 @@
       </node>
     </invincdepgraph>
     <innerclass refid="structMR_1_1CurvePoint" prot="public">MR::CurvePoint</innerclass>
+    <innerclass refid="structMR_1_1CurveFunc" prot="public">MR::CurveFunc</innerclass>
     <innernamespace refid="namespaceMR">MR</innernamespace>
     <briefdescription>
     </briefdescription>
@@ -170,11 +171,18 @@
 <codeline lineno="13" refid="structMR_1_1CurvePoint_1aa9ddd8b08fe744f50edac9292ae66920" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="structMR_1_1CurvePoint_1aa9ddd8b08fe744f50edac9292ae66920" kindref="member">snorm</ref>;</highlight></codeline>
 <codeline lineno="14"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="namespaceMR_1a8dffd3366aa2bf51396d6beaf3e47199" refkind="member"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1a8dffd3366aa2bf51396d6beaf3e47199" kindref="member">CurveFunc</ref><sp/>=<sp/>std::function&lt;<ref refid="structMR_1_1CurvePoint" kindref="compound">CurvePoint</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">)&gt;;</highlight></codeline>
-<codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="namespaceMR_1a9373564bf8d768311a39df2f41d3d8e4" refkind="member"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1a9373564bf8d768311a39df2f41d3d8e4" kindref="member">CurvePoints</ref><sp/>=<sp/>std::vector&lt;CurvePoint&gt;;</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="16" refid="structMR_1_1CurveFunc" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1CurveFunc" kindref="compound">CurveFunc</ref></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="19" refid="structMR_1_1CurveFunc_1a7a92b6effeeb33d9c993fa589c5eff96" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::function&lt;<ref refid="structMR_1_1CurvePoint" kindref="compound">CurvePoint</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>)&gt;<sp/><ref refid="structMR_1_1CurveFunc_1a7a92b6effeeb33d9c993fa589c5eff96" kindref="member">func</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="structMR_1_1CurveFunc_1a21b99a5ca399c63ce98b634bf83fb7fb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1CurveFunc_1a21b99a5ca399c63ce98b634bf83fb7fb" kindref="member">totalLength</ref><sp/>=<sp/>1.0f;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>MR_BIND_PREFER_UNLOCK_GIL_WHEN_USED_AS_PARAM</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="namespaceMR_1a9373564bf8d768311a39df2f41d3d8e4" refkind="member"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1a9373564bf8d768311a39df2f41d3d8e4" kindref="member">CurvePoints</ref><sp/>=<sp/>std::vector&lt;CurvePoint&gt;;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}<sp/></highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCurve.h"/>
   </compounddef>

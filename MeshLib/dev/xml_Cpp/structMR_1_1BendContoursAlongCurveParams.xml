@@ -12,13 +12,13 @@
         <qualifiedname>MR::BendContoursAlongCurveParams::pivotCurveTime</qualifiedname>
         <initializer>= 0</initializer>
         <briefdescription>
-<para>Position on the curve, where bounding box&apos;s pivot point is mapped. </para>
         </briefdescription>
         <detaileddescription>
+<para>Position on the curve, where bounding box&apos;s pivot point is mapped (0) - start of the curve, (1) - end of the curve </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" line="44" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" bodystart="44" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" line="45" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" bodystart="45" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1BendContoursAlongCurveParams_1aa2f38f9d108b091730c6510d7dfdd082" prot="public" static="no" mutable="no">
         <type>Vector2f</type>
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" line="48" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" bodystart="48" bodyend="48"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" line="49" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" bodystart="49" bodyend="49"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1BendContoursAlongCurveParams_1ab8b07248a367fe492510d68b8052190c" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -44,13 +44,13 @@
         <qualifiedname>MR::BendContoursAlongCurveParams::periodicCurve</qualifiedname>
         <initializer>= false</initializer>
         <briefdescription>
-<para>if true, curve parameter will be always within [0,1) with repetition: xr := x - floor(x) </para>
+<para>if true, curve parameter will be always within [0,curve.totalLength) with repetition: xr := mod( x, curve.totalLength ) </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" line="51" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" bodystart="51" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" line="52" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" bodystart="52" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1BendContoursAlongCurveParams_1aa63ad4da9aad75fc779edeb4baab169c" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -60,13 +60,13 @@
         <qualifiedname>MR::BendContoursAlongCurveParams::stretch</qualifiedname>
         <initializer>= true</initializer>
         <briefdescription>
-<para>stretch all contours along curve to fit in unit curve range </para>
+<para>stretch all contours along curve to fit in curve.totalLength </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" line="54" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" bodystart="54" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" line="55" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" bodystart="55" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1BendContoursAlongCurveParams_1a2e554b5ceea4b8d6d43ce5c58e506315" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -82,7 +82,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" line="57" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" bodystart="57" bodyend="57"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" line="58" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" bodystart="58" bodyend="58"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -90,7 +90,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" line="41" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" bodystart="42" bodyend="61"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" line="41" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" bodystart="42" bodyend="59"/>
     <listofallmembers>
       <member refid="structMR_1_1BendContoursAlongCurveParams_1a2e554b5ceea4b8d6d43ce5c58e506315" prot="public" virt="non-virtual"><scope>MR::BendContoursAlongCurveParams</scope><name>extrusion</name></member>
       <member refid="structMR_1_1BendContoursAlongCurveParams_1ab8b07248a367fe492510d68b8052190c" prot="public" virt="non-virtual"><scope>MR::BendContoursAlongCurveParams</scope><name>periodicCurve</name></member>

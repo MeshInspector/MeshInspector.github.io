@@ -160,15 +160,14 @@ $(function(){initNavTree('structMR_1_1BendContoursAlongCurveParams.html',''); in
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:af94f08b9029b46debd6c05b78ee3d395" id="r_af94f08b9029b46debd6c05b78ee3d395"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af94f08b9029b46debd6c05b78ee3d395">pivotCurveTime</a> = 0</td></tr>
-<tr class="memdesc:af94f08b9029b46debd6c05b78ee3d395"><td class="mdescLeft">&#160;</td><td class="mdescRight">Position on the curve, where bounding box's pivot point is mapped.  <br /></td></tr>
 <tr class="separator:af94f08b9029b46debd6c05b78ee3d395"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2f38f9d108b091730c6510d7dfdd082" id="r_aa2f38f9d108b091730c6510d7dfdd082"><td class="memItemLeft" align="right" valign="top">Vector2f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2f38f9d108b091730c6510d7dfdd082">pivotBoxPoint</a> {0.0f, 0.0f}</td></tr>
 <tr class="separator:aa2f38f9d108b091730c6510d7dfdd082"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8b07248a367fe492510d68b8052190c" id="r_ab8b07248a367fe492510d68b8052190c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8b07248a367fe492510d68b8052190c">periodicCurve</a> = false</td></tr>
-<tr class="memdesc:ab8b07248a367fe492510d68b8052190c"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true, curve parameter will be always within [0,1) with repetition: xr := x - floor(x)  <br /></td></tr>
+<tr class="memdesc:ab8b07248a367fe492510d68b8052190c"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true, curve parameter will be always within [0,curve.totalLength) with repetition: xr := mod( x, curve.totalLength )  <br /></td></tr>
 <tr class="separator:ab8b07248a367fe492510d68b8052190c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa63ad4da9aad75fc779edeb4baab169c" id="r_aa63ad4da9aad75fc779edeb4baab169c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa63ad4da9aad75fc779edeb4baab169c">stretch</a> = true</td></tr>
-<tr class="memdesc:aa63ad4da9aad75fc779edeb4baab169c"><td class="mdescLeft">&#160;</td><td class="mdescRight">stretch all contours along curve to fit in unit curve range  <br /></td></tr>
+<tr class="memdesc:aa63ad4da9aad75fc779edeb4baab169c"><td class="mdescLeft">&#160;</td><td class="mdescRight">stretch all contours along curve to fit in curve.totalLength  <br /></td></tr>
 <tr class="separator:aa63ad4da9aad75fc779edeb4baab169c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e554b5ceea4b8d6d43ce5c58e506315" id="r_a2e554b5ceea4b8d6d43ce5c58e506315"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e554b5ceea4b8d6d43ce5c58e506315">extrusion</a> { 1.0f }</td></tr>
 <tr class="memdesc:a2e554b5ceea4b8d6d43ce5c58e506315"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contours extrusion outside of curve level.  <br /></td></tr>
@@ -205,7 +204,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>if true, curve parameter will be always within [0,1) with repetition: xr := x - floor(x) </p>
+<p>if true, curve parameter will be always within [0,curve.totalLength) with repetition: xr := mod( x, curve.totalLength ) </p>
 
 </div>
 </div>
@@ -235,8 +234,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Position on the curve, where bounding box's pivot point is mapped. </p>
+<p>Position on the curve, where bounding box's pivot point is mapped (0) - start of the curve, (1) - end of the curve </p>
 
 </div>
 </div>
@@ -252,7 +250,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>stretch all contours along curve to fit in unit curve range </p>
+<p>stretch all contours along curve to fit in curve.totalLength </p>
 
 </div>
 </div>

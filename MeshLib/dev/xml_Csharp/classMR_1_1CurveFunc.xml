@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1CurveFunc" kind="class" language="C#" prot="public">
+    <compoundname>MR::CurveFunc</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_CurveFunc</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1CurveFunc_1a56b0ed0fff43d5752f8c11bea721af4e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_MRCurvePointFuncFromFloat</type>
+        <definition>new unsafe MR.Std.Function_MRCurvePointFuncFromFloat MR.CurveFunc.func</definition>
+        <argsstring></argsstring>
+        <name>func</name>
+        <qualifiedname>MR.CurveFunc.func</qualifiedname>
+        <briefdescription>
+<para>curve given as a function: position along curve -&gt; point </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" line="332" column="67" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" bodystart="332" bodyend="332"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1CurveFunc_1a5d217d469c2e0189e5145d08a9a12df6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.CurveFunc.totalLength</definition>
+        <argsstring></argsstring>
+        <name>totalLength</name>
+        <qualifiedname>MR.CurveFunc.totalLength</qualifiedname>
+        <briefdescription>
+<para>total length of the given curve </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" line="335" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" bodystart="335" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1CurveFunc_1a81f0144eb5ebef305c7321578f057197" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.CurveFunc.CurveFunc</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>CurveFunc</name>
+        <qualifiedname>MR.CurveFunc.CurveFunc</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" line="354" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" bodystart="354" bodyend="358"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1CurveFunc_1a290197024936880f5ce3e6de526a215a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.CurveFunc.CurveFunc</definition>
+        <argsstring>()</argsstring>
+        <name>CurveFunc</name>
+        <qualifiedname>MR.CurveFunc.CurveFunc</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" line="364" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" bodystart="364" bodyend="370"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CurveFunc_1aa35a896c0e6068650ed47533c1272e0c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.CurveFunc.CurveFunc</definition>
+        <argsstring>(MR.Std._ByValue_Function_MRCurvePointFuncFromFloat func, float totalLength)</argsstring>
+        <name>CurveFunc</name>
+        <qualifiedname>MR.CurveFunc.CurveFunc</qualifiedname>
+        <param>
+          <type>MR.Std._ByValue_Function_MRCurvePointFuncFromFloat</type>
+          <declname>func</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>totalLength</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1CurveFunc" kindref="compound">MR.CurveFunc</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" line="375" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" bodystart="375" bodyend="382"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CurveFunc_1a98ba63d4540a07f5f1e900ac0b48dd0c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.CurveFunc.CurveFunc</definition>
+        <argsstring>(MR._ByValue_CurveFunc _other)</argsstring>
+        <name>CurveFunc</name>
+        <qualifiedname>MR.CurveFunc.CurveFunc</qualifiedname>
+        <param>
+          <type>MR._ByValue_CurveFunc</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.CurveFunc.CurveFunc</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" line="387" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" bodystart="387" bodyend="394"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CurveFunc_1a706d08d76ca3a0fd221e81e3b78876ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.CurveFunc.CurveFunc</definition>
+        <argsstring>(Const_CurveFunc _other)</argsstring>
+        <name>CurveFunc</name>
+        <qualifiedname>MR.CurveFunc.CurveFunc</qualifiedname>
+        <param>
+          <type>Const_CurveFunc</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.CurveFunc.CurveFunc</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" line="399" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" bodystart="399" bodyend="399"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CurveFunc_1a5e48b80dc984b796576473d52408c806" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.CurveFunc.CurveFunc</definition>
+        <argsstring>(CurveFunc _other)</argsstring>
+        <name>CurveFunc</name>
+        <qualifiedname>MR.CurveFunc.CurveFunc</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1CurveFunc" kindref="compound">CurveFunc</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.CurveFunc.CurveFunc</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" line="404" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" bodystart="404" bodyend="404"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CurveFunc_1a76b17395cd3a071a0055416ed73f2020" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1CurveFunc" kindref="compound">MR.CurveFunc</ref></type>
+        <definition>unsafe MR.CurveFunc MR.CurveFunc.assign</definition>
+        <argsstring>(MR._ByValue_CurveFunc _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.CurveFunc.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_CurveFunc</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.CurveFunc.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" line="409" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" bodystart="409" bodyend="416"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1CurveFunc" kindref="compound">MR.CurveFunc</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_CurveFunc</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.CurveFunc</label>
+        <link refid="classMR_1_1CurveFunc"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_CurveFunc &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_CurveFunc</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.CurveFunc</label>
+        <link refid="classMR_1_1CurveFunc"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_CurveFunc &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" line="329" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" bodystart="330" bodyend="417"/>
+    <listofallmembers>
+      <member refid="classMR_1_1CurveFunc_1a76b17395cd3a071a0055416ed73f2020" prot="public" virt="non-virtual"><scope>MR::CurveFunc</scope><name>assign</name></member>
+      <member refid="classMR_1_1CurveFunc_1a81f0144eb5ebef305c7321578f057197" prot="package" virt="non-virtual"><scope>MR::CurveFunc</scope><name>CurveFunc</name></member>
+      <member refid="classMR_1_1CurveFunc_1a290197024936880f5ce3e6de526a215a" prot="public" virt="non-virtual"><scope>MR::CurveFunc</scope><name>CurveFunc</name></member>
+      <member refid="classMR_1_1CurveFunc_1aa35a896c0e6068650ed47533c1272e0c" prot="public" virt="non-virtual"><scope>MR::CurveFunc</scope><name>CurveFunc</name></member>
+      <member refid="classMR_1_1CurveFunc_1a98ba63d4540a07f5f1e900ac0b48dd0c" prot="public" virt="non-virtual"><scope>MR::CurveFunc</scope><name>CurveFunc</name></member>
+      <member refid="classMR_1_1CurveFunc_1a706d08d76ca3a0fd221e81e3b78876ce" prot="public" virt="non-virtual"><scope>MR::CurveFunc</scope><name>CurveFunc</name></member>
+      <member refid="classMR_1_1CurveFunc_1a5e48b80dc984b796576473d52408c806" prot="public" virt="non-virtual"><scope>MR::CurveFunc</scope><name>CurveFunc</name></member>
+      <member refid="classMR_1_1CurveFunc_1a56b0ed0fff43d5752f8c11bea721af4e" prot="public" virt="non-virtual"><scope>MR::CurveFunc</scope><name>func</name></member>
+      <member refid="classMR_1_1CurveFunc_1a5d217d469c2e0189e5145d08a9a12df6" prot="public" virt="non-virtual"><scope>MR::CurveFunc</scope><name>totalLength</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

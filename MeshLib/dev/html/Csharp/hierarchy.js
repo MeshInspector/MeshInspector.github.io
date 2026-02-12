@@ -629,6 +629,9 @@ var hierarchy =
       [ "MR.Const_CubicBezierCurve3f", null, [
         [ "MR.CubicBezierCurve3f", "classMR_1_1CubicBezierCurve3f.html", null ]
       ] ],
+      [ "MR.Const_CurveFunc", null, [
+        [ "MR.CurveFunc", "classMR_1_1CurveFunc.html", null ]
+      ] ],
       [ "MR.Const_CurvePoint", null, [
         [ "MR.CurvePoint", "classMR_1_1CurvePoint.html", null ]
       ] ],
@@ -3079,6 +3082,7 @@ var hierarchy =
       [ "MR.Const_CubicBezierCurve2f", null, null ],
       [ "MR.Const_CubicBezierCurve3d", null, null ],
       [ "MR.Const_CubicBezierCurve3f", null, null ],
+      [ "MR.Const_CurveFunc", null, null ],
       [ "MR.Const_CurvePoint", null, null ],
       [ "MR.Const_CutByProjectionSettings", null, null ],
       [ "MR.Const_Cylinder3d", null, null ],

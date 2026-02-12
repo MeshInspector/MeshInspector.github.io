@@ -5894,6 +5894,17 @@
     <member refid="classMR_1_1CubicBezierCurve3f_1afbc326384770e09cded1ad9b4488afb7" kind="function"><name>CubicBezierCurve3f</name></member>
     <member refid="classMR_1_1CubicBezierCurve3f_1a3b0a85020ea28cd5da277b0d8b2aa70e" kind="function"><name>assign</name></member>
   </compound>
+  <compound refid="classMR_1_1CurveFunc" kind="class"><name>MR::CurveFunc</name>
+    <member refid="classMR_1_1CurveFunc_1a56b0ed0fff43d5752f8c11bea721af4e" kind="property"><name>func</name></member>
+    <member refid="classMR_1_1CurveFunc_1a5d217d469c2e0189e5145d08a9a12df6" kind="property"><name>totalLength</name></member>
+    <member refid="classMR_1_1CurveFunc_1a81f0144eb5ebef305c7321578f057197" kind="function"><name>CurveFunc</name></member>
+    <member refid="classMR_1_1CurveFunc_1a290197024936880f5ce3e6de526a215a" kind="function"><name>CurveFunc</name></member>
+    <member refid="classMR_1_1CurveFunc_1aa35a896c0e6068650ed47533c1272e0c" kind="function"><name>CurveFunc</name></member>
+    <member refid="classMR_1_1CurveFunc_1a98ba63d4540a07f5f1e900ac0b48dd0c" kind="function"><name>CurveFunc</name></member>
+    <member refid="classMR_1_1CurveFunc_1a706d08d76ca3a0fd221e81e3b78876ce" kind="function"><name>CurveFunc</name></member>
+    <member refid="classMR_1_1CurveFunc_1a5e48b80dc984b796576473d52408c806" kind="function"><name>CurveFunc</name></member>
+    <member refid="classMR_1_1CurveFunc_1a76b17395cd3a071a0055416ed73f2020" kind="function"><name>assign</name></member>
+  </compound>
   <compound refid="classMR_1_1CurvePoint" kind="class"><name>MR::CurvePoint</name>
     <member refid="classMR_1_1CurvePoint_1a45b8678968b4f32c5ef09165484491c8" kind="property"><name>pos</name></member>
     <member refid="classMR_1_1CurvePoint_1ae8b151e635f60413a2b2013806dee6ee" kind="property"><name>dir</name></member>
@@ -10901,13 +10912,13 @@
     <member refid="classMR_1a8041f60f3a61fe8e0982203cdadc7e7d" kind="function"><name>addNoise</name></member>
     <member refid="classMR_1a38bc651b705bd0908a3a854d151d7f00" kind="function"><name>addNoise</name></member>
     <member refid="classMR_1a0e67fe0a5392a1547e3c37ed7fba9953" kind="function"><name>alignContoursToMesh</name></member>
-    <member refid="classMR_1a9a15db1a9e92e11d7091f1d01a326851" kind="function"><name>bendContoursAlongCurve</name></member>
+    <member refid="classMR_1a2bceefdfc6e8e921215d481f975965a1" kind="function"><name>bendContoursAlongCurve</name></member>
     <member refid="classMR_1a98fab40c5122672e95386c6a2b09d056" kind="function"><name>bendContoursAlongSurfacePath</name></member>
     <member refid="classMR_1a6d529fd6227792a20af625c6acec8854" kind="function"><name>bendContoursAlongSurfacePath</name></member>
-    <member refid="classMR_1a46169bbcdf64a300eb99358b69ecd684" kind="function"><name>findPartialLens</name></member>
+    <member refid="classMR_1ae36ccc03e8d1327f9e5fdad3970e6346" kind="function"><name>findPartialLens</name></member>
     <member refid="classMR_1a33a17bb8724b71fd9a8a8a94a6f429d0" kind="function"><name>getCurvePoint</name></member>
-    <member refid="classMR_1a2c17857da8c15c21f598b946ee980c8f" kind="function"><name>curveFromPoints</name></member>
-    <member refid="classMR_1a216dad08cdb4fd9babe7dac69ec37f07" kind="function"><name>curveFromPoints</name></member>
+    <member refid="classMR_1a2bb308e55083c467197e13949161dc94" kind="function"><name>curveFromPoints</name></member>
+    <member refid="classMR_1aeb566be45447b462f915fb9557d2e22f" kind="function"><name>curveFromPoints</name></member>
     <member refid="classMR_1a36a865ad21e19474e51f2cf4448bb1cc" kind="function"><name>meshPathCurvePoints</name></member>
     <member refid="classMR_1a3be76cfbfc9b9d79395c268568c458e2" kind="function"><name>meshPathCurvePoints</name></member>
     <member refid="classMR_1a859d57307d0a091d15939f83fb773396" kind="function"><name>addBaseToPlanarMesh</name></member>
@@ -12029,7 +12040,7 @@
     <member refid="classMR_1a1e7386f7bd98058cc59ea61cdfa681f2" kind="function"><name>decompressZip</name></member>
     <member refid="classMR_1a5e14e4f0a5bf57b74862e5cc3246da97" kind="function"><name>compressZip</name></member>
     <member refid="classMR_1a723ee518c5540f71101eb72e85463f71" kind="function"><name>alignTextToMesh</name></member>
-    <member refid="classMR_1a693d2c738c43ef40475874e1d11a8692" kind="function"><name>bendTextAlongCurve</name></member>
+    <member refid="classMR_1aab15e5229b2b90a01416c7f39c9373e2" kind="function"><name>bendTextAlongCurve</name></member>
     <member refid="classMR_1a74461600e98acb2439b08e5c7e285db4" kind="function"><name>bendTextAlongCurve</name></member>
     <member refid="classMR_1a87443a035a28f3f1228b55c23d93f196" kind="function"><name>bendTextAlongSurfacePath</name></member>
     <member refid="classMR_1a7564f7b05a81ee1107f6162a7df3dc91" kind="function"><name>bendTextAlongSurfacePath</name></member>

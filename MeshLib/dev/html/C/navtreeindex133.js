@@ -1,5 +1,22 @@
 var NAVTREEINDEX133 =
 {
+"MRWeightedPointsShell_8h_source.html":[6,2,1,0,0,0,3,39],
+"MRXfBasedCache_8h.html":[6,2,1,0,0,0,1,356],
+"MRXfBasedCache_8h.html#a0ea0d138657614378b336bb7cf3258b1":[6,2,1,0,0,0,1,356,12],
+"MRXfBasedCache_8h.html#a196a12babd38147090d98cd03d908923":[6,2,1,0,0,0,1,356,11],
+"MRXfBasedCache_8h.html#a27136581e721626fd347041b7b177103":[6,2,1,0,0,0,1,356,13],
+"MRXfBasedCache_8h.html#a3539c602e503e731df453078e86a471b":[6,2,1,0,0,0,1,356,7],
+"MRXfBasedCache_8h.html#a3fb7f067e30dd08799e456cacabce24a":[6,2,1,0,0,0,1,356,4],
+"MRXfBasedCache_8h.html#a536c776bf5b63ad621f4fec02b732ea2":[6,2,1,0,0,0,1,356,8],
+"MRXfBasedCache_8h.html#a53b3364da66b915610d4690df7793a76":[6,2,1,0,0,0,1,356,1],
+"MRXfBasedCache_8h.html#a7231ed3ef171181c2c73a66263e0d292":[6,2,1,0,0,0,1,356,10],
+"MRXfBasedCache_8h.html#a7b77ba2eae0dabaa3755646ebeacccec":[6,2,1,0,0,0,1,356,3],
+"MRXfBasedCache_8h.html#a88a1df6fb138786a55241b1d77a4b0cc":[6,2,1,0,0,0,1,356,0],
+"MRXfBasedCache_8h.html#aab0cb20e49b686a521d83df6b13bff68":[6,2,1,0,0,0,1,356,9],
+"MRXfBasedCache_8h.html#ad2ca3c68bd0c695f0eef8703bee1f94f":[6,2,1,0,0,0,1,356,6],
+"MRXfBasedCache_8h.html#afd809241b98e686da37ea296a946c1ee":[6,2,1,0,0,0,1,356,2],
+"MRXfBasedCache_8h.html#afe84742b8f8ae58d0675c3901f548f98":[6,2,1,0,0,0,1,356,5],
+"MRXfBasedCache_8h_source.html":[6,2,1,0,0,0,1,356],
 "MRZip_8h.html":[6,2,1,0,0,0,1,357],
 "MRZip_8h.html#a077b8debfae88f9cf2267ad2db95c006":[6,2,1,0,0,0,1,357,0],
 "MRZip_8h.html#a0c984fbdd972f56a6921355059ff8cf7":[6,2,1,0,0,0,1,357,6],
@@ -232,13 +249,5 @@ var NAVTREEINDEX133 =
 "structMR__Vector4i.html#ab0abd0df20fe4e08f519f993e4133ea7":[6,2,0,0,56,3],
 "structMR__Vector4i64.html":[6,2,0,0,57],
 "structMR__Vector4i64.html#a08f3d120d6c03120434a9bc3cf7ccda0":[6,2,0,0,57,1],
-"structMR__Vector4i64.html#a20a7c58f71dd018333513b3c94a3f212":[6,2,0,0,57,3],
-"structMR__Vector4i64.html#a97caf74ab2c534e7289c530bf320e670":[6,2,0,0,57,0],
-"structMR__Vector4i64.html#ada1a93482710bed5ae108792395198ac":[6,2,0,0,57,2],
-"structMR__VertId.html":[6,2,0,0,58],
-"structMR__VertId.html#aa09d1de62013d40fe76ab8402a15a4f7":[6,2,0,0,58,0],
-"structMR__ViewportId.html":[6,2,0,0,59],
-"structMR__ViewportId.html#a1121b5764f381703487ab5a6a8ddba0f":[6,2,0,0,59,0],
-"structMR__VoxelId.html":[6,2,0,0,60],
-"structMR__VoxelId.html#abd4bf989ac00ec1903311599d2a64f2a":[6,2,0,0,60,0]
+"structMR__Vector4i64.html#a20a7c58f71dd018333513b3c94a3f212":[6,2,0,0,57,3]
 };

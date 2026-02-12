@@ -78,6 +78,19 @@
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRAlignTextToMesh_8h_1ab736d01b412677bf61e955b279bb05c2" prot="public" static="no">
+        <type>struct <ref refid="MRAlignContoursToMesh_8h_1ab736d01b412677bf61e955b279bb05c2" kindref="member">MR_CurveFunc</ref></type>
+        <definition>typedef struct MR_CurveFunc MR_CurveFunc</definition>
+        <argsstring></argsstring>
+        <name>MR_CurveFunc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRAlignTextToMesh.h" line="16" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRAlignTextToMesh.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="typedef" id="MRAlignTextToMesh_8h_1a31b172f68efca6438544d56eb86d6f40" prot="public" static="no">
         <type>struct <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref></type>
         <definition>typedef struct MR_Mesh MR_Mesh</definition>
@@ -89,7 +102,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRAlignTextToMesh.h" line="16" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRAlignTextToMesh.h" bodystart="16" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRAlignTextToMesh.h" line="17" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRAlignTextToMesh.h" bodystart="17" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRAlignTextToMesh_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" prot="public" static="no">
         <type>struct <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref></type>
@@ -102,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRAlignTextToMesh.h" line="17" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRAlignTextToMesh.h" bodystart="17" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRAlignTextToMesh.h" line="18" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRAlignTextToMesh.h" bodystart="18" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" prot="public" static="no">
         <type>struct <ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref></type>
@@ -115,7 +128,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRAlignTextToMesh.h" line="18" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRAlignTextToMesh.h" bodystart="18" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRAlignTextToMesh.h" line="19" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRAlignTextToMesh.h" bodystart="19" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRAlignTextToMesh_8h_1a0d97154d4aed695055160a4688c04a3d" prot="public" static="no">
         <type>struct <ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref></type>
@@ -128,7 +141,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRAlignTextToMesh.h" line="19" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRAlignTextToMesh.h" bodystart="19" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRAlignTextToMesh.h" line="20" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRAlignTextToMesh.h" bodystart="20" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRAlignTextToMesh_8h_1a006d61fd2048bba5b5622d42cbe72526" prot="public" static="no">
         <type>struct <ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref></type>
@@ -141,20 +154,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRAlignTextToMesh.h" line="20" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRAlignTextToMesh.h" bodystart="20" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRAlignTextToMesh_8h_1afe2bc6a2fcc62602733c1124e62bcd2f" prot="public" static="no">
-        <type>struct <ref refid="MRAlignContoursToMesh_8h_1afe2bc6a2fcc62602733c1124e62bcd2f" kindref="member">MR_std_function_MR_CurvePoint_from_float</ref></type>
-        <definition>typedef struct MR_std_function_MR_CurvePoint_from_float MR_std_function_MR_CurvePoint_from_float</definition>
-        <argsstring></argsstring>
-        <name>MR_std_function_MR_CurvePoint_from_float</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRAlignTextToMesh.h" line="21" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRAlignTextToMesh.h" bodystart="21" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRAlignTextToMesh.h" line="21" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRAlignTextToMesh.h" bodystart="21" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRAlignTextToMesh_8h_1a69dc6868c10c92fb8b8a255b0130d289" prot="public" static="no">
         <type>struct <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref></type>
@@ -1964,13 +1964,13 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRAlignTextToMesh.h" line="557" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRAlignTextToMesh.h" declline="557" declcolumn="37"/>
       </memberdef>
-      <memberdef kind="function" id="MRAlignTextToMesh_8h_1a2f65ecda07d86993926c74ee7ed2084b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRAlignTextToMesh_8h_1a11491ff53d71360f6b816b864b7ca043" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref> *</type>
-        <definition>MRC_API MR_expected_MR_Mesh_std_string * MR_bendTextAlongCurve_std_function_MR_CurvePoint_func_from_float</definition>
-        <argsstring>(const MR_std_function_MR_CurvePoint_from_float *curve, const MR_BendTextAlongCurveParams *params)</argsstring>
-        <name>MR_bendTextAlongCurve_std_function_MR_CurvePoint_func_from_float</name>
+        <definition>MRC_API MR_expected_MR_Mesh_std_string * MR_bendTextAlongCurve_MR_CurveFunc</definition>
+        <argsstring>(const MR_CurveFunc *curve, const MR_BendTextAlongCurveParams *params)</argsstring>
+        <name>MR_bendTextAlongCurve_MR_CurveFunc</name>
         <param>
-          <type>const <ref refid="MRAlignContoursToMesh_8h_1afe2bc6a2fcc62602733c1124e62bcd2f" kindref="member">MR_std_function_MR_CurvePoint_from_float</ref> *</type>
+          <type>const <ref refid="MRAlignContoursToMesh_8h_1ab736d01b412677bf61e955b279bb05c2" kindref="member">MR_CurveFunc</ref> *</type>
           <declname>curve</declname>
         </param>
         <param>
@@ -2098,12 +2098,12 @@
 <codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRAlignTextToMesh_8h_1a31b172f68efca6438544d56eb86d6f40" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="MRAlignTextToMesh_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshTriPoint.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/><ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCSymbolMesh/MRSymbolMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="MRAlignTextToMesh_8h_1a0d97154d4aed695055160a4688c04a3d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_Mesh_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="MRAlignTextToMesh_8h_1a006d61fd2048bba5b5622d42cbe72526" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref><sp/><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_filesystem_path.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="MRAlignTextToMesh_8h_1afe2bc6a2fcc62602733c1124e62bcd2f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAlignContoursToMesh_8h_1afe2bc6a2fcc62602733c1124e62bcd2f" kindref="member">MR_std_function_MR_CurvePoint_from_float</ref><sp/><ref refid="MRAlignContoursToMesh_8h_1afe2bc6a2fcc62602733c1124e62bcd2f" kindref="member">MR_std_function_MR_CurvePoint_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_MR_CurvePoint_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="MRAlignTextToMesh_8h_1ab736d01b412677bf61e955b279bb05c2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAlignContoursToMesh_8h_1ab736d01b412677bf61e955b279bb05c2" kindref="member">MR_CurveFunc</ref><sp/><ref refid="MRAlignContoursToMesh_8h_1ab736d01b412677bf61e955b279bb05c2" kindref="member">MR_CurveFunc</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRCurve.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="MRAlignTextToMesh_8h_1a31b172f68efca6438544d56eb86d6f40" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="MRAlignTextToMesh_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshTriPoint.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/><ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCSymbolMesh/MRSymbolMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="MRAlignTextToMesh_8h_1a0d97154d4aed695055160a4688c04a3d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_Mesh_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="MRAlignTextToMesh_8h_1a006d61fd2048bba5b5622d42cbe72526" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref><sp/><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_filesystem_path.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="22" refid="MRAlignTextToMesh_8h_1a69dc6868c10c92fb8b8a255b0130d289" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="23" refid="MRAlignTextToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref><sp/><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_CurvePoint.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="24" refid="MRAlignTextToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAlignContoursToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" kindref="member">MR_std_vector_MR_EdgePoint</ref><sp/><ref refid="MRAlignContoursToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" kindref="member">MR_std_vector_MR_EdgePoint</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_EdgePoint.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
@@ -2324,7 +2324,7 @@
 <codeline lineno="551"><highlight class="normal"></highlight></codeline>
 <codeline lineno="557" refid="MRAlignTextToMesh_8h_1aa283b673161c71a6472d7683df438b85" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAlignTextToMesh_8h_1a62175768dc7465c4a8a71dfd89aa229c" kindref="member">MR_BendTextAlongCurveParams</ref><sp/>*<ref refid="MRAlignTextToMesh_8h_1aa283b673161c71a6472d7683df438b85" kindref="member">MR_BendTextAlongCurveParams_AssignFromAnother</ref>(<ref refid="MRAlignTextToMesh_8h_1a62175768dc7465c4a8a71dfd89aa229c" kindref="member">MR_BendTextAlongCurveParams</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRAlignTextToMesh_8h_1a62175768dc7465c4a8a71dfd89aa229c" kindref="member">MR_BendTextAlongCurveParams</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="558"><highlight class="normal"></highlight></codeline>
-<codeline lineno="565" refid="MRAlignTextToMesh_8h_1a2f65ecda07d86993926c74ee7ed2084b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/>*<ref refid="MRAlignTextToMesh_8h_1a2f65ecda07d86993926c74ee7ed2084b" kindref="member">MR_bendTextAlongCurve_std_function_MR_CurvePoint_func_from_float</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1afe2bc6a2fcc62602733c1124e62bcd2f" kindref="member">MR_std_function_MR_CurvePoint_from_float</ref><sp/>*curve,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignTextToMesh_8h_1a62175768dc7465c4a8a71dfd89aa229c" kindref="member">MR_BendTextAlongCurveParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="565" refid="MRAlignTextToMesh_8h_1a11491ff53d71360f6b816b864b7ca043" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/>*<ref refid="MRAlignTextToMesh_8h_1a11491ff53d71360f6b816b864b7ca043" kindref="member">MR_bendTextAlongCurve_MR_CurveFunc</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1ab736d01b412677bf61e955b279bb05c2" kindref="member">MR_CurveFunc</ref><sp/>*curve,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignTextToMesh_8h_1a62175768dc7465c4a8a71dfd89aa229c" kindref="member">MR_BendTextAlongCurveParams</ref><sp/>*params);</highlight></codeline>
 <codeline lineno="566"><highlight class="normal"></highlight></codeline>
 <codeline lineno="572" refid="MRAlignTextToMesh_8h_1a45a23ac5c4a21224c65a4f0a6141ad45" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/>*<ref refid="MRAlignTextToMesh_8h_1a45a23ac5c4a21224c65a4f0a6141ad45" kindref="member">MR_bendTextAlongCurve_std_vector_MR_CurvePoint</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1a5fb03e93707418a937ebb703f9a455e3" kindref="member">MR_std_vector_MR_CurvePoint</ref><sp/>*curve,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignTextToMesh_8h_1a62175768dc7465c4a8a71dfd89aa229c" kindref="member">MR_BendTextAlongCurveParams</ref><sp/>*params);</highlight></codeline>
 <codeline lineno="573"><highlight class="normal"></highlight></codeline>

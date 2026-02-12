@@ -1,6 +1,5 @@
 var NAVTREEINDEX6 =
 {
-"MRMeshCollide_8h.html":[6,0,3,0,0,1,4,195],
 "MRMeshCollide_8h_source.html":[6,0,3,0,0,1,4,195],
 "MRMeshComponents_8h.html":[6,0,3,0,0,1,4,197],
 "MRMeshComponents_8h_source.html":[6,0,3,0,0,1,4,197],
@@ -249,5 +248,6 @@ var NAVTREEINDEX6 =
 "MRMeshMath_8h.html#a0140eb8894552101f3fdabe8d842eb25":[6,0,3,0,0,1,4,215,30],
 "MRMeshMath_8h.html#a065988451e8b7dd6f1686f6e1fdfee06":[6,0,3,0,0,1,4,215,19],
 "MRMeshMath_8h.html#a0dd50f59234a5a8e9ac7133f697d981e":[6,0,3,0,0,1,4,215,9],
-"MRMeshMath_8h.html#a0e9b24b3d309eba7ea1fb20758afd025":[6,0,3,0,0,1,4,215,31]
+"MRMeshMath_8h.html#a0e9b24b3d309eba7ea1fb20758afd025":[6,0,3,0,0,1,4,215,31],
+"MRMeshMath_8h.html#a161e46c3bf12b517090c9a672b8ec830":[6,0,3,0,0,1,4,215,32]
 };

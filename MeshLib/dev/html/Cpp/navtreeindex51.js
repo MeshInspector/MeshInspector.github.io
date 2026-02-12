@@ -1,6 +1,5 @@
 var NAVTREEINDEX51 =
 {
-"classMR_1_1detail_1_1FuncCallHelper.html#afe1dbda75ba4a449979c56513aa52ce4":[6,0,1,0,1,3,1,0],
 "classMR_1_1detail_1_1FuncCallHelper.html#afe1dbda75ba4a449979c56513aa52ce4":[6,0,2,0,2,1,1,0],
 "classMR_1_1detail_1_1ScopeGuard.html":[6,0,1,0,1,3,3],
 "classMR_1_1detail_1_1ScopeGuard.html":[6,0,2,0,2,1,3],
@@ -19,20 +18,20 @@ var NAVTREEINDEX51 =
 "conceptMR_1_1AnyVisualizeMaskEnumType.html":[6,0,0,11,2,0],
 "conceptMR_1_1Features_1_1MeasureSupported.html":[6,0,1,0,1,6,4],
 "conceptMR_1_1Features_1_1Traits_1_1MeasureSupportedOneWay.html":[6,0,1,0,1,6,1,11],
-"conceptMR_1_1HasGetDirectionMethod.html":[6,0,1,0,1,863],
-"conceptMR_1_1HasGetNormalMethod.html":[6,0,1,0,1,862],
+"conceptMR_1_1HasGetDirectionMethod.html":[6,0,1,0,1,864],
+"conceptMR_1_1HasGetNormalMethod.html":[6,0,1,0,1,863],
 "conceptMR_1_1ImGuiMath_1_1detail_1_1Scalar.html":[6,0,1,0,1,15,0,8],
 "conceptMR_1_1ImGuiMath_1_1detail_1_1ValidOperands.html":[6,0,1,0,1,15,0,12],
 "conceptMR_1_1ImGuiMath_1_1detail_1_1Vector.html":[6,0,1,0,1,15,0,9],
 "conceptMR_1_1ImGuiMath_1_1detail_1_1VectorOrScalar.html":[6,0,1,0,1,15,0,10],
 "conceptMR_1_1ImGuiMath_1_1detail_1_1VectorOrScalarMaybeCvref.html":[6,0,1,0,1,15,0,11],
-"conceptMR_1_1Trivial.html":[6,0,1,0,1,861],
+"conceptMR_1_1Trivial.html":[6,0,1,0,1,862],
 "conceptMR_1_1UI_1_1TestEngine_1_1AllowedValueType.html":[6,0,1,0,1,44,2,5],
 "conceptMR_1_1UI_1_1detail_1_1Scalar.html":[6,0,1,0,1,44,0,0],
 "conceptMR_1_1UI_1_1detail_1_1ValidBoundForTargetType.html":[6,0,1,0,1,44,0,2],
 "conceptMR_1_1UI_1_1detail_1_1ValidDragSpeedForTargetType.html":[6,0,1,0,1,44,0,3],
 "conceptMR_1_1UI_1_1detail_1_1VectorOrScalar.html":[6,0,1,0,1,44,0,1],
-"conceptMR_1_1UnitEnum.html":[6,0,1,0,1,864],
+"conceptMR_1_1UnitEnum.html":[6,0,1,0,1,865],
 "conceptMR_1_1detail_1_1Units_1_1Scalar.html":[6,0,1,0,1,3,0,1],
 "dir_0548e20a3bcd59381bf0bdb32f67cd97.html":[6,0,3,0,0,1,9],
 "dir_0bdaba6e8456798d85bbc67aaa90fe25.html":[6,0,3,0,0,1,0,3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX51 =
 "group__AABBTreeGroup.html#ga8c7d357b072699f62023d97ea1c81f45":[6,0,0,1,58],
 "group__AABBTreeGroup.html#ga8f7cfd40975f9648e9785f72d75ff92d":[6,0,0,1,125],
 "group__AABBTreeGroup.html#ga9222ec2d954badb7ee5874321a084eb6":[6,0,0,1,45],
-"group__AABBTreeGroup.html#ga939afe34134c1d66c9ca5f19e33dc323":[6,0,0,1,59]
+"group__AABBTreeGroup.html#ga939afe34134c1d66c9ca5f19e33dc323":[6,0,0,1,59],
+"group__AABBTreeGroup.html#ga987d32cc52268b780f26e3733f7d0151":[6,0,0,1,128]
 };

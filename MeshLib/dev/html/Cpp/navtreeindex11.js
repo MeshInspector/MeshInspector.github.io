@@ -1,6 +1,5 @@
 var NAVTREEINDEX11 =
 {
-"MRRibbonNotification_8h_source.html":[6,0,3,0,0,1,8,98],
 "MRRibbonRegisterItem_8h.html":[6,0,3,0,0,1,8,99],
 "MRRibbonRegisterItem_8h.html#ad1709955819b9d2eb38aa06ebd34272c":[6,0,3,0,0,1,8,99,2],
 "MRRibbonRegisterItem_8h_source.html":[6,0,3,0,0,1,8,99],
@@ -249,5 +248,6 @@ var NAVTREEINDEX11 =
 "MRSparsePolynomial_8h.html":[6,0,3,0,0,1,4,363],
 "MRSparsePolynomial_8h.html#a39de2d02d74ee4158df88993a656c0d0":[6,0,3,0,0,1,4,363,1],
 "MRSparsePolynomial_8h_source.html":[6,0,3,0,0,1,4,363],
-"MRSphereObject_8h.html":[6,0,3,0,0,1,4,365]
+"MRSphereObject_8h.html":[6,0,3,0,0,1,4,365],
+"MRSphereObject_8h_source.html":[6,0,3,0,0,1,4,365]
 };

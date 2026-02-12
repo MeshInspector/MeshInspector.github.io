@@ -402,6 +402,7 @@ var annotated_dup =
       [ "CubicBezierCurve", "structMR_1_1CubicBezierCurve.html", "structMR_1_1CubicBezierCurve" ],
       [ "CudaAccessor", "classMR_1_1CudaAccessor.html", "classMR_1_1CudaAccessor" ],
       [ "CursorEntranceListener", "structMR_1_1CursorEntranceListener.html", "structMR_1_1CursorEntranceListener" ],
+      [ "CurveFunc", "structMR_1_1CurveFunc.html", "structMR_1_1CurveFunc" ],
       [ "CurvePoint", "structMR_1_1CurvePoint.html", "structMR_1_1CurvePoint" ],
       [ "CustomButtonParameters", "structMR_1_1CustomButtonParameters.html", "structMR_1_1CustomButtonParameters" ],
       [ "CutByProjectionSettings", "structMR_1_1CutByProjectionSettings.html", "structMR_1_1CutByProjectionSettings" ],

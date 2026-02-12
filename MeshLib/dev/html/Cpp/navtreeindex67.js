@@ -1,7 +1,5 @@
 var NAVTREEINDEX67 =
 {
-"structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html":[6,0,1,0,1,95,0],
-"structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html":[6,0,2,0,2,77,0],
 "structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#a0ed51b795be6b13b452d9ac27d4409bb":[6,0,1,0,1,95,0,3],
 "structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#a0ed51b795be6b13b452d9ac27d4409bb":[6,0,2,0,2,77,0,3],
 "structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#a381406ff0c17d87e6508cfcd62e20f05":[6,0,1,0,1,95,0,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX67 =
 "structMR_1_1ConstantCuspParams.html#ae516e612489724b0fd33771eac4c5843":[6,0,2,0,2,151,0],
 "structMR_1_1ContourToDistanceMapParams.html":[6,0,0,5,4],
 "structMR_1_1ContourToDistanceMapParams.html#a2259024cb221dfbdaa806a2a0a213bbc":[6,0,0,5,4,1],
-"structMR_1_1ContourToDistanceMapParams.html#a35d5b9755c07b5533beef9aa20da8127":[6,0,0,5,4,4]
+"structMR_1_1ContourToDistanceMapParams.html#a35d5b9755c07b5533beef9aa20da8127":[6,0,0,5,4,4],
+"structMR_1_1ContourToDistanceMapParams.html#a3f4630f18505db408fdc2d6b9417d9e6":[6,0,0,5,4,8],
+"structMR_1_1ContourToDistanceMapParams.html#a777f64d2a02e161c0c2d62ceb280a2e4":[6,0,0,5,4,11]
 };

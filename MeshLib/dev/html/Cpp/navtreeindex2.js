@@ -46,7 +46,6 @@ var NAVTREEINDEX2 =
 "MRCuda_2config_8h.html":[6,0,3,0,0,1,1,0],
 "MRCuda_2config_8h_source.html":[6,0,3,0,0,1,1,0],
 "MRCurve_8h.html":[6,0,3,0,0,1,4,75],
-"MRCurve_8h.html#a8dffd3366aa2bf51396d6beaf3e47199":[6,0,3,0,0,1,4,75,1],
 "MRCurve_8h.html#a9373564bf8d768311a39df2f41d3d8e4":[6,0,3,0,0,1,4,75,2],
 "MRCurve_8h_source.html":[6,0,3,0,0,1,4,75],
 "MRCylinder3_8h.html":[6,0,3,0,0,1,4,77],
@@ -249,5 +248,6 @@ var NAVTREEINDEX2 =
 "MRExpandShrink_8h.html#ae10a86deae3557a2d54360cfdb691313":[6,0,3,0,0,1,4,102,5],
 "MRExpandShrink_8h.html#ae45bc0307c08b61de1db862894b9affd":[6,0,3,0,0,1,4,102,8],
 "MRExpandShrink_8h_source.html":[6,0,3,0,0,1,4,102],
-"MRExpected_8h.html":[6,0,3,0,0,1,4,103]
+"MRExpected_8h.html":[6,0,3,0,0,1,4,103],
+"MRExpected_8h.html#a1544b69f030c536c35a2d00c154caaf6":[6,0,3,0,0,1,4,103,4]
 };

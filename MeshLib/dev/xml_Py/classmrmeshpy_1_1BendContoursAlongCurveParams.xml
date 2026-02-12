@@ -285,7 +285,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>if true, curve parameter will be always within [0,1) with repetition: xr := x - floor(x)
+<para><verbatim>if true, curve parameter will be always within [0,curve.totalLength) with repetition: xr := mod( x, curve.totalLength )
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
@@ -371,11 +371,12 @@
         </briefdescription>
         <detaileddescription>
 <para><verbatim>Position on the curve, where bounding box&apos;s pivot point is mapped
+(0) - start of the curve, (1) - end of the curve
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2952" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2952" bodyend="2955"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2952" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2952" bodyend="2956"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BendContoursAlongCurveParams_1a0afdb82a7eccd3d4bc5f101f2ec74d16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -397,7 +398,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2957" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2957" bodyend="2958"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2958" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2958" bodyend="2959"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BendContoursAlongCurveParams_1afab1b591056df323251173137b3e8782" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -412,12 +413,12 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>stretch all contours along curve to fit in unit curve range
+<para><verbatim>stretch all contours along curve to fit in curve.totalLength
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2960" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2960" bodyend="2963"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2961" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2961" bodyend="2964"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BendContoursAlongCurveParams_1a335ce40eecc891eb89fc51bae8ec91b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -439,7 +440,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2965" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2965" bodyend="2966"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2966" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2966" bodyend="2967"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -466,7 +467,7 @@ Parameters for aligning 2d contours along given curve
         <label>typing</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2890" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2890" bodyend="2966"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2890" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2890" bodyend="2967"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1BendContoursAlongCurveParams_1a97b70e96f18ac1b8898835025a561fd2" prot="public" virt="non-virtual"><scope>mrmeshpy::BendContoursAlongCurveParams</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1BendContoursAlongCurveParams_1a4d1266779ad537755d1deb939f55817a" prot="public" virt="non-virtual"><scope>mrmeshpy::BendContoursAlongCurveParams</scope><name>__init__</name></member>
