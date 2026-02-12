@@ -329,7 +329,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>maximal summed metric of tunnel loops to detect Returns a pointer to a member variable of class <computeroutput>MR::DetectTunnelSettings</computeroutput> named <computeroutput>maxTunnelLength</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>maximal euclidean length of tunnel loops to detect Returns a pointer to a member variable of class <computeroutput>MR::DetectTunnelSettings</computeroutput> named <computeroutput>maxTunnelLength</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -351,7 +351,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>maximal summed metric of tunnel loops to detect Modifies a member variable of class <computeroutput>MR::DetectTunnelSettings</computeroutput> named <computeroutput>maxTunnelLength</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxTunnelLength</computeroutput>. </para>
+<para>maximal euclidean length of tunnel loops to detect Modifies a member variable of class <computeroutput>MR::DetectTunnelSettings</computeroutput> named <computeroutput>maxTunnelLength</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxTunnelLength</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -369,7 +369,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>maximal summed metric of tunnel loops to detect Returns a mutable pointer to a member variable of class <computeroutput>MR::DetectTunnelSettings</computeroutput> named <computeroutput>maxTunnelLength</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>maximal euclidean length of tunnel loops to detect Returns a mutable pointer to a member variable of class <computeroutput>MR::DetectTunnelSettings</computeroutput> named <computeroutput>maxTunnelLength</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

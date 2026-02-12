@@ -12,7 +12,7 @@
         <qualifiedname>MR::DetectTunnelSettings::maxTunnelLength</qualifiedname>
         <initializer>= FLT_MAX</initializer>
         <briefdescription>
-<para>maximal summed metric of tunnel loops to detect </para>
+<para>maximal euclidean length of tunnel loops to detect </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
