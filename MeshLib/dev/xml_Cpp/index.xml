@@ -13081,7 +13081,7 @@
     <member refid="classMR_1_1VisualObject_1a96232055c664463cca20dda327b1c30f" kind="variable"><name>globalAlpha_</name></member>
     <member refid="classMR_1_1VisualObject_1aeed6d251c7bdbffe0634b0fe96faab35" kind="variable"><name>useDefaultScenePropertiesOnDeserialization_</name></member>
     <member refid="classMR_1_1VisualObject_1a8a64ef900ae33d7bf55fd3474cdcef42" kind="variable"><name>dirty_</name></member>
-    <member refid="classMR_1_1VisualObject_1a288999a979dc0caa5c217fe04006633e" kind="variable"><name>boundingBoxCache_</name></member>
+    <member refid="classMR_1_1VisualObject_1a0dc032945be9892d62be0f8dc0a91b7b" kind="variable"><name>boundingBoxCache_</name></member>
     <member refid="classMR_1_1VisualObject_1a248a0efabc82874bd29ca605c2fb7481" kind="function"><name>VisualObject</name></member>
     <member refid="classMR_1_1VisualObject_1a95016bb1aefebfa8952ac3457cc57ee4" kind="function"><name>VisualObject</name></member>
     <member refid="classMR_1_1VisualObject_1ad5bb82fa6b6b0ea77f0137b975c802f6" kind="function"><name>operator=</name></member>
@@ -19351,10 +19351,8 @@
     <member refid="group__VisualObjectGroup_1gga03255e831f4895337e7cf27d64e51269a2844551064db079a1d3da473c389c9ca" kind="enumvalue"><name>DIRTY_FACES_COLORMAP</name></member>
     <member refid="group__VisualObjectGroup_1gga03255e831f4895337e7cf27d64e51269a2d7eb6cdde4e22fa902012a7a63152a9" kind="enumvalue"><name>DIRTY_TEXTURE_PER_FACE</name></member>
     <member refid="group__VisualObjectGroup_1gga03255e831f4895337e7cf27d64e51269a269c9589c9cb0406be81dcb855532f0b" kind="enumvalue"><name>DIRTY_MESH</name></member>
-    <member refid="group__VisualObjectGroup_1gga03255e831f4895337e7cf27d64e51269a9db66783aae1f516f71efb3d8e57443a" kind="enumvalue"><name>DIRTY_BOUNDING_BOX</name></member>
     <member refid="group__VisualObjectGroup_1gga03255e831f4895337e7cf27d64e51269a4d37651692aaecc731860a4e8c4df169" kind="enumvalue"><name>DIRTY_BORDER_LINES</name></member>
     <member refid="group__VisualObjectGroup_1gga03255e831f4895337e7cf27d64e51269a38d6a5c484bf483e7d19d0e88b575a5f" kind="enumvalue"><name>DIRTY_EDGES_SELECTION</name></member>
-    <member refid="group__VisualObjectGroup_1gga03255e831f4895337e7cf27d64e51269a7930beec8f8d317d708811012219855a" kind="enumvalue"><name>DIRTY_CACHES</name></member>
     <member refid="group__VisualObjectGroup_1gga03255e831f4895337e7cf27d64e51269a6c7eea869dc164adaaa93aa744a519f2" kind="enumvalue"><name>DIRTY_VOLUME</name></member>
     <member refid="group__VisualObjectGroup_1gga03255e831f4895337e7cf27d64e51269a5f0ff2832e18692b2704a662acfc6b2a" kind="enumvalue"><name>DIRTY_ALL</name></member>
     <member refid="group__VisualObjectGroup_1ga1f6aeed936aa967b17cba0997d30ff7f" kind="typedef"><name>AllVisualizeProperties</name></member>

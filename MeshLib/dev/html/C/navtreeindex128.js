@@ -1,7 +1,5 @@
 var NAVTREEINDEX128 =
 {
-"MRVisualObject_8h.html#a9834bccb9ddfdcf3e948cdc393e02d0f":[6,2,1,0,0,0,1,353,92],
-"MRVisualObject_8h.html#a9924a3cf86a990a9da58878b244cc838":[6,2,1,0,0,0,1,353,309],
 "MRVisualObject_8h.html#a9becdf6a961213063dc53dfb2063067f":[6,2,1,0,0,0,1,353,326],
 "MRVisualObject_8h.html#a9c6d35447061b5f5d7db88851973b63a":[6,2,1,0,0,0,1,353,169],
 "MRVisualObject_8h.html#a9d9e851e595520f918a21aa5c106d6ce":[6,2,1,0,0,0,1,353,38],
@@ -249,5 +247,7 @@ var NAVTREEINDEX128 =
 "MRVolumeInterpolation_8h.html#a564ad706c2b69e608fc0fb32d0e2dffe":[6,2,1,0,0,0,3,28,30],
 "MRVolumeInterpolation_8h.html#a5ea6580800246ed083aae7c0b5f7e4fc":[6,2,1,0,0,0,3,28,26],
 "MRVolumeInterpolation_8h.html#a683a84e4867fb951e644ae47c0174204":[6,2,1,0,0,0,3,28,29],
-"MRVolumeInterpolation_8h.html#a6a9d8f56c893ca7859cf1fa0492e8c4c":[6,2,1,0,0,0,3,28,19]
+"MRVolumeInterpolation_8h.html#a6a9d8f56c893ca7859cf1fa0492e8c4c":[6,2,1,0,0,0,3,28,19],
+"MRVolumeInterpolation_8h.html#a6bf133eda1ec95be202b77c33412bc8e":[6,2,1,0,0,0,3,28,3],
+"MRVolumeInterpolation_8h.html#a6c31cf8657352ddfd53424eb99b60301":[6,2,1,0,0,0,3,28,20]
 };

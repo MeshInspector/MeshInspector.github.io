@@ -1,7 +1,5 @@
 var NAVTREEINDEX29 =
 {
-"classMR_1_1EdgeScalars.html#a1825dc5493dec148ddf5454519adaa58":[6,3,0,0,0,324,11],
-"classMR_1_1EdgeScalars.html#a19bcb4d15fbe19559e7dcb436727a8fa":[6,3,0,0,0,324,7],
 "classMR_1_1EdgeScalars.html#a1e542d683155bce7c60091526b397c67":[6,3,0,0,0,324,13],
 "classMR_1_1EdgeScalars.html#a25c43f3566ed287c4425ba03f42dac4d":[6,3,0,0,0,324,12],
 "classMR_1_1EdgeScalars.html#a32e801058a6f803298c6866eea9a5d81":[6,3,0,0,0,324,22],
@@ -249,5 +247,7 @@ var NAVTREEINDEX29 =
 "classMR_1_1FaceColors.html#afbe02455d0b23e457a4f46ea81a7914e":[6,3,0,0,0,337,24],
 "classMR_1_1FaceDistancesSettings.html":[6,3,0,0,0,338],
 "classMR_1_1FaceDistancesSettings.html#a25d0db10c99903c8c3b4381820bed608":[6,3,0,0,0,338,6],
-"classMR_1_1FaceDistancesSettings.html#a373966763684da65a5aad18acecea24c":[6,3,0,0,0,338,8]
+"classMR_1_1FaceDistancesSettings.html#a373966763684da65a5aad18acecea24c":[6,3,0,0,0,338,8],
+"classMR_1_1FaceDistancesSettings.html#a3e503c3fe2921e809db89478b317e55c":[6,3,0,0,0,338,1],
+"classMR_1_1FaceDistancesSettings.html#a44041639ed770fa7098639bc3a5b3b3d":[6,3,0,0,0,338,2]
 };

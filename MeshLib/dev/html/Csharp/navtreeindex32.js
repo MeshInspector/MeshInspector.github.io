@@ -1,7 +1,5 @@
 var NAVTREEINDEX32 =
 {
-"classMR_1_1FindOverlappingSettings.html#a076185b3212448d6951e8f04f3d7800f":[6,3,0,0,0,362,3],
-"classMR_1_1FindOverlappingSettings.html#a107828077696ab8e03547eda1f72c1b2":[6,3,0,0,0,362,7],
 "classMR_1_1FindOverlappingSettings.html#a1c275f2be1c66defff5566910641bccd":[6,3,0,0,0,362,2],
 "classMR_1_1FindOverlappingSettings.html#a2b84340410951db4fad0d1f57914da4d":[6,3,0,0,0,362,9],
 "classMR_1_1FindOverlappingSettings.html#a492ef8787820ce6ddaa9b96e6bc48b39":[6,3,0,0,0,362,10],
@@ -249,5 +247,7 @@ var NAVTREEINDEX32 =
 "classMR_1_1GraphEdgeBitSet.html#a23f365ebf98239da895373812ad7dd67":[6,3,0,0,0,381,1],
 "classMR_1_1GraphEdgeBitSet.html#a269c18f81eb12bbc76500ba8b4e8adfd":[6,3,0,0,0,381,4],
 "classMR_1_1GraphEdgeBitSet.html#a3481a40690d5331cdc31680e13c51072":[6,3,0,0,0,381,10],
-"classMR_1_1GraphEdgeBitSet.html#a3c91724ab7453d3e8592a62a1d3dfa96":[6,3,0,0,0,381,18]
+"classMR_1_1GraphEdgeBitSet.html#a3c91724ab7453d3e8592a62a1d3dfa96":[6,3,0,0,0,381,18],
+"classMR_1_1GraphEdgeBitSet.html#a535e8316619216c840eef5e9f947897a":[6,3,0,0,0,381,29],
+"classMR_1_1GraphEdgeBitSet.html#a563a91b964edbb1ac7a4613ca95ee9f8":[6,3,0,0,0,381,6]
 };

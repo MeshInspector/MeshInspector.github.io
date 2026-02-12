@@ -1,7 +1,5 @@
 var NAVTREEINDEX35 =
 {
-"classMR_1_1Line3Mesh__Double.html#a23a03750f5b82504818bff54d616d196":[6,3,0,0,0,439,5],
-"classMR_1_1Line3Mesh__Double.html#a29c4609b57601ced5db98f4797005798":[6,3,0,0,0,439,8],
 "classMR_1_1Line3Mesh__Double.html#a5c631ce416ef49e7bf25be668317149e":[6,3,0,0,0,439,0],
 "classMR_1_1Line3Mesh__Double.html#aa461a046715fe163ec8f6b4497f32e09":[6,3,0,0,0,439,2],
 "classMR_1_1Line3Mesh__Double.html#aab1a0a2b1e4c88cfe72c4b13b38bd95c":[6,3,0,0,0,439,4],
@@ -249,5 +247,7 @@ var NAVTREEINDEX35 =
 "classMR_1_1MakeBridgeResult.html#ad12fab67f8b0eee7cd08814876cee084":[6,3,0,0,0,456,0],
 "classMR_1_1MakeDegenerateBandAroundRegionParams.html":[6,3,0,0,0,457],
 "classMR_1_1MakeDegenerateBandAroundRegionParams.html#a0f077e43f7e15a246ad80f02ceb79a0d":[6,3,0,0,0,457,2],
-"classMR_1_1MakeDegenerateBandAroundRegionParams.html#a203053611f6e965f74ec4bf0255c9492":[6,3,0,0,0,457,8]
+"classMR_1_1MakeDegenerateBandAroundRegionParams.html#a203053611f6e965f74ec4bf0255c9492":[6,3,0,0,0,457,8],
+"classMR_1_1MakeDegenerateBandAroundRegionParams.html#a5216f802ca6269b8152dfcbad690e3df":[6,3,0,0,0,457,4],
+"classMR_1_1MakeDegenerateBandAroundRegionParams.html#a65e5f13c80c0299e0216ed6bab999a2f":[6,3,0,0,0,457,0]
 };

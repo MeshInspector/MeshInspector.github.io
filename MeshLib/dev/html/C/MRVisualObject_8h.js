@@ -73,10 +73,8 @@ var MRVisualObject_8h =
       [ "MR_DirtyFlags_DIRTY_FACES_COLORMAP", "MRVisualObject_8h.html#a525a86ebf492e763683af29b452ca967a6a4dc57d4881a645783fc20231452af7", null ],
       [ "MR_DirtyFlags_DIRTY_TEXTURE_PER_FACE", "MRVisualObject_8h.html#a525a86ebf492e763683af29b452ca967a93a9a9b5463d1c1939f65d6651d8d73f", null ],
       [ "MR_DirtyFlags_DIRTY_MESH", "MRVisualObject_8h.html#a525a86ebf492e763683af29b452ca967ad62a57dc183aa82c48eb814593f4e221", null ],
-      [ "MR_DirtyFlags_DIRTY_BOUNDING_BOX", "MRVisualObject_8h.html#a525a86ebf492e763683af29b452ca967a08df6526089d9c5bee8c67cc0d5482bd", null ],
       [ "MR_DirtyFlags_DIRTY_BORDER_LINES", "MRVisualObject_8h.html#a525a86ebf492e763683af29b452ca967a6e52ca49e52af567d427f8975253acd7", null ],
       [ "MR_DirtyFlags_DIRTY_EDGES_SELECTION", "MRVisualObject_8h.html#a525a86ebf492e763683af29b452ca967af520244233a8e5429d2310baa2cd27bc", null ],
-      [ "MR_DirtyFlags_DIRTY_CACHES", "MRVisualObject_8h.html#a525a86ebf492e763683af29b452ca967a247bbc115b9aa96bc58977710dc3ba06", null ],
       [ "MR_DirtyFlags_DIRTY_VOLUME", "MRVisualObject_8h.html#a525a86ebf492e763683af29b452ca967afd44f481a6a09f401763dfed28c3f3e8", null ],
       [ "MR_DirtyFlags_DIRTY_ALL", "MRVisualObject_8h.html#a525a86ebf492e763683af29b452ca967a1cf8a54ff8592f6f1c5e7387f14203a8", null ]
     ] ],

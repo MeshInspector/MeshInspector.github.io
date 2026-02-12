@@ -1062,10 +1062,8 @@ var classMR =
       [ "DIRTYFACESCOLORMAP", "classMR.html#afdc8eb214c61d43e8ef39575a19d0e29a5859255cf4b33832514a367aaa588c90", null ],
       [ "DIRTYTEXTUREPERFACE", "classMR.html#afdc8eb214c61d43e8ef39575a19d0e29af02b9b9e19da71ef59d1df8d60619950", null ],
       [ "DIRTYMESH", "classMR.html#afdc8eb214c61d43e8ef39575a19d0e29a6559921fd9c396d500e9667101ec12bb", null ],
-      [ "DIRTYBOUNDINGBOX", "classMR.html#afdc8eb214c61d43e8ef39575a19d0e29a6cbd06086710e132b508e1c454cc65f3", null ],
       [ "DIRTYBORDERLINES", "classMR.html#afdc8eb214c61d43e8ef39575a19d0e29a686ca2534fae826a7b001e31c3051e75", null ],
       [ "DIRTYEDGESSELECTION", "classMR.html#afdc8eb214c61d43e8ef39575a19d0e29a8e3e08b9b724514aae247d7b90cda69c", null ],
-      [ "DIRTYCACHES", "classMR.html#afdc8eb214c61d43e8ef39575a19d0e29ac19ec13fae7cf6614e47353a34e8428f", null ],
       [ "DIRTYVOLUME", "classMR.html#afdc8eb214c61d43e8ef39575a19d0e29a1c79f221a44662e4fd108fa98cfc8dc4", null ],
       [ "DIRTYALL", "classMR.html#afdc8eb214c61d43e8ef39575a19d0e29af4bd82af78cd0894164236578dd86b19", null ]
     ] ],

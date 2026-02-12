@@ -3698,14 +3698,6 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="classMR_1afdc8eb214c61d43e8ef39575a19d0e29a6cbd06086710e132b508e1c454cc65f3" prot="public">
-          <name>DIRTYBOUNDINGBOX</name>
-          <initializer>= 2048</initializer>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
         <enumvalue id="classMR_1afdc8eb214c61d43e8ef39575a19d0e29a686ca2534fae826a7b001e31c3051e75" prot="public">
           <name>DIRTYBORDERLINES</name>
           <initializer>= 4096</initializer>
@@ -3717,14 +3709,6 @@
         <enumvalue id="classMR_1afdc8eb214c61d43e8ef39575a19d0e29a8e3e08b9b724514aae247d7b90cda69c" prot="public">
           <name>DIRTYEDGESSELECTION</name>
           <initializer>= 8192</initializer>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1afdc8eb214c61d43e8ef39575a19d0e29ac19ec13fae7cf6614e47353a34e8428f" prot="public">
-          <name>DIRTYCACHES</name>
-          <initializer>= 2048</initializer>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
@@ -3752,7 +3736,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="532" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="533" bodyend="559"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="532" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="533" bodyend="557"/>
       </memberdef>
       <memberdef kind="enum" id="classMR_1a39258c58105fd8ff811bd0ddb3b28414" prot="public" static="no" strong="yes">
         <type>sbyte</type>

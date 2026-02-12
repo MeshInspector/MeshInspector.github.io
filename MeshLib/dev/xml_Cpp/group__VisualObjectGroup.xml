@@ -144,14 +144,6 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="group__VisualObjectGroup_1gga03255e831f4895337e7cf27d64e51269a9db66783aae1f516f71efb3d8e57443a" prot="public">
-          <name>DIRTY_BOUNDING_BOX</name>
-          <initializer>= 0x0800</initializer>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
         <enumvalue id="group__VisualObjectGroup_1gga03255e831f4895337e7cf27d64e51269a4d37651692aaecc731860a4e8c4df169" prot="public">
           <name>DIRTY_BORDER_LINES</name>
           <initializer>= 0x1000</initializer>
@@ -163,14 +155,6 @@
         <enumvalue id="group__VisualObjectGroup_1gga03255e831f4895337e7cf27d64e51269a38d6a5c484bf483e7d19d0e88b575a5f" prot="public">
           <name>DIRTY_EDGES_SELECTION</name>
           <initializer>= 0x2000</initializer>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="group__VisualObjectGroup_1gga03255e831f4895337e7cf27d64e51269a7930beec8f8d317d708811012219855a" prot="public">
-          <name>DIRTY_CACHES</name>
-          <initializer>= DIRTY_BOUNDING_BOX</initializer>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
@@ -198,7 +182,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="74" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" bodystart="75" bodyend="98"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="74" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" bodystart="75" bodyend="96"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="typedef">

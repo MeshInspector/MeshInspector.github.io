@@ -1,7 +1,5 @@
 var NAVTREEINDEX89 =
 {
-"structMR_1_1ToolPathParams.html#a369d0d2f955fa0ff8c3d1f01c5d78679":[6,0,2,0,2,734,0],
-"structMR_1_1ToolPathParams.html#a4f475acb69d7a5c6cd72596f9ba39ab1":[6,0,1,0,1,752,10],
 "structMR_1_1ToolPathParams.html#a4f475acb69d7a5c6cd72596f9ba39ab1":[6,0,2,0,2,734,10],
 "structMR_1_1ToolPathParams.html#a50c755eddaa84d57053b8b2ac05090c7":[6,0,1,0,1,752,1],
 "structMR_1_1ToolPathParams.html#a50c755eddaa84d57053b8b2ac05090c7":[6,0,2,0,2,734,1],
@@ -249,5 +247,7 @@ var NAVTREEINDEX89 =
 "structMR_1_1TriPoint.html#a02506879ef28b9372cf1868c17a808da":[6,0,0,0,24,7],
 "structMR_1_1TriPoint.html#a173bd5baa937f72d4e42901d913f3ff3":[6,0,0,0,24,0],
 "structMR_1_1TriPoint.html#a3665ef8bed664d4374515106f2128c58":[6,0,0,0,24,2],
-"structMR_1_1TriPoint.html#a38305f3769604953fbac39b9fa79f6bc":[6,0,0,0,24,4]
+"structMR_1_1TriPoint.html#a38305f3769604953fbac39b9fa79f6bc":[6,0,0,0,24,4],
+"structMR_1_1TriPoint.html#a443eb1cdffa8cf6269dce8d4f7712a3b":[6,0,0,0,24,5],
+"structMR_1_1TriPoint.html#a49b96d931ecbe6f88e3b838a6347d14e":[6,0,0,0,24,11]
 };

@@ -1,7 +1,5 @@
 var NAVTREEINDEX133 =
 {
-"MRXfBasedCache_8h.html#afe84742b8f8ae58d0675c3901f548f98":[6,2,1,0,0,0,1,356,5],
-"MRXfBasedCache_8h_source.html":[6,2,1,0,0,0,1,356],
 "MRZip_8h.html":[6,2,1,0,0,0,1,357],
 "MRZip_8h.html#a077b8debfae88f9cf2267ad2db95c006":[6,2,1,0,0,0,1,357,0],
 "MRZip_8h.html#a0c984fbdd972f56a6921355059ff8cf7":[6,2,1,0,0,0,1,357,6],
