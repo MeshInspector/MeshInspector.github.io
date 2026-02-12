@@ -1278,7 +1278,7 @@ class CompoundType(GeneratedsSuper):
             value_ = self.gds_parse_string(value_, node, 'name')
             value_ = self.gds_validate_string(value_, node, 'name')
             self.name = value_
-            self.name_nsprefix_ = child_.prefix
+            self.name_nsprefix_ = child_.tag.split('}')[0][1:] if '}' in child_.tag else ''
         elif nodeName_ == 'member':
             obj_ = MemberType.factory(parent_object_=self)
             obj_.build(child_, gds_collector_=gds_collector_)
@@ -1416,7 +1416,7 @@ class MemberType(GeneratedsSuper):
             value_ = self.gds_parse_string(value_, node, 'name')
             value_ = self.gds_validate_string(value_, node, 'name')
             self.name = value_
-            self.name_nsprefix_ = child_.prefix
+            self.name_nsprefix_ = child_.tag.split('}')[0][1:] if '}' in child_.tag else ''
 # end class MemberType
 
 
