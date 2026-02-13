@@ -3,7 +3,8 @@ var weightsMap;
 // calculates the weight of the match between two strings
 function calcWeight( itemStr, searchStr )
 {
-  return itemStr.indexOf( searchStr );
+  let index = itemStr.indexOf( searchStr );
+  return [index, itemStr.length - index];
 }
 
 // calculates the weights of matching the search query for all the elements
@@ -14,11 +15,17 @@ function createItemWeights( searchStr )
   for ( var i = 0; i < searchData.length; i++ )
   {
     var itemName = searchData[i][0];
-    let weight = calcWeight( itemName, searchStr );
-    if ( weight >= 0 )
-      weightsMap.push( [weight, i] );
+    let weights = calcWeight( itemName, searchStr );
+    if ( weights[0] >= 0 )
+      weightsMap.push( [weights, i] );
   }
-  weightsMap.sort( (a, b) => a[0] - b[0] );
+  weightsMap.sort((a, b) => {
+    if (a[0][0] !== b[0][0]) {
+        return a[0][0] - b[0][0];
+    } else {
+        return a[0][1] - b[0][1];
+    }
+  });
 }
 
 // creates the necessary html elements for a single entry from the index (searchData)
