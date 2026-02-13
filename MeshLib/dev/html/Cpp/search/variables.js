@@ -461,7 +461,7 @@ var searchData=
   ['coords_164',['coords',['../structMR_1_1SeparationPointStorage_1_1Block.html#a58df13a2b6e26ec0a73b3883451f7c27',1,'MR::SeparationPointStorage::Block']]],
   ['cornera_165',['cornerA',['../structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1DrawResult.html#a4e2480a0595f86ed76d23eaf54937085',1,'MR::ImGuiMeasurementIndicators::Text::DrawResult']]],
   ['cornerb_166',['cornerB',['../structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1DrawResult.html#abef55d08e12e74ed849345c2dc54cf34',1,'MR::ImGuiMeasurementIndicators::Text::DrawResult']]],
-  ['cornermode_167',['cornerMode',['../classMR_1_1RenderMeshObject.html#afd5c5688fbd6d8c41b11f9295ba8d5ca',1,'MR::RenderMeshObject']]],
+  ['cornermode_5f_167',['cornerMode_',['../classMR_1_1RenderMeshObject.html#a8158ae77e4c2aea465be3cd08cd64778',1,'MR::RenderMeshObject']]],
   ['cornerposition_168',['cornerPosition',['../classMR_1_1RibbonNotifier.html#a581e82760738b4f3ce80e1a6f9665cd0',1,'MR::RibbonNotifier']]],
   ['cornerradius_169',['cornerRadius',['../structMR_1_1EndMillCutter.html#a70c992b2d214834d246a23811425f9d8',1,'MR::EndMillCutter']]],
   ['costhreshold_170',['cosThreshold',['../structMR_1_1ICPProperties.html#a108845995db78805f41524217e474500',1,'MR::ICPProperties']]],
