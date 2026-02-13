@@ -3,7 +3,6 @@
   <compounddef id="MRPybind11_8h" kind="file" language="C++">
     <compoundname>MRPybind11.h</compoundname>
     <includes local="no">MRPch/MRSuppressWarning.h</includes>
-    <includes local="no">Python.h</includes>
     <includes local="no">pybind11/pybind11.h</includes>
     <includes local="no">pybind11/operators.h</includes>
     <includes local="no">pybind11/stl_bind.h</includes>
@@ -23,25 +22,20 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
       </node>
       <node id="2">
         <label>MRPch/MRSuppressWarning.h</label>
       </node>
-      <node id="3">
-        <label>Python.h</label>
-      </node>
-      <node id="7">
+      <node id="6">
         <label>pybind11/numpy.h</label>
       </node>
-      <node id="5">
+      <node id="4">
         <label>pybind11/operators.h</label>
       </node>
-      <node id="4">
+      <node id="3">
         <label>pybind11/pybind11.h</label>
       </node>
-      <node id="6">
+      <node id="5">
         <label>pybind11/stl_bind.h</label>
       </node>
     </incdepgraph>
@@ -79,16 +73,18 @@
 <codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>warning(<sp/>disable:<sp/>4548<sp/>)<sp/></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19"><highlight class="preprocessor">#undef<sp/>_POSIX_C_SOURCE</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#undef<sp/>_XOPEN_SOURCE</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;Python.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;pybind11/pybind11.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;pybind11/operators.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;pybind11/stl_bind.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;pybind11/numpy.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28"><highlight class="normal">MR_SUPPRESS_WARNING_POP</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__linux__<sp/></highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor">#undef<sp/>_POSIX_C_SOURCE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#undef<sp/>_XOPEN_SOURCE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;Python.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;pybind11/pybind11.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;pybind11/operators.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;pybind11/stl_bind.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;pybind11/numpy.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">MR_SUPPRESS_WARNING_POP</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPybind11.h"/>
   </compounddef>
