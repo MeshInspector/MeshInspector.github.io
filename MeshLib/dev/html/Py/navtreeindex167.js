@@ -1,7 +1,5 @@
 var NAVTREEINDEX167 =
 {
-"classmrmeshpy_1_1std__vector__std__vector__Id__EdgeTag.html#a8fa89a807ec2829412e15221ef123371":[6,1,0,0,2,992,22],
-"classmrmeshpy_1_1std__vector__std__vector__Id__EdgeTag.html#a8fa89a807ec2829412e15221ef123371":[6,1,1,0,1,992,22],
 "classmrmeshpy_1_1std__vector__std__vector__Id__EdgeTag.html#a968b73bb5a5a113200815f91b84b4c62":[6,1,0,0,2,992,8],
 "classmrmeshpy_1_1std__vector__std__vector__Id__EdgeTag.html#a968b73bb5a5a113200815f91b84b4c62":[6,1,1,0,1,992,8],
 "classmrmeshpy_1_1std__vector__std__vector__Id__EdgeTag.html#a9e1fbb7ca43a8a57c8802b0d6f387bea":[6,1,0,0,2,992,18],
@@ -249,5 +247,7 @@ var NAVTREEINDEX167 =
 "classmrmeshpy_1_1std__vector__std__vector__OffsetContoursOrigins.html#a93fb3e77c40d1a0e9ad62e64ec1a5595":[6,1,0,0,2,996,1],
 "classmrmeshpy_1_1std__vector__std__vector__OffsetContoursOrigins.html#a93fb3e77c40d1a0e9ad62e64ec1a5595":[6,1,1,0,1,996,1],
 "classmrmeshpy_1_1std__vector__std__vector__OffsetContoursOrigins.html#a95cc2b0cf89a0c11e6b92057ab7fcbed":[6,1,0,0,2,996,7],
-"classmrmeshpy_1_1std__vector__std__vector__OffsetContoursOrigins.html#a95cc2b0cf89a0c11e6b92057ab7fcbed":[6,1,1,0,1,996,7]
+"classmrmeshpy_1_1std__vector__std__vector__OffsetContoursOrigins.html#a95cc2b0cf89a0c11e6b92057ab7fcbed":[6,1,1,0,1,996,7],
+"classmrmeshpy_1_1std__vector__std__vector__OffsetContoursOrigins.html#a9c3d77ac48aad05a6dc02d462828e5c0":[6,1,0,0,2,996,16],
+"classmrmeshpy_1_1std__vector__std__vector__OffsetContoursOrigins.html#a9c3d77ac48aad05a6dc02d462828e5c0":[6,1,1,0,1,996,16]
 };

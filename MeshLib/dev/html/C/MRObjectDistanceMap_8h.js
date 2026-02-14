@@ -83,7 +83,6 @@ var MRObjectDistanceMap_8h =
     [ "MR_ObjectDistanceMap_getGlobalAlphaForAllViewports", "MRObjectDistanceMap_8h.html#a77c2a621e8bc8789067255d1e18ff395", null ],
     [ "MR_ObjectDistanceMap_getInfoLines", "MRObjectDistanceMap_8h.html#ad903d9f5b37c0c6843b86f77bd46a825", null ],
     [ "MR_ObjectDistanceMap_getModelHash", "MRObjectDistanceMap_8h.html#a6ddc2c1c86a20416491974d9ee24a84d", null ],
-    [ "MR_ObjectDistanceMap_getNeededNormalsRenderDirtyValue", "MRObjectDistanceMap_8h.html#a61bd6787d8b819adad5aa8ac501e23e9", null ],
     [ "MR_ObjectDistanceMap_getPointsColor", "MRObjectDistanceMap_8h.html#a1064d8bbae117975262bad19079d6304", null ],
     [ "MR_ObjectDistanceMap_getPointsColorsForAllViewports", "MRObjectDistanceMap_8h.html#ac48d15b447a64b73abbf33b485526264", null ],
     [ "MR_ObjectDistanceMap_getPointSize", "MRObjectDistanceMap_8h.html#a8b0d14df4278e4a54cad4ffcba861e40", null ],

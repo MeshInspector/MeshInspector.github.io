@@ -1,7 +1,5 @@
 var NAVTREEINDEX137 =
 {
-"classmrmeshpy_1_1std__vector__AABBTreePoints__Point.html#a52af1414dd0d2d7d2b6cc2c20ad93cec":[6,1,0,0,2,884,2],
-"classmrmeshpy_1_1std__vector__AABBTreePoints__Point.html#a52af1414dd0d2d7d2b6cc2c20ad93cec":[6,1,1,0,1,884,2],
 "classmrmeshpy_1_1std__vector__AABBTreePoints__Point.html#a594a4cf9614521f5768d76bc87393e4f":[6,1,0,0,2,884,7],
 "classmrmeshpy_1_1std__vector__AABBTreePoints__Point.html#a594a4cf9614521f5768d76bc87393e4f":[6,1,1,0,1,884,7],
 "classmrmeshpy_1_1std__vector__AABBTreePoints__Point.html#a68a1ec4a118c909166b36b4ad8da93ee":[6,1,0,0,2,884,22],
@@ -249,5 +247,7 @@ var NAVTREEINDEX137 =
 "classmrmeshpy_1_1std__vector__CurvePoint.html#a59c5a6e8eedb765c26facb10525cba87":[6,1,0,0,2,889,16],
 "classmrmeshpy_1_1std__vector__CurvePoint.html#a59c5a6e8eedb765c26facb10525cba87":[6,1,1,0,1,889,16],
 "classmrmeshpy_1_1std__vector__CurvePoint.html#a6544237cb7e9ec867e6cc9dba542521b":[6,1,0,0,2,889,10],
-"classmrmeshpy_1_1std__vector__CurvePoint.html#a6544237cb7e9ec867e6cc9dba542521b":[6,1,1,0,1,889,10]
+"classmrmeshpy_1_1std__vector__CurvePoint.html#a6544237cb7e9ec867e6cc9dba542521b":[6,1,1,0,1,889,10],
+"classmrmeshpy_1_1std__vector__CurvePoint.html#a6591413a954032072ac9092e8fc24bda":[6,1,0,0,2,889,8],
+"classmrmeshpy_1_1std__vector__CurvePoint.html#a6591413a954032072ac9092e8fc24bda":[6,1,1,0,1,889,8]
 };

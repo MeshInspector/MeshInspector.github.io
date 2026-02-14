@@ -1,7 +1,5 @@
 var NAVTREEINDEX67 =
 {
-"classmrmeshpy_1_1OutliersDetector.html#aec0af56a2d3ba15b2dc5689a08b70fc1":[6,1,0,0,2,641,5],
-"classmrmeshpy_1_1OutliersDetector.html#aec0af56a2d3ba15b2dc5689a08b70fc1":[6,1,1,0,1,641,5],
 "classmrmeshpy_1_1OutliersDetector.html#af15b9e8fb03dc3f658d8b72fd8693509":[6,1,0,0,2,641,2],
 "classmrmeshpy_1_1OutliersDetector.html#af15b9e8fb03dc3f658d8b72fd8693509":[6,1,1,0,1,641,2],
 "classmrmeshpy_1_1OutputFlows.html":[6,1,0,0,2,643],
@@ -249,5 +247,7 @@ var NAVTREEINDEX67 =
 "classmrmeshpy_1_1PdfParameters.html":[6,1,0,0,2,656],
 "classmrmeshpy_1_1PdfParameters.html":[6,1,1,0,1,656],
 "classmrmeshpy_1_1PdfParameters.html#a011b86b575556029dc95161bf0f27a3e":[6,1,0,0,2,656,0],
-"classmrmeshpy_1_1PdfParameters.html#a011b86b575556029dc95161bf0f27a3e":[6,1,1,0,1,656,0]
+"classmrmeshpy_1_1PdfParameters.html#a011b86b575556029dc95161bf0f27a3e":[6,1,1,0,1,656,0],
+"classmrmeshpy_1_1PdfParameters.html#a256980385c2eff580f48ab52f3243d22":[6,1,0,0,2,656,1],
+"classmrmeshpy_1_1PdfParameters.html#a256980385c2eff580f48ab52f3243d22":[6,1,1,0,1,656,1]
 };

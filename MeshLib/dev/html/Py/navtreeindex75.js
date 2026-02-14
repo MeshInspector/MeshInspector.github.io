@@ -1,7 +1,5 @@
 var NAVTREEINDEX75 =
 {
-"classmrmeshpy_1_1Polynomial__double__3.html#a000d3b3fc09f08c66e30d9f924676ded":[6,1,0,0,2,731,6],
-"classmrmeshpy_1_1Polynomial__double__3.html#a000d3b3fc09f08c66e30d9f924676ded":[6,1,1,0,1,731,6],
 "classmrmeshpy_1_1Polynomial__double__3.html#a37d9f1a49eac165c1cd7f4e9d2306fdf":[6,1,0,0,2,731,1],
 "classmrmeshpy_1_1Polynomial__double__3.html#a37d9f1a49eac165c1cd7f4e9d2306fdf":[6,1,1,0,1,731,1],
 "classmrmeshpy_1_1Polynomial__double__3.html#a6009a37fecdbfe039a5b72369dbd6939":[6,1,0,0,2,731,5],
@@ -249,5 +247,7 @@ var NAVTREEINDEX75 =
 "classmrmeshpy_1_1PrecipitationSimulator_1_1SimulationStep.html#adf80729185c476bb7e56f3149a50371d":[6,1,0,0,2,746,1,1],
 "classmrmeshpy_1_1PrecipitationSimulator_1_1SimulationStep.html#adf80729185c476bb7e56f3149a50371d":[6,1,1,0,1,746,1,1],
 "classmrmeshpy_1_1PrecipitationSimulator_1_1SimulationStep.html#aec57b3e999512c4ac69c97485dea6d98":[6,1,0,0,2,746,1,2],
-"classmrmeshpy_1_1PrecipitationSimulator_1_1SimulationStep.html#aec57b3e999512c4ac69c97485dea6d98":[6,1,1,0,1,746,1,2]
+"classmrmeshpy_1_1PrecipitationSimulator_1_1SimulationStep.html#aec57b3e999512c4ac69c97485dea6d98":[6,1,1,0,1,746,1,2],
+"classmrmeshpy_1_1PreciseVertCoord.html":[6,1,0,0,2,747],
+"classmrmeshpy_1_1PreciseVertCoord.html":[6,1,1,0,1,747]
 };

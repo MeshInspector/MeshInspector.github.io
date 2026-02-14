@@ -23,7 +23,6 @@ var classmrmeshpy_1_1ObjectMeshHolder =
     [ "getEdgeWidth", "classmrmeshpy_1_1ObjectMeshHolder.html#a746da9ccebb095aa5f9db5270b270680", null ],
     [ "getFacesColorMap", "classmrmeshpy_1_1ObjectMeshHolder.html#a39644596faef5a4e4e0568c965b40aa6", null ],
     [ "getModelHash", "classmrmeshpy_1_1ObjectMeshHolder.html#a0bc7bf205ae40d8b54f4d66974d15523", null ],
-    [ "getNeededNormalsRenderDirtyValue", "classmrmeshpy_1_1ObjectMeshHolder.html#aac91bb44717cd3f6d645d31dee5ed89a", null ],
     [ "getPointsColor", "classmrmeshpy_1_1ObjectMeshHolder.html#a72a874a6bd0f01992c0a462354b919a3", null ],
     [ "getPointsColorsForAllViewports", "classmrmeshpy_1_1ObjectMeshHolder.html#a5fbd802793324d3bbedab33dd0b027e6", null ],
     [ "getPointSize", "classmrmeshpy_1_1ObjectMeshHolder.html#a009db400955d102bba43dd4e115023b1", null ],

@@ -87,7 +87,6 @@ var MRObjectMesh_8h =
     [ "MR_ObjectMesh_getGlobalAlphaForAllViewports", "MRObjectMesh_8h.html#a36dd850e4aa1efaf46141fa3701d17fa", null ],
     [ "MR_ObjectMesh_getInfoLines", "MRObjectMesh_8h.html#af6d1efaecd59706fd6d8d39092a28143", null ],
     [ "MR_ObjectMesh_getModelHash", "MRObjectMesh_8h.html#a5579a34fbac546f7b45fd6c9530ac336", null ],
-    [ "MR_ObjectMesh_getNeededNormalsRenderDirtyValue", "MRObjectMesh_8h.html#a5fd5bb5da1c4241f5a76c6ff07ee2df8", null ],
     [ "MR_ObjectMesh_getPointsColor", "MRObjectMesh_8h.html#aba859942294f1a12a02cabd2f840b3b3", null ],
     [ "MR_ObjectMesh_getPointsColorsForAllViewports", "MRObjectMesh_8h.html#a62e50a4d64a01b90f00a58bff902ec7c", null ],
     [ "MR_ObjectMesh_getPointSize", "MRObjectMesh_8h.html#ad728231a2c40889ccb4782a51759e5d1", null ],

@@ -1,8 +1,5 @@
 var NAVTREEINDEX91 =
 {
-"MRPolylineDecimate_8h.html#ac1d2b2db6e35a1354b8715422c5e9434":[6,2,1,0,0,0,1,268,29],
-"MRPolylineDecimate_8h.html#ac5e4f1427515ed8ad950c5dcc6ebd3c9":[6,2,1,0,0,0,1,268,28],
-"MRPolylineDecimate_8h.html#ac66cce5b0850ae9b355503447df887fd":[6,2,1,0,0,0,1,268,1],
 "MRPolylineDecimate_8h.html#ac6aa3867531427bcdb5ceb7baec497e8":[6,2,1,0,0,0,1,268,104],
 "MRPolylineDecimate_8h.html#acbd23c57812e89e51a24db89d7f71f92":[6,2,1,0,0,0,1,268,55],
 "MRPolylineDecimate_8h.html#acf804242c812dab5efb2717ccd5f7425":[6,2,1,0,0,0,1,268,107],
@@ -249,5 +246,8 @@ var NAVTREEINDEX91 =
 "MRPolylineToVoxels_8h.html#a7e5d7e32ba36a63aed77c3abc1244b8c":[6,2,1,0,0,0,3,19,48],
 "MRPolylineToVoxels_8h.html#a81fe9a50c35323a863d9f31d75d56214":[6,2,1,0,0,0,3,19,31],
 "MRPolylineToVoxels_8h.html#a87d7a18eeb0a772028fe46960f58ab50":[6,2,1,0,0,0,3,19,35],
-"MRPolylineToVoxels_8h.html#a89c8051ab9f8ef3cd2f86752938a9e07":[6,2,1,0,0,0,3,19,0]
+"MRPolylineToVoxels_8h.html#a89c8051ab9f8ef3cd2f86752938a9e07":[6,2,1,0,0,0,3,19,0],
+"MRPolylineToVoxels_8h.html#a94846aa2e8acdccd06d059403cc1457a":[6,2,1,0,0,0,3,19,36],
+"MRPolylineToVoxels_8h.html#a9e64421db803f5407d080bcb70ee7c2c":[6,2,1,0,0,0,3,19,40],
+"MRPolylineToVoxels_8h.html#a9f96f309c60885f07f91c8cd9dd17548":[6,2,1,0,0,0,3,19,51]
 };

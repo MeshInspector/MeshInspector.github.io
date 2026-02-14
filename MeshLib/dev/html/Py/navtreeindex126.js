@@ -1,7 +1,5 @@
 var NAVTREEINDEX126 =
 {
-"classmrmeshpy_1_1func__bool__from__MeshIntersectionResult.html#a142c8fdfd7bc8c1ec8f89a60ca798718":[6,1,0,0,2,298,1],
-"classmrmeshpy_1_1func__bool__from__MeshIntersectionResult.html#a142c8fdfd7bc8c1ec8f89a60ca798718":[6,1,1,0,1,298,1],
 "classmrmeshpy_1_1func__bool__from__MeshIntersectionResult.html#a3c89efceaf761b4b323b93e78e7df6c3":[6,1,0,0,2,298,7],
 "classmrmeshpy_1_1func__bool__from__MeshIntersectionResult.html#a3c89efceaf761b4b323b93e78e7df6c3":[6,1,1,0,1,298,7],
 "classmrmeshpy_1_1func__bool__from__MeshIntersectionResult.html#a3f457b3497b02a620eca8e2f3892f884":[6,1,0,0,2,298,4],
@@ -249,5 +247,7 @@ var NAVTREEINDEX126 =
 "classmrmeshpy_1_1func__float__from__Id__UndirectedEdgeTag.html#acbd09945fa2b05a3bdd3e279ac9c24e2":[6,1,0,0,2,312,1],
 "classmrmeshpy_1_1func__float__from__Id__UndirectedEdgeTag.html#acbd09945fa2b05a3bdd3e279ac9c24e2":[6,1,1,0,1,312,1],
 "classmrmeshpy_1_1func__float__from__Id__UndirectedEdgeTag.html#afb9197e9aa90d498a8086485446389d5":[6,1,0,0,2,312,5],
-"classmrmeshpy_1_1func__float__from__Id__UndirectedEdgeTag.html#afb9197e9aa90d498a8086485446389d5":[6,1,1,0,1,312,5]
+"classmrmeshpy_1_1func__float__from__Id__UndirectedEdgeTag.html#afb9197e9aa90d498a8086485446389d5":[6,1,1,0,1,312,5],
+"classmrmeshpy_1_1func__float__from__Id__VertTag.html":[6,1,0,0,2,313],
+"classmrmeshpy_1_1func__float__from__Id__VertTag.html":[6,1,1,0,1,313]
 };

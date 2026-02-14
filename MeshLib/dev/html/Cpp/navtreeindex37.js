@@ -1,7 +1,5 @@
 var NAVTREEINDEX37 =
 {
-"classMR_1_1RecentFilesStore.html#a91c0cee2c949bedab99c902e62d77a9f":[6,0,2,0,2,585,5],
-"classMR_1_1RecentFilesStore.html#ab3bdf57745bbf11b5ac6fd1b27edcb68":[6,0,1,0,1,603,0],
 "classMR_1_1RecentFilesStore.html#ab3bdf57745bbf11b5ac6fd1b27edcb68":[6,0,2,0,2,585,0],
 "classMR_1_1RectIndexer.html":[6,0,0,5,8],
 "classMR_1_1RectIndexer.html#a3405e1ad7d3f9cb6d72845e41f3232bc":[6,0,0,5,8,6],
@@ -249,5 +247,7 @@ var NAVTREEINDEX37 =
 "classMR_1_1RenderLinesObject.html#a8412df02cc59f812bae34332eb7da1bf":[6,0,2,0,2,598,5],
 "classMR_1_1RenderLinesObject.html#a84c3a8d6e9caedfefff441da8809dec0":[6,0,1,0,1,616,2],
 "classMR_1_1RenderLinesObject.html#a84c3a8d6e9caedfefff441da8809dec0":[6,0,2,0,2,598,2],
-"classMR_1_1RenderLinesObject.html#ad30e617ed0e05dd26727e86018cb4366":[6,0,1,0,1,616,6]
+"classMR_1_1RenderLinesObject.html#ad30e617ed0e05dd26727e86018cb4366":[6,0,1,0,1,616,6],
+"classMR_1_1RenderLinesObject.html#ad30e617ed0e05dd26727e86018cb4366":[6,0,2,0,2,598,6],
+"classMR_1_1RenderMeshObject.html":[6,0,1,0,1,617]
 };

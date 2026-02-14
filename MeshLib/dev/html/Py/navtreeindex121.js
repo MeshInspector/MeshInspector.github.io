@@ -1,7 +1,5 @@
 var NAVTREEINDEX121 =
 {
-"classmrmeshpy_1_1VoxelMetricParameters.html#a6be4c37bbd85c0da3e5d697961ac4471":[6,1,0,0,2,1208,3],
-"classmrmeshpy_1_1VoxelMetricParameters.html#a6be4c37bbd85c0da3e5d697961ac4471":[6,1,1,0,1,1208,3],
 "classmrmeshpy_1_1VoxelMetricParameters.html#a6f40d9e2612b4df01bba975a6d396337":[6,1,0,0,2,1208,6],
 "classmrmeshpy_1_1VoxelMetricParameters.html#a6f40d9e2612b4df01bba975a6d396337":[6,1,1,0,1,1208,6],
 "classmrmeshpy_1_1VoxelMetricParameters.html#aa92f9238f1b93dca7e78440103761c5f":[6,1,0,0,2,1208,2],
@@ -249,5 +247,7 @@ var NAVTREEINDEX121 =
 "classmrmeshpy_1_1VoxelsVolumeInterpolatedAccessor__VoxelsVolumeAccessor__FunctionVolume.html#ab9df927213f4e03e8dc49956ecc4f28d":[6,1,0,0,2,1216,0],
 "classmrmeshpy_1_1VoxelsVolumeInterpolatedAccessor__VoxelsVolumeAccessor__FunctionVolume.html#ab9df927213f4e03e8dc49956ecc4f28d":[6,1,1,0,1,1216,0],
 "classmrmeshpy_1_1VoxelsVolumeInterpolatedAccessor__VoxelsVolumeAccessor__SimpleVolumeMinMax.html":[6,1,0,0,2,1217],
-"classmrmeshpy_1_1VoxelsVolumeInterpolatedAccessor__VoxelsVolumeAccessor__SimpleVolumeMinMax.html":[6,1,1,0,1,1217]
+"classmrmeshpy_1_1VoxelsVolumeInterpolatedAccessor__VoxelsVolumeAccessor__SimpleVolumeMinMax.html":[6,1,1,0,1,1217],
+"classmrmeshpy_1_1VoxelsVolumeInterpolatedAccessor__VoxelsVolumeAccessor__SimpleVolumeMinMax.html#a47c5649b95a64fbbed25d78431b745d4":[6,1,0,0,2,1217,0],
+"classmrmeshpy_1_1VoxelsVolumeInterpolatedAccessor__VoxelsVolumeAccessor__SimpleVolumeMinMax.html#a47c5649b95a64fbbed25d78431b745d4":[6,1,1,0,1,1217,0]
 };

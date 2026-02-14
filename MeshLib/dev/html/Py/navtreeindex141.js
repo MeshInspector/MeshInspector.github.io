@@ -1,7 +1,5 @@
 var NAVTREEINDEX141 =
 {
-"classmrmeshpy_1_1std__vector__FlowOrigin.html#a607878b6435e5f0af1a95563c10a0df4":[6,1,0,0,2,905,13],
-"classmrmeshpy_1_1std__vector__FlowOrigin.html#a607878b6435e5f0af1a95563c10a0df4":[6,1,1,0,1,905,13],
 "classmrmeshpy_1_1std__vector__FlowOrigin.html#a69910b66a5b472919b52cd7bc3bd41c3":[6,1,0,0,2,905,5],
 "classmrmeshpy_1_1std__vector__FlowOrigin.html#a69910b66a5b472919b52cd7bc3bd41c3":[6,1,1,0,1,905,5],
 "classmrmeshpy_1_1std__vector__FlowOrigin.html#a90364939b970e0cffb785db1245e6fc4":[6,1,0,0,2,905,19],
@@ -249,5 +247,7 @@ var NAVTREEINDEX141 =
 "classmrmeshpy_1_1std__vector__Graph__EndVertices.html#af6fff075af27c182f509bf7bc22cdb5b":[6,1,0,0,2,909,18],
 "classmrmeshpy_1_1std__vector__Graph__EndVertices.html#af6fff075af27c182f509bf7bc22cdb5b":[6,1,1,0,1,909,18],
 "classmrmeshpy_1_1std__vector__Graph__EndVertices.html#afffd1e60f62ab54e01a0291622e03d0d":[6,1,0,0,2,909,8],
-"classmrmeshpy_1_1std__vector__Graph__EndVertices.html#afffd1e60f62ab54e01a0291622e03d0d":[6,1,1,0,1,909,8]
+"classmrmeshpy_1_1std__vector__Graph__EndVertices.html#afffd1e60f62ab54e01a0291622e03d0d":[6,1,1,0,1,909,8],
+"classmrmeshpy_1_1std__vector__Heap__float__Id__GraphVertTag__std__greater__float__Element.html":[6,1,0,0,2,910],
+"classmrmeshpy_1_1std__vector__Heap__float__Id__GraphVertTag__std__greater__float__Element.html":[6,1,1,0,1,910]
 };

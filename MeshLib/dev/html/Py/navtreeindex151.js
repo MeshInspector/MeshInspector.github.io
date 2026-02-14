@@ -1,7 +1,5 @@
 var NAVTREEINDEX151 =
 {
-"classmrmeshpy_1_1std__vector__PlanarTriangulation__IntersectionInfo.html#a85d6138063350330b1837f5de172adcd":[6,1,0,0,2,951,18],
-"classmrmeshpy_1_1std__vector__PlanarTriangulation__IntersectionInfo.html#a85d6138063350330b1837f5de172adcd":[6,1,1,0,1,951,18],
 "classmrmeshpy_1_1std__vector__PlanarTriangulation__IntersectionInfo.html#a8ad75eb558eee41c1abb86779506e122":[6,1,0,0,2,951,20],
 "classmrmeshpy_1_1std__vector__PlanarTriangulation__IntersectionInfo.html#a8ad75eb558eee41c1abb86779506e122":[6,1,1,0,1,951,20],
 "classmrmeshpy_1_1std__vector__PlanarTriangulation__IntersectionInfo.html#a94083d2c1a51d5f660cc57bc1d493288":[6,1,0,0,2,951,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX151 =
 "classmrmeshpy_1_1std__vector__PointsProjectionResult.html#afd6a510251470547c19bee3dac8186e6":[6,1,0,0,2,955,10],
 "classmrmeshpy_1_1std__vector__PointsProjectionResult.html#afd6a510251470547c19bee3dac8186e6":[6,1,1,0,1,955,10],
 "classmrmeshpy_1_1std__vector__Polyline__Vector3__float.html":[6,1,0,0,2,956],
-"classmrmeshpy_1_1std__vector__Polyline__Vector3__float.html":[6,1,1,0,1,956]
+"classmrmeshpy_1_1std__vector__Polyline__Vector3__float.html":[6,1,1,0,1,956],
+"classmrmeshpy_1_1std__vector__Polyline__Vector3__float.html#a0359bdbb70a4fa9d03a3ea268000e06d":[6,1,0,0,2,956,15],
+"classmrmeshpy_1_1std__vector__Polyline__Vector3__float.html#a0359bdbb70a4fa9d03a3ea268000e06d":[6,1,1,0,1,956,15]
 };

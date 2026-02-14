@@ -7044,7 +7044,6 @@
     <member refid="classMR_1_1ObjectMeshHolder_1a663d9471a16c9490dadae17913e17742" kind="function"><name>updateAncillaryUVCoords</name></member>
     <member refid="classMR_1_1ObjectMeshHolder_1a6b32af4a4df60d871381468457e8797c" kind="function"><name>hasAncillaryTexture</name></member>
     <member refid="classMR_1_1ObjectMeshHolder_1ab00fb14684a12947e6387838d4f07254" kind="function"><name>clearAncillaryTexture</name></member>
-    <member refid="classMR_1_1ObjectMeshHolder_1a2bcb9fd68dc89ba14cf857ef890a3f6b" kind="function"><name>getNeededNormalsRenderDirtyValue</name></member>
     <member refid="classMR_1_1ObjectMeshHolder_1aa095821c8be332dee208deb420d5c7f8" kind="function"><name>getRedrawFlag</name></member>
     <member refid="classMR_1_1ObjectMeshHolder_1adc32b4c9b303a885eadfbde1f3b7eeb0" kind="function"><name>isMeshClosed</name></member>
     <member refid="classMR_1_1ObjectMeshHolder_1a2f0c431e946a273dfa9a2bb927206291" kind="function"><name>getWorldBox</name></member>
@@ -9419,6 +9418,7 @@
     <member refid="classMR_1_1RenderMeshObject_1a25ce65cf24e73a9b094c4ea775ab9710" kind="function"><name>initBuffers_</name></member>
     <member refid="classMR_1_1RenderMeshObject_1a4e92f378f23062d1117a5f705c975fa4" kind="function"><name>freeBuffers_</name></member>
     <member refid="classMR_1_1RenderMeshObject_1abe7b4ee6ee91312d898e283b022cf5e0" kind="function"><name>update_</name></member>
+    <member refid="classMR_1_1RenderMeshObject_1a6fe398ef2e4489f37849bb28b0830d4f" kind="function"><name>getNeededNormalsRenderDirtyValue_</name></member>
   </compound>
   <compound refid="classMR_1_1RenderNameObject" kind="class"><name>MR::RenderNameObject</name>
     <member refid="classMR_1_1RenderNameObject_1aecb61a158ef2e9ddf82490093b706d09" kind="variable"><name>task_</name></member>

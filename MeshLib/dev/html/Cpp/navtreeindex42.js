@@ -1,7 +1,5 @@
 var NAVTREEINDEX42 =
 {
-"classMR_1_1SceneStateExactCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4.html":[6,0,1,0,1,682],
-"classMR_1_1SceneStateExactCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4.html":[6,0,2,0,2,664],
 "classMR_1_1SceneStateExactCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4.html#a188ad7b9cba3b6b3dfe51322b6cc4d57":[6,0,1,0,1,682,0],
 "classMR_1_1SceneStateExactCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4.html#a188ad7b9cba3b6b3dfe51322b6cc4d57":[6,0,2,0,2,664,0],
 "classMR_1_1SceneStateExactCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4.html#a9bad11c660c059c865bbaa6a8285ab04":[6,0,1,0,1,682,1],
@@ -249,5 +247,7 @@ var NAVTREEINDEX42 =
 "classMR_1_1SpaceMouse_1_1Handler.html#acef4a0601b4b1e8c5eaa19be8b3a7437":[6,0,2,0,2,26,3,0],
 "classMR_1_1SpaceMouse_1_1HandlerHidapi.html":[6,0,1,0,1,41,4],
 "classMR_1_1SpaceMouse_1_1HandlerHidapi.html":[6,0,2,0,2,26,4],
-"classMR_1_1SpaceMouse_1_1HandlerHidapi.html#a20c6b0e22bec8be84b2034de74bf6073":[6,0,1,0,1,41,4,2]
+"classMR_1_1SpaceMouse_1_1HandlerHidapi.html#a20c6b0e22bec8be84b2034de74bf6073":[6,0,1,0,1,41,4,2],
+"classMR_1_1SpaceMouse_1_1HandlerHidapi.html#a20c6b0e22bec8be84b2034de74bf6073":[6,0,2,0,2,26,4,2],
+"classMR_1_1SpaceMouse_1_1HandlerHidapi.html#a39c3a20e7c69203c9a1f4101f8b2ef82":[6,0,1,0,1,41,4,1]
 };
