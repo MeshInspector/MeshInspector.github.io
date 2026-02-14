@@ -584,6 +584,11 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a76b7b6b3bfd7dac31eb1d150afb761f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c9ac961e923f7c61ccf3424413be0fb" id="r_a8c9ac961e923f7c61ccf3424413be0fb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c9ac961e923f7c61ccf3424413be0fb">setupRenderObject_</a> () const</td></tr>
 <tr class="separator:a8c9ac961e923f7c61ccf3424413be0fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2261b98d651c586e2bc62a2e1efb902a" id="r_a2261b98d651c586e2bc62a2e1efb902a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2261b98d651c586e2bc62a2e1efb902a">setDirtyFlagsFast_</a> (uint32_t mask)</td></tr>
+<tr class="memdesc:a2261b98d651c586e2bc62a2e1efb902a"><td class="mdescLeft">&#160;</td><td class="mdescRight">todo: make virtual and public when all children support separate fast dirty and cache invalidation  <br /></td></tr>
+<tr class="separator:a2261b98d651c586e2bc62a2e1efb902a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1c087e54a58af29aa241898f9ea3222" id="r_ac1c087e54a58af29aa241898f9ea3222"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1c087e54a58af29aa241898f9ea3222">invalidateMetricsCache_</a> (uint32_t mask)</td></tr>
+<tr class="separator:ac1c087e54a58af29aa241898f9ea3222"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11c8d591aa72e021a946b58349b80bcf" id="r_a11c8d591aa72e021a946b58349b80bcf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11c8d591aa72e021a946b58349b80bcf">getVisualizePropertyMask_</a> (<a class="el" href="classMR_1_1AnyVisualizeMaskEnum.html">AnyVisualizeMaskEnum</a> type)</td></tr>
 <tr class="separator:a11c8d591aa72e021a946b58349b80bcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa7e5231f013c0e9e1b528c69759cc60d" id="r_aa7e5231f013c0e9e1b528c69759cc60d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7e5231f013c0e9e1b528c69759cc60d">serializeFields_</a> (Json::Value &amp;root) const override</td></tr>
@@ -1630,6 +1635,31 @@ template&lt;AnyVisualizeMaskEnumType T&gt; </div>
 
 </div>
 </div>
+<a id="ac1c087e54a58af29aa241898f9ea3222" name="ac1c087e54a58af29aa241898f9ea3222"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1c087e54a58af29aa241898f9ea3222">&#9670;&#160;</a></span>invalidateMetricsCache_()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::VisualObject::invalidateMetricsCache_ </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>mask</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a938a64da82232f07dec418b944f5bc8b" name="a938a64da82232f07dec418b944f5bc8b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a938a64da82232f07dec418b944f5bc8b">&#9670;&#160;</a></span>isPickable()</h2>
 
@@ -2138,6 +2168,33 @@ template&lt;AnyVisualizeMaskEnumType T&gt; </div>
 </dl>
 
 <p>Reimplemented in <a class="el" href="classMR_1_1ObjectGcode.html#abd8d7ffd2cdeeac5474265b72f7a8ad7">MR::ObjectGcode</a>, <a class="el" href="classMR_1_1ObjectLinesHolder.html#a4693af2f58656c85b0fe600e323273ff">MR::ObjectLinesHolder</a>, <a class="el" href="classMR_1_1ObjectMeshHolder.html#a263df6d53d2c8a082a9fc691c248ec46">MR::ObjectMeshHolder</a>, <a class="el" href="classMR_1_1ObjectPointsHolder.html#a29d230eab5ae9ef093a8d9f9878ecb6a">MR::ObjectPointsHolder</a>, and <a class="el" href="classMR_1_1ObjectVoxels.html#a3c066a65c73f77c0e3a8438729f6102b">MR::ObjectVoxels</a>.</p>
+
+</div>
+</div>
+<a id="a2261b98d651c586e2bc62a2e1efb902a" name="a2261b98d651c586e2bc62a2e1efb902a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2261b98d651c586e2bc62a2e1efb902a">&#9670;&#160;</a></span>setDirtyFlagsFast_()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::VisualObject::setDirtyFlagsFast_ </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>mask</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>todo: make virtual and public when all children support separate fast dirty and cache invalidation </p>
 
 </div>
 </div>

@@ -1,5 +1,7 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1Features_1_1MeasureResult.html#ae91b71d479c6bb30a6e9b3068dd1d0c2":[6,0,2,0,2,2,2,8],
+"structMR_1_1Features_1_1MeasureResult_1_1Angle.html":[6,0,1,0,1,6,2,0],
 "structMR_1_1Features_1_1MeasureResult_1_1Angle.html":[6,0,2,0,2,2,2,0],
 "structMR_1_1Features_1_1MeasureResult_1_1Angle.html#a104e267ea283036c060f8d2f3ad3cfc0":[6,0,1,0,1,6,2,0,8],
 "structMR_1_1Features_1_1MeasureResult_1_1Angle.html#a104e267ea283036c060f8d2f3ad3cfc0":[6,0,2,0,2,2,2,0,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX71 =
 "structMR_1_1FillHolesWithExtraPointsParams.html":[6,0,1,0,1,261],
 "structMR_1_1FillHolesWithExtraPointsParams.html":[6,0,2,0,2,243],
 "structMR_1_1FillHolesWithExtraPointsParams.html#aa413702c40e0c7216a9137543e25d8a5":[6,0,1,0,1,261,0],
-"structMR_1_1FillHolesWithExtraPointsParams.html#aa413702c40e0c7216a9137543e25d8a5":[6,0,2,0,2,243,0],
-"structMR_1_1FillHolesWithExtraPointsParams.html#aa8330987a459a0771c00087a750123cd":[6,0,1,0,1,261,1],
-"structMR_1_1FillHolesWithExtraPointsParams.html#aa8330987a459a0771c00087a750123cd":[6,0,2,0,2,243,1]
+"structMR_1_1FillHolesWithExtraPointsParams.html#aa413702c40e0c7216a9137543e25d8a5":[6,0,2,0,2,243,0]
 };

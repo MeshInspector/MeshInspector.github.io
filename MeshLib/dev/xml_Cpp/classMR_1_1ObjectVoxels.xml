@@ -2105,6 +2105,7 @@
       <member refid="classMR_1_1ObjectVoxels_1acf5e6edf0ad0b6842194f491ab9eb018" prot="private" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>indexer_</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a2b89808d3b55996770009742a602af5b" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>invalidateActiveBoundsCaches</name></member>
       <member refid="classMR_1_1ObjectMeshHolder_1ac864caaffa64ff08d668eddfafdb8cd9" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>invalidateMetricsCache</name></member>
+      <member refid="classMR_1_1VisualObject_1ac1c087e54a58af29aa241898f9ea3222" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>invalidateMetricsCache_</name></member>
       <member refid="classMR_1_1VisualObject_1af6cd63e72a721fbe39cdff002950bce4" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>invertNormals_</name></member>
       <member refid="classMR_1_1Object_1a7c970b0fa099d812c04978d33c4b624e" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>isAncestor</name></member>
       <member refid="classMR_1_1Object_1a3dcf68a5faec85e8e753e34ab77eb1b9" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>isAncillary</name></member>
@@ -2230,6 +2231,7 @@
       <member refid="classMR_1_1ObjectVoxels_1a4077a96067e9b325bfe06d5b6c961dd4" prot="private" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setDefaultSceneProperties_</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a3c066a65c73f77c0e3a8438729f6102b" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setDirtyFlags</name></member>
       <member refid="classMR_1_1ObjectMeshHolder_1a35ed64e6f4307c9d14a5989ffee7accb" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setDirtyFlagsFast</name></member>
+      <member refid="classMR_1_1VisualObject_1a2261b98d651c586e2bc62a2e1efb902a" prot="protected" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setDirtyFlagsFast_</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a0a5cca18a913b0ac50da4541a044cd2b" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setDualMarchingCubes</name></member>
       <member refid="classMR_1_1ObjectMeshHolder_1a3e32ed3d337d28b3cb298e23cc6b468b" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setEdgesColor</name></member>
       <member refid="classMR_1_1ObjectMeshHolder_1ab9199ebc6d8e732a5ae7bf131c07dbf4" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>setEdgesColorsForAllViewports</name></member>

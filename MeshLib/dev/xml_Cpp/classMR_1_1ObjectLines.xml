@@ -584,6 +584,7 @@
       <member refid="classMR_1_1ObjectLinesHolder_1a8374696160d445c466b11e006c7fb4c7" prot="public" virt="virtual"><scope>MR::ObjectLines</scope><name>hasModel</name></member>
       <member refid="classMR_1_1ObjectLinesHolder_1ab254bdde22e806161d869d150ac181b8" prot="public" virt="virtual"><scope>MR::ObjectLines</scope><name>hasVisualRepresentation</name></member>
       <member refid="classMR_1_1ObjectLinesHolder_1ad64322425bc9354238fc990bff3e2b10" prot="public" virt="virtual"><scope>MR::ObjectLines</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1VisualObject_1ac1c087e54a58af29aa241898f9ea3222" prot="protected" virt="non-virtual"><scope>MR::ObjectLines</scope><name>invalidateMetricsCache_</name></member>
       <member refid="classMR_1_1VisualObject_1af6cd63e72a721fbe39cdff002950bce4" prot="protected" virt="non-virtual"><scope>MR::ObjectLines</scope><name>invertNormals_</name></member>
       <member refid="classMR_1_1Object_1a7c970b0fa099d812c04978d33c4b624e" prot="public" virt="non-virtual"><scope>MR::ObjectLines</scope><name>isAncestor</name></member>
       <member refid="classMR_1_1Object_1a3dcf68a5faec85e8e753e34ab77eb1b9" prot="public" virt="non-virtual"><scope>MR::ObjectLines</scope><name>isAncillary</name></member>
@@ -668,6 +669,7 @@
       <member refid="classMR_1_1VisualObject_1a8d339ad1cf1735f90773b4f8b89e9059" prot="public" virt="virtual"><scope>MR::ObjectLines</scope><name>setColoringType</name></member>
       <member refid="classMR_1_1ObjectLinesHolder_1a9211895465ab621237d8ad28b942ad42" prot="public" virt="virtual"><scope>MR::ObjectLines</scope><name>setDashPattern</name></member>
       <member refid="classMR_1_1ObjectLinesHolder_1a4693af2f58656c85b0fe600e323273ff" prot="public" virt="virtual"><scope>MR::ObjectLines</scope><name>setDirtyFlags</name></member>
+      <member refid="classMR_1_1VisualObject_1a2261b98d651c586e2bc62a2e1efb902a" prot="protected" virt="non-virtual"><scope>MR::ObjectLines</scope><name>setDirtyFlagsFast_</name></member>
       <member refid="classMR_1_1VisualObject_1a0d1a64b6bed894b4236b06ac732dfd74" prot="public" virt="virtual"><scope>MR::ObjectLines</scope><name>setFrontColor</name></member>
       <member refid="classMR_1_1VisualObject_1ac8fd310ffa1926e733e28b521f658778" prot="public" virt="virtual"><scope>MR::ObjectLines</scope><name>setFrontColorsForAllViewports</name></member>
       <member refid="classMR_1_1VisualObject_1a985084dc83b837ab048114f5f4bacae2" prot="public" virt="virtual"><scope>MR::ObjectLines</scope><name>setGlobalAlpha</name></member>

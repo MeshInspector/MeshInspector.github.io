@@ -1037,6 +1037,7 @@
       <member refid="classMR_1_1Object_1a376cb1be36addec5afd14487533e6693" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>hasModel</name></member>
       <member refid="classMR_1_1Object_1a9f8a60330354b5cd43536c22bed08f3d" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>hasVisualRepresentation</name></member>
       <member refid="classMR_1_1VisualObject_1a1c54cde8d69f13962e4e64bf839f3111" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1VisualObject_1ac1c087e54a58af29aa241898f9ea3222" prot="protected" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>invalidateMetricsCache_</name></member>
       <member refid="classMR_1_1VisualObject_1af6cd63e72a721fbe39cdff002950bce4" prot="protected" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>invertNormals_</name></member>
       <member refid="classMR_1_1Object_1a7c970b0fa099d812c04978d33c4b624e" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>isAncestor</name></member>
       <member refid="classMR_1_1Object_1a3dcf68a5faec85e8e753e34ab77eb1b9" prot="public" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>isAncillary</name></member>
@@ -1114,6 +1115,7 @@
       <member refid="classMR_1_1DistanceMeasurementObject_1afbcfa2a320101a85f090416fe434384c" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>setComparisonReferenceValue</name></member>
       <member refid="classMR_1_1DistanceMeasurementObject_1a326ff10ac65ad253dc898ffbfba8df33" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>setComparisonTolerance</name></member>
       <member refid="classMR_1_1VisualObject_1a3e72e4b693ea9b28b46b5928167f0e74" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>setDirtyFlags</name></member>
+      <member refid="classMR_1_1VisualObject_1a2261b98d651c586e2bc62a2e1efb902a" prot="protected" virt="non-virtual"><scope>MR::DistanceMeasurementObject</scope><name>setDirtyFlagsFast_</name></member>
       <member refid="classMR_1_1DistanceMeasurementObject_1a6e1ae4ff3b00bf4dd29ea978f1eeb2b6" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>setDistanceMode</name></member>
       <member refid="classMR_1_1VisualObject_1a0d1a64b6bed894b4236b06ac732dfd74" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>setFrontColor</name></member>
       <member refid="classMR_1_1VisualObject_1ac8fd310ffa1926e733e28b521f658778" prot="public" virt="virtual"><scope>MR::DistanceMeasurementObject</scope><name>setFrontColorsForAllViewports</name></member>

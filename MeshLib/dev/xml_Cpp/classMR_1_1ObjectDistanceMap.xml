@@ -959,6 +959,7 @@
       <member refid="classMR_1_1ObjectMeshHolder_1a549b865eb174f604dfc2c5e9039e4c49" prot="public" virt="virtual"><scope>MR::ObjectDistanceMap</scope><name>hasVisualRepresentation</name></member>
       <member refid="classMR_1_1ObjectDistanceMap_1a9788925d8f072383a35145d4b13cbb92" prot="public" virt="virtual"><scope>MR::ObjectDistanceMap</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1ObjectMeshHolder_1ac864caaffa64ff08d668eddfafdb8cd9" prot="public" virt="virtual"><scope>MR::ObjectDistanceMap</scope><name>invalidateMetricsCache</name></member>
+      <member refid="classMR_1_1VisualObject_1ac1c087e54a58af29aa241898f9ea3222" prot="protected" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>invalidateMetricsCache_</name></member>
       <member refid="classMR_1_1VisualObject_1af6cd63e72a721fbe39cdff002950bce4" prot="protected" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>invertNormals_</name></member>
       <member refid="classMR_1_1Object_1a7c970b0fa099d812c04978d33c4b624e" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>isAncestor</name></member>
       <member refid="classMR_1_1Object_1a3dcf68a5faec85e8e753e34ab77eb1b9" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>isAncillary</name></member>
@@ -1070,6 +1071,7 @@
       <member refid="classMR_1_1ObjectDistanceMap_1ade5428e3ea0b7d6df6ddf578815b7a74" prot="private" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setDefaultSceneProperties_</name></member>
       <member refid="classMR_1_1ObjectMeshHolder_1a263df6d53d2c8a082a9fc691c248ec46" prot="public" virt="virtual"><scope>MR::ObjectDistanceMap</scope><name>setDirtyFlags</name></member>
       <member refid="classMR_1_1ObjectMeshHolder_1a35ed64e6f4307c9d14a5989ffee7accb" prot="public" virt="virtual"><scope>MR::ObjectDistanceMap</scope><name>setDirtyFlagsFast</name></member>
+      <member refid="classMR_1_1VisualObject_1a2261b98d651c586e2bc62a2e1efb902a" prot="protected" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setDirtyFlagsFast_</name></member>
       <member refid="classMR_1_1ObjectDistanceMap_1ad4a907748558704e47f71b6529c7f915" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setDistanceMap</name></member>
       <member refid="classMR_1_1ObjectMeshHolder_1a3e32ed3d337d28b3cb298e23cc6b468b" prot="public" virt="virtual"><scope>MR::ObjectDistanceMap</scope><name>setEdgesColor</name></member>
       <member refid="classMR_1_1ObjectMeshHolder_1ab9199ebc6d8e732a5ae7bf131c07dbf4" prot="public" virt="virtual"><scope>MR::ObjectDistanceMap</scope><name>setEdgesColorsForAllViewports</name></member>

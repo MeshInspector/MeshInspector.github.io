@@ -1441,6 +1441,7 @@
       <member refid="classMR_1_1Object_1a376cb1be36addec5afd14487533e6693" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>hasModel</name></member>
       <member refid="classMR_1_1ObjectLabel_1ab8661825d2a0395152d6fb6b82d994f1" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>hasVisualRepresentation</name></member>
       <member refid="classMR_1_1ObjectLabel_1ad0dafa16ac297c6861333ff5d93eb037" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1VisualObject_1ac1c087e54a58af29aa241898f9ea3222" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>invalidateMetricsCache_</name></member>
       <member refid="classMR_1_1VisualObject_1af6cd63e72a721fbe39cdff002950bce4" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>invertNormals_</name></member>
       <member refid="classMR_1_1Object_1a7c970b0fa099d812c04978d33c4b624e" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>isAncestor</name></member>
       <member refid="classMR_1_1Object_1a3dcf68a5faec85e8e753e34ab77eb1b9" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>isAncillary</name></member>
@@ -1523,6 +1524,7 @@
       <member refid="classMR_1_1ObjectLabel_1ab6b15c75b1b92367c2520f55d8b5d34f" prot="private" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>setDefaultColors_</name></member>
       <member refid="classMR_1_1ObjectLabel_1aa7a7115ec458c530a16c8ccdd5ffd744" prot="private" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>setDefaultSceneProperties_</name></member>
       <member refid="classMR_1_1VisualObject_1a3e72e4b693ea9b28b46b5928167f0e74" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setDirtyFlags</name></member>
+      <member refid="classMR_1_1VisualObject_1a2261b98d651c586e2bc62a2e1efb902a" prot="protected" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>setDirtyFlagsFast_</name></member>
       <member refid="classMR_1_1ObjectLabel_1a4057dce997287066f87e0e9383800f4a" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setFontHeight</name></member>
       <member refid="classMR_1_1ObjectLabel_1a5a6dabaa5139adaf0ea3c78fb52f7f3b" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>setFontPath</name></member>
       <member refid="classMR_1_1VisualObject_1a0d1a64b6bed894b4236b06ac732dfd74" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>setFrontColor</name></member>

@@ -1,5 +1,7 @@
 var NAVTREEINDEX87 =
 {
+"structMR_1_1SegmentSegmentIntersectResult.html#ad789dc6d1f5c42fae9b48164fcf8e824":[6,0,1,0,1,689,1],
+"structMR_1_1SegmentSegmentIntersectResult.html#ad789dc6d1f5c42fae9b48164fcf8e824":[6,0,2,0,2,671,1],
 "structMR_1_1SelfIntersections_1_1Settings.html":[6,0,1,0,1,40,0],
 "structMR_1_1SelfIntersections_1_1Settings.html":[6,0,2,0,2,25,0],
 "structMR_1_1SelfIntersections_1_1Settings.html#a27581dba0d20048070937e95346b4224":[6,0,1,0,1,40,0,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX87 =
 "structMR_1_1SplineSettings.html":[6,0,1,0,1,724],
 "structMR_1_1SplineSettings.html":[6,0,2,0,2,706],
 "structMR_1_1SplineSettings.html#a44a44b80a4845cea1a439df65b616c4e":[6,0,1,0,1,724,4],
-"structMR_1_1SplineSettings.html#a44a44b80a4845cea1a439df65b616c4e":[6,0,2,0,2,706,4],
-"structMR_1_1SplineSettings.html#a7f3e029be9ca17a1b73f53ca166fe2ca":[6,0,1,0,1,724,0],
-"structMR_1_1SplineSettings.html#a7f3e029be9ca17a1b73f53ca166fe2ca":[6,0,2,0,2,706,0]
+"structMR_1_1SplineSettings.html#a44a44b80a4845cea1a439df65b616c4e":[6,0,2,0,2,706,4]
 };
