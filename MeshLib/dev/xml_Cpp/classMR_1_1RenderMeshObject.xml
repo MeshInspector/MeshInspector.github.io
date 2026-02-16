@@ -1184,27 +1184,6 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="112" column="31"/>
       </memberdef>
     </sectiondef>
-    <sectiondef kind="private-func">
-      <memberdef kind="function" id="classMR_1_1RenderMeshObject_1a6fe398ef2e4489f37849bb28b0830d4f" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>uint32_t</type>
-        <definition>uint32_t MR::RenderMeshObject::getNeededNormalsRenderDirtyValue_</definition>
-        <argsstring>(ViewportMask viewportMask) const</argsstring>
-        <name>getNeededNormalsRenderDirtyValue_</name>
-        <qualifiedname>MR::RenderMeshObject::getNeededNormalsRenderDirtyValue_</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
-          <declname>viewportMask</declname>
-        </param>
-        <briefdescription>
-<para>returns dirty flag of currently using normal type if they are dirty in render representation </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="127" column="14"/>
-      </memberdef>
-    </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -1469,7 +1448,7 @@
         <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" bodystart="13" bodyend="128"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" bodystart="13" bodyend="124"/>
     <listofallmembers>
       <member refid="classMR_1_1RenderMeshObject_1ac596c74446d18169502743da84ebc997" prot="protected" virt="virtual"><scope>MR::RenderMeshObject</scope><name>bindBorders_</name></member>
       <member refid="classMR_1_1RenderMeshObject_1ac848abf6091b54053cbabc02f272b7f7" prot="protected" virt="virtual"><scope>MR::RenderMeshObject</scope><name>bindEdges_</name></member>
@@ -1502,7 +1481,6 @@
       <member refid="classMR_1_1RenderMeshObject_1a5931d691ce4183252190a5357ead412a" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>facesNormalsTex_</name></member>
       <member refid="classMR_1_1RenderMeshObject_1a04bbec7fedef3e485ba0763e6aea76f2" prot="public" virt="virtual"><scope>MR::RenderMeshObject</scope><name>forceBindAll</name></member>
       <member refid="classMR_1_1RenderMeshObject_1a4e92f378f23062d1117a5f705c975fa4" prot="protected" virt="virtual"><scope>MR::RenderMeshObject</scope><name>freeBuffers_</name></member>
-      <member refid="classMR_1_1RenderMeshObject_1a6fe398ef2e4489f37849bb28b0830d4f" prot="private" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>getNeededNormalsRenderDirtyValue_</name></member>
       <member refid="classMR_1_1RenderMeshObject_1a5853532e2914421ec96d85838152300a" prot="public" virt="virtual"><scope>MR::RenderMeshObject</scope><name>glBytes</name></member>
       <member refid="classMR_1_1RenderMeshObject_1a3228435a7c18da1a7bf0ddd0568a2102" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>GLuint</name></member>
       <member refid="classMR_1_1RenderMeshObject_1a8e555c261681a7483119dde9a5b3df25" prot="public" virt="virtual"><scope>MR::RenderMeshObject</scope><name>heapBytes</name></member>
