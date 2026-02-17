@@ -513,7 +513,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if this flag is set, rotate body in trajectory vertices according to its rotation otherwise body movement will be done without any rotation Returns a pointer to a member variable of class <code>MR::MovementBuildBodyParams</code> named <code>allowRotation</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if this flag is set, rotate body in trajectory vertices according to its rotation otherwise body movement will be done without any rotation Returns a pointer to a member variable of class <code>MR::MovementBuildBodyParams</code> named <code>allowRotation</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -531,7 +531,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional transform body space to trajectory space Returns a pointer to a member variable of class <code>MR::MovementBuildBodyParams</code> named <code>b2tXf</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>optional transform body space to trajectory space Returns a pointer to a member variable of class <code>MR::MovementBuildBodyParams</code> named <code>b2tXf</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -549,7 +549,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>facing direction of body, used for initial rotation (if allowRotation) if not set body accumulative normal is used Returns a pointer to a member variable of class <code>MR::MovementBuildBodyParams</code> named <code>bodyNormal</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>facing direction of body, used for initial rotation (if allowRotation) if not set body accumulative normal is used Returns a pointer to a member variable of class <code>MR::MovementBuildBodyParams</code> named <code>bodyNormal</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -567,7 +567,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>up direction of body contours corresponds with <code>trajectoryNormals</code> if both are present and <code>allowRotation</code> is set Returns a pointer to a member variable of class <code>MR::MovementBuildBodyParams</code> named <code>bodyUpDir</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>up direction of body contours corresponds with <code>trajectoryNormals</code> if both are present and <code>allowRotation</code> is set Returns a pointer to a member variable of class <code>MR::MovementBuildBodyParams</code> named <code>bodyUpDir</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -585,7 +585,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>point in body space that follows trajectory if not set body bounding box center is used Returns a pointer to a member variable of class <code>MR::MovementBuildBodyParams</code> named <code>center</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>point in body space that follows trajectory if not set body bounding box center is used Returns a pointer to a member variable of class <code>MR::MovementBuildBodyParams</code> named <code>center</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -603,7 +603,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if true, then body-contours will be located exactly on resulting mesh Returns a pointer to a member variable of class <code>MR::MovementBuildBodyParams</code> named <code>startMeshFromBody</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if true, then body-contours will be located exactly on resulting mesh Returns a pointer to a member variable of class <code>MR::MovementBuildBodyParams</code> named <code>startMeshFromBody</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -621,7 +621,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional normal directions in each trajectory point bodyUpDir corresponds to it if both are present and <code>allowRotation</code> is set Returns a pointer to a member variable of class <code>MR::MovementBuildBodyParams</code> named <code>trajectoryNormals</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>optional normal directions in each trajectory point bodyUpDir corresponds to it if both are present and <code>allowRotation</code> is set Returns a pointer to a member variable of class <code>MR::MovementBuildBodyParams</code> named <code>trajectoryNormals</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -639,7 +639,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if this flag is set, rotate body in trajectory vertices according to its rotation otherwise body movement will be done without any rotation Returns a mutable pointer to a member variable of class <code>MR::MovementBuildBodyParams</code> named <code>allowRotation</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if this flag is set, rotate body in trajectory vertices according to its rotation otherwise body movement will be done without any rotation Returns a mutable pointer to a member variable of class <code>MR::MovementBuildBodyParams</code> named <code>allowRotation</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -657,7 +657,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional transform body space to trajectory space Returns a mutable pointer to a member variable of class <code>MR::MovementBuildBodyParams</code> named <code>b2tXf</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>optional transform body space to trajectory space Returns a mutable pointer to a member variable of class <code>MR::MovementBuildBodyParams</code> named <code>b2tXf</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -675,7 +675,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>facing direction of body, used for initial rotation (if allowRotation) if not set body accumulative normal is used Returns a mutable pointer to a member variable of class <code>MR::MovementBuildBodyParams</code> named <code>bodyNormal</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>facing direction of body, used for initial rotation (if allowRotation) if not set body accumulative normal is used Returns a mutable pointer to a member variable of class <code>MR::MovementBuildBodyParams</code> named <code>bodyNormal</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -693,7 +693,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>up direction of body contours corresponds with <code>trajectoryNormals</code> if both are present and <code>allowRotation</code> is set Returns a mutable pointer to a member variable of class <code>MR::MovementBuildBodyParams</code> named <code>bodyUpDir</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>up direction of body contours corresponds with <code>trajectoryNormals</code> if both are present and <code>allowRotation</code> is set Returns a mutable pointer to a member variable of class <code>MR::MovementBuildBodyParams</code> named <code>bodyUpDir</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -711,7 +711,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>point in body space that follows trajectory if not set body bounding box center is used Returns a mutable pointer to a member variable of class <code>MR::MovementBuildBodyParams</code> named <code>center</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>point in body space that follows trajectory if not set body bounding box center is used Returns a mutable pointer to a member variable of class <code>MR::MovementBuildBodyParams</code> named <code>center</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -729,7 +729,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if true, then body-contours will be located exactly on resulting mesh Returns a mutable pointer to a member variable of class <code>MR::MovementBuildBodyParams</code> named <code>startMeshFromBody</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if true, then body-contours will be located exactly on resulting mesh Returns a mutable pointer to a member variable of class <code>MR::MovementBuildBodyParams</code> named <code>startMeshFromBody</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -747,7 +747,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional normal directions in each trajectory point bodyUpDir corresponds to it if both are present and <code>allowRotation</code> is set Returns a mutable pointer to a member variable of class <code>MR::MovementBuildBodyParams</code> named <code>trajectoryNormals</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>optional normal directions in each trajectory point bodyUpDir corresponds to it if both are present and <code>allowRotation</code> is set Returns a mutable pointer to a member variable of class <code>MR::MovementBuildBodyParams</code> named <code>trajectoryNormals</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>

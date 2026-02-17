@@ -221,11 +221,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::EdgeTri</computeroutput> named <computeroutput>edge</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::EdgeTri</computeroutput> named <computeroutput>edge</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="43" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="43" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="44" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="44" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollidePrecise_8h_1a2e9f4abbb4639f291a6d9739642c293a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -247,7 +247,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="49" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="49" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="50" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="50" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollidePrecise_8h_1a9a5caff3304c8673d388efdb898c9fb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref> *</type>
@@ -261,11 +261,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::EdgeTri</computeroutput> named <computeroutput>edge</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::EdgeTri</computeroutput> named <computeroutput>edge</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="54" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="54" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="56" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="56" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollidePrecise_8h_1a0558b4c1c1c1e3909495be19255a388f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref> *</type>
@@ -279,11 +279,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::EdgeTri</computeroutput> named <computeroutput>tri</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::EdgeTri</computeroutput> named <computeroutput>tri</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="59" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="59" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="62" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="62" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollidePrecise_8h_1aae7bb3de14b993e118e91c523e3b8d9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -305,7 +305,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="65" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="65" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="68" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="68" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollidePrecise_8h_1a53c35c2d14e148f8684f27429d802d35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref> *</type>
@@ -319,11 +319,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::EdgeTri</computeroutput> named <computeroutput>tri</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::EdgeTri</computeroutput> named <computeroutput>tri</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="70" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="70" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="74" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="74" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollidePrecise_8h_1a20d94d655105a2359d70f5df4a633e8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref> *</type>
@@ -340,7 +340,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="74" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="74" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="78" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="78" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollidePrecise_8h_1a0556be1aa6ee8f7ada996aedb98a1875" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref> *</type>
@@ -358,7 +358,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="79" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="79" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="83" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="83" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollidePrecise_8h_1a063b40e6ab2a79b97744e4b3593fcc87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref> *</type>
@@ -380,7 +380,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="83" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="83" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="87" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="87" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollidePrecise_8h_1af51d4637c1030095609a4df4858f070b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref> *</type>
@@ -402,7 +402,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="87" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="87" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="91" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="91" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollidePrecise_8h_1a2a9f36df908c37c6b3701e8680ca68a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref> *</type>
@@ -420,7 +420,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="93" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="93" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="97" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="97" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollidePrecise_8h_1a9150fa8e87790207de096592ae826399" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref> *</type>
@@ -442,7 +442,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="99" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="99" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="103" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="103" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollidePrecise_8h_1a66f39ed994fbc893c6deba85e78f997f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -460,7 +460,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="102" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="102" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="106" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="106" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollidePrecise_8h_1a6cb19be989e13d0eac31142a7668c53a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -478,7 +478,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="105" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="105" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="109" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="109" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollidePrecise_8h_1ad4eafbf6cb111047a9635290f5d7ff20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref> *</type>
@@ -500,7 +500,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="113" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="113" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="117" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="117" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollidePrecise_8h_1a5c0b8aa5f64ca422d2eca2a290275dc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool</type>
@@ -522,7 +522,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="118" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="118" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="122" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="122" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollidePrecise_8h_1a48ec41f8e9cbac9803ac150e613ce3c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref> *</type>
@@ -536,11 +536,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::VarEdgeTri</computeroutput> named <computeroutput>edge</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::VarEdgeTri</computeroutput> named <computeroutput>edge</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="123" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="123" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="128" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="128" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollidePrecise_8h_1a7d81843e470aa4d3b31d6843d64d03f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -562,7 +562,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="129" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="129" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="134" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="134" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollidePrecise_8h_1a875f87e26ccd523d78c02e37555e2639" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref> *</type>
@@ -576,11 +576,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::VarEdgeTri</computeroutput> named <computeroutput>edge</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::VarEdgeTri</computeroutput> named <computeroutput>edge</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="134" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="134" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="140" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="140" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollidePrecise_8h_1a8494a5c7edf6dbbf2f7766e13d4d4b6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRMeshCollidePrecise_8h_1abf6a829f32de2170f9352ebcb68bf275" kindref="member">MR_VarEdgeTri_FlaggedTri</ref> *</type>
@@ -594,11 +594,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::VarEdgeTri</computeroutput> named <computeroutput>flaggedTri</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::VarEdgeTri</computeroutput> named <computeroutput>flaggedTri</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="139" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="139" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="146" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="146" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollidePrecise_8h_1afc0f6f3f7c9411f441358f798091c78b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -620,7 +620,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="146" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="146" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="153" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="153" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollidePrecise_8h_1adc691046793991d86f270e530ab85ad6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshCollidePrecise_8h_1abf6a829f32de2170f9352ebcb68bf275" kindref="member">MR_VarEdgeTri_FlaggedTri</ref> *</type>
@@ -634,11 +634,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::VarEdgeTri</computeroutput> named <computeroutput>flaggedTri</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::VarEdgeTri</computeroutput> named <computeroutput>flaggedTri</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="151" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="151" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="159" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="159" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollidePrecise_8h_1ae94f942012cd43fc058143cc13e4a3e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref> *</type>
@@ -655,7 +655,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="155" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="155" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="163" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="163" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollidePrecise_8h_1ae6dbfded2f39ff3f36eaf2f3245e7a2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref> *</type>
@@ -673,7 +673,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="160" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="160" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="168" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="168" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollidePrecise_8h_1a64d8df1c586a0f53df3a9dee66273fa3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref> *</type>
@@ -695,7 +695,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="164" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="164" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="172" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="172" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollidePrecise_8h_1abc1dbcb7af9aaf350fbf569f7a8a48ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref> *</type>
@@ -717,7 +717,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="168" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="168" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="176" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="176" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollidePrecise_8h_1a1adf1cc0134f115803d309be75818cda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref> *</type>
@@ -735,7 +735,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="174" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="174" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="182" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="182" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollidePrecise_8h_1a4c8f7a0f7bd70b01012ba7032bd92c72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref> *</type>
@@ -761,7 +761,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="180" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="180" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="188" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="188" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollidePrecise_8h_1a03b2b4a118f6557a5c971beb9205ec44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref> *</type>
@@ -783,7 +783,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="186" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="186" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="194" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="194" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollidePrecise_8h_1a9b7990cbbe87477f101ec1e613facefb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -801,7 +801,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="189" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="189" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="197" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="197" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollidePrecise_8h_1aed7cf6f19ab43c34ab008396bf98fbb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -819,7 +819,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="192" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="192" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="200" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="200" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollidePrecise_8h_1a97314f7e0e7e71c8843b20f69ff5ecf4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool</type>
@@ -837,7 +837,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="196" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="196" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="204" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="204" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollidePrecise_8h_1a11e644047f96b475eaaa7f8210a8147e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref> *</type>
@@ -859,7 +859,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="204" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="204" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="212" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="212" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollidePrecise_8h_1a83b28778fddb6ca528c8d8ca866097a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref></type>
@@ -877,7 +877,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="208" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="208" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="216" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="216" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollidePrecise_8h_1a7bf4169a79f4c1f25a0e598248a12a6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool</type>
@@ -895,7 +895,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="212" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="212" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="220" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="220" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollidePrecise_8h_1abb72dfaaf6cdb033d13db79adce16bcc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref> *</type>
@@ -913,7 +913,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="217" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="217" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="225" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="225" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollidePrecise_8h_1aa6b82fdb7885dc7b6f31e71ca187f876" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool</type>
@@ -931,7 +931,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="221" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="221" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="229" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="229" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollidePrecise_8h_1a95c38de624fa4a0b6e0e6d097b7ef8ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool</type>
@@ -953,7 +953,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="226" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="226" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="234" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="234" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollidePrecise_8h_1a802667dce95be380c3fd6acd0a87baa7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshCollidePrecise_8h_1abf6a829f32de2170f9352ebcb68bf275" kindref="member">MR_VarEdgeTri_FlaggedTri</ref> *</type>
@@ -970,7 +970,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="230" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="230" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="238" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="238" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollidePrecise_8h_1a2eabd8576069f651caf6674814c759bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshCollidePrecise_8h_1abf6a829f32de2170f9352ebcb68bf275" kindref="member">MR_VarEdgeTri_FlaggedTri</ref> *</type>
@@ -988,7 +988,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="235" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="235" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="243" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="243" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollidePrecise_8h_1a4845400311293971143928f44d26cdd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRMeshCollidePrecise_8h_1abf6a829f32de2170f9352ebcb68bf275" kindref="member">MR_VarEdgeTri_FlaggedTri</ref> *</type>
@@ -1010,7 +1010,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="239" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="239" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="247" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="247" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollidePrecise_8h_1a60ed794c8e7931ace03d0ee3ebd3e68e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshCollidePrecise_8h_1abf6a829f32de2170f9352ebcb68bf275" kindref="member">MR_VarEdgeTri_FlaggedTri</ref> *</type>
@@ -1032,7 +1032,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="243" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="243" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="251" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="251" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollidePrecise_8h_1aebf88b937301f7c3d5d7bbc5733c58b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshCollidePrecise_8h_1abf6a829f32de2170f9352ebcb68bf275" kindref="member">MR_VarEdgeTri_FlaggedTri</ref> *</type>
@@ -1050,7 +1050,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="249" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="249" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="257" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="257" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollidePrecise_8h_1aa7df59c6b14fd4c714bdbde32dfc08e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1068,7 +1068,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="252" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="252" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="260" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="260" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollidePrecise_8h_1a79104e65ee7640dc0e4f0732bb26bf5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1086,7 +1086,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="255" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="255" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="263" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="263" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollidePrecise_8h_1a08cfc7634ac41fe08ff313890435272a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshCollidePrecise_8h_1abf6a829f32de2170f9352ebcb68bf275" kindref="member">MR_VarEdgeTri_FlaggedTri</ref> *</type>
@@ -1108,7 +1108,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="263" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="263" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="271" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="271" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollidePrecise_8h_1abf70969295656c08894a213e025587bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool</type>
@@ -1130,7 +1130,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="268" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="268" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="276" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="276" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollidePrecise_8h_1a07231b1a365cde840b5f025fa69f8c10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRIntersectionContour_8h_1a1b4353d07e0d9c78080a20bc84d0ebf3" kindref="member">MR_std_vector_MR_VarEdgeTri</ref> *</type>
@@ -1186,7 +1186,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="281" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="281" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="289" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="289" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollidePrecise_8h_1a9738bc51e795e3a12b72c019ae288ab3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRIntersectionContour_8h_1a3d502e2ab46b5aa656a771e8cbbb3ab9" kindref="member">MR_std_vector_MR_EdgeTri</ref> *</type>
@@ -1250,7 +1250,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="295" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="295" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="303" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="303" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollidePrecise_8h_1a82e22b3a6926b291401c2a8066148b84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRIntersectionContour_8h_1a3d502e2ab46b5aa656a771e8cbbb3ab9" kindref="member">MR_std_vector_MR_EdgeTri</ref> *</type>
@@ -1292,7 +1292,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="305" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="305" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="313" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="313" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollidePrecise_8h_1a5140764115898eadc1621865db5361e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRIntersectionContour_8h_1a3d502e2ab46b5aa656a771e8cbbb3ab9" kindref="member">MR_std_vector_MR_EdgeTri</ref> *</type>
@@ -1334,7 +1334,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="315" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="315" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="323" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="323" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollidePrecise_8h_1a542c00eb6846d8681ed69cc58d0b7f29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshBoolean_8h_1a1d5f64a5e4478ee2148c84427aaaf552" kindref="member">MR_CoordinateConverters</ref> *</type>
@@ -1353,7 +1353,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="323" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="323" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="331" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="331" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollidePrecise_8h_1a189e3dabfd0a7a1ec3447323aaee4138" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshBoolean_8h_1a1d5f64a5e4478ee2148c84427aaaf552" kindref="member">MR_CoordinateConverters</ref> *</type>
@@ -1389,7 +1389,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="334" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="334" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" line="342" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h" declline="342" declcolumn="33"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1427,115 +1427,115 @@
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
 <codeline lineno="38" refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/><ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref>;</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43" refid="MRMeshCollidePrecise_8h_1aedb995373399fba75f4ecd8748780e9d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1aedb995373399fba75f4ecd8748780e9d" kindref="member">MR_EdgeTri_Get_edge</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="44"><highlight class="normal"></highlight></codeline>
-<codeline lineno="49" refid="MRMeshCollidePrecise_8h_1a2e9f4abbb4639f291a6d9739642c293a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a2e9f4abbb4639f291a6d9739642c293a" kindref="member">MR_EdgeTri_Set_edge</ref>(<ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref><sp/>*_this,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>value);</highlight></codeline>
-<codeline lineno="50"><highlight class="normal"></highlight></codeline>
-<codeline lineno="54" refid="MRMeshCollidePrecise_8h_1a9a5caff3304c8673d388efdb898c9fb0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a9a5caff3304c8673d388efdb898c9fb0" kindref="member">MR_EdgeTri_GetMutable_edge</ref>(<ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="55"><highlight class="normal"></highlight></codeline>
-<codeline lineno="59" refid="MRMeshCollidePrecise_8h_1a0558b4c1c1c1e3909495be19255a388f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a0558b4c1c1c1e3909495be19255a388f" kindref="member">MR_EdgeTri_Get_tri</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="60"><highlight class="normal"></highlight></codeline>
-<codeline lineno="65" refid="MRMeshCollidePrecise_8h_1aae7bb3de14b993e118e91c523e3b8d9a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1aae7bb3de14b993e118e91c523e3b8d9a" kindref="member">MR_EdgeTri_Set_tri</ref>(<ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref><sp/>*_this,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>value);</highlight></codeline>
-<codeline lineno="66"><highlight class="normal"></highlight></codeline>
-<codeline lineno="70" refid="MRMeshCollidePrecise_8h_1a53c35c2d14e148f8684f27429d802d35" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a53c35c2d14e148f8684f27429d802d35" kindref="member">MR_EdgeTri_GetMutable_tri</ref>(<ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="71"><highlight class="normal"></highlight></codeline>
-<codeline lineno="74" refid="MRMeshCollidePrecise_8h_1a20d94d655105a2359d70f5df4a633e8a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a20d94d655105a2359d70f5df4a633e8a" kindref="member">MR_EdgeTri_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="44" refid="MRMeshCollidePrecise_8h_1aedb995373399fba75f4ecd8748780e9d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1aedb995373399fba75f4ecd8748780e9d" kindref="member">MR_EdgeTri_Get_edge</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="MRMeshCollidePrecise_8h_1a2e9f4abbb4639f291a6d9739642c293a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a2e9f4abbb4639f291a6d9739642c293a" kindref="member">MR_EdgeTri_Set_edge</ref>(<ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref><sp/>*_this,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>value);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="MRMeshCollidePrecise_8h_1a9a5caff3304c8673d388efdb898c9fb0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a9a5caff3304c8673d388efdb898c9fb0" kindref="member">MR_EdgeTri_GetMutable_edge</ref>(<ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="MRMeshCollidePrecise_8h_1a0558b4c1c1c1e3909495be19255a388f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a0558b4c1c1c1e3909495be19255a388f" kindref="member">MR_EdgeTri_Get_tri</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="MRMeshCollidePrecise_8h_1aae7bb3de14b993e118e91c523e3b8d9a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1aae7bb3de14b993e118e91c523e3b8d9a" kindref="member">MR_EdgeTri_Set_tri</ref>(<ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref><sp/>*_this,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>value);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="MRMeshCollidePrecise_8h_1a53c35c2d14e148f8684f27429d802d35" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a53c35c2d14e148f8684f27429d802d35" kindref="member">MR_EdgeTri_GetMutable_tri</ref>(<ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
-<codeline lineno="79" refid="MRMeshCollidePrecise_8h_1a0556be1aa6ee8f7ada996aedb98a1875" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a0556be1aa6ee8f7ada996aedb98a1875" kindref="member">MR_EdgeTri_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="80"><highlight class="normal"></highlight></codeline>
-<codeline lineno="83" refid="MRMeshCollidePrecise_8h_1a063b40e6ab2a79b97744e4b3593fcc87" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a063b40e6ab2a79b97744e4b3593fcc87" kindref="member">MR_EdgeTri_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="78" refid="MRMeshCollidePrecise_8h_1a20d94d655105a2359d70f5df4a633e8a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a20d94d655105a2359d70f5df4a633e8a" kindref="member">MR_EdgeTri_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="MRMeshCollidePrecise_8h_1a0556be1aa6ee8f7ada996aedb98a1875" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a0556be1aa6ee8f7ada996aedb98a1875" kindref="member">MR_EdgeTri_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="84"><highlight class="normal"></highlight></codeline>
-<codeline lineno="87" refid="MRMeshCollidePrecise_8h_1af51d4637c1030095609a4df4858f070b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1af51d4637c1030095609a4df4858f070b" kindref="member">MR_EdgeTri_OffsetMutablePtr</ref>(<ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="87" refid="MRMeshCollidePrecise_8h_1a063b40e6ab2a79b97744e4b3593fcc87" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a063b40e6ab2a79b97744e4b3593fcc87" kindref="member">MR_EdgeTri_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="88"><highlight class="normal"></highlight></codeline>
-<codeline lineno="93" refid="MRMeshCollidePrecise_8h_1a2a9f36df908c37c6b3701e8680ca68a2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a2a9f36df908c37c6b3701e8680ca68a2" kindref="member">MR_EdgeTri_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="94"><highlight class="normal"></highlight></codeline>
-<codeline lineno="99" refid="MRMeshCollidePrecise_8h_1a9150fa8e87790207de096592ae826399" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a9150fa8e87790207de096592ae826399" kindref="member">MR_EdgeTri_Construct</ref>(<ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>e,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>t);</highlight></codeline>
-<codeline lineno="100"><highlight class="normal"></highlight></codeline>
-<codeline lineno="102" refid="MRMeshCollidePrecise_8h_1a66f39ed994fbc893c6deba85e78f997f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a66f39ed994fbc893c6deba85e78f997f" kindref="member">MR_EdgeTri_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="103"><highlight class="normal"></highlight></codeline>
-<codeline lineno="105" refid="MRMeshCollidePrecise_8h_1a6cb19be989e13d0eac31142a7668c53a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a6cb19be989e13d0eac31142a7668c53a" kindref="member">MR_EdgeTri_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="106"><highlight class="normal"></highlight></codeline>
-<codeline lineno="113" refid="MRMeshCollidePrecise_8h_1ad4eafbf6cb111047a9635290f5d7ff20" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1ad4eafbf6cb111047a9635290f5d7ff20" kindref="member">MR_EdgeTri_AssignFromAnother</ref>(<ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="114"><highlight class="normal"></highlight></codeline>
-<codeline lineno="118" refid="MRMeshCollidePrecise_8h_1a5c0b8aa5f64ca422d2eca2a290275dc7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a5c0b8aa5f64ca422d2eca2a290275dc7" kindref="member">MR_equal_MR_EdgeTri</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref><sp/>*b);</highlight></codeline>
-<codeline lineno="119"><highlight class="normal"></highlight></codeline>
-<codeline lineno="123" refid="MRMeshCollidePrecise_8h_1a48ec41f8e9cbac9803ac150e613ce3c5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a48ec41f8e9cbac9803ac150e613ce3c5" kindref="member">MR_VarEdgeTri_Get_edge</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="124"><highlight class="normal"></highlight></codeline>
-<codeline lineno="129" refid="MRMeshCollidePrecise_8h_1a7d81843e470aa4d3b31d6843d64d03f9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a7d81843e470aa4d3b31d6843d64d03f9" kindref="member">MR_VarEdgeTri_Set_edge</ref>(<ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*_this,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>value);</highlight></codeline>
-<codeline lineno="130"><highlight class="normal"></highlight></codeline>
-<codeline lineno="134" refid="MRMeshCollidePrecise_8h_1a875f87e26ccd523d78c02e37555e2639" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a875f87e26ccd523d78c02e37555e2639" kindref="member">MR_VarEdgeTri_GetMutable_edge</ref>(<ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="91" refid="MRMeshCollidePrecise_8h_1af51d4637c1030095609a4df4858f070b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1af51d4637c1030095609a4df4858f070b" kindref="member">MR_EdgeTri_OffsetMutablePtr</ref>(<ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97" refid="MRMeshCollidePrecise_8h_1a2a9f36df908c37c6b3701e8680ca68a2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a2a9f36df908c37c6b3701e8680ca68a2" kindref="member">MR_EdgeTri_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="MRMeshCollidePrecise_8h_1a9150fa8e87790207de096592ae826399" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a9150fa8e87790207de096592ae826399" kindref="member">MR_EdgeTri_Construct</ref>(<ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>e,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>t);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106" refid="MRMeshCollidePrecise_8h_1a66f39ed994fbc893c6deba85e78f997f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a66f39ed994fbc893c6deba85e78f997f" kindref="member">MR_EdgeTri_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109" refid="MRMeshCollidePrecise_8h_1a6cb19be989e13d0eac31142a7668c53a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a6cb19be989e13d0eac31142a7668c53a" kindref="member">MR_EdgeTri_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="MRMeshCollidePrecise_8h_1ad4eafbf6cb111047a9635290f5d7ff20" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1ad4eafbf6cb111047a9635290f5d7ff20" kindref="member">MR_EdgeTri_AssignFromAnother</ref>(<ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="MRMeshCollidePrecise_8h_1a5c0b8aa5f64ca422d2eca2a290275dc7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a5c0b8aa5f64ca422d2eca2a290275dc7" kindref="member">MR_equal_MR_EdgeTri</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128" refid="MRMeshCollidePrecise_8h_1a48ec41f8e9cbac9803ac150e613ce3c5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a48ec41f8e9cbac9803ac150e613ce3c5" kindref="member">MR_VarEdgeTri_Get_edge</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134" refid="MRMeshCollidePrecise_8h_1a7d81843e470aa4d3b31d6843d64d03f9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a7d81843e470aa4d3b31d6843d64d03f9" kindref="member">MR_VarEdgeTri_Set_edge</ref>(<ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*_this,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>value);</highlight></codeline>
 <codeline lineno="135"><highlight class="normal"></highlight></codeline>
-<codeline lineno="139" refid="MRMeshCollidePrecise_8h_1a8494a5c7edf6dbbf2f7766e13d4d4b6e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1abf6a829f32de2170f9352ebcb68bf275" kindref="member">MR_VarEdgeTri_FlaggedTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a8494a5c7edf6dbbf2f7766e13d4d4b6e" kindref="member">MR_VarEdgeTri_Get_flaggedTri</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="140"><highlight class="normal"></highlight></codeline>
-<codeline lineno="146" refid="MRMeshCollidePrecise_8h_1afc0f6f3f7c9411f441358f798091c78b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1afc0f6f3f7c9411f441358f798091c78b" kindref="member">MR_VarEdgeTri_Set_flaggedTri</ref>(<ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1abf6a829f32de2170f9352ebcb68bf275" kindref="member">MR_VarEdgeTri_FlaggedTri</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="140" refid="MRMeshCollidePrecise_8h_1a875f87e26ccd523d78c02e37555e2639" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a875f87e26ccd523d78c02e37555e2639" kindref="member">MR_VarEdgeTri_GetMutable_edge</ref>(<ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146" refid="MRMeshCollidePrecise_8h_1a8494a5c7edf6dbbf2f7766e13d4d4b6e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1abf6a829f32de2170f9352ebcb68bf275" kindref="member">MR_VarEdgeTri_FlaggedTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a8494a5c7edf6dbbf2f7766e13d4d4b6e" kindref="member">MR_VarEdgeTri_Get_flaggedTri</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="147"><highlight class="normal"></highlight></codeline>
-<codeline lineno="151" refid="MRMeshCollidePrecise_8h_1adc691046793991d86f270e530ab85ad6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshCollidePrecise_8h_1abf6a829f32de2170f9352ebcb68bf275" kindref="member">MR_VarEdgeTri_FlaggedTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1adc691046793991d86f270e530ab85ad6" kindref="member">MR_VarEdgeTri_GetMutable_flaggedTri</ref>(<ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="152"><highlight class="normal"></highlight></codeline>
-<codeline lineno="155" refid="MRMeshCollidePrecise_8h_1ae94f942012cd43fc058143cc13e4a3e1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1ae94f942012cd43fc058143cc13e4a3e1" kindref="member">MR_VarEdgeTri_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="156"><highlight class="normal"></highlight></codeline>
-<codeline lineno="160" refid="MRMeshCollidePrecise_8h_1ae6dbfded2f39ff3f36eaf2f3245e7a2d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1ae6dbfded2f39ff3f36eaf2f3245e7a2d" kindref="member">MR_VarEdgeTri_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="161"><highlight class="normal"></highlight></codeline>
-<codeline lineno="164" refid="MRMeshCollidePrecise_8h_1a64d8df1c586a0f53df3a9dee66273fa3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a64d8df1c586a0f53df3a9dee66273fa3" kindref="member">MR_VarEdgeTri_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="165"><highlight class="normal"></highlight></codeline>
-<codeline lineno="168" refid="MRMeshCollidePrecise_8h_1abc1dbcb7af9aaf350fbf569f7a8a48ec" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1abc1dbcb7af9aaf350fbf569f7a8a48ec" kindref="member">MR_VarEdgeTri_OffsetMutablePtr</ref>(<ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="153" refid="MRMeshCollidePrecise_8h_1afc0f6f3f7c9411f441358f798091c78b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1afc0f6f3f7c9411f441358f798091c78b" kindref="member">MR_VarEdgeTri_Set_flaggedTri</ref>(<ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1abf6a829f32de2170f9352ebcb68bf275" kindref="member">MR_VarEdgeTri_FlaggedTri</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="MRMeshCollidePrecise_8h_1adc691046793991d86f270e530ab85ad6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshCollidePrecise_8h_1abf6a829f32de2170f9352ebcb68bf275" kindref="member">MR_VarEdgeTri_FlaggedTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1adc691046793991d86f270e530ab85ad6" kindref="member">MR_VarEdgeTri_GetMutable_flaggedTri</ref>(<ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163" refid="MRMeshCollidePrecise_8h_1ae94f942012cd43fc058143cc13e4a3e1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1ae94f942012cd43fc058143cc13e4a3e1" kindref="member">MR_VarEdgeTri_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168" refid="MRMeshCollidePrecise_8h_1ae6dbfded2f39ff3f36eaf2f3245e7a2d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1ae6dbfded2f39ff3f36eaf2f3245e7a2d" kindref="member">MR_VarEdgeTri_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="169"><highlight class="normal"></highlight></codeline>
-<codeline lineno="174" refid="MRMeshCollidePrecise_8h_1a1adf1cc0134f115803d309be75818cda" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a1adf1cc0134f115803d309be75818cda" kindref="member">MR_VarEdgeTri_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="175"><highlight class="normal"></highlight></codeline>
-<codeline lineno="180" refid="MRMeshCollidePrecise_8h_1a4c8f7a0f7bd70b01012ba7032bd92c72" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a4c8f7a0f7bd70b01012ba7032bd92c72" kindref="member">MR_VarEdgeTri_Construct_3</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isEdgeATriB,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>e,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>t);</highlight></codeline>
-<codeline lineno="181"><highlight class="normal"></highlight></codeline>
-<codeline lineno="186" refid="MRMeshCollidePrecise_8h_1a03b2b4a118f6557a5c971beb9205ec44" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a03b2b4a118f6557a5c971beb9205ec44" kindref="member">MR_VarEdgeTri_Construct_2</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isEdgeATriB,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref><sp/>*et);</highlight></codeline>
-<codeline lineno="187"><highlight class="normal"></highlight></codeline>
-<codeline lineno="189" refid="MRMeshCollidePrecise_8h_1a9b7990cbbe87477f101ec1e613facefb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a9b7990cbbe87477f101ec1e613facefb" kindref="member">MR_VarEdgeTri_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="190"><highlight class="normal"></highlight></codeline>
-<codeline lineno="192" refid="MRMeshCollidePrecise_8h_1aed7cf6f19ab43c34ab008396bf98fbb7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1aed7cf6f19ab43c34ab008396bf98fbb7" kindref="member">MR_VarEdgeTri_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="193"><highlight class="normal"></highlight></codeline>
-<codeline lineno="196" refid="MRMeshCollidePrecise_8h_1a97314f7e0e7e71c8843b20f69ff5ecf4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a97314f7e0e7e71c8843b20f69ff5ecf4" kindref="member">MR_VarEdgeTri_ConvertTo_bool</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="197"><highlight class="normal"></highlight></codeline>
-<codeline lineno="204" refid="MRMeshCollidePrecise_8h_1a11e644047f96b475eaaa7f8210a8147e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a11e644047f96b475eaaa7f8210a8147e" kindref="member">MR_VarEdgeTri_AssignFromAnother</ref>(<ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="172" refid="MRMeshCollidePrecise_8h_1a64d8df1c586a0f53df3a9dee66273fa3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a64d8df1c586a0f53df3a9dee66273fa3" kindref="member">MR_VarEdgeTri_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176" refid="MRMeshCollidePrecise_8h_1abc1dbcb7af9aaf350fbf569f7a8a48ec" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1abc1dbcb7af9aaf350fbf569f7a8a48ec" kindref="member">MR_VarEdgeTri_OffsetMutablePtr</ref>(<ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="MRMeshCollidePrecise_8h_1a1adf1cc0134f115803d309be75818cda" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a1adf1cc0134f115803d309be75818cda" kindref="member">MR_VarEdgeTri_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188" refid="MRMeshCollidePrecise_8h_1a4c8f7a0f7bd70b01012ba7032bd92c72" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a4c8f7a0f7bd70b01012ba7032bd92c72" kindref="member">MR_VarEdgeTri_Construct_3</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isEdgeATriB,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>e,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>t);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194" refid="MRMeshCollidePrecise_8h_1a03b2b4a118f6557a5c971beb9205ec44" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a03b2b4a118f6557a5c971beb9205ec44" kindref="member">MR_VarEdgeTri_Construct_2</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isEdgeATriB,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref><sp/>*et);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197" refid="MRMeshCollidePrecise_8h_1a9b7990cbbe87477f101ec1e613facefb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a9b7990cbbe87477f101ec1e613facefb" kindref="member">MR_VarEdgeTri_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200" refid="MRMeshCollidePrecise_8h_1aed7cf6f19ab43c34ab008396bf98fbb7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1aed7cf6f19ab43c34ab008396bf98fbb7" kindref="member">MR_VarEdgeTri_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204" refid="MRMeshCollidePrecise_8h_1a97314f7e0e7e71c8843b20f69ff5ecf4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a97314f7e0e7e71c8843b20f69ff5ecf4" kindref="member">MR_VarEdgeTri_ConvertTo_bool</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="205"><highlight class="normal"></highlight></codeline>
-<codeline lineno="208" refid="MRMeshCollidePrecise_8h_1a83b28778fddb6ca528c8d8ca866097a3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/><ref refid="MRMeshCollidePrecise_8h_1a83b28778fddb6ca528c8d8ca866097a3" kindref="member">MR_VarEdgeTri_tri</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="209"><highlight class="normal"></highlight></codeline>
-<codeline lineno="212" refid="MRMeshCollidePrecise_8h_1a7bf4169a79f4c1f25a0e598248a12a6c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a7bf4169a79f4c1f25a0e598248a12a6c" kindref="member">MR_VarEdgeTri_isEdgeATriB</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="212" refid="MRMeshCollidePrecise_8h_1a11e644047f96b475eaaa7f8210a8147e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a11e644047f96b475eaaa7f8210a8147e" kindref="member">MR_VarEdgeTri_AssignFromAnother</ref>(<ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="213"><highlight class="normal"></highlight></codeline>
-<codeline lineno="217" refid="MRMeshCollidePrecise_8h_1abb72dfaaf6cdb033d13db79adce16bcc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1abb72dfaaf6cdb033d13db79adce16bcc" kindref="member">MR_VarEdgeTri_edgeTri</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="218"><highlight class="normal"></highlight></codeline>
-<codeline lineno="221" refid="MRMeshCollidePrecise_8h_1aa6b82fdb7885dc7b6f31e71ca187f876" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1aa6b82fdb7885dc7b6f31e71ca187f876" kindref="member">MR_VarEdgeTri_valid</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="222"><highlight class="normal"></highlight></codeline>
-<codeline lineno="226" refid="MRMeshCollidePrecise_8h_1a95c38de624fa4a0b6e0e6d097b7ef8ae" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a95c38de624fa4a0b6e0e6d097b7ef8ae" kindref="member">MR_equal_MR_VarEdgeTri</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*_1);</highlight></codeline>
-<codeline lineno="227"><highlight class="normal"></highlight></codeline>
-<codeline lineno="230" refid="MRMeshCollidePrecise_8h_1a802667dce95be380c3fd6acd0a87baa7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshCollidePrecise_8h_1abf6a829f32de2170f9352ebcb68bf275" kindref="member">MR_VarEdgeTri_FlaggedTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a802667dce95be380c3fd6acd0a87baa7" kindref="member">MR_VarEdgeTri_FlaggedTri_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="231"><highlight class="normal"></highlight></codeline>
-<codeline lineno="235" refid="MRMeshCollidePrecise_8h_1a2eabd8576069f651caf6674814c759bd" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshCollidePrecise_8h_1abf6a829f32de2170f9352ebcb68bf275" kindref="member">MR_VarEdgeTri_FlaggedTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a2eabd8576069f651caf6674814c759bd" kindref="member">MR_VarEdgeTri_FlaggedTri_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="236"><highlight class="normal"></highlight></codeline>
-<codeline lineno="239" refid="MRMeshCollidePrecise_8h_1a4845400311293971143928f44d26cdd3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1abf6a829f32de2170f9352ebcb68bf275" kindref="member">MR_VarEdgeTri_FlaggedTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a4845400311293971143928f44d26cdd3" kindref="member">MR_VarEdgeTri_FlaggedTri_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1abf6a829f32de2170f9352ebcb68bf275" kindref="member">MR_VarEdgeTri_FlaggedTri</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="240"><highlight class="normal"></highlight></codeline>
-<codeline lineno="243" refid="MRMeshCollidePrecise_8h_1a60ed794c8e7931ace03d0ee3ebd3e68e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshCollidePrecise_8h_1abf6a829f32de2170f9352ebcb68bf275" kindref="member">MR_VarEdgeTri_FlaggedTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a60ed794c8e7931ace03d0ee3ebd3e68e" kindref="member">MR_VarEdgeTri_FlaggedTri_OffsetMutablePtr</ref>(<ref refid="MRMeshCollidePrecise_8h_1abf6a829f32de2170f9352ebcb68bf275" kindref="member">MR_VarEdgeTri_FlaggedTri</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="216" refid="MRMeshCollidePrecise_8h_1a83b28778fddb6ca528c8d8ca866097a3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/><ref refid="MRMeshCollidePrecise_8h_1a83b28778fddb6ca528c8d8ca866097a3" kindref="member">MR_VarEdgeTri_tri</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220" refid="MRMeshCollidePrecise_8h_1a7bf4169a79f4c1f25a0e598248a12a6c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a7bf4169a79f4c1f25a0e598248a12a6c" kindref="member">MR_VarEdgeTri_isEdgeATriB</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225" refid="MRMeshCollidePrecise_8h_1abb72dfaaf6cdb033d13db79adce16bcc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshCollidePrecise_8h_1a058738f4d631f4c82398a33f0fb5f0c0" kindref="member">MR_EdgeTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1abb72dfaaf6cdb033d13db79adce16bcc" kindref="member">MR_VarEdgeTri_edgeTri</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="229" refid="MRMeshCollidePrecise_8h_1aa6b82fdb7885dc7b6f31e71ca187f876" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1aa6b82fdb7885dc7b6f31e71ca187f876" kindref="member">MR_VarEdgeTri_valid</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="234" refid="MRMeshCollidePrecise_8h_1a95c38de624fa4a0b6e0e6d097b7ef8ae" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a95c38de624fa4a0b6e0e6d097b7ef8ae" kindref="member">MR_equal_MR_VarEdgeTri</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a926b482f5586e0d892907eb47615352d" kindref="member">MR_VarEdgeTri</ref><sp/>*_1);</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="238" refid="MRMeshCollidePrecise_8h_1a802667dce95be380c3fd6acd0a87baa7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshCollidePrecise_8h_1abf6a829f32de2170f9352ebcb68bf275" kindref="member">MR_VarEdgeTri_FlaggedTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a802667dce95be380c3fd6acd0a87baa7" kindref="member">MR_VarEdgeTri_FlaggedTri_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="243" refid="MRMeshCollidePrecise_8h_1a2eabd8576069f651caf6674814c759bd" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshCollidePrecise_8h_1abf6a829f32de2170f9352ebcb68bf275" kindref="member">MR_VarEdgeTri_FlaggedTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a2eabd8576069f651caf6674814c759bd" kindref="member">MR_VarEdgeTri_FlaggedTri_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="244"><highlight class="normal"></highlight></codeline>
-<codeline lineno="249" refid="MRMeshCollidePrecise_8h_1aebf88b937301f7c3d5d7bbc5733c58b2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshCollidePrecise_8h_1abf6a829f32de2170f9352ebcb68bf275" kindref="member">MR_VarEdgeTri_FlaggedTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1aebf88b937301f7c3d5d7bbc5733c58b2" kindref="member">MR_VarEdgeTri_FlaggedTri_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1abf6a829f32de2170f9352ebcb68bf275" kindref="member">MR_VarEdgeTri_FlaggedTri</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="250"><highlight class="normal"></highlight></codeline>
-<codeline lineno="252" refid="MRMeshCollidePrecise_8h_1aa7df59c6b14fd4c714bdbde32dfc08e3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1aa7df59c6b14fd4c714bdbde32dfc08e3" kindref="member">MR_VarEdgeTri_FlaggedTri_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1abf6a829f32de2170f9352ebcb68bf275" kindref="member">MR_VarEdgeTri_FlaggedTri</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="253"><highlight class="normal"></highlight></codeline>
-<codeline lineno="255" refid="MRMeshCollidePrecise_8h_1a79104e65ee7640dc0e4f0732bb26bf5e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a79104e65ee7640dc0e4f0732bb26bf5e" kindref="member">MR_VarEdgeTri_FlaggedTri_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1abf6a829f32de2170f9352ebcb68bf275" kindref="member">MR_VarEdgeTri_FlaggedTri</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="256"><highlight class="normal"></highlight></codeline>
-<codeline lineno="263" refid="MRMeshCollidePrecise_8h_1a08cfc7634ac41fe08ff313890435272a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshCollidePrecise_8h_1abf6a829f32de2170f9352ebcb68bf275" kindref="member">MR_VarEdgeTri_FlaggedTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a08cfc7634ac41fe08ff313890435272a" kindref="member">MR_VarEdgeTri_FlaggedTri_AssignFromAnother</ref>(<ref refid="MRMeshCollidePrecise_8h_1abf6a829f32de2170f9352ebcb68bf275" kindref="member">MR_VarEdgeTri_FlaggedTri</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1abf6a829f32de2170f9352ebcb68bf275" kindref="member">MR_VarEdgeTri_FlaggedTri</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="247" refid="MRMeshCollidePrecise_8h_1a4845400311293971143928f44d26cdd3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1abf6a829f32de2170f9352ebcb68bf275" kindref="member">MR_VarEdgeTri_FlaggedTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a4845400311293971143928f44d26cdd3" kindref="member">MR_VarEdgeTri_FlaggedTri_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1abf6a829f32de2170f9352ebcb68bf275" kindref="member">MR_VarEdgeTri_FlaggedTri</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight></codeline>
+<codeline lineno="251" refid="MRMeshCollidePrecise_8h_1a60ed794c8e7931ace03d0ee3ebd3e68e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshCollidePrecise_8h_1abf6a829f32de2170f9352ebcb68bf275" kindref="member">MR_VarEdgeTri_FlaggedTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a60ed794c8e7931ace03d0ee3ebd3e68e" kindref="member">MR_VarEdgeTri_FlaggedTri_OffsetMutablePtr</ref>(<ref refid="MRMeshCollidePrecise_8h_1abf6a829f32de2170f9352ebcb68bf275" kindref="member">MR_VarEdgeTri_FlaggedTri</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="257" refid="MRMeshCollidePrecise_8h_1aebf88b937301f7c3d5d7bbc5733c58b2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshCollidePrecise_8h_1abf6a829f32de2170f9352ebcb68bf275" kindref="member">MR_VarEdgeTri_FlaggedTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1aebf88b937301f7c3d5d7bbc5733c58b2" kindref="member">MR_VarEdgeTri_FlaggedTri_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1abf6a829f32de2170f9352ebcb68bf275" kindref="member">MR_VarEdgeTri_FlaggedTri</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"></highlight></codeline>
+<codeline lineno="260" refid="MRMeshCollidePrecise_8h_1aa7df59c6b14fd4c714bdbde32dfc08e3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1aa7df59c6b14fd4c714bdbde32dfc08e3" kindref="member">MR_VarEdgeTri_FlaggedTri_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1abf6a829f32de2170f9352ebcb68bf275" kindref="member">MR_VarEdgeTri_FlaggedTri</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"></highlight></codeline>
+<codeline lineno="263" refid="MRMeshCollidePrecise_8h_1a79104e65ee7640dc0e4f0732bb26bf5e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1a79104e65ee7640dc0e4f0732bb26bf5e" kindref="member">MR_VarEdgeTri_FlaggedTri_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1abf6a829f32de2170f9352ebcb68bf275" kindref="member">MR_VarEdgeTri_FlaggedTri</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="264"><highlight class="normal"></highlight></codeline>
-<codeline lineno="268" refid="MRMeshCollidePrecise_8h_1abf70969295656c08894a213e025587bf" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1abf70969295656c08894a213e025587bf" kindref="member">MR_equal_MR_VarEdgeTri_FlaggedTri</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1abf6a829f32de2170f9352ebcb68bf275" kindref="member">MR_VarEdgeTri_FlaggedTri</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1abf6a829f32de2170f9352ebcb68bf275" kindref="member">MR_VarEdgeTri_FlaggedTri</ref><sp/>*_1);</highlight></codeline>
-<codeline lineno="269"><highlight class="normal"></highlight></codeline>
-<codeline lineno="281" refid="MRMeshCollidePrecise_8h_1a07231b1a365cde840b5f025fa69f8c10" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIntersectionContour_8h_1a1b4353d07e0d9c78080a20bc84d0ebf3" kindref="member">MR_std_vector_MR_VarEdgeTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a07231b1a365cde840b5f025fa69f8c10" kindref="member">MR_findCollidingEdgeTrisPrecise_5</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*b,<sp/>MR_PassBy<sp/>conv_pass_by,<sp/><ref refid="MRMeshCollidePrecise_8h_1a5926f17bfcecf57ef54dbdaae762d53a" kindref="member">MR_std_function_MR_Vector3i_from_const_MR_Vector3f_ref</ref><sp/>*conv,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*rigidB2A,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*anyIntersection);</highlight></codeline>
-<codeline lineno="282"><highlight class="normal"></highlight></codeline>
-<codeline lineno="295" refid="MRMeshCollidePrecise_8h_1a9738bc51e795e3a12b72c019ae288ab3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIntersectionContour_8h_1a3d502e2ab46b5aa656a771e8cbbb3ab9" kindref="member">MR_std_vector_MR_EdgeTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a9738bc51e795e3a12b72c019ae288ab3" kindref="member">MR_findSelfCollidingEdgeTrisPrecise</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp,<sp/>MR_PassBy<sp/>conv_pass_by,<sp/><ref refid="MRMeshCollidePrecise_8h_1a5926f17bfcecf57ef54dbdaae762d53a" kindref="member">MR_std_function_MR_Vector3i_from_const_MR_Vector3f_ref</ref><sp/>*conv,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*anyIntersection,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*rigidB2A,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*aVertSizes);</highlight></codeline>
-<codeline lineno="296"><highlight class="normal"></highlight></codeline>
-<codeline lineno="305" refid="MRMeshCollidePrecise_8h_1a82e22b3a6926b291401c2a8066148b84" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIntersectionContour_8h_1a3d502e2ab46b5aa656a771e8cbbb3ab9" kindref="member">MR_std_vector_MR_EdgeTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a82e22b3a6926b291401c2a8066148b84" kindref="member">MR_findCollidingEdgeTrisPrecise_6_std_vector_MR_EdgeId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursStitch_8h_1aa2cb99914308eb7429fd11738cf79483" kindref="member">MR_std_vector_MR_EdgeId</ref><sp/>*edgesA,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRExtractIsolines_8h_1a94dee374602a203a401f6d452bedc8c8" kindref="member">MR_std_vector_MR_FaceId</ref><sp/>*facesB,<sp/>MR_PassBy<sp/>conv_pass_by,<sp/><ref refid="MRMeshCollidePrecise_8h_1a5926f17bfcecf57ef54dbdaae762d53a" kindref="member">MR_std_function_MR_Vector3i_from_const_MR_Vector3f_ref</ref><sp/>*conv,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*rigidB2A);</highlight></codeline>
-<codeline lineno="306"><highlight class="normal"></highlight></codeline>
-<codeline lineno="315" refid="MRMeshCollidePrecise_8h_1a5140764115898eadc1621865db5361e9" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIntersectionContour_8h_1a3d502e2ab46b5aa656a771e8cbbb3ab9" kindref="member">MR_std_vector_MR_EdgeTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a5140764115898eadc1621865db5361e9" kindref="member">MR_findCollidingEdgeTrisPrecise_6_std_vector_MR_FaceId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRExtractIsolines_8h_1a94dee374602a203a401f6d452bedc8c8" kindref="member">MR_std_vector_MR_FaceId</ref><sp/>*facesA,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursStitch_8h_1aa2cb99914308eb7429fd11738cf79483" kindref="member">MR_std_vector_MR_EdgeId</ref><sp/>*edgesB,<sp/>MR_PassBy<sp/>conv_pass_by,<sp/><ref refid="MRMeshCollidePrecise_8h_1a5926f17bfcecf57ef54dbdaae762d53a" kindref="member">MR_std_function_MR_Vector3i_from_const_MR_Vector3f_ref</ref><sp/>*conv,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*rigidB2A);</highlight></codeline>
-<codeline lineno="316"><highlight class="normal"></highlight></codeline>
-<codeline lineno="323" refid="MRMeshCollidePrecise_8h_1a542c00eb6846d8681ed69cc58d0b7f29" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBoolean_8h_1a1d5f64a5e4478ee2148c84427aaaf552" kindref="member">MR_CoordinateConverters</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a542c00eb6846d8681ed69cc58d0b7f29" kindref="member">MR_getVectorConverters_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*a);</highlight></codeline>
+<codeline lineno="271" refid="MRMeshCollidePrecise_8h_1a08cfc7634ac41fe08ff313890435272a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshCollidePrecise_8h_1abf6a829f32de2170f9352ebcb68bf275" kindref="member">MR_VarEdgeTri_FlaggedTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a08cfc7634ac41fe08ff313890435272a" kindref="member">MR_VarEdgeTri_FlaggedTri_AssignFromAnother</ref>(<ref refid="MRMeshCollidePrecise_8h_1abf6a829f32de2170f9352ebcb68bf275" kindref="member">MR_VarEdgeTri_FlaggedTri</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1abf6a829f32de2170f9352ebcb68bf275" kindref="member">MR_VarEdgeTri_FlaggedTri</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight></codeline>
+<codeline lineno="276" refid="MRMeshCollidePrecise_8h_1abf70969295656c08894a213e025587bf" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1abf70969295656c08894a213e025587bf" kindref="member">MR_equal_MR_VarEdgeTri_FlaggedTri</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1abf6a829f32de2170f9352ebcb68bf275" kindref="member">MR_VarEdgeTri_FlaggedTri</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollidePrecise_8h_1abf6a829f32de2170f9352ebcb68bf275" kindref="member">MR_VarEdgeTri_FlaggedTri</ref><sp/>*_1);</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight></codeline>
+<codeline lineno="289" refid="MRMeshCollidePrecise_8h_1a07231b1a365cde840b5f025fa69f8c10" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIntersectionContour_8h_1a1b4353d07e0d9c78080a20bc84d0ebf3" kindref="member">MR_std_vector_MR_VarEdgeTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a07231b1a365cde840b5f025fa69f8c10" kindref="member">MR_findCollidingEdgeTrisPrecise_5</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*b,<sp/>MR_PassBy<sp/>conv_pass_by,<sp/><ref refid="MRMeshCollidePrecise_8h_1a5926f17bfcecf57ef54dbdaae762d53a" kindref="member">MR_std_function_MR_Vector3i_from_const_MR_Vector3f_ref</ref><sp/>*conv,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*rigidB2A,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*anyIntersection);</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"></highlight></codeline>
+<codeline lineno="303" refid="MRMeshCollidePrecise_8h_1a9738bc51e795e3a12b72c019ae288ab3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIntersectionContour_8h_1a3d502e2ab46b5aa656a771e8cbbb3ab9" kindref="member">MR_std_vector_MR_EdgeTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a9738bc51e795e3a12b72c019ae288ab3" kindref="member">MR_findSelfCollidingEdgeTrisPrecise</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp,<sp/>MR_PassBy<sp/>conv_pass_by,<sp/><ref refid="MRMeshCollidePrecise_8h_1a5926f17bfcecf57ef54dbdaae762d53a" kindref="member">MR_std_function_MR_Vector3i_from_const_MR_Vector3f_ref</ref><sp/>*conv,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*anyIntersection,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*rigidB2A,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*aVertSizes);</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"></highlight></codeline>
+<codeline lineno="313" refid="MRMeshCollidePrecise_8h_1a82e22b3a6926b291401c2a8066148b84" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIntersectionContour_8h_1a3d502e2ab46b5aa656a771e8cbbb3ab9" kindref="member">MR_std_vector_MR_EdgeTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a82e22b3a6926b291401c2a8066148b84" kindref="member">MR_findCollidingEdgeTrisPrecise_6_std_vector_MR_EdgeId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursStitch_8h_1aa2cb99914308eb7429fd11738cf79483" kindref="member">MR_std_vector_MR_EdgeId</ref><sp/>*edgesA,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRExtractIsolines_8h_1a94dee374602a203a401f6d452bedc8c8" kindref="member">MR_std_vector_MR_FaceId</ref><sp/>*facesB,<sp/>MR_PassBy<sp/>conv_pass_by,<sp/><ref refid="MRMeshCollidePrecise_8h_1a5926f17bfcecf57ef54dbdaae762d53a" kindref="member">MR_std_function_MR_Vector3i_from_const_MR_Vector3f_ref</ref><sp/>*conv,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*rigidB2A);</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"></highlight></codeline>
+<codeline lineno="323" refid="MRMeshCollidePrecise_8h_1a5140764115898eadc1621865db5361e9" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIntersectionContour_8h_1a3d502e2ab46b5aa656a771e8cbbb3ab9" kindref="member">MR_std_vector_MR_EdgeTri</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a5140764115898eadc1621865db5361e9" kindref="member">MR_findCollidingEdgeTrisPrecise_6_std_vector_MR_FaceId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRExtractIsolines_8h_1a94dee374602a203a401f6d452bedc8c8" kindref="member">MR_std_vector_MR_FaceId</ref><sp/>*facesA,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursStitch_8h_1aa2cb99914308eb7429fd11738cf79483" kindref="member">MR_std_vector_MR_EdgeId</ref><sp/>*edgesB,<sp/>MR_PassBy<sp/>conv_pass_by,<sp/><ref refid="MRMeshCollidePrecise_8h_1a5926f17bfcecf57ef54dbdaae762d53a" kindref="member">MR_std_function_MR_Vector3i_from_const_MR_Vector3f_ref</ref><sp/>*conv,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*rigidB2A);</highlight></codeline>
 <codeline lineno="324"><highlight class="normal"></highlight></codeline>
-<codeline lineno="334" refid="MRMeshCollidePrecise_8h_1a189e3dabfd0a7a1ec3447323aaee4138" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBoolean_8h_1a1d5f64a5e4478ee2148c84427aaaf552" kindref="member">MR_CoordinateConverters</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a189e3dabfd0a7a1ec3447323aaee4138" kindref="member">MR_getVectorConverters_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*rigidB2A);</highlight></codeline>
-<codeline lineno="335"><highlight class="normal"></highlight></codeline>
-<codeline lineno="336"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="337"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="338"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="331" refid="MRMeshCollidePrecise_8h_1a542c00eb6846d8681ed69cc58d0b7f29" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBoolean_8h_1a1d5f64a5e4478ee2148c84427aaaf552" kindref="member">MR_CoordinateConverters</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a542c00eb6846d8681ed69cc58d0b7f29" kindref="member">MR_getVectorConverters_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*a);</highlight></codeline>
+<codeline lineno="332"><highlight class="normal"></highlight></codeline>
+<codeline lineno="342" refid="MRMeshCollidePrecise_8h_1a189e3dabfd0a7a1ec3447323aaee4138" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBoolean_8h_1a1d5f64a5e4478ee2148c84427aaaf552" kindref="member">MR_CoordinateConverters</ref><sp/>*<ref refid="MRMeshCollidePrecise_8h_1a189e3dabfd0a7a1ec3447323aaee4138" kindref="member">MR_getVectorConverters_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*rigidB2A);</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"></highlight></codeline>
+<codeline lineno="344"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="345"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="346"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollidePrecise.h"/>
   </compounddef>

@@ -200,11 +200,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::MutexOwner::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::MutexOwner::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved in the return value. When this function is called, this object will drop any object references it had previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMutexOwner.h" line="52" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMutexOwner.h" declline="52" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMutexOwner.h" line="53" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMutexOwner.h" declline="53" declcolumn="23"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -240,11 +240,11 @@
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
 <codeline lineno="45" refid="MRMutexOwner_8h_1a0fc735dc591f335a6dd3f67ff17c6f5a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMutexOwner_8h_1a0fc735dc591f335a6dd3f67ff17c6f5a" kindref="member">MR_MutexOwner_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMutexOwner_8h_1aecae44d91a545caaa5cf2f13bf5d4f8d" kindref="member">MR_MutexOwner</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
-<codeline lineno="52" refid="MRMutexOwner_8h_1a662dde660b142a5134b22185ec723903" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMutexOwner_8h_1aecae44d91a545caaa5cf2f13bf5d4f8d" kindref="member">MR_MutexOwner</ref><sp/>*<ref refid="MRMutexOwner_8h_1a662dde660b142a5134b22185ec723903" kindref="member">MR_MutexOwner_AssignFromAnother</ref>(<ref refid="MRMutexOwner_8h_1aecae44d91a545caaa5cf2f13bf5d4f8d" kindref="member">MR_MutexOwner</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRMutexOwner_8h_1aecae44d91a545caaa5cf2f13bf5d4f8d" kindref="member">MR_MutexOwner</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="53"><highlight class="normal"></highlight></codeline>
-<codeline lineno="54"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="55"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="56"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="53" refid="MRMutexOwner_8h_1a662dde660b142a5134b22185ec723903" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMutexOwner_8h_1aecae44d91a545caaa5cf2f13bf5d4f8d" kindref="member">MR_MutexOwner</ref><sp/>*<ref refid="MRMutexOwner_8h_1a662dde660b142a5134b22185ec723903" kindref="member">MR_MutexOwner_AssignFromAnother</ref>(<ref refid="MRMutexOwner_8h_1aecae44d91a545caaa5cf2f13bf5d4f8d" kindref="member">MR_MutexOwner</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRMutexOwner_8h_1aecae44d91a545caaa5cf2f13bf5d4f8d" kindref="member">MR_MutexOwner</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMutexOwner.h"/>
   </compounddef>

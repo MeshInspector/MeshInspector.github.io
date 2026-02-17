@@ -208,7 +208,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a068524ecf500003e1d57fa314b19e45a" id="r_a068524ecf500003e1d57fa314b19e45a"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a068524ecf500003e1d57fa314b19e45a">MR_MeshTexture_UpcastTo_MR_Image</a> (const <a class="el" href="MRCtm_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *object)</td></tr>
 <tr class="separator:a068524ecf500003e1d57fa314b19e45a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1922685f721c8d8243d14b265b641777" id="r_a1922685f721c8d8243d14b265b641777"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1922685f721c8d8243d14b265b641777">MR_MeshTexture_MutableUpcastTo_MR_Image</a> (<a class="el" href="MRCtm_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *object)</td></tr>
-<tr class="memdesc:a1922685f721c8d8243d14b265b641777"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code>MR::MeshTexture</code> to its base class <code>MR::Image</code>.  <br /></td></tr>
 <tr class="separator:a1922685f721c8d8243d14b265b641777"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67d1080e10c8d985d81e2d784df9f1d4" id="r_a67d1080e10c8d985d81e2d784df9f1d4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67d1080e10c8d985d81e2d784df9f1d4">MR_MeshTexture_ConstructFromAnother</a> (MR_PassBy _other_pass_by, <a class="el" href="MRCtm_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *_other)</td></tr>
 <tr class="separator:a67d1080e10c8d985d81e2d784df9f1d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -425,7 +424,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::MeshTexture</code> named <code>filter</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::MeshTexture</code> named <code>filter</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -443,7 +442,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::MeshTexture</code> named <code>pixels</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::MeshTexture</code> named <code>pixels</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -461,7 +460,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::MeshTexture</code> named <code>resolution</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::MeshTexture</code> named <code>resolution</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -479,7 +478,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::MeshTexture</code> named <code>wrap</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::MeshTexture</code> named <code>wrap</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -497,7 +496,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::MeshTexture</code> named <code>filter</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::MeshTexture</code> named <code>filter</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -515,7 +514,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::MeshTexture</code> named <code>pixels</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::MeshTexture</code> named <code>pixels</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -533,7 +532,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::MeshTexture</code> named <code>resolution</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::MeshTexture</code> named <code>resolution</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -551,7 +550,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::MeshTexture</code> named <code>wrap</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::MeshTexture</code> named <code>wrap</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -587,8 +586,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Upcasts an instance of <code>MR::MeshTexture</code> to its base class <code>MR::Image</code>. </p>
+<p>Upcasts an instance of <code>MR::MeshTexture</code> to its base class <code>MR::Image</code>. The reference to the parameter <code>object</code> might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -814,7 +812,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Upcasts an instance of <code>MR::MeshTexture</code> to its base class <code>MR::Image</code>. This version is acting on mutable pointers. </p>
+<p>Upcasts an instance of <code>MR::MeshTexture</code> to its base class <code>MR::Image</code>. This version is acting on mutable pointers. The reference to the parameter <code>object</code> might be preserved in the return value. </p>
 
 </div>
 </div>

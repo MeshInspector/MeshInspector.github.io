@@ -251,7 +251,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a3027bb524566f8b7a811fdbb89005a11" id="r_a3027bb524566f8b7a811fdbb89005a11"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a1a5efdccd2df88c9e6fd685e2f82f57b">MR_RectIndexer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3027bb524566f8b7a811fdbb89005a11">MR_DistanceMap_UpcastTo_MR_RectIndexer</a> (const <a class="el" href="MRTiff_8h.html#ac5b3176651bd10f11559934b0565b6ee">MR_DistanceMap</a> *object)</td></tr>
 <tr class="separator:a3027bb524566f8b7a811fdbb89005a11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9197bcbff203fb9a264e15dddcb9ff2b" id="r_a9197bcbff203fb9a264e15dddcb9ff2b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a1a5efdccd2df88c9e6fd685e2f82f57b">MR_RectIndexer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9197bcbff203fb9a264e15dddcb9ff2b">MR_DistanceMap_MutableUpcastTo_MR_RectIndexer</a> (<a class="el" href="MRTiff_8h.html#ac5b3176651bd10f11559934b0565b6ee">MR_DistanceMap</a> *object)</td></tr>
-<tr class="memdesc:a9197bcbff203fb9a264e15dddcb9ff2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code>MR::DistanceMap</code> to its base class <code>MR::RectIndexer</code>.  <br /></td></tr>
 <tr class="separator:a9197bcbff203fb9a264e15dddcb9ff2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f46d296d519b102f34c85f166e7f5d3" id="r_a3f46d296d519b102f34c85f166e7f5d3"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRTiff_8h.html#ac5b3176651bd10f11559934b0565b6ee">MR_DistanceMap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f46d296d519b102f34c85f166e7f5d3">MR_DistanceMap_ConstructFromAnother</a> (MR_PassBy _other_pass_by, <a class="el" href="MRTiff_8h.html#ac5b3176651bd10f11559934b0565b6ee">MR_DistanceMap</a> *_other)</td></tr>
 <tr class="separator:a3f46d296d519b102f34c85f166e7f5d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1171,7 +1170,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>offset values for each undirected edge of given polyline Returns a pointer to a member variable of class <code>MR::ContoursDistanceMapOffset</code> named <code>perEdgeOffset</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>offset values for each undirected edge of given polyline Returns a pointer to a member variable of class <code>MR::ContoursDistanceMapOffset</code> named <code>perEdgeOffset</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1189,7 +1188,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::ContoursDistanceMapOffset</code> named <code>type</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::ContoursDistanceMapOffset</code> named <code>type</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1207,7 +1206,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::ContoursDistanceMapOffset</code> named <code>type</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::ContoursDistanceMapOffset</code> named <code>type</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1447,7 +1446,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximum value (or absolute value if offsetParameters == nullptr) in a pixel of distance map (larger values cannot be present) Returns a pointer to a member variable of class <code>MR::ContoursDistanceMapOptions</code> named <code>maxDist</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>maximum value (or absolute value if offsetParameters == nullptr) in a pixel of distance map (larger values cannot be present) Returns a pointer to a member variable of class <code>MR::ContoursDistanceMapOptions</code> named <code>maxDist</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1465,7 +1464,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>minimum value (or absolute value if offsetParameters == nullptr) in a pixel of distance map (lower values can be present but they are not precise) Returns a pointer to a member variable of class <code>MR::ContoursDistanceMapOptions</code> named <code>minDist</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>minimum value (or absolute value if offsetParameters == nullptr) in a pixel of distance map (lower values can be present but they are not precise) Returns a pointer to a member variable of class <code>MR::ContoursDistanceMapOptions</code> named <code>minDist</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1483,7 +1482,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional input offset for each edges of polyline, find more on <code>ContoursDistanceMapOffset</code> structure description Returns a pointer to a member variable of class <code>MR::ContoursDistanceMapOptions</code> named <code>offsetParameters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>optional input offset for each edges of polyline, find more on <code>ContoursDistanceMapOffset</code> structure description Returns a pointer to a member variable of class <code>MR::ContoursDistanceMapOptions</code> named <code>offsetParameters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1501,7 +1500,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional output vector of closest polyline edge per each pixel of distance map Returns a pointer to a member variable of class <code>MR::ContoursDistanceMapOptions</code> named <code>outClosestEdges</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>optional output vector of closest polyline edge per each pixel of distance map Returns a pointer to a member variable of class <code>MR::ContoursDistanceMapOptions</code> named <code>outClosestEdges</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1519,7 +1518,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if pointer is valid, then only these pixels will be filled Returns a pointer to a member variable of class <code>MR::ContoursDistanceMapOptions</code> named <code>region</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if pointer is valid, then only these pixels will be filled Returns a pointer to a member variable of class <code>MR::ContoursDistanceMapOptions</code> named <code>region</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1537,7 +1536,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::ContoursDistanceMapOptions</code> named <code>signMethod</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::ContoursDistanceMapOptions</code> named <code>signMethod</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1555,7 +1554,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximum value (or absolute value if offsetParameters == nullptr) in a pixel of distance map (larger values cannot be present) Returns a mutable pointer to a member variable of class <code>MR::ContoursDistanceMapOptions</code> named <code>maxDist</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>maximum value (or absolute value if offsetParameters == nullptr) in a pixel of distance map (larger values cannot be present) Returns a mutable pointer to a member variable of class <code>MR::ContoursDistanceMapOptions</code> named <code>maxDist</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1573,7 +1572,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>minimum value (or absolute value if offsetParameters == nullptr) in a pixel of distance map (lower values can be present but they are not precise) Returns a mutable pointer to a member variable of class <code>MR::ContoursDistanceMapOptions</code> named <code>minDist</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>minimum value (or absolute value if offsetParameters == nullptr) in a pixel of distance map (lower values can be present but they are not precise) Returns a mutable pointer to a member variable of class <code>MR::ContoursDistanceMapOptions</code> named <code>minDist</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1591,7 +1590,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional input offset for each edges of polyline, find more on <code>ContoursDistanceMapOffset</code> structure description Returns a mutable pointer to a member variable of class <code>MR::ContoursDistanceMapOptions</code> named <code>offsetParameters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>optional input offset for each edges of polyline, find more on <code>ContoursDistanceMapOffset</code> structure description Returns a mutable pointer to a member variable of class <code>MR::ContoursDistanceMapOptions</code> named <code>offsetParameters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1609,7 +1608,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional output vector of closest polyline edge per each pixel of distance map Returns a mutable pointer to a member variable of class <code>MR::ContoursDistanceMapOptions</code> named <code>outClosestEdges</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>optional output vector of closest polyline edge per each pixel of distance map Returns a mutable pointer to a member variable of class <code>MR::ContoursDistanceMapOptions</code> named <code>outClosestEdges</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1627,7 +1626,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if pointer is valid, then only these pixels will be filled Returns a mutable pointer to a member variable of class <code>MR::ContoursDistanceMapOptions</code> named <code>region</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if pointer is valid, then only these pixels will be filled Returns a mutable pointer to a member variable of class <code>MR::ContoursDistanceMapOptions</code> named <code>region</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1645,7 +1644,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::ContoursDistanceMapOptions</code> named <code>signMethod</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::ContoursDistanceMapOptions</code> named <code>signMethod</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2733,8 +2732,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Upcasts an instance of <code>MR::DistanceMap</code> to its base class <code>MR::RectIndexer</code>. </p>
+<p>Upcasts an instance of <code>MR::DistanceMap</code> to its base class <code>MR::RectIndexer</code>. The reference to the parameter <code>object</code> might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -3181,7 +3179,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Upcasts an instance of <code>MR::DistanceMap</code> to its base class <code>MR::RectIndexer</code>. This version is acting on mutable pointers. </p>
+<p>Upcasts an instance of <code>MR::DistanceMap</code> to its base class <code>MR::RectIndexer</code>. This version is acting on mutable pointers. The reference to the parameter <code>object</code> might be preserved in the return value. </p>
 
 </div>
 </div>

@@ -568,7 +568,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>closeLineAfterCut if true, the ends of resulting polyline will be connected by new edges (can make a polyline closed, even if the original one was open) if close, only cut edges (no new edges will be created) Returns a pointer to a member variable of class <code>MR::DividePolylineParameters</code> named <code>closeLineAfterCut</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>closeLineAfterCut if true, the ends of resulting polyline will be connected by new edges (can make a polyline closed, even if the original one was open) if close, only cut edges (no new edges will be created) Returns a pointer to a member variable of class <code>MR::DividePolylineParameters</code> named <code>closeLineAfterCut</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -586,7 +586,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>onEdgeSplitCallback is invoked each time when an edge is split. Receives edge ID before split, edge ID after split, and weight of the origin vertex Returns a pointer to a member variable of class <code>MR::DividePolylineParameters</code> named <code>onEdgeSplitCallback</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>onEdgeSplitCallback is invoked each time when an edge is split. Receives edge ID before split, edge ID after split, and weight of the origin vertex Returns a pointer to a member variable of class <code>MR::DividePolylineParameters</code> named <code>onEdgeSplitCallback</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -604,7 +604,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>map from input polyline edges to other output Returns a pointer to a member variable of class <code>MR::DividePolylineParameters</code> named <code>otherOutEmap</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>map from input polyline edges to other output Returns a pointer to a member variable of class <code>MR::DividePolylineParameters</code> named <code>otherOutEmap</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -622,7 +622,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>map from input polyline verts to other output Returns a pointer to a member variable of class <code>MR::DividePolylineParameters</code> named <code>otherOutVmap</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>map from input polyline verts to other output Returns a pointer to a member variable of class <code>MR::DividePolylineParameters</code> named <code>otherOutVmap</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -640,7 +640,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>otherPart Optional return, polyline composed from edges on the negative side of the plane Returns a pointer to a member variable of class <code>MR::DividePolylineParameters</code> named <code>otherPart</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>otherPart Optional return, polyline composed from edges on the negative side of the plane Returns a pointer to a member variable of class <code>MR::DividePolylineParameters</code> named <code>otherPart</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -658,7 +658,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>map from input polyline edges to output Returns a pointer to a member variable of class <code>MR::DividePolylineParameters</code> named <code>outEmap</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>map from input polyline edges to output Returns a pointer to a member variable of class <code>MR::DividePolylineParameters</code> named <code>outEmap</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -676,7 +676,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>map from input polyline verts to output Returns a pointer to a member variable of class <code>MR::DividePolylineParameters</code> named <code>outVmap</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>map from input polyline verts to output Returns a pointer to a member variable of class <code>MR::DividePolylineParameters</code> named <code>outVmap</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -694,7 +694,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>closeLineAfterCut if true, the ends of resulting polyline will be connected by new edges (can make a polyline closed, even if the original one was open) if close, only cut edges (no new edges will be created) Returns a mutable pointer to a member variable of class <code>MR::DividePolylineParameters</code> named <code>closeLineAfterCut</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>closeLineAfterCut if true, the ends of resulting polyline will be connected by new edges (can make a polyline closed, even if the original one was open) if close, only cut edges (no new edges will be created) Returns a mutable pointer to a member variable of class <code>MR::DividePolylineParameters</code> named <code>closeLineAfterCut</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -712,7 +712,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>onEdgeSplitCallback is invoked each time when an edge is split. Receives edge ID before split, edge ID after split, and weight of the origin vertex Returns a mutable pointer to a member variable of class <code>MR::DividePolylineParameters</code> named <code>onEdgeSplitCallback</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>onEdgeSplitCallback is invoked each time when an edge is split. Receives edge ID before split, edge ID after split, and weight of the origin vertex Returns a mutable pointer to a member variable of class <code>MR::DividePolylineParameters</code> named <code>onEdgeSplitCallback</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -730,7 +730,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>map from input polyline edges to other output Returns a mutable pointer to a member variable of class <code>MR::DividePolylineParameters</code> named <code>otherOutEmap</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>map from input polyline edges to other output Returns a mutable pointer to a member variable of class <code>MR::DividePolylineParameters</code> named <code>otherOutEmap</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -748,7 +748,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>map from input polyline verts to other output Returns a mutable pointer to a member variable of class <code>MR::DividePolylineParameters</code> named <code>otherOutVmap</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>map from input polyline verts to other output Returns a mutable pointer to a member variable of class <code>MR::DividePolylineParameters</code> named <code>otherOutVmap</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -766,7 +766,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>otherPart Optional return, polyline composed from edges on the negative side of the plane Returns a mutable pointer to a member variable of class <code>MR::DividePolylineParameters</code> named <code>otherPart</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>otherPart Optional return, polyline composed from edges on the negative side of the plane Returns a mutable pointer to a member variable of class <code>MR::DividePolylineParameters</code> named <code>otherPart</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -784,7 +784,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>map from input polyline edges to output Returns a mutable pointer to a member variable of class <code>MR::DividePolylineParameters</code> named <code>outEmap</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>map from input polyline edges to output Returns a mutable pointer to a member variable of class <code>MR::DividePolylineParameters</code> named <code>outEmap</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -802,7 +802,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>map from input polyline verts to output Returns a mutable pointer to a member variable of class <code>MR::DividePolylineParameters</code> named <code>outVmap</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>map from input polyline verts to output Returns a mutable pointer to a member variable of class <code>MR::DividePolylineParameters</code> named <code>outVmap</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>

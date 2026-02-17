@@ -193,7 +193,6 @@ Functions</h2></td></tr>
 <tr class="memitem:afc784d7f6c5a5d002e039e14d1135e67" id="r_afc784d7f6c5a5d002e039e14d1135e67"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a14daefefb71601bafdc8f2606ebd04ff">MR_VoxelsVolumeAccessor_MR_SimpleVolume</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc784d7f6c5a5d002e039e14d1135e67">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax_UpcastTo_MR_VoxelsVolumeAccessor_MR_SimpleVolume</a> (const <a class="el" href="MRVolumeInterpolation_8h.html#a3f8035b38a4a70d9e6ae339346c7e3db">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax</a> *object)</td></tr>
 <tr class="separator:afc784d7f6c5a5d002e039e14d1135e67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad37a2d7c5ba1bd2c7c8994f195134a66" id="r_ad37a2d7c5ba1bd2c7c8994f195134a66"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a14daefefb71601bafdc8f2606ebd04ff">MR_VoxelsVolumeAccessor_MR_SimpleVolume</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad37a2d7c5ba1bd2c7c8994f195134a66">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax_MutableUpcastTo_MR_VoxelsVolumeAccessor_MR_SimpleVolume</a> (<a class="el" href="MRVolumeInterpolation_8h.html#a3f8035b38a4a70d9e6ae339346c7e3db">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax</a> *object)</td></tr>
-<tr class="memdesc:ad37a2d7c5ba1bd2c7c8994f195134a66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code>MR::VoxelsVolumeAccessor&lt;MR::SimpleVolumeMinMax&gt;</code> to its base class <code>MR::VoxelsVolumeAccessor&lt;MR::SimpleVolume&gt;</code>.  <br /></td></tr>
 <tr class="separator:ad37a2d7c5ba1bd2c7c8994f195134a66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2e6cfd4be46df90fa7329edf034ac95" id="r_aa2e6cfd4be46df90fa7329edf034ac95"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRVolumeInterpolation_8h.html#a3f8035b38a4a70d9e6ae339346c7e3db">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2e6cfd4be46df90fa7329edf034ac95">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax_Construct</a> (const <a class="el" href="MRMarchingCubes_8h.html#a9eebc3ffb6c9528989e38a2930f391cf">MR_SimpleVolume</a> *volume)</td></tr>
 <tr class="separator:aa2e6cfd4be46df90fa7329edf034ac95"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -758,7 +757,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code>MR::VoxelsVolumeAccessor&lt;MR::SimpleVolume&gt;</code> to a derived class <code>MR::VoxelsVolumeAccessor&lt;MR::SimpleVolumeMinMax&gt;</code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. </p>
+<p>Downcasts an instance of <code>MR::VoxelsVolumeAccessor&lt;MR::SimpleVolume&gt;</code> to a derived class <code>MR::VoxelsVolumeAccessor&lt;MR::SimpleVolumeMinMax&gt;</code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <code>object</code> might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -838,7 +837,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code>MR::VoxelsVolumeAccessor&lt;MR::SimpleVolume&gt;</code> to a derived class <code>MR::VoxelsVolumeAccessor&lt;MR::SimpleVolumeMinMax&gt;</code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. </p>
+<p>Downcasts an instance of <code>MR::VoxelsVolumeAccessor&lt;MR::SimpleVolume&gt;</code> to a derived class <code>MR::VoxelsVolumeAccessor&lt;MR::SimpleVolumeMinMax&gt;</code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <code>object</code> might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -947,8 +946,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Upcasts an instance of <code>MR::VoxelsVolumeAccessor&lt;MR::SimpleVolumeMinMax&gt;</code> to its base class <code>MR::VoxelsVolumeAccessor&lt;MR::SimpleVolume&gt;</code>. </p>
+<p>Upcasts an instance of <code>MR::VoxelsVolumeAccessor&lt;MR::SimpleVolumeMinMax&gt;</code> to its base class <code>MR::VoxelsVolumeAccessor&lt;MR::SimpleVolume&gt;</code>. The reference to the parameter <code>object</code> might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -1028,7 +1026,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Upcasts an instance of <code>MR::VoxelsVolumeAccessor&lt;MR::SimpleVolumeMinMax&gt;</code> to its base class <code>MR::VoxelsVolumeAccessor&lt;MR::SimpleVolume&gt;</code>. This version is acting on mutable pointers. </p>
+<p>Upcasts an instance of <code>MR::VoxelsVolumeAccessor&lt;MR::SimpleVolumeMinMax&gt;</code> to its base class <code>MR::VoxelsVolumeAccessor&lt;MR::SimpleVolume&gt;</code>. This version is acting on mutable pointers. The reference to the parameter <code>object</code> might be preserved in the return value. </p>
 
 </div>
 </div>

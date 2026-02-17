@@ -474,11 +474,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::FloatGrid::operator*</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Generated from method <computeroutput>MR::FloatGrid::operator*</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved in the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="93" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" declline="93" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="94" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" declline="94" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRFloatGrid_8h_1aa8ed832d9c01763eeeeb055c56a0edce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFloatGrid_8h_1aac20c639173df481ee73c6586269c72f" kindref="member">MR_OpenVdbFloatGrid</ref> *</type>
@@ -496,7 +496,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="97" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" declline="97" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="98" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" declline="98" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRFloatGrid_8h_1abe2ffff33a2870df95d72eb86369a7e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref> *</type>
@@ -514,7 +514,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="102" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" declline="102" declcolumn="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="103" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" declline="103" declcolumn="47"/>
       </memberdef>
       <memberdef kind="function" id="MRFloatGrid_8h_1a80df0c6e05b5d2ea2e9878dd1f1db502" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API MR_uint64_t</type>
@@ -532,7 +532,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="107" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" declline="107" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="108" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" declline="108" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRFloatGrid_8h_1a9237f8df1a16f5f389347e9b53d83da4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref> *</type>
@@ -562,7 +562,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="114" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" declline="114" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="115" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" declline="115" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRFloatGrid_8h_1a66446be01b6f34551a77d82eb85d3b50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref> *</type>
@@ -592,7 +592,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="122" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" declline="122" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="123" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" declline="123" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRFloatGrid_8h_1a8bb82dae45884aa1fe5d748017c859d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref> *</type>
@@ -622,7 +622,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="130" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" declline="130" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="131" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" declline="131" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRFloatGrid_8h_1a7d8483b672c32e4a417dee31b3f156ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API MR_uint64_t</type>
@@ -644,7 +644,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="136" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" declline="136" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="137" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" declline="137" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRFloatGrid_8h_1a1c4c4a7abb7fe6b94240f66de2705cab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API MR_uint64_t</type>
@@ -666,7 +666,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="141" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" declline="141" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="142" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" declline="142" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRFloatGrid_8h_1a75efb622f03a08c32c0bdc92f0695c48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API MR_uint64_t</type>
@@ -688,7 +688,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="146" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" declline="146" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="147" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" declline="147" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRFloatGrid_8h_1a4cadefa80b871fc311218810f948ee1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -722,7 +722,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="152" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" declline="152" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="153" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" declline="153" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFloatGrid_8h_1a0bb925f6d954e85febd2b534ccea0bd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref> *</type>
@@ -756,7 +756,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="158" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" declline="158" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="159" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" declline="159" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRFloatGrid_8h_1ab187e3f9d4e87e3d391f7e913019d0bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float</type>
@@ -778,7 +778,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="164" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" declline="164" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="165" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" declline="165" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRFloatGrid_8h_1aca5efc588affc2ec5855f25064d753c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -806,7 +806,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="171" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" declline="171" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="172" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" declline="172" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFloatGrid_8h_1ab99ee57b41f927ed71e36a7424cfb5df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -834,7 +834,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="178" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" declline="178" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="179" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" declline="179" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFloatGrid_8h_1a6e9846c321892b17ca8afdbeab8d41e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__Box3i" kindref="compound">MR_Box3i</ref></type>
@@ -852,7 +852,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="185" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" declline="185" declcolumn="18"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="186" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" declline="186" declcolumn="18"/>
       </memberdef>
       <memberdef kind="function" id="MRFloatGrid_8h_1a662f17bb206c53b5010652f01a91827d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -880,7 +880,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="193" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" declline="193" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="194" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" declline="194" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFloatGrid_8h_1ae6eeeae8efb2f223250d4dabf95a057c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -898,7 +898,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="198" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" declline="198" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="199" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" declline="199" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFloatGrid_8h_1ac82b0e6c368fea1143a64468bf0087ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref> *</type>
@@ -922,7 +922,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="208" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" declline="208" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="209" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" declline="209" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRFloatGrid_8h_1a5f5a52ea2261d5d85ac15c7645054ee1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref> *</type>
@@ -946,7 +946,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="218" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" declline="218" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="219" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" declline="219" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRFloatGrid_8h_1ad96b4ea5de8a8b22ec4b6e9f995e56de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref> *</type>
@@ -970,7 +970,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="228" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" declline="228" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="229" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" declline="229" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRFloatGrid_8h_1a7b7113850e335ad760b7c5e2ac62351e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref> *</type>
@@ -994,7 +994,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="236" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" declline="236" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="237" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" declline="237" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRFloatGrid_8h_1a88751ae1825d4aadcd67b75a0e7efe31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref> *</type>
@@ -1018,7 +1018,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="244" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" declline="244" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="245" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" declline="245" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRFloatGrid_8h_1a90e0a3df6767ebc2d9c666e3792e572c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref> *</type>
@@ -1042,7 +1042,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="252" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" declline="252" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" line="253" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h" declline="253" declcolumn="22"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1102,57 +1102,57 @@
 <codeline lineno="85"><highlight class="normal"></highlight></codeline>
 <codeline lineno="88" refid="MRFloatGrid_8h_1af8ca0066ae56ff26fe4232171edaaeaf" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFloatGrid_8h_1aac20c639173df481ee73c6586269c72f" kindref="member">MR_OpenVdbFloatGrid</ref><sp/>*<ref refid="MRFloatGrid_8h_1af8ca0066ae56ff26fe4232171edaaeaf" kindref="member">MR_FloatGrid_get</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="89"><highlight class="normal"></highlight></codeline>
-<codeline lineno="93" refid="MRFloatGrid_8h_1aea6ddd88171e7507807c688e86862832" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFloatGrid_8h_1aac20c639173df481ee73c6586269c72f" kindref="member">MR_OpenVdbFloatGrid</ref><sp/>*<ref refid="MRFloatGrid_8h_1aea6ddd88171e7507807c688e86862832" kindref="member">MR_deref_MR_FloatGrid</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="94"><highlight class="normal"></highlight></codeline>
-<codeline lineno="97" refid="MRFloatGrid_8h_1aa8ed832d9c01763eeeeb055c56a0edce" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFloatGrid_8h_1aac20c639173df481ee73c6586269c72f" kindref="member">MR_OpenVdbFloatGrid</ref><sp/>*<ref refid="MRFloatGrid_8h_1aa8ed832d9c01763eeeeb055c56a0edce" kindref="member">MR_FloatGrid_arrow</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="98"><highlight class="normal"></highlight></codeline>
-<codeline lineno="102" refid="MRFloatGrid_8h_1abe2ffff33a2870df95d72eb86369a7e6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref><sp/>*<ref refid="MRFloatGrid_8h_1abe2ffff33a2870df95d72eb86369a7e6" kindref="member">MR_FloatGrid_toVdb</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="103"><highlight class="normal"></highlight></codeline>
-<codeline lineno="107" refid="MRFloatGrid_8h_1a80df0c6e05b5d2ea2e9878dd1f1db502" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRFloatGrid_8h_1a80df0c6e05b5d2ea2e9878dd1f1db502" kindref="member">MR_heapBytes_MR_FloatGrid</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*grid);</highlight></codeline>
-<codeline lineno="108"><highlight class="normal"></highlight></codeline>
-<codeline lineno="114" refid="MRFloatGrid_8h_1a9237f8df1a16f5f389347e9b53d83da4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*<ref refid="MRFloatGrid_8h_1a9237f8df1a16f5f389347e9b53d83da4" kindref="member">MR_resampled_float</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*grid,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>voxelScale,<sp/>MR_PassBy<sp/>cb_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
-<codeline lineno="115"><highlight class="normal"></highlight></codeline>
-<codeline lineno="122" refid="MRFloatGrid_8h_1a66446be01b6f34551a77d82eb85d3b50" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*<ref refid="MRFloatGrid_8h_1a66446be01b6f34551a77d82eb85d3b50" kindref="member">MR_resampled_MR_Vector3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*grid,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*voxelScale,<sp/>MR_PassBy<sp/>cb_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
-<codeline lineno="123"><highlight class="normal"></highlight></codeline>
-<codeline lineno="130" refid="MRFloatGrid_8h_1a8bb82dae45884aa1fe5d748017c859d4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*<ref refid="MRFloatGrid_8h_1a8bb82dae45884aa1fe5d748017c859d4" kindref="member">MR_cropped</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*grid,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box3i" kindref="compound">MR_Box3i</ref><sp/>*box,<sp/>MR_PassBy<sp/>cb_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
-<codeline lineno="131"><highlight class="normal"></highlight></codeline>
-<codeline lineno="136" refid="MRFloatGrid_8h_1a7d8483b672c32e4a417dee31b3f156ff" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRFloatGrid_8h_1a7d8483b672c32e4a417dee31b3f156ff" kindref="member">MR_countVoxelsWithValuePred</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*grid,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*pred);</highlight></codeline>
-<codeline lineno="137"><highlight class="normal"></highlight></codeline>
-<codeline lineno="141" refid="MRFloatGrid_8h_1a1c4c4a7abb7fe6b94240f66de2705cab" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRFloatGrid_8h_1a1c4c4a7abb7fe6b94240f66de2705cab" kindref="member">MR_countVoxelsWithValueLess</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*grid,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="142"><highlight class="normal"></highlight></codeline>
-<codeline lineno="146" refid="MRFloatGrid_8h_1a75efb622f03a08c32c0bdc92f0695c48" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRFloatGrid_8h_1a75efb622f03a08c32c0bdc92f0695c48" kindref="member">MR_countVoxelsWithValueGreater</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*grid,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="147"><highlight class="normal"></highlight></codeline>
-<codeline lineno="152" refid="MRFloatGrid_8h_1a4cadefa80b871fc311218810f948ee1a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFloatGrid_8h_1a4cadefa80b871fc311218810f948ee1a" kindref="member">MR_gaussianFilter</ref>(<ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*grid,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>width,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iters,<sp/>MR_PassBy<sp/>cb_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
-<codeline lineno="153"><highlight class="normal"></highlight></codeline>
-<codeline lineno="158" refid="MRFloatGrid_8h_1a0bb925f6d954e85febd2b534ccea0bd8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*<ref refid="MRFloatGrid_8h_1a0bb925f6d954e85febd2b534ccea0bd8" kindref="member">MR_gaussianFiltered</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*grid,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>width,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iters,<sp/>MR_PassBy<sp/>cb_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
-<codeline lineno="159"><highlight class="normal"></highlight></codeline>
-<codeline lineno="164" refid="MRFloatGrid_8h_1ab187e3f9d4e87e3d391f7e913019d0bf" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRFloatGrid_8h_1ab187e3f9d4e87e3d391f7e913019d0bf" kindref="member">MR_getValue</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*grid,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*p);</highlight></codeline>
-<codeline lineno="165"><highlight class="normal"></highlight></codeline>
-<codeline lineno="171" refid="MRFloatGrid_8h_1aca5efc588affc2ec5855f25064d753c3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFloatGrid_8h_1aca5efc588affc2ec5855f25064d753c3" kindref="member">MR_setValue_MR_Vector3i</ref>(<ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*grid,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*p,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="172"><highlight class="normal"></highlight></codeline>
-<codeline lineno="178" refid="MRFloatGrid_8h_1ab99ee57b41f927ed71e36a7424cfb5df" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFloatGrid_8h_1ab99ee57b41f927ed71e36a7424cfb5df" kindref="member">MR_setValue_MR_VoxelBitSet</ref>(<ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*grid,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBitSet_8h_1a94b5f700f4835481dce132716ff73b05" kindref="member">MR_VoxelBitSet</ref><sp/>*region,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="179"><highlight class="normal"></highlight></codeline>
-<codeline lineno="185" refid="MRFloatGrid_8h_1a6e9846c321892b17ca8afdbeab8d41e3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Box3i" kindref="compound">MR_Box3i</ref><sp/><ref refid="MRFloatGrid_8h_1a6e9846c321892b17ca8afdbeab8d41e3" kindref="member">MR_findActiveBounds</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*grid);</highlight></codeline>
-<codeline lineno="186"><highlight class="normal"></highlight></codeline>
-<codeline lineno="193" refid="MRFloatGrid_8h_1a662f17bb206c53b5010652f01a91827d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFloatGrid_8h_1a662f17bb206c53b5010652f01a91827d" kindref="member">MR_setValues</ref>(<ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*grid,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBitSet_8h_1a94b5f700f4835481dce132716ff73b05" kindref="member">MR_VoxelBitSet</ref><sp/>*region,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*values);</highlight></codeline>
-<codeline lineno="194"><highlight class="normal"></highlight></codeline>
-<codeline lineno="198" refid="MRFloatGrid_8h_1ae6eeeae8efb2f223250d4dabf95a057c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFloatGrid_8h_1ae6eeeae8efb2f223250d4dabf95a057c" kindref="member">MR_setLevelSetType</ref>(<ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*grid);</highlight></codeline>
-<codeline lineno="199"><highlight class="normal"></highlight></codeline>
-<codeline lineno="208" refid="MRFloatGrid_8h_1ac82b0e6c368fea1143a64468bf0087ac" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*<ref refid="MRFloatGrid_8h_1ac82b0e6c368fea1143a64468bf0087ac" kindref="member">MR_add_assign_MR_FloatGrid</ref>(<ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*a,<sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*b);</highlight></codeline>
-<codeline lineno="209"><highlight class="normal"></highlight></codeline>
-<codeline lineno="218" refid="MRFloatGrid_8h_1a5f5a52ea2261d5d85ac15c7645054ee1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*<ref refid="MRFloatGrid_8h_1a5f5a52ea2261d5d85ac15c7645054ee1" kindref="member">MR_sub_assign_MR_FloatGrid</ref>(<ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*a,<sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*b);</highlight></codeline>
-<codeline lineno="219"><highlight class="normal"></highlight></codeline>
-<codeline lineno="228" refid="MRFloatGrid_8h_1ad96b4ea5de8a8b22ec4b6e9f995e56de" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*<ref refid="MRFloatGrid_8h_1ad96b4ea5de8a8b22ec4b6e9f995e56de" kindref="member">MR_mul_assign_MR_FloatGrid</ref>(<ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*a,<sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*b);</highlight></codeline>
-<codeline lineno="229"><highlight class="normal"></highlight></codeline>
-<codeline lineno="236" refid="MRFloatGrid_8h_1a7b7113850e335ad760b7c5e2ac62351e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*<ref refid="MRFloatGrid_8h_1a7b7113850e335ad760b7c5e2ac62351e" kindref="member">MR_add_MR_FloatGrid</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*b);</highlight></codeline>
-<codeline lineno="237"><highlight class="normal"></highlight></codeline>
-<codeline lineno="244" refid="MRFloatGrid_8h_1a88751ae1825d4aadcd67b75a0e7efe31" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*<ref refid="MRFloatGrid_8h_1a88751ae1825d4aadcd67b75a0e7efe31" kindref="member">MR_sub_MR_FloatGrid</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*b);</highlight></codeline>
-<codeline lineno="245"><highlight class="normal"></highlight></codeline>
-<codeline lineno="252" refid="MRFloatGrid_8h_1a90e0a3df6767ebc2d9c666e3792e572c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*<ref refid="MRFloatGrid_8h_1a90e0a3df6767ebc2d9c666e3792e572c" kindref="member">MR_mul_MR_FloatGrid</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*b);</highlight></codeline>
-<codeline lineno="253"><highlight class="normal"></highlight></codeline>
-<codeline lineno="254"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="255"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="256"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="94" refid="MRFloatGrid_8h_1aea6ddd88171e7507807c688e86862832" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFloatGrid_8h_1aac20c639173df481ee73c6586269c72f" kindref="member">MR_OpenVdbFloatGrid</ref><sp/>*<ref refid="MRFloatGrid_8h_1aea6ddd88171e7507807c688e86862832" kindref="member">MR_deref_MR_FloatGrid</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="MRFloatGrid_8h_1aa8ed832d9c01763eeeeb055c56a0edce" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFloatGrid_8h_1aac20c639173df481ee73c6586269c72f" kindref="member">MR_OpenVdbFloatGrid</ref><sp/>*<ref refid="MRFloatGrid_8h_1aa8ed832d9c01763eeeeb055c56a0edce" kindref="member">MR_FloatGrid_arrow</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="MRFloatGrid_8h_1abe2ffff33a2870df95d72eb86369a7e6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref><sp/>*<ref refid="MRFloatGrid_8h_1abe2ffff33a2870df95d72eb86369a7e6" kindref="member">MR_FloatGrid_toVdb</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="MRFloatGrid_8h_1a80df0c6e05b5d2ea2e9878dd1f1db502" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRFloatGrid_8h_1a80df0c6e05b5d2ea2e9878dd1f1db502" kindref="member">MR_heapBytes_MR_FloatGrid</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*grid);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115" refid="MRFloatGrid_8h_1a9237f8df1a16f5f389347e9b53d83da4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*<ref refid="MRFloatGrid_8h_1a9237f8df1a16f5f389347e9b53d83da4" kindref="member">MR_resampled_float</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*grid,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>voxelScale,<sp/>MR_PassBy<sp/>cb_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123" refid="MRFloatGrid_8h_1a66446be01b6f34551a77d82eb85d3b50" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*<ref refid="MRFloatGrid_8h_1a66446be01b6f34551a77d82eb85d3b50" kindref="member">MR_resampled_MR_Vector3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*grid,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*voxelScale,<sp/>MR_PassBy<sp/>cb_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131" refid="MRFloatGrid_8h_1a8bb82dae45884aa1fe5d748017c859d4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*<ref refid="MRFloatGrid_8h_1a8bb82dae45884aa1fe5d748017c859d4" kindref="member">MR_cropped</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*grid,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box3i" kindref="compound">MR_Box3i</ref><sp/>*box,<sp/>MR_PassBy<sp/>cb_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="MRFloatGrid_8h_1a7d8483b672c32e4a417dee31b3f156ff" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRFloatGrid_8h_1a7d8483b672c32e4a417dee31b3f156ff" kindref="member">MR_countVoxelsWithValuePred</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*grid,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*pred);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142" refid="MRFloatGrid_8h_1a1c4c4a7abb7fe6b94240f66de2705cab" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRFloatGrid_8h_1a1c4c4a7abb7fe6b94240f66de2705cab" kindref="member">MR_countVoxelsWithValueLess</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*grid,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147" refid="MRFloatGrid_8h_1a75efb622f03a08c32c0bdc92f0695c48" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRFloatGrid_8h_1a75efb622f03a08c32c0bdc92f0695c48" kindref="member">MR_countVoxelsWithValueGreater</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*grid,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153" refid="MRFloatGrid_8h_1a4cadefa80b871fc311218810f948ee1a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFloatGrid_8h_1a4cadefa80b871fc311218810f948ee1a" kindref="member">MR_gaussianFilter</ref>(<ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*grid,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>width,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iters,<sp/>MR_PassBy<sp/>cb_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="MRFloatGrid_8h_1a0bb925f6d954e85febd2b534ccea0bd8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*<ref refid="MRFloatGrid_8h_1a0bb925f6d954e85febd2b534ccea0bd8" kindref="member">MR_gaussianFiltered</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*grid,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>width,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iters,<sp/>MR_PassBy<sp/>cb_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165" refid="MRFloatGrid_8h_1ab187e3f9d4e87e3d391f7e913019d0bf" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRFloatGrid_8h_1ab187e3f9d4e87e3d391f7e913019d0bf" kindref="member">MR_getValue</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*grid,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*p);</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172" refid="MRFloatGrid_8h_1aca5efc588affc2ec5855f25064d753c3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFloatGrid_8h_1aca5efc588affc2ec5855f25064d753c3" kindref="member">MR_setValue_MR_Vector3i</ref>(<ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*grid,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*p,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179" refid="MRFloatGrid_8h_1ab99ee57b41f927ed71e36a7424cfb5df" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFloatGrid_8h_1ab99ee57b41f927ed71e36a7424cfb5df" kindref="member">MR_setValue_MR_VoxelBitSet</ref>(<ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*grid,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBitSet_8h_1a94b5f700f4835481dce132716ff73b05" kindref="member">MR_VoxelBitSet</ref><sp/>*region,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186" refid="MRFloatGrid_8h_1a6e9846c321892b17ca8afdbeab8d41e3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Box3i" kindref="compound">MR_Box3i</ref><sp/><ref refid="MRFloatGrid_8h_1a6e9846c321892b17ca8afdbeab8d41e3" kindref="member">MR_findActiveBounds</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*grid);</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194" refid="MRFloatGrid_8h_1a662f17bb206c53b5010652f01a91827d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFloatGrid_8h_1a662f17bb206c53b5010652f01a91827d" kindref="member">MR_setValues</ref>(<ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*grid,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBitSet_8h_1a94b5f700f4835481dce132716ff73b05" kindref="member">MR_VoxelBitSet</ref><sp/>*region,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*values);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199" refid="MRFloatGrid_8h_1ae6eeeae8efb2f223250d4dabf95a057c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFloatGrid_8h_1ae6eeeae8efb2f223250d4dabf95a057c" kindref="member">MR_setLevelSetType</ref>(<ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*grid);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="209" refid="MRFloatGrid_8h_1ac82b0e6c368fea1143a64468bf0087ac" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*<ref refid="MRFloatGrid_8h_1ac82b0e6c368fea1143a64468bf0087ac" kindref="member">MR_add_assign_MR_FloatGrid</ref>(<ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*a,<sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="219" refid="MRFloatGrid_8h_1a5f5a52ea2261d5d85ac15c7645054ee1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*<ref refid="MRFloatGrid_8h_1a5f5a52ea2261d5d85ac15c7645054ee1" kindref="member">MR_sub_assign_MR_FloatGrid</ref>(<ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*a,<sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight></codeline>
+<codeline lineno="229" refid="MRFloatGrid_8h_1ad96b4ea5de8a8b22ec4b6e9f995e56de" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*<ref refid="MRFloatGrid_8h_1ad96b4ea5de8a8b22ec4b6e9f995e56de" kindref="member">MR_mul_assign_MR_FloatGrid</ref>(<ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*a,<sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="237" refid="MRFloatGrid_8h_1a7b7113850e335ad760b7c5e2ac62351e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*<ref refid="MRFloatGrid_8h_1a7b7113850e335ad760b7c5e2ac62351e" kindref="member">MR_add_MR_FloatGrid</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight></codeline>
+<codeline lineno="245" refid="MRFloatGrid_8h_1a88751ae1825d4aadcd67b75a0e7efe31" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*<ref refid="MRFloatGrid_8h_1a88751ae1825d4aadcd67b75a0e7efe31" kindref="member">MR_sub_MR_FloatGrid</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"></highlight></codeline>
+<codeline lineno="253" refid="MRFloatGrid_8h_1a90e0a3df6767ebc2d9c666e3792e572c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*<ref refid="MRFloatGrid_8h_1a90e0a3df6767ebc2d9c666e3792e572c" kindref="member">MR_mul_MR_FloatGrid</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoolean_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"></highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="256"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="257"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFloatGrid.h"/>
   </compounddef>

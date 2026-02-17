@@ -197,7 +197,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional load artifacts and other setting for PLY file loading Generated from class <computeroutput>MR::PlyLoadParams</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). optional load artifact: mesh triangles Returns a pointer to a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>tris</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>optional load artifacts and other setting for PLY file loading Generated from class <computeroutput>MR::PlyLoadParams</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). optional load artifact: mesh triangles Returns a pointer to a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>tris</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -221,7 +221,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="36" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="36" declcolumn="48"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="37" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="37" declcolumn="48"/>
       </memberdef>
       <memberdef kind="function" id="MRPly_8h_1ad88d2ebc70e2d8fdbea007e4917291ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -239,11 +239,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional load artifact: mesh triangles Returns a mutable pointer to a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>tris</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>optional load artifact: mesh triangles Returns a mutable pointer to a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>tris</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="43" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="43" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="44" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="44" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPly_8h_1a578f6cc2c27bc4bab92763e5fc64fcda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRPly_8h_1aa870bea258c3c0ee572af5757ab79e2d" kindref="member">MR_std_optional_MR_Triangulation</ref> **</type>
@@ -257,11 +257,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional load artifact: polyline edges Returns a pointer to a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>edges</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>optional load artifact: polyline edges Returns a pointer to a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>edges</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="49" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="49" declcolumn="42"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="51" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="51" declcolumn="42"/>
       </memberdef>
       <memberdef kind="function" id="MRPly_8h_1a256ed19a137292715eb079be725300d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshLoadSettings_8h_1a13a39913eea8101afdb2e6ed71bedc67" kindref="member">MR_std_optional_MR_Edges</ref> *const *</type>
@@ -279,7 +279,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="55" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="55" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="58" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="58" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MRPly_8h_1ab9b4183a5652890522d29cba064af03f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -297,11 +297,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional load artifact: polyline edges Returns a mutable pointer to a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>edges</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>optional load artifact: polyline edges Returns a mutable pointer to a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>edges</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="62" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="62" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="65" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="65" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPly_8h_1a7dc96c86d9d10e33f1ae4f5514a2c750" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshLoadSettings_8h_1a13a39913eea8101afdb2e6ed71bedc67" kindref="member">MR_std_optional_MR_Edges</ref> **</type>
@@ -315,11 +315,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional load artifact: per-vertex color map Returns a pointer to a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>colors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>optional load artifact: per-vertex color map Returns a pointer to a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>colors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="68" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="68" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="72" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="72" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRPly_8h_1a330135a461588f7a5b735ca5636c3a52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> *const *</type>
@@ -337,7 +337,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="74" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="74" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="79" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="79" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRPly_8h_1a2f1db8e9ed0f2e21cf320919887718fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -355,11 +355,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional load artifact: per-vertex color map Returns a mutable pointer to a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>colors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>optional load artifact: per-vertex color map Returns a mutable pointer to a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>colors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="81" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="81" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="86" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="86" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPly_8h_1a5ae5eda0ba4a14aa4e8cdd671c9d8711" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> **</type>
@@ -373,11 +373,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional load artifact: per-face color map Returns a pointer to a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>faceColors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>optional load artifact: per-face color map Returns a pointer to a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>faceColors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="87" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="87" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="93" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="93" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRPly_8h_1acc7cabc03485c8547dfd3e0dc1abd3ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref> *const *</type>
@@ -395,7 +395,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="93" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="93" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="100" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="100" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRPly_8h_1a62d62b8c5980a990281072e874ccc2bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -413,11 +413,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional load artifact: per-face color map Returns a mutable pointer to a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>faceColors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>optional load artifact: per-face color map Returns a mutable pointer to a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>faceColors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="100" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="100" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="107" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="107" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPly_8h_1a856447b147b6d47ad5fed4a5692f9bca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref> **</type>
@@ -431,11 +431,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional load artifact: per-vertex uv-coordinates Returns a pointer to a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>uvCoords</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>optional load artifact: per-vertex uv-coordinates Returns a pointer to a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>uvCoords</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="106" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="106" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="114" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="114" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRPly_8h_1af65c9a054a78329f3176e0f6a42ba48a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref> *const *</type>
@@ -453,7 +453,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="112" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="112" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="121" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="121" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRPly_8h_1a86ef6c307a5bd622105204e74734cdd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -471,11 +471,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional load artifact: per-vertex uv-coordinates Returns a mutable pointer to a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>uvCoords</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>optional load artifact: per-vertex uv-coordinates Returns a mutable pointer to a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>uvCoords</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="119" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="119" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="128" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="128" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPly_8h_1a0511c27da8c694baefa2cceb8cde0121" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref> **</type>
@@ -489,11 +489,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional load artifact: per-corner uv-coordinates for each triangle Returns a pointer to a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>triCornerUvCoords</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>optional load artifact: per-corner uv-coordinates for each triangle Returns a pointer to a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>triCornerUvCoords</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="125" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="125" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="135" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="135" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="MRPly_8h_1abc3d81d64e06d8befe9520a8c6ec573a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRPly_8h_1abf80e9d0fcc3f2903bddf1072257b6d4" kindref="member">MR_TriCornerUVCoords</ref> *const *</type>
@@ -511,7 +511,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="131" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="131" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="142" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="142" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRPly_8h_1a3680e63c5e6abe62fe04273ce798586b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -529,11 +529,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional load artifact: per-corner uv-coordinates for each triangle Returns a mutable pointer to a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>triCornerUvCoords</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>optional load artifact: per-corner uv-coordinates for each triangle Returns a mutable pointer to a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>triCornerUvCoords</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="138" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="138" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="149" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="149" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPly_8h_1a44fa1a46bec8a6e9aa7c09c54299f36a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRPly_8h_1abf80e9d0fcc3f2903bddf1072257b6d4" kindref="member">MR_TriCornerUVCoords</ref> **</type>
@@ -547,11 +547,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional load artifact: per-vertex normals Returns a pointer to a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>normals</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>optional load artifact: per-vertex normals Returns a pointer to a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>normals</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="144" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="144" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="156" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="156" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRPly_8h_1aed5240abe7193ba441f5fc6396fdeba9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref> *const *</type>
@@ -569,7 +569,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="150" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="150" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="163" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="163" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRPly_8h_1a27bc9b5e4ffe235a806642b4733633e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -587,11 +587,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional load artifact: per-vertex normals Returns a mutable pointer to a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>normals</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>optional load artifact: per-vertex normals Returns a mutable pointer to a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>normals</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="157" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="157" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="170" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="170" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPly_8h_1a2ce931feaed8c1783157a90c9156243d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref> **</type>
@@ -605,11 +605,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional load artifact: texture image Returns a pointer to a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>texture</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>optional load artifact: texture image Returns a pointer to a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>texture</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="163" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="163" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="177" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="177" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRPly_8h_1a24bbbf4fa391b65aeec4666d513297fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref> *const *</type>
@@ -627,7 +627,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="169" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="169" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="184" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="184" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRPly_8h_1a4f30f94875f27dbfd613c18bc0bbce45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -645,11 +645,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional load artifact: texture image Returns a mutable pointer to a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>texture</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>optional load artifact: texture image Returns a mutable pointer to a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>texture</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="176" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="176" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="191" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="191" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPly_8h_1ac8ce051c14c4953ff4afba23ea6f687b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref> **</type>
@@ -663,11 +663,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>directory to load texture files from Returns a pointer to a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>dir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>directory to load texture files from Returns a pointer to a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>dir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="182" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="182" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="198" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="198" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="MRPly_8h_1a3909a4e54d9c2fba66a8465344740980" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref> *</type>
@@ -685,7 +685,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="188" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="188" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="205" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="205" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRPly_8h_1a3f6534ec027c23e0115e56a51a407bf9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -707,11 +707,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>directory to load texture files from Returns a mutable pointer to a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>dir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>directory to load texture files from Returns a mutable pointer to a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>dir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="196" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="196" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="213" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="213" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPly_8h_1a180089c7e3cce980f69e45f04c40307e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref> *</type>
@@ -725,11 +725,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>callback for set progress and stop process Returns a pointer to a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>callback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>callback for set progress and stop process Returns a pointer to a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>callback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="202" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="202" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="220" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="220" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRPly_8h_1a7ac809f9fcb2a434c5dc5f994829f583" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
@@ -747,7 +747,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="208" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="208" declcolumn="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="227" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="227" declcolumn="47"/>
       </memberdef>
       <memberdef kind="function" id="MRPly_8h_1a2c1052bf80643fc36eec7a74d88c5c4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -769,11 +769,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>callback for set progress and stop process Returns a mutable pointer to a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>callback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>callback for set progress and stop process Returns a mutable pointer to a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>callback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="215" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="215" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="234" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="234" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPly_8h_1a3f38ee97acfd6271328eb0292eb03e41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
@@ -787,11 +787,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>permit telemetry signal about loading Returns a pointer to a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>telemetrySignal</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>permit telemetry signal about loading Returns a pointer to a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>telemetrySignal</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="221" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="221" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="241" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="241" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRPly_8h_1aaef21a3e62b7a180592e86fd91f4dc9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const bool *</type>
@@ -809,7 +809,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="227" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="227" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="248" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="248" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRPly_8h_1adba4adf09235e6646ab41782ea94ecf1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -827,11 +827,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>permit telemetry signal about loading Returns a mutable pointer to a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>telemetrySignal</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>permit telemetry signal about loading Returns a mutable pointer to a member variable of class <computeroutput>MR::PlyLoadParams</computeroutput> named <computeroutput>telemetrySignal</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="233" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="233" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="254" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="254" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPly_8h_1af1797ea8d25789dc7f651048627713f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool *</type>
@@ -848,7 +848,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="239" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="239" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="261" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="261" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPly_8h_1a1da464de0327c6f7de84f36ef69bbe38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref> *</type>
@@ -865,7 +865,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="243" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="243" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="265" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="265" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRPly_8h_1aa7f30a9836ce47486e9f66bc883618e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref> *</type>
@@ -883,7 +883,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="248" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="248" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="270" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="270" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRPly_8h_1a555dcf9a192575c9063028046a9f5ffb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref> *</type>
@@ -949,7 +949,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="264" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="264" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="286" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="286" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRPly_8h_1a38f9d7cc85bda33877b1871a4a378857" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref> *</type>
@@ -971,7 +971,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="268" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="268" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="290" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="290" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRPly_8h_1a420466bdf519d80a1d6f27d6c3cc4f48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref> *</type>
@@ -993,7 +993,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="272" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="272" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="294" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="294" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRPly_8h_1afbb847ee947f8bba89f05c66f71218ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref> *</type>
@@ -1015,7 +1015,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="277" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="277" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="299" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="299" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRPly_8h_1a40b6cda8c04eb837b43ef4a87e75de56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1033,7 +1033,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="280" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="280" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="302" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="302" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPly_8h_1aabb71704e359508a37e4a872e4104ee3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1051,7 +1051,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="283" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="283" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="305" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="305" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPly_8h_1a4e7bbb09741029f2ee2c0487aec86e0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref> *</type>
@@ -1077,7 +1077,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="290" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="290" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="312" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="312" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRPly_8h_1a777a590aa5f4a710289521723803cec1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRPly_8h_1a01fbdc6d61c17f3f493a586e37bbde94" kindref="member">MR_expected_MR_VertCoords_std_string</ref> *</type>
@@ -1099,7 +1099,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="296" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="296" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" line="318" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h" declline="318" declcolumn="46"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1135,95 +1135,95 @@
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
 <codeline lineno="30" refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/><ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref>;</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36" refid="MRPly_8h_1a048f163df939caa68b052f44dbdbc9ba" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPly_8h_1aa870bea258c3c0ee572af5757ab79e2d" kindref="member">MR_std_optional_MR_Triangulation</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPly_8h_1a048f163df939caa68b052f44dbdbc9ba" kindref="member">MR_PlyLoadParams_Get_tris</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43" refid="MRPly_8h_1ad88d2ebc70e2d8fdbea007e4917291ca" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1ad88d2ebc70e2d8fdbea007e4917291ca" kindref="member">MR_PlyLoadParams_Set_tris</ref>(<ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this,<sp/><ref refid="MRPly_8h_1aa870bea258c3c0ee572af5757ab79e2d" kindref="member">MR_std_optional_MR_Triangulation</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="44"><highlight class="normal"></highlight></codeline>
-<codeline lineno="49" refid="MRPly_8h_1a578f6cc2c27bc4bab92763e5fc64fcda" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPly_8h_1aa870bea258c3c0ee572af5757ab79e2d" kindref="member">MR_std_optional_MR_Triangulation</ref><sp/>**<ref refid="MRPly_8h_1a578f6cc2c27bc4bab92763e5fc64fcda" kindref="member">MR_PlyLoadParams_GetMutable_tris</ref>(<ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="50"><highlight class="normal"></highlight></codeline>
-<codeline lineno="55" refid="MRPly_8h_1a256ed19a137292715eb079be725300d9" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshLoadSettings_8h_1a13a39913eea8101afdb2e6ed71bedc67" kindref="member">MR_std_optional_MR_Edges</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPly_8h_1a256ed19a137292715eb079be725300d9" kindref="member">MR_PlyLoadParams_Get_edges</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="56"><highlight class="normal"></highlight></codeline>
-<codeline lineno="62" refid="MRPly_8h_1ab9b4183a5652890522d29cba064af03f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1ab9b4183a5652890522d29cba064af03f" kindref="member">MR_PlyLoadParams_Set_edges</ref>(<ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this,<sp/><ref refid="MRMeshLoadSettings_8h_1a13a39913eea8101afdb2e6ed71bedc67" kindref="member">MR_std_optional_MR_Edges</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="63"><highlight class="normal"></highlight></codeline>
-<codeline lineno="68" refid="MRPly_8h_1a7dc96c86d9d10e33f1ae4f5514a2c750" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshLoadSettings_8h_1a13a39913eea8101afdb2e6ed71bedc67" kindref="member">MR_std_optional_MR_Edges</ref><sp/>**<ref refid="MRPly_8h_1a7dc96c86d9d10e33f1ae4f5514a2c750" kindref="member">MR_PlyLoadParams_GetMutable_edges</ref>(<ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="69"><highlight class="normal"></highlight></codeline>
-<codeline lineno="74" refid="MRPly_8h_1a330135a461588f7a5b735ca5636c3a52" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPly_8h_1a330135a461588f7a5b735ca5636c3a52" kindref="member">MR_PlyLoadParams_Get_colors</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="75"><highlight class="normal"></highlight></codeline>
-<codeline lineno="81" refid="MRPly_8h_1a2f1db8e9ed0f2e21cf320919887718fb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a2f1db8e9ed0f2e21cf320919887718fb" kindref="member">MR_PlyLoadParams_Set_colors</ref>(<ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this,<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="82"><highlight class="normal"></highlight></codeline>
-<codeline lineno="87" refid="MRPly_8h_1a5ae5eda0ba4a14aa4e8cdd671c9d8711" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>**<ref refid="MRPly_8h_1a5ae5eda0ba4a14aa4e8cdd671c9d8711" kindref="member">MR_PlyLoadParams_GetMutable_colors</ref>(<ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="88"><highlight class="normal"></highlight></codeline>
-<codeline lineno="93" refid="MRPly_8h_1acc7cabc03485c8547dfd3e0dc1abd3ff" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPly_8h_1acc7cabc03485c8547dfd3e0dc1abd3ff" kindref="member">MR_PlyLoadParams_Get_faceColors</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="37" refid="MRPly_8h_1a048f163df939caa68b052f44dbdbc9ba" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPly_8h_1aa870bea258c3c0ee572af5757ab79e2d" kindref="member">MR_std_optional_MR_Triangulation</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPly_8h_1a048f163df939caa68b052f44dbdbc9ba" kindref="member">MR_PlyLoadParams_Get_tris</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="MRPly_8h_1ad88d2ebc70e2d8fdbea007e4917291ca" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1ad88d2ebc70e2d8fdbea007e4917291ca" kindref="member">MR_PlyLoadParams_Set_tris</ref>(<ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this,<sp/><ref refid="MRPly_8h_1aa870bea258c3c0ee572af5757ab79e2d" kindref="member">MR_std_optional_MR_Triangulation</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="MRPly_8h_1a578f6cc2c27bc4bab92763e5fc64fcda" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPly_8h_1aa870bea258c3c0ee572af5757ab79e2d" kindref="member">MR_std_optional_MR_Triangulation</ref><sp/>**<ref refid="MRPly_8h_1a578f6cc2c27bc4bab92763e5fc64fcda" kindref="member">MR_PlyLoadParams_GetMutable_tris</ref>(<ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="MRPly_8h_1a256ed19a137292715eb079be725300d9" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshLoadSettings_8h_1a13a39913eea8101afdb2e6ed71bedc67" kindref="member">MR_std_optional_MR_Edges</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPly_8h_1a256ed19a137292715eb079be725300d9" kindref="member">MR_PlyLoadParams_Get_edges</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="MRPly_8h_1ab9b4183a5652890522d29cba064af03f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1ab9b4183a5652890522d29cba064af03f" kindref="member">MR_PlyLoadParams_Set_edges</ref>(<ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this,<sp/><ref refid="MRMeshLoadSettings_8h_1a13a39913eea8101afdb2e6ed71bedc67" kindref="member">MR_std_optional_MR_Edges</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="MRPly_8h_1a7dc96c86d9d10e33f1ae4f5514a2c750" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshLoadSettings_8h_1a13a39913eea8101afdb2e6ed71bedc67" kindref="member">MR_std_optional_MR_Edges</ref><sp/>**<ref refid="MRPly_8h_1a7dc96c86d9d10e33f1ae4f5514a2c750" kindref="member">MR_PlyLoadParams_GetMutable_edges</ref>(<ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="MRPly_8h_1a330135a461588f7a5b735ca5636c3a52" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPly_8h_1a330135a461588f7a5b735ca5636c3a52" kindref="member">MR_PlyLoadParams_Get_colors</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="MRPly_8h_1a2f1db8e9ed0f2e21cf320919887718fb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a2f1db8e9ed0f2e21cf320919887718fb" kindref="member">MR_PlyLoadParams_Set_colors</ref>(<ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this,<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="MRPly_8h_1a5ae5eda0ba4a14aa4e8cdd671c9d8711" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>**<ref refid="MRPly_8h_1a5ae5eda0ba4a14aa4e8cdd671c9d8711" kindref="member">MR_PlyLoadParams_GetMutable_colors</ref>(<ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="94"><highlight class="normal"></highlight></codeline>
-<codeline lineno="100" refid="MRPly_8h_1a62d62b8c5980a990281072e874ccc2bd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a62d62b8c5980a990281072e874ccc2bd" kindref="member">MR_PlyLoadParams_Set_faceColors</ref>(<ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this,<sp/><ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="100" refid="MRPly_8h_1acc7cabc03485c8547dfd3e0dc1abd3ff" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPly_8h_1acc7cabc03485c8547dfd3e0dc1abd3ff" kindref="member">MR_PlyLoadParams_Get_faceColors</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="101"><highlight class="normal"></highlight></codeline>
-<codeline lineno="106" refid="MRPly_8h_1a856447b147b6d47ad5fed4a5692f9bca" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref><sp/>**<ref refid="MRPly_8h_1a856447b147b6d47ad5fed4a5692f9bca" kindref="member">MR_PlyLoadParams_GetMutable_faceColors</ref>(<ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="107"><highlight class="normal"></highlight></codeline>
-<codeline lineno="112" refid="MRPly_8h_1af65c9a054a78329f3176e0f6a42ba48a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPly_8h_1af65c9a054a78329f3176e0f6a42ba48a" kindref="member">MR_PlyLoadParams_Get_uvCoords</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="113"><highlight class="normal"></highlight></codeline>
-<codeline lineno="119" refid="MRPly_8h_1a86ef6c307a5bd622105204e74734cdd7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a86ef6c307a5bd622105204e74734cdd7" kindref="member">MR_PlyLoadParams_Set_uvCoords</ref>(<ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this,<sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="120"><highlight class="normal"></highlight></codeline>
-<codeline lineno="125" refid="MRPly_8h_1a0511c27da8c694baefa2cceb8cde0121" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/>**<ref refid="MRPly_8h_1a0511c27da8c694baefa2cceb8cde0121" kindref="member">MR_PlyLoadParams_GetMutable_uvCoords</ref>(<ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="126"><highlight class="normal"></highlight></codeline>
-<codeline lineno="131" refid="MRPly_8h_1abc3d81d64e06d8befe9520a8c6ec573a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPly_8h_1abf80e9d0fcc3f2903bddf1072257b6d4" kindref="member">MR_TriCornerUVCoords</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPly_8h_1abc3d81d64e06d8befe9520a8c6ec573a" kindref="member">MR_PlyLoadParams_Get_triCornerUvCoords</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="132"><highlight class="normal"></highlight></codeline>
-<codeline lineno="138" refid="MRPly_8h_1a3680e63c5e6abe62fe04273ce798586b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a3680e63c5e6abe62fe04273ce798586b" kindref="member">MR_PlyLoadParams_Set_triCornerUvCoords</ref>(<ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this,<sp/><ref refid="MRPly_8h_1abf80e9d0fcc3f2903bddf1072257b6d4" kindref="member">MR_TriCornerUVCoords</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="139"><highlight class="normal"></highlight></codeline>
-<codeline lineno="144" refid="MRPly_8h_1a44fa1a46bec8a6e9aa7c09c54299f36a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPly_8h_1abf80e9d0fcc3f2903bddf1072257b6d4" kindref="member">MR_TriCornerUVCoords</ref><sp/>**<ref refid="MRPly_8h_1a44fa1a46bec8a6e9aa7c09c54299f36a" kindref="member">MR_PlyLoadParams_GetMutable_triCornerUvCoords</ref>(<ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="145"><highlight class="normal"></highlight></codeline>
-<codeline lineno="150" refid="MRPly_8h_1aed5240abe7193ba441f5fc6396fdeba9" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPly_8h_1aed5240abe7193ba441f5fc6396fdeba9" kindref="member">MR_PlyLoadParams_Get_normals</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="151"><highlight class="normal"></highlight></codeline>
-<codeline lineno="157" refid="MRPly_8h_1a27bc9b5e4ffe235a806642b4733633e6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a27bc9b5e4ffe235a806642b4733633e6" kindref="member">MR_PlyLoadParams_Set_normals</ref>(<ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this,<sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="158"><highlight class="normal"></highlight></codeline>
-<codeline lineno="163" refid="MRPly_8h_1a2ce931feaed8c1783157a90c9156243d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>**<ref refid="MRPly_8h_1a2ce931feaed8c1783157a90c9156243d" kindref="member">MR_PlyLoadParams_GetMutable_normals</ref>(<ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="107" refid="MRPly_8h_1a62d62b8c5980a990281072e874ccc2bd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a62d62b8c5980a990281072e874ccc2bd" kindref="member">MR_PlyLoadParams_Set_faceColors</ref>(<ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this,<sp/><ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114" refid="MRPly_8h_1a856447b147b6d47ad5fed4a5692f9bca" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref><sp/>**<ref refid="MRPly_8h_1a856447b147b6d47ad5fed4a5692f9bca" kindref="member">MR_PlyLoadParams_GetMutable_faceColors</ref>(<ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121" refid="MRPly_8h_1af65c9a054a78329f3176e0f6a42ba48a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPly_8h_1af65c9a054a78329f3176e0f6a42ba48a" kindref="member">MR_PlyLoadParams_Get_uvCoords</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128" refid="MRPly_8h_1a86ef6c307a5bd622105204e74734cdd7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a86ef6c307a5bd622105204e74734cdd7" kindref="member">MR_PlyLoadParams_Set_uvCoords</ref>(<ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this,<sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135" refid="MRPly_8h_1a0511c27da8c694baefa2cceb8cde0121" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/>**<ref refid="MRPly_8h_1a0511c27da8c694baefa2cceb8cde0121" kindref="member">MR_PlyLoadParams_GetMutable_uvCoords</ref>(<ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142" refid="MRPly_8h_1abc3d81d64e06d8befe9520a8c6ec573a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPly_8h_1abf80e9d0fcc3f2903bddf1072257b6d4" kindref="member">MR_TriCornerUVCoords</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPly_8h_1abc3d81d64e06d8befe9520a8c6ec573a" kindref="member">MR_PlyLoadParams_Get_triCornerUvCoords</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149" refid="MRPly_8h_1a3680e63c5e6abe62fe04273ce798586b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a3680e63c5e6abe62fe04273ce798586b" kindref="member">MR_PlyLoadParams_Set_triCornerUvCoords</ref>(<ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this,<sp/><ref refid="MRPly_8h_1abf80e9d0fcc3f2903bddf1072257b6d4" kindref="member">MR_TriCornerUVCoords</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156" refid="MRPly_8h_1a44fa1a46bec8a6e9aa7c09c54299f36a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPly_8h_1abf80e9d0fcc3f2903bddf1072257b6d4" kindref="member">MR_TriCornerUVCoords</ref><sp/>**<ref refid="MRPly_8h_1a44fa1a46bec8a6e9aa7c09c54299f36a" kindref="member">MR_PlyLoadParams_GetMutable_triCornerUvCoords</ref>(<ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163" refid="MRPly_8h_1aed5240abe7193ba441f5fc6396fdeba9" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPly_8h_1aed5240abe7193ba441f5fc6396fdeba9" kindref="member">MR_PlyLoadParams_Get_normals</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="164"><highlight class="normal"></highlight></codeline>
-<codeline lineno="169" refid="MRPly_8h_1a24bbbf4fa391b65aeec4666d513297fa" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPly_8h_1a24bbbf4fa391b65aeec4666d513297fa" kindref="member">MR_PlyLoadParams_Get_texture</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="170"><highlight class="normal"></highlight></codeline>
-<codeline lineno="176" refid="MRPly_8h_1a4f30f94875f27dbfd613c18bc0bbce45" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a4f30f94875f27dbfd613c18bc0bbce45" kindref="member">MR_PlyLoadParams_Set_texture</ref>(<ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this,<sp/><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="177"><highlight class="normal"></highlight></codeline>
-<codeline lineno="182" refid="MRPly_8h_1ac8ce051c14c4953ff4afba23ea6f687b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/>**<ref refid="MRPly_8h_1ac8ce051c14c4953ff4afba23ea6f687b" kindref="member">MR_PlyLoadParams_GetMutable_texture</ref>(<ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="183"><highlight class="normal"></highlight></codeline>
-<codeline lineno="188" refid="MRPly_8h_1a3909a4e54d9c2fba66a8465344740980" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref><sp/>*<ref refid="MRPly_8h_1a3909a4e54d9c2fba66a8465344740980" kindref="member">MR_PlyLoadParams_Get_dir</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="189"><highlight class="normal"></highlight></codeline>
-<codeline lineno="196" refid="MRPly_8h_1a3f6534ec027c23e0115e56a51a407bf9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a3f6534ec027c23e0115e56a51a407bf9" kindref="member">MR_PlyLoadParams_Set_dir</ref>(<ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value_end);</highlight></codeline>
-<codeline lineno="197"><highlight class="normal"></highlight></codeline>
-<codeline lineno="202" refid="MRPly_8h_1a180089c7e3cce980f69e45f04c40307e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref><sp/>*<ref refid="MRPly_8h_1a180089c7e3cce980f69e45f04c40307e" kindref="member">MR_PlyLoadParams_GetMutable_dir</ref>(<ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="203"><highlight class="normal"></highlight></codeline>
-<codeline lineno="208" refid="MRPly_8h_1a7ac809f9fcb2a434c5dc5f994829f583" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRPly_8h_1a7ac809f9fcb2a434c5dc5f994829f583" kindref="member">MR_PlyLoadParams_Get_callback</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="209"><highlight class="normal"></highlight></codeline>
-<codeline lineno="215" refid="MRPly_8h_1a2c1052bf80643fc36eec7a74d88c5c4b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a2c1052bf80643fc36eec7a74d88c5c4b" kindref="member">MR_PlyLoadParams_Set_callback</ref>(<ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="216"><highlight class="normal"></highlight></codeline>
-<codeline lineno="221" refid="MRPly_8h_1a3f38ee97acfd6271328eb0292eb03e41" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRPly_8h_1a3f38ee97acfd6271328eb0292eb03e41" kindref="member">MR_PlyLoadParams_GetMutable_callback</ref>(<ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="222"><highlight class="normal"></highlight></codeline>
-<codeline lineno="227" refid="MRPly_8h_1aaef21a3e62b7a180592e86fd91f4dc9c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRPly_8h_1aaef21a3e62b7a180592e86fd91f4dc9c" kindref="member">MR_PlyLoadParams_Get_telemetrySignal</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="170" refid="MRPly_8h_1a27bc9b5e4ffe235a806642b4733633e6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a27bc9b5e4ffe235a806642b4733633e6" kindref="member">MR_PlyLoadParams_Set_normals</ref>(<ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this,<sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177" refid="MRPly_8h_1a2ce931feaed8c1783157a90c9156243d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>**<ref refid="MRPly_8h_1a2ce931feaed8c1783157a90c9156243d" kindref="member">MR_PlyLoadParams_GetMutable_normals</ref>(<ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184" refid="MRPly_8h_1a24bbbf4fa391b65aeec4666d513297fa" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPly_8h_1a24bbbf4fa391b65aeec4666d513297fa" kindref="member">MR_PlyLoadParams_Get_texture</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191" refid="MRPly_8h_1a4f30f94875f27dbfd613c18bc0bbce45" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a4f30f94875f27dbfd613c18bc0bbce45" kindref="member">MR_PlyLoadParams_Set_texture</ref>(<ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this,<sp/><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight></codeline>
+<codeline lineno="198" refid="MRPly_8h_1ac8ce051c14c4953ff4afba23ea6f687b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/>**<ref refid="MRPly_8h_1ac8ce051c14c4953ff4afba23ea6f687b" kindref="member">MR_PlyLoadParams_GetMutable_texture</ref>(<ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205" refid="MRPly_8h_1a3909a4e54d9c2fba66a8465344740980" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref><sp/>*<ref refid="MRPly_8h_1a3909a4e54d9c2fba66a8465344740980" kindref="member">MR_PlyLoadParams_Get_dir</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213" refid="MRPly_8h_1a3f6534ec027c23e0115e56a51a407bf9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a3f6534ec027c23e0115e56a51a407bf9" kindref="member">MR_PlyLoadParams_Set_dir</ref>(<ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value_end);</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220" refid="MRPly_8h_1a180089c7e3cce980f69e45f04c40307e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref><sp/>*<ref refid="MRPly_8h_1a180089c7e3cce980f69e45f04c40307e" kindref="member">MR_PlyLoadParams_GetMutable_dir</ref>(<ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="227" refid="MRPly_8h_1a7ac809f9fcb2a434c5dc5f994829f583" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRPly_8h_1a7ac809f9fcb2a434c5dc5f994829f583" kindref="member">MR_PlyLoadParams_Get_callback</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="228"><highlight class="normal"></highlight></codeline>
-<codeline lineno="233" refid="MRPly_8h_1adba4adf09235e6646ab41782ea94ecf1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1adba4adf09235e6646ab41782ea94ecf1" kindref="member">MR_PlyLoadParams_Set_telemetrySignal</ref>(<ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="234"><highlight class="normal"></highlight></codeline>
-<codeline lineno="239" refid="MRPly_8h_1af1797ea8d25789dc7f651048627713f7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRPly_8h_1af1797ea8d25789dc7f651048627713f7" kindref="member">MR_PlyLoadParams_GetMutable_telemetrySignal</ref>(<ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="240"><highlight class="normal"></highlight></codeline>
-<codeline lineno="243" refid="MRPly_8h_1a1da464de0327c6f7de84f36ef69bbe38" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*<ref refid="MRPly_8h_1a1da464de0327c6f7de84f36ef69bbe38" kindref="member">MR_PlyLoadParams_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="244"><highlight class="normal"></highlight></codeline>
-<codeline lineno="248" refid="MRPly_8h_1aa7f30a9836ce47486e9f66bc883618e0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*<ref refid="MRPly_8h_1aa7f30a9836ce47486e9f66bc883618e0" kindref="member">MR_PlyLoadParams_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="234" refid="MRPly_8h_1a2c1052bf80643fc36eec7a74d88c5c4b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a2c1052bf80643fc36eec7a74d88c5c4b" kindref="member">MR_PlyLoadParams_Set_callback</ref>(<ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241" refid="MRPly_8h_1a3f38ee97acfd6271328eb0292eb03e41" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRPly_8h_1a3f38ee97acfd6271328eb0292eb03e41" kindref="member">MR_PlyLoadParams_GetMutable_callback</ref>(<ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248" refid="MRPly_8h_1aaef21a3e62b7a180592e86fd91f4dc9c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRPly_8h_1aaef21a3e62b7a180592e86fd91f4dc9c" kindref="member">MR_PlyLoadParams_Get_telemetrySignal</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="249"><highlight class="normal"></highlight></codeline>
-<codeline lineno="264" refid="MRPly_8h_1a555dcf9a192575c9063028046a9f5ffb" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*<ref refid="MRPly_8h_1a555dcf9a192575c9063028046a9f5ffb" kindref="member">MR_PlyLoadParams_ConstructFrom</ref>(<ref refid="MRPly_8h_1aa870bea258c3c0ee572af5757ab79e2d" kindref="member">MR_std_optional_MR_Triangulation</ref><sp/>*tris,<sp/><ref refid="MRMeshLoadSettings_8h_1a13a39913eea8101afdb2e6ed71bedc67" kindref="member">MR_std_optional_MR_Edges</ref><sp/>*edges,<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*colors,<sp/><ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref><sp/>*faceColors,<sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/>*uvCoords,<sp/><ref refid="MRPly_8h_1abf80e9d0fcc3f2903bddf1072257b6d4" kindref="member">MR_TriCornerUVCoords</ref><sp/>*triCornerUvCoords,<sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*normals,<sp/><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/>*texture,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*dir_end,<sp/>MR_PassBy<sp/>callback_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*callback,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>telemetrySignal);</highlight></codeline>
-<codeline lineno="265"><highlight class="normal"></highlight></codeline>
-<codeline lineno="268" refid="MRPly_8h_1a38f9d7cc85bda33877b1871a4a378857" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*<ref refid="MRPly_8h_1a38f9d7cc85bda33877b1871a4a378857" kindref="member">MR_PlyLoadParams_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="269"><highlight class="normal"></highlight></codeline>
-<codeline lineno="272" refid="MRPly_8h_1a420466bdf519d80a1d6f27d6c3cc4f48" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*<ref refid="MRPly_8h_1a420466bdf519d80a1d6f27d6c3cc4f48" kindref="member">MR_PlyLoadParams_OffsetMutablePtr</ref>(<ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="273"><highlight class="normal"></highlight></codeline>
-<codeline lineno="277" refid="MRPly_8h_1afbb847ee947f8bba89f05c66f71218ba" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*<ref refid="MRPly_8h_1afbb847ee947f8bba89f05c66f71218ba" kindref="member">MR_PlyLoadParams_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="278"><highlight class="normal"></highlight></codeline>
-<codeline lineno="280" refid="MRPly_8h_1a40b6cda8c04eb837b43ef4a87e75de56" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a40b6cda8c04eb837b43ef4a87e75de56" kindref="member">MR_PlyLoadParams_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="281"><highlight class="normal"></highlight></codeline>
-<codeline lineno="283" refid="MRPly_8h_1aabb71704e359508a37e4a872e4104ee3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1aabb71704e359508a37e4a872e4104ee3" kindref="member">MR_PlyLoadParams_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="284"><highlight class="normal"></highlight></codeline>
-<codeline lineno="290" refid="MRPly_8h_1a4e7bbb09741029f2ee2c0487aec86e0a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*<ref refid="MRPly_8h_1a4e7bbb09741029f2ee2c0487aec86e0a" kindref="member">MR_PlyLoadParams_AssignFromAnother</ref>(<ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="254" refid="MRPly_8h_1adba4adf09235e6646ab41782ea94ecf1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1adba4adf09235e6646ab41782ea94ecf1" kindref="member">MR_PlyLoadParams_Set_telemetrySignal</ref>(<ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="261" refid="MRPly_8h_1af1797ea8d25789dc7f651048627713f7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRPly_8h_1af1797ea8d25789dc7f651048627713f7" kindref="member">MR_PlyLoadParams_GetMutable_telemetrySignal</ref>(<ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"></highlight></codeline>
+<codeline lineno="265" refid="MRPly_8h_1a1da464de0327c6f7de84f36ef69bbe38" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*<ref refid="MRPly_8h_1a1da464de0327c6f7de84f36ef69bbe38" kindref="member">MR_PlyLoadParams_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"></highlight></codeline>
+<codeline lineno="270" refid="MRPly_8h_1aa7f30a9836ce47486e9f66bc883618e0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*<ref refid="MRPly_8h_1aa7f30a9836ce47486e9f66bc883618e0" kindref="member">MR_PlyLoadParams_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"></highlight></codeline>
+<codeline lineno="286" refid="MRPly_8h_1a555dcf9a192575c9063028046a9f5ffb" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*<ref refid="MRPly_8h_1a555dcf9a192575c9063028046a9f5ffb" kindref="member">MR_PlyLoadParams_ConstructFrom</ref>(<ref refid="MRPly_8h_1aa870bea258c3c0ee572af5757ab79e2d" kindref="member">MR_std_optional_MR_Triangulation</ref><sp/>*tris,<sp/><ref refid="MRMeshLoadSettings_8h_1a13a39913eea8101afdb2e6ed71bedc67" kindref="member">MR_std_optional_MR_Edges</ref><sp/>*edges,<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*colors,<sp/><ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref><sp/>*faceColors,<sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/>*uvCoords,<sp/><ref refid="MRPly_8h_1abf80e9d0fcc3f2903bddf1072257b6d4" kindref="member">MR_TriCornerUVCoords</ref><sp/>*triCornerUvCoords,<sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*normals,<sp/><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/>*texture,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*dir_end,<sp/>MR_PassBy<sp/>callback_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*callback,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>telemetrySignal);</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"></highlight></codeline>
+<codeline lineno="290" refid="MRPly_8h_1a38f9d7cc85bda33877b1871a4a378857" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*<ref refid="MRPly_8h_1a38f9d7cc85bda33877b1871a4a378857" kindref="member">MR_PlyLoadParams_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="291"><highlight class="normal"></highlight></codeline>
-<codeline lineno="296" refid="MRPly_8h_1a777a590aa5f4a710289521723803cec1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPly_8h_1a01fbdc6d61c17f3f493a586e37bbde94" kindref="member">MR_expected_MR_VertCoords_std_string</ref><sp/>*<ref refid="MRPly_8h_1a777a590aa5f4a710289521723803cec1" kindref="member">MR_loadPly_std_istream_ref_MR_PlyLoadParams</ref>(<ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/>*in,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*params);</highlight></codeline>
-<codeline lineno="297"><highlight class="normal"></highlight></codeline>
-<codeline lineno="298"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="299"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="300"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="294" refid="MRPly_8h_1a420466bdf519d80a1d6f27d6c3cc4f48" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*<ref refid="MRPly_8h_1a420466bdf519d80a1d6f27d6c3cc4f48" kindref="member">MR_PlyLoadParams_OffsetMutablePtr</ref>(<ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"></highlight></codeline>
+<codeline lineno="299" refid="MRPly_8h_1afbb847ee947f8bba89f05c66f71218ba" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*<ref refid="MRPly_8h_1afbb847ee947f8bba89f05c66f71218ba" kindref="member">MR_PlyLoadParams_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"></highlight></codeline>
+<codeline lineno="302" refid="MRPly_8h_1a40b6cda8c04eb837b43ef4a87e75de56" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a40b6cda8c04eb837b43ef4a87e75de56" kindref="member">MR_PlyLoadParams_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"></highlight></codeline>
+<codeline lineno="305" refid="MRPly_8h_1aabb71704e359508a37e4a872e4104ee3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1aabb71704e359508a37e4a872e4104ee3" kindref="member">MR_PlyLoadParams_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"></highlight></codeline>
+<codeline lineno="312" refid="MRPly_8h_1a4e7bbb09741029f2ee2c0487aec86e0a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*<ref refid="MRPly_8h_1a4e7bbb09741029f2ee2c0487aec86e0a" kindref="member">MR_PlyLoadParams_AssignFromAnother</ref>(<ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"></highlight></codeline>
+<codeline lineno="318" refid="MRPly_8h_1a777a590aa5f4a710289521723803cec1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPly_8h_1a01fbdc6d61c17f3f493a586e37bbde94" kindref="member">MR_expected_MR_VertCoords_std_string</ref><sp/>*<ref refid="MRPly_8h_1a777a590aa5f4a710289521723803cec1" kindref="member">MR_loadPly_std_istream_ref_MR_PlyLoadParams</ref>(<ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/>*in,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a89173f5688a52125c060d3ed007a31d6" kindref="member">MR_PlyLoadParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"></highlight></codeline>
+<codeline lineno="320"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="321"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="322"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPly.h"/>
   </compounddef>

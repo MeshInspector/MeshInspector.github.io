@@ -523,7 +523,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximal surface deviation to introduce new rank 2 vertex (on intersection of 2 planes); recommended set equal to ( 5 * voxel size ) Returns a pointer to a member variable of class <code>MR::SharpenMarchingCubesMeshSettings</code> named <code>maxNewRank2VertDev</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>maximal surface deviation to introduce new rank 2 vertex (on intersection of 2 planes); recommended set equal to ( 5 * voxel size ) Returns a pointer to a member variable of class <code>MR::SharpenMarchingCubesMeshSettings</code> named <code>maxNewRank2VertDev</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -541,7 +541,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximal surface deviation to introduce new rank 3 vertex (on intersection of 3 planes); recommended set equal to ( 2 * voxel size ) Returns a pointer to a member variable of class <code>MR::SharpenMarchingCubesMeshSettings</code> named <code>maxNewRank3VertDev</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>maximal surface deviation to introduce new rank 3 vertex (on intersection of 3 planes); recommended set equal to ( 2 * voxel size ) Returns a pointer to a member variable of class <code>MR::SharpenMarchingCubesMeshSettings</code> named <code>maxNewRank3VertDev</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -559,7 +559,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>correct positions of the input vertices using reference mesh by not more than this distance; big correction can be wrong and result from self-intersections in the reference mesh recommended set equal to ( voxel size / 2 ) Returns a pointer to a member variable of class <code>MR::SharpenMarchingCubesMeshSettings</code> named <code>maxOldVertPosCorrection</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>correct positions of the input vertices using reference mesh by not more than this distance; big correction can be wrong and result from self-intersections in the reference mesh recommended set equal to ( voxel size / 2 ) Returns a pointer to a member variable of class <code>MR::SharpenMarchingCubesMeshSettings</code> named <code>maxOldVertPosCorrection</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -577,7 +577,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>minimal surface deviation to introduce new vertex in a voxel; recommended set equal to ( voxel size / 25 ) Returns a pointer to a member variable of class <code>MR::SharpenMarchingCubesMeshSettings</code> named <code>minNewVertDev</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>minimal surface deviation to introduce new vertex in a voxel; recommended set equal to ( voxel size / 25 ) Returns a pointer to a member variable of class <code>MR::SharpenMarchingCubesMeshSettings</code> named <code>minNewVertDev</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -595,7 +595,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>relative to reference mesh Returns a pointer to a member variable of class <code>MR::SharpenMarchingCubesMeshSettings</code> named <code>offset</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>relative to reference mesh Returns a pointer to a member variable of class <code>MR::SharpenMarchingCubesMeshSettings</code> named <code>offset</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -613,7 +613,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if non-null then created sharp edges will be saved here Returns a pointer to a member variable of class <code>MR::SharpenMarchingCubesMeshSettings</code> named <code>outSharpEdges</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if non-null then created sharp edges will be saved here Returns a pointer to a member variable of class <code>MR::SharpenMarchingCubesMeshSettings</code> named <code>outSharpEdges</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -631,7 +631,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the number of iterations to best select positions for new vertices, the probability of self-intersections and spikes are higher if posSelIters = 0 Returns a pointer to a member variable of class <code>MR::SharpenMarchingCubesMeshSettings</code> named <code>posSelIters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the number of iterations to best select positions for new vertices, the probability of self-intersections and spikes are higher if posSelIters = 0 Returns a pointer to a member variable of class <code>MR::SharpenMarchingCubesMeshSettings</code> named <code>posSelIters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -649,7 +649,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximal surface deviation to introduce new rank 2 vertex (on intersection of 2 planes); recommended set equal to ( 5 * voxel size ) Returns a mutable pointer to a member variable of class <code>MR::SharpenMarchingCubesMeshSettings</code> named <code>maxNewRank2VertDev</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>maximal surface deviation to introduce new rank 2 vertex (on intersection of 2 planes); recommended set equal to ( 5 * voxel size ) Returns a mutable pointer to a member variable of class <code>MR::SharpenMarchingCubesMeshSettings</code> named <code>maxNewRank2VertDev</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -667,7 +667,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximal surface deviation to introduce new rank 3 vertex (on intersection of 3 planes); recommended set equal to ( 2 * voxel size ) Returns a mutable pointer to a member variable of class <code>MR::SharpenMarchingCubesMeshSettings</code> named <code>maxNewRank3VertDev</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>maximal surface deviation to introduce new rank 3 vertex (on intersection of 3 planes); recommended set equal to ( 2 * voxel size ) Returns a mutable pointer to a member variable of class <code>MR::SharpenMarchingCubesMeshSettings</code> named <code>maxNewRank3VertDev</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -685,7 +685,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>correct positions of the input vertices using reference mesh by not more than this distance; big correction can be wrong and result from self-intersections in the reference mesh recommended set equal to ( voxel size / 2 ) Returns a mutable pointer to a member variable of class <code>MR::SharpenMarchingCubesMeshSettings</code> named <code>maxOldVertPosCorrection</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>correct positions of the input vertices using reference mesh by not more than this distance; big correction can be wrong and result from self-intersections in the reference mesh recommended set equal to ( voxel size / 2 ) Returns a mutable pointer to a member variable of class <code>MR::SharpenMarchingCubesMeshSettings</code> named <code>maxOldVertPosCorrection</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -703,7 +703,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>minimal surface deviation to introduce new vertex in a voxel; recommended set equal to ( voxel size / 25 ) Returns a mutable pointer to a member variable of class <code>MR::SharpenMarchingCubesMeshSettings</code> named <code>minNewVertDev</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>minimal surface deviation to introduce new vertex in a voxel; recommended set equal to ( voxel size / 25 ) Returns a mutable pointer to a member variable of class <code>MR::SharpenMarchingCubesMeshSettings</code> named <code>minNewVertDev</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -721,7 +721,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>relative to reference mesh Returns a mutable pointer to a member variable of class <code>MR::SharpenMarchingCubesMeshSettings</code> named <code>offset</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>relative to reference mesh Returns a mutable pointer to a member variable of class <code>MR::SharpenMarchingCubesMeshSettings</code> named <code>offset</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -739,7 +739,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if non-null then created sharp edges will be saved here Returns a mutable pointer to a member variable of class <code>MR::SharpenMarchingCubesMeshSettings</code> named <code>outSharpEdges</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if non-null then created sharp edges will be saved here Returns a mutable pointer to a member variable of class <code>MR::SharpenMarchingCubesMeshSettings</code> named <code>outSharpEdges</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -757,7 +757,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the number of iterations to best select positions for new vertices, the probability of self-intersections and spikes are higher if posSelIters = 0 Returns a mutable pointer to a member variable of class <code>MR::SharpenMarchingCubesMeshSettings</code> named <code>posSelIters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the number of iterations to best select positions for new vertices, the probability of self-intersections and spikes are higher if posSelIters = 0 Returns a mutable pointer to a member variable of class <code>MR::SharpenMarchingCubesMeshSettings</code> named <code>posSelIters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>

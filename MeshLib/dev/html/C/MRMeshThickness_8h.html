@@ -522,7 +522,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the distance from each vertex along minus normal to the nearest mesh intersection (or FLT_MAX if no intersection found) Generated from function <code>MR::computeRayThicknessAtVertices</code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>progress</code> is a single object. Parameter <code>progress</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_optional_MR_VertScalars_Destroy()</code> to free it when you're done using it. relative position on mesh Returns a pointer to a member variable of class <code>MR::MeshPoint</code> named <code>triPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>returns the distance from each vertex along minus normal to the nearest mesh intersection (or FLT_MAX if no intersection found) Generated from function <code>MR::computeRayThicknessAtVertices</code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>progress</code> is a single object. Parameter <code>progress</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_optional_MR_VertScalars_Destroy()</code> to free it when you're done using it. relative position on mesh Returns a pointer to a member variable of class <code>MR::MeshPoint</code> named <code>triPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -735,7 +735,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::InSphere</code> named <code>center</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::InSphere</code> named <code>center</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -771,7 +771,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::InSphere</code> named <code>radius</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::InSphere</code> named <code>radius</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -789,7 +789,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::InSphere</code> named <code>center</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::InSphere</code> named <code>center</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -824,7 +824,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::InSphere</code> named <code>radius</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. excluding input point and incident triangles, distSq - squared distance to sphere's center Returns a pointer to a member variable of class <code>MR::InSphere</code> named <code>oppositeTouchPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::InSphere</code> named <code>radius</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. excluding input point and incident triangles, distSq - squared distance to sphere's center Returns a pointer to a member variable of class <code>MR::InSphere</code> named <code>oppositeTouchPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -912,7 +912,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>excluding input point and incident triangles, distSq - squared distance to sphere's center Returns a mutable pointer to a member variable of class <code>MR::InSphere</code> named <code>oppositeTouchPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>excluding input point and incident triangles, distSq - squared distance to sphere's center Returns a mutable pointer to a member variable of class <code>MR::InSphere</code> named <code>oppositeTouchPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1103,7 +1103,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if false then searches for the maximal inscribed sphere in mesh; if true then searches for both a) maximal inscribed sphere, and b) maximal sphere outside the mesh touching it at two points; and returns the smaller of two, and if it is b) then with minus sign Returns a pointer to a member variable of class <code>MR::InSphereSearchSettings</code> named <code>insideAndOutside</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if false then searches for the maximal inscribed sphere in mesh; if true then searches for both a) maximal inscribed sphere, and b) maximal sphere outside the mesh touching it at two points; and returns the smaller of two, and if it is b) then with minus sign Returns a pointer to a member variable of class <code>MR::InSphereSearchSettings</code> named <code>insideAndOutside</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1121,7 +1121,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximum number of shrinking iterations for one triangle Returns a pointer to a member variable of class <code>MR::InSphereSearchSettings</code> named <code>maxIters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>maximum number of shrinking iterations for one triangle Returns a pointer to a member variable of class <code>MR::InSphereSearchSettings</code> named <code>maxIters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1139,7 +1139,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximum allowed radius of the sphere; for almost closed meshes the article recommends maxRadius = 0.5f * std::min( { boxSize.x, boxSize.y, boxSize.z } ) Returns a pointer to a member variable of class <code>MR::InSphereSearchSettings</code> named <code>maxRadius</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>maximum allowed radius of the sphere; for almost closed meshes the article recommends maxRadius = 0.5f * std::min( { boxSize.x, boxSize.y, boxSize.z } ) Returns a pointer to a member variable of class <code>MR::InSphereSearchSettings</code> named <code>maxRadius</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1157,7 +1157,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>minimum cosine of the angle between two unit directions: 1) search unit direction (m.inDir), 2) unit direction from sphere's center to the other found touch point; -1 value means no filtering by this angle; the increase of this value helps avoiding too small spheres on noisy surfaces Returns a pointer to a member variable of class <code>MR::InSphereSearchSettings</code> named <code>minAngleCos</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>minimum cosine of the angle between two unit directions: 1) search unit direction (m.inDir), 2) unit direction from sphere's center to the other found touch point; -1 value means no filtering by this angle; the increase of this value helps avoiding too small spheres on noisy surfaces Returns a pointer to a member variable of class <code>MR::InSphereSearchSettings</code> named <code>minAngleCos</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1175,7 +1175,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>iterations stop if next radius is larger than minShrinkage times previous radius Returns a pointer to a member variable of class <code>MR::InSphereSearchSettings</code> named <code>minShrinkage</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>iterations stop if next radius is larger than minShrinkage times previous radius Returns a pointer to a member variable of class <code>MR::InSphereSearchSettings</code> named <code>minShrinkage</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1193,7 +1193,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if false then searches for the maximal inscribed sphere in mesh; if true then searches for both a) maximal inscribed sphere, and b) maximal sphere outside the mesh touching it at two points; and returns the smaller of two, and if it is b) then with minus sign Returns a mutable pointer to a member variable of class <code>MR::InSphereSearchSettings</code> named <code>insideAndOutside</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if false then searches for the maximal inscribed sphere in mesh; if true then searches for both a) maximal inscribed sphere, and b) maximal sphere outside the mesh touching it at two points; and returns the smaller of two, and if it is b) then with minus sign Returns a mutable pointer to a member variable of class <code>MR::InSphereSearchSettings</code> named <code>insideAndOutside</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1211,7 +1211,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximum number of shrinking iterations for one triangle Returns a mutable pointer to a member variable of class <code>MR::InSphereSearchSettings</code> named <code>maxIters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>maximum number of shrinking iterations for one triangle Returns a mutable pointer to a member variable of class <code>MR::InSphereSearchSettings</code> named <code>maxIters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1229,7 +1229,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximum allowed radius of the sphere; for almost closed meshes the article recommends maxRadius = 0.5f * std::min( { boxSize.x, boxSize.y, boxSize.z } ) Returns a mutable pointer to a member variable of class <code>MR::InSphereSearchSettings</code> named <code>maxRadius</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>maximum allowed radius of the sphere; for almost closed meshes the article recommends maxRadius = 0.5f * std::min( { boxSize.x, boxSize.y, boxSize.z } ) Returns a mutable pointer to a member variable of class <code>MR::InSphereSearchSettings</code> named <code>maxRadius</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1247,7 +1247,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>minimum cosine of the angle between two unit directions: 1) search unit direction (m.inDir), 2) unit direction from sphere's center to the other found touch point; -1 value means no filtering by this angle; the increase of this value helps avoiding too small spheres on noisy surfaces Returns a mutable pointer to a member variable of class <code>MR::InSphereSearchSettings</code> named <code>minAngleCos</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>minimum cosine of the angle between two unit directions: 1) search unit direction (m.inDir), 2) unit direction from sphere's center to the other found touch point; -1 value means no filtering by this angle; the increase of this value helps avoiding too small spheres on noisy surfaces Returns a mutable pointer to a member variable of class <code>MR::InSphereSearchSettings</code> named <code>minAngleCos</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1265,7 +1265,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>iterations stop if next radius is larger than minShrinkage times previous radius Returns a mutable pointer to a member variable of class <code>MR::InSphereSearchSettings</code> named <code>minShrinkage</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>iterations stop if next radius is larger than minShrinkage times previous radius Returns a mutable pointer to a member variable of class <code>MR::InSphereSearchSettings</code> named <code>minShrinkage</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1669,7 +1669,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>predicate that returns true for mesh faces not-incident to the point Returns a pointer to a member variable of class <code>MR::MeshPoint</code> named <code>notIncidentFaces</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>predicate that returns true for mesh faces not-incident to the point Returns a pointer to a member variable of class <code>MR::MeshPoint</code> named <code>notIncidentFaces</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1704,7 +1704,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>unit direction inside the mesh = minus normal Returns a pointer to a member variable of class <code>MR::MeshPoint</code> named <code>inDir</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>unit direction inside the mesh = minus normal Returns a pointer to a member variable of class <code>MR::MeshPoint</code> named <code>inDir</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1722,7 +1722,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>3d coordinates Returns a pointer to a member variable of class <code>MR::MeshPoint</code> named <code>pt</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>3d coordinates Returns a pointer to a member variable of class <code>MR::MeshPoint</code> named <code>pt</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1815,7 +1815,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>unit direction inside the mesh = minus normal Returns a mutable pointer to a member variable of class <code>MR::MeshPoint</code> named <code>inDir</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>unit direction inside the mesh = minus normal Returns a mutable pointer to a member variable of class <code>MR::MeshPoint</code> named <code>inDir</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1842,7 +1842,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>predicate that returns true for mesh faces not-incident to the point Returns a mutable pointer to a member variable of class <code>MR::MeshPoint</code> named <code>notIncidentFaces</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>predicate that returns true for mesh faces not-incident to the point Returns a mutable pointer to a member variable of class <code>MR::MeshPoint</code> named <code>notIncidentFaces</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1864,7 +1864,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>3d coordinates Returns a mutable pointer to a member variable of class <code>MR::MeshPoint</code> named <code>pt</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>3d coordinates Returns a mutable pointer to a member variable of class <code>MR::MeshPoint</code> named <code>pt</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1886,7 +1886,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>relative position on mesh Returns a mutable pointer to a member variable of class <code>MR::MeshPoint</code> named <code>triPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>relative position on mesh Returns a mutable pointer to a member variable of class <code>MR::MeshPoint</code> named <code>triPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>

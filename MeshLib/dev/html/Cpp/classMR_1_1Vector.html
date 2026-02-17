@@ -212,10 +212,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a291f08448069b69e4286d064907e6fdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74f2d276465f6183ec4068d124cbb596" id="r_a74f2d276465f6183ec4068d124cbb596"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74f2d276465f6183ec4068d124cbb596">reserve</a> (size_t <a class="el" href="#a291f08448069b69e4286d064907e6fdd">capacity</a>)</td></tr>
 <tr class="separator:a74f2d276465f6183ec4068d124cbb596"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b3429bd5756af47e08186ebef6acd7e" id="r_a8b3429bd5756af47e08186ebef6acd7e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#aaa0ee5d98cd26c7e6232195bcda2b459">const_reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b3429bd5756af47e08186ebef6acd7e">operator[]</a> (<a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> i) const</td></tr>
-<tr class="separator:a8b3429bd5756af47e08186ebef6acd7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a03ee463d5f6122ac940a592ac9ec88" id="r_a3a03ee463d5f6122ac940a592ac9ec88"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a3e5aedaea3719bcb3fd6e41e9c9225ff">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a03ee463d5f6122ac940a592ac9ec88">operator[]</a> (<a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> i)</td></tr>
-<tr class="separator:a3a03ee463d5f6122ac940a592ac9ec88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a349375d06b5b75e3b26f9587fe0584f5" id="r_a349375d06b5b75e3b26f9587fe0584f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#aaa0ee5d98cd26c7e6232195bcda2b459">const_reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a349375d06b5b75e3b26f9587fe0584f5">operator[]</a> (<a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> i) const <a class="el" href="MRMacros_8h.html#a5a14b15e367904df16d7473d4e5a33ea">MR_LIFETIMEBOUND</a></td></tr>
+<tr class="separator:a349375d06b5b75e3b26f9587fe0584f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bae4e482e7ead78efad9465a5ac085d" id="r_a6bae4e482e7ead78efad9465a5ac085d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a3e5aedaea3719bcb3fd6e41e9c9225ff">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6bae4e482e7ead78efad9465a5ac085d">operator[]</a> (<a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> i) <a class="el" href="MRMacros_8h.html#a5a14b15e367904df16d7473d4e5a33ea">MR_LIFETIMEBOUND</a></td></tr>
+<tr class="separator:a6bae4e482e7ead78efad9465a5ac085d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a291ed0f8042c268b0aa65b87497daca1" id="r_a291ed0f8042c268b0aa65b87497daca1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a291ed0f8042c268b0aa65b87497daca1">resizeWithReserve</a> (size_t newSize) <a class="el" href="#a0d377a848db9d73675bc1849a0810eac">MR_REQUIRES_IF_SUPPORTED</a>(sizeof(T)&gt;0 &amp;&amp;std</td></tr>
 <tr class="memdesc:a291ed0f8042c268b0aa65b87497daca1"><td class="mdescLeft">&#160;</td><td class="mdescRight">doubles reserved memory until resize(newSize) can be done without reallocation  <br /></td></tr>
 <tr class="separator:a291ed0f8042c268b0aa65b87497daca1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -230,36 +230,36 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a34cbfbd253ebde3284a83172a4443540" id="r_a34cbfbd253ebde3284a83172a4443540"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a3e5aedaea3719bcb3fd6e41e9c9225ff">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34cbfbd253ebde3284a83172a4443540">autoResizeAt</a> (<a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> i) <a class="el" href="#a0d377a848db9d73675bc1849a0810eac">MR_REQUIRES_IF_SUPPORTED</a>(sizeof(T)&gt;0 &amp;&amp;std</td></tr>
 <tr class="memdesc:a34cbfbd253ebde3284a83172a4443540"><td class="mdescLeft">&#160;</td><td class="mdescRight">this accessor automatically adjusts the size of the vector  <br /></td></tr>
 <tr class="separator:a34cbfbd253ebde3284a83172a4443540"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a78fa1b6365aa64b3aec65883530dc735" id="r_a78fa1b6365aa64b3aec65883530dc735"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78fa1b6365aa64b3aec65883530dc735">push_back</a> (const T &amp;t)</td></tr>
-<tr class="separator:a78fa1b6365aa64b3aec65883530dc735"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc885715482436dc55e4e61a60ef05dc" id="r_afc885715482436dc55e4e61a60ef05dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc885715482436dc55e4e61a60ef05dc">push_back</a> (T &amp;&amp;t)</td></tr>
-<tr class="separator:afc885715482436dc55e4e61a60ef05dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ea16d2aeaa1f2e2d683aade3c67794c" id="r_a5ea16d2aeaa1f2e2d683aade3c67794c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ea16d2aeaa1f2e2d683aade3c67794c">push_back</a> (const T &amp;t <a class="el" href="MRMacros_8h.html#abac943cb4e78c29b3a46edd18cffe800">MR_LIFETIME_CAPTURE_BY_NESTED</a>(this))</td></tr>
+<tr class="separator:a5ea16d2aeaa1f2e2d683aade3c67794c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05637c5798b92bebed2ff7a28c610317" id="r_a05637c5798b92bebed2ff7a28c610317"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05637c5798b92bebed2ff7a28c610317">push_back</a> (T &amp;&amp;t <a class="el" href="MRMacros_8h.html#abac943cb4e78c29b3a46edd18cffe800">MR_LIFETIME_CAPTURE_BY_NESTED</a>(this))</td></tr>
+<tr class="separator:a05637c5798b92bebed2ff7a28c610317"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06fae7c424bf43fc3c4cbbf624496400" id="r_a06fae7c424bf43fc3c4cbbf624496400"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06fae7c424bf43fc3c4cbbf624496400">pop_back</a> ()</td></tr>
 <tr class="separator:a06fae7c424bf43fc3c4cbbf624496400"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d377a848db9d73675bc1849a0810eac" id="r_a0d377a848db9d73675bc1849a0810eac"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
 <tr class="memitem:a0d377a848db9d73675bc1849a0810eac"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a0d377a848db9d73675bc1849a0810eac">MR_REQUIRES_IF_SUPPORTED</a> (sizeof(T)&gt;0 &amp;&amp;std::constructible_from&lt; T, Args &amp;&amp;... &gt;) T &amp;emplace_back(Args &amp;&amp;... args)</td></tr>
 <tr class="separator:a0d377a848db9d73675bc1849a0810eac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6959f781909eba002ffffbc6fe37c1f" id="r_af6959f781909eba002ffffbc6fe37c1f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#aaa0ee5d98cd26c7e6232195bcda2b459">const_reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6959f781909eba002ffffbc6fe37c1f">front</a> () const</td></tr>
-<tr class="separator:af6959f781909eba002ffffbc6fe37c1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19509cb3f6dbf95c9f90c51a0b1c5a3c" id="r_a19509cb3f6dbf95c9f90c51a0b1c5a3c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a3e5aedaea3719bcb3fd6e41e9c9225ff">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19509cb3f6dbf95c9f90c51a0b1c5a3c">front</a> ()</td></tr>
-<tr class="separator:a19509cb3f6dbf95c9f90c51a0b1c5a3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe49f6b723cf6b2b08dfe4d50ddd1c53" id="r_afe49f6b723cf6b2b08dfe4d50ddd1c53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#aaa0ee5d98cd26c7e6232195bcda2b459">const_reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe49f6b723cf6b2b08dfe4d50ddd1c53">back</a> () const</td></tr>
-<tr class="separator:afe49f6b723cf6b2b08dfe4d50ddd1c53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa4bcfcbca3642d15aa0cdec1055c4472" id="r_aa4bcfcbca3642d15aa0cdec1055c4472"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a3e5aedaea3719bcb3fd6e41e9c9225ff">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4bcfcbca3642d15aa0cdec1055c4472">back</a> ()</td></tr>
-<tr class="separator:aa4bcfcbca3642d15aa0cdec1055c4472"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45f2bc56cf356b515e4663756f9603d0" id="r_a45f2bc56cf356b515e4663756f9603d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#aaa0ee5d98cd26c7e6232195bcda2b459">const_reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45f2bc56cf356b515e4663756f9603d0">front</a> () const <a class="el" href="MRMacros_8h.html#a5a14b15e367904df16d7473d4e5a33ea">MR_LIFETIMEBOUND</a></td></tr>
+<tr class="separator:a45f2bc56cf356b515e4663756f9603d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94dc9dbf3a73cbe2587df726910c0c62" id="r_a94dc9dbf3a73cbe2587df726910c0c62"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a3e5aedaea3719bcb3fd6e41e9c9225ff">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94dc9dbf3a73cbe2587df726910c0c62">front</a> () <a class="el" href="MRMacros_8h.html#a5a14b15e367904df16d7473d4e5a33ea">MR_LIFETIMEBOUND</a></td></tr>
+<tr class="separator:a94dc9dbf3a73cbe2587df726910c0c62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46444b5dbe2a6683e69b0da7019a275a" id="r_a46444b5dbe2a6683e69b0da7019a275a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#aaa0ee5d98cd26c7e6232195bcda2b459">const_reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46444b5dbe2a6683e69b0da7019a275a">back</a> () const <a class="el" href="MRMacros_8h.html#a5a14b15e367904df16d7473d4e5a33ea">MR_LIFETIMEBOUND</a></td></tr>
+<tr class="separator:a46444b5dbe2a6683e69b0da7019a275a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00e105c75d03f3e463940689fbbc9971" id="r_a00e105c75d03f3e463940689fbbc9971"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a3e5aedaea3719bcb3fd6e41e9c9225ff">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00e105c75d03f3e463940689fbbc9971">back</a> () <a class="el" href="MRMacros_8h.html#a5a14b15e367904df16d7473d4e5a33ea">MR_LIFETIMEBOUND</a></td></tr>
+<tr class="separator:a00e105c75d03f3e463940689fbbc9971"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a77de89f2d4e174400377d487cb85aa88" id="r_a77de89f2d4e174400377d487cb85aa88"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77de89f2d4e174400377d487cb85aa88">beginId</a> () const</td></tr>
 <tr class="memdesc:a77de89f2d4e174400377d487cb85aa88"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the identifier of the first element  <br /></td></tr>
 <tr class="separator:a77de89f2d4e174400377d487cb85aa88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c55eb98bf2596f633ff35ce1f8fe00b" id="r_a8c55eb98bf2596f633ff35ce1f8fe00b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c55eb98bf2596f633ff35ce1f8fe00b">backId</a> () const</td></tr>
-<tr class="memdesc:a8c55eb98bf2596f633ff35ce1f8fe00b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the identifier of the <a class="el" href="#aa4bcfcbca3642d15aa0cdec1055c4472">back()</a> element  <br /></td></tr>
+<tr class="memdesc:a8c55eb98bf2596f633ff35ce1f8fe00b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the identifier of the <a class="el" href="#a00e105c75d03f3e463940689fbbc9971">back()</a> element  <br /></td></tr>
 <tr class="separator:a8c55eb98bf2596f633ff35ce1f8fe00b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:affe4aad8fd23742b0de456abb1921fc0" id="r_affe4aad8fd23742b0de456abb1921fc0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#affe4aad8fd23742b0de456abb1921fc0">endId</a> () const</td></tr>
 <tr class="memdesc:affe4aad8fd23742b0de456abb1921fc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns <a class="el" href="#a8c55eb98bf2596f633ff35ce1f8fe00b" title="returns the identifier of the back() element">backId()</a> + 1  <br /></td></tr>
 <tr class="separator:affe4aad8fd23742b0de456abb1921fc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a52816f431d630dedbc20620deacb5b47" id="r_a52816f431d630dedbc20620deacb5b47"><td class="memItemLeft" align="right" valign="top">T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52816f431d630dedbc20620deacb5b47">data</a> ()</td></tr>
-<tr class="separator:a52816f431d630dedbc20620deacb5b47"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7e19dc6b4addbb584ffa28779aa7c9c" id="r_ab7e19dc6b4addbb584ffa28779aa7c9c"><td class="memItemLeft" align="right" valign="top">const T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7e19dc6b4addbb584ffa28779aa7c9c">data</a> () const</td></tr>
-<tr class="separator:ab7e19dc6b4addbb584ffa28779aa7c9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aade5514343c87eb684306b423c1c7243" id="r_aade5514343c87eb684306b423c1c7243"><td class="memItemLeft" align="right" valign="top">T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aade5514343c87eb684306b423c1c7243">data</a> () <a class="el" href="MRMacros_8h.html#a5a14b15e367904df16d7473d4e5a33ea">MR_LIFETIMEBOUND</a></td></tr>
+<tr class="separator:aade5514343c87eb684306b423c1c7243"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3aff297b5a977389219718cb0c834eb7" id="r_a3aff297b5a977389219718cb0c834eb7"><td class="memItemLeft" align="right" valign="top">const T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3aff297b5a977389219718cb0c834eb7">data</a> () const <a class="el" href="MRMacros_8h.html#a5a14b15e367904df16d7473d4e5a33ea">MR_LIFETIMEBOUND</a></td></tr>
+<tr class="separator:a3aff297b5a977389219718cb0c834eb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae03333f72ab69a79829ae5f0d6d426ef" id="r_ae03333f72ab69a79829ae5f0d6d426ef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae03333f72ab69a79829ae5f0d6d426ef">swap</a> (<a class="el" href="classMR_1_1Vector.html">Vector</a> &amp;b)</td></tr>
 <tr class="separator:ae03333f72ab69a79829ae5f0d6d426ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8adb58b328ca5465266d3859a7bc1d72" id="r_a8adb58b328ca5465266d3859a7bc1d72"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8adb58b328ca5465266d3859a7bc1d72">heapBytes</a> () const</td></tr>
@@ -647,35 +647,8 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 
 </div>
 </div>
-<a id="aa4bcfcbca3642d15aa0cdec1055c4472" name="aa4bcfcbca3642d15aa0cdec1055c4472"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa4bcfcbca3642d15aa0cdec1055c4472">&#9670;&#160;</a></span>back() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#a3e5aedaea3719bcb3fd6e41e9c9225ff">reference</a> <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::back </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="afe49f6b723cf6b2b08dfe4d50ddd1c53" name="afe49f6b723cf6b2b08dfe4d50ddd1c53"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe49f6b723cf6b2b08dfe4d50ddd1c53">&#9670;&#160;</a></span>back() <span class="overload">[2/2]</span></h2>
+<a id="a46444b5dbe2a6683e69b0da7019a275a" name="a46444b5dbe2a6683e69b0da7019a275a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46444b5dbe2a6683e69b0da7019a275a">&#9670;&#160;</a></span>back() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -690,6 +663,33 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a00e105c75d03f3e463940689fbbc9971" name="a00e105c75d03f3e463940689fbbc9971"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00e105c75d03f3e463940689fbbc9971">&#9670;&#160;</a></span>back() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a3e5aedaea3719bcb3fd6e41e9c9225ff">reference</a> <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::back </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>
@@ -726,7 +726,7 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 </table>
 </div><div class="memdoc">
 
-<p>returns the identifier of the <a class="el" href="#aa4bcfcbca3642d15aa0cdec1055c4472">back()</a> element </p>
+<p>returns the identifier of the <a class="el" href="#a00e105c75d03f3e463940689fbbc9971">back()</a> element </p>
 
 </div>
 </div>
@@ -813,35 +813,8 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 
 </div>
 </div>
-<a id="a52816f431d630dedbc20620deacb5b47" name="a52816f431d630dedbc20620deacb5b47"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a52816f431d630dedbc20620deacb5b47">&#9670;&#160;</a></span>data() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">T * <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::data </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab7e19dc6b4addbb584ffa28779aa7c9c" name="ab7e19dc6b4addbb584ffa28779aa7c9c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab7e19dc6b4addbb584ffa28779aa7c9c">&#9670;&#160;</a></span>data() <span class="overload">[2/2]</span></h2>
+<a id="a3aff297b5a977389219718cb0c834eb7" name="a3aff297b5a977389219718cb0c834eb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3aff297b5a977389219718cb0c834eb7">&#9670;&#160;</a></span>data() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -856,6 +829,33 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aade5514343c87eb684306b423c1c7243" name="aade5514343c87eb684306b423c1c7243"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aade5514343c87eb684306b423c1c7243">&#9670;&#160;</a></span>data() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T * <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::data </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>
@@ -923,35 +923,8 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 
 </div>
 </div>
-<a id="a19509cb3f6dbf95c9f90c51a0b1c5a3c" name="a19509cb3f6dbf95c9f90c51a0b1c5a3c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a19509cb3f6dbf95c9f90c51a0b1c5a3c">&#9670;&#160;</a></span>front() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#a3e5aedaea3719bcb3fd6e41e9c9225ff">reference</a> <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::front </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af6959f781909eba002ffffbc6fe37c1f" name="af6959f781909eba002ffffbc6fe37c1f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af6959f781909eba002ffffbc6fe37c1f">&#9670;&#160;</a></span>front() <span class="overload">[2/2]</span></h2>
+<a id="a45f2bc56cf356b515e4663756f9603d0" name="a45f2bc56cf356b515e4663756f9603d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45f2bc56cf356b515e4663756f9603d0">&#9670;&#160;</a></span>front() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -966,6 +939,33 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a94dc9dbf3a73cbe2587df726910c0c62" name="a94dc9dbf3a73cbe2587df726910c0c62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94dc9dbf3a73cbe2587df726910c0c62">&#9670;&#160;</a></span>front() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a3e5aedaea3719bcb3fd6e41e9c9225ff">reference</a> <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::front </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>
@@ -1093,35 +1093,8 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 
 </div>
 </div>
-<a id="a3a03ee463d5f6122ac940a592ac9ec88" name="a3a03ee463d5f6122ac940a592ac9ec88"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a03ee463d5f6122ac940a592ac9ec88">&#9670;&#160;</a></span>operator[]() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#a3e5aedaea3719bcb3fd6e41e9c9225ff">reference</a> <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::operator[] </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8b3429bd5756af47e08186ebef6acd7e" name="a8b3429bd5756af47e08186ebef6acd7e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8b3429bd5756af47e08186ebef6acd7e">&#9670;&#160;</a></span>operator[]() <span class="overload">[2/2]</span></h2>
+<a id="a349375d06b5b75e3b26f9587fe0584f5" name="a349375d06b5b75e3b26f9587fe0584f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a349375d06b5b75e3b26f9587fe0584f5">&#9670;&#160;</a></span>operator[]() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1136,6 +1109,33 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span></td><td>)</td>
           <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6bae4e482e7ead78efad9465a5ac085d" name="a6bae4e482e7ead78efad9465a5ac085d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bae4e482e7ead78efad9465a5ac085d">&#9670;&#160;</a></span>operator[]() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a3e5aedaea3719bcb3fd6e41e9c9225ff">reference</a> <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::operator[] </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>
@@ -1174,8 +1174,8 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 
 </div>
 </div>
-<a id="a78fa1b6365aa64b3aec65883530dc735" name="a78fa1b6365aa64b3aec65883530dc735"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a78fa1b6365aa64b3aec65883530dc735">&#9670;&#160;</a></span>push_back() <span class="overload">[1/2]</span></h2>
+<a id="a5ea16d2aeaa1f2e2d683aade3c67794c" name="a5ea16d2aeaa1f2e2d683aade3c67794c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ea16d2aeaa1f2e2d683aade3c67794c">&#9670;&#160;</a></span>push_back() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1188,7 +1188,7 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
         <tr>
           <td class="memname">void <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::push_back </td>
           <td>(</td>
-          <td class="paramtype">const T &amp;</td>          <td class="paramname"><span class="paramname"><em>t</em></span></td><td>)</td>
+          <td class="paramtype">const T &amp;t </td>          <td class="paramname"><span class="paramname"><em>MR_LIFETIME_CAPTURE_BY_NESTED</em></span>this</td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1201,8 +1201,8 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 
 </div>
 </div>
-<a id="afc885715482436dc55e4e61a60ef05dc" name="afc885715482436dc55e4e61a60ef05dc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afc885715482436dc55e4e61a60ef05dc">&#9670;&#160;</a></span>push_back() <span class="overload">[2/2]</span></h2>
+<a id="a05637c5798b92bebed2ff7a28c610317" name="a05637c5798b92bebed2ff7a28c610317"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05637c5798b92bebed2ff7a28c610317">&#9670;&#160;</a></span>push_back() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1215,7 +1215,7 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
         <tr>
           <td class="memname">void <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::push_back </td>
           <td>(</td>
-          <td class="paramtype">T &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>t</em></span></td><td>)</td>
+          <td class="paramtype">T &amp;&amp;t </td>          <td class="paramname"><span class="paramname"><em>MR_LIFETIME_CAPTURE_BY_NESTED</em></span>this</td><td>)</td>
           <td></td>
         </tr>
       </table>

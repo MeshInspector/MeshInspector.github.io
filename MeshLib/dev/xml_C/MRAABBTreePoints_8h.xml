@@ -439,11 +439,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::AABBTreePoints::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::AABBTreePoints::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved in the return value. When this function is called, this object will drop any object references it had previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="91" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="91" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="92" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="92" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePoints_8h_1ade426fb0fcf8adfadc71bf6476cbae33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRAABBTreePoints_8h_1ab2a7de4aa3afd6ac2dbca1388a451783" kindref="member">MR_Vector_MR_AABBTreePoints_Node_MR_NodeId</ref> *</type>
@@ -461,7 +461,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="96" column="58" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="96" declcolumn="58"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="97" column="58" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="97" declcolumn="58"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePoints_8h_1a49be28a453cf0a803b3e1331dc3f582d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref> *</type>
@@ -483,7 +483,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="101" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="101" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="102" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="102" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePoints_8h_1a1121b6687ee852eed3bc958222bc449a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref></type>
@@ -500,7 +500,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="104" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="104" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="105" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="105" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePoints_8h_1a4905ba9533ad4b3de079026bdbefd97a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref></type>
@@ -518,7 +518,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="109" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="109" declcolumn="18"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="110" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="110" declcolumn="18"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePoints_8h_1a2870ed70e076a16d0717419106ad00a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRAABBTreePoints_8h_1a73ecbd814e9edb9c62f4f57cbbf98cb6" kindref="member">MR_std_vector_MR_AABBTreePoints_Point</ref> *</type>
@@ -536,7 +536,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="114" column="53" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="114" declcolumn="53"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="115" column="53" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="115" declcolumn="53"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePoints_8h_1ac774351d1624e4ecf0e491b1e2dfd053" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -558,7 +558,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="121" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="121" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="122" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="122" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePoints_8h_1ac42dcc57173073e41fce7055494c46bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -580,7 +580,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="129" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="129" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="130" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="130" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePoints_8h_1aa0ae7c4b0682c78f63e2eab12f8712cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API MR_uint64_t</type>
@@ -598,7 +598,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="134" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="134" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="135" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="135" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePoints_8h_1aa06ff8bd5342fec197db747fb90c5fe7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -633,7 +633,7 @@
 <parametername>changedVerts</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>vertex ids with modified coordinates (since tree construction or last refit) Generated from method <computeroutput>MR::AABBTreePoints::refit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>newCoords</computeroutput> can not be null. It is a single object. Parameter <computeroutput>changedVerts</computeroutput> can not be null. It is a single object. bounding box of whole subtree Returns a pointer to a member variable of class <computeroutput>MR::AABBTreePoints::Node</computeroutput> named <computeroutput>box</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>vertex ids with modified coordinates (since tree construction or last refit) Generated from method <computeroutput>MR::AABBTreePoints::refit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>newCoords</computeroutput> can not be null. It is a single object. Parameter <computeroutput>changedVerts</computeroutput> can not be null. It is a single object. bounding box of whole subtree Returns a pointer to a member variable of class <computeroutput>MR::AABBTreePoints::Node</computeroutput> named <computeroutput>box</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -641,7 +641,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="144" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="144" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="145" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="145" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePoints_8h_1a4bd5e977044062c54dc0aff24932fdb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref> *</type>
@@ -659,7 +659,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="150" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="150" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="152" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="152" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePoints_8h_1a77976d087930392aa6b2bec1c83892cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -677,11 +677,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>bounding box of whole subtree Returns a mutable pointer to a member variable of class <computeroutput>MR::AABBTreePoints::Node</computeroutput> named <computeroutput>box</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>bounding box of whole subtree Returns a mutable pointer to a member variable of class <computeroutput>MR::AABBTreePoints::Node</computeroutput> named <computeroutput>box</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="157" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="157" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="159" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="159" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePoints_8h_1af365a02768f3ae94873f9e96fbdec96a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref> *</type>
@@ -695,11 +695,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>left child node for an inner node, or -(l+1) is the index of the first point in a leaf node Returns a pointer to a member variable of class <computeroutput>MR::AABBTreePoints::Node</computeroutput> named <computeroutput>l</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>left child node for an inner node, or -(l+1) is the index of the first point in a leaf node Returns a pointer to a member variable of class <computeroutput>MR::AABBTreePoints::Node</computeroutput> named <computeroutput>l</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="163" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="163" declcolumn="18"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="166" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="166" declcolumn="18"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePoints_8h_1aa4305ee9efb8c611a4b2a708bc42e483" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref> *</type>
@@ -717,7 +717,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="169" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="169" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="173" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="173" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePoints_8h_1a450e8630523750b382e938a8802565c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -735,11 +735,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>left child node for an inner node, or -(l+1) is the index of the first point in a leaf node Returns a mutable pointer to a member variable of class <computeroutput>MR::AABBTreePoints::Node</computeroutput> named <computeroutput>l</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>left child node for an inner node, or -(l+1) is the index of the first point in a leaf node Returns a mutable pointer to a member variable of class <computeroutput>MR::AABBTreePoints::Node</computeroutput> named <computeroutput>l</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="176" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="176" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="180" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="180" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePoints_8h_1a3b153b78de28780ce476eaac48862dd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref> *</type>
@@ -753,11 +753,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>right child node for an inner node, or -(r+1) is the index of the last point in a leaf node Returns a pointer to a member variable of class <computeroutput>MR::AABBTreePoints::Node</computeroutput> named <computeroutput>r</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>right child node for an inner node, or -(r+1) is the index of the last point in a leaf node Returns a pointer to a member variable of class <computeroutput>MR::AABBTreePoints::Node</computeroutput> named <computeroutput>r</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="182" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="182" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="187" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="187" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePoints_8h_1ad5b58934597f3769996c5eeb9121b4ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref> *</type>
@@ -775,7 +775,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="188" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="188" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="194" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="194" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePoints_8h_1ae9139a9a90e761120bddba4c1fa89afb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -793,11 +793,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>right child node for an inner node, or -(r+1) is the index of the last point in a leaf node Returns a mutable pointer to a member variable of class <computeroutput>MR::AABBTreePoints::Node</computeroutput> named <computeroutput>r</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>right child node for an inner node, or -(r+1) is the index of the last point in a leaf node Returns a mutable pointer to a member variable of class <computeroutput>MR::AABBTreePoints::Node</computeroutput> named <computeroutput>r</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="195" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="195" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="201" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="201" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePoints_8h_1a6106fad835fdfeeca6c4d87c01c5bc1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref> *</type>
@@ -814,7 +814,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="201" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="201" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="208" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="208" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePoints_8h_1a02cfb28e9c3b7eeebab365ee7d429205" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref> *</type>
@@ -831,7 +831,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="205" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="205" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="212" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="212" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePoints_8h_1a953c0800da291a92ccd5b49123ca2b1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref> *</type>
@@ -849,7 +849,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="210" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="210" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="217" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="217" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePoints_8h_1ae7010d15a71c432e6db95047a0473d92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref> *</type>
@@ -875,7 +875,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="218" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="218" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="225" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="225" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePoints_8h_1a530442c664c2ed0079f0260f77c5e53f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref> *</type>
@@ -897,7 +897,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="222" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="222" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="229" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="229" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePoints_8h_1a957488f654ed544d23382b19ce3235e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref> *</type>
@@ -919,7 +919,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="226" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="226" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="233" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="233" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePoints_8h_1ac3d3b7b254cd38d95713086ef7458199" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref> *</type>
@@ -937,7 +937,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="232" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="232" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="239" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="239" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePoints_8h_1a4bede6aa491182a19658c87330916c23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -955,7 +955,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="235" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="235" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="242" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="242" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePoints_8h_1a088e6b3745390833a8c7dca85408e58e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -973,7 +973,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="238" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="238" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="245" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="245" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePoints_8h_1acddca936b22e36650362be61bcd20c19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref> *</type>
@@ -995,7 +995,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="246" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="246" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="253" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="253" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePoints_8h_1a330dcecc2147fd5b6a9aca015d1df246" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool</type>
@@ -1013,7 +1013,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="251" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="251" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="258" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="258" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePoints_8h_1a54d06478333f385563a6112f7134cd89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAABBTreePoints_8h_1a3ad79c88fa1e467d5ccd88cbcf762ae3" kindref="member">MR_std_pair_int_int</ref> *</type>
@@ -1031,7 +1031,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="257" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="257" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="264" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="264" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePoints_8h_1a1e09f6c0debcdd7cd307e4b0edaf08fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1057,7 +1057,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="262" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="262" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="269" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="269" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePoints_8h_1a18958c99ad59280369b19b823a678a9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
@@ -1071,11 +1071,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::AABBTreePoints::Point</computeroutput> named <computeroutput>coord</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::AABBTreePoints::Point</computeroutput> named <computeroutput>coord</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="267" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="267" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="275" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="275" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePoints_8h_1a1bb1a15eaba1373bae9c988fe03dce2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1097,7 +1097,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="273" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="273" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="281" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="281" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePoints_8h_1a32d063f6d5eaa0e0a0a7b650d1e91f48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
@@ -1111,11 +1111,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::AABBTreePoints::Point</computeroutput> named <computeroutput>coord</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::AABBTreePoints::Point</computeroutput> named <computeroutput>coord</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="278" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="278" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="287" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="287" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePoints_8h_1a924d8e2a7c5004d272d40c01eb42c52d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref> *</type>
@@ -1129,11 +1129,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::AABBTreePoints::Point</computeroutput> named <computeroutput>id</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::AABBTreePoints::Point</computeroutput> named <computeroutput>id</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="283" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="283" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="293" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="293" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePoints_8h_1af3d0276d7802284550dfb4d97263cb33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1155,7 +1155,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="289" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="289" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="299" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="299" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePoints_8h_1aba5da88f64bddf728b189463e6f1ce9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref> *</type>
@@ -1169,11 +1169,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::AABBTreePoints::Point</computeroutput> named <computeroutput>id</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::AABBTreePoints::Point</computeroutput> named <computeroutput>id</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="294" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="294" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="305" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="305" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePoints_8h_1a0452ac17eefb9feca0a7a24665e41192" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAABBTreePoints_8h_1a95218be66d288a0d4bf57491e6e8b109" kindref="member">MR_AABBTreePoints_Point</ref> *</type>
@@ -1190,7 +1190,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="298" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="298" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="309" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="309" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePoints_8h_1a4ce1decb67193aca3a32dd4620995e28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAABBTreePoints_8h_1a95218be66d288a0d4bf57491e6e8b109" kindref="member">MR_AABBTreePoints_Point</ref> *</type>
@@ -1208,7 +1208,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="303" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="303" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="314" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="314" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePoints_8h_1ab596997c43270e15ad9beef6a1546954" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAABBTreePoints_8h_1a95218be66d288a0d4bf57491e6e8b109" kindref="member">MR_AABBTreePoints_Point</ref> *</type>
@@ -1230,7 +1230,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="310" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="310" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="321" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="321" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePoints_8h_1af1100beff016ac421426b17a7a71ecdc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRAABBTreePoints_8h_1a95218be66d288a0d4bf57491e6e8b109" kindref="member">MR_AABBTreePoints_Point</ref> *</type>
@@ -1252,7 +1252,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="314" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="314" declcolumn="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="325" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="325" declcolumn="39"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePoints_8h_1aef6b1bc1f3c3e5ab058b1e12af9934cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAABBTreePoints_8h_1a95218be66d288a0d4bf57491e6e8b109" kindref="member">MR_AABBTreePoints_Point</ref> *</type>
@@ -1274,7 +1274,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="318" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="318" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="329" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="329" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePoints_8h_1a60d3f354d21f601dc6e9722e630b688c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAABBTreePoints_8h_1a95218be66d288a0d4bf57491e6e8b109" kindref="member">MR_AABBTreePoints_Point</ref> *</type>
@@ -1292,7 +1292,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="324" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="324" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="335" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="335" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePoints_8h_1a3063556c4ecbb7a37e2c73027a72b6c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1310,7 +1310,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="327" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="327" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="338" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="338" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePoints_8h_1ad3f481e9996ec2afc16c91d884fb6c0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1328,7 +1328,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="330" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="330" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="341" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="341" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePoints_8h_1a0044d232cc3b7e6ce160f3469070badf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAABBTreePoints_8h_1a95218be66d288a0d4bf57491e6e8b109" kindref="member">MR_AABBTreePoints_Point</ref> *</type>
@@ -1350,7 +1350,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="338" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="338" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="349" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="349" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePoints_8h_1a13e421218ef034b47c8ae7e79ff41ee9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API int</type>
@@ -1368,7 +1368,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="342" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="342" declcolumn="13"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" line="353" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h" declline="353" declcolumn="13"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1425,104 +1425,104 @@
 <codeline lineno="82"><highlight class="normal"></highlight></codeline>
 <codeline lineno="84" refid="MRAABBTreePoints_8h_1a6980aba96ab2c05eb26b1fac9259fcc3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a6980aba96ab2c05eb26b1fac9259fcc3" kindref="member">MR_AABBTreePoints_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1aaa96ed5b79deaa81e7e5e848584a7b6a" kindref="member">MR_AABBTreePoints</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="85"><highlight class="normal"></highlight></codeline>
-<codeline lineno="91" refid="MRAABBTreePoints_8h_1a2583336c2a0080106deb025055d88d83" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePoints_8h_1aaa96ed5b79deaa81e7e5e848584a7b6a" kindref="member">MR_AABBTreePoints</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1a2583336c2a0080106deb025055d88d83" kindref="member">MR_AABBTreePoints_AssignFromAnother</ref>(<ref refid="MRAABBTreePoints_8h_1aaa96ed5b79deaa81e7e5e848584a7b6a" kindref="member">MR_AABBTreePoints</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRAABBTreePoints_8h_1aaa96ed5b79deaa81e7e5e848584a7b6a" kindref="member">MR_AABBTreePoints</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="92"><highlight class="normal"></highlight></codeline>
-<codeline lineno="96" refid="MRAABBTreePoints_8h_1ade426fb0fcf8adfadc71bf6476cbae33" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1ab2a7de4aa3afd6ac2dbca1388a451783" kindref="member">MR_Vector_MR_AABBTreePoints_Node_MR_NodeId</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1ade426fb0fcf8adfadc71bf6476cbae33" kindref="member">MR_AABBTreePoints_nodes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1aaa96ed5b79deaa81e7e5e848584a7b6a" kindref="member">MR_AABBTreePoints</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="97"><highlight class="normal"></highlight></codeline>
-<codeline lineno="101" refid="MRAABBTreePoints_8h_1a49be28a453cf0a803b3e1331dc3f582d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1a49be28a453cf0a803b3e1331dc3f582d" kindref="member">MR_AABBTreePoints_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1aaa96ed5b79deaa81e7e5e848584a7b6a" kindref="member">MR_AABBTreePoints</ref><sp/>*_this,<sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/>nid);</highlight></codeline>
-<codeline lineno="102"><highlight class="normal"></highlight></codeline>
-<codeline lineno="104" refid="MRAABBTreePoints_8h_1a1121b6687ee852eed3bc958222bc449a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/><ref refid="MRAABBTreePoints_8h_1a1121b6687ee852eed3bc958222bc449a" kindref="member">MR_AABBTreePoints_rootNodeId</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="105"><highlight class="normal"></highlight></codeline>
-<codeline lineno="109" refid="MRAABBTreePoints_8h_1a4905ba9533ad4b3de079026bdbefd97a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/><ref refid="MRAABBTreePoints_8h_1a4905ba9533ad4b3de079026bdbefd97a" kindref="member">MR_AABBTreePoints_getBoundingBox</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1aaa96ed5b79deaa81e7e5e848584a7b6a" kindref="member">MR_AABBTreePoints</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="110"><highlight class="normal"></highlight></codeline>
-<codeline lineno="114" refid="MRAABBTreePoints_8h_1a2870ed70e076a16d0717419106ad00a6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a73ecbd814e9edb9c62f4f57cbbf98cb6" kindref="member">MR_std_vector_MR_AABBTreePoints_Point</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1a2870ed70e076a16d0717419106ad00a6" kindref="member">MR_AABBTreePoints_orderedPoints</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1aaa96ed5b79deaa81e7e5e848584a7b6a" kindref="member">MR_AABBTreePoints</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="115"><highlight class="normal"></highlight></codeline>
-<codeline lineno="121" refid="MRAABBTreePoints_8h_1ac774351d1624e4ecf0e491b1e2dfd053" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1ac774351d1624e4ecf0e491b1e2dfd053" kindref="member">MR_AABBTreePoints_getLeafOrder</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1aaa96ed5b79deaa81e7e5e848584a7b6a" kindref="member">MR_AABBTreePoints</ref><sp/>*_this,<sp/><ref refid="MRAABBTreePoints_8h_1aa7b9116fbd7f68728817ec9e0d331d91" kindref="member">MR_VertBMap</ref><sp/>*vertMap);</highlight></codeline>
-<codeline lineno="122"><highlight class="normal"></highlight></codeline>
-<codeline lineno="129" refid="MRAABBTreePoints_8h_1ac42dcc57173073e41fce7055494c46bc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1ac42dcc57173073e41fce7055494c46bc" kindref="member">MR_AABBTreePoints_getLeafOrderAndReset</ref>(<ref refid="MRAABBTreePoints_8h_1aaa96ed5b79deaa81e7e5e848584a7b6a" kindref="member">MR_AABBTreePoints</ref><sp/>*_this,<sp/><ref refid="MRAABBTreePoints_8h_1aa7b9116fbd7f68728817ec9e0d331d91" kindref="member">MR_VertBMap</ref><sp/>*vertMap);</highlight></codeline>
-<codeline lineno="130"><highlight class="normal"></highlight></codeline>
-<codeline lineno="134" refid="MRAABBTreePoints_8h_1aa0ae7c4b0682c78f63e2eab12f8712cc" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRAABBTreePoints_8h_1aa0ae7c4b0682c78f63e2eab12f8712cc" kindref="member">MR_AABBTreePoints_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1aaa96ed5b79deaa81e7e5e848584a7b6a" kindref="member">MR_AABBTreePoints</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="135"><highlight class="normal"></highlight></codeline>
-<codeline lineno="144" refid="MRAABBTreePoints_8h_1aa06ff8bd5342fec197db747fb90c5fe7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1aa06ff8bd5342fec197db747fb90c5fe7" kindref="member">MR_AABBTreePoints_refit</ref>(<ref refid="MRAABBTreePoints_8h_1aaa96ed5b79deaa81e7e5e848584a7b6a" kindref="member">MR_AABBTreePoints</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*newCoords,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*changedVerts);</highlight></codeline>
-<codeline lineno="145"><highlight class="normal"></highlight></codeline>
-<codeline lineno="150" refid="MRAABBTreePoints_8h_1a4bd5e977044062c54dc0aff24932fdb5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1a4bd5e977044062c54dc0aff24932fdb5" kindref="member">MR_AABBTreePoints_Node_Get_box</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="151"><highlight class="normal"></highlight></codeline>
-<codeline lineno="157" refid="MRAABBTreePoints_8h_1a77976d087930392aa6b2bec1c83892cb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a77976d087930392aa6b2bec1c83892cb" kindref="member">MR_AABBTreePoints_Node_Set_box</ref>(<ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*_this,<sp/><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/>value);</highlight></codeline>
-<codeline lineno="158"><highlight class="normal"></highlight></codeline>
-<codeline lineno="163" refid="MRAABBTreePoints_8h_1af365a02768f3ae94873f9e96fbdec96a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1af365a02768f3ae94873f9e96fbdec96a" kindref="member">MR_AABBTreePoints_Node_GetMutable_box</ref>(<ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="164"><highlight class="normal"></highlight></codeline>
-<codeline lineno="169" refid="MRAABBTreePoints_8h_1aa4305ee9efb8c611a4b2a708bc42e483" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1aa4305ee9efb8c611a4b2a708bc42e483" kindref="member">MR_AABBTreePoints_Node_Get_l</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="170"><highlight class="normal"></highlight></codeline>
-<codeline lineno="176" refid="MRAABBTreePoints_8h_1a450e8630523750b382e938a8802565c8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a450e8630523750b382e938a8802565c8" kindref="member">MR_AABBTreePoints_Node_Set_l</ref>(<ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*_this,<sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/>value);</highlight></codeline>
-<codeline lineno="177"><highlight class="normal"></highlight></codeline>
-<codeline lineno="182" refid="MRAABBTreePoints_8h_1a3b153b78de28780ce476eaac48862dd8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1a3b153b78de28780ce476eaac48862dd8" kindref="member">MR_AABBTreePoints_Node_GetMutable_l</ref>(<ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="183"><highlight class="normal"></highlight></codeline>
-<codeline lineno="188" refid="MRAABBTreePoints_8h_1ad5b58934597f3769996c5eeb9121b4ea" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1ad5b58934597f3769996c5eeb9121b4ea" kindref="member">MR_AABBTreePoints_Node_Get_r</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="189"><highlight class="normal"></highlight></codeline>
-<codeline lineno="195" refid="MRAABBTreePoints_8h_1ae9139a9a90e761120bddba4c1fa89afb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1ae9139a9a90e761120bddba4c1fa89afb" kindref="member">MR_AABBTreePoints_Node_Set_r</ref>(<ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*_this,<sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/>value);</highlight></codeline>
-<codeline lineno="196"><highlight class="normal"></highlight></codeline>
-<codeline lineno="201" refid="MRAABBTreePoints_8h_1a6106fad835fdfeeca6c4d87c01c5bc1f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1a6106fad835fdfeeca6c4d87c01c5bc1f" kindref="member">MR_AABBTreePoints_Node_GetMutable_r</ref>(<ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="92" refid="MRAABBTreePoints_8h_1a2583336c2a0080106deb025055d88d83" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePoints_8h_1aaa96ed5b79deaa81e7e5e848584a7b6a" kindref="member">MR_AABBTreePoints</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1a2583336c2a0080106deb025055d88d83" kindref="member">MR_AABBTreePoints_AssignFromAnother</ref>(<ref refid="MRAABBTreePoints_8h_1aaa96ed5b79deaa81e7e5e848584a7b6a" kindref="member">MR_AABBTreePoints</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRAABBTreePoints_8h_1aaa96ed5b79deaa81e7e5e848584a7b6a" kindref="member">MR_AABBTreePoints</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97" refid="MRAABBTreePoints_8h_1ade426fb0fcf8adfadc71bf6476cbae33" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1ab2a7de4aa3afd6ac2dbca1388a451783" kindref="member">MR_Vector_MR_AABBTreePoints_Node_MR_NodeId</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1ade426fb0fcf8adfadc71bf6476cbae33" kindref="member">MR_AABBTreePoints_nodes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1aaa96ed5b79deaa81e7e5e848584a7b6a" kindref="member">MR_AABBTreePoints</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102" refid="MRAABBTreePoints_8h_1a49be28a453cf0a803b3e1331dc3f582d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1a49be28a453cf0a803b3e1331dc3f582d" kindref="member">MR_AABBTreePoints_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1aaa96ed5b79deaa81e7e5e848584a7b6a" kindref="member">MR_AABBTreePoints</ref><sp/>*_this,<sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/>nid);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105" refid="MRAABBTreePoints_8h_1a1121b6687ee852eed3bc958222bc449a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/><ref refid="MRAABBTreePoints_8h_1a1121b6687ee852eed3bc958222bc449a" kindref="member">MR_AABBTreePoints_rootNodeId</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="MRAABBTreePoints_8h_1a4905ba9533ad4b3de079026bdbefd97a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/><ref refid="MRAABBTreePoints_8h_1a4905ba9533ad4b3de079026bdbefd97a" kindref="member">MR_AABBTreePoints_getBoundingBox</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1aaa96ed5b79deaa81e7e5e848584a7b6a" kindref="member">MR_AABBTreePoints</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115" refid="MRAABBTreePoints_8h_1a2870ed70e076a16d0717419106ad00a6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a73ecbd814e9edb9c62f4f57cbbf98cb6" kindref="member">MR_std_vector_MR_AABBTreePoints_Point</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1a2870ed70e076a16d0717419106ad00a6" kindref="member">MR_AABBTreePoints_orderedPoints</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1aaa96ed5b79deaa81e7e5e848584a7b6a" kindref="member">MR_AABBTreePoints</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="MRAABBTreePoints_8h_1ac774351d1624e4ecf0e491b1e2dfd053" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1ac774351d1624e4ecf0e491b1e2dfd053" kindref="member">MR_AABBTreePoints_getLeafOrder</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1aaa96ed5b79deaa81e7e5e848584a7b6a" kindref="member">MR_AABBTreePoints</ref><sp/>*_this,<sp/><ref refid="MRAABBTreePoints_8h_1aa7b9116fbd7f68728817ec9e0d331d91" kindref="member">MR_VertBMap</ref><sp/>*vertMap);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="MRAABBTreePoints_8h_1ac42dcc57173073e41fce7055494c46bc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1ac42dcc57173073e41fce7055494c46bc" kindref="member">MR_AABBTreePoints_getLeafOrderAndReset</ref>(<ref refid="MRAABBTreePoints_8h_1aaa96ed5b79deaa81e7e5e848584a7b6a" kindref="member">MR_AABBTreePoints</ref><sp/>*_this,<sp/><ref refid="MRAABBTreePoints_8h_1aa7b9116fbd7f68728817ec9e0d331d91" kindref="member">MR_VertBMap</ref><sp/>*vertMap);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135" refid="MRAABBTreePoints_8h_1aa0ae7c4b0682c78f63e2eab12f8712cc" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRAABBTreePoints_8h_1aa0ae7c4b0682c78f63e2eab12f8712cc" kindref="member">MR_AABBTreePoints_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1aaa96ed5b79deaa81e7e5e848584a7b6a" kindref="member">MR_AABBTreePoints</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145" refid="MRAABBTreePoints_8h_1aa06ff8bd5342fec197db747fb90c5fe7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1aa06ff8bd5342fec197db747fb90c5fe7" kindref="member">MR_AABBTreePoints_refit</ref>(<ref refid="MRAABBTreePoints_8h_1aaa96ed5b79deaa81e7e5e848584a7b6a" kindref="member">MR_AABBTreePoints</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*newCoords,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*changedVerts);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152" refid="MRAABBTreePoints_8h_1a4bd5e977044062c54dc0aff24932fdb5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1a4bd5e977044062c54dc0aff24932fdb5" kindref="member">MR_AABBTreePoints_Node_Get_box</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="MRAABBTreePoints_8h_1a77976d087930392aa6b2bec1c83892cb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a77976d087930392aa6b2bec1c83892cb" kindref="member">MR_AABBTreePoints_Node_Set_box</ref>(<ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*_this,<sp/><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/>value);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166" refid="MRAABBTreePoints_8h_1af365a02768f3ae94873f9e96fbdec96a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1af365a02768f3ae94873f9e96fbdec96a" kindref="member">MR_AABBTreePoints_Node_GetMutable_box</ref>(<ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173" refid="MRAABBTreePoints_8h_1aa4305ee9efb8c611a4b2a708bc42e483" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1aa4305ee9efb8c611a4b2a708bc42e483" kindref="member">MR_AABBTreePoints_Node_Get_l</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180" refid="MRAABBTreePoints_8h_1a450e8630523750b382e938a8802565c8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a450e8630523750b382e938a8802565c8" kindref="member">MR_AABBTreePoints_Node_Set_l</ref>(<ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*_this,<sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/>value);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187" refid="MRAABBTreePoints_8h_1a3b153b78de28780ce476eaac48862dd8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1a3b153b78de28780ce476eaac48862dd8" kindref="member">MR_AABBTreePoints_Node_GetMutable_l</ref>(<ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194" refid="MRAABBTreePoints_8h_1ad5b58934597f3769996c5eeb9121b4ea" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1ad5b58934597f3769996c5eeb9121b4ea" kindref="member">MR_AABBTreePoints_Node_Get_r</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="201" refid="MRAABBTreePoints_8h_1ae9139a9a90e761120bddba4c1fa89afb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1ae9139a9a90e761120bddba4c1fa89afb" kindref="member">MR_AABBTreePoints_Node_Set_r</ref>(<ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*_this,<sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/>value);</highlight></codeline>
 <codeline lineno="202"><highlight class="normal"></highlight></codeline>
-<codeline lineno="205" refid="MRAABBTreePoints_8h_1a02cfb28e9c3b7eeebab365ee7d429205" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1a02cfb28e9c3b7eeebab365ee7d429205" kindref="member">MR_AABBTreePoints_Node_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="206"><highlight class="normal"></highlight></codeline>
-<codeline lineno="210" refid="MRAABBTreePoints_8h_1a953c0800da291a92ccd5b49123ca2b1d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1a953c0800da291a92ccd5b49123ca2b1d" kindref="member">MR_AABBTreePoints_Node_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="211"><highlight class="normal"></highlight></codeline>
-<codeline lineno="218" refid="MRAABBTreePoints_8h_1ae7010d15a71c432e6db95047a0473d92" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1ae7010d15a71c432e6db95047a0473d92" kindref="member">MR_AABBTreePoints_Node_ConstructFrom</ref>(<ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/>box,<sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/>l,<sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/>r);</highlight></codeline>
-<codeline lineno="219"><highlight class="normal"></highlight></codeline>
-<codeline lineno="222" refid="MRAABBTreePoints_8h_1a530442c664c2ed0079f0260f77c5e53f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1a530442c664c2ed0079f0260f77c5e53f" kindref="member">MR_AABBTreePoints_Node_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="223"><highlight class="normal"></highlight></codeline>
-<codeline lineno="226" refid="MRAABBTreePoints_8h_1a957488f654ed544d23382b19ce3235e2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1a957488f654ed544d23382b19ce3235e2" kindref="member">MR_AABBTreePoints_Node_OffsetMutablePtr</ref>(<ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="227"><highlight class="normal"></highlight></codeline>
-<codeline lineno="232" refid="MRAABBTreePoints_8h_1ac3d3b7b254cd38d95713086ef7458199" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1ac3d3b7b254cd38d95713086ef7458199" kindref="member">MR_AABBTreePoints_Node_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="233"><highlight class="normal"></highlight></codeline>
-<codeline lineno="235" refid="MRAABBTreePoints_8h_1a4bede6aa491182a19658c87330916c23" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a4bede6aa491182a19658c87330916c23" kindref="member">MR_AABBTreePoints_Node_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="236"><highlight class="normal"></highlight></codeline>
-<codeline lineno="238" refid="MRAABBTreePoints_8h_1a088e6b3745390833a8c7dca85408e58e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a088e6b3745390833a8c7dca85408e58e" kindref="member">MR_AABBTreePoints_Node_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="239"><highlight class="normal"></highlight></codeline>
-<codeline lineno="246" refid="MRAABBTreePoints_8h_1acddca936b22e36650362be61bcd20c19" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1acddca936b22e36650362be61bcd20c19" kindref="member">MR_AABBTreePoints_Node_AssignFromAnother</ref>(<ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="247"><highlight class="normal"></highlight></codeline>
-<codeline lineno="251" refid="MRAABBTreePoints_8h_1a330dcecc2147fd5b6a9aca015d1df246" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a330dcecc2147fd5b6a9aca015d1df246" kindref="member">MR_AABBTreePoints_Node_leaf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="252"><highlight class="normal"></highlight></codeline>
-<codeline lineno="257" refid="MRAABBTreePoints_8h_1a54d06478333f385563a6112f7134cd89" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePoints_8h_1a3ad79c88fa1e467d5ccd88cbcf762ae3" kindref="member">MR_std_pair_int_int</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1a54d06478333f385563a6112f7134cd89" kindref="member">MR_AABBTreePoints_Node_getLeafPointRange</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="258"><highlight class="normal"></highlight></codeline>
-<codeline lineno="262" refid="MRAABBTreePoints_8h_1a1e09f6c0debcdd7cd307e4b0edaf08fc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a1e09f6c0debcdd7cd307e4b0edaf08fc" kindref="member">MR_AABBTreePoints_Node_setLeafPointRange</ref>(<ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>first,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>last);</highlight></codeline>
-<codeline lineno="263"><highlight class="normal"></highlight></codeline>
-<codeline lineno="267" refid="MRAABBTreePoints_8h_1a18958c99ad59280369b19b823a678a9f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1a18958c99ad59280369b19b823a678a9f" kindref="member">MR_AABBTreePoints_Point_Get_coord</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a95218be66d288a0d4bf57491e6e8b109" kindref="member">MR_AABBTreePoints_Point</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="268"><highlight class="normal"></highlight></codeline>
-<codeline lineno="273" refid="MRAABBTreePoints_8h_1a1bb1a15eaba1373bae9c988fe03dce2f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a1bb1a15eaba1373bae9c988fe03dce2f" kindref="member">MR_AABBTreePoints_Point_Set_coord</ref>(<ref refid="MRAABBTreePoints_8h_1a95218be66d288a0d4bf57491e6e8b109" kindref="member">MR_AABBTreePoints_Point</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>value);</highlight></codeline>
-<codeline lineno="274"><highlight class="normal"></highlight></codeline>
-<codeline lineno="278" refid="MRAABBTreePoints_8h_1a32d063f6d5eaa0e0a0a7b650d1e91f48" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1a32d063f6d5eaa0e0a0a7b650d1e91f48" kindref="member">MR_AABBTreePoints_Point_GetMutable_coord</ref>(<ref refid="MRAABBTreePoints_8h_1a95218be66d288a0d4bf57491e6e8b109" kindref="member">MR_AABBTreePoints_Point</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="279"><highlight class="normal"></highlight></codeline>
-<codeline lineno="283" refid="MRAABBTreePoints_8h_1a924d8e2a7c5004d272d40c01eb42c52d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1a924d8e2a7c5004d272d40c01eb42c52d" kindref="member">MR_AABBTreePoints_Point_Get_id</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a95218be66d288a0d4bf57491e6e8b109" kindref="member">MR_AABBTreePoints_Point</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="284"><highlight class="normal"></highlight></codeline>
-<codeline lineno="289" refid="MRAABBTreePoints_8h_1af3d0276d7802284550dfb4d97263cb33" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1af3d0276d7802284550dfb4d97263cb33" kindref="member">MR_AABBTreePoints_Point_Set_id</ref>(<ref refid="MRAABBTreePoints_8h_1a95218be66d288a0d4bf57491e6e8b109" kindref="member">MR_AABBTreePoints_Point</ref><sp/>*_this,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>value);</highlight></codeline>
-<codeline lineno="290"><highlight class="normal"></highlight></codeline>
-<codeline lineno="294" refid="MRAABBTreePoints_8h_1aba5da88f64bddf728b189463e6f1ce9b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1aba5da88f64bddf728b189463e6f1ce9b" kindref="member">MR_AABBTreePoints_Point_GetMutable_id</ref>(<ref refid="MRAABBTreePoints_8h_1a95218be66d288a0d4bf57491e6e8b109" kindref="member">MR_AABBTreePoints_Point</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="295"><highlight class="normal"></highlight></codeline>
-<codeline lineno="298" refid="MRAABBTreePoints_8h_1a0452ac17eefb9feca0a7a24665e41192" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePoints_8h_1a95218be66d288a0d4bf57491e6e8b109" kindref="member">MR_AABBTreePoints_Point</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1a0452ac17eefb9feca0a7a24665e41192" kindref="member">MR_AABBTreePoints_Point_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="299"><highlight class="normal"></highlight></codeline>
-<codeline lineno="303" refid="MRAABBTreePoints_8h_1a4ce1decb67193aca3a32dd4620995e28" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePoints_8h_1a95218be66d288a0d4bf57491e6e8b109" kindref="member">MR_AABBTreePoints_Point</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1a4ce1decb67193aca3a32dd4620995e28" kindref="member">MR_AABBTreePoints_Point_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="304"><highlight class="normal"></highlight></codeline>
-<codeline lineno="310" refid="MRAABBTreePoints_8h_1ab596997c43270e15ad9beef6a1546954" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePoints_8h_1a95218be66d288a0d4bf57491e6e8b109" kindref="member">MR_AABBTreePoints_Point</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1ab596997c43270e15ad9beef6a1546954" kindref="member">MR_AABBTreePoints_Point_ConstructFrom</ref>(<ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>coord,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="311"><highlight class="normal"></highlight></codeline>
-<codeline lineno="314" refid="MRAABBTreePoints_8h_1af1100beff016ac421426b17a7a71ecdc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a95218be66d288a0d4bf57491e6e8b109" kindref="member">MR_AABBTreePoints_Point</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1af1100beff016ac421426b17a7a71ecdc" kindref="member">MR_AABBTreePoints_Point_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a95218be66d288a0d4bf57491e6e8b109" kindref="member">MR_AABBTreePoints_Point</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="208" refid="MRAABBTreePoints_8h_1a6106fad835fdfeeca6c4d87c01c5bc1f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1a6106fad835fdfeeca6c4d87c01c5bc1f" kindref="member">MR_AABBTreePoints_Node_GetMutable_r</ref>(<ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212" refid="MRAABBTreePoints_8h_1a02cfb28e9c3b7eeebab365ee7d429205" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1a02cfb28e9c3b7eeebab365ee7d429205" kindref="member">MR_AABBTreePoints_Node_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217" refid="MRAABBTreePoints_8h_1a953c0800da291a92ccd5b49123ca2b1d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1a953c0800da291a92ccd5b49123ca2b1d" kindref="member">MR_AABBTreePoints_Node_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225" refid="MRAABBTreePoints_8h_1ae7010d15a71c432e6db95047a0473d92" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1ae7010d15a71c432e6db95047a0473d92" kindref="member">MR_AABBTreePoints_Node_ConstructFrom</ref>(<ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/>box,<sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/>l,<sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/>r);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="229" refid="MRAABBTreePoints_8h_1a530442c664c2ed0079f0260f77c5e53f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1a530442c664c2ed0079f0260f77c5e53f" kindref="member">MR_AABBTreePoints_Node_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="233" refid="MRAABBTreePoints_8h_1a957488f654ed544d23382b19ce3235e2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1a957488f654ed544d23382b19ce3235e2" kindref="member">MR_AABBTreePoints_Node_OffsetMutablePtr</ref>(<ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight></codeline>
+<codeline lineno="239" refid="MRAABBTreePoints_8h_1ac3d3b7b254cd38d95713086ef7458199" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1ac3d3b7b254cd38d95713086ef7458199" kindref="member">MR_AABBTreePoints_Node_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight></codeline>
+<codeline lineno="242" refid="MRAABBTreePoints_8h_1a4bede6aa491182a19658c87330916c23" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a4bede6aa491182a19658c87330916c23" kindref="member">MR_AABBTreePoints_Node_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="245" refid="MRAABBTreePoints_8h_1a088e6b3745390833a8c7dca85408e58e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a088e6b3745390833a8c7dca85408e58e" kindref="member">MR_AABBTreePoints_Node_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"></highlight></codeline>
+<codeline lineno="253" refid="MRAABBTreePoints_8h_1acddca936b22e36650362be61bcd20c19" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1acddca936b22e36650362be61bcd20c19" kindref="member">MR_AABBTreePoints_Node_AssignFromAnother</ref>(<ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"></highlight></codeline>
+<codeline lineno="258" refid="MRAABBTreePoints_8h_1a330dcecc2147fd5b6a9aca015d1df246" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a330dcecc2147fd5b6a9aca015d1df246" kindref="member">MR_AABBTreePoints_Node_leaf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="264" refid="MRAABBTreePoints_8h_1a54d06478333f385563a6112f7134cd89" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePoints_8h_1a3ad79c88fa1e467d5ccd88cbcf762ae3" kindref="member">MR_std_pair_int_int</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1a54d06478333f385563a6112f7134cd89" kindref="member">MR_AABBTreePoints_Node_getLeafPointRange</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"></highlight></codeline>
+<codeline lineno="269" refid="MRAABBTreePoints_8h_1a1e09f6c0debcdd7cd307e4b0edaf08fc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a1e09f6c0debcdd7cd307e4b0edaf08fc" kindref="member">MR_AABBTreePoints_Node_setLeafPointRange</ref>(<ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>first,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>last);</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"></highlight></codeline>
+<codeline lineno="275" refid="MRAABBTreePoints_8h_1a18958c99ad59280369b19b823a678a9f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1a18958c99ad59280369b19b823a678a9f" kindref="member">MR_AABBTreePoints_Point_Get_coord</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a95218be66d288a0d4bf57491e6e8b109" kindref="member">MR_AABBTreePoints_Point</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"></highlight></codeline>
+<codeline lineno="281" refid="MRAABBTreePoints_8h_1a1bb1a15eaba1373bae9c988fe03dce2f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a1bb1a15eaba1373bae9c988fe03dce2f" kindref="member">MR_AABBTreePoints_Point_Set_coord</ref>(<ref refid="MRAABBTreePoints_8h_1a95218be66d288a0d4bf57491e6e8b109" kindref="member">MR_AABBTreePoints_Point</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>value);</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"></highlight></codeline>
+<codeline lineno="287" refid="MRAABBTreePoints_8h_1a32d063f6d5eaa0e0a0a7b650d1e91f48" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1a32d063f6d5eaa0e0a0a7b650d1e91f48" kindref="member">MR_AABBTreePoints_Point_GetMutable_coord</ref>(<ref refid="MRAABBTreePoints_8h_1a95218be66d288a0d4bf57491e6e8b109" kindref="member">MR_AABBTreePoints_Point</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"></highlight></codeline>
+<codeline lineno="293" refid="MRAABBTreePoints_8h_1a924d8e2a7c5004d272d40c01eb42c52d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1a924d8e2a7c5004d272d40c01eb42c52d" kindref="member">MR_AABBTreePoints_Point_Get_id</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a95218be66d288a0d4bf57491e6e8b109" kindref="member">MR_AABBTreePoints_Point</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight></codeline>
+<codeline lineno="299" refid="MRAABBTreePoints_8h_1af3d0276d7802284550dfb4d97263cb33" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1af3d0276d7802284550dfb4d97263cb33" kindref="member">MR_AABBTreePoints_Point_Set_id</ref>(<ref refid="MRAABBTreePoints_8h_1a95218be66d288a0d4bf57491e6e8b109" kindref="member">MR_AABBTreePoints_Point</ref><sp/>*_this,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>value);</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"></highlight></codeline>
+<codeline lineno="305" refid="MRAABBTreePoints_8h_1aba5da88f64bddf728b189463e6f1ce9b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1aba5da88f64bddf728b189463e6f1ce9b" kindref="member">MR_AABBTreePoints_Point_GetMutable_id</ref>(<ref refid="MRAABBTreePoints_8h_1a95218be66d288a0d4bf57491e6e8b109" kindref="member">MR_AABBTreePoints_Point</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"></highlight></codeline>
+<codeline lineno="309" refid="MRAABBTreePoints_8h_1a0452ac17eefb9feca0a7a24665e41192" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePoints_8h_1a95218be66d288a0d4bf57491e6e8b109" kindref="member">MR_AABBTreePoints_Point</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1a0452ac17eefb9feca0a7a24665e41192" kindref="member">MR_AABBTreePoints_Point_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"></highlight></codeline>
+<codeline lineno="314" refid="MRAABBTreePoints_8h_1a4ce1decb67193aca3a32dd4620995e28" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePoints_8h_1a95218be66d288a0d4bf57491e6e8b109" kindref="member">MR_AABBTreePoints_Point</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1a4ce1decb67193aca3a32dd4620995e28" kindref="member">MR_AABBTreePoints_Point_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="315"><highlight class="normal"></highlight></codeline>
-<codeline lineno="318" refid="MRAABBTreePoints_8h_1aef6b1bc1f3c3e5ab058b1e12af9934cd" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePoints_8h_1a95218be66d288a0d4bf57491e6e8b109" kindref="member">MR_AABBTreePoints_Point</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1aef6b1bc1f3c3e5ab058b1e12af9934cd" kindref="member">MR_AABBTreePoints_Point_OffsetMutablePtr</ref>(<ref refid="MRAABBTreePoints_8h_1a95218be66d288a0d4bf57491e6e8b109" kindref="member">MR_AABBTreePoints_Point</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="319"><highlight class="normal"></highlight></codeline>
-<codeline lineno="324" refid="MRAABBTreePoints_8h_1a60d3f354d21f601dc6e9722e630b688c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePoints_8h_1a95218be66d288a0d4bf57491e6e8b109" kindref="member">MR_AABBTreePoints_Point</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1a60d3f354d21f601dc6e9722e630b688c" kindref="member">MR_AABBTreePoints_Point_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a95218be66d288a0d4bf57491e6e8b109" kindref="member">MR_AABBTreePoints_Point</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="325"><highlight class="normal"></highlight></codeline>
-<codeline lineno="327" refid="MRAABBTreePoints_8h_1a3063556c4ecbb7a37e2c73027a72b6c1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a3063556c4ecbb7a37e2c73027a72b6c1" kindref="member">MR_AABBTreePoints_Point_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a95218be66d288a0d4bf57491e6e8b109" kindref="member">MR_AABBTreePoints_Point</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="328"><highlight class="normal"></highlight></codeline>
-<codeline lineno="330" refid="MRAABBTreePoints_8h_1ad3f481e9996ec2afc16c91d884fb6c0a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1ad3f481e9996ec2afc16c91d884fb6c0a" kindref="member">MR_AABBTreePoints_Point_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a95218be66d288a0d4bf57491e6e8b109" kindref="member">MR_AABBTreePoints_Point</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="331"><highlight class="normal"></highlight></codeline>
-<codeline lineno="338" refid="MRAABBTreePoints_8h_1a0044d232cc3b7e6ce160f3469070badf" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePoints_8h_1a95218be66d288a0d4bf57491e6e8b109" kindref="member">MR_AABBTreePoints_Point</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1a0044d232cc3b7e6ce160f3469070badf" kindref="member">MR_AABBTreePoints_Point_AssignFromAnother</ref>(<ref refid="MRAABBTreePoints_8h_1a95218be66d288a0d4bf57491e6e8b109" kindref="member">MR_AABBTreePoints_Point</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a95218be66d288a0d4bf57491e6e8b109" kindref="member">MR_AABBTreePoints_Point</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="321" refid="MRAABBTreePoints_8h_1ab596997c43270e15ad9beef6a1546954" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePoints_8h_1a95218be66d288a0d4bf57491e6e8b109" kindref="member">MR_AABBTreePoints_Point</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1ab596997c43270e15ad9beef6a1546954" kindref="member">MR_AABBTreePoints_Point_ConstructFrom</ref>(<ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>coord,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"></highlight></codeline>
+<codeline lineno="325" refid="MRAABBTreePoints_8h_1af1100beff016ac421426b17a7a71ecdc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a95218be66d288a0d4bf57491e6e8b109" kindref="member">MR_AABBTreePoints_Point</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1af1100beff016ac421426b17a7a71ecdc" kindref="member">MR_AABBTreePoints_Point_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a95218be66d288a0d4bf57491e6e8b109" kindref="member">MR_AABBTreePoints_Point</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="326"><highlight class="normal"></highlight></codeline>
+<codeline lineno="329" refid="MRAABBTreePoints_8h_1aef6b1bc1f3c3e5ab058b1e12af9934cd" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePoints_8h_1a95218be66d288a0d4bf57491e6e8b109" kindref="member">MR_AABBTreePoints_Point</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1aef6b1bc1f3c3e5ab058b1e12af9934cd" kindref="member">MR_AABBTreePoints_Point_OffsetMutablePtr</ref>(<ref refid="MRAABBTreePoints_8h_1a95218be66d288a0d4bf57491e6e8b109" kindref="member">MR_AABBTreePoints_Point</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="330"><highlight class="normal"></highlight></codeline>
+<codeline lineno="335" refid="MRAABBTreePoints_8h_1a60d3f354d21f601dc6e9722e630b688c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePoints_8h_1a95218be66d288a0d4bf57491e6e8b109" kindref="member">MR_AABBTreePoints_Point</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1a60d3f354d21f601dc6e9722e630b688c" kindref="member">MR_AABBTreePoints_Point_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a95218be66d288a0d4bf57491e6e8b109" kindref="member">MR_AABBTreePoints_Point</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="336"><highlight class="normal"></highlight></codeline>
+<codeline lineno="338" refid="MRAABBTreePoints_8h_1a3063556c4ecbb7a37e2c73027a72b6c1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a3063556c4ecbb7a37e2c73027a72b6c1" kindref="member">MR_AABBTreePoints_Point_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a95218be66d288a0d4bf57491e6e8b109" kindref="member">MR_AABBTreePoints_Point</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="339"><highlight class="normal"></highlight></codeline>
-<codeline lineno="340"><highlight class="normal"></highlight><highlight class="comment">//<sp/>returns<sp/>the<sp/>number<sp/>of<sp/>nodes<sp/>in<sp/>the<sp/>binary<sp/>tree<sp/>with<sp/>given<sp/>number<sp/>of<sp/>points</highlight></codeline>
-<codeline lineno="342" refid="MRAABBTreePoints_8h_1a13e421218ef034b47c8ae7e79ff41ee9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a13e421218ef034b47c8ae7e79ff41ee9" kindref="member">MR_getNumNodesPoints</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numPoints);</highlight></codeline>
-<codeline lineno="343"><highlight class="normal"></highlight></codeline>
-<codeline lineno="344"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="345"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="346"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="341" refid="MRAABBTreePoints_8h_1ad3f481e9996ec2afc16c91d884fb6c0a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1ad3f481e9996ec2afc16c91d884fb6c0a" kindref="member">MR_AABBTreePoints_Point_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a95218be66d288a0d4bf57491e6e8b109" kindref="member">MR_AABBTreePoints_Point</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"></highlight></codeline>
+<codeline lineno="349" refid="MRAABBTreePoints_8h_1a0044d232cc3b7e6ce160f3469070badf" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePoints_8h_1a95218be66d288a0d4bf57491e6e8b109" kindref="member">MR_AABBTreePoints_Point</ref><sp/>*<ref refid="MRAABBTreePoints_8h_1a0044d232cc3b7e6ce160f3469070badf" kindref="member">MR_AABBTreePoints_Point_AssignFromAnother</ref>(<ref refid="MRAABBTreePoints_8h_1a95218be66d288a0d4bf57491e6e8b109" kindref="member">MR_AABBTreePoints_Point</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a95218be66d288a0d4bf57491e6e8b109" kindref="member">MR_AABBTreePoints_Point</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="350"><highlight class="normal"></highlight></codeline>
+<codeline lineno="351"><highlight class="normal"></highlight><highlight class="comment">//<sp/>returns<sp/>the<sp/>number<sp/>of<sp/>nodes<sp/>in<sp/>the<sp/>binary<sp/>tree<sp/>with<sp/>given<sp/>number<sp/>of<sp/>points</highlight></codeline>
+<codeline lineno="353" refid="MRAABBTreePoints_8h_1a13e421218ef034b47c8ae7e79ff41ee9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a13e421218ef034b47c8ae7e79ff41ee9" kindref="member">MR_getNumNodesPoints</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numPoints);</highlight></codeline>
+<codeline lineno="354"><highlight class="normal"></highlight></codeline>
+<codeline lineno="355"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="356"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="357"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePoints.h"/>
   </compounddef>

@@ -309,7 +309,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a6c1a013edf8347b1f4636debd5b0c702" id="r_a6c1a013edf8347b1f4636debd5b0c702"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a8fc98d739c9851d16f268884a3dc9816">MR_BaseTiffParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c1a013edf8347b1f4636debd5b0c702">MR_TiffParameters_UpcastTo_MR_BaseTiffParameters</a> (const <a class="el" href="#a6cbbab1639b23d07edd9ed114d018b8f">MR_TiffParameters</a> *object)</td></tr>
 <tr class="separator:a6c1a013edf8347b1f4636debd5b0c702"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53169ec7e34f4199f7a56d0b0de42ccd" id="r_a53169ec7e34f4199f7a56d0b0de42ccd"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a8fc98d739c9851d16f268884a3dc9816">MR_BaseTiffParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53169ec7e34f4199f7a56d0b0de42ccd">MR_TiffParameters_MutableUpcastTo_MR_BaseTiffParameters</a> (<a class="el" href="#a6cbbab1639b23d07edd9ed114d018b8f">MR_TiffParameters</a> *object)</td></tr>
-<tr class="memdesc:a53169ec7e34f4199f7a56d0b0de42ccd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code>MR::TiffParameters</code> to its base class <code>MR::BaseTiffParameters</code>.  <br /></td></tr>
 <tr class="separator:a53169ec7e34f4199f7a56d0b0de42ccd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79b664ca7d6c9edbbce8d8f29e5ad9cf" id="r_a79b664ca7d6c9edbbce8d8f29e5ad9cf"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a6cbbab1639b23d07edd9ed114d018b8f">MR_TiffParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79b664ca7d6c9edbbce8d8f29e5ad9cf">MR_TiffParameters_ConstructFromAnother</a> (const <a class="el" href="#a6cbbab1639b23d07edd9ed114d018b8f">MR_TiffParameters</a> *_other)</td></tr>
 <tr class="separator:a79b664ca7d6c9edbbce8d8f29e5ad9cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -781,7 +780,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::BaseTiffParameters</code> named <code>bytesPerSample</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::BaseTiffParameters</code> named <code>bytesPerSample</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -799,7 +798,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::BaseTiffParameters</code> named <code>imageSize</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::BaseTiffParameters</code> named <code>imageSize</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -817,7 +816,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::BaseTiffParameters</code> named <code>sampleType</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::BaseTiffParameters</code> named <code>sampleType</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -835,7 +834,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::BaseTiffParameters</code> named <code>valueType</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::BaseTiffParameters</code> named <code>valueType</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -853,7 +852,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::BaseTiffParameters</code> named <code>bytesPerSample</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::BaseTiffParameters</code> named <code>bytesPerSample</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -871,7 +870,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::BaseTiffParameters</code> named <code>imageSize</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::BaseTiffParameters</code> named <code>imageSize</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -889,7 +888,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::BaseTiffParameters</code> named <code>sampleType</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::BaseTiffParameters</code> named <code>sampleType</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -907,7 +906,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::BaseTiffParameters</code> named <code>valueType</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::BaseTiffParameters</code> named <code>valueType</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -925,7 +924,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code>MR::BaseTiffParameters</code> to a derived class <code>MR::TiffParameters</code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. </p>
+<p>Downcasts an instance of <code>MR::BaseTiffParameters</code> to a derived class <code>MR::TiffParameters</code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <code>object</code> might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -1075,7 +1074,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code>MR::BaseTiffParameters</code> to a derived class <code>MR::TiffParameters</code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. </p>
+<p>Downcasts an instance of <code>MR::BaseTiffParameters</code> to a derived class <code>MR::TiffParameters</code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <code>object</code> might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -1320,7 +1319,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::RawTiffOutput</code> named <code>bytes</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::RawTiffOutput</code> named <code>bytes</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1338,7 +1337,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::RawTiffOutput</code> named <code>convertToFloat</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::RawTiffOutput</code> named <code>convertToFloat</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1356,7 +1355,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::RawTiffOutput</code> named <code>max</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::RawTiffOutput</code> named <code>max</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1374,7 +1373,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::RawTiffOutput</code> named <code>min</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::RawTiffOutput</code> named <code>min</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1392,7 +1391,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::RawTiffOutput</code> named <code>p2wXf</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::RawTiffOutput</code> named <code>p2wXf</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1410,7 +1409,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::RawTiffOutput</code> named <code>params</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::RawTiffOutput</code> named <code>params</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1428,7 +1427,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::RawTiffOutput</code> named <code>size</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::RawTiffOutput</code> named <code>size</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1446,7 +1445,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::RawTiffOutput</code> named <code>bytes</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::RawTiffOutput</code> named <code>bytes</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1464,7 +1463,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::RawTiffOutput</code> named <code>convertToFloat</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::RawTiffOutput</code> named <code>convertToFloat</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1482,7 +1481,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::RawTiffOutput</code> named <code>max</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::RawTiffOutput</code> named <code>max</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1500,7 +1499,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::RawTiffOutput</code> named <code>min</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::RawTiffOutput</code> named <code>min</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1518,7 +1517,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::RawTiffOutput</code> named <code>p2wXf</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::RawTiffOutput</code> named <code>p2wXf</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1536,7 +1535,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::RawTiffOutput</code> named <code>params</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::RawTiffOutput</code> named <code>params</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1554,7 +1553,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::RawTiffOutput</code> named <code>size</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::RawTiffOutput</code> named <code>size</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1933,7 +1932,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::TiffParameters</code> named <code>bytesPerSample</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::TiffParameters</code> named <code>bytesPerSample</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1951,7 +1950,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::TiffParameters</code> named <code>depth</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::TiffParameters</code> named <code>depth</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1969,7 +1968,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::TiffParameters</code> named <code>imageSize</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::TiffParameters</code> named <code>imageSize</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1987,7 +1986,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::TiffParameters</code> named <code>layers</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::TiffParameters</code> named <code>layers</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2005,7 +2004,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::TiffParameters</code> named <code>sampleType</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::TiffParameters</code> named <code>sampleType</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2023,7 +2022,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::TiffParameters</code> named <code>tiled</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::TiffParameters</code> named <code>tiled</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2041,7 +2040,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::TiffParameters</code> named <code>tileSize</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::TiffParameters</code> named <code>tileSize</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2059,7 +2058,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::TiffParameters</code> named <code>valueType</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::TiffParameters</code> named <code>valueType</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2077,7 +2076,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::TiffParameters</code> named <code>bytesPerSample</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::TiffParameters</code> named <code>bytesPerSample</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2095,7 +2094,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::TiffParameters</code> named <code>depth</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::TiffParameters</code> named <code>depth</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2113,7 +2112,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::TiffParameters</code> named <code>imageSize</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::TiffParameters</code> named <code>imageSize</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2131,7 +2130,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::TiffParameters</code> named <code>layers</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::TiffParameters</code> named <code>layers</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2149,7 +2148,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::TiffParameters</code> named <code>sampleType</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::TiffParameters</code> named <code>sampleType</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2167,7 +2166,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::TiffParameters</code> named <code>tiled</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::TiffParameters</code> named <code>tiled</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2185,7 +2184,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::TiffParameters</code> named <code>tileSize</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::TiffParameters</code> named <code>tileSize</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2203,7 +2202,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::TiffParameters</code> named <code>valueType</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::TiffParameters</code> named <code>valueType</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2221,8 +2220,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Upcasts an instance of <code>MR::TiffParameters</code> to its base class <code>MR::BaseTiffParameters</code>. </p>
+<p>Upcasts an instance of <code>MR::TiffParameters</code> to its base class <code>MR::BaseTiffParameters</code>. The reference to the parameter <code>object</code> might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -2460,7 +2458,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Upcasts an instance of <code>MR::TiffParameters</code> to its base class <code>MR::BaseTiffParameters</code>. This version is acting on mutable pointers. </p>
+<p>Upcasts an instance of <code>MR::TiffParameters</code> to its base class <code>MR::BaseTiffParameters</code>. This version is acting on mutable pointers. The reference to the parameter <code>object</code> might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -2702,7 +2700,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::WriteRawTiffParams</code> named <code>baseParams</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::WriteRawTiffParams</code> named <code>baseParams</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2720,7 +2718,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::WriteRawTiffParams</code> named <code>noData</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::WriteRawTiffParams</code> named <code>noData</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2738,7 +2736,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::WriteRawTiffParams</code> named <code>xf</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::WriteRawTiffParams</code> named <code>xf</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2756,7 +2754,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::WriteRawTiffParams</code> named <code>baseParams</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::WriteRawTiffParams</code> named <code>baseParams</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2774,7 +2772,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::WriteRawTiffParams</code> named <code>noData</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::WriteRawTiffParams</code> named <code>noData</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2792,7 +2790,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::WriteRawTiffParams</code> named <code>xf</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::WriteRawTiffParams</code> named <code>xf</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>

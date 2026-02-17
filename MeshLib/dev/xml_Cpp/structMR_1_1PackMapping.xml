@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" line="152" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" bodystart="152" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" line="153" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" bodystart="153" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1PackMapping_1a53564598fd272bd72bf4ea9a97a2340a" prot="public" static="no" mutable="no">
         <type>FaceBMap</type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" line="153" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" bodystart="153" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" line="154" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" bodystart="154" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1PackMapping_1a3080324e4d0c9556be1e426c7a87ff79" prot="public" static="no" mutable="no">
         <type>VertBMap</type>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" line="154" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" bodystart="154" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" line="155" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" bodystart="155" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -52,7 +52,7 @@
     <detaileddescription>
 <para>mapping of mesh elements: old -&gt; new, the mapping is tight (or packing) in the sense that there are no unused new elements within [0, (e/f/v).tsize) </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" line="150" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" bodystart="151" bodyend="155"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" line="151" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" bodystart="152" bodyend="156"/>
     <listofallmembers>
       <member refid="structMR_1_1PackMapping_1a064cdbdc31f7c5de6f7cb77f75c1a962" prot="public" virt="non-virtual"><scope>MR::PackMapping</scope><name>e</name></member>
       <member refid="structMR_1_1PackMapping_1a53564598fd272bd72bf4ea9a97a2340a" prot="public" virt="non-virtual"><scope>MR::PackMapping</scope><name>f</name></member>

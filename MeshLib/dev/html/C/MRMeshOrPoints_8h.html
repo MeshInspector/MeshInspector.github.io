@@ -1310,7 +1310,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>for point clouds it is the closest vertex, for meshes it is the closest vertex of the triangle with the closest point Returns a pointer to a member variable of class <code>MR::MeshOrPoints::ProjectionResult</code> named <code>closestVert</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>for point clouds it is the closest vertex, for meshes it is the closest vertex of the triangle with the closest point Returns a pointer to a member variable of class <code>MR::MeshOrPoints::ProjectionResult</code> named <code>closestVert</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1328,7 +1328,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>squared distance from query point to the closest point Returns a pointer to a member variable of class <code>MR::MeshOrPoints::ProjectionResult</code> named <code>distSq</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>squared distance from query point to the closest point Returns a pointer to a member variable of class <code>MR::MeshOrPoints::ProjectionResult</code> named <code>distSq</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1346,7 +1346,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>can be true only for meshes, if the closest point is located on the boundary of the mesh (or the current region) Returns a pointer to a member variable of class <code>MR::MeshOrPoints::ProjectionResult</code> named <code>isBd</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>can be true only for meshes, if the closest point is located on the boundary of the mesh (or the current region) Returns a pointer to a member variable of class <code>MR::MeshOrPoints::ProjectionResult</code> named <code>isBd</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1364,7 +1364,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>normal at the closest point; for meshes it will be pseudonormal with the differentiation depending on closest point location (face/edge/vertex) Returns a pointer to a member variable of class <code>MR::MeshOrPoints::ProjectionResult</code> named <code>normal</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>normal at the closest point; for meshes it will be pseudonormal with the differentiation depending on closest point location (face/edge/vertex) Returns a pointer to a member variable of class <code>MR::MeshOrPoints::ProjectionResult</code> named <code>normal</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1382,7 +1382,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>found closest point Returns a pointer to a member variable of class <code>MR::MeshOrPoints::ProjectionResult</code> named <code>point</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>found closest point Returns a pointer to a member variable of class <code>MR::MeshOrPoints::ProjectionResult</code> named <code>point</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1400,7 +1400,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>for point clouds it is the closest vertex, for meshes it is the closest vertex of the triangle with the closest point Returns a mutable pointer to a member variable of class <code>MR::MeshOrPoints::ProjectionResult</code> named <code>closestVert</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>for point clouds it is the closest vertex, for meshes it is the closest vertex of the triangle with the closest point Returns a mutable pointer to a member variable of class <code>MR::MeshOrPoints::ProjectionResult</code> named <code>closestVert</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1418,7 +1418,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>squared distance from query point to the closest point Returns a mutable pointer to a member variable of class <code>MR::MeshOrPoints::ProjectionResult</code> named <code>distSq</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>squared distance from query point to the closest point Returns a mutable pointer to a member variable of class <code>MR::MeshOrPoints::ProjectionResult</code> named <code>distSq</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1436,7 +1436,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>can be true only for meshes, if the closest point is located on the boundary of the mesh (or the current region) Returns a mutable pointer to a member variable of class <code>MR::MeshOrPoints::ProjectionResult</code> named <code>isBd</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>can be true only for meshes, if the closest point is located on the boundary of the mesh (or the current region) Returns a mutable pointer to a member variable of class <code>MR::MeshOrPoints::ProjectionResult</code> named <code>isBd</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1454,7 +1454,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>normal at the closest point; for meshes it will be pseudonormal with the differentiation depending on closest point location (face/edge/vertex) Returns a mutable pointer to a member variable of class <code>MR::MeshOrPoints::ProjectionResult</code> named <code>normal</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>normal at the closest point; for meshes it will be pseudonormal with the differentiation depending on closest point location (face/edge/vertex) Returns a mutable pointer to a member variable of class <code>MR::MeshOrPoints::ProjectionResult</code> named <code>normal</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1472,7 +1472,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>found closest point Returns a mutable pointer to a member variable of class <code>MR::MeshOrPoints::ProjectionResult</code> named <code>point</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>found closest point Returns a mutable pointer to a member variable of class <code>MR::MeshOrPoints::ProjectionResult</code> named <code>point</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1816,7 +1816,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::MeshOrPointsXf</code> named <code>obj</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::MeshOrPointsXf</code> named <code>obj</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1834,7 +1834,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::MeshOrPointsXf</code> named <code>xf</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::MeshOrPointsXf</code> named <code>xf</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1852,7 +1852,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::MeshOrPointsXf</code> named <code>obj</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::MeshOrPointsXf</code> named <code>obj</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1870,7 +1870,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::MeshOrPointsXf</code> named <code>xf</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::MeshOrPointsXf</code> named <code>xf</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>

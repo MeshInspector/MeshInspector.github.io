@@ -178,7 +178,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>this struct contains coordinate converters float-int-float Generated from class <computeroutput>MR::CoordinateConverters2</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). unique id of the vertex (in both contours) Returns a pointer to a member variable of class <computeroutput>MR::PreciseVertCoord</computeroutput> named <computeroutput>id</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>this struct contains coordinate converters float-int-float Generated from class <computeroutput>MR::CoordinateConverters2</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). unique id of the vertex (in both contours) Returns a pointer to a member variable of class <computeroutput>MR::PreciseVertCoord</computeroutput> named <computeroutput>id</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -202,7 +202,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="43" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="43" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="44" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="44" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1ab06a44f9269edb6c17c4f3c07c03d28a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -220,11 +220,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>unique id of the vertex (in both contours) Returns a mutable pointer to a member variable of class <computeroutput>MR::PreciseVertCoord</computeroutput> named <computeroutput>id</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>unique id of the vertex (in both contours) Returns a mutable pointer to a member variable of class <computeroutput>MR::PreciseVertCoord</computeroutput> named <computeroutput>id</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="50" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="50" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="51" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="51" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1a48af1f7455ba4abb540fe934e5c7b30a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref> *</type>
@@ -238,11 +238,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>coordinate Returns a pointer to a member variable of class <computeroutput>MR::PreciseVertCoord</computeroutput> named <computeroutput>pt</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>coordinate Returns a pointer to a member variable of class <computeroutput>MR::PreciseVertCoord</computeroutput> named <computeroutput>pt</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="56" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="56" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="58" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="58" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1adde8a70b7bdba5443497ae12880b91ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const int *</type>
@@ -260,7 +260,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="62" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="62" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="65" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="65" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1a1636659e18ec3fa4f39b785d58c4a058" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -278,11 +278,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>coordinate Returns a mutable pointer to a member variable of class <computeroutput>MR::PreciseVertCoord</computeroutput> named <computeroutput>pt</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>coordinate Returns a mutable pointer to a member variable of class <computeroutput>MR::PreciseVertCoord</computeroutput> named <computeroutput>pt</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="68" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="68" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="71" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="71" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1a4fc32ee3c6dc308f0884a59f87a24014" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API int *</type>
@@ -299,7 +299,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="74" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="74" declcolumn="13"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="78" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="78" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1aa962615b2d8079107e9934286d16a084" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRPrecisePredicates2_8h_1a96f222289284f81c9dc9a06a0fede308" kindref="member">MR_PreciseVertCoord</ref> *</type>
@@ -316,7 +316,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="78" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="78" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="82" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="82" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1a180f1ef1696ebaef3ab4890e8d3387b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRPrecisePredicates2_8h_1a96f222289284f81c9dc9a06a0fede308" kindref="member">MR_PreciseVertCoord</ref> *</type>
@@ -334,7 +334,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="83" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="83" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="87" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="87" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1af47a6207f5a0a2195f7a04e8ef9a4cc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRPrecisePredicates2_8h_1a96f222289284f81c9dc9a06a0fede308" kindref="member">MR_PreciseVertCoord</ref> *</type>
@@ -356,7 +356,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="89" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="89" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="93" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="93" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1a248fba85808e6a21365a385c28f5470e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRPrecisePredicates2_8h_1a96f222289284f81c9dc9a06a0fede308" kindref="member">MR_PreciseVertCoord</ref> *</type>
@@ -378,7 +378,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="93" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="93" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="97" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="97" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1ae2ced0e9a86dd038ed61a408dcc2547c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRPrecisePredicates2_8h_1a96f222289284f81c9dc9a06a0fede308" kindref="member">MR_PreciseVertCoord</ref> *</type>
@@ -400,7 +400,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="97" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="97" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="101" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="101" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1a8d5f5d32765d233a6e0fbe249fa91c2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRPrecisePredicates2_8h_1a96f222289284f81c9dc9a06a0fede308" kindref="member">MR_PreciseVertCoord</ref> *</type>
@@ -418,7 +418,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="103" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="103" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="107" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="107" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1a43cc9a35d407c509a4e338d22bff19be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -436,7 +436,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="106" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="106" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="110" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="110" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1a368cc5d598e5bd4240ab784547adad2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -454,7 +454,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="109" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="109" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="113" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="113" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1a912314df1ee7102b93047421be7ccd29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRPrecisePredicates2_8h_1a96f222289284f81c9dc9a06a0fede308" kindref="member">MR_PreciseVertCoord</ref> *</type>
@@ -476,7 +476,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="117" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="117" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="121" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="121" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1a0fb8166b202665fc2edbc665ac84cff9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool</type>
@@ -498,7 +498,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="124" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="124" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="128" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="128" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1a327c58f5673799a3023018c10c69bff3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool</type>
@@ -520,7 +520,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="131" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="131" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="135" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="135" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1ab8d6af3ff90982374a97f40550e54c40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool</type>
@@ -542,11 +542,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>return true if the smallest rotation from vector (a-c) to vector (b-c) is in counter-clock-wise direction; uses simulation-of-simplicity (assuming perturbations a &gt;&gt; b &gt;&gt; c) to avoid &quot;vectors are collinear&quot; Generated from function <computeroutput>MR::ccw</computeroutput>. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. Parameter <computeroutput>c</computeroutput> can not be null. It is a single object. unique id of the vertex (in both contours) Returns a pointer to a member variable of class <computeroutput>MR::PreciseVertCoords2</computeroutput> named <computeroutput>id</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>return true if the smallest rotation from vector (a-c) to vector (b-c) is in counter-clock-wise direction; uses simulation-of-simplicity (assuming perturbations a &gt;&gt; b &gt;&gt; c) to avoid &quot;vectors are collinear&quot; Generated from function <computeroutput>MR::ccw</computeroutput>. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. Parameter <computeroutput>c</computeroutput> can not be null. It is a single object. unique id of the vertex (in both contours) Returns a pointer to a member variable of class <computeroutput>MR::PreciseVertCoords2</computeroutput> named <computeroutput>id</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="139" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="139" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="143" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="143" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1a887d2c8dcbda2b6db8d6edfecc5c9a91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref> *</type>
@@ -564,7 +564,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="145" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="145" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="150" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="150" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1a55c8970213e845850da04b7cfbc388ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -582,11 +582,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>unique id of the vertex (in both contours) Returns a mutable pointer to a member variable of class <computeroutput>MR::PreciseVertCoords2</computeroutput> named <computeroutput>id</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>unique id of the vertex (in both contours) Returns a mutable pointer to a member variable of class <computeroutput>MR::PreciseVertCoords2</computeroutput> named <computeroutput>id</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="152" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="152" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="157" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="157" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1a890d55fba9e6b0719e8681c6dfb4d4dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref> *</type>
@@ -600,11 +600,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>integer coordinates of the vertex Returns a pointer to a member variable of class <computeroutput>MR::PreciseVertCoords2</computeroutput> named <computeroutput>pt</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>integer coordinates of the vertex Returns a pointer to a member variable of class <computeroutput>MR::PreciseVertCoords2</computeroutput> named <computeroutput>pt</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="158" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="158" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="164" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="164" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1aa50bf79fc2ff1e53eec0258b348b8edb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref> *</type>
@@ -622,7 +622,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="164" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="164" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="171" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="171" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1a373e3b1d41c8ab027d966d99c669f0a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -640,11 +640,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>integer coordinates of the vertex Returns a mutable pointer to a member variable of class <computeroutput>MR::PreciseVertCoords2</computeroutput> named <computeroutput>pt</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>integer coordinates of the vertex Returns a mutable pointer to a member variable of class <computeroutput>MR::PreciseVertCoords2</computeroutput> named <computeroutput>pt</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="171" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="171" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="178" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="178" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1a72244459e0f08e7009f78d833e1ca6ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref> *</type>
@@ -661,7 +661,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="177" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="177" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="185" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="185" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1a08f03f723526ce0d167a00ce503f32fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRPrecisePredicates2_8h_1a7f08740567645d626828a48dafb9f103" kindref="member">MR_PreciseVertCoords2</ref> *</type>
@@ -678,7 +678,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="181" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="181" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="189" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="189" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1ad04819661f2ef5d57d252286e0765860" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRPrecisePredicates2_8h_1a7f08740567645d626828a48dafb9f103" kindref="member">MR_PreciseVertCoords2</ref> *</type>
@@ -696,7 +696,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="186" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="186" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="194" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="194" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1ad63c778afe08c94fb6c57d18a96ac383" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRPrecisePredicates2_8h_1a7f08740567645d626828a48dafb9f103" kindref="member">MR_PreciseVertCoords2</ref> *</type>
@@ -718,7 +718,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="193" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="193" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="201" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="201" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1a932433b4e9b36359705519bfd4043905" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRPrecisePredicates2_8h_1a7f08740567645d626828a48dafb9f103" kindref="member">MR_PreciseVertCoords2</ref> *</type>
@@ -740,7 +740,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="197" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="197" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="205" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="205" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1a0d6f9c20d7a037b03bde8acad81d16b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRPrecisePredicates2_8h_1a7f08740567645d626828a48dafb9f103" kindref="member">MR_PreciseVertCoords2</ref> *</type>
@@ -762,7 +762,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="201" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="201" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="209" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="209" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1ab968bde484929129a2ef1a3c8a4866c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRPrecisePredicates2_8h_1a7f08740567645d626828a48dafb9f103" kindref="member">MR_PreciseVertCoords2</ref> *</type>
@@ -780,7 +780,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="207" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="207" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="215" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="215" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1ae1f96de2aeec4f7f78759cce0f0e1ed4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -798,7 +798,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="210" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="210" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="218" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="218" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1a9d88cd71bcac7964a212d80cf98f16b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -816,7 +816,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="213" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="213" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="221" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="221" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1aa79072328e5f0fe23f54387a07ea0f2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRPrecisePredicates2_8h_1a7f08740567645d626828a48dafb9f103" kindref="member">MR_PreciseVertCoords2</ref> *</type>
@@ -838,7 +838,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="221" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="221" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="229" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="229" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1a68c7a7426f35371def9887b78a5fc177" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool</type>
@@ -856,7 +856,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="227" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="227" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="235" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="235" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1ab5f34a9a015dab9e749d6edb5a591191" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool</type>
@@ -874,7 +874,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="230" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="230" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="238" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="238" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1a8cd1c085979249907322965c67615be4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool</type>
@@ -892,7 +892,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="238" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="238" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="246" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="246" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1a15cac3428d4f738156a8815ac4e65038" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool</type>
@@ -918,7 +918,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="247" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="247" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="255" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="255" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1a789f6aee89fb59dbf146a61e53fec11a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool</type>
@@ -948,7 +948,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="254" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="254" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="262" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="262" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1a51d8f2586cf66b0b0603103f2a93d140" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool</type>
@@ -966,7 +966,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="259" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="259" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="267" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="267" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1ad044103a27c3760d4c54cbb6ce278e87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool</type>
@@ -981,11 +981,11 @@
 <para>Generated from function <computeroutput>MR::inCircle</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
-<para>whether the segments intersect Returns a pointer to a member variable of class <computeroutput>MR::SegmentSegmentIntersectResult</computeroutput> named <computeroutput>doIntersect</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>whether the segments intersect Returns a pointer to a member variable of class <computeroutput>MR::SegmentSegmentIntersectResult</computeroutput> named <computeroutput>doIntersect</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="262" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="262" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="270" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="270" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1ac9c6ef83141d4f039529b9ba4dea944e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const bool *</type>
@@ -1003,7 +1003,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="268" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="268" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="277" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="277" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1adc590f8e9ac75a55cc583a9bc13bcd52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1021,11 +1021,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>whether the segments intersect Returns a mutable pointer to a member variable of class <computeroutput>MR::SegmentSegmentIntersectResult</computeroutput> named <computeroutput>doIntersect</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>whether the segments intersect Returns a mutable pointer to a member variable of class <computeroutput>MR::SegmentSegmentIntersectResult</computeroutput> named <computeroutput>doIntersect</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="274" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="274" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="283" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="283" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1ad83f4bd93cc9a0a0e8cb56635740c910" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool *</type>
@@ -1039,11 +1039,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>whether the directed line AB has C point at the left Returns a pointer to a member variable of class <computeroutput>MR::SegmentSegmentIntersectResult</computeroutput> named <computeroutput>cIsLeftFromAB</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>whether the directed line AB has C point at the left Returns a pointer to a member variable of class <computeroutput>MR::SegmentSegmentIntersectResult</computeroutput> named <computeroutput>cIsLeftFromAB</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="280" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="280" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="290" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="290" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1acc56d459d3bbc4aecba79f0c2e227761" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const bool *</type>
@@ -1061,7 +1061,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="286" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="286" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="297" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="297" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1abb51644e156eca864d96efbcd5f46aac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1079,11 +1079,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>whether the directed line AB has C point at the left Returns a mutable pointer to a member variable of class <computeroutput>MR::SegmentSegmentIntersectResult</computeroutput> named <computeroutput>cIsLeftFromAB</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>whether the directed line AB has C point at the left Returns a mutable pointer to a member variable of class <computeroutput>MR::SegmentSegmentIntersectResult</computeroutput> named <computeroutput>cIsLeftFromAB</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="292" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="292" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="303" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="303" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1a79c5d4e07840c852c519400c2d6f88e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool *</type>
@@ -1100,7 +1100,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="298" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="298" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="310" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="310" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1ad41c5cdf7ceec874d09771c352d00dc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRPrecisePredicates2_8h_1aa14a93fd28ed5a76cd067e26194b2c5e" kindref="member">MR_SegmentSegmentIntersectResult</ref> *</type>
@@ -1117,7 +1117,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="302" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="302" declcolumn="42"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="314" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="314" declcolumn="42"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1a74abcd1e419580ad960e9f702cdb4864" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRPrecisePredicates2_8h_1aa14a93fd28ed5a76cd067e26194b2c5e" kindref="member">MR_SegmentSegmentIntersectResult</ref> *</type>
@@ -1135,7 +1135,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="307" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="307" declcolumn="42"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="319" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="319" declcolumn="42"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1aeb2ce4ce8d6aac7e96ddb3bb0d2cfcf7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRPrecisePredicates2_8h_1aa14a93fd28ed5a76cd067e26194b2c5e" kindref="member">MR_SegmentSegmentIntersectResult</ref> *</type>
@@ -1157,7 +1157,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="312" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="312" declcolumn="42"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="324" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="324" declcolumn="42"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1a9c7179a124edec09a61f5c97ff122af5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRPrecisePredicates2_8h_1aa14a93fd28ed5a76cd067e26194b2c5e" kindref="member">MR_SegmentSegmentIntersectResult</ref> *</type>
@@ -1179,7 +1179,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="316" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="316" declcolumn="48"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="328" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="328" declcolumn="48"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1a8efabfec832f58e4b7f26c95a1c95ff9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRPrecisePredicates2_8h_1aa14a93fd28ed5a76cd067e26194b2c5e" kindref="member">MR_SegmentSegmentIntersectResult</ref> *</type>
@@ -1201,7 +1201,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="320" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="320" declcolumn="42"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="332" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="332" declcolumn="42"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1a9b10e0e50b8ba857c830bb2a88f767b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRPrecisePredicates2_8h_1aa14a93fd28ed5a76cd067e26194b2c5e" kindref="member">MR_SegmentSegmentIntersectResult</ref> *</type>
@@ -1219,7 +1219,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="326" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="326" declcolumn="42"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="338" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="338" declcolumn="42"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1ac4879318f91545796af20560d91d923e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1237,7 +1237,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="329" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="329" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="341" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="341" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1a377279c4ef041177da5004b9b1dd313e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1255,7 +1255,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="332" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="332" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="344" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="344" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1a3b39cb3bb5be585ea59db57e35111780" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool</type>
@@ -1273,7 +1273,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="336" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="336" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="348" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="348" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1a6abea27c9b8fa4e876e9fae7fdb31e07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRPrecisePredicates2_8h_1aa14a93fd28ed5a76cd067e26194b2c5e" kindref="member">MR_SegmentSegmentIntersectResult</ref> *</type>
@@ -1295,7 +1295,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="344" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="344" declcolumn="42"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="356" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="356" declcolumn="42"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1a92c2983236dc68e0b1284bc280cf8cc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRPrecisePredicates2_8h_1aa14a93fd28ed5a76cd067e26194b2c5e" kindref="member">MR_SegmentSegmentIntersectResult</ref> *</type>
@@ -1313,7 +1313,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="351" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="351" declcolumn="42"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="363" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="363" declcolumn="42"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1a44317bed58772bd9a84bd9b55de8c5e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRPrecisePredicates2_8h_1a8c5a467b31e338f553885db4082fb2eb" kindref="member">MR_std_function_MR_Vector2i_from_const_MR_Vector2f_ref</ref> *</type>
@@ -1327,11 +1327,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::CoordinateConverters2</computeroutput> named <computeroutput>toInt</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::CoordinateConverters2</computeroutput> named <computeroutput>toInt</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="356" column="70" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="356" declcolumn="70"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="369" column="70" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="369" declcolumn="70"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1a4f46a0f82e95c48750f055da2d9d74d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1357,7 +1357,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="362" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="362" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="375" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="375" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1a80faa736be3150d03c915a98f6a2c6ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRPrecisePredicates2_8h_1a8c5a467b31e338f553885db4082fb2eb" kindref="member">MR_std_function_MR_Vector2i_from_const_MR_Vector2f_ref</ref> *</type>
@@ -1371,11 +1371,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::CoordinateConverters2</computeroutput> named <computeroutput>toInt</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::CoordinateConverters2</computeroutput> named <computeroutput>toInt</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="367" column="64" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="367" declcolumn="64"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="381" column="64" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="381" declcolumn="64"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1a5e1f22c568393c876156913e0e398bc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRPrecisePredicates2_8h_1a7d43ba2c246515df230aacd60e964729" kindref="member">MR_std_function_MR_Vector2f_from_const_MR_Vector2i_ref</ref> *</type>
@@ -1389,11 +1389,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::CoordinateConverters2</computeroutput> named <computeroutput>toFloat</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::CoordinateConverters2</computeroutput> named <computeroutput>toFloat</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="372" column="70" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="372" declcolumn="70"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="387" column="70" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="387" declcolumn="70"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1a9fcd190ddd04a8d1efa6e3f86e7b59fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1419,7 +1419,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="378" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="378" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="393" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="393" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1a300595db3ab6e4d46ca13032bc3ca027" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRPrecisePredicates2_8h_1a7d43ba2c246515df230aacd60e964729" kindref="member">MR_std_function_MR_Vector2f_from_const_MR_Vector2i_ref</ref> *</type>
@@ -1433,11 +1433,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::CoordinateConverters2</computeroutput> named <computeroutput>toFloat</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::CoordinateConverters2</computeroutput> named <computeroutput>toFloat</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="383" column="64" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="383" declcolumn="64"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="399" column="64" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="399" declcolumn="64"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1a88b825ace4e727d99a151e9285fe4742" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRPrecisePredicates2_8h_1aba207e8e2df9b894c2e8e525351c3e57" kindref="member">MR_CoordinateConverters2</ref> *</type>
@@ -1454,7 +1454,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="387" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="387" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="403" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="403" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1a60d19e80cd60e41326cc6eeda5f396d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRPrecisePredicates2_8h_1aba207e8e2df9b894c2e8e525351c3e57" kindref="member">MR_CoordinateConverters2</ref> *</type>
@@ -1472,7 +1472,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="392" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="392" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="408" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="408" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1ac0058d66773036cb37b1825c67470ee1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRPrecisePredicates2_8h_1aba207e8e2df9b894c2e8e525351c3e57" kindref="member">MR_CoordinateConverters2</ref> *</type>
@@ -1502,7 +1502,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="399" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="399" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="415" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="415" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1aceddb20cf11b61d97d5ca5a77d8bd051" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRPrecisePredicates2_8h_1aba207e8e2df9b894c2e8e525351c3e57" kindref="member">MR_CoordinateConverters2</ref> *</type>
@@ -1524,7 +1524,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="403" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="403" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="419" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="419" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1a1af09975a99577ca0e6c7faa731f0c63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRPrecisePredicates2_8h_1aba207e8e2df9b894c2e8e525351c3e57" kindref="member">MR_CoordinateConverters2</ref> *</type>
@@ -1546,7 +1546,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="407" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="407" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="423" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="423" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1aa8a9328ceaac62a6f3523f5756a66caf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRPrecisePredicates2_8h_1aba207e8e2df9b894c2e8e525351c3e57" kindref="member">MR_CoordinateConverters2</ref> *</type>
@@ -1568,7 +1568,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="412" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="412" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="428" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="428" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1a305bbbb97671321a8409ff7624896144" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1586,7 +1586,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="415" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="415" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="431" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="431" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1a830fb81002fe3935c0c2748caf54f689" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1604,7 +1604,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="418" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="418" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="434" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="434" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1a37656167872aec2b5107bb0d0556a9f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRPrecisePredicates2_8h_1aba207e8e2df9b894c2e8e525351c3e57" kindref="member">MR_CoordinateConverters2</ref> *</type>
@@ -1630,7 +1630,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="425" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="425" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="441" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="441" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1a3a40d0c48faea9f89774b44cecc8fd35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool</type>
@@ -1648,7 +1648,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="433" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="433" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="449" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="449" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1ae2eb79545a6d5eda704625198cce3861" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref></type>
@@ -1678,7 +1678,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="442" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="442" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="458" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="458" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRPrecisePredicates2_8h_1a0a878a2db00266f18b7b718667440828" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref></type>
@@ -1716,7 +1716,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="451" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="451" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" line="467" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h" declline="467" declcolumn="21"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1753,159 +1753,159 @@
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
 <codeline lineno="37" refid="MRPrecisePredicates2_8h_1aba207e8e2df9b894c2e8e525351c3e57" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPrecisePredicates2_8h_1aba207e8e2df9b894c2e8e525351c3e57" kindref="member">MR_CoordinateConverters2</ref><sp/><ref refid="MRPrecisePredicates2_8h_1aba207e8e2df9b894c2e8e525351c3e57" kindref="member">MR_CoordinateConverters2</ref>;</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43" refid="MRPrecisePredicates2_8h_1a836facf277fe1a7f0266f08a0109a57e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1a836facf277fe1a7f0266f08a0109a57e" kindref="member">MR_PreciseVertCoord_Get_id</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a96f222289284f81c9dc9a06a0fede308" kindref="member">MR_PreciseVertCoord</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="44"><highlight class="normal"></highlight></codeline>
-<codeline lineno="50" refid="MRPrecisePredicates2_8h_1ab06a44f9269edb6c17c4f3c07c03d28a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1ab06a44f9269edb6c17c4f3c07c03d28a" kindref="member">MR_PreciseVertCoord_Set_id</ref>(<ref refid="MRPrecisePredicates2_8h_1a96f222289284f81c9dc9a06a0fede308" kindref="member">MR_PreciseVertCoord</ref><sp/>*_this,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>value);</highlight></codeline>
-<codeline lineno="51"><highlight class="normal"></highlight></codeline>
-<codeline lineno="56" refid="MRPrecisePredicates2_8h_1a48af1f7455ba4abb540fe934e5c7b30a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1a48af1f7455ba4abb540fe934e5c7b30a" kindref="member">MR_PreciseVertCoord_GetMutable_id</ref>(<ref refid="MRPrecisePredicates2_8h_1a96f222289284f81c9dc9a06a0fede308" kindref="member">MR_PreciseVertCoord</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="57"><highlight class="normal"></highlight></codeline>
-<codeline lineno="62" refid="MRPrecisePredicates2_8h_1adde8a70b7bdba5443497ae12880b91ec" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRPrecisePredicates2_8h_1adde8a70b7bdba5443497ae12880b91ec" kindref="member">MR_PreciseVertCoord_Get_pt</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a96f222289284f81c9dc9a06a0fede308" kindref="member">MR_PreciseVertCoord</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="63"><highlight class="normal"></highlight></codeline>
-<codeline lineno="68" refid="MRPrecisePredicates2_8h_1a1636659e18ec3fa4f39b785d58c4a058" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a1636659e18ec3fa4f39b785d58c4a058" kindref="member">MR_PreciseVertCoord_Set_pt</ref>(<ref refid="MRPrecisePredicates2_8h_1a96f222289284f81c9dc9a06a0fede308" kindref="member">MR_PreciseVertCoord</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="69"><highlight class="normal"></highlight></codeline>
-<codeline lineno="74" refid="MRPrecisePredicates2_8h_1a4fc32ee3c6dc308f0884a59f87a24014" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRPrecisePredicates2_8h_1a4fc32ee3c6dc308f0884a59f87a24014" kindref="member">MR_PreciseVertCoord_GetMutable_pt</ref>(<ref refid="MRPrecisePredicates2_8h_1a96f222289284f81c9dc9a06a0fede308" kindref="member">MR_PreciseVertCoord</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="75"><highlight class="normal"></highlight></codeline>
-<codeline lineno="78" refid="MRPrecisePredicates2_8h_1aa962615b2d8079107e9934286d16a084" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1a96f222289284f81c9dc9a06a0fede308" kindref="member">MR_PreciseVertCoord</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1aa962615b2d8079107e9934286d16a084" kindref="member">MR_PreciseVertCoord_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="44" refid="MRPrecisePredicates2_8h_1a836facf277fe1a7f0266f08a0109a57e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1a836facf277fe1a7f0266f08a0109a57e" kindref="member">MR_PreciseVertCoord_Get_id</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a96f222289284f81c9dc9a06a0fede308" kindref="member">MR_PreciseVertCoord</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="MRPrecisePredicates2_8h_1ab06a44f9269edb6c17c4f3c07c03d28a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1ab06a44f9269edb6c17c4f3c07c03d28a" kindref="member">MR_PreciseVertCoord_Set_id</ref>(<ref refid="MRPrecisePredicates2_8h_1a96f222289284f81c9dc9a06a0fede308" kindref="member">MR_PreciseVertCoord</ref><sp/>*_this,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>value);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="MRPrecisePredicates2_8h_1a48af1f7455ba4abb540fe934e5c7b30a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1a48af1f7455ba4abb540fe934e5c7b30a" kindref="member">MR_PreciseVertCoord_GetMutable_id</ref>(<ref refid="MRPrecisePredicates2_8h_1a96f222289284f81c9dc9a06a0fede308" kindref="member">MR_PreciseVertCoord</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="MRPrecisePredicates2_8h_1adde8a70b7bdba5443497ae12880b91ec" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRPrecisePredicates2_8h_1adde8a70b7bdba5443497ae12880b91ec" kindref="member">MR_PreciseVertCoord_Get_pt</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a96f222289284f81c9dc9a06a0fede308" kindref="member">MR_PreciseVertCoord</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="MRPrecisePredicates2_8h_1a1636659e18ec3fa4f39b785d58c4a058" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a1636659e18ec3fa4f39b785d58c4a058" kindref="member">MR_PreciseVertCoord_Set_pt</ref>(<ref refid="MRPrecisePredicates2_8h_1a96f222289284f81c9dc9a06a0fede308" kindref="member">MR_PreciseVertCoord</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="MRPrecisePredicates2_8h_1a4fc32ee3c6dc308f0884a59f87a24014" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRPrecisePredicates2_8h_1a4fc32ee3c6dc308f0884a59f87a24014" kindref="member">MR_PreciseVertCoord_GetMutable_pt</ref>(<ref refid="MRPrecisePredicates2_8h_1a96f222289284f81c9dc9a06a0fede308" kindref="member">MR_PreciseVertCoord</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="79"><highlight class="normal"></highlight></codeline>
-<codeline lineno="83" refid="MRPrecisePredicates2_8h_1a180f1ef1696ebaef3ab4890e8d3387b4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1a96f222289284f81c9dc9a06a0fede308" kindref="member">MR_PreciseVertCoord</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1a180f1ef1696ebaef3ab4890e8d3387b4" kindref="member">MR_PreciseVertCoord_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="84"><highlight class="normal"></highlight></codeline>
-<codeline lineno="89" refid="MRPrecisePredicates2_8h_1af47a6207f5a0a2195f7a04e8ef9a4cc5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1a96f222289284f81c9dc9a06a0fede308" kindref="member">MR_PreciseVertCoord</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1af47a6207f5a0a2195f7a04e8ef9a4cc5" kindref="member">MR_PreciseVertCoord_ConstructFrom</ref>(<ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pt);</highlight></codeline>
-<codeline lineno="90"><highlight class="normal"></highlight></codeline>
-<codeline lineno="93" refid="MRPrecisePredicates2_8h_1a248fba85808e6a21365a385c28f5470e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a96f222289284f81c9dc9a06a0fede308" kindref="member">MR_PreciseVertCoord</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1a248fba85808e6a21365a385c28f5470e" kindref="member">MR_PreciseVertCoord_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a96f222289284f81c9dc9a06a0fede308" kindref="member">MR_PreciseVertCoord</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="82" refid="MRPrecisePredicates2_8h_1aa962615b2d8079107e9934286d16a084" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1a96f222289284f81c9dc9a06a0fede308" kindref="member">MR_PreciseVertCoord</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1aa962615b2d8079107e9934286d16a084" kindref="member">MR_PreciseVertCoord_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="MRPrecisePredicates2_8h_1a180f1ef1696ebaef3ab4890e8d3387b4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1a96f222289284f81c9dc9a06a0fede308" kindref="member">MR_PreciseVertCoord</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1a180f1ef1696ebaef3ab4890e8d3387b4" kindref="member">MR_PreciseVertCoord_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="MRPrecisePredicates2_8h_1af47a6207f5a0a2195f7a04e8ef9a4cc5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1a96f222289284f81c9dc9a06a0fede308" kindref="member">MR_PreciseVertCoord</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1af47a6207f5a0a2195f7a04e8ef9a4cc5" kindref="member">MR_PreciseVertCoord_ConstructFrom</ref>(<ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pt);</highlight></codeline>
 <codeline lineno="94"><highlight class="normal"></highlight></codeline>
-<codeline lineno="97" refid="MRPrecisePredicates2_8h_1ae2ced0e9a86dd038ed61a408dcc2547c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1a96f222289284f81c9dc9a06a0fede308" kindref="member">MR_PreciseVertCoord</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1ae2ced0e9a86dd038ed61a408dcc2547c" kindref="member">MR_PreciseVertCoord_OffsetMutablePtr</ref>(<ref refid="MRPrecisePredicates2_8h_1a96f222289284f81c9dc9a06a0fede308" kindref="member">MR_PreciseVertCoord</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="97" refid="MRPrecisePredicates2_8h_1a248fba85808e6a21365a385c28f5470e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a96f222289284f81c9dc9a06a0fede308" kindref="member">MR_PreciseVertCoord</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1a248fba85808e6a21365a385c28f5470e" kindref="member">MR_PreciseVertCoord_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a96f222289284f81c9dc9a06a0fede308" kindref="member">MR_PreciseVertCoord</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="98"><highlight class="normal"></highlight></codeline>
-<codeline lineno="103" refid="MRPrecisePredicates2_8h_1a8d5f5d32765d233a6e0fbe249fa91c2f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1a96f222289284f81c9dc9a06a0fede308" kindref="member">MR_PreciseVertCoord</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1a8d5f5d32765d233a6e0fbe249fa91c2f" kindref="member">MR_PreciseVertCoord_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a96f222289284f81c9dc9a06a0fede308" kindref="member">MR_PreciseVertCoord</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="104"><highlight class="normal"></highlight></codeline>
-<codeline lineno="106" refid="MRPrecisePredicates2_8h_1a43cc9a35d407c509a4e338d22bff19be" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a43cc9a35d407c509a4e338d22bff19be" kindref="member">MR_PreciseVertCoord_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a96f222289284f81c9dc9a06a0fede308" kindref="member">MR_PreciseVertCoord</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="107"><highlight class="normal"></highlight></codeline>
-<codeline lineno="109" refid="MRPrecisePredicates2_8h_1a368cc5d598e5bd4240ab784547adad2d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a368cc5d598e5bd4240ab784547adad2d" kindref="member">MR_PreciseVertCoord_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a96f222289284f81c9dc9a06a0fede308" kindref="member">MR_PreciseVertCoord</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="110"><highlight class="normal"></highlight></codeline>
-<codeline lineno="117" refid="MRPrecisePredicates2_8h_1a912314df1ee7102b93047421be7ccd29" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1a96f222289284f81c9dc9a06a0fede308" kindref="member">MR_PreciseVertCoord</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1a912314df1ee7102b93047421be7ccd29" kindref="member">MR_PreciseVertCoord_AssignFromAnother</ref>(<ref refid="MRPrecisePredicates2_8h_1a96f222289284f81c9dc9a06a0fede308" kindref="member">MR_PreciseVertCoord</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a96f222289284f81c9dc9a06a0fede308" kindref="member">MR_PreciseVertCoord</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="118"><highlight class="normal"></highlight></codeline>
-<codeline lineno="124" refid="MRPrecisePredicates2_8h_1a0fb8166b202665fc2edbc665ac84cff9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a0fb8166b202665fc2edbc665ac84cff9" kindref="member">MR_smaller</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a96f222289284f81c9dc9a06a0fede308" kindref="member">MR_PreciseVertCoord</ref><sp/>*l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a96f222289284f81c9dc9a06a0fede308" kindref="member">MR_PreciseVertCoord</ref><sp/>*r);</highlight></codeline>
-<codeline lineno="125"><highlight class="normal"></highlight></codeline>
-<codeline lineno="131" refid="MRPrecisePredicates2_8h_1a327c58f5673799a3023018c10c69bff3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a327c58f5673799a3023018c10c69bff3" kindref="member">MR_ccw_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*b);</highlight></codeline>
-<codeline lineno="132"><highlight class="normal"></highlight></codeline>
-<codeline lineno="139" refid="MRPrecisePredicates2_8h_1ab8d6af3ff90982374a97f40550e54c40" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1ab8d6af3ff90982374a97f40550e54c40" kindref="member">MR_ccw_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*c);</highlight></codeline>
-<codeline lineno="140"><highlight class="normal"></highlight></codeline>
-<codeline lineno="145" refid="MRPrecisePredicates2_8h_1a887d2c8dcbda2b6db8d6edfecc5c9a91" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1a887d2c8dcbda2b6db8d6edfecc5c9a91" kindref="member">MR_PreciseVertCoords2_Get_id</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a7f08740567645d626828a48dafb9f103" kindref="member">MR_PreciseVertCoords2</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="146"><highlight class="normal"></highlight></codeline>
-<codeline lineno="152" refid="MRPrecisePredicates2_8h_1a55c8970213e845850da04b7cfbc388ff" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a55c8970213e845850da04b7cfbc388ff" kindref="member">MR_PreciseVertCoords2_Set_id</ref>(<ref refid="MRPrecisePredicates2_8h_1a7f08740567645d626828a48dafb9f103" kindref="member">MR_PreciseVertCoords2</ref><sp/>*_this,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>value);</highlight></codeline>
-<codeline lineno="153"><highlight class="normal"></highlight></codeline>
-<codeline lineno="158" refid="MRPrecisePredicates2_8h_1a890d55fba9e6b0719e8681c6dfb4d4dc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1a890d55fba9e6b0719e8681c6dfb4d4dc" kindref="member">MR_PreciseVertCoords2_GetMutable_id</ref>(<ref refid="MRPrecisePredicates2_8h_1a7f08740567645d626828a48dafb9f103" kindref="member">MR_PreciseVertCoords2</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="159"><highlight class="normal"></highlight></codeline>
-<codeline lineno="164" refid="MRPrecisePredicates2_8h_1aa50bf79fc2ff1e53eec0258b348b8edb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1aa50bf79fc2ff1e53eec0258b348b8edb" kindref="member">MR_PreciseVertCoords2_Get_pt</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a7f08740567645d626828a48dafb9f103" kindref="member">MR_PreciseVertCoords2</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="101" refid="MRPrecisePredicates2_8h_1ae2ced0e9a86dd038ed61a408dcc2547c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1a96f222289284f81c9dc9a06a0fede308" kindref="member">MR_PreciseVertCoord</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1ae2ced0e9a86dd038ed61a408dcc2547c" kindref="member">MR_PreciseVertCoord_OffsetMutablePtr</ref>(<ref refid="MRPrecisePredicates2_8h_1a96f222289284f81c9dc9a06a0fede308" kindref="member">MR_PreciseVertCoord</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="MRPrecisePredicates2_8h_1a8d5f5d32765d233a6e0fbe249fa91c2f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1a96f222289284f81c9dc9a06a0fede308" kindref="member">MR_PreciseVertCoord</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1a8d5f5d32765d233a6e0fbe249fa91c2f" kindref="member">MR_PreciseVertCoord_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a96f222289284f81c9dc9a06a0fede308" kindref="member">MR_PreciseVertCoord</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="MRPrecisePredicates2_8h_1a43cc9a35d407c509a4e338d22bff19be" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a43cc9a35d407c509a4e338d22bff19be" kindref="member">MR_PreciseVertCoord_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a96f222289284f81c9dc9a06a0fede308" kindref="member">MR_PreciseVertCoord</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="MRPrecisePredicates2_8h_1a368cc5d598e5bd4240ab784547adad2d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a368cc5d598e5bd4240ab784547adad2d" kindref="member">MR_PreciseVertCoord_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a96f222289284f81c9dc9a06a0fede308" kindref="member">MR_PreciseVertCoord</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121" refid="MRPrecisePredicates2_8h_1a912314df1ee7102b93047421be7ccd29" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1a96f222289284f81c9dc9a06a0fede308" kindref="member">MR_PreciseVertCoord</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1a912314df1ee7102b93047421be7ccd29" kindref="member">MR_PreciseVertCoord_AssignFromAnother</ref>(<ref refid="MRPrecisePredicates2_8h_1a96f222289284f81c9dc9a06a0fede308" kindref="member">MR_PreciseVertCoord</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a96f222289284f81c9dc9a06a0fede308" kindref="member">MR_PreciseVertCoord</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128" refid="MRPrecisePredicates2_8h_1a0fb8166b202665fc2edbc665ac84cff9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a0fb8166b202665fc2edbc665ac84cff9" kindref="member">MR_smaller</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a96f222289284f81c9dc9a06a0fede308" kindref="member">MR_PreciseVertCoord</ref><sp/>*l,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a96f222289284f81c9dc9a06a0fede308" kindref="member">MR_PreciseVertCoord</ref><sp/>*r);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135" refid="MRPrecisePredicates2_8h_1a327c58f5673799a3023018c10c69bff3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a327c58f5673799a3023018c10c69bff3" kindref="member">MR_ccw_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="MRPrecisePredicates2_8h_1ab8d6af3ff90982374a97f40550e54c40" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1ab8d6af3ff90982374a97f40550e54c40" kindref="member">MR_ccw_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*c);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150" refid="MRPrecisePredicates2_8h_1a887d2c8dcbda2b6db8d6edfecc5c9a91" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1a887d2c8dcbda2b6db8d6edfecc5c9a91" kindref="member">MR_PreciseVertCoords2_Get_id</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a7f08740567645d626828a48dafb9f103" kindref="member">MR_PreciseVertCoords2</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157" refid="MRPrecisePredicates2_8h_1a55c8970213e845850da04b7cfbc388ff" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a55c8970213e845850da04b7cfbc388ff" kindref="member">MR_PreciseVertCoords2_Set_id</ref>(<ref refid="MRPrecisePredicates2_8h_1a7f08740567645d626828a48dafb9f103" kindref="member">MR_PreciseVertCoords2</ref><sp/>*_this,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>value);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164" refid="MRPrecisePredicates2_8h_1a890d55fba9e6b0719e8681c6dfb4d4dc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1a890d55fba9e6b0719e8681c6dfb4d4dc" kindref="member">MR_PreciseVertCoords2_GetMutable_id</ref>(<ref refid="MRPrecisePredicates2_8h_1a7f08740567645d626828a48dafb9f103" kindref="member">MR_PreciseVertCoords2</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="165"><highlight class="normal"></highlight></codeline>
-<codeline lineno="171" refid="MRPrecisePredicates2_8h_1a373e3b1d41c8ab027d966d99c669f0a4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a373e3b1d41c8ab027d966d99c669f0a4" kindref="member">MR_PreciseVertCoords2_Set_pt</ref>(<ref refid="MRPrecisePredicates2_8h_1a7f08740567645d626828a48dafb9f103" kindref="member">MR_PreciseVertCoords2</ref><sp/>*_this,<sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>value);</highlight></codeline>
+<codeline lineno="171" refid="MRPrecisePredicates2_8h_1aa50bf79fc2ff1e53eec0258b348b8edb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1aa50bf79fc2ff1e53eec0258b348b8edb" kindref="member">MR_PreciseVertCoords2_Get_pt</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a7f08740567645d626828a48dafb9f103" kindref="member">MR_PreciseVertCoords2</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="172"><highlight class="normal"></highlight></codeline>
-<codeline lineno="177" refid="MRPrecisePredicates2_8h_1a72244459e0f08e7009f78d833e1ca6ea" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1a72244459e0f08e7009f78d833e1ca6ea" kindref="member">MR_PreciseVertCoords2_GetMutable_pt</ref>(<ref refid="MRPrecisePredicates2_8h_1a7f08740567645d626828a48dafb9f103" kindref="member">MR_PreciseVertCoords2</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="178"><highlight class="normal"></highlight></codeline>
-<codeline lineno="181" refid="MRPrecisePredicates2_8h_1a08f03f723526ce0d167a00ce503f32fd" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1a7f08740567645d626828a48dafb9f103" kindref="member">MR_PreciseVertCoords2</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1a08f03f723526ce0d167a00ce503f32fd" kindref="member">MR_PreciseVertCoords2_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="182"><highlight class="normal"></highlight></codeline>
-<codeline lineno="186" refid="MRPrecisePredicates2_8h_1ad04819661f2ef5d57d252286e0765860" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1a7f08740567645d626828a48dafb9f103" kindref="member">MR_PreciseVertCoords2</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1ad04819661f2ef5d57d252286e0765860" kindref="member">MR_PreciseVertCoords2_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="187"><highlight class="normal"></highlight></codeline>
-<codeline lineno="193" refid="MRPrecisePredicates2_8h_1ad63c778afe08c94fb6c57d18a96ac383" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1a7f08740567645d626828a48dafb9f103" kindref="member">MR_PreciseVertCoords2</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1ad63c778afe08c94fb6c57d18a96ac383" kindref="member">MR_PreciseVertCoords2_ConstructFrom</ref>(<ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>pt);</highlight></codeline>
-<codeline lineno="194"><highlight class="normal"></highlight></codeline>
-<codeline lineno="197" refid="MRPrecisePredicates2_8h_1a932433b4e9b36359705519bfd4043905" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a7f08740567645d626828a48dafb9f103" kindref="member">MR_PreciseVertCoords2</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1a932433b4e9b36359705519bfd4043905" kindref="member">MR_PreciseVertCoords2_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a7f08740567645d626828a48dafb9f103" kindref="member">MR_PreciseVertCoords2</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="198"><highlight class="normal"></highlight></codeline>
-<codeline lineno="201" refid="MRPrecisePredicates2_8h_1a0d6f9c20d7a037b03bde8acad81d16b3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1a7f08740567645d626828a48dafb9f103" kindref="member">MR_PreciseVertCoords2</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1a0d6f9c20d7a037b03bde8acad81d16b3" kindref="member">MR_PreciseVertCoords2_OffsetMutablePtr</ref>(<ref refid="MRPrecisePredicates2_8h_1a7f08740567645d626828a48dafb9f103" kindref="member">MR_PreciseVertCoords2</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="178" refid="MRPrecisePredicates2_8h_1a373e3b1d41c8ab027d966d99c669f0a4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a373e3b1d41c8ab027d966d99c669f0a4" kindref="member">MR_PreciseVertCoords2_Set_pt</ref>(<ref refid="MRPrecisePredicates2_8h_1a7f08740567645d626828a48dafb9f103" kindref="member">MR_PreciseVertCoords2</ref><sp/>*_this,<sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>value);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185" refid="MRPrecisePredicates2_8h_1a72244459e0f08e7009f78d833e1ca6ea" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1a72244459e0f08e7009f78d833e1ca6ea" kindref="member">MR_PreciseVertCoords2_GetMutable_pt</ref>(<ref refid="MRPrecisePredicates2_8h_1a7f08740567645d626828a48dafb9f103" kindref="member">MR_PreciseVertCoords2</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189" refid="MRPrecisePredicates2_8h_1a08f03f723526ce0d167a00ce503f32fd" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1a7f08740567645d626828a48dafb9f103" kindref="member">MR_PreciseVertCoords2</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1a08f03f723526ce0d167a00ce503f32fd" kindref="member">MR_PreciseVertCoords2_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194" refid="MRPrecisePredicates2_8h_1ad04819661f2ef5d57d252286e0765860" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1a7f08740567645d626828a48dafb9f103" kindref="member">MR_PreciseVertCoords2</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1ad04819661f2ef5d57d252286e0765860" kindref="member">MR_PreciseVertCoords2_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="201" refid="MRPrecisePredicates2_8h_1ad63c778afe08c94fb6c57d18a96ac383" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1a7f08740567645d626828a48dafb9f103" kindref="member">MR_PreciseVertCoords2</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1ad63c778afe08c94fb6c57d18a96ac383" kindref="member">MR_PreciseVertCoords2_ConstructFrom</ref>(<ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>pt);</highlight></codeline>
 <codeline lineno="202"><highlight class="normal"></highlight></codeline>
-<codeline lineno="207" refid="MRPrecisePredicates2_8h_1ab968bde484929129a2ef1a3c8a4866c2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1a7f08740567645d626828a48dafb9f103" kindref="member">MR_PreciseVertCoords2</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1ab968bde484929129a2ef1a3c8a4866c2" kindref="member">MR_PreciseVertCoords2_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a7f08740567645d626828a48dafb9f103" kindref="member">MR_PreciseVertCoords2</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="208"><highlight class="normal"></highlight></codeline>
-<codeline lineno="210" refid="MRPrecisePredicates2_8h_1ae1f96de2aeec4f7f78759cce0f0e1ed4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1ae1f96de2aeec4f7f78759cce0f0e1ed4" kindref="member">MR_PreciseVertCoords2_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a7f08740567645d626828a48dafb9f103" kindref="member">MR_PreciseVertCoords2</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="211"><highlight class="normal"></highlight></codeline>
-<codeline lineno="213" refid="MRPrecisePredicates2_8h_1a9d88cd71bcac7964a212d80cf98f16b5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a9d88cd71bcac7964a212d80cf98f16b5" kindref="member">MR_PreciseVertCoords2_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a7f08740567645d626828a48dafb9f103" kindref="member">MR_PreciseVertCoords2</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="214"><highlight class="normal"></highlight></codeline>
-<codeline lineno="221" refid="MRPrecisePredicates2_8h_1aa79072328e5f0fe23f54387a07ea0f2f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1a7f08740567645d626828a48dafb9f103" kindref="member">MR_PreciseVertCoords2</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1aa79072328e5f0fe23f54387a07ea0f2f" kindref="member">MR_PreciseVertCoords2_AssignFromAnother</ref>(<ref refid="MRPrecisePredicates2_8h_1a7f08740567645d626828a48dafb9f103" kindref="member">MR_PreciseVertCoords2</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a7f08740567645d626828a48dafb9f103" kindref="member">MR_PreciseVertCoords2</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="205" refid="MRPrecisePredicates2_8h_1a932433b4e9b36359705519bfd4043905" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a7f08740567645d626828a48dafb9f103" kindref="member">MR_PreciseVertCoords2</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1a932433b4e9b36359705519bfd4043905" kindref="member">MR_PreciseVertCoords2_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a7f08740567645d626828a48dafb9f103" kindref="member">MR_PreciseVertCoords2</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="209" refid="MRPrecisePredicates2_8h_1a0d6f9c20d7a037b03bde8acad81d16b3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1a7f08740567645d626828a48dafb9f103" kindref="member">MR_PreciseVertCoords2</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1a0d6f9c20d7a037b03bde8acad81d16b3" kindref="member">MR_PreciseVertCoords2_OffsetMutablePtr</ref>(<ref refid="MRPrecisePredicates2_8h_1a7f08740567645d626828a48dafb9f103" kindref="member">MR_PreciseVertCoords2</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215" refid="MRPrecisePredicates2_8h_1ab968bde484929129a2ef1a3c8a4866c2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1a7f08740567645d626828a48dafb9f103" kindref="member">MR_PreciseVertCoords2</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1ab968bde484929129a2ef1a3c8a4866c2" kindref="member">MR_PreciseVertCoords2_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a7f08740567645d626828a48dafb9f103" kindref="member">MR_PreciseVertCoords2</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="218" refid="MRPrecisePredicates2_8h_1ae1f96de2aeec4f7f78759cce0f0e1ed4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1ae1f96de2aeec4f7f78759cce0f0e1ed4" kindref="member">MR_PreciseVertCoords2_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a7f08740567645d626828a48dafb9f103" kindref="member">MR_PreciseVertCoords2</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221" refid="MRPrecisePredicates2_8h_1a9d88cd71bcac7964a212d80cf98f16b5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a9d88cd71bcac7964a212d80cf98f16b5" kindref="member">MR_PreciseVertCoords2_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a7f08740567645d626828a48dafb9f103" kindref="member">MR_PreciseVertCoords2</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="222"><highlight class="normal"></highlight></codeline>
-<codeline lineno="227" refid="MRPrecisePredicates2_8h_1a68c7a7426f35371def9887b78a5fc177" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a68c7a7426f35371def9887b78a5fc177" kindref="member">MR_ccw_1_std_array_MR_PreciseVertCoords2_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a0e684b542df281a6666153bf1619db3d" kindref="member">MR_std_array_MR_PreciseVertCoords2_3</ref><sp/>*vs);</highlight></codeline>
-<codeline lineno="228"><highlight class="normal"></highlight></codeline>
-<codeline lineno="230" refid="MRPrecisePredicates2_8h_1ab5f34a9a015dab9e749d6edb5a591191" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1ab5f34a9a015dab9e749d6edb5a591191" kindref="member">MR_ccw_1_const_MR_PreciseVertCoords2_ptr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a7f08740567645d626828a48dafb9f103" kindref="member">MR_PreciseVertCoords2</ref><sp/>*vs);</highlight></codeline>
-<codeline lineno="231"><highlight class="normal"></highlight></codeline>
-<codeline lineno="238" refid="MRPrecisePredicates2_8h_1a8cd1c085979249907322965c67615be4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a8cd1c085979249907322965c67615be4" kindref="member">MR_smaller2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a920bc185898f6b065bfcbacfce0245fb" kindref="member">MR_std_array_MR_PreciseVertCoords2_4</ref><sp/>*vs);</highlight></codeline>
+<codeline lineno="229" refid="MRPrecisePredicates2_8h_1aa79072328e5f0fe23f54387a07ea0f2f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1a7f08740567645d626828a48dafb9f103" kindref="member">MR_PreciseVertCoords2</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1aa79072328e5f0fe23f54387a07ea0f2f" kindref="member">MR_PreciseVertCoords2_AssignFromAnother</ref>(<ref refid="MRPrecisePredicates2_8h_1a7f08740567645d626828a48dafb9f103" kindref="member">MR_PreciseVertCoords2</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a7f08740567645d626828a48dafb9f103" kindref="member">MR_PreciseVertCoords2</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="235" refid="MRPrecisePredicates2_8h_1a68c7a7426f35371def9887b78a5fc177" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a68c7a7426f35371def9887b78a5fc177" kindref="member">MR_ccw_1_std_array_MR_PreciseVertCoords2_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a0e684b542df281a6666153bf1619db3d" kindref="member">MR_std_array_MR_PreciseVertCoords2_3</ref><sp/>*vs);</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight></codeline>
+<codeline lineno="238" refid="MRPrecisePredicates2_8h_1ab5f34a9a015dab9e749d6edb5a591191" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1ab5f34a9a015dab9e749d6edb5a591191" kindref="member">MR_ccw_1_const_MR_PreciseVertCoords2_ptr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a7f08740567645d626828a48dafb9f103" kindref="member">MR_PreciseVertCoords2</ref><sp/>*vs);</highlight></codeline>
 <codeline lineno="239"><highlight class="normal"></highlight></codeline>
-<codeline lineno="247" refid="MRPrecisePredicates2_8h_1a15cac3428d4f738156a8815ac4e65038" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a15cac3428d4f738156a8815ac4e65038" kindref="member">MR_orientParaboloid3d_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*c);</highlight></codeline>
-<codeline lineno="248"><highlight class="normal"></highlight></codeline>
-<codeline lineno="254" refid="MRPrecisePredicates2_8h_1a789f6aee89fb59dbf146a61e53fec11a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a789f6aee89fb59dbf146a61e53fec11a" kindref="member">MR_orientParaboloid3d_4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*c,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*d);</highlight></codeline>
-<codeline lineno="255"><highlight class="normal"></highlight></codeline>
-<codeline lineno="259" refid="MRPrecisePredicates2_8h_1a51d8f2586cf66b0b0603103f2a93d140" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a51d8f2586cf66b0b0603103f2a93d140" kindref="member">MR_inCircle_std_array_MR_PreciseVertCoords2_4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a920bc185898f6b065bfcbacfce0245fb" kindref="member">MR_std_array_MR_PreciseVertCoords2_4</ref><sp/>*vs);</highlight></codeline>
-<codeline lineno="260"><highlight class="normal"></highlight></codeline>
-<codeline lineno="262" refid="MRPrecisePredicates2_8h_1ad044103a27c3760d4c54cbb6ce278e87" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1ad044103a27c3760d4c54cbb6ce278e87" kindref="member">MR_inCircle_const_MR_PreciseVertCoords2_ptr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a7f08740567645d626828a48dafb9f103" kindref="member">MR_PreciseVertCoords2</ref><sp/>*vs);</highlight></codeline>
+<codeline lineno="246" refid="MRPrecisePredicates2_8h_1a8cd1c085979249907322965c67615be4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a8cd1c085979249907322965c67615be4" kindref="member">MR_smaller2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a920bc185898f6b065bfcbacfce0245fb" kindref="member">MR_std_array_MR_PreciseVertCoords2_4</ref><sp/>*vs);</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight></codeline>
+<codeline lineno="255" refid="MRPrecisePredicates2_8h_1a15cac3428d4f738156a8815ac4e65038" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a15cac3428d4f738156a8815ac4e65038" kindref="member">MR_orientParaboloid3d_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*c);</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"></highlight></codeline>
+<codeline lineno="262" refid="MRPrecisePredicates2_8h_1a789f6aee89fb59dbf146a61e53fec11a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a789f6aee89fb59dbf146a61e53fec11a" kindref="member">MR_orientParaboloid3d_4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*c,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*d);</highlight></codeline>
 <codeline lineno="263"><highlight class="normal"></highlight></codeline>
-<codeline lineno="268" refid="MRPrecisePredicates2_8h_1ac9c6ef83141d4f039529b9ba4dea944e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRPrecisePredicates2_8h_1ac9c6ef83141d4f039529b9ba4dea944e" kindref="member">MR_SegmentSegmentIntersectResult_Get_doIntersect</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1aa14a93fd28ed5a76cd067e26194b2c5e" kindref="member">MR_SegmentSegmentIntersectResult</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="269"><highlight class="normal"></highlight></codeline>
-<codeline lineno="274" refid="MRPrecisePredicates2_8h_1adc590f8e9ac75a55cc583a9bc13bcd52" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1adc590f8e9ac75a55cc583a9bc13bcd52" kindref="member">MR_SegmentSegmentIntersectResult_Set_doIntersect</ref>(<ref refid="MRPrecisePredicates2_8h_1aa14a93fd28ed5a76cd067e26194b2c5e" kindref="member">MR_SegmentSegmentIntersectResult</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="275"><highlight class="normal"></highlight></codeline>
-<codeline lineno="280" refid="MRPrecisePredicates2_8h_1ad83f4bd93cc9a0a0e8cb56635740c910" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRPrecisePredicates2_8h_1ad83f4bd93cc9a0a0e8cb56635740c910" kindref="member">MR_SegmentSegmentIntersectResult_GetMutable_doIntersect</ref>(<ref refid="MRPrecisePredicates2_8h_1aa14a93fd28ed5a76cd067e26194b2c5e" kindref="member">MR_SegmentSegmentIntersectResult</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="281"><highlight class="normal"></highlight></codeline>
-<codeline lineno="286" refid="MRPrecisePredicates2_8h_1acc56d459d3bbc4aecba79f0c2e227761" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRPrecisePredicates2_8h_1acc56d459d3bbc4aecba79f0c2e227761" kindref="member">MR_SegmentSegmentIntersectResult_Get_cIsLeftFromAB</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1aa14a93fd28ed5a76cd067e26194b2c5e" kindref="member">MR_SegmentSegmentIntersectResult</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="287"><highlight class="normal"></highlight></codeline>
-<codeline lineno="292" refid="MRPrecisePredicates2_8h_1abb51644e156eca864d96efbcd5f46aac" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1abb51644e156eca864d96efbcd5f46aac" kindref="member">MR_SegmentSegmentIntersectResult_Set_cIsLeftFromAB</ref>(<ref refid="MRPrecisePredicates2_8h_1aa14a93fd28ed5a76cd067e26194b2c5e" kindref="member">MR_SegmentSegmentIntersectResult</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="293"><highlight class="normal"></highlight></codeline>
-<codeline lineno="298" refid="MRPrecisePredicates2_8h_1a79c5d4e07840c852c519400c2d6f88e0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRPrecisePredicates2_8h_1a79c5d4e07840c852c519400c2d6f88e0" kindref="member">MR_SegmentSegmentIntersectResult_GetMutable_cIsLeftFromAB</ref>(<ref refid="MRPrecisePredicates2_8h_1aa14a93fd28ed5a76cd067e26194b2c5e" kindref="member">MR_SegmentSegmentIntersectResult</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="299"><highlight class="normal"></highlight></codeline>
-<codeline lineno="302" refid="MRPrecisePredicates2_8h_1ad41c5cdf7ceec874d09771c352d00dc1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1aa14a93fd28ed5a76cd067e26194b2c5e" kindref="member">MR_SegmentSegmentIntersectResult</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1ad41c5cdf7ceec874d09771c352d00dc1" kindref="member">MR_SegmentSegmentIntersectResult_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="303"><highlight class="normal"></highlight></codeline>
-<codeline lineno="307" refid="MRPrecisePredicates2_8h_1a74abcd1e419580ad960e9f702cdb4864" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1aa14a93fd28ed5a76cd067e26194b2c5e" kindref="member">MR_SegmentSegmentIntersectResult</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1a74abcd1e419580ad960e9f702cdb4864" kindref="member">MR_SegmentSegmentIntersectResult_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="308"><highlight class="normal"></highlight></codeline>
-<codeline lineno="312" refid="MRPrecisePredicates2_8h_1aeb2ce4ce8d6aac7e96ddb3bb0d2cfcf7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1aa14a93fd28ed5a76cd067e26194b2c5e" kindref="member">MR_SegmentSegmentIntersectResult</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1aeb2ce4ce8d6aac7e96ddb3bb0d2cfcf7" kindref="member">MR_SegmentSegmentIntersectResult_ConstructFrom</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>doIntersect,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>cIsLeftFromAB);</highlight></codeline>
-<codeline lineno="313"><highlight class="normal"></highlight></codeline>
-<codeline lineno="316" refid="MRPrecisePredicates2_8h_1a9c7179a124edec09a61f5c97ff122af5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1aa14a93fd28ed5a76cd067e26194b2c5e" kindref="member">MR_SegmentSegmentIntersectResult</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1a9c7179a124edec09a61f5c97ff122af5" kindref="member">MR_SegmentSegmentIntersectResult_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1aa14a93fd28ed5a76cd067e26194b2c5e" kindref="member">MR_SegmentSegmentIntersectResult</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="317"><highlight class="normal"></highlight></codeline>
-<codeline lineno="320" refid="MRPrecisePredicates2_8h_1a8efabfec832f58e4b7f26c95a1c95ff9" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1aa14a93fd28ed5a76cd067e26194b2c5e" kindref="member">MR_SegmentSegmentIntersectResult</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1a8efabfec832f58e4b7f26c95a1c95ff9" kindref="member">MR_SegmentSegmentIntersectResult_OffsetMutablePtr</ref>(<ref refid="MRPrecisePredicates2_8h_1aa14a93fd28ed5a76cd067e26194b2c5e" kindref="member">MR_SegmentSegmentIntersectResult</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="321"><highlight class="normal"></highlight></codeline>
-<codeline lineno="326" refid="MRPrecisePredicates2_8h_1a9b10e0e50b8ba857c830bb2a88f767b0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1aa14a93fd28ed5a76cd067e26194b2c5e" kindref="member">MR_SegmentSegmentIntersectResult</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1a9b10e0e50b8ba857c830bb2a88f767b0" kindref="member">MR_SegmentSegmentIntersectResult_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1aa14a93fd28ed5a76cd067e26194b2c5e" kindref="member">MR_SegmentSegmentIntersectResult</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="327"><highlight class="normal"></highlight></codeline>
-<codeline lineno="329" refid="MRPrecisePredicates2_8h_1ac4879318f91545796af20560d91d923e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1ac4879318f91545796af20560d91d923e" kindref="member">MR_SegmentSegmentIntersectResult_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1aa14a93fd28ed5a76cd067e26194b2c5e" kindref="member">MR_SegmentSegmentIntersectResult</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="330"><highlight class="normal"></highlight></codeline>
-<codeline lineno="332" refid="MRPrecisePredicates2_8h_1a377279c4ef041177da5004b9b1dd313e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a377279c4ef041177da5004b9b1dd313e" kindref="member">MR_SegmentSegmentIntersectResult_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1aa14a93fd28ed5a76cd067e26194b2c5e" kindref="member">MR_SegmentSegmentIntersectResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="267" refid="MRPrecisePredicates2_8h_1a51d8f2586cf66b0b0603103f2a93d140" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a51d8f2586cf66b0b0603103f2a93d140" kindref="member">MR_inCircle_std_array_MR_PreciseVertCoords2_4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a920bc185898f6b065bfcbacfce0245fb" kindref="member">MR_std_array_MR_PreciseVertCoords2_4</ref><sp/>*vs);</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="270" refid="MRPrecisePredicates2_8h_1ad044103a27c3760d4c54cbb6ce278e87" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1ad044103a27c3760d4c54cbb6ce278e87" kindref="member">MR_inCircle_const_MR_PreciseVertCoords2_ptr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a7f08740567645d626828a48dafb9f103" kindref="member">MR_PreciseVertCoords2</ref><sp/>*vs);</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"></highlight></codeline>
+<codeline lineno="277" refid="MRPrecisePredicates2_8h_1ac9c6ef83141d4f039529b9ba4dea944e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRPrecisePredicates2_8h_1ac9c6ef83141d4f039529b9ba4dea944e" kindref="member">MR_SegmentSegmentIntersectResult_Get_doIntersect</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1aa14a93fd28ed5a76cd067e26194b2c5e" kindref="member">MR_SegmentSegmentIntersectResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"></highlight></codeline>
+<codeline lineno="283" refid="MRPrecisePredicates2_8h_1adc590f8e9ac75a55cc583a9bc13bcd52" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1adc590f8e9ac75a55cc583a9bc13bcd52" kindref="member">MR_SegmentSegmentIntersectResult_Set_doIntersect</ref>(<ref refid="MRPrecisePredicates2_8h_1aa14a93fd28ed5a76cd067e26194b2c5e" kindref="member">MR_SegmentSegmentIntersectResult</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"></highlight></codeline>
+<codeline lineno="290" refid="MRPrecisePredicates2_8h_1ad83f4bd93cc9a0a0e8cb56635740c910" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRPrecisePredicates2_8h_1ad83f4bd93cc9a0a0e8cb56635740c910" kindref="member">MR_SegmentSegmentIntersectResult_GetMutable_doIntersect</ref>(<ref refid="MRPrecisePredicates2_8h_1aa14a93fd28ed5a76cd067e26194b2c5e" kindref="member">MR_SegmentSegmentIntersectResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight></codeline>
+<codeline lineno="297" refid="MRPrecisePredicates2_8h_1acc56d459d3bbc4aecba79f0c2e227761" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRPrecisePredicates2_8h_1acc56d459d3bbc4aecba79f0c2e227761" kindref="member">MR_SegmentSegmentIntersectResult_Get_cIsLeftFromAB</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1aa14a93fd28ed5a76cd067e26194b2c5e" kindref="member">MR_SegmentSegmentIntersectResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"></highlight></codeline>
+<codeline lineno="303" refid="MRPrecisePredicates2_8h_1abb51644e156eca864d96efbcd5f46aac" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1abb51644e156eca864d96efbcd5f46aac" kindref="member">MR_SegmentSegmentIntersectResult_Set_cIsLeftFromAB</ref>(<ref refid="MRPrecisePredicates2_8h_1aa14a93fd28ed5a76cd067e26194b2c5e" kindref="member">MR_SegmentSegmentIntersectResult</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"></highlight></codeline>
+<codeline lineno="310" refid="MRPrecisePredicates2_8h_1a79c5d4e07840c852c519400c2d6f88e0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRPrecisePredicates2_8h_1a79c5d4e07840c852c519400c2d6f88e0" kindref="member">MR_SegmentSegmentIntersectResult_GetMutable_cIsLeftFromAB</ref>(<ref refid="MRPrecisePredicates2_8h_1aa14a93fd28ed5a76cd067e26194b2c5e" kindref="member">MR_SegmentSegmentIntersectResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"></highlight></codeline>
+<codeline lineno="314" refid="MRPrecisePredicates2_8h_1ad41c5cdf7ceec874d09771c352d00dc1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1aa14a93fd28ed5a76cd067e26194b2c5e" kindref="member">MR_SegmentSegmentIntersectResult</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1ad41c5cdf7ceec874d09771c352d00dc1" kindref="member">MR_SegmentSegmentIntersectResult_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight></codeline>
+<codeline lineno="319" refid="MRPrecisePredicates2_8h_1a74abcd1e419580ad960e9f702cdb4864" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1aa14a93fd28ed5a76cd067e26194b2c5e" kindref="member">MR_SegmentSegmentIntersectResult</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1a74abcd1e419580ad960e9f702cdb4864" kindref="member">MR_SegmentSegmentIntersectResult_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"></highlight></codeline>
+<codeline lineno="324" refid="MRPrecisePredicates2_8h_1aeb2ce4ce8d6aac7e96ddb3bb0d2cfcf7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1aa14a93fd28ed5a76cd067e26194b2c5e" kindref="member">MR_SegmentSegmentIntersectResult</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1aeb2ce4ce8d6aac7e96ddb3bb0d2cfcf7" kindref="member">MR_SegmentSegmentIntersectResult_ConstructFrom</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>doIntersect,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>cIsLeftFromAB);</highlight></codeline>
+<codeline lineno="325"><highlight class="normal"></highlight></codeline>
+<codeline lineno="328" refid="MRPrecisePredicates2_8h_1a9c7179a124edec09a61f5c97ff122af5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1aa14a93fd28ed5a76cd067e26194b2c5e" kindref="member">MR_SegmentSegmentIntersectResult</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1a9c7179a124edec09a61f5c97ff122af5" kindref="member">MR_SegmentSegmentIntersectResult_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1aa14a93fd28ed5a76cd067e26194b2c5e" kindref="member">MR_SegmentSegmentIntersectResult</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"></highlight></codeline>
+<codeline lineno="332" refid="MRPrecisePredicates2_8h_1a8efabfec832f58e4b7f26c95a1c95ff9" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1aa14a93fd28ed5a76cd067e26194b2c5e" kindref="member">MR_SegmentSegmentIntersectResult</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1a8efabfec832f58e4b7f26c95a1c95ff9" kindref="member">MR_SegmentSegmentIntersectResult_OffsetMutablePtr</ref>(<ref refid="MRPrecisePredicates2_8h_1aa14a93fd28ed5a76cd067e26194b2c5e" kindref="member">MR_SegmentSegmentIntersectResult</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="333"><highlight class="normal"></highlight></codeline>
-<codeline lineno="336" refid="MRPrecisePredicates2_8h_1a3b39cb3bb5be585ea59db57e35111780" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a3b39cb3bb5be585ea59db57e35111780" kindref="member">MR_SegmentSegmentIntersectResult_ConvertTo_bool</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1aa14a93fd28ed5a76cd067e26194b2c5e" kindref="member">MR_SegmentSegmentIntersectResult</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="337"><highlight class="normal"></highlight></codeline>
-<codeline lineno="344" refid="MRPrecisePredicates2_8h_1a6abea27c9b8fa4e876e9fae7fdb31e07" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1aa14a93fd28ed5a76cd067e26194b2c5e" kindref="member">MR_SegmentSegmentIntersectResult</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1a6abea27c9b8fa4e876e9fae7fdb31e07" kindref="member">MR_SegmentSegmentIntersectResult_AssignFromAnother</ref>(<ref refid="MRPrecisePredicates2_8h_1aa14a93fd28ed5a76cd067e26194b2c5e" kindref="member">MR_SegmentSegmentIntersectResult</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1aa14a93fd28ed5a76cd067e26194b2c5e" kindref="member">MR_SegmentSegmentIntersectResult</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="338" refid="MRPrecisePredicates2_8h_1a9b10e0e50b8ba857c830bb2a88f767b0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1aa14a93fd28ed5a76cd067e26194b2c5e" kindref="member">MR_SegmentSegmentIntersectResult</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1a9b10e0e50b8ba857c830bb2a88f767b0" kindref="member">MR_SegmentSegmentIntersectResult_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1aa14a93fd28ed5a76cd067e26194b2c5e" kindref="member">MR_SegmentSegmentIntersectResult</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"></highlight></codeline>
+<codeline lineno="341" refid="MRPrecisePredicates2_8h_1ac4879318f91545796af20560d91d923e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1ac4879318f91545796af20560d91d923e" kindref="member">MR_SegmentSegmentIntersectResult_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1aa14a93fd28ed5a76cd067e26194b2c5e" kindref="member">MR_SegmentSegmentIntersectResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"></highlight></codeline>
+<codeline lineno="344" refid="MRPrecisePredicates2_8h_1a377279c4ef041177da5004b9b1dd313e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a377279c4ef041177da5004b9b1dd313e" kindref="member">MR_SegmentSegmentIntersectResult_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1aa14a93fd28ed5a76cd067e26194b2c5e" kindref="member">MR_SegmentSegmentIntersectResult</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="345"><highlight class="normal"></highlight></codeline>
-<codeline lineno="351" refid="MRPrecisePredicates2_8h_1a92c2983236dc68e0b1284bc280cf8cc1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1aa14a93fd28ed5a76cd067e26194b2c5e" kindref="member">MR_SegmentSegmentIntersectResult</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1a92c2983236dc68e0b1284bc280cf8cc1" kindref="member">MR_doSegmentSegmentIntersect</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a920bc185898f6b065bfcbacfce0245fb" kindref="member">MR_std_array_MR_PreciseVertCoords2_4</ref><sp/>*vs);</highlight></codeline>
-<codeline lineno="352"><highlight class="normal"></highlight></codeline>
-<codeline lineno="356" refid="MRPrecisePredicates2_8h_1a44317bed58772bd9a84bd9b55de8c5e9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a8c5a467b31e338f553885db4082fb2eb" kindref="member">MR_std_function_MR_Vector2i_from_const_MR_Vector2f_ref</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1a44317bed58772bd9a84bd9b55de8c5e9" kindref="member">MR_CoordinateConverters2_Get_toInt</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1aba207e8e2df9b894c2e8e525351c3e57" kindref="member">MR_CoordinateConverters2</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="348" refid="MRPrecisePredicates2_8h_1a3b39cb3bb5be585ea59db57e35111780" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a3b39cb3bb5be585ea59db57e35111780" kindref="member">MR_SegmentSegmentIntersectResult_ConvertTo_bool</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1aa14a93fd28ed5a76cd067e26194b2c5e" kindref="member">MR_SegmentSegmentIntersectResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="349"><highlight class="normal"></highlight></codeline>
+<codeline lineno="356" refid="MRPrecisePredicates2_8h_1a6abea27c9b8fa4e876e9fae7fdb31e07" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1aa14a93fd28ed5a76cd067e26194b2c5e" kindref="member">MR_SegmentSegmentIntersectResult</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1a6abea27c9b8fa4e876e9fae7fdb31e07" kindref="member">MR_SegmentSegmentIntersectResult_AssignFromAnother</ref>(<ref refid="MRPrecisePredicates2_8h_1aa14a93fd28ed5a76cd067e26194b2c5e" kindref="member">MR_SegmentSegmentIntersectResult</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1aa14a93fd28ed5a76cd067e26194b2c5e" kindref="member">MR_SegmentSegmentIntersectResult</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="357"><highlight class="normal"></highlight></codeline>
-<codeline lineno="362" refid="MRPrecisePredicates2_8h_1a4f46a0f82e95c48750f055da2d9d74d2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a4f46a0f82e95c48750f055da2d9d74d2" kindref="member">MR_CoordinateConverters2_Set_toInt</ref>(<ref refid="MRPrecisePredicates2_8h_1aba207e8e2df9b894c2e8e525351c3e57" kindref="member">MR_CoordinateConverters2</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRPrecisePredicates2_8h_1a8c5a467b31e338f553885db4082fb2eb" kindref="member">MR_std_function_MR_Vector2i_from_const_MR_Vector2f_ref</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="363"><highlight class="normal"></highlight></codeline>
-<codeline lineno="367" refid="MRPrecisePredicates2_8h_1a80faa736be3150d03c915a98f6a2c6ac" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1a8c5a467b31e338f553885db4082fb2eb" kindref="member">MR_std_function_MR_Vector2i_from_const_MR_Vector2f_ref</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1a80faa736be3150d03c915a98f6a2c6ac" kindref="member">MR_CoordinateConverters2_GetMutable_toInt</ref>(<ref refid="MRPrecisePredicates2_8h_1aba207e8e2df9b894c2e8e525351c3e57" kindref="member">MR_CoordinateConverters2</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="368"><highlight class="normal"></highlight></codeline>
-<codeline lineno="372" refid="MRPrecisePredicates2_8h_1a5e1f22c568393c876156913e0e398bc7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a7d43ba2c246515df230aacd60e964729" kindref="member">MR_std_function_MR_Vector2f_from_const_MR_Vector2i_ref</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1a5e1f22c568393c876156913e0e398bc7" kindref="member">MR_CoordinateConverters2_Get_toFloat</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1aba207e8e2df9b894c2e8e525351c3e57" kindref="member">MR_CoordinateConverters2</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="373"><highlight class="normal"></highlight></codeline>
-<codeline lineno="378" refid="MRPrecisePredicates2_8h_1a9fcd190ddd04a8d1efa6e3f86e7b59fd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a9fcd190ddd04a8d1efa6e3f86e7b59fd" kindref="member">MR_CoordinateConverters2_Set_toFloat</ref>(<ref refid="MRPrecisePredicates2_8h_1aba207e8e2df9b894c2e8e525351c3e57" kindref="member">MR_CoordinateConverters2</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRPrecisePredicates2_8h_1a7d43ba2c246515df230aacd60e964729" kindref="member">MR_std_function_MR_Vector2f_from_const_MR_Vector2i_ref</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="379"><highlight class="normal"></highlight></codeline>
-<codeline lineno="383" refid="MRPrecisePredicates2_8h_1a300595db3ab6e4d46ca13032bc3ca027" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1a7d43ba2c246515df230aacd60e964729" kindref="member">MR_std_function_MR_Vector2f_from_const_MR_Vector2i_ref</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1a300595db3ab6e4d46ca13032bc3ca027" kindref="member">MR_CoordinateConverters2_GetMutable_toFloat</ref>(<ref refid="MRPrecisePredicates2_8h_1aba207e8e2df9b894c2e8e525351c3e57" kindref="member">MR_CoordinateConverters2</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="384"><highlight class="normal"></highlight></codeline>
-<codeline lineno="387" refid="MRPrecisePredicates2_8h_1a88b825ace4e727d99a151e9285fe4742" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1aba207e8e2df9b894c2e8e525351c3e57" kindref="member">MR_CoordinateConverters2</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1a88b825ace4e727d99a151e9285fe4742" kindref="member">MR_CoordinateConverters2_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="363" refid="MRPrecisePredicates2_8h_1a92c2983236dc68e0b1284bc280cf8cc1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1aa14a93fd28ed5a76cd067e26194b2c5e" kindref="member">MR_SegmentSegmentIntersectResult</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1a92c2983236dc68e0b1284bc280cf8cc1" kindref="member">MR_doSegmentSegmentIntersect</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a920bc185898f6b065bfcbacfce0245fb" kindref="member">MR_std_array_MR_PreciseVertCoords2_4</ref><sp/>*vs);</highlight></codeline>
+<codeline lineno="364"><highlight class="normal"></highlight></codeline>
+<codeline lineno="369" refid="MRPrecisePredicates2_8h_1a44317bed58772bd9a84bd9b55de8c5e9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a8c5a467b31e338f553885db4082fb2eb" kindref="member">MR_std_function_MR_Vector2i_from_const_MR_Vector2f_ref</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1a44317bed58772bd9a84bd9b55de8c5e9" kindref="member">MR_CoordinateConverters2_Get_toInt</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1aba207e8e2df9b894c2e8e525351c3e57" kindref="member">MR_CoordinateConverters2</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="370"><highlight class="normal"></highlight></codeline>
+<codeline lineno="375" refid="MRPrecisePredicates2_8h_1a4f46a0f82e95c48750f055da2d9d74d2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a4f46a0f82e95c48750f055da2d9d74d2" kindref="member">MR_CoordinateConverters2_Set_toInt</ref>(<ref refid="MRPrecisePredicates2_8h_1aba207e8e2df9b894c2e8e525351c3e57" kindref="member">MR_CoordinateConverters2</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRPrecisePredicates2_8h_1a8c5a467b31e338f553885db4082fb2eb" kindref="member">MR_std_function_MR_Vector2i_from_const_MR_Vector2f_ref</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="376"><highlight class="normal"></highlight></codeline>
+<codeline lineno="381" refid="MRPrecisePredicates2_8h_1a80faa736be3150d03c915a98f6a2c6ac" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1a8c5a467b31e338f553885db4082fb2eb" kindref="member">MR_std_function_MR_Vector2i_from_const_MR_Vector2f_ref</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1a80faa736be3150d03c915a98f6a2c6ac" kindref="member">MR_CoordinateConverters2_GetMutable_toInt</ref>(<ref refid="MRPrecisePredicates2_8h_1aba207e8e2df9b894c2e8e525351c3e57" kindref="member">MR_CoordinateConverters2</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="382"><highlight class="normal"></highlight></codeline>
+<codeline lineno="387" refid="MRPrecisePredicates2_8h_1a5e1f22c568393c876156913e0e398bc7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a7d43ba2c246515df230aacd60e964729" kindref="member">MR_std_function_MR_Vector2f_from_const_MR_Vector2i_ref</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1a5e1f22c568393c876156913e0e398bc7" kindref="member">MR_CoordinateConverters2_Get_toFloat</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1aba207e8e2df9b894c2e8e525351c3e57" kindref="member">MR_CoordinateConverters2</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="388"><highlight class="normal"></highlight></codeline>
-<codeline lineno="392" refid="MRPrecisePredicates2_8h_1a60d19e80cd60e41326cc6eeda5f396d4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1aba207e8e2df9b894c2e8e525351c3e57" kindref="member">MR_CoordinateConverters2</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1a60d19e80cd60e41326cc6eeda5f396d4" kindref="member">MR_CoordinateConverters2_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="393"><highlight class="normal"></highlight></codeline>
-<codeline lineno="399" refid="MRPrecisePredicates2_8h_1ac0058d66773036cb37b1825c67470ee1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1aba207e8e2df9b894c2e8e525351c3e57" kindref="member">MR_CoordinateConverters2</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1ac0058d66773036cb37b1825c67470ee1" kindref="member">MR_CoordinateConverters2_ConstructFrom</ref>(MR_PassBy<sp/>toInt_pass_by,<sp/><ref refid="MRPrecisePredicates2_8h_1a8c5a467b31e338f553885db4082fb2eb" kindref="member">MR_std_function_MR_Vector2i_from_const_MR_Vector2f_ref</ref><sp/>*toInt,<sp/>MR_PassBy<sp/>toFloat_pass_by,<sp/><ref refid="MRPrecisePredicates2_8h_1a7d43ba2c246515df230aacd60e964729" kindref="member">MR_std_function_MR_Vector2f_from_const_MR_Vector2i_ref</ref><sp/>*toFloat);</highlight></codeline>
+<codeline lineno="393" refid="MRPrecisePredicates2_8h_1a9fcd190ddd04a8d1efa6e3f86e7b59fd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a9fcd190ddd04a8d1efa6e3f86e7b59fd" kindref="member">MR_CoordinateConverters2_Set_toFloat</ref>(<ref refid="MRPrecisePredicates2_8h_1aba207e8e2df9b894c2e8e525351c3e57" kindref="member">MR_CoordinateConverters2</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRPrecisePredicates2_8h_1a7d43ba2c246515df230aacd60e964729" kindref="member">MR_std_function_MR_Vector2f_from_const_MR_Vector2i_ref</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="394"><highlight class="normal"></highlight></codeline>
+<codeline lineno="399" refid="MRPrecisePredicates2_8h_1a300595db3ab6e4d46ca13032bc3ca027" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1a7d43ba2c246515df230aacd60e964729" kindref="member">MR_std_function_MR_Vector2f_from_const_MR_Vector2i_ref</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1a300595db3ab6e4d46ca13032bc3ca027" kindref="member">MR_CoordinateConverters2_GetMutable_toFloat</ref>(<ref refid="MRPrecisePredicates2_8h_1aba207e8e2df9b894c2e8e525351c3e57" kindref="member">MR_CoordinateConverters2</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="400"><highlight class="normal"></highlight></codeline>
-<codeline lineno="403" refid="MRPrecisePredicates2_8h_1aceddb20cf11b61d97d5ca5a77d8bd051" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1aba207e8e2df9b894c2e8e525351c3e57" kindref="member">MR_CoordinateConverters2</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1aceddb20cf11b61d97d5ca5a77d8bd051" kindref="member">MR_CoordinateConverters2_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1aba207e8e2df9b894c2e8e525351c3e57" kindref="member">MR_CoordinateConverters2</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="403" refid="MRPrecisePredicates2_8h_1a88b825ace4e727d99a151e9285fe4742" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1aba207e8e2df9b894c2e8e525351c3e57" kindref="member">MR_CoordinateConverters2</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1a88b825ace4e727d99a151e9285fe4742" kindref="member">MR_CoordinateConverters2_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="404"><highlight class="normal"></highlight></codeline>
-<codeline lineno="407" refid="MRPrecisePredicates2_8h_1a1af09975a99577ca0e6c7faa731f0c63" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1aba207e8e2df9b894c2e8e525351c3e57" kindref="member">MR_CoordinateConverters2</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1a1af09975a99577ca0e6c7faa731f0c63" kindref="member">MR_CoordinateConverters2_OffsetMutablePtr</ref>(<ref refid="MRPrecisePredicates2_8h_1aba207e8e2df9b894c2e8e525351c3e57" kindref="member">MR_CoordinateConverters2</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="408"><highlight class="normal"></highlight></codeline>
-<codeline lineno="412" refid="MRPrecisePredicates2_8h_1aa8a9328ceaac62a6f3523f5756a66caf" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1aba207e8e2df9b894c2e8e525351c3e57" kindref="member">MR_CoordinateConverters2</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1aa8a9328ceaac62a6f3523f5756a66caf" kindref="member">MR_CoordinateConverters2_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRPrecisePredicates2_8h_1aba207e8e2df9b894c2e8e525351c3e57" kindref="member">MR_CoordinateConverters2</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="413"><highlight class="normal"></highlight></codeline>
-<codeline lineno="415" refid="MRPrecisePredicates2_8h_1a305bbbb97671321a8409ff7624896144" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a305bbbb97671321a8409ff7624896144" kindref="member">MR_CoordinateConverters2_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1aba207e8e2df9b894c2e8e525351c3e57" kindref="member">MR_CoordinateConverters2</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="408" refid="MRPrecisePredicates2_8h_1a60d19e80cd60e41326cc6eeda5f396d4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1aba207e8e2df9b894c2e8e525351c3e57" kindref="member">MR_CoordinateConverters2</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1a60d19e80cd60e41326cc6eeda5f396d4" kindref="member">MR_CoordinateConverters2_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="409"><highlight class="normal"></highlight></codeline>
+<codeline lineno="415" refid="MRPrecisePredicates2_8h_1ac0058d66773036cb37b1825c67470ee1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1aba207e8e2df9b894c2e8e525351c3e57" kindref="member">MR_CoordinateConverters2</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1ac0058d66773036cb37b1825c67470ee1" kindref="member">MR_CoordinateConverters2_ConstructFrom</ref>(MR_PassBy<sp/>toInt_pass_by,<sp/><ref refid="MRPrecisePredicates2_8h_1a8c5a467b31e338f553885db4082fb2eb" kindref="member">MR_std_function_MR_Vector2i_from_const_MR_Vector2f_ref</ref><sp/>*toInt,<sp/>MR_PassBy<sp/>toFloat_pass_by,<sp/><ref refid="MRPrecisePredicates2_8h_1a7d43ba2c246515df230aacd60e964729" kindref="member">MR_std_function_MR_Vector2f_from_const_MR_Vector2i_ref</ref><sp/>*toFloat);</highlight></codeline>
 <codeline lineno="416"><highlight class="normal"></highlight></codeline>
-<codeline lineno="418" refid="MRPrecisePredicates2_8h_1a830fb81002fe3935c0c2748caf54f689" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a830fb81002fe3935c0c2748caf54f689" kindref="member">MR_CoordinateConverters2_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1aba207e8e2df9b894c2e8e525351c3e57" kindref="member">MR_CoordinateConverters2</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="419"><highlight class="normal"></highlight></codeline>
-<codeline lineno="425" refid="MRPrecisePredicates2_8h_1a37656167872aec2b5107bb0d0556a9f2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1aba207e8e2df9b894c2e8e525351c3e57" kindref="member">MR_CoordinateConverters2</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1a37656167872aec2b5107bb0d0556a9f2" kindref="member">MR_CoordinateConverters2_AssignFromAnother</ref>(<ref refid="MRPrecisePredicates2_8h_1aba207e8e2df9b894c2e8e525351c3e57" kindref="member">MR_CoordinateConverters2</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRPrecisePredicates2_8h_1aba207e8e2df9b894c2e8e525351c3e57" kindref="member">MR_CoordinateConverters2</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="426"><highlight class="normal"></highlight></codeline>
-<codeline lineno="433" refid="MRPrecisePredicates2_8h_1a3a40d0c48faea9f89774b44cecc8fd35" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a3a40d0c48faea9f89774b44cecc8fd35" kindref="member">MR_segmentIntersectionOrder_std_array_MR_PreciseVertCoords2_6</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a7c2b13479ae5b53dde72a33126c51725" kindref="member">MR_std_array_MR_PreciseVertCoords2_6</ref><sp/>*vs);</highlight></codeline>
-<codeline lineno="434"><highlight class="normal"></highlight></codeline>
-<codeline lineno="442" refid="MRPrecisePredicates2_8h_1ae2eb79545a6d5eda704625198cce3861" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/><ref refid="MRPrecisePredicates2_8h_1ae2eb79545a6d5eda704625198cce3861" kindref="member">MR_findSegmentSegmentIntersectionPrecise_4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*c,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*d);</highlight></codeline>
-<codeline lineno="443"><highlight class="normal"></highlight></codeline>
-<codeline lineno="451" refid="MRPrecisePredicates2_8h_1a0a878a2db00266f18b7b718667440828" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/><ref refid="MRPrecisePredicates2_8h_1a0a878a2db00266f18b7b718667440828" kindref="member">MR_findSegmentSegmentIntersectionPrecise_5</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*c,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*d,<sp/>MR_PassBy<sp/>converters_pass_by,<sp/><ref refid="MRPrecisePredicates2_8h_1aba207e8e2df9b894c2e8e525351c3e57" kindref="member">MR_CoordinateConverters2</ref><sp/>*converters);</highlight></codeline>
-<codeline lineno="452"><highlight class="normal"></highlight></codeline>
-<codeline lineno="453"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="454"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="455"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="419" refid="MRPrecisePredicates2_8h_1aceddb20cf11b61d97d5ca5a77d8bd051" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1aba207e8e2df9b894c2e8e525351c3e57" kindref="member">MR_CoordinateConverters2</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1aceddb20cf11b61d97d5ca5a77d8bd051" kindref="member">MR_CoordinateConverters2_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1aba207e8e2df9b894c2e8e525351c3e57" kindref="member">MR_CoordinateConverters2</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="420"><highlight class="normal"></highlight></codeline>
+<codeline lineno="423" refid="MRPrecisePredicates2_8h_1a1af09975a99577ca0e6c7faa731f0c63" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1aba207e8e2df9b894c2e8e525351c3e57" kindref="member">MR_CoordinateConverters2</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1a1af09975a99577ca0e6c7faa731f0c63" kindref="member">MR_CoordinateConverters2_OffsetMutablePtr</ref>(<ref refid="MRPrecisePredicates2_8h_1aba207e8e2df9b894c2e8e525351c3e57" kindref="member">MR_CoordinateConverters2</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="424"><highlight class="normal"></highlight></codeline>
+<codeline lineno="428" refid="MRPrecisePredicates2_8h_1aa8a9328ceaac62a6f3523f5756a66caf" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1aba207e8e2df9b894c2e8e525351c3e57" kindref="member">MR_CoordinateConverters2</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1aa8a9328ceaac62a6f3523f5756a66caf" kindref="member">MR_CoordinateConverters2_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRPrecisePredicates2_8h_1aba207e8e2df9b894c2e8e525351c3e57" kindref="member">MR_CoordinateConverters2</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="429"><highlight class="normal"></highlight></codeline>
+<codeline lineno="431" refid="MRPrecisePredicates2_8h_1a305bbbb97671321a8409ff7624896144" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a305bbbb97671321a8409ff7624896144" kindref="member">MR_CoordinateConverters2_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1aba207e8e2df9b894c2e8e525351c3e57" kindref="member">MR_CoordinateConverters2</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="432"><highlight class="normal"></highlight></codeline>
+<codeline lineno="434" refid="MRPrecisePredicates2_8h_1a830fb81002fe3935c0c2748caf54f689" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a830fb81002fe3935c0c2748caf54f689" kindref="member">MR_CoordinateConverters2_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1aba207e8e2df9b894c2e8e525351c3e57" kindref="member">MR_CoordinateConverters2</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="435"><highlight class="normal"></highlight></codeline>
+<codeline lineno="441" refid="MRPrecisePredicates2_8h_1a37656167872aec2b5107bb0d0556a9f2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPrecisePredicates2_8h_1aba207e8e2df9b894c2e8e525351c3e57" kindref="member">MR_CoordinateConverters2</ref><sp/>*<ref refid="MRPrecisePredicates2_8h_1a37656167872aec2b5107bb0d0556a9f2" kindref="member">MR_CoordinateConverters2_AssignFromAnother</ref>(<ref refid="MRPrecisePredicates2_8h_1aba207e8e2df9b894c2e8e525351c3e57" kindref="member">MR_CoordinateConverters2</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRPrecisePredicates2_8h_1aba207e8e2df9b894c2e8e525351c3e57" kindref="member">MR_CoordinateConverters2</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="442"><highlight class="normal"></highlight></codeline>
+<codeline lineno="449" refid="MRPrecisePredicates2_8h_1a3a40d0c48faea9f89774b44cecc8fd35" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a3a40d0c48faea9f89774b44cecc8fd35" kindref="member">MR_segmentIntersectionOrder_std_array_MR_PreciseVertCoords2_6</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecisePredicates2_8h_1a7c2b13479ae5b53dde72a33126c51725" kindref="member">MR_std_array_MR_PreciseVertCoords2_6</ref><sp/>*vs);</highlight></codeline>
+<codeline lineno="450"><highlight class="normal"></highlight></codeline>
+<codeline lineno="458" refid="MRPrecisePredicates2_8h_1ae2eb79545a6d5eda704625198cce3861" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/><ref refid="MRPrecisePredicates2_8h_1ae2eb79545a6d5eda704625198cce3861" kindref="member">MR_findSegmentSegmentIntersectionPrecise_4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*c,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*d);</highlight></codeline>
+<codeline lineno="459"><highlight class="normal"></highlight></codeline>
+<codeline lineno="467" refid="MRPrecisePredicates2_8h_1a0a878a2db00266f18b7b718667440828" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/><ref refid="MRPrecisePredicates2_8h_1a0a878a2db00266f18b7b718667440828" kindref="member">MR_findSegmentSegmentIntersectionPrecise_5</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*c,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*d,<sp/>MR_PassBy<sp/>converters_pass_by,<sp/><ref refid="MRPrecisePredicates2_8h_1aba207e8e2df9b894c2e8e525351c3e57" kindref="member">MR_CoordinateConverters2</ref><sp/>*converters);</highlight></codeline>
+<codeline lineno="468"><highlight class="normal"></highlight></codeline>
+<codeline lineno="469"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="470"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="471"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPrecisePredicates2.h"/>
   </compounddef>

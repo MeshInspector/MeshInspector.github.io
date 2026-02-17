@@ -159,11 +159,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>If true then count touching faces as self-intersections Returns a pointer to a member variable of class <computeroutput>MR::SelfIntersections::Settings</computeroutput> named <computeroutput>touchIsIntersection</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>If true then count touching faces as self-intersections Returns a pointer to a member variable of class <computeroutput>MR::SelfIntersections::Settings</computeroutput> named <computeroutput>touchIsIntersection</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="37" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="37" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="38" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="38" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRFixSelfIntersections_8h_1a1dfdc2bbae93b47a25f3d098d4d121a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -185,7 +185,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="43" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="43" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="44" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="44" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFixSelfIntersections_8h_1add28ca1aff01a5abd0bbd20838e29926" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool *</type>
@@ -199,11 +199,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>If true then count touching faces as self-intersections Returns a mutable pointer to a member variable of class <computeroutput>MR::SelfIntersections::Settings</computeroutput> named <computeroutput>touchIsIntersection</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>If true then count touching faces as self-intersections Returns a mutable pointer to a member variable of class <computeroutput>MR::SelfIntersections::Settings</computeroutput> named <computeroutput>touchIsIntersection</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="49" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="49" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="51" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="51" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFixSelfIntersections_8h_1aa39e080e957e0a9420444ad46992df69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRFixSelfIntersections_8h_1a4c56632fe368956d2a2ca09ba4ec21b7" kindref="member">MR_SelfIntersections_Settings_Method</ref> *</type>
@@ -217,11 +217,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::SelfIntersections::Settings</computeroutput> named <computeroutput>method</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::SelfIntersections::Settings</computeroutput> named <computeroutput>method</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="54" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="54" declcolumn="52"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="57" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="57" declcolumn="52"/>
       </memberdef>
       <memberdef kind="function" id="MRFixSelfIntersections_8h_1a0eeb3eb14e60a8b10cc775595452dc8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -243,7 +243,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="60" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="60" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="63" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="63" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFixSelfIntersections_8h_1a6a6b382d0df040aeaf369d2af21ef503" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFixSelfIntersections_8h_1a4c56632fe368956d2a2ca09ba4ec21b7" kindref="member">MR_SelfIntersections_Settings_Method</ref> *</type>
@@ -257,11 +257,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::SelfIntersections::Settings</computeroutput> named <computeroutput>method</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::SelfIntersections::Settings</computeroutput> named <computeroutput>method</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="65" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="65" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="69" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="69" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MRFixSelfIntersections_8h_1adf8812a34b96a904c495dfaf5b881592" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const int *</type>
@@ -275,11 +275,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Maximum relax iterations Returns a pointer to a member variable of class <computeroutput>MR::SelfIntersections::Settings</computeroutput> named <computeroutput>relaxIterations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Maximum relax iterations Returns a pointer to a member variable of class <computeroutput>MR::SelfIntersections::Settings</computeroutput> named <computeroutput>relaxIterations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="71" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="71" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="76" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="76" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRFixSelfIntersections_8h_1a5e72339f26b2352bb503deb754c2e658" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -301,7 +301,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="77" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="77" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="82" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="82" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFixSelfIntersections_8h_1a454c56aafe34cd0c9246dc6f63b8d1e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API int *</type>
@@ -315,11 +315,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Maximum relax iterations Returns a mutable pointer to a member variable of class <computeroutput>MR::SelfIntersections::Settings</computeroutput> named <computeroutput>relaxIterations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Maximum relax iterations Returns a mutable pointer to a member variable of class <computeroutput>MR::SelfIntersections::Settings</computeroutput> named <computeroutput>relaxIterations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="83" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="83" declcolumn="13"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="89" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="89" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="MRFixSelfIntersections_8h_1a9057e3819b28adeb8ae8f4d96b6d7486" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const int *</type>
@@ -333,11 +333,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Maximum expand count (edge steps from self-intersecting faces), should be &gt; 0 Returns a pointer to a member variable of class <computeroutput>MR::SelfIntersections::Settings</computeroutput> named <computeroutput>maxExpand</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Maximum expand count (edge steps from self-intersecting faces), should be &gt; 0 Returns a pointer to a member variable of class <computeroutput>MR::SelfIntersections::Settings</computeroutput> named <computeroutput>maxExpand</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="89" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="89" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="96" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="96" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRFixSelfIntersections_8h_1aa9f0f2a7475acf646b95ffe96eb7bc81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -359,7 +359,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="95" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="95" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="102" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="102" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFixSelfIntersections_8h_1a683218659fe68a699fb01070178546f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API int *</type>
@@ -373,11 +373,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Maximum expand count (edge steps from self-intersecting faces), should be &gt; 0 Returns a mutable pointer to a member variable of class <computeroutput>MR::SelfIntersections::Settings</computeroutput> named <computeroutput>maxExpand</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Maximum expand count (edge steps from self-intersecting faces), should be &gt; 0 Returns a mutable pointer to a member variable of class <computeroutput>MR::SelfIntersections::Settings</computeroutput> named <computeroutput>maxExpand</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="101" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="101" declcolumn="13"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="109" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="109" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="MRFixSelfIntersections_8h_1a28a7705fccad3a37fcdd2cec55f8b85f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const float *</type>
@@ -391,11 +391,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Edge length for subdivision of holes covers (0.0f means auto) FLT_MAX to disable subdivision Returns a pointer to a member variable of class <computeroutput>MR::SelfIntersections::Settings</computeroutput> named <computeroutput>subdivideEdgeLen</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Edge length for subdivision of holes covers (0.0f means auto) FLT_MAX to disable subdivision Returns a pointer to a member variable of class <computeroutput>MR::SelfIntersections::Settings</computeroutput> named <computeroutput>subdivideEdgeLen</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="108" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="108" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="117" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="117" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRFixSelfIntersections_8h_1a9596ec9be7c013bec0821fb939e86f29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -417,7 +417,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="115" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="115" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="124" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="124" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFixSelfIntersections_8h_1a59c3e6c01b63ccb1f57af877a0e63c37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float *</type>
@@ -431,11 +431,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Edge length for subdivision of holes covers (0.0f means auto) FLT_MAX to disable subdivision Returns a mutable pointer to a member variable of class <computeroutput>MR::SelfIntersections::Settings</computeroutput> named <computeroutput>subdivideEdgeLen</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Edge length for subdivision of holes covers (0.0f means auto) FLT_MAX to disable subdivision Returns a mutable pointer to a member variable of class <computeroutput>MR::SelfIntersections::Settings</computeroutput> named <computeroutput>subdivideEdgeLen</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="122" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="122" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="132" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="132" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRFixSelfIntersections_8h_1a5d642c00e67b55078ff8c94c96a9d45f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
@@ -449,11 +449,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Callback function Returns a pointer to a member variable of class <computeroutput>MR::SelfIntersections::Settings</computeroutput> named <computeroutput>callback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Callback function Returns a pointer to a member variable of class <computeroutput>MR::SelfIntersections::Settings</computeroutput> named <computeroutput>callback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="128" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="128" declcolumn="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="139" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="139" declcolumn="47"/>
       </memberdef>
       <memberdef kind="function" id="MRFixSelfIntersections_8h_1a0b71656caeefb10d22f35f29a49d5709" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -479,7 +479,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="135" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="135" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="146" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="146" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFixSelfIntersections_8h_1a1d7f57762162004a82e40daac1f577b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
@@ -493,11 +493,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Callback function Returns a mutable pointer to a member variable of class <computeroutput>MR::SelfIntersections::Settings</computeroutput> named <computeroutput>callback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Callback function Returns a mutable pointer to a member variable of class <computeroutput>MR::SelfIntersections::Settings</computeroutput> named <computeroutput>callback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="141" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="141" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="153" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="153" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRFixSelfIntersections_8h_1acf75195a5eb51458f2e5e228ff2dfcdb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref> *</type>
@@ -514,7 +514,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="145" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="145" declcolumn="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="157" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="157" declcolumn="39"/>
       </memberdef>
       <memberdef kind="function" id="MRFixSelfIntersections_8h_1a2c6bd5e108b4f20a9210a938259d2e9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref> *</type>
@@ -532,7 +532,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="150" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="150" declcolumn="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="162" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="162" declcolumn="39"/>
       </memberdef>
       <memberdef kind="function" id="MRFixSelfIntersections_8h_1ad069e4cb1e9ceb5ee7a5379fe8f95f2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref> *</type>
@@ -574,7 +574,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="157" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="157" declcolumn="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="169" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="169" declcolumn="39"/>
       </memberdef>
       <memberdef kind="function" id="MRFixSelfIntersections_8h_1a61e6ca8cb178111fffd20851972307d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref> *</type>
@@ -596,7 +596,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="161" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="161" declcolumn="45"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="173" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="173" declcolumn="45"/>
       </memberdef>
       <memberdef kind="function" id="MRFixSelfIntersections_8h_1a4e80ca1d2c9d5ae9ca4824d60c407d63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref> *</type>
@@ -618,7 +618,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="165" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="165" declcolumn="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="177" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="177" declcolumn="39"/>
       </memberdef>
       <memberdef kind="function" id="MRFixSelfIntersections_8h_1a29510922a4c400b09e99a8de997805ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref> *</type>
@@ -640,7 +640,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="170" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="170" declcolumn="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="182" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="182" declcolumn="39"/>
       </memberdef>
       <memberdef kind="function" id="MRFixSelfIntersections_8h_1a975c9ff47f4e5b758675b1eb46af1a5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -658,7 +658,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="173" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="173" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="185" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="185" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFixSelfIntersections_8h_1a2a3ba1fc0dcf95bc6471810a02168d22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -676,7 +676,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="176" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="176" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="188" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="188" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFixSelfIntersections_8h_1a127edd9f28fbcf6a4b0809dfcdde4346" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref> *</type>
@@ -702,7 +702,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="183" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="183" declcolumn="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="195" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="195" declcolumn="39"/>
       </memberdef>
       <memberdef kind="function" id="MRFixSelfIntersections_8h_1aa2d2e0fe8097c58666f9396e14a135f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRContoursCut_8h_1a6aeecd4fac2aea90513510421de3f37b" kindref="member">MR_expected_MR_FaceBitSet_std_string</ref> *</type>
@@ -732,7 +732,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="191" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="191" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="203" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="203" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MRFixSelfIntersections_8h_1a0a8392004ff0f8819b4dee45d9eee44a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
@@ -754,7 +754,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="198" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="198" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" line="210" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h" declline="210" declcolumn="37"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -788,67 +788,67 @@
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
 <codeline lineno="31" refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/><ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref>;</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37" refid="MRFixSelfIntersections_8h_1ab849423006c21063b6ce2c649b08a67c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRFixSelfIntersections_8h_1ab849423006c21063b6ce2c649b08a67c" kindref="member">MR_SelfIntersections_Settings_Get_touchIsIntersection</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43" refid="MRFixSelfIntersections_8h_1a1dfdc2bbae93b47a25f3d098d4d121a2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFixSelfIntersections_8h_1a1dfdc2bbae93b47a25f3d098d4d121a2" kindref="member">MR_SelfIntersections_Settings_Set_touchIsIntersection</ref>(<ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="44"><highlight class="normal"></highlight></codeline>
-<codeline lineno="49" refid="MRFixSelfIntersections_8h_1add28ca1aff01a5abd0bbd20838e29926" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRFixSelfIntersections_8h_1add28ca1aff01a5abd0bbd20838e29926" kindref="member">MR_SelfIntersections_Settings_GetMutable_touchIsIntersection</ref>(<ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="50"><highlight class="normal"></highlight></codeline>
-<codeline lineno="54" refid="MRFixSelfIntersections_8h_1aa39e080e957e0a9420444ad46992df69" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFixSelfIntersections_8h_1a4c56632fe368956d2a2ca09ba4ec21b7" kindref="member">MR_SelfIntersections_Settings_Method</ref><sp/>*<ref refid="MRFixSelfIntersections_8h_1aa39e080e957e0a9420444ad46992df69" kindref="member">MR_SelfIntersections_Settings_Get_method</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="55"><highlight class="normal"></highlight></codeline>
-<codeline lineno="60" refid="MRFixSelfIntersections_8h_1a0eeb3eb14e60a8b10cc775595452dc8f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFixSelfIntersections_8h_1a0eeb3eb14e60a8b10cc775595452dc8f" kindref="member">MR_SelfIntersections_Settings_Set_method</ref>(<ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*_this,<sp/><ref refid="MRFixSelfIntersections_8h_1a4c56632fe368956d2a2ca09ba4ec21b7" kindref="member">MR_SelfIntersections_Settings_Method</ref><sp/>value);</highlight></codeline>
-<codeline lineno="61"><highlight class="normal"></highlight></codeline>
-<codeline lineno="65" refid="MRFixSelfIntersections_8h_1a6a6b382d0df040aeaf369d2af21ef503" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFixSelfIntersections_8h_1a4c56632fe368956d2a2ca09ba4ec21b7" kindref="member">MR_SelfIntersections_Settings_Method</ref><sp/>*<ref refid="MRFixSelfIntersections_8h_1a6a6b382d0df040aeaf369d2af21ef503" kindref="member">MR_SelfIntersections_Settings_GetMutable_method</ref>(<ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="66"><highlight class="normal"></highlight></codeline>
-<codeline lineno="71" refid="MRFixSelfIntersections_8h_1adf8812a34b96a904c495dfaf5b881592" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRFixSelfIntersections_8h_1adf8812a34b96a904c495dfaf5b881592" kindref="member">MR_SelfIntersections_Settings_Get_relaxIterations</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="72"><highlight class="normal"></highlight></codeline>
-<codeline lineno="77" refid="MRFixSelfIntersections_8h_1a5e72339f26b2352bb503deb754c2e658" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFixSelfIntersections_8h_1a5e72339f26b2352bb503deb754c2e658" kindref="member">MR_SelfIntersections_Settings_Set_relaxIterations</ref>(<ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="78"><highlight class="normal"></highlight></codeline>
-<codeline lineno="83" refid="MRFixSelfIntersections_8h_1a454c56aafe34cd0c9246dc6f63b8d1e0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRFixSelfIntersections_8h_1a454c56aafe34cd0c9246dc6f63b8d1e0" kindref="member">MR_SelfIntersections_Settings_GetMutable_relaxIterations</ref>(<ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="84"><highlight class="normal"></highlight></codeline>
-<codeline lineno="89" refid="MRFixSelfIntersections_8h_1a9057e3819b28adeb8ae8f4d96b6d7486" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRFixSelfIntersections_8h_1a9057e3819b28adeb8ae8f4d96b6d7486" kindref="member">MR_SelfIntersections_Settings_Get_maxExpand</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="38" refid="MRFixSelfIntersections_8h_1ab849423006c21063b6ce2c649b08a67c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRFixSelfIntersections_8h_1ab849423006c21063b6ce2c649b08a67c" kindref="member">MR_SelfIntersections_Settings_Get_touchIsIntersection</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="MRFixSelfIntersections_8h_1a1dfdc2bbae93b47a25f3d098d4d121a2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFixSelfIntersections_8h_1a1dfdc2bbae93b47a25f3d098d4d121a2" kindref="member">MR_SelfIntersections_Settings_Set_touchIsIntersection</ref>(<ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="MRFixSelfIntersections_8h_1add28ca1aff01a5abd0bbd20838e29926" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRFixSelfIntersections_8h_1add28ca1aff01a5abd0bbd20838e29926" kindref="member">MR_SelfIntersections_Settings_GetMutable_touchIsIntersection</ref>(<ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="MRFixSelfIntersections_8h_1aa39e080e957e0a9420444ad46992df69" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFixSelfIntersections_8h_1a4c56632fe368956d2a2ca09ba4ec21b7" kindref="member">MR_SelfIntersections_Settings_Method</ref><sp/>*<ref refid="MRFixSelfIntersections_8h_1aa39e080e957e0a9420444ad46992df69" kindref="member">MR_SelfIntersections_Settings_Get_method</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="MRFixSelfIntersections_8h_1a0eeb3eb14e60a8b10cc775595452dc8f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFixSelfIntersections_8h_1a0eeb3eb14e60a8b10cc775595452dc8f" kindref="member">MR_SelfIntersections_Settings_Set_method</ref>(<ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*_this,<sp/><ref refid="MRFixSelfIntersections_8h_1a4c56632fe368956d2a2ca09ba4ec21b7" kindref="member">MR_SelfIntersections_Settings_Method</ref><sp/>value);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="MRFixSelfIntersections_8h_1a6a6b382d0df040aeaf369d2af21ef503" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFixSelfIntersections_8h_1a4c56632fe368956d2a2ca09ba4ec21b7" kindref="member">MR_SelfIntersections_Settings_Method</ref><sp/>*<ref refid="MRFixSelfIntersections_8h_1a6a6b382d0df040aeaf369d2af21ef503" kindref="member">MR_SelfIntersections_Settings_GetMutable_method</ref>(<ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="MRFixSelfIntersections_8h_1adf8812a34b96a904c495dfaf5b881592" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRFixSelfIntersections_8h_1adf8812a34b96a904c495dfaf5b881592" kindref="member">MR_SelfIntersections_Settings_Get_relaxIterations</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="MRFixSelfIntersections_8h_1a5e72339f26b2352bb503deb754c2e658" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFixSelfIntersections_8h_1a5e72339f26b2352bb503deb754c2e658" kindref="member">MR_SelfIntersections_Settings_Set_relaxIterations</ref>(<ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="MRFixSelfIntersections_8h_1a454c56aafe34cd0c9246dc6f63b8d1e0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRFixSelfIntersections_8h_1a454c56aafe34cd0c9246dc6f63b8d1e0" kindref="member">MR_SelfIntersections_Settings_GetMutable_relaxIterations</ref>(<ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="90"><highlight class="normal"></highlight></codeline>
-<codeline lineno="95" refid="MRFixSelfIntersections_8h_1aa9f0f2a7475acf646b95ffe96eb7bc81" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFixSelfIntersections_8h_1aa9f0f2a7475acf646b95ffe96eb7bc81" kindref="member">MR_SelfIntersections_Settings_Set_maxExpand</ref>(<ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="96"><highlight class="normal"></highlight></codeline>
-<codeline lineno="101" refid="MRFixSelfIntersections_8h_1a683218659fe68a699fb01070178546f2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRFixSelfIntersections_8h_1a683218659fe68a699fb01070178546f2" kindref="member">MR_SelfIntersections_Settings_GetMutable_maxExpand</ref>(<ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="102"><highlight class="normal"></highlight></codeline>
-<codeline lineno="108" refid="MRFixSelfIntersections_8h_1a28a7705fccad3a37fcdd2cec55f8b85f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRFixSelfIntersections_8h_1a28a7705fccad3a37fcdd2cec55f8b85f" kindref="member">MR_SelfIntersections_Settings_Get_subdivideEdgeLen</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="109"><highlight class="normal"></highlight></codeline>
-<codeline lineno="115" refid="MRFixSelfIntersections_8h_1a9596ec9be7c013bec0821fb939e86f29" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFixSelfIntersections_8h_1a9596ec9be7c013bec0821fb939e86f29" kindref="member">MR_SelfIntersections_Settings_Set_subdivideEdgeLen</ref>(<ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="116"><highlight class="normal"></highlight></codeline>
-<codeline lineno="122" refid="MRFixSelfIntersections_8h_1a59c3e6c01b63ccb1f57af877a0e63c37" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRFixSelfIntersections_8h_1a59c3e6c01b63ccb1f57af877a0e63c37" kindref="member">MR_SelfIntersections_Settings_GetMutable_subdivideEdgeLen</ref>(<ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="123"><highlight class="normal"></highlight></codeline>
-<codeline lineno="128" refid="MRFixSelfIntersections_8h_1a5d642c00e67b55078ff8c94c96a9d45f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRFixSelfIntersections_8h_1a5d642c00e67b55078ff8c94c96a9d45f" kindref="member">MR_SelfIntersections_Settings_Get_callback</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="129"><highlight class="normal"></highlight></codeline>
-<codeline lineno="135" refid="MRFixSelfIntersections_8h_1a0b71656caeefb10d22f35f29a49d5709" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFixSelfIntersections_8h_1a0b71656caeefb10d22f35f29a49d5709" kindref="member">MR_SelfIntersections_Settings_Set_callback</ref>(<ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="136"><highlight class="normal"></highlight></codeline>
-<codeline lineno="141" refid="MRFixSelfIntersections_8h_1a1d7f57762162004a82e40daac1f577b4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRFixSelfIntersections_8h_1a1d7f57762162004a82e40daac1f577b4" kindref="member">MR_SelfIntersections_Settings_GetMutable_callback</ref>(<ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="142"><highlight class="normal"></highlight></codeline>
-<codeline lineno="145" refid="MRFixSelfIntersections_8h_1acf75195a5eb51458f2e5e228ff2dfcdb" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*<ref refid="MRFixSelfIntersections_8h_1acf75195a5eb51458f2e5e228ff2dfcdb" kindref="member">MR_SelfIntersections_Settings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="146"><highlight class="normal"></highlight></codeline>
-<codeline lineno="150" refid="MRFixSelfIntersections_8h_1a2c6bd5e108b4f20a9210a938259d2e9a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*<ref refid="MRFixSelfIntersections_8h_1a2c6bd5e108b4f20a9210a938259d2e9a" kindref="member">MR_SelfIntersections_Settings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="151"><highlight class="normal"></highlight></codeline>
-<codeline lineno="157" refid="MRFixSelfIntersections_8h_1ad069e4cb1e9ceb5ee7a5379fe8f95f2a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*<ref refid="MRFixSelfIntersections_8h_1ad069e4cb1e9ceb5ee7a5379fe8f95f2a" kindref="member">MR_SelfIntersections_Settings_ConstructFrom</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>touchIsIntersection,<sp/><ref refid="MRFixSelfIntersections_8h_1a4c56632fe368956d2a2ca09ba4ec21b7" kindref="member">MR_SelfIntersections_Settings_Method</ref><sp/>method,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>relaxIterations,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maxExpand,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>subdivideEdgeLen,<sp/>MR_PassBy<sp/>callback_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*callback);</highlight></codeline>
+<codeline lineno="96" refid="MRFixSelfIntersections_8h_1a9057e3819b28adeb8ae8f4d96b6d7486" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRFixSelfIntersections_8h_1a9057e3819b28adeb8ae8f4d96b6d7486" kindref="member">MR_SelfIntersections_Settings_Get_maxExpand</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102" refid="MRFixSelfIntersections_8h_1aa9f0f2a7475acf646b95ffe96eb7bc81" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFixSelfIntersections_8h_1aa9f0f2a7475acf646b95ffe96eb7bc81" kindref="member">MR_SelfIntersections_Settings_Set_maxExpand</ref>(<ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109" refid="MRFixSelfIntersections_8h_1a683218659fe68a699fb01070178546f2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRFixSelfIntersections_8h_1a683218659fe68a699fb01070178546f2" kindref="member">MR_SelfIntersections_Settings_GetMutable_maxExpand</ref>(<ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="MRFixSelfIntersections_8h_1a28a7705fccad3a37fcdd2cec55f8b85f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRFixSelfIntersections_8h_1a28a7705fccad3a37fcdd2cec55f8b85f" kindref="member">MR_SelfIntersections_Settings_Get_subdivideEdgeLen</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="MRFixSelfIntersections_8h_1a9596ec9be7c013bec0821fb939e86f29" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFixSelfIntersections_8h_1a9596ec9be7c013bec0821fb939e86f29" kindref="member">MR_SelfIntersections_Settings_Set_subdivideEdgeLen</ref>(<ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132" refid="MRFixSelfIntersections_8h_1a59c3e6c01b63ccb1f57af877a0e63c37" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRFixSelfIntersections_8h_1a59c3e6c01b63ccb1f57af877a0e63c37" kindref="member">MR_SelfIntersections_Settings_GetMutable_subdivideEdgeLen</ref>(<ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139" refid="MRFixSelfIntersections_8h_1a5d642c00e67b55078ff8c94c96a9d45f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRFixSelfIntersections_8h_1a5d642c00e67b55078ff8c94c96a9d45f" kindref="member">MR_SelfIntersections_Settings_Get_callback</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146" refid="MRFixSelfIntersections_8h_1a0b71656caeefb10d22f35f29a49d5709" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFixSelfIntersections_8h_1a0b71656caeefb10d22f35f29a49d5709" kindref="member">MR_SelfIntersections_Settings_Set_callback</ref>(<ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153" refid="MRFixSelfIntersections_8h_1a1d7f57762162004a82e40daac1f577b4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRFixSelfIntersections_8h_1a1d7f57762162004a82e40daac1f577b4" kindref="member">MR_SelfIntersections_Settings_GetMutable_callback</ref>(<ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157" refid="MRFixSelfIntersections_8h_1acf75195a5eb51458f2e5e228ff2dfcdb" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*<ref refid="MRFixSelfIntersections_8h_1acf75195a5eb51458f2e5e228ff2dfcdb" kindref="member">MR_SelfIntersections_Settings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="158"><highlight class="normal"></highlight></codeline>
-<codeline lineno="161" refid="MRFixSelfIntersections_8h_1a61e6ca8cb178111fffd20851972307d7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*<ref refid="MRFixSelfIntersections_8h_1a61e6ca8cb178111fffd20851972307d7" kindref="member">MR_SelfIntersections_Settings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="162"><highlight class="normal"></highlight></codeline>
-<codeline lineno="165" refid="MRFixSelfIntersections_8h_1a4e80ca1d2c9d5ae9ca4824d60c407d63" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*<ref refid="MRFixSelfIntersections_8h_1a4e80ca1d2c9d5ae9ca4824d60c407d63" kindref="member">MR_SelfIntersections_Settings_OffsetMutablePtr</ref>(<ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="166"><highlight class="normal"></highlight></codeline>
-<codeline lineno="170" refid="MRFixSelfIntersections_8h_1a29510922a4c400b09e99a8de997805ac" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*<ref refid="MRFixSelfIntersections_8h_1a29510922a4c400b09e99a8de997805ac" kindref="member">MR_SelfIntersections_Settings_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="171"><highlight class="normal"></highlight></codeline>
-<codeline lineno="173" refid="MRFixSelfIntersections_8h_1a975c9ff47f4e5b758675b1eb46af1a5f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFixSelfIntersections_8h_1a975c9ff47f4e5b758675b1eb46af1a5f" kindref="member">MR_SelfIntersections_Settings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="162" refid="MRFixSelfIntersections_8h_1a2c6bd5e108b4f20a9210a938259d2e9a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*<ref refid="MRFixSelfIntersections_8h_1a2c6bd5e108b4f20a9210a938259d2e9a" kindref="member">MR_SelfIntersections_Settings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169" refid="MRFixSelfIntersections_8h_1ad069e4cb1e9ceb5ee7a5379fe8f95f2a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*<ref refid="MRFixSelfIntersections_8h_1ad069e4cb1e9ceb5ee7a5379fe8f95f2a" kindref="member">MR_SelfIntersections_Settings_ConstructFrom</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>touchIsIntersection,<sp/><ref refid="MRFixSelfIntersections_8h_1a4c56632fe368956d2a2ca09ba4ec21b7" kindref="member">MR_SelfIntersections_Settings_Method</ref><sp/>method,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>relaxIterations,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maxExpand,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>subdivideEdgeLen,<sp/>MR_PassBy<sp/>callback_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*callback);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173" refid="MRFixSelfIntersections_8h_1a61e6ca8cb178111fffd20851972307d7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*<ref refid="MRFixSelfIntersections_8h_1a61e6ca8cb178111fffd20851972307d7" kindref="member">MR_SelfIntersections_Settings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="174"><highlight class="normal"></highlight></codeline>
-<codeline lineno="176" refid="MRFixSelfIntersections_8h_1a2a3ba1fc0dcf95bc6471810a02168d22" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFixSelfIntersections_8h_1a2a3ba1fc0dcf95bc6471810a02168d22" kindref="member">MR_SelfIntersections_Settings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="177"><highlight class="normal"></highlight></codeline>
-<codeline lineno="183" refid="MRFixSelfIntersections_8h_1a127edd9f28fbcf6a4b0809dfcdde4346" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*<ref refid="MRFixSelfIntersections_8h_1a127edd9f28fbcf6a4b0809dfcdde4346" kindref="member">MR_SelfIntersections_Settings_AssignFromAnother</ref>(<ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="184"><highlight class="normal"></highlight></codeline>
-<codeline lineno="191" refid="MRFixSelfIntersections_8h_1aa2d2e0fe8097c58666f9396e14a135f5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a6aeecd4fac2aea90513510421de3f37b" kindref="member">MR_expected_MR_FaceBitSet_std_string</ref><sp/>*<ref refid="MRFixSelfIntersections_8h_1aa2d2e0fe8097c58666f9396e14a135f5" kindref="member">MR_SelfIntersections_getFaces</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*touchIsIntersection,<sp/>MR_PassBy<sp/>cb_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
-<codeline lineno="192"><highlight class="normal"></highlight></codeline>
-<codeline lineno="198" refid="MRFixSelfIntersections_8h_1a0a8392004ff0f8819b4dee45d9eee44a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRFixSelfIntersections_8h_1a0a8392004ff0f8819b4dee45d9eee44a" kindref="member">MR_SelfIntersections_fix</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*settings);</highlight></codeline>
-<codeline lineno="199"><highlight class="normal"></highlight></codeline>
-<codeline lineno="200"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="201"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="202"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="177" refid="MRFixSelfIntersections_8h_1a4e80ca1d2c9d5ae9ca4824d60c407d63" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*<ref refid="MRFixSelfIntersections_8h_1a4e80ca1d2c9d5ae9ca4824d60c407d63" kindref="member">MR_SelfIntersections_Settings_OffsetMutablePtr</ref>(<ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="MRFixSelfIntersections_8h_1a29510922a4c400b09e99a8de997805ac" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*<ref refid="MRFixSelfIntersections_8h_1a29510922a4c400b09e99a8de997805ac" kindref="member">MR_SelfIntersections_Settings_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185" refid="MRFixSelfIntersections_8h_1a975c9ff47f4e5b758675b1eb46af1a5f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFixSelfIntersections_8h_1a975c9ff47f4e5b758675b1eb46af1a5f" kindref="member">MR_SelfIntersections_Settings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188" refid="MRFixSelfIntersections_8h_1a2a3ba1fc0dcf95bc6471810a02168d22" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFixSelfIntersections_8h_1a2a3ba1fc0dcf95bc6471810a02168d22" kindref="member">MR_SelfIntersections_Settings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195" refid="MRFixSelfIntersections_8h_1a127edd9f28fbcf6a4b0809dfcdde4346" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*<ref refid="MRFixSelfIntersections_8h_1a127edd9f28fbcf6a4b0809dfcdde4346" kindref="member">MR_SelfIntersections_Settings_AssignFromAnother</ref>(<ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="203" refid="MRFixSelfIntersections_8h_1aa2d2e0fe8097c58666f9396e14a135f5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a6aeecd4fac2aea90513510421de3f37b" kindref="member">MR_expected_MR_FaceBitSet_std_string</ref><sp/>*<ref refid="MRFixSelfIntersections_8h_1aa2d2e0fe8097c58666f9396e14a135f5" kindref="member">MR_SelfIntersections_getFaces</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*touchIsIntersection,<sp/>MR_PassBy<sp/>cb_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210" refid="MRFixSelfIntersections_8h_1a0a8392004ff0f8819b4dee45d9eee44a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRFixSelfIntersections_8h_1a0a8392004ff0f8819b4dee45d9eee44a" kindref="member">MR_SelfIntersections_fix</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFixSelfIntersections_8h_1a4f6deedc955d5097e00c2842d51d3cef" kindref="member">MR_SelfIntersections_Settings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFixSelfIntersections.h"/>
   </compounddef>

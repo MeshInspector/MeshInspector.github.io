@@ -176,11 +176,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>specifies which side of shell is of interest: negative or positive relative to mesh normals Returns a pointer to a member variable of class <computeroutput>MR::FindInnerShellSettings</computeroutput> named <computeroutput>side</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>specifies which side of shell is of interest: negative or positive relative to mesh normals Returns a pointer to a member variable of class <computeroutput>MR::FindInnerShellSettings</computeroutput> named <computeroutput>side</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="38" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="38" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="39" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="39" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRInnerShell_8h_1a5b791c64af678d7e9d15431a658eaec8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -202,7 +202,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="45" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="45" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="46" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="46" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRInnerShell_8h_1aeaf457f6d645b920dfc899123af9d875" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRInnerShell_8h_1a9d88fefb52aeb60e749874b389a9cd87" kindref="member">MR_Side</ref> *</type>
@@ -216,11 +216,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>specifies which side of shell is of interest: negative or positive relative to mesh normals Returns a mutable pointer to a member variable of class <computeroutput>MR::FindInnerShellSettings</computeroutput> named <computeroutput>side</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>specifies which side of shell is of interest: negative or positive relative to mesh normals Returns a mutable pointer to a member variable of class <computeroutput>MR::FindInnerShellSettings</computeroutput> named <computeroutput>side</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="51" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="51" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="53" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="53" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="MRInnerShell_8h_1a8b1b4317dbaae7d3bbfb091c03e1c794" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const float *</type>
@@ -234,11 +234,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>specifies maximum squared distance from shell parts of interest to source mesh Returns a pointer to a member variable of class <computeroutput>MR::FindInnerShellSettings</computeroutput> named <computeroutput>maxDistSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>specifies maximum squared distance from shell parts of interest to source mesh Returns a pointer to a member variable of class <computeroutput>MR::FindInnerShellSettings</computeroutput> named <computeroutput>maxDistSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="57" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="57" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="60" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="60" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRInnerShell_8h_1ab2d25f6a1a1402a21ed3ef1c711dce83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -260,7 +260,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="63" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="63" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="66" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="66" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRInnerShell_8h_1ab8560621bc90666c3dcc9b5f1ee0c76d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float *</type>
@@ -274,11 +274,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>specifies maximum squared distance from shell parts of interest to source mesh Returns a mutable pointer to a member variable of class <computeroutput>MR::FindInnerShellSettings</computeroutput> named <computeroutput>maxDistSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>specifies maximum squared distance from shell parts of interest to source mesh Returns a mutable pointer to a member variable of class <computeroutput>MR::FindInnerShellSettings</computeroutput> named <computeroutput>maxDistSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="69" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="69" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="73" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="73" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRInnerShell_8h_1a736b939f4a8f1179f23a4087a98cad10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const bool *</type>
@@ -292,11 +292,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if true, a slower algorithm is activated that is more robust in the presence of self-intersections on mesh Returns a pointer to a member variable of class <computeroutput>MR::FindInnerShellSettings</computeroutput> named <computeroutput>useWindingNumber</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>if true, a slower algorithm is activated that is more robust in the presence of self-intersections on mesh Returns a pointer to a member variable of class <computeroutput>MR::FindInnerShellSettings</computeroutput> named <computeroutput>useWindingNumber</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="75" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="75" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="80" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="80" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRInnerShell_8h_1a76829bf05921a128f6ad9817f8d1f3b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -318,7 +318,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="81" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="81" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="86" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="86" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRInnerShell_8h_1abb609b54997c531ce11375f8cdef9894" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool *</type>
@@ -332,11 +332,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if true, a slower algorithm is activated that is more robust in the presence of self-intersections on mesh Returns a mutable pointer to a member variable of class <computeroutput>MR::FindInnerShellSettings</computeroutput> named <computeroutput>useWindingNumber</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>if true, a slower algorithm is activated that is more robust in the presence of self-intersections on mesh Returns a mutable pointer to a member variable of class <computeroutput>MR::FindInnerShellSettings</computeroutput> named <computeroutput>useWindingNumber</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="87" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="87" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="93" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="93" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRInnerShell_8h_1a6f98fadaf0dfdc3f85b9aa2340c58fa9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const float *</type>
@@ -350,11 +350,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>positive side if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes Returns a pointer to a member variable of class <computeroutput>MR::FindInnerShellSettings</computeroutput> named <computeroutput>windingNumberThreshold</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>positive side if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes Returns a pointer to a member variable of class <computeroutput>MR::FindInnerShellSettings</computeroutput> named <computeroutput>windingNumberThreshold</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="94" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="94" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="101" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="101" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRInnerShell_8h_1a63dafb13376aec5d51d9a9e25e75dac8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -376,7 +376,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="101" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="101" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="108" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="108" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRInnerShell_8h_1a413ce2fdb7ce5c9c8fada8e2b0be7b73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float *</type>
@@ -390,11 +390,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>positive side if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes Returns a mutable pointer to a member variable of class <computeroutput>MR::FindInnerShellSettings</computeroutput> named <computeroutput>windingNumberThreshold</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>positive side if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes Returns a mutable pointer to a member variable of class <computeroutput>MR::FindInnerShellSettings</computeroutput> named <computeroutput>windingNumberThreshold</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="108" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="108" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="116" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="116" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRInnerShell_8h_1a32323420fc73ea7debfb8ddb0e5d354f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const int *</type>
@@ -408,11 +408,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>components of proper side with smaller number of vertices than this value will be removed from the result; components of wrong side with smaller number of vertices than this value will be added to the result Returns a pointer to a member variable of class <computeroutput>MR::FindInnerShellSettings</computeroutput> named <computeroutput>minVertsInComp</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>components of proper side with smaller number of vertices than this value will be removed from the result; components of wrong side with smaller number of vertices than this value will be added to the result Returns a pointer to a member variable of class <computeroutput>MR::FindInnerShellSettings</computeroutput> named <computeroutput>minVertsInComp</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="115" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="115" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="124" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="124" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRInnerShell_8h_1adefe6ee232d5cace3fa666f3880c74f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -434,7 +434,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="122" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="122" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="131" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="131" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRInnerShell_8h_1ae2ce3046f6358a7f3a56a0d1f77cc874" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API int *</type>
@@ -448,11 +448,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>components of proper side with smaller number of vertices than this value will be removed from the result; components of wrong side with smaller number of vertices than this value will be added to the result Returns a mutable pointer to a member variable of class <computeroutput>MR::FindInnerShellSettings</computeroutput> named <computeroutput>minVertsInComp</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>components of proper side with smaller number of vertices than this value will be removed from the result; components of wrong side with smaller number of vertices than this value will be added to the result Returns a mutable pointer to a member variable of class <computeroutput>MR::FindInnerShellSettings</computeroutput> named <computeroutput>minVertsInComp</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="129" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="129" declcolumn="13"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="139" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="139" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="MRInnerShell_8h_1af6fdc7cba82153ee3d12ac84e08900b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref> *</type>
@@ -469,7 +469,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="133" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="133" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="143" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="143" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRInnerShell_8h_1a8e3373b1516d98365c7aeb47eaf4d5ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref> *</type>
@@ -487,7 +487,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="138" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="138" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="148" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="148" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRInnerShell_8h_1aa61b2a85fbca0730519e69227b564865" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref> *</type>
@@ -521,7 +521,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="144" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="144" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="154" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="154" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRInnerShell_8h_1a17f9c244ceae4d708c4f0265f581147a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref> *</type>
@@ -543,7 +543,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="148" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="148" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="158" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="158" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRInnerShell_8h_1a40f4c3cd7fbf56df3fe4692693939542" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref> *</type>
@@ -565,7 +565,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="152" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="152" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="162" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="162" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRInnerShell_8h_1a458a4169d9c7d32a05b84c2d61642a7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref> *</type>
@@ -583,7 +583,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="158" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="158" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="168" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="168" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRInnerShell_8h_1a26b999f6eb8d2216b022b4e23e02dc4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -601,7 +601,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="161" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="161" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="171" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="171" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRInnerShell_8h_1a2800873931e60896e0c93ab638041c4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -619,7 +619,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="164" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="164" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="174" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="174" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRInnerShell_8h_1ad6e725e143756fdadd35520794d16c0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref> *</type>
@@ -641,7 +641,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="172" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="172" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="182" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="182" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRInnerShell_8h_1ac3e07365e97d0822c07e3025f5c8a74e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const bool *</type>
@@ -655,11 +655,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>true when shell vertex is within settings.maxDist from source mesh Returns a pointer to a member variable of class <computeroutput>MR::ShellVertexInfo</computeroutput> named <computeroutput>inRange</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>true when shell vertex is within settings.maxDist from source mesh Returns a pointer to a member variable of class <computeroutput>MR::ShellVertexInfo</computeroutput> named <computeroutput>inRange</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="178" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="178" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="189" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="189" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRInnerShell_8h_1ace7efd379a7bdb2a8e7d6819f10c9136" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -681,7 +681,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="184" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="184" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="195" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="195" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRInnerShell_8h_1a0d49e452fdf69e5fed1aab9946e5055d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool *</type>
@@ -695,11 +695,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>true when shell vertex is within settings.maxDist from source mesh Returns a mutable pointer to a member variable of class <computeroutput>MR::ShellVertexInfo</computeroutput> named <computeroutput>inRange</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>true when shell vertex is within settings.maxDist from source mesh Returns a mutable pointer to a member variable of class <computeroutput>MR::ShellVertexInfo</computeroutput> named <computeroutput>inRange</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="190" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="190" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="202" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="202" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRInnerShell_8h_1a85cf20cc211f782a2bed598568b2898c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const bool *</type>
@@ -713,11 +713,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>shell vertex projects on source mesh boundary (never true for winding rule mode) Returns a pointer to a member variable of class <computeroutput>MR::ShellVertexInfo</computeroutput> named <computeroutput>projOnBd</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>shell vertex projects on source mesh boundary (never true for winding rule mode) Returns a pointer to a member variable of class <computeroutput>MR::ShellVertexInfo</computeroutput> named <computeroutput>projOnBd</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="196" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="196" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="209" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="209" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRInnerShell_8h_1ac888e42083d6021e94b1a11d02f93c4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -739,7 +739,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="202" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="202" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="215" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="215" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRInnerShell_8h_1a1293705974adf206edddfb63824cc73c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool *</type>
@@ -753,11 +753,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>shell vertex projects on source mesh boundary (never true for winding rule mode) Returns a mutable pointer to a member variable of class <computeroutput>MR::ShellVertexInfo</computeroutput> named <computeroutput>projOnBd</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>shell vertex projects on source mesh boundary (never true for winding rule mode) Returns a mutable pointer to a member variable of class <computeroutput>MR::ShellVertexInfo</computeroutput> named <computeroutput>projOnBd</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="208" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="208" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="222" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="222" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRInnerShell_8h_1a6a4b1bdfca9fad0a8dfe30168ad6d163" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const bool *</type>
@@ -771,11 +771,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>whether shell vertex is on requested side of source mesh Returns a pointer to a member variable of class <computeroutput>MR::ShellVertexInfo</computeroutput> named <computeroutput>rightSide</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>whether shell vertex is on requested side of source mesh Returns a pointer to a member variable of class <computeroutput>MR::ShellVertexInfo</computeroutput> named <computeroutput>rightSide</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="214" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="214" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="229" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="229" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRInnerShell_8h_1a0965aab76e71632e5d6e4037411b81e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -797,7 +797,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="220" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="220" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="235" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="235" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRInnerShell_8h_1ab4995bd58fddc467a5af3c91b05599c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool *</type>
@@ -811,11 +811,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>whether shell vertex is on requested side of source mesh Returns a mutable pointer to a member variable of class <computeroutput>MR::ShellVertexInfo</computeroutput> named <computeroutput>rightSide</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>whether shell vertex is on requested side of source mesh Returns a mutable pointer to a member variable of class <computeroutput>MR::ShellVertexInfo</computeroutput> named <computeroutput>rightSide</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="226" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="226" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="242" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="242" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRInnerShell_8h_1aa26a123cbacb5b393a6f4a2acb00e6ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref> *</type>
@@ -832,7 +832,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="230" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="230" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="246" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="246" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MRInnerShell_8h_1a9de070db79f71a23e06e36955f305bb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref> *</type>
@@ -850,7 +850,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="235" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="235" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="251" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="251" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MRInnerShell_8h_1ad871c4f7e73a38258fe26377af114f3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref> *</type>
@@ -876,7 +876,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="240" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="240" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="256" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="256" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MRInnerShell_8h_1ad41c025658368cad119d1a41be1570e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref> *</type>
@@ -898,7 +898,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="244" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="244" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="260" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="260" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRInnerShell_8h_1a8c72d44d07694703bbce0b1efb5288d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref> *</type>
@@ -920,7 +920,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="248" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="248" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="264" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="264" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MRInnerShell_8h_1afd711999a77805979373546166bee1ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref> *</type>
@@ -938,7 +938,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="254" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="254" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="270" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="270" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MRInnerShell_8h_1a3cf7eebc3361715eb1efb572ffc40933" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -956,7 +956,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="257" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="257" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="273" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="273" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRInnerShell_8h_1afd168e9ecace08b60d117c7040604948" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -974,7 +974,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="260" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="260" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="276" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="276" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRInnerShell_8h_1abb81b9ebb0f990a7f17fcdded2b728b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref> *</type>
@@ -996,7 +996,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="268" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="268" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="284" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="284" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MRInnerShell_8h_1a8bb035659a6644985d5899dfdb7662a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool</type>
@@ -1014,7 +1014,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="273" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="273" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="289" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="289" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRInnerShell_8h_1a7dcb4d4c374322d200fc046d284ef800" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref> *</type>
@@ -1059,7 +1059,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="284" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="284" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="300" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="300" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MRInnerShell_8h_1a00ca92eda1f4c5a3146074a97b1d3cfa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *</type>
@@ -1102,7 +1102,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="294" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="294" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="310" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="310" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRInnerShell_8h_1a60c7fa2d10e304eeaa8fc5ba282efda0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *</type>
@@ -1145,7 +1145,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="304" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="304" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" line="320" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h" declline="320" declcolumn="23"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1181,101 +1181,101 @@
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
 <codeline lineno="32" refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref><sp/><ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref>;</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38" refid="MRInnerShell_8h_1aa5cc959477a3c33a3e9971e27a01d8ca" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a9d88fefb52aeb60e749874b389a9cd87" kindref="member">MR_Side</ref><sp/>*<ref refid="MRInnerShell_8h_1aa5cc959477a3c33a3e9971e27a01d8ca" kindref="member">MR_FindInnerShellSettings_Get_side</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45" refid="MRInnerShell_8h_1a5b791c64af678d7e9d15431a658eaec8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a5b791c64af678d7e9d15431a658eaec8" kindref="member">MR_FindInnerShellSettings_Set_side</ref>(<ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*_this,<sp/><ref refid="MRInnerShell_8h_1a9d88fefb52aeb60e749874b389a9cd87" kindref="member">MR_Side</ref><sp/>value);</highlight></codeline>
-<codeline lineno="46"><highlight class="normal"></highlight></codeline>
-<codeline lineno="51" refid="MRInnerShell_8h_1aeaf457f6d645b920dfc899123af9d875" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRInnerShell_8h_1a9d88fefb52aeb60e749874b389a9cd87" kindref="member">MR_Side</ref><sp/>*<ref refid="MRInnerShell_8h_1aeaf457f6d645b920dfc899123af9d875" kindref="member">MR_FindInnerShellSettings_GetMutable_side</ref>(<ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="57" refid="MRInnerShell_8h_1a8b1b4317dbaae7d3bbfb091c03e1c794" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRInnerShell_8h_1a8b1b4317dbaae7d3bbfb091c03e1c794" kindref="member">MR_FindInnerShellSettings_Get_maxDistSq</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="58"><highlight class="normal"></highlight></codeline>
-<codeline lineno="63" refid="MRInnerShell_8h_1ab2d25f6a1a1402a21ed3ef1c711dce83" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1ab2d25f6a1a1402a21ed3ef1c711dce83" kindref="member">MR_FindInnerShellSettings_Set_maxDistSq</ref>(<ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="64"><highlight class="normal"></highlight></codeline>
-<codeline lineno="69" refid="MRInnerShell_8h_1ab8560621bc90666c3dcc9b5f1ee0c76d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRInnerShell_8h_1ab8560621bc90666c3dcc9b5f1ee0c76d" kindref="member">MR_FindInnerShellSettings_GetMutable_maxDistSq</ref>(<ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="70"><highlight class="normal"></highlight></codeline>
-<codeline lineno="75" refid="MRInnerShell_8h_1a736b939f4a8f1179f23a4087a98cad10" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRInnerShell_8h_1a736b939f4a8f1179f23a4087a98cad10" kindref="member">MR_FindInnerShellSettings_Get_useWindingNumber</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="76"><highlight class="normal"></highlight></codeline>
-<codeline lineno="81" refid="MRInnerShell_8h_1a76829bf05921a128f6ad9817f8d1f3b4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a76829bf05921a128f6ad9817f8d1f3b4" kindref="member">MR_FindInnerShellSettings_Set_useWindingNumber</ref>(<ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="82"><highlight class="normal"></highlight></codeline>
-<codeline lineno="87" refid="MRInnerShell_8h_1abb609b54997c531ce11375f8cdef9894" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRInnerShell_8h_1abb609b54997c531ce11375f8cdef9894" kindref="member">MR_FindInnerShellSettings_GetMutable_useWindingNumber</ref>(<ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="88"><highlight class="normal"></highlight></codeline>
-<codeline lineno="94" refid="MRInnerShell_8h_1a6f98fadaf0dfdc3f85b9aa2340c58fa9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRInnerShell_8h_1a6f98fadaf0dfdc3f85b9aa2340c58fa9" kindref="member">MR_FindInnerShellSettings_Get_windingNumberThreshold</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="95"><highlight class="normal"></highlight></codeline>
-<codeline lineno="101" refid="MRInnerShell_8h_1a63dafb13376aec5d51d9a9e25e75dac8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a63dafb13376aec5d51d9a9e25e75dac8" kindref="member">MR_FindInnerShellSettings_Set_windingNumberThreshold</ref>(<ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="39" refid="MRInnerShell_8h_1aa5cc959477a3c33a3e9971e27a01d8ca" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a9d88fefb52aeb60e749874b389a9cd87" kindref="member">MR_Side</ref><sp/>*<ref refid="MRInnerShell_8h_1aa5cc959477a3c33a3e9971e27a01d8ca" kindref="member">MR_FindInnerShellSettings_Get_side</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="MRInnerShell_8h_1a5b791c64af678d7e9d15431a658eaec8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a5b791c64af678d7e9d15431a658eaec8" kindref="member">MR_FindInnerShellSettings_Set_side</ref>(<ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*_this,<sp/><ref refid="MRInnerShell_8h_1a9d88fefb52aeb60e749874b389a9cd87" kindref="member">MR_Side</ref><sp/>value);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="MRInnerShell_8h_1aeaf457f6d645b920dfc899123af9d875" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRInnerShell_8h_1a9d88fefb52aeb60e749874b389a9cd87" kindref="member">MR_Side</ref><sp/>*<ref refid="MRInnerShell_8h_1aeaf457f6d645b920dfc899123af9d875" kindref="member">MR_FindInnerShellSettings_GetMutable_side</ref>(<ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="MRInnerShell_8h_1a8b1b4317dbaae7d3bbfb091c03e1c794" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRInnerShell_8h_1a8b1b4317dbaae7d3bbfb091c03e1c794" kindref="member">MR_FindInnerShellSettings_Get_maxDistSq</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="MRInnerShell_8h_1ab2d25f6a1a1402a21ed3ef1c711dce83" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1ab2d25f6a1a1402a21ed3ef1c711dce83" kindref="member">MR_FindInnerShellSettings_Set_maxDistSq</ref>(<ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="MRInnerShell_8h_1ab8560621bc90666c3dcc9b5f1ee0c76d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRInnerShell_8h_1ab8560621bc90666c3dcc9b5f1ee0c76d" kindref="member">MR_FindInnerShellSettings_GetMutable_maxDistSq</ref>(<ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="MRInnerShell_8h_1a736b939f4a8f1179f23a4087a98cad10" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRInnerShell_8h_1a736b939f4a8f1179f23a4087a98cad10" kindref="member">MR_FindInnerShellSettings_Get_useWindingNumber</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="MRInnerShell_8h_1a76829bf05921a128f6ad9817f8d1f3b4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a76829bf05921a128f6ad9817f8d1f3b4" kindref="member">MR_FindInnerShellSettings_Set_useWindingNumber</ref>(<ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="MRInnerShell_8h_1abb609b54997c531ce11375f8cdef9894" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRInnerShell_8h_1abb609b54997c531ce11375f8cdef9894" kindref="member">MR_FindInnerShellSettings_GetMutable_useWindingNumber</ref>(<ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="MRInnerShell_8h_1a6f98fadaf0dfdc3f85b9aa2340c58fa9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRInnerShell_8h_1a6f98fadaf0dfdc3f85b9aa2340c58fa9" kindref="member">MR_FindInnerShellSettings_Get_windingNumberThreshold</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="102"><highlight class="normal"></highlight></codeline>
-<codeline lineno="108" refid="MRInnerShell_8h_1a413ce2fdb7ce5c9c8fada8e2b0be7b73" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRInnerShell_8h_1a413ce2fdb7ce5c9c8fada8e2b0be7b73" kindref="member">MR_FindInnerShellSettings_GetMutable_windingNumberThreshold</ref>(<ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="108" refid="MRInnerShell_8h_1a63dafb13376aec5d51d9a9e25e75dac8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a63dafb13376aec5d51d9a9e25e75dac8" kindref="member">MR_FindInnerShellSettings_Set_windingNumberThreshold</ref>(<ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="109"><highlight class="normal"></highlight></codeline>
-<codeline lineno="115" refid="MRInnerShell_8h_1a32323420fc73ea7debfb8ddb0e5d354f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRInnerShell_8h_1a32323420fc73ea7debfb8ddb0e5d354f" kindref="member">MR_FindInnerShellSettings_Get_minVertsInComp</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="116"><highlight class="normal"></highlight></codeline>
-<codeline lineno="122" refid="MRInnerShell_8h_1adefe6ee232d5cace3fa666f3880c74f6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1adefe6ee232d5cace3fa666f3880c74f6" kindref="member">MR_FindInnerShellSettings_Set_minVertsInComp</ref>(<ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="123"><highlight class="normal"></highlight></codeline>
-<codeline lineno="129" refid="MRInnerShell_8h_1ae2ce3046f6358a7f3a56a0d1f77cc874" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRInnerShell_8h_1ae2ce3046f6358a7f3a56a0d1f77cc874" kindref="member">MR_FindInnerShellSettings_GetMutable_minVertsInComp</ref>(<ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="130"><highlight class="normal"></highlight></codeline>
-<codeline lineno="133" refid="MRInnerShell_8h_1af6fdc7cba82153ee3d12ac84e08900b7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*<ref refid="MRInnerShell_8h_1af6fdc7cba82153ee3d12ac84e08900b7" kindref="member">MR_FindInnerShellSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="134"><highlight class="normal"></highlight></codeline>
-<codeline lineno="138" refid="MRInnerShell_8h_1a8e3373b1516d98365c7aeb47eaf4d5ed" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*<ref refid="MRInnerShell_8h_1a8e3373b1516d98365c7aeb47eaf4d5ed" kindref="member">MR_FindInnerShellSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="139"><highlight class="normal"></highlight></codeline>
-<codeline lineno="144" refid="MRInnerShell_8h_1aa61b2a85fbca0730519e69227b564865" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*<ref refid="MRInnerShell_8h_1aa61b2a85fbca0730519e69227b564865" kindref="member">MR_FindInnerShellSettings_ConstructFrom</ref>(<ref refid="MRInnerShell_8h_1a9d88fefb52aeb60e749874b389a9cd87" kindref="member">MR_Side</ref><sp/>side,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxDistSq,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>useWindingNumber,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>windingNumberThreshold,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>minVertsInComp);</highlight></codeline>
-<codeline lineno="145"><highlight class="normal"></highlight></codeline>
-<codeline lineno="148" refid="MRInnerShell_8h_1a17f9c244ceae4d708c4f0265f581147a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*<ref refid="MRInnerShell_8h_1a17f9c244ceae4d708c4f0265f581147a" kindref="member">MR_FindInnerShellSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="116" refid="MRInnerShell_8h_1a413ce2fdb7ce5c9c8fada8e2b0be7b73" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRInnerShell_8h_1a413ce2fdb7ce5c9c8fada8e2b0be7b73" kindref="member">MR_FindInnerShellSettings_GetMutable_windingNumberThreshold</ref>(<ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="MRInnerShell_8h_1a32323420fc73ea7debfb8ddb0e5d354f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRInnerShell_8h_1a32323420fc73ea7debfb8ddb0e5d354f" kindref="member">MR_FindInnerShellSettings_Get_minVertsInComp</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131" refid="MRInnerShell_8h_1adefe6ee232d5cace3fa666f3880c74f6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1adefe6ee232d5cace3fa666f3880c74f6" kindref="member">MR_FindInnerShellSettings_Set_minVertsInComp</ref>(<ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139" refid="MRInnerShell_8h_1ae2ce3046f6358a7f3a56a0d1f77cc874" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRInnerShell_8h_1ae2ce3046f6358a7f3a56a0d1f77cc874" kindref="member">MR_FindInnerShellSettings_GetMutable_minVertsInComp</ref>(<ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="MRInnerShell_8h_1af6fdc7cba82153ee3d12ac84e08900b7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*<ref refid="MRInnerShell_8h_1af6fdc7cba82153ee3d12ac84e08900b7" kindref="member">MR_FindInnerShellSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148" refid="MRInnerShell_8h_1a8e3373b1516d98365c7aeb47eaf4d5ed" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*<ref refid="MRInnerShell_8h_1a8e3373b1516d98365c7aeb47eaf4d5ed" kindref="member">MR_FindInnerShellSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="149"><highlight class="normal"></highlight></codeline>
-<codeline lineno="152" refid="MRInnerShell_8h_1a40f4c3cd7fbf56df3fe4692693939542" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*<ref refid="MRInnerShell_8h_1a40f4c3cd7fbf56df3fe4692693939542" kindref="member">MR_FindInnerShellSettings_OffsetMutablePtr</ref>(<ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="153"><highlight class="normal"></highlight></codeline>
-<codeline lineno="158" refid="MRInnerShell_8h_1a458a4169d9c7d32a05b84c2d61642a7c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*<ref refid="MRInnerShell_8h_1a458a4169d9c7d32a05b84c2d61642a7c" kindref="member">MR_FindInnerShellSettings_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="154" refid="MRInnerShell_8h_1aa61b2a85fbca0730519e69227b564865" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*<ref refid="MRInnerShell_8h_1aa61b2a85fbca0730519e69227b564865" kindref="member">MR_FindInnerShellSettings_ConstructFrom</ref>(<ref refid="MRInnerShell_8h_1a9d88fefb52aeb60e749874b389a9cd87" kindref="member">MR_Side</ref><sp/>side,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxDistSq,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>useWindingNumber,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>windingNumberThreshold,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>minVertsInComp);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158" refid="MRInnerShell_8h_1a17f9c244ceae4d708c4f0265f581147a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*<ref refid="MRInnerShell_8h_1a17f9c244ceae4d708c4f0265f581147a" kindref="member">MR_FindInnerShellSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="159"><highlight class="normal"></highlight></codeline>
-<codeline lineno="161" refid="MRInnerShell_8h_1a26b999f6eb8d2216b022b4e23e02dc4e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a26b999f6eb8d2216b022b4e23e02dc4e" kindref="member">MR_FindInnerShellSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="162"><highlight class="normal"></highlight></codeline>
-<codeline lineno="164" refid="MRInnerShell_8h_1a2800873931e60896e0c93ab638041c4e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a2800873931e60896e0c93ab638041c4e" kindref="member">MR_FindInnerShellSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="165"><highlight class="normal"></highlight></codeline>
-<codeline lineno="172" refid="MRInnerShell_8h_1ad6e725e143756fdadd35520794d16c0d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*<ref refid="MRInnerShell_8h_1ad6e725e143756fdadd35520794d16c0d" kindref="member">MR_FindInnerShellSettings_AssignFromAnother</ref>(<ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="173"><highlight class="normal"></highlight></codeline>
-<codeline lineno="178" refid="MRInnerShell_8h_1ac3e07365e97d0822c07e3025f5c8a74e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRInnerShell_8h_1ac3e07365e97d0822c07e3025f5c8a74e" kindref="member">MR_ShellVertexInfo_Get_inRange</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="179"><highlight class="normal"></highlight></codeline>
-<codeline lineno="184" refid="MRInnerShell_8h_1ace7efd379a7bdb2a8e7d6819f10c9136" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1ace7efd379a7bdb2a8e7d6819f10c9136" kindref="member">MR_ShellVertexInfo_Set_inRange</ref>(<ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="185"><highlight class="normal"></highlight></codeline>
-<codeline lineno="190" refid="MRInnerShell_8h_1a0d49e452fdf69e5fed1aab9946e5055d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRInnerShell_8h_1a0d49e452fdf69e5fed1aab9946e5055d" kindref="member">MR_ShellVertexInfo_GetMutable_inRange</ref>(<ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="191"><highlight class="normal"></highlight></codeline>
-<codeline lineno="196" refid="MRInnerShell_8h_1a85cf20cc211f782a2bed598568b2898c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRInnerShell_8h_1a85cf20cc211f782a2bed598568b2898c" kindref="member">MR_ShellVertexInfo_Get_projOnBd</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="197"><highlight class="normal"></highlight></codeline>
-<codeline lineno="202" refid="MRInnerShell_8h_1ac888e42083d6021e94b1a11d02f93c4a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1ac888e42083d6021e94b1a11d02f93c4a" kindref="member">MR_ShellVertexInfo_Set_projOnBd</ref>(<ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="162" refid="MRInnerShell_8h_1a40f4c3cd7fbf56df3fe4692693939542" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*<ref refid="MRInnerShell_8h_1a40f4c3cd7fbf56df3fe4692693939542" kindref="member">MR_FindInnerShellSettings_OffsetMutablePtr</ref>(<ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168" refid="MRInnerShell_8h_1a458a4169d9c7d32a05b84c2d61642a7c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*<ref refid="MRInnerShell_8h_1a458a4169d9c7d32a05b84c2d61642a7c" kindref="member">MR_FindInnerShellSettings_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171" refid="MRInnerShell_8h_1a26b999f6eb8d2216b022b4e23e02dc4e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a26b999f6eb8d2216b022b4e23e02dc4e" kindref="member">MR_FindInnerShellSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174" refid="MRInnerShell_8h_1a2800873931e60896e0c93ab638041c4e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a2800873931e60896e0c93ab638041c4e" kindref="member">MR_FindInnerShellSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="MRInnerShell_8h_1ad6e725e143756fdadd35520794d16c0d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*<ref refid="MRInnerShell_8h_1ad6e725e143756fdadd35520794d16c0d" kindref="member">MR_FindInnerShellSettings_AssignFromAnother</ref>(<ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189" refid="MRInnerShell_8h_1ac3e07365e97d0822c07e3025f5c8a74e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRInnerShell_8h_1ac3e07365e97d0822c07e3025f5c8a74e" kindref="member">MR_ShellVertexInfo_Get_inRange</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195" refid="MRInnerShell_8h_1ace7efd379a7bdb2a8e7d6819f10c9136" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1ace7efd379a7bdb2a8e7d6819f10c9136" kindref="member">MR_ShellVertexInfo_Set_inRange</ref>(<ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202" refid="MRInnerShell_8h_1a0d49e452fdf69e5fed1aab9946e5055d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRInnerShell_8h_1a0d49e452fdf69e5fed1aab9946e5055d" kindref="member">MR_ShellVertexInfo_GetMutable_inRange</ref>(<ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="203"><highlight class="normal"></highlight></codeline>
-<codeline lineno="208" refid="MRInnerShell_8h_1a1293705974adf206edddfb63824cc73c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRInnerShell_8h_1a1293705974adf206edddfb63824cc73c" kindref="member">MR_ShellVertexInfo_GetMutable_projOnBd</ref>(<ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="209"><highlight class="normal"></highlight></codeline>
-<codeline lineno="214" refid="MRInnerShell_8h_1a6a4b1bdfca9fad0a8dfe30168ad6d163" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRInnerShell_8h_1a6a4b1bdfca9fad0a8dfe30168ad6d163" kindref="member">MR_ShellVertexInfo_Get_rightSide</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="215"><highlight class="normal"></highlight></codeline>
-<codeline lineno="220" refid="MRInnerShell_8h_1a0965aab76e71632e5d6e4037411b81e5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a0965aab76e71632e5d6e4037411b81e5" kindref="member">MR_ShellVertexInfo_Set_rightSide</ref>(<ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="221"><highlight class="normal"></highlight></codeline>
-<codeline lineno="226" refid="MRInnerShell_8h_1ab4995bd58fddc467a5af3c91b05599c4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRInnerShell_8h_1ab4995bd58fddc467a5af3c91b05599c4" kindref="member">MR_ShellVertexInfo_GetMutable_rightSide</ref>(<ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="227"><highlight class="normal"></highlight></codeline>
-<codeline lineno="230" refid="MRInnerShell_8h_1aa26a123cbacb5b393a6f4a2acb00e6ed" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref><sp/>*<ref refid="MRInnerShell_8h_1aa26a123cbacb5b393a6f4a2acb00e6ed" kindref="member">MR_ShellVertexInfo_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="231"><highlight class="normal"></highlight></codeline>
-<codeline lineno="235" refid="MRInnerShell_8h_1a9de070db79f71a23e06e36955f305bb3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref><sp/>*<ref refid="MRInnerShell_8h_1a9de070db79f71a23e06e36955f305bb3" kindref="member">MR_ShellVertexInfo_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="209" refid="MRInnerShell_8h_1a85cf20cc211f782a2bed598568b2898c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRInnerShell_8h_1a85cf20cc211f782a2bed598568b2898c" kindref="member">MR_ShellVertexInfo_Get_projOnBd</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215" refid="MRInnerShell_8h_1ac888e42083d6021e94b1a11d02f93c4a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1ac888e42083d6021e94b1a11d02f93c4a" kindref="member">MR_ShellVertexInfo_Set_projOnBd</ref>(<ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="222" refid="MRInnerShell_8h_1a1293705974adf206edddfb63824cc73c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRInnerShell_8h_1a1293705974adf206edddfb63824cc73c" kindref="member">MR_ShellVertexInfo_GetMutable_projOnBd</ref>(<ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight></codeline>
+<codeline lineno="229" refid="MRInnerShell_8h_1a6a4b1bdfca9fad0a8dfe30168ad6d163" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRInnerShell_8h_1a6a4b1bdfca9fad0a8dfe30168ad6d163" kindref="member">MR_ShellVertexInfo_Get_rightSide</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="235" refid="MRInnerShell_8h_1a0965aab76e71632e5d6e4037411b81e5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a0965aab76e71632e5d6e4037411b81e5" kindref="member">MR_ShellVertexInfo_Set_rightSide</ref>(<ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="236"><highlight class="normal"></highlight></codeline>
-<codeline lineno="240" refid="MRInnerShell_8h_1ad871c4f7e73a38258fe26377af114f3c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref><sp/>*<ref refid="MRInnerShell_8h_1ad871c4f7e73a38258fe26377af114f3c" kindref="member">MR_ShellVertexInfo_ConstructFrom</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>inRange,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>projOnBd,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>rightSide);</highlight></codeline>
-<codeline lineno="241"><highlight class="normal"></highlight></codeline>
-<codeline lineno="244" refid="MRInnerShell_8h_1ad41c025658368cad119d1a41be1570e6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref><sp/>*<ref refid="MRInnerShell_8h_1ad41c025658368cad119d1a41be1570e6" kindref="member">MR_ShellVertexInfo_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="245"><highlight class="normal"></highlight></codeline>
-<codeline lineno="248" refid="MRInnerShell_8h_1a8c72d44d07694703bbce0b1efb5288d8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref><sp/>*<ref refid="MRInnerShell_8h_1a8c72d44d07694703bbce0b1efb5288d8" kindref="member">MR_ShellVertexInfo_OffsetMutablePtr</ref>(<ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="249"><highlight class="normal"></highlight></codeline>
-<codeline lineno="254" refid="MRInnerShell_8h_1afd711999a77805979373546166bee1ee" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref><sp/>*<ref refid="MRInnerShell_8h_1afd711999a77805979373546166bee1ee" kindref="member">MR_ShellVertexInfo_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="255"><highlight class="normal"></highlight></codeline>
-<codeline lineno="257" refid="MRInnerShell_8h_1a3cf7eebc3361715eb1efb572ffc40933" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a3cf7eebc3361715eb1efb572ffc40933" kindref="member">MR_ShellVertexInfo_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="258"><highlight class="normal"></highlight></codeline>
-<codeline lineno="260" refid="MRInnerShell_8h_1afd168e9ecace08b60d117c7040604948" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1afd168e9ecace08b60d117c7040604948" kindref="member">MR_ShellVertexInfo_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="242" refid="MRInnerShell_8h_1ab4995bd58fddc467a5af3c91b05599c4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRInnerShell_8h_1ab4995bd58fddc467a5af3c91b05599c4" kindref="member">MR_ShellVertexInfo_GetMutable_rightSide</ref>(<ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="246" refid="MRInnerShell_8h_1aa26a123cbacb5b393a6f4a2acb00e6ed" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref><sp/>*<ref refid="MRInnerShell_8h_1aa26a123cbacb5b393a6f4a2acb00e6ed" kindref="member">MR_ShellVertexInfo_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight></codeline>
+<codeline lineno="251" refid="MRInnerShell_8h_1a9de070db79f71a23e06e36955f305bb3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref><sp/>*<ref refid="MRInnerShell_8h_1a9de070db79f71a23e06e36955f305bb3" kindref="member">MR_ShellVertexInfo_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="256" refid="MRInnerShell_8h_1ad871c4f7e73a38258fe26377af114f3c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref><sp/>*<ref refid="MRInnerShell_8h_1ad871c4f7e73a38258fe26377af114f3c" kindref="member">MR_ShellVertexInfo_ConstructFrom</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>inRange,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>projOnBd,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>rightSide);</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"></highlight></codeline>
+<codeline lineno="260" refid="MRInnerShell_8h_1ad41c025658368cad119d1a41be1570e6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref><sp/>*<ref refid="MRInnerShell_8h_1ad41c025658368cad119d1a41be1570e6" kindref="member">MR_ShellVertexInfo_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="261"><highlight class="normal"></highlight></codeline>
-<codeline lineno="268" refid="MRInnerShell_8h_1abb81b9ebb0f990a7f17fcdded2b728b4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref><sp/>*<ref refid="MRInnerShell_8h_1abb81b9ebb0f990a7f17fcdded2b728b4" kindref="member">MR_ShellVertexInfo_AssignFromAnother</ref>(<ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="269"><highlight class="normal"></highlight></codeline>
-<codeline lineno="273" refid="MRInnerShell_8h_1a8bb035659a6644985d5899dfdb7662a5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a8bb035659a6644985d5899dfdb7662a5" kindref="member">MR_ShellVertexInfo_valid</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="264" refid="MRInnerShell_8h_1a8c72d44d07694703bbce0b1efb5288d8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref><sp/>*<ref refid="MRInnerShell_8h_1a8c72d44d07694703bbce0b1efb5288d8" kindref="member">MR_ShellVertexInfo_OffsetMutablePtr</ref>(<ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"></highlight></codeline>
+<codeline lineno="270" refid="MRInnerShell_8h_1afd711999a77805979373546166bee1ee" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref><sp/>*<ref refid="MRInnerShell_8h_1afd711999a77805979373546166bee1ee" kindref="member">MR_ShellVertexInfo_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"></highlight></codeline>
+<codeline lineno="273" refid="MRInnerShell_8h_1a3cf7eebc3361715eb1efb572ffc40933" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a3cf7eebc3361715eb1efb572ffc40933" kindref="member">MR_ShellVertexInfo_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="274"><highlight class="normal"></highlight></codeline>
-<codeline lineno="284" refid="MRInnerShell_8h_1a7dcb4d4c374322d200fc046d284ef800" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref><sp/>*<ref refid="MRInnerShell_8h_1a7dcb4d4c374322d200fc046d284ef800" kindref="member">MR_classifyShellVert</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*shellPoint,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="276" refid="MRInnerShell_8h_1afd168e9ecace08b60d117c7040604948" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1afd168e9ecace08b60d117c7040604948" kindref="member">MR_ShellVertexInfo_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight></codeline>
+<codeline lineno="284" refid="MRInnerShell_8h_1abb81b9ebb0f990a7f17fcdded2b728b4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref><sp/>*<ref refid="MRInnerShell_8h_1abb81b9ebb0f990a7f17fcdded2b728b4" kindref="member">MR_ShellVertexInfo_AssignFromAnother</ref>(<ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="285"><highlight class="normal"></highlight></codeline>
-<codeline lineno="294" refid="MRInnerShell_8h_1a00ca92eda1f4c5a3146074a97b1d3cfa" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*<ref refid="MRInnerShell_8h_1a00ca92eda1f4c5a3146074a97b1d3cfa" kindref="member">MR_findInnerShellVerts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*shell,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*settings);</highlight></codeline>
-<codeline lineno="295"><highlight class="normal"></highlight></codeline>
-<codeline lineno="304" refid="MRInnerShell_8h_1a60c7fa2d10e304eeaa8fc5ba282efda0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*<ref refid="MRInnerShell_8h_1a60c7fa2d10e304eeaa8fc5ba282efda0" kindref="member">MR_findInnerShellFacesWithSplits</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp,<sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*shell,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*settings);</highlight></codeline>
-<codeline lineno="305"><highlight class="normal"></highlight></codeline>
-<codeline lineno="306"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="307"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="308"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="289" refid="MRInnerShell_8h_1a8bb035659a6644985d5899dfdb7662a5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a8bb035659a6644985d5899dfdb7662a5" kindref="member">MR_ShellVertexInfo_valid</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"></highlight></codeline>
+<codeline lineno="300" refid="MRInnerShell_8h_1a7dcb4d4c374322d200fc046d284ef800" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRInnerShell_8h_1a8f017aa80e9dbff8ac5390bebca3fe35" kindref="member">MR_ShellVertexInfo</ref><sp/>*<ref refid="MRInnerShell_8h_1a7dcb4d4c374322d200fc046d284ef800" kindref="member">MR_classifyShellVert</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*shellPoint,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight></codeline>
+<codeline lineno="310" refid="MRInnerShell_8h_1a00ca92eda1f4c5a3146074a97b1d3cfa" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*<ref refid="MRInnerShell_8h_1a00ca92eda1f4c5a3146074a97b1d3cfa" kindref="member">MR_findInnerShellVerts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*shell,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"></highlight></codeline>
+<codeline lineno="320" refid="MRInnerShell_8h_1a60c7fa2d10e304eeaa8fc5ba282efda0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*<ref refid="MRInnerShell_8h_1a60c7fa2d10e304eeaa8fc5ba282efda0" kindref="member">MR_findInnerShellFacesWithSplits</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp,<sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*shell,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRInnerShell_8h_1a1aff57300d2d16a1b810eb1ac3e99abc" kindref="member">MR_FindInnerShellSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"></highlight></codeline>
+<codeline lineno="322"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="323"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="324"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRInnerShell.h"/>
   </compounddef>

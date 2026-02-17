@@ -120,11 +120,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::MeshBuilder::Triangle</computeroutput> named <computeroutput>v</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::MeshBuilder::Triangle</computeroutput> named <computeroutput>v</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="34" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="34" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="35" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="35" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a0d9929ac835c5be6336665b8738e3631" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -146,7 +146,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="40" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="40" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="41" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="41" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a5f16e885559ee59bd17de7fafcd780a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRSeparationPoint_8h_1a93a0c4d7b47d7dae609a79a31bf54018" kindref="member">MR_std_array_MR_VertId_3</ref> *</type>
@@ -160,11 +160,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshBuilder::Triangle</computeroutput> named <computeroutput>v</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshBuilder::Triangle</computeroutput> named <computeroutput>v</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="45" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="45" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="47" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="47" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a4c0f6a9586924a6a5322920b87545c02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref> *</type>
@@ -178,11 +178,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::MeshBuilder::Triangle</computeroutput> named <computeroutput>f</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::MeshBuilder::Triangle</computeroutput> named <computeroutput>f</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="50" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="50" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="53" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="53" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBuilderTypes_8h_1aea8025f87a1fb9ef0711dbe199361907" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -204,7 +204,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="56" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="56" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="59" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="59" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a0a2a9244733fed6cc952b8de142aeec9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref> *</type>
@@ -218,11 +218,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshBuilder::Triangle</computeroutput> named <computeroutput>f</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshBuilder::Triangle</computeroutput> named <computeroutput>f</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="61" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="61" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="65" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="65" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a5acc83156b55c5260167dd6b74c22cc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref> *</type>
@@ -239,7 +239,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="65" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="65" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="69" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="69" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBuilderTypes_8h_1aeac67dc2f8dd8dbb73ec859385b3c822" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref> *</type>
@@ -257,7 +257,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="70" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="70" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="74" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="74" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBuilderTypes_8h_1aff3ca670c51b7aed11614bb7d7137a4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref> *</type>
@@ -279,7 +279,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="74" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="74" declcolumn="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="78" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="78" declcolumn="39"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a1f8815a928d6727faeb08061c76892dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref> *</type>
@@ -301,7 +301,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="78" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="78" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="82" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="82" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a8a52811677673ee7387795150d21f071" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref> *</type>
@@ -319,7 +319,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="84" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="84" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="88" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="88" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a6c011662a6f7aeb138d9e327c44edc0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref> *</type>
@@ -349,7 +349,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="92" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="92" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="96" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="96" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a090495a6816d1c12ca3f0d7b8542c0ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -367,7 +367,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="95" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="95" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="99" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="99" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBuilderTypes_8h_1ae7f8de4ae1d260eb9c7026e9316cd7cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -385,7 +385,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="98" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="98" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="102" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="102" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a43cf3f3189c9c4e31b0efc458cd6e10b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref> *</type>
@@ -407,7 +407,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="106" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="106" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="110" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="110" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a9bd6baeb09eacd882668e5a3019a0256" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool</type>
@@ -429,7 +429,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="111" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="111" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="115" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="115" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a75a1141edf3b0e83e4cd786496ba2f04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *const *</type>
@@ -443,11 +443,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if region is given then on input it contains the faces to be added, and on output the faces failed to be added Returns a pointer to a member variable of class <computeroutput>MR::MeshBuilder::BuildSettings</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>if region is given then on input it contains the faces to be added, and on output the faces failed to be added Returns a pointer to a member variable of class <computeroutput>MR::MeshBuilder::BuildSettings</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="117" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="117" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="122" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="122" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a5f0b66ff52b8438665b401ac9b659eb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -469,7 +469,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="124" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="124" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="129" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="129" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a41bc9dc72790ede0966dee326f5be25e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> **</type>
@@ -483,11 +483,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if region is given then on input it contains the faces to be added, and on output the faces failed to be added Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshBuilder::BuildSettings</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>if region is given then on input it contains the faces to be added, and on output the faces failed to be added Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshBuilder::BuildSettings</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="130" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="130" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="136" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="136" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a167ce01b0e22735d7745da4dd0857cb8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const int *</type>
@@ -501,11 +501,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>this value to be added to every faceId before its inclusion in the topology Returns a pointer to a member variable of class <computeroutput>MR::MeshBuilder::BuildSettings</computeroutput> named <computeroutput>shiftFaceId</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>this value to be added to every faceId before its inclusion in the topology Returns a pointer to a member variable of class <computeroutput>MR::MeshBuilder::BuildSettings</computeroutput> named <computeroutput>shiftFaceId</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="136" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="136" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="143" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="143" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBuilderTypes_8h_1acefed392af3face81614d3d0e3954808" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -527,7 +527,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="142" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="142" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="149" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="149" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBuilderTypes_8h_1af1b9c9804f79936fbb1d3dbe7a7a079e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API int *</type>
@@ -541,11 +541,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>this value to be added to every faceId before its inclusion in the topology Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshBuilder::BuildSettings</computeroutput> named <computeroutput>shiftFaceId</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>this value to be added to every faceId before its inclusion in the topology Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshBuilder::BuildSettings</computeroutput> named <computeroutput>shiftFaceId</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="148" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="148" declcolumn="13"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="156" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="156" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a179cf37b07f0c40ced5863b95691567f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const bool *</type>
@@ -559,11 +559,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>whether to permit non-manifold edges in the resulting topology Returns a pointer to a member variable of class <computeroutput>MR::MeshBuilder::BuildSettings</computeroutput> named <computeroutput>allowNonManifoldEdge</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>whether to permit non-manifold edges in the resulting topology Returns a pointer to a member variable of class <computeroutput>MR::MeshBuilder::BuildSettings</computeroutput> named <computeroutput>allowNonManifoldEdge</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="154" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="154" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="163" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="163" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a1dc2563769a74ab1a03826ab1834e165" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -585,7 +585,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="160" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="160" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="169" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="169" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a7ae8aa23396c9bbbdce93458a8012924" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool *</type>
@@ -599,11 +599,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>whether to permit non-manifold edges in the resulting topology Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshBuilder::BuildSettings</computeroutput> named <computeroutput>allowNonManifoldEdge</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>whether to permit non-manifold edges in the resulting topology Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshBuilder::BuildSettings</computeroutput> named <computeroutput>allowNonManifoldEdge</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="166" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="166" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="176" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="176" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBuilderTypes_8h_1ab6d2bbff4c116caaf4f9e36da69e3b96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API int *const *</type>
@@ -617,11 +617,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional output: counter of skipped faces during mesh creation Returns a pointer to a member variable of class <computeroutput>MR::MeshBuilder::BuildSettings</computeroutput> named <computeroutput>skippedFaceCount</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>optional output: counter of skipped faces during mesh creation Returns a pointer to a member variable of class <computeroutput>MR::MeshBuilder::BuildSettings</computeroutput> named <computeroutput>skippedFaceCount</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="172" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="172" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="183" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="183" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a72de0d87d625146abf288356f9b7f6d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -643,7 +643,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="179" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="179" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="190" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="190" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a80f12f1f17f207ce8fdbf8db99dfb5a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API int **</type>
@@ -657,11 +657,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional output: counter of skipped faces during mesh creation Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshBuilder::BuildSettings</computeroutput> named <computeroutput>skippedFaceCount</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>optional output: counter of skipped faces during mesh creation Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshBuilder::BuildSettings</computeroutput> named <computeroutput>skippedFaceCount</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="185" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="185" declcolumn="13"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="197" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="197" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBuilderTypes_8h_1aa7fe7c7fa51f472d6377cc38866e9754" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref> *</type>
@@ -678,7 +678,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="189" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="189" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="201" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="201" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBuilderTypes_8h_1ab69eb53d86920ff5984b9445f100856a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref> *</type>
@@ -696,7 +696,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="194" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="194" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="206" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="206" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBuilderTypes_8h_1ae98d4bdbd7eb8dea105b85ec24dc416b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref> *</type>
@@ -726,7 +726,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="201" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="201" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="213" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="213" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBuilderTypes_8h_1ac01620d0e594e6aba50e7443d722f5b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref> *</type>
@@ -748,7 +748,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="205" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="205" declcolumn="44"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="217" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="217" declcolumn="44"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a61bd0a8c88a2c98c0ed0b3ac3486cede" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref> *</type>
@@ -770,7 +770,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="209" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="209" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="221" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="221" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a2a2de1c6a40d6cce78d00af1e11e9e54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref> *</type>
@@ -788,7 +788,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="215" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="215" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="227" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="227" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a521c85d785540fb44fb0e585c8f4099a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -806,7 +806,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="218" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="218" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="230" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="230" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a41cadd20aef0228b368fd7564549097b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -824,7 +824,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="221" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="221" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="233" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="233" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a2b23e33518480f01fbb05b3b4bea7f44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref> *</type>
@@ -846,7 +846,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="229" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="229" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="241" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="241" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBuilderTypes_8h_1acaba1ff71e149e4b7d98d8739b3906a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const int *</type>
@@ -860,11 +860,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::MeshBuilder::VertSpan</computeroutput> named <computeroutput>firstVertex</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::MeshBuilder::VertSpan</computeroutput> named <computeroutput>firstVertex</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="234" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="234" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="247" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="247" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a89cef5895e1e8891e59c9bfb9d8fb7c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -886,7 +886,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="239" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="239" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="252" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="252" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBuilderTypes_8h_1ad14b5985366de1919421367a4039cfef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API int *</type>
@@ -900,11 +900,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshBuilder::VertSpan</computeroutput> named <computeroutput>firstVertex</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshBuilder::VertSpan</computeroutput> named <computeroutput>firstVertex</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="244" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="244" declcolumn="13"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="258" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="258" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a43bd7faf8e38067bf4c5880de09eecee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const int *</type>
@@ -918,11 +918,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::MeshBuilder::VertSpan</computeroutput> named <computeroutput>lastVertex</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::MeshBuilder::VertSpan</computeroutput> named <computeroutput>lastVertex</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="249" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="249" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="264" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="264" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a7fd5ad62104581561ed97119846edc84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -944,7 +944,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="254" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="254" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="269" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="269" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a57049a5d90be88b709766a44928f47ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API int *</type>
@@ -958,11 +958,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshBuilder::VertSpan</computeroutput> named <computeroutput>lastVertex</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshBuilder::VertSpan</computeroutput> named <computeroutput>lastVertex</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="259" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="259" declcolumn="13"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="275" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="275" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a045d8f8d868fe39bb18c71d2e30026e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref> *</type>
@@ -979,7 +979,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="263" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="263" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="279" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="279" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBuilderTypes_8h_1ab2981fc05e7f48b12f600ae495a5e5ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref> *</type>
@@ -997,7 +997,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="268" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="268" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="284" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="284" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBuilderTypes_8h_1adb2326a1fe1152b8f02f22a05b08c798" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref> *</type>
@@ -1019,7 +1019,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="273" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="273" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="289" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="289" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBuilderTypes_8h_1aebcf0fba113ffa6b2408aa5d83e99758" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref> *</type>
@@ -1041,7 +1041,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="277" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="277" declcolumn="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="293" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="293" declcolumn="39"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a5c1559b6f29eef39fee22bf002395dab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref> *</type>
@@ -1063,7 +1063,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="281" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="281" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="297" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="297" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a5859fb22b0799e52518d92955e4d4de0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref> *</type>
@@ -1081,7 +1081,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="287" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="287" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="303" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="303" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a3e7c7ebba3679f420c26b8ec650df124" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1099,7 +1099,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="290" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="290" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="306" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="306" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBuilderTypes_8h_1ae78b174b56aaa459bff3ee0e81d13726" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1117,7 +1117,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="293" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="293" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="309" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="309" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a6fa33851637aad59bf1ec69e53f92da4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref> *</type>
@@ -1139,7 +1139,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="301" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="301" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="317" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="317" declcolumn="33"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1170,113 +1170,113 @@
 <codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//<sp/>each<sp/>face<sp/>is<sp/>surrounded<sp/>by<sp/>a<sp/>closed<sp/>contour<sp/>of<sp/>vertices<sp/>[fistVertex,<sp/>lastVertex)</highlight></codeline>
 <codeline lineno="29" refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref>;</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34" refid="MRMeshBuilderTypes_8h_1a1e6520b2dd436043876e12b9a84ff091" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSeparationPoint_8h_1a93a0c4d7b47d7dae609a79a31bf54018" kindref="member">MR_std_array_MR_VertId_3</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a1e6520b2dd436043876e12b9a84ff091" kindref="member">MR_MeshBuilder_Triangle_Get_v</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="40" refid="MRMeshBuilderTypes_8h_1a0d9929ac835c5be6336665b8738e3631" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a0d9929ac835c5be6336665b8738e3631" kindref="member">MR_MeshBuilder_Triangle_Set_v</ref>(<ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*_this,<sp/><ref refid="MRSeparationPoint_8h_1a93a0c4d7b47d7dae609a79a31bf54018" kindref="member">MR_std_array_MR_VertId_3</ref><sp/>value);</highlight></codeline>
-<codeline lineno="41"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45" refid="MRMeshBuilderTypes_8h_1a5f16e885559ee59bd17de7fafcd780a7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSeparationPoint_8h_1a93a0c4d7b47d7dae609a79a31bf54018" kindref="member">MR_std_array_MR_VertId_3</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a5f16e885559ee59bd17de7fafcd780a7" kindref="member">MR_MeshBuilder_Triangle_GetMutable_v</ref>(<ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="46"><highlight class="normal"></highlight></codeline>
-<codeline lineno="50" refid="MRMeshBuilderTypes_8h_1a4c0f6a9586924a6a5322920b87545c02" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a4c0f6a9586924a6a5322920b87545c02" kindref="member">MR_MeshBuilder_Triangle_Get_f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="51"><highlight class="normal"></highlight></codeline>
-<codeline lineno="56" refid="MRMeshBuilderTypes_8h_1aea8025f87a1fb9ef0711dbe199361907" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1aea8025f87a1fb9ef0711dbe199361907" kindref="member">MR_MeshBuilder_Triangle_Set_f</ref>(<ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*_this,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>value);</highlight></codeline>
-<codeline lineno="57"><highlight class="normal"></highlight></codeline>
-<codeline lineno="61" refid="MRMeshBuilderTypes_8h_1a0a2a9244733fed6cc952b8de142aeec9" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a0a2a9244733fed6cc952b8de142aeec9" kindref="member">MR_MeshBuilder_Triangle_GetMutable_f</ref>(<ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="62"><highlight class="normal"></highlight></codeline>
-<codeline lineno="65" refid="MRMeshBuilderTypes_8h_1a5acc83156b55c5260167dd6b74c22cc5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a5acc83156b55c5260167dd6b74c22cc5" kindref="member">MR_MeshBuilder_Triangle_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="35" refid="MRMeshBuilderTypes_8h_1a1e6520b2dd436043876e12b9a84ff091" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSeparationPoint_8h_1a93a0c4d7b47d7dae609a79a31bf54018" kindref="member">MR_std_array_MR_VertId_3</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a1e6520b2dd436043876e12b9a84ff091" kindref="member">MR_MeshBuilder_Triangle_Get_v</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="MRMeshBuilderTypes_8h_1a0d9929ac835c5be6336665b8738e3631" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a0d9929ac835c5be6336665b8738e3631" kindref="member">MR_MeshBuilder_Triangle_Set_v</ref>(<ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*_this,<sp/><ref refid="MRSeparationPoint_8h_1a93a0c4d7b47d7dae609a79a31bf54018" kindref="member">MR_std_array_MR_VertId_3</ref><sp/>value);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="MRMeshBuilderTypes_8h_1a5f16e885559ee59bd17de7fafcd780a7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSeparationPoint_8h_1a93a0c4d7b47d7dae609a79a31bf54018" kindref="member">MR_std_array_MR_VertId_3</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a5f16e885559ee59bd17de7fafcd780a7" kindref="member">MR_MeshBuilder_Triangle_GetMutable_v</ref>(<ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="MRMeshBuilderTypes_8h_1a4c0f6a9586924a6a5322920b87545c02" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a4c0f6a9586924a6a5322920b87545c02" kindref="member">MR_MeshBuilder_Triangle_Get_f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="MRMeshBuilderTypes_8h_1aea8025f87a1fb9ef0711dbe199361907" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1aea8025f87a1fb9ef0711dbe199361907" kindref="member">MR_MeshBuilder_Triangle_Set_f</ref>(<ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*_this,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>value);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="MRMeshBuilderTypes_8h_1a0a2a9244733fed6cc952b8de142aeec9" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a0a2a9244733fed6cc952b8de142aeec9" kindref="member">MR_MeshBuilder_Triangle_GetMutable_f</ref>(<ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="66"><highlight class="normal"></highlight></codeline>
-<codeline lineno="70" refid="MRMeshBuilderTypes_8h_1aeac67dc2f8dd8dbb73ec859385b3c822" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1aeac67dc2f8dd8dbb73ec859385b3c822" kindref="member">MR_MeshBuilder_Triangle_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="71"><highlight class="normal"></highlight></codeline>
-<codeline lineno="74" refid="MRMeshBuilderTypes_8h_1aff3ca670c51b7aed11614bb7d7137a4c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1aff3ca670c51b7aed11614bb7d7137a4c" kindref="member">MR_MeshBuilder_Triangle_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="69" refid="MRMeshBuilderTypes_8h_1a5acc83156b55c5260167dd6b74c22cc5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a5acc83156b55c5260167dd6b74c22cc5" kindref="member">MR_MeshBuilder_Triangle_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="MRMeshBuilderTypes_8h_1aeac67dc2f8dd8dbb73ec859385b3c822" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1aeac67dc2f8dd8dbb73ec859385b3c822" kindref="member">MR_MeshBuilder_Triangle_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
-<codeline lineno="78" refid="MRMeshBuilderTypes_8h_1a1f8815a928d6727faeb08061c76892dd" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a1f8815a928d6727faeb08061c76892dd" kindref="member">MR_MeshBuilder_Triangle_OffsetMutablePtr</ref>(<ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="78" refid="MRMeshBuilderTypes_8h_1aff3ca670c51b7aed11614bb7d7137a4c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1aff3ca670c51b7aed11614bb7d7137a4c" kindref="member">MR_MeshBuilder_Triangle_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="79"><highlight class="normal"></highlight></codeline>
-<codeline lineno="84" refid="MRMeshBuilderTypes_8h_1a8a52811677673ee7387795150d21f071" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a8a52811677673ee7387795150d21f071" kindref="member">MR_MeshBuilder_Triangle_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="85"><highlight class="normal"></highlight></codeline>
-<codeline lineno="92" refid="MRMeshBuilderTypes_8h_1a6c011662a6f7aeb138d9e327c44edc0d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a6c011662a6f7aeb138d9e327c44edc0d" kindref="member">MR_MeshBuilder_Triangle_Construct</ref>(<ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>a,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>b,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>c,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>f);</highlight></codeline>
-<codeline lineno="93"><highlight class="normal"></highlight></codeline>
-<codeline lineno="95" refid="MRMeshBuilderTypes_8h_1a090495a6816d1c12ca3f0d7b8542c0ab" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a090495a6816d1c12ca3f0d7b8542c0ab" kindref="member">MR_MeshBuilder_Triangle_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="96"><highlight class="normal"></highlight></codeline>
-<codeline lineno="98" refid="MRMeshBuilderTypes_8h_1ae7f8de4ae1d260eb9c7026e9316cd7cc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1ae7f8de4ae1d260eb9c7026e9316cd7cc" kindref="member">MR_MeshBuilder_Triangle_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="99"><highlight class="normal"></highlight></codeline>
-<codeline lineno="106" refid="MRMeshBuilderTypes_8h_1a43cf3f3189c9c4e31b0efc458cd6e10b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a43cf3f3189c9c4e31b0efc458cd6e10b" kindref="member">MR_MeshBuilder_Triangle_AssignFromAnother</ref>(<ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="107"><highlight class="normal"></highlight></codeline>
-<codeline lineno="111" refid="MRMeshBuilderTypes_8h_1a9bd6baeb09eacd882668e5a3019a0256" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a9bd6baeb09eacd882668e5a3019a0256" kindref="member">MR_equal_MR_MeshBuilder_Triangle</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*other);</highlight></codeline>
-<codeline lineno="112"><highlight class="normal"></highlight></codeline>
-<codeline lineno="117" refid="MRMeshBuilderTypes_8h_1a75a1141edf3b0e83e4cd786496ba2f04" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a75a1141edf3b0e83e4cd786496ba2f04" kindref="member">MR_MeshBuilder_BuildSettings_Get_region</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="118"><highlight class="normal"></highlight></codeline>
-<codeline lineno="124" refid="MRMeshBuilderTypes_8h_1a5f0b66ff52b8438665b401ac9b659eb5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a5f0b66ff52b8438665b401ac9b659eb5" kindref="member">MR_MeshBuilder_BuildSettings_Set_region</ref>(<ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*_this,<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="125"><highlight class="normal"></highlight></codeline>
-<codeline lineno="130" refid="MRMeshBuilderTypes_8h_1a41bc9dc72790ede0966dee326f5be25e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>**<ref refid="MRMeshBuilderTypes_8h_1a41bc9dc72790ede0966dee326f5be25e" kindref="member">MR_MeshBuilder_BuildSettings_GetMutable_region</ref>(<ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="131"><highlight class="normal"></highlight></codeline>
-<codeline lineno="136" refid="MRMeshBuilderTypes_8h_1a167ce01b0e22735d7745da4dd0857cb8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a167ce01b0e22735d7745da4dd0857cb8" kindref="member">MR_MeshBuilder_BuildSettings_Get_shiftFaceId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="82" refid="MRMeshBuilderTypes_8h_1a1f8815a928d6727faeb08061c76892dd" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a1f8815a928d6727faeb08061c76892dd" kindref="member">MR_MeshBuilder_Triangle_OffsetMutablePtr</ref>(<ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="MRMeshBuilderTypes_8h_1a8a52811677673ee7387795150d21f071" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a8a52811677673ee7387795150d21f071" kindref="member">MR_MeshBuilder_Triangle_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="MRMeshBuilderTypes_8h_1a6c011662a6f7aeb138d9e327c44edc0d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a6c011662a6f7aeb138d9e327c44edc0d" kindref="member">MR_MeshBuilder_Triangle_Construct</ref>(<ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>a,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>b,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>c,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>f);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99" refid="MRMeshBuilderTypes_8h_1a090495a6816d1c12ca3f0d7b8542c0ab" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a090495a6816d1c12ca3f0d7b8542c0ab" kindref="member">MR_MeshBuilder_Triangle_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102" refid="MRMeshBuilderTypes_8h_1ae7f8de4ae1d260eb9c7026e9316cd7cc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1ae7f8de4ae1d260eb9c7026e9316cd7cc" kindref="member">MR_MeshBuilder_Triangle_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="MRMeshBuilderTypes_8h_1a43cf3f3189c9c4e31b0efc458cd6e10b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a43cf3f3189c9c4e31b0efc458cd6e10b" kindref="member">MR_MeshBuilder_Triangle_AssignFromAnother</ref>(<ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115" refid="MRMeshBuilderTypes_8h_1a9bd6baeb09eacd882668e5a3019a0256" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a9bd6baeb09eacd882668e5a3019a0256" kindref="member">MR_equal_MR_MeshBuilder_Triangle</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="MRMeshBuilderTypes_8h_1a75a1141edf3b0e83e4cd786496ba2f04" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a75a1141edf3b0e83e4cd786496ba2f04" kindref="member">MR_MeshBuilder_BuildSettings_Get_region</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129" refid="MRMeshBuilderTypes_8h_1a5f0b66ff52b8438665b401ac9b659eb5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a5f0b66ff52b8438665b401ac9b659eb5" kindref="member">MR_MeshBuilder_BuildSettings_Set_region</ref>(<ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*_this,<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="MRMeshBuilderTypes_8h_1a41bc9dc72790ede0966dee326f5be25e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>**<ref refid="MRMeshBuilderTypes_8h_1a41bc9dc72790ede0966dee326f5be25e" kindref="member">MR_MeshBuilder_BuildSettings_GetMutable_region</ref>(<ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="137"><highlight class="normal"></highlight></codeline>
-<codeline lineno="142" refid="MRMeshBuilderTypes_8h_1acefed392af3face81614d3d0e3954808" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1acefed392af3face81614d3d0e3954808" kindref="member">MR_MeshBuilder_BuildSettings_Set_shiftFaceId</ref>(<ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="143"><highlight class="normal"></highlight></codeline>
-<codeline lineno="148" refid="MRMeshBuilderTypes_8h_1af1b9c9804f79936fbb1d3dbe7a7a079e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshBuilderTypes_8h_1af1b9c9804f79936fbb1d3dbe7a7a079e" kindref="member">MR_MeshBuilder_BuildSettings_GetMutable_shiftFaceId</ref>(<ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="149"><highlight class="normal"></highlight></codeline>
-<codeline lineno="154" refid="MRMeshBuilderTypes_8h_1a179cf37b07f0c40ced5863b95691567f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a179cf37b07f0c40ced5863b95691567f" kindref="member">MR_MeshBuilder_BuildSettings_Get_allowNonManifoldEdge</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="155"><highlight class="normal"></highlight></codeline>
-<codeline lineno="160" refid="MRMeshBuilderTypes_8h_1a1dc2563769a74ab1a03826ab1834e165" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a1dc2563769a74ab1a03826ab1834e165" kindref="member">MR_MeshBuilder_BuildSettings_Set_allowNonManifoldEdge</ref>(<ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="161"><highlight class="normal"></highlight></codeline>
-<codeline lineno="166" refid="MRMeshBuilderTypes_8h_1a7ae8aa23396c9bbbdce93458a8012924" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a7ae8aa23396c9bbbdce93458a8012924" kindref="member">MR_MeshBuilder_BuildSettings_GetMutable_allowNonManifoldEdge</ref>(<ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="167"><highlight class="normal"></highlight></codeline>
-<codeline lineno="172" refid="MRMeshBuilderTypes_8h_1ab6d2bbff4c116caaf4f9e36da69e3b96" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshBuilderTypes_8h_1ab6d2bbff4c116caaf4f9e36da69e3b96" kindref="member">MR_MeshBuilder_BuildSettings_Get_skippedFaceCount</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="173"><highlight class="normal"></highlight></codeline>
-<codeline lineno="179" refid="MRMeshBuilderTypes_8h_1a72de0d87d625146abf288356f9b7f6d3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a72de0d87d625146abf288356f9b7f6d3" kindref="member">MR_MeshBuilder_BuildSettings_Set_skippedFaceCount</ref>(<ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*value);</highlight></codeline>
-<codeline lineno="180"><highlight class="normal"></highlight></codeline>
-<codeline lineno="185" refid="MRMeshBuilderTypes_8h_1a80f12f1f17f207ce8fdbf8db99dfb5a3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>**<ref refid="MRMeshBuilderTypes_8h_1a80f12f1f17f207ce8fdbf8db99dfb5a3" kindref="member">MR_MeshBuilder_BuildSettings_GetMutable_skippedFaceCount</ref>(<ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="186"><highlight class="normal"></highlight></codeline>
-<codeline lineno="189" refid="MRMeshBuilderTypes_8h_1aa7fe7c7fa51f472d6377cc38866e9754" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1aa7fe7c7fa51f472d6377cc38866e9754" kindref="member">MR_MeshBuilder_BuildSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="190"><highlight class="normal"></highlight></codeline>
-<codeline lineno="194" refid="MRMeshBuilderTypes_8h_1ab69eb53d86920ff5984b9445f100856a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1ab69eb53d86920ff5984b9445f100856a" kindref="member">MR_MeshBuilder_BuildSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="195"><highlight class="normal"></highlight></codeline>
-<codeline lineno="201" refid="MRMeshBuilderTypes_8h_1ae98d4bdbd7eb8dea105b85ec24dc416b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1ae98d4bdbd7eb8dea105b85ec24dc416b" kindref="member">MR_MeshBuilder_BuildSettings_ConstructFrom</ref>(<ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*region,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>shiftFaceId,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>allowNonManifoldEdge,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*skippedFaceCount);</highlight></codeline>
+<codeline lineno="143" refid="MRMeshBuilderTypes_8h_1a167ce01b0e22735d7745da4dd0857cb8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a167ce01b0e22735d7745da4dd0857cb8" kindref="member">MR_MeshBuilder_BuildSettings_Get_shiftFaceId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149" refid="MRMeshBuilderTypes_8h_1acefed392af3face81614d3d0e3954808" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1acefed392af3face81614d3d0e3954808" kindref="member">MR_MeshBuilder_BuildSettings_Set_shiftFaceId</ref>(<ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156" refid="MRMeshBuilderTypes_8h_1af1b9c9804f79936fbb1d3dbe7a7a079e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshBuilderTypes_8h_1af1b9c9804f79936fbb1d3dbe7a7a079e" kindref="member">MR_MeshBuilder_BuildSettings_GetMutable_shiftFaceId</ref>(<ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163" refid="MRMeshBuilderTypes_8h_1a179cf37b07f0c40ced5863b95691567f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a179cf37b07f0c40ced5863b95691567f" kindref="member">MR_MeshBuilder_BuildSettings_Get_allowNonManifoldEdge</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169" refid="MRMeshBuilderTypes_8h_1a1dc2563769a74ab1a03826ab1834e165" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a1dc2563769a74ab1a03826ab1834e165" kindref="member">MR_MeshBuilder_BuildSettings_Set_allowNonManifoldEdge</ref>(<ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176" refid="MRMeshBuilderTypes_8h_1a7ae8aa23396c9bbbdce93458a8012924" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a7ae8aa23396c9bbbdce93458a8012924" kindref="member">MR_MeshBuilder_BuildSettings_GetMutable_allowNonManifoldEdge</ref>(<ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183" refid="MRMeshBuilderTypes_8h_1ab6d2bbff4c116caaf4f9e36da69e3b96" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshBuilderTypes_8h_1ab6d2bbff4c116caaf4f9e36da69e3b96" kindref="member">MR_MeshBuilder_BuildSettings_Get_skippedFaceCount</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190" refid="MRMeshBuilderTypes_8h_1a72de0d87d625146abf288356f9b7f6d3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a72de0d87d625146abf288356f9b7f6d3" kindref="member">MR_MeshBuilder_BuildSettings_Set_skippedFaceCount</ref>(<ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*value);</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197" refid="MRMeshBuilderTypes_8h_1a80f12f1f17f207ce8fdbf8db99dfb5a3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>**<ref refid="MRMeshBuilderTypes_8h_1a80f12f1f17f207ce8fdbf8db99dfb5a3" kindref="member">MR_MeshBuilder_BuildSettings_GetMutable_skippedFaceCount</ref>(<ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="201" refid="MRMeshBuilderTypes_8h_1aa7fe7c7fa51f472d6377cc38866e9754" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1aa7fe7c7fa51f472d6377cc38866e9754" kindref="member">MR_MeshBuilder_BuildSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="202"><highlight class="normal"></highlight></codeline>
-<codeline lineno="205" refid="MRMeshBuilderTypes_8h_1ac01620d0e594e6aba50e7443d722f5b3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1ac01620d0e594e6aba50e7443d722f5b3" kindref="member">MR_MeshBuilder_BuildSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="206"><highlight class="normal"></highlight></codeline>
-<codeline lineno="209" refid="MRMeshBuilderTypes_8h_1a61bd0a8c88a2c98c0ed0b3ac3486cede" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a61bd0a8c88a2c98c0ed0b3ac3486cede" kindref="member">MR_MeshBuilder_BuildSettings_OffsetMutablePtr</ref>(<ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="210"><highlight class="normal"></highlight></codeline>
-<codeline lineno="215" refid="MRMeshBuilderTypes_8h_1a2a2de1c6a40d6cce78d00af1e11e9e54" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a2a2de1c6a40d6cce78d00af1e11e9e54" kindref="member">MR_MeshBuilder_BuildSettings_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="216"><highlight class="normal"></highlight></codeline>
-<codeline lineno="218" refid="MRMeshBuilderTypes_8h_1a521c85d785540fb44fb0e585c8f4099a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a521c85d785540fb44fb0e585c8f4099a" kindref="member">MR_MeshBuilder_BuildSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="219"><highlight class="normal"></highlight></codeline>
-<codeline lineno="221" refid="MRMeshBuilderTypes_8h_1a41cadd20aef0228b368fd7564549097b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a41cadd20aef0228b368fd7564549097b" kindref="member">MR_MeshBuilder_BuildSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="206" refid="MRMeshBuilderTypes_8h_1ab69eb53d86920ff5984b9445f100856a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1ab69eb53d86920ff5984b9445f100856a" kindref="member">MR_MeshBuilder_BuildSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213" refid="MRMeshBuilderTypes_8h_1ae98d4bdbd7eb8dea105b85ec24dc416b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1ae98d4bdbd7eb8dea105b85ec24dc416b" kindref="member">MR_MeshBuilder_BuildSettings_ConstructFrom</ref>(<ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*region,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>shiftFaceId,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>allowNonManifoldEdge,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*skippedFaceCount);</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217" refid="MRMeshBuilderTypes_8h_1ac01620d0e594e6aba50e7443d722f5b3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1ac01620d0e594e6aba50e7443d722f5b3" kindref="member">MR_MeshBuilder_BuildSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221" refid="MRMeshBuilderTypes_8h_1a61bd0a8c88a2c98c0ed0b3ac3486cede" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a61bd0a8c88a2c98c0ed0b3ac3486cede" kindref="member">MR_MeshBuilder_BuildSettings_OffsetMutablePtr</ref>(<ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="222"><highlight class="normal"></highlight></codeline>
-<codeline lineno="229" refid="MRMeshBuilderTypes_8h_1a2b23e33518480f01fbb05b3b4bea7f44" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a2b23e33518480f01fbb05b3b4bea7f44" kindref="member">MR_MeshBuilder_BuildSettings_AssignFromAnother</ref>(<ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="230"><highlight class="normal"></highlight></codeline>
-<codeline lineno="234" refid="MRMeshBuilderTypes_8h_1acaba1ff71e149e4b7d98d8739b3906a6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshBuilderTypes_8h_1acaba1ff71e149e4b7d98d8739b3906a6" kindref="member">MR_MeshBuilder_VertSpan_Get_firstVertex</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="235"><highlight class="normal"></highlight></codeline>
-<codeline lineno="239" refid="MRMeshBuilderTypes_8h_1a89cef5895e1e8891e59c9bfb9d8fb7c8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a89cef5895e1e8891e59c9bfb9d8fb7c8" kindref="member">MR_MeshBuilder_VertSpan_Set_firstVertex</ref>(<ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="240"><highlight class="normal"></highlight></codeline>
-<codeline lineno="244" refid="MRMeshBuilderTypes_8h_1ad14b5985366de1919421367a4039cfef" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshBuilderTypes_8h_1ad14b5985366de1919421367a4039cfef" kindref="member">MR_MeshBuilder_VertSpan_GetMutable_firstVertex</ref>(<ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="245"><highlight class="normal"></highlight></codeline>
-<codeline lineno="249" refid="MRMeshBuilderTypes_8h_1a43bd7faf8e38067bf4c5880de09eecee" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a43bd7faf8e38067bf4c5880de09eecee" kindref="member">MR_MeshBuilder_VertSpan_Get_lastVertex</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="250"><highlight class="normal"></highlight></codeline>
-<codeline lineno="254" refid="MRMeshBuilderTypes_8h_1a7fd5ad62104581561ed97119846edc84" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a7fd5ad62104581561ed97119846edc84" kindref="member">MR_MeshBuilder_VertSpan_Set_lastVertex</ref>(<ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="255"><highlight class="normal"></highlight></codeline>
-<codeline lineno="259" refid="MRMeshBuilderTypes_8h_1a57049a5d90be88b709766a44928f47ab" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a57049a5d90be88b709766a44928f47ab" kindref="member">MR_MeshBuilder_VertSpan_GetMutable_lastVertex</ref>(<ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="260"><highlight class="normal"></highlight></codeline>
-<codeline lineno="263" refid="MRMeshBuilderTypes_8h_1a045d8f8d868fe39bb18c71d2e30026e2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a045d8f8d868fe39bb18c71d2e30026e2" kindref="member">MR_MeshBuilder_VertSpan_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="264"><highlight class="normal"></highlight></codeline>
-<codeline lineno="268" refid="MRMeshBuilderTypes_8h_1ab2981fc05e7f48b12f600ae495a5e5ed" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1ab2981fc05e7f48b12f600ae495a5e5ed" kindref="member">MR_MeshBuilder_VertSpan_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="269"><highlight class="normal"></highlight></codeline>
-<codeline lineno="273" refid="MRMeshBuilderTypes_8h_1adb2326a1fe1152b8f02f22a05b08c798" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1adb2326a1fe1152b8f02f22a05b08c798" kindref="member">MR_MeshBuilder_VertSpan_ConstructFrom</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>firstVertex,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>lastVertex);</highlight></codeline>
-<codeline lineno="274"><highlight class="normal"></highlight></codeline>
-<codeline lineno="277" refid="MRMeshBuilderTypes_8h_1aebcf0fba113ffa6b2408aa5d83e99758" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1aebcf0fba113ffa6b2408aa5d83e99758" kindref="member">MR_MeshBuilder_VertSpan_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="278"><highlight class="normal"></highlight></codeline>
-<codeline lineno="281" refid="MRMeshBuilderTypes_8h_1a5c1559b6f29eef39fee22bf002395dab" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a5c1559b6f29eef39fee22bf002395dab" kindref="member">MR_MeshBuilder_VertSpan_OffsetMutablePtr</ref>(<ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="282"><highlight class="normal"></highlight></codeline>
-<codeline lineno="287" refid="MRMeshBuilderTypes_8h_1a5859fb22b0799e52518d92955e4d4de0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a5859fb22b0799e52518d92955e4d4de0" kindref="member">MR_MeshBuilder_VertSpan_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="288"><highlight class="normal"></highlight></codeline>
-<codeline lineno="290" refid="MRMeshBuilderTypes_8h_1a3e7c7ebba3679f420c26b8ec650df124" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a3e7c7ebba3679f420c26b8ec650df124" kindref="member">MR_MeshBuilder_VertSpan_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="291"><highlight class="normal"></highlight></codeline>
-<codeline lineno="293" refid="MRMeshBuilderTypes_8h_1ae78b174b56aaa459bff3ee0e81d13726" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1ae78b174b56aaa459bff3ee0e81d13726" kindref="member">MR_MeshBuilder_VertSpan_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="227" refid="MRMeshBuilderTypes_8h_1a2a2de1c6a40d6cce78d00af1e11e9e54" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a2a2de1c6a40d6cce78d00af1e11e9e54" kindref="member">MR_MeshBuilder_BuildSettings_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230" refid="MRMeshBuilderTypes_8h_1a521c85d785540fb44fb0e585c8f4099a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a521c85d785540fb44fb0e585c8f4099a" kindref="member">MR_MeshBuilder_BuildSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="233" refid="MRMeshBuilderTypes_8h_1a41cadd20aef0228b368fd7564549097b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a41cadd20aef0228b368fd7564549097b" kindref="member">MR_MeshBuilder_BuildSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241" refid="MRMeshBuilderTypes_8h_1a2b23e33518480f01fbb05b3b4bea7f44" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a2b23e33518480f01fbb05b3b4bea7f44" kindref="member">MR_MeshBuilder_BuildSettings_AssignFromAnother</ref>(<ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="247" refid="MRMeshBuilderTypes_8h_1acaba1ff71e149e4b7d98d8739b3906a6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshBuilderTypes_8h_1acaba1ff71e149e4b7d98d8739b3906a6" kindref="member">MR_MeshBuilder_VertSpan_Get_firstVertex</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight></codeline>
+<codeline lineno="252" refid="MRMeshBuilderTypes_8h_1a89cef5895e1e8891e59c9bfb9d8fb7c8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a89cef5895e1e8891e59c9bfb9d8fb7c8" kindref="member">MR_MeshBuilder_VertSpan_Set_firstVertex</ref>(<ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight></codeline>
+<codeline lineno="258" refid="MRMeshBuilderTypes_8h_1ad14b5985366de1919421367a4039cfef" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshBuilderTypes_8h_1ad14b5985366de1919421367a4039cfef" kindref="member">MR_MeshBuilder_VertSpan_GetMutable_firstVertex</ref>(<ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="264" refid="MRMeshBuilderTypes_8h_1a43bd7faf8e38067bf4c5880de09eecee" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a43bd7faf8e38067bf4c5880de09eecee" kindref="member">MR_MeshBuilder_VertSpan_Get_lastVertex</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"></highlight></codeline>
+<codeline lineno="269" refid="MRMeshBuilderTypes_8h_1a7fd5ad62104581561ed97119846edc84" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a7fd5ad62104581561ed97119846edc84" kindref="member">MR_MeshBuilder_VertSpan_Set_lastVertex</ref>(<ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"></highlight></codeline>
+<codeline lineno="275" refid="MRMeshBuilderTypes_8h_1a57049a5d90be88b709766a44928f47ab" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a57049a5d90be88b709766a44928f47ab" kindref="member">MR_MeshBuilder_VertSpan_GetMutable_lastVertex</ref>(<ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"></highlight></codeline>
+<codeline lineno="279" refid="MRMeshBuilderTypes_8h_1a045d8f8d868fe39bb18c71d2e30026e2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a045d8f8d868fe39bb18c71d2e30026e2" kindref="member">MR_MeshBuilder_VertSpan_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"></highlight></codeline>
+<codeline lineno="284" refid="MRMeshBuilderTypes_8h_1ab2981fc05e7f48b12f600ae495a5e5ed" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1ab2981fc05e7f48b12f600ae495a5e5ed" kindref="member">MR_MeshBuilder_VertSpan_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"></highlight></codeline>
+<codeline lineno="289" refid="MRMeshBuilderTypes_8h_1adb2326a1fe1152b8f02f22a05b08c798" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1adb2326a1fe1152b8f02f22a05b08c798" kindref="member">MR_MeshBuilder_VertSpan_ConstructFrom</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>firstVertex,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>lastVertex);</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"></highlight></codeline>
+<codeline lineno="293" refid="MRMeshBuilderTypes_8h_1aebcf0fba113ffa6b2408aa5d83e99758" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1aebcf0fba113ffa6b2408aa5d83e99758" kindref="member">MR_MeshBuilder_VertSpan_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="294"><highlight class="normal"></highlight></codeline>
-<codeline lineno="301" refid="MRMeshBuilderTypes_8h_1a6fa33851637aad59bf1ec69e53f92da4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a6fa33851637aad59bf1ec69e53f92da4" kindref="member">MR_MeshBuilder_VertSpan_AssignFromAnother</ref>(<ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="302"><highlight class="normal"></highlight></codeline>
-<codeline lineno="303"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="304"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="305"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="297" refid="MRMeshBuilderTypes_8h_1a5c1559b6f29eef39fee22bf002395dab" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a5c1559b6f29eef39fee22bf002395dab" kindref="member">MR_MeshBuilder_VertSpan_OffsetMutablePtr</ref>(<ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"></highlight></codeline>
+<codeline lineno="303" refid="MRMeshBuilderTypes_8h_1a5859fb22b0799e52518d92955e4d4de0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a5859fb22b0799e52518d92955e4d4de0" kindref="member">MR_MeshBuilder_VertSpan_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"></highlight></codeline>
+<codeline lineno="306" refid="MRMeshBuilderTypes_8h_1a3e7c7ebba3679f420c26b8ec650df124" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a3e7c7ebba3679f420c26b8ec650df124" kindref="member">MR_MeshBuilder_VertSpan_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"></highlight></codeline>
+<codeline lineno="309" refid="MRMeshBuilderTypes_8h_1ae78b174b56aaa459bff3ee0e81d13726" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1ae78b174b56aaa459bff3ee0e81d13726" kindref="member">MR_MeshBuilder_VertSpan_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"></highlight></codeline>
+<codeline lineno="317" refid="MRMeshBuilderTypes_8h_1a6fa33851637aad59bf1ec69e53f92da4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a6fa33851637aad59bf1ec69e53f92da4" kindref="member">MR_MeshBuilder_VertSpan_AssignFromAnother</ref>(<ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="318"><highlight class="normal"></highlight></codeline>
+<codeline lineno="319"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="320"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="321"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h"/>
   </compounddef>

@@ -18,6 +18,8 @@
       <node id="14">
         <label>MRMapOrHashMap.h</label>
         <link refid="MRMapOrHashMap_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
         <childnode refid="15" relation="include">
         </childnode>
         <childnode refid="18" relation="include">
@@ -74,6 +76,8 @@
       <node id="15">
         <label>MRVector.h</label>
         <link refid="MRVector_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="16" relation="include">

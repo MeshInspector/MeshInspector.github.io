@@ -11,10 +11,17 @@ var MRMacros_8h =
     [ "MR_HAS_REQUIRES", "MRMacros_8h.html#af2577133e8c02d830609dc0c74a53949", null ],
     [ "MR_IDENTITY", "MRMacros_8h.html#a30c21a4f7f46e470b0c9ba48648699b1", null ],
     [ "MR_LEGACY_MSVC_PREPROCESSOR", "MRMacros_8h.html#a0284b6bf2a09937d49518593207b00a6", null ],
+    [ "MR_LIFETIME_CAPTURE_BY", "MRMacros_8h.html#a39cc255fe35857a435c1f7857797b105", null ],
+    [ "MR_LIFETIME_CAPTURE_BY_NESTED", "MRMacros_8h.html#abac943cb4e78c29b3a46edd18cffe800", null ],
+    [ "MR_LIFETIMEBOUND", "MRMacros_8h.html#a5a14b15e367904df16d7473d4e5a33ea", null ],
+    [ "MR_LIFETIMEBOUND_NESTED", "MRMacros_8h.html#ac4deec6386dbf5b5f121aaa2beb16cec", null ],
     [ "MR_NO_UNIQUE_ADDRESS", "MRMacros_8h.html#adc8a2290a0ad34bf18acb8498b4bb91a", null ],
     [ "MR_REQUIRES_IF_SUPPORTED", "MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb", null ],
     [ "MR_SAME_TYPE_TEMPLATE_PARAM", "MRMacros_8h.html#aa4077bf89cb8ad6b60d3d1d989cc5361", null ],
     [ "MR_STR", "MRMacros_8h.html#ab8cb9281271220567c1359224e6ca5db", null ],
     [ "MR_STR_", "MRMacros_8h.html#a1c406bd49225547ca8c9b02e77e70293", null ],
+    [ "MR_THIS_LIFETIME_CAPTURE_BY", "MRMacros_8h.html#acf6c6b95060436517349016ba1997ced", null ],
+    [ "MR_THIS_LIFETIME_CAPTURE_BY_NESTED", "MRMacros_8h.html#a565fe9a8b72db5a6310b31aeaa3b5d39", null ],
+    [ "MR_THIS_LIFETIMEBOUND_NESTED", "MRMacros_8h.html#ae5183c759a85bf4bf2bfebf125c3b783", null ],
     [ "MR_TRIM_LEADING_COMMA", "MRMacros_8h.html#a11806a80fef697ddb9a820cc22204f3b", null ]
 ];

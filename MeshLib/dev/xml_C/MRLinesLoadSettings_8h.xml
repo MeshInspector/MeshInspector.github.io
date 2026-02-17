@@ -67,7 +67,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>setting for polyline loading from external format, and locations of optional output data Generated from class <computeroutput>MR::LinesLoadSettings</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). optional load artifact: per-vertex color map Returns a pointer to a member variable of class <computeroutput>MR::LinesLoadSettings</computeroutput> named <computeroutput>colors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>setting for polyline loading from external format, and locations of optional output data Generated from class <computeroutput>MR::LinesLoadSettings</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). optional load artifact: per-vertex color map Returns a pointer to a member variable of class <computeroutput>MR::LinesLoadSettings</computeroutput> named <computeroutput>colors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -91,7 +91,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" line="26" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" declline="26" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" line="27" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" declline="27" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRLinesLoadSettings_8h_1a1719665e547ae0c257c4d8d870682a80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -109,11 +109,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional load artifact: per-vertex color map Returns a mutable pointer to a member variable of class <computeroutput>MR::LinesLoadSettings</computeroutput> named <computeroutput>colors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>optional load artifact: per-vertex color map Returns a mutable pointer to a member variable of class <computeroutput>MR::LinesLoadSettings</computeroutput> named <computeroutput>colors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" line="33" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" declline="33" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" line="34" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" declline="34" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRLinesLoadSettings_8h_1aac79637fb25b27be1f8b4a2ab4373bbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> **</type>
@@ -127,11 +127,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>callback for set progress and stop process Returns a pointer to a member variable of class <computeroutput>MR::LinesLoadSettings</computeroutput> named <computeroutput>callback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>callback for set progress and stop process Returns a pointer to a member variable of class <computeroutput>MR::LinesLoadSettings</computeroutput> named <computeroutput>callback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" line="39" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" declline="39" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" line="41" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" declline="41" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRLinesLoadSettings_8h_1ae8f8153df8c6c14c6ad2a9ee3a40a76c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
@@ -149,7 +149,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" line="45" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" declline="45" declcolumn="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" line="48" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" declline="48" declcolumn="47"/>
       </memberdef>
       <memberdef kind="function" id="MRLinesLoadSettings_8h_1a216d7d16cc841f21252e6ae4b9338d39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -171,11 +171,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>callback for set progress and stop process Returns a mutable pointer to a member variable of class <computeroutput>MR::LinesLoadSettings</computeroutput> named <computeroutput>callback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>callback for set progress and stop process Returns a mutable pointer to a member variable of class <computeroutput>MR::LinesLoadSettings</computeroutput> named <computeroutput>callback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" line="52" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" declline="52" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" line="55" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" declline="55" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRLinesLoadSettings_8h_1a26a491257f5eaa608a949d0aaa4479c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
@@ -189,11 +189,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>permit telemetry signal about loading Returns a pointer to a member variable of class <computeroutput>MR::LinesLoadSettings</computeroutput> named <computeroutput>telemetrySignal</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>permit telemetry signal about loading Returns a pointer to a member variable of class <computeroutput>MR::LinesLoadSettings</computeroutput> named <computeroutput>telemetrySignal</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" line="58" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" declline="58" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" line="62" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" declline="62" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRLinesLoadSettings_8h_1ad939b571e7658e001951074eef2a0b24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const bool *</type>
@@ -211,7 +211,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" line="64" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" declline="64" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" line="69" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" declline="69" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRLinesLoadSettings_8h_1a72dc99bbbd882a9a62a55e04a8ad04bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -229,11 +229,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>permit telemetry signal about loading Returns a mutable pointer to a member variable of class <computeroutput>MR::LinesLoadSettings</computeroutput> named <computeroutput>telemetrySignal</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>permit telemetry signal about loading Returns a mutable pointer to a member variable of class <computeroutput>MR::LinesLoadSettings</computeroutput> named <computeroutput>telemetrySignal</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" line="70" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" declline="70" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" line="75" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" declline="75" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRLinesLoadSettings_8h_1ac33ba7b69828dd6a50db9029309221ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool *</type>
@@ -250,7 +250,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" line="76" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" declline="76" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" line="82" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" declline="82" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRLinesLoadSettings_8h_1a7107c5b45d02baf9180fa8311390ebcc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref> *</type>
@@ -267,7 +267,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" line="80" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" declline="80" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" line="86" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" declline="86" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRLinesLoadSettings_8h_1ad5ee6182b16e5730cedb2cb9cd391063" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref> *</type>
@@ -285,7 +285,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" line="85" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" declline="85" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" line="91" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" declline="91" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRLinesLoadSettings_8h_1a0cd0cb43d3e28c6bbd066de95c89c4e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref> *</type>
@@ -315,7 +315,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" line="92" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" declline="92" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" line="98" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" declline="98" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRLinesLoadSettings_8h_1a3a953f66ccf04fbc14b68fe3965ca07f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref> *</type>
@@ -337,7 +337,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" line="96" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" declline="96" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" line="102" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" declline="102" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRLinesLoadSettings_8h_1aa7781c4c7af14c358f279e8fc3ada4e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref> *</type>
@@ -359,7 +359,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" line="100" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" declline="100" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" line="106" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" declline="106" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRLinesLoadSettings_8h_1a50412fec6a6b564fce6064800529c3a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref> *</type>
@@ -381,7 +381,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" line="105" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" declline="105" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" line="111" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" declline="111" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRLinesLoadSettings_8h_1a0e85d5e452d56a2dc7f23c7d13380367" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -399,7 +399,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" line="108" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" declline="108" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" line="114" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" declline="114" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRLinesLoadSettings_8h_1a26ee40277f4136387b2c78189011b0f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -417,7 +417,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" line="111" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" declline="111" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" line="117" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" declline="117" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRLinesLoadSettings_8h_1a0979feca09242d7a0f85249858111e06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref> *</type>
@@ -443,7 +443,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" line="118" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" declline="118" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" line="124" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h" declline="124" declcolumn="30"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -469,45 +469,45 @@
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
 <codeline lineno="20" refid="MRLinesLoadSettings_8h_1af6111911cb00c2c2881d290dd9eef469" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref><sp/><ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref>;</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26" refid="MRLinesLoadSettings_8h_1a71c35fa4d27f3901ddb631bd66dd847e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRLinesLoadSettings_8h_1a71c35fa4d27f3901ddb631bd66dd847e" kindref="member">MR_LinesLoadSettings_Get_colors</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33" refid="MRLinesLoadSettings_8h_1a1719665e547ae0c257c4d8d870682a80" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRLinesLoadSettings_8h_1a1719665e547ae0c257c4d8d870682a80" kindref="member">MR_LinesLoadSettings_Set_colors</ref>(<ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref><sp/>*_this,<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="34"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39" refid="MRLinesLoadSettings_8h_1aac79637fb25b27be1f8b4a2ab4373bbc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>**<ref refid="MRLinesLoadSettings_8h_1aac79637fb25b27be1f8b4a2ab4373bbc" kindref="member">MR_LinesLoadSettings_GetMutable_colors</ref>(<ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45" refid="MRLinesLoadSettings_8h_1ae8f8153df8c6c14c6ad2a9ee3a40a76c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRLinesLoadSettings_8h_1ae8f8153df8c6c14c6ad2a9ee3a40a76c" kindref="member">MR_LinesLoadSettings_Get_callback</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="46"><highlight class="normal"></highlight></codeline>
-<codeline lineno="52" refid="MRLinesLoadSettings_8h_1a216d7d16cc841f21252e6ae4b9338d39" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRLinesLoadSettings_8h_1a216d7d16cc841f21252e6ae4b9338d39" kindref="member">MR_LinesLoadSettings_Set_callback</ref>(<ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="53"><highlight class="normal"></highlight></codeline>
-<codeline lineno="58" refid="MRLinesLoadSettings_8h_1a26a491257f5eaa608a949d0aaa4479c8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRLinesLoadSettings_8h_1a26a491257f5eaa608a949d0aaa4479c8" kindref="member">MR_LinesLoadSettings_GetMutable_callback</ref>(<ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="59"><highlight class="normal"></highlight></codeline>
-<codeline lineno="64" refid="MRLinesLoadSettings_8h_1ad939b571e7658e001951074eef2a0b24" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRLinesLoadSettings_8h_1ad939b571e7658e001951074eef2a0b24" kindref="member">MR_LinesLoadSettings_Get_telemetrySignal</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="65"><highlight class="normal"></highlight></codeline>
-<codeline lineno="70" refid="MRLinesLoadSettings_8h_1a72dc99bbbd882a9a62a55e04a8ad04bc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRLinesLoadSettings_8h_1a72dc99bbbd882a9a62a55e04a8ad04bc" kindref="member">MR_LinesLoadSettings_Set_telemetrySignal</ref>(<ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="71"><highlight class="normal"></highlight></codeline>
-<codeline lineno="76" refid="MRLinesLoadSettings_8h_1ac33ba7b69828dd6a50db9029309221ab" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRLinesLoadSettings_8h_1ac33ba7b69828dd6a50db9029309221ab" kindref="member">MR_LinesLoadSettings_GetMutable_telemetrySignal</ref>(<ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="77"><highlight class="normal"></highlight></codeline>
-<codeline lineno="80" refid="MRLinesLoadSettings_8h_1a7107c5b45d02baf9180fa8311390ebcc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref><sp/>*<ref refid="MRLinesLoadSettings_8h_1a7107c5b45d02baf9180fa8311390ebcc" kindref="member">MR_LinesLoadSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="81"><highlight class="normal"></highlight></codeline>
-<codeline lineno="85" refid="MRLinesLoadSettings_8h_1ad5ee6182b16e5730cedb2cb9cd391063" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref><sp/>*<ref refid="MRLinesLoadSettings_8h_1ad5ee6182b16e5730cedb2cb9cd391063" kindref="member">MR_LinesLoadSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="86"><highlight class="normal"></highlight></codeline>
-<codeline lineno="92" refid="MRLinesLoadSettings_8h_1a0cd0cb43d3e28c6bbd066de95c89c4e5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref><sp/>*<ref refid="MRLinesLoadSettings_8h_1a0cd0cb43d3e28c6bbd066de95c89c4e5" kindref="member">MR_LinesLoadSettings_ConstructFrom</ref>(<ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*colors,<sp/>MR_PassBy<sp/>callback_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*callback,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>telemetrySignal);</highlight></codeline>
-<codeline lineno="93"><highlight class="normal"></highlight></codeline>
-<codeline lineno="96" refid="MRLinesLoadSettings_8h_1a3a953f66ccf04fbc14b68fe3965ca07f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref><sp/>*<ref refid="MRLinesLoadSettings_8h_1a3a953f66ccf04fbc14b68fe3965ca07f" kindref="member">MR_LinesLoadSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="97"><highlight class="normal"></highlight></codeline>
-<codeline lineno="100" refid="MRLinesLoadSettings_8h_1aa7781c4c7af14c358f279e8fc3ada4e0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref><sp/>*<ref refid="MRLinesLoadSettings_8h_1aa7781c4c7af14c358f279e8fc3ada4e0" kindref="member">MR_LinesLoadSettings_OffsetMutablePtr</ref>(<ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="101"><highlight class="normal"></highlight></codeline>
-<codeline lineno="105" refid="MRLinesLoadSettings_8h_1a50412fec6a6b564fce6064800529c3a2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref><sp/>*<ref refid="MRLinesLoadSettings_8h_1a50412fec6a6b564fce6064800529c3a2" kindref="member">MR_LinesLoadSettings_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="106"><highlight class="normal"></highlight></codeline>
-<codeline lineno="108" refid="MRLinesLoadSettings_8h_1a0e85d5e452d56a2dc7f23c7d13380367" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRLinesLoadSettings_8h_1a0e85d5e452d56a2dc7f23c7d13380367" kindref="member">MR_LinesLoadSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="109"><highlight class="normal"></highlight></codeline>
-<codeline lineno="111" refid="MRLinesLoadSettings_8h_1a26ee40277f4136387b2c78189011b0f2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRLinesLoadSettings_8h_1a26ee40277f4136387b2c78189011b0f2" kindref="member">MR_LinesLoadSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="27" refid="MRLinesLoadSettings_8h_1a71c35fa4d27f3901ddb631bd66dd847e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRLinesLoadSettings_8h_1a71c35fa4d27f3901ddb631bd66dd847e" kindref="member">MR_LinesLoadSettings_Get_colors</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="MRLinesLoadSettings_8h_1a1719665e547ae0c257c4d8d870682a80" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRLinesLoadSettings_8h_1a1719665e547ae0c257c4d8d870682a80" kindref="member">MR_LinesLoadSettings_Set_colors</ref>(<ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref><sp/>*_this,<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="MRLinesLoadSettings_8h_1aac79637fb25b27be1f8b4a2ab4373bbc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>**<ref refid="MRLinesLoadSettings_8h_1aac79637fb25b27be1f8b4a2ab4373bbc" kindref="member">MR_LinesLoadSettings_GetMutable_colors</ref>(<ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="MRLinesLoadSettings_8h_1ae8f8153df8c6c14c6ad2a9ee3a40a76c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRLinesLoadSettings_8h_1ae8f8153df8c6c14c6ad2a9ee3a40a76c" kindref="member">MR_LinesLoadSettings_Get_callback</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="MRLinesLoadSettings_8h_1a216d7d16cc841f21252e6ae4b9338d39" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRLinesLoadSettings_8h_1a216d7d16cc841f21252e6ae4b9338d39" kindref="member">MR_LinesLoadSettings_Set_callback</ref>(<ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="MRLinesLoadSettings_8h_1a26a491257f5eaa608a949d0aaa4479c8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRLinesLoadSettings_8h_1a26a491257f5eaa608a949d0aaa4479c8" kindref="member">MR_LinesLoadSettings_GetMutable_callback</ref>(<ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="MRLinesLoadSettings_8h_1ad939b571e7658e001951074eef2a0b24" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRLinesLoadSettings_8h_1ad939b571e7658e001951074eef2a0b24" kindref="member">MR_LinesLoadSettings_Get_telemetrySignal</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="MRLinesLoadSettings_8h_1a72dc99bbbd882a9a62a55e04a8ad04bc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRLinesLoadSettings_8h_1a72dc99bbbd882a9a62a55e04a8ad04bc" kindref="member">MR_LinesLoadSettings_Set_telemetrySignal</ref>(<ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="MRLinesLoadSettings_8h_1ac33ba7b69828dd6a50db9029309221ab" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRLinesLoadSettings_8h_1ac33ba7b69828dd6a50db9029309221ab" kindref="member">MR_LinesLoadSettings_GetMutable_telemetrySignal</ref>(<ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="MRLinesLoadSettings_8h_1a7107c5b45d02baf9180fa8311390ebcc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref><sp/>*<ref refid="MRLinesLoadSettings_8h_1a7107c5b45d02baf9180fa8311390ebcc" kindref="member">MR_LinesLoadSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="MRLinesLoadSettings_8h_1ad5ee6182b16e5730cedb2cb9cd391063" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref><sp/>*<ref refid="MRLinesLoadSettings_8h_1ad5ee6182b16e5730cedb2cb9cd391063" kindref="member">MR_LinesLoadSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="MRLinesLoadSettings_8h_1a0cd0cb43d3e28c6bbd066de95c89c4e5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref><sp/>*<ref refid="MRLinesLoadSettings_8h_1a0cd0cb43d3e28c6bbd066de95c89c4e5" kindref="member">MR_LinesLoadSettings_ConstructFrom</ref>(<ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*colors,<sp/>MR_PassBy<sp/>callback_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*callback,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>telemetrySignal);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102" refid="MRLinesLoadSettings_8h_1a3a953f66ccf04fbc14b68fe3965ca07f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref><sp/>*<ref refid="MRLinesLoadSettings_8h_1a3a953f66ccf04fbc14b68fe3965ca07f" kindref="member">MR_LinesLoadSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106" refid="MRLinesLoadSettings_8h_1aa7781c4c7af14c358f279e8fc3ada4e0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref><sp/>*<ref refid="MRLinesLoadSettings_8h_1aa7781c4c7af14c358f279e8fc3ada4e0" kindref="member">MR_LinesLoadSettings_OffsetMutablePtr</ref>(<ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111" refid="MRLinesLoadSettings_8h_1a50412fec6a6b564fce6064800529c3a2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref><sp/>*<ref refid="MRLinesLoadSettings_8h_1a50412fec6a6b564fce6064800529c3a2" kindref="member">MR_LinesLoadSettings_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="112"><highlight class="normal"></highlight></codeline>
-<codeline lineno="118" refid="MRLinesLoadSettings_8h_1a0979feca09242d7a0f85249858111e06" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref><sp/>*<ref refid="MRLinesLoadSettings_8h_1a0979feca09242d7a0f85249858111e06" kindref="member">MR_LinesLoadSettings_AssignFromAnother</ref>(<ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="119"><highlight class="normal"></highlight></codeline>
-<codeline lineno="120"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="121"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="122"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="114" refid="MRLinesLoadSettings_8h_1a0e85d5e452d56a2dc7f23c7d13380367" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRLinesLoadSettings_8h_1a0e85d5e452d56a2dc7f23c7d13380367" kindref="member">MR_LinesLoadSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="MRLinesLoadSettings_8h_1a26ee40277f4136387b2c78189011b0f2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRLinesLoadSettings_8h_1a26ee40277f4136387b2c78189011b0f2" kindref="member">MR_LinesLoadSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="MRLinesLoadSettings_8h_1a0979feca09242d7a0f85249858111e06" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref><sp/>*<ref refid="MRLinesLoadSettings_8h_1a0979feca09242d7a0f85249858111e06" kindref="member">MR_LinesLoadSettings_AssignFromAnother</ref>(<ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLinesLoadSettings.h"/>
   </compounddef>

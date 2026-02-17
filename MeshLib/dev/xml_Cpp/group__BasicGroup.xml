@@ -1812,10 +1812,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="427" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="427" bodyend="437"/>
       </memberdef>
-      <memberdef kind="function" id="group__BasicGroup_1ga484758be506c83b8a42bbb37f7761507" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__BasicGroup_1ga9313e4c55061c6256011bd32a616752e" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
         <type></type>
         <definition>MR::Heap&lt; T, I, P &gt;::Heap</definition>
-        <argsstring>(size_t size, T def={}, P pred={})</argsstring>
+        <argsstring>(size_t size, T def MR_LIFETIMEBOUND_NESTED={}, P pred={})</argsstring>
         <name>Heap</name>
         <qualifiedname>MR::Heap::Heap</qualifiedname>
         <param>
@@ -1823,8 +1823,8 @@
           <declname>size</declname>
         </param>
         <param>
-          <type>T</type>
-          <declname>def</declname>
+          <type>T def</type>
+          <declname>MR_LIFETIMEBOUND_NESTED</declname>
           <defval>{}</defval>
         </param>
         <param>
@@ -1839,17 +1839,17 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" line="31" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" bodystart="65" bodyend="76"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" line="32" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" bodystart="66" bodyend="77"/>
       </memberdef>
-      <memberdef kind="function" id="group__BasicGroup_1gad25d3f2e0a2385b7458ee0a7229d6130" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__BasicGroup_1ga26381c3d0e45502caae2e269f988a3f8" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
         <type></type>
         <definition>MR::Heap&lt; T, I, P &gt;::Heap</definition>
-        <argsstring>(std::vector&lt; Element &gt; elms, P pred={})</argsstring>
+        <argsstring>(std::vector&lt; Element &gt; elms MR_LIFETIMEBOUND_NESTED, P pred={})</argsstring>
         <name>Heap</name>
         <qualifiedname>MR::Heap::Heap</qualifiedname>
         <param>
-          <type>std::vector&lt; Element &gt;</type>
-          <declname>elms</declname>
+          <type>std::vector&lt; Element &gt; elms</type>
+          <declname>MR_LIFETIMEBOUND_NESTED</declname>
         </param>
         <param>
           <type>P</type>
@@ -1863,12 +1863,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" line="33" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" bodystart="79" bodyend="96"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" line="34" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" bodystart="80" bodyend="97"/>
       </memberdef>
-      <memberdef kind="function" id="group__BasicGroup_1ga1850d4188a12bb75802dc364f7309bd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__BasicGroup_1ga2dc347cff75def29aeb2eaa76f066a84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void MR::Heap&lt; T, I, P &gt;::resize</definition>
-        <argsstring>(size_t size, T def={})</argsstring>
+        <argsstring>(size_t size, T def MR_LIFETIME_CAPTURE_BY_NESTED(this)={})</argsstring>
         <name>resize</name>
         <qualifiedname>MR::Heap::resize</qualifiedname>
         <param>
@@ -1876,8 +1876,9 @@
           <declname>size</declname>
         </param>
         <param>
-          <type>T</type>
-          <declname>def</declname>
+          <type>T def </type>
+          <declname>MR_LIFETIME_CAPTURE_BY_NESTED</declname>
+          <array>this</array>
           <defval>{}</defval>
         </param>
         <briefdescription>
@@ -1887,12 +1888,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" line="37" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" bodystart="99" bodyend="111"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" line="38" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" bodystart="100" bodyend="112"/>
       </memberdef>
-      <memberdef kind="function" id="group__BasicGroup_1ga4dedcc9253b2c45a7d8a9417d1c19362" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__BasicGroup_1ga113ac866225ab4355eef002299a93671" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void MR::Heap&lt; T, I, P &gt;::setValue</definition>
-        <argsstring>(I elemId, const T &amp;newVal)</argsstring>
+        <argsstring>(I elemId, const T &amp;newVal MR_LIFETIME_CAPTURE_BY_NESTED(this))</argsstring>
         <name>setValue</name>
         <qualifiedname>MR::Heap::setValue</qualifiedname>
         <param>
@@ -1900,8 +1901,9 @@
           <declname>elemId</declname>
         </param>
         <param>
-          <type>const T &amp;</type>
-          <declname>newVal</declname>
+          <type>const T &amp;newVal </type>
+          <declname>MR_LIFETIME_CAPTURE_BY_NESTED</declname>
+          <array>this</array>
         </param>
         <briefdescription>
 <para>sets new value to given element </para>
@@ -1910,12 +1912,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" line="43" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" bodystart="114" bodyend="122"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" line="44" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" bodystart="115" bodyend="123"/>
       </memberdef>
-      <memberdef kind="function" id="group__BasicGroup_1ga967a46dde0718e3a1b167f25dfc62251" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__BasicGroup_1ga63073f7e258e45cf224a470df850692a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void MR::Heap&lt; T, I, P &gt;::setLargerValue</definition>
-        <argsstring>(I elemId, const T &amp;newVal)</argsstring>
+        <argsstring>(I elemId, const T &amp;newVal MR_LIFETIME_CAPTURE_BY_NESTED(this))</argsstring>
         <name>setLargerValue</name>
         <qualifiedname>MR::Heap::setLargerValue</qualifiedname>
         <param>
@@ -1923,8 +1925,9 @@
           <declname>elemId</declname>
         </param>
         <param>
-          <type>const T &amp;</type>
-          <declname>newVal</declname>
+          <type>const T &amp;newVal </type>
+          <declname>MR_LIFETIME_CAPTURE_BY_NESTED</declname>
+          <array>this</array>
         </param>
         <briefdescription>
 <para>sets new value to given element, which shall be larger/smaller than the current value </para>
@@ -1933,7 +1936,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" line="45" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" bodystart="125" bodyend="132"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" line="46" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" bodystart="126" bodyend="133"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicGroup_1gaf57eb736d2eb7b803bd2dddfbed172f6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1956,12 +1959,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" line="56" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" bodystart="135" bodyend="149"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" line="57" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" bodystart="136" bodyend="150"/>
       </memberdef>
-      <memberdef kind="function" id="group__BasicGroup_1ga8b871063e6c314fad7809432d2f74b64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__BasicGroup_1ga5ce1725f1cb927e3e594d52b5a565ed7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void MR::Heap&lt; T, I, P &gt;::setSmallerValue</definition>
-        <argsstring>(I elemId, const T &amp;newVal)</argsstring>
+        <argsstring>(I elemId, const T &amp;newVal MR_LIFETIME_CAPTURE_BY_NESTED(this))</argsstring>
         <name>setSmallerValue</name>
         <qualifiedname>MR::Heap::setSmallerValue</qualifiedname>
         <param>
@@ -1969,8 +1972,9 @@
           <declname>elemId</declname>
         </param>
         <param>
-          <type>const T &amp;</type>
-          <declname>newVal</declname>
+          <type>const T &amp;newVal </type>
+          <declname>MR_LIFETIME_CAPTURE_BY_NESTED</declname>
+          <array>this</array>
         </param>
         <briefdescription>
         </briefdescription>
@@ -1978,7 +1982,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" line="46" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" bodystart="152" bodyend="198"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" line="47" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" bodystart="153" bodyend="199"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicGroup_1ga8cc005841a554f35bd3b412da9244b20" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -2001,7 +2005,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" line="54" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" bodystart="201" bodyend="210"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" line="55" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHeap.h" bodystart="202" bodyend="211"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

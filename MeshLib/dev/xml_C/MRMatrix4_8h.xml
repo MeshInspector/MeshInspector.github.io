@@ -4544,11 +4544,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>rows, identity matrix by default Returns a pointer to a member variable of class <computeroutput>MR::Matrix4&lt;unsigned char&gt;</computeroutput> named <computeroutput>x</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>rows, identity matrix by default Returns a pointer to a member variable of class <computeroutput>MR::Matrix4&lt;unsigned char&gt;</computeroutput> named <computeroutput>x</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1124" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1124" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1125" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1125" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1aecbbbbb9e1622b741a65fcf21e59bbe7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -4570,7 +4570,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1132" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1132" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1133" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1133" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1a063900f6e1f2b9aed3da3305e8e81ba8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref> *</type>
@@ -4584,11 +4584,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>rows, identity matrix by default Returns a mutable pointer to a member variable of class <computeroutput>MR::Matrix4&lt;unsigned char&gt;</computeroutput> named <computeroutput>x</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>rows, identity matrix by default Returns a mutable pointer to a member variable of class <computeroutput>MR::Matrix4&lt;unsigned char&gt;</computeroutput> named <computeroutput>x</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1138" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1138" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1140" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1140" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1aa51c8d7792fac17140c4fc2bf0d8e140" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref> *</type>
@@ -4602,11 +4602,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::Matrix4&lt;unsigned char&gt;</computeroutput> named <computeroutput>y</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::Matrix4&lt;unsigned char&gt;</computeroutput> named <computeroutput>y</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1143" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1143" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1146" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1146" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1a5db43e53b24e418139bb5004145a45d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -4628,7 +4628,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1150" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1150" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1153" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1153" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1a408c9ecd8e80a56b032720eb4c1ff04b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref> *</type>
@@ -4642,11 +4642,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::Matrix4&lt;unsigned char&gt;</computeroutput> named <computeroutput>y</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::Matrix4&lt;unsigned char&gt;</computeroutput> named <computeroutput>y</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1155" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1155" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1159" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1159" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1a57dce4c73ff885585dfca9f604dd4431" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref> *</type>
@@ -4660,11 +4660,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::Matrix4&lt;unsigned char&gt;</computeroutput> named <computeroutput>z</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::Matrix4&lt;unsigned char&gt;</computeroutput> named <computeroutput>z</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1160" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1160" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1165" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1165" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1a1a8a8fe0ab9a4b3c4f63c869b7d34a2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -4686,7 +4686,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1167" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1167" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1172" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1172" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1aeaa46f491627abc658ef1724e456dd33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref> *</type>
@@ -4700,11 +4700,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::Matrix4&lt;unsigned char&gt;</computeroutput> named <computeroutput>z</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::Matrix4&lt;unsigned char&gt;</computeroutput> named <computeroutput>z</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1172" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1172" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1178" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1178" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1af75a174406e2f030950d781dcd395446" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref> *</type>
@@ -4718,11 +4718,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::Matrix4&lt;unsigned char&gt;</computeroutput> named <computeroutput>w</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::Matrix4&lt;unsigned char&gt;</computeroutput> named <computeroutput>w</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1177" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1177" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1184" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1184" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1a0e17cdba5471402e7b0ae16a3182903e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -4744,7 +4744,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1184" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1184" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1191" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1191" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1a9eb268524318079a145d478dcc88bec0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref> *</type>
@@ -4758,11 +4758,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::Matrix4&lt;unsigned char&gt;</computeroutput> named <computeroutput>w</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::Matrix4&lt;unsigned char&gt;</computeroutput> named <computeroutput>w</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1189" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1189" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1197" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1197" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1a486c2204076453d10ad146e58219c37a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref> *</type>
@@ -4779,7 +4779,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1193" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1193" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1201" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1201" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1aadd33ee4494811cc4438c8a475dd8e08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref> *</type>
@@ -4797,7 +4797,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1198" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1198" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1206" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1206" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1ace8a8631450e01374a405238d25b1c3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref> *</type>
@@ -4819,7 +4819,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1202" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1202" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1210" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1210" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1a617cec09a7fcfadf25dda44496b70a2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref> *</type>
@@ -4841,7 +4841,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1206" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1206" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1214" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1214" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1ac867e80ec52b61234a072c9323113bda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref> *</type>
@@ -4859,7 +4859,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1212" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1212" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1220" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1220" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1a3570ac557cb8e841114322693fea64cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref> *</type>
@@ -4889,7 +4889,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1225" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1225" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1233" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1233" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1a4d02b4e4478dbf1e70f2ec85583af741" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref> *</type>
@@ -4911,7 +4911,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1234" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1234" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1242" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1242" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1af560f5d324408f92aa30968c7c63351b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -4929,7 +4929,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1237" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1237" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1245" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1245" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1a46cb5ef5cba13bc3f652c4ee3feadfb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -4947,7 +4947,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1240" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1240" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1248" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1248" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1a367620785da20e0ae91b8062d1702a95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref> *</type>
@@ -4969,7 +4969,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1248" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1248" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1256" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1256" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1aa1cf61b74cd42572f82c9b3f726d701c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref> *</type>
@@ -4986,7 +4986,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1252" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1252" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1260" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1260" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1a01aa793af11a1a8260e836fb611d0dbd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref> *</type>
@@ -5003,7 +5003,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1256" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1256" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1264" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1264" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1af194ba9a5eea8c4734368a1af0bac43d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref> *</type>
@@ -5021,7 +5021,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1261" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1261" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1269" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1269" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1aec9558597e7be2238b109619f850bdfb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const unsigned char *</type>
@@ -5047,7 +5047,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1267" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1267" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1275" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1275" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1a14f71657003385dc0fdddb58b00da86b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API unsigned char *</type>
@@ -5073,7 +5073,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1272" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1272" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1280" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1280" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1a7b511d37ad8ce92fae62f8065929eea2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref> *</type>
@@ -5095,7 +5095,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1278" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1278" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1286" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1286" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1a240e54bcb7cbc16fd8775a926ded1d9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref> *</type>
@@ -5117,7 +5117,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1283" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1283" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1291" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1291" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1a0fa59cbecee1ff1f2a390d9624636efd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref> *</type>
@@ -5139,7 +5139,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1289" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1289" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1297" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1297" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1a64d8d14e5f9f0b2dfe852926f40cf621" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API unsigned char</type>
@@ -5157,7 +5157,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1294" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1294" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1302" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1302" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1a7a450d190e3e9bd12f5305d04d48d3d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API unsigned char</type>
@@ -5175,7 +5175,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1299" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1299" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1307" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1307" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1abd97ed164e0af3818c4a163501f76e82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API double</type>
@@ -5193,7 +5193,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1303" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1303" declcolumn="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1311" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1311" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1acb37dc6e1e4b3732a98e5e0b042860e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMatrix3_8h_1ad9b8c76811c6d6f73745d9cca61eeba5" kindref="member">MR_Matrix3_unsigned_char</ref> *</type>
@@ -5219,7 +5219,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1309" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1309" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1317" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1317" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1ac412a47d1b584ffd22417958984a7568" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API unsigned char</type>
@@ -5237,7 +5237,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1314" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1314" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1322" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1322" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1a3da9f56599308d3485513407a9699acb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref> *</type>
@@ -5255,7 +5255,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1320" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1320" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1328" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1328" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1a3dfa510005e4ee3a4be639abc65a0936" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMatrix3_8h_1ad9b8c76811c6d6f73745d9cca61eeba5" kindref="member">MR_Matrix3_unsigned_char</ref> *</type>
@@ -5273,7 +5273,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1325" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1325" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1333" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1333" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1af3926b68859d55ee8a34d014e0298ec8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -5295,7 +5295,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1330" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1330" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1338" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1338" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1acb656728b36d1338ef38e67b62be353f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMatrix3_8h_1aaaed28db9b98fcce268e87e2dab74ff9" kindref="member">MR_Vector3_unsigned_char</ref> *</type>
@@ -5313,7 +5313,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1335" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1335" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1343" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1343" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1a25d01d35ebdb41aeeae0daa18138f5c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -5335,7 +5335,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1340" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1340" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1348" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1348" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1a1b562053229a47a60d02a5fbefce977b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API unsigned char *</type>
@@ -5353,7 +5353,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1344" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1344" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1352" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1352" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1af201dc1faeeb884e1ec61ad25c43d8bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const unsigned char *</type>
@@ -5371,7 +5371,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1348" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1348" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1356" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1356" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1ae078796350a1c49ba211ed107b7c5cab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool</type>
@@ -5393,7 +5393,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1353" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1353" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1361" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1361" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1a9be63eb33451c98bda8fcfd8f6351c26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool</type>
@@ -5415,7 +5415,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1358" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1358" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1366" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1366" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1a017f9dbecf4f3144db2301c138adfa97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__Matrix4i" kindref="compound">MR_Matrix4i</ref></type>
@@ -5437,7 +5437,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1364" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1364" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1372" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1372" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1a0e1cce71bc7883b8e4835edab35d7911" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__Matrix4i" kindref="compound">MR_Matrix4i</ref></type>
@@ -5459,7 +5459,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1369" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1369" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1377" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1377" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1ab2c4334585a776cd41c7e6fb269ec28f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__Matrix4i" kindref="compound">MR_Matrix4i</ref></type>
@@ -5481,7 +5481,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1373" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1373" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1381" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1381" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1a8ad990bcfccd282f91ac5fd0694e7c2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__Matrix4i" kindref="compound">MR_Matrix4i</ref></type>
@@ -5503,7 +5503,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1377" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1377" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1385" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1385" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1aa2d54ddb6141d536ebef6fe59532cca6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__Matrix4i" kindref="compound">MR_Matrix4i</ref></type>
@@ -5525,7 +5525,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1381" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1381" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1389" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1389" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1a05d3c69e91704fd957218127e325995c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref> *</type>
@@ -5547,7 +5547,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1387" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1387" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1395" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1395" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1a189298db432a6e6f4e5bc6a2def5e07b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref> *</type>
@@ -5569,7 +5569,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1393" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1393" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1401" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1401" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1a9cfef929d32ebf62bf8d9d17a2862656" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref> *</type>
@@ -5591,7 +5591,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1398" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1398" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1406" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1406" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1ac3111e13dbab167fc7e613094468f60c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref> *</type>
@@ -5613,7 +5613,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1403" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1403" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1411" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1411" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1a224db8fc884af7f1f6acd872965facfd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__Vector4i" kindref="compound">MR_Vector4i</ref></type>
@@ -5635,7 +5635,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1409" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1409" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1417" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1417" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1abe3145e3f5e989babf579e927f974ca5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__Matrix4i" kindref="compound">MR_Matrix4i</ref></type>
@@ -5657,7 +5657,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1415" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1415" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1423" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1423" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1a1bad48ea4b28d210e34e49c9c0035ac8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref> *</type>
@@ -5679,7 +5679,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1421" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1421" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1429" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1429" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="MRMatrix4_8h_1a648d4d2049f97f239bf61739f5173743" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref> *</type>
@@ -5701,7 +5701,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1427" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1427" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="1435" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" declline="1435" declcolumn="24"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -6189,124 +6189,124 @@
 <codeline lineno="1113"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1118" refid="MRMatrix4_8h_1a2e8ea46d123f99e273947e405c7de480" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/>*<ref refid="MRMatrix4_8h_1a2e8ea46d123f99e273947e405c7de480" kindref="member">MR_input_MR_Matrix4d</ref>(<ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/>*s,<sp/><ref refid="structMR__Matrix4d" kindref="compound">MR_Matrix4d</ref><sp/>*mat);</highlight></codeline>
 <codeline lineno="1119"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1124" refid="MRMatrix4_8h_1a89fd95fd317ba0ce727bf693431b55d0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1a89fd95fd317ba0ce727bf693431b55d0" kindref="member">MR_Matrix4_unsigned_char_Get_x</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="1125"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1132" refid="MRMatrix4_8h_1aecbbbbb9e1622b741a65fcf21e59bbe7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1aecbbbbb9e1622b741a65fcf21e59bbe7" kindref="member">MR_Matrix4_unsigned_char_Set_x</ref>(<ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="1133"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1138" refid="MRMatrix4_8h_1a063900f6e1f2b9aed3da3305e8e81ba8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1a063900f6e1f2b9aed3da3305e8e81ba8" kindref="member">MR_Matrix4_unsigned_char_GetMutable_x</ref>(<ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="1139"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1143" refid="MRMatrix4_8h_1aa51c8d7792fac17140c4fc2bf0d8e140" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1aa51c8d7792fac17140c4fc2bf0d8e140" kindref="member">MR_Matrix4_unsigned_char_Get_y</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="1144"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1150" refid="MRMatrix4_8h_1a5db43e53b24e418139bb5004145a45d5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a5db43e53b24e418139bb5004145a45d5" kindref="member">MR_Matrix4_unsigned_char_Set_y</ref>(<ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="1151"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1155" refid="MRMatrix4_8h_1a408c9ecd8e80a56b032720eb4c1ff04b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1a408c9ecd8e80a56b032720eb4c1ff04b" kindref="member">MR_Matrix4_unsigned_char_GetMutable_y</ref>(<ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="1156"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1160" refid="MRMatrix4_8h_1a57dce4c73ff885585dfca9f604dd4431" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1a57dce4c73ff885585dfca9f604dd4431" kindref="member">MR_Matrix4_unsigned_char_Get_z</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="1161"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1167" refid="MRMatrix4_8h_1a1a8a8fe0ab9a4b3c4f63c869b7d34a2e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a1a8a8fe0ab9a4b3c4f63c869b7d34a2e" kindref="member">MR_Matrix4_unsigned_char_Set_z</ref>(<ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="1168"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1172" refid="MRMatrix4_8h_1aeaa46f491627abc658ef1724e456dd33" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1aeaa46f491627abc658ef1724e456dd33" kindref="member">MR_Matrix4_unsigned_char_GetMutable_z</ref>(<ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1125" refid="MRMatrix4_8h_1a89fd95fd317ba0ce727bf693431b55d0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1a89fd95fd317ba0ce727bf693431b55d0" kindref="member">MR_Matrix4_unsigned_char_Get_x</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1133" refid="MRMatrix4_8h_1aecbbbbb9e1622b741a65fcf21e59bbe7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1aecbbbbb9e1622b741a65fcf21e59bbe7" kindref="member">MR_Matrix4_unsigned_char_Set_x</ref>(<ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="1134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1140" refid="MRMatrix4_8h_1a063900f6e1f2b9aed3da3305e8e81ba8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1a063900f6e1f2b9aed3da3305e8e81ba8" kindref="member">MR_Matrix4_unsigned_char_GetMutable_x</ref>(<ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1146" refid="MRMatrix4_8h_1aa51c8d7792fac17140c4fc2bf0d8e140" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1aa51c8d7792fac17140c4fc2bf0d8e140" kindref="member">MR_Matrix4_unsigned_char_Get_y</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1153" refid="MRMatrix4_8h_1a5db43e53b24e418139bb5004145a45d5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a5db43e53b24e418139bb5004145a45d5" kindref="member">MR_Matrix4_unsigned_char_Set_y</ref>(<ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="1154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1159" refid="MRMatrix4_8h_1a408c9ecd8e80a56b032720eb4c1ff04b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1a408c9ecd8e80a56b032720eb4c1ff04b" kindref="member">MR_Matrix4_unsigned_char_GetMutable_y</ref>(<ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1165" refid="MRMatrix4_8h_1a57dce4c73ff885585dfca9f604dd4431" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1a57dce4c73ff885585dfca9f604dd4431" kindref="member">MR_Matrix4_unsigned_char_Get_z</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1172" refid="MRMatrix4_8h_1a1a8a8fe0ab9a4b3c4f63c869b7d34a2e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a1a8a8fe0ab9a4b3c4f63c869b7d34a2e" kindref="member">MR_Matrix4_unsigned_char_Set_z</ref>(<ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="1173"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1177" refid="MRMatrix4_8h_1af75a174406e2f030950d781dcd395446" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1af75a174406e2f030950d781dcd395446" kindref="member">MR_Matrix4_unsigned_char_Get_w</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="1178"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1184" refid="MRMatrix4_8h_1a0e17cdba5471402e7b0ae16a3182903e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a0e17cdba5471402e7b0ae16a3182903e" kindref="member">MR_Matrix4_unsigned_char_Set_w</ref>(<ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="1178" refid="MRMatrix4_8h_1aeaa46f491627abc658ef1724e456dd33" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1aeaa46f491627abc658ef1724e456dd33" kindref="member">MR_Matrix4_unsigned_char_GetMutable_z</ref>(<ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1184" refid="MRMatrix4_8h_1af75a174406e2f030950d781dcd395446" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1af75a174406e2f030950d781dcd395446" kindref="member">MR_Matrix4_unsigned_char_Get_w</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1185"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1189" refid="MRMatrix4_8h_1a9eb268524318079a145d478dcc88bec0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1a9eb268524318079a145d478dcc88bec0" kindref="member">MR_Matrix4_unsigned_char_GetMutable_w</ref>(<ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="1190"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1193" refid="MRMatrix4_8h_1a486c2204076453d10ad146e58219c37a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1a486c2204076453d10ad146e58219c37a" kindref="member">MR_Matrix4_unsigned_char_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="1194"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1198" refid="MRMatrix4_8h_1aadd33ee4494811cc4438c8a475dd8e08" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1aadd33ee4494811cc4438c8a475dd8e08" kindref="member">MR_Matrix4_unsigned_char_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="1199"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1202" refid="MRMatrix4_8h_1ace8a8631450e01374a405238d25b1c3a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1ace8a8631450e01374a405238d25b1c3a" kindref="member">MR_Matrix4_unsigned_char_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="1203"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1206" refid="MRMatrix4_8h_1a617cec09a7fcfadf25dda44496b70a2a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1a617cec09a7fcfadf25dda44496b70a2a" kindref="member">MR_Matrix4_unsigned_char_OffsetMutablePtr</ref>(<ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="1191" refid="MRMatrix4_8h_1a0e17cdba5471402e7b0ae16a3182903e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a0e17cdba5471402e7b0ae16a3182903e" kindref="member">MR_Matrix4_unsigned_char_Set_w</ref>(<ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="1192"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1197" refid="MRMatrix4_8h_1a9eb268524318079a145d478dcc88bec0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1a9eb268524318079a145d478dcc88bec0" kindref="member">MR_Matrix4_unsigned_char_GetMutable_w</ref>(<ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1201" refid="MRMatrix4_8h_1a486c2204076453d10ad146e58219c37a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1a486c2204076453d10ad146e58219c37a" kindref="member">MR_Matrix4_unsigned_char_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="1202"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1206" refid="MRMatrix4_8h_1aadd33ee4494811cc4438c8a475dd8e08" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1aadd33ee4494811cc4438c8a475dd8e08" kindref="member">MR_Matrix4_unsigned_char_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="1207"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1212" refid="MRMatrix4_8h_1ac867e80ec52b61234a072c9323113bda" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1ac867e80ec52b61234a072c9323113bda" kindref="member">MR_Matrix4_unsigned_char_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="1213"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1225" refid="MRMatrix4_8h_1a3570ac557cb8e841114322693fea64cd" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1a3570ac557cb8e841114322693fea64cd" kindref="member">MR_Matrix4_unsigned_char_Construct_4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref><sp/>*x,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref><sp/>*y,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref><sp/>*z,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref><sp/>*w);</highlight></codeline>
-<codeline lineno="1226"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1234" refid="MRMatrix4_8h_1a4d02b4e4478dbf1e70f2ec85583af741" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1a4d02b4e4478dbf1e70f2ec85583af741" kindref="member">MR_Matrix4_unsigned_char_Construct_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix3_8h_1ad9b8c76811c6d6f73745d9cca61eeba5" kindref="member">MR_Matrix3_unsigned_char</ref><sp/>*r,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix3_8h_1aaaed28db9b98fcce268e87e2dab74ff9" kindref="member">MR_Vector3_unsigned_char</ref><sp/>*t);</highlight></codeline>
-<codeline lineno="1235"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1237" refid="MRMatrix4_8h_1af560f5d324408f92aa30968c7c63351b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1af560f5d324408f92aa30968c7c63351b" kindref="member">MR_Matrix4_unsigned_char_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="1238"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1240" refid="MRMatrix4_8h_1a46cb5ef5cba13bc3f652c4ee3feadfb7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a46cb5ef5cba13bc3f652c4ee3feadfb7" kindref="member">MR_Matrix4_unsigned_char_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="1241"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1248" refid="MRMatrix4_8h_1a367620785da20e0ae91b8062d1702a95" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1a367620785da20e0ae91b8062d1702a95" kindref="member">MR_Matrix4_unsigned_char_AssignFromAnother</ref>(<ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="1210" refid="MRMatrix4_8h_1ace8a8631450e01374a405238d25b1c3a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1ace8a8631450e01374a405238d25b1c3a" kindref="member">MR_Matrix4_unsigned_char_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="1211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1214" refid="MRMatrix4_8h_1a617cec09a7fcfadf25dda44496b70a2a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1a617cec09a7fcfadf25dda44496b70a2a" kindref="member">MR_Matrix4_unsigned_char_OffsetMutablePtr</ref>(<ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="1215"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1220" refid="MRMatrix4_8h_1ac867e80ec52b61234a072c9323113bda" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1ac867e80ec52b61234a072c9323113bda" kindref="member">MR_Matrix4_unsigned_char_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="1221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1233" refid="MRMatrix4_8h_1a3570ac557cb8e841114322693fea64cd" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1a3570ac557cb8e841114322693fea64cd" kindref="member">MR_Matrix4_unsigned_char_Construct_4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref><sp/>*x,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref><sp/>*y,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref><sp/>*z,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref><sp/>*w);</highlight></codeline>
+<codeline lineno="1234"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1242" refid="MRMatrix4_8h_1a4d02b4e4478dbf1e70f2ec85583af741" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1a4d02b4e4478dbf1e70f2ec85583af741" kindref="member">MR_Matrix4_unsigned_char_Construct_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix3_8h_1ad9b8c76811c6d6f73745d9cca61eeba5" kindref="member">MR_Matrix3_unsigned_char</ref><sp/>*r,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix3_8h_1aaaed28db9b98fcce268e87e2dab74ff9" kindref="member">MR_Vector3_unsigned_char</ref><sp/>*t);</highlight></codeline>
+<codeline lineno="1243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1245" refid="MRMatrix4_8h_1af560f5d324408f92aa30968c7c63351b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1af560f5d324408f92aa30968c7c63351b" kindref="member">MR_Matrix4_unsigned_char_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1246"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1248" refid="MRMatrix4_8h_1a46cb5ef5cba13bc3f652c4ee3feadfb7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a46cb5ef5cba13bc3f652c4ee3feadfb7" kindref="member">MR_Matrix4_unsigned_char_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1249"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1252" refid="MRMatrix4_8h_1aa1cf61b74cd42572f82c9b3f726d701c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1aa1cf61b74cd42572f82c9b3f726d701c" kindref="member">MR_Matrix4_unsigned_char_zero</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="1253"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1256" refid="MRMatrix4_8h_1a01aa793af11a1a8260e836fb611d0dbd" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1a01aa793af11a1a8260e836fb611d0dbd" kindref="member">MR_Matrix4_unsigned_char_identity</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="1256" refid="MRMatrix4_8h_1a367620785da20e0ae91b8062d1702a95" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1a367620785da20e0ae91b8062d1702a95" kindref="member">MR_Matrix4_unsigned_char_AssignFromAnother</ref>(<ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="1257"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1261" refid="MRMatrix4_8h_1af194ba9a5eea8c4734368a1af0bac43d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1af194ba9a5eea8c4734368a1af0bac43d" kindref="member">MR_Matrix4_unsigned_char_scale</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>s);</highlight></codeline>
-<codeline lineno="1262"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1267" refid="MRMatrix4_8h_1aec9558597e7be2238b109619f850bdfb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="MRMatrix4_8h_1aec9558597e7be2238b109619f850bdfb" kindref="member">MR_Matrix4_unsigned_char_call</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>row,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>col);</highlight></codeline>
-<codeline lineno="1268"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1272" refid="MRMatrix4_8h_1a14f71657003385dc0fdddb58b00da86b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="MRMatrix4_8h_1a14f71657003385dc0fdddb58b00da86b" kindref="member">MR_Matrix4_unsigned_char_call_mut</ref>(<ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>row,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>col);</highlight></codeline>
-<codeline lineno="1273"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1278" refid="MRMatrix4_8h_1a7b511d37ad8ce92fae62f8065929eea2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1a7b511d37ad8ce92fae62f8065929eea2" kindref="member">MR_Matrix4_unsigned_char_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>row);</highlight></codeline>
-<codeline lineno="1279"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1283" refid="MRMatrix4_8h_1a240e54bcb7cbc16fd8775a926ded1d9e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1a240e54bcb7cbc16fd8775a926ded1d9e" kindref="member">MR_Matrix4_unsigned_char_index_mut</ref>(<ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>row);</highlight></codeline>
-<codeline lineno="1284"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1289" refid="MRMatrix4_8h_1a0fa59cbecee1ff1f2a390d9624636efd" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1a0fa59cbecee1ff1f2a390d9624636efd" kindref="member">MR_Matrix4_unsigned_char_col</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
-<codeline lineno="1290"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1294" refid="MRMatrix4_8h_1a64d8d14e5f9f0b2dfe852926f40cf621" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a64d8d14e5f9f0b2dfe852926f40cf621" kindref="member">MR_Matrix4_unsigned_char_trace</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="1295"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1299" refid="MRMatrix4_8h_1a7a450d190e3e9bd12f5305d04d48d3d5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a7a450d190e3e9bd12f5305d04d48d3d5" kindref="member">MR_Matrix4_unsigned_char_normSq</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="1300"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1303" refid="MRMatrix4_8h_1abd97ed164e0af3818c4a163501f76e82" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1abd97ed164e0af3818c4a163501f76e82" kindref="member">MR_Matrix4_unsigned_char_norm</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="1304"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1309" refid="MRMatrix4_8h_1acb37dc6e1e4b3732a98e5e0b042860e5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMatrix3_8h_1ad9b8c76811c6d6f73745d9cca61eeba5" kindref="member">MR_Matrix3_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1acb37dc6e1e4b3732a98e5e0b042860e5" kindref="member">MR_Matrix4_unsigned_char_submatrix3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>j);</highlight></codeline>
-<codeline lineno="1310"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1314" refid="MRMatrix4_8h_1ac412a47d1b584ffd22417958984a7568" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1ac412a47d1b584ffd22417958984a7568" kindref="member">MR_Matrix4_unsigned_char_det</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="1315"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1320" refid="MRMatrix4_8h_1a3da9f56599308d3485513407a9699acb" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1a3da9f56599308d3485513407a9699acb" kindref="member">MR_Matrix4_unsigned_char_transposed</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="1321"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1325" refid="MRMatrix4_8h_1a3dfa510005e4ee3a4be639abc65a0936" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMatrix3_8h_1ad9b8c76811c6d6f73745d9cca61eeba5" kindref="member">MR_Matrix3_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1a3dfa510005e4ee3a4be639abc65a0936" kindref="member">MR_Matrix4_unsigned_char_getRotation</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="1326"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1330" refid="MRMatrix4_8h_1af3926b68859d55ee8a34d014e0298ec8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1af3926b68859d55ee8a34d014e0298ec8" kindref="member">MR_Matrix4_unsigned_char_setRotation</ref>(<ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix3_8h_1ad9b8c76811c6d6f73745d9cca61eeba5" kindref="member">MR_Matrix3_unsigned_char</ref><sp/>*rot);</highlight></codeline>
-<codeline lineno="1331"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1335" refid="MRMatrix4_8h_1acb656728b36d1338ef38e67b62be353f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMatrix3_8h_1aaaed28db9b98fcce268e87e2dab74ff9" kindref="member">MR_Vector3_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1acb656728b36d1338ef38e67b62be353f" kindref="member">MR_Matrix4_unsigned_char_getTranslation</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="1336"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1340" refid="MRMatrix4_8h_1a25d01d35ebdb41aeeae0daa18138f5c9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a25d01d35ebdb41aeeae0daa18138f5c9" kindref="member">MR_Matrix4_unsigned_char_setTranslation</ref>(<ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix3_8h_1aaaed28db9b98fcce268e87e2dab74ff9" kindref="member">MR_Vector3_unsigned_char</ref><sp/>*t);</highlight></codeline>
-<codeline lineno="1341"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1344" refid="MRMatrix4_8h_1a1b562053229a47a60d02a5fbefce977b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="MRMatrix4_8h_1a1b562053229a47a60d02a5fbefce977b" kindref="member">MR_Matrix4_unsigned_char_data_mut</ref>(<ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="1345"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1348" refid="MRMatrix4_8h_1af201dc1faeeb884e1ec61ad25c43d8bf" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="MRMatrix4_8h_1af201dc1faeeb884e1ec61ad25c43d8bf" kindref="member">MR_Matrix4_unsigned_char_data</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1260" refid="MRMatrix4_8h_1aa1cf61b74cd42572f82c9b3f726d701c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1aa1cf61b74cd42572f82c9b3f726d701c" kindref="member">MR_Matrix4_unsigned_char_zero</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="1261"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1264" refid="MRMatrix4_8h_1a01aa793af11a1a8260e836fb611d0dbd" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1a01aa793af11a1a8260e836fb611d0dbd" kindref="member">MR_Matrix4_unsigned_char_identity</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="1265"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1269" refid="MRMatrix4_8h_1af194ba9a5eea8c4734368a1af0bac43d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1af194ba9a5eea8c4734368a1af0bac43d" kindref="member">MR_Matrix4_unsigned_char_scale</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>s);</highlight></codeline>
+<codeline lineno="1270"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1275" refid="MRMatrix4_8h_1aec9558597e7be2238b109619f850bdfb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="MRMatrix4_8h_1aec9558597e7be2238b109619f850bdfb" kindref="member">MR_Matrix4_unsigned_char_call</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>row,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>col);</highlight></codeline>
+<codeline lineno="1276"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1280" refid="MRMatrix4_8h_1a14f71657003385dc0fdddb58b00da86b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="MRMatrix4_8h_1a14f71657003385dc0fdddb58b00da86b" kindref="member">MR_Matrix4_unsigned_char_call_mut</ref>(<ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>row,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>col);</highlight></codeline>
+<codeline lineno="1281"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1286" refid="MRMatrix4_8h_1a7b511d37ad8ce92fae62f8065929eea2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1a7b511d37ad8ce92fae62f8065929eea2" kindref="member">MR_Matrix4_unsigned_char_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>row);</highlight></codeline>
+<codeline lineno="1287"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1291" refid="MRMatrix4_8h_1a240e54bcb7cbc16fd8775a926ded1d9e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1a240e54bcb7cbc16fd8775a926ded1d9e" kindref="member">MR_Matrix4_unsigned_char_index_mut</ref>(<ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>row);</highlight></codeline>
+<codeline lineno="1292"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1297" refid="MRMatrix4_8h_1a0fa59cbecee1ff1f2a390d9624636efd" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1a0fa59cbecee1ff1f2a390d9624636efd" kindref="member">MR_Matrix4_unsigned_char_col</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="1298"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1302" refid="MRMatrix4_8h_1a64d8d14e5f9f0b2dfe852926f40cf621" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a64d8d14e5f9f0b2dfe852926f40cf621" kindref="member">MR_Matrix4_unsigned_char_trace</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1303"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1307" refid="MRMatrix4_8h_1a7a450d190e3e9bd12f5305d04d48d3d5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a7a450d190e3e9bd12f5305d04d48d3d5" kindref="member">MR_Matrix4_unsigned_char_normSq</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1308"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1311" refid="MRMatrix4_8h_1abd97ed164e0af3818c4a163501f76e82" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1abd97ed164e0af3818c4a163501f76e82" kindref="member">MR_Matrix4_unsigned_char_norm</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1312"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1317" refid="MRMatrix4_8h_1acb37dc6e1e4b3732a98e5e0b042860e5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMatrix3_8h_1ad9b8c76811c6d6f73745d9cca61eeba5" kindref="member">MR_Matrix3_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1acb37dc6e1e4b3732a98e5e0b042860e5" kindref="member">MR_Matrix4_unsigned_char_submatrix3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>j);</highlight></codeline>
+<codeline lineno="1318"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1322" refid="MRMatrix4_8h_1ac412a47d1b584ffd22417958984a7568" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1ac412a47d1b584ffd22417958984a7568" kindref="member">MR_Matrix4_unsigned_char_det</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1323"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1328" refid="MRMatrix4_8h_1a3da9f56599308d3485513407a9699acb" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1a3da9f56599308d3485513407a9699acb" kindref="member">MR_Matrix4_unsigned_char_transposed</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1329"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1333" refid="MRMatrix4_8h_1a3dfa510005e4ee3a4be639abc65a0936" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMatrix3_8h_1ad9b8c76811c6d6f73745d9cca61eeba5" kindref="member">MR_Matrix3_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1a3dfa510005e4ee3a4be639abc65a0936" kindref="member">MR_Matrix4_unsigned_char_getRotation</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1334"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1338" refid="MRMatrix4_8h_1af3926b68859d55ee8a34d014e0298ec8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1af3926b68859d55ee8a34d014e0298ec8" kindref="member">MR_Matrix4_unsigned_char_setRotation</ref>(<ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix3_8h_1ad9b8c76811c6d6f73745d9cca61eeba5" kindref="member">MR_Matrix3_unsigned_char</ref><sp/>*rot);</highlight></codeline>
+<codeline lineno="1339"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1343" refid="MRMatrix4_8h_1acb656728b36d1338ef38e67b62be353f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMatrix3_8h_1aaaed28db9b98fcce268e87e2dab74ff9" kindref="member">MR_Vector3_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1acb656728b36d1338ef38e67b62be353f" kindref="member">MR_Matrix4_unsigned_char_getTranslation</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1344"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1348" refid="MRMatrix4_8h_1a25d01d35ebdb41aeeae0daa18138f5c9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a25d01d35ebdb41aeeae0daa18138f5c9" kindref="member">MR_Matrix4_unsigned_char_setTranslation</ref>(<ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix3_8h_1aaaed28db9b98fcce268e87e2dab74ff9" kindref="member">MR_Vector3_unsigned_char</ref><sp/>*t);</highlight></codeline>
 <codeline lineno="1349"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1353" refid="MRMatrix4_8h_1ae078796350a1c49ba211ed107b7c5cab" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1ae078796350a1c49ba211ed107b7c5cab" kindref="member">MR_equal_MR_Matrix4_unsigned_char</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*b);</highlight></codeline>
-<codeline lineno="1354"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1358" refid="MRMatrix4_8h_1a9be63eb33451c98bda8fcfd8f6351c26" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a9be63eb33451c98bda8fcfd8f6351c26" kindref="member">MR_not_equal_MR_Matrix4_unsigned_char</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*b);</highlight></codeline>
-<codeline lineno="1359"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1360"><highlight class="normal"></highlight><highlight class="comment">//<sp/>NOTE:<sp/>We<sp/>use<sp/>`std::declval()`<sp/>in<sp/>the<sp/>operators<sp/>below<sp/>because<sp/>libclang<sp/>18<sp/>in<sp/>our<sp/>binding<sp/>generator<sp/>is<sp/>bugged<sp/>and<sp/>chokes<sp/>on<sp/>decltyping<sp/>`a.x`<sp/>and<sp/>such.<sp/>TODO<sp/>fix<sp/>this<sp/>when<sp/>we<sp/>update<sp/>libclang.</highlight></codeline>
-<codeline lineno="1364" refid="MRMatrix4_8h_1a017f9dbecf4f3144db2301c138adfa97" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Matrix4i" kindref="compound">MR_Matrix4i</ref><sp/><ref refid="MRMatrix4_8h_1a017f9dbecf4f3144db2301c138adfa97" kindref="member">MR_add_MR_Matrix4_unsigned_char</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*b);</highlight></codeline>
-<codeline lineno="1365"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1369" refid="MRMatrix4_8h_1a0e1cce71bc7883b8e4835edab35d7911" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Matrix4i" kindref="compound">MR_Matrix4i</ref><sp/><ref refid="MRMatrix4_8h_1a0e1cce71bc7883b8e4835edab35d7911" kindref="member">MR_sub_MR_Matrix4_unsigned_char</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*b);</highlight></codeline>
-<codeline lineno="1370"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1373" refid="MRMatrix4_8h_1ab2c4334585a776cd41c7e6fb269ec28f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Matrix4i" kindref="compound">MR_Matrix4i</ref><sp/><ref refid="MRMatrix4_8h_1ab2c4334585a776cd41c7e6fb269ec28f" kindref="member">MR_mul_unsigned_char_MR_Matrix4_unsigned_char</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*b);</highlight></codeline>
-<codeline lineno="1374"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1377" refid="MRMatrix4_8h_1a8ad990bcfccd282f91ac5fd0694e7c2e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Matrix4i" kindref="compound">MR_Matrix4i</ref><sp/><ref refid="MRMatrix4_8h_1a8ad990bcfccd282f91ac5fd0694e7c2e" kindref="member">MR_mul_MR_Matrix4_unsigned_char_unsigned_char</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*b,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>a);</highlight></codeline>
+<codeline lineno="1352" refid="MRMatrix4_8h_1a1b562053229a47a60d02a5fbefce977b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="MRMatrix4_8h_1a1b562053229a47a60d02a5fbefce977b" kindref="member">MR_Matrix4_unsigned_char_data_mut</ref>(<ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1353"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1356" refid="MRMatrix4_8h_1af201dc1faeeb884e1ec61ad25c43d8bf" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="MRMatrix4_8h_1af201dc1faeeb884e1ec61ad25c43d8bf" kindref="member">MR_Matrix4_unsigned_char_data</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1357"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1361" refid="MRMatrix4_8h_1ae078796350a1c49ba211ed107b7c5cab" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1ae078796350a1c49ba211ed107b7c5cab" kindref="member">MR_equal_MR_Matrix4_unsigned_char</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="1362"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1366" refid="MRMatrix4_8h_1a9be63eb33451c98bda8fcfd8f6351c26" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a9be63eb33451c98bda8fcfd8f6351c26" kindref="member">MR_not_equal_MR_Matrix4_unsigned_char</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="1367"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1368"><highlight class="normal"></highlight><highlight class="comment">//<sp/>NOTE:<sp/>We<sp/>use<sp/>`std::declval()`<sp/>in<sp/>the<sp/>operators<sp/>below<sp/>because<sp/>libclang<sp/>18<sp/>in<sp/>our<sp/>binding<sp/>generator<sp/>is<sp/>bugged<sp/>and<sp/>chokes<sp/>on<sp/>decltyping<sp/>`a.x`<sp/>and<sp/>such.<sp/>TODO<sp/>fix<sp/>this<sp/>when<sp/>we<sp/>update<sp/>libclang.</highlight></codeline>
+<codeline lineno="1372" refid="MRMatrix4_8h_1a017f9dbecf4f3144db2301c138adfa97" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Matrix4i" kindref="compound">MR_Matrix4i</ref><sp/><ref refid="MRMatrix4_8h_1a017f9dbecf4f3144db2301c138adfa97" kindref="member">MR_add_MR_Matrix4_unsigned_char</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="1373"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1377" refid="MRMatrix4_8h_1a0e1cce71bc7883b8e4835edab35d7911" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Matrix4i" kindref="compound">MR_Matrix4i</ref><sp/><ref refid="MRMatrix4_8h_1a0e1cce71bc7883b8e4835edab35d7911" kindref="member">MR_sub_MR_Matrix4_unsigned_char</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*b);</highlight></codeline>
 <codeline lineno="1378"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1381" refid="MRMatrix4_8h_1aa2d54ddb6141d536ebef6fe59532cca6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Matrix4i" kindref="compound">MR_Matrix4i</ref><sp/><ref refid="MRMatrix4_8h_1aa2d54ddb6141d536ebef6fe59532cca6" kindref="member">MR_div_MR_Matrix4_unsigned_char_unsigned_char</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*b,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>a);</highlight></codeline>
+<codeline lineno="1381" refid="MRMatrix4_8h_1ab2c4334585a776cd41c7e6fb269ec28f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Matrix4i" kindref="compound">MR_Matrix4i</ref><sp/><ref refid="MRMatrix4_8h_1ab2c4334585a776cd41c7e6fb269ec28f" kindref="member">MR_mul_unsigned_char_MR_Matrix4_unsigned_char</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*b);</highlight></codeline>
 <codeline lineno="1382"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1387" refid="MRMatrix4_8h_1a05d3c69e91704fd957218127e325995c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1a05d3c69e91704fd957218127e325995c" kindref="member">MR_add_assign_MR_Matrix4_unsigned_char</ref>(<ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*b);</highlight></codeline>
-<codeline lineno="1388"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1393" refid="MRMatrix4_8h_1a189298db432a6e6f4e5bc6a2def5e07b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1a189298db432a6e6f4e5bc6a2def5e07b" kindref="member">MR_sub_assign_MR_Matrix4_unsigned_char</ref>(<ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*b);</highlight></codeline>
-<codeline lineno="1394"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1398" refid="MRMatrix4_8h_1a9cfef929d32ebf62bf8d9d17a2862656" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1a9cfef929d32ebf62bf8d9d17a2862656" kindref="member">MR_mul_assign_MR_Matrix4_unsigned_char_unsigned_char</ref>(<ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*a,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>b);</highlight></codeline>
-<codeline lineno="1399"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1403" refid="MRMatrix4_8h_1ac3111e13dbab167fc7e613094468f60c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1ac3111e13dbab167fc7e613094468f60c" kindref="member">MR_div_assign_MR_Matrix4_unsigned_char_unsigned_char</ref>(<ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*a,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>b);</highlight></codeline>
-<codeline lineno="1404"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1409" refid="MRMatrix4_8h_1a224db8fc884af7f1f6acd872965facfd" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector4i" kindref="compound">MR_Vector4i</ref><sp/><ref refid="MRMatrix4_8h_1a224db8fc884af7f1f6acd872965facfd" kindref="member">MR_mul_MR_Matrix4_unsigned_char_MR_Vector4_unsigned_char</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref><sp/>*b);</highlight></codeline>
-<codeline lineno="1410"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1415" refid="MRMatrix4_8h_1abe3145e3f5e989babf579e927f974ca5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Matrix4i" kindref="compound">MR_Matrix4i</ref><sp/><ref refid="MRMatrix4_8h_1abe3145e3f5e989babf579e927f974ca5" kindref="member">MR_mul_MR_Matrix4_unsigned_char</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*b);</highlight></codeline>
-<codeline lineno="1416"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1421" refid="MRMatrix4_8h_1a1bad48ea4b28d210e34e49c9c0035ac8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*<ref refid="MRMatrix4_8h_1a1bad48ea4b28d210e34e49c9c0035ac8" kindref="member">MR_print_MR_Matrix4_unsigned_char</ref>(<ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*s,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*mat);</highlight></codeline>
-<codeline lineno="1422"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1427" refid="MRMatrix4_8h_1a648d4d2049f97f239bf61739f5173743" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/>*<ref refid="MRMatrix4_8h_1a648d4d2049f97f239bf61739f5173743" kindref="member">MR_input_MR_Matrix4_unsigned_char</ref>(<ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/>*s,<sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*mat);</highlight></codeline>
-<codeline lineno="1428"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1429"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="1430"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="1431"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="1385" refid="MRMatrix4_8h_1a8ad990bcfccd282f91ac5fd0694e7c2e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Matrix4i" kindref="compound">MR_Matrix4i</ref><sp/><ref refid="MRMatrix4_8h_1a8ad990bcfccd282f91ac5fd0694e7c2e" kindref="member">MR_mul_MR_Matrix4_unsigned_char_unsigned_char</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*b,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>a);</highlight></codeline>
+<codeline lineno="1386"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1389" refid="MRMatrix4_8h_1aa2d54ddb6141d536ebef6fe59532cca6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Matrix4i" kindref="compound">MR_Matrix4i</ref><sp/><ref refid="MRMatrix4_8h_1aa2d54ddb6141d536ebef6fe59532cca6" kindref="member">MR_div_MR_Matrix4_unsigned_char_unsigned_char</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*b,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>a);</highlight></codeline>
+<codeline lineno="1390"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1395" refid="MRMatrix4_8h_1a05d3c69e91704fd957218127e325995c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1a05d3c69e91704fd957218127e325995c" kindref="member">MR_add_assign_MR_Matrix4_unsigned_char</ref>(<ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="1396"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1401" refid="MRMatrix4_8h_1a189298db432a6e6f4e5bc6a2def5e07b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1a189298db432a6e6f4e5bc6a2def5e07b" kindref="member">MR_sub_assign_MR_Matrix4_unsigned_char</ref>(<ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="1402"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1406" refid="MRMatrix4_8h_1a9cfef929d32ebf62bf8d9d17a2862656" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1a9cfef929d32ebf62bf8d9d17a2862656" kindref="member">MR_mul_assign_MR_Matrix4_unsigned_char_unsigned_char</ref>(<ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*a,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>b);</highlight></codeline>
+<codeline lineno="1407"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1411" refid="MRMatrix4_8h_1ac3111e13dbab167fc7e613094468f60c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*<ref refid="MRMatrix4_8h_1ac3111e13dbab167fc7e613094468f60c" kindref="member">MR_div_assign_MR_Matrix4_unsigned_char_unsigned_char</ref>(<ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*a,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>b);</highlight></codeline>
+<codeline lineno="1412"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1417" refid="MRMatrix4_8h_1a224db8fc884af7f1f6acd872965facfd" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector4i" kindref="compound">MR_Vector4i</ref><sp/><ref refid="MRMatrix4_8h_1a224db8fc884af7f1f6acd872965facfd" kindref="member">MR_mul_MR_Matrix4_unsigned_char_MR_Vector4_unsigned_char</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="1418"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1423" refid="MRMatrix4_8h_1abe3145e3f5e989babf579e927f974ca5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Matrix4i" kindref="compound">MR_Matrix4i</ref><sp/><ref refid="MRMatrix4_8h_1abe3145e3f5e989babf579e927f974ca5" kindref="member">MR_mul_MR_Matrix4_unsigned_char</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="1424"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1429" refid="MRMatrix4_8h_1a1bad48ea4b28d210e34e49c9c0035ac8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*<ref refid="MRMatrix4_8h_1a1bad48ea4b28d210e34e49c9c0035ac8" kindref="member">MR_print_MR_Matrix4_unsigned_char</ref>(<ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*s,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*mat);</highlight></codeline>
+<codeline lineno="1430"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1435" refid="MRMatrix4_8h_1a648d4d2049f97f239bf61739f5173743" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/>*<ref refid="MRMatrix4_8h_1a648d4d2049f97f239bf61739f5173743" kindref="member">MR_input_MR_Matrix4_unsigned_char</ref>(<ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/>*s,<sp/><ref refid="MRMatrix4_8h_1a809ed2db24ae2fe63232dcb5b01d04be" kindref="member">MR_Matrix4_unsigned_char</ref><sp/>*mat);</highlight></codeline>
+<codeline lineno="1436"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1437"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1438"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1439"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h"/>
   </compounddef>

@@ -944,7 +944,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::MapOrHashMap&lt;MR::EdgeId, MR::EdgeId&gt;</code> named <code>var</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::MapOrHashMap&lt;MR::EdgeId, MR::EdgeId&gt;</code> named <code>var</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -962,7 +962,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::MapOrHashMap&lt;MR::EdgeId, MR::EdgeId&gt;::getHashMap</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Generated from method <code>MR::MapOrHashMap&lt;MR::EdgeId, MR::EdgeId&gt;::getHashMap</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to this object might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -980,7 +980,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::MapOrHashMap&lt;MR::EdgeId, MR::EdgeId&gt;::getHashMap</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Generated from method <code>MR::MapOrHashMap&lt;MR::EdgeId, MR::EdgeId&gt;::getHashMap</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to this object might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -998,7 +998,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::MapOrHashMap&lt;MR::EdgeId, MR::EdgeId&gt;::getMap</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Generated from method <code>MR::MapOrHashMap&lt;MR::EdgeId, MR::EdgeId&gt;::getMap</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to this object might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -1016,7 +1016,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::MapOrHashMap&lt;MR::EdgeId, MR::EdgeId&gt;::getMap</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Generated from method <code>MR::MapOrHashMap&lt;MR::EdgeId, MR::EdgeId&gt;::getMap</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to this object might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -1034,7 +1034,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::MapOrHashMap&lt;MR::EdgeId, MR::EdgeId&gt;</code> named <code>var</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::MapOrHashMap&lt;MR::EdgeId, MR::EdgeId&gt;</code> named <code>var</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1105,7 +1105,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>appends one element in the map, in case of dense map, key must be equal to vector.endId() Generated from method <code>MR::MapOrHashMap&lt;MR::EdgeId, MR::EdgeId&gt;::pushBack</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>appends one element in the map, in case of dense map, key must be equal to vector.endId() Generated from method <code>MR::MapOrHashMap&lt;MR::EdgeId, MR::EdgeId&gt;::pushBack</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>key</code> (if any) might be preserved in this object. The reference to things referred to by the parameter <code>val</code> (if any) might be preserved in this object. </p>
 
 </div>
 </div>
@@ -1181,7 +1181,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::MapOrHashMap&lt;MR::EdgeId, MR::EdgeId&gt;::setHashMap</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>m</code> can not be null. It is a single object. In C++ this parameter takes an rvalue reference: it might invalidate the passed object, but if your pointer is owning, you must still destroy it manually later. </p>
+<p>Generated from method <code>MR::MapOrHashMap&lt;MR::EdgeId, MR::EdgeId&gt;::setHashMap</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>m</code> can not be null. It is a single object. In C++ this parameter takes an rvalue reference: it might invalidate the passed object, but if your pointer is owning, you must still destroy it manually later. The reference to things referred to by the parameter <code>m</code> (if any) might be preserved in this object. </p>
 
 </div>
 </div>
@@ -1203,7 +1203,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::MapOrHashMap&lt;MR::EdgeId, MR::EdgeId&gt;::setMap</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>m</code> can not be null. It is a single object. In C++ this parameter takes an rvalue reference: it might invalidate the passed object, but if your pointer is owning, you must still destroy it manually later. </p>
+<p>Generated from method <code>MR::MapOrHashMap&lt;MR::EdgeId, MR::EdgeId&gt;::setMap</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>m</code> can not be null. It is a single object. In C++ this parameter takes an rvalue reference: it might invalidate the passed object, but if your pointer is owning, you must still destroy it manually later. The reference to things referred to by the parameter <code>m</code> (if any) might be preserved in this object. </p>
 
 </div>
 </div>
@@ -1420,7 +1420,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::MapOrHashMap&lt;MR::FaceId, MR::FaceId&gt;</code> named <code>var</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::MapOrHashMap&lt;MR::FaceId, MR::FaceId&gt;</code> named <code>var</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1438,7 +1438,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::MapOrHashMap&lt;MR::FaceId, MR::FaceId&gt;::getHashMap</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Generated from method <code>MR::MapOrHashMap&lt;MR::FaceId, MR::FaceId&gt;::getHashMap</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to this object might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -1456,7 +1456,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::MapOrHashMap&lt;MR::FaceId, MR::FaceId&gt;::getHashMap</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Generated from method <code>MR::MapOrHashMap&lt;MR::FaceId, MR::FaceId&gt;::getHashMap</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to this object might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -1474,7 +1474,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::MapOrHashMap&lt;MR::FaceId, MR::FaceId&gt;::getMap</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Generated from method <code>MR::MapOrHashMap&lt;MR::FaceId, MR::FaceId&gt;::getMap</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to this object might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -1492,7 +1492,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::MapOrHashMap&lt;MR::FaceId, MR::FaceId&gt;::getMap</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Generated from method <code>MR::MapOrHashMap&lt;MR::FaceId, MR::FaceId&gt;::getMap</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to this object might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -1510,7 +1510,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::MapOrHashMap&lt;MR::FaceId, MR::FaceId&gt;</code> named <code>var</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::MapOrHashMap&lt;MR::FaceId, MR::FaceId&gt;</code> named <code>var</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1581,7 +1581,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>appends one element in the map, in case of dense map, key must be equal to vector.endId() Generated from method <code>MR::MapOrHashMap&lt;MR::FaceId, MR::FaceId&gt;::pushBack</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>appends one element in the map, in case of dense map, key must be equal to vector.endId() Generated from method <code>MR::MapOrHashMap&lt;MR::FaceId, MR::FaceId&gt;::pushBack</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>key</code> (if any) might be preserved in this object. The reference to things referred to by the parameter <code>val</code> (if any) might be preserved in this object. </p>
 
 </div>
 </div>
@@ -1657,7 +1657,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::MapOrHashMap&lt;MR::FaceId, MR::FaceId&gt;::setHashMap</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>m</code> can not be null. It is a single object. In C++ this parameter takes an rvalue reference: it might invalidate the passed object, but if your pointer is owning, you must still destroy it manually later. </p>
+<p>Generated from method <code>MR::MapOrHashMap&lt;MR::FaceId, MR::FaceId&gt;::setHashMap</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>m</code> can not be null. It is a single object. In C++ this parameter takes an rvalue reference: it might invalidate the passed object, but if your pointer is owning, you must still destroy it manually later. The reference to things referred to by the parameter <code>m</code> (if any) might be preserved in this object. </p>
 
 </div>
 </div>
@@ -1679,7 +1679,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::MapOrHashMap&lt;MR::FaceId, MR::FaceId&gt;::setMap</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>m</code> can not be null. It is a single object. In C++ this parameter takes an rvalue reference: it might invalidate the passed object, but if your pointer is owning, you must still destroy it manually later. </p>
+<p>Generated from method <code>MR::MapOrHashMap&lt;MR::FaceId, MR::FaceId&gt;::setMap</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>m</code> can not be null. It is a single object. In C++ this parameter takes an rvalue reference: it might invalidate the passed object, but if your pointer is owning, you must still destroy it manually later. The reference to things referred to by the parameter <code>m</code> (if any) might be preserved in this object. </p>
 
 </div>
 </div>
@@ -1896,7 +1896,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::MapOrHashMap&lt;MR::UndirectedEdgeId, MR::EdgeId&gt;</code> named <code>var</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::MapOrHashMap&lt;MR::UndirectedEdgeId, MR::EdgeId&gt;</code> named <code>var</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1914,7 +1914,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::MapOrHashMap&lt;MR::UndirectedEdgeId, MR::EdgeId&gt;::getHashMap</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Generated from method <code>MR::MapOrHashMap&lt;MR::UndirectedEdgeId, MR::EdgeId&gt;::getHashMap</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to this object might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -1932,7 +1932,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::MapOrHashMap&lt;MR::UndirectedEdgeId, MR::EdgeId&gt;::getHashMap</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Generated from method <code>MR::MapOrHashMap&lt;MR::UndirectedEdgeId, MR::EdgeId&gt;::getHashMap</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to this object might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -1950,7 +1950,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::MapOrHashMap&lt;MR::UndirectedEdgeId, MR::EdgeId&gt;::getMap</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Generated from method <code>MR::MapOrHashMap&lt;MR::UndirectedEdgeId, MR::EdgeId&gt;::getMap</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to this object might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -1968,7 +1968,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::MapOrHashMap&lt;MR::UndirectedEdgeId, MR::EdgeId&gt;::getMap</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Generated from method <code>MR::MapOrHashMap&lt;MR::UndirectedEdgeId, MR::EdgeId&gt;::getMap</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to this object might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -1986,7 +1986,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::MapOrHashMap&lt;MR::UndirectedEdgeId, MR::EdgeId&gt;</code> named <code>var</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::MapOrHashMap&lt;MR::UndirectedEdgeId, MR::EdgeId&gt;</code> named <code>var</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2057,7 +2057,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>appends one element in the map, in case of dense map, key must be equal to vector.endId() Generated from method <code>MR::MapOrHashMap&lt;MR::UndirectedEdgeId, MR::EdgeId&gt;::pushBack</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>appends one element in the map, in case of dense map, key must be equal to vector.endId() Generated from method <code>MR::MapOrHashMap&lt;MR::UndirectedEdgeId, MR::EdgeId&gt;::pushBack</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>key</code> (if any) might be preserved in this object. The reference to things referred to by the parameter <code>val</code> (if any) might be preserved in this object. </p>
 
 </div>
 </div>
@@ -2133,7 +2133,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::MapOrHashMap&lt;MR::UndirectedEdgeId, MR::EdgeId&gt;::setHashMap</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>m</code> can not be null. It is a single object. In C++ this parameter takes an rvalue reference: it might invalidate the passed object, but if your pointer is owning, you must still destroy it manually later. </p>
+<p>Generated from method <code>MR::MapOrHashMap&lt;MR::UndirectedEdgeId, MR::EdgeId&gt;::setHashMap</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>m</code> can not be null. It is a single object. In C++ this parameter takes an rvalue reference: it might invalidate the passed object, but if your pointer is owning, you must still destroy it manually later. The reference to things referred to by the parameter <code>m</code> (if any) might be preserved in this object. </p>
 
 </div>
 </div>
@@ -2155,7 +2155,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::MapOrHashMap&lt;MR::UndirectedEdgeId, MR::EdgeId&gt;::setMap</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>m</code> can not be null. It is a single object. In C++ this parameter takes an rvalue reference: it might invalidate the passed object, but if your pointer is owning, you must still destroy it manually later. </p>
+<p>Generated from method <code>MR::MapOrHashMap&lt;MR::UndirectedEdgeId, MR::EdgeId&gt;::setMap</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>m</code> can not be null. It is a single object. In C++ this parameter takes an rvalue reference: it might invalidate the passed object, but if your pointer is owning, you must still destroy it manually later. The reference to things referred to by the parameter <code>m</code> (if any) might be preserved in this object. </p>
 
 </div>
 </div>
@@ -2372,7 +2372,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::MapOrHashMap&lt;MR::UndirectedEdgeId, MR::UndirectedEdgeId&gt;</code> named <code>var</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::MapOrHashMap&lt;MR::UndirectedEdgeId, MR::UndirectedEdgeId&gt;</code> named <code>var</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2390,7 +2390,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::MapOrHashMap&lt;MR::UndirectedEdgeId, MR::UndirectedEdgeId&gt;::getHashMap</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Generated from method <code>MR::MapOrHashMap&lt;MR::UndirectedEdgeId, MR::UndirectedEdgeId&gt;::getHashMap</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to this object might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -2408,7 +2408,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::MapOrHashMap&lt;MR::UndirectedEdgeId, MR::UndirectedEdgeId&gt;::getHashMap</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Generated from method <code>MR::MapOrHashMap&lt;MR::UndirectedEdgeId, MR::UndirectedEdgeId&gt;::getHashMap</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to this object might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -2426,7 +2426,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::MapOrHashMap&lt;MR::UndirectedEdgeId, MR::UndirectedEdgeId&gt;::getMap</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Generated from method <code>MR::MapOrHashMap&lt;MR::UndirectedEdgeId, MR::UndirectedEdgeId&gt;::getMap</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to this object might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -2444,7 +2444,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::MapOrHashMap&lt;MR::UndirectedEdgeId, MR::UndirectedEdgeId&gt;::getMap</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Generated from method <code>MR::MapOrHashMap&lt;MR::UndirectedEdgeId, MR::UndirectedEdgeId&gt;::getMap</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to this object might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -2462,7 +2462,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::MapOrHashMap&lt;MR::UndirectedEdgeId, MR::UndirectedEdgeId&gt;</code> named <code>var</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::MapOrHashMap&lt;MR::UndirectedEdgeId, MR::UndirectedEdgeId&gt;</code> named <code>var</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2533,7 +2533,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>appends one element in the map, in case of dense map, key must be equal to vector.endId() Generated from method <code>MR::MapOrHashMap&lt;MR::UndirectedEdgeId, MR::UndirectedEdgeId&gt;::pushBack</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>appends one element in the map, in case of dense map, key must be equal to vector.endId() Generated from method <code>MR::MapOrHashMap&lt;MR::UndirectedEdgeId, MR::UndirectedEdgeId&gt;::pushBack</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>key</code> (if any) might be preserved in this object. The reference to things referred to by the parameter <code>val</code> (if any) might be preserved in this object. </p>
 
 </div>
 </div>
@@ -2609,7 +2609,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::MapOrHashMap&lt;MR::UndirectedEdgeId, MR::UndirectedEdgeId&gt;::setHashMap</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>m</code> can not be null. It is a single object. In C++ this parameter takes an rvalue reference: it might invalidate the passed object, but if your pointer is owning, you must still destroy it manually later. </p>
+<p>Generated from method <code>MR::MapOrHashMap&lt;MR::UndirectedEdgeId, MR::UndirectedEdgeId&gt;::setHashMap</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>m</code> can not be null. It is a single object. In C++ this parameter takes an rvalue reference: it might invalidate the passed object, but if your pointer is owning, you must still destroy it manually later. The reference to things referred to by the parameter <code>m</code> (if any) might be preserved in this object. </p>
 
 </div>
 </div>
@@ -2631,7 +2631,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::MapOrHashMap&lt;MR::UndirectedEdgeId, MR::UndirectedEdgeId&gt;::setMap</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>m</code> can not be null. It is a single object. In C++ this parameter takes an rvalue reference: it might invalidate the passed object, but if your pointer is owning, you must still destroy it manually later. </p>
+<p>Generated from method <code>MR::MapOrHashMap&lt;MR::UndirectedEdgeId, MR::UndirectedEdgeId&gt;::setMap</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>m</code> can not be null. It is a single object. In C++ this parameter takes an rvalue reference: it might invalidate the passed object, but if your pointer is owning, you must still destroy it manually later. The reference to things referred to by the parameter <code>m</code> (if any) might be preserved in this object. </p>
 
 </div>
 </div>
@@ -2848,7 +2848,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::MapOrHashMap&lt;MR::VertId, MR::VertId&gt;</code> named <code>var</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::MapOrHashMap&lt;MR::VertId, MR::VertId&gt;</code> named <code>var</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2866,7 +2866,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::MapOrHashMap&lt;MR::VertId, MR::VertId&gt;::getHashMap</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Generated from method <code>MR::MapOrHashMap&lt;MR::VertId, MR::VertId&gt;::getHashMap</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to this object might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -2884,7 +2884,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::MapOrHashMap&lt;MR::VertId, MR::VertId&gt;::getHashMap</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Generated from method <code>MR::MapOrHashMap&lt;MR::VertId, MR::VertId&gt;::getHashMap</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to this object might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -2902,7 +2902,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::MapOrHashMap&lt;MR::VertId, MR::VertId&gt;::getMap</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Generated from method <code>MR::MapOrHashMap&lt;MR::VertId, MR::VertId&gt;::getMap</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to this object might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -2920,7 +2920,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::MapOrHashMap&lt;MR::VertId, MR::VertId&gt;::getMap</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>Generated from method <code>MR::MapOrHashMap&lt;MR::VertId, MR::VertId&gt;::getMap</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to this object might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -2938,7 +2938,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::MapOrHashMap&lt;MR::VertId, MR::VertId&gt;</code> named <code>var</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::MapOrHashMap&lt;MR::VertId, MR::VertId&gt;</code> named <code>var</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -3009,7 +3009,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>appends one element in the map, in case of dense map, key must be equal to vector.endId() Generated from method <code>MR::MapOrHashMap&lt;MR::VertId, MR::VertId&gt;::pushBack</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+<p>appends one element in the map, in case of dense map, key must be equal to vector.endId() Generated from method <code>MR::MapOrHashMap&lt;MR::VertId, MR::VertId&gt;::pushBack</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>key</code> (if any) might be preserved in this object. The reference to things referred to by the parameter <code>val</code> (if any) might be preserved in this object. </p>
 
 </div>
 </div>
@@ -3085,7 +3085,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::MapOrHashMap&lt;MR::VertId, MR::VertId&gt;::setHashMap</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>m</code> can not be null. It is a single object. In C++ this parameter takes an rvalue reference: it might invalidate the passed object, but if your pointer is owning, you must still destroy it manually later. </p>
+<p>Generated from method <code>MR::MapOrHashMap&lt;MR::VertId, MR::VertId&gt;::setHashMap</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>m</code> can not be null. It is a single object. In C++ this parameter takes an rvalue reference: it might invalidate the passed object, but if your pointer is owning, you must still destroy it manually later. The reference to things referred to by the parameter <code>m</code> (if any) might be preserved in this object. </p>
 
 </div>
 </div>
@@ -3107,7 +3107,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::MapOrHashMap&lt;MR::VertId, MR::VertId&gt;::setMap</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>m</code> can not be null. It is a single object. In C++ this parameter takes an rvalue reference: it might invalidate the passed object, but if your pointer is owning, you must still destroy it manually later. </p>
+<p>Generated from method <code>MR::MapOrHashMap&lt;MR::VertId, MR::VertId&gt;::setMap</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>m</code> can not be null. It is a single object. In C++ this parameter takes an rvalue reference: it might invalidate the passed object, but if your pointer is owning, you must still destroy it manually later. The reference to things referred to by the parameter <code>m</code> (if any) might be preserved in this object. </p>
 
 </div>
 </div>

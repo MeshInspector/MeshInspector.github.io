@@ -632,7 +632,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>whether to construct closed mesh in signMode = SignDetectionModeShort::HoleWindingNumber Returns a pointer to a member variable of class <code>MR::RebuildMeshSettings</code> named <code>closeHolesInHoleWindingNumber</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>whether to construct closed mesh in signMode = SignDetectionModeShort::HoleWindingNumber Returns a pointer to a member variable of class <code>MR::RebuildMeshSettings</code> named <code>closeHolesInHoleWindingNumber</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -650,7 +650,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>whether to decimate resulting mesh Returns a pointer to a member variable of class <code>MR::RebuildMeshSettings</code> named <code>decimate</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>whether to decimate resulting mesh Returns a pointer to a member variable of class <code>MR::RebuildMeshSettings</code> named <code>decimate</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -668,7 +668,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>defines particular implementation of IFastWindingNumber interface that will compute windings (if required). If it is not specified, default FastWindingNumber is used Returns a pointer to a member variable of class <code>MR::RebuildMeshSettings</code> named <code>fwn</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>defines particular implementation of IFastWindingNumber interface that will compute windings (if required). If it is not specified, default FastWindingNumber is used Returns a pointer to a member variable of class <code>MR::RebuildMeshSettings</code> named <code>fwn</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -686,7 +686,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::RebuildMeshSettings</code> named <code>offsetMode</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::RebuildMeshSettings</code> named <code>offsetMode</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -704,7 +704,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>this callback is invoked when SignDetectionMode is determined (useful if signMode = SignDetectionModeShort::Auto), but before actual work begins Returns a pointer to a member variable of class <code>MR::RebuildMeshSettings</code> named <code>onSignDetectionModeSelected</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>this callback is invoked when SignDetectionMode is determined (useful if signMode = SignDetectionModeShort::Auto), but before actual work begins Returns a pointer to a member variable of class <code>MR::RebuildMeshSettings</code> named <code>onSignDetectionModeSelected</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -722,7 +722,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if non-null then created sharp edges (only if offsetMode = OffsetMode::Sharpening) will be saved here Returns a pointer to a member variable of class <code>MR::RebuildMeshSettings</code> named <code>outSharpEdges</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if non-null then created sharp edges (only if offsetMode = OffsetMode::Sharpening) will be saved here Returns a pointer to a member variable of class <code>MR::RebuildMeshSettings</code> named <code>outSharpEdges</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -740,7 +740,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>whether to make subdivision of initial mesh before conversion to voxels, despite time and memory required for the subdivision, it typically makes the whole rebuilding faster (or even much faster in case of large initial triangles), because AABB tree contains small triangles in leaves, which is good for both 1) search for closest triangle because the closest box more frequently contains the closest triangle, 2) and winding number approximation because of more frequent usage of approximation for distant dipoles Returns a pointer to a member variable of class <code>MR::RebuildMeshSettings</code> named <code>preSubdivide</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>whether to make subdivision of initial mesh before conversion to voxels, despite time and memory required for the subdivision, it typically makes the whole rebuilding faster (or even much faster in case of large initial triangles), because AABB tree contains small triangles in leaves, which is good for both 1) search for closest triangle because the closest box more frequently contains the closest triangle, 2) and winding number approximation because of more frequent usage of approximation for distant dipoles Returns a pointer to a member variable of class <code>MR::RebuildMeshSettings</code> named <code>preSubdivide</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -758,7 +758,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>To report algorithm's progress and cancel it on user demand Returns a pointer to a member variable of class <code>MR::RebuildMeshSettings</code> named <code>progress</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>To report algorithm's progress and cancel it on user demand Returns a pointer to a member variable of class <code>MR::RebuildMeshSettings</code> named <code>progress</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -776,7 +776,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::RebuildMeshSettings</code> named <code>signMode</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::RebuildMeshSettings</code> named <code>signMode</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -794,7 +794,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>only if decimate = true: edges not longer than this value will be collapsed even if it results in appearance of a triangle with high aspect ratio Returns a pointer to a member variable of class <code>MR::RebuildMeshSettings</code> named <code>tinyEdgeLength</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>only if decimate = true: edges not longer than this value will be collapsed even if it results in appearance of a triangle with high aspect ratio Returns a pointer to a member variable of class <code>MR::RebuildMeshSettings</code> named <code>tinyEdgeLength</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -812,7 +812,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Size of voxel in grid conversions; The user is responsible for setting some positive value here Returns a pointer to a member variable of class <code>MR::RebuildMeshSettings</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Size of voxel in grid conversions; The user is responsible for setting some positive value here Returns a pointer to a member variable of class <code>MR::RebuildMeshSettings</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -830,7 +830,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if general winding number is used to differentiate inside from outside: determines the precision of fast approximation: the more the better, minimum value is 1 Returns a pointer to a member variable of class <code>MR::RebuildMeshSettings</code> named <code>windingNumberBeta</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if general winding number is used to differentiate inside from outside: determines the precision of fast approximation: the more the better, minimum value is 1 Returns a pointer to a member variable of class <code>MR::RebuildMeshSettings</code> named <code>windingNumberBeta</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -848,7 +848,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if general winding number is used to differentiate inside from outside: positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes Returns a pointer to a member variable of class <code>MR::RebuildMeshSettings</code> named <code>windingNumberThreshold</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if general winding number is used to differentiate inside from outside: positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes Returns a pointer to a member variable of class <code>MR::RebuildMeshSettings</code> named <code>windingNumberThreshold</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -866,7 +866,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>whether to construct closed mesh in signMode = SignDetectionModeShort::HoleWindingNumber Returns a mutable pointer to a member variable of class <code>MR::RebuildMeshSettings</code> named <code>closeHolesInHoleWindingNumber</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>whether to construct closed mesh in signMode = SignDetectionModeShort::HoleWindingNumber Returns a mutable pointer to a member variable of class <code>MR::RebuildMeshSettings</code> named <code>closeHolesInHoleWindingNumber</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -884,7 +884,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>whether to decimate resulting mesh Returns a mutable pointer to a member variable of class <code>MR::RebuildMeshSettings</code> named <code>decimate</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>whether to decimate resulting mesh Returns a mutable pointer to a member variable of class <code>MR::RebuildMeshSettings</code> named <code>decimate</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -902,7 +902,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>defines particular implementation of IFastWindingNumber interface that will compute windings (if required). If it is not specified, default FastWindingNumber is used Returns a mutable pointer to a member variable of class <code>MR::RebuildMeshSettings</code> named <code>fwn</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>defines particular implementation of IFastWindingNumber interface that will compute windings (if required). If it is not specified, default FastWindingNumber is used Returns a mutable pointer to a member variable of class <code>MR::RebuildMeshSettings</code> named <code>fwn</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -920,7 +920,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::RebuildMeshSettings</code> named <code>offsetMode</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::RebuildMeshSettings</code> named <code>offsetMode</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -938,7 +938,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>this callback is invoked when SignDetectionMode is determined (useful if signMode = SignDetectionModeShort::Auto), but before actual work begins Returns a mutable pointer to a member variable of class <code>MR::RebuildMeshSettings</code> named <code>onSignDetectionModeSelected</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>this callback is invoked when SignDetectionMode is determined (useful if signMode = SignDetectionModeShort::Auto), but before actual work begins Returns a mutable pointer to a member variable of class <code>MR::RebuildMeshSettings</code> named <code>onSignDetectionModeSelected</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -956,7 +956,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if non-null then created sharp edges (only if offsetMode = OffsetMode::Sharpening) will be saved here Returns a mutable pointer to a member variable of class <code>MR::RebuildMeshSettings</code> named <code>outSharpEdges</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if non-null then created sharp edges (only if offsetMode = OffsetMode::Sharpening) will be saved here Returns a mutable pointer to a member variable of class <code>MR::RebuildMeshSettings</code> named <code>outSharpEdges</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -974,7 +974,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>whether to make subdivision of initial mesh before conversion to voxels, despite time and memory required for the subdivision, it typically makes the whole rebuilding faster (or even much faster in case of large initial triangles), because AABB tree contains small triangles in leaves, which is good for both 1) search for closest triangle because the closest box more frequently contains the closest triangle, 2) and winding number approximation because of more frequent usage of approximation for distant dipoles Returns a mutable pointer to a member variable of class <code>MR::RebuildMeshSettings</code> named <code>preSubdivide</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>whether to make subdivision of initial mesh before conversion to voxels, despite time and memory required for the subdivision, it typically makes the whole rebuilding faster (or even much faster in case of large initial triangles), because AABB tree contains small triangles in leaves, which is good for both 1) search for closest triangle because the closest box more frequently contains the closest triangle, 2) and winding number approximation because of more frequent usage of approximation for distant dipoles Returns a mutable pointer to a member variable of class <code>MR::RebuildMeshSettings</code> named <code>preSubdivide</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -992,7 +992,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>To report algorithm's progress and cancel it on user demand Returns a mutable pointer to a member variable of class <code>MR::RebuildMeshSettings</code> named <code>progress</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>To report algorithm's progress and cancel it on user demand Returns a mutable pointer to a member variable of class <code>MR::RebuildMeshSettings</code> named <code>progress</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1010,7 +1010,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::RebuildMeshSettings</code> named <code>signMode</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::RebuildMeshSettings</code> named <code>signMode</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1028,7 +1028,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>only if decimate = true: edges not longer than this value will be collapsed even if it results in appearance of a triangle with high aspect ratio Returns a mutable pointer to a member variable of class <code>MR::RebuildMeshSettings</code> named <code>tinyEdgeLength</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>only if decimate = true: edges not longer than this value will be collapsed even if it results in appearance of a triangle with high aspect ratio Returns a mutable pointer to a member variable of class <code>MR::RebuildMeshSettings</code> named <code>tinyEdgeLength</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1046,7 +1046,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Size of voxel in grid conversions; The user is responsible for setting some positive value here Returns a mutable pointer to a member variable of class <code>MR::RebuildMeshSettings</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Size of voxel in grid conversions; The user is responsible for setting some positive value here Returns a mutable pointer to a member variable of class <code>MR::RebuildMeshSettings</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1064,7 +1064,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if general winding number is used to differentiate inside from outside: determines the precision of fast approximation: the more the better, minimum value is 1 Returns a mutable pointer to a member variable of class <code>MR::RebuildMeshSettings</code> named <code>windingNumberBeta</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if general winding number is used to differentiate inside from outside: determines the precision of fast approximation: the more the better, minimum value is 1 Returns a mutable pointer to a member variable of class <code>MR::RebuildMeshSettings</code> named <code>windingNumberBeta</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1082,7 +1082,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if general winding number is used to differentiate inside from outside: positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes Returns a mutable pointer to a member variable of class <code>MR::RebuildMeshSettings</code> named <code>windingNumberThreshold</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if general winding number is used to differentiate inside from outside: positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes Returns a mutable pointer to a member variable of class <code>MR::RebuildMeshSettings</code> named <code>windingNumberThreshold</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>

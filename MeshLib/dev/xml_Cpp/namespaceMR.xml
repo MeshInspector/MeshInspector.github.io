@@ -9652,7 +9652,7 @@ using HashSet = phmap::flat_hash_set&lt;T, <ref refid="namespaceMR_1a3e65b1f5601
       <member refid="group__BoxGroup_1ga38d4182b91d82686467e35af47b71fe0" kind="function"><name>findSortedBoxDims</name></member>
       <member refid="group__BoxGroup_1ga053696cba1348e4b44c49f0751433c8e" kind="function"><name>get</name></member>
       <member refid="group__BoxGroup_1ga76c5563a8f378f26e9e7cd06542fc0bf" kind="function"><name>get</name></member>
-      <memberdef kind="function" id="namespaceMR_1a43427e0d96ff10e6af29370a3b0d7c17" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="namespaceMR_1a6925a647a7b6367122e6ae1212993a2b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename T</type>
@@ -9663,12 +9663,12 @@ using HashSet = phmap::flat_hash_set&lt;T, <ref refid="namespaceMR_1a3e65b1f5601
         </templateparamlist>
         <type>T</type>
         <definition>T MR::getAt</definition>
-        <argsstring>(const Buffer&lt; T, I &gt; &amp;bmap, I key, T def={})</argsstring>
+        <argsstring>(const Buffer&lt; T, I &gt; &amp;bmap MR_LIFETIMEBOUND_NESTED, I key, T def={})</argsstring>
         <name>getAt</name>
         <qualifiedname>MR::getAt</qualifiedname>
         <param>
-          <type>const <ref refid="classMR_1_1Buffer" kindref="compound">Buffer</ref>&lt; T, <ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref> &gt; &amp;</type>
-          <declname>bmap</declname>
+          <type>const <ref refid="classMR_1_1Buffer" kindref="compound">Buffer</ref>&lt; T, <ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref> &gt; &amp;bmap</type>
+          <declname>MR_LIFETIMEBOUND_NESTED</declname>
         </param>
         <param>
           <type><ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref></type>
@@ -9686,7 +9686,7 @@ using HashSet = phmap::flat_hash_set&lt;T, <ref refid="namespaceMR_1a3e65b1f5601
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" line="119" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" bodystart="119" bodyend="122"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" line="120" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" bodystart="120" bodyend="123"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1a3bd81207bb5dccdfe9533eae31414e16" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -9712,7 +9712,7 @@ using HashSet = phmap::flat_hash_set&lt;T, <ref refid="namespaceMR_1a3e65b1f5601
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" line="125" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" bodystart="125" bodyend="126"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" line="126" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" bodystart="126" bodyend="127"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1aff3156c83a0cd4f80c755c47b577c1c9" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -9738,7 +9738,7 @@ using HashSet = phmap::flat_hash_set&lt;T, <ref refid="namespaceMR_1a3e65b1f5601
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" line="129" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" bodystart="129" bodyend="130"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" line="130" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" bodystart="130" bodyend="131"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1a484bb1d73bd93c876842593fe3441211" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -9764,7 +9764,7 @@ using HashSet = phmap::flat_hash_set&lt;T, <ref refid="namespaceMR_1a3e65b1f5601
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" line="133" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" bodystart="133" bodyend="134"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" line="134" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" bodystart="134" bodyend="135"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1a78839ede3780b97bcce02af755e7e577" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -9790,7 +9790,7 @@ using HashSet = phmap::flat_hash_set&lt;T, <ref refid="namespaceMR_1a3e65b1f5601
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" line="137" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" bodystart="137" bodyend="138"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" line="138" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" bodystart="138" bodyend="139"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1ab5fd6e1a390fa8c05a8ad7006709dbf2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -9819,7 +9819,7 @@ using HashSet = phmap::flat_hash_set&lt;T, <ref refid="namespaceMR_1a3e65b1f5601
         <inbodydescription>
 <para>invalid bx (=-1) will be casted to size_t(-1)</para>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" line="159" column="6" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" bodystart="159" bodyend="171"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" line="160" column="6" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" bodystart="160" bodyend="172"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1af512834da94a52f6e752e99c3b362215" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="namespaceMR_1ac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref> std::optional&lt; std::tm &gt;</type>
@@ -16056,7 +16056,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" line="114" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" bodystart="114" bodyend="120"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" line="115" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" bodystart="115" bodyend="121"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1aec45b6c8bbf6fced181772da31bc24ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -16090,7 +16090,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" line="123" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" bodystart="123" bodyend="129"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" line="124" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" bodystart="124" bodyend="130"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1a2d9d6989ed816203134c01906e95e865" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -30150,7 +30150,7 @@ If the triangles are disjoint, p and q give the closest points of s and t respec
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="166" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="166" bodyend="167"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="167" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="167" bodyend="168"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1a093b76c6840e13694b05f1909b43a2fc" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -30176,7 +30176,7 @@ If the triangles are disjoint, p and q give the closest points of s and t respec
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="170" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="170" bodyend="171"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="171" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="171" bodyend="172"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1a352a74dc36ff65d5e9f0a441c478e5f2" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -30202,7 +30202,7 @@ If the triangles are disjoint, p and q give the closest points of s and t respec
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="174" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="174" bodyend="175"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="175" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="175" bodyend="176"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1aed083bc895027bcf1a1fe77d22deebeb" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -30228,7 +30228,7 @@ If the triangles are disjoint, p and q give the closest points of s and t respec
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="178" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="178" bodyend="179"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="179" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="179" bodyend="180"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1a6e1f5a59f99a789757cac0330d67bf79" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -30261,7 +30261,7 @@ If the triangles are disjoint, p and q give the closest points of s and t respec
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="183" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="183" bodyend="186"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="184" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="184" bodyend="187"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1acc5ecd2826659aa256d0bb1b168cc3bc" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -30297,7 +30297,7 @@ If the triangles are disjoint, p and q give the closest points of s and t respec
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="190" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="190" bodyend="193"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" line="191" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVector.h" bodystart="191" bodyend="194"/>
       </memberdef>
       <member refid="group__ViewportGroup_1gaab3f3280e9df3ad6b0ae88ee01f28286" kind="function"><name>operator&amp;</name></member>
       <member refid="group__ViewportGroup_1gabc80e75ed1756980334b13665ea42344" kind="function"><name>operator|</name></member>

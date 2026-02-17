@@ -519,13 +519,11 @@ $(function(){initNavTree('ExampleGlobalRegistration.html',''); initResizable(tru
 <div class="line">        <span class="keywordflow">try</span></div>
 <div class="line">        {</div>
 <div class="line">            <span class="keywordtype">int</span> inputNum = args.Length - 2;</div>
-<div class="line">            List&lt;MR.PointCloud&gt; input_pointclouds = <span class="keyword">new</span>();</div>
 <div class="line">            MR.Vector_MRMeshOrPointsXf_MRObjId inputs = <span class="keyword">new</span>();</div>
 <div class="line">            MR.Box3f maxBBox = <span class="keyword">new</span>();</div>
 <div class="line">            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; inputNum; ++i)</div>
 <div class="line">            {</div>
 <div class="line">                var pc = MR.PointsLoad.fromAnySupportedFormat(args[i + 1]);</div>
-<div class="line">                input_pointclouds.Add(pc); <span class="comment">// Need this to prevent the point-cloud object from dying too early.</span></div>
 <div class="line">                MR.MeshOrPointsXf obj = <span class="keyword">new</span> MR.MeshOrPointsXf(pc, <span class="keyword">new</span> MR.AffineXf3f());</div>
 <div class="line">                inputs.pushBack(obj);</div>
 <div class="line">                maxBBox.include(obj.obj.computeBoundingBox());</div>

@@ -871,7 +871,7 @@
 <parametername>joinOverflowBasins</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>if true then overflowing basins will be merged in the target basins (except for overflow in outside) Generated from method <computeroutput>MR::WatershedGraph::iniBasin2Tgt</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>joinOverflowBasins</computeroutput> has a default argument: <computeroutput>false</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVector_8h_1ab51078a7763389f2059468ab7642f3da" kindref="member">MR_Vector_MR_GraphVertId_MR_GraphVertId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. in the whole basin Returns a pointer to a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>lowestVert</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>if true then overflowing basins will be merged in the target basins (except for overflow in outside) Generated from method <computeroutput>MR::WatershedGraph::iniBasin2Tgt</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>joinOverflowBasins</computeroutput> has a default argument: <computeroutput>false</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVector_8h_1ab51078a7763389f2059468ab7642f3da" kindref="member">MR_Vector_MR_GraphVertId_MR_GraphVertId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. in the whole basin Returns a pointer to a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>lowestVert</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -897,7 +897,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="213" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="213" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="214" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="214" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1ac0cf70e217e01b60c012fbed400b6610" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -915,11 +915,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>in the whole basin Returns a mutable pointer to a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>lowestVert</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>in the whole basin Returns a mutable pointer to a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>lowestVert</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="220" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="220" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="221" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="221" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1a6d22064888087a622b4b13d7c4b339cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref> *</type>
@@ -933,11 +933,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>lowest level (z-coordinate of lowestVert) in the basin Returns a pointer to a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>lowestLevel</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>lowest level (z-coordinate of lowestVert) in the basin Returns a pointer to a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>lowestLevel</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="226" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="226" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="228" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="228" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1a3be858ac79f9eb0a8e37b91e1e8e8485" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const float *</type>
@@ -955,7 +955,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="232" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="232" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="235" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="235" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1a2dea2cba460e9d970b734cf4e94e9b9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -973,11 +973,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>lowest level (z-coordinate of lowestVert) in the basin Returns a mutable pointer to a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>lowestLevel</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>lowest level (z-coordinate of lowestVert) in the basin Returns a mutable pointer to a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>lowestLevel</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="238" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="238" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="241" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="241" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1a344aaa7f636f96dd28297a721b0d33ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float *</type>
@@ -991,11 +991,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>precipitation area that flows in this basin (and if it is full, continue flowing next) Returns a pointer to a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>area</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>precipitation area that flows in this basin (and if it is full, continue flowing next) Returns a pointer to a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>area</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="244" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="244" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="248" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="248" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1a5d034866721bfd6e4edeaf8558bde90b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const float *</type>
@@ -1013,7 +1013,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="250" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="250" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="255" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="255" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1a45f4819931bdb4c61a0c0d173c139d0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1031,11 +1031,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>precipitation area that flows in this basin (and if it is full, continue flowing next) Returns a mutable pointer to a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>area</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>precipitation area that flows in this basin (and if it is full, continue flowing next) Returns a mutable pointer to a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>area</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="256" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="256" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="261" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="261" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1a00e9829bf37787b5a8386fc4c97618d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float *</type>
@@ -1049,11 +1049,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>lowest position on the boundary of the basin Returns a pointer to a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>lowestBdLevel</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>lowest position on the boundary of the basin Returns a pointer to a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>lowestBdLevel</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="262" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="262" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="268" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="268" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1ac4ec5be76b792331cf4586ad26df0ab7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const float *</type>
@@ -1071,7 +1071,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="268" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="268" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="275" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="275" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1af78a0f99dd7f8c55ee1cb8b066c0ea94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1089,11 +1089,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>lowest position on the boundary of the basin Returns a mutable pointer to a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>lowestBdLevel</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>lowest position on the boundary of the basin Returns a mutable pointer to a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>lowestBdLevel</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="274" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="274" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="281" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="281" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1a62ef646dea98f8ef80dce6d1dd4e87ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float *</type>
@@ -1107,11 +1107,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>full water volume to be accumulated in the basin till water reaches the lowest height on the boundary Returns a pointer to a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>maxVolume</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>full water volume to be accumulated in the basin till water reaches the lowest height on the boundary Returns a pointer to a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>maxVolume</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="280" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="280" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="288" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="288" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1a5a26ae81b404f3c6d2c95b4b6ac4ac44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const float *</type>
@@ -1129,7 +1129,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="286" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="286" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="295" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="295" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1a420f5b74c8da3fe635263b83ef1d4ea0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1147,11 +1147,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>full water volume to be accumulated in the basin till water reaches the lowest height on the boundary Returns a mutable pointer to a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>maxVolume</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>full water volume to be accumulated in the basin till water reaches the lowest height on the boundary Returns a mutable pointer to a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>maxVolume</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="292" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="292" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="301" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="301" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1a66f3ebaee9b2c0516a99d33c2bb1cb2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float *</type>
@@ -1165,11 +1165,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>accumulated water volume in the basin so far Returns a pointer to a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>accVolume</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>accumulated water volume in the basin so far Returns a pointer to a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>accVolume</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="298" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="298" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="308" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="308" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1afe347893c264ea3f4bc043c7c9000c6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const float *</type>
@@ -1187,7 +1187,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="304" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="304" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="315" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="315" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1a2545a3fa6d6d57914a957fa068390b09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1205,11 +1205,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>accumulated water volume in the basin so far Returns a mutable pointer to a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>accVolume</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>accumulated water volume in the basin so far Returns a mutable pointer to a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>accVolume</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="310" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="310" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="321" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="321" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1affc84369ba6b0e56bac3ec933a99a19a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float *</type>
@@ -1223,11 +1223,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the amount when accVolume was last updated Returns a pointer to a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>lastUpdateAmount</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>the amount when accVolume was last updated Returns a pointer to a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>lastUpdateAmount</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="316" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="316" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="328" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="328" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1a751cae5905a3cb0b6313de237d0f8d6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const float *</type>
@@ -1245,7 +1245,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="322" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="322" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="335" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="335" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1aa65c450f91963cbe59b25af89df3796f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1263,11 +1263,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the amount when accVolume was last updated Returns a mutable pointer to a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>lastUpdateAmount</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>the amount when accVolume was last updated Returns a mutable pointer to a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>lastUpdateAmount</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="328" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="328" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="341" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="341" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1a8b596d28e0cfbe5ce93471ee0f462d62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float *</type>
@@ -1281,11 +1281,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>water level in the basin when it was formed (by merge or creation) Returns a pointer to a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>lastMergeLevel</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>water level in the basin when it was formed (by merge or creation) Returns a pointer to a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>lastMergeLevel</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="334" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="334" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="348" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="348" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1a742cfdb628cdddef0e44ddcc04e9e2d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const float *</type>
@@ -1303,7 +1303,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="340" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="340" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="355" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="355" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1ac9bb5aa16f8b39076ee3b11b545149ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1321,11 +1321,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>water level in the basin when it was formed (by merge or creation) Returns a mutable pointer to a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>lastMergeLevel</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>water level in the basin when it was formed (by merge or creation) Returns a mutable pointer to a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>lastMergeLevel</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="346" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="346" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="361" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="361" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1a0da2101dedf3755d227a04fe7a14d377" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float *</type>
@@ -1339,11 +1339,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>water volume in the basin when it was formed (by merge or creation) Returns a pointer to a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>lastMergeVolume</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>water volume in the basin when it was formed (by merge or creation) Returns a pointer to a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>lastMergeVolume</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="352" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="352" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="368" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="368" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1a06e385f3fa8dd217de23462e5a8cdf0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const float *</type>
@@ -1361,7 +1361,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="358" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="358" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="375" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="375" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1a0d5f2960328f8b3453b7fbe94660974a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1379,11 +1379,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>water volume in the basin when it was formed (by merge or creation) Returns a mutable pointer to a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>lastMergeVolume</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>water volume in the basin when it was formed (by merge or creation) Returns a mutable pointer to a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>lastMergeVolume</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="364" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="364" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="381" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="381" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1aae2ec96302c65cd8caa1411597a48be4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float *</type>
@@ -1397,11 +1397,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>when level=lowestBdLevel, volume=0, all water from this basin overflows via this boundary Returns a pointer to a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>overflowVia</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>when level=lowestBdLevel, volume=0, all water from this basin overflows via this boundary Returns a pointer to a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>overflowVia</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="370" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="370" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="388" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="388" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1a953c9e5fc1b94acc5e400b1e3abb7849" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="structMR__GraphEdgeId" kindref="compound">MR_GraphEdgeId</ref> *</type>
@@ -1419,7 +1419,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="376" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="376" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="395" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="395" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1a2a98bb58a40e695354f76ef0dc6a7351" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1437,11 +1437,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>when level=lowestBdLevel, volume=0, all water from this basin overflows via this boundary Returns a mutable pointer to a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>overflowVia</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>when level=lowestBdLevel, volume=0, all water from this basin overflows via this boundary Returns a mutable pointer to a member variable of class <computeroutput>MR::WatershedGraph::BasinInfo</computeroutput> named <computeroutput>overflowVia</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="383" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="383" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="402" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="402" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1a8b7f3a6a327340a1bb84cda2f42b7d8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__GraphEdgeId" kindref="compound">MR_GraphEdgeId</ref> *</type>
@@ -1458,7 +1458,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="389" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="389" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="409" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="409" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1acb72af40886862a47cd372f1e7442bc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref> *</type>
@@ -1475,7 +1475,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="393" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="393" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="413" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="413" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1af3a851f767c9f5a8792e17842cbe3257" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref> *</type>
@@ -1493,7 +1493,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="398" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="398" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="418" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="418" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1a844bc7144979f98975bb352597efd175" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref> *</type>
@@ -1515,7 +1515,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="402" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="402" declcolumn="43"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="422" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="422" declcolumn="43"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1aa8b9c3524ce1215ea7265c925400969d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref> *</type>
@@ -1537,7 +1537,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="406" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="406" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="426" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="426" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1a273afdf2f73f7fa53be69e84962eeb36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref> *</type>
@@ -1555,7 +1555,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="412" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="412" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="432" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="432" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1a40585d4a2f462dcf1c860c9113a205b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1573,7 +1573,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="415" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="415" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="435" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="435" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1af5457fe21ad841bafa62461c2386bd32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1591,7 +1591,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="418" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="418" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="438" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="438" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1a68cbdf484299c81fafd06afd53bbbeb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref> *</type>
@@ -1613,7 +1613,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="426" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="426" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="446" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="446" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1ade620a14c8323754d633270add957ed8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float</type>
@@ -1631,7 +1631,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="432" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="432" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="452" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="452" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1a6cf24b9ec9da941c87b352040cf601b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float</type>
@@ -1649,7 +1649,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="437" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="437" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="457" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="457" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1a5c9549e2835f7f05052d2f1c94d44ead" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1667,11 +1667,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>updates accumulated volume in the basin to the moment of given precipitation amount Generated from method <computeroutput>MR::WatershedGraph::BasinInfo::updateAccVolume</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. on this boundary Returns a pointer to a member variable of class <computeroutput>MR::WatershedGraph::BdInfo</computeroutput> named <computeroutput>lowestVert</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>updates accumulated volume in the basin to the moment of given precipitation amount Generated from method <computeroutput>MR::WatershedGraph::BasinInfo::updateAccVolume</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. on this boundary Returns a pointer to a member variable of class <computeroutput>MR::WatershedGraph::BdInfo</computeroutput> named <computeroutput>lowestVert</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="442" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="442" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="462" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="462" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1a6808967f43c05c0baa8d95ad1eb8be38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref> *</type>
@@ -1689,7 +1689,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="448" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="448" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="469" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="469" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1a614a14eaa064390e3506883913c59168" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1707,11 +1707,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>on this boundary Returns a mutable pointer to a member variable of class <computeroutput>MR::WatershedGraph::BdInfo</computeroutput> named <computeroutput>lowestVert</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>on this boundary Returns a mutable pointer to a member variable of class <computeroutput>MR::WatershedGraph::BdInfo</computeroutput> named <computeroutput>lowestVert</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="455" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="455" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="476" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="476" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1aa6a0fd94e8b850261e93fae00f1cbf82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref> *</type>
@@ -1728,7 +1728,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="461" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="461" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="483" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="483" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1a1cdfbb796d474904f2dcbd0dc337ea67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRVector_8h_1a569667c95a4e9d4d3a69fbf443462ec5" kindref="member">MR_WatershedGraph_BdInfo</ref> *</type>
@@ -1745,7 +1745,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="465" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="465" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="487" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="487" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1aca1030f6a78c5f89860451831b52d96d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRVector_8h_1a569667c95a4e9d4d3a69fbf443462ec5" kindref="member">MR_WatershedGraph_BdInfo</ref> *</type>
@@ -1763,7 +1763,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="470" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="470" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="492" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="492" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1a2c1b923b823fe7de34566e51c4b4daae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRVector_8h_1a569667c95a4e9d4d3a69fbf443462ec5" kindref="member">MR_WatershedGraph_BdInfo</ref> *</type>
@@ -1781,7 +1781,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="476" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="476" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="498" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="498" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1a8eacfde352b78e45740c9f667bce8835" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRVector_8h_1a569667c95a4e9d4d3a69fbf443462ec5" kindref="member">MR_WatershedGraph_BdInfo</ref> *</type>
@@ -1803,7 +1803,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="480" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="480" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="502" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="502" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1a56878cfd45d6ae1582d91aae822380a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRVector_8h_1a569667c95a4e9d4d3a69fbf443462ec5" kindref="member">MR_WatershedGraph_BdInfo</ref> *</type>
@@ -1825,7 +1825,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="484" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="484" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="506" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="506" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1aae052ee1676569dd26c99de6838f2a2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRVector_8h_1a569667c95a4e9d4d3a69fbf443462ec5" kindref="member">MR_WatershedGraph_BdInfo</ref> *</type>
@@ -1843,7 +1843,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="490" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="490" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="512" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="512" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1a1bb1c420b1b264ebd76fad443e3c909b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1861,7 +1861,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="493" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="493" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="515" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="515" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1ab94e675c0893849bd6dec3ece0f8d362" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1879,7 +1879,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="496" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="496" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="518" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="518" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1ad35ccc3502f261e422a4b15302e1068e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRVector_8h_1a569667c95a4e9d4d3a69fbf443462ec5" kindref="member">MR_WatershedGraph_BdInfo</ref> *</type>
@@ -1901,7 +1901,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="504" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="504" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="526" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="526" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1aa416bfe284d51b58759e5d6cd8df4def" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref> *</type>
@@ -1915,11 +1915,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::WatershedGraph::OverflowPoint</computeroutput> named <computeroutput>v</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::WatershedGraph::OverflowPoint</computeroutput> named <computeroutput>v</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="510" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="510" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="533" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="533" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1ab732fbc341c0c04cb7222399be078399" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1941,7 +1941,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="517" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="517" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="540" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="540" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1ac4cea57c6ee77bf9a135e43b97c6da3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref> *</type>
@@ -1955,11 +1955,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::WatershedGraph::OverflowPoint</computeroutput> named <computeroutput>v</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::WatershedGraph::OverflowPoint</computeroutput> named <computeroutput>v</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="523" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="523" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="547" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="547" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1a6699cce68c37bcc2400f1422f01eb19a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref> *</type>
@@ -1973,11 +1973,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::WatershedGraph::OverflowPoint</computeroutput> named <computeroutput>fullBasin</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::WatershedGraph::OverflowPoint</computeroutput> named <computeroutput>fullBasin</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="528" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="528" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="553" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="553" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1a1600345d66ba00cd46dfbe35f444ea2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1999,7 +1999,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="534" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="534" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="559" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="559" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1abbe908d4fafacc136d6f7a453904ce2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref> *</type>
@@ -2013,11 +2013,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::WatershedGraph::OverflowPoint</computeroutput> named <computeroutput>fullBasin</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::WatershedGraph::OverflowPoint</computeroutput> named <computeroutput>fullBasin</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="539" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="539" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="565" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="565" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1a1ac4e2751b4bb2d9871494cf8814f16d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref> *</type>
@@ -2031,11 +2031,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::WatershedGraph::OverflowPoint</computeroutput> named <computeroutput>overflowTo</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::WatershedGraph::OverflowPoint</computeroutput> named <computeroutput>overflowTo</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="545" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="545" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="572" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="572" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1aa2d783c0c132037d39b75ded7cf008d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -2057,7 +2057,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="552" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="552" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="579" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="579" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1a7297fce92db76856e1acb9007ec3022e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref> *</type>
@@ -2071,11 +2071,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::WatershedGraph::OverflowPoint</computeroutput> named <computeroutput>overflowTo</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::WatershedGraph::OverflowPoint</computeroutput> named <computeroutput>overflowTo</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="558" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="558" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="586" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="586" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1a5d635e58399e1e572587ed08bf1bf43a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref> *</type>
@@ -2092,7 +2092,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="562" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="562" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="590" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="590" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1ad254696cf670c7d82fd9c8370a6960f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref> *</type>
@@ -2110,7 +2110,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="567" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="567" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="595" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="595" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1abb8e6dfefa91f29a37dc8f042778b95f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref> *</type>
@@ -2136,7 +2136,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="575" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="575" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="603" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="603" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1a3337fa7c793e0d21d043c3a3ea642954" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref> *</type>
@@ -2158,7 +2158,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="579" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="579" declcolumn="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="607" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="607" declcolumn="47"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1a0735f2f86ea9bea1ae3ebfaf895fa412" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref> *</type>
@@ -2180,7 +2180,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="583" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="583" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="611" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="611" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1a079ab5e20553b533e3557e267f8f2b1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref> *</type>
@@ -2198,7 +2198,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="589" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="589" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="617" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="617" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1af4fa5e970d18e28aeafe2cc243158619" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -2216,7 +2216,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="592" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="592" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="620" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="620" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1ab590e1dc310202a3c7930b90800d41a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -2234,7 +2234,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="595" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="595" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="623" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="623" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRWatershedGraph_8h_1ad30cafe00c68b4e817fe5e1190f41529" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref> *</type>
@@ -2256,7 +2256,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="603" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="603" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" line="631" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h" declline="631" declcolumn="41"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -2354,157 +2354,157 @@
 <codeline lineno="200"><highlight class="normal"></highlight></codeline>
 <codeline lineno="207" refid="MRWatershedGraph_8h_1a18255ea3254a8e145da79db1276c983e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBitSet_8h_1aadf36a7d4ab7b262835d20da5403b847" kindref="member">MR_Vector_MR_GraphVertId_MR_GraphVertId</ref><sp/>*<ref refid="MRWatershedGraph_8h_1a18255ea3254a8e145da79db1276c983e" kindref="member">MR_WatershedGraph_iniBasin2Tgt</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPrecipitationSimulator_8h_1a0691b4cabfa34960d5cd00f39ec4c7a9" kindref="member">MR_WatershedGraph</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*joinOverflowBasins);</highlight></codeline>
 <codeline lineno="208"><highlight class="normal"></highlight></codeline>
-<codeline lineno="213" refid="MRWatershedGraph_8h_1a3ee57ae73e0db353b743b8098444c793" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRWatershedGraph_8h_1a3ee57ae73e0db353b743b8098444c793" kindref="member">MR_WatershedGraph_BasinInfo_Get_lowestVert</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="214"><highlight class="normal"></highlight></codeline>
-<codeline lineno="220" refid="MRWatershedGraph_8h_1ac0cf70e217e01b60c012fbed400b6610" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1ac0cf70e217e01b60c012fbed400b6610" kindref="member">MR_WatershedGraph_BasinInfo_Set_lowestVert</ref>(<ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>value);</highlight></codeline>
-<codeline lineno="221"><highlight class="normal"></highlight></codeline>
-<codeline lineno="226" refid="MRWatershedGraph_8h_1a6d22064888087a622b4b13d7c4b339cf" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRWatershedGraph_8h_1a6d22064888087a622b4b13d7c4b339cf" kindref="member">MR_WatershedGraph_BasinInfo_GetMutable_lowestVert</ref>(<ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="227"><highlight class="normal"></highlight></codeline>
-<codeline lineno="232" refid="MRWatershedGraph_8h_1a3be858ac79f9eb0a8e37b91e1e8e8485" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRWatershedGraph_8h_1a3be858ac79f9eb0a8e37b91e1e8e8485" kindref="member">MR_WatershedGraph_BasinInfo_Get_lowestLevel</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="233"><highlight class="normal"></highlight></codeline>
-<codeline lineno="238" refid="MRWatershedGraph_8h_1a2dea2cba460e9d970b734cf4e94e9b9b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1a2dea2cba460e9d970b734cf4e94e9b9b" kindref="member">MR_WatershedGraph_BasinInfo_Set_lowestLevel</ref>(<ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="239"><highlight class="normal"></highlight></codeline>
-<codeline lineno="244" refid="MRWatershedGraph_8h_1a344aaa7f636f96dd28297a721b0d33ec" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRWatershedGraph_8h_1a344aaa7f636f96dd28297a721b0d33ec" kindref="member">MR_WatershedGraph_BasinInfo_GetMutable_lowestLevel</ref>(<ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="245"><highlight class="normal"></highlight></codeline>
-<codeline lineno="250" refid="MRWatershedGraph_8h_1a5d034866721bfd6e4edeaf8558bde90b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRWatershedGraph_8h_1a5d034866721bfd6e4edeaf8558bde90b" kindref="member">MR_WatershedGraph_BasinInfo_Get_area</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="251"><highlight class="normal"></highlight></codeline>
-<codeline lineno="256" refid="MRWatershedGraph_8h_1a45f4819931bdb4c61a0c0d173c139d0a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1a45f4819931bdb4c61a0c0d173c139d0a" kindref="member">MR_WatershedGraph_BasinInfo_Set_area</ref>(<ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="257"><highlight class="normal"></highlight></codeline>
-<codeline lineno="262" refid="MRWatershedGraph_8h_1a00e9829bf37787b5a8386fc4c97618d0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRWatershedGraph_8h_1a00e9829bf37787b5a8386fc4c97618d0" kindref="member">MR_WatershedGraph_BasinInfo_GetMutable_area</ref>(<ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="263"><highlight class="normal"></highlight></codeline>
-<codeline lineno="268" refid="MRWatershedGraph_8h_1ac4ec5be76b792331cf4586ad26df0ab7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRWatershedGraph_8h_1ac4ec5be76b792331cf4586ad26df0ab7" kindref="member">MR_WatershedGraph_BasinInfo_Get_lowestBdLevel</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="214" refid="MRWatershedGraph_8h_1a3ee57ae73e0db353b743b8098444c793" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRWatershedGraph_8h_1a3ee57ae73e0db353b743b8098444c793" kindref="member">MR_WatershedGraph_BasinInfo_Get_lowestVert</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221" refid="MRWatershedGraph_8h_1ac0cf70e217e01b60c012fbed400b6610" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1ac0cf70e217e01b60c012fbed400b6610" kindref="member">MR_WatershedGraph_BasinInfo_Set_lowestVert</ref>(<ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>value);</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="228" refid="MRWatershedGraph_8h_1a6d22064888087a622b4b13d7c4b339cf" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRWatershedGraph_8h_1a6d22064888087a622b4b13d7c4b339cf" kindref="member">MR_WatershedGraph_BasinInfo_GetMutable_lowestVert</ref>(<ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight></codeline>
+<codeline lineno="235" refid="MRWatershedGraph_8h_1a3be858ac79f9eb0a8e37b91e1e8e8485" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRWatershedGraph_8h_1a3be858ac79f9eb0a8e37b91e1e8e8485" kindref="member">MR_WatershedGraph_BasinInfo_Get_lowestLevel</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241" refid="MRWatershedGraph_8h_1a2dea2cba460e9d970b734cf4e94e9b9b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1a2dea2cba460e9d970b734cf4e94e9b9b" kindref="member">MR_WatershedGraph_BasinInfo_Set_lowestLevel</ref>(<ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248" refid="MRWatershedGraph_8h_1a344aaa7f636f96dd28297a721b0d33ec" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRWatershedGraph_8h_1a344aaa7f636f96dd28297a721b0d33ec" kindref="member">MR_WatershedGraph_BasinInfo_GetMutable_lowestLevel</ref>(<ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight></codeline>
+<codeline lineno="255" refid="MRWatershedGraph_8h_1a5d034866721bfd6e4edeaf8558bde90b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRWatershedGraph_8h_1a5d034866721bfd6e4edeaf8558bde90b" kindref="member">MR_WatershedGraph_BasinInfo_Get_area</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"></highlight></codeline>
+<codeline lineno="261" refid="MRWatershedGraph_8h_1a45f4819931bdb4c61a0c0d173c139d0a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1a45f4819931bdb4c61a0c0d173c139d0a" kindref="member">MR_WatershedGraph_BasinInfo_Set_area</ref>(<ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"></highlight></codeline>
+<codeline lineno="268" refid="MRWatershedGraph_8h_1a00e9829bf37787b5a8386fc4c97618d0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRWatershedGraph_8h_1a00e9829bf37787b5a8386fc4c97618d0" kindref="member">MR_WatershedGraph_BasinInfo_GetMutable_area</ref>(<ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="269"><highlight class="normal"></highlight></codeline>
-<codeline lineno="274" refid="MRWatershedGraph_8h_1af78a0f99dd7f8c55ee1cb8b066c0ea94" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1af78a0f99dd7f8c55ee1cb8b066c0ea94" kindref="member">MR_WatershedGraph_BasinInfo_Set_lowestBdLevel</ref>(<ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="275"><highlight class="normal"></highlight></codeline>
-<codeline lineno="280" refid="MRWatershedGraph_8h_1a62ef646dea98f8ef80dce6d1dd4e87ad" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRWatershedGraph_8h_1a62ef646dea98f8ef80dce6d1dd4e87ad" kindref="member">MR_WatershedGraph_BasinInfo_GetMutable_lowestBdLevel</ref>(<ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="281"><highlight class="normal"></highlight></codeline>
-<codeline lineno="286" refid="MRWatershedGraph_8h_1a5a26ae81b404f3c6d2c95b4b6ac4ac44" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRWatershedGraph_8h_1a5a26ae81b404f3c6d2c95b4b6ac4ac44" kindref="member">MR_WatershedGraph_BasinInfo_Get_maxVolume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="287"><highlight class="normal"></highlight></codeline>
-<codeline lineno="292" refid="MRWatershedGraph_8h_1a420f5b74c8da3fe635263b83ef1d4ea0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1a420f5b74c8da3fe635263b83ef1d4ea0" kindref="member">MR_WatershedGraph_BasinInfo_Set_maxVolume</ref>(<ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="293"><highlight class="normal"></highlight></codeline>
-<codeline lineno="298" refid="MRWatershedGraph_8h_1a66f3ebaee9b2c0516a99d33c2bb1cb2b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRWatershedGraph_8h_1a66f3ebaee9b2c0516a99d33c2bb1cb2b" kindref="member">MR_WatershedGraph_BasinInfo_GetMutable_maxVolume</ref>(<ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="299"><highlight class="normal"></highlight></codeline>
-<codeline lineno="304" refid="MRWatershedGraph_8h_1afe347893c264ea3f4bc043c7c9000c6a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRWatershedGraph_8h_1afe347893c264ea3f4bc043c7c9000c6a" kindref="member">MR_WatershedGraph_BasinInfo_Get_accVolume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="305"><highlight class="normal"></highlight></codeline>
-<codeline lineno="310" refid="MRWatershedGraph_8h_1a2545a3fa6d6d57914a957fa068390b09" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1a2545a3fa6d6d57914a957fa068390b09" kindref="member">MR_WatershedGraph_BasinInfo_Set_accVolume</ref>(<ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="311"><highlight class="normal"></highlight></codeline>
-<codeline lineno="316" refid="MRWatershedGraph_8h_1affc84369ba6b0e56bac3ec933a99a19a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRWatershedGraph_8h_1affc84369ba6b0e56bac3ec933a99a19a" kindref="member">MR_WatershedGraph_BasinInfo_GetMutable_accVolume</ref>(<ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="317"><highlight class="normal"></highlight></codeline>
-<codeline lineno="322" refid="MRWatershedGraph_8h_1a751cae5905a3cb0b6313de237d0f8d6c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRWatershedGraph_8h_1a751cae5905a3cb0b6313de237d0f8d6c" kindref="member">MR_WatershedGraph_BasinInfo_Get_lastUpdateAmount</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="323"><highlight class="normal"></highlight></codeline>
-<codeline lineno="328" refid="MRWatershedGraph_8h_1aa65c450f91963cbe59b25af89df3796f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1aa65c450f91963cbe59b25af89df3796f" kindref="member">MR_WatershedGraph_BasinInfo_Set_lastUpdateAmount</ref>(<ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="275" refid="MRWatershedGraph_8h_1ac4ec5be76b792331cf4586ad26df0ab7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRWatershedGraph_8h_1ac4ec5be76b792331cf4586ad26df0ab7" kindref="member">MR_WatershedGraph_BasinInfo_Get_lowestBdLevel</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"></highlight></codeline>
+<codeline lineno="281" refid="MRWatershedGraph_8h_1af78a0f99dd7f8c55ee1cb8b066c0ea94" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1af78a0f99dd7f8c55ee1cb8b066c0ea94" kindref="member">MR_WatershedGraph_BasinInfo_Set_lowestBdLevel</ref>(<ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"></highlight></codeline>
+<codeline lineno="288" refid="MRWatershedGraph_8h_1a62ef646dea98f8ef80dce6d1dd4e87ad" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRWatershedGraph_8h_1a62ef646dea98f8ef80dce6d1dd4e87ad" kindref="member">MR_WatershedGraph_BasinInfo_GetMutable_lowestBdLevel</ref>(<ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"></highlight></codeline>
+<codeline lineno="295" refid="MRWatershedGraph_8h_1a5a26ae81b404f3c6d2c95b4b6ac4ac44" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRWatershedGraph_8h_1a5a26ae81b404f3c6d2c95b4b6ac4ac44" kindref="member">MR_WatershedGraph_BasinInfo_Get_maxVolume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"></highlight></codeline>
+<codeline lineno="301" refid="MRWatershedGraph_8h_1a420f5b74c8da3fe635263b83ef1d4ea0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1a420f5b74c8da3fe635263b83ef1d4ea0" kindref="member">MR_WatershedGraph_BasinInfo_Set_maxVolume</ref>(<ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"></highlight></codeline>
+<codeline lineno="308" refid="MRWatershedGraph_8h_1a66f3ebaee9b2c0516a99d33c2bb1cb2b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRWatershedGraph_8h_1a66f3ebaee9b2c0516a99d33c2bb1cb2b" kindref="member">MR_WatershedGraph_BasinInfo_GetMutable_maxVolume</ref>(<ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"></highlight></codeline>
+<codeline lineno="315" refid="MRWatershedGraph_8h_1afe347893c264ea3f4bc043c7c9000c6a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRWatershedGraph_8h_1afe347893c264ea3f4bc043c7c9000c6a" kindref="member">MR_WatershedGraph_BasinInfo_Get_accVolume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="316"><highlight class="normal"></highlight></codeline>
+<codeline lineno="321" refid="MRWatershedGraph_8h_1a2545a3fa6d6d57914a957fa068390b09" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1a2545a3fa6d6d57914a957fa068390b09" kindref="member">MR_WatershedGraph_BasinInfo_Set_accVolume</ref>(<ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"></highlight></codeline>
+<codeline lineno="328" refid="MRWatershedGraph_8h_1affc84369ba6b0e56bac3ec933a99a19a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRWatershedGraph_8h_1affc84369ba6b0e56bac3ec933a99a19a" kindref="member">MR_WatershedGraph_BasinInfo_GetMutable_accVolume</ref>(<ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="329"><highlight class="normal"></highlight></codeline>
-<codeline lineno="334" refid="MRWatershedGraph_8h_1a8b596d28e0cfbe5ce93471ee0f462d62" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRWatershedGraph_8h_1a8b596d28e0cfbe5ce93471ee0f462d62" kindref="member">MR_WatershedGraph_BasinInfo_GetMutable_lastUpdateAmount</ref>(<ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="335"><highlight class="normal"></highlight></codeline>
-<codeline lineno="340" refid="MRWatershedGraph_8h_1a742cfdb628cdddef0e44ddcc04e9e2d1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRWatershedGraph_8h_1a742cfdb628cdddef0e44ddcc04e9e2d1" kindref="member">MR_WatershedGraph_BasinInfo_Get_lastMergeLevel</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="341"><highlight class="normal"></highlight></codeline>
-<codeline lineno="346" refid="MRWatershedGraph_8h_1ac9bb5aa16f8b39076ee3b11b545149ed" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1ac9bb5aa16f8b39076ee3b11b545149ed" kindref="member">MR_WatershedGraph_BasinInfo_Set_lastMergeLevel</ref>(<ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="347"><highlight class="normal"></highlight></codeline>
-<codeline lineno="352" refid="MRWatershedGraph_8h_1a0da2101dedf3755d227a04fe7a14d377" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRWatershedGraph_8h_1a0da2101dedf3755d227a04fe7a14d377" kindref="member">MR_WatershedGraph_BasinInfo_GetMutable_lastMergeLevel</ref>(<ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="353"><highlight class="normal"></highlight></codeline>
-<codeline lineno="358" refid="MRWatershedGraph_8h_1a06e385f3fa8dd217de23462e5a8cdf0a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRWatershedGraph_8h_1a06e385f3fa8dd217de23462e5a8cdf0a" kindref="member">MR_WatershedGraph_BasinInfo_Get_lastMergeVolume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="359"><highlight class="normal"></highlight></codeline>
-<codeline lineno="364" refid="MRWatershedGraph_8h_1a0d5f2960328f8b3453b7fbe94660974a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1a0d5f2960328f8b3453b7fbe94660974a" kindref="member">MR_WatershedGraph_BasinInfo_Set_lastMergeVolume</ref>(<ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="365"><highlight class="normal"></highlight></codeline>
-<codeline lineno="370" refid="MRWatershedGraph_8h_1aae2ec96302c65cd8caa1411597a48be4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRWatershedGraph_8h_1aae2ec96302c65cd8caa1411597a48be4" kindref="member">MR_WatershedGraph_BasinInfo_GetMutable_lastMergeVolume</ref>(<ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="371"><highlight class="normal"></highlight></codeline>
-<codeline lineno="376" refid="MRWatershedGraph_8h_1a953c9e5fc1b94acc5e400b1e3abb7849" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__GraphEdgeId" kindref="compound">MR_GraphEdgeId</ref><sp/>*<ref refid="MRWatershedGraph_8h_1a953c9e5fc1b94acc5e400b1e3abb7849" kindref="member">MR_WatershedGraph_BasinInfo_Get_overflowVia</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="377"><highlight class="normal"></highlight></codeline>
-<codeline lineno="383" refid="MRWatershedGraph_8h_1a2a98bb58a40e695354f76ef0dc6a7351" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1a2a98bb58a40e695354f76ef0dc6a7351" kindref="member">MR_WatershedGraph_BasinInfo_Set_overflowVia</ref>(<ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this,<sp/><ref refid="structMR__GraphEdgeId" kindref="compound">MR_GraphEdgeId</ref><sp/>value);</highlight></codeline>
-<codeline lineno="384"><highlight class="normal"></highlight></codeline>
-<codeline lineno="389" refid="MRWatershedGraph_8h_1a8b7f3a6a327340a1bb84cda2f42b7d8c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__GraphEdgeId" kindref="compound">MR_GraphEdgeId</ref><sp/>*<ref refid="MRWatershedGraph_8h_1a8b7f3a6a327340a1bb84cda2f42b7d8c" kindref="member">MR_WatershedGraph_BasinInfo_GetMutable_overflowVia</ref>(<ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="390"><highlight class="normal"></highlight></codeline>
-<codeline lineno="393" refid="MRWatershedGraph_8h_1acb72af40886862a47cd372f1e7442bc9" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*<ref refid="MRWatershedGraph_8h_1acb72af40886862a47cd372f1e7442bc9" kindref="member">MR_WatershedGraph_BasinInfo_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="394"><highlight class="normal"></highlight></codeline>
-<codeline lineno="398" refid="MRWatershedGraph_8h_1af3a851f767c9f5a8792e17842cbe3257" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*<ref refid="MRWatershedGraph_8h_1af3a851f767c9f5a8792e17842cbe3257" kindref="member">MR_WatershedGraph_BasinInfo_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="399"><highlight class="normal"></highlight></codeline>
-<codeline lineno="402" refid="MRWatershedGraph_8h_1a844bc7144979f98975bb352597efd175" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*<ref refid="MRWatershedGraph_8h_1a844bc7144979f98975bb352597efd175" kindref="member">MR_WatershedGraph_BasinInfo_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="335" refid="MRWatershedGraph_8h_1a751cae5905a3cb0b6313de237d0f8d6c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRWatershedGraph_8h_1a751cae5905a3cb0b6313de237d0f8d6c" kindref="member">MR_WatershedGraph_BasinInfo_Get_lastUpdateAmount</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="336"><highlight class="normal"></highlight></codeline>
+<codeline lineno="341" refid="MRWatershedGraph_8h_1aa65c450f91963cbe59b25af89df3796f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1aa65c450f91963cbe59b25af89df3796f" kindref="member">MR_WatershedGraph_BasinInfo_Set_lastUpdateAmount</ref>(<ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"></highlight></codeline>
+<codeline lineno="348" refid="MRWatershedGraph_8h_1a8b596d28e0cfbe5ce93471ee0f462d62" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRWatershedGraph_8h_1a8b596d28e0cfbe5ce93471ee0f462d62" kindref="member">MR_WatershedGraph_BasinInfo_GetMutable_lastUpdateAmount</ref>(<ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="349"><highlight class="normal"></highlight></codeline>
+<codeline lineno="355" refid="MRWatershedGraph_8h_1a742cfdb628cdddef0e44ddcc04e9e2d1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRWatershedGraph_8h_1a742cfdb628cdddef0e44ddcc04e9e2d1" kindref="member">MR_WatershedGraph_BasinInfo_Get_lastMergeLevel</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="356"><highlight class="normal"></highlight></codeline>
+<codeline lineno="361" refid="MRWatershedGraph_8h_1ac9bb5aa16f8b39076ee3b11b545149ed" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1ac9bb5aa16f8b39076ee3b11b545149ed" kindref="member">MR_WatershedGraph_BasinInfo_Set_lastMergeLevel</ref>(<ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="362"><highlight class="normal"></highlight></codeline>
+<codeline lineno="368" refid="MRWatershedGraph_8h_1a0da2101dedf3755d227a04fe7a14d377" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRWatershedGraph_8h_1a0da2101dedf3755d227a04fe7a14d377" kindref="member">MR_WatershedGraph_BasinInfo_GetMutable_lastMergeLevel</ref>(<ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="369"><highlight class="normal"></highlight></codeline>
+<codeline lineno="375" refid="MRWatershedGraph_8h_1a06e385f3fa8dd217de23462e5a8cdf0a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRWatershedGraph_8h_1a06e385f3fa8dd217de23462e5a8cdf0a" kindref="member">MR_WatershedGraph_BasinInfo_Get_lastMergeVolume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="376"><highlight class="normal"></highlight></codeline>
+<codeline lineno="381" refid="MRWatershedGraph_8h_1a0d5f2960328f8b3453b7fbe94660974a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1a0d5f2960328f8b3453b7fbe94660974a" kindref="member">MR_WatershedGraph_BasinInfo_Set_lastMergeVolume</ref>(<ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="382"><highlight class="normal"></highlight></codeline>
+<codeline lineno="388" refid="MRWatershedGraph_8h_1aae2ec96302c65cd8caa1411597a48be4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRWatershedGraph_8h_1aae2ec96302c65cd8caa1411597a48be4" kindref="member">MR_WatershedGraph_BasinInfo_GetMutable_lastMergeVolume</ref>(<ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="389"><highlight class="normal"></highlight></codeline>
+<codeline lineno="395" refid="MRWatershedGraph_8h_1a953c9e5fc1b94acc5e400b1e3abb7849" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__GraphEdgeId" kindref="compound">MR_GraphEdgeId</ref><sp/>*<ref refid="MRWatershedGraph_8h_1a953c9e5fc1b94acc5e400b1e3abb7849" kindref="member">MR_WatershedGraph_BasinInfo_Get_overflowVia</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="396"><highlight class="normal"></highlight></codeline>
+<codeline lineno="402" refid="MRWatershedGraph_8h_1a2a98bb58a40e695354f76ef0dc6a7351" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1a2a98bb58a40e695354f76ef0dc6a7351" kindref="member">MR_WatershedGraph_BasinInfo_Set_overflowVia</ref>(<ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this,<sp/><ref refid="structMR__GraphEdgeId" kindref="compound">MR_GraphEdgeId</ref><sp/>value);</highlight></codeline>
 <codeline lineno="403"><highlight class="normal"></highlight></codeline>
-<codeline lineno="406" refid="MRWatershedGraph_8h_1aa8b9c3524ce1215ea7265c925400969d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*<ref refid="MRWatershedGraph_8h_1aa8b9c3524ce1215ea7265c925400969d" kindref="member">MR_WatershedGraph_BasinInfo_OffsetMutablePtr</ref>(<ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="407"><highlight class="normal"></highlight></codeline>
-<codeline lineno="412" refid="MRWatershedGraph_8h_1a273afdf2f73f7fa53be69e84962eeb36" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*<ref refid="MRWatershedGraph_8h_1a273afdf2f73f7fa53be69e84962eeb36" kindref="member">MR_WatershedGraph_BasinInfo_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="413"><highlight class="normal"></highlight></codeline>
-<codeline lineno="415" refid="MRWatershedGraph_8h_1a40585d4a2f462dcf1c860c9113a205b5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1a40585d4a2f462dcf1c860c9113a205b5" kindref="member">MR_WatershedGraph_BasinInfo_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="416"><highlight class="normal"></highlight></codeline>
-<codeline lineno="418" refid="MRWatershedGraph_8h_1af5457fe21ad841bafa62461c2386bd32" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1af5457fe21ad841bafa62461c2386bd32" kindref="member">MR_WatershedGraph_BasinInfo_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="409" refid="MRWatershedGraph_8h_1a8b7f3a6a327340a1bb84cda2f42b7d8c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__GraphEdgeId" kindref="compound">MR_GraphEdgeId</ref><sp/>*<ref refid="MRWatershedGraph_8h_1a8b7f3a6a327340a1bb84cda2f42b7d8c" kindref="member">MR_WatershedGraph_BasinInfo_GetMutable_overflowVia</ref>(<ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="410"><highlight class="normal"></highlight></codeline>
+<codeline lineno="413" refid="MRWatershedGraph_8h_1acb72af40886862a47cd372f1e7442bc9" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*<ref refid="MRWatershedGraph_8h_1acb72af40886862a47cd372f1e7442bc9" kindref="member">MR_WatershedGraph_BasinInfo_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="414"><highlight class="normal"></highlight></codeline>
+<codeline lineno="418" refid="MRWatershedGraph_8h_1af3a851f767c9f5a8792e17842cbe3257" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*<ref refid="MRWatershedGraph_8h_1af3a851f767c9f5a8792e17842cbe3257" kindref="member">MR_WatershedGraph_BasinInfo_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="419"><highlight class="normal"></highlight></codeline>
-<codeline lineno="426" refid="MRWatershedGraph_8h_1a68cbdf484299c81fafd06afd53bbbeb5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*<ref refid="MRWatershedGraph_8h_1a68cbdf484299c81fafd06afd53bbbeb5" kindref="member">MR_WatershedGraph_BasinInfo_AssignFromAnother</ref>(<ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="422" refid="MRWatershedGraph_8h_1a844bc7144979f98975bb352597efd175" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*<ref refid="MRWatershedGraph_8h_1a844bc7144979f98975bb352597efd175" kindref="member">MR_WatershedGraph_BasinInfo_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="423"><highlight class="normal"></highlight></codeline>
+<codeline lineno="426" refid="MRWatershedGraph_8h_1aa8b9c3524ce1215ea7265c925400969d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*<ref refid="MRWatershedGraph_8h_1aa8b9c3524ce1215ea7265c925400969d" kindref="member">MR_WatershedGraph_BasinInfo_OffsetMutablePtr</ref>(<ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="427"><highlight class="normal"></highlight></codeline>
-<codeline lineno="432" refid="MRWatershedGraph_8h_1ade620a14c8323754d633270add957ed8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1ade620a14c8323754d633270add957ed8" kindref="member">MR_WatershedGraph_BasinInfo_amountTillOverflow</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="432" refid="MRWatershedGraph_8h_1a273afdf2f73f7fa53be69e84962eeb36" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*<ref refid="MRWatershedGraph_8h_1a273afdf2f73f7fa53be69e84962eeb36" kindref="member">MR_WatershedGraph_BasinInfo_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="433"><highlight class="normal"></highlight></codeline>
-<codeline lineno="437" refid="MRWatershedGraph_8h_1a6cf24b9ec9da941c87b352040cf601b5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1a6cf24b9ec9da941c87b352040cf601b5" kindref="member">MR_WatershedGraph_BasinInfo_approxLevel</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="438"><highlight class="normal"></highlight></codeline>
-<codeline lineno="442" refid="MRWatershedGraph_8h_1a5c9549e2835f7f05052d2f1c94d44ead" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1a5c9549e2835f7f05052d2f1c94d44ead" kindref="member">MR_WatershedGraph_BasinInfo_updateAccVolume</ref>(<ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>amount);</highlight></codeline>
-<codeline lineno="443"><highlight class="normal"></highlight></codeline>
-<codeline lineno="448" refid="MRWatershedGraph_8h_1a6808967f43c05c0baa8d95ad1eb8be38" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRWatershedGraph_8h_1a6808967f43c05c0baa8d95ad1eb8be38" kindref="member">MR_WatershedGraph_BdInfo_Get_lowestVert</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a569667c95a4e9d4d3a69fbf443462ec5" kindref="member">MR_WatershedGraph_BdInfo</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="449"><highlight class="normal"></highlight></codeline>
-<codeline lineno="455" refid="MRWatershedGraph_8h_1a614a14eaa064390e3506883913c59168" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1a614a14eaa064390e3506883913c59168" kindref="member">MR_WatershedGraph_BdInfo_Set_lowestVert</ref>(<ref refid="MRVector_8h_1a569667c95a4e9d4d3a69fbf443462ec5" kindref="member">MR_WatershedGraph_BdInfo</ref><sp/>*_this,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>value);</highlight></codeline>
-<codeline lineno="456"><highlight class="normal"></highlight></codeline>
-<codeline lineno="461" refid="MRWatershedGraph_8h_1aa6a0fd94e8b850261e93fae00f1cbf82" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRWatershedGraph_8h_1aa6a0fd94e8b850261e93fae00f1cbf82" kindref="member">MR_WatershedGraph_BdInfo_GetMutable_lowestVert</ref>(<ref refid="MRVector_8h_1a569667c95a4e9d4d3a69fbf443462ec5" kindref="member">MR_WatershedGraph_BdInfo</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="462"><highlight class="normal"></highlight></codeline>
-<codeline lineno="465" refid="MRWatershedGraph_8h_1a1cdfbb796d474904f2dcbd0dc337ea67" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVector_8h_1a569667c95a4e9d4d3a69fbf443462ec5" kindref="member">MR_WatershedGraph_BdInfo</ref><sp/>*<ref refid="MRWatershedGraph_8h_1a1cdfbb796d474904f2dcbd0dc337ea67" kindref="member">MR_WatershedGraph_BdInfo_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="466"><highlight class="normal"></highlight></codeline>
-<codeline lineno="470" refid="MRWatershedGraph_8h_1aca1030f6a78c5f89860451831b52d96d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVector_8h_1a569667c95a4e9d4d3a69fbf443462ec5" kindref="member">MR_WatershedGraph_BdInfo</ref><sp/>*<ref refid="MRWatershedGraph_8h_1aca1030f6a78c5f89860451831b52d96d" kindref="member">MR_WatershedGraph_BdInfo_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="471"><highlight class="normal"></highlight></codeline>
-<codeline lineno="476" refid="MRWatershedGraph_8h_1a2c1b923b823fe7de34566e51c4b4daae" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVector_8h_1a569667c95a4e9d4d3a69fbf443462ec5" kindref="member">MR_WatershedGraph_BdInfo</ref><sp/>*<ref refid="MRWatershedGraph_8h_1a2c1b923b823fe7de34566e51c4b4daae" kindref="member">MR_WatershedGraph_BdInfo_ConstructFrom</ref>(<ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>lowestVert);</highlight></codeline>
+<codeline lineno="435" refid="MRWatershedGraph_8h_1a40585d4a2f462dcf1c860c9113a205b5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1a40585d4a2f462dcf1c860c9113a205b5" kindref="member">MR_WatershedGraph_BasinInfo_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="436"><highlight class="normal"></highlight></codeline>
+<codeline lineno="438" refid="MRWatershedGraph_8h_1af5457fe21ad841bafa62461c2386bd32" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1af5457fe21ad841bafa62461c2386bd32" kindref="member">MR_WatershedGraph_BasinInfo_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="439"><highlight class="normal"></highlight></codeline>
+<codeline lineno="446" refid="MRWatershedGraph_8h_1a68cbdf484299c81fafd06afd53bbbeb5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*<ref refid="MRWatershedGraph_8h_1a68cbdf484299c81fafd06afd53bbbeb5" kindref="member">MR_WatershedGraph_BasinInfo_AssignFromAnother</ref>(<ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="447"><highlight class="normal"></highlight></codeline>
+<codeline lineno="452" refid="MRWatershedGraph_8h_1ade620a14c8323754d633270add957ed8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1ade620a14c8323754d633270add957ed8" kindref="member">MR_WatershedGraph_BasinInfo_amountTillOverflow</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="453"><highlight class="normal"></highlight></codeline>
+<codeline lineno="457" refid="MRWatershedGraph_8h_1a6cf24b9ec9da941c87b352040cf601b5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1a6cf24b9ec9da941c87b352040cf601b5" kindref="member">MR_WatershedGraph_BasinInfo_approxLevel</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="458"><highlight class="normal"></highlight></codeline>
+<codeline lineno="462" refid="MRWatershedGraph_8h_1a5c9549e2835f7f05052d2f1c94d44ead" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1a5c9549e2835f7f05052d2f1c94d44ead" kindref="member">MR_WatershedGraph_BasinInfo_updateAccVolume</ref>(<ref refid="MRVector_8h_1a9c7c2a4f5d98b95ad690a545b3e1560b" kindref="member">MR_WatershedGraph_BasinInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>amount);</highlight></codeline>
+<codeline lineno="463"><highlight class="normal"></highlight></codeline>
+<codeline lineno="469" refid="MRWatershedGraph_8h_1a6808967f43c05c0baa8d95ad1eb8be38" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRWatershedGraph_8h_1a6808967f43c05c0baa8d95ad1eb8be38" kindref="member">MR_WatershedGraph_BdInfo_Get_lowestVert</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a569667c95a4e9d4d3a69fbf443462ec5" kindref="member">MR_WatershedGraph_BdInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="470"><highlight class="normal"></highlight></codeline>
+<codeline lineno="476" refid="MRWatershedGraph_8h_1a614a14eaa064390e3506883913c59168" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1a614a14eaa064390e3506883913c59168" kindref="member">MR_WatershedGraph_BdInfo_Set_lowestVert</ref>(<ref refid="MRVector_8h_1a569667c95a4e9d4d3a69fbf443462ec5" kindref="member">MR_WatershedGraph_BdInfo</ref><sp/>*_this,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>value);</highlight></codeline>
 <codeline lineno="477"><highlight class="normal"></highlight></codeline>
-<codeline lineno="480" refid="MRWatershedGraph_8h_1a8eacfde352b78e45740c9f667bce8835" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a569667c95a4e9d4d3a69fbf443462ec5" kindref="member">MR_WatershedGraph_BdInfo</ref><sp/>*<ref refid="MRWatershedGraph_8h_1a8eacfde352b78e45740c9f667bce8835" kindref="member">MR_WatershedGraph_BdInfo_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a569667c95a4e9d4d3a69fbf443462ec5" kindref="member">MR_WatershedGraph_BdInfo</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="481"><highlight class="normal"></highlight></codeline>
-<codeline lineno="484" refid="MRWatershedGraph_8h_1a56878cfd45d6ae1582d91aae822380a7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVector_8h_1a569667c95a4e9d4d3a69fbf443462ec5" kindref="member">MR_WatershedGraph_BdInfo</ref><sp/>*<ref refid="MRWatershedGraph_8h_1a56878cfd45d6ae1582d91aae822380a7" kindref="member">MR_WatershedGraph_BdInfo_OffsetMutablePtr</ref>(<ref refid="MRVector_8h_1a569667c95a4e9d4d3a69fbf443462ec5" kindref="member">MR_WatershedGraph_BdInfo</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="485"><highlight class="normal"></highlight></codeline>
-<codeline lineno="490" refid="MRWatershedGraph_8h_1aae052ee1676569dd26c99de6838f2a2d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVector_8h_1a569667c95a4e9d4d3a69fbf443462ec5" kindref="member">MR_WatershedGraph_BdInfo</ref><sp/>*<ref refid="MRWatershedGraph_8h_1aae052ee1676569dd26c99de6838f2a2d" kindref="member">MR_WatershedGraph_BdInfo_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a569667c95a4e9d4d3a69fbf443462ec5" kindref="member">MR_WatershedGraph_BdInfo</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="491"><highlight class="normal"></highlight></codeline>
-<codeline lineno="493" refid="MRWatershedGraph_8h_1a1bb1c420b1b264ebd76fad443e3c909b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1a1bb1c420b1b264ebd76fad443e3c909b" kindref="member">MR_WatershedGraph_BdInfo_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a569667c95a4e9d4d3a69fbf443462ec5" kindref="member">MR_WatershedGraph_BdInfo</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="494"><highlight class="normal"></highlight></codeline>
-<codeline lineno="496" refid="MRWatershedGraph_8h_1ab94e675c0893849bd6dec3ece0f8d362" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1ab94e675c0893849bd6dec3ece0f8d362" kindref="member">MR_WatershedGraph_BdInfo_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a569667c95a4e9d4d3a69fbf443462ec5" kindref="member">MR_WatershedGraph_BdInfo</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="497"><highlight class="normal"></highlight></codeline>
-<codeline lineno="504" refid="MRWatershedGraph_8h_1ad35ccc3502f261e422a4b15302e1068e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVector_8h_1a569667c95a4e9d4d3a69fbf443462ec5" kindref="member">MR_WatershedGraph_BdInfo</ref><sp/>*<ref refid="MRWatershedGraph_8h_1ad35ccc3502f261e422a4b15302e1068e" kindref="member">MR_WatershedGraph_BdInfo_AssignFromAnother</ref>(<ref refid="MRVector_8h_1a569667c95a4e9d4d3a69fbf443462ec5" kindref="member">MR_WatershedGraph_BdInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a569667c95a4e9d4d3a69fbf443462ec5" kindref="member">MR_WatershedGraph_BdInfo</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="505"><highlight class="normal"></highlight></codeline>
-<codeline lineno="506"><highlight class="normal"></highlight><highlight class="comment">//<sp/>mesh<sp/>vertex<sp/>on<sp/>the<sp/>boundary<sp/>of<sp/>full<sp/>basin<sp/>and<sp/>the<sp/>other<sp/>where<sp/>it<sp/>overflows</highlight></codeline>
-<codeline lineno="510" refid="MRWatershedGraph_8h_1aa416bfe284d51b58759e5d6cd8df4def" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRWatershedGraph_8h_1aa416bfe284d51b58759e5d6cd8df4def" kindref="member">MR_WatershedGraph_OverflowPoint_Get_v</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="511"><highlight class="normal"></highlight></codeline>
-<codeline lineno="512"><highlight class="normal"></highlight><highlight class="comment">//<sp/>mesh<sp/>vertex<sp/>on<sp/>the<sp/>boundary<sp/>of<sp/>full<sp/>basin<sp/>and<sp/>the<sp/>other<sp/>where<sp/>it<sp/>overflows</highlight></codeline>
-<codeline lineno="517" refid="MRWatershedGraph_8h_1ab732fbc341c0c04cb7222399be078399" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1ab732fbc341c0c04cb7222399be078399" kindref="member">MR_WatershedGraph_OverflowPoint_Set_v</ref>(<ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*_this,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>value);</highlight></codeline>
-<codeline lineno="518"><highlight class="normal"></highlight></codeline>
-<codeline lineno="519"><highlight class="normal"></highlight><highlight class="comment">//<sp/>mesh<sp/>vertex<sp/>on<sp/>the<sp/>boundary<sp/>of<sp/>full<sp/>basin<sp/>and<sp/>the<sp/>other<sp/>where<sp/>it<sp/>overflows</highlight></codeline>
-<codeline lineno="523" refid="MRWatershedGraph_8h_1ac4cea57c6ee77bf9a135e43b97c6da3a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRWatershedGraph_8h_1ac4cea57c6ee77bf9a135e43b97c6da3a" kindref="member">MR_WatershedGraph_OverflowPoint_GetMutable_v</ref>(<ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="524"><highlight class="normal"></highlight></codeline>
-<codeline lineno="528" refid="MRWatershedGraph_8h_1a6699cce68c37bcc2400f1422f01eb19a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref><sp/>*<ref refid="MRWatershedGraph_8h_1a6699cce68c37bcc2400f1422f01eb19a" kindref="member">MR_WatershedGraph_OverflowPoint_Get_fullBasin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="529"><highlight class="normal"></highlight></codeline>
-<codeline lineno="534" refid="MRWatershedGraph_8h_1a1600345d66ba00cd46dfbe35f444ea2f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1a1600345d66ba00cd46dfbe35f444ea2f" kindref="member">MR_WatershedGraph_OverflowPoint_Set_fullBasin</ref>(<ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*_this,<sp/><ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref><sp/>value);</highlight></codeline>
-<codeline lineno="535"><highlight class="normal"></highlight></codeline>
-<codeline lineno="539" refid="MRWatershedGraph_8h_1abbe908d4fafacc136d6f7a453904ce2a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref><sp/>*<ref refid="MRWatershedGraph_8h_1abbe908d4fafacc136d6f7a453904ce2a" kindref="member">MR_WatershedGraph_OverflowPoint_GetMutable_fullBasin</ref>(<ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="540"><highlight class="normal"></highlight></codeline>
-<codeline lineno="541"><highlight class="normal"></highlight><highlight class="comment">//<sp/>basin<sp/>where<sp/>the<sp/>flow<sp/>from<sp/>v<sp/>goes</highlight></codeline>
-<codeline lineno="545" refid="MRWatershedGraph_8h_1a1ac4e2751b4bb2d9871494cf8814f16d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref><sp/>*<ref refid="MRWatershedGraph_8h_1a1ac4e2751b4bb2d9871494cf8814f16d" kindref="member">MR_WatershedGraph_OverflowPoint_Get_overflowTo</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="546"><highlight class="normal"></highlight></codeline>
-<codeline lineno="547"><highlight class="normal"></highlight><highlight class="comment">//<sp/>basin<sp/>where<sp/>the<sp/>flow<sp/>from<sp/>v<sp/>goes</highlight></codeline>
-<codeline lineno="552" refid="MRWatershedGraph_8h_1aa2d783c0c132037d39b75ded7cf008d8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1aa2d783c0c132037d39b75ded7cf008d8" kindref="member">MR_WatershedGraph_OverflowPoint_Set_overflowTo</ref>(<ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*_this,<sp/><ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref><sp/>value);</highlight></codeline>
-<codeline lineno="553"><highlight class="normal"></highlight></codeline>
-<codeline lineno="554"><highlight class="normal"></highlight><highlight class="comment">//<sp/>basin<sp/>where<sp/>the<sp/>flow<sp/>from<sp/>v<sp/>goes</highlight></codeline>
-<codeline lineno="558" refid="MRWatershedGraph_8h_1a7297fce92db76856e1acb9007ec3022e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref><sp/>*<ref refid="MRWatershedGraph_8h_1a7297fce92db76856e1acb9007ec3022e" kindref="member">MR_WatershedGraph_OverflowPoint_GetMutable_overflowTo</ref>(<ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="559"><highlight class="normal"></highlight></codeline>
-<codeline lineno="562" refid="MRWatershedGraph_8h_1a5d635e58399e1e572587ed08bf1bf43a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*<ref refid="MRWatershedGraph_8h_1a5d635e58399e1e572587ed08bf1bf43a" kindref="member">MR_WatershedGraph_OverflowPoint_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="563"><highlight class="normal"></highlight></codeline>
-<codeline lineno="567" refid="MRWatershedGraph_8h_1ad254696cf670c7d82fd9c8370a6960f3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*<ref refid="MRWatershedGraph_8h_1ad254696cf670c7d82fd9c8370a6960f3" kindref="member">MR_WatershedGraph_OverflowPoint_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="568"><highlight class="normal"></highlight></codeline>
-<codeline lineno="575" refid="MRWatershedGraph_8h_1abb8e6dfefa91f29a37dc8f042778b95f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*<ref refid="MRWatershedGraph_8h_1abb8e6dfefa91f29a37dc8f042778b95f" kindref="member">MR_WatershedGraph_OverflowPoint_ConstructFrom</ref>(<ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>v,<sp/><ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref><sp/>fullBasin,<sp/><ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref><sp/>overflowTo);</highlight></codeline>
-<codeline lineno="576"><highlight class="normal"></highlight></codeline>
-<codeline lineno="579" refid="MRWatershedGraph_8h_1a3337fa7c793e0d21d043c3a3ea642954" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*<ref refid="MRWatershedGraph_8h_1a3337fa7c793e0d21d043c3a3ea642954" kindref="member">MR_WatershedGraph_OverflowPoint_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="483" refid="MRWatershedGraph_8h_1aa6a0fd94e8b850261e93fae00f1cbf82" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRWatershedGraph_8h_1aa6a0fd94e8b850261e93fae00f1cbf82" kindref="member">MR_WatershedGraph_BdInfo_GetMutable_lowestVert</ref>(<ref refid="MRVector_8h_1a569667c95a4e9d4d3a69fbf443462ec5" kindref="member">MR_WatershedGraph_BdInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="484"><highlight class="normal"></highlight></codeline>
+<codeline lineno="487" refid="MRWatershedGraph_8h_1a1cdfbb796d474904f2dcbd0dc337ea67" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVector_8h_1a569667c95a4e9d4d3a69fbf443462ec5" kindref="member">MR_WatershedGraph_BdInfo</ref><sp/>*<ref refid="MRWatershedGraph_8h_1a1cdfbb796d474904f2dcbd0dc337ea67" kindref="member">MR_WatershedGraph_BdInfo_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="488"><highlight class="normal"></highlight></codeline>
+<codeline lineno="492" refid="MRWatershedGraph_8h_1aca1030f6a78c5f89860451831b52d96d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVector_8h_1a569667c95a4e9d4d3a69fbf443462ec5" kindref="member">MR_WatershedGraph_BdInfo</ref><sp/>*<ref refid="MRWatershedGraph_8h_1aca1030f6a78c5f89860451831b52d96d" kindref="member">MR_WatershedGraph_BdInfo_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="493"><highlight class="normal"></highlight></codeline>
+<codeline lineno="498" refid="MRWatershedGraph_8h_1a2c1b923b823fe7de34566e51c4b4daae" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVector_8h_1a569667c95a4e9d4d3a69fbf443462ec5" kindref="member">MR_WatershedGraph_BdInfo</ref><sp/>*<ref refid="MRWatershedGraph_8h_1a2c1b923b823fe7de34566e51c4b4daae" kindref="member">MR_WatershedGraph_BdInfo_ConstructFrom</ref>(<ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>lowestVert);</highlight></codeline>
+<codeline lineno="499"><highlight class="normal"></highlight></codeline>
+<codeline lineno="502" refid="MRWatershedGraph_8h_1a8eacfde352b78e45740c9f667bce8835" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a569667c95a4e9d4d3a69fbf443462ec5" kindref="member">MR_WatershedGraph_BdInfo</ref><sp/>*<ref refid="MRWatershedGraph_8h_1a8eacfde352b78e45740c9f667bce8835" kindref="member">MR_WatershedGraph_BdInfo_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a569667c95a4e9d4d3a69fbf443462ec5" kindref="member">MR_WatershedGraph_BdInfo</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="503"><highlight class="normal"></highlight></codeline>
+<codeline lineno="506" refid="MRWatershedGraph_8h_1a56878cfd45d6ae1582d91aae822380a7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVector_8h_1a569667c95a4e9d4d3a69fbf443462ec5" kindref="member">MR_WatershedGraph_BdInfo</ref><sp/>*<ref refid="MRWatershedGraph_8h_1a56878cfd45d6ae1582d91aae822380a7" kindref="member">MR_WatershedGraph_BdInfo_OffsetMutablePtr</ref>(<ref refid="MRVector_8h_1a569667c95a4e9d4d3a69fbf443462ec5" kindref="member">MR_WatershedGraph_BdInfo</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="507"><highlight class="normal"></highlight></codeline>
+<codeline lineno="512" refid="MRWatershedGraph_8h_1aae052ee1676569dd26c99de6838f2a2d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVector_8h_1a569667c95a4e9d4d3a69fbf443462ec5" kindref="member">MR_WatershedGraph_BdInfo</ref><sp/>*<ref refid="MRWatershedGraph_8h_1aae052ee1676569dd26c99de6838f2a2d" kindref="member">MR_WatershedGraph_BdInfo_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a569667c95a4e9d4d3a69fbf443462ec5" kindref="member">MR_WatershedGraph_BdInfo</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="513"><highlight class="normal"></highlight></codeline>
+<codeline lineno="515" refid="MRWatershedGraph_8h_1a1bb1c420b1b264ebd76fad443e3c909b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1a1bb1c420b1b264ebd76fad443e3c909b" kindref="member">MR_WatershedGraph_BdInfo_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a569667c95a4e9d4d3a69fbf443462ec5" kindref="member">MR_WatershedGraph_BdInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="516"><highlight class="normal"></highlight></codeline>
+<codeline lineno="518" refid="MRWatershedGraph_8h_1ab94e675c0893849bd6dec3ece0f8d362" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1ab94e675c0893849bd6dec3ece0f8d362" kindref="member">MR_WatershedGraph_BdInfo_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a569667c95a4e9d4d3a69fbf443462ec5" kindref="member">MR_WatershedGraph_BdInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="519"><highlight class="normal"></highlight></codeline>
+<codeline lineno="526" refid="MRWatershedGraph_8h_1ad35ccc3502f261e422a4b15302e1068e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVector_8h_1a569667c95a4e9d4d3a69fbf443462ec5" kindref="member">MR_WatershedGraph_BdInfo</ref><sp/>*<ref refid="MRWatershedGraph_8h_1ad35ccc3502f261e422a4b15302e1068e" kindref="member">MR_WatershedGraph_BdInfo_AssignFromAnother</ref>(<ref refid="MRVector_8h_1a569667c95a4e9d4d3a69fbf443462ec5" kindref="member">MR_WatershedGraph_BdInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a569667c95a4e9d4d3a69fbf443462ec5" kindref="member">MR_WatershedGraph_BdInfo</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="527"><highlight class="normal"></highlight></codeline>
+<codeline lineno="528"><highlight class="normal"></highlight><highlight class="comment">//<sp/>mesh<sp/>vertex<sp/>on<sp/>the<sp/>boundary<sp/>of<sp/>full<sp/>basin<sp/>and<sp/>the<sp/>other<sp/>where<sp/>it<sp/>overflows</highlight></codeline>
+<codeline lineno="533" refid="MRWatershedGraph_8h_1aa416bfe284d51b58759e5d6cd8df4def" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRWatershedGraph_8h_1aa416bfe284d51b58759e5d6cd8df4def" kindref="member">MR_WatershedGraph_OverflowPoint_Get_v</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="534"><highlight class="normal"></highlight></codeline>
+<codeline lineno="535"><highlight class="normal"></highlight><highlight class="comment">//<sp/>mesh<sp/>vertex<sp/>on<sp/>the<sp/>boundary<sp/>of<sp/>full<sp/>basin<sp/>and<sp/>the<sp/>other<sp/>where<sp/>it<sp/>overflows</highlight></codeline>
+<codeline lineno="540" refid="MRWatershedGraph_8h_1ab732fbc341c0c04cb7222399be078399" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1ab732fbc341c0c04cb7222399be078399" kindref="member">MR_WatershedGraph_OverflowPoint_Set_v</ref>(<ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*_this,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>value);</highlight></codeline>
+<codeline lineno="541"><highlight class="normal"></highlight></codeline>
+<codeline lineno="542"><highlight class="normal"></highlight><highlight class="comment">//<sp/>mesh<sp/>vertex<sp/>on<sp/>the<sp/>boundary<sp/>of<sp/>full<sp/>basin<sp/>and<sp/>the<sp/>other<sp/>where<sp/>it<sp/>overflows</highlight></codeline>
+<codeline lineno="547" refid="MRWatershedGraph_8h_1ac4cea57c6ee77bf9a135e43b97c6da3a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRWatershedGraph_8h_1ac4cea57c6ee77bf9a135e43b97c6da3a" kindref="member">MR_WatershedGraph_OverflowPoint_GetMutable_v</ref>(<ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="548"><highlight class="normal"></highlight></codeline>
+<codeline lineno="553" refid="MRWatershedGraph_8h_1a6699cce68c37bcc2400f1422f01eb19a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref><sp/>*<ref refid="MRWatershedGraph_8h_1a6699cce68c37bcc2400f1422f01eb19a" kindref="member">MR_WatershedGraph_OverflowPoint_Get_fullBasin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="554"><highlight class="normal"></highlight></codeline>
+<codeline lineno="559" refid="MRWatershedGraph_8h_1a1600345d66ba00cd46dfbe35f444ea2f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1a1600345d66ba00cd46dfbe35f444ea2f" kindref="member">MR_WatershedGraph_OverflowPoint_Set_fullBasin</ref>(<ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*_this,<sp/><ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref><sp/>value);</highlight></codeline>
+<codeline lineno="560"><highlight class="normal"></highlight></codeline>
+<codeline lineno="565" refid="MRWatershedGraph_8h_1abbe908d4fafacc136d6f7a453904ce2a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref><sp/>*<ref refid="MRWatershedGraph_8h_1abbe908d4fafacc136d6f7a453904ce2a" kindref="member">MR_WatershedGraph_OverflowPoint_GetMutable_fullBasin</ref>(<ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="566"><highlight class="normal"></highlight></codeline>
+<codeline lineno="567"><highlight class="normal"></highlight><highlight class="comment">//<sp/>basin<sp/>where<sp/>the<sp/>flow<sp/>from<sp/>v<sp/>goes</highlight></codeline>
+<codeline lineno="572" refid="MRWatershedGraph_8h_1a1ac4e2751b4bb2d9871494cf8814f16d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref><sp/>*<ref refid="MRWatershedGraph_8h_1a1ac4e2751b4bb2d9871494cf8814f16d" kindref="member">MR_WatershedGraph_OverflowPoint_Get_overflowTo</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="573"><highlight class="normal"></highlight></codeline>
+<codeline lineno="574"><highlight class="normal"></highlight><highlight class="comment">//<sp/>basin<sp/>where<sp/>the<sp/>flow<sp/>from<sp/>v<sp/>goes</highlight></codeline>
+<codeline lineno="579" refid="MRWatershedGraph_8h_1aa2d783c0c132037d39b75ded7cf008d8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1aa2d783c0c132037d39b75ded7cf008d8" kindref="member">MR_WatershedGraph_OverflowPoint_Set_overflowTo</ref>(<ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*_this,<sp/><ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref><sp/>value);</highlight></codeline>
 <codeline lineno="580"><highlight class="normal"></highlight></codeline>
-<codeline lineno="583" refid="MRWatershedGraph_8h_1a0735f2f86ea9bea1ae3ebfaf895fa412" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*<ref refid="MRWatershedGraph_8h_1a0735f2f86ea9bea1ae3ebfaf895fa412" kindref="member">MR_WatershedGraph_OverflowPoint_OffsetMutablePtr</ref>(<ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="584"><highlight class="normal"></highlight></codeline>
-<codeline lineno="589" refid="MRWatershedGraph_8h_1a079ab5e20553b533e3557e267f8f2b1c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*<ref refid="MRWatershedGraph_8h_1a079ab5e20553b533e3557e267f8f2b1c" kindref="member">MR_WatershedGraph_OverflowPoint_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="590"><highlight class="normal"></highlight></codeline>
-<codeline lineno="592" refid="MRWatershedGraph_8h_1af4fa5e970d18e28aeafe2cc243158619" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1af4fa5e970d18e28aeafe2cc243158619" kindref="member">MR_WatershedGraph_OverflowPoint_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="593"><highlight class="normal"></highlight></codeline>
-<codeline lineno="595" refid="MRWatershedGraph_8h_1ab590e1dc310202a3c7930b90800d41a5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1ab590e1dc310202a3c7930b90800d41a5" kindref="member">MR_WatershedGraph_OverflowPoint_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="581"><highlight class="normal"></highlight><highlight class="comment">//<sp/>basin<sp/>where<sp/>the<sp/>flow<sp/>from<sp/>v<sp/>goes</highlight></codeline>
+<codeline lineno="586" refid="MRWatershedGraph_8h_1a7297fce92db76856e1acb9007ec3022e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref><sp/>*<ref refid="MRWatershedGraph_8h_1a7297fce92db76856e1acb9007ec3022e" kindref="member">MR_WatershedGraph_OverflowPoint_GetMutable_overflowTo</ref>(<ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="587"><highlight class="normal"></highlight></codeline>
+<codeline lineno="590" refid="MRWatershedGraph_8h_1a5d635e58399e1e572587ed08bf1bf43a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*<ref refid="MRWatershedGraph_8h_1a5d635e58399e1e572587ed08bf1bf43a" kindref="member">MR_WatershedGraph_OverflowPoint_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="591"><highlight class="normal"></highlight></codeline>
+<codeline lineno="595" refid="MRWatershedGraph_8h_1ad254696cf670c7d82fd9c8370a6960f3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*<ref refid="MRWatershedGraph_8h_1ad254696cf670c7d82fd9c8370a6960f3" kindref="member">MR_WatershedGraph_OverflowPoint_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="596"><highlight class="normal"></highlight></codeline>
-<codeline lineno="603" refid="MRWatershedGraph_8h_1ad30cafe00c68b4e817fe5e1190f41529" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*<ref refid="MRWatershedGraph_8h_1ad30cafe00c68b4e817fe5e1190f41529" kindref="member">MR_WatershedGraph_OverflowPoint_AssignFromAnother</ref>(<ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="603" refid="MRWatershedGraph_8h_1abb8e6dfefa91f29a37dc8f042778b95f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*<ref refid="MRWatershedGraph_8h_1abb8e6dfefa91f29a37dc8f042778b95f" kindref="member">MR_WatershedGraph_OverflowPoint_ConstructFrom</ref>(<ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>v,<sp/><ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref><sp/>fullBasin,<sp/><ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref><sp/>overflowTo);</highlight></codeline>
 <codeline lineno="604"><highlight class="normal"></highlight></codeline>
-<codeline lineno="605"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="606"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="607"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="607" refid="MRWatershedGraph_8h_1a3337fa7c793e0d21d043c3a3ea642954" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*<ref refid="MRWatershedGraph_8h_1a3337fa7c793e0d21d043c3a3ea642954" kindref="member">MR_WatershedGraph_OverflowPoint_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="608"><highlight class="normal"></highlight></codeline>
+<codeline lineno="611" refid="MRWatershedGraph_8h_1a0735f2f86ea9bea1ae3ebfaf895fa412" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*<ref refid="MRWatershedGraph_8h_1a0735f2f86ea9bea1ae3ebfaf895fa412" kindref="member">MR_WatershedGraph_OverflowPoint_OffsetMutablePtr</ref>(<ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="612"><highlight class="normal"></highlight></codeline>
+<codeline lineno="617" refid="MRWatershedGraph_8h_1a079ab5e20553b533e3557e267f8f2b1c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*<ref refid="MRWatershedGraph_8h_1a079ab5e20553b533e3557e267f8f2b1c" kindref="member">MR_WatershedGraph_OverflowPoint_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="618"><highlight class="normal"></highlight></codeline>
+<codeline lineno="620" refid="MRWatershedGraph_8h_1af4fa5e970d18e28aeafe2cc243158619" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1af4fa5e970d18e28aeafe2cc243158619" kindref="member">MR_WatershedGraph_OverflowPoint_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="621"><highlight class="normal"></highlight></codeline>
+<codeline lineno="623" refid="MRWatershedGraph_8h_1ab590e1dc310202a3c7930b90800d41a5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1ab590e1dc310202a3c7930b90800d41a5" kindref="member">MR_WatershedGraph_OverflowPoint_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="624"><highlight class="normal"></highlight></codeline>
+<codeline lineno="631" refid="MRWatershedGraph_8h_1ad30cafe00c68b4e817fe5e1190f41529" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*<ref refid="MRWatershedGraph_8h_1ad30cafe00c68b4e817fe5e1190f41529" kindref="member">MR_WatershedGraph_OverflowPoint_AssignFromAnother</ref>(<ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRWatershedGraph_8h_1a6368bf1bcb754ee217cd351a43ff6be8" kindref="member">MR_WatershedGraph_OverflowPoint</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="632"><highlight class="normal"></highlight></codeline>
+<codeline lineno="633"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="634"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="635"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRWatershedGraph.h"/>
   </compounddef>

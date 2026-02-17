@@ -234,7 +234,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a15cf5f1d375ffe1024d1893a46b6035a" id="r_a15cf5f1d375ffe1024d1893a46b6035a"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a0ffb387b226b9065fc0db873078ef44a">MR_IFastWindingNumber</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15cf5f1d375ffe1024d1893a46b6035a">MR_FastWindingNumber_UpcastTo_MR_IFastWindingNumber</a> (const <a class="el" href="#a200243313a8febf0af29cf2af80f94d2">MR_FastWindingNumber</a> *object)</td></tr>
 <tr class="separator:a15cf5f1d375ffe1024d1893a46b6035a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adeacec83dd31885ab175e8888dab6b4c" id="r_adeacec83dd31885ab175e8888dab6b4c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0ffb387b226b9065fc0db873078ef44a">MR_IFastWindingNumber</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adeacec83dd31885ab175e8888dab6b4c">MR_FastWindingNumber_MutableUpcastTo_MR_IFastWindingNumber</a> (<a class="el" href="#a200243313a8febf0af29cf2af80f94d2">MR_FastWindingNumber</a> *object)</td></tr>
-<tr class="memdesc:adeacec83dd31885ab175e8888dab6b4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code>MR::FastWindingNumber</code> to its base class <code>MR::IFastWindingNumber</code>.  <br /></td></tr>
 <tr class="separator:adeacec83dd31885ab175e8888dab6b4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6896c571b5d12b3b732809f89b5edaed" id="r_a6896c571b5d12b3b732809f89b5edaed"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a200243313a8febf0af29cf2af80f94d2">MR_FastWindingNumber</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6896c571b5d12b3b732809f89b5edaed">MR_FastWindingNumber_Construct</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh)</td></tr>
 <tr class="separator:a6896c571b5d12b3b732809f89b5edaed"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -749,8 +748,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Upcasts an instance of <code>MR::FastWindingNumber</code> to its base class <code>MR::IFastWindingNumber</code>. </p>
+<p>Upcasts an instance of <code>MR::FastWindingNumber</code> to its base class <code>MR::IFastWindingNumber</code>. The reference to the parameter <code>object</code> might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -812,7 +810,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Upcasts an instance of <code>MR::FastWindingNumber</code> to its base class <code>MR::IFastWindingNumber</code>. This version is acting on mutable pointers. </p>
+<p>Upcasts an instance of <code>MR::FastWindingNumber</code> to its base class <code>MR::IFastWindingNumber</code>. This version is acting on mutable pointers. The reference to the parameter <code>object</code> might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -1066,7 +1064,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code>MR::IFastWindingNumber</code> to a derived class <code>MR::FastWindingNumber</code>. This is a dynamic downcast, it checks the type before casting. This version will return zero if the target type is wrong. This version is acting on mutable pointers. </p>
+<p>Downcasts an instance of <code>MR::IFastWindingNumber</code> to a derived class <code>MR::FastWindingNumber</code>. This is a dynamic downcast, it checks the type before casting. This version will return zero if the target type is wrong. This version is acting on mutable pointers. The reference to the parameter <code>object</code> might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -1084,7 +1082,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code>MR::IFastWindingNumber</code> to a derived class <code>MR::FastWindingNumber</code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code>MR::IFastWindingNumber</code> to a derived class <code>MR::FastWindingNumber</code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. It is a single object. The reference to the parameter <code>object</code> might be preserved in the return value. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1102,7 +1100,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code>MR::IFastWindingNumber</code> to a derived class <code>MR::FastWindingNumber</code>. This is a dynamic downcast, it checks the type before casting. This version will return zero if the target type is wrong. </p>
+<p>Downcasts an instance of <code>MR::IFastWindingNumber</code> to a derived class <code>MR::FastWindingNumber</code>. This is a dynamic downcast, it checks the type before casting. This version will return zero if the target type is wrong. The reference to the parameter <code>object</code> might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -1120,7 +1118,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code>MR::IFastWindingNumber</code> to a derived class <code>MR::FastWindingNumber</code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code>MR::IFastWindingNumber</code> to a derived class <code>MR::FastWindingNumber</code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. It is a single object. The reference to the parameter <code>object</code> might be preserved in the return value. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1138,7 +1136,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code>MR::IFastWindingNumber</code> to a derived class <code>MR::FastWindingNumber</code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. </p>
+<p>Downcasts an instance of <code>MR::IFastWindingNumber</code> to a derived class <code>MR::FastWindingNumber</code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <code>object</code> might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -1200,7 +1198,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code>MR::IFastWindingNumber</code> to a derived class <code>MR::FastWindingNumber</code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. </p>
+<p>Downcasts an instance of <code>MR::IFastWindingNumber</code> to a derived class <code>MR::FastWindingNumber</code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <code>object</code> might be preserved in the return value. </p>
 
 </div>
 </div>

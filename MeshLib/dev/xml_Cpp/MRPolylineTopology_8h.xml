@@ -102,6 +102,8 @@
       <node id="13">
         <label>MRVector.h</label>
         <link refid="MRVector_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
         <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
@@ -364,7 +366,7 @@
 <codeline lineno="123"><highlight class="normal"></highlight></codeline>
 <codeline lineno="125" refid="classMR_1_1PolylineTopology_1a0bf12143aa54becf163e3597b2516010" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>VertId<sp/><ref refid="classMR_1_1PolylineTopology_1a0bf12143aa54becf163e3597b2516010" kindref="member">lastValidVert</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="126"><highlight class="normal"></highlight></codeline>
-<codeline lineno="128" refid="classMR_1_1PolylineTopology_1abfb6e0044fbe8c29dd9114c691a687a7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>VertId<sp/><ref refid="classMR_1_1PolylineTopology_1abfb6e0044fbe8c29dd9114c691a687a7" kindref="member">addVertId</ref>()<sp/>{<sp/>edgePerVertex_.<ref refid="classMR_1_1Vector_1a78fa1b6365aa64b3aec65883530dc735" kindref="member">push_back</ref>(<sp/>{}<sp/>);<sp/>validVerts_.push_back(<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>);<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>VertId(<sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)edgePerVertex_.<ref refid="classMR_1_1Vector_1a2816ffd002bac70ab04d1bd18e2c5cfd" kindref="member">size</ref>()<sp/>-<sp/>1<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="128" refid="classMR_1_1PolylineTopology_1abfb6e0044fbe8c29dd9114c691a687a7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>VertId<sp/><ref refid="classMR_1_1PolylineTopology_1abfb6e0044fbe8c29dd9114c691a687a7" kindref="member">addVertId</ref>()<sp/>{<sp/>edgePerVertex_.<ref refid="classMR_1_1Vector_1a5ea16d2aeaa1f2e2d683aade3c67794c" kindref="member">push_back</ref>(<sp/>{}<sp/>);<sp/>validVerts_.push_back(<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>);<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>VertId(<sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)edgePerVertex_.<ref refid="classMR_1_1Vector_1a2816ffd002bac70ab04d1bd18e2c5cfd" kindref="member">size</ref>()<sp/>-<sp/>1<sp/>);<sp/>}</highlight></codeline>
 <codeline lineno="129"><highlight class="normal"></highlight></codeline>
 <codeline lineno="131" refid="classMR_1_1PolylineTopology_1a447fd988db6a06ad5dc3f52599bf4924" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1PolylineTopology_1a447fd988db6a06ad5dc3f52599bf4924" kindref="member">vertResize</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>newSize<sp/>);</highlight></codeline>
 <codeline lineno="132"><highlight class="normal"></highlight></codeline>

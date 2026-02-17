@@ -833,11 +833,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::VoxelsSave::SavingSettings</computeroutput> named <computeroutput>path</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::VoxelsSave::SavingSettings</computeroutput> named <computeroutput>path</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" line="172" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" declline="172" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" line="173" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" declline="173" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsSave_8h_1a03ad557405a5944fc590903962227704" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -863,7 +863,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" line="180" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" declline="180" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" line="181" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" declline="181" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsSave_8h_1a60965b7242c649b4d570490d880c2ebd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref> *</type>
@@ -877,11 +877,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::VoxelsSave::SavingSettings</computeroutput> named <computeroutput>path</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::VoxelsSave::SavingSettings</computeroutput> named <computeroutput>path</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" line="186" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" declline="186" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" line="188" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" declline="188" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsSave_8h_1a6687544166f2cdda5717add41cf0d378" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
@@ -895,11 +895,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::VoxelsSave::SavingSettings</computeroutput> named <computeroutput>format</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::VoxelsSave::SavingSettings</computeroutput> named <computeroutput>format</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" line="192" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" declline="192" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" line="195" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" declline="195" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsSave_8h_1a6ac7d9ed8dbe5bf07dc376e995a661c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -925,7 +925,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" line="201" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" declline="201" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" line="204" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" declline="204" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsSave_8h_1a2ab12ccfaafbe9ef83a98081999a1a38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
@@ -939,11 +939,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::VoxelsSave::SavingSettings</computeroutput> named <computeroutput>format</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::VoxelsSave::SavingSettings</computeroutput> named <computeroutput>format</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" line="207" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" declline="207" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" line="211" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" declline="211" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsSave_8h_1af39bf3db0aacd168986b672f31d297f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRVoxelPath_8h_1a5fefa7874fd77b5c87ee0874702f1ac2" kindref="member">MR_SlicePlane</ref> *</type>
@@ -957,11 +957,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::VoxelsSave::SavingSettings</computeroutput> named <computeroutput>slicePlane</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::VoxelsSave::SavingSettings</computeroutput> named <computeroutput>slicePlane</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" line="213" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" declline="213" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" line="218" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" declline="218" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsSave_8h_1a73edd1e759e1b7b494f8dc31aad12eb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -983,7 +983,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" line="220" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" declline="220" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" line="225" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" declline="225" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsSave_8h_1a3bd32594030b4c86afc918777bac72b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRVoxelPath_8h_1a5fefa7874fd77b5c87ee0874702f1ac2" kindref="member">MR_SlicePlane</ref> *</type>
@@ -997,11 +997,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::VoxelsSave::SavingSettings</computeroutput> named <computeroutput>slicePlane</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::VoxelsSave::SavingSettings</computeroutput> named <computeroutput>slicePlane</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" line="226" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" declline="226" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" line="232" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" declline="232" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsSave_8h_1ae0bee3616592ec5b1e4c0530b0c79bfd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
@@ -1015,11 +1015,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::VoxelsSave::SavingSettings</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::VoxelsSave::SavingSettings</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" line="232" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" declline="232" declcolumn="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" line="239" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" declline="239" declcolumn="47"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsSave_8h_1af858099459d42f759d24a7bb0a328806" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1045,7 +1045,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" line="239" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" declline="239" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" line="246" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" declline="246" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsSave_8h_1ac93f74394eeb9c2fe674c3490b0af324" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
@@ -1059,11 +1059,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::VoxelsSave::SavingSettings</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::VoxelsSave::SavingSettings</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" line="245" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" declline="245" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" line="253" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" declline="253" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsSave_8h_1ac450b67a29883268ea6825dee0cb5c7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref> *</type>
@@ -1080,7 +1080,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" line="249" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" declline="249" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" line="257" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" declline="257" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsSave_8h_1a1fec595b1c9f80b1ffa9f9291daede75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref> *</type>
@@ -1098,7 +1098,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" line="254" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" declline="254" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" line="262" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" declline="262" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsSave_8h_1aa6b50ebc77db1ce564b984384b1b09cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref> *</type>
@@ -1140,7 +1140,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" line="266" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" declline="266" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" line="274" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" declline="274" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsSave_8h_1a669dd407a56193d2bb6b0c5a9d6a3719" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref> *</type>
@@ -1162,7 +1162,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" line="270" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" declline="270" declcolumn="44"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" line="278" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" declline="278" declcolumn="44"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsSave_8h_1a576f56b32dfdd2906c8a85973a84c7bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref> *</type>
@@ -1184,7 +1184,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" line="274" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" declline="274" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" line="282" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" declline="282" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsSave_8h_1a02a822de385b5bda07673df16978ed7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref> *</type>
@@ -1206,7 +1206,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" line="279" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" declline="279" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" line="287" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" declline="287" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsSave_8h_1a8c22be71959ccb42aa9440a869daf0bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1224,7 +1224,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" line="282" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" declline="282" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" line="290" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" declline="290" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsSave_8h_1a3393498e5bb49cd9ccb83f79e3e8b1b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1242,7 +1242,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" line="285" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" declline="285" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" line="293" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" declline="293" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsSave_8h_1aaf12d77fff75d5982fecd80b7e5a298e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref> *</type>
@@ -1268,7 +1268,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" line="292" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" declline="292" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" line="300" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" declline="300" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsSave_8h_1a99a42d62095524e10fe9f09c949e8545" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
@@ -1290,7 +1290,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" line="299" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" declline="299" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" line="307" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" declline="307" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsSave_8h_1a70d96e6719fc2a42197dcc5aee065fb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
@@ -1320,7 +1320,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" line="306" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" declline="306" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" line="314" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h" declline="314" declcolumn="37"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1394,66 +1394,66 @@
 <codeline lineno="166" refid="MRVoxelsSave_8h_1a343bd1970402fb7fb50b8dcba5af42e3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRVoxelsSave_8h_1a343bd1970402fb7fb50b8dcba5af42e3" kindref="member">MR_VoxelsSave_saveSliceToImage</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/>*vdbVolume,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelPath_8h_1a5fefa7874fd77b5c87ee0874702f1ac2" kindref="member">MR_SlicePlane</ref><sp/>*slicePlain,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>sliceNumber,<sp/>MR_PassBy<sp/>callback_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*callback);</highlight></codeline>
 <codeline lineno="167"><highlight class="normal"></highlight></codeline>
 <codeline lineno="168"><highlight class="normal"></highlight><highlight class="comment">//<sp/>path<sp/>to<sp/>directory<sp/>where<sp/>you<sp/>want<sp/>to<sp/>save<sp/>images</highlight></codeline>
-<codeline lineno="172" refid="MRVoxelsSave_8h_1ab05ac627279e4ed7c9bbe782c4ecf146" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref><sp/>*<ref refid="MRVoxelsSave_8h_1ab05ac627279e4ed7c9bbe782c4ecf146" kindref="member">MR_VoxelsSave_SavingSettings_Get_path</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="173"><highlight class="normal"></highlight></codeline>
-<codeline lineno="174"><highlight class="normal"></highlight><highlight class="comment">//<sp/>path<sp/>to<sp/>directory<sp/>where<sp/>you<sp/>want<sp/>to<sp/>save<sp/>images</highlight></codeline>
-<codeline lineno="180" refid="MRVoxelsSave_8h_1a03ad557405a5944fc590903962227704" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsSave_8h_1a03ad557405a5944fc590903962227704" kindref="member">MR_VoxelsSave_SavingSettings_Set_path</ref>(<ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value_end);</highlight></codeline>
-<codeline lineno="181"><highlight class="normal"></highlight></codeline>
-<codeline lineno="182"><highlight class="normal"></highlight><highlight class="comment">//<sp/>path<sp/>to<sp/>directory<sp/>where<sp/>you<sp/>want<sp/>to<sp/>save<sp/>images</highlight></codeline>
-<codeline lineno="186" refid="MRVoxelsSave_8h_1a60965b7242c649b4d570490d880c2ebd" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref><sp/>*<ref refid="MRVoxelsSave_8h_1a60965b7242c649b4d570490d880c2ebd" kindref="member">MR_VoxelsSave_SavingSettings_GetMutable_path</ref>(<ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="187"><highlight class="normal"></highlight></codeline>
-<codeline lineno="188"><highlight class="normal"></highlight><highlight class="comment">//<sp/>format<sp/>for<sp/>file<sp/>names,<sp/>you<sp/>should<sp/>specify<sp/>a<sp/>placeholder<sp/>for<sp/>number<sp/>and<sp/>extension,<sp/>eg<sp/>&quot;slice_{0:0{1}}.tif&quot;</highlight></codeline>
-<codeline lineno="192" refid="MRVoxelsSave_8h_1a6687544166f2cdda5717add41cf0d378" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRVoxelsSave_8h_1a6687544166f2cdda5717add41cf0d378" kindref="member">MR_VoxelsSave_SavingSettings_Get_format</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="193"><highlight class="normal"></highlight></codeline>
-<codeline lineno="194"><highlight class="normal"></highlight><highlight class="comment">//<sp/>format<sp/>for<sp/>file<sp/>names,<sp/>you<sp/>should<sp/>specify<sp/>a<sp/>placeholder<sp/>for<sp/>number<sp/>and<sp/>extension,<sp/>eg<sp/>&quot;slice_{0:0{1}}.tif&quot;</highlight></codeline>
-<codeline lineno="201" refid="MRVoxelsSave_8h_1a6ac7d9ed8dbe5bf07dc376e995a661c0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsSave_8h_1a6ac7d9ed8dbe5bf07dc376e995a661c0" kindref="member">MR_VoxelsSave_SavingSettings_Set_format</ref>(<ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value_end);</highlight></codeline>
-<codeline lineno="202"><highlight class="normal"></highlight></codeline>
-<codeline lineno="203"><highlight class="normal"></highlight><highlight class="comment">//<sp/>format<sp/>for<sp/>file<sp/>names,<sp/>you<sp/>should<sp/>specify<sp/>a<sp/>placeholder<sp/>for<sp/>number<sp/>and<sp/>extension,<sp/>eg<sp/>&quot;slice_{0:0{1}}.tif&quot;</highlight></codeline>
-<codeline lineno="207" refid="MRVoxelsSave_8h_1a2ab12ccfaafbe9ef83a98081999a1a38" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRVoxelsSave_8h_1a2ab12ccfaafbe9ef83a98081999a1a38" kindref="member">MR_VoxelsSave_SavingSettings_GetMutable_format</ref>(<ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="208"><highlight class="normal"></highlight></codeline>
-<codeline lineno="209"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Plane<sp/>which<sp/>the<sp/>object<sp/>is<sp/>sliced<sp/>by.<sp/>XY,<sp/>XZ,<sp/>or<sp/>YZ</highlight></codeline>
-<codeline lineno="213" refid="MRVoxelsSave_8h_1af39bf3db0aacd168986b672f31d297f8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelPath_8h_1a5fefa7874fd77b5c87ee0874702f1ac2" kindref="member">MR_SlicePlane</ref><sp/>*<ref refid="MRVoxelsSave_8h_1af39bf3db0aacd168986b672f31d297f8" kindref="member">MR_VoxelsSave_SavingSettings_Get_slicePlane</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="214"><highlight class="normal"></highlight></codeline>
-<codeline lineno="215"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Plane<sp/>which<sp/>the<sp/>object<sp/>is<sp/>sliced<sp/>by.<sp/>XY,<sp/>XZ,<sp/>or<sp/>YZ</highlight></codeline>
-<codeline lineno="220" refid="MRVoxelsSave_8h_1a73edd1e759e1b7b494f8dc31aad12eb0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsSave_8h_1a73edd1e759e1b7b494f8dc31aad12eb0" kindref="member">MR_VoxelsSave_SavingSettings_Set_slicePlane</ref>(<ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*_this,<sp/><ref refid="MRVoxelPath_8h_1a5fefa7874fd77b5c87ee0874702f1ac2" kindref="member">MR_SlicePlane</ref><sp/>value);</highlight></codeline>
-<codeline lineno="221"><highlight class="normal"></highlight></codeline>
-<codeline lineno="222"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Plane<sp/>which<sp/>the<sp/>object<sp/>is<sp/>sliced<sp/>by.<sp/>XY,<sp/>XZ,<sp/>or<sp/>YZ</highlight></codeline>
-<codeline lineno="226" refid="MRVoxelsSave_8h_1a3bd32594030b4c86afc918777bac72b1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVoxelPath_8h_1a5fefa7874fd77b5c87ee0874702f1ac2" kindref="member">MR_SlicePlane</ref><sp/>*<ref refid="MRVoxelsSave_8h_1a3bd32594030b4c86afc918777bac72b1" kindref="member">MR_VoxelsSave_SavingSettings_GetMutable_slicePlane</ref>(<ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="227"><highlight class="normal"></highlight></codeline>
-<codeline lineno="228"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Callback<sp/>reporting<sp/>progress</highlight></codeline>
-<codeline lineno="232" refid="MRVoxelsSave_8h_1ae0bee3616592ec5b1e4c0530b0c79bfd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRVoxelsSave_8h_1ae0bee3616592ec5b1e4c0530b0c79bfd" kindref="member">MR_VoxelsSave_SavingSettings_Get_cb</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="173" refid="MRVoxelsSave_8h_1ab05ac627279e4ed7c9bbe782c4ecf146" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref><sp/>*<ref refid="MRVoxelsSave_8h_1ab05ac627279e4ed7c9bbe782c4ecf146" kindref="member">MR_VoxelsSave_SavingSettings_Get_path</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight><highlight class="comment">//<sp/>path<sp/>to<sp/>directory<sp/>where<sp/>you<sp/>want<sp/>to<sp/>save<sp/>images</highlight></codeline>
+<codeline lineno="181" refid="MRVoxelsSave_8h_1a03ad557405a5944fc590903962227704" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsSave_8h_1a03ad557405a5944fc590903962227704" kindref="member">MR_VoxelsSave_SavingSettings_Set_path</ref>(<ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value_end);</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight><highlight class="comment">//<sp/>path<sp/>to<sp/>directory<sp/>where<sp/>you<sp/>want<sp/>to<sp/>save<sp/>images</highlight></codeline>
+<codeline lineno="188" refid="MRVoxelsSave_8h_1a60965b7242c649b4d570490d880c2ebd" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref><sp/>*<ref refid="MRVoxelsSave_8h_1a60965b7242c649b4d570490d880c2ebd" kindref="member">MR_VoxelsSave_SavingSettings_GetMutable_path</ref>(<ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight><highlight class="comment">//<sp/>format<sp/>for<sp/>file<sp/>names,<sp/>you<sp/>should<sp/>specify<sp/>a<sp/>placeholder<sp/>for<sp/>number<sp/>and<sp/>extension,<sp/>eg<sp/>&quot;slice_{0:0{1}}.tif&quot;</highlight></codeline>
+<codeline lineno="195" refid="MRVoxelsSave_8h_1a6687544166f2cdda5717add41cf0d378" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRVoxelsSave_8h_1a6687544166f2cdda5717add41cf0d378" kindref="member">MR_VoxelsSave_SavingSettings_Get_format</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight><highlight class="comment">//<sp/>format<sp/>for<sp/>file<sp/>names,<sp/>you<sp/>should<sp/>specify<sp/>a<sp/>placeholder<sp/>for<sp/>number<sp/>and<sp/>extension,<sp/>eg<sp/>&quot;slice_{0:0{1}}.tif&quot;</highlight></codeline>
+<codeline lineno="204" refid="MRVoxelsSave_8h_1a6ac7d9ed8dbe5bf07dc376e995a661c0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsSave_8h_1a6ac7d9ed8dbe5bf07dc376e995a661c0" kindref="member">MR_VoxelsSave_SavingSettings_Set_format</ref>(<ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value_end);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight><highlight class="comment">//<sp/>format<sp/>for<sp/>file<sp/>names,<sp/>you<sp/>should<sp/>specify<sp/>a<sp/>placeholder<sp/>for<sp/>number<sp/>and<sp/>extension,<sp/>eg<sp/>&quot;slice_{0:0{1}}.tif&quot;</highlight></codeline>
+<codeline lineno="211" refid="MRVoxelsSave_8h_1a2ab12ccfaafbe9ef83a98081999a1a38" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRVoxelsSave_8h_1a2ab12ccfaafbe9ef83a98081999a1a38" kindref="member">MR_VoxelsSave_SavingSettings_GetMutable_format</ref>(<ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Plane<sp/>which<sp/>the<sp/>object<sp/>is<sp/>sliced<sp/>by.<sp/>XY,<sp/>XZ,<sp/>or<sp/>YZ</highlight></codeline>
+<codeline lineno="218" refid="MRVoxelsSave_8h_1af39bf3db0aacd168986b672f31d297f8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelPath_8h_1a5fefa7874fd77b5c87ee0874702f1ac2" kindref="member">MR_SlicePlane</ref><sp/>*<ref refid="MRVoxelsSave_8h_1af39bf3db0aacd168986b672f31d297f8" kindref="member">MR_VoxelsSave_SavingSettings_Get_slicePlane</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Plane<sp/>which<sp/>the<sp/>object<sp/>is<sp/>sliced<sp/>by.<sp/>XY,<sp/>XZ,<sp/>or<sp/>YZ</highlight></codeline>
+<codeline lineno="225" refid="MRVoxelsSave_8h_1a73edd1e759e1b7b494f8dc31aad12eb0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsSave_8h_1a73edd1e759e1b7b494f8dc31aad12eb0" kindref="member">MR_VoxelsSave_SavingSettings_Set_slicePlane</ref>(<ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*_this,<sp/><ref refid="MRVoxelPath_8h_1a5fefa7874fd77b5c87ee0874702f1ac2" kindref="member">MR_SlicePlane</ref><sp/>value);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Plane<sp/>which<sp/>the<sp/>object<sp/>is<sp/>sliced<sp/>by.<sp/>XY,<sp/>XZ,<sp/>or<sp/>YZ</highlight></codeline>
+<codeline lineno="232" refid="MRVoxelsSave_8h_1a3bd32594030b4c86afc918777bac72b1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVoxelPath_8h_1a5fefa7874fd77b5c87ee0874702f1ac2" kindref="member">MR_SlicePlane</ref><sp/>*<ref refid="MRVoxelsSave_8h_1a3bd32594030b4c86afc918777bac72b1" kindref="member">MR_VoxelsSave_SavingSettings_GetMutable_slicePlane</ref>(<ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="233"><highlight class="normal"></highlight></codeline>
 <codeline lineno="234"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Callback<sp/>reporting<sp/>progress</highlight></codeline>
-<codeline lineno="239" refid="MRVoxelsSave_8h_1af858099459d42f759d24a7bb0a328806" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsSave_8h_1af858099459d42f759d24a7bb0a328806" kindref="member">MR_VoxelsSave_SavingSettings_Set_cb</ref>(<ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="239" refid="MRVoxelsSave_8h_1ae0bee3616592ec5b1e4c0530b0c79bfd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRVoxelsSave_8h_1ae0bee3616592ec5b1e4c0530b0c79bfd" kindref="member">MR_VoxelsSave_SavingSettings_Get_cb</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="240"><highlight class="normal"></highlight></codeline>
 <codeline lineno="241"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Callback<sp/>reporting<sp/>progress</highlight></codeline>
-<codeline lineno="245" refid="MRVoxelsSave_8h_1ac93f74394eeb9c2fe674c3490b0af324" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRVoxelsSave_8h_1ac93f74394eeb9c2fe674c3490b0af324" kindref="member">MR_VoxelsSave_SavingSettings_GetMutable_cb</ref>(<ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="246"><highlight class="normal"></highlight></codeline>
-<codeline lineno="249" refid="MRVoxelsSave_8h_1ac450b67a29883268ea6825dee0cb5c7b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*<ref refid="MRVoxelsSave_8h_1ac450b67a29883268ea6825dee0cb5c7b" kindref="member">MR_VoxelsSave_SavingSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="250"><highlight class="normal"></highlight></codeline>
-<codeline lineno="254" refid="MRVoxelsSave_8h_1a1fec595b1c9f80b1ffa9f9291daede75" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*<ref refid="MRVoxelsSave_8h_1a1fec595b1c9f80b1ffa9f9291daede75" kindref="member">MR_VoxelsSave_SavingSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="255"><highlight class="normal"></highlight></codeline>
-<codeline lineno="266" refid="MRVoxelsSave_8h_1aa6b50ebc77db1ce564b984384b1b09cd" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*<ref refid="MRVoxelsSave_8h_1aa6b50ebc77db1ce564b984384b1b09cd" kindref="member">MR_VoxelsSave_SavingSettings_ConstructFrom</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*format,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*format_end,<sp/><ref refid="MRVoxelPath_8h_1a5fefa7874fd77b5c87ee0874702f1ac2" kindref="member">MR_SlicePlane</ref><sp/>slicePlane,<sp/>MR_PassBy<sp/>cb_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
-<codeline lineno="267"><highlight class="normal"></highlight></codeline>
-<codeline lineno="270" refid="MRVoxelsSave_8h_1a669dd407a56193d2bb6b0c5a9d6a3719" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*<ref refid="MRVoxelsSave_8h_1a669dd407a56193d2bb6b0c5a9d6a3719" kindref="member">MR_VoxelsSave_SavingSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="271"><highlight class="normal"></highlight></codeline>
-<codeline lineno="274" refid="MRVoxelsSave_8h_1a576f56b32dfdd2906c8a85973a84c7bc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*<ref refid="MRVoxelsSave_8h_1a576f56b32dfdd2906c8a85973a84c7bc" kindref="member">MR_VoxelsSave_SavingSettings_OffsetMutablePtr</ref>(<ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="246" refid="MRVoxelsSave_8h_1af858099459d42f759d24a7bb0a328806" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsSave_8h_1af858099459d42f759d24a7bb0a328806" kindref="member">MR_VoxelsSave_SavingSettings_Set_cb</ref>(<ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Callback<sp/>reporting<sp/>progress</highlight></codeline>
+<codeline lineno="253" refid="MRVoxelsSave_8h_1ac93f74394eeb9c2fe674c3490b0af324" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRVoxelsSave_8h_1ac93f74394eeb9c2fe674c3490b0af324" kindref="member">MR_VoxelsSave_SavingSettings_GetMutable_cb</ref>(<ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"></highlight></codeline>
+<codeline lineno="257" refid="MRVoxelsSave_8h_1ac450b67a29883268ea6825dee0cb5c7b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*<ref refid="MRVoxelsSave_8h_1ac450b67a29883268ea6825dee0cb5c7b" kindref="member">MR_VoxelsSave_SavingSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"></highlight></codeline>
+<codeline lineno="262" refid="MRVoxelsSave_8h_1a1fec595b1c9f80b1ffa9f9291daede75" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*<ref refid="MRVoxelsSave_8h_1a1fec595b1c9f80b1ffa9f9291daede75" kindref="member">MR_VoxelsSave_SavingSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight></codeline>
+<codeline lineno="274" refid="MRVoxelsSave_8h_1aa6b50ebc77db1ce564b984384b1b09cd" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*<ref refid="MRVoxelsSave_8h_1aa6b50ebc77db1ce564b984384b1b09cd" kindref="member">MR_VoxelsSave_SavingSettings_ConstructFrom</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*format,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*format_end,<sp/><ref refid="MRVoxelPath_8h_1a5fefa7874fd77b5c87ee0874702f1ac2" kindref="member">MR_SlicePlane</ref><sp/>slicePlane,<sp/>MR_PassBy<sp/>cb_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
 <codeline lineno="275"><highlight class="normal"></highlight></codeline>
-<codeline lineno="279" refid="MRVoxelsSave_8h_1a02a822de385b5bda07673df16978ed7c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*<ref refid="MRVoxelsSave_8h_1a02a822de385b5bda07673df16978ed7c" kindref="member">MR_VoxelsSave_SavingSettings_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="280"><highlight class="normal"></highlight></codeline>
-<codeline lineno="282" refid="MRVoxelsSave_8h_1a8c22be71959ccb42aa9440a869daf0bc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsSave_8h_1a8c22be71959ccb42aa9440a869daf0bc" kindref="member">MR_VoxelsSave_SavingSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="278" refid="MRVoxelsSave_8h_1a669dd407a56193d2bb6b0c5a9d6a3719" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*<ref refid="MRVoxelsSave_8h_1a669dd407a56193d2bb6b0c5a9d6a3719" kindref="member">MR_VoxelsSave_SavingSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"></highlight></codeline>
+<codeline lineno="282" refid="MRVoxelsSave_8h_1a576f56b32dfdd2906c8a85973a84c7bc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*<ref refid="MRVoxelsSave_8h_1a576f56b32dfdd2906c8a85973a84c7bc" kindref="member">MR_VoxelsSave_SavingSettings_OffsetMutablePtr</ref>(<ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="283"><highlight class="normal"></highlight></codeline>
-<codeline lineno="285" refid="MRVoxelsSave_8h_1a3393498e5bb49cd9ccb83f79e3e8b1b6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsSave_8h_1a3393498e5bb49cd9ccb83f79e3e8b1b6" kindref="member">MR_VoxelsSave_SavingSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="286"><highlight class="normal"></highlight></codeline>
-<codeline lineno="292" refid="MRVoxelsSave_8h_1aaf12d77fff75d5982fecd80b7e5a298e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*<ref refid="MRVoxelsSave_8h_1aaf12d77fff75d5982fecd80b7e5a298e" kindref="member">MR_VoxelsSave_SavingSettings_AssignFromAnother</ref>(<ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="293"><highlight class="normal"></highlight></codeline>
-<codeline lineno="299" refid="MRVoxelsSave_8h_1a99a42d62095524e10fe9f09c949e8545" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRVoxelsSave_8h_1a99a42d62095524e10fe9f09c949e8545" kindref="member">MR_VoxelsSave_saveAllSlicesToImage</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/>*vdbVolume,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*settings);</highlight></codeline>
-<codeline lineno="300"><highlight class="normal"></highlight></codeline>
-<codeline lineno="306" refid="MRVoxelsSave_8h_1a70d96e6719fc2a42197dcc5aee065fb0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRVoxelsSave_8h_1a70d96e6719fc2a42197dcc5aee065fb0" kindref="member">MR_saveObjectVoxelsToFile</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/>*settings);</highlight></codeline>
-<codeline lineno="307"><highlight class="normal"></highlight></codeline>
-<codeline lineno="308"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="309"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="310"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="287" refid="MRVoxelsSave_8h_1a02a822de385b5bda07673df16978ed7c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*<ref refid="MRVoxelsSave_8h_1a02a822de385b5bda07673df16978ed7c" kindref="member">MR_VoxelsSave_SavingSettings_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"></highlight></codeline>
+<codeline lineno="290" refid="MRVoxelsSave_8h_1a8c22be71959ccb42aa9440a869daf0bc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsSave_8h_1a8c22be71959ccb42aa9440a869daf0bc" kindref="member">MR_VoxelsSave_SavingSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight></codeline>
+<codeline lineno="293" refid="MRVoxelsSave_8h_1a3393498e5bb49cd9ccb83f79e3e8b1b6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsSave_8h_1a3393498e5bb49cd9ccb83f79e3e8b1b6" kindref="member">MR_VoxelsSave_SavingSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight></codeline>
+<codeline lineno="300" refid="MRVoxelsSave_8h_1aaf12d77fff75d5982fecd80b7e5a298e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*<ref refid="MRVoxelsSave_8h_1aaf12d77fff75d5982fecd80b7e5a298e" kindref="member">MR_VoxelsSave_SavingSettings_AssignFromAnother</ref>(<ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight></codeline>
+<codeline lineno="307" refid="MRVoxelsSave_8h_1a99a42d62095524e10fe9f09c949e8545" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRVoxelsSave_8h_1a99a42d62095524e10fe9f09c949e8545" kindref="member">MR_VoxelsSave_saveAllSlicesToImage</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/>*vdbVolume,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsSave_8h_1a4fbdf2733718be5c8a4eb6b77207c017" kindref="member">MR_VoxelsSave_SavingSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"></highlight></codeline>
+<codeline lineno="314" refid="MRVoxelsSave_8h_1a70d96e6719fc2a42197dcc5aee065fb0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRVoxelsSave_8h_1a70d96e6719fc2a42197dcc5aee065fb0" kindref="member">MR_saveObjectVoxelsToFile</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight></codeline>
+<codeline lineno="316"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="317"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="318"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsSave.h"/>
   </compounddef>

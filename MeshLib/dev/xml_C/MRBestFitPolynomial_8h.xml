@@ -3953,11 +3953,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::PolynomialWrapper&lt;float&gt;</computeroutput> named <computeroutput>poly</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::PolynomialWrapper&lt;float&gt;</computeroutput> named <computeroutput>poly</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" line="884" column="184" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" declline="884" declcolumn="184"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" line="885" column="184" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" declline="885" declcolumn="184"/>
       </memberdef>
       <memberdef kind="function" id="MRBestFitPolynomial_8h_1a5d9e4ff4595bedd68c2812df0e89ca0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -3983,7 +3983,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" line="890" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" declline="890" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" line="891" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" declline="891" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRBestFitPolynomial_8h_1ac4ff441ca52eb8e1dbffff500f0dbefa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRBestFitPolynomial_8h_1a27bc416448c93f18df2f616b9809c7fc" kindref="member">MR_std_variant_MR_Polynomial_float_0_MR_Polynomial_float_1_MR_Polynomial_float_2_MR_Polynomial_float_3_MR_Polynomial_float_4_MR_Polynomial_float_5_MR_Polynomial_float_6</ref> *</type>
@@ -3997,11 +3997,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::PolynomialWrapper&lt;float&gt;</computeroutput> named <computeroutput>poly</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::PolynomialWrapper&lt;float&gt;</computeroutput> named <computeroutput>poly</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" line="895" column="178" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" declline="895" declcolumn="178"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" line="897" column="178" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" declline="897" declcolumn="178"/>
       </memberdef>
       <memberdef kind="function" id="MRBestFitPolynomial_8h_1a68086d7b52e3992fdc10644ebc7b8e41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref> *</type>
@@ -4023,7 +4023,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" line="900" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" declline="900" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" line="902" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" declline="902" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRBestFitPolynomial_8h_1a7d753ce5b513c819bfa5bb8f4bf77ac7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref> *</type>
@@ -4045,7 +4045,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" line="904" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" declline="904" declcolumn="42"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" line="906" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" declline="906" declcolumn="42"/>
       </memberdef>
       <memberdef kind="function" id="MRBestFitPolynomial_8h_1a560f24685f2689ade3f22e0fbfac223b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref> *</type>
@@ -4067,7 +4067,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" line="908" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" declline="908" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" line="910" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" declline="910" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRBestFitPolynomial_8h_1a3a4eebc0fc9d4a38d6b74b6d525bf6c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -4085,7 +4085,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" line="911" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" declline="911" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" line="913" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" declline="913" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRBestFitPolynomial_8h_1a4af4b71f560d779d77cb6ca3d01b75ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -4103,7 +4103,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" line="914" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" declline="914" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" line="916" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" declline="916" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRBestFitPolynomial_8h_1a0095bc726e1baf3feb217092f9c03d31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref> *</type>
@@ -4129,7 +4129,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" line="921" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" declline="921" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" line="923" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" declline="923" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRBestFitPolynomial_8h_1af7fe10e60e4f03146fe92f512dc5d08c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float</type>
@@ -4151,7 +4151,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" line="925" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" declline="925" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" line="927" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" declline="927" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRBestFitPolynomial_8h_1ad66073bc8eafe8e806fddd646e11ed81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref> *</type>
@@ -4169,7 +4169,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" line="930" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" declline="930" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" line="932" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" declline="932" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRBestFitPolynomial_8h_1a82d3a4f51f5c4d18e0262bf161fe47b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRBestFitPolynomial_8h_1a55e42a260ef15081eb6a47c600bd1f4b" kindref="member">MR_std_optional_float</ref> *</type>
@@ -4195,7 +4195,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" line="935" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" declline="935" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" line="937" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" declline="937" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MRBestFitPolynomial_8h_1a7bd2967556b8b8d6db2e064677eb55f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref> *</type>
@@ -4209,11 +4209,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::PolynomialWrapper&lt;double&gt;</computeroutput> named <computeroutput>poly</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::PolynomialWrapper&lt;double&gt;</computeroutput> named <computeroutput>poly</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" line="940" column="191" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" declline="940" declcolumn="191"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" line="943" column="191" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" declline="943" declcolumn="191"/>
       </memberdef>
       <memberdef kind="function" id="MRBestFitPolynomial_8h_1aec218dc281dfa3aad1f4871573f9edec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -4239,7 +4239,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" line="946" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" declline="946" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" line="949" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" declline="949" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRBestFitPolynomial_8h_1a8c38311e78eed0e3617493072b4ef9e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref> *</type>
@@ -4253,11 +4253,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::PolynomialWrapper&lt;double&gt;</computeroutput> named <computeroutput>poly</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::PolynomialWrapper&lt;double&gt;</computeroutput> named <computeroutput>poly</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" line="951" column="185" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" declline="951" declcolumn="185"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" line="955" column="185" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" declline="955" declcolumn="185"/>
       </memberdef>
       <memberdef kind="function" id="MRBestFitPolynomial_8h_1a414243d7b35a882d09a92f4b2afc2ef4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRBestFitPolynomial_8h_1ac3af30efe5819f24c220d3352532dc42" kindref="member">MR_PolynomialWrapper_double</ref> *</type>
@@ -4279,7 +4279,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" line="956" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" declline="956" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" line="960" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" declline="960" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRBestFitPolynomial_8h_1afd616472e9671999539f5a90f2044b6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRBestFitPolynomial_8h_1ac3af30efe5819f24c220d3352532dc42" kindref="member">MR_PolynomialWrapper_double</ref> *</type>
@@ -4301,7 +4301,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" line="960" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" declline="960" declcolumn="43"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" line="964" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" declline="964" declcolumn="43"/>
       </memberdef>
       <memberdef kind="function" id="MRBestFitPolynomial_8h_1af4ed9e024a6cfbb86030f0e22d7e90fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRBestFitPolynomial_8h_1ac3af30efe5819f24c220d3352532dc42" kindref="member">MR_PolynomialWrapper_double</ref> *</type>
@@ -4323,7 +4323,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" line="964" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" declline="964" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" line="968" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" declline="968" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRBestFitPolynomial_8h_1ac726627ee0cf1d5ae1be741c86e29abb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -4341,7 +4341,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" line="967" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" declline="967" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" line="971" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" declline="971" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRBestFitPolynomial_8h_1a5e8e73efbef849889344655b7c11c87c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -4359,7 +4359,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" line="970" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" declline="970" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" line="974" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" declline="974" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRBestFitPolynomial_8h_1ab0c53722ffde15b7abf9f11c2c2425dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRBestFitPolynomial_8h_1ac3af30efe5819f24c220d3352532dc42" kindref="member">MR_PolynomialWrapper_double</ref> *</type>
@@ -4385,7 +4385,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" line="977" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" declline="977" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" line="981" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" declline="981" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRBestFitPolynomial_8h_1a861dfde8337289ee821add981deeff3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API double</type>
@@ -4407,7 +4407,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" line="981" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" declline="981" declcolumn="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" line="985" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" declline="985" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRBestFitPolynomial_8h_1ab6d507354e15a25c3945d9d77783aad3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRBestFitPolynomial_8h_1ac3af30efe5819f24c220d3352532dc42" kindref="member">MR_PolynomialWrapper_double</ref> *</type>
@@ -4425,7 +4425,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" line="986" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" declline="986" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" line="990" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" declline="990" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRBestFitPolynomial_8h_1aadac8d80d34e6844d823530ac00bcd29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRBestFitPolynomial_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref> *</type>
@@ -4451,7 +4451,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" line="991" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" declline="991" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" line="995" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h" declline="995" declcolumn="32"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -4891,57 +4891,57 @@
 <codeline lineno="875"><highlight class="normal"></highlight></codeline>
 <codeline lineno="879" refid="MRBestFitPolynomial_8h_1a3f7134846fbdfeeafe0d21f0e7c371e8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitPolynomial_8h_1ab05184a94b613a5e8f2dabe63e965894" kindref="member">MR_Polynomial_double_5</ref><sp/>*<ref refid="MRBestFitPolynomial_8h_1a3f7134846fbdfeeafe0d21f0e7c371e8" kindref="member">MR_Polynomial_double_6_deriv</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1a05dbbe62785a0355fcc5399722eba964" kindref="member">MR_Polynomial_double_6</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="880"><highlight class="normal"></highlight></codeline>
-<codeline lineno="884" refid="MRBestFitPolynomial_8h_1a94da1d6f02842600585e65efa5eb02a1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1a27bc416448c93f18df2f616b9809c7fc" kindref="member">MR_std_variant_MR_Polynomial_float_0_MR_Polynomial_float_1_MR_Polynomial_float_2_MR_Polynomial_float_3_MR_Polynomial_float_4_MR_Polynomial_float_5_MR_Polynomial_float_6</ref><sp/>*<ref refid="MRBestFitPolynomial_8h_1a94da1d6f02842600585e65efa5eb02a1" kindref="member">MR_PolynomialWrapper_float_Get_poly</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="885"><highlight class="normal"></highlight></codeline>
-<codeline lineno="890" refid="MRBestFitPolynomial_8h_1a5d9e4ff4595bedd68c2812df0e89ca0b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1a5d9e4ff4595bedd68c2812df0e89ca0b" kindref="member">MR_PolynomialWrapper_float_Set_poly</ref>(<ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRBestFitPolynomial_8h_1a27bc416448c93f18df2f616b9809c7fc" kindref="member">MR_std_variant_MR_Polynomial_float_0_MR_Polynomial_float_1_MR_Polynomial_float_2_MR_Polynomial_float_3_MR_Polynomial_float_4_MR_Polynomial_float_5_MR_Polynomial_float_6</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="891"><highlight class="normal"></highlight></codeline>
-<codeline lineno="895" refid="MRBestFitPolynomial_8h_1ac4ff441ca52eb8e1dbffff500f0dbefa" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitPolynomial_8h_1a27bc416448c93f18df2f616b9809c7fc" kindref="member">MR_std_variant_MR_Polynomial_float_0_MR_Polynomial_float_1_MR_Polynomial_float_2_MR_Polynomial_float_3_MR_Polynomial_float_4_MR_Polynomial_float_5_MR_Polynomial_float_6</ref><sp/>*<ref refid="MRBestFitPolynomial_8h_1ac4ff441ca52eb8e1dbffff500f0dbefa" kindref="member">MR_PolynomialWrapper_float_GetMutable_poly</ref>(<ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="896"><highlight class="normal"></highlight></codeline>
-<codeline lineno="900" refid="MRBestFitPolynomial_8h_1a68086d7b52e3992fdc10644ebc7b8e41" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref><sp/>*<ref refid="MRBestFitPolynomial_8h_1a68086d7b52e3992fdc10644ebc7b8e41" kindref="member">MR_PolynomialWrapper_float_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="901"><highlight class="normal"></highlight></codeline>
-<codeline lineno="904" refid="MRBestFitPolynomial_8h_1a7d753ce5b513c819bfa5bb8f4bf77ac7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref><sp/>*<ref refid="MRBestFitPolynomial_8h_1a7d753ce5b513c819bfa5bb8f4bf77ac7" kindref="member">MR_PolynomialWrapper_float_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="905"><highlight class="normal"></highlight></codeline>
-<codeline lineno="908" refid="MRBestFitPolynomial_8h_1a560f24685f2689ade3f22e0fbfac223b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref><sp/>*<ref refid="MRBestFitPolynomial_8h_1a560f24685f2689ade3f22e0fbfac223b" kindref="member">MR_PolynomialWrapper_float_OffsetMutablePtr</ref>(<ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="909"><highlight class="normal"></highlight></codeline>
-<codeline lineno="911" refid="MRBestFitPolynomial_8h_1a3a4eebc0fc9d4a38d6b74b6d525bf6c9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1a3a4eebc0fc9d4a38d6b74b6d525bf6c9" kindref="member">MR_PolynomialWrapper_float_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="912"><highlight class="normal"></highlight></codeline>
-<codeline lineno="914" refid="MRBestFitPolynomial_8h_1a4af4b71f560d779d77cb6ca3d01b75ac" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1a4af4b71f560d779d77cb6ca3d01b75ac" kindref="member">MR_PolynomialWrapper_float_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="915"><highlight class="normal"></highlight></codeline>
-<codeline lineno="921" refid="MRBestFitPolynomial_8h_1a0095bc726e1baf3feb217092f9c03d31" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref><sp/>*<ref refid="MRBestFitPolynomial_8h_1a0095bc726e1baf3feb217092f9c03d31" kindref="member">MR_PolynomialWrapper_float_AssignFromAnother</ref>(<ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="922"><highlight class="normal"></highlight></codeline>
-<codeline lineno="925" refid="MRBestFitPolynomial_8h_1af7fe10e60e4f03146fe92f512dc5d08c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1af7fe10e60e4f03146fe92f512dc5d08c" kindref="member">MR_PolynomialWrapper_float_call</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x);</highlight></codeline>
-<codeline lineno="926"><highlight class="normal"></highlight></codeline>
-<codeline lineno="930" refid="MRBestFitPolynomial_8h_1ad66073bc8eafe8e806fddd646e11ed81" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref><sp/>*<ref refid="MRBestFitPolynomial_8h_1ad66073bc8eafe8e806fddd646e11ed81" kindref="member">MR_PolynomialWrapper_float_deriv</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="931"><highlight class="normal"></highlight></codeline>
-<codeline lineno="935" refid="MRBestFitPolynomial_8h_1a82d3a4f51f5c4d18e0262bf161fe47b0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitPolynomial_8h_1a55e42a260ef15081eb6a47c600bd1f4b" kindref="member">MR_std_optional_float</ref><sp/>*<ref refid="MRBestFitPolynomial_8h_1a82d3a4f51f5c4d18e0262bf161fe47b0" kindref="member">MR_PolynomialWrapper_float_intervalMin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>a,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>b);</highlight></codeline>
-<codeline lineno="936"><highlight class="normal"></highlight></codeline>
-<codeline lineno="940" refid="MRBestFitPolynomial_8h_1a7bd2967556b8b8d6db2e064677eb55f1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref><sp/>*<ref refid="MRBestFitPolynomial_8h_1a7bd2967556b8b8d6db2e064677eb55f1" kindref="member">MR_PolynomialWrapper_double_Get_poly</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1ac3af30efe5819f24c220d3352532dc42" kindref="member">MR_PolynomialWrapper_double</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="941"><highlight class="normal"></highlight></codeline>
-<codeline lineno="946" refid="MRBestFitPolynomial_8h_1aec218dc281dfa3aad1f4871573f9edec" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1aec218dc281dfa3aad1f4871573f9edec" kindref="member">MR_PolynomialWrapper_double_Set_poly</ref>(<ref refid="MRBestFitPolynomial_8h_1ac3af30efe5819f24c220d3352532dc42" kindref="member">MR_PolynomialWrapper_double</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="947"><highlight class="normal"></highlight></codeline>
-<codeline lineno="951" refid="MRBestFitPolynomial_8h_1a8c38311e78eed0e3617493072b4ef9e0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref><sp/>*<ref refid="MRBestFitPolynomial_8h_1a8c38311e78eed0e3617493072b4ef9e0" kindref="member">MR_PolynomialWrapper_double_GetMutable_poly</ref>(<ref refid="MRBestFitPolynomial_8h_1ac3af30efe5819f24c220d3352532dc42" kindref="member">MR_PolynomialWrapper_double</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="952"><highlight class="normal"></highlight></codeline>
-<codeline lineno="956" refid="MRBestFitPolynomial_8h_1a414243d7b35a882d09a92f4b2afc2ef4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitPolynomial_8h_1ac3af30efe5819f24c220d3352532dc42" kindref="member">MR_PolynomialWrapper_double</ref><sp/>*<ref refid="MRBestFitPolynomial_8h_1a414243d7b35a882d09a92f4b2afc2ef4" kindref="member">MR_PolynomialWrapper_double_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRBestFitPolynomial_8h_1ac3af30efe5819f24c220d3352532dc42" kindref="member">MR_PolynomialWrapper_double</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="957"><highlight class="normal"></highlight></codeline>
-<codeline lineno="960" refid="MRBestFitPolynomial_8h_1afd616472e9671999539f5a90f2044b6f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1ac3af30efe5819f24c220d3352532dc42" kindref="member">MR_PolynomialWrapper_double</ref><sp/>*<ref refid="MRBestFitPolynomial_8h_1afd616472e9671999539f5a90f2044b6f" kindref="member">MR_PolynomialWrapper_double_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1ac3af30efe5819f24c220d3352532dc42" kindref="member">MR_PolynomialWrapper_double</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="885" refid="MRBestFitPolynomial_8h_1a94da1d6f02842600585e65efa5eb02a1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1a27bc416448c93f18df2f616b9809c7fc" kindref="member">MR_std_variant_MR_Polynomial_float_0_MR_Polynomial_float_1_MR_Polynomial_float_2_MR_Polynomial_float_3_MR_Polynomial_float_4_MR_Polynomial_float_5_MR_Polynomial_float_6</ref><sp/>*<ref refid="MRBestFitPolynomial_8h_1a94da1d6f02842600585e65efa5eb02a1" kindref="member">MR_PolynomialWrapper_float_Get_poly</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="886"><highlight class="normal"></highlight></codeline>
+<codeline lineno="891" refid="MRBestFitPolynomial_8h_1a5d9e4ff4595bedd68c2812df0e89ca0b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1a5d9e4ff4595bedd68c2812df0e89ca0b" kindref="member">MR_PolynomialWrapper_float_Set_poly</ref>(<ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRBestFitPolynomial_8h_1a27bc416448c93f18df2f616b9809c7fc" kindref="member">MR_std_variant_MR_Polynomial_float_0_MR_Polynomial_float_1_MR_Polynomial_float_2_MR_Polynomial_float_3_MR_Polynomial_float_4_MR_Polynomial_float_5_MR_Polynomial_float_6</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="892"><highlight class="normal"></highlight></codeline>
+<codeline lineno="897" refid="MRBestFitPolynomial_8h_1ac4ff441ca52eb8e1dbffff500f0dbefa" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitPolynomial_8h_1a27bc416448c93f18df2f616b9809c7fc" kindref="member">MR_std_variant_MR_Polynomial_float_0_MR_Polynomial_float_1_MR_Polynomial_float_2_MR_Polynomial_float_3_MR_Polynomial_float_4_MR_Polynomial_float_5_MR_Polynomial_float_6</ref><sp/>*<ref refid="MRBestFitPolynomial_8h_1ac4ff441ca52eb8e1dbffff500f0dbefa" kindref="member">MR_PolynomialWrapper_float_GetMutable_poly</ref>(<ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="898"><highlight class="normal"></highlight></codeline>
+<codeline lineno="902" refid="MRBestFitPolynomial_8h_1a68086d7b52e3992fdc10644ebc7b8e41" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref><sp/>*<ref refid="MRBestFitPolynomial_8h_1a68086d7b52e3992fdc10644ebc7b8e41" kindref="member">MR_PolynomialWrapper_float_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="903"><highlight class="normal"></highlight></codeline>
+<codeline lineno="906" refid="MRBestFitPolynomial_8h_1a7d753ce5b513c819bfa5bb8f4bf77ac7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref><sp/>*<ref refid="MRBestFitPolynomial_8h_1a7d753ce5b513c819bfa5bb8f4bf77ac7" kindref="member">MR_PolynomialWrapper_float_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="907"><highlight class="normal"></highlight></codeline>
+<codeline lineno="910" refid="MRBestFitPolynomial_8h_1a560f24685f2689ade3f22e0fbfac223b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref><sp/>*<ref refid="MRBestFitPolynomial_8h_1a560f24685f2689ade3f22e0fbfac223b" kindref="member">MR_PolynomialWrapper_float_OffsetMutablePtr</ref>(<ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="911"><highlight class="normal"></highlight></codeline>
+<codeline lineno="913" refid="MRBestFitPolynomial_8h_1a3a4eebc0fc9d4a38d6b74b6d525bf6c9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1a3a4eebc0fc9d4a38d6b74b6d525bf6c9" kindref="member">MR_PolynomialWrapper_float_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="914"><highlight class="normal"></highlight></codeline>
+<codeline lineno="916" refid="MRBestFitPolynomial_8h_1a4af4b71f560d779d77cb6ca3d01b75ac" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1a4af4b71f560d779d77cb6ca3d01b75ac" kindref="member">MR_PolynomialWrapper_float_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="917"><highlight class="normal"></highlight></codeline>
+<codeline lineno="923" refid="MRBestFitPolynomial_8h_1a0095bc726e1baf3feb217092f9c03d31" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref><sp/>*<ref refid="MRBestFitPolynomial_8h_1a0095bc726e1baf3feb217092f9c03d31" kindref="member">MR_PolynomialWrapper_float_AssignFromAnother</ref>(<ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="924"><highlight class="normal"></highlight></codeline>
+<codeline lineno="927" refid="MRBestFitPolynomial_8h_1af7fe10e60e4f03146fe92f512dc5d08c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1af7fe10e60e4f03146fe92f512dc5d08c" kindref="member">MR_PolynomialWrapper_float_call</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x);</highlight></codeline>
+<codeline lineno="928"><highlight class="normal"></highlight></codeline>
+<codeline lineno="932" refid="MRBestFitPolynomial_8h_1ad66073bc8eafe8e806fddd646e11ed81" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref><sp/>*<ref refid="MRBestFitPolynomial_8h_1ad66073bc8eafe8e806fddd646e11ed81" kindref="member">MR_PolynomialWrapper_float_deriv</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="933"><highlight class="normal"></highlight></codeline>
+<codeline lineno="937" refid="MRBestFitPolynomial_8h_1a82d3a4f51f5c4d18e0262bf161fe47b0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitPolynomial_8h_1a55e42a260ef15081eb6a47c600bd1f4b" kindref="member">MR_std_optional_float</ref><sp/>*<ref refid="MRBestFitPolynomial_8h_1a82d3a4f51f5c4d18e0262bf161fe47b0" kindref="member">MR_PolynomialWrapper_float_intervalMin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1ab0e7e49f1c53ebc35d3931e6577b95cb" kindref="member">MR_PolynomialWrapper_float</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>a,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>b);</highlight></codeline>
+<codeline lineno="938"><highlight class="normal"></highlight></codeline>
+<codeline lineno="943" refid="MRBestFitPolynomial_8h_1a7bd2967556b8b8d6db2e064677eb55f1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref><sp/>*<ref refid="MRBestFitPolynomial_8h_1a7bd2967556b8b8d6db2e064677eb55f1" kindref="member">MR_PolynomialWrapper_double_Get_poly</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1ac3af30efe5819f24c220d3352532dc42" kindref="member">MR_PolynomialWrapper_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="944"><highlight class="normal"></highlight></codeline>
+<codeline lineno="949" refid="MRBestFitPolynomial_8h_1aec218dc281dfa3aad1f4871573f9edec" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1aec218dc281dfa3aad1f4871573f9edec" kindref="member">MR_PolynomialWrapper_double_Set_poly</ref>(<ref refid="MRBestFitPolynomial_8h_1ac3af30efe5819f24c220d3352532dc42" kindref="member">MR_PolynomialWrapper_double</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="950"><highlight class="normal"></highlight></codeline>
+<codeline lineno="955" refid="MRBestFitPolynomial_8h_1a8c38311e78eed0e3617493072b4ef9e0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitPolynomial_8h_1abed0a03c3cb54fae5ccae629e374b64f" kindref="member">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</ref><sp/>*<ref refid="MRBestFitPolynomial_8h_1a8c38311e78eed0e3617493072b4ef9e0" kindref="member">MR_PolynomialWrapper_double_GetMutable_poly</ref>(<ref refid="MRBestFitPolynomial_8h_1ac3af30efe5819f24c220d3352532dc42" kindref="member">MR_PolynomialWrapper_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="956"><highlight class="normal"></highlight></codeline>
+<codeline lineno="960" refid="MRBestFitPolynomial_8h_1a414243d7b35a882d09a92f4b2afc2ef4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitPolynomial_8h_1ac3af30efe5819f24c220d3352532dc42" kindref="member">MR_PolynomialWrapper_double</ref><sp/>*<ref refid="MRBestFitPolynomial_8h_1a414243d7b35a882d09a92f4b2afc2ef4" kindref="member">MR_PolynomialWrapper_double_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRBestFitPolynomial_8h_1ac3af30efe5819f24c220d3352532dc42" kindref="member">MR_PolynomialWrapper_double</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="961"><highlight class="normal"></highlight></codeline>
-<codeline lineno="964" refid="MRBestFitPolynomial_8h_1af4ed9e024a6cfbb86030f0e22d7e90fd" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitPolynomial_8h_1ac3af30efe5819f24c220d3352532dc42" kindref="member">MR_PolynomialWrapper_double</ref><sp/>*<ref refid="MRBestFitPolynomial_8h_1af4ed9e024a6cfbb86030f0e22d7e90fd" kindref="member">MR_PolynomialWrapper_double_OffsetMutablePtr</ref>(<ref refid="MRBestFitPolynomial_8h_1ac3af30efe5819f24c220d3352532dc42" kindref="member">MR_PolynomialWrapper_double</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="964" refid="MRBestFitPolynomial_8h_1afd616472e9671999539f5a90f2044b6f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1ac3af30efe5819f24c220d3352532dc42" kindref="member">MR_PolynomialWrapper_double</ref><sp/>*<ref refid="MRBestFitPolynomial_8h_1afd616472e9671999539f5a90f2044b6f" kindref="member">MR_PolynomialWrapper_double_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1ac3af30efe5819f24c220d3352532dc42" kindref="member">MR_PolynomialWrapper_double</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="965"><highlight class="normal"></highlight></codeline>
-<codeline lineno="967" refid="MRBestFitPolynomial_8h_1ac726627ee0cf1d5ae1be741c86e29abb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1ac726627ee0cf1d5ae1be741c86e29abb" kindref="member">MR_PolynomialWrapper_double_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1ac3af30efe5819f24c220d3352532dc42" kindref="member">MR_PolynomialWrapper_double</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="968"><highlight class="normal"></highlight></codeline>
-<codeline lineno="970" refid="MRBestFitPolynomial_8h_1a5e8e73efbef849889344655b7c11c87c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1a5e8e73efbef849889344655b7c11c87c" kindref="member">MR_PolynomialWrapper_double_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1ac3af30efe5819f24c220d3352532dc42" kindref="member">MR_PolynomialWrapper_double</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="971"><highlight class="normal"></highlight></codeline>
-<codeline lineno="977" refid="MRBestFitPolynomial_8h_1ab0c53722ffde15b7abf9f11c2c2425dc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitPolynomial_8h_1ac3af30efe5819f24c220d3352532dc42" kindref="member">MR_PolynomialWrapper_double</ref><sp/>*<ref refid="MRBestFitPolynomial_8h_1ab0c53722ffde15b7abf9f11c2c2425dc" kindref="member">MR_PolynomialWrapper_double_AssignFromAnother</ref>(<ref refid="MRBestFitPolynomial_8h_1ac3af30efe5819f24c220d3352532dc42" kindref="member">MR_PolynomialWrapper_double</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRBestFitPolynomial_8h_1ac3af30efe5819f24c220d3352532dc42" kindref="member">MR_PolynomialWrapper_double</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="978"><highlight class="normal"></highlight></codeline>
-<codeline lineno="981" refid="MRBestFitPolynomial_8h_1a861dfde8337289ee821add981deeff3f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1a861dfde8337289ee821add981deeff3f" kindref="member">MR_PolynomialWrapper_double_call</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1ac3af30efe5819f24c220d3352532dc42" kindref="member">MR_PolynomialWrapper_double</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x);</highlight></codeline>
+<codeline lineno="968" refid="MRBestFitPolynomial_8h_1af4ed9e024a6cfbb86030f0e22d7e90fd" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitPolynomial_8h_1ac3af30efe5819f24c220d3352532dc42" kindref="member">MR_PolynomialWrapper_double</ref><sp/>*<ref refid="MRBestFitPolynomial_8h_1af4ed9e024a6cfbb86030f0e22d7e90fd" kindref="member">MR_PolynomialWrapper_double_OffsetMutablePtr</ref>(<ref refid="MRBestFitPolynomial_8h_1ac3af30efe5819f24c220d3352532dc42" kindref="member">MR_PolynomialWrapper_double</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="969"><highlight class="normal"></highlight></codeline>
+<codeline lineno="971" refid="MRBestFitPolynomial_8h_1ac726627ee0cf1d5ae1be741c86e29abb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1ac726627ee0cf1d5ae1be741c86e29abb" kindref="member">MR_PolynomialWrapper_double_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1ac3af30efe5819f24c220d3352532dc42" kindref="member">MR_PolynomialWrapper_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="972"><highlight class="normal"></highlight></codeline>
+<codeline lineno="974" refid="MRBestFitPolynomial_8h_1a5e8e73efbef849889344655b7c11c87c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1a5e8e73efbef849889344655b7c11c87c" kindref="member">MR_PolynomialWrapper_double_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1ac3af30efe5819f24c220d3352532dc42" kindref="member">MR_PolynomialWrapper_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="975"><highlight class="normal"></highlight></codeline>
+<codeline lineno="981" refid="MRBestFitPolynomial_8h_1ab0c53722ffde15b7abf9f11c2c2425dc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitPolynomial_8h_1ac3af30efe5819f24c220d3352532dc42" kindref="member">MR_PolynomialWrapper_double</ref><sp/>*<ref refid="MRBestFitPolynomial_8h_1ab0c53722ffde15b7abf9f11c2c2425dc" kindref="member">MR_PolynomialWrapper_double_AssignFromAnother</ref>(<ref refid="MRBestFitPolynomial_8h_1ac3af30efe5819f24c220d3352532dc42" kindref="member">MR_PolynomialWrapper_double</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRBestFitPolynomial_8h_1ac3af30efe5819f24c220d3352532dc42" kindref="member">MR_PolynomialWrapper_double</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="982"><highlight class="normal"></highlight></codeline>
-<codeline lineno="986" refid="MRBestFitPolynomial_8h_1ab6d507354e15a25c3945d9d77783aad3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitPolynomial_8h_1ac3af30efe5819f24c220d3352532dc42" kindref="member">MR_PolynomialWrapper_double</ref><sp/>*<ref refid="MRBestFitPolynomial_8h_1ab6d507354e15a25c3945d9d77783aad3" kindref="member">MR_PolynomialWrapper_double_deriv</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1ac3af30efe5819f24c220d3352532dc42" kindref="member">MR_PolynomialWrapper_double</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="987"><highlight class="normal"></highlight></codeline>
-<codeline lineno="991" refid="MRBestFitPolynomial_8h_1aadac8d80d34e6844d823530ac00bcd29" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitPolynomial_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref><sp/>*<ref refid="MRBestFitPolynomial_8h_1aadac8d80d34e6844d823530ac00bcd29" kindref="member">MR_PolynomialWrapper_double_intervalMin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1ac3af30efe5819f24c220d3352532dc42" kindref="member">MR_PolynomialWrapper_double</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>a,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>b);</highlight></codeline>
-<codeline lineno="992"><highlight class="normal"></highlight></codeline>
-<codeline lineno="993"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="994"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="995"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="985" refid="MRBestFitPolynomial_8h_1a861dfde8337289ee821add981deeff3f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1a861dfde8337289ee821add981deeff3f" kindref="member">MR_PolynomialWrapper_double_call</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1ac3af30efe5819f24c220d3352532dc42" kindref="member">MR_PolynomialWrapper_double</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x);</highlight></codeline>
+<codeline lineno="986"><highlight class="normal"></highlight></codeline>
+<codeline lineno="990" refid="MRBestFitPolynomial_8h_1ab6d507354e15a25c3945d9d77783aad3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitPolynomial_8h_1ac3af30efe5819f24c220d3352532dc42" kindref="member">MR_PolynomialWrapper_double</ref><sp/>*<ref refid="MRBestFitPolynomial_8h_1ab6d507354e15a25c3945d9d77783aad3" kindref="member">MR_PolynomialWrapper_double_deriv</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1ac3af30efe5819f24c220d3352532dc42" kindref="member">MR_PolynomialWrapper_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="991"><highlight class="normal"></highlight></codeline>
+<codeline lineno="995" refid="MRBestFitPolynomial_8h_1aadac8d80d34e6844d823530ac00bcd29" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitPolynomial_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref><sp/>*<ref refid="MRBestFitPolynomial_8h_1aadac8d80d34e6844d823530ac00bcd29" kindref="member">MR_PolynomialWrapper_double_intervalMin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1ac3af30efe5819f24c220d3352532dc42" kindref="member">MR_PolynomialWrapper_double</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>a,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>b);</highlight></codeline>
+<codeline lineno="996"><highlight class="normal"></highlight></codeline>
+<codeline lineno="997"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="998"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="999"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitPolynomial.h"/>
   </compounddef>

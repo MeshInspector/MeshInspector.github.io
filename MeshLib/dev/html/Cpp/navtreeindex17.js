@@ -1,5 +1,12 @@
 var NAVTREEINDEX17 =
 {
+"classMR_1_1CaptureUIScreenshotMenuItem.html":[6,0,2,0,2,84],
+"classMR_1_1CaptureUIScreenshotMenuItem.html#af47f0463a5fddbd41cf4ef90618083b1":[6,0,1,0,1,102,0],
+"classMR_1_1CaptureUIScreenshotMenuItem.html#af47f0463a5fddbd41cf4ef90618083b1":[6,0,2,0,2,84,0],
+"classMR_1_1CaptureUIScreenshotMenuItem.html#af569a69e5cab36addea77d7ad6a5df78":[6,0,1,0,1,102,1],
+"classMR_1_1CaptureUIScreenshotMenuItem.html#af569a69e5cab36addea77d7ad6a5df78":[6,0,2,0,2,84,1],
+"classMR_1_1ChangVoxelSelectionAction.html":[6,0,0,4,50],
+"classMR_1_1ChangeActiveBoxAction.html":[6,0,0,4,47],
 "classMR_1_1ChangeActiveBoxAction.html#a25b3ab2e8226cb91171a0128777eea34":[6,0,0,4,47,4],
 "classMR_1_1ChangeActiveBoxAction.html#a2caa2474b0606297a2f58c69be0994e4":[6,0,0,4,47,1],
 "classMR_1_1ChangeActiveBoxAction.html#a7fdeabeadb9c2e89e83a34c52576dba3":[6,0,0,4,47,3],
@@ -242,12 +249,5 @@ var NAVTREEINDEX17 =
 "classMR_1_1ChangeScaleAction.html#a5b30db2db48c27d37a14849a1b6b0dca":[6,0,0,4,26,1],
 "classMR_1_1ChangeScaleAction.html#a7ed6dd43bb4742c5a423190cdb2b8075":[6,0,0,4,26,0],
 "classMR_1_1ChangeSceneAction.html":[6,0,0,4,27],
-"classMR_1_1ChangeSceneAction.html#a1de30bd403835a03cc79234ac5f31280":[6,0,0,4,27,1],
-"classMR_1_1ChangeSceneAction.html#abe4134fb5816e6ed341b5b84526fe6c0":[6,0,0,4,27,2],
-"classMR_1_1ChangeSceneAction.html#ad1dec660d1132592b4ea2eb4ad53dda0":[6,0,0,4,27,4],
-"classMR_1_1ChangeSceneAction.html#ae23bede5fadd45b799171e142607c1d1":[6,0,0,4,27,0],
-"classMR_1_1ChangeSceneAction.html#ae23bede5fadd45b799171e142607c1d1a650a024818e022f05f44766109a5f846":[6,0,0,4,27,0,0],
-"classMR_1_1ChangeSceneAction.html#ae23bede5fadd45b799171e142607c1d1af0c405ca8e7eb2c3fa3d102bb69b75a9":[6,0,0,4,27,0,1],
-"classMR_1_1ChangeSceneAction.html#afc8063a119e30688b93c3e6d04cb77d2":[6,0,0,4,27,3],
-"classMR_1_1ChangeSceneObjectsOrder.html":[6,0,0,4,28]
+"classMR_1_1ChangeSceneAction.html#a1de30bd403835a03cc79234ac5f31280":[6,0,0,4,27,1]
 };

@@ -178,11 +178,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Upcasts an instance of <computeroutput>MR::ChangeNameAction</computeroutput> to its base class <computeroutput>MR::HistoryAction</computeroutput>. This version is acting on mutable pointers. </para>
+<para>Upcasts an instance of <computeroutput>MR::ChangeNameAction</computeroutput> to its base class <computeroutput>MR::HistoryAction</computeroutput>. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeNameAction.h" line="41" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeNameAction.h" declline="41" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeNameAction.h" line="42" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeNameAction.h" declline="42" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeNameAction_8h_1a6966a64dadb3eb0f65fdc5592b23ad0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
@@ -194,13 +194,13 @@
           <declname>object</declname>
         </param>
         <briefdescription>
-<para>Upcasts an instance of <computeroutput>MR::ChangeNameAction</computeroutput> to its base class <computeroutput>MR::HistoryAction</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
+<para>Upcasts an instance of <computeroutput>MR::ChangeNameAction</computeroutput> to its base class <computeroutput>MR::HistoryAction</computeroutput>. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeNameAction.h" line="44" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeNameAction.h" declline="44" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeNameAction.h" line="46" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeNameAction.h" declline="46" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeNameAction_8h_1a30f8f9a9c3de9928dedaad8a3e2e9677" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRChangeNameAction_8h_1af94722bc440c31a055f3776ce2a2d17d" kindref="member">MR_ChangeNameAction</ref> *</type>
@@ -230,7 +230,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeNameAction.h" line="53" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeNameAction.h" declline="53" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeNameAction.h" line="55" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeNameAction.h" declline="55" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeNameAction_8h_1ab80004b25f92f4ddceff31bbbefb1ceb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -248,7 +248,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeNameAction.h" line="56" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeNameAction.h" declline="56" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeNameAction.h" line="58" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeNameAction.h" declline="58" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeNameAction_8h_1a20c5633c3e586d8cc3ec0cc205174755" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -266,7 +266,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeNameAction.h" line="59" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeNameAction.h" declline="59" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeNameAction.h" line="61" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeNameAction.h" declline="61" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeNameAction_8h_1a57a45d0bcb6f788d7361775ec2a7ff14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRChangeNameAction_8h_1af94722bc440c31a055f3776ce2a2d17d" kindref="member">MR_ChangeNameAction</ref> *</type>
@@ -292,7 +292,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeNameAction.h" line="66" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeNameAction.h" declline="66" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeNameAction.h" line="68" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeNameAction.h" declline="68" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeNameAction_8h_1a893b6e35fd5e5058300b8914d3a26fdb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
@@ -310,7 +310,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeNameAction.h" line="71" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeNameAction.h" declline="71" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeNameAction.h" line="73" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeNameAction.h" declline="73" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeNameAction_8h_1afd19cc5cfcab5a29a92590dfdd10776d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -332,7 +332,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeNameAction.h" line="75" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeNameAction.h" declline="75" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeNameAction.h" line="77" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeNameAction.h" declline="77" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeNameAction_8h_1ada75a8e4f8776ea1ce990fdc516f4075" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API MR_uint64_t</type>
@@ -350,7 +350,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeNameAction.h" line="79" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeNameAction.h" declline="79" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeNameAction.h" line="81" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeNameAction.h" declline="81" declcolumn="21"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -383,27 +383,27 @@
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
 <codeline lineno="37" refid="MRChangeNameAction_8h_1a1f6b53699f66b7818388b9d61fcb5890" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeNameAction_8h_1af94722bc440c31a055f3776ce2a2d17d" kindref="member">MR_ChangeNameAction</ref><sp/>*<ref refid="MRChangeNameAction_8h_1a1f6b53699f66b7818388b9d61fcb5890" kindref="member">MR_ChangeNameAction_OffsetMutablePtr</ref>(<ref refid="MRChangeNameAction_8h_1af94722bc440c31a055f3776ce2a2d17d" kindref="member">MR_ChangeNameAction</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41" refid="MRChangeNameAction_8h_1a88fcd0d0a1dc4216768d26980cb06a5b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangeNameAction_8h_1a88fcd0d0a1dc4216768d26980cb06a5b" kindref="member">MR_ChangeNameAction_UpcastTo_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeNameAction_8h_1af94722bc440c31a055f3776ce2a2d17d" kindref="member">MR_ChangeNameAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="44" refid="MRChangeNameAction_8h_1a6966a64dadb3eb0f65fdc5592b23ad0d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangeNameAction_8h_1a6966a64dadb3eb0f65fdc5592b23ad0d" kindref="member">MR_ChangeNameAction_MutableUpcastTo_MR_HistoryAction</ref>(<ref refid="MRChangeNameAction_8h_1af94722bc440c31a055f3776ce2a2d17d" kindref="member">MR_ChangeNameAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="53" refid="MRChangeNameAction_8h_1a30f8f9a9c3de9928dedaad8a3e2e9677" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeNameAction_8h_1af94722bc440c31a055f3776ce2a2d17d" kindref="member">MR_ChangeNameAction</ref><sp/>*<ref refid="MRChangeNameAction_8h_1a30f8f9a9c3de9928dedaad8a3e2e9677" kindref="member">MR_ChangeNameAction_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*actionName,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*actionName_end,<sp/>MR_PassBy<sp/>obj_pass_by,<sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref><sp/>*obj);</highlight></codeline>
-<codeline lineno="54"><highlight class="normal"></highlight></codeline>
-<codeline lineno="56" refid="MRChangeNameAction_8h_1ab80004b25f92f4ddceff31bbbefb1ceb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeNameAction_8h_1ab80004b25f92f4ddceff31bbbefb1ceb" kindref="member">MR_ChangeNameAction_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeNameAction_8h_1af94722bc440c31a055f3776ce2a2d17d" kindref="member">MR_ChangeNameAction</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="57"><highlight class="normal"></highlight></codeline>
-<codeline lineno="59" refid="MRChangeNameAction_8h_1a20c5633c3e586d8cc3ec0cc205174755" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeNameAction_8h_1a20c5633c3e586d8cc3ec0cc205174755" kindref="member">MR_ChangeNameAction_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeNameAction_8h_1af94722bc440c31a055f3776ce2a2d17d" kindref="member">MR_ChangeNameAction</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="60"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66" refid="MRChangeNameAction_8h_1a57a45d0bcb6f788d7361775ec2a7ff14" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeNameAction_8h_1af94722bc440c31a055f3776ce2a2d17d" kindref="member">MR_ChangeNameAction</ref><sp/>*<ref refid="MRChangeNameAction_8h_1a57a45d0bcb6f788d7361775ec2a7ff14" kindref="member">MR_ChangeNameAction_AssignFromAnother</ref>(<ref refid="MRChangeNameAction_8h_1af94722bc440c31a055f3776ce2a2d17d" kindref="member">MR_ChangeNameAction</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRChangeNameAction_8h_1af94722bc440c31a055f3776ce2a2d17d" kindref="member">MR_ChangeNameAction</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="67"><highlight class="normal"></highlight></codeline>
-<codeline lineno="71" refid="MRChangeNameAction_8h_1a893b6e35fd5e5058300b8914d3a26fdb" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRChangeNameAction_8h_1a893b6e35fd5e5058300b8914d3a26fdb" kindref="member">MR_ChangeNameAction_name</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeNameAction_8h_1af94722bc440c31a055f3776ce2a2d17d" kindref="member">MR_ChangeNameAction</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="72"><highlight class="normal"></highlight></codeline>
-<codeline lineno="75" refid="MRChangeNameAction_8h_1afd19cc5cfcab5a29a92590dfdd10776d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeNameAction_8h_1afd19cc5cfcab5a29a92590dfdd10776d" kindref="member">MR_ChangeNameAction_action</ref>(<ref refid="MRChangeNameAction_8h_1af94722bc440c31a055f3776ce2a2d17d" kindref="member">MR_ChangeNameAction</ref><sp/>*_this,<sp/><ref refid="MRHistoryAction_8h_1a1412f92a5edcca34d4a7f907dd216741" kindref="member">MR_HistoryAction_Type</ref><sp/>_1);</highlight></codeline>
-<codeline lineno="76"><highlight class="normal"></highlight></codeline>
-<codeline lineno="79" refid="MRChangeNameAction_8h_1ada75a8e4f8776ea1ce990fdc516f4075" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRChangeNameAction_8h_1ada75a8e4f8776ea1ce990fdc516f4075" kindref="member">MR_ChangeNameAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeNameAction_8h_1af94722bc440c31a055f3776ce2a2d17d" kindref="member">MR_ChangeNameAction</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="80"><highlight class="normal"></highlight></codeline>
-<codeline lineno="81"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="82"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="83"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="42" refid="MRChangeNameAction_8h_1a88fcd0d0a1dc4216768d26980cb06a5b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangeNameAction_8h_1a88fcd0d0a1dc4216768d26980cb06a5b" kindref="member">MR_ChangeNameAction_UpcastTo_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeNameAction_8h_1af94722bc440c31a055f3776ce2a2d17d" kindref="member">MR_ChangeNameAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="MRChangeNameAction_8h_1a6966a64dadb3eb0f65fdc5592b23ad0d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangeNameAction_8h_1a6966a64dadb3eb0f65fdc5592b23ad0d" kindref="member">MR_ChangeNameAction_MutableUpcastTo_MR_HistoryAction</ref>(<ref refid="MRChangeNameAction_8h_1af94722bc440c31a055f3776ce2a2d17d" kindref="member">MR_ChangeNameAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="MRChangeNameAction_8h_1a30f8f9a9c3de9928dedaad8a3e2e9677" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeNameAction_8h_1af94722bc440c31a055f3776ce2a2d17d" kindref="member">MR_ChangeNameAction</ref><sp/>*<ref refid="MRChangeNameAction_8h_1a30f8f9a9c3de9928dedaad8a3e2e9677" kindref="member">MR_ChangeNameAction_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*actionName,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*actionName_end,<sp/>MR_PassBy<sp/>obj_pass_by,<sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref><sp/>*obj);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="MRChangeNameAction_8h_1ab80004b25f92f4ddceff31bbbefb1ceb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeNameAction_8h_1ab80004b25f92f4ddceff31bbbefb1ceb" kindref="member">MR_ChangeNameAction_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeNameAction_8h_1af94722bc440c31a055f3776ce2a2d17d" kindref="member">MR_ChangeNameAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="MRChangeNameAction_8h_1a20c5633c3e586d8cc3ec0cc205174755" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeNameAction_8h_1a20c5633c3e586d8cc3ec0cc205174755" kindref="member">MR_ChangeNameAction_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeNameAction_8h_1af94722bc440c31a055f3776ce2a2d17d" kindref="member">MR_ChangeNameAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="MRChangeNameAction_8h_1a57a45d0bcb6f788d7361775ec2a7ff14" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeNameAction_8h_1af94722bc440c31a055f3776ce2a2d17d" kindref="member">MR_ChangeNameAction</ref><sp/>*<ref refid="MRChangeNameAction_8h_1a57a45d0bcb6f788d7361775ec2a7ff14" kindref="member">MR_ChangeNameAction_AssignFromAnother</ref>(<ref refid="MRChangeNameAction_8h_1af94722bc440c31a055f3776ce2a2d17d" kindref="member">MR_ChangeNameAction</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRChangeNameAction_8h_1af94722bc440c31a055f3776ce2a2d17d" kindref="member">MR_ChangeNameAction</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="MRChangeNameAction_8h_1a893b6e35fd5e5058300b8914d3a26fdb" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRChangeNameAction_8h_1a893b6e35fd5e5058300b8914d3a26fdb" kindref="member">MR_ChangeNameAction_name</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeNameAction_8h_1af94722bc440c31a055f3776ce2a2d17d" kindref="member">MR_ChangeNameAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="MRChangeNameAction_8h_1afd19cc5cfcab5a29a92590dfdd10776d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeNameAction_8h_1afd19cc5cfcab5a29a92590dfdd10776d" kindref="member">MR_ChangeNameAction_action</ref>(<ref refid="MRChangeNameAction_8h_1af94722bc440c31a055f3776ce2a2d17d" kindref="member">MR_ChangeNameAction</ref><sp/>*_this,<sp/><ref refid="MRHistoryAction_8h_1a1412f92a5edcca34d4a7f907dd216741" kindref="member">MR_HistoryAction_Type</ref><sp/>_1);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="MRChangeNameAction_8h_1ada75a8e4f8776ea1ce990fdc516f4075" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRChangeNameAction_8h_1ada75a8e4f8776ea1ce990fdc516f4075" kindref="member">MR_ChangeNameAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeNameAction_8h_1af94722bc440c31a055f3776ce2a2d17d" kindref="member">MR_ChangeNameAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeNameAction.h"/>
   </compounddef>

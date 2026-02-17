@@ -115,11 +115,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::Cylinder3f</computeroutput> named <computeroutput>mainAxis</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::Cylinder3f</computeroutput> named <computeroutput>mainAxis</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="32" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="32" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="33" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="33" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRCylinder3_8h_1a7162ebec09fb9b5488bffd0b752c6682" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -141,7 +141,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="39" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="39" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="40" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="40" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRCylinder3_8h_1a348b2f72c4b3e09ea19c05707f8b8cf2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRBestFit_8h_1aca1d803422d4caa25c56d04a67efbc52" kindref="member">MR_Line3f</ref> *</type>
@@ -155,11 +155,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::Cylinder3f</computeroutput> named <computeroutput>mainAxis</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::Cylinder3f</computeroutput> named <computeroutput>mainAxis</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="44" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="44" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="46" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="46" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRCylinder3_8h_1a5d0bf2dc5d8fe80257782e7b14795488" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const float *</type>
@@ -173,11 +173,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::Cylinder3f</computeroutput> named <computeroutput>radius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::Cylinder3f</computeroutput> named <computeroutput>radius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="49" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="49" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="52" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="52" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRCylinder3_8h_1aafb86f71c09763f9f0ce3d001895c000" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -199,7 +199,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="54" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="54" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="57" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="57" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRCylinder3_8h_1a5f00226fd2d2c73f238c0e691146c9a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float *</type>
@@ -213,11 +213,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::Cylinder3f</computeroutput> named <computeroutput>radius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::Cylinder3f</computeroutput> named <computeroutput>radius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="59" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="59" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="63" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="63" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRCylinder3_8h_1ab0d07f86013b4f797aca0498b4036385" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const float *</type>
@@ -231,11 +231,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::Cylinder3f</computeroutput> named <computeroutput>length</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::Cylinder3f</computeroutput> named <computeroutput>length</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="64" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="64" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="69" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="69" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRCylinder3_8h_1a6042d6e78b1a5a8ac2235b314120b4ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -257,7 +257,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="69" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="69" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="74" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="74" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRCylinder3_8h_1a579cb51807cbaa76383beca620f51410" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float *</type>
@@ -271,11 +271,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::Cylinder3f</computeroutput> named <computeroutput>length</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::Cylinder3f</computeroutput> named <computeroutput>length</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="74" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="74" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="80" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="80" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRCylinder3_8h_1a8fc6abb69c7460d2d0a5cdf49fbe16c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref> *</type>
@@ -292,7 +292,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="78" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="78" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="84" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="84" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRCylinder3_8h_1a7bb0cd061f659438a73acddf52712ac6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref> *</type>
@@ -310,7 +310,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="83" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="83" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="89" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="89" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRCylinder3_8h_1ab903a09bc51baf93a83c911b065ba1f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref> *</type>
@@ -332,7 +332,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="87" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="87" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="93" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="93" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRCylinder3_8h_1a53e9d6b9e04c77ef589dfb81639fd159" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref> *</type>
@@ -354,7 +354,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="91" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="91" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="97" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="97" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRCylinder3_8h_1afcdb60a83e6e6f1b8331162c004efe1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref> *</type>
@@ -372,7 +372,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="97" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="97" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="103" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="103" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRCylinder3_8h_1a66fbe3d1d0e55b8d6e5acce9a373ae3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref> *</type>
@@ -402,7 +402,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="105" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="105" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="111" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="111" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRCylinder3_8h_1a91ac0b911d91be008209a9cd9646f2d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref> *</type>
@@ -428,7 +428,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="111" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="111" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="117" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="117" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRCylinder3_8h_1a02a7f692713dc561ea61030a1cafaae9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -446,7 +446,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="114" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="114" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="120" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="120" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRCylinder3_8h_1afb24498725c7dc0bd6a09394b437ba1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -464,7 +464,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="117" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="117" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="123" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="123" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRCylinder3_8h_1a2538e1c1ea08e0749887df6d2bc7ae37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref> *</type>
@@ -486,7 +486,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="125" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="125" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="131" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="131" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRCylinder3_8h_1a78cd957357c841211804b68217890628" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
@@ -504,7 +504,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="130" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="130" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="136" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="136" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRCylinder3_8h_1ad705ea947c2da9a0ca2d7d66a9b71bb8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
@@ -522,7 +522,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="135" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="135" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="141" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="141" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRCylinder3_8h_1aac8983cea36af60b010b64bb02033743" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
@@ -540,7 +540,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="140" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="140" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="146" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="146" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRCylinder3_8h_1ab70a934502831d2e7ce478f012836e86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
@@ -558,7 +558,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="145" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="145" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="151" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="151" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRCylinder3_8h_1a1998ceeb2d2b1c2f05213e9a91eaa475" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRBestFit_8h_1ac137600e53e2a5c6efea3c61034a1a95" kindref="member">MR_Line3d</ref> *</type>
@@ -572,11 +572,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::Cylinder3d</computeroutput> named <computeroutput>mainAxis</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::Cylinder3d</computeroutput> named <computeroutput>mainAxis</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="150" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="150" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="157" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="157" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRCylinder3_8h_1ae1a73561ed9b8a8ccb849d5e093a6371" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -598,7 +598,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="157" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="157" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="164" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="164" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRCylinder3_8h_1a544b30557adbc80dbec845e8151a3740" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRBestFit_8h_1ac137600e53e2a5c6efea3c61034a1a95" kindref="member">MR_Line3d</ref> *</type>
@@ -612,11 +612,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::Cylinder3d</computeroutput> named <computeroutput>mainAxis</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::Cylinder3d</computeroutput> named <computeroutput>mainAxis</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="162" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="162" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="170" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="170" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRCylinder3_8h_1a32854aef6af4985f870cad926100d5f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const double *</type>
@@ -630,11 +630,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::Cylinder3d</computeroutput> named <computeroutput>radius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::Cylinder3d</computeroutput> named <computeroutput>radius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="167" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="167" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="176" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="176" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRCylinder3_8h_1afe1225e7d00b83433f3f3944f1d28938" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -656,7 +656,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="172" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="172" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="181" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="181" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRCylinder3_8h_1a52bd04a26435114207e6474c80aaaa24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API double *</type>
@@ -670,11 +670,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::Cylinder3d</computeroutput> named <computeroutput>radius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::Cylinder3d</computeroutput> named <computeroutput>radius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="177" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="177" declcolumn="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="187" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="187" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRCylinder3_8h_1a399f36148f43bba0697fc600a7baf1bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const double *</type>
@@ -688,11 +688,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::Cylinder3d</computeroutput> named <computeroutput>length</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::Cylinder3d</computeroutput> named <computeroutput>length</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="182" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="182" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="193" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="193" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRCylinder3_8h_1a9d2e67cf734b056946bc99457ab64d03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -714,7 +714,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="187" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="187" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="198" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="198" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRCylinder3_8h_1abcf55a64061bf471789a293bd887c0d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API double *</type>
@@ -728,11 +728,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::Cylinder3d</computeroutput> named <computeroutput>length</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::Cylinder3d</computeroutput> named <computeroutput>length</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="192" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="192" declcolumn="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="204" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="204" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRCylinder3_8h_1ab5340d259a1732a010792885f35ea2bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref> *</type>
@@ -749,7 +749,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="196" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="196" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="208" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="208" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRCylinder3_8h_1a275bdbff379e73180d78cdbd3c240cad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref> *</type>
@@ -767,7 +767,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="201" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="201" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="213" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="213" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRCylinder3_8h_1a08eb5433790040caafd4d21d424e264d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref> *</type>
@@ -789,7 +789,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="205" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="205" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="217" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="217" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRCylinder3_8h_1a439a18425f9c7d96fd83571842d1880b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref> *</type>
@@ -811,7 +811,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="209" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="209" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="221" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="221" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRCylinder3_8h_1aeaf2835c8a642bd3c0c45223a6ac4aa4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref> *</type>
@@ -829,7 +829,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="215" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="215" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="227" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="227" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRCylinder3_8h_1a1a37772d2071757e64670c19c52dd2eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref> *</type>
@@ -859,7 +859,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="223" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="223" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="235" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="235" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRCylinder3_8h_1aae5b86521a8f909f9901b7c619944d4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref> *</type>
@@ -885,7 +885,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="229" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="229" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="241" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="241" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRCylinder3_8h_1a3957a55a3fc8c56bbe5d903c8eab218e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -903,7 +903,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="232" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="232" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="244" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="244" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRCylinder3_8h_1aa8b499ea7d9ed3e8f885315bdff4199b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -921,7 +921,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="235" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="235" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="247" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="247" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRCylinder3_8h_1a77be0a859a19cabe4553a6cac2c489cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref> *</type>
@@ -943,7 +943,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="243" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="243" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="255" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="255" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRCylinder3_8h_1a2959f6cd6877f24a8773ec527655e98c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
@@ -961,7 +961,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="248" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="248" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="260" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="260" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRCylinder3_8h_1a1767f1f1176fe85016362988a441abac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
@@ -979,7 +979,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="253" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="253" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="265" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="265" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRCylinder3_8h_1a761bc064fa5d4ee9787296289985f747" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
@@ -997,7 +997,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="258" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="258" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="270" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="270" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRCylinder3_8h_1af0e59472aa0b2d597bcd29c3e8e5bc95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
@@ -1015,7 +1015,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="263" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="263" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" line="275" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h" declline="275" declcolumn="27"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1047,101 +1047,101 @@
 <codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//<sp/>TODO:<sp/>Cylinder3<sp/>could<sp/>be<sp/>infinite.<sp/>For<sp/>example<sp/>for<sp/>infinite<sp/>Cylinder3<sp/>we<sp/>could<sp/>use<sp/>negative<sp/>length<sp/>or<sp/>length<sp/>=<sp/>-1</highlight></codeline>
 <codeline lineno="27" refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/><ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref>;</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32" refid="MRCylinder3_8h_1a8544a3e2d1ec17590bbee4d0d80e8425" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aca1d803422d4caa25c56d04a67efbc52" kindref="member">MR_Line3f</ref><sp/>*<ref refid="MRCylinder3_8h_1a8544a3e2d1ec17590bbee4d0d80e8425" kindref="member">MR_Cylinder3f_Get_mainAxis</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39" refid="MRCylinder3_8h_1a7162ebec09fb9b5488bffd0b752c6682" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a7162ebec09fb9b5488bffd0b752c6682" kindref="member">MR_Cylinder3f_Set_mainAxis</ref>(<ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aca1d803422d4caa25c56d04a67efbc52" kindref="member">MR_Line3f</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="44" refid="MRCylinder3_8h_1a348b2f72c4b3e09ea19c05707f8b8cf2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1aca1d803422d4caa25c56d04a67efbc52" kindref="member">MR_Line3f</ref><sp/>*<ref refid="MRCylinder3_8h_1a348b2f72c4b3e09ea19c05707f8b8cf2" kindref="member">MR_Cylinder3f_GetMutable_mainAxis</ref>(<ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="49" refid="MRCylinder3_8h_1a5d0bf2dc5d8fe80257782e7b14795488" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRCylinder3_8h_1a5d0bf2dc5d8fe80257782e7b14795488" kindref="member">MR_Cylinder3f_Get_radius</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="50"><highlight class="normal"></highlight></codeline>
-<codeline lineno="54" refid="MRCylinder3_8h_1aafb86f71c09763f9f0ce3d001895c000" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1aafb86f71c09763f9f0ce3d001895c000" kindref="member">MR_Cylinder3f_Set_radius</ref>(<ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="55"><highlight class="normal"></highlight></codeline>
-<codeline lineno="59" refid="MRCylinder3_8h_1a5f00226fd2d2c73f238c0e691146c9a6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRCylinder3_8h_1a5f00226fd2d2c73f238c0e691146c9a6" kindref="member">MR_Cylinder3f_GetMutable_radius</ref>(<ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="60"><highlight class="normal"></highlight></codeline>
-<codeline lineno="64" refid="MRCylinder3_8h_1ab0d07f86013b4f797aca0498b4036385" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRCylinder3_8h_1ab0d07f86013b4f797aca0498b4036385" kindref="member">MR_Cylinder3f_Get_length</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="65"><highlight class="normal"></highlight></codeline>
-<codeline lineno="69" refid="MRCylinder3_8h_1a6042d6e78b1a5a8ac2235b314120b4ae" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a6042d6e78b1a5a8ac2235b314120b4ae" kindref="member">MR_Cylinder3f_Set_length</ref>(<ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="33" refid="MRCylinder3_8h_1a8544a3e2d1ec17590bbee4d0d80e8425" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aca1d803422d4caa25c56d04a67efbc52" kindref="member">MR_Line3f</ref><sp/>*<ref refid="MRCylinder3_8h_1a8544a3e2d1ec17590bbee4d0d80e8425" kindref="member">MR_Cylinder3f_Get_mainAxis</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="MRCylinder3_8h_1a7162ebec09fb9b5488bffd0b752c6682" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a7162ebec09fb9b5488bffd0b752c6682" kindref="member">MR_Cylinder3f_Set_mainAxis</ref>(<ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aca1d803422d4caa25c56d04a67efbc52" kindref="member">MR_Line3f</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="MRCylinder3_8h_1a348b2f72c4b3e09ea19c05707f8b8cf2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1aca1d803422d4caa25c56d04a67efbc52" kindref="member">MR_Line3f</ref><sp/>*<ref refid="MRCylinder3_8h_1a348b2f72c4b3e09ea19c05707f8b8cf2" kindref="member">MR_Cylinder3f_GetMutable_mainAxis</ref>(<ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="MRCylinder3_8h_1a5d0bf2dc5d8fe80257782e7b14795488" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRCylinder3_8h_1a5d0bf2dc5d8fe80257782e7b14795488" kindref="member">MR_Cylinder3f_Get_radius</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="MRCylinder3_8h_1aafb86f71c09763f9f0ce3d001895c000" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1aafb86f71c09763f9f0ce3d001895c000" kindref="member">MR_Cylinder3f_Set_radius</ref>(<ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="MRCylinder3_8h_1a5f00226fd2d2c73f238c0e691146c9a6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRCylinder3_8h_1a5f00226fd2d2c73f238c0e691146c9a6" kindref="member">MR_Cylinder3f_GetMutable_radius</ref>(<ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="MRCylinder3_8h_1ab0d07f86013b4f797aca0498b4036385" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRCylinder3_8h_1ab0d07f86013b4f797aca0498b4036385" kindref="member">MR_Cylinder3f_Get_length</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="70"><highlight class="normal"></highlight></codeline>
-<codeline lineno="74" refid="MRCylinder3_8h_1a579cb51807cbaa76383beca620f51410" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRCylinder3_8h_1a579cb51807cbaa76383beca620f51410" kindref="member">MR_Cylinder3f_GetMutable_length</ref>(<ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="74" refid="MRCylinder3_8h_1a6042d6e78b1a5a8ac2235b314120b4ae" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a6042d6e78b1a5a8ac2235b314120b4ae" kindref="member">MR_Cylinder3f_Set_length</ref>(<ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
-<codeline lineno="78" refid="MRCylinder3_8h_1a8fc6abb69c7460d2d0a5cdf49fbe16c2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*<ref refid="MRCylinder3_8h_1a8fc6abb69c7460d2d0a5cdf49fbe16c2" kindref="member">MR_Cylinder3f_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="79"><highlight class="normal"></highlight></codeline>
-<codeline lineno="83" refid="MRCylinder3_8h_1a7bb0cd061f659438a73acddf52712ac6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*<ref refid="MRCylinder3_8h_1a7bb0cd061f659438a73acddf52712ac6" kindref="member">MR_Cylinder3f_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="84"><highlight class="normal"></highlight></codeline>
-<codeline lineno="87" refid="MRCylinder3_8h_1ab903a09bc51baf93a83c911b065ba1f6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*<ref refid="MRCylinder3_8h_1ab903a09bc51baf93a83c911b065ba1f6" kindref="member">MR_Cylinder3f_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="88"><highlight class="normal"></highlight></codeline>
-<codeline lineno="91" refid="MRCylinder3_8h_1a53e9d6b9e04c77ef589dfb81639fd159" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*<ref refid="MRCylinder3_8h_1a53e9d6b9e04c77ef589dfb81639fd159" kindref="member">MR_Cylinder3f_OffsetMutablePtr</ref>(<ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="92"><highlight class="normal"></highlight></codeline>
-<codeline lineno="97" refid="MRCylinder3_8h_1afcdb60a83e6e6f1b8331162c004efe1f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*<ref refid="MRCylinder3_8h_1afcdb60a83e6e6f1b8331162c004efe1f" kindref="member">MR_Cylinder3f_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="80" refid="MRCylinder3_8h_1a579cb51807cbaa76383beca620f51410" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRCylinder3_8h_1a579cb51807cbaa76383beca620f51410" kindref="member">MR_Cylinder3f_GetMutable_length</ref>(<ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="MRCylinder3_8h_1a8fc6abb69c7460d2d0a5cdf49fbe16c2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*<ref refid="MRCylinder3_8h_1a8fc6abb69c7460d2d0a5cdf49fbe16c2" kindref="member">MR_Cylinder3f_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="MRCylinder3_8h_1a7bb0cd061f659438a73acddf52712ac6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*<ref refid="MRCylinder3_8h_1a7bb0cd061f659438a73acddf52712ac6" kindref="member">MR_Cylinder3f_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="MRCylinder3_8h_1ab903a09bc51baf93a83c911b065ba1f6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*<ref refid="MRCylinder3_8h_1ab903a09bc51baf93a83c911b065ba1f6" kindref="member">MR_Cylinder3f_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97" refid="MRCylinder3_8h_1a53e9d6b9e04c77ef589dfb81639fd159" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*<ref refid="MRCylinder3_8h_1a53e9d6b9e04c77ef589dfb81639fd159" kindref="member">MR_Cylinder3f_OffsetMutablePtr</ref>(<ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="98"><highlight class="normal"></highlight></codeline>
-<codeline lineno="105" refid="MRCylinder3_8h_1a66fbe3d1d0e55b8d6e5acce9a373ae3e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*<ref refid="MRCylinder3_8h_1a66fbe3d1d0e55b8d6e5acce9a373ae3e" kindref="member">MR_Cylinder3f_Construct_4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*inCenter,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*inDirectoin,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>inRadius,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>inLength);</highlight></codeline>
-<codeline lineno="106"><highlight class="normal"></highlight></codeline>
-<codeline lineno="111" refid="MRCylinder3_8h_1a91ac0b911d91be008209a9cd9646f2d7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*<ref refid="MRCylinder3_8h_1a91ac0b911d91be008209a9cd9646f2d7" kindref="member">MR_Cylinder3f_Construct_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aca1d803422d4caa25c56d04a67efbc52" kindref="member">MR_Line3f</ref><sp/>*inAxis,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>inRadius,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>inLength);</highlight></codeline>
+<codeline lineno="103" refid="MRCylinder3_8h_1afcdb60a83e6e6f1b8331162c004efe1f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*<ref refid="MRCylinder3_8h_1afcdb60a83e6e6f1b8331162c004efe1f" kindref="member">MR_Cylinder3f_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111" refid="MRCylinder3_8h_1a66fbe3d1d0e55b8d6e5acce9a373ae3e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*<ref refid="MRCylinder3_8h_1a66fbe3d1d0e55b8d6e5acce9a373ae3e" kindref="member">MR_Cylinder3f_Construct_4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*inCenter,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*inDirectoin,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>inRadius,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>inLength);</highlight></codeline>
 <codeline lineno="112"><highlight class="normal"></highlight></codeline>
-<codeline lineno="114" refid="MRCylinder3_8h_1a02a7f692713dc561ea61030a1cafaae9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a02a7f692713dc561ea61030a1cafaae9" kindref="member">MR_Cylinder3f_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="115"><highlight class="normal"></highlight></codeline>
-<codeline lineno="117" refid="MRCylinder3_8h_1afb24498725c7dc0bd6a09394b437ba1e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1afb24498725c7dc0bd6a09394b437ba1e" kindref="member">MR_Cylinder3f_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="117" refid="MRCylinder3_8h_1a91ac0b911d91be008209a9cd9646f2d7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*<ref refid="MRCylinder3_8h_1a91ac0b911d91be008209a9cd9646f2d7" kindref="member">MR_Cylinder3f_Construct_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aca1d803422d4caa25c56d04a67efbc52" kindref="member">MR_Line3f</ref><sp/>*inAxis,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>inRadius,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>inLength);</highlight></codeline>
 <codeline lineno="118"><highlight class="normal"></highlight></codeline>
-<codeline lineno="125" refid="MRCylinder3_8h_1a2538e1c1ea08e0749887df6d2bc7ae37" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*<ref refid="MRCylinder3_8h_1a2538e1c1ea08e0749887df6d2bc7ae37" kindref="member">MR_Cylinder3f_AssignFromAnother</ref>(<ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="126"><highlight class="normal"></highlight></codeline>
-<codeline lineno="130" refid="MRCylinder3_8h_1a78cd957357c841211804b68217890628" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRCylinder3_8h_1a78cd957357c841211804b68217890628" kindref="member">MR_Cylinder3f_center_mut</ref>(<ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="131"><highlight class="normal"></highlight></codeline>
-<codeline lineno="135" refid="MRCylinder3_8h_1ad705ea947c2da9a0ca2d7d66a9b71bb8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRCylinder3_8h_1ad705ea947c2da9a0ca2d7d66a9b71bb8" kindref="member">MR_Cylinder3f_center</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="136"><highlight class="normal"></highlight></codeline>
-<codeline lineno="140" refid="MRCylinder3_8h_1aac8983cea36af60b010b64bb02033743" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRCylinder3_8h_1aac8983cea36af60b010b64bb02033743" kindref="member">MR_Cylinder3f_direction_mut</ref>(<ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="141"><highlight class="normal"></highlight></codeline>
-<codeline lineno="145" refid="MRCylinder3_8h_1ab70a934502831d2e7ce478f012836e86" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRCylinder3_8h_1ab70a934502831d2e7ce478f012836e86" kindref="member">MR_Cylinder3f_direction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="146"><highlight class="normal"></highlight></codeline>
-<codeline lineno="150" refid="MRCylinder3_8h_1a1998ceeb2d2b1c2f05213e9a91eaa475" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1ac137600e53e2a5c6efea3c61034a1a95" kindref="member">MR_Line3d</ref><sp/>*<ref refid="MRCylinder3_8h_1a1998ceeb2d2b1c2f05213e9a91eaa475" kindref="member">MR_Cylinder3d_Get_mainAxis</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="151"><highlight class="normal"></highlight></codeline>
-<codeline lineno="157" refid="MRCylinder3_8h_1ae1a73561ed9b8a8ccb849d5e093a6371" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1ae1a73561ed9b8a8ccb849d5e093a6371" kindref="member">MR_Cylinder3d_Set_mainAxis</ref>(<ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1ac137600e53e2a5c6efea3c61034a1a95" kindref="member">MR_Line3d</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="120" refid="MRCylinder3_8h_1a02a7f692713dc561ea61030a1cafaae9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a02a7f692713dc561ea61030a1cafaae9" kindref="member">MR_Cylinder3f_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123" refid="MRCylinder3_8h_1afb24498725c7dc0bd6a09394b437ba1e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1afb24498725c7dc0bd6a09394b437ba1e" kindref="member">MR_Cylinder3f_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131" refid="MRCylinder3_8h_1a2538e1c1ea08e0749887df6d2bc7ae37" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*<ref refid="MRCylinder3_8h_1a2538e1c1ea08e0749887df6d2bc7ae37" kindref="member">MR_Cylinder3f_AssignFromAnother</ref>(<ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="MRCylinder3_8h_1a78cd957357c841211804b68217890628" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRCylinder3_8h_1a78cd957357c841211804b68217890628" kindref="member">MR_Cylinder3f_center_mut</ref>(<ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141" refid="MRCylinder3_8h_1ad705ea947c2da9a0ca2d7d66a9b71bb8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRCylinder3_8h_1ad705ea947c2da9a0ca2d7d66a9b71bb8" kindref="member">MR_Cylinder3f_center</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146" refid="MRCylinder3_8h_1aac8983cea36af60b010b64bb02033743" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRCylinder3_8h_1aac8983cea36af60b010b64bb02033743" kindref="member">MR_Cylinder3f_direction_mut</ref>(<ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151" refid="MRCylinder3_8h_1ab70a934502831d2e7ce478f012836e86" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRCylinder3_8h_1ab70a934502831d2e7ce478f012836e86" kindref="member">MR_Cylinder3f_direction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a0c5f105c6381a1539730147b6aba3709" kindref="member">MR_Cylinder3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157" refid="MRCylinder3_8h_1a1998ceeb2d2b1c2f05213e9a91eaa475" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1ac137600e53e2a5c6efea3c61034a1a95" kindref="member">MR_Line3d</ref><sp/>*<ref refid="MRCylinder3_8h_1a1998ceeb2d2b1c2f05213e9a91eaa475" kindref="member">MR_Cylinder3d_Get_mainAxis</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="158"><highlight class="normal"></highlight></codeline>
-<codeline lineno="162" refid="MRCylinder3_8h_1a544b30557adbc80dbec845e8151a3740" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1ac137600e53e2a5c6efea3c61034a1a95" kindref="member">MR_Line3d</ref><sp/>*<ref refid="MRCylinder3_8h_1a544b30557adbc80dbec845e8151a3740" kindref="member">MR_Cylinder3d_GetMutable_mainAxis</ref>(<ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="163"><highlight class="normal"></highlight></codeline>
-<codeline lineno="167" refid="MRCylinder3_8h_1a32854aef6af4985f870cad926100d5f2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRCylinder3_8h_1a32854aef6af4985f870cad926100d5f2" kindref="member">MR_Cylinder3d_Get_radius</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="168"><highlight class="normal"></highlight></codeline>
-<codeline lineno="172" refid="MRCylinder3_8h_1afe1225e7d00b83433f3f3944f1d28938" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1afe1225e7d00b83433f3f3944f1d28938" kindref="member">MR_Cylinder3d_Set_radius</ref>(<ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="173"><highlight class="normal"></highlight></codeline>
-<codeline lineno="177" refid="MRCylinder3_8h_1a52bd04a26435114207e6474c80aaaa24" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRCylinder3_8h_1a52bd04a26435114207e6474c80aaaa24" kindref="member">MR_Cylinder3d_GetMutable_radius</ref>(<ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="178"><highlight class="normal"></highlight></codeline>
-<codeline lineno="182" refid="MRCylinder3_8h_1a399f36148f43bba0697fc600a7baf1bb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRCylinder3_8h_1a399f36148f43bba0697fc600a7baf1bb" kindref="member">MR_Cylinder3d_Get_length</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="183"><highlight class="normal"></highlight></codeline>
-<codeline lineno="187" refid="MRCylinder3_8h_1a9d2e67cf734b056946bc99457ab64d03" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a9d2e67cf734b056946bc99457ab64d03" kindref="member">MR_Cylinder3d_Set_length</ref>(<ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="164" refid="MRCylinder3_8h_1ae1a73561ed9b8a8ccb849d5e093a6371" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1ae1a73561ed9b8a8ccb849d5e093a6371" kindref="member">MR_Cylinder3d_Set_mainAxis</ref>(<ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1ac137600e53e2a5c6efea3c61034a1a95" kindref="member">MR_Line3d</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170" refid="MRCylinder3_8h_1a544b30557adbc80dbec845e8151a3740" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1ac137600e53e2a5c6efea3c61034a1a95" kindref="member">MR_Line3d</ref><sp/>*<ref refid="MRCylinder3_8h_1a544b30557adbc80dbec845e8151a3740" kindref="member">MR_Cylinder3d_GetMutable_mainAxis</ref>(<ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176" refid="MRCylinder3_8h_1a32854aef6af4985f870cad926100d5f2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRCylinder3_8h_1a32854aef6af4985f870cad926100d5f2" kindref="member">MR_Cylinder3d_Get_radius</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="181" refid="MRCylinder3_8h_1afe1225e7d00b83433f3f3944f1d28938" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1afe1225e7d00b83433f3f3944f1d28938" kindref="member">MR_Cylinder3d_Set_radius</ref>(<ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187" refid="MRCylinder3_8h_1a52bd04a26435114207e6474c80aaaa24" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRCylinder3_8h_1a52bd04a26435114207e6474c80aaaa24" kindref="member">MR_Cylinder3d_GetMutable_radius</ref>(<ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="188"><highlight class="normal"></highlight></codeline>
-<codeline lineno="192" refid="MRCylinder3_8h_1abcf55a64061bf471789a293bd887c0d3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRCylinder3_8h_1abcf55a64061bf471789a293bd887c0d3" kindref="member">MR_Cylinder3d_GetMutable_length</ref>(<ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="193"><highlight class="normal"></highlight></codeline>
-<codeline lineno="196" refid="MRCylinder3_8h_1ab5340d259a1732a010792885f35ea2bb" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*<ref refid="MRCylinder3_8h_1ab5340d259a1732a010792885f35ea2bb" kindref="member">MR_Cylinder3d_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="197"><highlight class="normal"></highlight></codeline>
-<codeline lineno="201" refid="MRCylinder3_8h_1a275bdbff379e73180d78cdbd3c240cad" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*<ref refid="MRCylinder3_8h_1a275bdbff379e73180d78cdbd3c240cad" kindref="member">MR_Cylinder3d_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="202"><highlight class="normal"></highlight></codeline>
-<codeline lineno="205" refid="MRCylinder3_8h_1a08eb5433790040caafd4d21d424e264d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*<ref refid="MRCylinder3_8h_1a08eb5433790040caafd4d21d424e264d" kindref="member">MR_Cylinder3d_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="206"><highlight class="normal"></highlight></codeline>
-<codeline lineno="209" refid="MRCylinder3_8h_1a439a18425f9c7d96fd83571842d1880b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*<ref refid="MRCylinder3_8h_1a439a18425f9c7d96fd83571842d1880b" kindref="member">MR_Cylinder3d_OffsetMutablePtr</ref>(<ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="210"><highlight class="normal"></highlight></codeline>
-<codeline lineno="215" refid="MRCylinder3_8h_1aeaf2835c8a642bd3c0c45223a6ac4aa4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*<ref refid="MRCylinder3_8h_1aeaf2835c8a642bd3c0c45223a6ac4aa4" kindref="member">MR_Cylinder3d_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="216"><highlight class="normal"></highlight></codeline>
-<codeline lineno="223" refid="MRCylinder3_8h_1a1a37772d2071757e64670c19c52dd2eb" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*<ref refid="MRCylinder3_8h_1a1a37772d2071757e64670c19c52dd2eb" kindref="member">MR_Cylinder3d_Construct_4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*inCenter,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*inDirectoin,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>inRadius,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>inLength);</highlight></codeline>
-<codeline lineno="224"><highlight class="normal"></highlight></codeline>
-<codeline lineno="229" refid="MRCylinder3_8h_1aae5b86521a8f909f9901b7c619944d4b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*<ref refid="MRCylinder3_8h_1aae5b86521a8f909f9901b7c619944d4b" kindref="member">MR_Cylinder3d_Construct_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1ac137600e53e2a5c6efea3c61034a1a95" kindref="member">MR_Line3d</ref><sp/>*inAxis,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>inRadius,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>inLength);</highlight></codeline>
-<codeline lineno="230"><highlight class="normal"></highlight></codeline>
-<codeline lineno="232" refid="MRCylinder3_8h_1a3957a55a3fc8c56bbe5d903c8eab218e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a3957a55a3fc8c56bbe5d903c8eab218e" kindref="member">MR_Cylinder3d_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="233"><highlight class="normal"></highlight></codeline>
-<codeline lineno="235" refid="MRCylinder3_8h_1aa8b499ea7d9ed3e8f885315bdff4199b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1aa8b499ea7d9ed3e8f885315bdff4199b" kindref="member">MR_Cylinder3d_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="193" refid="MRCylinder3_8h_1a399f36148f43bba0697fc600a7baf1bb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRCylinder3_8h_1a399f36148f43bba0697fc600a7baf1bb" kindref="member">MR_Cylinder3d_Get_length</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="198" refid="MRCylinder3_8h_1a9d2e67cf734b056946bc99457ab64d03" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a9d2e67cf734b056946bc99457ab64d03" kindref="member">MR_Cylinder3d_Set_length</ref>(<ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204" refid="MRCylinder3_8h_1abcf55a64061bf471789a293bd887c0d3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRCylinder3_8h_1abcf55a64061bf471789a293bd887c0d3" kindref="member">MR_Cylinder3d_GetMutable_length</ref>(<ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="208" refid="MRCylinder3_8h_1ab5340d259a1732a010792885f35ea2bb" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*<ref refid="MRCylinder3_8h_1ab5340d259a1732a010792885f35ea2bb" kindref="member">MR_Cylinder3d_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213" refid="MRCylinder3_8h_1a275bdbff379e73180d78cdbd3c240cad" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*<ref refid="MRCylinder3_8h_1a275bdbff379e73180d78cdbd3c240cad" kindref="member">MR_Cylinder3d_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217" refid="MRCylinder3_8h_1a08eb5433790040caafd4d21d424e264d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*<ref refid="MRCylinder3_8h_1a08eb5433790040caafd4d21d424e264d" kindref="member">MR_Cylinder3d_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221" refid="MRCylinder3_8h_1a439a18425f9c7d96fd83571842d1880b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*<ref refid="MRCylinder3_8h_1a439a18425f9c7d96fd83571842d1880b" kindref="member">MR_Cylinder3d_OffsetMutablePtr</ref>(<ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="227" refid="MRCylinder3_8h_1aeaf2835c8a642bd3c0c45223a6ac4aa4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*<ref refid="MRCylinder3_8h_1aeaf2835c8a642bd3c0c45223a6ac4aa4" kindref="member">MR_Cylinder3d_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight></codeline>
+<codeline lineno="235" refid="MRCylinder3_8h_1a1a37772d2071757e64670c19c52dd2eb" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*<ref refid="MRCylinder3_8h_1a1a37772d2071757e64670c19c52dd2eb" kindref="member">MR_Cylinder3d_Construct_4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*inCenter,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*inDirectoin,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>inRadius,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>inLength);</highlight></codeline>
 <codeline lineno="236"><highlight class="normal"></highlight></codeline>
-<codeline lineno="243" refid="MRCylinder3_8h_1a77be0a859a19cabe4553a6cac2c489cd" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*<ref refid="MRCylinder3_8h_1a77be0a859a19cabe4553a6cac2c489cd" kindref="member">MR_Cylinder3d_AssignFromAnother</ref>(<ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="244"><highlight class="normal"></highlight></codeline>
-<codeline lineno="248" refid="MRCylinder3_8h_1a2959f6cd6877f24a8773ec527655e98c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*<ref refid="MRCylinder3_8h_1a2959f6cd6877f24a8773ec527655e98c" kindref="member">MR_Cylinder3d_center_mut</ref>(<ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="249"><highlight class="normal"></highlight></codeline>
-<codeline lineno="253" refid="MRCylinder3_8h_1a1767f1f1176fe85016362988a441abac" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*<ref refid="MRCylinder3_8h_1a1767f1f1176fe85016362988a441abac" kindref="member">MR_Cylinder3d_center</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="254"><highlight class="normal"></highlight></codeline>
-<codeline lineno="258" refid="MRCylinder3_8h_1a761bc064fa5d4ee9787296289985f747" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*<ref refid="MRCylinder3_8h_1a761bc064fa5d4ee9787296289985f747" kindref="member">MR_Cylinder3d_direction_mut</ref>(<ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="259"><highlight class="normal"></highlight></codeline>
-<codeline lineno="263" refid="MRCylinder3_8h_1af0e59472aa0b2d597bcd29c3e8e5bc95" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*<ref refid="MRCylinder3_8h_1af0e59472aa0b2d597bcd29c3e8e5bc95" kindref="member">MR_Cylinder3d_direction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="264"><highlight class="normal"></highlight></codeline>
-<codeline lineno="265"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="266"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="267"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="241" refid="MRCylinder3_8h_1aae5b86521a8f909f9901b7c619944d4b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*<ref refid="MRCylinder3_8h_1aae5b86521a8f909f9901b7c619944d4b" kindref="member">MR_Cylinder3d_Construct_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1ac137600e53e2a5c6efea3c61034a1a95" kindref="member">MR_Line3d</ref><sp/>*inAxis,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>inRadius,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>inLength);</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244" refid="MRCylinder3_8h_1a3957a55a3fc8c56bbe5d903c8eab218e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a3957a55a3fc8c56bbe5d903c8eab218e" kindref="member">MR_Cylinder3d_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"></highlight></codeline>
+<codeline lineno="247" refid="MRCylinder3_8h_1aa8b499ea7d9ed3e8f885315bdff4199b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1aa8b499ea7d9ed3e8f885315bdff4199b" kindref="member">MR_Cylinder3d_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight></codeline>
+<codeline lineno="255" refid="MRCylinder3_8h_1a77be0a859a19cabe4553a6cac2c489cd" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*<ref refid="MRCylinder3_8h_1a77be0a859a19cabe4553a6cac2c489cd" kindref="member">MR_Cylinder3d_AssignFromAnother</ref>(<ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"></highlight></codeline>
+<codeline lineno="260" refid="MRCylinder3_8h_1a2959f6cd6877f24a8773ec527655e98c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*<ref refid="MRCylinder3_8h_1a2959f6cd6877f24a8773ec527655e98c" kindref="member">MR_Cylinder3d_center_mut</ref>(<ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"></highlight></codeline>
+<codeline lineno="265" refid="MRCylinder3_8h_1a1767f1f1176fe85016362988a441abac" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*<ref refid="MRCylinder3_8h_1a1767f1f1176fe85016362988a441abac" kindref="member">MR_Cylinder3d_center</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"></highlight></codeline>
+<codeline lineno="270" refid="MRCylinder3_8h_1a761bc064fa5d4ee9787296289985f747" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*<ref refid="MRCylinder3_8h_1a761bc064fa5d4ee9787296289985f747" kindref="member">MR_Cylinder3d_direction_mut</ref>(<ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"></highlight></codeline>
+<codeline lineno="275" refid="MRCylinder3_8h_1af0e59472aa0b2d597bcd29c3e8e5bc95" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*<ref refid="MRCylinder3_8h_1af0e59472aa0b2d597bcd29c3e8e5bc95" kindref="member">MR_Cylinder3d_direction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCylinder3_8h_1a9d1b221eca1c0b5750d2ca9dedce3ad6" kindref="member">MR_Cylinder3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"></highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="278"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="279"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCylinder3.h"/>
   </compounddef>

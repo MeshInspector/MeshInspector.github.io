@@ -460,7 +460,6 @@ Functions</h2></td></tr>
 <tr class="memitem:abdd6580affb72e927a50bea582954d67" id="r_abdd6580affb72e927a50bea582954d67"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a838cd1f6ddfe0e58be08134cbbcacf20">MR_EdgePathsBuilderT_MR_MetricToAStarPenalty</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abdd6580affb72e927a50bea582954d67">MR_EdgePathsAStarBuilder_UpcastTo_MR_EdgePathsBuilderT_MR_MetricToAStarPenalty</a> (const <a class="el" href="#af247824cce9e6bf514e3f0960b3db77f">MR_EdgePathsAStarBuilder</a> *object)</td></tr>
 <tr class="separator:abdd6580affb72e927a50bea582954d67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1014a0c3e1e88d6d1aa54fe5061edd04" id="r_a1014a0c3e1e88d6d1aa54fe5061edd04"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a838cd1f6ddfe0e58be08134cbbcacf20">MR_EdgePathsBuilderT_MR_MetricToAStarPenalty</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1014a0c3e1e88d6d1aa54fe5061edd04">MR_EdgePathsAStarBuilder_MutableUpcastTo_MR_EdgePathsBuilderT_MR_MetricToAStarPenalty</a> (<a class="el" href="#af247824cce9e6bf514e3f0960b3db77f">MR_EdgePathsAStarBuilder</a> *object)</td></tr>
-<tr class="memdesc:a1014a0c3e1e88d6d1aa54fe5061edd04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code>MR::EdgePathsAStarBuilder</code> to its base class <code>MR::EdgePathsBuilderT&lt;MR::MetricToAStarPenalty&gt;</code>.  <br /></td></tr>
 <tr class="separator:a1014a0c3e1e88d6d1aa54fe5061edd04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff54392ab70fc820e8b79406761783a3" id="r_aff54392ab70fc820e8b79406761783a3"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#af247824cce9e6bf514e3f0960b3db77f">MR_EdgePathsAStarBuilder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff54392ab70fc820e8b79406761783a3">MR_EdgePathsAStarBuilder_Construct_MR_VertId</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, <a class="el" href="structMR__VertId.html">MR_VertId</a> target, <a class="el" href="structMR__VertId.html">MR_VertId</a> start)</td></tr>
 <tr class="separator:aff54392ab70fc820e8b79406761783a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -990,8 +989,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Upcasts an instance of <code>MR::EdgePathsAStarBuilder</code> to its base class <code>MR::EdgePathsBuilderT&lt;MR::MetricToAStarPenalty&gt;</code>. </p>
+<p>Upcasts an instance of <code>MR::EdgePathsAStarBuilder</code> to its base class <code>MR::EdgePathsBuilderT&lt;MR::MetricToAStarPenalty&gt;</code>. The reference to the parameter <code>object</code> might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -1120,7 +1118,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Upcasts an instance of <code>MR::EdgePathsAStarBuilder</code> to its base class <code>MR::EdgePathsBuilderT&lt;MR::MetricToAStarPenalty&gt;</code>. This version is acting on mutable pointers. </p>
+<p>Upcasts an instance of <code>MR::EdgePathsAStarBuilder</code> to its base class <code>MR::EdgePathsBuilderT&lt;MR::MetricToAStarPenalty&gt;</code>. This version is acting on mutable pointers. The reference to the parameter <code>object</code> might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -1403,7 +1401,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code>MR::EdgePathsBuilderT&lt;MR::MetricToAStarPenalty&gt;</code> to a derived class <code>MR::EdgePathsAStarBuilder</code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. </p>
+<p>Downcasts an instance of <code>MR::EdgePathsBuilderT&lt;MR::MetricToAStarPenalty&gt;</code> to a derived class <code>MR::EdgePathsAStarBuilder</code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <code>object</code> might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -1611,7 +1609,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>edge from this vertex to its predecessor in the forest (if this vertex is not start) Returns a pointer to a member variable of class <code>MR::EdgePathsBuilderT&lt;MR::MetricToAStarPenalty&gt;::ReachedVert</code> named <code>backward</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>edge from this vertex to its predecessor in the forest (if this vertex is not start) Returns a pointer to a member variable of class <code>MR::EdgePathsBuilderT&lt;MR::MetricToAStarPenalty&gt;::ReachedVert</code> named <code>backward</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1629,7 +1627,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>summed metric to reach this vertex Returns a pointer to a member variable of class <code>MR::EdgePathsBuilderT&lt;MR::MetricToAStarPenalty&gt;::ReachedVert</code> named <code>metric</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>summed metric to reach this vertex Returns a pointer to a member variable of class <code>MR::EdgePathsBuilderT&lt;MR::MetricToAStarPenalty&gt;::ReachedVert</code> named <code>metric</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1647,7 +1645,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>not reached vertices are ordered in priority queue by their penalty (with the smallest value on top); penalty is equal to metric in ordinary Dijkstra, or equal to (metric + target distance lower bound) in A* Returns a pointer to a member variable of class <code>MR::EdgePathsBuilderT&lt;MR::MetricToAStarPenalty&gt;::ReachedVert</code> named <code>penalty</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>not reached vertices are ordered in priority queue by their penalty (with the smallest value on top); penalty is equal to metric in ordinary Dijkstra, or equal to (metric + target distance lower bound) in A* Returns a pointer to a member variable of class <code>MR::EdgePathsBuilderT&lt;MR::MetricToAStarPenalty&gt;::ReachedVert</code> named <code>penalty</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1665,7 +1663,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::EdgePathsBuilderT&lt;MR::MetricToAStarPenalty&gt;::ReachedVert</code> named <code>v</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::EdgePathsBuilderT&lt;MR::MetricToAStarPenalty&gt;::ReachedVert</code> named <code>v</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1683,7 +1681,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>edge from this vertex to its predecessor in the forest (if this vertex is not start) Returns a mutable pointer to a member variable of class <code>MR::EdgePathsBuilderT&lt;MR::MetricToAStarPenalty&gt;::ReachedVert</code> named <code>backward</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>edge from this vertex to its predecessor in the forest (if this vertex is not start) Returns a mutable pointer to a member variable of class <code>MR::EdgePathsBuilderT&lt;MR::MetricToAStarPenalty&gt;::ReachedVert</code> named <code>backward</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1701,7 +1699,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>summed metric to reach this vertex Returns a mutable pointer to a member variable of class <code>MR::EdgePathsBuilderT&lt;MR::MetricToAStarPenalty&gt;::ReachedVert</code> named <code>metric</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>summed metric to reach this vertex Returns a mutable pointer to a member variable of class <code>MR::EdgePathsBuilderT&lt;MR::MetricToAStarPenalty&gt;::ReachedVert</code> named <code>metric</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1719,7 +1717,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>not reached vertices are ordered in priority queue by their penalty (with the smallest value on top); penalty is equal to metric in ordinary Dijkstra, or equal to (metric + target distance lower bound) in A* Returns a mutable pointer to a member variable of class <code>MR::EdgePathsBuilderT&lt;MR::MetricToAStarPenalty&gt;::ReachedVert</code> named <code>penalty</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>not reached vertices are ordered in priority queue by their penalty (with the smallest value on top); penalty is equal to metric in ordinary Dijkstra, or equal to (metric + target distance lower bound) in A* Returns a mutable pointer to a member variable of class <code>MR::EdgePathsBuilderT&lt;MR::MetricToAStarPenalty&gt;::ReachedVert</code> named <code>penalty</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1737,7 +1735,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::EdgePathsBuilderT&lt;MR::MetricToAStarPenalty&gt;::ReachedVert</code> named <code>v</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::EdgePathsBuilderT&lt;MR::MetricToAStarPenalty&gt;::ReachedVert</code> named <code>v</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1927,7 +1925,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code>MR::EdgePathsBuilderT&lt;MR::MetricToAStarPenalty&gt;</code> to a derived class <code>MR::EdgePathsAStarBuilder</code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. </p>
+<p>Downcasts an instance of <code>MR::EdgePathsBuilderT&lt;MR::MetricToAStarPenalty&gt;</code> to a derived class <code>MR::EdgePathsAStarBuilder</code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <code>object</code> might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -2427,7 +2425,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>edge from this vertex to its predecessor in the forest (if this vertex is not start) Returns a pointer to a member variable of class <code>MR::EdgePathsBuilderT&lt;MR::TrivialMetricToPenalty&gt;::ReachedVert</code> named <code>backward</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>edge from this vertex to its predecessor in the forest (if this vertex is not start) Returns a pointer to a member variable of class <code>MR::EdgePathsBuilderT&lt;MR::TrivialMetricToPenalty&gt;::ReachedVert</code> named <code>backward</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2445,7 +2443,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>summed metric to reach this vertex Returns a pointer to a member variable of class <code>MR::EdgePathsBuilderT&lt;MR::TrivialMetricToPenalty&gt;::ReachedVert</code> named <code>metric</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>summed metric to reach this vertex Returns a pointer to a member variable of class <code>MR::EdgePathsBuilderT&lt;MR::TrivialMetricToPenalty&gt;::ReachedVert</code> named <code>metric</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2463,7 +2461,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>not reached vertices are ordered in priority queue by their penalty (with the smallest value on top); penalty is equal to metric in ordinary Dijkstra, or equal to (metric + target distance lower bound) in A* Returns a pointer to a member variable of class <code>MR::EdgePathsBuilderT&lt;MR::TrivialMetricToPenalty&gt;::ReachedVert</code> named <code>penalty</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>not reached vertices are ordered in priority queue by their penalty (with the smallest value on top); penalty is equal to metric in ordinary Dijkstra, or equal to (metric + target distance lower bound) in A* Returns a pointer to a member variable of class <code>MR::EdgePathsBuilderT&lt;MR::TrivialMetricToPenalty&gt;::ReachedVert</code> named <code>penalty</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2481,7 +2479,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::EdgePathsBuilderT&lt;MR::TrivialMetricToPenalty&gt;::ReachedVert</code> named <code>v</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::EdgePathsBuilderT&lt;MR::TrivialMetricToPenalty&gt;::ReachedVert</code> named <code>v</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2499,7 +2497,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>edge from this vertex to its predecessor in the forest (if this vertex is not start) Returns a mutable pointer to a member variable of class <code>MR::EdgePathsBuilderT&lt;MR::TrivialMetricToPenalty&gt;::ReachedVert</code> named <code>backward</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>edge from this vertex to its predecessor in the forest (if this vertex is not start) Returns a mutable pointer to a member variable of class <code>MR::EdgePathsBuilderT&lt;MR::TrivialMetricToPenalty&gt;::ReachedVert</code> named <code>backward</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2517,7 +2515,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>summed metric to reach this vertex Returns a mutable pointer to a member variable of class <code>MR::EdgePathsBuilderT&lt;MR::TrivialMetricToPenalty&gt;::ReachedVert</code> named <code>metric</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>summed metric to reach this vertex Returns a mutable pointer to a member variable of class <code>MR::EdgePathsBuilderT&lt;MR::TrivialMetricToPenalty&gt;::ReachedVert</code> named <code>metric</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2535,7 +2533,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>not reached vertices are ordered in priority queue by their penalty (with the smallest value on top); penalty is equal to metric in ordinary Dijkstra, or equal to (metric + target distance lower bound) in A* Returns a mutable pointer to a member variable of class <code>MR::EdgePathsBuilderT&lt;MR::TrivialMetricToPenalty&gt;::ReachedVert</code> named <code>penalty</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>not reached vertices are ordered in priority queue by their penalty (with the smallest value on top); penalty is equal to metric in ordinary Dijkstra, or equal to (metric + target distance lower bound) in A* Returns a mutable pointer to a member variable of class <code>MR::EdgePathsBuilderT&lt;MR::TrivialMetricToPenalty&gt;::ReachedVert</code> named <code>penalty</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2553,7 +2551,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::EdgePathsBuilderT&lt;MR::TrivialMetricToPenalty&gt;::ReachedVert</code> named <code>v</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::EdgePathsBuilderT&lt;MR::TrivialMetricToPenalty&gt;::ReachedVert</code> named <code>v</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2951,7 +2949,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::MetricToAStarPenalty</code> named <code>points</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::MetricToAStarPenalty</code> named <code>points</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2969,7 +2967,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::MetricToAStarPenalty</code> named <code>target</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::MetricToAStarPenalty</code> named <code>target</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2987,7 +2985,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::MetricToAStarPenalty</code> named <code>points</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::MetricToAStarPenalty</code> named <code>points</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -3005,7 +3003,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::MetricToAStarPenalty</code> named <code>target</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::MetricToAStarPenalty</code> named <code>target</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -3432,7 +3430,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::VertPathInfo</code> named <code>back</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::VertPathInfo</code> named <code>back</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -3450,7 +3448,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::VertPathInfo</code> named <code>metric</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::VertPathInfo</code> named <code>metric</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -3468,7 +3466,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::VertPathInfo</code> named <code>back</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::VertPathInfo</code> named <code>back</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -3486,7 +3484,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::VertPathInfo</code> named <code>metric</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::VertPathInfo</code> named <code>metric</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>

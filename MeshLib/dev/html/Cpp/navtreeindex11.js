@@ -1,5 +1,12 @@
 var NAVTREEINDEX11 =
 {
+"MRRibbonMenu_8h_source.html":[6,0,3,0,0,1,8,94],
+"MRRibbonNotification_8h.html":[6,0,3,0,0,1,8,98],
+"MRRibbonNotification_8h.html#a6c80d0a515c43e830301ff170377a44e":[6,0,3,0,0,1,8,98,3],
+"MRRibbonNotification_8h.html#ad2f3bc10761d952926925127eb80d902":[6,0,3,0,0,1,8,98,4],
+"MRRibbonNotification_8h.html#ad2f3bc10761d952926925127eb80d902a5ef0d4d135d5f2814b07feaf13fda653":[6,0,3,0,0,1,8,98,4,1],
+"MRRibbonNotification_8h.html#ad2f3bc10761d952926925127eb80d902aa8594fd8be60c94e1a2607fa0fa50fae":[6,0,3,0,0,1,8,98,4,0],
+"MRRibbonNotification_8h_source.html":[6,0,3,0,0,1,8,98],
 "MRRibbonRegisterItem_8h.html":[6,0,3,0,0,1,8,99],
 "MRRibbonRegisterItem_8h.html#ad1709955819b9d2eb38aa06ebd34272c":[6,0,3,0,0,1,8,99,2],
 "MRRibbonRegisterItem_8h_source.html":[6,0,3,0,0,1,8,99],
@@ -242,12 +249,5 @@ var NAVTREEINDEX11 =
 "MRSpaceMouseHandlerWinEvents_8h.html":[6,0,3,0,0,1,8,125],
 "MRSpaceMouseHandlerWinEvents_8h_source.html":[6,0,3,0,0,1,8,125],
 "MRSpaceMouseHandler_8h.html":[6,0,3,0,0,1,8,122],
-"MRSpaceMouseHandler_8h_source.html":[6,0,3,0,0,1,8,122],
-"MRSpaceMouseParameters_8h.html":[6,0,3,0,0,1,8,126],
-"MRSpaceMouseParameters_8h_source.html":[6,0,3,0,0,1,8,126],
-"MRSparsePolynomial_8h.html":[6,0,3,0,0,1,4,363],
-"MRSparsePolynomial_8h.html#a39de2d02d74ee4158df88993a656c0d0":[6,0,3,0,0,1,4,363,1],
-"MRSparsePolynomial_8h_source.html":[6,0,3,0,0,1,4,363],
-"MRSphereObject_8h.html":[6,0,3,0,0,1,4,365],
-"MRSphereObject_8h_source.html":[6,0,3,0,0,1,4,365]
+"MRSpaceMouseHandler_8h_source.html":[6,0,3,0,0,1,8,122]
 };

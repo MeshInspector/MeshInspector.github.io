@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" line="16" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" bodystart="16" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" line="17" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" bodystart="17" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="structMR_1_1MapOrHashMap_1a9b9b3bd19e1e1187943ce7850bcf6ee0" prot="public" static="no">
         <type><ref refid="namespaceMR_1af8ad9e1b05a45987a3075d43bf345d68" kindref="member">HashMap</ref>&lt; K, V &gt;</type>
@@ -38,7 +38,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" line="17" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" bodystart="17" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" line="18" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" bodystart="18" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-attrib">
@@ -55,7 +55,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" line="19" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" bodystart="19" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" line="20" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" bodystart="20" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -76,7 +76,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" line="21" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" bodystart="49" bodyend="54"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" line="22" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" bodystart="50" bodyend="55"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1MapOrHashMap_1af367d90b270a0bb9def39834f2a0e686" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structMR_1_1MapOrHashMap" kindref="compound">MapOrHashMap</ref></type>
@@ -95,37 +95,20 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" line="22" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" bodystart="57" bodyend="65"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" line="23" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" bodystart="58" bodyend="66"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="structMR_1_1MapOrHashMap_1a77ede25bfe03db7b0c3a5176323e042a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="structMR_1_1MapOrHashMap_1a00c1a5cbe4993ea2fe7958753f256c2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void MR::MapOrHashMap&lt; K, V &gt;::setMap</definition>
-        <argsstring>(Dense &amp;&amp;m)</argsstring>
+        <argsstring>(Dense &amp;&amp;m MR_LIFETIME_CAPTURE_BY_NESTED(this))</argsstring>
         <name>setMap</name>
         <qualifiedname>MR::MapOrHashMap::setMap</qualifiedname>
         <param>
-          <type><ref refid="structMR_1_1MapOrHashMap_1ac2b84418d93cdedba84fe87ce2595e2e" kindref="member">Dense</ref> &amp;&amp;</type>
-          <declname>m</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" line="24" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" bodystart="24" bodyend="24"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1MapOrHashMap_1ac7cc040fc165f15635860672b4c426d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::MapOrHashMap&lt; K, V &gt;::setHashMap</definition>
-        <argsstring>(Hash &amp;&amp;m)</argsstring>
-        <name>setHashMap</name>
-        <qualifiedname>MR::MapOrHashMap::setHashMap</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1MapOrHashMap_1a9b9b3bd19e1e1187943ce7850bcf6ee0" kindref="member">Hash</ref> &amp;&amp;</type>
-          <declname>m</declname>
+          <type><ref refid="structMR_1_1MapOrHashMap_1ac2b84418d93cdedba84fe87ce2595e2e" kindref="member">Dense</ref> &amp;&amp;m </type>
+          <declname>MR_LIFETIME_CAPTURE_BY_NESTED</declname>
+          <array>this</array>
         </param>
         <briefdescription>
         </briefdescription>
@@ -134,6 +117,25 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" line="25" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1MapOrHashMap_1aed9c7dee115bec118b5c146c71feeead" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::MapOrHashMap&lt; K, V &gt;::setHashMap</definition>
+        <argsstring>(Hash &amp;&amp;m MR_LIFETIME_CAPTURE_BY_NESTED(this))</argsstring>
+        <name>setHashMap</name>
+        <qualifiedname>MR::MapOrHashMap::setHashMap</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1MapOrHashMap_1a9b9b3bd19e1e1187943ce7850bcf6ee0" kindref="member">Hash</ref> &amp;&amp;m </type>
+          <declname>MR_LIFETIME_CAPTURE_BY_NESTED</declname>
+          <array>this</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" line="26" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" bodystart="26" bodyend="26"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1MapOrHashMap_1a7a15020a8ce32845565aeffab264051d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -156,21 +158,23 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" line="29" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" bodystart="68" bodyend="74"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" line="30" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" bodystart="69" bodyend="75"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1MapOrHashMap_1a6d4eb8a403de0495a024d7afa51cbd6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="structMR_1_1MapOrHashMap_1a581685c400655d0cf9441498a051e38a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void MR::MapOrHashMap&lt; K, V &gt;::pushBack</definition>
-        <argsstring>(K key, V val)</argsstring>
+        <argsstring>(K key MR_LIFETIME_CAPTURE_BY_NESTED(this), V val MR_LIFETIME_CAPTURE_BY_NESTED(this))</argsstring>
         <name>pushBack</name>
         <qualifiedname>MR::MapOrHashMap::pushBack</qualifiedname>
         <param>
-          <type>K</type>
-          <declname>key</declname>
+          <type>K key </type>
+          <declname>MR_LIFETIME_CAPTURE_BY_NESTED</declname>
+          <array>this</array>
         </param>
         <param>
-          <type>V</type>
-          <declname>val</declname>
+          <type>V val </type>
+          <declname>MR_LIFETIME_CAPTURE_BY_NESTED</declname>
+          <array>this</array>
         </param>
         <briefdescription>
         </briefdescription>
@@ -179,7 +183,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" line="33" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" bodystart="77" bodyend="83"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" line="34" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" bodystart="78" bodyend="84"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1MapOrHashMap_1a99f74cd2edd6dab050ffad6466cdf191" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -203,26 +207,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" line="37" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" bodystart="87" bodyend="102"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" line="38" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" bodystart="88" bodyend="103"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1MapOrHashMap_1a1061c0b8db208cf5af14eb2760cb3703" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="structMR_1_1MapOrHashMap_1a60c491f3b471bedb23f0615dc24f0fc5" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structMR_1_1MapOrHashMap_1ac2b84418d93cdedba84fe87ce2595e2e" kindref="member">Dense</ref> *</type>
         <definition>Dense * MR::MapOrHashMap&lt; K, V &gt;::getMap</definition>
-        <argsstring>()</argsstring>
-        <name>getMap</name>
-        <qualifiedname>MR::MapOrHashMap::getMap</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" line="39" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" bodystart="39" bodyend="39"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1MapOrHashMap_1a9027fa8effc674e94506993cc5c1ee2e" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const <ref refid="structMR_1_1MapOrHashMap_1ac2b84418d93cdedba84fe87ce2595e2e" kindref="member">Dense</ref> *</type>
-        <definition>const Dense * MR::MapOrHashMap&lt; K, V &gt;::getMap</definition>
-        <argsstring>() const</argsstring>
+        <argsstring>() MR_LIFETIMEBOUND</argsstring>
         <name>getMap</name>
         <qualifiedname>MR::MapOrHashMap::getMap</qualifiedname>
         <briefdescription>
@@ -233,24 +223,24 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" line="40" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" bodystart="40" bodyend="40"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1MapOrHashMap_1a3bc5077bb60649a52a86a2736ff6a57e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1MapOrHashMap_1a9b9b3bd19e1e1187943ce7850bcf6ee0" kindref="member">Hash</ref> *</type>
-        <definition>Hash * MR::MapOrHashMap&lt; K, V &gt;::getHashMap</definition>
-        <argsstring>()</argsstring>
-        <name>getHashMap</name>
-        <qualifiedname>MR::MapOrHashMap::getHashMap</qualifiedname>
+      <memberdef kind="function" id="structMR_1_1MapOrHashMap_1abfe1d6849d40b95fb756affcd2a49f49" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="structMR_1_1MapOrHashMap_1ac2b84418d93cdedba84fe87ce2595e2e" kindref="member">Dense</ref> *</type>
+        <definition>const Dense * MR::MapOrHashMap&lt; K, V &gt;::getMap</definition>
+        <argsstring>() const MR_LIFETIMEBOUND</argsstring>
+        <name>getMap</name>
+        <qualifiedname>MR::MapOrHashMap::getMap</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" line="42" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" bodystart="42" bodyend="42"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" line="41" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" bodystart="41" bodyend="41"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1MapOrHashMap_1a2aded678aafca023ae711c2dcad233e5" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const <ref refid="structMR_1_1MapOrHashMap_1a9b9b3bd19e1e1187943ce7850bcf6ee0" kindref="member">Hash</ref> *</type>
-        <definition>const Hash * MR::MapOrHashMap&lt; K, V &gt;::getHashMap</definition>
-        <argsstring>() const</argsstring>
+      <memberdef kind="function" id="structMR_1_1MapOrHashMap_1ad24c7a779069c7e074b47d8e3d3400ae" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1MapOrHashMap_1a9b9b3bd19e1e1187943ce7850bcf6ee0" kindref="member">Hash</ref> *</type>
+        <definition>Hash * MR::MapOrHashMap&lt; K, V &gt;::getHashMap</definition>
+        <argsstring>() MR_LIFETIMEBOUND</argsstring>
         <name>getHashMap</name>
         <qualifiedname>MR::MapOrHashMap::getHashMap</qualifiedname>
         <briefdescription>
@@ -260,6 +250,20 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" line="43" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1MapOrHashMap_1a0c1e6a6e4c0590ec6918e29c93d59b8e" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="structMR_1_1MapOrHashMap_1a9b9b3bd19e1e1187943ce7850bcf6ee0" kindref="member">Hash</ref> *</type>
+        <definition>const Hash * MR::MapOrHashMap&lt; K, V &gt;::getHashMap</definition>
+        <argsstring>() const MR_LIFETIMEBOUND</argsstring>
+        <name>getHashMap</name>
+        <qualifiedname>MR::MapOrHashMap::getHashMap</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" line="44" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" bodystart="44" bodyend="44"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1MapOrHashMap_1ab6a52148cc818bc6c42e287a95ef61b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -273,7 +277,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" line="45" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" bodystart="105" bodyend="111"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" line="46" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" bodystart="106" bodyend="112"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -281,22 +285,22 @@
     <detaileddescription>
 <para>stores a mapping from keys K to values V in one of two forms: 1) as dense map (vector) preferable when there are few missing keys in a range [0, endKey) 2) as hash map preferable when valid keys are a small subset of the range </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFwd.h" bodystart="615" bodyend="-1"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFwd.h" bodystart="615" bodyend="-1"/>
     <listofallmembers>
       <member refid="structMR_1_1MapOrHashMap_1ab6a52148cc818bc6c42e287a95ef61b8" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap</scope><name>clear</name></member>
       <member refid="structMR_1_1MapOrHashMap_1af367d90b270a0bb9def39834f2a0e686" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap</scope><name>createHashMap</name></member>
       <member refid="structMR_1_1MapOrHashMap_1a2f5d8d5d984f6fbc7736118c4803e703" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap</scope><name>createMap</name></member>
       <member refid="structMR_1_1MapOrHashMap_1ac2b84418d93cdedba84fe87ce2595e2e" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap</scope><name>Dense</name></member>
       <member refid="structMR_1_1MapOrHashMap_1a99f74cd2edd6dab050ffad6466cdf191" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap</scope><name>forEach</name></member>
-      <member refid="structMR_1_1MapOrHashMap_1a3bc5077bb60649a52a86a2736ff6a57e" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap</scope><name>getHashMap</name></member>
-      <member refid="structMR_1_1MapOrHashMap_1a2aded678aafca023ae711c2dcad233e5" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap</scope><name>getHashMap</name></member>
-      <member refid="structMR_1_1MapOrHashMap_1a1061c0b8db208cf5af14eb2760cb3703" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap</scope><name>getMap</name></member>
-      <member refid="structMR_1_1MapOrHashMap_1a9027fa8effc674e94506993cc5c1ee2e" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap</scope><name>getMap</name></member>
+      <member refid="structMR_1_1MapOrHashMap_1ad24c7a779069c7e074b47d8e3d3400ae" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap</scope><name>getHashMap</name></member>
+      <member refid="structMR_1_1MapOrHashMap_1a0c1e6a6e4c0590ec6918e29c93d59b8e" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap</scope><name>getHashMap</name></member>
+      <member refid="structMR_1_1MapOrHashMap_1a60c491f3b471bedb23f0615dc24f0fc5" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap</scope><name>getMap</name></member>
+      <member refid="structMR_1_1MapOrHashMap_1abfe1d6849d40b95fb756affcd2a49f49" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap</scope><name>getMap</name></member>
       <member refid="structMR_1_1MapOrHashMap_1a9b9b3bd19e1e1187943ce7850bcf6ee0" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap</scope><name>Hash</name></member>
-      <member refid="structMR_1_1MapOrHashMap_1a6d4eb8a403de0495a024d7afa51cbd6c" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap</scope><name>pushBack</name></member>
+      <member refid="structMR_1_1MapOrHashMap_1a581685c400655d0cf9441498a051e38a" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap</scope><name>pushBack</name></member>
       <member refid="structMR_1_1MapOrHashMap_1a7a15020a8ce32845565aeffab264051d" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap</scope><name>resizeReserve</name></member>
-      <member refid="structMR_1_1MapOrHashMap_1ac7cc040fc165f15635860672b4c426d7" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap</scope><name>setHashMap</name></member>
-      <member refid="structMR_1_1MapOrHashMap_1a77ede25bfe03db7b0c3a5176323e042a" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap</scope><name>setMap</name></member>
+      <member refid="structMR_1_1MapOrHashMap_1aed9c7dee115bec118b5c146c71feeead" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap</scope><name>setHashMap</name></member>
+      <member refid="structMR_1_1MapOrHashMap_1a00c1a5cbe4993ea2fe7958753f256c2d" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap</scope><name>setMap</name></member>
       <member refid="structMR_1_1MapOrHashMap_1a2406ff7e1c972a394a1b2375af1feb33" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap</scope><name>var</name></member>
     </listofallmembers>
   </compounddef>

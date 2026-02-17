@@ -247,7 +247,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a56a6e732db4d138975b36c6bde975fea" id="r_a56a6e732db4d138975b36c6bde975fea"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56a6e732db4d138975b36c6bde975fea">MR_SliceInfo_UpcastTo_MR_SliceInfoBase</a> (const <a class="el" href="#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *object)</td></tr>
 <tr class="separator:a56a6e732db4d138975b36c6bde975fea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8259067bf1dd1720137b2fcb28b9eff4" id="r_a8259067bf1dd1720137b2fcb28b9eff4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8259067bf1dd1720137b2fcb28b9eff4">MR_SliceInfo_MutableUpcastTo_MR_SliceInfoBase</a> (<a class="el" href="#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *object)</td></tr>
-<tr class="memdesc:a8259067bf1dd1720137b2fcb28b9eff4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code>MR::SliceInfo</code> to its base class <code>MR::SliceInfoBase</code>.  <br /></td></tr>
 <tr class="separator:a8259067bf1dd1720137b2fcb28b9eff4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0193193aadc828e5020f4b779b27f670" id="r_a0193193aadc828e5020f4b779b27f670"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0193193aadc828e5020f4b779b27f670">MR_SliceInfo_ConstructFromAnother</a> (const <a class="el" href="#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *_other)</td></tr>
 <tr class="separator:a0193193aadc828e5020f4b779b27f670"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -476,7 +475,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>file index Returns a pointer to a member variable of class <code>MR::SliceInfo</code> named <code>fileNum</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>file index Returns a pointer to a member variable of class <code>MR::SliceInfo</code> named <code>fileNum</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -494,7 +493,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>image position Returns a pointer to a member variable of class <code>MR::SliceInfo</code> named <code>imagePos</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>image position Returns a pointer to a member variable of class <code>MR::SliceInfo</code> named <code>imagePos</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -512,7 +511,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>instance number Returns a pointer to a member variable of class <code>MR::SliceInfo</code> named <code>instanceNum</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>instance number Returns a pointer to a member variable of class <code>MR::SliceInfo</code> named <code>instanceNum</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -530,7 +529,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>layer height Returns a pointer to a member variable of class <code>MR::SliceInfo</code> named <code>z</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>layer height Returns a pointer to a member variable of class <code>MR::SliceInfo</code> named <code>z</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -548,7 +547,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>file index Returns a mutable pointer to a member variable of class <code>MR::SliceInfo</code> named <code>fileNum</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>file index Returns a mutable pointer to a member variable of class <code>MR::SliceInfo</code> named <code>fileNum</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -566,7 +565,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>image position Returns a mutable pointer to a member variable of class <code>MR::SliceInfo</code> named <code>imagePos</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>image position Returns a mutable pointer to a member variable of class <code>MR::SliceInfo</code> named <code>imagePos</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -584,7 +583,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>instance number Returns a mutable pointer to a member variable of class <code>MR::SliceInfo</code> named <code>instanceNum</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>instance number Returns a mutable pointer to a member variable of class <code>MR::SliceInfo</code> named <code>instanceNum</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -602,7 +601,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>layer height Returns a mutable pointer to a member variable of class <code>MR::SliceInfo</code> named <code>z</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>layer height Returns a mutable pointer to a member variable of class <code>MR::SliceInfo</code> named <code>z</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -620,8 +619,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Upcasts an instance of <code>MR::SliceInfo</code> to its base class <code>MR::SliceInfoBase</code>. </p>
+<p>Upcasts an instance of <code>MR::SliceInfo</code> to its base class <code>MR::SliceInfoBase</code>. The reference to the parameter <code>object</code> might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -771,7 +769,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Upcasts an instance of <code>MR::SliceInfo</code> to its base class <code>MR::SliceInfoBase</code>. This version is acting on mutable pointers. </p>
+<p>Upcasts an instance of <code>MR::SliceInfo</code> to its base class <code>MR::SliceInfoBase</code>. This version is acting on mutable pointers. The reference to the parameter <code>object</code> might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -930,7 +928,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>file index Returns a pointer to a member variable of class <code>MR::SliceInfoBase</code> named <code>fileNum</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>file index Returns a pointer to a member variable of class <code>MR::SliceInfoBase</code> named <code>fileNum</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -948,7 +946,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>instance number Returns a pointer to a member variable of class <code>MR::SliceInfoBase</code> named <code>instanceNum</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>instance number Returns a pointer to a member variable of class <code>MR::SliceInfoBase</code> named <code>instanceNum</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -966,7 +964,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>layer height Returns a pointer to a member variable of class <code>MR::SliceInfoBase</code> named <code>z</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>layer height Returns a pointer to a member variable of class <code>MR::SliceInfoBase</code> named <code>z</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -984,7 +982,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>file index Returns a mutable pointer to a member variable of class <code>MR::SliceInfoBase</code> named <code>fileNum</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>file index Returns a mutable pointer to a member variable of class <code>MR::SliceInfoBase</code> named <code>fileNum</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1002,7 +1000,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>instance number Returns a mutable pointer to a member variable of class <code>MR::SliceInfoBase</code> named <code>instanceNum</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>instance number Returns a mutable pointer to a member variable of class <code>MR::SliceInfoBase</code> named <code>instanceNum</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1020,7 +1018,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>layer height Returns a mutable pointer to a member variable of class <code>MR::SliceInfoBase</code> named <code>z</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>layer height Returns a mutable pointer to a member variable of class <code>MR::SliceInfoBase</code> named <code>z</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1038,7 +1036,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code>MR::SliceInfoBase</code> to a derived class <code>MR::SliceInfo</code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. </p>
+<p>Downcasts an instance of <code>MR::SliceInfoBase</code> to a derived class <code>MR::SliceInfo</code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <code>object</code> might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -1166,7 +1164,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code>MR::SliceInfoBase</code> to a derived class <code>MR::SliceInfo</code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. </p>
+<p>Downcasts an instance of <code>MR::SliceInfoBase</code> to a derived class <code>MR::SliceInfo</code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <code>object</code> might be preserved in the return value. </p>
 
 </div>
 </div>

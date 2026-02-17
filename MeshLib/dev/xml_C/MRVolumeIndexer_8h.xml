@@ -226,11 +226,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::VoxelLocation</computeroutput> named <computeroutput>id</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::VoxelLocation</computeroutput> named <computeroutput>id</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="46" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="46" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="47" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="47" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRVolumeIndexer_8h_1af0f049da358e06c0d3a86e6502577726" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -252,7 +252,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="52" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="52" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="53" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="53" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRVolumeIndexer_8h_1ab53f065208a8d4bd54883c6951de91a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref> *</type>
@@ -266,11 +266,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::VoxelLocation</computeroutput> named <computeroutput>id</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::VoxelLocation</computeroutput> named <computeroutput>id</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="57" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="57" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="59" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="59" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRVolumeIndexer_8h_1a3d721bb4ff85c23eec85e6ccc2236dcc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref> *</type>
@@ -284,11 +284,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::VoxelLocation</computeroutput> named <computeroutput>pos</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::VoxelLocation</computeroutput> named <computeroutput>pos</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="62" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="62" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="65" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="65" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRVolumeIndexer_8h_1a41ed458cf40cfaffe0fee7792939551c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -310,7 +310,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="68" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="68" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="71" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="71" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRVolumeIndexer_8h_1adf4fbefa2f968935a3a70f1c9c07c0b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref> *</type>
@@ -324,11 +324,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::VoxelLocation</computeroutput> named <computeroutput>pos</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::VoxelLocation</computeroutput> named <computeroutput>pos</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="73" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="73" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="77" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="77" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRVolumeIndexer_8h_1a12f305a2e110f8289364ca8d329d8f21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref> *</type>
@@ -345,7 +345,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="77" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="77" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="81" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="81" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRVolumeIndexer_8h_1a562d2c0eb34de4b1b9d120ba70feefc3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref> *</type>
@@ -363,7 +363,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="82" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="82" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="86" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="86" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRVolumeIndexer_8h_1a3533112a9983ebde36a25c8f25c94c11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref> *</type>
@@ -385,7 +385,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="89" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="89" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="93" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="93" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRVolumeIndexer_8h_1a61f71e4ead824ef10ae49723a2fa3e72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref> *</type>
@@ -407,7 +407,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="93" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="93" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="97" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="97" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRVolumeIndexer_8h_1a84a97bf658b721d7453a3aabb20052ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref> *</type>
@@ -429,7 +429,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="97" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="97" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="101" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="101" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRVolumeIndexer_8h_1a112978f7cd6cb22ed4867ed123255583" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref> *</type>
@@ -447,7 +447,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="103" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="103" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="107" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="107" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRVolumeIndexer_8h_1a796effdf4d783daa24d280bf55a4d320" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -465,7 +465,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="106" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="106" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="110" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="110" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRVolumeIndexer_8h_1a4aa7d34ac9a14f4dfb82d35c0702e639" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -483,7 +483,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="109" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="109" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="113" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="113" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRVolumeIndexer_8h_1a779547a90c3e320ec8d4aa59abac67f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool</type>
@@ -501,7 +501,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="114" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="114" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="118" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="118" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRVolumeIndexer_8h_1ae08e1da88d2b0c36cd3eb80704479d89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref> *</type>
@@ -523,7 +523,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="122" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="122" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="126" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="126" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRVolumeIndexer_8h_1ad1aa7bf1df493f7cab7a514b1a417849" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref> *</type>
@@ -541,7 +541,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="128" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="128" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="132" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="132" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRVolumeIndexer_8h_1a423b9833caff8ee4659939b2fcd70108" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref> *</type>
@@ -563,7 +563,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="132" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="132" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="136" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="136" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRVolumeIndexer_8h_1afb7a481795a02a560d02f4259bebfc29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref> *</type>
@@ -585,7 +585,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="136" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="136" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="140" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="140" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRVolumeIndexer_8h_1a36504aadab1538a12b6a757c8760d938" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref> *</type>
@@ -603,7 +603,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="142" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="142" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="146" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="146" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRVolumeIndexer_8h_1a9dd7ac69d84eb7828f4182f32e078b93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -621,7 +621,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="145" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="145" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="149" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="149" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRVolumeIndexer_8h_1abddaa9e027419923179ff893f8af4f0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -639,7 +639,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="148" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="148" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="152" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="152" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRVolumeIndexer_8h_1a4f0061090e8ae25d591844f396cb5307" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref> *</type>
@@ -661,7 +661,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="156" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="156" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="160" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="160" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRVolumeIndexer_8h_1a652cc7262444bf5c6bce422b545fafe0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref> *</type>
@@ -679,7 +679,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="161" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="161" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="165" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="165" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRVolumeIndexer_8h_1ae10a3a43d3b8866ed8591f7328ad099a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API MR_uint64_t</type>
@@ -697,7 +697,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="166" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="166" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="170" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="170" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRVolumeIndexer_8h_1a213837acf223b99da09941588f339f97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref></type>
@@ -715,7 +715,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="171" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="171" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="175" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="175" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRVolumeIndexer_8h_1a691d34f628c7685d2c82834f42f36a21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API MR_uint64_t</type>
@@ -733,7 +733,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="175" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="175" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="179" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="179" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRVolumeIndexer_8h_1afb42b3fafcb81d938503135bae737f1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref></type>
@@ -755,7 +755,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="179" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="179" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="183" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="183" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRVolumeIndexer_8h_1ad058379d7eb70aead74319e83b233c74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref></type>
@@ -777,7 +777,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="184" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="184" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="188" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="188" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRVolumeIndexer_8h_1abdec46ce52c50514713a54984c06c63f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref> *</type>
@@ -799,7 +799,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="189" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="189" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="193" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="193" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRVolumeIndexer_8h_1ad5d6248a90190c38b8654c6239e519e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref> *</type>
@@ -821,7 +821,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="195" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="195" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="199" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="199" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRVolumeIndexer_8h_1aa81040e2b3b14dbf107974f03481fb7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool</type>
@@ -843,7 +843,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="201" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="201" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="205" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="205" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRVolumeIndexer_8h_1a1d8baf94579d41cb500e32a7ee8c358c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool</type>
@@ -865,7 +865,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="207" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="207" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="211" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="211" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRVolumeIndexer_8h_1a159c3f06d33eb20dc0a2006fe2b51cb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool</type>
@@ -891,7 +891,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="212" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="212" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="216" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="216" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRVolumeIndexer_8h_1a95c8b0f39016f61c770ea58ebeab2fc6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool</type>
@@ -917,7 +917,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="218" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="218" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="222" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="222" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRVolumeIndexer_8h_1aafe9c36744f0a985a427fa2328e0d357" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool</type>
@@ -943,7 +943,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="224" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="224" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="228" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="228" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRVolumeIndexer_8h_1ad81edbf838f0a7912d74d8d47be0d13e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref></type>
@@ -969,7 +969,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="229" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="229" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="233" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="233" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRVolumeIndexer_8h_1a0083207d8d684453fceed8565ed67d1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref></type>
@@ -999,7 +999,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="234" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="234" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="238" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="238" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRVolumeIndexer_8h_1a68f63620ee469dc78ef45f6f0c5889c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref> *</type>
@@ -1025,7 +1025,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="242" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="242" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="246" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="246" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRVolumeIndexer_8h_1a8e098c6badc2ab8cbf3dba9b5c68571d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref></type>
@@ -1051,7 +1051,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="247" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="247" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="251" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="251" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRVolumeIndexer_8h_1aac58458a03f0653bbb27e31e39dfc5e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref></type>
@@ -1085,7 +1085,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="252" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="252" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="256" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="256" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRVolumeIndexer_8h_1a3ed9b2f155749d57c64fc0eb4351fe13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1111,7 +1111,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="259" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="259" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="263" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="263" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRVolumeIndexer_8h_1a5fdb3bb1ad3d77fcb66f3d1da4042ea5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1137,7 +1137,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="266" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="266" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" line="270" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h" declline="270" declcolumn="14"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1181,95 +1181,95 @@
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
 <codeline lineno="41" refid="MRVolumeIndexer_8h_1a8bcc72249d67d34355f3eaba7b6ef85b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeIndexer_8h_1ac0b4b1b9e5e55ac05fc9acb56d085232" kindref="member">MR_OutEdge</ref><sp/><ref refid="MRVolumeIndexer_8h_1a8bcc72249d67d34355f3eaba7b6ef85b" kindref="member">MR_opposite_MR_OutEdge</ref>(<ref refid="MRVolumeIndexer_8h_1ac0b4b1b9e5e55ac05fc9acb56d085232" kindref="member">MR_OutEdge</ref><sp/>e);</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="46" refid="MRVolumeIndexer_8h_1a60805e31d736dc897976bba3c49bd103" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/>*<ref refid="MRVolumeIndexer_8h_1a60805e31d736dc897976bba3c49bd103" kindref="member">MR_VoxelLocation_Get_id</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"></highlight></codeline>
-<codeline lineno="52" refid="MRVolumeIndexer_8h_1af0f049da358e06c0d3a86e6502577726" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1af0f049da358e06c0d3a86e6502577726" kindref="member">MR_VoxelLocation_Set_id</ref>(<ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*_this,<sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/>value);</highlight></codeline>
-<codeline lineno="53"><highlight class="normal"></highlight></codeline>
-<codeline lineno="57" refid="MRVolumeIndexer_8h_1ab53f065208a8d4bd54883c6951de91a4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/>*<ref refid="MRVolumeIndexer_8h_1ab53f065208a8d4bd54883c6951de91a4" kindref="member">MR_VoxelLocation_GetMutable_id</ref>(<ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="58"><highlight class="normal"></highlight></codeline>
-<codeline lineno="62" refid="MRVolumeIndexer_8h_1a3d721bb4ff85c23eec85e6ccc2236dcc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*<ref refid="MRVolumeIndexer_8h_1a3d721bb4ff85c23eec85e6ccc2236dcc" kindref="member">MR_VoxelLocation_Get_pos</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="63"><highlight class="normal"></highlight></codeline>
-<codeline lineno="68" refid="MRVolumeIndexer_8h_1a41ed458cf40cfaffe0fee7792939551c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a41ed458cf40cfaffe0fee7792939551c" kindref="member">MR_VoxelLocation_Set_pos</ref>(<ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>value);</highlight></codeline>
-<codeline lineno="69"><highlight class="normal"></highlight></codeline>
-<codeline lineno="73" refid="MRVolumeIndexer_8h_1adf4fbefa2f968935a3a70f1c9c07c0b3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*<ref refid="MRVolumeIndexer_8h_1adf4fbefa2f968935a3a70f1c9c07c0b3" kindref="member">MR_VoxelLocation_GetMutable_pos</ref>(<ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="74"><highlight class="normal"></highlight></codeline>
-<codeline lineno="77" refid="MRVolumeIndexer_8h_1a12f305a2e110f8289364ca8d329d8f21" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*<ref refid="MRVolumeIndexer_8h_1a12f305a2e110f8289364ca8d329d8f21" kindref="member">MR_VoxelLocation_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="47" refid="MRVolumeIndexer_8h_1a60805e31d736dc897976bba3c49bd103" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/>*<ref refid="MRVolumeIndexer_8h_1a60805e31d736dc897976bba3c49bd103" kindref="member">MR_VoxelLocation_Get_id</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="MRVolumeIndexer_8h_1af0f049da358e06c0d3a86e6502577726" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1af0f049da358e06c0d3a86e6502577726" kindref="member">MR_VoxelLocation_Set_id</ref>(<ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*_this,<sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/>value);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="MRVolumeIndexer_8h_1ab53f065208a8d4bd54883c6951de91a4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/>*<ref refid="MRVolumeIndexer_8h_1ab53f065208a8d4bd54883c6951de91a4" kindref="member">MR_VoxelLocation_GetMutable_id</ref>(<ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="MRVolumeIndexer_8h_1a3d721bb4ff85c23eec85e6ccc2236dcc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*<ref refid="MRVolumeIndexer_8h_1a3d721bb4ff85c23eec85e6ccc2236dcc" kindref="member">MR_VoxelLocation_Get_pos</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="MRVolumeIndexer_8h_1a41ed458cf40cfaffe0fee7792939551c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a41ed458cf40cfaffe0fee7792939551c" kindref="member">MR_VoxelLocation_Set_pos</ref>(<ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>value);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="MRVolumeIndexer_8h_1adf4fbefa2f968935a3a70f1c9c07c0b3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*<ref refid="MRVolumeIndexer_8h_1adf4fbefa2f968935a3a70f1c9c07c0b3" kindref="member">MR_VoxelLocation_GetMutable_pos</ref>(<ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="78"><highlight class="normal"></highlight></codeline>
-<codeline lineno="82" refid="MRVolumeIndexer_8h_1a562d2c0eb34de4b1b9d120ba70feefc3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*<ref refid="MRVolumeIndexer_8h_1a562d2c0eb34de4b1b9d120ba70feefc3" kindref="member">MR_VoxelLocation_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="83"><highlight class="normal"></highlight></codeline>
-<codeline lineno="89" refid="MRVolumeIndexer_8h_1a3533112a9983ebde36a25c8f25c94c11" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*<ref refid="MRVolumeIndexer_8h_1a3533112a9983ebde36a25c8f25c94c11" kindref="member">MR_VoxelLocation_ConstructFrom</ref>(<ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>pos);</highlight></codeline>
-<codeline lineno="90"><highlight class="normal"></highlight></codeline>
-<codeline lineno="93" refid="MRVolumeIndexer_8h_1a61f71e4ead824ef10ae49723a2fa3e72" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*<ref refid="MRVolumeIndexer_8h_1a61f71e4ead824ef10ae49723a2fa3e72" kindref="member">MR_VoxelLocation_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="81" refid="MRVolumeIndexer_8h_1a12f305a2e110f8289364ca8d329d8f21" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*<ref refid="MRVolumeIndexer_8h_1a12f305a2e110f8289364ca8d329d8f21" kindref="member">MR_VoxelLocation_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="MRVolumeIndexer_8h_1a562d2c0eb34de4b1b9d120ba70feefc3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*<ref refid="MRVolumeIndexer_8h_1a562d2c0eb34de4b1b9d120ba70feefc3" kindref="member">MR_VoxelLocation_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="MRVolumeIndexer_8h_1a3533112a9983ebde36a25c8f25c94c11" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*<ref refid="MRVolumeIndexer_8h_1a3533112a9983ebde36a25c8f25c94c11" kindref="member">MR_VoxelLocation_ConstructFrom</ref>(<ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>pos);</highlight></codeline>
 <codeline lineno="94"><highlight class="normal"></highlight></codeline>
-<codeline lineno="97" refid="MRVolumeIndexer_8h_1a84a97bf658b721d7453a3aabb20052ab" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*<ref refid="MRVolumeIndexer_8h_1a84a97bf658b721d7453a3aabb20052ab" kindref="member">MR_VoxelLocation_OffsetMutablePtr</ref>(<ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="97" refid="MRVolumeIndexer_8h_1a61f71e4ead824ef10ae49723a2fa3e72" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*<ref refid="MRVolumeIndexer_8h_1a61f71e4ead824ef10ae49723a2fa3e72" kindref="member">MR_VoxelLocation_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="98"><highlight class="normal"></highlight></codeline>
-<codeline lineno="103" refid="MRVolumeIndexer_8h_1a112978f7cd6cb22ed4867ed123255583" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*<ref refid="MRVolumeIndexer_8h_1a112978f7cd6cb22ed4867ed123255583" kindref="member">MR_VoxelLocation_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="104"><highlight class="normal"></highlight></codeline>
-<codeline lineno="106" refid="MRVolumeIndexer_8h_1a796effdf4d783daa24d280bf55a4d320" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a796effdf4d783daa24d280bf55a4d320" kindref="member">MR_VoxelLocation_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="107"><highlight class="normal"></highlight></codeline>
-<codeline lineno="109" refid="MRVolumeIndexer_8h_1a4aa7d34ac9a14f4dfb82d35c0702e639" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a4aa7d34ac9a14f4dfb82d35c0702e639" kindref="member">MR_VoxelLocation_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="110"><highlight class="normal"></highlight></codeline>
-<codeline lineno="114" refid="MRVolumeIndexer_8h_1a779547a90c3e320ec8d4aa59abac67f4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a779547a90c3e320ec8d4aa59abac67f4" kindref="member">MR_VoxelLocation_ConvertTo_bool</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="115"><highlight class="normal"></highlight></codeline>
-<codeline lineno="122" refid="MRVolumeIndexer_8h_1ae08e1da88d2b0c36cd3eb80704479d89" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*<ref refid="MRVolumeIndexer_8h_1ae08e1da88d2b0c36cd3eb80704479d89" kindref="member">MR_VoxelLocation_AssignFromAnother</ref>(<ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="123"><highlight class="normal"></highlight></codeline>
-<codeline lineno="128" refid="MRVolumeIndexer_8h_1ad1aa7bf1df493f7cab7a514b1a417849" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*<ref refid="MRVolumeIndexer_8h_1ad1aa7bf1df493f7cab7a514b1a417849" kindref="member">MR_VolumeIndexer_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="129"><highlight class="normal"></highlight></codeline>
-<codeline lineno="132" refid="MRVolumeIndexer_8h_1a423b9833caff8ee4659939b2fcd70108" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*<ref refid="MRVolumeIndexer_8h_1a423b9833caff8ee4659939b2fcd70108" kindref="member">MR_VolumeIndexer_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="101" refid="MRVolumeIndexer_8h_1a84a97bf658b721d7453a3aabb20052ab" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*<ref refid="MRVolumeIndexer_8h_1a84a97bf658b721d7453a3aabb20052ab" kindref="member">MR_VoxelLocation_OffsetMutablePtr</ref>(<ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="MRVolumeIndexer_8h_1a112978f7cd6cb22ed4867ed123255583" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*<ref refid="MRVolumeIndexer_8h_1a112978f7cd6cb22ed4867ed123255583" kindref="member">MR_VoxelLocation_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="MRVolumeIndexer_8h_1a796effdf4d783daa24d280bf55a4d320" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a796effdf4d783daa24d280bf55a4d320" kindref="member">MR_VoxelLocation_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="MRVolumeIndexer_8h_1a4aa7d34ac9a14f4dfb82d35c0702e639" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a4aa7d34ac9a14f4dfb82d35c0702e639" kindref="member">MR_VoxelLocation_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="MRVolumeIndexer_8h_1a779547a90c3e320ec8d4aa59abac67f4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a779547a90c3e320ec8d4aa59abac67f4" kindref="member">MR_VoxelLocation_ConvertTo_bool</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126" refid="MRVolumeIndexer_8h_1ae08e1da88d2b0c36cd3eb80704479d89" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*<ref refid="MRVolumeIndexer_8h_1ae08e1da88d2b0c36cd3eb80704479d89" kindref="member">MR_VoxelLocation_AssignFromAnother</ref>(<ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132" refid="MRVolumeIndexer_8h_1ad1aa7bf1df493f7cab7a514b1a417849" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*<ref refid="MRVolumeIndexer_8h_1ad1aa7bf1df493f7cab7a514b1a417849" kindref="member">MR_VolumeIndexer_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="133"><highlight class="normal"></highlight></codeline>
-<codeline lineno="136" refid="MRVolumeIndexer_8h_1afb7a481795a02a560d02f4259bebfc29" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*<ref refid="MRVolumeIndexer_8h_1afb7a481795a02a560d02f4259bebfc29" kindref="member">MR_VolumeIndexer_OffsetMutablePtr</ref>(<ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="136" refid="MRVolumeIndexer_8h_1a423b9833caff8ee4659939b2fcd70108" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*<ref refid="MRVolumeIndexer_8h_1a423b9833caff8ee4659939b2fcd70108" kindref="member">MR_VolumeIndexer_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="137"><highlight class="normal"></highlight></codeline>
-<codeline lineno="142" refid="MRVolumeIndexer_8h_1a36504aadab1538a12b6a757c8760d938" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*<ref refid="MRVolumeIndexer_8h_1a36504aadab1538a12b6a757c8760d938" kindref="member">MR_VolumeIndexer_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*dims);</highlight></codeline>
-<codeline lineno="143"><highlight class="normal"></highlight></codeline>
-<codeline lineno="145" refid="MRVolumeIndexer_8h_1a9dd7ac69d84eb7828f4182f32e078b93" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a9dd7ac69d84eb7828f4182f32e078b93" kindref="member">MR_VolumeIndexer_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="146"><highlight class="normal"></highlight></codeline>
-<codeline lineno="148" refid="MRVolumeIndexer_8h_1abddaa9e027419923179ff893f8af4f0e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1abddaa9e027419923179ff893f8af4f0e" kindref="member">MR_VolumeIndexer_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="149"><highlight class="normal"></highlight></codeline>
-<codeline lineno="156" refid="MRVolumeIndexer_8h_1a4f0061090e8ae25d591844f396cb5307" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*<ref refid="MRVolumeIndexer_8h_1a4f0061090e8ae25d591844f396cb5307" kindref="member">MR_VolumeIndexer_AssignFromAnother</ref>(<ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="157"><highlight class="normal"></highlight></codeline>
-<codeline lineno="161" refid="MRVolumeIndexer_8h_1a652cc7262444bf5c6bce422b545fafe0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*<ref refid="MRVolumeIndexer_8h_1a652cc7262444bf5c6bce422b545fafe0" kindref="member">MR_VolumeIndexer_dims</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="162"><highlight class="normal"></highlight></codeline>
-<codeline lineno="166" refid="MRVolumeIndexer_8h_1ae10a3a43d3b8866ed8591f7328ad099a" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRVolumeIndexer_8h_1ae10a3a43d3b8866ed8591f7328ad099a" kindref="member">MR_VolumeIndexer_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="167"><highlight class="normal"></highlight></codeline>
-<codeline lineno="171" refid="MRVolumeIndexer_8h_1a213837acf223b99da09941588f339f97" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/><ref refid="MRVolumeIndexer_8h_1a213837acf223b99da09941588f339f97" kindref="member">MR_VolumeIndexer_endId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="172"><highlight class="normal"></highlight></codeline>
-<codeline lineno="175" refid="MRVolumeIndexer_8h_1a691d34f628c7685d2c82834f42f36a21" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRVolumeIndexer_8h_1a691d34f628c7685d2c82834f42f36a21" kindref="member">MR_VolumeIndexer_sizeXY</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="140" refid="MRVolumeIndexer_8h_1afb7a481795a02a560d02f4259bebfc29" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*<ref refid="MRVolumeIndexer_8h_1afb7a481795a02a560d02f4259bebfc29" kindref="member">MR_VolumeIndexer_OffsetMutablePtr</ref>(<ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146" refid="MRVolumeIndexer_8h_1a36504aadab1538a12b6a757c8760d938" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*<ref refid="MRVolumeIndexer_8h_1a36504aadab1538a12b6a757c8760d938" kindref="member">MR_VolumeIndexer_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*dims);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149" refid="MRVolumeIndexer_8h_1a9dd7ac69d84eb7828f4182f32e078b93" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a9dd7ac69d84eb7828f4182f32e078b93" kindref="member">MR_VolumeIndexer_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152" refid="MRVolumeIndexer_8h_1abddaa9e027419923179ff893f8af4f0e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1abddaa9e027419923179ff893f8af4f0e" kindref="member">MR_VolumeIndexer_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160" refid="MRVolumeIndexer_8h_1a4f0061090e8ae25d591844f396cb5307" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*<ref refid="MRVolumeIndexer_8h_1a4f0061090e8ae25d591844f396cb5307" kindref="member">MR_VolumeIndexer_AssignFromAnother</ref>(<ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165" refid="MRVolumeIndexer_8h_1a652cc7262444bf5c6bce422b545fafe0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*<ref refid="MRVolumeIndexer_8h_1a652cc7262444bf5c6bce422b545fafe0" kindref="member">MR_VolumeIndexer_dims</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170" refid="MRVolumeIndexer_8h_1ae10a3a43d3b8866ed8591f7328ad099a" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRVolumeIndexer_8h_1ae10a3a43d3b8866ed8591f7328ad099a" kindref="member">MR_VolumeIndexer_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175" refid="MRVolumeIndexer_8h_1a213837acf223b99da09941588f339f97" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/><ref refid="MRVolumeIndexer_8h_1a213837acf223b99da09941588f339f97" kindref="member">MR_VolumeIndexer_endId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="176"><highlight class="normal"></highlight></codeline>
-<codeline lineno="179" refid="MRVolumeIndexer_8h_1afb42b3fafcb81d938503135bae737f1d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/><ref refid="MRVolumeIndexer_8h_1afb42b3fafcb81d938503135bae737f1d" kindref="member">MR_VolumeIndexer_toPos</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*_this,<sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="179" refid="MRVolumeIndexer_8h_1a691d34f628c7685d2c82834f42f36a21" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRVolumeIndexer_8h_1a691d34f628c7685d2c82834f42f36a21" kindref="member">MR_VolumeIndexer_sizeXY</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="180"><highlight class="normal"></highlight></codeline>
-<codeline lineno="184" refid="MRVolumeIndexer_8h_1ad058379d7eb70aead74319e83b233c74" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/><ref refid="MRVolumeIndexer_8h_1ad058379d7eb70aead74319e83b233c74" kindref="member">MR_VolumeIndexer_toVoxelId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*pos);</highlight></codeline>
-<codeline lineno="185"><highlight class="normal"></highlight></codeline>
-<codeline lineno="189" refid="MRVolumeIndexer_8h_1abdec46ce52c50514713a54984c06c63f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*<ref refid="MRVolumeIndexer_8h_1abdec46ce52c50514713a54984c06c63f" kindref="member">MR_VolumeIndexer_toLoc_MR_VoxelId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*_this,<sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="190"><highlight class="normal"></highlight></codeline>
-<codeline lineno="195" refid="MRVolumeIndexer_8h_1ad5d6248a90190c38b8654c6239e519e3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*<ref refid="MRVolumeIndexer_8h_1ad5d6248a90190c38b8654c6239e519e3" kindref="member">MR_VolumeIndexer_toLoc_MR_Vector3i</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*pos);</highlight></codeline>
-<codeline lineno="196"><highlight class="normal"></highlight></codeline>
-<codeline lineno="201" refid="MRVolumeIndexer_8h_1aa81040e2b3b14dbf107974f03481fb7c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1aa81040e2b3b14dbf107974f03481fb7c" kindref="member">MR_VolumeIndexer_isInDims</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*pos);</highlight></codeline>
-<codeline lineno="202"><highlight class="normal"></highlight></codeline>
-<codeline lineno="207" refid="MRVolumeIndexer_8h_1a1d8baf94579d41cb500e32a7ee8c358c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a1d8baf94579d41cb500e32a7ee8c358c" kindref="member">MR_VolumeIndexer_isBdVoxel</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*pos);</highlight></codeline>
-<codeline lineno="208"><highlight class="normal"></highlight></codeline>
-<codeline lineno="212" refid="MRVolumeIndexer_8h_1a159c3f06d33eb20dc0a2006fe2b51cb4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a159c3f06d33eb20dc0a2006fe2b51cb4" kindref="member">MR_VolumeIndexer_areNeigbors_MR_VoxelId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*_this,<sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/>v0,<sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/>v1);</highlight></codeline>
-<codeline lineno="213"><highlight class="normal"></highlight></codeline>
-<codeline lineno="218" refid="MRVolumeIndexer_8h_1a95c8b0f39016f61c770ea58ebeab2fc6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a95c8b0f39016f61c770ea58ebeab2fc6" kindref="member">MR_VolumeIndexer_areNeigbors_MR_Vector3i</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*pos0,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*pos1);</highlight></codeline>
-<codeline lineno="219"><highlight class="normal"></highlight></codeline>
-<codeline lineno="224" refid="MRVolumeIndexer_8h_1aafe9c36744f0a985a427fa2328e0d357" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1aafe9c36744f0a985a427fa2328e0d357" kindref="member">MR_VolumeIndexer_hasNeighbour</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*pos,<sp/><ref refid="MRVolumeIndexer_8h_1ac0b4b1b9e5e55ac05fc9acb56d085232" kindref="member">MR_OutEdge</ref><sp/>toNei);</highlight></codeline>
-<codeline lineno="225"><highlight class="normal"></highlight></codeline>
-<codeline lineno="229" refid="MRVolumeIndexer_8h_1ad81edbf838f0a7912d74d8d47be0d13e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/><ref refid="MRVolumeIndexer_8h_1ad81edbf838f0a7912d74d8d47be0d13e" kindref="member">MR_VolumeIndexer_getNeighbor_2_MR_VoxelId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*_this,<sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/>v,<sp/><ref refid="MRVolumeIndexer_8h_1ac0b4b1b9e5e55ac05fc9acb56d085232" kindref="member">MR_OutEdge</ref><sp/>toNei);</highlight></codeline>
-<codeline lineno="230"><highlight class="normal"></highlight></codeline>
-<codeline lineno="234" refid="MRVolumeIndexer_8h_1a0083207d8d684453fceed8565ed67d1f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/><ref refid="MRVolumeIndexer_8h_1a0083207d8d684453fceed8565ed67d1f" kindref="member">MR_VolumeIndexer_getNeighbor_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*_this,<sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/>v,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*pos,<sp/><ref refid="MRVolumeIndexer_8h_1ac0b4b1b9e5e55ac05fc9acb56d085232" kindref="member">MR_OutEdge</ref><sp/>toNei);</highlight></codeline>
-<codeline lineno="235"><highlight class="normal"></highlight></codeline>
-<codeline lineno="242" refid="MRVolumeIndexer_8h_1a68f63620ee469dc78ef45f6f0c5889c1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*<ref refid="MRVolumeIndexer_8h_1a68f63620ee469dc78ef45f6f0c5889c1" kindref="member">MR_VolumeIndexer_getNeighbor_2_MR_VoxelLocation</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*loc,<sp/><ref refid="MRVolumeIndexer_8h_1ac0b4b1b9e5e55ac05fc9acb56d085232" kindref="member">MR_OutEdge</ref><sp/>toNei);</highlight></codeline>
-<codeline lineno="243"><highlight class="normal"></highlight></codeline>
-<codeline lineno="247" refid="MRVolumeIndexer_8h_1a8e098c6badc2ab8cbf3dba9b5c68571d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/><ref refid="MRVolumeIndexer_8h_1a8e098c6badc2ab8cbf3dba9b5c68571d" kindref="member">MR_VolumeIndexer_getExistingNeighbor</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*_this,<sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/>v,<sp/><ref refid="MRVolumeIndexer_8h_1ac0b4b1b9e5e55ac05fc9acb56d085232" kindref="member">MR_OutEdge</ref><sp/>toNei);</highlight></codeline>
-<codeline lineno="248"><highlight class="normal"></highlight></codeline>
-<codeline lineno="252" refid="MRVolumeIndexer_8h_1aac58458a03f0653bbb27e31e39dfc5e6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/><ref refid="MRVolumeIndexer_8h_1aac58458a03f0653bbb27e31e39dfc5e6" kindref="member">MR_VolumeIndexer_getNeighbor_4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*_this,<sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/>v,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*pos,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bdPos,<sp/><ref refid="MRVolumeIndexer_8h_1ac0b4b1b9e5e55ac05fc9acb56d085232" kindref="member">MR_OutEdge</ref><sp/>toNei);</highlight></codeline>
-<codeline lineno="253"><highlight class="normal"></highlight></codeline>
-<codeline lineno="259" refid="MRVolumeIndexer_8h_1a3ed9b2f155749d57c64fc0eb4351fe13" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a3ed9b2f155749d57c64fc0eb4351fe13" kindref="member">MR_expandVoxelsMask</ref>(<ref refid="MRBitSet_8h_1a94b5f700f4835481dce132716ff73b05" kindref="member">MR_VoxelBitSet</ref><sp/>*mask,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*indexer,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*expansion);</highlight></codeline>
-<codeline lineno="260"><highlight class="normal"></highlight></codeline>
-<codeline lineno="266" refid="MRVolumeIndexer_8h_1a5fdb3bb1ad3d77fcb66f3d1da4042ea5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a5fdb3bb1ad3d77fcb66f3d1da4042ea5" kindref="member">MR_shrinkVoxelsMask</ref>(<ref refid="MRBitSet_8h_1a94b5f700f4835481dce132716ff73b05" kindref="member">MR_VoxelBitSet</ref><sp/>*mask,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*indexer,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*shrinkage);</highlight></codeline>
-<codeline lineno="267"><highlight class="normal"></highlight></codeline>
-<codeline lineno="268"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="269"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="270"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="183" refid="MRVolumeIndexer_8h_1afb42b3fafcb81d938503135bae737f1d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/><ref refid="MRVolumeIndexer_8h_1afb42b3fafcb81d938503135bae737f1d" kindref="member">MR_VolumeIndexer_toPos</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*_this,<sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188" refid="MRVolumeIndexer_8h_1ad058379d7eb70aead74319e83b233c74" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/><ref refid="MRVolumeIndexer_8h_1ad058379d7eb70aead74319e83b233c74" kindref="member">MR_VolumeIndexer_toVoxelId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*pos);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193" refid="MRVolumeIndexer_8h_1abdec46ce52c50514713a54984c06c63f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*<ref refid="MRVolumeIndexer_8h_1abdec46ce52c50514713a54984c06c63f" kindref="member">MR_VolumeIndexer_toLoc_MR_VoxelId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*_this,<sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199" refid="MRVolumeIndexer_8h_1ad5d6248a90190c38b8654c6239e519e3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*<ref refid="MRVolumeIndexer_8h_1ad5d6248a90190c38b8654c6239e519e3" kindref="member">MR_VolumeIndexer_toLoc_MR_Vector3i</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*pos);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205" refid="MRVolumeIndexer_8h_1aa81040e2b3b14dbf107974f03481fb7c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1aa81040e2b3b14dbf107974f03481fb7c" kindref="member">MR_VolumeIndexer_isInDims</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*pos);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211" refid="MRVolumeIndexer_8h_1a1d8baf94579d41cb500e32a7ee8c358c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a1d8baf94579d41cb500e32a7ee8c358c" kindref="member">MR_VolumeIndexer_isBdVoxel</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*pos);</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="216" refid="MRVolumeIndexer_8h_1a159c3f06d33eb20dc0a2006fe2b51cb4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a159c3f06d33eb20dc0a2006fe2b51cb4" kindref="member">MR_VolumeIndexer_areNeigbors_MR_VoxelId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*_this,<sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/>v0,<sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/>v1);</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="222" refid="MRVolumeIndexer_8h_1a95c8b0f39016f61c770ea58ebeab2fc6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a95c8b0f39016f61c770ea58ebeab2fc6" kindref="member">MR_VolumeIndexer_areNeigbors_MR_Vector3i</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*pos0,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*pos1);</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight></codeline>
+<codeline lineno="228" refid="MRVolumeIndexer_8h_1aafe9c36744f0a985a427fa2328e0d357" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1aafe9c36744f0a985a427fa2328e0d357" kindref="member">MR_VolumeIndexer_hasNeighbour</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*pos,<sp/><ref refid="MRVolumeIndexer_8h_1ac0b4b1b9e5e55ac05fc9acb56d085232" kindref="member">MR_OutEdge</ref><sp/>toNei);</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight></codeline>
+<codeline lineno="233" refid="MRVolumeIndexer_8h_1ad81edbf838f0a7912d74d8d47be0d13e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/><ref refid="MRVolumeIndexer_8h_1ad81edbf838f0a7912d74d8d47be0d13e" kindref="member">MR_VolumeIndexer_getNeighbor_2_MR_VoxelId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*_this,<sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/>v,<sp/><ref refid="MRVolumeIndexer_8h_1ac0b4b1b9e5e55ac05fc9acb56d085232" kindref="member">MR_OutEdge</ref><sp/>toNei);</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight></codeline>
+<codeline lineno="238" refid="MRVolumeIndexer_8h_1a0083207d8d684453fceed8565ed67d1f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/><ref refid="MRVolumeIndexer_8h_1a0083207d8d684453fceed8565ed67d1f" kindref="member">MR_VolumeIndexer_getNeighbor_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*_this,<sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/>v,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*pos,<sp/><ref refid="MRVolumeIndexer_8h_1ac0b4b1b9e5e55ac05fc9acb56d085232" kindref="member">MR_OutEdge</ref><sp/>toNei);</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="246" refid="MRVolumeIndexer_8h_1a68f63620ee469dc78ef45f6f0c5889c1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*<ref refid="MRVolumeIndexer_8h_1a68f63620ee469dc78ef45f6f0c5889c1" kindref="member">MR_VolumeIndexer_getNeighbor_2_MR_VoxelLocation</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*loc,<sp/><ref refid="MRVolumeIndexer_8h_1ac0b4b1b9e5e55ac05fc9acb56d085232" kindref="member">MR_OutEdge</ref><sp/>toNei);</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight></codeline>
+<codeline lineno="251" refid="MRVolumeIndexer_8h_1a8e098c6badc2ab8cbf3dba9b5c68571d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/><ref refid="MRVolumeIndexer_8h_1a8e098c6badc2ab8cbf3dba9b5c68571d" kindref="member">MR_VolumeIndexer_getExistingNeighbor</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*_this,<sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/>v,<sp/><ref refid="MRVolumeIndexer_8h_1ac0b4b1b9e5e55ac05fc9acb56d085232" kindref="member">MR_OutEdge</ref><sp/>toNei);</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="256" refid="MRVolumeIndexer_8h_1aac58458a03f0653bbb27e31e39dfc5e6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/><ref refid="MRVolumeIndexer_8h_1aac58458a03f0653bbb27e31e39dfc5e6" kindref="member">MR_VolumeIndexer_getNeighbor_4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*_this,<sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/>v,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*pos,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bdPos,<sp/><ref refid="MRVolumeIndexer_8h_1ac0b4b1b9e5e55ac05fc9acb56d085232" kindref="member">MR_OutEdge</ref><sp/>toNei);</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"></highlight></codeline>
+<codeline lineno="263" refid="MRVolumeIndexer_8h_1a3ed9b2f155749d57c64fc0eb4351fe13" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a3ed9b2f155749d57c64fc0eb4351fe13" kindref="member">MR_expandVoxelsMask</ref>(<ref refid="MRBitSet_8h_1a94b5f700f4835481dce132716ff73b05" kindref="member">MR_VoxelBitSet</ref><sp/>*mask,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*indexer,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*expansion);</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight></codeline>
+<codeline lineno="270" refid="MRVolumeIndexer_8h_1a5fdb3bb1ad3d77fcb66f3d1da4042ea5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a5fdb3bb1ad3d77fcb66f3d1da4042ea5" kindref="member">MR_shrinkVoxelsMask</ref>(<ref refid="MRBitSet_8h_1a94b5f700f4835481dce132716ff73b05" kindref="member">MR_VoxelBitSet</ref><sp/>*mask,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a21a0b4c112c2e10f8d0497cde9a81c01" kindref="member">MR_VolumeIndexer</ref><sp/>*indexer,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*shrinkage);</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"></highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="273"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="274"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRVolumeIndexer.h"/>
   </compounddef>

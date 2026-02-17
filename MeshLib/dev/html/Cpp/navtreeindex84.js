@@ -1,5 +1,12 @@
 var NAVTREEINDEX84 =
 {
+"structMR_1_1PolylineProjectionWithOffsetResult.html#af9b6fe85013195dcada09f829b2c552d":[6,0,0,1,34,0],
+"structMR_1_1PolylineSubdivideSettings.html":[6,0,0,15,0],
+"structMR_1_1PolylineSubdivideSettings.html#a41c3020ba21d66919d363b5e261b2666":[6,0,0,15,0,2],
+"structMR_1_1PolylineSubdivideSettings.html#a508f0caa9ead99ba37cd6a62babca39f":[6,0,0,15,0,0],
+"structMR_1_1PolylineSubdivideSettings.html#a6fb7e5a3cc422db6b191956e2e931bff":[6,0,0,15,0,3],
+"structMR_1_1PolylineSubdivideSettings.html#a90d24e3763062fee365e69daf9f74b23":[6,0,0,15,0,6],
+"structMR_1_1PolylineSubdivideSettings.html#a99ce30c33108d826ab31a84dcfb796e9":[6,0,0,15,0,4],
 "structMR_1_1PolylineSubdivideSettings.html#abaf36082a394e79118a87b09054964e3":[6,0,0,15,0,7],
 "structMR_1_1PolylineSubdivideSettings.html#afd1b05e15df328d6581de39d05ef0ba2":[6,0,0,15,0,5],
 "structMR_1_1PolylineSubdivideSettings.html#afd93804f4deac58fb3c9851426d2d9a3":[6,0,0,15,0,1],
@@ -242,12 +249,5 @@ var NAVTREEINDEX84 =
 "structMR_1_1Quaternion.html#adb5df4281ceff5b0f0e031a7102a9a9e":[6,0,0,0,21,26],
 "structMR_1_1Quaternion.html#afde85af8bb0b46b18e7c0b7f9ab0a2be":[6,0,0,0,21,16],
 "structMR_1_1RangeSize.html":[6,0,1,0,1,599],
-"structMR_1_1RangeSize.html":[6,0,2,0,2,581],
-"structMR_1_1RangeSize.html#a5dde8b6f1f684eac4b8bf2c2bc72386e":[6,0,1,0,1,599,0],
-"structMR_1_1RangeSize.html#a5dde8b6f1f684eac4b8bf2c2bc72386e":[6,0,2,0,2,581,0],
-"structMR_1_1RangeSize.html#a8d9671c602785383a783dc97504805ec":[6,0,1,0,1,599,1],
-"structMR_1_1RangeSize.html#a8d9671c602785383a783dc97504805ec":[6,0,2,0,2,581,1],
-"structMR_1_1RawTiffOutput.html":[6,0,1,0,1,600],
-"structMR_1_1RawTiffOutput.html":[6,0,2,0,2,582],
-"structMR_1_1RawTiffOutput.html#a0246df3ced8b0fffb290eb2abf95bb96":[6,0,1,0,1,600,0]
+"structMR_1_1RangeSize.html":[6,0,2,0,2,581]
 };

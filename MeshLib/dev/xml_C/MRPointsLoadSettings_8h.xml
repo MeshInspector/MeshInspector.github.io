@@ -80,7 +80,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from class <computeroutput>MR::PointsLoadSettings</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). points where to load point color map Returns a pointer to a member variable of class <computeroutput>MR::PointsLoadSettings</computeroutput> named <computeroutput>colors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Generated from class <computeroutput>MR::PointsLoadSettings</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). points where to load point color map Returns a pointer to a member variable of class <computeroutput>MR::PointsLoadSettings</computeroutput> named <computeroutput>colors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -104,7 +104,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" line="27" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" declline="27" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" line="28" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" declline="28" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsLoadSettings_8h_1a4279c9d688ea885b2cedb30e37e268ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -122,11 +122,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>points where to load point color map Returns a mutable pointer to a member variable of class <computeroutput>MR::PointsLoadSettings</computeroutput> named <computeroutput>colors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>points where to load point color map Returns a mutable pointer to a member variable of class <computeroutput>MR::PointsLoadSettings</computeroutput> named <computeroutput>colors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" line="34" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" declline="34" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" line="35" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" declline="35" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsLoadSettings_8h_1ae7bcc99850ddbdb1e215e1d33f766cd2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> **</type>
@@ -140,11 +140,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>transform for the loaded point cloud Returns a pointer to a member variable of class <computeroutput>MR::PointsLoadSettings</computeroutput> named <computeroutput>outXf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>transform for the loaded point cloud Returns a pointer to a member variable of class <computeroutput>MR::PointsLoadSettings</computeroutput> named <computeroutput>outXf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" line="40" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" declline="40" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" line="42" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" declline="42" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsLoadSettings_8h_1a8703630b6e84761487f458b83b0541db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *const *</type>
@@ -162,7 +162,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" line="46" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" declline="46" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" line="49" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" declline="49" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsLoadSettings_8h_1ae2b659fb29b3dfc8ea9a3151e0e669c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -180,11 +180,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>transform for the loaded point cloud Returns a mutable pointer to a member variable of class <computeroutput>MR::PointsLoadSettings</computeroutput> named <computeroutput>outXf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>transform for the loaded point cloud Returns a mutable pointer to a member variable of class <computeroutput>MR::PointsLoadSettings</computeroutput> named <computeroutput>outXf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" line="53" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" declline="53" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" line="56" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" declline="56" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsLoadSettings_8h_1a1432ce0e96074940b30990a89fc63325" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> **</type>
@@ -198,11 +198,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>callback for set progress and stop process Returns a pointer to a member variable of class <computeroutput>MR::PointsLoadSettings</computeroutput> named <computeroutput>callback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>callback for set progress and stop process Returns a pointer to a member variable of class <computeroutput>MR::PointsLoadSettings</computeroutput> named <computeroutput>callback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" line="59" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" declline="59" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" line="63" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" declline="63" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsLoadSettings_8h_1a73226dbd94f2eba65a77aaefd25ba8a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
@@ -220,7 +220,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" line="65" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" declline="65" declcolumn="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" line="70" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" declline="70" declcolumn="47"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsLoadSettings_8h_1a69d783aee23174193e8390f4b1624c73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -242,11 +242,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>callback for set progress and stop process Returns a mutable pointer to a member variable of class <computeroutput>MR::PointsLoadSettings</computeroutput> named <computeroutput>callback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>callback for set progress and stop process Returns a mutable pointer to a member variable of class <computeroutput>MR::PointsLoadSettings</computeroutput> named <computeroutput>callback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" line="72" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" declline="72" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" line="77" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" declline="77" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsLoadSettings_8h_1a039416fd134f5d768c83f398f2ce0b8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
@@ -260,11 +260,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>permit telemetry signal about loading Returns a pointer to a member variable of class <computeroutput>MR::PointsLoadSettings</computeroutput> named <computeroutput>telemetrySignal</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>permit telemetry signal about loading Returns a pointer to a member variable of class <computeroutput>MR::PointsLoadSettings</computeroutput> named <computeroutput>telemetrySignal</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" line="78" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" declline="78" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" line="84" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" declline="84" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsLoadSettings_8h_1ac70730f2017d4ee064bb99e2ced58b42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const bool *</type>
@@ -282,7 +282,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" line="84" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" declline="84" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" line="91" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" declline="91" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsLoadSettings_8h_1a7d95efcafe8a26488c45afa6e57ddf98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -300,11 +300,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>permit telemetry signal about loading Returns a mutable pointer to a member variable of class <computeroutput>MR::PointsLoadSettings</computeroutput> named <computeroutput>telemetrySignal</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>permit telemetry signal about loading Returns a mutable pointer to a member variable of class <computeroutput>MR::PointsLoadSettings</computeroutput> named <computeroutput>telemetrySignal</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" line="90" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" declline="90" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" line="97" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" declline="97" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsLoadSettings_8h_1a3227cdd8fc78382e04e20112a0c31e6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool *</type>
@@ -321,7 +321,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" line="96" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" declline="96" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" line="104" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" declline="104" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsLoadSettings_8h_1a214631ef4cbdd805bf6b37eac808cac6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref> *</type>
@@ -338,7 +338,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" line="100" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" declline="100" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" line="108" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" declline="108" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsLoadSettings_8h_1abf179768042b1fcb01c31e58bf07d6dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref> *</type>
@@ -356,7 +356,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" line="105" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" declline="105" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" line="113" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" declline="113" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsLoadSettings_8h_1a0ab4e421e82a66132a41912176e1a302" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref> *</type>
@@ -390,7 +390,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" line="113" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" declline="113" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" line="121" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" declline="121" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsLoadSettings_8h_1abd526aae9d885917ec62d9510ba9d5f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref> *</type>
@@ -412,7 +412,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" line="117" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" declline="117" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" line="125" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" declline="125" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsLoadSettings_8h_1a6cdd9c33d7d70226ebbb4bf7c8f0a41c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref> *</type>
@@ -434,7 +434,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" line="121" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" declline="121" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" line="129" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" declline="129" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsLoadSettings_8h_1ad290b38871acd1a5f1935b8bbdf453ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref> *</type>
@@ -456,7 +456,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" line="126" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" declline="126" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" line="134" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" declline="134" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsLoadSettings_8h_1a7af9da38900409c034491eb30227eca2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -474,7 +474,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" line="129" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" declline="129" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" line="137" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" declline="137" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsLoadSettings_8h_1abde540fc8eaa6cb0597d408ec89c8910" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -492,7 +492,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" line="132" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" declline="132" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" line="140" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" declline="140" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsLoadSettings_8h_1a577c7b8965dd21164481ebbb15b4760c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref> *</type>
@@ -518,7 +518,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" line="139" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" declline="139" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" line="147" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h" declline="147" declcolumn="31"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -546,51 +546,51 @@
 <codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/>structure<sp/>with<sp/>settings<sp/>and<sp/>side<sp/>output<sp/>parameters<sp/>for<sp/>loading<sp/>point<sp/>cloud</highlight></codeline>
 <codeline lineno="21" refid="MRPointsLoadSettings_8h_1a67029d3455a5c9aa45725d3c35e1e4df" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/><ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref>;</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27" refid="MRPointsLoadSettings_8h_1af7b07d5a8464543741e77afd45f9f85e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsLoadSettings_8h_1af7b07d5a8464543741e77afd45f9f85e" kindref="member">MR_PointsLoadSettings_Get_colors</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34" refid="MRPointsLoadSettings_8h_1a4279c9d688ea885b2cedb30e37e268ab" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsLoadSettings_8h_1a4279c9d688ea885b2cedb30e37e268ab" kindref="member">MR_PointsLoadSettings_Set_colors</ref>(<ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*_this,<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="40" refid="MRPointsLoadSettings_8h_1ae7bcc99850ddbdb1e215e1d33f766cd2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>**<ref refid="MRPointsLoadSettings_8h_1ae7bcc99850ddbdb1e215e1d33f766cd2" kindref="member">MR_PointsLoadSettings_GetMutable_colors</ref>(<ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="41"><highlight class="normal"></highlight></codeline>
-<codeline lineno="46" refid="MRPointsLoadSettings_8h_1a8703630b6e84761487f458b83b0541db" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsLoadSettings_8h_1a8703630b6e84761487f458b83b0541db" kindref="member">MR_PointsLoadSettings_Get_outXf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"></highlight></codeline>
-<codeline lineno="53" refid="MRPointsLoadSettings_8h_1ae2b659fb29b3dfc8ea9a3151e0e669c8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsLoadSettings_8h_1ae2b659fb29b3dfc8ea9a3151e0e669c8" kindref="member">MR_PointsLoadSettings_Set_outXf</ref>(<ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*_this,<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="54"><highlight class="normal"></highlight></codeline>
-<codeline lineno="59" refid="MRPointsLoadSettings_8h_1a1432ce0e96074940b30990a89fc63325" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>**<ref refid="MRPointsLoadSettings_8h_1a1432ce0e96074940b30990a89fc63325" kindref="member">MR_PointsLoadSettings_GetMutable_outXf</ref>(<ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="60"><highlight class="normal"></highlight></codeline>
-<codeline lineno="65" refid="MRPointsLoadSettings_8h_1a73226dbd94f2eba65a77aaefd25ba8a6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRPointsLoadSettings_8h_1a73226dbd94f2eba65a77aaefd25ba8a6" kindref="member">MR_PointsLoadSettings_Get_callback</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="66"><highlight class="normal"></highlight></codeline>
-<codeline lineno="72" refid="MRPointsLoadSettings_8h_1a69d783aee23174193e8390f4b1624c73" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsLoadSettings_8h_1a69d783aee23174193e8390f4b1624c73" kindref="member">MR_PointsLoadSettings_Set_callback</ref>(<ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="73"><highlight class="normal"></highlight></codeline>
-<codeline lineno="78" refid="MRPointsLoadSettings_8h_1a039416fd134f5d768c83f398f2ce0b8d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRPointsLoadSettings_8h_1a039416fd134f5d768c83f398f2ce0b8d" kindref="member">MR_PointsLoadSettings_GetMutable_callback</ref>(<ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="79"><highlight class="normal"></highlight></codeline>
-<codeline lineno="84" refid="MRPointsLoadSettings_8h_1ac70730f2017d4ee064bb99e2ced58b42" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsLoadSettings_8h_1ac70730f2017d4ee064bb99e2ced58b42" kindref="member">MR_PointsLoadSettings_Get_telemetrySignal</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="28" refid="MRPointsLoadSettings_8h_1af7b07d5a8464543741e77afd45f9f85e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsLoadSettings_8h_1af7b07d5a8464543741e77afd45f9f85e" kindref="member">MR_PointsLoadSettings_Get_colors</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="MRPointsLoadSettings_8h_1a4279c9d688ea885b2cedb30e37e268ab" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsLoadSettings_8h_1a4279c9d688ea885b2cedb30e37e268ab" kindref="member">MR_PointsLoadSettings_Set_colors</ref>(<ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*_this,<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="MRPointsLoadSettings_8h_1ae7bcc99850ddbdb1e215e1d33f766cd2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>**<ref refid="MRPointsLoadSettings_8h_1ae7bcc99850ddbdb1e215e1d33f766cd2" kindref="member">MR_PointsLoadSettings_GetMutable_colors</ref>(<ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="MRPointsLoadSettings_8h_1a8703630b6e84761487f458b83b0541db" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsLoadSettings_8h_1a8703630b6e84761487f458b83b0541db" kindref="member">MR_PointsLoadSettings_Get_outXf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="MRPointsLoadSettings_8h_1ae2b659fb29b3dfc8ea9a3151e0e669c8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsLoadSettings_8h_1ae2b659fb29b3dfc8ea9a3151e0e669c8" kindref="member">MR_PointsLoadSettings_Set_outXf</ref>(<ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*_this,<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="MRPointsLoadSettings_8h_1a1432ce0e96074940b30990a89fc63325" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>**<ref refid="MRPointsLoadSettings_8h_1a1432ce0e96074940b30990a89fc63325" kindref="member">MR_PointsLoadSettings_GetMutable_outXf</ref>(<ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="MRPointsLoadSettings_8h_1a73226dbd94f2eba65a77aaefd25ba8a6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRPointsLoadSettings_8h_1a73226dbd94f2eba65a77aaefd25ba8a6" kindref="member">MR_PointsLoadSettings_Get_callback</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="MRPointsLoadSettings_8h_1a69d783aee23174193e8390f4b1624c73" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsLoadSettings_8h_1a69d783aee23174193e8390f4b1624c73" kindref="member">MR_PointsLoadSettings_Set_callback</ref>(<ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="MRPointsLoadSettings_8h_1a039416fd134f5d768c83f398f2ce0b8d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRPointsLoadSettings_8h_1a039416fd134f5d768c83f398f2ce0b8d" kindref="member">MR_PointsLoadSettings_GetMutable_callback</ref>(<ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="85"><highlight class="normal"></highlight></codeline>
-<codeline lineno="90" refid="MRPointsLoadSettings_8h_1a7d95efcafe8a26488c45afa6e57ddf98" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsLoadSettings_8h_1a7d95efcafe8a26488c45afa6e57ddf98" kindref="member">MR_PointsLoadSettings_Set_telemetrySignal</ref>(<ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="91"><highlight class="normal"></highlight></codeline>
-<codeline lineno="96" refid="MRPointsLoadSettings_8h_1a3227cdd8fc78382e04e20112a0c31e6e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsLoadSettings_8h_1a3227cdd8fc78382e04e20112a0c31e6e" kindref="member">MR_PointsLoadSettings_GetMutable_telemetrySignal</ref>(<ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="97"><highlight class="normal"></highlight></codeline>
-<codeline lineno="100" refid="MRPointsLoadSettings_8h_1a214631ef4cbdd805bf6b37eac808cac6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*<ref refid="MRPointsLoadSettings_8h_1a214631ef4cbdd805bf6b37eac808cac6" kindref="member">MR_PointsLoadSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="101"><highlight class="normal"></highlight></codeline>
-<codeline lineno="105" refid="MRPointsLoadSettings_8h_1abf179768042b1fcb01c31e58bf07d6dc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*<ref refid="MRPointsLoadSettings_8h_1abf179768042b1fcb01c31e58bf07d6dc" kindref="member">MR_PointsLoadSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="106"><highlight class="normal"></highlight></codeline>
-<codeline lineno="113" refid="MRPointsLoadSettings_8h_1a0ab4e421e82a66132a41912176e1a302" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*<ref refid="MRPointsLoadSettings_8h_1a0ab4e421e82a66132a41912176e1a302" kindref="member">MR_PointsLoadSettings_ConstructFrom</ref>(<ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*colors,<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*outXf,<sp/>MR_PassBy<sp/>callback_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*callback,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>telemetrySignal);</highlight></codeline>
+<codeline lineno="91" refid="MRPointsLoadSettings_8h_1ac70730f2017d4ee064bb99e2ced58b42" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsLoadSettings_8h_1ac70730f2017d4ee064bb99e2ced58b42" kindref="member">MR_PointsLoadSettings_Get_telemetrySignal</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97" refid="MRPointsLoadSettings_8h_1a7d95efcafe8a26488c45afa6e57ddf98" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsLoadSettings_8h_1a7d95efcafe8a26488c45afa6e57ddf98" kindref="member">MR_PointsLoadSettings_Set_telemetrySignal</ref>(<ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104" refid="MRPointsLoadSettings_8h_1a3227cdd8fc78382e04e20112a0c31e6e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsLoadSettings_8h_1a3227cdd8fc78382e04e20112a0c31e6e" kindref="member">MR_PointsLoadSettings_GetMutable_telemetrySignal</ref>(<ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="MRPointsLoadSettings_8h_1a214631ef4cbdd805bf6b37eac808cac6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*<ref refid="MRPointsLoadSettings_8h_1a214631ef4cbdd805bf6b37eac808cac6" kindref="member">MR_PointsLoadSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="MRPointsLoadSettings_8h_1abf179768042b1fcb01c31e58bf07d6dc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*<ref refid="MRPointsLoadSettings_8h_1abf179768042b1fcb01c31e58bf07d6dc" kindref="member">MR_PointsLoadSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="114"><highlight class="normal"></highlight></codeline>
-<codeline lineno="117" refid="MRPointsLoadSettings_8h_1abd526aae9d885917ec62d9510ba9d5f3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*<ref refid="MRPointsLoadSettings_8h_1abd526aae9d885917ec62d9510ba9d5f3" kindref="member">MR_PointsLoadSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="118"><highlight class="normal"></highlight></codeline>
-<codeline lineno="121" refid="MRPointsLoadSettings_8h_1a6cdd9c33d7d70226ebbb4bf7c8f0a41c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*<ref refid="MRPointsLoadSettings_8h_1a6cdd9c33d7d70226ebbb4bf7c8f0a41c" kindref="member">MR_PointsLoadSettings_OffsetMutablePtr</ref>(<ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="121" refid="MRPointsLoadSettings_8h_1a0ab4e421e82a66132a41912176e1a302" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*<ref refid="MRPointsLoadSettings_8h_1a0ab4e421e82a66132a41912176e1a302" kindref="member">MR_PointsLoadSettings_ConstructFrom</ref>(<ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*colors,<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*outXf,<sp/>MR_PassBy<sp/>callback_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*callback,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>telemetrySignal);</highlight></codeline>
 <codeline lineno="122"><highlight class="normal"></highlight></codeline>
-<codeline lineno="126" refid="MRPointsLoadSettings_8h_1ad290b38871acd1a5f1935b8bbdf453ac" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*<ref refid="MRPointsLoadSettings_8h_1ad290b38871acd1a5f1935b8bbdf453ac" kindref="member">MR_PointsLoadSettings_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="127"><highlight class="normal"></highlight></codeline>
-<codeline lineno="129" refid="MRPointsLoadSettings_8h_1a7af9da38900409c034491eb30227eca2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsLoadSettings_8h_1a7af9da38900409c034491eb30227eca2" kindref="member">MR_PointsLoadSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="125" refid="MRPointsLoadSettings_8h_1abd526aae9d885917ec62d9510ba9d5f3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*<ref refid="MRPointsLoadSettings_8h_1abd526aae9d885917ec62d9510ba9d5f3" kindref="member">MR_PointsLoadSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129" refid="MRPointsLoadSettings_8h_1a6cdd9c33d7d70226ebbb4bf7c8f0a41c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*<ref refid="MRPointsLoadSettings_8h_1a6cdd9c33d7d70226ebbb4bf7c8f0a41c" kindref="member">MR_PointsLoadSettings_OffsetMutablePtr</ref>(<ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="130"><highlight class="normal"></highlight></codeline>
-<codeline lineno="132" refid="MRPointsLoadSettings_8h_1abde540fc8eaa6cb0597d408ec89c8910" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsLoadSettings_8h_1abde540fc8eaa6cb0597d408ec89c8910" kindref="member">MR_PointsLoadSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="133"><highlight class="normal"></highlight></codeline>
-<codeline lineno="139" refid="MRPointsLoadSettings_8h_1a577c7b8965dd21164481ebbb15b4760c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*<ref refid="MRPointsLoadSettings_8h_1a577c7b8965dd21164481ebbb15b4760c" kindref="member">MR_PointsLoadSettings_AssignFromAnother</ref>(<ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="140"><highlight class="normal"></highlight></codeline>
-<codeline lineno="141"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="142"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="143"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="134" refid="MRPointsLoadSettings_8h_1ad290b38871acd1a5f1935b8bbdf453ac" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*<ref refid="MRPointsLoadSettings_8h_1ad290b38871acd1a5f1935b8bbdf453ac" kindref="member">MR_PointsLoadSettings_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="MRPointsLoadSettings_8h_1a7af9da38900409c034491eb30227eca2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsLoadSettings_8h_1a7af9da38900409c034491eb30227eca2" kindref="member">MR_PointsLoadSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140" refid="MRPointsLoadSettings_8h_1abde540fc8eaa6cb0597d408ec89c8910" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsLoadSettings_8h_1abde540fc8eaa6cb0597d408ec89c8910" kindref="member">MR_PointsLoadSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147" refid="MRPointsLoadSettings_8h_1a577c7b8965dd21164481ebbb15b4760c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*<ref refid="MRPointsLoadSettings_8h_1a577c7b8965dd21164481ebbb15b4760c" kindref="member">MR_PointsLoadSettings_AssignFromAnother</ref>(<ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsLoadSettings.h"/>
   </compounddef>

@@ -261,11 +261,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Upcasts an instance of <computeroutput>MR::VoxelsVolumeAccessor&lt;MR::SimpleVolumeMinMax&gt;</computeroutput> to its base class <computeroutput>MR::VoxelsVolumeAccessor&lt;MR::SimpleVolume&gt;</computeroutput>. This version is acting on mutable pointers. </para>
+<para>Upcasts an instance of <computeroutput>MR::VoxelsVolumeAccessor&lt;MR::SimpleVolumeMinMax&gt;</computeroutput> to its base class <computeroutput>MR::VoxelsVolumeAccessor&lt;MR::SimpleVolume&gt;</computeroutput>. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="68" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="68" declcolumn="55"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="69" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="69" declcolumn="55"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsVolumeAccess_8h_1ad37a2d7c5ba1bd2c7c8994f195134a66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRVoxelsVolumeAccess_8h_1a14daefefb71601bafdc8f2606ebd04ff" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume</ref> *</type>
@@ -277,13 +277,13 @@
           <declname>object</declname>
         </param>
         <briefdescription>
-<para>Upcasts an instance of <computeroutput>MR::VoxelsVolumeAccessor&lt;MR::SimpleVolumeMinMax&gt;</computeroutput> to its base class <computeroutput>MR::VoxelsVolumeAccessor&lt;MR::SimpleVolume&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
+<para>Upcasts an instance of <computeroutput>MR::VoxelsVolumeAccessor&lt;MR::SimpleVolumeMinMax&gt;</computeroutput> to its base class <computeroutput>MR::VoxelsVolumeAccessor&lt;MR::SimpleVolume&gt;</computeroutput>. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="71" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="71" declcolumn="49"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="73" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="73" declcolumn="49"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsVolumeAccess_8h_1aa2e6cfd4be46df90fa7329edf034ac95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRVolumeInterpolation_8h_1a3f8035b38a4a70d9e6ae339346c7e3db" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax</ref> *</type>
@@ -301,7 +301,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="77" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="77" declcolumn="55"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="79" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="79" declcolumn="55"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsVolumeAccess_8h_1a5995645ae7a2740e7c2b22ad13959f9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -319,7 +319,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="80" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="80" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="82" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="82" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsVolumeAccess_8h_1a256484e0e6ede36925576ae0122249ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -337,7 +337,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="83" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="83" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="85" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="85" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsVolumeAccess_8h_1af552210ad77a4c4365fe4f0e2f61f8c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref></type>
@@ -355,7 +355,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="88" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="88" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="90" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="90" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsVolumeAccess_8h_1ac60382e8e2e6eae9bc95e5cdecff2742" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const bool *</type>
@@ -371,7 +371,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="93" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="93" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="95" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="95" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsVolumeAccess_8h_1a490faf18510052cb54f9ed3804d19d4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRVoxelsVolumeAccess_8h_1a14daefefb71601bafdc8f2606ebd04ff" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume</ref> *</type>
@@ -389,7 +389,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="99" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="99" declcolumn="49"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="101" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="101" declcolumn="49"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsVolumeAccess_8h_1ab673d4b0bf8277934a736cafcaa6ba00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRVoxelsVolumeAccess_8h_1a14daefefb71601bafdc8f2606ebd04ff" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume</ref> *</type>
@@ -411,7 +411,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="103" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="103" declcolumn="55"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="105" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="105" declcolumn="55"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsVolumeAccess_8h_1adafc239c31b6d796948449cb2adbe0cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRVoxelsVolumeAccess_8h_1a14daefefb71601bafdc8f2606ebd04ff" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume</ref> *</type>
@@ -433,7 +433,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="107" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="107" declcolumn="49"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="109" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="109" declcolumn="49"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsVolumeAccess_8h_1ac270a218fb26b78226e18b572dfa36be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRVolumeInterpolation_8h_1a3f8035b38a4a70d9e6ae339346c7e3db" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax</ref> *</type>
@@ -447,11 +447,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Downcasts an instance of <computeroutput>MR::VoxelsVolumeAccessor&lt;MR::SimpleVolume&gt;</computeroutput> to a derived class <computeroutput>MR::VoxelsVolumeAccessor&lt;MR::SimpleVolumeMinMax&gt;</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. </para>
+<para>Downcasts an instance of <computeroutput>MR::VoxelsVolumeAccessor&lt;MR::SimpleVolume&gt;</computeroutput> to a derived class <computeroutput>MR::VoxelsVolumeAccessor&lt;MR::SimpleVolumeMinMax&gt;</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="112" column="61" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="112" declcolumn="61"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="115" column="61" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="115" declcolumn="61"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsVolumeAccess_8h_1a5c4125eb7422ad7b584f4c47126b3b57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRVolumeInterpolation_8h_1a3f8035b38a4a70d9e6ae339346c7e3db" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax</ref> *</type>
@@ -465,11 +465,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Downcasts an instance of <computeroutput>MR::VoxelsVolumeAccessor&lt;MR::SimpleVolume&gt;</computeroutput> to a derived class <computeroutput>MR::VoxelsVolumeAccessor&lt;MR::SimpleVolumeMinMax&gt;</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. </para>
+<para>Downcasts an instance of <computeroutput>MR::VoxelsVolumeAccessor&lt;MR::SimpleVolume&gt;</computeroutput> to a derived class <computeroutput>MR::VoxelsVolumeAccessor&lt;MR::SimpleVolumeMinMax&gt;</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="116" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="116" declcolumn="55"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="120" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="120" declcolumn="55"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsVolumeAccess_8h_1a6fd84afb411efafdbbe5ed5b513aa7cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRVoxelsVolumeAccess_8h_1a14daefefb71601bafdc8f2606ebd04ff" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume</ref> *</type>
@@ -487,7 +487,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="122" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="122" declcolumn="49"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="126" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="126" declcolumn="49"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsVolumeAccess_8h_1ad188f61907e6ca4ae697d9098b3e406b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -505,7 +505,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="125" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="125" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="129" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="129" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsVolumeAccess_8h_1a100f24f7c7c4d46addec413af350f790" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -523,7 +523,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="128" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="128" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="132" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="132" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsVolumeAccess_8h_1a6d371b710cf80a951083921cb3b63b57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float</type>
@@ -545,7 +545,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="133" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="133" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="137" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="137" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsVolumeAccess_8h_1a71acfca97bfecd489117189c7f2dc716" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float</type>
@@ -567,7 +567,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="138" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="138" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="142" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="142" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsVolumeAccess_8h_1a9f8d2bb796bc5410955ad82270c7c5da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref></type>
@@ -585,7 +585,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="143" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="143" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="147" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="147" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsVolumeAccess_8h_1ab6ca21d37fc5b5e4118a7569180767db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const bool *</type>
@@ -601,7 +601,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="148" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="148" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="152" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="152" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsVolumeAccess_8h_1a8c4446adab0506c76e7bcd265e8b5791" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRVolumeInterpolation_8h_1acecc5a4d19191cbc59aa3d377b7bfad4" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume</ref> *</type>
@@ -619,7 +619,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="154" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="154" declcolumn="51"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="158" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="158" declcolumn="51"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsVolumeAccess_8h_1a2e9eb85967c2682d7675437f4bcc23d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRVolumeInterpolation_8h_1acecc5a4d19191cbc59aa3d377b7bfad4" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume</ref> *</type>
@@ -641,7 +641,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="158" column="57" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="158" declcolumn="57"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="162" column="57" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="162" declcolumn="57"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsVolumeAccess_8h_1a940719d570144b44552d8dd523676473" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRVolumeInterpolation_8h_1acecc5a4d19191cbc59aa3d377b7bfad4" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume</ref> *</type>
@@ -663,7 +663,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="162" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="162" declcolumn="51"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="166" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="166" declcolumn="51"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsVolumeAccess_8h_1a725ff3952c1286f47da474d740019853" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRVolumeInterpolation_8h_1acecc5a4d19191cbc59aa3d377b7bfad4" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume</ref> *</type>
@@ -681,7 +681,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="168" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="168" declcolumn="51"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="172" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="172" declcolumn="51"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsVolumeAccess_8h_1a42200ebf38ce9cf057be80127b16a6bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -699,7 +699,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="171" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="171" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="175" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="175" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsVolumeAccess_8h_1a57c6efa79e7164384274e6deee2d4c54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -717,7 +717,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="174" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="174" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="178" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="178" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsVolumeAccess_8h_1a35280d0e975c111800bb7ad2a3cedf18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float</type>
@@ -739,7 +739,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="179" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="179" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="183" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="183" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsVolumeAccess_8h_1ab21f1f2bbe63230aaedab52d5737ca63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float</type>
@@ -761,7 +761,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="184" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="184" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="188" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="188" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsVolumeAccess_8h_1a428cbb637c43c4ba67f52dd53b602a3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref></type>
@@ -779,7 +779,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="189" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="189" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="193" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="193" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsVolumeAccess_8h_1adcc5b66bfb17b153f21023b251c11e60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const bool *</type>
@@ -795,7 +795,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="194" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="194" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="198" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="198" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsVolumeAccess_8h_1a13bd1644fc07d5fa6ba5ed1f3d0cf4c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRVolumeInterpolation_8h_1a3c75ce800b8e618cd4d8b9421a153688" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume</ref> *</type>
@@ -817,7 +817,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="199" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="199" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="203" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="203" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsVolumeAccess_8h_1a98e6a4e405e2f8acd57c5b3b535863fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRVolumeInterpolation_8h_1a3c75ce800b8e618cd4d8b9421a153688" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume</ref> *</type>
@@ -839,7 +839,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="203" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="203" declcolumn="52"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="207" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="207" declcolumn="52"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsVolumeAccess_8h_1a6d88b88cb11786eea1279f408ca1019c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRVolumeInterpolation_8h_1a3c75ce800b8e618cd4d8b9421a153688" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume</ref> *</type>
@@ -861,7 +861,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="207" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="207" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="211" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="211" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsVolumeAccess_8h_1af5eecb1eaee06eef45d179009bfc0341" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRVolumeInterpolation_8h_1a3c75ce800b8e618cd4d8b9421a153688" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume</ref> *</type>
@@ -879,7 +879,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="213" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="213" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="217" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="217" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsVolumeAccess_8h_1a49d86ac4bb317e4c5c4af1951ad179e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -897,7 +897,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="216" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="216" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="220" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="220" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsVolumeAccess_8h_1ae25cb822ebc3b8e1b1f71f11c2aad80b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -915,7 +915,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="219" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="219" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="223" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="223" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsVolumeAccess_8h_1ad8c7b55da79cc7aa3205883e6a21724f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRVolumeInterpolation_8h_1a3c75ce800b8e618cd4d8b9421a153688" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume</ref> *</type>
@@ -941,7 +941,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="226" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="226" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="230" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="230" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsVolumeAccess_8h_1a5336f8cd1b2b81031a132d448dd11176" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float</type>
@@ -963,7 +963,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="231" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="231" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="235" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="235" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsVolumeAccess_8h_1afe4b3dd79bf338d951e1e70fc31146bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float</type>
@@ -985,7 +985,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="236" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="236" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="240" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="240" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsVolumeAccess_8h_1aa7884da8bdfca8305724e09bc9af3e40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref> *</type>
@@ -1003,7 +1003,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="241" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="241" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="245" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="245" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsVolumeAccess_8h_1a327f9f38a57636fd1aefb7ff726673e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref></type>
@@ -1021,7 +1021,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="246" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="246" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" line="250" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h" declline="250" declcolumn="21"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1065,89 +1065,89 @@
 <codeline lineno="61"><highlight class="normal"></highlight></codeline>
 <codeline lineno="64" refid="MRVoxelsVolumeAccess_8h_1aa0d015f91d47cb3defeb124cfac5a8b3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeInterpolation_8h_1a3f8035b38a4a70d9e6ae339346c7e3db" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax</ref><sp/>*<ref refid="MRVoxelsVolumeAccess_8h_1aa0d015f91d47cb3defeb124cfac5a8b3" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax_OffsetMutablePtr</ref>(<ref refid="MRVolumeInterpolation_8h_1a3f8035b38a4a70d9e6ae339346c7e3db" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="65"><highlight class="normal"></highlight></codeline>
-<codeline lineno="68" refid="MRVoxelsVolumeAccess_8h_1afc784d7f6c5a5d002e039e14d1135e67" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolumeAccess_8h_1a14daefefb71601bafdc8f2606ebd04ff" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume</ref><sp/>*<ref refid="MRVoxelsVolumeAccess_8h_1afc784d7f6c5a5d002e039e14d1135e67" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax_UpcastTo_MR_VoxelsVolumeAccessor_MR_SimpleVolume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeInterpolation_8h_1a3f8035b38a4a70d9e6ae339346c7e3db" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="69"><highlight class="normal"></highlight></codeline>
-<codeline lineno="71" refid="MRVoxelsVolumeAccess_8h_1ad37a2d7c5ba1bd2c7c8994f195134a66" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVoxelsVolumeAccess_8h_1a14daefefb71601bafdc8f2606ebd04ff" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume</ref><sp/>*<ref refid="MRVoxelsVolumeAccess_8h_1ad37a2d7c5ba1bd2c7c8994f195134a66" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax_MutableUpcastTo_MR_VoxelsVolumeAccessor_MR_SimpleVolume</ref>(<ref refid="MRVolumeInterpolation_8h_1a3f8035b38a4a70d9e6ae339346c7e3db" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="72"><highlight class="normal"></highlight></codeline>
-<codeline lineno="77" refid="MRVoxelsVolumeAccess_8h_1aa2e6cfd4be46df90fa7329edf034ac95" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeInterpolation_8h_1a3f8035b38a4a70d9e6ae339346c7e3db" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax</ref><sp/>*<ref refid="MRVoxelsVolumeAccess_8h_1aa2e6cfd4be46df90fa7329edf034ac95" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarchingCubes_8h_1a9eebc3ffb6c9528989e38a2930f391cf" kindref="member">MR_SimpleVolume</ref><sp/>*volume);</highlight></codeline>
-<codeline lineno="78"><highlight class="normal"></highlight></codeline>
-<codeline lineno="80" refid="MRVoxelsVolumeAccess_8h_1a5995645ae7a2740e7c2b22ad13959f9e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolumeAccess_8h_1a5995645ae7a2740e7c2b22ad13959f9e" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeInterpolation_8h_1a3f8035b38a4a70d9e6ae339346c7e3db" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="81"><highlight class="normal"></highlight></codeline>
-<codeline lineno="83" refid="MRVoxelsVolumeAccess_8h_1a256484e0e6ede36925576ae0122249ae" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolumeAccess_8h_1a256484e0e6ede36925576ae0122249ae" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeInterpolation_8h_1a3f8035b38a4a70d9e6ae339346c7e3db" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="84"><highlight class="normal"></highlight></codeline>
-<codeline lineno="88" refid="MRVoxelsVolumeAccess_8h_1af552210ad77a4c4365fe4f0e2f61f8c3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="MRVoxelsVolumeAccess_8h_1af552210ad77a4c4365fe4f0e2f61f8c3" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax_shift</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeInterpolation_8h_1a3f8035b38a4a70d9e6ae339346c7e3db" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="89"><highlight class="normal"></highlight></codeline>
-<codeline lineno="93" refid="MRVoxelsVolumeAccess_8h_1ac60382e8e2e6eae9bc95e5cdecff2742" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRVoxelsVolumeAccess_8h_1ac60382e8e2e6eae9bc95e5cdecff2742" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume_Get_cacheEffective</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="94"><highlight class="normal"></highlight></codeline>
-<codeline lineno="99" refid="MRVoxelsVolumeAccess_8h_1a490faf18510052cb54f9ed3804d19d4c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVoxelsVolumeAccess_8h_1a14daefefb71601bafdc8f2606ebd04ff" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume</ref><sp/>*<ref refid="MRVoxelsVolumeAccess_8h_1a490faf18510052cb54f9ed3804d19d4c" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolumeAccess_8h_1a14daefefb71601bafdc8f2606ebd04ff" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="100"><highlight class="normal"></highlight></codeline>
-<codeline lineno="103" refid="MRVoxelsVolumeAccess_8h_1ab673d4b0bf8277934a736cafcaa6ba00" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolumeAccess_8h_1a14daefefb71601bafdc8f2606ebd04ff" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume</ref><sp/>*<ref refid="MRVoxelsVolumeAccess_8h_1ab673d4b0bf8277934a736cafcaa6ba00" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolumeAccess_8h_1a14daefefb71601bafdc8f2606ebd04ff" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="104"><highlight class="normal"></highlight></codeline>
-<codeline lineno="107" refid="MRVoxelsVolumeAccess_8h_1adafc239c31b6d796948449cb2adbe0cb" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVoxelsVolumeAccess_8h_1a14daefefb71601bafdc8f2606ebd04ff" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume</ref><sp/>*<ref refid="MRVoxelsVolumeAccess_8h_1adafc239c31b6d796948449cb2adbe0cb" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume_OffsetMutablePtr</ref>(<ref refid="MRVoxelsVolumeAccess_8h_1a14daefefb71601bafdc8f2606ebd04ff" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="108"><highlight class="normal"></highlight></codeline>
-<codeline lineno="112" refid="MRVoxelsVolumeAccess_8h_1ac270a218fb26b78226e18b572dfa36be" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeInterpolation_8h_1a3f8035b38a4a70d9e6ae339346c7e3db" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax</ref><sp/>*<ref refid="MRVoxelsVolumeAccess_8h_1ac270a218fb26b78226e18b572dfa36be" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume_StaticDowncastTo_MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolumeAccess_8h_1a14daefefb71601bafdc8f2606ebd04ff" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="113"><highlight class="normal"></highlight></codeline>
-<codeline lineno="116" refid="MRVoxelsVolumeAccess_8h_1a5c4125eb7422ad7b584f4c47126b3b57" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeInterpolation_8h_1a3f8035b38a4a70d9e6ae339346c7e3db" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax</ref><sp/>*<ref refid="MRVoxelsVolumeAccess_8h_1a5c4125eb7422ad7b584f4c47126b3b57" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume_MutableStaticDowncastTo_MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax</ref>(<ref refid="MRVoxelsVolumeAccess_8h_1a14daefefb71601bafdc8f2606ebd04ff" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="117"><highlight class="normal"></highlight></codeline>
-<codeline lineno="122" refid="MRVoxelsVolumeAccess_8h_1a6fd84afb411efafdbbe5ed5b513aa7cf" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVoxelsVolumeAccess_8h_1a14daefefb71601bafdc8f2606ebd04ff" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume</ref><sp/>*<ref refid="MRVoxelsVolumeAccess_8h_1a6fd84afb411efafdbbe5ed5b513aa7cf" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarchingCubes_8h_1a9eebc3ffb6c9528989e38a2930f391cf" kindref="member">MR_SimpleVolume</ref><sp/>*volume);</highlight></codeline>
-<codeline lineno="123"><highlight class="normal"></highlight></codeline>
-<codeline lineno="125" refid="MRVoxelsVolumeAccess_8h_1ad188f61907e6ca4ae697d9098b3e406b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolumeAccess_8h_1ad188f61907e6ca4ae697d9098b3e406b" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolumeAccess_8h_1a14daefefb71601bafdc8f2606ebd04ff" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="126"><highlight class="normal"></highlight></codeline>
-<codeline lineno="128" refid="MRVoxelsVolumeAccess_8h_1a100f24f7c7c4d46addec413af350f790" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolumeAccess_8h_1a100f24f7c7c4d46addec413af350f790" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolumeAccess_8h_1a14daefefb71601bafdc8f2606ebd04ff" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="129"><highlight class="normal"></highlight></codeline>
-<codeline lineno="133" refid="MRVoxelsVolumeAccess_8h_1a6d371b710cf80a951083921cb3b63b57" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolumeAccess_8h_1a6d371b710cf80a951083921cb3b63b57" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume_get_MR_Vector3i</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolumeAccess_8h_1a14daefefb71601bafdc8f2606ebd04ff" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*pos);</highlight></codeline>
-<codeline lineno="134"><highlight class="normal"></highlight></codeline>
-<codeline lineno="138" refid="MRVoxelsVolumeAccess_8h_1a71acfca97bfecd489117189c7f2dc716" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolumeAccess_8h_1a71acfca97bfecd489117189c7f2dc716" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume_get_MR_VoxelLocation</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolumeAccess_8h_1a14daefefb71601bafdc8f2606ebd04ff" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*loc);</highlight></codeline>
-<codeline lineno="139"><highlight class="normal"></highlight></codeline>
-<codeline lineno="143" refid="MRVoxelsVolumeAccess_8h_1a9f8d2bb796bc5410955ad82270c7c5da" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="MRVoxelsVolumeAccess_8h_1a9f8d2bb796bc5410955ad82270c7c5da" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume_shift</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolumeAccess_8h_1a14daefefb71601bafdc8f2606ebd04ff" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="144"><highlight class="normal"></highlight></codeline>
-<codeline lineno="148" refid="MRVoxelsVolumeAccess_8h_1ab6ca21d37fc5b5e4118a7569180767db" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRVoxelsVolumeAccess_8h_1ab6ca21d37fc5b5e4118a7569180767db" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume_Get_cacheEffective</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="149"><highlight class="normal"></highlight></codeline>
-<codeline lineno="154" refid="MRVoxelsVolumeAccess_8h_1a8c4446adab0506c76e7bcd265e8b5791" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeInterpolation_8h_1acecc5a4d19191cbc59aa3d377b7bfad4" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume</ref><sp/>*<ref refid="MRVoxelsVolumeAccess_8h_1a8c4446adab0506c76e7bcd265e8b5791" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeInterpolation_8h_1acecc5a4d19191cbc59aa3d377b7bfad4" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="155"><highlight class="normal"></highlight></codeline>
-<codeline lineno="158" refid="MRVoxelsVolumeAccess_8h_1a2e9eb85967c2682d7675437f4bcc23d0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeInterpolation_8h_1acecc5a4d19191cbc59aa3d377b7bfad4" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume</ref><sp/>*<ref refid="MRVoxelsVolumeAccess_8h_1a2e9eb85967c2682d7675437f4bcc23d0" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeInterpolation_8h_1acecc5a4d19191cbc59aa3d377b7bfad4" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="69" refid="MRVoxelsVolumeAccess_8h_1afc784d7f6c5a5d002e039e14d1135e67" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolumeAccess_8h_1a14daefefb71601bafdc8f2606ebd04ff" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume</ref><sp/>*<ref refid="MRVoxelsVolumeAccess_8h_1afc784d7f6c5a5d002e039e14d1135e67" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax_UpcastTo_MR_VoxelsVolumeAccessor_MR_SimpleVolume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeInterpolation_8h_1a3f8035b38a4a70d9e6ae339346c7e3db" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="MRVoxelsVolumeAccess_8h_1ad37a2d7c5ba1bd2c7c8994f195134a66" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVoxelsVolumeAccess_8h_1a14daefefb71601bafdc8f2606ebd04ff" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume</ref><sp/>*<ref refid="MRVoxelsVolumeAccess_8h_1ad37a2d7c5ba1bd2c7c8994f195134a66" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax_MutableUpcastTo_MR_VoxelsVolumeAccessor_MR_SimpleVolume</ref>(<ref refid="MRVolumeInterpolation_8h_1a3f8035b38a4a70d9e6ae339346c7e3db" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="MRVoxelsVolumeAccess_8h_1aa2e6cfd4be46df90fa7329edf034ac95" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeInterpolation_8h_1a3f8035b38a4a70d9e6ae339346c7e3db" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax</ref><sp/>*<ref refid="MRVoxelsVolumeAccess_8h_1aa2e6cfd4be46df90fa7329edf034ac95" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarchingCubes_8h_1a9eebc3ffb6c9528989e38a2930f391cf" kindref="member">MR_SimpleVolume</ref><sp/>*volume);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="MRVoxelsVolumeAccess_8h_1a5995645ae7a2740e7c2b22ad13959f9e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolumeAccess_8h_1a5995645ae7a2740e7c2b22ad13959f9e" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeInterpolation_8h_1a3f8035b38a4a70d9e6ae339346c7e3db" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="MRVoxelsVolumeAccess_8h_1a256484e0e6ede36925576ae0122249ae" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolumeAccess_8h_1a256484e0e6ede36925576ae0122249ae" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeInterpolation_8h_1a3f8035b38a4a70d9e6ae339346c7e3db" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="MRVoxelsVolumeAccess_8h_1af552210ad77a4c4365fe4f0e2f61f8c3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="MRVoxelsVolumeAccess_8h_1af552210ad77a4c4365fe4f0e2f61f8c3" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax_shift</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeInterpolation_8h_1a3f8035b38a4a70d9e6ae339346c7e3db" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="MRVoxelsVolumeAccess_8h_1ac60382e8e2e6eae9bc95e5cdecff2742" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRVoxelsVolumeAccess_8h_1ac60382e8e2e6eae9bc95e5cdecff2742" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume_Get_cacheEffective</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="MRVoxelsVolumeAccess_8h_1a490faf18510052cb54f9ed3804d19d4c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVoxelsVolumeAccess_8h_1a14daefefb71601bafdc8f2606ebd04ff" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume</ref><sp/>*<ref refid="MRVoxelsVolumeAccess_8h_1a490faf18510052cb54f9ed3804d19d4c" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolumeAccess_8h_1a14daefefb71601bafdc8f2606ebd04ff" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105" refid="MRVoxelsVolumeAccess_8h_1ab673d4b0bf8277934a736cafcaa6ba00" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolumeAccess_8h_1a14daefefb71601bafdc8f2606ebd04ff" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume</ref><sp/>*<ref refid="MRVoxelsVolumeAccess_8h_1ab673d4b0bf8277934a736cafcaa6ba00" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolumeAccess_8h_1a14daefefb71601bafdc8f2606ebd04ff" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109" refid="MRVoxelsVolumeAccess_8h_1adafc239c31b6d796948449cb2adbe0cb" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVoxelsVolumeAccess_8h_1a14daefefb71601bafdc8f2606ebd04ff" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume</ref><sp/>*<ref refid="MRVoxelsVolumeAccess_8h_1adafc239c31b6d796948449cb2adbe0cb" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume_OffsetMutablePtr</ref>(<ref refid="MRVoxelsVolumeAccess_8h_1a14daefefb71601bafdc8f2606ebd04ff" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115" refid="MRVoxelsVolumeAccess_8h_1ac270a218fb26b78226e18b572dfa36be" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeInterpolation_8h_1a3f8035b38a4a70d9e6ae339346c7e3db" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax</ref><sp/>*<ref refid="MRVoxelsVolumeAccess_8h_1ac270a218fb26b78226e18b572dfa36be" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume_StaticDowncastTo_MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolumeAccess_8h_1a14daefefb71601bafdc8f2606ebd04ff" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120" refid="MRVoxelsVolumeAccess_8h_1a5c4125eb7422ad7b584f4c47126b3b57" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeInterpolation_8h_1a3f8035b38a4a70d9e6ae339346c7e3db" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax</ref><sp/>*<ref refid="MRVoxelsVolumeAccess_8h_1a5c4125eb7422ad7b584f4c47126b3b57" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume_MutableStaticDowncastTo_MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax</ref>(<ref refid="MRVoxelsVolumeAccess_8h_1a14daefefb71601bafdc8f2606ebd04ff" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126" refid="MRVoxelsVolumeAccess_8h_1a6fd84afb411efafdbbe5ed5b513aa7cf" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVoxelsVolumeAccess_8h_1a14daefefb71601bafdc8f2606ebd04ff" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume</ref><sp/>*<ref refid="MRVoxelsVolumeAccess_8h_1a6fd84afb411efafdbbe5ed5b513aa7cf" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMarchingCubes_8h_1a9eebc3ffb6c9528989e38a2930f391cf" kindref="member">MR_SimpleVolume</ref><sp/>*volume);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129" refid="MRVoxelsVolumeAccess_8h_1ad188f61907e6ca4ae697d9098b3e406b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolumeAccess_8h_1ad188f61907e6ca4ae697d9098b3e406b" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolumeAccess_8h_1a14daefefb71601bafdc8f2606ebd04ff" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132" refid="MRVoxelsVolumeAccess_8h_1a100f24f7c7c4d46addec413af350f790" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolumeAccess_8h_1a100f24f7c7c4d46addec413af350f790" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolumeAccess_8h_1a14daefefb71601bafdc8f2606ebd04ff" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="MRVoxelsVolumeAccess_8h_1a6d371b710cf80a951083921cb3b63b57" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolumeAccess_8h_1a6d371b710cf80a951083921cb3b63b57" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume_get_MR_Vector3i</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolumeAccess_8h_1a14daefefb71601bafdc8f2606ebd04ff" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*pos);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142" refid="MRVoxelsVolumeAccess_8h_1a71acfca97bfecd489117189c7f2dc716" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolumeAccess_8h_1a71acfca97bfecd489117189c7f2dc716" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume_get_MR_VoxelLocation</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolumeAccess_8h_1a14daefefb71601bafdc8f2606ebd04ff" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*loc);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147" refid="MRVoxelsVolumeAccess_8h_1a9f8d2bb796bc5410955ad82270c7c5da" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="MRVoxelsVolumeAccess_8h_1a9f8d2bb796bc5410955ad82270c7c5da" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume_shift</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolumeAccess_8h_1a14daefefb71601bafdc8f2606ebd04ff" kindref="member">MR_VoxelsVolumeAccessor_MR_SimpleVolume</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152" refid="MRVoxelsVolumeAccess_8h_1ab6ca21d37fc5b5e4118a7569180767db" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRVoxelsVolumeAccess_8h_1ab6ca21d37fc5b5e4118a7569180767db" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume_Get_cacheEffective</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158" refid="MRVoxelsVolumeAccess_8h_1a8c4446adab0506c76e7bcd265e8b5791" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeInterpolation_8h_1acecc5a4d19191cbc59aa3d377b7bfad4" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume</ref><sp/>*<ref refid="MRVoxelsVolumeAccess_8h_1a8c4446adab0506c76e7bcd265e8b5791" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeInterpolation_8h_1acecc5a4d19191cbc59aa3d377b7bfad4" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="159"><highlight class="normal"></highlight></codeline>
-<codeline lineno="162" refid="MRVoxelsVolumeAccess_8h_1a940719d570144b44552d8dd523676473" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeInterpolation_8h_1acecc5a4d19191cbc59aa3d377b7bfad4" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume</ref><sp/>*<ref refid="MRVoxelsVolumeAccess_8h_1a940719d570144b44552d8dd523676473" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume_OffsetMutablePtr</ref>(<ref refid="MRVolumeInterpolation_8h_1acecc5a4d19191cbc59aa3d377b7bfad4" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="162" refid="MRVoxelsVolumeAccess_8h_1a2e9eb85967c2682d7675437f4bcc23d0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeInterpolation_8h_1acecc5a4d19191cbc59aa3d377b7bfad4" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume</ref><sp/>*<ref refid="MRVoxelsVolumeAccess_8h_1a2e9eb85967c2682d7675437f4bcc23d0" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeInterpolation_8h_1acecc5a4d19191cbc59aa3d377b7bfad4" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="163"><highlight class="normal"></highlight></codeline>
-<codeline lineno="168" refid="MRVoxelsVolumeAccess_8h_1a725ff3952c1286f47da474d740019853" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeInterpolation_8h_1acecc5a4d19191cbc59aa3d377b7bfad4" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume</ref><sp/>*<ref refid="MRVoxelsVolumeAccess_8h_1a725ff3952c1286f47da474d740019853" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillingSurface_8h_1ab294732b2988d23c13fd8799dc19a43a" kindref="member">MR_FunctionVolume</ref><sp/>*volume);</highlight></codeline>
-<codeline lineno="169"><highlight class="normal"></highlight></codeline>
-<codeline lineno="171" refid="MRVoxelsVolumeAccess_8h_1a42200ebf38ce9cf057be80127b16a6bd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolumeAccess_8h_1a42200ebf38ce9cf057be80127b16a6bd" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeInterpolation_8h_1acecc5a4d19191cbc59aa3d377b7bfad4" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="172"><highlight class="normal"></highlight></codeline>
-<codeline lineno="174" refid="MRVoxelsVolumeAccess_8h_1a57c6efa79e7164384274e6deee2d4c54" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolumeAccess_8h_1a57c6efa79e7164384274e6deee2d4c54" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeInterpolation_8h_1acecc5a4d19191cbc59aa3d377b7bfad4" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="175"><highlight class="normal"></highlight></codeline>
-<codeline lineno="179" refid="MRVoxelsVolumeAccess_8h_1a35280d0e975c111800bb7ad2a3cedf18" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolumeAccess_8h_1a35280d0e975c111800bb7ad2a3cedf18" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume_get_MR_Vector3i</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeInterpolation_8h_1acecc5a4d19191cbc59aa3d377b7bfad4" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*pos);</highlight></codeline>
-<codeline lineno="180"><highlight class="normal"></highlight></codeline>
-<codeline lineno="184" refid="MRVoxelsVolumeAccess_8h_1ab21f1f2bbe63230aaedab52d5737ca63" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolumeAccess_8h_1ab21f1f2bbe63230aaedab52d5737ca63" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume_get_MR_VoxelLocation</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeInterpolation_8h_1acecc5a4d19191cbc59aa3d377b7bfad4" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*loc);</highlight></codeline>
-<codeline lineno="185"><highlight class="normal"></highlight></codeline>
-<codeline lineno="189" refid="MRVoxelsVolumeAccess_8h_1a428cbb637c43c4ba67f52dd53b602a3a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="MRVoxelsVolumeAccess_8h_1a428cbb637c43c4ba67f52dd53b602a3a" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume_shift</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeInterpolation_8h_1acecc5a4d19191cbc59aa3d377b7bfad4" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="190"><highlight class="normal"></highlight></codeline>
-<codeline lineno="194" refid="MRVoxelsVolumeAccess_8h_1adcc5b66bfb17b153f21023b251c11e60" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRVoxelsVolumeAccess_8h_1adcc5b66bfb17b153f21023b251c11e60" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume_Get_cacheEffective</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="195"><highlight class="normal"></highlight></codeline>
-<codeline lineno="199" refid="MRVoxelsVolumeAccess_8h_1a13bd1644fc07d5fa6ba5ed1f3d0cf4c8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeInterpolation_8h_1a3c75ce800b8e618cd4d8b9421a153688" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume</ref><sp/>*<ref refid="MRVoxelsVolumeAccess_8h_1a13bd1644fc07d5fa6ba5ed1f3d0cf4c8" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRVolumeInterpolation_8h_1a3c75ce800b8e618cd4d8b9421a153688" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="200"><highlight class="normal"></highlight></codeline>
-<codeline lineno="203" refid="MRVoxelsVolumeAccess_8h_1a98e6a4e405e2f8acd57c5b3b535863fb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeInterpolation_8h_1a3c75ce800b8e618cd4d8b9421a153688" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume</ref><sp/>*<ref refid="MRVoxelsVolumeAccess_8h_1a98e6a4e405e2f8acd57c5b3b535863fb" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeInterpolation_8h_1a3c75ce800b8e618cd4d8b9421a153688" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="166" refid="MRVoxelsVolumeAccess_8h_1a940719d570144b44552d8dd523676473" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeInterpolation_8h_1acecc5a4d19191cbc59aa3d377b7bfad4" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume</ref><sp/>*<ref refid="MRVoxelsVolumeAccess_8h_1a940719d570144b44552d8dd523676473" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume_OffsetMutablePtr</ref>(<ref refid="MRVolumeInterpolation_8h_1acecc5a4d19191cbc59aa3d377b7bfad4" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172" refid="MRVoxelsVolumeAccess_8h_1a725ff3952c1286f47da474d740019853" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeInterpolation_8h_1acecc5a4d19191cbc59aa3d377b7bfad4" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume</ref><sp/>*<ref refid="MRVoxelsVolumeAccess_8h_1a725ff3952c1286f47da474d740019853" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillingSurface_8h_1ab294732b2988d23c13fd8799dc19a43a" kindref="member">MR_FunctionVolume</ref><sp/>*volume);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175" refid="MRVoxelsVolumeAccess_8h_1a42200ebf38ce9cf057be80127b16a6bd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolumeAccess_8h_1a42200ebf38ce9cf057be80127b16a6bd" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeInterpolation_8h_1acecc5a4d19191cbc59aa3d377b7bfad4" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178" refid="MRVoxelsVolumeAccess_8h_1a57c6efa79e7164384274e6deee2d4c54" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolumeAccess_8h_1a57c6efa79e7164384274e6deee2d4c54" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeInterpolation_8h_1acecc5a4d19191cbc59aa3d377b7bfad4" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183" refid="MRVoxelsVolumeAccess_8h_1a35280d0e975c111800bb7ad2a3cedf18" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolumeAccess_8h_1a35280d0e975c111800bb7ad2a3cedf18" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume_get_MR_Vector3i</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeInterpolation_8h_1acecc5a4d19191cbc59aa3d377b7bfad4" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*pos);</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188" refid="MRVoxelsVolumeAccess_8h_1ab21f1f2bbe63230aaedab52d5737ca63" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolumeAccess_8h_1ab21f1f2bbe63230aaedab52d5737ca63" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume_get_MR_VoxelLocation</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeInterpolation_8h_1acecc5a4d19191cbc59aa3d377b7bfad4" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*loc);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193" refid="MRVoxelsVolumeAccess_8h_1a428cbb637c43c4ba67f52dd53b602a3a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="MRVoxelsVolumeAccess_8h_1a428cbb637c43c4ba67f52dd53b602a3a" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume_shift</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeInterpolation_8h_1acecc5a4d19191cbc59aa3d377b7bfad4" kindref="member">MR_VoxelsVolumeAccessor_MR_FunctionVolume</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="198" refid="MRVoxelsVolumeAccess_8h_1adcc5b66bfb17b153f21023b251c11e60" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRVoxelsVolumeAccess_8h_1adcc5b66bfb17b153f21023b251c11e60" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume_Get_cacheEffective</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight></codeline>
+<codeline lineno="203" refid="MRVoxelsVolumeAccess_8h_1a13bd1644fc07d5fa6ba5ed1f3d0cf4c8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeInterpolation_8h_1a3c75ce800b8e618cd4d8b9421a153688" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume</ref><sp/>*<ref refid="MRVoxelsVolumeAccess_8h_1a13bd1644fc07d5fa6ba5ed1f3d0cf4c8" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRVolumeInterpolation_8h_1a3c75ce800b8e618cd4d8b9421a153688" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="204"><highlight class="normal"></highlight></codeline>
-<codeline lineno="207" refid="MRVoxelsVolumeAccess_8h_1a6d88b88cb11786eea1279f408ca1019c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeInterpolation_8h_1a3c75ce800b8e618cd4d8b9421a153688" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume</ref><sp/>*<ref refid="MRVoxelsVolumeAccess_8h_1a6d88b88cb11786eea1279f408ca1019c" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume_OffsetMutablePtr</ref>(<ref refid="MRVolumeInterpolation_8h_1a3c75ce800b8e618cd4d8b9421a153688" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="207" refid="MRVoxelsVolumeAccess_8h_1a98e6a4e405e2f8acd57c5b3b535863fb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeInterpolation_8h_1a3c75ce800b8e618cd4d8b9421a153688" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume</ref><sp/>*<ref refid="MRVoxelsVolumeAccess_8h_1a98e6a4e405e2f8acd57c5b3b535863fb" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeInterpolation_8h_1a3c75ce800b8e618cd4d8b9421a153688" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="208"><highlight class="normal"></highlight></codeline>
-<codeline lineno="213" refid="MRVoxelsVolumeAccess_8h_1af5eecb1eaee06eef45d179009bfc0341" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeInterpolation_8h_1a3c75ce800b8e618cd4d8b9421a153688" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume</ref><sp/>*<ref refid="MRVoxelsVolumeAccess_8h_1af5eecb1eaee06eef45d179009bfc0341" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/>*volume);</highlight></codeline>
-<codeline lineno="214"><highlight class="normal"></highlight></codeline>
-<codeline lineno="216" refid="MRVoxelsVolumeAccess_8h_1a49d86ac4bb317e4c5c4af1951ad179e4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolumeAccess_8h_1a49d86ac4bb317e4c5c4af1951ad179e4" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeInterpolation_8h_1a3c75ce800b8e618cd4d8b9421a153688" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="217"><highlight class="normal"></highlight></codeline>
-<codeline lineno="219" refid="MRVoxelsVolumeAccess_8h_1ae25cb822ebc3b8e1b1f71f11c2aad80b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolumeAccess_8h_1ae25cb822ebc3b8e1b1f71f11c2aad80b" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeInterpolation_8h_1a3c75ce800b8e618cd4d8b9421a153688" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="220"><highlight class="normal"></highlight></codeline>
-<codeline lineno="226" refid="MRVoxelsVolumeAccess_8h_1ad8c7b55da79cc7aa3205883e6a21724f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeInterpolation_8h_1a3c75ce800b8e618cd4d8b9421a153688" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume</ref><sp/>*<ref refid="MRVoxelsVolumeAccess_8h_1ad8c7b55da79cc7aa3205883e6a21724f" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume_AssignFromAnother</ref>(<ref refid="MRVolumeInterpolation_8h_1a3c75ce800b8e618cd4d8b9421a153688" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRVolumeInterpolation_8h_1a3c75ce800b8e618cd4d8b9421a153688" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="227"><highlight class="normal"></highlight></codeline>
-<codeline lineno="231" refid="MRVoxelsVolumeAccess_8h_1a5336f8cd1b2b81031a132d448dd11176" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolumeAccess_8h_1a5336f8cd1b2b81031a132d448dd11176" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume_get_MR_Vector3i</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeInterpolation_8h_1a3c75ce800b8e618cd4d8b9421a153688" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*pos);</highlight></codeline>
-<codeline lineno="232"><highlight class="normal"></highlight></codeline>
-<codeline lineno="236" refid="MRVoxelsVolumeAccess_8h_1afe4b3dd79bf338d951e1e70fc31146bb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolumeAccess_8h_1afe4b3dd79bf338d951e1e70fc31146bb" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume_get_MR_VoxelLocation</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeInterpolation_8h_1a3c75ce800b8e618cd4d8b9421a153688" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*loc);</highlight></codeline>
-<codeline lineno="237"><highlight class="normal"></highlight></codeline>
-<codeline lineno="241" refid="MRVoxelsVolumeAccess_8h_1aa7884da8bdfca8305724e09bc9af3e40" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*<ref refid="MRVoxelsVolumeAccess_8h_1aa7884da8bdfca8305724e09bc9af3e40" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume_minCoord</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeInterpolation_8h_1a3c75ce800b8e618cd4d8b9421a153688" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="242"><highlight class="normal"></highlight></codeline>
-<codeline lineno="246" refid="MRVoxelsVolumeAccess_8h_1a327f9f38a57636fd1aefb7ff726673e0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="MRVoxelsVolumeAccess_8h_1a327f9f38a57636fd1aefb7ff726673e0" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume_shift</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeInterpolation_8h_1a3c75ce800b8e618cd4d8b9421a153688" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="247"><highlight class="normal"></highlight></codeline>
-<codeline lineno="248"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="249"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="250"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="211" refid="MRVoxelsVolumeAccess_8h_1a6d88b88cb11786eea1279f408ca1019c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeInterpolation_8h_1a3c75ce800b8e618cd4d8b9421a153688" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume</ref><sp/>*<ref refid="MRVoxelsVolumeAccess_8h_1a6d88b88cb11786eea1279f408ca1019c" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume_OffsetMutablePtr</ref>(<ref refid="MRVolumeInterpolation_8h_1a3c75ce800b8e618cd4d8b9421a153688" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217" refid="MRVoxelsVolumeAccess_8h_1af5eecb1eaee06eef45d179009bfc0341" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeInterpolation_8h_1a3c75ce800b8e618cd4d8b9421a153688" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume</ref><sp/>*<ref refid="MRVoxelsVolumeAccess_8h_1af5eecb1eaee06eef45d179009bfc0341" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/>*volume);</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220" refid="MRVoxelsVolumeAccess_8h_1a49d86ac4bb317e4c5c4af1951ad179e4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolumeAccess_8h_1a49d86ac4bb317e4c5c4af1951ad179e4" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeInterpolation_8h_1a3c75ce800b8e618cd4d8b9421a153688" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="223" refid="MRVoxelsVolumeAccess_8h_1ae25cb822ebc3b8e1b1f71f11c2aad80b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolumeAccess_8h_1ae25cb822ebc3b8e1b1f71f11c2aad80b" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeInterpolation_8h_1a3c75ce800b8e618cd4d8b9421a153688" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230" refid="MRVoxelsVolumeAccess_8h_1ad8c7b55da79cc7aa3205883e6a21724f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRVolumeInterpolation_8h_1a3c75ce800b8e618cd4d8b9421a153688" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume</ref><sp/>*<ref refid="MRVoxelsVolumeAccess_8h_1ad8c7b55da79cc7aa3205883e6a21724f" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume_AssignFromAnother</ref>(<ref refid="MRVolumeInterpolation_8h_1a3c75ce800b8e618cd4d8b9421a153688" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRVolumeInterpolation_8h_1a3c75ce800b8e618cd4d8b9421a153688" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="235" refid="MRVoxelsVolumeAccess_8h_1a5336f8cd1b2b81031a132d448dd11176" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolumeAccess_8h_1a5336f8cd1b2b81031a132d448dd11176" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume_get_MR_Vector3i</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeInterpolation_8h_1a3c75ce800b8e618cd4d8b9421a153688" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*pos);</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight></codeline>
+<codeline lineno="240" refid="MRVoxelsVolumeAccess_8h_1afe4b3dd79bf338d951e1e70fc31146bb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolumeAccess_8h_1afe4b3dd79bf338d951e1e70fc31146bb" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume_get_MR_VoxelLocation</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeInterpolation_8h_1a3c75ce800b8e618cd4d8b9421a153688" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeIndexer_8h_1a74e1493d8fd738638c30f10863c7324d" kindref="member">MR_VoxelLocation</ref><sp/>*loc);</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight></codeline>
+<codeline lineno="245" refid="MRVoxelsVolumeAccess_8h_1aa7884da8bdfca8305724e09bc9af3e40" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*<ref refid="MRVoxelsVolumeAccess_8h_1aa7884da8bdfca8305724e09bc9af3e40" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume_minCoord</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeInterpolation_8h_1a3c75ce800b8e618cd4d8b9421a153688" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"></highlight></codeline>
+<codeline lineno="250" refid="MRVoxelsVolumeAccess_8h_1a327f9f38a57636fd1aefb7ff726673e0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="MRVoxelsVolumeAccess_8h_1a327f9f38a57636fd1aefb7ff726673e0" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume_shift</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVolumeInterpolation_8h_1a3c75ce800b8e618cd4d8b9421a153688" kindref="member">MR_VoxelsVolumeAccessor_MR_VdbVolume</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="253"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="254"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRVoxelsVolumeAccess.h"/>
   </compounddef>

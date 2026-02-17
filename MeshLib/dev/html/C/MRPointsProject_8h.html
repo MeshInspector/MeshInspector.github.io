@@ -343,7 +343,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a1a5d8e9f20984a05ca6a500f10ad687b" id="r_a1a5d8e9f20984a05ca6a500f10ad687b"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#acc732bce6f7682cbdb0a3a72dd2dbc4d">MR_IPointsProjector</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a5d8e9f20984a05ca6a500f10ad687b">MR_PointsProjector_UpcastTo_MR_IPointsProjector</a> (const <a class="el" href="#a3a5ba351029fa6f59d21522d60cb8bd1">MR_PointsProjector</a> *object)</td></tr>
 <tr class="separator:a1a5d8e9f20984a05ca6a500f10ad687b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1575f0818e4a58fc21a5ae3c800a7d4" id="r_af1575f0818e4a58fc21a5ae3c800a7d4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#acc732bce6f7682cbdb0a3a72dd2dbc4d">MR_IPointsProjector</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1575f0818e4a58fc21a5ae3c800a7d4">MR_PointsProjector_MutableUpcastTo_MR_IPointsProjector</a> (<a class="el" href="#a3a5ba351029fa6f59d21522d60cb8bd1">MR_PointsProjector</a> *object)</td></tr>
-<tr class="memdesc:af1575f0818e4a58fc21a5ae3c800a7d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code>MR::PointsProjector</code> to its base class <code>MR::IPointsProjector</code>.  <br /></td></tr>
 <tr class="separator:af1575f0818e4a58fc21a5ae3c800a7d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab31b31360fb8690ebd06dfc486b1bb74" id="r_ab31b31360fb8690ebd06dfc486b1bb74"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a3a5ba351029fa6f59d21522d60cb8bd1">MR_PointsProjector</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab31b31360fb8690ebd06dfc486b1bb74">MR_PointsProjector_ConstructFromAnother</a> (MR_PassBy _other_pass_by, <a class="el" href="#a3a5ba351029fa6f59d21522d60cb8bd1">MR_PointsProjector</a> *_other)</td></tr>
 <tr class="separator:ab31b31360fb8690ebd06dfc486b1bb74"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1025,7 +1024,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>progress callback Returns a pointer to a member variable of class <code>MR::FindProjectionOnPointsSettings</code> named <code>cb</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>progress callback Returns a pointer to a member variable of class <code>MR::FindProjectionOnPointsSettings</code> named <code>cb</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1043,7 +1042,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>low limit on the distance in question, if a point is found within this distance then it is immediately returned without searching for a closer one Returns a pointer to a member variable of class <code>MR::FindProjectionOnPointsSettings</code> named <code>loDistLimitSq</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>low limit on the distance in question, if a point is found within this distance then it is immediately returned without searching for a closer one Returns a pointer to a member variable of class <code>MR::FindProjectionOnPointsSettings</code> named <code>loDistLimitSq</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1061,7 +1060,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if true, discards a projection candidate with the same index as the target point Returns a pointer to a member variable of class <code>MR::FindProjectionOnPointsSettings</code> named <code>skipSameIndex</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if true, discards a projection candidate with the same index as the target point Returns a pointer to a member variable of class <code>MR::FindProjectionOnPointsSettings</code> named <code>skipSameIndex</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1079,7 +1078,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>upper limit on the distance in question, if the real distance is larger than the function exits returning upDistLimitSq and no valid point Returns a pointer to a member variable of class <code>MR::FindProjectionOnPointsSettings</code> named <code>upDistLimitSq</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>upper limit on the distance in question, if the real distance is larger than the function exits returning upDistLimitSq and no valid point Returns a pointer to a member variable of class <code>MR::FindProjectionOnPointsSettings</code> named <code>upDistLimitSq</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1097,7 +1096,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>bitset of valid input points Returns a pointer to a member variable of class <code>MR::FindProjectionOnPointsSettings</code> named <code>valid</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>bitset of valid input points Returns a pointer to a member variable of class <code>MR::FindProjectionOnPointsSettings</code> named <code>valid</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1115,7 +1114,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>affine transformation for input points Returns a pointer to a member variable of class <code>MR::FindProjectionOnPointsSettings</code> named <code>xf</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>affine transformation for input points Returns a pointer to a member variable of class <code>MR::FindProjectionOnPointsSettings</code> named <code>xf</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1133,7 +1132,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>progress callback Returns a mutable pointer to a member variable of class <code>MR::FindProjectionOnPointsSettings</code> named <code>cb</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>progress callback Returns a mutable pointer to a member variable of class <code>MR::FindProjectionOnPointsSettings</code> named <code>cb</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1151,7 +1150,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>low limit on the distance in question, if a point is found within this distance then it is immediately returned without searching for a closer one Returns a mutable pointer to a member variable of class <code>MR::FindProjectionOnPointsSettings</code> named <code>loDistLimitSq</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>low limit on the distance in question, if a point is found within this distance then it is immediately returned without searching for a closer one Returns a mutable pointer to a member variable of class <code>MR::FindProjectionOnPointsSettings</code> named <code>loDistLimitSq</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1169,7 +1168,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if true, discards a projection candidate with the same index as the target point Returns a mutable pointer to a member variable of class <code>MR::FindProjectionOnPointsSettings</code> named <code>skipSameIndex</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if true, discards a projection candidate with the same index as the target point Returns a mutable pointer to a member variable of class <code>MR::FindProjectionOnPointsSettings</code> named <code>skipSameIndex</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1187,7 +1186,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>upper limit on the distance in question, if the real distance is larger than the function exits returning upDistLimitSq and no valid point Returns a mutable pointer to a member variable of class <code>MR::FindProjectionOnPointsSettings</code> named <code>upDistLimitSq</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>upper limit on the distance in question, if the real distance is larger than the function exits returning upDistLimitSq and no valid point Returns a mutable pointer to a member variable of class <code>MR::FindProjectionOnPointsSettings</code> named <code>upDistLimitSq</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1205,7 +1204,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>bitset of valid input points Returns a mutable pointer to a member variable of class <code>MR::FindProjectionOnPointsSettings</code> named <code>valid</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>bitset of valid input points Returns a mutable pointer to a member variable of class <code>MR::FindProjectionOnPointsSettings</code> named <code>valid</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1223,7 +1222,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>affine transformation for input points Returns a mutable pointer to a member variable of class <code>MR::FindProjectionOnPointsSettings</code> named <code>xf</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>affine transformation for input points Returns a mutable pointer to a member variable of class <code>MR::FindProjectionOnPointsSettings</code> named <code>xf</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1482,7 +1481,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code>MR::IPointsProjector</code> to a derived class <code>MR::PointsProjector</code>. This is a dynamic downcast, it checks the type before casting. This version will return zero if the target type is wrong. This version is acting on mutable pointers. </p>
+<p>Downcasts an instance of <code>MR::IPointsProjector</code> to a derived class <code>MR::PointsProjector</code>. This is a dynamic downcast, it checks the type before casting. This version will return zero if the target type is wrong. This version is acting on mutable pointers. The reference to the parameter <code>object</code> might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -1500,7 +1499,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code>MR::IPointsProjector</code> to a derived class <code>MR::PointsProjector</code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code>MR::IPointsProjector</code> to a derived class <code>MR::PointsProjector</code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. It is a single object. The reference to the parameter <code>object</code> might be preserved in the return value. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1550,7 +1549,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code>MR::IPointsProjector</code> to a derived class <code>MR::PointsProjector</code>. This is a dynamic downcast, it checks the type before casting. This version will return zero if the target type is wrong. </p>
+<p>Downcasts an instance of <code>MR::IPointsProjector</code> to a derived class <code>MR::PointsProjector</code>. This is a dynamic downcast, it checks the type before casting. This version will return zero if the target type is wrong. The reference to the parameter <code>object</code> might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -1568,7 +1567,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code>MR::IPointsProjector</code> to a derived class <code>MR::PointsProjector</code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code>MR::IPointsProjector</code> to a derived class <code>MR::PointsProjector</code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. It is a single object. The reference to the parameter <code>object</code> might be preserved in the return value. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1586,7 +1585,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code>MR::IPointsProjector</code> to a derived class <code>MR::PointsProjector</code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. </p>
+<p>Downcasts an instance of <code>MR::IPointsProjector</code> to a derived class <code>MR::PointsProjector</code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <code>object</code> might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -1692,7 +1691,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code>MR::IPointsProjector</code> to a derived class <code>MR::PointsProjector</code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. </p>
+<p>Downcasts an instance of <code>MR::IPointsProjector</code> to a derived class <code>MR::PointsProjector</code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <code>object</code> might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -1846,7 +1845,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>squared distance from pt to proj Returns a pointer to a member variable of class <code>MR::PointsProjectionResult</code> named <code>distSq</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>squared distance from pt to proj Returns a pointer to a member variable of class <code>MR::PointsProjectionResult</code> named <code>distSq</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1864,7 +1863,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the closest vertex in point cloud Returns a pointer to a member variable of class <code>MR::PointsProjectionResult</code> named <code>vId</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the closest vertex in point cloud Returns a pointer to a member variable of class <code>MR::PointsProjectionResult</code> named <code>vId</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1882,7 +1881,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>squared distance from pt to proj Returns a mutable pointer to a member variable of class <code>MR::PointsProjectionResult</code> named <code>distSq</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>squared distance from pt to proj Returns a mutable pointer to a member variable of class <code>MR::PointsProjectionResult</code> named <code>distSq</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1900,7 +1899,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the closest vertex in point cloud Returns a mutable pointer to a member variable of class <code>MR::PointsProjectionResult</code> named <code>vId</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the closest vertex in point cloud Returns a mutable pointer to a member variable of class <code>MR::PointsProjectionResult</code> named <code>vId</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2161,8 +2160,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Upcasts an instance of <code>MR::PointsProjector</code> to its base class <code>MR::IPointsProjector</code>. </p>
+<p>Upcasts an instance of <code>MR::PointsProjector</code> to its base class <code>MR::IPointsProjector</code>. The reference to the parameter <code>object</code> might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -2268,7 +2266,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Upcasts an instance of <code>MR::PointsProjector</code> to its base class <code>MR::IPointsProjector</code>. This version is acting on mutable pointers. </p>
+<p>Upcasts an instance of <code>MR::PointsProjector</code> to its base class <code>MR::IPointsProjector</code>. This version is acting on mutable pointers. The reference to the parameter <code>object</code> might be preserved in the return value. </p>
 
 </div>
 </div>

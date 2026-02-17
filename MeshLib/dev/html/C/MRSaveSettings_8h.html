@@ -869,7 +869,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional per-vertex color to save with the geometry Returns a pointer to a member variable of class <code>MR::SaveSettings</code> named <code>colors</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>optional per-vertex color to save with the geometry Returns a pointer to a member variable of class <code>MR::SaveSettings</code> named <code>colors</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -887,7 +887,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>units of input coordinates and transformation, to be serialized if the format supports it Returns a pointer to a member variable of class <code>MR::SaveSettings</code> named <code>lengthUnit</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>units of input coordinates and transformation, to be serialized if the format supports it Returns a pointer to a member variable of class <code>MR::SaveSettings</code> named <code>lengthUnit</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -905,7 +905,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the name of file (UTF8 encoded) without extension to save texture in some formats (e.g. .OBJ, .PLY) Returns a pointer to a member variable of class <code>MR::SaveSettings</code> named <code>materialName</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the name of file (UTF8 encoded) without extension to save texture in some formats (e.g. .OBJ, .PLY) Returns a pointer to a member variable of class <code>MR::SaveSettings</code> named <code>materialName</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -923,7 +923,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>true - save valid points/vertices only (pack them); false - save all points/vertices preserving their indices Returns a pointer to a member variable of class <code>MR::SaveSettings</code> named <code>onlyValidPoints</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>true - save valid points/vertices only (pack them); false - save all points/vertices preserving their indices Returns a pointer to a member variable of class <code>MR::SaveSettings</code> named <code>onlyValidPoints</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -941,7 +941,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>whether to allow packing or shuffling of primitives (triangles in meshes or edges in polylines); if packPrimitives=true, then ids of invalid primitives are reused by valid primitives and higher compression (in .ctm format) can be reached if the order of triangles is changed; if packPrimitives=false then all primitives maintain their ids, and invalid primitives are saved with all vertex ids equal to zero; currently this flag affects the saving in .ctm and .ply formats only Returns a pointer to a member variable of class <code>MR::SaveSettings</code> named <code>packPrimitives</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>whether to allow packing or shuffling of primitives (triangles in meshes or edges in polylines); if packPrimitives=true, then ids of invalid primitives are reused by valid primitives and higher compression (in .ctm format) can be reached if the order of triangles is changed; if packPrimitives=false then all primitives maintain their ids, and invalid primitives are saved with all vertex ids equal to zero; currently this flag affects the saving in .ctm and .ply formats only Returns a pointer to a member variable of class <code>MR::SaveSettings</code> named <code>packPrimitives</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -959,7 +959,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>per-face colors for meshes, per-undirected-edge colors for polylines, unused for point clouds and other Returns a pointer to a member variable of class <code>MR::SaveSettings</code> named <code>primitiveColors</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>per-face colors for meshes, per-undirected-edge colors for polylines, unused for point clouds and other Returns a pointer to a member variable of class <code>MR::SaveSettings</code> named <code>primitiveColors</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -977,7 +977,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>to report save progress and cancel saving if user desires Returns a pointer to a member variable of class <code>MR::SaveSettings</code> named <code>progress</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>to report save progress and cancel saving if user desires Returns a pointer to a member variable of class <code>MR::SaveSettings</code> named <code>progress</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -995,7 +995,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if a format supports both per-vertex and per-tri-corner UV-coordinates, then prefer the later option (it takes more space but more supported in other software) Returns a pointer to a member variable of class <code>MR::SaveSettings</code> named <code>saveTriCornerUVCoords</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if a format supports both per-vertex and per-tri-corner UV-coordinates, then prefer the later option (it takes more space but more supported in other software) Returns a pointer to a member variable of class <code>MR::SaveSettings</code> named <code>saveTriCornerUVCoords</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1013,7 +1013,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the color of whole object Returns a pointer to a member variable of class <code>MR::SaveSettings</code> named <code>solidColor</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the color of whole object Returns a pointer to a member variable of class <code>MR::SaveSettings</code> named <code>solidColor</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1031,7 +1031,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional texture to save with the geometry Returns a pointer to a member variable of class <code>MR::SaveSettings</code> named <code>texture</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>optional texture to save with the geometry Returns a pointer to a member variable of class <code>MR::SaveSettings</code> named <code>texture</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1049,7 +1049,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional per-vertex uv coordinate to save with the geometry Returns a pointer to a member variable of class <code>MR::SaveSettings</code> named <code>uvMap</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>optional per-vertex uv coordinate to save with the geometry Returns a pointer to a member variable of class <code>MR::SaveSettings</code> named <code>uvMap</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1067,7 +1067,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>this transformation can optionally be applied to all vertices (points) of saved object Returns a pointer to a member variable of class <code>MR::SaveSettings</code> named <code>xf</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>this transformation can optionally be applied to all vertices (points) of saved object Returns a pointer to a member variable of class <code>MR::SaveSettings</code> named <code>xf</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1085,7 +1085,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional per-vertex color to save with the geometry Returns a mutable pointer to a member variable of class <code>MR::SaveSettings</code> named <code>colors</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>optional per-vertex color to save with the geometry Returns a mutable pointer to a member variable of class <code>MR::SaveSettings</code> named <code>colors</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1103,7 +1103,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>units of input coordinates and transformation, to be serialized if the format supports it Returns a mutable pointer to a member variable of class <code>MR::SaveSettings</code> named <code>lengthUnit</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>units of input coordinates and transformation, to be serialized if the format supports it Returns a mutable pointer to a member variable of class <code>MR::SaveSettings</code> named <code>lengthUnit</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1121,7 +1121,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the name of file (UTF8 encoded) without extension to save texture in some formats (e.g. .OBJ, .PLY) Returns a mutable pointer to a member variable of class <code>MR::SaveSettings</code> named <code>materialName</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the name of file (UTF8 encoded) without extension to save texture in some formats (e.g. .OBJ, .PLY) Returns a mutable pointer to a member variable of class <code>MR::SaveSettings</code> named <code>materialName</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1139,7 +1139,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>true - save valid points/vertices only (pack them); false - save all points/vertices preserving their indices Returns a mutable pointer to a member variable of class <code>MR::SaveSettings</code> named <code>onlyValidPoints</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>true - save valid points/vertices only (pack them); false - save all points/vertices preserving their indices Returns a mutable pointer to a member variable of class <code>MR::SaveSettings</code> named <code>onlyValidPoints</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1157,7 +1157,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>whether to allow packing or shuffling of primitives (triangles in meshes or edges in polylines); if packPrimitives=true, then ids of invalid primitives are reused by valid primitives and higher compression (in .ctm format) can be reached if the order of triangles is changed; if packPrimitives=false then all primitives maintain their ids, and invalid primitives are saved with all vertex ids equal to zero; currently this flag affects the saving in .ctm and .ply formats only Returns a mutable pointer to a member variable of class <code>MR::SaveSettings</code> named <code>packPrimitives</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>whether to allow packing or shuffling of primitives (triangles in meshes or edges in polylines); if packPrimitives=true, then ids of invalid primitives are reused by valid primitives and higher compression (in .ctm format) can be reached if the order of triangles is changed; if packPrimitives=false then all primitives maintain their ids, and invalid primitives are saved with all vertex ids equal to zero; currently this flag affects the saving in .ctm and .ply formats only Returns a mutable pointer to a member variable of class <code>MR::SaveSettings</code> named <code>packPrimitives</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1175,7 +1175,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>per-face colors for meshes, per-undirected-edge colors for polylines, unused for point clouds and other Returns a mutable pointer to a member variable of class <code>MR::SaveSettings</code> named <code>primitiveColors</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>per-face colors for meshes, per-undirected-edge colors for polylines, unused for point clouds and other Returns a mutable pointer to a member variable of class <code>MR::SaveSettings</code> named <code>primitiveColors</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1193,7 +1193,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>to report save progress and cancel saving if user desires Returns a mutable pointer to a member variable of class <code>MR::SaveSettings</code> named <code>progress</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>to report save progress and cancel saving if user desires Returns a mutable pointer to a member variable of class <code>MR::SaveSettings</code> named <code>progress</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1211,7 +1211,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if a format supports both per-vertex and per-tri-corner UV-coordinates, then prefer the later option (it takes more space but more supported in other software) Returns a mutable pointer to a member variable of class <code>MR::SaveSettings</code> named <code>saveTriCornerUVCoords</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if a format supports both per-vertex and per-tri-corner UV-coordinates, then prefer the later option (it takes more space but more supported in other software) Returns a mutable pointer to a member variable of class <code>MR::SaveSettings</code> named <code>saveTriCornerUVCoords</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1229,7 +1229,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the color of whole object Returns a mutable pointer to a member variable of class <code>MR::SaveSettings</code> named <code>solidColor</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the color of whole object Returns a mutable pointer to a member variable of class <code>MR::SaveSettings</code> named <code>solidColor</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1247,7 +1247,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional texture to save with the geometry Returns a mutable pointer to a member variable of class <code>MR::SaveSettings</code> named <code>texture</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>optional texture to save with the geometry Returns a mutable pointer to a member variable of class <code>MR::SaveSettings</code> named <code>texture</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1265,7 +1265,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional per-vertex uv coordinate to save with the geometry Returns a mutable pointer to a member variable of class <code>MR::SaveSettings</code> named <code>uvMap</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>optional per-vertex uv coordinate to save with the geometry Returns a mutable pointer to a member variable of class <code>MR::SaveSettings</code> named <code>uvMap</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1283,7 +1283,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>this transformation can optionally be applied to all vertices (points) of saved object Returns a mutable pointer to a member variable of class <code>MR::SaveSettings</code> named <code>xf</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>this transformation can optionally be applied to all vertices (points) of saved object Returns a mutable pointer to a member variable of class <code>MR::SaveSettings</code> named <code>xf</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1301,7 +1301,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code>MR::SaveSettings</code> to a derived class <code>MR::MeshSave::CtmSaveOptions</code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. </p>
+<p>Downcasts an instance of <code>MR::SaveSettings</code> to a derived class <code>MR::MeshSave::CtmSaveOptions</code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <code>object</code> might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -1319,7 +1319,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code>MR::SaveSettings</code> to a derived class <code>MR::PointsSave::CtmSavePointsOptions</code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. </p>
+<p>Downcasts an instance of <code>MR::SaveSettings</code> to a derived class <code>MR::PointsSave::CtmSavePointsOptions</code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <code>object</code> might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -1655,7 +1655,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code>MR::SaveSettings</code> to a derived class <code>MR::MeshSave::CtmSaveOptions</code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. </p>
+<p>Downcasts an instance of <code>MR::SaveSettings</code> to a derived class <code>MR::MeshSave::CtmSaveOptions</code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <code>object</code> might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -1673,7 +1673,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code>MR::SaveSettings</code> to a derived class <code>MR::PointsSave::CtmSavePointsOptions</code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. </p>
+<p>Downcasts an instance of <code>MR::SaveSettings</code> to a derived class <code>MR::PointsSave::CtmSavePointsOptions</code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <code>object</code> might be preserved in the return value. </p>
 
 </div>
 </div>

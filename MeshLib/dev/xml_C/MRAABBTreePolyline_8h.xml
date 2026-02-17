@@ -406,11 +406,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Upcasts an instance of <computeroutput>MR::AABBTreePolyline2</computeroutput> to its base class <computeroutput>MR::AABBTreeBase&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, MR::Box2f&gt;&gt;</computeroutput>. This version is acting on mutable pointers. </para>
+<para>Upcasts an instance of <computeroutput>MR::AABBTreePolyline2</computeroutput> to its base class <computeroutput>MR::AABBTreeBase&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, MR::Box2f&gt;&gt;</computeroutput>. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="72" column="79" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="72" declcolumn="79"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="73" column="79" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="73" declcolumn="79"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1aec67c9259fd537ca3d03b66beae87a46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAABBTreeBase_8h_1aee11904796ea0dc43e0be16229b1cd48" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f</ref> *</type>
@@ -422,13 +422,13 @@
           <declname>object</declname>
         </param>
         <briefdescription>
-<para>Upcasts an instance of <computeroutput>MR::AABBTreePolyline2</computeroutput> to its base class <computeroutput>MR::AABBTreeBase&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, MR::Box2f&gt;&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
+<para>Upcasts an instance of <computeroutput>MR::AABBTreePolyline2</computeroutput> to its base class <computeroutput>MR::AABBTreeBase&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, MR::Box2f&gt;&gt;</computeroutput>. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="75" column="73" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="75" declcolumn="73"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="77" column="73" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="77" declcolumn="73"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1af9638e4e73d130e0f761670512b0c6d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAABBTreeBase_8h_1a5f0e38192b30270d8c975b9462a211ad" kindref="member">MR_AABBTreePolyline2</ref> *</type>
@@ -450,7 +450,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="80" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="80" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="82" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="82" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1af3e3f6ec8aa54c448dc0d342fb27f12d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAABBTreeBase_8h_1a5f0e38192b30270d8c975b9462a211ad" kindref="member">MR_AABBTreePolyline2</ref> *</type>
@@ -468,7 +468,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="87" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="87" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="89" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="89" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1a9d2552bc208ac78dba907d237beae6a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -486,7 +486,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="90" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="90" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="92" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="92" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1a6ad7b66607fa940241bd74fc7aed27cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -504,7 +504,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="93" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="93" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="95" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="95" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1a6848c61da509ef40ab22f5be754cde90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAABBTreeBase_8h_1a5f0e38192b30270d8c975b9462a211ad" kindref="member">MR_AABBTreePolyline2</ref> *</type>
@@ -526,11 +526,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::AABBTreePolyline2::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::AABBTreePolyline2::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved in the return value. When this function is called, this object will drop any object references it had previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="100" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="100" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="103" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="103" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1aa25b07e28fc20c74a6f5aa7a210a32f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRAABBTreeBase_8h_1ac67c193eba269f6914d84f59c992064e" kindref="member">MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f_MR_NodeId</ref> *</type>
@@ -548,7 +548,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="106" column="99" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="106" declcolumn="99"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="109" column="99" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="109" declcolumn="99"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1a01ea1d298bcc53a0838fd45e5494a840" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRAABBTreeBase_8h_1a0e5a9ac5fb6e86041914df4b0ececb57" kindref="member">MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f</ref> *</type>
@@ -570,7 +570,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="112" column="79" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="112" declcolumn="79"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="115" column="79" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="115" declcolumn="79"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1af3e3291d977835b73c73cda587de059f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref></type>
@@ -587,7 +587,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="116" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="116" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="119" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="119" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1a98782ccd127b65d9a065a7a119d32568" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__Box2f" kindref="compound">MR_Box2f</ref></type>
@@ -605,7 +605,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="121" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="121" declcolumn="18"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="124" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="124" declcolumn="18"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1a5ddb2366679dc315943dfba24d44c03b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API MR_uint64_t</type>
@@ -623,7 +623,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="126" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="126" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="129" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="129" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1aa36d0cefe1a7a3028b2bf025d2c24d90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API MR_uint64_t</type>
@@ -641,7 +641,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="131" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="131" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="134" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="134" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1a1de9f44c6554250e05d42d99d12a2da5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
@@ -663,7 +663,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="137" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="137" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="140" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="140" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1a97726ed708aab31fc3dd227204c01be8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref> *</type>
@@ -685,7 +685,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="143" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="143" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="146" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="146" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1aeb323f1fd33975467932a7996f3bce88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAABBTree_8h_1aa94c1c7260ea012c8bea78aa4477d504" kindref="member">MR_NodeBitSet</ref> *</type>
@@ -707,7 +707,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="150" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="150" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="153" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="153" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1aa0aade174d4cec17e41e424b7aa10a58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -729,7 +729,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="157" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="157" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="160" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="160" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1a58493c34d71d6b122e15d233506d752a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -751,7 +751,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="164" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="164" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="167" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="167" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1afef6dad41944a72efc3cf35146a86857" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref> *</type>
@@ -768,7 +768,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="168" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="168" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="171" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="171" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1afea11ac10db75e42893215668711c38c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref> *</type>
@@ -786,7 +786,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="173" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="173" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="176" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="176" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1af20958bd35e0b87f4942257f3ce21340" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref> *</type>
@@ -808,7 +808,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="177" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="177" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="180" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="180" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1a7c04bb9eef75d81ed62a54e269904383" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref> *</type>
@@ -830,7 +830,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="181" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="181" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="184" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="184" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1adf54ec685c61d712b06049967e11cfce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRAABBTreeBase_8h_1a25975622001d1edc1fd3d4aca243269b" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f</ref> *</type>
@@ -844,11 +844,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Upcasts an instance of <computeroutput>MR::AABBTreePolyline3</computeroutput> to its base class <computeroutput>MR::AABBTreeBase&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, MR::Box3f&gt;&gt;</computeroutput>. This version is acting on mutable pointers. </para>
+<para>Upcasts an instance of <computeroutput>MR::AABBTreePolyline3</computeroutput> to its base class <computeroutput>MR::AABBTreeBase&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, MR::Box3f&gt;&gt;</computeroutput>. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="185" column="79" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="185" declcolumn="79"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="189" column="79" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="189" declcolumn="79"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1a2f5959b128a9244eba0187fc31bcf599" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAABBTreeBase_8h_1a25975622001d1edc1fd3d4aca243269b" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f</ref> *</type>
@@ -860,13 +860,13 @@
           <declname>object</declname>
         </param>
         <briefdescription>
-<para>Upcasts an instance of <computeroutput>MR::AABBTreePolyline3</computeroutput> to its base class <computeroutput>MR::AABBTreeBase&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, MR::Box3f&gt;&gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
+<para>Upcasts an instance of <computeroutput>MR::AABBTreePolyline3</computeroutput> to its base class <computeroutput>MR::AABBTreeBase&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, MR::Box3f&gt;&gt;</computeroutput>. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="188" column="73" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="188" declcolumn="73"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="193" column="73" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="193" declcolumn="73"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1aea832e5083b46043e2e49f1be0f95bc6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref> *</type>
@@ -888,7 +888,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="193" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="193" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="198" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="198" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1a1178a6b560b23f0460a9cd1b4382329b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref> *</type>
@@ -906,7 +906,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="200" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="200" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="205" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="205" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1a5285d66f02391af3376e5a2e879fbe0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref> *</type>
@@ -928,7 +928,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="209" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="209" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="214" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="214" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1ae72a609ae4aac697f857c97850ace175" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -946,7 +946,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="212" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="212" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="217" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="217" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1a7f385e3a40eca633ea97f1cd6410809d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -964,7 +964,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="215" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="215" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="220" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="220" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1a55e1d7eb0ef12fe83cd7ba173f8cabcf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref> *</type>
@@ -986,11 +986,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::AABBTreePolyline3::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+<para>Generated from method <computeroutput>MR::AABBTreePolyline3::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved in the return value. When this function is called, this object will drop any object references it had previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="222" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="222" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="228" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="228" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1a8b6a3382646d6a8a2658f833fba9473a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRAABBTreeBase_8h_1a7174e310e545e9b2499f063938f851da" kindref="member">MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f_MR_NodeId</ref> *</type>
@@ -1008,7 +1008,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="228" column="99" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="228" declcolumn="99"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="234" column="99" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="234" declcolumn="99"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1a437668839fdd7cb33e3c4c68654ceb1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRAABBTreeBase_8h_1a1cb8cc2435ecbe49df7ed9dace5761db" kindref="member">MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f</ref> *</type>
@@ -1030,7 +1030,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="234" column="79" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="234" declcolumn="79"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="240" column="79" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="240" declcolumn="79"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1a57406e910ff09f8438e8f93647329327" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref></type>
@@ -1047,7 +1047,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="238" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="238" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="244" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="244" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1af43cd3491058900436936b94bb745345" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref></type>
@@ -1065,7 +1065,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="243" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="243" declcolumn="18"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="249" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="249" declcolumn="18"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1a91513132dcf6390eb784cda2e8a8ddbd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API MR_uint64_t</type>
@@ -1083,7 +1083,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="248" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="248" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="254" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="254" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1a14d3afcc0395133076f32c108b794c58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API MR_uint64_t</type>
@@ -1101,7 +1101,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="253" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="253" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="259" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="259" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1a5d1bae232db0750813af3f5a9422ca7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
@@ -1123,7 +1123,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="259" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="259" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="265" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="265" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1a11c2f15ed2105c3a6c8a0d3459994b7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref> *</type>
@@ -1145,7 +1145,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="265" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="265" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="271" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="271" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1ae5b41b84c099aef23fabde835c7a25e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAABBTree_8h_1aa94c1c7260ea012c8bea78aa4477d504" kindref="member">MR_NodeBitSet</ref> *</type>
@@ -1167,7 +1167,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="272" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="272" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="278" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="278" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1a2240b667b69df2b1f2a48aacea053d70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1189,7 +1189,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="279" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="279" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="285" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="285" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1a37895b6f06d93c24fa0252a66dbce813" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1211,7 +1211,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="286" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="286" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="292" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="292" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1aa3f24bac99499c76743fc9ad7cb84343" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAABBTreePolyline_8h_1af4b153ef206ffc2e23f4b7b4c5c66da0" kindref="member">MR_PolylineTraits_MR_Vector2f</ref> *</type>
@@ -1228,7 +1228,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="290" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="290" declcolumn="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="296" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="296" declcolumn="39"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1a53ef60f1379d59864f14238f30a302a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAABBTreePolyline_8h_1af4b153ef206ffc2e23f4b7b4c5c66da0" kindref="member">MR_PolylineTraits_MR_Vector2f</ref> *</type>
@@ -1246,7 +1246,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="295" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="295" declcolumn="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="301" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="301" declcolumn="39"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1a626417a6bf881b402113993317dcbdff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRAABBTreePolyline_8h_1af4b153ef206ffc2e23f4b7b4c5c66da0" kindref="member">MR_PolylineTraits_MR_Vector2f</ref> *</type>
@@ -1268,7 +1268,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="299" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="299" declcolumn="45"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="305" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="305" declcolumn="45"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1a5e37c7d5419a26242fbffdea2a24db58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAABBTreePolyline_8h_1af4b153ef206ffc2e23f4b7b4c5c66da0" kindref="member">MR_PolylineTraits_MR_Vector2f</ref> *</type>
@@ -1290,7 +1290,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="303" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="303" declcolumn="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="309" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="309" declcolumn="39"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1a0a315dc8888e7eec2d0dde9229ac9baf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAABBTreePolyline_8h_1af4b153ef206ffc2e23f4b7b4c5c66da0" kindref="member">MR_PolylineTraits_MR_Vector2f</ref> *</type>
@@ -1308,7 +1308,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="309" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="309" declcolumn="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="315" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="315" declcolumn="39"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1a605629b278ad9c0c5f703e3c696057b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1326,7 +1326,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="312" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="312" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="318" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="318" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1a98a17b11e6c6de7e78afe5e4e5e97d1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1344,7 +1344,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="315" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="315" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="321" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="321" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1a0d30afaeb007c0d6a26fddacf9f55344" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAABBTreePolyline_8h_1af4b153ef206ffc2e23f4b7b4c5c66da0" kindref="member">MR_PolylineTraits_MR_Vector2f</ref> *</type>
@@ -1366,7 +1366,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="323" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="323" declcolumn="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="329" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="329" declcolumn="39"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1a593c0e4203199f5858e7b230e3e3324a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAABBTreePolyline_8h_1abcc8b8fa9771774790e902638f5d95f9" kindref="member">MR_PolylineTraits_MR_Vector3f</ref> *</type>
@@ -1383,7 +1383,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="327" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="327" declcolumn="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="333" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="333" declcolumn="39"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1aaed7c3563438e65cd9ffd00827fe8cc8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAABBTreePolyline_8h_1abcc8b8fa9771774790e902638f5d95f9" kindref="member">MR_PolylineTraits_MR_Vector3f</ref> *</type>
@@ -1401,7 +1401,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="332" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="332" declcolumn="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="338" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="338" declcolumn="39"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1afc0bed02c346e5c4fd5fe215b4458bdc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRAABBTreePolyline_8h_1abcc8b8fa9771774790e902638f5d95f9" kindref="member">MR_PolylineTraits_MR_Vector3f</ref> *</type>
@@ -1423,7 +1423,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="336" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="336" declcolumn="45"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="342" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="342" declcolumn="45"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1a61c4243a77b5f6bf788cb7f3dbd6e02b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAABBTreePolyline_8h_1abcc8b8fa9771774790e902638f5d95f9" kindref="member">MR_PolylineTraits_MR_Vector3f</ref> *</type>
@@ -1445,7 +1445,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="340" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="340" declcolumn="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="346" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="346" declcolumn="39"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1a669c903d372c74dab6fbb0877cd21f96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAABBTreePolyline_8h_1abcc8b8fa9771774790e902638f5d95f9" kindref="member">MR_PolylineTraits_MR_Vector3f</ref> *</type>
@@ -1463,7 +1463,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="346" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="346" declcolumn="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="352" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="352" declcolumn="39"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1a9f69eb66a7a6c9d4a6d9ccd879048fe0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1481,7 +1481,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="349" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="349" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="355" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="355" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1a1f575cd372197b3d4c8f193dd2371450" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1499,7 +1499,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="352" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="352" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="358" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="358" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRAABBTreePolyline_8h_1a44b4c225920131b49349ce9bcc3d8b6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAABBTreePolyline_8h_1abcc8b8fa9771774790e902638f5d95f9" kindref="member">MR_PolylineTraits_MR_Vector3f</ref> *</type>
@@ -1521,7 +1521,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="360" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="360" declcolumn="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" line="366" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h" declline="366" declcolumn="39"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1573,123 +1573,123 @@
 <codeline lineno="65"><highlight class="normal"></highlight></codeline>
 <codeline lineno="68" refid="MRAABBTreePolyline_8h_1a920956e7e7281f99a8c59d9f16915e96" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreeBase_8h_1a5f0e38192b30270d8c975b9462a211ad" kindref="member">MR_AABBTreePolyline2</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1a920956e7e7281f99a8c59d9f16915e96" kindref="member">MR_AABBTreePolyline2_OffsetMutablePtr</ref>(<ref refid="MRAABBTreeBase_8h_1a5f0e38192b30270d8c975b9462a211ad" kindref="member">MR_AABBTreePolyline2</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"></highlight></codeline>
-<codeline lineno="72" refid="MRAABBTreePolyline_8h_1a04f408c25fbec30e6e6ee48c9d67e14a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1aee11904796ea0dc43e0be16229b1cd48" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1a04f408c25fbec30e6e6ee48c9d67e14a" kindref="member">MR_AABBTreePolyline2_UpcastTo_MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1a5f0e38192b30270d8c975b9462a211ad" kindref="member">MR_AABBTreePolyline2</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="73"><highlight class="normal"></highlight></codeline>
-<codeline lineno="75" refid="MRAABBTreePolyline_8h_1aec67c9259fd537ca3d03b66beae87a46" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreeBase_8h_1aee11904796ea0dc43e0be16229b1cd48" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1aec67c9259fd537ca3d03b66beae87a46" kindref="member">MR_AABBTreePolyline2_MutableUpcastTo_MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f</ref>(<ref refid="MRAABBTreeBase_8h_1a5f0e38192b30270d8c975b9462a211ad" kindref="member">MR_AABBTreePolyline2</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="76"><highlight class="normal"></highlight></codeline>
-<codeline lineno="80" refid="MRAABBTreePolyline_8h_1af9638e4e73d130e0f761670512b0c6d7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreeBase_8h_1a5f0e38192b30270d8c975b9462a211ad" kindref="member">MR_AABBTreePolyline2</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1af9638e4e73d130e0f761670512b0c6d7" kindref="member">MR_AABBTreePolyline2_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRAABBTreeBase_8h_1a5f0e38192b30270d8c975b9462a211ad" kindref="member">MR_AABBTreePolyline2</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="81"><highlight class="normal"></highlight></codeline>
-<codeline lineno="87" refid="MRAABBTreePolyline_8h_1af3e3f6ec8aa54c448dc0d342fb27f12d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreeBase_8h_1a5f0e38192b30270d8c975b9462a211ad" kindref="member">MR_AABBTreePolyline2</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1af3e3f6ec8aa54c448dc0d342fb27f12d" kindref="member">MR_AABBTreePolyline2_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/>*polyline);</highlight></codeline>
-<codeline lineno="88"><highlight class="normal"></highlight></codeline>
-<codeline lineno="90" refid="MRAABBTreePolyline_8h_1a9d2552bc208ac78dba907d237beae6a1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1a9d2552bc208ac78dba907d237beae6a1" kindref="member">MR_AABBTreePolyline2_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1a5f0e38192b30270d8c975b9462a211ad" kindref="member">MR_AABBTreePolyline2</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="91"><highlight class="normal"></highlight></codeline>
-<codeline lineno="93" refid="MRAABBTreePolyline_8h_1a6ad7b66607fa940241bd74fc7aed27cd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1a6ad7b66607fa940241bd74fc7aed27cd" kindref="member">MR_AABBTreePolyline2_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1a5f0e38192b30270d8c975b9462a211ad" kindref="member">MR_AABBTreePolyline2</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="94"><highlight class="normal"></highlight></codeline>
-<codeline lineno="100" refid="MRAABBTreePolyline_8h_1a6848c61da509ef40ab22f5be754cde90" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreeBase_8h_1a5f0e38192b30270d8c975b9462a211ad" kindref="member">MR_AABBTreePolyline2</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1a6848c61da509ef40ab22f5be754cde90" kindref="member">MR_AABBTreePolyline2_AssignFromAnother</ref>(<ref refid="MRAABBTreeBase_8h_1a5f0e38192b30270d8c975b9462a211ad" kindref="member">MR_AABBTreePolyline2</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRAABBTreeBase_8h_1a5f0e38192b30270d8c975b9462a211ad" kindref="member">MR_AABBTreePolyline2</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="101"><highlight class="normal"></highlight></codeline>
-<codeline lineno="106" refid="MRAABBTreePolyline_8h_1aa25b07e28fc20c74a6f5aa7a210a32f4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ac67c193eba269f6914d84f59c992064e" kindref="member">MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f_MR_NodeId</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1aa25b07e28fc20c74a6f5aa7a210a32f4" kindref="member">MR_AABBTreePolyline2_nodes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1a5f0e38192b30270d8c975b9462a211ad" kindref="member">MR_AABBTreePolyline2</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="107"><highlight class="normal"></highlight></codeline>
-<codeline lineno="112" refid="MRAABBTreePolyline_8h_1a01ea1d298bcc53a0838fd45e5494a840" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1a0e5a9ac5fb6e86041914df4b0ececb57" kindref="member">MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1a01ea1d298bcc53a0838fd45e5494a840" kindref="member">MR_AABBTreePolyline2_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1a5f0e38192b30270d8c975b9462a211ad" kindref="member">MR_AABBTreePolyline2</ref><sp/>*_this,<sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/>nid);</highlight></codeline>
-<codeline lineno="113"><highlight class="normal"></highlight></codeline>
-<codeline lineno="116" refid="MRAABBTreePolyline_8h_1af3e3291d977835b73c73cda587de059f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/><ref refid="MRAABBTreePolyline_8h_1af3e3291d977835b73c73cda587de059f" kindref="member">MR_AABBTreePolyline2_rootNodeId</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="117"><highlight class="normal"></highlight></codeline>
-<codeline lineno="121" refid="MRAABBTreePolyline_8h_1a98782ccd127b65d9a065a7a119d32568" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Box2f" kindref="compound">MR_Box2f</ref><sp/><ref refid="MRAABBTreePolyline_8h_1a98782ccd127b65d9a065a7a119d32568" kindref="member">MR_AABBTreePolyline2_getBoundingBox</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1a5f0e38192b30270d8c975b9462a211ad" kindref="member">MR_AABBTreePolyline2</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="122"><highlight class="normal"></highlight></codeline>
-<codeline lineno="126" refid="MRAABBTreePolyline_8h_1a5ddb2366679dc315943dfba24d44c03b" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRAABBTreePolyline_8h_1a5ddb2366679dc315943dfba24d44c03b" kindref="member">MR_AABBTreePolyline2_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1a5f0e38192b30270d8c975b9462a211ad" kindref="member">MR_AABBTreePolyline2</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="127"><highlight class="normal"></highlight></codeline>
-<codeline lineno="131" refid="MRAABBTreePolyline_8h_1aa36d0cefe1a7a3028b2bf025d2c24d90" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRAABBTreePolyline_8h_1aa36d0cefe1a7a3028b2bf025d2c24d90" kindref="member">MR_AABBTreePolyline2_numLeaves</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1a5f0e38192b30270d8c975b9462a211ad" kindref="member">MR_AABBTreePolyline2</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="132"><highlight class="normal"></highlight></codeline>
-<codeline lineno="137" refid="MRAABBTreePolyline_8h_1a1de9f44c6554250e05d42d99d12a2da5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1a1de9f44c6554250e05d42d99d12a2da5" kindref="member">MR_AABBTreePolyline2_getSubtrees</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1a5f0e38192b30270d8c975b9462a211ad" kindref="member">MR_AABBTreePolyline2</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>minNum);</highlight></codeline>
-<codeline lineno="138"><highlight class="normal"></highlight></codeline>
-<codeline lineno="143" refid="MRAABBTreePolyline_8h_1a97726ed708aab31fc3dd227204c01be8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1a97726ed708aab31fc3dd227204c01be8" kindref="member">MR_AABBTreePolyline2_getSubtreeLeaves</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1a5f0e38192b30270d8c975b9462a211ad" kindref="member">MR_AABBTreePolyline2</ref><sp/>*_this,<sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/>subtreeRoot);</highlight></codeline>
-<codeline lineno="144"><highlight class="normal"></highlight></codeline>
-<codeline lineno="150" refid="MRAABBTreePolyline_8h_1aeb323f1fd33975467932a7996f3bce88" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1aa94c1c7260ea012c8bea78aa4477d504" kindref="member">MR_NodeBitSet</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1aeb323f1fd33975467932a7996f3bce88" kindref="member">MR_AABBTreePolyline2_getNodesFromLeaves</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1a5f0e38192b30270d8c975b9462a211ad" kindref="member">MR_AABBTreePolyline2</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*leaves);</highlight></codeline>
-<codeline lineno="151"><highlight class="normal"></highlight></codeline>
-<codeline lineno="157" refid="MRAABBTreePolyline_8h_1aa0aade174d4cec17e41e424b7aa10a58" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1aa0aade174d4cec17e41e424b7aa10a58" kindref="member">MR_AABBTreePolyline2_getLeafOrder</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1a5f0e38192b30270d8c975b9462a211ad" kindref="member">MR_AABBTreePolyline2</ref><sp/>*_this,<sp/><ref refid="MRAABBTreeBase_8h_1aa00ac70d4ed56bb62fbf2000eff1a5bf" kindref="member">MR_UndirectedEdgeBMap</ref><sp/>*leafMap);</highlight></codeline>
-<codeline lineno="158"><highlight class="normal"></highlight></codeline>
-<codeline lineno="164" refid="MRAABBTreePolyline_8h_1a58493c34d71d6b122e15d233506d752a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1a58493c34d71d6b122e15d233506d752a" kindref="member">MR_AABBTreePolyline2_getLeafOrderAndReset</ref>(<ref refid="MRAABBTreeBase_8h_1a5f0e38192b30270d8c975b9462a211ad" kindref="member">MR_AABBTreePolyline2</ref><sp/>*_this,<sp/><ref refid="MRAABBTreeBase_8h_1aa00ac70d4ed56bb62fbf2000eff1a5bf" kindref="member">MR_UndirectedEdgeBMap</ref><sp/>*leafMap);</highlight></codeline>
-<codeline lineno="165"><highlight class="normal"></highlight></codeline>
-<codeline lineno="168" refid="MRAABBTreePolyline_8h_1afef6dad41944a72efc3cf35146a86857" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1afef6dad41944a72efc3cf35146a86857" kindref="member">MR_AABBTreePolyline3_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="169"><highlight class="normal"></highlight></codeline>
-<codeline lineno="173" refid="MRAABBTreePolyline_8h_1afea11ac10db75e42893215668711c38c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1afea11ac10db75e42893215668711c38c" kindref="member">MR_AABBTreePolyline3_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="174"><highlight class="normal"></highlight></codeline>
-<codeline lineno="177" refid="MRAABBTreePolyline_8h_1af20958bd35e0b87f4942257f3ce21340" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1af20958bd35e0b87f4942257f3ce21340" kindref="member">MR_AABBTreePolyline3_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="178"><highlight class="normal"></highlight></codeline>
-<codeline lineno="181" refid="MRAABBTreePolyline_8h_1a7c04bb9eef75d81ed62a54e269904383" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1a7c04bb9eef75d81ed62a54e269904383" kindref="member">MR_AABBTreePolyline3_OffsetMutablePtr</ref>(<ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="182"><highlight class="normal"></highlight></codeline>
-<codeline lineno="185" refid="MRAABBTreePolyline_8h_1adf54ec685c61d712b06049967e11cfce" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1a25975622001d1edc1fd3d4aca243269b" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1adf54ec685c61d712b06049967e11cfce" kindref="member">MR_AABBTreePolyline3_UpcastTo_MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="186"><highlight class="normal"></highlight></codeline>
-<codeline lineno="188" refid="MRAABBTreePolyline_8h_1a2f5959b128a9244eba0187fc31bcf599" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreeBase_8h_1a25975622001d1edc1fd3d4aca243269b" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1a2f5959b128a9244eba0187fc31bcf599" kindref="member">MR_AABBTreePolyline3_MutableUpcastTo_MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f</ref>(<ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="189"><highlight class="normal"></highlight></codeline>
-<codeline lineno="193" refid="MRAABBTreePolyline_8h_1aea832e5083b46043e2e49f1be0f95bc6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1aea832e5083b46043e2e49f1be0f95bc6" kindref="member">MR_AABBTreePolyline3_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="73" refid="MRAABBTreePolyline_8h_1a04f408c25fbec30e6e6ee48c9d67e14a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1aee11904796ea0dc43e0be16229b1cd48" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1a04f408c25fbec30e6e6ee48c9d67e14a" kindref="member">MR_AABBTreePolyline2_UpcastTo_MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1a5f0e38192b30270d8c975b9462a211ad" kindref="member">MR_AABBTreePolyline2</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="MRAABBTreePolyline_8h_1aec67c9259fd537ca3d03b66beae87a46" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreeBase_8h_1aee11904796ea0dc43e0be16229b1cd48" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1aec67c9259fd537ca3d03b66beae87a46" kindref="member">MR_AABBTreePolyline2_MutableUpcastTo_MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f</ref>(<ref refid="MRAABBTreeBase_8h_1a5f0e38192b30270d8c975b9462a211ad" kindref="member">MR_AABBTreePolyline2</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="MRAABBTreePolyline_8h_1af9638e4e73d130e0f761670512b0c6d7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreeBase_8h_1a5f0e38192b30270d8c975b9462a211ad" kindref="member">MR_AABBTreePolyline2</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1af9638e4e73d130e0f761670512b0c6d7" kindref="member">MR_AABBTreePolyline2_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRAABBTreeBase_8h_1a5f0e38192b30270d8c975b9462a211ad" kindref="member">MR_AABBTreePolyline2</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="MRAABBTreePolyline_8h_1af3e3f6ec8aa54c448dc0d342fb27f12d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreeBase_8h_1a5f0e38192b30270d8c975b9462a211ad" kindref="member">MR_AABBTreePolyline2</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1af3e3f6ec8aa54c448dc0d342fb27f12d" kindref="member">MR_AABBTreePolyline2_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/>*polyline);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92" refid="MRAABBTreePolyline_8h_1a9d2552bc208ac78dba907d237beae6a1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1a9d2552bc208ac78dba907d237beae6a1" kindref="member">MR_AABBTreePolyline2_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1a5f0e38192b30270d8c975b9462a211ad" kindref="member">MR_AABBTreePolyline2</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="MRAABBTreePolyline_8h_1a6ad7b66607fa940241bd74fc7aed27cd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1a6ad7b66607fa940241bd74fc7aed27cd" kindref="member">MR_AABBTreePolyline2_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1a5f0e38192b30270d8c975b9462a211ad" kindref="member">MR_AABBTreePolyline2</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="MRAABBTreePolyline_8h_1a6848c61da509ef40ab22f5be754cde90" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreeBase_8h_1a5f0e38192b30270d8c975b9462a211ad" kindref="member">MR_AABBTreePolyline2</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1a6848c61da509ef40ab22f5be754cde90" kindref="member">MR_AABBTreePolyline2_AssignFromAnother</ref>(<ref refid="MRAABBTreeBase_8h_1a5f0e38192b30270d8c975b9462a211ad" kindref="member">MR_AABBTreePolyline2</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRAABBTreeBase_8h_1a5f0e38192b30270d8c975b9462a211ad" kindref="member">MR_AABBTreePolyline2</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109" refid="MRAABBTreePolyline_8h_1aa25b07e28fc20c74a6f5aa7a210a32f4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ac67c193eba269f6914d84f59c992064e" kindref="member">MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f_MR_NodeId</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1aa25b07e28fc20c74a6f5aa7a210a32f4" kindref="member">MR_AABBTreePolyline2_nodes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1a5f0e38192b30270d8c975b9462a211ad" kindref="member">MR_AABBTreePolyline2</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115" refid="MRAABBTreePolyline_8h_1a01ea1d298bcc53a0838fd45e5494a840" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1a0e5a9ac5fb6e86041914df4b0ececb57" kindref="member">MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1a01ea1d298bcc53a0838fd45e5494a840" kindref="member">MR_AABBTreePolyline2_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1a5f0e38192b30270d8c975b9462a211ad" kindref="member">MR_AABBTreePolyline2</ref><sp/>*_this,<sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/>nid);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119" refid="MRAABBTreePolyline_8h_1af3e3291d977835b73c73cda587de059f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/><ref refid="MRAABBTreePolyline_8h_1af3e3291d977835b73c73cda587de059f" kindref="member">MR_AABBTreePolyline2_rootNodeId</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="MRAABBTreePolyline_8h_1a98782ccd127b65d9a065a7a119d32568" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Box2f" kindref="compound">MR_Box2f</ref><sp/><ref refid="MRAABBTreePolyline_8h_1a98782ccd127b65d9a065a7a119d32568" kindref="member">MR_AABBTreePolyline2_getBoundingBox</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1a5f0e38192b30270d8c975b9462a211ad" kindref="member">MR_AABBTreePolyline2</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129" refid="MRAABBTreePolyline_8h_1a5ddb2366679dc315943dfba24d44c03b" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRAABBTreePolyline_8h_1a5ddb2366679dc315943dfba24d44c03b" kindref="member">MR_AABBTreePolyline2_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1a5f0e38192b30270d8c975b9462a211ad" kindref="member">MR_AABBTreePolyline2</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134" refid="MRAABBTreePolyline_8h_1aa36d0cefe1a7a3028b2bf025d2c24d90" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRAABBTreePolyline_8h_1aa36d0cefe1a7a3028b2bf025d2c24d90" kindref="member">MR_AABBTreePolyline2_numLeaves</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1a5f0e38192b30270d8c975b9462a211ad" kindref="member">MR_AABBTreePolyline2</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140" refid="MRAABBTreePolyline_8h_1a1de9f44c6554250e05d42d99d12a2da5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1a1de9f44c6554250e05d42d99d12a2da5" kindref="member">MR_AABBTreePolyline2_getSubtrees</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1a5f0e38192b30270d8c975b9462a211ad" kindref="member">MR_AABBTreePolyline2</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>minNum);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146" refid="MRAABBTreePolyline_8h_1a97726ed708aab31fc3dd227204c01be8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1a97726ed708aab31fc3dd227204c01be8" kindref="member">MR_AABBTreePolyline2_getSubtreeLeaves</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1a5f0e38192b30270d8c975b9462a211ad" kindref="member">MR_AABBTreePolyline2</ref><sp/>*_this,<sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/>subtreeRoot);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153" refid="MRAABBTreePolyline_8h_1aeb323f1fd33975467932a7996f3bce88" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1aa94c1c7260ea012c8bea78aa4477d504" kindref="member">MR_NodeBitSet</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1aeb323f1fd33975467932a7996f3bce88" kindref="member">MR_AABBTreePolyline2_getNodesFromLeaves</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1a5f0e38192b30270d8c975b9462a211ad" kindref="member">MR_AABBTreePolyline2</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*leaves);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160" refid="MRAABBTreePolyline_8h_1aa0aade174d4cec17e41e424b7aa10a58" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1aa0aade174d4cec17e41e424b7aa10a58" kindref="member">MR_AABBTreePolyline2_getLeafOrder</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1a5f0e38192b30270d8c975b9462a211ad" kindref="member">MR_AABBTreePolyline2</ref><sp/>*_this,<sp/><ref refid="MRAABBTreeBase_8h_1aa00ac70d4ed56bb62fbf2000eff1a5bf" kindref="member">MR_UndirectedEdgeBMap</ref><sp/>*leafMap);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167" refid="MRAABBTreePolyline_8h_1a58493c34d71d6b122e15d233506d752a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1a58493c34d71d6b122e15d233506d752a" kindref="member">MR_AABBTreePolyline2_getLeafOrderAndReset</ref>(<ref refid="MRAABBTreeBase_8h_1a5f0e38192b30270d8c975b9462a211ad" kindref="member">MR_AABBTreePolyline2</ref><sp/>*_this,<sp/><ref refid="MRAABBTreeBase_8h_1aa00ac70d4ed56bb62fbf2000eff1a5bf" kindref="member">MR_UndirectedEdgeBMap</ref><sp/>*leafMap);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171" refid="MRAABBTreePolyline_8h_1afef6dad41944a72efc3cf35146a86857" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1afef6dad41944a72efc3cf35146a86857" kindref="member">MR_AABBTreePolyline3_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176" refid="MRAABBTreePolyline_8h_1afea11ac10db75e42893215668711c38c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1afea11ac10db75e42893215668711c38c" kindref="member">MR_AABBTreePolyline3_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180" refid="MRAABBTreePolyline_8h_1af20958bd35e0b87f4942257f3ce21340" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1af20958bd35e0b87f4942257f3ce21340" kindref="member">MR_AABBTreePolyline3_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184" refid="MRAABBTreePolyline_8h_1a7c04bb9eef75d81ed62a54e269904383" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1a7c04bb9eef75d81ed62a54e269904383" kindref="member">MR_AABBTreePolyline3_OffsetMutablePtr</ref>(<ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189" refid="MRAABBTreePolyline_8h_1adf54ec685c61d712b06049967e11cfce" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1a25975622001d1edc1fd3d4aca243269b" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1adf54ec685c61d712b06049967e11cfce" kindref="member">MR_AABBTreePolyline3_UpcastTo_MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193" refid="MRAABBTreePolyline_8h_1a2f5959b128a9244eba0187fc31bcf599" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreeBase_8h_1a25975622001d1edc1fd3d4aca243269b" kindref="member">MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1a2f5959b128a9244eba0187fc31bcf599" kindref="member">MR_AABBTreePolyline3_MutableUpcastTo_MR_AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f</ref>(<ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="194"><highlight class="normal"></highlight></codeline>
-<codeline lineno="200" refid="MRAABBTreePolyline_8h_1a1178a6b560b23f0460a9cd1b4382329b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1a1178a6b560b23f0460a9cd1b4382329b" kindref="member">MR_AABBTreePolyline3_Construct_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/>*polyline);</highlight></codeline>
-<codeline lineno="201"><highlight class="normal"></highlight></codeline>
-<codeline lineno="209" refid="MRAABBTreePolyline_8h_1a5285d66f02391af3376e5a2e879fbe0b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1a5285d66f02391af3376e5a2e879fbe0b" kindref="member">MR_AABBTreePolyline3_Construct_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*edgeSet);</highlight></codeline>
-<codeline lineno="210"><highlight class="normal"></highlight></codeline>
-<codeline lineno="212" refid="MRAABBTreePolyline_8h_1ae72a609ae4aac697f857c97850ace175" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1ae72a609ae4aac697f857c97850ace175" kindref="member">MR_AABBTreePolyline3_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="213"><highlight class="normal"></highlight></codeline>
-<codeline lineno="215" refid="MRAABBTreePolyline_8h_1a7f385e3a40eca633ea97f1cd6410809d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1a7f385e3a40eca633ea97f1cd6410809d" kindref="member">MR_AABBTreePolyline3_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="216"><highlight class="normal"></highlight></codeline>
-<codeline lineno="222" refid="MRAABBTreePolyline_8h_1a55e1d7eb0ef12fe83cd7ba173f8cabcf" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1a55e1d7eb0ef12fe83cd7ba173f8cabcf" kindref="member">MR_AABBTreePolyline3_AssignFromAnother</ref>(<ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="223"><highlight class="normal"></highlight></codeline>
-<codeline lineno="228" refid="MRAABBTreePolyline_8h_1a8b6a3382646d6a8a2658f833fba9473a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1a7174e310e545e9b2499f063938f851da" kindref="member">MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f_MR_NodeId</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1a8b6a3382646d6a8a2658f833fba9473a" kindref="member">MR_AABBTreePolyline3_nodes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="198" refid="MRAABBTreePolyline_8h_1aea832e5083b46043e2e49f1be0f95bc6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1aea832e5083b46043e2e49f1be0f95bc6" kindref="member">MR_AABBTreePolyline3_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205" refid="MRAABBTreePolyline_8h_1a1178a6b560b23f0460a9cd1b4382329b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1a1178a6b560b23f0460a9cd1b4382329b" kindref="member">MR_AABBTreePolyline3_Construct_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/>*polyline);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214" refid="MRAABBTreePolyline_8h_1a5285d66f02391af3376e5a2e879fbe0b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1a5285d66f02391af3376e5a2e879fbe0b" kindref="member">MR_AABBTreePolyline3_Construct_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*edgeSet);</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217" refid="MRAABBTreePolyline_8h_1ae72a609ae4aac697f857c97850ace175" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1ae72a609ae4aac697f857c97850ace175" kindref="member">MR_AABBTreePolyline3_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220" refid="MRAABBTreePolyline_8h_1a7f385e3a40eca633ea97f1cd6410809d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1a7f385e3a40eca633ea97f1cd6410809d" kindref="member">MR_AABBTreePolyline3_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="228" refid="MRAABBTreePolyline_8h_1a55e1d7eb0ef12fe83cd7ba173f8cabcf" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1a55e1d7eb0ef12fe83cd7ba173f8cabcf" kindref="member">MR_AABBTreePolyline3_AssignFromAnother</ref>(<ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="229"><highlight class="normal"></highlight></codeline>
-<codeline lineno="234" refid="MRAABBTreePolyline_8h_1a437668839fdd7cb33e3c4c68654ceb1b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1a1cb8cc2435ecbe49df7ed9dace5761db" kindref="member">MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1a437668839fdd7cb33e3c4c68654ceb1b" kindref="member">MR_AABBTreePolyline3_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*_this,<sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/>nid);</highlight></codeline>
+<codeline lineno="234" refid="MRAABBTreePolyline_8h_1a8b6a3382646d6a8a2658f833fba9473a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1a7174e310e545e9b2499f063938f851da" kindref="member">MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f_MR_NodeId</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1a8b6a3382646d6a8a2658f833fba9473a" kindref="member">MR_AABBTreePolyline3_nodes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="235"><highlight class="normal"></highlight></codeline>
-<codeline lineno="238" refid="MRAABBTreePolyline_8h_1a57406e910ff09f8438e8f93647329327" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/><ref refid="MRAABBTreePolyline_8h_1a57406e910ff09f8438e8f93647329327" kindref="member">MR_AABBTreePolyline3_rootNodeId</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="239"><highlight class="normal"></highlight></codeline>
-<codeline lineno="243" refid="MRAABBTreePolyline_8h_1af43cd3491058900436936b94bb745345" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/><ref refid="MRAABBTreePolyline_8h_1af43cd3491058900436936b94bb745345" kindref="member">MR_AABBTreePolyline3_getBoundingBox</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="244"><highlight class="normal"></highlight></codeline>
-<codeline lineno="248" refid="MRAABBTreePolyline_8h_1a91513132dcf6390eb784cda2e8a8ddbd" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRAABBTreePolyline_8h_1a91513132dcf6390eb784cda2e8a8ddbd" kindref="member">MR_AABBTreePolyline3_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="249"><highlight class="normal"></highlight></codeline>
-<codeline lineno="253" refid="MRAABBTreePolyline_8h_1a14d3afcc0395133076f32c108b794c58" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRAABBTreePolyline_8h_1a14d3afcc0395133076f32c108b794c58" kindref="member">MR_AABBTreePolyline3_numLeaves</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="254"><highlight class="normal"></highlight></codeline>
-<codeline lineno="259" refid="MRAABBTreePolyline_8h_1a5d1bae232db0750813af3f5a9422ca7a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1a5d1bae232db0750813af3f5a9422ca7a" kindref="member">MR_AABBTreePolyline3_getSubtrees</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>minNum);</highlight></codeline>
+<codeline lineno="240" refid="MRAABBTreePolyline_8h_1a437668839fdd7cb33e3c4c68654ceb1b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1a1cb8cc2435ecbe49df7ed9dace5761db" kindref="member">MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1a437668839fdd7cb33e3c4c68654ceb1b" kindref="member">MR_AABBTreePolyline3_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*_this,<sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/>nid);</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244" refid="MRAABBTreePolyline_8h_1a57406e910ff09f8438e8f93647329327" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/><ref refid="MRAABBTreePolyline_8h_1a57406e910ff09f8438e8f93647329327" kindref="member">MR_AABBTreePolyline3_rootNodeId</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"></highlight></codeline>
+<codeline lineno="249" refid="MRAABBTreePolyline_8h_1af43cd3491058900436936b94bb745345" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/><ref refid="MRAABBTreePolyline_8h_1af43cd3491058900436936b94bb745345" kindref="member">MR_AABBTreePolyline3_getBoundingBox</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254" refid="MRAABBTreePolyline_8h_1a91513132dcf6390eb784cda2e8a8ddbd" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRAABBTreePolyline_8h_1a91513132dcf6390eb784cda2e8a8ddbd" kindref="member">MR_AABBTreePolyline3_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="259" refid="MRAABBTreePolyline_8h_1a14d3afcc0395133076f32c108b794c58" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRAABBTreePolyline_8h_1a14d3afcc0395133076f32c108b794c58" kindref="member">MR_AABBTreePolyline3_numLeaves</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="260"><highlight class="normal"></highlight></codeline>
-<codeline lineno="265" refid="MRAABBTreePolyline_8h_1a11c2f15ed2105c3a6c8a0d3459994b7a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1a11c2f15ed2105c3a6c8a0d3459994b7a" kindref="member">MR_AABBTreePolyline3_getSubtreeLeaves</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*_this,<sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/>subtreeRoot);</highlight></codeline>
+<codeline lineno="265" refid="MRAABBTreePolyline_8h_1a5d1bae232db0750813af3f5a9422ca7a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1a5d1bae232db0750813af3f5a9422ca7a" kindref="member">MR_AABBTreePolyline3_getSubtrees</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>minNum);</highlight></codeline>
 <codeline lineno="266"><highlight class="normal"></highlight></codeline>
-<codeline lineno="272" refid="MRAABBTreePolyline_8h_1ae5b41b84c099aef23fabde835c7a25e0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1aa94c1c7260ea012c8bea78aa4477d504" kindref="member">MR_NodeBitSet</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1ae5b41b84c099aef23fabde835c7a25e0" kindref="member">MR_AABBTreePolyline3_getNodesFromLeaves</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*leaves);</highlight></codeline>
-<codeline lineno="273"><highlight class="normal"></highlight></codeline>
-<codeline lineno="279" refid="MRAABBTreePolyline_8h_1a2240b667b69df2b1f2a48aacea053d70" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1a2240b667b69df2b1f2a48aacea053d70" kindref="member">MR_AABBTreePolyline3_getLeafOrder</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*_this,<sp/><ref refid="MRAABBTreeBase_8h_1aa00ac70d4ed56bb62fbf2000eff1a5bf" kindref="member">MR_UndirectedEdgeBMap</ref><sp/>*leafMap);</highlight></codeline>
-<codeline lineno="280"><highlight class="normal"></highlight></codeline>
-<codeline lineno="286" refid="MRAABBTreePolyline_8h_1a37895b6f06d93c24fa0252a66dbce813" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1a37895b6f06d93c24fa0252a66dbce813" kindref="member">MR_AABBTreePolyline3_getLeafOrderAndReset</ref>(<ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*_this,<sp/><ref refid="MRAABBTreeBase_8h_1aa00ac70d4ed56bb62fbf2000eff1a5bf" kindref="member">MR_UndirectedEdgeBMap</ref><sp/>*leafMap);</highlight></codeline>
-<codeline lineno="287"><highlight class="normal"></highlight></codeline>
-<codeline lineno="290" refid="MRAABBTreePolyline_8h_1aa3f24bac99499c76743fc9ad7cb84343" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePolyline_8h_1af4b153ef206ffc2e23f4b7b4c5c66da0" kindref="member">MR_PolylineTraits_MR_Vector2f</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1aa3f24bac99499c76743fc9ad7cb84343" kindref="member">MR_PolylineTraits_MR_Vector2f_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="291"><highlight class="normal"></highlight></codeline>
-<codeline lineno="295" refid="MRAABBTreePolyline_8h_1a53ef60f1379d59864f14238f30a302a0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePolyline_8h_1af4b153ef206ffc2e23f4b7b4c5c66da0" kindref="member">MR_PolylineTraits_MR_Vector2f</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1a53ef60f1379d59864f14238f30a302a0" kindref="member">MR_PolylineTraits_MR_Vector2f_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="296"><highlight class="normal"></highlight></codeline>
-<codeline lineno="299" refid="MRAABBTreePolyline_8h_1a626417a6bf881b402113993317dcbdff" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1af4b153ef206ffc2e23f4b7b4c5c66da0" kindref="member">MR_PolylineTraits_MR_Vector2f</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1a626417a6bf881b402113993317dcbdff" kindref="member">MR_PolylineTraits_MR_Vector2f_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1af4b153ef206ffc2e23f4b7b4c5c66da0" kindref="member">MR_PolylineTraits_MR_Vector2f</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="300"><highlight class="normal"></highlight></codeline>
-<codeline lineno="303" refid="MRAABBTreePolyline_8h_1a5e37c7d5419a26242fbffdea2a24db58" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePolyline_8h_1af4b153ef206ffc2e23f4b7b4c5c66da0" kindref="member">MR_PolylineTraits_MR_Vector2f</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1a5e37c7d5419a26242fbffdea2a24db58" kindref="member">MR_PolylineTraits_MR_Vector2f_OffsetMutablePtr</ref>(<ref refid="MRAABBTreePolyline_8h_1af4b153ef206ffc2e23f4b7b4c5c66da0" kindref="member">MR_PolylineTraits_MR_Vector2f</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="304"><highlight class="normal"></highlight></codeline>
-<codeline lineno="309" refid="MRAABBTreePolyline_8h_1a0a315dc8888e7eec2d0dde9229ac9baf" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePolyline_8h_1af4b153ef206ffc2e23f4b7b4c5c66da0" kindref="member">MR_PolylineTraits_MR_Vector2f</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1a0a315dc8888e7eec2d0dde9229ac9baf" kindref="member">MR_PolylineTraits_MR_Vector2f_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1af4b153ef206ffc2e23f4b7b4c5c66da0" kindref="member">MR_PolylineTraits_MR_Vector2f</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="271" refid="MRAABBTreePolyline_8h_1a11c2f15ed2105c3a6c8a0d3459994b7a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1a11c2f15ed2105c3a6c8a0d3459994b7a" kindref="member">MR_AABBTreePolyline3_getSubtreeLeaves</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*_this,<sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/>subtreeRoot);</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight></codeline>
+<codeline lineno="278" refid="MRAABBTreePolyline_8h_1ae5b41b84c099aef23fabde835c7a25e0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1aa94c1c7260ea012c8bea78aa4477d504" kindref="member">MR_NodeBitSet</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1ae5b41b84c099aef23fabde835c7a25e0" kindref="member">MR_AABBTreePolyline3_getNodesFromLeaves</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*leaves);</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"></highlight></codeline>
+<codeline lineno="285" refid="MRAABBTreePolyline_8h_1a2240b667b69df2b1f2a48aacea053d70" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1a2240b667b69df2b1f2a48aacea053d70" kindref="member">MR_AABBTreePolyline3_getLeafOrder</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*_this,<sp/><ref refid="MRAABBTreeBase_8h_1aa00ac70d4ed56bb62fbf2000eff1a5bf" kindref="member">MR_UndirectedEdgeBMap</ref><sp/>*leafMap);</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"></highlight></codeline>
+<codeline lineno="292" refid="MRAABBTreePolyline_8h_1a37895b6f06d93c24fa0252a66dbce813" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1a37895b6f06d93c24fa0252a66dbce813" kindref="member">MR_AABBTreePolyline3_getLeafOrderAndReset</ref>(<ref refid="MRAABBTreeBase_8h_1ab9fcbb5b8711152a24a59e1d55156ece" kindref="member">MR_AABBTreePolyline3</ref><sp/>*_this,<sp/><ref refid="MRAABBTreeBase_8h_1aa00ac70d4ed56bb62fbf2000eff1a5bf" kindref="member">MR_UndirectedEdgeBMap</ref><sp/>*leafMap);</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"></highlight></codeline>
+<codeline lineno="296" refid="MRAABBTreePolyline_8h_1aa3f24bac99499c76743fc9ad7cb84343" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePolyline_8h_1af4b153ef206ffc2e23f4b7b4c5c66da0" kindref="member">MR_PolylineTraits_MR_Vector2f</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1aa3f24bac99499c76743fc9ad7cb84343" kindref="member">MR_PolylineTraits_MR_Vector2f_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"></highlight></codeline>
+<codeline lineno="301" refid="MRAABBTreePolyline_8h_1a53ef60f1379d59864f14238f30a302a0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePolyline_8h_1af4b153ef206ffc2e23f4b7b4c5c66da0" kindref="member">MR_PolylineTraits_MR_Vector2f</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1a53ef60f1379d59864f14238f30a302a0" kindref="member">MR_PolylineTraits_MR_Vector2f_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"></highlight></codeline>
+<codeline lineno="305" refid="MRAABBTreePolyline_8h_1a626417a6bf881b402113993317dcbdff" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1af4b153ef206ffc2e23f4b7b4c5c66da0" kindref="member">MR_PolylineTraits_MR_Vector2f</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1a626417a6bf881b402113993317dcbdff" kindref="member">MR_PolylineTraits_MR_Vector2f_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1af4b153ef206ffc2e23f4b7b4c5c66da0" kindref="member">MR_PolylineTraits_MR_Vector2f</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"></highlight></codeline>
+<codeline lineno="309" refid="MRAABBTreePolyline_8h_1a5e37c7d5419a26242fbffdea2a24db58" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePolyline_8h_1af4b153ef206ffc2e23f4b7b4c5c66da0" kindref="member">MR_PolylineTraits_MR_Vector2f</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1a5e37c7d5419a26242fbffdea2a24db58" kindref="member">MR_PolylineTraits_MR_Vector2f_OffsetMutablePtr</ref>(<ref refid="MRAABBTreePolyline_8h_1af4b153ef206ffc2e23f4b7b4c5c66da0" kindref="member">MR_PolylineTraits_MR_Vector2f</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="310"><highlight class="normal"></highlight></codeline>
-<codeline lineno="312" refid="MRAABBTreePolyline_8h_1a605629b278ad9c0c5f703e3c696057b6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1a605629b278ad9c0c5f703e3c696057b6" kindref="member">MR_PolylineTraits_MR_Vector2f_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1af4b153ef206ffc2e23f4b7b4c5c66da0" kindref="member">MR_PolylineTraits_MR_Vector2f</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="313"><highlight class="normal"></highlight></codeline>
-<codeline lineno="315" refid="MRAABBTreePolyline_8h_1a98a17b11e6c6de7e78afe5e4e5e97d1a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1a98a17b11e6c6de7e78afe5e4e5e97d1a" kindref="member">MR_PolylineTraits_MR_Vector2f_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1af4b153ef206ffc2e23f4b7b4c5c66da0" kindref="member">MR_PolylineTraits_MR_Vector2f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="315" refid="MRAABBTreePolyline_8h_1a0a315dc8888e7eec2d0dde9229ac9baf" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePolyline_8h_1af4b153ef206ffc2e23f4b7b4c5c66da0" kindref="member">MR_PolylineTraits_MR_Vector2f</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1a0a315dc8888e7eec2d0dde9229ac9baf" kindref="member">MR_PolylineTraits_MR_Vector2f_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1af4b153ef206ffc2e23f4b7b4c5c66da0" kindref="member">MR_PolylineTraits_MR_Vector2f</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="316"><highlight class="normal"></highlight></codeline>
-<codeline lineno="323" refid="MRAABBTreePolyline_8h_1a0d30afaeb007c0d6a26fddacf9f55344" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePolyline_8h_1af4b153ef206ffc2e23f4b7b4c5c66da0" kindref="member">MR_PolylineTraits_MR_Vector2f</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1a0d30afaeb007c0d6a26fddacf9f55344" kindref="member">MR_PolylineTraits_MR_Vector2f_AssignFromAnother</ref>(<ref refid="MRAABBTreePolyline_8h_1af4b153ef206ffc2e23f4b7b4c5c66da0" kindref="member">MR_PolylineTraits_MR_Vector2f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1af4b153ef206ffc2e23f4b7b4c5c66da0" kindref="member">MR_PolylineTraits_MR_Vector2f</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="324"><highlight class="normal"></highlight></codeline>
-<codeline lineno="327" refid="MRAABBTreePolyline_8h_1a593c0e4203199f5858e7b230e3e3324a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePolyline_8h_1abcc8b8fa9771774790e902638f5d95f9" kindref="member">MR_PolylineTraits_MR_Vector3f</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1a593c0e4203199f5858e7b230e3e3324a" kindref="member">MR_PolylineTraits_MR_Vector3f_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="328"><highlight class="normal"></highlight></codeline>
-<codeline lineno="332" refid="MRAABBTreePolyline_8h_1aaed7c3563438e65cd9ffd00827fe8cc8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePolyline_8h_1abcc8b8fa9771774790e902638f5d95f9" kindref="member">MR_PolylineTraits_MR_Vector3f</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1aaed7c3563438e65cd9ffd00827fe8cc8" kindref="member">MR_PolylineTraits_MR_Vector3f_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="333"><highlight class="normal"></highlight></codeline>
-<codeline lineno="336" refid="MRAABBTreePolyline_8h_1afc0bed02c346e5c4fd5fe215b4458bdc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1abcc8b8fa9771774790e902638f5d95f9" kindref="member">MR_PolylineTraits_MR_Vector3f</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1afc0bed02c346e5c4fd5fe215b4458bdc" kindref="member">MR_PolylineTraits_MR_Vector3f_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1abcc8b8fa9771774790e902638f5d95f9" kindref="member">MR_PolylineTraits_MR_Vector3f</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="337"><highlight class="normal"></highlight></codeline>
-<codeline lineno="340" refid="MRAABBTreePolyline_8h_1a61c4243a77b5f6bf788cb7f3dbd6e02b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePolyline_8h_1abcc8b8fa9771774790e902638f5d95f9" kindref="member">MR_PolylineTraits_MR_Vector3f</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1a61c4243a77b5f6bf788cb7f3dbd6e02b" kindref="member">MR_PolylineTraits_MR_Vector3f_OffsetMutablePtr</ref>(<ref refid="MRAABBTreePolyline_8h_1abcc8b8fa9771774790e902638f5d95f9" kindref="member">MR_PolylineTraits_MR_Vector3f</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="341"><highlight class="normal"></highlight></codeline>
-<codeline lineno="346" refid="MRAABBTreePolyline_8h_1a669c903d372c74dab6fbb0877cd21f96" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePolyline_8h_1abcc8b8fa9771774790e902638f5d95f9" kindref="member">MR_PolylineTraits_MR_Vector3f</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1a669c903d372c74dab6fbb0877cd21f96" kindref="member">MR_PolylineTraits_MR_Vector3f_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1abcc8b8fa9771774790e902638f5d95f9" kindref="member">MR_PolylineTraits_MR_Vector3f</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="318" refid="MRAABBTreePolyline_8h_1a605629b278ad9c0c5f703e3c696057b6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1a605629b278ad9c0c5f703e3c696057b6" kindref="member">MR_PolylineTraits_MR_Vector2f_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1af4b153ef206ffc2e23f4b7b4c5c66da0" kindref="member">MR_PolylineTraits_MR_Vector2f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"></highlight></codeline>
+<codeline lineno="321" refid="MRAABBTreePolyline_8h_1a98a17b11e6c6de7e78afe5e4e5e97d1a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1a98a17b11e6c6de7e78afe5e4e5e97d1a" kindref="member">MR_PolylineTraits_MR_Vector2f_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1af4b153ef206ffc2e23f4b7b4c5c66da0" kindref="member">MR_PolylineTraits_MR_Vector2f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"></highlight></codeline>
+<codeline lineno="329" refid="MRAABBTreePolyline_8h_1a0d30afaeb007c0d6a26fddacf9f55344" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePolyline_8h_1af4b153ef206ffc2e23f4b7b4c5c66da0" kindref="member">MR_PolylineTraits_MR_Vector2f</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1a0d30afaeb007c0d6a26fddacf9f55344" kindref="member">MR_PolylineTraits_MR_Vector2f_AssignFromAnother</ref>(<ref refid="MRAABBTreePolyline_8h_1af4b153ef206ffc2e23f4b7b4c5c66da0" kindref="member">MR_PolylineTraits_MR_Vector2f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1af4b153ef206ffc2e23f4b7b4c5c66da0" kindref="member">MR_PolylineTraits_MR_Vector2f</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="330"><highlight class="normal"></highlight></codeline>
+<codeline lineno="333" refid="MRAABBTreePolyline_8h_1a593c0e4203199f5858e7b230e3e3324a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePolyline_8h_1abcc8b8fa9771774790e902638f5d95f9" kindref="member">MR_PolylineTraits_MR_Vector3f</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1a593c0e4203199f5858e7b230e3e3324a" kindref="member">MR_PolylineTraits_MR_Vector3f_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="334"><highlight class="normal"></highlight></codeline>
+<codeline lineno="338" refid="MRAABBTreePolyline_8h_1aaed7c3563438e65cd9ffd00827fe8cc8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePolyline_8h_1abcc8b8fa9771774790e902638f5d95f9" kindref="member">MR_PolylineTraits_MR_Vector3f</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1aaed7c3563438e65cd9ffd00827fe8cc8" kindref="member">MR_PolylineTraits_MR_Vector3f_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"></highlight></codeline>
+<codeline lineno="342" refid="MRAABBTreePolyline_8h_1afc0bed02c346e5c4fd5fe215b4458bdc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1abcc8b8fa9771774790e902638f5d95f9" kindref="member">MR_PolylineTraits_MR_Vector3f</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1afc0bed02c346e5c4fd5fe215b4458bdc" kindref="member">MR_PolylineTraits_MR_Vector3f_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1abcc8b8fa9771774790e902638f5d95f9" kindref="member">MR_PolylineTraits_MR_Vector3f</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"></highlight></codeline>
+<codeline lineno="346" refid="MRAABBTreePolyline_8h_1a61c4243a77b5f6bf788cb7f3dbd6e02b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePolyline_8h_1abcc8b8fa9771774790e902638f5d95f9" kindref="member">MR_PolylineTraits_MR_Vector3f</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1a61c4243a77b5f6bf788cb7f3dbd6e02b" kindref="member">MR_PolylineTraits_MR_Vector3f_OffsetMutablePtr</ref>(<ref refid="MRAABBTreePolyline_8h_1abcc8b8fa9771774790e902638f5d95f9" kindref="member">MR_PolylineTraits_MR_Vector3f</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="347"><highlight class="normal"></highlight></codeline>
-<codeline lineno="349" refid="MRAABBTreePolyline_8h_1a9f69eb66a7a6c9d4a6d9ccd879048fe0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1a9f69eb66a7a6c9d4a6d9ccd879048fe0" kindref="member">MR_PolylineTraits_MR_Vector3f_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1abcc8b8fa9771774790e902638f5d95f9" kindref="member">MR_PolylineTraits_MR_Vector3f</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="350"><highlight class="normal"></highlight></codeline>
-<codeline lineno="352" refid="MRAABBTreePolyline_8h_1a1f575cd372197b3d4c8f193dd2371450" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1a1f575cd372197b3d4c8f193dd2371450" kindref="member">MR_PolylineTraits_MR_Vector3f_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1abcc8b8fa9771774790e902638f5d95f9" kindref="member">MR_PolylineTraits_MR_Vector3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="352" refid="MRAABBTreePolyline_8h_1a669c903d372c74dab6fbb0877cd21f96" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePolyline_8h_1abcc8b8fa9771774790e902638f5d95f9" kindref="member">MR_PolylineTraits_MR_Vector3f</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1a669c903d372c74dab6fbb0877cd21f96" kindref="member">MR_PolylineTraits_MR_Vector3f_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1abcc8b8fa9771774790e902638f5d95f9" kindref="member">MR_PolylineTraits_MR_Vector3f</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="353"><highlight class="normal"></highlight></codeline>
-<codeline lineno="360" refid="MRAABBTreePolyline_8h_1a44b4c225920131b49349ce9bcc3d8b6a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePolyline_8h_1abcc8b8fa9771774790e902638f5d95f9" kindref="member">MR_PolylineTraits_MR_Vector3f</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1a44b4c225920131b49349ce9bcc3d8b6a" kindref="member">MR_PolylineTraits_MR_Vector3f_AssignFromAnother</ref>(<ref refid="MRAABBTreePolyline_8h_1abcc8b8fa9771774790e902638f5d95f9" kindref="member">MR_PolylineTraits_MR_Vector3f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1abcc8b8fa9771774790e902638f5d95f9" kindref="member">MR_PolylineTraits_MR_Vector3f</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="361"><highlight class="normal"></highlight></codeline>
-<codeline lineno="362"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="363"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="364"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="355" refid="MRAABBTreePolyline_8h_1a9f69eb66a7a6c9d4a6d9ccd879048fe0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1a9f69eb66a7a6c9d4a6d9ccd879048fe0" kindref="member">MR_PolylineTraits_MR_Vector3f_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1abcc8b8fa9771774790e902638f5d95f9" kindref="member">MR_PolylineTraits_MR_Vector3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="356"><highlight class="normal"></highlight></codeline>
+<codeline lineno="358" refid="MRAABBTreePolyline_8h_1a1f575cd372197b3d4c8f193dd2371450" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1a1f575cd372197b3d4c8f193dd2371450" kindref="member">MR_PolylineTraits_MR_Vector3f_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1abcc8b8fa9771774790e902638f5d95f9" kindref="member">MR_PolylineTraits_MR_Vector3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="359"><highlight class="normal"></highlight></codeline>
+<codeline lineno="366" refid="MRAABBTreePolyline_8h_1a44b4c225920131b49349ce9bcc3d8b6a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePolyline_8h_1abcc8b8fa9771774790e902638f5d95f9" kindref="member">MR_PolylineTraits_MR_Vector3f</ref><sp/>*<ref refid="MRAABBTreePolyline_8h_1a44b4c225920131b49349ce9bcc3d8b6a" kindref="member">MR_PolylineTraits_MR_Vector3f_AssignFromAnother</ref>(<ref refid="MRAABBTreePolyline_8h_1abcc8b8fa9771774790e902638f5d95f9" kindref="member">MR_PolylineTraits_MR_Vector3f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1abcc8b8fa9771774790e902638f5d95f9" kindref="member">MR_PolylineTraits_MR_Vector3f</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="367"><highlight class="normal"></highlight></codeline>
+<codeline lineno="368"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="369"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="370"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAABBTreePolyline.h"/>
   </compounddef>

@@ -332,6 +332,8 @@
       <node id="18">
         <label>MRVector.h</label>
         <link refid="MRVector_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="19" relation="include">

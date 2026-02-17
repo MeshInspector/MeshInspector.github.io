@@ -1,5 +1,12 @@
 var NAVTREEINDEX78 =
 {
+"structMR_1_1MeshBuilder_1_1Triangle.html#ae1a5aa6c5e37175f3bebd45ab1014e5b":[6,0,1,0,1,20,3,3],
+"structMR_1_1MeshBuilder_1_1Triangle.html#ae1a5aa6c5e37175f3bebd45ab1014e5b":[6,0,2,0,2,10,3,3],
+"structMR_1_1MeshBuilder_1_1Triangle.html#af175e0ee7a935555961ce40aa0941496":[6,0,1,0,1,20,3,4],
+"structMR_1_1MeshBuilder_1_1Triangle.html#af175e0ee7a935555961ce40aa0941496":[6,0,2,0,2,10,3,4],
+"structMR_1_1MeshBuilder_1_1UniteCloseParams.html":[6,0,1,0,1,20,4],
+"structMR_1_1MeshBuilder_1_1UniteCloseParams.html":[6,0,2,0,2,10,4],
+"structMR_1_1MeshBuilder_1_1UniteCloseParams.html#a110cc42934b904692094323354588513":[6,0,1,0,1,20,4,2],
 "structMR_1_1MeshBuilder_1_1UniteCloseParams.html#a110cc42934b904692094323354588513":[6,0,2,0,2,10,4,2],
 "structMR_1_1MeshBuilder_1_1UniteCloseParams.html#a114d1d59ef37898d184ed75daaf0b5fa":[6,0,1,0,1,20,4,5],
 "structMR_1_1MeshBuilder_1_1UniteCloseParams.html#a114d1d59ef37898d184ed75daaf0b5fa":[6,0,2,0,2,10,4,5],
@@ -242,12 +249,5 @@ var NAVTREEINDEX78 =
 "structMR_1_1MeshToDistanceMapParams.html#a9cd65a60a7f447243861fb42df431beb":[6,0,0,5,3,5],
 "structMR_1_1MeshToDistanceMapParams.html#aa581e3154ca47d52f8cc418e27121f0f":[6,0,0,5,3,11],
 "structMR_1_1MeshToDistanceMapParams.html#aac1ab78936263c419b3c72a94c08ea99":[6,0,0,5,3,15],
-"structMR_1_1MeshToDistanceMapParams.html#acbd0c885022ae4d52662d581094cee10":[6,0,0,5,3,18],
-"structMR_1_1MeshToDistanceMapParams.html#acd9523a7ea030a77856bbadf789bd132":[6,0,0,5,3,1],
-"structMR_1_1MeshToDistanceMapParams.html#ace32ee073907bc00f51a76ba214f6d3c":[6,0,0,5,3,17],
-"structMR_1_1MeshToDistanceMapParams.html#acea3bbf8d8d0c8750d496ed6934725de":[6,0,0,5,3,0],
-"structMR_1_1MeshToDistanceMapParams.html#ad5c988e350636c3a7804f51132290869":[6,0,0,5,3,10],
-"structMR_1_1MeshToDistanceMapParams.html#adda331f5bf606eb9b53caf3c558a995e":[6,0,0,5,3,2],
-"structMR_1_1MeshToDistanceMapParams.html#af2eeaa511b9352ea711dc539633b65ec":[6,0,0,5,3,6],
-"structMR_1_1MeshToDistanceVolumeParams.html":[6,0,1,0,1,416]
+"structMR_1_1MeshToDistanceMapParams.html#acbd0c885022ae4d52662d581094cee10":[6,0,0,5,3,18]
 };

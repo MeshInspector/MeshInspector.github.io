@@ -394,11 +394,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>true here means that a subdivided edge is a part of some original edge edge before mesh subdivision; false here is both for unmodified edges and for new edges introduced within original triangles Returns a pointer to a member variable of class <computeroutput>MR::NewEdgesMap</computeroutput> named <computeroutput>splitEdges</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>true here means that a subdivided edge is a part of some original edge edge before mesh subdivision; false here is both for unmodified edges and for new edges introduced within original triangles Returns a pointer to a member variable of class <computeroutput>MR::NewEdgesMap</computeroutput> named <computeroutput>splitEdges</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="80" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="80" declcolumn="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="81" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="81" declcolumn="39"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1a400a0892dcba681cf7884b4f40e7f2f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -424,7 +424,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="88" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="88" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="89" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="89" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1a119d83a4829bf8f4730158f632826946" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref> *</type>
@@ -438,11 +438,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>true here means that a subdivided edge is a part of some original edge edge before mesh subdivision; false here is both for unmodified edges and for new edges introduced within original triangles Returns a mutable pointer to a member variable of class <computeroutput>MR::NewEdgesMap</computeroutput> named <computeroutput>splitEdges</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>true here means that a subdivided edge is a part of some original edge edge before mesh subdivision; false here is both for unmodified edges and for new edges introduced within original triangles Returns a mutable pointer to a member variable of class <computeroutput>MR::NewEdgesMap</computeroutput> named <computeroutput>splitEdges</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="95" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="95" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="97" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="97" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1a4f0c758640a99fbd43aa7e2873404e99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRContoursCut_8h_1aa889e7636f03136c655bc3165386ea9e" kindref="member">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_int</ref> *</type>
@@ -456,11 +456,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>maps every edge appeared during subdivision to an original edge before mesh subdivision; for splitEdges[key]=true, the value is arbitrary oriented original edge, for which key-edge is its part; for splitEdges[key]=false, the value is an original triangle Returns a pointer to a member variable of class <computeroutput>MR::NewEdgesMap</computeroutput> named <computeroutput>map</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>maps every edge appeared during subdivision to an original edge before mesh subdivision; for splitEdges[key]=true, the value is arbitrary oriented original edge, for which key-edge is its part; for splitEdges[key]=false, the value is an original triangle Returns a pointer to a member variable of class <computeroutput>MR::NewEdgesMap</computeroutput> named <computeroutput>map</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="103" column="62" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="103" declcolumn="62"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="106" column="62" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="106" declcolumn="62"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1ab8f4886f68e1f6fe4a4eb4c4150a2a01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -486,7 +486,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="112" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="112" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="115" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="115" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1a4f962ccd7ef989fe60a9ee3ad986b636" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRContoursCut_8h_1aa889e7636f03136c655bc3165386ea9e" kindref="member">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_int</ref> *</type>
@@ -500,11 +500,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>maps every edge appeared during subdivision to an original edge before mesh subdivision; for splitEdges[key]=true, the value is arbitrary oriented original edge, for which key-edge is its part; for splitEdges[key]=false, the value is an original triangle Returns a mutable pointer to a member variable of class <computeroutput>MR::NewEdgesMap</computeroutput> named <computeroutput>map</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>maps every edge appeared during subdivision to an original edge before mesh subdivision; for splitEdges[key]=true, the value is arbitrary oriented original edge, for which key-edge is its part; for splitEdges[key]=false, the value is an original triangle Returns a mutable pointer to a member variable of class <computeroutput>MR::NewEdgesMap</computeroutput> named <computeroutput>map</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="120" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="120" declcolumn="56"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="124" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="124" declcolumn="56"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1ad5a357ce190b56f54b28f70be60bb19b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref> *</type>
@@ -521,7 +521,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="124" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="124" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="128" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="128" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1a2b3a476ee7b12c0e5d36ee6ed64ec70f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref> *</type>
@@ -539,7 +539,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="129" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="129" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="133" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="133" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1a7f6bc3b3d96b95321e7ce652cb3a607c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref> *</type>
@@ -569,7 +569,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="136" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="136" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="140" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="140" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1a970e3c1cc36ce5a9d5e517bb82b95ee4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref> *</type>
@@ -591,7 +591,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="140" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="140" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="144" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="144" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1a5fa13e35e1a15805e3b2199ef79fe9bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref> *</type>
@@ -613,7 +613,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="144" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="144" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="148" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="148" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1a8a3a7a6572b02760994dab066d08d298" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref> *</type>
@@ -635,7 +635,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="149" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="149" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="153" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="153" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1ac343bd334dd81f98b90c662741233bbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -653,7 +653,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="152" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="152" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="156" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="156" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1ace5263ab69125745ee8ed65e73ec6da1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -671,7 +671,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="155" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="155" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="159" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="159" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1aa7c7703fdaf32577d297497abf287d11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref> *</type>
@@ -697,7 +697,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="162" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="162" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="166" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="166" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1a991150c43d8dcaf1031edae4a4426fca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRContoursCut_8h_1abf340aafe859554b2c4dd858ad318988" kindref="member">MR_SortIntersectionsData</ref> *const *</type>
@@ -712,13 +712,13 @@
         </briefdescription>
         <detaileddescription>
 <para>This is optional input for better contours resolving<linebreak/>
-it provides additional info from other mesh used in boolean operation, useful to solve some degeneration <simplesect kind="note"><para>Most likely you don&apos;t need this in case you call MR::cutMesh manualy, use case of it is MR::boolean Returns a pointer to a member variable of class <computeroutput>MR::CutMeshParameters</computeroutput> named <computeroutput>sortData</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+it provides additional info from other mesh used in boolean operation, useful to solve some degeneration <simplesect kind="note"><para>Most likely you don&apos;t need this in case you call MR::cutMesh manualy, use case of it is MR::boolean Returns a pointer to a member variable of class <computeroutput>MR::CutMeshParameters</computeroutput> named <computeroutput>sortData</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="170" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="170" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="175" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="175" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1afd888c0f363603fc2f18e077727f6554" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -743,7 +743,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="179" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="179" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="184" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="184" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1a7654670fc61d93aee4bcc55f0857cc50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRContoursCut_8h_1abf340aafe859554b2c4dd858ad318988" kindref="member">MR_SortIntersectionsData</ref> **</type>
@@ -758,13 +758,13 @@ it provides additional info from other mesh used in boolean operation, useful to
         </briefdescription>
         <detaileddescription>
 <para>This is optional input for better contours resolving<linebreak/>
-it provides additional info from other mesh used in boolean operation, useful to solve some degeneration <simplesect kind="note"><para>Most likely you don&apos;t need this in case you call MR::cutMesh manualy, use case of it is MR::boolean Returns a mutable pointer to a member variable of class <computeroutput>MR::CutMeshParameters</computeroutput> named <computeroutput>sortData</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+it provides additional info from other mesh used in boolean operation, useful to solve some degeneration <simplesect kind="note"><para>Most likely you don&apos;t need this in case you call MR::cutMesh manualy, use case of it is MR::boolean Returns a mutable pointer to a member variable of class <computeroutput>MR::CutMeshParameters</computeroutput> named <computeroutput>sortData</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="187" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="187" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="193" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="193" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1af299a02287ae1d3d6eac8c6a82c8885e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRBitSet_8h_1ab809347fd151b45341bc9e7828673eb5" kindref="member">MR_FaceMap</ref> *const *</type>
@@ -778,11 +778,11 @@ it provides additional info from other mesh used in boolean operation, useful to
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>This is optional output - map from newly generated faces to old faces (N-1) Returns a pointer to a member variable of class <computeroutput>MR::CutMeshParameters</computeroutput> named <computeroutput>new2OldMap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>This is optional output - map from newly generated faces to old faces (N-1) Returns a pointer to a member variable of class <computeroutput>MR::CutMeshParameters</computeroutput> named <computeroutput>new2OldMap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="193" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="193" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="200" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="200" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1ae993bb20982c4333963cb2c6349944d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -804,7 +804,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="200" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="200" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="207" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="207" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1a219406fe2ac46cadd3b6c85fd39104cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRBitSet_8h_1ab809347fd151b45341bc9e7828673eb5" kindref="member">MR_FaceMap</ref> **</type>
@@ -818,11 +818,11 @@ it provides additional info from other mesh used in boolean operation, useful to
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>This is optional output - map from newly generated faces to old faces (N-1) Returns a mutable pointer to a member variable of class <computeroutput>MR::CutMeshParameters</computeroutput> named <computeroutput>new2OldMap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>This is optional output - map from newly generated faces to old faces (N-1) Returns a mutable pointer to a member variable of class <computeroutput>MR::CutMeshParameters</computeroutput> named <computeroutput>new2OldMap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="206" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="206" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="214" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="214" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1a84e8ca262d5fa647b0c0f2258d14840b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRContoursCut_8h_1ad88711e195698407258d2d46c2a03394" kindref="member">MR_CutMeshParameters_ForceFill</ref> *</type>
@@ -836,11 +836,11 @@ it provides additional info from other mesh used in boolean operation, useful to
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::CutMeshParameters</computeroutput> named <computeroutput>forceFillMode</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::CutMeshParameters</computeroutput> named <computeroutput>forceFillMode</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="211" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="211" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="220" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="220" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1ad4d83d85df3deae9d86a31df8fde85a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -862,7 +862,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="217" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="217" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="226" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="226" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1adb3266a5dec2567607979d561c7ea076" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRContoursCut_8h_1ad88711e195698407258d2d46c2a03394" kindref="member">MR_CutMeshParameters_ForceFill</ref> *</type>
@@ -876,11 +876,11 @@ it provides additional info from other mesh used in boolean operation, useful to
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::CutMeshParameters</computeroutput> named <computeroutput>forceFillMode</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::CutMeshParameters</computeroutput> named <computeroutput>forceFillMode</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="222" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="222" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="232" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="232" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1a3324d1131b125816c5b91496d42782c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref> *const *</type>
@@ -894,11 +894,11 @@ it provides additional info from other mesh used in boolean operation, useful to
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Optional output map for each new edge introduced after cut maps edge from old topology or old face Returns a pointer to a member variable of class <computeroutput>MR::CutMeshParameters</computeroutput> named <computeroutput>new2oldEdgesMap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Optional output map for each new edge introduced after cut maps edge from old topology or old face Returns a pointer to a member variable of class <computeroutput>MR::CutMeshParameters</computeroutput> named <computeroutput>new2oldEdgesMap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="228" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="228" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="239" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="239" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1a86037f5aeae4b25cd203be86f60300fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -920,7 +920,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="235" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="235" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="246" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="246" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1a276430846cddbf81c1f12cdaf9a867ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref> **</type>
@@ -934,11 +934,11 @@ it provides additional info from other mesh used in boolean operation, useful to
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Optional output map for each new edge introduced after cut maps edge from old topology or old face Returns a mutable pointer to a member variable of class <computeroutput>MR::CutMeshParameters</computeroutput> named <computeroutput>new2oldEdgesMap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Optional output map for each new edge introduced after cut maps edge from old topology or old face Returns a mutable pointer to a member variable of class <computeroutput>MR::CutMeshParameters</computeroutput> named <computeroutput>new2oldEdgesMap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="241" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="241" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="253" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="253" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1a3fbb9f74a2e0d04787e5fa2a86864b78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref> *</type>
@@ -955,7 +955,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="245" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="245" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="257" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="257" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1af15aa4a81442ef4e55993c06195a02d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref> *</type>
@@ -973,7 +973,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="250" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="250" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="262" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="262" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1a68acdde187b8e1731df1cbca7ee9a51e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref> *</type>
@@ -1003,7 +1003,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="259" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="259" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="271" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="271" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1a5a298a580f98953164bff4b280d31537" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref> *</type>
@@ -1025,7 +1025,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="263" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="263" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="275" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="275" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1a8b0b54e1ecb0887db3bdcc2a9402ac2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref> *</type>
@@ -1047,7 +1047,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="267" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="267" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="279" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="279" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1a3a4f6c3d559831f591c2f9ae8948954b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref> *</type>
@@ -1065,7 +1065,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="273" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="273" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="285" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="285" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1ad3e074f8cc325d2492acc9bec0a386f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1083,7 +1083,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="276" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="276" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="288" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="288" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1a317adbedfe5c2c59b3c14629c9d0083b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1101,7 +1101,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="279" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="279" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="291" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="291" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1acbf41e7f745b23abe2df7f20313b359c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref> *</type>
@@ -1123,7 +1123,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="287" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="287" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="299" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="299" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1ac617dc3c2a4257ba9f6bc9570abd6258" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref> *</type>
@@ -1137,11 +1137,11 @@ it provides additional info from other mesh used in boolean operation, useful to
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Paths of new edges on mesh, they represent same contours as input, but already cut Returns a pointer to a member variable of class <computeroutput>MR::CutMeshResult</computeroutput> named <computeroutput>resultCut</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Paths of new edges on mesh, they represent same contours as input, but already cut Returns a pointer to a member variable of class <computeroutput>MR::CutMeshResult</computeroutput> named <computeroutput>resultCut</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="293" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="293" declcolumn="50"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="306" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="306" declcolumn="50"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1a2d06895261b7f8dc90ca1ecafa29308e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1167,7 +1167,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="300" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="300" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="313" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="313" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1ae81cb1075980a572596620dc66c12705" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref> *</type>
@@ -1181,11 +1181,11 @@ it provides additional info from other mesh used in boolean operation, useful to
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Paths of new edges on mesh, they represent same contours as input, but already cut Returns a mutable pointer to a member variable of class <computeroutput>MR::CutMeshResult</computeroutput> named <computeroutput>resultCut</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Paths of new edges on mesh, they represent same contours as input, but already cut Returns a mutable pointer to a member variable of class <computeroutput>MR::CutMeshResult</computeroutput> named <computeroutput>resultCut</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="306" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="306" declcolumn="44"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="320" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="320" declcolumn="44"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1a6123d875aaeb75e2004553b828580ac5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *</type>
@@ -1199,13 +1199,13 @@ it provides additional info from other mesh used in boolean operation, useful to
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Bitset of bad triangles - triangles where input contours have intersections and cannot be cut and filled in a good way <simplesect kind="see"><para>MR::CutMeshParameters Returns a pointer to a member variable of class <computeroutput>MR::CutMeshResult</computeroutput> named <computeroutput>fbsWithContourIntersections</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Bitset of bad triangles - triangles where input contours have intersections and cannot be cut and filled in a good way <simplesect kind="see"><para>MR::CutMeshParameters Returns a pointer to a member variable of class <computeroutput>MR::CutMeshResult</computeroutput> named <computeroutput>fbsWithContourIntersections</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="313" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="313" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="328" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="328" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1a57ab336b31ff562ddf3ff683df79af46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1233,7 +1233,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="321" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="321" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="336" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="336" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1a10058eeebd6bba23777db7967de77fc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *</type>
@@ -1247,13 +1247,13 @@ it provides additional info from other mesh used in boolean operation, useful to
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Bitset of bad triangles - triangles where input contours have intersections and cannot be cut and filled in a good way <simplesect kind="see"><para>MR::CutMeshParameters Returns a mutable pointer to a member variable of class <computeroutput>MR::CutMeshResult</computeroutput> named <computeroutput>fbsWithContourIntersections</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Bitset of bad triangles - triangles where input contours have intersections and cannot be cut and filled in a good way <simplesect kind="see"><para>MR::CutMeshParameters Returns a mutable pointer to a member variable of class <computeroutput>MR::CutMeshResult</computeroutput> named <computeroutput>fbsWithContourIntersections</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="328" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="328" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="344" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="344" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1ae92da8eecf9572da5aae19674a01b9c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRContoursCut_8h_1a1ef5cd763a69b557722dd0e3f63df036" kindref="member">MR_CutMeshResult</ref> *</type>
@@ -1270,7 +1270,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="332" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="332" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="348" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="348" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1abac348ee054409cc2a5cc60cab00c59f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRContoursCut_8h_1a1ef5cd763a69b557722dd0e3f63df036" kindref="member">MR_CutMeshResult</ref> *</type>
@@ -1288,7 +1288,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="337" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="337" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="353" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="353" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1a52b38e565fdf07b6d55ecdbd6a3aa557" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRContoursCut_8h_1a1ef5cd763a69b557722dd0e3f63df036" kindref="member">MR_CutMeshResult</ref> *</type>
@@ -1318,7 +1318,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="344" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="344" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="360" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="360" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1a6a20d53975e308f66a05b1e33af60d8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRContoursCut_8h_1a1ef5cd763a69b557722dd0e3f63df036" kindref="member">MR_CutMeshResult</ref> *</type>
@@ -1340,7 +1340,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="348" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="348" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="364" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="364" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1a641f926dd5e5a8c7f37facad75e2d5ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRContoursCut_8h_1a1ef5cd763a69b557722dd0e3f63df036" kindref="member">MR_CutMeshResult</ref> *</type>
@@ -1362,7 +1362,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="352" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="352" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="368" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="368" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1a1c8b611314479ae3833e5c5ab867d20f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRContoursCut_8h_1a1ef5cd763a69b557722dd0e3f63df036" kindref="member">MR_CutMeshResult</ref> *</type>
@@ -1384,7 +1384,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="357" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="357" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="373" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="373" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1a0f22861356c77dbfd0cdfdee67c3d793" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1402,7 +1402,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="360" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="360" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="376" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="376" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1aa827db0bc94be132c2fd915176eb3e15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1420,7 +1420,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="363" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="363" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="379" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="379" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1ab1f68db687fe5290a885837982f58057" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRContoursCut_8h_1a1ef5cd763a69b557722dd0e3f63df036" kindref="member">MR_CutMeshResult</ref> *</type>
@@ -1446,7 +1446,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="370" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="370" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="386" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="386" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1a137196b8b10dcd022a5bb6a85b3a8d4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRContoursCut_8h_1a1ef5cd763a69b557722dd0e3f63df036" kindref="member">MR_CutMeshResult</ref> *</type>
@@ -1509,7 +1509,7 @@ so if you cannot guarantee contours without intersections better make copy of me
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="394" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="394" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="410" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="410" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1a29da5ce9fe890cb1510675a23751afd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRContoursCut_8h_1a6aeecd4fac2aea90513510421de3f37b" kindref="member">MR_expected_MR_FaceBitSet_std_string</ref> *</type>
@@ -1550,7 +1550,7 @@ so if you cannot guarantee contours without intersections better make copy of me
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="407" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="407" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="423" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="423" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1a40cf1dd6bf4954cd7f8d4ef605210688" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRContoursCut_8h_1a6aeecd4fac2aea90513510421de3f37b" kindref="member">MR_expected_MR_FaceBitSet_std_string</ref> *</type>
@@ -1591,7 +1591,7 @@ so if you cannot guarantee contours without intersections better make copy of me
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="420" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="420" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="436" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="436" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1aeb6f4be629aa2160044bf1794e77d518" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
@@ -1605,11 +1605,11 @@ so if you cannot guarantee contours without intersections better make copy of me
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>direction of projection (in mesh space) Returns a pointer to a member variable of class <computeroutput>MR::CutByProjectionSettings</computeroutput> named <computeroutput>direction</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>direction of projection (in mesh space) Returns a pointer to a member variable of class <computeroutput>MR::CutByProjectionSettings</computeroutput> named <computeroutput>direction</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="426" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="426" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="443" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="443" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1a334ec3cb892b2dc08350677d86cbbe43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1631,7 +1631,7 @@ so if you cannot guarantee contours without intersections better make copy of me
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="433" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="433" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="450" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="450" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1a6495d3b31e3152caa4332c88c5f3f468" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
@@ -1645,11 +1645,11 @@ so if you cannot guarantee contours without intersections better make copy of me
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>direction of projection (in mesh space) Returns a mutable pointer to a member variable of class <computeroutput>MR::CutByProjectionSettings</computeroutput> named <computeroutput>direction</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>direction of projection (in mesh space) Returns a mutable pointer to a member variable of class <computeroutput>MR::CutByProjectionSettings</computeroutput> named <computeroutput>direction</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="439" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="439" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="457" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="457" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1a924f1f67bfbc1da723f7b908de7ba6d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *const *</type>
@@ -1663,11 +1663,11 @@ so if you cannot guarantee contours without intersections better make copy of me
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if set - used to transform contours form its local space to mesh local space Returns a pointer to a member variable of class <computeroutput>MR::CutByProjectionSettings</computeroutput> named <computeroutput>cont2mesh</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>if set - used to transform contours form its local space to mesh local space Returns a pointer to a member variable of class <computeroutput>MR::CutByProjectionSettings</computeroutput> named <computeroutput>cont2mesh</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="445" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="445" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="464" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="464" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1a73fd4a4de36d90b53b3836aedfd47b9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1689,7 +1689,7 @@ so if you cannot guarantee contours without intersections better make copy of me
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="452" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="452" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="471" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="471" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1a3c7ed4f09a3b322fd09c30ea9ab00731" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> **</type>
@@ -1703,11 +1703,11 @@ so if you cannot guarantee contours without intersections better make copy of me
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if set - used to transform contours form its local space to mesh local space Returns a mutable pointer to a member variable of class <computeroutput>MR::CutByProjectionSettings</computeroutput> named <computeroutput>cont2mesh</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>if set - used to transform contours form its local space to mesh local space Returns a mutable pointer to a member variable of class <computeroutput>MR::CutByProjectionSettings</computeroutput> named <computeroutput>cont2mesh</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="458" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="458" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="478" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="478" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1a8e89a73f2ee8ce1fa4b266f19dfeceb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRContoursCut_8h_1a4b06ea63ec08a6f2c1a5cf99b29cc3ff" kindref="member">MR_CutByProjectionSettings</ref> *</type>
@@ -1724,7 +1724,7 @@ so if you cannot guarantee contours without intersections better make copy of me
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="462" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="462" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="482" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="482" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1a2aa6ec12a6e08d43ee0a52b4e4c92495" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRContoursCut_8h_1a4b06ea63ec08a6f2c1a5cf99b29cc3ff" kindref="member">MR_CutByProjectionSettings</ref> *</type>
@@ -1742,7 +1742,7 @@ so if you cannot guarantee contours without intersections better make copy of me
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="467" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="467" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="487" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="487" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1a1890924ddc887f21bb5f5d12cf80d467" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRContoursCut_8h_1a4b06ea63ec08a6f2c1a5cf99b29cc3ff" kindref="member">MR_CutByProjectionSettings</ref> *</type>
@@ -1764,7 +1764,7 @@ so if you cannot guarantee contours without intersections better make copy of me
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="474" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="474" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="494" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="494" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1a0c7ccd64edd3e2885126d77cff1b6022" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRContoursCut_8h_1a4b06ea63ec08a6f2c1a5cf99b29cc3ff" kindref="member">MR_CutByProjectionSettings</ref> *</type>
@@ -1786,7 +1786,7 @@ so if you cannot guarantee contours without intersections better make copy of me
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="478" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="478" declcolumn="42"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="498" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="498" declcolumn="42"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1aec3968301c9a9d7f7e15413ea01d5063" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRContoursCut_8h_1a4b06ea63ec08a6f2c1a5cf99b29cc3ff" kindref="member">MR_CutByProjectionSettings</ref> *</type>
@@ -1808,7 +1808,7 @@ so if you cannot guarantee contours without intersections better make copy of me
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="482" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="482" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="502" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="502" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1a1a63b95caccce52467559c75e1895062" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRContoursCut_8h_1a4b06ea63ec08a6f2c1a5cf99b29cc3ff" kindref="member">MR_CutByProjectionSettings</ref> *</type>
@@ -1826,7 +1826,7 @@ so if you cannot guarantee contours without intersections better make copy of me
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="488" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="488" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="508" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="508" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1a104c867313cba06f249b6a6eb0b8e5b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1844,7 +1844,7 @@ so if you cannot guarantee contours without intersections better make copy of me
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="491" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="491" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="511" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="511" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1ab7c973aa816d8cb9e34b96d415e23c0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1862,7 +1862,7 @@ so if you cannot guarantee contours without intersections better make copy of me
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="494" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="494" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="514" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="514" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1a412cbdbaa9b68d53a897d33fbcbf4ec1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRContoursCut_8h_1a4b06ea63ec08a6f2c1a5cf99b29cc3ff" kindref="member">MR_CutByProjectionSettings</ref> *</type>
@@ -1884,7 +1884,7 @@ so if you cannot guarantee contours without intersections better make copy of me
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="502" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="502" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="522" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="522" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1a03b8a6f92dec9b222dc364c7151d33df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRContoursCut_8h_1afbb58c6b3a4c5746c9ae773c02b24591" kindref="member">MR_expected_std_vector_std_vector_MR_EdgeId_std_string</ref> *</type>
@@ -1940,7 +1940,7 @@ Generated from function <computeroutput>MR::cutMeshByProjection</computeroutput>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="518" column="64" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="518" declcolumn="64"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="538" column="64" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="538" declcolumn="64"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1a1211d658133a8cec342d464c04f3afd2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRContoursCut_8h_1a4be6517a31b66da090092aa8bb37c304" kindref="member">MR_expected_std_vector_MR_OneMeshContour_std_string</ref> *</type>
@@ -1988,7 +1988,7 @@ Generated from function <computeroutput>MR::cutMeshByProjection</computeroutput>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="533" column="61" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="533" declcolumn="61"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="553" column="61" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="553" declcolumn="61"/>
       </memberdef>
       <memberdef kind="function" id="MRContoursCut_8h_1a470f587a93585b221f6cc2dfc1829ad3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRContoursCut_8h_1a4be6517a31b66da090092aa8bb37c304" kindref="member">MR_expected_std_vector_MR_OneMeshContour_std_string</ref> *</type>
@@ -2036,7 +2036,7 @@ Generated from function <computeroutput>MR::cutMeshByProjection</computeroutput>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="549" column="61" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="549" declcolumn="61"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" line="569" column="61" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h" declline="569" declcolumn="61"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -2093,153 +2093,153 @@ Generated from function <computeroutput>MR::cutMeshByProjection</computeroutput>
 <codeline lineno="69"><highlight class="normal"></highlight></codeline>
 <codeline lineno="73" refid="MRContoursCut_8h_1a4b06ea63ec08a6f2c1a5cf99b29cc3ff" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRContoursCut_8h_1a4b06ea63ec08a6f2c1a5cf99b29cc3ff" kindref="member">MR_CutByProjectionSettings</ref><sp/><ref refid="MRContoursCut_8h_1a4b06ea63ec08a6f2c1a5cf99b29cc3ff" kindref="member">MR_CutByProjectionSettings</ref>;</highlight></codeline>
 <codeline lineno="74"><highlight class="normal"></highlight></codeline>
-<codeline lineno="80" refid="MRContoursCut_8h_1a46f92461182970808870cc1495da5cf5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*<ref refid="MRContoursCut_8h_1a46f92461182970808870cc1495da5cf5" kindref="member">MR_NewEdgesMap_Get_splitEdges</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="81"><highlight class="normal"></highlight></codeline>
-<codeline lineno="88" refid="MRContoursCut_8h_1a400a0892dcba681cf7884b4f40e7f2f4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a400a0892dcba681cf7884b4f40e7f2f4" kindref="member">MR_NewEdgesMap_Set_splitEdges</ref>(<ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="89"><highlight class="normal"></highlight></codeline>
-<codeline lineno="95" refid="MRContoursCut_8h_1a119d83a4829bf8f4730158f632826946" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*<ref refid="MRContoursCut_8h_1a119d83a4829bf8f4730158f632826946" kindref="member">MR_NewEdgesMap_GetMutable_splitEdges</ref>(<ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="96"><highlight class="normal"></highlight></codeline>
-<codeline lineno="103" refid="MRContoursCut_8h_1a4f0c758640a99fbd43aa7e2873404e99" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1aa889e7636f03136c655bc3165386ea9e" kindref="member">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_int</ref><sp/>*<ref refid="MRContoursCut_8h_1a4f0c758640a99fbd43aa7e2873404e99" kindref="member">MR_NewEdgesMap_Get_map</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="104"><highlight class="normal"></highlight></codeline>
-<codeline lineno="112" refid="MRContoursCut_8h_1ab8f4886f68e1f6fe4a4eb4c4150a2a01" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1ab8f4886f68e1f6fe4a4eb4c4150a2a01" kindref="member">MR_NewEdgesMap_Set_map</ref>(<ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRContoursCut_8h_1aa889e7636f03136c655bc3165386ea9e" kindref="member">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_int</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="113"><highlight class="normal"></highlight></codeline>
-<codeline lineno="120" refid="MRContoursCut_8h_1a4f962ccd7ef989fe60a9ee3ad986b636" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1aa889e7636f03136c655bc3165386ea9e" kindref="member">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_int</ref><sp/>*<ref refid="MRContoursCut_8h_1a4f962ccd7ef989fe60a9ee3ad986b636" kindref="member">MR_NewEdgesMap_GetMutable_map</ref>(<ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="121"><highlight class="normal"></highlight></codeline>
-<codeline lineno="124" refid="MRContoursCut_8h_1ad5a357ce190b56f54b28f70be60bb19b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref><sp/>*<ref refid="MRContoursCut_8h_1ad5a357ce190b56f54b28f70be60bb19b" kindref="member">MR_NewEdgesMap_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="81" refid="MRContoursCut_8h_1a46f92461182970808870cc1495da5cf5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*<ref refid="MRContoursCut_8h_1a46f92461182970808870cc1495da5cf5" kindref="member">MR_NewEdgesMap_Get_splitEdges</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="MRContoursCut_8h_1a400a0892dcba681cf7884b4f40e7f2f4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a400a0892dcba681cf7884b4f40e7f2f4" kindref="member">MR_NewEdgesMap_Set_splitEdges</ref>(<ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97" refid="MRContoursCut_8h_1a119d83a4829bf8f4730158f632826946" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*<ref refid="MRContoursCut_8h_1a119d83a4829bf8f4730158f632826946" kindref="member">MR_NewEdgesMap_GetMutable_splitEdges</ref>(<ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106" refid="MRContoursCut_8h_1a4f0c758640a99fbd43aa7e2873404e99" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1aa889e7636f03136c655bc3165386ea9e" kindref="member">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_int</ref><sp/>*<ref refid="MRContoursCut_8h_1a4f0c758640a99fbd43aa7e2873404e99" kindref="member">MR_NewEdgesMap_Get_map</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115" refid="MRContoursCut_8h_1ab8f4886f68e1f6fe4a4eb4c4150a2a01" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1ab8f4886f68e1f6fe4a4eb4c4150a2a01" kindref="member">MR_NewEdgesMap_Set_map</ref>(<ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRContoursCut_8h_1aa889e7636f03136c655bc3165386ea9e" kindref="member">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_int</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="MRContoursCut_8h_1a4f962ccd7ef989fe60a9ee3ad986b636" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1aa889e7636f03136c655bc3165386ea9e" kindref="member">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_int</ref><sp/>*<ref refid="MRContoursCut_8h_1a4f962ccd7ef989fe60a9ee3ad986b636" kindref="member">MR_NewEdgesMap_GetMutable_map</ref>(<ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="125"><highlight class="normal"></highlight></codeline>
-<codeline lineno="129" refid="MRContoursCut_8h_1a2b3a476ee7b12c0e5d36ee6ed64ec70f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref><sp/>*<ref refid="MRContoursCut_8h_1a2b3a476ee7b12c0e5d36ee6ed64ec70f" kindref="member">MR_NewEdgesMap_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="130"><highlight class="normal"></highlight></codeline>
-<codeline lineno="136" refid="MRContoursCut_8h_1a7f6bc3b3d96b95321e7ce652cb3a607c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref><sp/>*<ref refid="MRContoursCut_8h_1a7f6bc3b3d96b95321e7ce652cb3a607c" kindref="member">MR_NewEdgesMap_ConstructFrom</ref>(MR_PassBy<sp/>splitEdges_pass_by,<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*splitEdges,<sp/>MR_PassBy<sp/>map_pass_by,<sp/><ref refid="MRContoursCut_8h_1aa889e7636f03136c655bc3165386ea9e" kindref="member">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_int</ref><sp/>*map);</highlight></codeline>
-<codeline lineno="137"><highlight class="normal"></highlight></codeline>
-<codeline lineno="140" refid="MRContoursCut_8h_1a970e3c1cc36ce5a9d5e517bb82b95ee4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref><sp/>*<ref refid="MRContoursCut_8h_1a970e3c1cc36ce5a9d5e517bb82b95ee4" kindref="member">MR_NewEdgesMap_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="128" refid="MRContoursCut_8h_1ad5a357ce190b56f54b28f70be60bb19b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref><sp/>*<ref refid="MRContoursCut_8h_1ad5a357ce190b56f54b28f70be60bb19b" kindref="member">MR_NewEdgesMap_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="MRContoursCut_8h_1a2b3a476ee7b12c0e5d36ee6ed64ec70f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref><sp/>*<ref refid="MRContoursCut_8h_1a2b3a476ee7b12c0e5d36ee6ed64ec70f" kindref="member">MR_NewEdgesMap_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140" refid="MRContoursCut_8h_1a7f6bc3b3d96b95321e7ce652cb3a607c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref><sp/>*<ref refid="MRContoursCut_8h_1a7f6bc3b3d96b95321e7ce652cb3a607c" kindref="member">MR_NewEdgesMap_ConstructFrom</ref>(MR_PassBy<sp/>splitEdges_pass_by,<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*splitEdges,<sp/>MR_PassBy<sp/>map_pass_by,<sp/><ref refid="MRContoursCut_8h_1aa889e7636f03136c655bc3165386ea9e" kindref="member">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_int</ref><sp/>*map);</highlight></codeline>
 <codeline lineno="141"><highlight class="normal"></highlight></codeline>
-<codeline lineno="144" refid="MRContoursCut_8h_1a5fa13e35e1a15805e3b2199ef79fe9bc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref><sp/>*<ref refid="MRContoursCut_8h_1a5fa13e35e1a15805e3b2199ef79fe9bc" kindref="member">MR_NewEdgesMap_OffsetMutablePtr</ref>(<ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="144" refid="MRContoursCut_8h_1a970e3c1cc36ce5a9d5e517bb82b95ee4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref><sp/>*<ref refid="MRContoursCut_8h_1a970e3c1cc36ce5a9d5e517bb82b95ee4" kindref="member">MR_NewEdgesMap_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="145"><highlight class="normal"></highlight></codeline>
-<codeline lineno="149" refid="MRContoursCut_8h_1a8a3a7a6572b02760994dab066d08d298" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref><sp/>*<ref refid="MRContoursCut_8h_1a8a3a7a6572b02760994dab066d08d298" kindref="member">MR_NewEdgesMap_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="150"><highlight class="normal"></highlight></codeline>
-<codeline lineno="152" refid="MRContoursCut_8h_1ac343bd334dd81f98b90c662741233bbe" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1ac343bd334dd81f98b90c662741233bbe" kindref="member">MR_NewEdgesMap_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="153"><highlight class="normal"></highlight></codeline>
-<codeline lineno="155" refid="MRContoursCut_8h_1ace5263ab69125745ee8ed65e73ec6da1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1ace5263ab69125745ee8ed65e73ec6da1" kindref="member">MR_NewEdgesMap_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="156"><highlight class="normal"></highlight></codeline>
-<codeline lineno="162" refid="MRContoursCut_8h_1aa7c7703fdaf32577d297497abf287d11" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref><sp/>*<ref refid="MRContoursCut_8h_1aa7c7703fdaf32577d297497abf287d11" kindref="member">MR_NewEdgesMap_AssignFromAnother</ref>(<ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="163"><highlight class="normal"></highlight></codeline>
-<codeline lineno="170" refid="MRContoursCut_8h_1a991150c43d8dcaf1031edae4a4426fca" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1abf340aafe859554b2c4dd858ad318988" kindref="member">MR_SortIntersectionsData</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRContoursCut_8h_1a991150c43d8dcaf1031edae4a4426fca" kindref="member">MR_CutMeshParameters_Get_sortData</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="171"><highlight class="normal"></highlight></codeline>
-<codeline lineno="179" refid="MRContoursCut_8h_1afd888c0f363603fc2f18e077727f6554" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1afd888c0f363603fc2f18e077727f6554" kindref="member">MR_CutMeshParameters_Set_sortData</ref>(<ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1abf340aafe859554b2c4dd858ad318988" kindref="member">MR_SortIntersectionsData</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="180"><highlight class="normal"></highlight></codeline>
-<codeline lineno="187" refid="MRContoursCut_8h_1a7654670fc61d93aee4bcc55f0857cc50" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1abf340aafe859554b2c4dd858ad318988" kindref="member">MR_SortIntersectionsData</ref><sp/>**<ref refid="MRContoursCut_8h_1a7654670fc61d93aee4bcc55f0857cc50" kindref="member">MR_CutMeshParameters_GetMutable_sortData</ref>(<ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="188"><highlight class="normal"></highlight></codeline>
-<codeline lineno="193" refid="MRContoursCut_8h_1af299a02287ae1d3d6eac8c6a82c8885e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBitSet_8h_1ab809347fd151b45341bc9e7828673eb5" kindref="member">MR_FaceMap</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRContoursCut_8h_1af299a02287ae1d3d6eac8c6a82c8885e" kindref="member">MR_CutMeshParameters_Get_new2OldMap</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="148" refid="MRContoursCut_8h_1a5fa13e35e1a15805e3b2199ef79fe9bc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref><sp/>*<ref refid="MRContoursCut_8h_1a5fa13e35e1a15805e3b2199ef79fe9bc" kindref="member">MR_NewEdgesMap_OffsetMutablePtr</ref>(<ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153" refid="MRContoursCut_8h_1a8a3a7a6572b02760994dab066d08d298" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref><sp/>*<ref refid="MRContoursCut_8h_1a8a3a7a6572b02760994dab066d08d298" kindref="member">MR_NewEdgesMap_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156" refid="MRContoursCut_8h_1ac343bd334dd81f98b90c662741233bbe" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1ac343bd334dd81f98b90c662741233bbe" kindref="member">MR_NewEdgesMap_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="MRContoursCut_8h_1ace5263ab69125745ee8ed65e73ec6da1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1ace5263ab69125745ee8ed65e73ec6da1" kindref="member">MR_NewEdgesMap_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166" refid="MRContoursCut_8h_1aa7c7703fdaf32577d297497abf287d11" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref><sp/>*<ref refid="MRContoursCut_8h_1aa7c7703fdaf32577d297497abf287d11" kindref="member">MR_NewEdgesMap_AssignFromAnother</ref>(<ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175" refid="MRContoursCut_8h_1a991150c43d8dcaf1031edae4a4426fca" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1abf340aafe859554b2c4dd858ad318988" kindref="member">MR_SortIntersectionsData</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRContoursCut_8h_1a991150c43d8dcaf1031edae4a4426fca" kindref="member">MR_CutMeshParameters_Get_sortData</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184" refid="MRContoursCut_8h_1afd888c0f363603fc2f18e077727f6554" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1afd888c0f363603fc2f18e077727f6554" kindref="member">MR_CutMeshParameters_Set_sortData</ref>(<ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1abf340aafe859554b2c4dd858ad318988" kindref="member">MR_SortIntersectionsData</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193" refid="MRContoursCut_8h_1a7654670fc61d93aee4bcc55f0857cc50" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1abf340aafe859554b2c4dd858ad318988" kindref="member">MR_SortIntersectionsData</ref><sp/>**<ref refid="MRContoursCut_8h_1a7654670fc61d93aee4bcc55f0857cc50" kindref="member">MR_CutMeshParameters_GetMutable_sortData</ref>(<ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="194"><highlight class="normal"></highlight></codeline>
-<codeline lineno="200" refid="MRContoursCut_8h_1ae993bb20982c4333963cb2c6349944d6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1ae993bb20982c4333963cb2c6349944d6" kindref="member">MR_CutMeshParameters_Set_new2OldMap</ref>(<ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*_this,<sp/><ref refid="MRBitSet_8h_1ab809347fd151b45341bc9e7828673eb5" kindref="member">MR_FaceMap</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="200" refid="MRContoursCut_8h_1af299a02287ae1d3d6eac8c6a82c8885e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBitSet_8h_1ab809347fd151b45341bc9e7828673eb5" kindref="member">MR_FaceMap</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRContoursCut_8h_1af299a02287ae1d3d6eac8c6a82c8885e" kindref="member">MR_CutMeshParameters_Get_new2OldMap</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="201"><highlight class="normal"></highlight></codeline>
-<codeline lineno="206" refid="MRContoursCut_8h_1a219406fe2ac46cadd3b6c85fd39104cc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBitSet_8h_1ab809347fd151b45341bc9e7828673eb5" kindref="member">MR_FaceMap</ref><sp/>**<ref refid="MRContoursCut_8h_1a219406fe2ac46cadd3b6c85fd39104cc" kindref="member">MR_CutMeshParameters_GetMutable_new2OldMap</ref>(<ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="207"><highlight class="normal"></highlight></codeline>
-<codeline lineno="211" refid="MRContoursCut_8h_1a84e8ca262d5fa647b0c0f2258d14840b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1ad88711e195698407258d2d46c2a03394" kindref="member">MR_CutMeshParameters_ForceFill</ref><sp/>*<ref refid="MRContoursCut_8h_1a84e8ca262d5fa647b0c0f2258d14840b" kindref="member">MR_CutMeshParameters_Get_forceFillMode</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="212"><highlight class="normal"></highlight></codeline>
-<codeline lineno="217" refid="MRContoursCut_8h_1ad4d83d85df3deae9d86a31df8fde85a7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1ad4d83d85df3deae9d86a31df8fde85a7" kindref="member">MR_CutMeshParameters_Set_forceFillMode</ref>(<ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*_this,<sp/><ref refid="MRContoursCut_8h_1ad88711e195698407258d2d46c2a03394" kindref="member">MR_CutMeshParameters_ForceFill</ref><sp/>value);</highlight></codeline>
-<codeline lineno="218"><highlight class="normal"></highlight></codeline>
-<codeline lineno="222" refid="MRContoursCut_8h_1adb3266a5dec2567607979d561c7ea076" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1ad88711e195698407258d2d46c2a03394" kindref="member">MR_CutMeshParameters_ForceFill</ref><sp/>*<ref refid="MRContoursCut_8h_1adb3266a5dec2567607979d561c7ea076" kindref="member">MR_CutMeshParameters_GetMutable_forceFillMode</ref>(<ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="223"><highlight class="normal"></highlight></codeline>
-<codeline lineno="228" refid="MRContoursCut_8h_1a3324d1131b125816c5b91496d42782c3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRContoursCut_8h_1a3324d1131b125816c5b91496d42782c3" kindref="member">MR_CutMeshParameters_Get_new2oldEdgesMap</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="229"><highlight class="normal"></highlight></codeline>
-<codeline lineno="235" refid="MRContoursCut_8h_1a86037f5aeae4b25cd203be86f60300fb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a86037f5aeae4b25cd203be86f60300fb" kindref="member">MR_CutMeshParameters_Set_new2oldEdgesMap</ref>(<ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*_this,<sp/><ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="236"><highlight class="normal"></highlight></codeline>
-<codeline lineno="241" refid="MRContoursCut_8h_1a276430846cddbf81c1f12cdaf9a867ee" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref><sp/>**<ref refid="MRContoursCut_8h_1a276430846cddbf81c1f12cdaf9a867ee" kindref="member">MR_CutMeshParameters_GetMutable_new2oldEdgesMap</ref>(<ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="242"><highlight class="normal"></highlight></codeline>
-<codeline lineno="245" refid="MRContoursCut_8h_1a3fbb9f74a2e0d04787e5fa2a86864b78" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*<ref refid="MRContoursCut_8h_1a3fbb9f74a2e0d04787e5fa2a86864b78" kindref="member">MR_CutMeshParameters_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="246"><highlight class="normal"></highlight></codeline>
-<codeline lineno="250" refid="MRContoursCut_8h_1af15aa4a81442ef4e55993c06195a02d4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*<ref refid="MRContoursCut_8h_1af15aa4a81442ef4e55993c06195a02d4" kindref="member">MR_CutMeshParameters_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="251"><highlight class="normal"></highlight></codeline>
-<codeline lineno="259" refid="MRContoursCut_8h_1a68acdde187b8e1731df1cbca7ee9a51e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*<ref refid="MRContoursCut_8h_1a68acdde187b8e1731df1cbca7ee9a51e" kindref="member">MR_CutMeshParameters_ConstructFrom</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1abf340aafe859554b2c4dd858ad318988" kindref="member">MR_SortIntersectionsData</ref><sp/>*sortData,<sp/><ref refid="MRBitSet_8h_1ab809347fd151b45341bc9e7828673eb5" kindref="member">MR_FaceMap</ref><sp/>*new2OldMap,<sp/><ref refid="MRContoursCut_8h_1ad88711e195698407258d2d46c2a03394" kindref="member">MR_CutMeshParameters_ForceFill</ref><sp/>forceFillMode,<sp/><ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref><sp/>*new2oldEdgesMap);</highlight></codeline>
-<codeline lineno="260"><highlight class="normal"></highlight></codeline>
-<codeline lineno="263" refid="MRContoursCut_8h_1a5a298a580f98953164bff4b280d31537" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*<ref refid="MRContoursCut_8h_1a5a298a580f98953164bff4b280d31537" kindref="member">MR_CutMeshParameters_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="264"><highlight class="normal"></highlight></codeline>
-<codeline lineno="267" refid="MRContoursCut_8h_1a8b0b54e1ecb0887db3bdcc2a9402ac2c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*<ref refid="MRContoursCut_8h_1a8b0b54e1ecb0887db3bdcc2a9402ac2c" kindref="member">MR_CutMeshParameters_OffsetMutablePtr</ref>(<ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="268"><highlight class="normal"></highlight></codeline>
-<codeline lineno="273" refid="MRContoursCut_8h_1a3a4f6c3d559831f591c2f9ae8948954b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*<ref refid="MRContoursCut_8h_1a3a4f6c3d559831f591c2f9ae8948954b" kindref="member">MR_CutMeshParameters_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="274"><highlight class="normal"></highlight></codeline>
-<codeline lineno="276" refid="MRContoursCut_8h_1ad3e074f8cc325d2492acc9bec0a386f9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1ad3e074f8cc325d2492acc9bec0a386f9" kindref="member">MR_CutMeshParameters_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="277"><highlight class="normal"></highlight></codeline>
-<codeline lineno="279" refid="MRContoursCut_8h_1a317adbedfe5c2c59b3c14629c9d0083b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a317adbedfe5c2c59b3c14629c9d0083b" kindref="member">MR_CutMeshParameters_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="207" refid="MRContoursCut_8h_1ae993bb20982c4333963cb2c6349944d6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1ae993bb20982c4333963cb2c6349944d6" kindref="member">MR_CutMeshParameters_Set_new2OldMap</ref>(<ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*_this,<sp/><ref refid="MRBitSet_8h_1ab809347fd151b45341bc9e7828673eb5" kindref="member">MR_FaceMap</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214" refid="MRContoursCut_8h_1a219406fe2ac46cadd3b6c85fd39104cc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBitSet_8h_1ab809347fd151b45341bc9e7828673eb5" kindref="member">MR_FaceMap</ref><sp/>**<ref refid="MRContoursCut_8h_1a219406fe2ac46cadd3b6c85fd39104cc" kindref="member">MR_CutMeshParameters_GetMutable_new2OldMap</ref>(<ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220" refid="MRContoursCut_8h_1a84e8ca262d5fa647b0c0f2258d14840b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1ad88711e195698407258d2d46c2a03394" kindref="member">MR_CutMeshParameters_ForceFill</ref><sp/>*<ref refid="MRContoursCut_8h_1a84e8ca262d5fa647b0c0f2258d14840b" kindref="member">MR_CutMeshParameters_Get_forceFillMode</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="226" refid="MRContoursCut_8h_1ad4d83d85df3deae9d86a31df8fde85a7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1ad4d83d85df3deae9d86a31df8fde85a7" kindref="member">MR_CutMeshParameters_Set_forceFillMode</ref>(<ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*_this,<sp/><ref refid="MRContoursCut_8h_1ad88711e195698407258d2d46c2a03394" kindref="member">MR_CutMeshParameters_ForceFill</ref><sp/>value);</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight></codeline>
+<codeline lineno="232" refid="MRContoursCut_8h_1adb3266a5dec2567607979d561c7ea076" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1ad88711e195698407258d2d46c2a03394" kindref="member">MR_CutMeshParameters_ForceFill</ref><sp/>*<ref refid="MRContoursCut_8h_1adb3266a5dec2567607979d561c7ea076" kindref="member">MR_CutMeshParameters_GetMutable_forceFillMode</ref>(<ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight></codeline>
+<codeline lineno="239" refid="MRContoursCut_8h_1a3324d1131b125816c5b91496d42782c3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRContoursCut_8h_1a3324d1131b125816c5b91496d42782c3" kindref="member">MR_CutMeshParameters_Get_new2oldEdgesMap</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight></codeline>
+<codeline lineno="246" refid="MRContoursCut_8h_1a86037f5aeae4b25cd203be86f60300fb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a86037f5aeae4b25cd203be86f60300fb" kindref="member">MR_CutMeshParameters_Set_new2oldEdgesMap</ref>(<ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*_this,<sp/><ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight></codeline>
+<codeline lineno="253" refid="MRContoursCut_8h_1a276430846cddbf81c1f12cdaf9a867ee" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref><sp/>**<ref refid="MRContoursCut_8h_1a276430846cddbf81c1f12cdaf9a867ee" kindref="member">MR_CutMeshParameters_GetMutable_new2oldEdgesMap</ref>(<ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"></highlight></codeline>
+<codeline lineno="257" refid="MRContoursCut_8h_1a3fbb9f74a2e0d04787e5fa2a86864b78" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*<ref refid="MRContoursCut_8h_1a3fbb9f74a2e0d04787e5fa2a86864b78" kindref="member">MR_CutMeshParameters_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"></highlight></codeline>
+<codeline lineno="262" refid="MRContoursCut_8h_1af15aa4a81442ef4e55993c06195a02d4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*<ref refid="MRContoursCut_8h_1af15aa4a81442ef4e55993c06195a02d4" kindref="member">MR_CutMeshParameters_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight></codeline>
+<codeline lineno="271" refid="MRContoursCut_8h_1a68acdde187b8e1731df1cbca7ee9a51e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*<ref refid="MRContoursCut_8h_1a68acdde187b8e1731df1cbca7ee9a51e" kindref="member">MR_CutMeshParameters_ConstructFrom</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1abf340aafe859554b2c4dd858ad318988" kindref="member">MR_SortIntersectionsData</ref><sp/>*sortData,<sp/><ref refid="MRBitSet_8h_1ab809347fd151b45341bc9e7828673eb5" kindref="member">MR_FaceMap</ref><sp/>*new2OldMap,<sp/><ref refid="MRContoursCut_8h_1ad88711e195698407258d2d46c2a03394" kindref="member">MR_CutMeshParameters_ForceFill</ref><sp/>forceFillMode,<sp/><ref refid="MRContoursCut_8h_1a69fca42fce5993f181e99f89af5fa322" kindref="member">MR_NewEdgesMap</ref><sp/>*new2oldEdgesMap);</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight></codeline>
+<codeline lineno="275" refid="MRContoursCut_8h_1a5a298a580f98953164bff4b280d31537" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*<ref refid="MRContoursCut_8h_1a5a298a580f98953164bff4b280d31537" kindref="member">MR_CutMeshParameters_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"></highlight></codeline>
+<codeline lineno="279" refid="MRContoursCut_8h_1a8b0b54e1ecb0887db3bdcc2a9402ac2c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*<ref refid="MRContoursCut_8h_1a8b0b54e1ecb0887db3bdcc2a9402ac2c" kindref="member">MR_CutMeshParameters_OffsetMutablePtr</ref>(<ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="280"><highlight class="normal"></highlight></codeline>
-<codeline lineno="287" refid="MRContoursCut_8h_1acbf41e7f745b23abe2df7f20313b359c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*<ref refid="MRContoursCut_8h_1acbf41e7f745b23abe2df7f20313b359c" kindref="member">MR_CutMeshParameters_AssignFromAnother</ref>(<ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="288"><highlight class="normal"></highlight></codeline>
-<codeline lineno="293" refid="MRContoursCut_8h_1ac617dc3c2a4257ba9f6bc9570abd6258" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref><sp/>*<ref refid="MRContoursCut_8h_1ac617dc3c2a4257ba9f6bc9570abd6258" kindref="member">MR_CutMeshResult_Get_resultCut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a1ef5cd763a69b557722dd0e3f63df036" kindref="member">MR_CutMeshResult</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="294"><highlight class="normal"></highlight></codeline>
-<codeline lineno="300" refid="MRContoursCut_8h_1a2d06895261b7f8dc90ca1ecafa29308e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a2d06895261b7f8dc90ca1ecafa29308e" kindref="member">MR_CutMeshResult_Set_resultCut</ref>(<ref refid="MRContoursCut_8h_1a1ef5cd763a69b557722dd0e3f63df036" kindref="member">MR_CutMeshResult</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="301"><highlight class="normal"></highlight></codeline>
-<codeline lineno="306" refid="MRContoursCut_8h_1ae81cb1075980a572596620dc66c12705" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref><sp/>*<ref refid="MRContoursCut_8h_1ae81cb1075980a572596620dc66c12705" kindref="member">MR_CutMeshResult_GetMutable_resultCut</ref>(<ref refid="MRContoursCut_8h_1a1ef5cd763a69b557722dd0e3f63df036" kindref="member">MR_CutMeshResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="285" refid="MRContoursCut_8h_1a3a4f6c3d559831f591c2f9ae8948954b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*<ref refid="MRContoursCut_8h_1a3a4f6c3d559831f591c2f9ae8948954b" kindref="member">MR_CutMeshParameters_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"></highlight></codeline>
+<codeline lineno="288" refid="MRContoursCut_8h_1ad3e074f8cc325d2492acc9bec0a386f9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1ad3e074f8cc325d2492acc9bec0a386f9" kindref="member">MR_CutMeshParameters_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"></highlight></codeline>
+<codeline lineno="291" refid="MRContoursCut_8h_1a317adbedfe5c2c59b3c14629c9d0083b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a317adbedfe5c2c59b3c14629c9d0083b" kindref="member">MR_CutMeshParameters_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"></highlight></codeline>
+<codeline lineno="299" refid="MRContoursCut_8h_1acbf41e7f745b23abe2df7f20313b359c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*<ref refid="MRContoursCut_8h_1acbf41e7f745b23abe2df7f20313b359c" kindref="member">MR_CutMeshParameters_AssignFromAnother</ref>(<ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"></highlight></codeline>
+<codeline lineno="306" refid="MRContoursCut_8h_1ac617dc3c2a4257ba9f6bc9570abd6258" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref><sp/>*<ref refid="MRContoursCut_8h_1ac617dc3c2a4257ba9f6bc9570abd6258" kindref="member">MR_CutMeshResult_Get_resultCut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a1ef5cd763a69b557722dd0e3f63df036" kindref="member">MR_CutMeshResult</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="307"><highlight class="normal"></highlight></codeline>
-<codeline lineno="313" refid="MRContoursCut_8h_1a6123d875aaeb75e2004553b828580ac5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*<ref refid="MRContoursCut_8h_1a6123d875aaeb75e2004553b828580ac5" kindref="member">MR_CutMeshResult_Get_fbsWithContourIntersections</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a1ef5cd763a69b557722dd0e3f63df036" kindref="member">MR_CutMeshResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="313" refid="MRContoursCut_8h_1a2d06895261b7f8dc90ca1ecafa29308e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a2d06895261b7f8dc90ca1ecafa29308e" kindref="member">MR_CutMeshResult_Set_resultCut</ref>(<ref refid="MRContoursCut_8h_1a1ef5cd763a69b557722dd0e3f63df036" kindref="member">MR_CutMeshResult</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="314"><highlight class="normal"></highlight></codeline>
-<codeline lineno="321" refid="MRContoursCut_8h_1a57ab336b31ff562ddf3ff683df79af46" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a57ab336b31ff562ddf3ff683df79af46" kindref="member">MR_CutMeshResult_Set_fbsWithContourIntersections</ref>(<ref refid="MRContoursCut_8h_1a1ef5cd763a69b557722dd0e3f63df036" kindref="member">MR_CutMeshResult</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="322"><highlight class="normal"></highlight></codeline>
-<codeline lineno="328" refid="MRContoursCut_8h_1a10058eeebd6bba23777db7967de77fc5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*<ref refid="MRContoursCut_8h_1a10058eeebd6bba23777db7967de77fc5" kindref="member">MR_CutMeshResult_GetMutable_fbsWithContourIntersections</ref>(<ref refid="MRContoursCut_8h_1a1ef5cd763a69b557722dd0e3f63df036" kindref="member">MR_CutMeshResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="320" refid="MRContoursCut_8h_1ae81cb1075980a572596620dc66c12705" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref><sp/>*<ref refid="MRContoursCut_8h_1ae81cb1075980a572596620dc66c12705" kindref="member">MR_CutMeshResult_GetMutable_resultCut</ref>(<ref refid="MRContoursCut_8h_1a1ef5cd763a69b557722dd0e3f63df036" kindref="member">MR_CutMeshResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"></highlight></codeline>
+<codeline lineno="328" refid="MRContoursCut_8h_1a6123d875aaeb75e2004553b828580ac5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*<ref refid="MRContoursCut_8h_1a6123d875aaeb75e2004553b828580ac5" kindref="member">MR_CutMeshResult_Get_fbsWithContourIntersections</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a1ef5cd763a69b557722dd0e3f63df036" kindref="member">MR_CutMeshResult</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="329"><highlight class="normal"></highlight></codeline>
-<codeline lineno="332" refid="MRContoursCut_8h_1ae92da8eecf9572da5aae19674a01b9c0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a1ef5cd763a69b557722dd0e3f63df036" kindref="member">MR_CutMeshResult</ref><sp/>*<ref refid="MRContoursCut_8h_1ae92da8eecf9572da5aae19674a01b9c0" kindref="member">MR_CutMeshResult_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="333"><highlight class="normal"></highlight></codeline>
-<codeline lineno="337" refid="MRContoursCut_8h_1abac348ee054409cc2a5cc60cab00c59f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a1ef5cd763a69b557722dd0e3f63df036" kindref="member">MR_CutMeshResult</ref><sp/>*<ref refid="MRContoursCut_8h_1abac348ee054409cc2a5cc60cab00c59f" kindref="member">MR_CutMeshResult_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="338"><highlight class="normal"></highlight></codeline>
-<codeline lineno="344" refid="MRContoursCut_8h_1a52b38e565fdf07b6d55ecdbd6a3aa557" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a1ef5cd763a69b557722dd0e3f63df036" kindref="member">MR_CutMeshResult</ref><sp/>*<ref refid="MRContoursCut_8h_1a52b38e565fdf07b6d55ecdbd6a3aa557" kindref="member">MR_CutMeshResult_ConstructFrom</ref>(MR_PassBy<sp/>resultCut_pass_by,<sp/><ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref><sp/>*resultCut,<sp/>MR_PassBy<sp/>fbsWithContourIntersections_pass_by,<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*fbsWithContourIntersections);</highlight></codeline>
+<codeline lineno="336" refid="MRContoursCut_8h_1a57ab336b31ff562ddf3ff683df79af46" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a57ab336b31ff562ddf3ff683df79af46" kindref="member">MR_CutMeshResult_Set_fbsWithContourIntersections</ref>(<ref refid="MRContoursCut_8h_1a1ef5cd763a69b557722dd0e3f63df036" kindref="member">MR_CutMeshResult</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="337"><highlight class="normal"></highlight></codeline>
+<codeline lineno="344" refid="MRContoursCut_8h_1a10058eeebd6bba23777db7967de77fc5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*<ref refid="MRContoursCut_8h_1a10058eeebd6bba23777db7967de77fc5" kindref="member">MR_CutMeshResult_GetMutable_fbsWithContourIntersections</ref>(<ref refid="MRContoursCut_8h_1a1ef5cd763a69b557722dd0e3f63df036" kindref="member">MR_CutMeshResult</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="345"><highlight class="normal"></highlight></codeline>
-<codeline lineno="348" refid="MRContoursCut_8h_1a6a20d53975e308f66a05b1e33af60d8b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a1ef5cd763a69b557722dd0e3f63df036" kindref="member">MR_CutMeshResult</ref><sp/>*<ref refid="MRContoursCut_8h_1a6a20d53975e308f66a05b1e33af60d8b" kindref="member">MR_CutMeshResult_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a1ef5cd763a69b557722dd0e3f63df036" kindref="member">MR_CutMeshResult</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="348" refid="MRContoursCut_8h_1ae92da8eecf9572da5aae19674a01b9c0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a1ef5cd763a69b557722dd0e3f63df036" kindref="member">MR_CutMeshResult</ref><sp/>*<ref refid="MRContoursCut_8h_1ae92da8eecf9572da5aae19674a01b9c0" kindref="member">MR_CutMeshResult_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="349"><highlight class="normal"></highlight></codeline>
-<codeline lineno="352" refid="MRContoursCut_8h_1a641f926dd5e5a8c7f37facad75e2d5ad" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a1ef5cd763a69b557722dd0e3f63df036" kindref="member">MR_CutMeshResult</ref><sp/>*<ref refid="MRContoursCut_8h_1a641f926dd5e5a8c7f37facad75e2d5ad" kindref="member">MR_CutMeshResult_OffsetMutablePtr</ref>(<ref refid="MRContoursCut_8h_1a1ef5cd763a69b557722dd0e3f63df036" kindref="member">MR_CutMeshResult</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="353"><highlight class="normal"></highlight></codeline>
-<codeline lineno="357" refid="MRContoursCut_8h_1a1c8b611314479ae3833e5c5ab867d20f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a1ef5cd763a69b557722dd0e3f63df036" kindref="member">MR_CutMeshResult</ref><sp/>*<ref refid="MRContoursCut_8h_1a1c8b611314479ae3833e5c5ab867d20f" kindref="member">MR_CutMeshResult_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRContoursCut_8h_1a1ef5cd763a69b557722dd0e3f63df036" kindref="member">MR_CutMeshResult</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="358"><highlight class="normal"></highlight></codeline>
-<codeline lineno="360" refid="MRContoursCut_8h_1a0f22861356c77dbfd0cdfdee67c3d793" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a0f22861356c77dbfd0cdfdee67c3d793" kindref="member">MR_CutMeshResult_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a1ef5cd763a69b557722dd0e3f63df036" kindref="member">MR_CutMeshResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="353" refid="MRContoursCut_8h_1abac348ee054409cc2a5cc60cab00c59f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a1ef5cd763a69b557722dd0e3f63df036" kindref="member">MR_CutMeshResult</ref><sp/>*<ref refid="MRContoursCut_8h_1abac348ee054409cc2a5cc60cab00c59f" kindref="member">MR_CutMeshResult_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="354"><highlight class="normal"></highlight></codeline>
+<codeline lineno="360" refid="MRContoursCut_8h_1a52b38e565fdf07b6d55ecdbd6a3aa557" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a1ef5cd763a69b557722dd0e3f63df036" kindref="member">MR_CutMeshResult</ref><sp/>*<ref refid="MRContoursCut_8h_1a52b38e565fdf07b6d55ecdbd6a3aa557" kindref="member">MR_CutMeshResult_ConstructFrom</ref>(MR_PassBy<sp/>resultCut_pass_by,<sp/><ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref><sp/>*resultCut,<sp/>MR_PassBy<sp/>fbsWithContourIntersections_pass_by,<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*fbsWithContourIntersections);</highlight></codeline>
 <codeline lineno="361"><highlight class="normal"></highlight></codeline>
-<codeline lineno="363" refid="MRContoursCut_8h_1aa827db0bc94be132c2fd915176eb3e15" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1aa827db0bc94be132c2fd915176eb3e15" kindref="member">MR_CutMeshResult_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a1ef5cd763a69b557722dd0e3f63df036" kindref="member">MR_CutMeshResult</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="364"><highlight class="normal"></highlight></codeline>
-<codeline lineno="370" refid="MRContoursCut_8h_1ab1f68db687fe5290a885837982f58057" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a1ef5cd763a69b557722dd0e3f63df036" kindref="member">MR_CutMeshResult</ref><sp/>*<ref refid="MRContoursCut_8h_1ab1f68db687fe5290a885837982f58057" kindref="member">MR_CutMeshResult_AssignFromAnother</ref>(<ref refid="MRContoursCut_8h_1a1ef5cd763a69b557722dd0e3f63df036" kindref="member">MR_CutMeshResult</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRContoursCut_8h_1a1ef5cd763a69b557722dd0e3f63df036" kindref="member">MR_CutMeshResult</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="371"><highlight class="normal"></highlight></codeline>
-<codeline lineno="394" refid="MRContoursCut_8h_1a137196b8b10dcd022a5bb6a85b3a8d4d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a1ef5cd763a69b557722dd0e3f63df036" kindref="member">MR_CutMeshResult</ref><sp/>*<ref refid="MRContoursCut_8h_1a137196b8b10dcd022a5bb6a85b3a8d4d" kindref="member">MR_cutMesh</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref><sp/>*contours,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*params);</highlight></codeline>
-<codeline lineno="395"><highlight class="normal"></highlight></codeline>
-<codeline lineno="407" refid="MRContoursCut_8h_1a29da5ce9fe890cb1510675a23751afd4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a6aeecd4fac2aea90513510421de3f37b" kindref="member">MR_expected_MR_FaceBitSet_std_string</ref><sp/>*<ref refid="MRContoursCut_8h_1a29da5ce9fe890cb1510675a23751afd4" kindref="member">MR_cutMeshByContour</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*contour,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*xf);</highlight></codeline>
-<codeline lineno="408"><highlight class="normal"></highlight></codeline>
-<codeline lineno="420" refid="MRContoursCut_8h_1a40cf1dd6bf4954cd7f8d4ef605210688" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a6aeecd4fac2aea90513510421de3f37b" kindref="member">MR_expected_MR_FaceBitSet_std_string</ref><sp/>*<ref refid="MRContoursCut_8h_1a40cf1dd6bf4954cd7f8d4ef605210688" kindref="member">MR_cutMeshByContours</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref><sp/>*contours,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*xf);</highlight></codeline>
-<codeline lineno="421"><highlight class="normal"></highlight></codeline>
-<codeline lineno="426" refid="MRContoursCut_8h_1aeb6f4be629aa2160044bf1794e77d518" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRContoursCut_8h_1aeb6f4be629aa2160044bf1794e77d518" kindref="member">MR_CutByProjectionSettings_Get_direction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a4b06ea63ec08a6f2c1a5cf99b29cc3ff" kindref="member">MR_CutByProjectionSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="427"><highlight class="normal"></highlight></codeline>
-<codeline lineno="433" refid="MRContoursCut_8h_1a334ec3cb892b2dc08350677d86cbbe43" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a334ec3cb892b2dc08350677d86cbbe43" kindref="member">MR_CutByProjectionSettings_Set_direction</ref>(<ref refid="MRContoursCut_8h_1a4b06ea63ec08a6f2c1a5cf99b29cc3ff" kindref="member">MR_CutByProjectionSettings</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>value);</highlight></codeline>
-<codeline lineno="434"><highlight class="normal"></highlight></codeline>
-<codeline lineno="439" refid="MRContoursCut_8h_1a6495d3b31e3152caa4332c88c5f3f468" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRContoursCut_8h_1a6495d3b31e3152caa4332c88c5f3f468" kindref="member">MR_CutByProjectionSettings_GetMutable_direction</ref>(<ref refid="MRContoursCut_8h_1a4b06ea63ec08a6f2c1a5cf99b29cc3ff" kindref="member">MR_CutByProjectionSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="440"><highlight class="normal"></highlight></codeline>
-<codeline lineno="445" refid="MRContoursCut_8h_1a924f1f67bfbc1da723f7b908de7ba6d1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRContoursCut_8h_1a924f1f67bfbc1da723f7b908de7ba6d1" kindref="member">MR_CutByProjectionSettings_Get_cont2mesh</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a4b06ea63ec08a6f2c1a5cf99b29cc3ff" kindref="member">MR_CutByProjectionSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="446"><highlight class="normal"></highlight></codeline>
-<codeline lineno="452" refid="MRContoursCut_8h_1a73fd4a4de36d90b53b3836aedfd47b9a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a73fd4a4de36d90b53b3836aedfd47b9a" kindref="member">MR_CutByProjectionSettings_Set_cont2mesh</ref>(<ref refid="MRContoursCut_8h_1a4b06ea63ec08a6f2c1a5cf99b29cc3ff" kindref="member">MR_CutByProjectionSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="453"><highlight class="normal"></highlight></codeline>
-<codeline lineno="458" refid="MRContoursCut_8h_1a3c7ed4f09a3b322fd09c30ea9ab00731" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>**<ref refid="MRContoursCut_8h_1a3c7ed4f09a3b322fd09c30ea9ab00731" kindref="member">MR_CutByProjectionSettings_GetMutable_cont2mesh</ref>(<ref refid="MRContoursCut_8h_1a4b06ea63ec08a6f2c1a5cf99b29cc3ff" kindref="member">MR_CutByProjectionSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="459"><highlight class="normal"></highlight></codeline>
-<codeline lineno="462" refid="MRContoursCut_8h_1a8e89a73f2ee8ce1fa4b266f19dfeceb5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a4b06ea63ec08a6f2c1a5cf99b29cc3ff" kindref="member">MR_CutByProjectionSettings</ref><sp/>*<ref refid="MRContoursCut_8h_1a8e89a73f2ee8ce1fa4b266f19dfeceb5" kindref="member">MR_CutByProjectionSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="463"><highlight class="normal"></highlight></codeline>
-<codeline lineno="467" refid="MRContoursCut_8h_1a2aa6ec12a6e08d43ee0a52b4e4c92495" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a4b06ea63ec08a6f2c1a5cf99b29cc3ff" kindref="member">MR_CutByProjectionSettings</ref><sp/>*<ref refid="MRContoursCut_8h_1a2aa6ec12a6e08d43ee0a52b4e4c92495" kindref="member">MR_CutByProjectionSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="468"><highlight class="normal"></highlight></codeline>
-<codeline lineno="474" refid="MRContoursCut_8h_1a1890924ddc887f21bb5f5d12cf80d467" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a4b06ea63ec08a6f2c1a5cf99b29cc3ff" kindref="member">MR_CutByProjectionSettings</ref><sp/>*<ref refid="MRContoursCut_8h_1a1890924ddc887f21bb5f5d12cf80d467" kindref="member">MR_CutByProjectionSettings_ConstructFrom</ref>(<ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>direction,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*cont2mesh);</highlight></codeline>
-<codeline lineno="475"><highlight class="normal"></highlight></codeline>
-<codeline lineno="478" refid="MRContoursCut_8h_1a0c7ccd64edd3e2885126d77cff1b6022" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a4b06ea63ec08a6f2c1a5cf99b29cc3ff" kindref="member">MR_CutByProjectionSettings</ref><sp/>*<ref refid="MRContoursCut_8h_1a0c7ccd64edd3e2885126d77cff1b6022" kindref="member">MR_CutByProjectionSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a4b06ea63ec08a6f2c1a5cf99b29cc3ff" kindref="member">MR_CutByProjectionSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="364" refid="MRContoursCut_8h_1a6a20d53975e308f66a05b1e33af60d8b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a1ef5cd763a69b557722dd0e3f63df036" kindref="member">MR_CutMeshResult</ref><sp/>*<ref refid="MRContoursCut_8h_1a6a20d53975e308f66a05b1e33af60d8b" kindref="member">MR_CutMeshResult_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a1ef5cd763a69b557722dd0e3f63df036" kindref="member">MR_CutMeshResult</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="365"><highlight class="normal"></highlight></codeline>
+<codeline lineno="368" refid="MRContoursCut_8h_1a641f926dd5e5a8c7f37facad75e2d5ad" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a1ef5cd763a69b557722dd0e3f63df036" kindref="member">MR_CutMeshResult</ref><sp/>*<ref refid="MRContoursCut_8h_1a641f926dd5e5a8c7f37facad75e2d5ad" kindref="member">MR_CutMeshResult_OffsetMutablePtr</ref>(<ref refid="MRContoursCut_8h_1a1ef5cd763a69b557722dd0e3f63df036" kindref="member">MR_CutMeshResult</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="369"><highlight class="normal"></highlight></codeline>
+<codeline lineno="373" refid="MRContoursCut_8h_1a1c8b611314479ae3833e5c5ab867d20f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a1ef5cd763a69b557722dd0e3f63df036" kindref="member">MR_CutMeshResult</ref><sp/>*<ref refid="MRContoursCut_8h_1a1c8b611314479ae3833e5c5ab867d20f" kindref="member">MR_CutMeshResult_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRContoursCut_8h_1a1ef5cd763a69b557722dd0e3f63df036" kindref="member">MR_CutMeshResult</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="374"><highlight class="normal"></highlight></codeline>
+<codeline lineno="376" refid="MRContoursCut_8h_1a0f22861356c77dbfd0cdfdee67c3d793" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a0f22861356c77dbfd0cdfdee67c3d793" kindref="member">MR_CutMeshResult_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a1ef5cd763a69b557722dd0e3f63df036" kindref="member">MR_CutMeshResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="377"><highlight class="normal"></highlight></codeline>
+<codeline lineno="379" refid="MRContoursCut_8h_1aa827db0bc94be132c2fd915176eb3e15" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1aa827db0bc94be132c2fd915176eb3e15" kindref="member">MR_CutMeshResult_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a1ef5cd763a69b557722dd0e3f63df036" kindref="member">MR_CutMeshResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="380"><highlight class="normal"></highlight></codeline>
+<codeline lineno="386" refid="MRContoursCut_8h_1ab1f68db687fe5290a885837982f58057" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a1ef5cd763a69b557722dd0e3f63df036" kindref="member">MR_CutMeshResult</ref><sp/>*<ref refid="MRContoursCut_8h_1ab1f68db687fe5290a885837982f58057" kindref="member">MR_CutMeshResult_AssignFromAnother</ref>(<ref refid="MRContoursCut_8h_1a1ef5cd763a69b557722dd0e3f63df036" kindref="member">MR_CutMeshResult</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRContoursCut_8h_1a1ef5cd763a69b557722dd0e3f63df036" kindref="member">MR_CutMeshResult</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="387"><highlight class="normal"></highlight></codeline>
+<codeline lineno="410" refid="MRContoursCut_8h_1a137196b8b10dcd022a5bb6a85b3a8d4d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a1ef5cd763a69b557722dd0e3f63df036" kindref="member">MR_CutMeshResult</ref><sp/>*<ref refid="MRContoursCut_8h_1a137196b8b10dcd022a5bb6a85b3a8d4d" kindref="member">MR_cutMesh</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref><sp/>*contours,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a646e06afd435d75b5a8c8d01602aa5eb" kindref="member">MR_CutMeshParameters</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="411"><highlight class="normal"></highlight></codeline>
+<codeline lineno="423" refid="MRContoursCut_8h_1a29da5ce9fe890cb1510675a23751afd4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a6aeecd4fac2aea90513510421de3f37b" kindref="member">MR_expected_MR_FaceBitSet_std_string</ref><sp/>*<ref refid="MRContoursCut_8h_1a29da5ce9fe890cb1510675a23751afd4" kindref="member">MR_cutMeshByContour</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*contour,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*xf);</highlight></codeline>
+<codeline lineno="424"><highlight class="normal"></highlight></codeline>
+<codeline lineno="436" refid="MRContoursCut_8h_1a40cf1dd6bf4954cd7f8d4ef605210688" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a6aeecd4fac2aea90513510421de3f37b" kindref="member">MR_expected_MR_FaceBitSet_std_string</ref><sp/>*<ref refid="MRContoursCut_8h_1a40cf1dd6bf4954cd7f8d4ef605210688" kindref="member">MR_cutMeshByContours</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref><sp/>*contours,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*xf);</highlight></codeline>
+<codeline lineno="437"><highlight class="normal"></highlight></codeline>
+<codeline lineno="443" refid="MRContoursCut_8h_1aeb6f4be629aa2160044bf1794e77d518" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRContoursCut_8h_1aeb6f4be629aa2160044bf1794e77d518" kindref="member">MR_CutByProjectionSettings_Get_direction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a4b06ea63ec08a6f2c1a5cf99b29cc3ff" kindref="member">MR_CutByProjectionSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="444"><highlight class="normal"></highlight></codeline>
+<codeline lineno="450" refid="MRContoursCut_8h_1a334ec3cb892b2dc08350677d86cbbe43" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a334ec3cb892b2dc08350677d86cbbe43" kindref="member">MR_CutByProjectionSettings_Set_direction</ref>(<ref refid="MRContoursCut_8h_1a4b06ea63ec08a6f2c1a5cf99b29cc3ff" kindref="member">MR_CutByProjectionSettings</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>value);</highlight></codeline>
+<codeline lineno="451"><highlight class="normal"></highlight></codeline>
+<codeline lineno="457" refid="MRContoursCut_8h_1a6495d3b31e3152caa4332c88c5f3f468" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRContoursCut_8h_1a6495d3b31e3152caa4332c88c5f3f468" kindref="member">MR_CutByProjectionSettings_GetMutable_direction</ref>(<ref refid="MRContoursCut_8h_1a4b06ea63ec08a6f2c1a5cf99b29cc3ff" kindref="member">MR_CutByProjectionSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="458"><highlight class="normal"></highlight></codeline>
+<codeline lineno="464" refid="MRContoursCut_8h_1a924f1f67bfbc1da723f7b908de7ba6d1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRContoursCut_8h_1a924f1f67bfbc1da723f7b908de7ba6d1" kindref="member">MR_CutByProjectionSettings_Get_cont2mesh</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a4b06ea63ec08a6f2c1a5cf99b29cc3ff" kindref="member">MR_CutByProjectionSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="465"><highlight class="normal"></highlight></codeline>
+<codeline lineno="471" refid="MRContoursCut_8h_1a73fd4a4de36d90b53b3836aedfd47b9a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a73fd4a4de36d90b53b3836aedfd47b9a" kindref="member">MR_CutByProjectionSettings_Set_cont2mesh</ref>(<ref refid="MRContoursCut_8h_1a4b06ea63ec08a6f2c1a5cf99b29cc3ff" kindref="member">MR_CutByProjectionSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="472"><highlight class="normal"></highlight></codeline>
+<codeline lineno="478" refid="MRContoursCut_8h_1a3c7ed4f09a3b322fd09c30ea9ab00731" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>**<ref refid="MRContoursCut_8h_1a3c7ed4f09a3b322fd09c30ea9ab00731" kindref="member">MR_CutByProjectionSettings_GetMutable_cont2mesh</ref>(<ref refid="MRContoursCut_8h_1a4b06ea63ec08a6f2c1a5cf99b29cc3ff" kindref="member">MR_CutByProjectionSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="479"><highlight class="normal"></highlight></codeline>
-<codeline lineno="482" refid="MRContoursCut_8h_1aec3968301c9a9d7f7e15413ea01d5063" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a4b06ea63ec08a6f2c1a5cf99b29cc3ff" kindref="member">MR_CutByProjectionSettings</ref><sp/>*<ref refid="MRContoursCut_8h_1aec3968301c9a9d7f7e15413ea01d5063" kindref="member">MR_CutByProjectionSettings_OffsetMutablePtr</ref>(<ref refid="MRContoursCut_8h_1a4b06ea63ec08a6f2c1a5cf99b29cc3ff" kindref="member">MR_CutByProjectionSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="482" refid="MRContoursCut_8h_1a8e89a73f2ee8ce1fa4b266f19dfeceb5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a4b06ea63ec08a6f2c1a5cf99b29cc3ff" kindref="member">MR_CutByProjectionSettings</ref><sp/>*<ref refid="MRContoursCut_8h_1a8e89a73f2ee8ce1fa4b266f19dfeceb5" kindref="member">MR_CutByProjectionSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="483"><highlight class="normal"></highlight></codeline>
-<codeline lineno="488" refid="MRContoursCut_8h_1a1a63b95caccce52467559c75e1895062" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a4b06ea63ec08a6f2c1a5cf99b29cc3ff" kindref="member">MR_CutByProjectionSettings</ref><sp/>*<ref refid="MRContoursCut_8h_1a1a63b95caccce52467559c75e1895062" kindref="member">MR_CutByProjectionSettings_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a4b06ea63ec08a6f2c1a5cf99b29cc3ff" kindref="member">MR_CutByProjectionSettings</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="489"><highlight class="normal"></highlight></codeline>
-<codeline lineno="491" refid="MRContoursCut_8h_1a104c867313cba06f249b6a6eb0b8e5b2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a104c867313cba06f249b6a6eb0b8e5b2" kindref="member">MR_CutByProjectionSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a4b06ea63ec08a6f2c1a5cf99b29cc3ff" kindref="member">MR_CutByProjectionSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="492"><highlight class="normal"></highlight></codeline>
-<codeline lineno="494" refid="MRContoursCut_8h_1ab7c973aa816d8cb9e34b96d415e23c0c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1ab7c973aa816d8cb9e34b96d415e23c0c" kindref="member">MR_CutByProjectionSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a4b06ea63ec08a6f2c1a5cf99b29cc3ff" kindref="member">MR_CutByProjectionSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="487" refid="MRContoursCut_8h_1a2aa6ec12a6e08d43ee0a52b4e4c92495" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a4b06ea63ec08a6f2c1a5cf99b29cc3ff" kindref="member">MR_CutByProjectionSettings</ref><sp/>*<ref refid="MRContoursCut_8h_1a2aa6ec12a6e08d43ee0a52b4e4c92495" kindref="member">MR_CutByProjectionSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="488"><highlight class="normal"></highlight></codeline>
+<codeline lineno="494" refid="MRContoursCut_8h_1a1890924ddc887f21bb5f5d12cf80d467" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a4b06ea63ec08a6f2c1a5cf99b29cc3ff" kindref="member">MR_CutByProjectionSettings</ref><sp/>*<ref refid="MRContoursCut_8h_1a1890924ddc887f21bb5f5d12cf80d467" kindref="member">MR_CutByProjectionSettings_ConstructFrom</ref>(<ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>direction,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*cont2mesh);</highlight></codeline>
 <codeline lineno="495"><highlight class="normal"></highlight></codeline>
-<codeline lineno="502" refid="MRContoursCut_8h_1a412cbdbaa9b68d53a897d33fbcbf4ec1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a4b06ea63ec08a6f2c1a5cf99b29cc3ff" kindref="member">MR_CutByProjectionSettings</ref><sp/>*<ref refid="MRContoursCut_8h_1a412cbdbaa9b68d53a897d33fbcbf4ec1" kindref="member">MR_CutByProjectionSettings_AssignFromAnother</ref>(<ref refid="MRContoursCut_8h_1a4b06ea63ec08a6f2c1a5cf99b29cc3ff" kindref="member">MR_CutByProjectionSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a4b06ea63ec08a6f2c1a5cf99b29cc3ff" kindref="member">MR_CutByProjectionSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="498" refid="MRContoursCut_8h_1a0c7ccd64edd3e2885126d77cff1b6022" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a4b06ea63ec08a6f2c1a5cf99b29cc3ff" kindref="member">MR_CutByProjectionSettings</ref><sp/>*<ref refid="MRContoursCut_8h_1a0c7ccd64edd3e2885126d77cff1b6022" kindref="member">MR_CutByProjectionSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a4b06ea63ec08a6f2c1a5cf99b29cc3ff" kindref="member">MR_CutByProjectionSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="499"><highlight class="normal"></highlight></codeline>
+<codeline lineno="502" refid="MRContoursCut_8h_1aec3968301c9a9d7f7e15413ea01d5063" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a4b06ea63ec08a6f2c1a5cf99b29cc3ff" kindref="member">MR_CutByProjectionSettings</ref><sp/>*<ref refid="MRContoursCut_8h_1aec3968301c9a9d7f7e15413ea01d5063" kindref="member">MR_CutByProjectionSettings_OffsetMutablePtr</ref>(<ref refid="MRContoursCut_8h_1a4b06ea63ec08a6f2c1a5cf99b29cc3ff" kindref="member">MR_CutByProjectionSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="503"><highlight class="normal"></highlight></codeline>
-<codeline lineno="518" refid="MRContoursCut_8h_1a03b8a6f92dec9b222dc364c7151d33df" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1afbb58c6b3a4c5746c9ae773c02b24591" kindref="member">MR_expected_std_vector_std_vector_MR_EdgeId_std_string</ref><sp/>*<ref refid="MRContoursCut_8h_1a03b8a6f92dec9b222dc364c7151d33df" kindref="member">MR_cutMeshByProjection</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref><sp/>*contours,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a4b06ea63ec08a6f2c1a5cf99b29cc3ff" kindref="member">MR_CutByProjectionSettings</ref><sp/>*settings);</highlight></codeline>
-<codeline lineno="519"><highlight class="normal"></highlight></codeline>
-<codeline lineno="533" refid="MRContoursCut_8h_1a1211d658133a8cec342d464c04f3afd2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a4be6517a31b66da090092aa8bb37c304" kindref="member">MR_expected_std_vector_MR_OneMeshContour_std_string</ref><sp/>*<ref refid="MRContoursCut_8h_1a1211d658133a8cec342d464c04f3afd2" kindref="member">MR_convertMeshTriPointsSurfaceOffsetToMeshContours_float</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*surfaceLine,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>offset,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a8148a83a9f1530146fb64e96c19511b8" kindref="member">MR_SearchPathSettings</ref><sp/>*searchSettings);</highlight></codeline>
-<codeline lineno="534"><highlight class="normal"></highlight></codeline>
-<codeline lineno="549" refid="MRContoursCut_8h_1a470f587a93585b221f6cc2dfc1829ad3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a4be6517a31b66da090092aa8bb37c304" kindref="member">MR_expected_std_vector_MR_OneMeshContour_std_string</ref><sp/>*<ref refid="MRContoursCut_8h_1a470f587a93585b221f6cc2dfc1829ad3" kindref="member">MR_convertMeshTriPointsSurfaceOffsetToMeshContours_std_function_float_func_from_int</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*surfaceLine,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a984bdb18a92ceb4f93e877ad306ad832" kindref="member">MR_std_function_float_from_int</ref><sp/>*offsetAtPoint,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a8148a83a9f1530146fb64e96c19511b8" kindref="member">MR_SearchPathSettings</ref><sp/>*searchSettings);</highlight></codeline>
-<codeline lineno="550"><highlight class="normal"></highlight></codeline>
-<codeline lineno="551"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="552"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="553"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="508" refid="MRContoursCut_8h_1a1a63b95caccce52467559c75e1895062" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a4b06ea63ec08a6f2c1a5cf99b29cc3ff" kindref="member">MR_CutByProjectionSettings</ref><sp/>*<ref refid="MRContoursCut_8h_1a1a63b95caccce52467559c75e1895062" kindref="member">MR_CutByProjectionSettings_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a4b06ea63ec08a6f2c1a5cf99b29cc3ff" kindref="member">MR_CutByProjectionSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="509"><highlight class="normal"></highlight></codeline>
+<codeline lineno="511" refid="MRContoursCut_8h_1a104c867313cba06f249b6a6eb0b8e5b2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a104c867313cba06f249b6a6eb0b8e5b2" kindref="member">MR_CutByProjectionSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a4b06ea63ec08a6f2c1a5cf99b29cc3ff" kindref="member">MR_CutByProjectionSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="512"><highlight class="normal"></highlight></codeline>
+<codeline lineno="514" refid="MRContoursCut_8h_1ab7c973aa816d8cb9e34b96d415e23c0c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1ab7c973aa816d8cb9e34b96d415e23c0c" kindref="member">MR_CutByProjectionSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a4b06ea63ec08a6f2c1a5cf99b29cc3ff" kindref="member">MR_CutByProjectionSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="515"><highlight class="normal"></highlight></codeline>
+<codeline lineno="522" refid="MRContoursCut_8h_1a412cbdbaa9b68d53a897d33fbcbf4ec1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a4b06ea63ec08a6f2c1a5cf99b29cc3ff" kindref="member">MR_CutByProjectionSettings</ref><sp/>*<ref refid="MRContoursCut_8h_1a412cbdbaa9b68d53a897d33fbcbf4ec1" kindref="member">MR_CutByProjectionSettings_AssignFromAnother</ref>(<ref refid="MRContoursCut_8h_1a4b06ea63ec08a6f2c1a5cf99b29cc3ff" kindref="member">MR_CutByProjectionSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a4b06ea63ec08a6f2c1a5cf99b29cc3ff" kindref="member">MR_CutByProjectionSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="523"><highlight class="normal"></highlight></codeline>
+<codeline lineno="538" refid="MRContoursCut_8h_1a03b8a6f92dec9b222dc364c7151d33df" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1afbb58c6b3a4c5746c9ae773c02b24591" kindref="member">MR_expected_std_vector_std_vector_MR_EdgeId_std_string</ref><sp/>*<ref refid="MRContoursCut_8h_1a03b8a6f92dec9b222dc364c7151d33df" kindref="member">MR_cutMeshByProjection</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref><sp/>*contours,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a4b06ea63ec08a6f2c1a5cf99b29cc3ff" kindref="member">MR_CutByProjectionSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="539"><highlight class="normal"></highlight></codeline>
+<codeline lineno="553" refid="MRContoursCut_8h_1a1211d658133a8cec342d464c04f3afd2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a4be6517a31b66da090092aa8bb37c304" kindref="member">MR_expected_std_vector_MR_OneMeshContour_std_string</ref><sp/>*<ref refid="MRContoursCut_8h_1a1211d658133a8cec342d464c04f3afd2" kindref="member">MR_convertMeshTriPointsSurfaceOffsetToMeshContours_float</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*surfaceLine,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>offset,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a8148a83a9f1530146fb64e96c19511b8" kindref="member">MR_SearchPathSettings</ref><sp/>*searchSettings);</highlight></codeline>
+<codeline lineno="554"><highlight class="normal"></highlight></codeline>
+<codeline lineno="569" refid="MRContoursCut_8h_1a470f587a93585b221f6cc2dfc1829ad3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a4be6517a31b66da090092aa8bb37c304" kindref="member">MR_expected_std_vector_MR_OneMeshContour_std_string</ref><sp/>*<ref refid="MRContoursCut_8h_1a470f587a93585b221f6cc2dfc1829ad3" kindref="member">MR_convertMeshTriPointsSurfaceOffsetToMeshContours_std_function_float_func_from_int</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*surfaceLine,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a984bdb18a92ceb4f93e877ad306ad832" kindref="member">MR_std_function_float_from_int</ref><sp/>*offsetAtPoint,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a8148a83a9f1530146fb64e96c19511b8" kindref="member">MR_SearchPathSettings</ref><sp/>*searchSettings);</highlight></codeline>
+<codeline lineno="570"><highlight class="normal"></highlight></codeline>
+<codeline lineno="571"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="572"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="573"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContoursCut.h"/>
   </compounddef>

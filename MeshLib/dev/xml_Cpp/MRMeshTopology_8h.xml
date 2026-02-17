@@ -198,6 +198,8 @@
       <node id="17">
         <label>MRVector.h</label>
         <link refid="MRVector_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="18" relation="include">
@@ -945,7 +947,7 @@
 <codeline lineno="662"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;T, I&gt;</ref><sp/>newVector;</highlight></codeline>
 <codeline lineno="663"><highlight class="normal"><sp/><sp/><sp/><sp/>newVector.<ref refid="classMR_1_1Vector_1a2c8202f5b1a09ebf0bd5a5a3dc2936fd" kindref="member">resize</ref>(<sp/>map.<ref refid="structMR_1_1BMap_1a82445cec627eb947404a79b0b670c515" kindref="member">tsize</ref><sp/>);</highlight></codeline>
 <codeline lineno="664"><highlight class="normal"></highlight></codeline>
-<codeline lineno="665"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>mData<sp/>=<sp/>map.<ref refid="structMR_1_1BMap_1a092cf8a0fd74634e6e4d50b8cfc9956d" kindref="member">b</ref>.<ref refid="classMR_1_1Buffer_1a41da905f71d8b9c53aa517dae7af261a" kindref="member">data</ref>();</highlight></codeline>
+<codeline lineno="665"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>mData<sp/>=<sp/>map.<ref refid="structMR_1_1BMap_1a092cf8a0fd74634e6e4d50b8cfc9956d" kindref="member">b</ref>.<ref refid="classMR_1_1Buffer_1a79d249b54f548c80301087afb680c68c" kindref="member">data</ref>();</highlight></codeline>
 <codeline lineno="666"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>sz<sp/>=<sp/>std::min(<sp/>oldVector.<ref refid="classMR_1_1Vector_1a2816ffd002bac70ab04d1bd18e2c5cfd" kindref="member">size</ref>(),<sp/>map.<ref refid="structMR_1_1BMap_1a092cf8a0fd74634e6e4d50b8cfc9956d" kindref="member">b</ref>.<ref refid="classMR_1_1Buffer_1a40bf924b784b4438431f70517b950d70" kindref="member">size</ref>()<sp/>);</highlight></codeline>
 <codeline lineno="667"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<sp/><ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref><sp/>i<sp/>=<sp/><ref refid="namespaceMR_1aae89e209e34f26d7ae6dcc7b5e7d2851" kindref="member">I</ref>(0);<sp/>i<sp/>&lt;<sp/>sz;<sp/>++i)</highlight></codeline>
 <codeline lineno="668"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>

@@ -168,11 +168,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the amount of offset for original mesh vertices Returns a pointer to a member variable of class <computeroutput>MR::ThickenParams</computeroutput> named <computeroutput>outsideOffset</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>the amount of offset for original mesh vertices Returns a pointer to a member variable of class <computeroutput>MR::ThickenParams</computeroutput> named <computeroutput>outsideOffset</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="41" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="41" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="42" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="42" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MROffsetVerts_8h_1a80e6d6a5a9add6b0ab5cbe6428c4a1ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -194,7 +194,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="47" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="47" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="48" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="48" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MROffsetVerts_8h_1afe1a6e565a662d454f26324543cd25b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float *</type>
@@ -208,11 +208,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the amount of offset for original mesh vertices Returns a mutable pointer to a member variable of class <computeroutput>MR::ThickenParams</computeroutput> named <computeroutput>outsideOffset</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>the amount of offset for original mesh vertices Returns a mutable pointer to a member variable of class <computeroutput>MR::ThickenParams</computeroutput> named <computeroutput>outsideOffset</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="53" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="53" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="55" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="55" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MROffsetVerts_8h_1a07600a1b74173ca94d343f4a1885702f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const float *</type>
@@ -226,11 +226,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the amount of offset for cloned mirrored mesh vertices in the opposite direction Returns a pointer to a member variable of class <computeroutput>MR::ThickenParams</computeroutput> named <computeroutput>insideOffset</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>the amount of offset for cloned mirrored mesh vertices in the opposite direction Returns a pointer to a member variable of class <computeroutput>MR::ThickenParams</computeroutput> named <computeroutput>insideOffset</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="59" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="59" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="62" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="62" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MROffsetVerts_8h_1a283aa0fd4ead40a649a6af438e45696e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -252,7 +252,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="65" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="65" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="68" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="68" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MROffsetVerts_8h_1a975f592bf1b8ba08d250c4a8753c8ecc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float *</type>
@@ -266,11 +266,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the amount of offset for cloned mirrored mesh vertices in the opposite direction Returns a mutable pointer to a member variable of class <computeroutput>MR::ThickenParams</computeroutput> named <computeroutput>insideOffset</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>the amount of offset for cloned mirrored mesh vertices in the opposite direction Returns a mutable pointer to a member variable of class <computeroutput>MR::ThickenParams</computeroutput> named <computeroutput>insideOffset</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="71" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="71" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="75" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="75" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MROffsetVerts_8h_1a88c0516d46724ea0428cd7964bd69c16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const float *</type>
@@ -284,11 +284,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>increasing this value will lead mesh vertices to shift in the directions closer to their raw pseudo-normals, but it will increase the probability of self-intersections as well; decreasing (to a positive value) will on the contrary make the field of shift directions smoother Returns a pointer to a member variable of class <computeroutput>MR::ThickenParams</computeroutput> named <computeroutput>normalsTrustFactor</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>increasing this value will lead mesh vertices to shift in the directions closer to their raw pseudo-normals, but it will increase the probability of self-intersections as well; decreasing (to a positive value) will on the contrary make the field of shift directions smoother Returns a pointer to a member variable of class <computeroutput>MR::ThickenParams</computeroutput> named <computeroutput>normalsTrustFactor</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="79" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="79" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="84" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="84" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MROffsetVerts_8h_1a24f803ad1bed1cc5dd6f1e875f66d60f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -310,7 +310,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="87" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="87" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="92" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="92" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MROffsetVerts_8h_1a654bfb8a1524f86e2a22ff5d849e12f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float *</type>
@@ -324,11 +324,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>increasing this value will lead mesh vertices to shift in the directions closer to their raw pseudo-normals, but it will increase the probability of self-intersections as well; decreasing (to a positive value) will on the contrary make the field of shift directions smoother Returns a mutable pointer to a member variable of class <computeroutput>MR::ThickenParams</computeroutput> named <computeroutput>normalsTrustFactor</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>increasing this value will lead mesh vertices to shift in the directions closer to their raw pseudo-normals, but it will increase the probability of self-intersections as well; decreasing (to a positive value) will on the contrary make the field of shift directions smoother Returns a mutable pointer to a member variable of class <computeroutput>MR::ThickenParams</computeroutput> named <computeroutput>normalsTrustFactor</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="95" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="95" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="101" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="101" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MROffsetVerts_8h_1a73c373fae021f9a63fe4916ff20a50dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref> *</type>
@@ -345,7 +345,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="99" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="99" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="105" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="105" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MROffsetVerts_8h_1a628738312092b1cd376a0e2fcf415e0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref> *</type>
@@ -363,7 +363,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="104" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="104" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="110" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="110" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MROffsetVerts_8h_1a5f604468fd08db38dbec304e7ff4cdf6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref> *</type>
@@ -389,7 +389,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="109" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="109" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="115" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="115" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MROffsetVerts_8h_1a90c64dddbbc768d6ea4a6883091bb70b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref> *</type>
@@ -411,7 +411,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="113" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="113" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="119" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="119" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MROffsetVerts_8h_1a13f4514891e110a6e33aa6feb0b47acf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref> *</type>
@@ -433,7 +433,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="117" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="117" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="123" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="123" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MROffsetVerts_8h_1a722188efdbe1b2c43897e5b0b6809c88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref> *</type>
@@ -451,7 +451,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="123" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="123" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="129" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="129" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MROffsetVerts_8h_1a0c19d2437ae0ea52dea8a99f62099a55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -469,7 +469,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="126" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="126" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="132" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="132" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MROffsetVerts_8h_1aae23912cafbce5a2ee7036c7f5f656c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -487,7 +487,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="129" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="129" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="135" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="135" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MROffsetVerts_8h_1a4f7b6c93f13b6fb9e266f4aa80f4e2d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref> *</type>
@@ -509,7 +509,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="137" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="137" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="143" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="143" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MROffsetVerts_8h_1a17ec19d8ea4c71d7d676e78dce6292c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
@@ -531,7 +531,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="146" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="146" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="152" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="152" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="MROffsetVerts_8h_1abfac63b6c67ac203195428a1a731e3c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const float *</type>
@@ -545,11 +545,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>shift of mesh parts orthogonal to Z-axis with normal against Z-axis; for other mesh parts the shift will be less and will depend on the angle between point pseudo-normal and Z-axis Returns a pointer to a member variable of class <computeroutput>MR::ZCompensateParams</computeroutput> named <computeroutput>maxShift</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>shift of mesh parts orthogonal to Z-axis with normal against Z-axis; for other mesh parts the shift will be less and will depend on the angle between point pseudo-normal and Z-axis Returns a pointer to a member variable of class <computeroutput>MR::ZCompensateParams</computeroutput> named <computeroutput>maxShift</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="153" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="153" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="160" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="160" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MROffsetVerts_8h_1ae721f1f01be2ebcff815c416f7222f5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -571,7 +571,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="160" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="160" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="167" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="167" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MROffsetVerts_8h_1ad3dbb60a3651d76ca61b51a871298a7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float *</type>
@@ -585,11 +585,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>shift of mesh parts orthogonal to Z-axis with normal against Z-axis; for other mesh parts the shift will be less and will depend on the angle between point pseudo-normal and Z-axis Returns a mutable pointer to a member variable of class <computeroutput>MR::ZCompensateParams</computeroutput> named <computeroutput>maxShift</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>shift of mesh parts orthogonal to Z-axis with normal against Z-axis; for other mesh parts the shift will be less and will depend on the angle between point pseudo-normal and Z-axis Returns a mutable pointer to a member variable of class <computeroutput>MR::ZCompensateParams</computeroutput> named <computeroutput>maxShift</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="167" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="167" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="175" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="175" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MROffsetVerts_8h_1ac37d822d715e020a4a5d0f5662a2d980" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const bool *</type>
@@ -603,11 +603,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if true, limits the movement of each vertex to reduce self-intersections in the mesh Returns a pointer to a member variable of class <computeroutput>MR::ZCompensateParams</computeroutput> named <computeroutput>reduceSelfIntersections</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>if true, limits the movement of each vertex to reduce self-intersections in the mesh Returns a pointer to a member variable of class <computeroutput>MR::ZCompensateParams</computeroutput> named <computeroutput>reduceSelfIntersections</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="173" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="173" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="182" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="182" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MROffsetVerts_8h_1ae937cd31bd31cd25e5453adef6aa7b12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -629,7 +629,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="179" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="179" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="188" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="188" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MROffsetVerts_8h_1afafab625c2ef0d5d30ebcecf5b4705b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool *</type>
@@ -643,11 +643,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if true, limits the movement of each vertex to reduce self-intersections in the mesh Returns a mutable pointer to a member variable of class <computeroutput>MR::ZCompensateParams</computeroutput> named <computeroutput>reduceSelfIntersections</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>if true, limits the movement of each vertex to reduce self-intersections in the mesh Returns a mutable pointer to a member variable of class <computeroutput>MR::ZCompensateParams</computeroutput> named <computeroutput>reduceSelfIntersections</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="185" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="185" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="195" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="195" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MROffsetVerts_8h_1a9b069142e11648917df190b0b29dde9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const float *</type>
@@ -661,11 +661,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>only if (reduceSelfIntersections = true), avoids moving a vertex closer than this distance to another triangle Returns a pointer to a member variable of class <computeroutput>MR::ZCompensateParams</computeroutput> named <computeroutput>minThickness</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>only if (reduceSelfIntersections = true), avoids moving a vertex closer than this distance to another triangle Returns a pointer to a member variable of class <computeroutput>MR::ZCompensateParams</computeroutput> named <computeroutput>minThickness</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="191" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="191" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="202" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="202" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MROffsetVerts_8h_1a344f95c92738d509a683892c4d077853" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -687,7 +687,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="197" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="197" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="208" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="208" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MROffsetVerts_8h_1ae00adb26e655192e70df005350d5b84b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float *</type>
@@ -701,11 +701,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>only if (reduceSelfIntersections = true), avoids moving a vertex closer than this distance to another triangle Returns a mutable pointer to a member variable of class <computeroutput>MR::ZCompensateParams</computeroutput> named <computeroutput>minThickness</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>only if (reduceSelfIntersections = true), avoids moving a vertex closer than this distance to another triangle Returns a mutable pointer to a member variable of class <computeroutput>MR::ZCompensateParams</computeroutput> named <computeroutput>minThickness</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="203" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="203" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="215" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="215" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MROffsetVerts_8h_1aa2979c368bb5e00d52121f5cebbad3af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
@@ -719,11 +719,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>to report progress and cancel processing Returns a pointer to a member variable of class <computeroutput>MR::ZCompensateParams</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>to report progress and cancel processing Returns a pointer to a member variable of class <computeroutput>MR::ZCompensateParams</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="209" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="209" declcolumn="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="222" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="222" declcolumn="47"/>
       </memberdef>
       <memberdef kind="function" id="MROffsetVerts_8h_1adeaea736086c2d96bdd4bedd09bc3883" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -749,7 +749,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="216" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="216" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="229" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="229" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MROffsetVerts_8h_1a2317f086162717d3dbb0e2275d22dbac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
@@ -763,11 +763,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>to report progress and cancel processing Returns a mutable pointer to a member variable of class <computeroutput>MR::ZCompensateParams</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>to report progress and cancel processing Returns a mutable pointer to a member variable of class <computeroutput>MR::ZCompensateParams</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="222" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="222" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="236" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="236" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MROffsetVerts_8h_1a01afad5ea1110f5707cf12be90202cd1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref> *</type>
@@ -784,7 +784,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="226" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="226" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="240" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="240" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MROffsetVerts_8h_1a7ba0ffbf6353e7f123f9ad11706c777a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref> *</type>
@@ -802,7 +802,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="231" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="231" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="245" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="245" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MROffsetVerts_8h_1a78be949acc16254dd68ce230cb5fa70a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref> *</type>
@@ -836,7 +836,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="237" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="237" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="251" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="251" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MROffsetVerts_8h_1a91c547c2eb3b61728b2183620dfe5577" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref> *</type>
@@ -858,7 +858,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="241" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="241" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="255" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="255" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MROffsetVerts_8h_1a0cb6719a2325598ef2ed82ff5e921aa0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref> *</type>
@@ -880,7 +880,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="245" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="245" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="259" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="259" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MROffsetVerts_8h_1aef14298bc682b9e0c3c5099a714006de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref> *</type>
@@ -902,7 +902,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="250" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="250" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="264" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="264" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MROffsetVerts_8h_1af8ecc780ce5081df86fb65b9f06a8e1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -920,7 +920,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="253" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="253" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="267" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="267" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MROffsetVerts_8h_1acb4fb8c1117a74b1901b224a0f7acbf1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -938,7 +938,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="256" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="256" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="270" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="270" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MROffsetVerts_8h_1a642847632d386e7578a926288b9b4055" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref> *</type>
@@ -964,7 +964,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="263" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="263" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="277" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="277" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MROffsetVerts_8h_1a19d8dcc1b660f771bcc40ca183ee87b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool</type>
@@ -988,7 +988,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="271" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="271" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="285" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="285" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MROffsetVerts_8h_1a1643a7cfef3d40cdc7802031efa0bbe3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshThickness_8h_1aba93fea86ae074ee1b7541e7729dca55" kindref="member">MR_std_optional_MR_VertScalars</ref> *</type>
@@ -1010,7 +1010,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="278" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="278" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="292" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="292" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MROffsetVerts_8h_1a2259c5c21f451bc573a7fb9a616781f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MROffsetVerts_8h_1aa15c8fc617d3f9c35203c043e5c8a078" kindref="member">MR_std_optional_MR_VertCoords</ref> *</type>
@@ -1032,7 +1032,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="285" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="285" declcolumn="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" line="299" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h" declline="299" declcolumn="39"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1065,95 +1065,95 @@
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
 <codeline lineno="35" refid="MROffsetVerts_8h_1a131e1cc155d1cfaa54fcaf2c4f0d589b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1a131e1cc155d1cfaa54fcaf2c4f0d589b" kindref="member">MR_offsetVerts</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRClosestWeightedPoint_8h_1ac83010bf4ae4af15d0e13d005e33fce1" kindref="member">MR_std_function_float_from_MR_VertId</ref><sp/>*offset,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41" refid="MROffsetVerts_8h_1a87f0d693a68b852f12674d91a71985ba" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MROffsetVerts_8h_1a87f0d693a68b852f12674d91a71985ba" kindref="member">MR_ThickenParams_Get_outsideOffset</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47" refid="MROffsetVerts_8h_1a80e6d6a5a9add6b0ab5cbe6428c4a1ba" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1a80e6d6a5a9add6b0ab5cbe6428c4a1ba" kindref="member">MR_ThickenParams_Set_outsideOffset</ref>(<ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"></highlight></codeline>
-<codeline lineno="53" refid="MROffsetVerts_8h_1afe1a6e565a662d454f26324543cd25b3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MROffsetVerts_8h_1afe1a6e565a662d454f26324543cd25b3" kindref="member">MR_ThickenParams_GetMutable_outsideOffset</ref>(<ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="54"><highlight class="normal"></highlight></codeline>
-<codeline lineno="59" refid="MROffsetVerts_8h_1a07600a1b74173ca94d343f4a1885702f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MROffsetVerts_8h_1a07600a1b74173ca94d343f4a1885702f" kindref="member">MR_ThickenParams_Get_insideOffset</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="60"><highlight class="normal"></highlight></codeline>
-<codeline lineno="65" refid="MROffsetVerts_8h_1a283aa0fd4ead40a649a6af438e45696e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1a283aa0fd4ead40a649a6af438e45696e" kindref="member">MR_ThickenParams_Set_insideOffset</ref>(<ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="66"><highlight class="normal"></highlight></codeline>
-<codeline lineno="71" refid="MROffsetVerts_8h_1a975f592bf1b8ba08d250c4a8753c8ecc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MROffsetVerts_8h_1a975f592bf1b8ba08d250c4a8753c8ecc" kindref="member">MR_ThickenParams_GetMutable_insideOffset</ref>(<ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="72"><highlight class="normal"></highlight></codeline>
-<codeline lineno="79" refid="MROffsetVerts_8h_1a88c0516d46724ea0428cd7964bd69c16" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MROffsetVerts_8h_1a88c0516d46724ea0428cd7964bd69c16" kindref="member">MR_ThickenParams_Get_normalsTrustFactor</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="80"><highlight class="normal"></highlight></codeline>
-<codeline lineno="87" refid="MROffsetVerts_8h_1a24f803ad1bed1cc5dd6f1e875f66d60f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1a24f803ad1bed1cc5dd6f1e875f66d60f" kindref="member">MR_ThickenParams_Set_normalsTrustFactor</ref>(<ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="88"><highlight class="normal"></highlight></codeline>
-<codeline lineno="95" refid="MROffsetVerts_8h_1a654bfb8a1524f86e2a22ff5d849e12f7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MROffsetVerts_8h_1a654bfb8a1524f86e2a22ff5d849e12f7" kindref="member">MR_ThickenParams_GetMutable_normalsTrustFactor</ref>(<ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="96"><highlight class="normal"></highlight></codeline>
-<codeline lineno="99" refid="MROffsetVerts_8h_1a73c373fae021f9a63fe4916ff20a50dc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref><sp/>*<ref refid="MROffsetVerts_8h_1a73c373fae021f9a63fe4916ff20a50dc" kindref="member">MR_ThickenParams_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="100"><highlight class="normal"></highlight></codeline>
-<codeline lineno="104" refid="MROffsetVerts_8h_1a628738312092b1cd376a0e2fcf415e0d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref><sp/>*<ref refid="MROffsetVerts_8h_1a628738312092b1cd376a0e2fcf415e0d" kindref="member">MR_ThickenParams_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="105"><highlight class="normal"></highlight></codeline>
-<codeline lineno="109" refid="MROffsetVerts_8h_1a5f604468fd08db38dbec304e7ff4cdf6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref><sp/>*<ref refid="MROffsetVerts_8h_1a5f604468fd08db38dbec304e7ff4cdf6" kindref="member">MR_ThickenParams_ConstructFrom</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>outsideOffset,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>insideOffset,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>normalsTrustFactor);</highlight></codeline>
-<codeline lineno="110"><highlight class="normal"></highlight></codeline>
-<codeline lineno="113" refid="MROffsetVerts_8h_1a90c64dddbbc768d6ea4a6883091bb70b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref><sp/>*<ref refid="MROffsetVerts_8h_1a90c64dddbbc768d6ea4a6883091bb70b" kindref="member">MR_ThickenParams_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="114"><highlight class="normal"></highlight></codeline>
-<codeline lineno="117" refid="MROffsetVerts_8h_1a13f4514891e110a6e33aa6feb0b47acf" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref><sp/>*<ref refid="MROffsetVerts_8h_1a13f4514891e110a6e33aa6feb0b47acf" kindref="member">MR_ThickenParams_OffsetMutablePtr</ref>(<ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="118"><highlight class="normal"></highlight></codeline>
-<codeline lineno="123" refid="MROffsetVerts_8h_1a722188efdbe1b2c43897e5b0b6809c88" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref><sp/>*<ref refid="MROffsetVerts_8h_1a722188efdbe1b2c43897e5b0b6809c88" kindref="member">MR_ThickenParams_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="42" refid="MROffsetVerts_8h_1a87f0d693a68b852f12674d91a71985ba" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MROffsetVerts_8h_1a87f0d693a68b852f12674d91a71985ba" kindref="member">MR_ThickenParams_Get_outsideOffset</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="MROffsetVerts_8h_1a80e6d6a5a9add6b0ab5cbe6428c4a1ba" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1a80e6d6a5a9add6b0ab5cbe6428c4a1ba" kindref="member">MR_ThickenParams_Set_outsideOffset</ref>(<ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="MROffsetVerts_8h_1afe1a6e565a662d454f26324543cd25b3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MROffsetVerts_8h_1afe1a6e565a662d454f26324543cd25b3" kindref="member">MR_ThickenParams_GetMutable_outsideOffset</ref>(<ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="MROffsetVerts_8h_1a07600a1b74173ca94d343f4a1885702f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MROffsetVerts_8h_1a07600a1b74173ca94d343f4a1885702f" kindref="member">MR_ThickenParams_Get_insideOffset</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="MROffsetVerts_8h_1a283aa0fd4ead40a649a6af438e45696e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1a283aa0fd4ead40a649a6af438e45696e" kindref="member">MR_ThickenParams_Set_insideOffset</ref>(<ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="MROffsetVerts_8h_1a975f592bf1b8ba08d250c4a8753c8ecc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MROffsetVerts_8h_1a975f592bf1b8ba08d250c4a8753c8ecc" kindref="member">MR_ThickenParams_GetMutable_insideOffset</ref>(<ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="MROffsetVerts_8h_1a88c0516d46724ea0428cd7964bd69c16" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MROffsetVerts_8h_1a88c0516d46724ea0428cd7964bd69c16" kindref="member">MR_ThickenParams_Get_normalsTrustFactor</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92" refid="MROffsetVerts_8h_1a24f803ad1bed1cc5dd6f1e875f66d60f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1a24f803ad1bed1cc5dd6f1e875f66d60f" kindref="member">MR_ThickenParams_Set_normalsTrustFactor</ref>(<ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="MROffsetVerts_8h_1a654bfb8a1524f86e2a22ff5d849e12f7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MROffsetVerts_8h_1a654bfb8a1524f86e2a22ff5d849e12f7" kindref="member">MR_ThickenParams_GetMutable_normalsTrustFactor</ref>(<ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105" refid="MROffsetVerts_8h_1a73c373fae021f9a63fe4916ff20a50dc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref><sp/>*<ref refid="MROffsetVerts_8h_1a73c373fae021f9a63fe4916ff20a50dc" kindref="member">MR_ThickenParams_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="MROffsetVerts_8h_1a628738312092b1cd376a0e2fcf415e0d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref><sp/>*<ref refid="MROffsetVerts_8h_1a628738312092b1cd376a0e2fcf415e0d" kindref="member">MR_ThickenParams_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115" refid="MROffsetVerts_8h_1a5f604468fd08db38dbec304e7ff4cdf6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref><sp/>*<ref refid="MROffsetVerts_8h_1a5f604468fd08db38dbec304e7ff4cdf6" kindref="member">MR_ThickenParams_ConstructFrom</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>outsideOffset,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>insideOffset,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>normalsTrustFactor);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119" refid="MROffsetVerts_8h_1a90c64dddbbc768d6ea4a6883091bb70b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref><sp/>*<ref refid="MROffsetVerts_8h_1a90c64dddbbc768d6ea4a6883091bb70b" kindref="member">MR_ThickenParams_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123" refid="MROffsetVerts_8h_1a13f4514891e110a6e33aa6feb0b47acf" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref><sp/>*<ref refid="MROffsetVerts_8h_1a13f4514891e110a6e33aa6feb0b47acf" kindref="member">MR_ThickenParams_OffsetMutablePtr</ref>(<ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="124"><highlight class="normal"></highlight></codeline>
-<codeline lineno="126" refid="MROffsetVerts_8h_1a0c19d2437ae0ea52dea8a99f62099a55" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1a0c19d2437ae0ea52dea8a99f62099a55" kindref="member">MR_ThickenParams_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="127"><highlight class="normal"></highlight></codeline>
-<codeline lineno="129" refid="MROffsetVerts_8h_1aae23912cafbce5a2ee7036c7f5f656c8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1aae23912cafbce5a2ee7036c7f5f656c8" kindref="member">MR_ThickenParams_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="129" refid="MROffsetVerts_8h_1a722188efdbe1b2c43897e5b0b6809c88" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref><sp/>*<ref refid="MROffsetVerts_8h_1a722188efdbe1b2c43897e5b0b6809c88" kindref="member">MR_ThickenParams_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="130"><highlight class="normal"></highlight></codeline>
-<codeline lineno="137" refid="MROffsetVerts_8h_1a4f7b6c93f13b6fb9e266f4aa80f4e2d9" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref><sp/>*<ref refid="MROffsetVerts_8h_1a4f7b6c93f13b6fb9e266f4aa80f4e2d9" kindref="member">MR_ThickenParams_AssignFromAnother</ref>(<ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="138"><highlight class="normal"></highlight></codeline>
-<codeline lineno="146" refid="MROffsetVerts_8h_1a17ec19d8ea4c71d7d676e78dce6292c8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*<ref refid="MROffsetVerts_8h_1a17ec19d8ea4c71d7d676e78dce6292c8" kindref="member">MR_makeThickMesh</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*m,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref><sp/>*params);</highlight></codeline>
-<codeline lineno="147"><highlight class="normal"></highlight></codeline>
-<codeline lineno="153" refid="MROffsetVerts_8h_1abfac63b6c67ac203195428a1a731e3c7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MROffsetVerts_8h_1abfac63b6c67ac203195428a1a731e3c7" kindref="member">MR_ZCompensateParams_Get_maxShift</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="154"><highlight class="normal"></highlight></codeline>
-<codeline lineno="160" refid="MROffsetVerts_8h_1ae721f1f01be2ebcff815c416f7222f5b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1ae721f1f01be2ebcff815c416f7222f5b" kindref="member">MR_ZCompensateParams_Set_maxShift</ref>(<ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="132" refid="MROffsetVerts_8h_1a0c19d2437ae0ea52dea8a99f62099a55" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1a0c19d2437ae0ea52dea8a99f62099a55" kindref="member">MR_ThickenParams_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135" refid="MROffsetVerts_8h_1aae23912cafbce5a2ee7036c7f5f656c8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1aae23912cafbce5a2ee7036c7f5f656c8" kindref="member">MR_ThickenParams_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="MROffsetVerts_8h_1a4f7b6c93f13b6fb9e266f4aa80f4e2d9" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref><sp/>*<ref refid="MROffsetVerts_8h_1a4f7b6c93f13b6fb9e266f4aa80f4e2d9" kindref="member">MR_ThickenParams_AssignFromAnother</ref>(<ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152" refid="MROffsetVerts_8h_1a17ec19d8ea4c71d7d676e78dce6292c8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*<ref refid="MROffsetVerts_8h_1a17ec19d8ea4c71d7d676e78dce6292c8" kindref="member">MR_makeThickMesh</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*m,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1aab9015c36c2d8e2dc6b6e2dd876905a3" kindref="member">MR_ThickenParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160" refid="MROffsetVerts_8h_1abfac63b6c67ac203195428a1a731e3c7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MROffsetVerts_8h_1abfac63b6c67ac203195428a1a731e3c7" kindref="member">MR_ZCompensateParams_Get_maxShift</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="161"><highlight class="normal"></highlight></codeline>
-<codeline lineno="167" refid="MROffsetVerts_8h_1ad3dbb60a3651d76ca61b51a871298a7a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MROffsetVerts_8h_1ad3dbb60a3651d76ca61b51a871298a7a" kindref="member">MR_ZCompensateParams_GetMutable_maxShift</ref>(<ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="167" refid="MROffsetVerts_8h_1ae721f1f01be2ebcff815c416f7222f5b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1ae721f1f01be2ebcff815c416f7222f5b" kindref="member">MR_ZCompensateParams_Set_maxShift</ref>(<ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="168"><highlight class="normal"></highlight></codeline>
-<codeline lineno="173" refid="MROffsetVerts_8h_1ac37d822d715e020a4a5d0f5662a2d980" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MROffsetVerts_8h_1ac37d822d715e020a4a5d0f5662a2d980" kindref="member">MR_ZCompensateParams_Get_reduceSelfIntersections</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="174"><highlight class="normal"></highlight></codeline>
-<codeline lineno="179" refid="MROffsetVerts_8h_1ae937cd31bd31cd25e5453adef6aa7b12" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1ae937cd31bd31cd25e5453adef6aa7b12" kindref="member">MR_ZCompensateParams_Set_reduceSelfIntersections</ref>(<ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="180"><highlight class="normal"></highlight></codeline>
-<codeline lineno="185" refid="MROffsetVerts_8h_1afafab625c2ef0d5d30ebcecf5b4705b1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MROffsetVerts_8h_1afafab625c2ef0d5d30ebcecf5b4705b1" kindref="member">MR_ZCompensateParams_GetMutable_reduceSelfIntersections</ref>(<ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="186"><highlight class="normal"></highlight></codeline>
-<codeline lineno="191" refid="MROffsetVerts_8h_1a9b069142e11648917df190b0b29dde9a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MROffsetVerts_8h_1a9b069142e11648917df190b0b29dde9a" kindref="member">MR_ZCompensateParams_Get_minThickness</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="192"><highlight class="normal"></highlight></codeline>
-<codeline lineno="197" refid="MROffsetVerts_8h_1a344f95c92738d509a683892c4d077853" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1a344f95c92738d509a683892c4d077853" kindref="member">MR_ZCompensateParams_Set_minThickness</ref>(<ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="198"><highlight class="normal"></highlight></codeline>
-<codeline lineno="203" refid="MROffsetVerts_8h_1ae00adb26e655192e70df005350d5b84b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MROffsetVerts_8h_1ae00adb26e655192e70df005350d5b84b" kindref="member">MR_ZCompensateParams_GetMutable_minThickness</ref>(<ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="204"><highlight class="normal"></highlight></codeline>
-<codeline lineno="209" refid="MROffsetVerts_8h_1aa2979c368bb5e00d52121f5cebbad3af" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MROffsetVerts_8h_1aa2979c368bb5e00d52121f5cebbad3af" kindref="member">MR_ZCompensateParams_Get_progress</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="210"><highlight class="normal"></highlight></codeline>
-<codeline lineno="216" refid="MROffsetVerts_8h_1adeaea736086c2d96bdd4bedd09bc3883" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1adeaea736086c2d96bdd4bedd09bc3883" kindref="member">MR_ZCompensateParams_Set_progress</ref>(<ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="217"><highlight class="normal"></highlight></codeline>
-<codeline lineno="222" refid="MROffsetVerts_8h_1a2317f086162717d3dbb0e2275d22dbac" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MROffsetVerts_8h_1a2317f086162717d3dbb0e2275d22dbac" kindref="member">MR_ZCompensateParams_GetMutable_progress</ref>(<ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="175" refid="MROffsetVerts_8h_1ad3dbb60a3651d76ca61b51a871298a7a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MROffsetVerts_8h_1ad3dbb60a3651d76ca61b51a871298a7a" kindref="member">MR_ZCompensateParams_GetMutable_maxShift</ref>(<ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="MROffsetVerts_8h_1ac37d822d715e020a4a5d0f5662a2d980" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MROffsetVerts_8h_1ac37d822d715e020a4a5d0f5662a2d980" kindref="member">MR_ZCompensateParams_Get_reduceSelfIntersections</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188" refid="MROffsetVerts_8h_1ae937cd31bd31cd25e5453adef6aa7b12" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1ae937cd31bd31cd25e5453adef6aa7b12" kindref="member">MR_ZCompensateParams_Set_reduceSelfIntersections</ref>(<ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195" refid="MROffsetVerts_8h_1afafab625c2ef0d5d30ebcecf5b4705b1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MROffsetVerts_8h_1afafab625c2ef0d5d30ebcecf5b4705b1" kindref="member">MR_ZCompensateParams_GetMutable_reduceSelfIntersections</ref>(<ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202" refid="MROffsetVerts_8h_1a9b069142e11648917df190b0b29dde9a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MROffsetVerts_8h_1a9b069142e11648917df190b0b29dde9a" kindref="member">MR_ZCompensateParams_Get_minThickness</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="208" refid="MROffsetVerts_8h_1a344f95c92738d509a683892c4d077853" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1a344f95c92738d509a683892c4d077853" kindref="member">MR_ZCompensateParams_Set_minThickness</ref>(<ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215" refid="MROffsetVerts_8h_1ae00adb26e655192e70df005350d5b84b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MROffsetVerts_8h_1ae00adb26e655192e70df005350d5b84b" kindref="member">MR_ZCompensateParams_GetMutable_minThickness</ref>(<ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="222" refid="MROffsetVerts_8h_1aa2979c368bb5e00d52121f5cebbad3af" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MROffsetVerts_8h_1aa2979c368bb5e00d52121f5cebbad3af" kindref="member">MR_ZCompensateParams_Get_progress</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="223"><highlight class="normal"></highlight></codeline>
-<codeline lineno="226" refid="MROffsetVerts_8h_1a01afad5ea1110f5707cf12be90202cd1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*<ref refid="MROffsetVerts_8h_1a01afad5ea1110f5707cf12be90202cd1" kindref="member">MR_ZCompensateParams_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="227"><highlight class="normal"></highlight></codeline>
-<codeline lineno="231" refid="MROffsetVerts_8h_1a7ba0ffbf6353e7f123f9ad11706c777a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*<ref refid="MROffsetVerts_8h_1a7ba0ffbf6353e7f123f9ad11706c777a" kindref="member">MR_ZCompensateParams_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="232"><highlight class="normal"></highlight></codeline>
-<codeline lineno="237" refid="MROffsetVerts_8h_1a78be949acc16254dd68ce230cb5fa70a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*<ref refid="MROffsetVerts_8h_1a78be949acc16254dd68ce230cb5fa70a" kindref="member">MR_ZCompensateParams_ConstructFrom</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxShift,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>reduceSelfIntersections,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>minThickness,<sp/>MR_PassBy<sp/>progress_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progress);</highlight></codeline>
-<codeline lineno="238"><highlight class="normal"></highlight></codeline>
-<codeline lineno="241" refid="MROffsetVerts_8h_1a91c547c2eb3b61728b2183620dfe5577" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*<ref refid="MROffsetVerts_8h_1a91c547c2eb3b61728b2183620dfe5577" kindref="member">MR_ZCompensateParams_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="242"><highlight class="normal"></highlight></codeline>
-<codeline lineno="245" refid="MROffsetVerts_8h_1a0cb6719a2325598ef2ed82ff5e921aa0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*<ref refid="MROffsetVerts_8h_1a0cb6719a2325598ef2ed82ff5e921aa0" kindref="member">MR_ZCompensateParams_OffsetMutablePtr</ref>(<ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="229" refid="MROffsetVerts_8h_1adeaea736086c2d96bdd4bedd09bc3883" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1adeaea736086c2d96bdd4bedd09bc3883" kindref="member">MR_ZCompensateParams_Set_progress</ref>(<ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="236" refid="MROffsetVerts_8h_1a2317f086162717d3dbb0e2275d22dbac" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MROffsetVerts_8h_1a2317f086162717d3dbb0e2275d22dbac" kindref="member">MR_ZCompensateParams_GetMutable_progress</ref>(<ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+<codeline lineno="240" refid="MROffsetVerts_8h_1a01afad5ea1110f5707cf12be90202cd1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*<ref refid="MROffsetVerts_8h_1a01afad5ea1110f5707cf12be90202cd1" kindref="member">MR_ZCompensateParams_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight></codeline>
+<codeline lineno="245" refid="MROffsetVerts_8h_1a7ba0ffbf6353e7f123f9ad11706c777a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*<ref refid="MROffsetVerts_8h_1a7ba0ffbf6353e7f123f9ad11706c777a" kindref="member">MR_ZCompensateParams_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="246"><highlight class="normal"></highlight></codeline>
-<codeline lineno="250" refid="MROffsetVerts_8h_1aef14298bc682b9e0c3c5099a714006de" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*<ref refid="MROffsetVerts_8h_1aef14298bc682b9e0c3c5099a714006de" kindref="member">MR_ZCompensateParams_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="251"><highlight class="normal"></highlight></codeline>
-<codeline lineno="253" refid="MROffsetVerts_8h_1af8ecc780ce5081df86fb65b9f06a8e1f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1af8ecc780ce5081df86fb65b9f06a8e1f" kindref="member">MR_ZCompensateParams_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="254"><highlight class="normal"></highlight></codeline>
-<codeline lineno="256" refid="MROffsetVerts_8h_1acb4fb8c1117a74b1901b224a0f7acbf1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1acb4fb8c1117a74b1901b224a0f7acbf1" kindref="member">MR_ZCompensateParams_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="257"><highlight class="normal"></highlight></codeline>
-<codeline lineno="263" refid="MROffsetVerts_8h_1a642847632d386e7578a926288b9b4055" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*<ref refid="MROffsetVerts_8h_1a642847632d386e7578a926288b9b4055" kindref="member">MR_ZCompensateParams_AssignFromAnother</ref>(<ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="264"><highlight class="normal"></highlight></codeline>
-<codeline lineno="271" refid="MROffsetVerts_8h_1a19d8dcc1b660f771bcc40ca183ee87b4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1a19d8dcc1b660f771bcc40ca183ee87b4" kindref="member">MR_zCompensate</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*params);</highlight></codeline>
-<codeline lineno="272"><highlight class="normal"></highlight></codeline>
-<codeline lineno="278" refid="MROffsetVerts_8h_1a1643a7cfef3d40cdc7802031efa0bbe3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshThickness_8h_1aba93fea86ae074ee1b7541e7729dca55" kindref="member">MR_std_optional_MR_VertScalars</ref><sp/>*<ref refid="MROffsetVerts_8h_1a1643a7cfef3d40cdc7802031efa0bbe3" kindref="member">MR_findZcompensationShifts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*params);</highlight></codeline>
-<codeline lineno="279"><highlight class="normal"></highlight></codeline>
-<codeline lineno="285" refid="MROffsetVerts_8h_1a2259c5c21f451bc573a7fb9a616781f6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROffsetVerts_8h_1aa15c8fc617d3f9c35203c043e5c8a078" kindref="member">MR_std_optional_MR_VertCoords</ref><sp/>*<ref refid="MROffsetVerts_8h_1a2259c5c21f451bc573a7fb9a616781f6" kindref="member">MR_findZcompensatedPositions</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="251" refid="MROffsetVerts_8h_1a78be949acc16254dd68ce230cb5fa70a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*<ref refid="MROffsetVerts_8h_1a78be949acc16254dd68ce230cb5fa70a" kindref="member">MR_ZCompensateParams_ConstructFrom</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxShift,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>reduceSelfIntersections,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>minThickness,<sp/>MR_PassBy<sp/>progress_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progress);</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="255" refid="MROffsetVerts_8h_1a91c547c2eb3b61728b2183620dfe5577" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*<ref refid="MROffsetVerts_8h_1a91c547c2eb3b61728b2183620dfe5577" kindref="member">MR_ZCompensateParams_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"></highlight></codeline>
+<codeline lineno="259" refid="MROffsetVerts_8h_1a0cb6719a2325598ef2ed82ff5e921aa0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*<ref refid="MROffsetVerts_8h_1a0cb6719a2325598ef2ed82ff5e921aa0" kindref="member">MR_ZCompensateParams_OffsetMutablePtr</ref>(<ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"></highlight></codeline>
+<codeline lineno="264" refid="MROffsetVerts_8h_1aef14298bc682b9e0c3c5099a714006de" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*<ref refid="MROffsetVerts_8h_1aef14298bc682b9e0c3c5099a714006de" kindref="member">MR_ZCompensateParams_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267" refid="MROffsetVerts_8h_1af8ecc780ce5081df86fb65b9f06a8e1f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1af8ecc780ce5081df86fb65b9f06a8e1f" kindref="member">MR_ZCompensateParams_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="270" refid="MROffsetVerts_8h_1acb4fb8c1117a74b1901b224a0f7acbf1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1acb4fb8c1117a74b1901b224a0f7acbf1" kindref="member">MR_ZCompensateParams_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"></highlight></codeline>
+<codeline lineno="277" refid="MROffsetVerts_8h_1a642847632d386e7578a926288b9b4055" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*<ref refid="MROffsetVerts_8h_1a642847632d386e7578a926288b9b4055" kindref="member">MR_ZCompensateParams_AssignFromAnother</ref>(<ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"></highlight></codeline>
+<codeline lineno="285" refid="MROffsetVerts_8h_1a19d8dcc1b660f771bcc40ca183ee87b4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1a19d8dcc1b660f771bcc40ca183ee87b4" kindref="member">MR_zCompensate</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*params);</highlight></codeline>
 <codeline lineno="286"><highlight class="normal"></highlight></codeline>
-<codeline lineno="287"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="288"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="289"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="292" refid="MROffsetVerts_8h_1a1643a7cfef3d40cdc7802031efa0bbe3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshThickness_8h_1aba93fea86ae074ee1b7541e7729dca55" kindref="member">MR_std_optional_MR_VertScalars</ref><sp/>*<ref refid="MROffsetVerts_8h_1a1643a7cfef3d40cdc7802031efa0bbe3" kindref="member">MR_findZcompensationShifts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"></highlight></codeline>
+<codeline lineno="299" refid="MROffsetVerts_8h_1a2259c5c21f451bc573a7fb9a616781f6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROffsetVerts_8h_1aa15c8fc617d3f9c35203c043e5c8a078" kindref="member">MR_std_optional_MR_VertCoords</ref><sp/>*<ref refid="MROffsetVerts_8h_1a2259c5c21f451bc573a7fb9a616781f6" kindref="member">MR_findZcompensatedPositions</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetVerts_8h_1aba5e4bdfdaae2b4eb0af6f4aec7f933a" kindref="member">MR_ZCompensateParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"></highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="302"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="303"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROffsetVerts.h"/>
   </compounddef>

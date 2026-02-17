@@ -645,7 +645,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::MarkedContour3f</code> named <code>contour</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::MarkedContour3f</code> named <code>contour</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -681,7 +681,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::MarkedContour3f</code> named <code>contour</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. indices of control (marked) points Returns a pointer to a member variable of class <code>MR::MarkedContour3f</code> named <code>marks</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::MarkedContour3f</code> named <code>contour</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. indices of control (marked) points Returns a pointer to a member variable of class <code>MR::MarkedContour3f</code> named <code>marks</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -796,7 +796,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>indices of control (marked) points Returns a mutable pointer to a member variable of class <code>MR::MarkedContour3f</code> named <code>marks</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>indices of control (marked) points Returns a mutable pointer to a member variable of class <code>MR::MarkedContour3f</code> named <code>marks</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1019,7 +1019,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>a positive value, the more the value the closer resulting spline will be to given control points Returns a pointer to a member variable of class <code>MR::SplineSettings</code> named <code>controlStability</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>a positive value, the more the value the closer resulting spline will be to given control points Returns a pointer to a member variable of class <code>MR::SplineSettings</code> named <code>controlStability</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1037,7 +1037,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the shape of resulting spline depends on the total number of points in the contour, which in turn depends on the length of input contour being sampled; setting iterations greater than one allows you to pass a constructed spline as a better input contour to the next run of the algorithm Returns a pointer to a member variable of class <code>MR::SplineSettings</code> named <code>iterations</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the shape of resulting spline depends on the total number of points in the contour, which in turn depends on the length of input contour being sampled; setting iterations greater than one allows you to pass a constructed spline as a better input contour to the next run of the algorithm Returns a pointer to a member variable of class <code>MR::SplineSettings</code> named <code>iterations</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1055,7 +1055,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional parameter with the normals of input points that will be resampled to become normals of output points Returns a pointer to a member variable of class <code>MR::SplineSettings</code> named <code>normals</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>optional parameter with the normals of input points that will be resampled to become normals of output points Returns a pointer to a member variable of class <code>MR::SplineSettings</code> named <code>normals</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1073,7 +1073,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if true and normals are provided, then the curve at marked points will try to be orthogonal to given normal there Returns a pointer to a member variable of class <code>MR::SplineSettings</code> named <code>normalsAffectShape</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if true and normals are provided, then the curve at marked points will try to be orthogonal to given normal there Returns a pointer to a member variable of class <code>MR::SplineSettings</code> named <code>normalsAffectShape</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1091,7 +1091,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>additional points will be added between each pair of control points, until the distance between neighbor points becomes less than this distance Returns a pointer to a member variable of class <code>MR::SplineSettings</code> named <code>samplingStep</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>additional points will be added between each pair of control points, until the distance between neighbor points becomes less than this distance Returns a pointer to a member variable of class <code>MR::SplineSettings</code> named <code>samplingStep</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1109,7 +1109,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>a positive value, the more the value the closer resulting spline will be to given control points Returns a mutable pointer to a member variable of class <code>MR::SplineSettings</code> named <code>controlStability</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>a positive value, the more the value the closer resulting spline will be to given control points Returns a mutable pointer to a member variable of class <code>MR::SplineSettings</code> named <code>controlStability</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1127,7 +1127,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the shape of resulting spline depends on the total number of points in the contour, which in turn depends on the length of input contour being sampled; setting iterations greater than one allows you to pass a constructed spline as a better input contour to the next run of the algorithm Returns a mutable pointer to a member variable of class <code>MR::SplineSettings</code> named <code>iterations</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the shape of resulting spline depends on the total number of points in the contour, which in turn depends on the length of input contour being sampled; setting iterations greater than one allows you to pass a constructed spline as a better input contour to the next run of the algorithm Returns a mutable pointer to a member variable of class <code>MR::SplineSettings</code> named <code>iterations</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1145,7 +1145,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional parameter with the normals of input points that will be resampled to become normals of output points Returns a mutable pointer to a member variable of class <code>MR::SplineSettings</code> named <code>normals</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>optional parameter with the normals of input points that will be resampled to become normals of output points Returns a mutable pointer to a member variable of class <code>MR::SplineSettings</code> named <code>normals</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1163,7 +1163,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if true and normals are provided, then the curve at marked points will try to be orthogonal to given normal there Returns a mutable pointer to a member variable of class <code>MR::SplineSettings</code> named <code>normalsAffectShape</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if true and normals are provided, then the curve at marked points will try to be orthogonal to given normal there Returns a mutable pointer to a member variable of class <code>MR::SplineSettings</code> named <code>normalsAffectShape</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1181,7 +1181,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>additional points will be added between each pair of control points, until the distance between neighbor points becomes less than this distance Returns a mutable pointer to a member variable of class <code>MR::SplineSettings</code> named <code>samplingStep</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>additional points will be added between each pair of control points, until the distance between neighbor points becomes less than this distance Returns a mutable pointer to a member variable of class <code>MR::SplineSettings</code> named <code>samplingStep</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>

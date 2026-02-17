@@ -1,5 +1,12 @@
 var NAVTREEINDEX12 =
 {
+"MRSpaceMouseParameters_8h.html":[6,0,3,0,0,1,8,126],
+"MRSpaceMouseParameters_8h_source.html":[6,0,3,0,0,1,8,126],
+"MRSparsePolynomial_8h.html":[6,0,3,0,0,1,4,363],
+"MRSparsePolynomial_8h.html#a39de2d02d74ee4158df88993a656c0d0":[6,0,3,0,0,1,4,363,1],
+"MRSparsePolynomial_8h_source.html":[6,0,3,0,0,1,4,363],
+"MRSphereObject_8h.html":[6,0,3,0,0,1,4,365],
+"MRSphereObject_8h_source.html":[6,0,3,0,0,1,4,365],
 "MRSphere_8h.html":[6,0,3,0,0,1,4,364],
 "MRSphere_8h_source.html":[6,0,3,0,0,1,4,364],
 "MRSplashWindow_8h.html":[6,0,3,0,0,1,8,127],
@@ -242,12 +249,5 @@ var NAVTREEINDEX12 =
 "MRTriMath_8h.html#aca6757bf3fe6058264ac14a06fbb616e":[6,0,3,0,0,1,4,392,27],
 "MRTriMath_8h.html#ad0da44181dd40e142f6e464e276c6c03":[6,0,3,0,0,1,4,392,1],
 "MRTriMath_8h.html#ad96edb1d2f888b3550b04cb5c5d423cf":[6,0,3,0,0,1,4,392,20],
-"MRTriMath_8h.html#adb201ccd9ee730c7d901673288740ce6":[6,0,3,0,0,1,4,392,28],
-"MRTriMath_8h.html#ae3bb1f96cee445baf5867b057f5d6b73":[6,0,3,0,0,1,4,392,10],
-"MRTriMath_8h.html#aea846c80de2eaff70b419ad4095d958c":[6,0,3,0,0,1,4,392,17],
-"MRTriMath_8h.html#af848b7a93acc5e03bfea1f8bcc3ffdb7":[6,0,3,0,0,1,4,392,12],
-"MRTriMath_8h.html#afebaea1321bcf85ccd6401870196c3fd":[6,0,3,0,0,1,4,392,4],
-"MRTriMath_8h_source.html":[6,0,3,0,0,1,4,392],
-"MRTriMesh_8h.html":[6,0,3,0,0,1,4,393],
-"MRTriMesh_8h_source.html":[6,0,3,0,0,1,4,393]
+"MRTriMath_8h.html#adb201ccd9ee730c7d901673288740ce6":[6,0,3,0,0,1,4,392,28]
 };

@@ -226,11 +226,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Maximum points in the outlier component Returns a pointer to a member variable of class <computeroutput>MR::OutlierParams</computeroutput> named <computeroutput>maxClusterSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Maximum points in the outlier component Returns a pointer to a member variable of class <computeroutput>MR::OutlierParams</computeroutput> named <computeroutput>maxClusterSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="54" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="54" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="55" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="55" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1aa54b1998895c6a8251d3234bf98085fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -252,7 +252,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="60" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="60" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="61" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="61" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1ae37dfad85cd4afa864a74ecdfd68a164" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API int *</type>
@@ -266,11 +266,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Maximum points in the outlier component Returns a mutable pointer to a member variable of class <computeroutput>MR::OutlierParams</computeroutput> named <computeroutput>maxClusterSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Maximum points in the outlier component Returns a mutable pointer to a member variable of class <computeroutput>MR::OutlierParams</computeroutput> named <computeroutput>maxClusterSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="66" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="66" declcolumn="13"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="68" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="68" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1ab9b45d274cb68a32a812e42bbc35264d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const int *</type>
@@ -284,11 +284,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Maximum number of adjacent points for an outlier point Returns a pointer to a member variable of class <computeroutput>MR::OutlierParams</computeroutput> named <computeroutput>maxNeighbors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Maximum number of adjacent points for an outlier point Returns a pointer to a member variable of class <computeroutput>MR::OutlierParams</computeroutput> named <computeroutput>maxNeighbors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="72" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="72" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="75" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="75" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1ab5073fee6e66eb465285ed9104c8b1d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -310,7 +310,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="78" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="78" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="81" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="81" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1a1bdb17735e4cf67dd4015cc225ce671c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API int *</type>
@@ -324,11 +324,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Maximum number of adjacent points for an outlier point Returns a mutable pointer to a member variable of class <computeroutput>MR::OutlierParams</computeroutput> named <computeroutput>maxNeighbors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Maximum number of adjacent points for an outlier point Returns a mutable pointer to a member variable of class <computeroutput>MR::OutlierParams</computeroutput> named <computeroutput>maxNeighbors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="84" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="84" declcolumn="13"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="88" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="88" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1abf2f4f774b463c16c1bed88f96346127" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const float *</type>
@@ -342,11 +342,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Minimum distance (as proportion of search radius) to the approximate surface from outliers point Returns a pointer to a member variable of class <computeroutput>MR::OutlierParams</computeroutput> named <computeroutput>minHeight</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Minimum distance (as proportion of search radius) to the approximate surface from outliers point Returns a pointer to a member variable of class <computeroutput>MR::OutlierParams</computeroutput> named <computeroutput>minHeight</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="90" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="90" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="95" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="95" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1ac49a9ebf00a91fa6e3dd2d8a8be596d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -368,7 +368,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="96" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="96" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="101" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="101" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1ae03233f47e89c312960f7cb9200c5a1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float *</type>
@@ -382,11 +382,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Minimum distance (as proportion of search radius) to the approximate surface from outliers point Returns a mutable pointer to a member variable of class <computeroutput>MR::OutlierParams</computeroutput> named <computeroutput>minHeight</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Minimum distance (as proportion of search radius) to the approximate surface from outliers point Returns a mutable pointer to a member variable of class <computeroutput>MR::OutlierParams</computeroutput> named <computeroutput>minHeight</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="102" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="102" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="108" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="108" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1a93f72106600dbeb53075720cc912f9ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const float *</type>
@@ -400,13 +400,13 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Minimum angle of difference of normal at outlier points <simplesect kind="note"><para>available only if there are normals Returns a pointer to a member variable of class <computeroutput>MR::OutlierParams</computeroutput> named <computeroutput>minAngle</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Minimum angle of difference of normal at outlier points <simplesect kind="note"><para>available only if there are normals Returns a pointer to a member variable of class <computeroutput>MR::OutlierParams</computeroutput> named <computeroutput>minAngle</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="109" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="109" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="116" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="116" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1ab0ee25524fdfa6532b4773d1ea99b635" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -430,7 +430,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="116" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="116" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="123" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="123" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1abb1d9ec95c5de62781babaee66fedaab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float *</type>
@@ -444,13 +444,13 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Minimum angle of difference of normal at outlier points <simplesect kind="note"><para>available only if there are normals Returns a mutable pointer to a member variable of class <computeroutput>MR::OutlierParams</computeroutput> named <computeroutput>minAngle</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Minimum angle of difference of normal at outlier points <simplesect kind="note"><para>available only if there are normals Returns a mutable pointer to a member variable of class <computeroutput>MR::OutlierParams</computeroutput> named <computeroutput>minAngle</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="123" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="123" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="131" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="131" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1a95f175b2493863188a6403392d4005f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref> *</type>
@@ -467,7 +467,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="127" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="127" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="135" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="135" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1a6c4a63e1ecf8ce6294d7da90a8366b42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref> *</type>
@@ -485,7 +485,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="132" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="132" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="140" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="140" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1aca3ec12c2960b0564037b79e4b6aa0dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref> *</type>
@@ -515,7 +515,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="137" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="137" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="145" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="145" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1ab9464d8a4569cf5d20fb6c768527b9ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref> *</type>
@@ -537,7 +537,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="141" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="141" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="149" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="149" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1a7150da42af3ea468425a3328ead72414" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref> *</type>
@@ -559,7 +559,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="145" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="145" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="153" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="153" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1a7fad714cad4fcc9b4e426e964f770976" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref> *</type>
@@ -577,7 +577,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="151" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="151" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="159" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="159" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1a4a34013dbd57221d61a0845d5a21d7d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -595,7 +595,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="154" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="154" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="162" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="162" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1a713b4a1510b1f731385d2370cfe9425f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -613,7 +613,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="157" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="157" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="165" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="165" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1a861b517b667c8c62fe4547d8a0d4d26d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref> *</type>
@@ -635,7 +635,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="165" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="165" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="173" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="173" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1a299feba8b68de1abbb7ce19c863d6104" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref></type>
@@ -657,7 +657,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="168" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="168" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="176" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="176" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1a5e5803aa29a8449d797c4c507a88a9b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref></type>
@@ -679,7 +679,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="171" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="171" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="179" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="179" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1a6f5305ad2931fbd177a84225bcbd27d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref></type>
@@ -697,7 +697,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="174" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="174" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="182" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="182" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1a5806ecf0427d6f4c27d92a3a0910f41b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref> *</type>
@@ -719,7 +719,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="179" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="179" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="187" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="187" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1a82b9fea684b16bb824e3f8a2dac50bce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref> *</type>
@@ -741,7 +741,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="184" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="184" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="192" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="192" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1ae856ed6f3c5d3f9d001fecf0d672561a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref></type>
@@ -763,7 +763,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="187" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="187" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="195" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="195" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1a1088a78ea5b21f7b11027b8da4c3b693" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref></type>
@@ -785,7 +785,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="190" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="190" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="198" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="198" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1a59c3fd82835ff31620b574e22a7e6997" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref> *</type>
@@ -807,7 +807,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="195" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="195" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="203" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="203" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1acf8388b7933a9cd5a3d907a19af0bb29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MROutlierPoints_8h_1aed90ec091f4cad4120e2fa4dcadba078" kindref="member">MR_OutliersDetector</ref> *</type>
@@ -824,7 +824,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="199" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="199" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="207" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="207" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1a1c19ad2e498af948a8430c122d607aa4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MROutlierPoints_8h_1aed90ec091f4cad4120e2fa4dcadba078" kindref="member">MR_OutliersDetector</ref> *</type>
@@ -842,7 +842,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="204" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="204" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="212" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="212" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1a016f5d0393cb032680bfb3718e4d8309" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MROutlierPoints_8h_1aed90ec091f4cad4120e2fa4dcadba078" kindref="member">MR_OutliersDetector</ref> *</type>
@@ -864,7 +864,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="208" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="208" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="216" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="216" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1a4fc527ccc0331da0b011986b5a318b4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MROutlierPoints_8h_1aed90ec091f4cad4120e2fa4dcadba078" kindref="member">MR_OutliersDetector</ref> *</type>
@@ -886,7 +886,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="212" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="212" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="220" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="220" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1a112c0eaac97c21349923f2427814ded2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MROutlierPoints_8h_1aed90ec091f4cad4120e2fa4dcadba078" kindref="member">MR_OutliersDetector</ref> *</type>
@@ -908,7 +908,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="217" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="217" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="225" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="225" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1a88faa99c61ff83cf612dea247e564d61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -926,7 +926,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="220" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="220" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="228" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="228" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1a32af40c7223eae3f30e648cb9cf87e78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -944,7 +944,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="223" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="223" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="231" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="231" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1a2f0537d55a875743e5c0d869e00d73aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MROutlierPoints_8h_1aed90ec091f4cad4120e2fa4dcadba078" kindref="member">MR_OutliersDetector</ref> *</type>
@@ -970,7 +970,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="230" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="230" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="238" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="238" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1a47ad8bc8e17ad87dc03354f6b91f03e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
@@ -1044,7 +1044,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="244" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="244" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="252" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="252" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1a43b0ecea71ffc7d7bd3f27d972cf3cb6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1066,7 +1066,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="250" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="250" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="258" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="258" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1a6b53c8b4b14ce4fddf62603f001cbe1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref> *</type>
@@ -1084,7 +1084,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="256" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="256" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="264" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="264" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1a940fbfc1d3fd35c8dfaaea6bf1eaf2f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMesh_8h_1ad28f0eefdef309c3ac3580e15985c342" kindref="member">MR_expected_MR_VertBitSet_std_string</ref> *</type>
@@ -1123,7 +1123,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="264" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="264" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="272" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="272" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1a19947220e41f5c3eaa5a1c978267ce04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRBase64_8h_1a7f6e3e5252ba136468a252fb7a041661" kindref="member">MR_std_vector_unsigned_char</ref> *</type>
@@ -1137,11 +1137,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Get statistics on the number of neighbors for each point Generated from method <computeroutput>MR::OutliersDetector::getWeaklyConnectedStat</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. Parameters of various criteria for detecting outlier points Returns a pointer to a member variable of class <computeroutput>MR::FindOutliersParams</computeroutput> named <computeroutput>finderParams</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Get statistics on the number of neighbors for each point Generated from method <computeroutput>MR::OutliersDetector::getWeaklyConnectedStat</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. Parameters of various criteria for detecting outlier points Returns a pointer to a member variable of class <computeroutput>MR::FindOutliersParams</computeroutput> named <computeroutput>finderParams</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="270" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="270" declcolumn="43"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="278" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="278" declcolumn="43"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1a2e8d526b304a02acebdc368018849988" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref> *</type>
@@ -1159,7 +1159,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="276" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="276" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="285" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="285" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1aef87a576678e7bb9689c789d11931bb8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1177,11 +1177,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Parameters of various criteria for detecting outlier points Returns a mutable pointer to a member variable of class <computeroutput>MR::FindOutliersParams</computeroutput> named <computeroutput>finderParams</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Parameters of various criteria for detecting outlier points Returns a mutable pointer to a member variable of class <computeroutput>MR::FindOutliersParams</computeroutput> named <computeroutput>finderParams</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="284" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="284" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="293" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="293" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1a669e41f4ca5113e82cd6cbdd1be82c75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref> *</type>
@@ -1195,11 +1195,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Radius of the search for neighboring points for analysis Returns a pointer to a member variable of class <computeroutput>MR::FindOutliersParams</computeroutput> named <computeroutput>radius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Radius of the search for neighboring points for analysis Returns a pointer to a member variable of class <computeroutput>MR::FindOutliersParams</computeroutput> named <computeroutput>radius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="290" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="290" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="300" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="300" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1a21a92fee9e8725e4996f9c6205d45f88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const float *</type>
@@ -1217,7 +1217,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="296" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="296" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="307" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="307" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1a0c3c2eb6d8c4049e769979c51886964a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1235,11 +1235,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Radius of the search for neighboring points for analysis Returns a mutable pointer to a member variable of class <computeroutput>MR::FindOutliersParams</computeroutput> named <computeroutput>radius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Radius of the search for neighboring points for analysis Returns a mutable pointer to a member variable of class <computeroutput>MR::FindOutliersParams</computeroutput> named <computeroutput>radius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="302" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="302" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="313" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="313" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1a64b2251510474a0882849f22de52003c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float *</type>
@@ -1253,11 +1253,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Mask of the types of outliers that are looking for Returns a pointer to a member variable of class <computeroutput>MR::FindOutliersParams</computeroutput> named <computeroutput>mask</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Mask of the types of outliers that are looking for Returns a pointer to a member variable of class <computeroutput>MR::FindOutliersParams</computeroutput> named <computeroutput>mask</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="308" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="308" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="320" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="320" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1ad35b439e48f4ab5eb2438c13c2fea1d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref> *</type>
@@ -1275,7 +1275,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="314" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="314" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="327" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="327" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1a139dda660f2a906aba9d0a1e0bfd780f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1293,11 +1293,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Mask of the types of outliers that are looking for Returns a mutable pointer to a member variable of class <computeroutput>MR::FindOutliersParams</computeroutput> named <computeroutput>mask</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Mask of the types of outliers that are looking for Returns a mutable pointer to a member variable of class <computeroutput>MR::FindOutliersParams</computeroutput> named <computeroutput>mask</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="321" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="321" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="334" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="334" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1a67a2847757998b57c5765240cd7dc354" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref> *</type>
@@ -1311,11 +1311,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Progress callback Returns a pointer to a member variable of class <computeroutput>MR::FindOutliersParams</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Progress callback Returns a pointer to a member variable of class <computeroutput>MR::FindOutliersParams</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="327" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="327" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="341" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="341" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1a953d517d9a1ef48c01fc4471fdff82eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
@@ -1333,7 +1333,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="333" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="333" declcolumn="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="348" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="348" declcolumn="47"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1aabfa30cac88c8dd1acc82b8bca219107" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1355,11 +1355,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Progress callback Returns a mutable pointer to a member variable of class <computeroutput>MR::FindOutliersParams</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Progress callback Returns a mutable pointer to a member variable of class <computeroutput>MR::FindOutliersParams</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="340" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="340" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="355" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="355" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1aaf4f18777b61facf3c4ed7ac51be44d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
@@ -1376,7 +1376,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="346" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="346" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="362" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="362" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1af3097c1b05ad7521df8f510de81c90e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref> *</type>
@@ -1393,7 +1393,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="350" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="350" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="366" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="366" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1a3e8988ddd8a3156581eb5d1609cd7d10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref> *</type>
@@ -1411,7 +1411,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="355" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="355" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="371" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="371" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1af021199fd6de9ead11dfe0ef331ffdce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref> *</type>
@@ -1445,7 +1445,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="364" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="364" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="380" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="380" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1abb18a7ce0c475e2a2ceba35872e1dfd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref> *</type>
@@ -1467,7 +1467,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="368" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="368" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="384" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="384" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1a2e577bda7c48443ae7e2eab8f33d6521" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref> *</type>
@@ -1489,7 +1489,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="372" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="372" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="388" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="388" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1ae371bcd173b7a219515f7f3d4e6ff23b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref> *</type>
@@ -1511,7 +1511,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="377" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="377" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="393" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="393" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1a2fc36da0d877eeac2d8a2d495cda8d01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1529,7 +1529,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="380" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="380" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="396" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="396" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1a99b3d705334ecb6bcb032bfa660b5be8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1547,7 +1547,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="383" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="383" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="399" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="399" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1a6c5fc3ab4f388fd5cf3429ee304a6822" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref> *</type>
@@ -1573,7 +1573,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="390" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="390" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="406" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="406" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MROutlierPoints_8h_1a8162fb6f888f1de5be693676675aa4c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMesh_8h_1ad28f0eefdef309c3ac3580e15985c342" kindref="member">MR_expected_MR_VertBitSet_std_string</ref> *</type>
@@ -1595,7 +1595,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="397" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="397" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" line="413" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h" declline="413" declcolumn="46"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1637,137 +1637,137 @@
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>
 <codeline lineno="48" refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/><ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref>;</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
-<codeline lineno="54" refid="MROutlierPoints_8h_1a3db8a8e94f88b439594f96b5eefac469" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MROutlierPoints_8h_1a3db8a8e94f88b439594f96b5eefac469" kindref="member">MR_OutlierParams_Get_maxClusterSize</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="55"><highlight class="normal"></highlight></codeline>
-<codeline lineno="60" refid="MROutlierPoints_8h_1aa54b1998895c6a8251d3234bf98085fb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1aa54b1998895c6a8251d3234bf98085fb" kindref="member">MR_OutlierParams_Set_maxClusterSize</ref>(<ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="61"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66" refid="MROutlierPoints_8h_1ae37dfad85cd4afa864a74ecdfd68a164" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MROutlierPoints_8h_1ae37dfad85cd4afa864a74ecdfd68a164" kindref="member">MR_OutlierParams_GetMutable_maxClusterSize</ref>(<ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="67"><highlight class="normal"></highlight></codeline>
-<codeline lineno="72" refid="MROutlierPoints_8h_1ab9b45d274cb68a32a812e42bbc35264d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MROutlierPoints_8h_1ab9b45d274cb68a32a812e42bbc35264d" kindref="member">MR_OutlierParams_Get_maxNeighbors</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="73"><highlight class="normal"></highlight></codeline>
-<codeline lineno="78" refid="MROutlierPoints_8h_1ab5073fee6e66eb465285ed9104c8b1d4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1ab5073fee6e66eb465285ed9104c8b1d4" kindref="member">MR_OutlierParams_Set_maxNeighbors</ref>(<ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="79"><highlight class="normal"></highlight></codeline>
-<codeline lineno="84" refid="MROutlierPoints_8h_1a1bdb17735e4cf67dd4015cc225ce671c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MROutlierPoints_8h_1a1bdb17735e4cf67dd4015cc225ce671c" kindref="member">MR_OutlierParams_GetMutable_maxNeighbors</ref>(<ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="85"><highlight class="normal"></highlight></codeline>
-<codeline lineno="90" refid="MROutlierPoints_8h_1abf2f4f774b463c16c1bed88f96346127" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MROutlierPoints_8h_1abf2f4f774b463c16c1bed88f96346127" kindref="member">MR_OutlierParams_Get_minHeight</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="91"><highlight class="normal"></highlight></codeline>
-<codeline lineno="96" refid="MROutlierPoints_8h_1ac49a9ebf00a91fa6e3dd2d8a8be596d9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1ac49a9ebf00a91fa6e3dd2d8a8be596d9" kindref="member">MR_OutlierParams_Set_minHeight</ref>(<ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="97"><highlight class="normal"></highlight></codeline>
-<codeline lineno="102" refid="MROutlierPoints_8h_1ae03233f47e89c312960f7cb9200c5a1e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MROutlierPoints_8h_1ae03233f47e89c312960f7cb9200c5a1e" kindref="member">MR_OutlierParams_GetMutable_minHeight</ref>(<ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="103"><highlight class="normal"></highlight></codeline>
-<codeline lineno="109" refid="MROutlierPoints_8h_1a93f72106600dbeb53075720cc912f9ea" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MROutlierPoints_8h_1a93f72106600dbeb53075720cc912f9ea" kindref="member">MR_OutlierParams_Get_minAngle</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="110"><highlight class="normal"></highlight></codeline>
-<codeline lineno="116" refid="MROutlierPoints_8h_1ab0ee25524fdfa6532b4773d1ea99b635" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1ab0ee25524fdfa6532b4773d1ea99b635" kindref="member">MR_OutlierParams_Set_minAngle</ref>(<ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="55" refid="MROutlierPoints_8h_1a3db8a8e94f88b439594f96b5eefac469" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MROutlierPoints_8h_1a3db8a8e94f88b439594f96b5eefac469" kindref="member">MR_OutlierParams_Get_maxClusterSize</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="MROutlierPoints_8h_1aa54b1998895c6a8251d3234bf98085fb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1aa54b1998895c6a8251d3234bf98085fb" kindref="member">MR_OutlierParams_Set_maxClusterSize</ref>(<ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="MROutlierPoints_8h_1ae37dfad85cd4afa864a74ecdfd68a164" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MROutlierPoints_8h_1ae37dfad85cd4afa864a74ecdfd68a164" kindref="member">MR_OutlierParams_GetMutable_maxClusterSize</ref>(<ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="MROutlierPoints_8h_1ab9b45d274cb68a32a812e42bbc35264d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MROutlierPoints_8h_1ab9b45d274cb68a32a812e42bbc35264d" kindref="member">MR_OutlierParams_Get_maxNeighbors</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="MROutlierPoints_8h_1ab5073fee6e66eb465285ed9104c8b1d4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1ab5073fee6e66eb465285ed9104c8b1d4" kindref="member">MR_OutlierParams_Set_maxNeighbors</ref>(<ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="MROutlierPoints_8h_1a1bdb17735e4cf67dd4015cc225ce671c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MROutlierPoints_8h_1a1bdb17735e4cf67dd4015cc225ce671c" kindref="member">MR_OutlierParams_GetMutable_maxNeighbors</ref>(<ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="MROutlierPoints_8h_1abf2f4f774b463c16c1bed88f96346127" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MROutlierPoints_8h_1abf2f4f774b463c16c1bed88f96346127" kindref="member">MR_OutlierParams_Get_minHeight</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="MROutlierPoints_8h_1ac49a9ebf00a91fa6e3dd2d8a8be596d9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1ac49a9ebf00a91fa6e3dd2d8a8be596d9" kindref="member">MR_OutlierParams_Set_minHeight</ref>(<ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="MROutlierPoints_8h_1ae03233f47e89c312960f7cb9200c5a1e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MROutlierPoints_8h_1ae03233f47e89c312960f7cb9200c5a1e" kindref="member">MR_OutlierParams_GetMutable_minHeight</ref>(<ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116" refid="MROutlierPoints_8h_1a93f72106600dbeb53075720cc912f9ea" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MROutlierPoints_8h_1a93f72106600dbeb53075720cc912f9ea" kindref="member">MR_OutlierParams_Get_minAngle</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="117"><highlight class="normal"></highlight></codeline>
-<codeline lineno="123" refid="MROutlierPoints_8h_1abb1d9ec95c5de62781babaee66fedaab" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MROutlierPoints_8h_1abb1d9ec95c5de62781babaee66fedaab" kindref="member">MR_OutlierParams_GetMutable_minAngle</ref>(<ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="123" refid="MROutlierPoints_8h_1ab0ee25524fdfa6532b4773d1ea99b635" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1ab0ee25524fdfa6532b4773d1ea99b635" kindref="member">MR_OutlierParams_Set_minAngle</ref>(<ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="124"><highlight class="normal"></highlight></codeline>
-<codeline lineno="127" refid="MROutlierPoints_8h_1a95f175b2493863188a6403392d4005f4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*<ref refid="MROutlierPoints_8h_1a95f175b2493863188a6403392d4005f4" kindref="member">MR_OutlierParams_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="128"><highlight class="normal"></highlight></codeline>
-<codeline lineno="132" refid="MROutlierPoints_8h_1a6c4a63e1ecf8ce6294d7da90a8366b42" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*<ref refid="MROutlierPoints_8h_1a6c4a63e1ecf8ce6294d7da90a8366b42" kindref="member">MR_OutlierParams_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="133"><highlight class="normal"></highlight></codeline>
-<codeline lineno="137" refid="MROutlierPoints_8h_1aca3ec12c2960b0564037b79e4b6aa0dd" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*<ref refid="MROutlierPoints_8h_1aca3ec12c2960b0564037b79e4b6aa0dd" kindref="member">MR_OutlierParams_ConstructFrom</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maxClusterSize,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maxNeighbors,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>minHeight,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>minAngle);</highlight></codeline>
-<codeline lineno="138"><highlight class="normal"></highlight></codeline>
-<codeline lineno="141" refid="MROutlierPoints_8h_1ab9464d8a4569cf5d20fb6c768527b9ab" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*<ref refid="MROutlierPoints_8h_1ab9464d8a4569cf5d20fb6c768527b9ab" kindref="member">MR_OutlierParams_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="142"><highlight class="normal"></highlight></codeline>
-<codeline lineno="145" refid="MROutlierPoints_8h_1a7150da42af3ea468425a3328ead72414" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*<ref refid="MROutlierPoints_8h_1a7150da42af3ea468425a3328ead72414" kindref="member">MR_OutlierParams_OffsetMutablePtr</ref>(<ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="131" refid="MROutlierPoints_8h_1abb1d9ec95c5de62781babaee66fedaab" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MROutlierPoints_8h_1abb1d9ec95c5de62781babaee66fedaab" kindref="member">MR_OutlierParams_GetMutable_minAngle</ref>(<ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135" refid="MROutlierPoints_8h_1a95f175b2493863188a6403392d4005f4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*<ref refid="MROutlierPoints_8h_1a95f175b2493863188a6403392d4005f4" kindref="member">MR_OutlierParams_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140" refid="MROutlierPoints_8h_1a6c4a63e1ecf8ce6294d7da90a8366b42" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*<ref refid="MROutlierPoints_8h_1a6c4a63e1ecf8ce6294d7da90a8366b42" kindref="member">MR_OutlierParams_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145" refid="MROutlierPoints_8h_1aca3ec12c2960b0564037b79e4b6aa0dd" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*<ref refid="MROutlierPoints_8h_1aca3ec12c2960b0564037b79e4b6aa0dd" kindref="member">MR_OutlierParams_ConstructFrom</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maxClusterSize,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maxNeighbors,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>minHeight,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>minAngle);</highlight></codeline>
 <codeline lineno="146"><highlight class="normal"></highlight></codeline>
-<codeline lineno="151" refid="MROutlierPoints_8h_1a7fad714cad4fcc9b4e426e964f770976" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*<ref refid="MROutlierPoints_8h_1a7fad714cad4fcc9b4e426e964f770976" kindref="member">MR_OutlierParams_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="152"><highlight class="normal"></highlight></codeline>
-<codeline lineno="154" refid="MROutlierPoints_8h_1a4a34013dbd57221d61a0845d5a21d7d3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1a4a34013dbd57221d61a0845d5a21d7d3" kindref="member">MR_OutlierParams_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="155"><highlight class="normal"></highlight></codeline>
-<codeline lineno="157" refid="MROutlierPoints_8h_1a713b4a1510b1f731385d2370cfe9425f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1a713b4a1510b1f731385d2370cfe9425f" kindref="member">MR_OutlierParams_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="158"><highlight class="normal"></highlight></codeline>
-<codeline lineno="165" refid="MROutlierPoints_8h_1a861b517b667c8c62fe4547d8a0d4d26d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*<ref refid="MROutlierPoints_8h_1a861b517b667c8c62fe4547d8a0d4d26d" kindref="member">MR_OutlierParams_AssignFromAnother</ref>(<ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="149" refid="MROutlierPoints_8h_1ab9464d8a4569cf5d20fb6c768527b9ab" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*<ref refid="MROutlierPoints_8h_1ab9464d8a4569cf5d20fb6c768527b9ab" kindref="member">MR_OutlierParams_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153" refid="MROutlierPoints_8h_1a7150da42af3ea468425a3328ead72414" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*<ref refid="MROutlierPoints_8h_1a7150da42af3ea468425a3328ead72414" kindref="member">MR_OutlierParams_OffsetMutablePtr</ref>(<ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="MROutlierPoints_8h_1a7fad714cad4fcc9b4e426e964f770976" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*<ref refid="MROutlierPoints_8h_1a7fad714cad4fcc9b4e426e964f770976" kindref="member">MR_OutlierParams_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162" refid="MROutlierPoints_8h_1a4a34013dbd57221d61a0845d5a21d7d3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1a4a34013dbd57221d61a0845d5a21d7d3" kindref="member">MR_OutlierParams_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165" refid="MROutlierPoints_8h_1a713b4a1510b1f731385d2370cfe9425f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1a713b4a1510b1f731385d2370cfe9425f" kindref="member">MR_OutlierParams_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="166"><highlight class="normal"></highlight></codeline>
-<codeline lineno="168" refid="MROutlierPoints_8h_1a299feba8b68de1abbb7ce19c863d6104" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref><sp/><ref refid="MROutlierPoints_8h_1a299feba8b68de1abbb7ce19c863d6104" kindref="member">MR_bitand_MR_OutlierTypeMask</ref>(<ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref><sp/>a,<sp/><ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref><sp/>b);</highlight></codeline>
-<codeline lineno="169"><highlight class="normal"></highlight></codeline>
-<codeline lineno="171" refid="MROutlierPoints_8h_1a5e5803aa29a8449d797c4c507a88a9b7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref><sp/><ref refid="MROutlierPoints_8h_1a5e5803aa29a8449d797c4c507a88a9b7" kindref="member">MR_bitor_MR_OutlierTypeMask</ref>(<ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref><sp/>a,<sp/><ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref><sp/>b);</highlight></codeline>
-<codeline lineno="172"><highlight class="normal"></highlight></codeline>
-<codeline lineno="174" refid="MROutlierPoints_8h_1a6f5305ad2931fbd177a84225bcbd27d0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref><sp/><ref refid="MROutlierPoints_8h_1a6f5305ad2931fbd177a84225bcbd27d0" kindref="member">MR_compl_MR_OutlierTypeMask</ref>(<ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref><sp/>a);</highlight></codeline>
-<codeline lineno="175"><highlight class="normal"></highlight></codeline>
-<codeline lineno="179" refid="MROutlierPoints_8h_1a5806ecf0427d6f4c27d92a3a0910f41b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref><sp/>*<ref refid="MROutlierPoints_8h_1a5806ecf0427d6f4c27d92a3a0910f41b" kindref="member">MR_bitand_assign_MR_OutlierTypeMask</ref>(<ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref><sp/>*a,<sp/><ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref><sp/>b);</highlight></codeline>
+<codeline lineno="173" refid="MROutlierPoints_8h_1a861b517b667c8c62fe4547d8a0d4d26d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*<ref refid="MROutlierPoints_8h_1a861b517b667c8c62fe4547d8a0d4d26d" kindref="member">MR_OutlierParams_AssignFromAnother</ref>(<ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176" refid="MROutlierPoints_8h_1a299feba8b68de1abbb7ce19c863d6104" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref><sp/><ref refid="MROutlierPoints_8h_1a299feba8b68de1abbb7ce19c863d6104" kindref="member">MR_bitand_MR_OutlierTypeMask</ref>(<ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref><sp/>a,<sp/><ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref><sp/>b);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179" refid="MROutlierPoints_8h_1a5e5803aa29a8449d797c4c507a88a9b7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref><sp/><ref refid="MROutlierPoints_8h_1a5e5803aa29a8449d797c4c507a88a9b7" kindref="member">MR_bitor_MR_OutlierTypeMask</ref>(<ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref><sp/>a,<sp/><ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref><sp/>b);</highlight></codeline>
 <codeline lineno="180"><highlight class="normal"></highlight></codeline>
-<codeline lineno="184" refid="MROutlierPoints_8h_1a82b9fea684b16bb824e3f8a2dac50bce" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref><sp/>*<ref refid="MROutlierPoints_8h_1a82b9fea684b16bb824e3f8a2dac50bce" kindref="member">MR_bitor_assign_MR_OutlierTypeMask</ref>(<ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref><sp/>*a,<sp/><ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref><sp/>b);</highlight></codeline>
-<codeline lineno="185"><highlight class="normal"></highlight></codeline>
-<codeline lineno="187" refid="MROutlierPoints_8h_1ae856ed6f3c5d3f9d001fecf0d672561a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref><sp/><ref refid="MROutlierPoints_8h_1ae856ed6f3c5d3f9d001fecf0d672561a" kindref="member">MR_mul_MR_OutlierTypeMask_bool</ref>(<ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref><sp/>a,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>b);</highlight></codeline>
+<codeline lineno="182" refid="MROutlierPoints_8h_1a6f5305ad2931fbd177a84225bcbd27d0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref><sp/><ref refid="MROutlierPoints_8h_1a6f5305ad2931fbd177a84225bcbd27d0" kindref="member">MR_compl_MR_OutlierTypeMask</ref>(<ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref><sp/>a);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187" refid="MROutlierPoints_8h_1a5806ecf0427d6f4c27d92a3a0910f41b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref><sp/>*<ref refid="MROutlierPoints_8h_1a5806ecf0427d6f4c27d92a3a0910f41b" kindref="member">MR_bitand_assign_MR_OutlierTypeMask</ref>(<ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref><sp/>*a,<sp/><ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref><sp/>b);</highlight></codeline>
 <codeline lineno="188"><highlight class="normal"></highlight></codeline>
-<codeline lineno="190" refid="MROutlierPoints_8h_1a1088a78ea5b21f7b11027b8da4c3b693" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref><sp/><ref refid="MROutlierPoints_8h_1a1088a78ea5b21f7b11027b8da4c3b693" kindref="member">MR_mul_bool_MR_OutlierTypeMask</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>a,<sp/><ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref><sp/>b);</highlight></codeline>
-<codeline lineno="191"><highlight class="normal"></highlight></codeline>
-<codeline lineno="195" refid="MROutlierPoints_8h_1a59c3fd82835ff31620b574e22a7e6997" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref><sp/>*<ref refid="MROutlierPoints_8h_1a59c3fd82835ff31620b574e22a7e6997" kindref="member">MR_mul_assign_MR_OutlierTypeMask_bool</ref>(<ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref><sp/>*a,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>b);</highlight></codeline>
+<codeline lineno="192" refid="MROutlierPoints_8h_1a82b9fea684b16bb824e3f8a2dac50bce" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref><sp/>*<ref refid="MROutlierPoints_8h_1a82b9fea684b16bb824e3f8a2dac50bce" kindref="member">MR_bitor_assign_MR_OutlierTypeMask</ref>(<ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref><sp/>*a,<sp/><ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref><sp/>b);</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195" refid="MROutlierPoints_8h_1ae856ed6f3c5d3f9d001fecf0d672561a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref><sp/><ref refid="MROutlierPoints_8h_1ae856ed6f3c5d3f9d001fecf0d672561a" kindref="member">MR_mul_MR_OutlierTypeMask_bool</ref>(<ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref><sp/>a,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>b);</highlight></codeline>
 <codeline lineno="196"><highlight class="normal"></highlight></codeline>
-<codeline lineno="199" refid="MROutlierPoints_8h_1acf8388b7933a9cd5a3d907a19af0bb29" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1aed90ec091f4cad4120e2fa4dcadba078" kindref="member">MR_OutliersDetector</ref><sp/>*<ref refid="MROutlierPoints_8h_1acf8388b7933a9cd5a3d907a19af0bb29" kindref="member">MR_OutliersDetector_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="200"><highlight class="normal"></highlight></codeline>
-<codeline lineno="204" refid="MROutlierPoints_8h_1a1c19ad2e498af948a8430c122d607aa4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1aed90ec091f4cad4120e2fa4dcadba078" kindref="member">MR_OutliersDetector</ref><sp/>*<ref refid="MROutlierPoints_8h_1a1c19ad2e498af948a8430c122d607aa4" kindref="member">MR_OutliersDetector_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="205"><highlight class="normal"></highlight></codeline>
-<codeline lineno="208" refid="MROutlierPoints_8h_1a016f5d0393cb032680bfb3718e4d8309" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1aed90ec091f4cad4120e2fa4dcadba078" kindref="member">MR_OutliersDetector</ref><sp/>*<ref refid="MROutlierPoints_8h_1a016f5d0393cb032680bfb3718e4d8309" kindref="member">MR_OutliersDetector_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1aed90ec091f4cad4120e2fa4dcadba078" kindref="member">MR_OutliersDetector</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="209"><highlight class="normal"></highlight></codeline>
-<codeline lineno="212" refid="MROutlierPoints_8h_1a4fc527ccc0331da0b011986b5a318b4e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1aed90ec091f4cad4120e2fa4dcadba078" kindref="member">MR_OutliersDetector</ref><sp/>*<ref refid="MROutlierPoints_8h_1a4fc527ccc0331da0b011986b5a318b4e" kindref="member">MR_OutliersDetector_OffsetMutablePtr</ref>(<ref refid="MROutlierPoints_8h_1aed90ec091f4cad4120e2fa4dcadba078" kindref="member">MR_OutliersDetector</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="198" refid="MROutlierPoints_8h_1a1088a78ea5b21f7b11027b8da4c3b693" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref><sp/><ref refid="MROutlierPoints_8h_1a1088a78ea5b21f7b11027b8da4c3b693" kindref="member">MR_mul_bool_MR_OutlierTypeMask</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>a,<sp/><ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref><sp/>b);</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight></codeline>
+<codeline lineno="203" refid="MROutlierPoints_8h_1a59c3fd82835ff31620b574e22a7e6997" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref><sp/>*<ref refid="MROutlierPoints_8h_1a59c3fd82835ff31620b574e22a7e6997" kindref="member">MR_mul_assign_MR_OutlierTypeMask_bool</ref>(<ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref><sp/>*a,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>b);</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207" refid="MROutlierPoints_8h_1acf8388b7933a9cd5a3d907a19af0bb29" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1aed90ec091f4cad4120e2fa4dcadba078" kindref="member">MR_OutliersDetector</ref><sp/>*<ref refid="MROutlierPoints_8h_1acf8388b7933a9cd5a3d907a19af0bb29" kindref="member">MR_OutliersDetector_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212" refid="MROutlierPoints_8h_1a1c19ad2e498af948a8430c122d607aa4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1aed90ec091f4cad4120e2fa4dcadba078" kindref="member">MR_OutliersDetector</ref><sp/>*<ref refid="MROutlierPoints_8h_1a1c19ad2e498af948a8430c122d607aa4" kindref="member">MR_OutliersDetector_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="213"><highlight class="normal"></highlight></codeline>
-<codeline lineno="217" refid="MROutlierPoints_8h_1a112c0eaac97c21349923f2427814ded2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1aed90ec091f4cad4120e2fa4dcadba078" kindref="member">MR_OutliersDetector</ref><sp/>*<ref refid="MROutlierPoints_8h_1a112c0eaac97c21349923f2427814ded2" kindref="member">MR_OutliersDetector_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MROutlierPoints_8h_1aed90ec091f4cad4120e2fa4dcadba078" kindref="member">MR_OutliersDetector</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="218"><highlight class="normal"></highlight></codeline>
-<codeline lineno="220" refid="MROutlierPoints_8h_1a88faa99c61ff83cf612dea247e564d61" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1a88faa99c61ff83cf612dea247e564d61" kindref="member">MR_OutliersDetector_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1aed90ec091f4cad4120e2fa4dcadba078" kindref="member">MR_OutliersDetector</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="216" refid="MROutlierPoints_8h_1a016f5d0393cb032680bfb3718e4d8309" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1aed90ec091f4cad4120e2fa4dcadba078" kindref="member">MR_OutliersDetector</ref><sp/>*<ref refid="MROutlierPoints_8h_1a016f5d0393cb032680bfb3718e4d8309" kindref="member">MR_OutliersDetector_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1aed90ec091f4cad4120e2fa4dcadba078" kindref="member">MR_OutliersDetector</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220" refid="MROutlierPoints_8h_1a4fc527ccc0331da0b011986b5a318b4e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1aed90ec091f4cad4120e2fa4dcadba078" kindref="member">MR_OutliersDetector</ref><sp/>*<ref refid="MROutlierPoints_8h_1a4fc527ccc0331da0b011986b5a318b4e" kindref="member">MR_OutliersDetector_OffsetMutablePtr</ref>(<ref refid="MROutlierPoints_8h_1aed90ec091f4cad4120e2fa4dcadba078" kindref="member">MR_OutliersDetector</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="221"><highlight class="normal"></highlight></codeline>
-<codeline lineno="223" refid="MROutlierPoints_8h_1a32af40c7223eae3f30e648cb9cf87e78" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1a32af40c7223eae3f30e648cb9cf87e78" kindref="member">MR_OutliersDetector_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1aed90ec091f4cad4120e2fa4dcadba078" kindref="member">MR_OutliersDetector</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="224"><highlight class="normal"></highlight></codeline>
-<codeline lineno="230" refid="MROutlierPoints_8h_1a2f0537d55a875743e5c0d869e00d73aa" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1aed90ec091f4cad4120e2fa4dcadba078" kindref="member">MR_OutliersDetector</ref><sp/>*<ref refid="MROutlierPoints_8h_1a2f0537d55a875743e5c0d869e00d73aa" kindref="member">MR_OutliersDetector_AssignFromAnother</ref>(<ref refid="MROutlierPoints_8h_1aed90ec091f4cad4120e2fa4dcadba078" kindref="member">MR_OutliersDetector</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MROutlierPoints_8h_1aed90ec091f4cad4120e2fa4dcadba078" kindref="member">MR_OutliersDetector</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="231"><highlight class="normal"></highlight></codeline>
-<codeline lineno="244" refid="MROutlierPoints_8h_1a47ad8bc8e17ad87dc03354f6b91f03e3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MROutlierPoints_8h_1a47ad8bc8e17ad87dc03354f6b91f03e3" kindref="member">MR_OutliersDetector_prepare</ref>(<ref refid="MROutlierPoints_8h_1aed90ec091f4cad4120e2fa4dcadba078" kindref="member">MR_OutliersDetector</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*pc,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius,<sp/><ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref><sp/>mask,<sp/>MR_PassBy<sp/>progress_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progress);</highlight></codeline>
-<codeline lineno="245"><highlight class="normal"></highlight></codeline>
-<codeline lineno="250" refid="MROutlierPoints_8h_1a43b0ecea71ffc7d7bd3f27d972cf3cb6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1a43b0ecea71ffc7d7bd3f27d972cf3cb6" kindref="member">MR_OutliersDetector_setParams</ref>(<ref refid="MROutlierPoints_8h_1aed90ec091f4cad4120e2fa4dcadba078" kindref="member">MR_OutliersDetector</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*params);</highlight></codeline>
-<codeline lineno="251"><highlight class="normal"></highlight></codeline>
-<codeline lineno="256" refid="MROutlierPoints_8h_1a6b53c8b4b14ce4fddf62603f001cbe1f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*<ref refid="MROutlierPoints_8h_1a6b53c8b4b14ce4fddf62603f001cbe1f" kindref="member">MR_OutliersDetector_getParams</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1aed90ec091f4cad4120e2fa4dcadba078" kindref="member">MR_OutliersDetector</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="257"><highlight class="normal"></highlight></codeline>
-<codeline lineno="264" refid="MROutlierPoints_8h_1a940fbfc1d3fd35c8dfaaea6bf1eaf2f2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMesh_8h_1ad28f0eefdef309c3ac3580e15985c342" kindref="member">MR_expected_MR_VertBitSet_std_string</ref><sp/>*<ref refid="MROutlierPoints_8h_1a940fbfc1d3fd35c8dfaaea6bf1eaf2f2" kindref="member">MR_OutliersDetector_find</ref>(<ref refid="MROutlierPoints_8h_1aed90ec091f4cad4120e2fa4dcadba078" kindref="member">MR_OutliersDetector</ref><sp/>*_this,<sp/><ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref><sp/>mask,<sp/>MR_PassBy<sp/>progress_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progress);</highlight></codeline>
+<codeline lineno="225" refid="MROutlierPoints_8h_1a112c0eaac97c21349923f2427814ded2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1aed90ec091f4cad4120e2fa4dcadba078" kindref="member">MR_OutliersDetector</ref><sp/>*<ref refid="MROutlierPoints_8h_1a112c0eaac97c21349923f2427814ded2" kindref="member">MR_OutliersDetector_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MROutlierPoints_8h_1aed90ec091f4cad4120e2fa4dcadba078" kindref="member">MR_OutliersDetector</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="228" refid="MROutlierPoints_8h_1a88faa99c61ff83cf612dea247e564d61" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1a88faa99c61ff83cf612dea247e564d61" kindref="member">MR_OutliersDetector_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1aed90ec091f4cad4120e2fa4dcadba078" kindref="member">MR_OutliersDetector</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231" refid="MROutlierPoints_8h_1a32af40c7223eae3f30e648cb9cf87e78" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1a32af40c7223eae3f30e648cb9cf87e78" kindref="member">MR_OutliersDetector_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1aed90ec091f4cad4120e2fa4dcadba078" kindref="member">MR_OutliersDetector</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight></codeline>
+<codeline lineno="238" refid="MROutlierPoints_8h_1a2f0537d55a875743e5c0d869e00d73aa" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1aed90ec091f4cad4120e2fa4dcadba078" kindref="member">MR_OutliersDetector</ref><sp/>*<ref refid="MROutlierPoints_8h_1a2f0537d55a875743e5c0d869e00d73aa" kindref="member">MR_OutliersDetector_AssignFromAnother</ref>(<ref refid="MROutlierPoints_8h_1aed90ec091f4cad4120e2fa4dcadba078" kindref="member">MR_OutliersDetector</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MROutlierPoints_8h_1aed90ec091f4cad4120e2fa4dcadba078" kindref="member">MR_OutliersDetector</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="252" refid="MROutlierPoints_8h_1a47ad8bc8e17ad87dc03354f6b91f03e3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MROutlierPoints_8h_1a47ad8bc8e17ad87dc03354f6b91f03e3" kindref="member">MR_OutliersDetector_prepare</ref>(<ref refid="MROutlierPoints_8h_1aed90ec091f4cad4120e2fa4dcadba078" kindref="member">MR_OutliersDetector</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*pc,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius,<sp/><ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref><sp/>mask,<sp/>MR_PassBy<sp/>progress_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progress);</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight></codeline>
+<codeline lineno="258" refid="MROutlierPoints_8h_1a43b0ecea71ffc7d7bd3f27d972cf3cb6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1a43b0ecea71ffc7d7bd3f27d972cf3cb6" kindref="member">MR_OutliersDetector_setParams</ref>(<ref refid="MROutlierPoints_8h_1aed90ec091f4cad4120e2fa4dcadba078" kindref="member">MR_OutliersDetector</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="264" refid="MROutlierPoints_8h_1a6b53c8b4b14ce4fddf62603f001cbe1f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*<ref refid="MROutlierPoints_8h_1a6b53c8b4b14ce4fddf62603f001cbe1f" kindref="member">MR_OutliersDetector_getParams</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1aed90ec091f4cad4120e2fa4dcadba078" kindref="member">MR_OutliersDetector</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="265"><highlight class="normal"></highlight></codeline>
-<codeline lineno="270" refid="MROutlierPoints_8h_1a19947220e41f5c3eaa5a1c978267ce04" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBase64_8h_1a7f6e3e5252ba136468a252fb7a041661" kindref="member">MR_std_vector_unsigned_char</ref><sp/>*<ref refid="MROutlierPoints_8h_1a19947220e41f5c3eaa5a1c978267ce04" kindref="member">MR_OutliersDetector_getWeaklyConnectedStat</ref>(<ref refid="MROutlierPoints_8h_1aed90ec091f4cad4120e2fa4dcadba078" kindref="member">MR_OutliersDetector</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="271"><highlight class="normal"></highlight></codeline>
-<codeline lineno="276" refid="MROutlierPoints_8h_1a2e8d526b304a02acebdc368018849988" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*<ref refid="MROutlierPoints_8h_1a2e8d526b304a02acebdc368018849988" kindref="member">MR_FindOutliersParams_Get_finderParams</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="277"><highlight class="normal"></highlight></codeline>
-<codeline lineno="284" refid="MROutlierPoints_8h_1aef87a576678e7bb9689c789d11931bb8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1aef87a576678e7bb9689c789d11931bb8" kindref="member">MR_FindOutliersParams_Set_finderParams</ref>(<ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="285"><highlight class="normal"></highlight></codeline>
-<codeline lineno="290" refid="MROutlierPoints_8h_1a669e41f4ca5113e82cd6cbdd1be82c75" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*<ref refid="MROutlierPoints_8h_1a669e41f4ca5113e82cd6cbdd1be82c75" kindref="member">MR_FindOutliersParams_GetMutable_finderParams</ref>(<ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="291"><highlight class="normal"></highlight></codeline>
-<codeline lineno="296" refid="MROutlierPoints_8h_1a21a92fee9e8725e4996f9c6205d45f88" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MROutlierPoints_8h_1a21a92fee9e8725e4996f9c6205d45f88" kindref="member">MR_FindOutliersParams_Get_radius</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="297"><highlight class="normal"></highlight></codeline>
-<codeline lineno="302" refid="MROutlierPoints_8h_1a0c3c2eb6d8c4049e769979c51886964a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1a0c3c2eb6d8c4049e769979c51886964a" kindref="member">MR_FindOutliersParams_Set_radius</ref>(<ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="303"><highlight class="normal"></highlight></codeline>
-<codeline lineno="308" refid="MROutlierPoints_8h_1a64b2251510474a0882849f22de52003c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MROutlierPoints_8h_1a64b2251510474a0882849f22de52003c" kindref="member">MR_FindOutliersParams_GetMutable_radius</ref>(<ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="309"><highlight class="normal"></highlight></codeline>
-<codeline lineno="314" refid="MROutlierPoints_8h_1ad35b439e48f4ab5eb2438c13c2fea1d3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref><sp/>*<ref refid="MROutlierPoints_8h_1ad35b439e48f4ab5eb2438c13c2fea1d3" kindref="member">MR_FindOutliersParams_Get_mask</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="315"><highlight class="normal"></highlight></codeline>
-<codeline lineno="321" refid="MROutlierPoints_8h_1a139dda660f2a906aba9d0a1e0bfd780f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1a139dda660f2a906aba9d0a1e0bfd780f" kindref="member">MR_FindOutliersParams_Set_mask</ref>(<ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*_this,<sp/><ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref><sp/>value);</highlight></codeline>
-<codeline lineno="322"><highlight class="normal"></highlight></codeline>
-<codeline lineno="327" refid="MROutlierPoints_8h_1a67a2847757998b57c5765240cd7dc354" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref><sp/>*<ref refid="MROutlierPoints_8h_1a67a2847757998b57c5765240cd7dc354" kindref="member">MR_FindOutliersParams_GetMutable_mask</ref>(<ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="272" refid="MROutlierPoints_8h_1a940fbfc1d3fd35c8dfaaea6bf1eaf2f2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMesh_8h_1ad28f0eefdef309c3ac3580e15985c342" kindref="member">MR_expected_MR_VertBitSet_std_string</ref><sp/>*<ref refid="MROutlierPoints_8h_1a940fbfc1d3fd35c8dfaaea6bf1eaf2f2" kindref="member">MR_OutliersDetector_find</ref>(<ref refid="MROutlierPoints_8h_1aed90ec091f4cad4120e2fa4dcadba078" kindref="member">MR_OutliersDetector</ref><sp/>*_this,<sp/><ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref><sp/>mask,<sp/>MR_PassBy<sp/>progress_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progress);</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"></highlight></codeline>
+<codeline lineno="278" refid="MROutlierPoints_8h_1a19947220e41f5c3eaa5a1c978267ce04" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBase64_8h_1a7f6e3e5252ba136468a252fb7a041661" kindref="member">MR_std_vector_unsigned_char</ref><sp/>*<ref refid="MROutlierPoints_8h_1a19947220e41f5c3eaa5a1c978267ce04" kindref="member">MR_OutliersDetector_getWeaklyConnectedStat</ref>(<ref refid="MROutlierPoints_8h_1aed90ec091f4cad4120e2fa4dcadba078" kindref="member">MR_OutliersDetector</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"></highlight></codeline>
+<codeline lineno="285" refid="MROutlierPoints_8h_1a2e8d526b304a02acebdc368018849988" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*<ref refid="MROutlierPoints_8h_1a2e8d526b304a02acebdc368018849988" kindref="member">MR_FindOutliersParams_Get_finderParams</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"></highlight></codeline>
+<codeline lineno="293" refid="MROutlierPoints_8h_1aef87a576678e7bb9689c789d11931bb8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1aef87a576678e7bb9689c789d11931bb8" kindref="member">MR_FindOutliersParams_Set_finderParams</ref>(<ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight></codeline>
+<codeline lineno="300" refid="MROutlierPoints_8h_1a669e41f4ca5113e82cd6cbdd1be82c75" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*<ref refid="MROutlierPoints_8h_1a669e41f4ca5113e82cd6cbdd1be82c75" kindref="member">MR_FindOutliersParams_GetMutable_finderParams</ref>(<ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight></codeline>
+<codeline lineno="307" refid="MROutlierPoints_8h_1a21a92fee9e8725e4996f9c6205d45f88" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MROutlierPoints_8h_1a21a92fee9e8725e4996f9c6205d45f88" kindref="member">MR_FindOutliersParams_Get_radius</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"></highlight></codeline>
+<codeline lineno="313" refid="MROutlierPoints_8h_1a0c3c2eb6d8c4049e769979c51886964a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1a0c3c2eb6d8c4049e769979c51886964a" kindref="member">MR_FindOutliersParams_Set_radius</ref>(<ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"></highlight></codeline>
+<codeline lineno="320" refid="MROutlierPoints_8h_1a64b2251510474a0882849f22de52003c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MROutlierPoints_8h_1a64b2251510474a0882849f22de52003c" kindref="member">MR_FindOutliersParams_GetMutable_radius</ref>(<ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"></highlight></codeline>
+<codeline lineno="327" refid="MROutlierPoints_8h_1ad35b439e48f4ab5eb2438c13c2fea1d3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref><sp/>*<ref refid="MROutlierPoints_8h_1ad35b439e48f4ab5eb2438c13c2fea1d3" kindref="member">MR_FindOutliersParams_Get_mask</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="328"><highlight class="normal"></highlight></codeline>
-<codeline lineno="333" refid="MROutlierPoints_8h_1a953d517d9a1ef48c01fc4471fdff82eb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MROutlierPoints_8h_1a953d517d9a1ef48c01fc4471fdff82eb" kindref="member">MR_FindOutliersParams_Get_progress</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="334"><highlight class="normal"></highlight></codeline>
-<codeline lineno="340" refid="MROutlierPoints_8h_1aabfa30cac88c8dd1acc82b8bca219107" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1aabfa30cac88c8dd1acc82b8bca219107" kindref="member">MR_FindOutliersParams_Set_progress</ref>(<ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="341"><highlight class="normal"></highlight></codeline>
-<codeline lineno="346" refid="MROutlierPoints_8h_1aaf4f18777b61facf3c4ed7ac51be44d6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MROutlierPoints_8h_1aaf4f18777b61facf3c4ed7ac51be44d6" kindref="member">MR_FindOutliersParams_GetMutable_progress</ref>(<ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="347"><highlight class="normal"></highlight></codeline>
-<codeline lineno="350" refid="MROutlierPoints_8h_1af3097c1b05ad7521df8f510de81c90e4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*<ref refid="MROutlierPoints_8h_1af3097c1b05ad7521df8f510de81c90e4" kindref="member">MR_FindOutliersParams_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="351"><highlight class="normal"></highlight></codeline>
-<codeline lineno="355" refid="MROutlierPoints_8h_1a3e8988ddd8a3156581eb5d1609cd7d10" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*<ref refid="MROutlierPoints_8h_1a3e8988ddd8a3156581eb5d1609cd7d10" kindref="member">MR_FindOutliersParams_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="334" refid="MROutlierPoints_8h_1a139dda660f2a906aba9d0a1e0bfd780f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1a139dda660f2a906aba9d0a1e0bfd780f" kindref="member">MR_FindOutliersParams_Set_mask</ref>(<ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*_this,<sp/><ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref><sp/>value);</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"></highlight></codeline>
+<codeline lineno="341" refid="MROutlierPoints_8h_1a67a2847757998b57c5765240cd7dc354" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref><sp/>*<ref refid="MROutlierPoints_8h_1a67a2847757998b57c5765240cd7dc354" kindref="member">MR_FindOutliersParams_GetMutable_mask</ref>(<ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"></highlight></codeline>
+<codeline lineno="348" refid="MROutlierPoints_8h_1a953d517d9a1ef48c01fc4471fdff82eb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MROutlierPoints_8h_1a953d517d9a1ef48c01fc4471fdff82eb" kindref="member">MR_FindOutliersParams_Get_progress</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="349"><highlight class="normal"></highlight></codeline>
+<codeline lineno="355" refid="MROutlierPoints_8h_1aabfa30cac88c8dd1acc82b8bca219107" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1aabfa30cac88c8dd1acc82b8bca219107" kindref="member">MR_FindOutliersParams_Set_progress</ref>(<ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="356"><highlight class="normal"></highlight></codeline>
-<codeline lineno="364" refid="MROutlierPoints_8h_1af021199fd6de9ead11dfe0ef331ffdce" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*<ref refid="MROutlierPoints_8h_1af021199fd6de9ead11dfe0ef331ffdce" kindref="member">MR_FindOutliersParams_ConstructFrom</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*finderParams,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius,<sp/><ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref><sp/>mask,<sp/>MR_PassBy<sp/>progress_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progress);</highlight></codeline>
-<codeline lineno="365"><highlight class="normal"></highlight></codeline>
-<codeline lineno="368" refid="MROutlierPoints_8h_1abb18a7ce0c475e2a2ceba35872e1dfd8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*<ref refid="MROutlierPoints_8h_1abb18a7ce0c475e2a2ceba35872e1dfd8" kindref="member">MR_FindOutliersParams_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="369"><highlight class="normal"></highlight></codeline>
-<codeline lineno="372" refid="MROutlierPoints_8h_1a2e577bda7c48443ae7e2eab8f33d6521" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*<ref refid="MROutlierPoints_8h_1a2e577bda7c48443ae7e2eab8f33d6521" kindref="member">MR_FindOutliersParams_OffsetMutablePtr</ref>(<ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="373"><highlight class="normal"></highlight></codeline>
-<codeline lineno="377" refid="MROutlierPoints_8h_1ae371bcd173b7a219515f7f3d4e6ff23b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*<ref refid="MROutlierPoints_8h_1ae371bcd173b7a219515f7f3d4e6ff23b" kindref="member">MR_FindOutliersParams_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="378"><highlight class="normal"></highlight></codeline>
-<codeline lineno="380" refid="MROutlierPoints_8h_1a2fc36da0d877eeac2d8a2d495cda8d01" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1a2fc36da0d877eeac2d8a2d495cda8d01" kindref="member">MR_FindOutliersParams_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="362" refid="MROutlierPoints_8h_1aaf4f18777b61facf3c4ed7ac51be44d6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MROutlierPoints_8h_1aaf4f18777b61facf3c4ed7ac51be44d6" kindref="member">MR_FindOutliersParams_GetMutable_progress</ref>(<ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="363"><highlight class="normal"></highlight></codeline>
+<codeline lineno="366" refid="MROutlierPoints_8h_1af3097c1b05ad7521df8f510de81c90e4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*<ref refid="MROutlierPoints_8h_1af3097c1b05ad7521df8f510de81c90e4" kindref="member">MR_FindOutliersParams_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="367"><highlight class="normal"></highlight></codeline>
+<codeline lineno="371" refid="MROutlierPoints_8h_1a3e8988ddd8a3156581eb5d1609cd7d10" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*<ref refid="MROutlierPoints_8h_1a3e8988ddd8a3156581eb5d1609cd7d10" kindref="member">MR_FindOutliersParams_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="372"><highlight class="normal"></highlight></codeline>
+<codeline lineno="380" refid="MROutlierPoints_8h_1af021199fd6de9ead11dfe0ef331ffdce" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*<ref refid="MROutlierPoints_8h_1af021199fd6de9ead11dfe0ef331ffdce" kindref="member">MR_FindOutliersParams_ConstructFrom</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1ab39fb48c85375ff45ee9280fe69ffb33" kindref="member">MR_OutlierParams</ref><sp/>*finderParams,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius,<sp/><ref refid="MROutlierPoints_8h_1a818cafa3e3769392d17e6dea349016b4" kindref="member">MR_OutlierTypeMask</ref><sp/>mask,<sp/>MR_PassBy<sp/>progress_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progress);</highlight></codeline>
 <codeline lineno="381"><highlight class="normal"></highlight></codeline>
-<codeline lineno="383" refid="MROutlierPoints_8h_1a99b3d705334ecb6bcb032bfa660b5be8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1a99b3d705334ecb6bcb032bfa660b5be8" kindref="member">MR_FindOutliersParams_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="384"><highlight class="normal"></highlight></codeline>
-<codeline lineno="390" refid="MROutlierPoints_8h_1a6c5fc3ab4f388fd5cf3429ee304a6822" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*<ref refid="MROutlierPoints_8h_1a6c5fc3ab4f388fd5cf3429ee304a6822" kindref="member">MR_FindOutliersParams_AssignFromAnother</ref>(<ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="391"><highlight class="normal"></highlight></codeline>
-<codeline lineno="397" refid="MROutlierPoints_8h_1a8162fb6f888f1de5be693676675aa4c7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMesh_8h_1ad28f0eefdef309c3ac3580e15985c342" kindref="member">MR_expected_MR_VertBitSet_std_string</ref><sp/>*<ref refid="MROutlierPoints_8h_1a8162fb6f888f1de5be693676675aa4c7" kindref="member">MR_findOutliers</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*pc,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*params);</highlight></codeline>
-<codeline lineno="398"><highlight class="normal"></highlight></codeline>
-<codeline lineno="399"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="400"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="401"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="384" refid="MROutlierPoints_8h_1abb18a7ce0c475e2a2ceba35872e1dfd8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*<ref refid="MROutlierPoints_8h_1abb18a7ce0c475e2a2ceba35872e1dfd8" kindref="member">MR_FindOutliersParams_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="385"><highlight class="normal"></highlight></codeline>
+<codeline lineno="388" refid="MROutlierPoints_8h_1a2e577bda7c48443ae7e2eab8f33d6521" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*<ref refid="MROutlierPoints_8h_1a2e577bda7c48443ae7e2eab8f33d6521" kindref="member">MR_FindOutliersParams_OffsetMutablePtr</ref>(<ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="389"><highlight class="normal"></highlight></codeline>
+<codeline lineno="393" refid="MROutlierPoints_8h_1ae371bcd173b7a219515f7f3d4e6ff23b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*<ref refid="MROutlierPoints_8h_1ae371bcd173b7a219515f7f3d4e6ff23b" kindref="member">MR_FindOutliersParams_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="394"><highlight class="normal"></highlight></codeline>
+<codeline lineno="396" refid="MROutlierPoints_8h_1a2fc36da0d877eeac2d8a2d495cda8d01" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1a2fc36da0d877eeac2d8a2d495cda8d01" kindref="member">MR_FindOutliersParams_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="397"><highlight class="normal"></highlight></codeline>
+<codeline lineno="399" refid="MROutlierPoints_8h_1a99b3d705334ecb6bcb032bfa660b5be8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1a99b3d705334ecb6bcb032bfa660b5be8" kindref="member">MR_FindOutliersParams_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="400"><highlight class="normal"></highlight></codeline>
+<codeline lineno="406" refid="MROutlierPoints_8h_1a6c5fc3ab4f388fd5cf3429ee304a6822" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*<ref refid="MROutlierPoints_8h_1a6c5fc3ab4f388fd5cf3429ee304a6822" kindref="member">MR_FindOutliersParams_AssignFromAnother</ref>(<ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="407"><highlight class="normal"></highlight></codeline>
+<codeline lineno="413" refid="MROutlierPoints_8h_1a8162fb6f888f1de5be693676675aa4c7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMesh_8h_1ad28f0eefdef309c3ac3580e15985c342" kindref="member">MR_expected_MR_VertBitSet_std_string</ref><sp/>*<ref refid="MROutlierPoints_8h_1a8162fb6f888f1de5be693676675aa4c7" kindref="member">MR_findOutliers</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*pc,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROutlierPoints_8h_1a6ae2a5939728f4964a916974ab90e4e1" kindref="member">MR_FindOutliersParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="414"><highlight class="normal"></highlight></codeline>
+<codeline lineno="415"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="416"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="417"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MROutlierPoints.h"/>
   </compounddef>

@@ -164,11 +164,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::FaceDistancesSettings</computeroutput> named <computeroutput>out</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::FaceDistancesSettings</computeroutput> named <computeroutput>out</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" line="34" column="57" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" declline="34" declcolumn="57"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" line="35" column="57" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" declline="35" declcolumn="57"/>
       </memberdef>
       <memberdef kind="function" id="MRFaceDistance_8h_1a498c55b20a8dc51dd2f34382483e3ec7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -190,7 +190,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" line="40" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" declline="40" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" line="41" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" declline="41" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFaceDistance_8h_1a351d735da02859f068fe8030c4267063" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFaceDistance_8h_1a5a7fecdc02b7624d1b1517fbbe867769" kindref="member">MR_FaceDistancesSettings_OutputFaceValues</ref> *</type>
@@ -204,11 +204,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::FaceDistancesSettings</computeroutput> named <computeroutput>out</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::FaceDistancesSettings</computeroutput> named <computeroutput>out</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" line="45" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" declline="45" declcolumn="51"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" line="47" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" declline="47" declcolumn="51"/>
       </memberdef>
       <memberdef kind="function" id="MRFaceDistance_8h_1aa87411c28eb943969527b69a72f688db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float *const *</type>
@@ -222,11 +222,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional output of the maximal distance to the most distant face Returns a pointer to a member variable of class <computeroutput>MR::FaceDistancesSettings</computeroutput> named <computeroutput>maxDist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>optional output of the maximal distance to the most distant face Returns a pointer to a member variable of class <computeroutput>MR::FaceDistancesSettings</computeroutput> named <computeroutput>maxDist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" line="51" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" declline="51" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" line="54" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" declline="54" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRFaceDistance_8h_1ae7f14217ffde3a1dd38bf484907a64f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -248,7 +248,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" line="58" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" declline="58" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" line="61" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" declline="61" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFaceDistance_8h_1a97fe34c73436bce7377f06f6a63cf8cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float **</type>
@@ -262,11 +262,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional output of the maximal distance to the most distant face Returns a mutable pointer to a member variable of class <computeroutput>MR::FaceDistancesSettings</computeroutput> named <computeroutput>maxDist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>optional output of the maximal distance to the most distant face Returns a mutable pointer to a member variable of class <computeroutput>MR::FaceDistancesSettings</computeroutput> named <computeroutput>maxDist</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" line="64" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" declline="64" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" line="68" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" declline="68" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRFaceDistance_8h_1a2a5f7633ba91b2f78a704f9b86ac7311" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
@@ -280,11 +280,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>for progress reporting and cancellation Returns a pointer to a member variable of class <computeroutput>MR::FaceDistancesSettings</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>for progress reporting and cancellation Returns a pointer to a member variable of class <computeroutput>MR::FaceDistancesSettings</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" line="70" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" declline="70" declcolumn="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" line="75" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" declline="75" declcolumn="47"/>
       </memberdef>
       <memberdef kind="function" id="MRFaceDistance_8h_1a4548be3532bddaea1493924ef3299998" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -310,7 +310,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" line="77" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" declline="77" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" line="82" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" declline="82" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFaceDistance_8h_1a4c426ba7d05b12a134c3838455874d7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
@@ -324,11 +324,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>for progress reporting and cancellation Returns a mutable pointer to a member variable of class <computeroutput>MR::FaceDistancesSettings</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>for progress reporting and cancellation Returns a mutable pointer to a member variable of class <computeroutput>MR::FaceDistancesSettings</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" line="83" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" declline="83" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" line="89" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" declline="89" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRFaceDistance_8h_1aa926ec197140cfb21ab376ec858b0a42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref> *</type>
@@ -345,7 +345,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" line="87" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" declline="87" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" line="93" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" declline="93" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRFaceDistance_8h_1af46b940bfacb3c27ec8ff98789991a68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref> *</type>
@@ -363,7 +363,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" line="92" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" declline="92" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" line="98" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" declline="98" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRFaceDistance_8h_1af34162b252f6d83fc4fe7c01d7a52cf4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref> *</type>
@@ -393,7 +393,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" line="100" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" declline="100" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" line="106" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" declline="106" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRFaceDistance_8h_1a98416de4d9d7fc0201ebc48c61a7f304" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref> *</type>
@@ -415,7 +415,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" line="104" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" declline="104" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" line="110" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" declline="110" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MRFaceDistance_8h_1a7c979c1b792f5a3e0736abb0a5e7953c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref> *</type>
@@ -437,7 +437,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" line="108" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" declline="108" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" line="114" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" declline="114" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRFaceDistance_8h_1a9aa58ac0e3ac6e7e15586466e6f6fc6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref> *</type>
@@ -459,7 +459,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" line="113" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" declline="113" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" line="119" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" declline="119" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRFaceDistance_8h_1a965d79eeffa9ed286a993ed366cea0e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -477,7 +477,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" line="116" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" declline="116" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" line="122" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" declline="122" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFaceDistance_8h_1ae726f0f415650e856b918799449dca1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -495,7 +495,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" line="119" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" declline="119" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" line="125" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" declline="125" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFaceDistance_8h_1a0ca06fbda274cd6d519c4abb05952cfc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref> *</type>
@@ -521,7 +521,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" line="126" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" declline="126" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" line="132" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" declline="132" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRFaceDistance_8h_1a4473db34fe81daa1d0c63e731d97231d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFaceDistance_8h_1a45641955fe3e90aadab23fd5fb5b31f8" kindref="member">MR_std_optional_MR_FaceScalars</ref> *</type>
@@ -568,7 +568,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" line="139" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" declline="139" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" line="145" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h" declline="145" declcolumn="40"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -602,47 +602,47 @@
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
 <codeline lineno="29" refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref><sp/><ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref>;</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34" refid="MRFaceDistance_8h_1a02f69586da90ee4568be1ec6bfe59715" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceDistance_8h_1a5a7fecdc02b7624d1b1517fbbe867769" kindref="member">MR_FaceDistancesSettings_OutputFaceValues</ref><sp/>*<ref refid="MRFaceDistance_8h_1a02f69586da90ee4568be1ec6bfe59715" kindref="member">MR_FaceDistancesSettings_Get_out</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="40" refid="MRFaceDistance_8h_1a498c55b20a8dc51dd2f34382483e3ec7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFaceDistance_8h_1a498c55b20a8dc51dd2f34382483e3ec7" kindref="member">MR_FaceDistancesSettings_Set_out</ref>(<ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref><sp/>*_this,<sp/><ref refid="MRFaceDistance_8h_1a5a7fecdc02b7624d1b1517fbbe867769" kindref="member">MR_FaceDistancesSettings_OutputFaceValues</ref><sp/>value);</highlight></codeline>
-<codeline lineno="41"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45" refid="MRFaceDistance_8h_1a351d735da02859f068fe8030c4267063" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFaceDistance_8h_1a5a7fecdc02b7624d1b1517fbbe867769" kindref="member">MR_FaceDistancesSettings_OutputFaceValues</ref><sp/>*<ref refid="MRFaceDistance_8h_1a351d735da02859f068fe8030c4267063" kindref="member">MR_FaceDistancesSettings_GetMutable_out</ref>(<ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="46"><highlight class="normal"></highlight></codeline>
-<codeline lineno="51" refid="MRFaceDistance_8h_1aa87411c28eb943969527b69a72f688db" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRFaceDistance_8h_1aa87411c28eb943969527b69a72f688db" kindref="member">MR_FaceDistancesSettings_Get_maxDist</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="58" refid="MRFaceDistance_8h_1ae7f14217ffde3a1dd38bf484907a64f8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFaceDistance_8h_1ae7f14217ffde3a1dd38bf484907a64f8" kindref="member">MR_FaceDistancesSettings_Set_maxDist</ref>(<ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*value);</highlight></codeline>
-<codeline lineno="59"><highlight class="normal"></highlight></codeline>
-<codeline lineno="64" refid="MRFaceDistance_8h_1a97fe34c73436bce7377f06f6a63cf8cb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>**<ref refid="MRFaceDistance_8h_1a97fe34c73436bce7377f06f6a63cf8cb" kindref="member">MR_FaceDistancesSettings_GetMutable_maxDist</ref>(<ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="65"><highlight class="normal"></highlight></codeline>
-<codeline lineno="70" refid="MRFaceDistance_8h_1a2a5f7633ba91b2f78a704f9b86ac7311" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRFaceDistance_8h_1a2a5f7633ba91b2f78a704f9b86ac7311" kindref="member">MR_FaceDistancesSettings_Get_progress</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="71"><highlight class="normal"></highlight></codeline>
-<codeline lineno="77" refid="MRFaceDistance_8h_1a4548be3532bddaea1493924ef3299998" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFaceDistance_8h_1a4548be3532bddaea1493924ef3299998" kindref="member">MR_FaceDistancesSettings_Set_progress</ref>(<ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="78"><highlight class="normal"></highlight></codeline>
-<codeline lineno="83" refid="MRFaceDistance_8h_1a4c426ba7d05b12a134c3838455874d7a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRFaceDistance_8h_1a4c426ba7d05b12a134c3838455874d7a" kindref="member">MR_FaceDistancesSettings_GetMutable_progress</ref>(<ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="84"><highlight class="normal"></highlight></codeline>
-<codeline lineno="87" refid="MRFaceDistance_8h_1aa926ec197140cfb21ab376ec858b0a42" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref><sp/>*<ref refid="MRFaceDistance_8h_1aa926ec197140cfb21ab376ec858b0a42" kindref="member">MR_FaceDistancesSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="88"><highlight class="normal"></highlight></codeline>
-<codeline lineno="92" refid="MRFaceDistance_8h_1af46b940bfacb3c27ec8ff98789991a68" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref><sp/>*<ref refid="MRFaceDistance_8h_1af46b940bfacb3c27ec8ff98789991a68" kindref="member">MR_FaceDistancesSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="93"><highlight class="normal"></highlight></codeline>
-<codeline lineno="100" refid="MRFaceDistance_8h_1af34162b252f6d83fc4fe7c01d7a52cf4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref><sp/>*<ref refid="MRFaceDistance_8h_1af34162b252f6d83fc4fe7c01d7a52cf4" kindref="member">MR_FaceDistancesSettings_ConstructFrom</ref>(<ref refid="MRFaceDistance_8h_1a5a7fecdc02b7624d1b1517fbbe867769" kindref="member">MR_FaceDistancesSettings_OutputFaceValues</ref><sp/>out,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*maxDist,<sp/>MR_PassBy<sp/>progress_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progress);</highlight></codeline>
-<codeline lineno="101"><highlight class="normal"></highlight></codeline>
-<codeline lineno="104" refid="MRFaceDistance_8h_1a98416de4d9d7fc0201ebc48c61a7f304" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref><sp/>*<ref refid="MRFaceDistance_8h_1a98416de4d9d7fc0201ebc48c61a7f304" kindref="member">MR_FaceDistancesSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="105"><highlight class="normal"></highlight></codeline>
-<codeline lineno="108" refid="MRFaceDistance_8h_1a7c979c1b792f5a3e0736abb0a5e7953c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref><sp/>*<ref refid="MRFaceDistance_8h_1a7c979c1b792f5a3e0736abb0a5e7953c" kindref="member">MR_FaceDistancesSettings_OffsetMutablePtr</ref>(<ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="109"><highlight class="normal"></highlight></codeline>
-<codeline lineno="113" refid="MRFaceDistance_8h_1a9aa58ac0e3ac6e7e15586466e6f6fc6e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref><sp/>*<ref refid="MRFaceDistance_8h_1a9aa58ac0e3ac6e7e15586466e6f6fc6e" kindref="member">MR_FaceDistancesSettings_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="114"><highlight class="normal"></highlight></codeline>
-<codeline lineno="116" refid="MRFaceDistance_8h_1a965d79eeffa9ed286a993ed366cea0e5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFaceDistance_8h_1a965d79eeffa9ed286a993ed366cea0e5" kindref="member">MR_FaceDistancesSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="117"><highlight class="normal"></highlight></codeline>
-<codeline lineno="119" refid="MRFaceDistance_8h_1ae726f0f415650e856b918799449dca1a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFaceDistance_8h_1ae726f0f415650e856b918799449dca1a" kindref="member">MR_FaceDistancesSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="35" refid="MRFaceDistance_8h_1a02f69586da90ee4568be1ec6bfe59715" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceDistance_8h_1a5a7fecdc02b7624d1b1517fbbe867769" kindref="member">MR_FaceDistancesSettings_OutputFaceValues</ref><sp/>*<ref refid="MRFaceDistance_8h_1a02f69586da90ee4568be1ec6bfe59715" kindref="member">MR_FaceDistancesSettings_Get_out</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="MRFaceDistance_8h_1a498c55b20a8dc51dd2f34382483e3ec7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFaceDistance_8h_1a498c55b20a8dc51dd2f34382483e3ec7" kindref="member">MR_FaceDistancesSettings_Set_out</ref>(<ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref><sp/>*_this,<sp/><ref refid="MRFaceDistance_8h_1a5a7fecdc02b7624d1b1517fbbe867769" kindref="member">MR_FaceDistancesSettings_OutputFaceValues</ref><sp/>value);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="MRFaceDistance_8h_1a351d735da02859f068fe8030c4267063" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFaceDistance_8h_1a5a7fecdc02b7624d1b1517fbbe867769" kindref="member">MR_FaceDistancesSettings_OutputFaceValues</ref><sp/>*<ref refid="MRFaceDistance_8h_1a351d735da02859f068fe8030c4267063" kindref="member">MR_FaceDistancesSettings_GetMutable_out</ref>(<ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="MRFaceDistance_8h_1aa87411c28eb943969527b69a72f688db" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRFaceDistance_8h_1aa87411c28eb943969527b69a72f688db" kindref="member">MR_FaceDistancesSettings_Get_maxDist</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="MRFaceDistance_8h_1ae7f14217ffde3a1dd38bf484907a64f8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFaceDistance_8h_1ae7f14217ffde3a1dd38bf484907a64f8" kindref="member">MR_FaceDistancesSettings_Set_maxDist</ref>(<ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*value);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="MRFaceDistance_8h_1a97fe34c73436bce7377f06f6a63cf8cb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>**<ref refid="MRFaceDistance_8h_1a97fe34c73436bce7377f06f6a63cf8cb" kindref="member">MR_FaceDistancesSettings_GetMutable_maxDist</ref>(<ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="MRFaceDistance_8h_1a2a5f7633ba91b2f78a704f9b86ac7311" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRFaceDistance_8h_1a2a5f7633ba91b2f78a704f9b86ac7311" kindref="member">MR_FaceDistancesSettings_Get_progress</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="MRFaceDistance_8h_1a4548be3532bddaea1493924ef3299998" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFaceDistance_8h_1a4548be3532bddaea1493924ef3299998" kindref="member">MR_FaceDistancesSettings_Set_progress</ref>(<ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="MRFaceDistance_8h_1a4c426ba7d05b12a134c3838455874d7a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRFaceDistance_8h_1a4c426ba7d05b12a134c3838455874d7a" kindref="member">MR_FaceDistancesSettings_GetMutable_progress</ref>(<ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="MRFaceDistance_8h_1aa926ec197140cfb21ab376ec858b0a42" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref><sp/>*<ref refid="MRFaceDistance_8h_1aa926ec197140cfb21ab376ec858b0a42" kindref="member">MR_FaceDistancesSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="MRFaceDistance_8h_1af46b940bfacb3c27ec8ff98789991a68" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref><sp/>*<ref refid="MRFaceDistance_8h_1af46b940bfacb3c27ec8ff98789991a68" kindref="member">MR_FaceDistancesSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106" refid="MRFaceDistance_8h_1af34162b252f6d83fc4fe7c01d7a52cf4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref><sp/>*<ref refid="MRFaceDistance_8h_1af34162b252f6d83fc4fe7c01d7a52cf4" kindref="member">MR_FaceDistancesSettings_ConstructFrom</ref>(<ref refid="MRFaceDistance_8h_1a5a7fecdc02b7624d1b1517fbbe867769" kindref="member">MR_FaceDistancesSettings_OutputFaceValues</ref><sp/>out,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*maxDist,<sp/>MR_PassBy<sp/>progress_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progress);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="MRFaceDistance_8h_1a98416de4d9d7fc0201ebc48c61a7f304" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref><sp/>*<ref refid="MRFaceDistance_8h_1a98416de4d9d7fc0201ebc48c61a7f304" kindref="member">MR_FaceDistancesSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114" refid="MRFaceDistance_8h_1a7c979c1b792f5a3e0736abb0a5e7953c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref><sp/>*<ref refid="MRFaceDistance_8h_1a7c979c1b792f5a3e0736abb0a5e7953c" kindref="member">MR_FaceDistancesSettings_OffsetMutablePtr</ref>(<ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119" refid="MRFaceDistance_8h_1a9aa58ac0e3ac6e7e15586466e6f6fc6e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref><sp/>*<ref refid="MRFaceDistance_8h_1a9aa58ac0e3ac6e7e15586466e6f6fc6e" kindref="member">MR_FaceDistancesSettings_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="120"><highlight class="normal"></highlight></codeline>
-<codeline lineno="126" refid="MRFaceDistance_8h_1a0ca06fbda274cd6d519c4abb05952cfc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref><sp/>*<ref refid="MRFaceDistance_8h_1a0ca06fbda274cd6d519c4abb05952cfc" kindref="member">MR_FaceDistancesSettings_AssignFromAnother</ref>(<ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="127"><highlight class="normal"></highlight></codeline>
-<codeline lineno="139" refid="MRFaceDistance_8h_1a4473db34fe81daa1d0c63e731d97231d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFaceDistance_8h_1a45641955fe3e90aadab23fd5fb5b31f8" kindref="member">MR_std_optional_MR_FaceScalars</ref><sp/>*<ref refid="MRFaceDistance_8h_1a4473db34fe81daa1d0c63e731d97231d" kindref="member">MR_calcFaceDistances</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/>*metric,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*starts,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref><sp/>*settings);</highlight></codeline>
-<codeline lineno="140"><highlight class="normal"></highlight></codeline>
-<codeline lineno="141"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="142"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="143"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="122" refid="MRFaceDistance_8h_1a965d79eeffa9ed286a993ed366cea0e5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFaceDistance_8h_1a965d79eeffa9ed286a993ed366cea0e5" kindref="member">MR_FaceDistancesSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125" refid="MRFaceDistance_8h_1ae726f0f415650e856b918799449dca1a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFaceDistance_8h_1ae726f0f415650e856b918799449dca1a" kindref="member">MR_FaceDistancesSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132" refid="MRFaceDistance_8h_1a0ca06fbda274cd6d519c4abb05952cfc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref><sp/>*<ref refid="MRFaceDistance_8h_1a0ca06fbda274cd6d519c4abb05952cfc" kindref="member">MR_FaceDistancesSettings_AssignFromAnother</ref>(<ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145" refid="MRFaceDistance_8h_1a4473db34fe81daa1d0c63e731d97231d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFaceDistance_8h_1a45641955fe3e90aadab23fd5fb5b31f8" kindref="member">MR_std_optional_MR_FaceScalars</ref><sp/>*<ref refid="MRFaceDistance_8h_1a4473db34fe81daa1d0c63e731d97231d" kindref="member">MR_calcFaceDistances</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/>*metric,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*starts,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceDistance_8h_1a4f2d81b22e9a50d4af1fdc885f6f73a0" kindref="member">MR_FaceDistancesSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceDistance.h"/>
   </compounddef>

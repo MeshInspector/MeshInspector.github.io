@@ -146,11 +146,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Maximum distance from the source model to the feature Returns a pointer to a member variable of class <computeroutput>MR::RefineParameters</computeroutput> named <computeroutput>distanceLimit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Maximum distance from the source model to the feature Returns a pointer to a member variable of class <computeroutput>MR::RefineParameters</computeroutput> named <computeroutput>distanceLimit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="30" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="30" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="31" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="31" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatureRefine_8h_1a5e79da0c2cd4fb51aa19c512186dc4f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -172,7 +172,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="36" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="36" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="37" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="37" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatureRefine_8h_1a4712d1003680e29f381f55129e32ee52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float *</type>
@@ -186,11 +186,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Maximum distance from the source model to the feature Returns a mutable pointer to a member variable of class <computeroutput>MR::RefineParameters</computeroutput> named <computeroutput>distanceLimit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Maximum distance from the source model to the feature Returns a mutable pointer to a member variable of class <computeroutput>MR::RefineParameters</computeroutput> named <computeroutput>distanceLimit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="42" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="42" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="44" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="44" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatureRefine_8h_1ae5c2089001c6667b511160ced47af0d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const float *</type>
@@ -204,11 +204,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Maximum angle between the source model&apos;s normal and the feature&apos;s normal Returns a pointer to a member variable of class <computeroutput>MR::RefineParameters</computeroutput> named <computeroutput>normalTolerance</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Maximum angle between the source model&apos;s normal and the feature&apos;s normal Returns a pointer to a member variable of class <computeroutput>MR::RefineParameters</computeroutput> named <computeroutput>normalTolerance</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="48" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="48" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="51" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="51" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatureRefine_8h_1a6a7dbd608d6626d8bb91f3baf18799e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -230,7 +230,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="54" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="54" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="57" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="57" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatureRefine_8h_1aa10ff8d228887deadd722fc7b0fec5e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float *</type>
@@ -244,11 +244,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Maximum angle between the source model&apos;s normal and the feature&apos;s normal Returns a mutable pointer to a member variable of class <computeroutput>MR::RefineParameters</computeroutput> named <computeroutput>normalTolerance</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Maximum angle between the source model&apos;s normal and the feature&apos;s normal Returns a mutable pointer to a member variable of class <computeroutput>MR::RefineParameters</computeroutput> named <computeroutput>normalTolerance</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="60" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="60" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="64" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="64" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatureRefine_8h_1a1cadd36b703b64941c803674bf0c611e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *const *</type>
@@ -262,11 +262,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>(for meshes only) Reference faces used for filtering intermediate results that are too far from it Returns a pointer to a member variable of class <computeroutput>MR::RefineParameters</computeroutput> named <computeroutput>faceRegion</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>(for meshes only) Reference faces used for filtering intermediate results that are too far from it Returns a pointer to a member variable of class <computeroutput>MR::RefineParameters</computeroutput> named <computeroutput>faceRegion</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="66" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="66" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="71" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="71" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatureRefine_8h_1aced0b8504c943a2c8e495d95dfbf9deb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -288,7 +288,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="73" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="73" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="78" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="78" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatureRefine_8h_1a7888ae695a3eb20116f992fa091904d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> **</type>
@@ -302,11 +302,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>(for meshes only) Reference faces used for filtering intermediate results that are too far from it Returns a mutable pointer to a member variable of class <computeroutput>MR::RefineParameters</computeroutput> named <computeroutput>faceRegion</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>(for meshes only) Reference faces used for filtering intermediate results that are too far from it Returns a mutable pointer to a member variable of class <computeroutput>MR::RefineParameters</computeroutput> named <computeroutput>faceRegion</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="79" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="79" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="85" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="85" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatureRefine_8h_1aa3706425d5b2cb4e182608a8413174d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *const *</type>
@@ -320,11 +320,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>(for meshes only) Reference vertices used for filtering intermediate results that are too far from it Returns a pointer to a member variable of class <computeroutput>MR::RefineParameters</computeroutput> named <computeroutput>vertRegion</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>(for meshes only) Reference vertices used for filtering intermediate results that are too far from it Returns a pointer to a member variable of class <computeroutput>MR::RefineParameters</computeroutput> named <computeroutput>vertRegion</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="85" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="85" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="92" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="92" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatureRefine_8h_1ac8706cc0029754c4f79be0a2aa4f7296" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -346,7 +346,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="92" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="92" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="99" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="99" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatureRefine_8h_1a03235805e06e33f62169e5d2ecc76dcd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> **</type>
@@ -360,11 +360,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>(for meshes only) Reference vertices used for filtering intermediate results that are too far from it Returns a mutable pointer to a member variable of class <computeroutput>MR::RefineParameters</computeroutput> named <computeroutput>vertRegion</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>(for meshes only) Reference vertices used for filtering intermediate results that are too far from it Returns a mutable pointer to a member variable of class <computeroutput>MR::RefineParameters</computeroutput> named <computeroutput>vertRegion</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="98" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="98" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="106" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="106" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatureRefine_8h_1af8378cf5c9e43e77f3042af17cb53461" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const int *</type>
@@ -378,11 +378,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Maximum amount of iterations performed until a stable set of points is found Returns a pointer to a member variable of class <computeroutput>MR::RefineParameters</computeroutput> named <computeroutput>maxIterations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Maximum amount of iterations performed until a stable set of points is found Returns a pointer to a member variable of class <computeroutput>MR::RefineParameters</computeroutput> named <computeroutput>maxIterations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="104" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="104" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="113" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="113" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatureRefine_8h_1ae413454027b4cf473d50eaa0ab22c77d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -404,7 +404,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="110" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="110" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="119" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="119" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatureRefine_8h_1aa9d3751cbc1057d24989f6c51c21f1c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API int *</type>
@@ -418,11 +418,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Maximum amount of iterations performed until a stable set of points is found Returns a mutable pointer to a member variable of class <computeroutput>MR::RefineParameters</computeroutput> named <computeroutput>maxIterations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Maximum amount of iterations performed until a stable set of points is found Returns a mutable pointer to a member variable of class <computeroutput>MR::RefineParameters</computeroutput> named <computeroutput>maxIterations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="116" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="116" declcolumn="13"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="126" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="126" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatureRefine_8h_1a52fd98204be22b7939af76b72d49bc9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
@@ -436,11 +436,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Progress callback Returns a pointer to a member variable of class <computeroutput>MR::RefineParameters</computeroutput> named <computeroutput>callback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Progress callback Returns a pointer to a member variable of class <computeroutput>MR::RefineParameters</computeroutput> named <computeroutput>callback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="122" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="122" declcolumn="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="133" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="133" declcolumn="47"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatureRefine_8h_1a6bf7c5ad45f470facbf57d978dd63dbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -466,7 +466,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="129" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="129" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="140" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="140" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatureRefine_8h_1a5373cd3436f3e7ee8d3b7842dda5a9e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
@@ -480,11 +480,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Progress callback Returns a mutable pointer to a member variable of class <computeroutput>MR::RefineParameters</computeroutput> named <computeroutput>callback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Progress callback Returns a mutable pointer to a member variable of class <computeroutput>MR::RefineParameters</computeroutput> named <computeroutput>callback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="135" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="135" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="147" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="147" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatureRefine_8h_1a02fc5d08e1eca787ccbf9a02fe04309c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref> *</type>
@@ -501,7 +501,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="139" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="139" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="151" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="151" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatureRefine_8h_1a65e1fd689c0e88e9c77ef91ec0c1e0de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref> *</type>
@@ -519,7 +519,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="144" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="144" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="156" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="156" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatureRefine_8h_1a1f7d2d030bf278d0bf198cfb71ac6cc4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref> *</type>
@@ -561,7 +561,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="152" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="152" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="164" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="164" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatureRefine_8h_1a629e7e8e94146de175b75d7f8d775acf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref> *</type>
@@ -583,7 +583,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="156" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="156" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="168" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="168" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatureRefine_8h_1a85c88942de50f0c8d1ffe01aaa83abe5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref> *</type>
@@ -605,7 +605,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="160" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="160" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="172" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="172" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatureRefine_8h_1ab02201615d7d407073fb3be477c782af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref> *</type>
@@ -627,7 +627,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="165" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="165" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="177" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="177" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatureRefine_8h_1a5776b8d25c970579804c50c09426e682" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -645,7 +645,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="168" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="168" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="180" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="180" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatureRefine_8h_1ac72c4e2e03be424a11595ac6e0bbc2f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -663,7 +663,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="171" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="171" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="183" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="183" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatureRefine_8h_1ab29f29d8e796872bbdcecc199aa4db2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref> *</type>
@@ -689,7 +689,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="178" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="178" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="190" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="190" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatureRefine_8h_1adb7c24cf33dac98bc007e009f7960cd5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFeatureRefine_8h_1a3cbb89d785ab27152bda514d59009cb5" kindref="member">MR_expected_MR_AffineXf3f_std_string</ref> *</type>
@@ -715,7 +715,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="187" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="187" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="199" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="199" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatureRefine_8h_1a17e841a1235c0700ac619c44c9f01e0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFeatureRefine_8h_1a3cbb89d785ab27152bda514d59009cb5" kindref="member">MR_expected_MR_AffineXf3f_std_string</ref> *</type>
@@ -741,7 +741,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="196" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="196" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" line="208" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h" declline="208" declcolumn="46"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -771,67 +771,67 @@
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
 <codeline lineno="24" refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/><ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref>;</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30" refid="MRFeatureRefine_8h_1adaa2e52647f8d8239e69ed3d9c27e3b0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRFeatureRefine_8h_1adaa2e52647f8d8239e69ed3d9c27e3b0" kindref="member">MR_RefineParameters_Get_distanceLimit</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36" refid="MRFeatureRefine_8h_1a5e79da0c2cd4fb51aa19c512186dc4f7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFeatureRefine_8h_1a5e79da0c2cd4fb51aa19c512186dc4f7" kindref="member">MR_RefineParameters_Set_distanceLimit</ref>(<ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42" refid="MRFeatureRefine_8h_1a4712d1003680e29f381f55129e32ee52" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRFeatureRefine_8h_1a4712d1003680e29f381f55129e32ee52" kindref="member">MR_RefineParameters_GetMutable_distanceLimit</ref>(<ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="43"><highlight class="normal"></highlight></codeline>
-<codeline lineno="48" refid="MRFeatureRefine_8h_1ae5c2089001c6667b511160ced47af0d3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRFeatureRefine_8h_1ae5c2089001c6667b511160ced47af0d3" kindref="member">MR_RefineParameters_Get_normalTolerance</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="49"><highlight class="normal"></highlight></codeline>
-<codeline lineno="54" refid="MRFeatureRefine_8h_1a6a7dbd608d6626d8bb91f3baf18799e7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFeatureRefine_8h_1a6a7dbd608d6626d8bb91f3baf18799e7" kindref="member">MR_RefineParameters_Set_normalTolerance</ref>(<ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="55"><highlight class="normal"></highlight></codeline>
-<codeline lineno="60" refid="MRFeatureRefine_8h_1aa10ff8d228887deadd722fc7b0fec5e7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRFeatureRefine_8h_1aa10ff8d228887deadd722fc7b0fec5e7" kindref="member">MR_RefineParameters_GetMutable_normalTolerance</ref>(<ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="61"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66" refid="MRFeatureRefine_8h_1a1cadd36b703b64941c803674bf0c611e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRFeatureRefine_8h_1a1cadd36b703b64941c803674bf0c611e" kindref="member">MR_RefineParameters_Get_faceRegion</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="67"><highlight class="normal"></highlight></codeline>
-<codeline lineno="73" refid="MRFeatureRefine_8h_1aced0b8504c943a2c8e495d95dfbf9deb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFeatureRefine_8h_1aced0b8504c943a2c8e495d95dfbf9deb" kindref="member">MR_RefineParameters_Set_faceRegion</ref>(<ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="74"><highlight class="normal"></highlight></codeline>
-<codeline lineno="79" refid="MRFeatureRefine_8h_1a7888ae695a3eb20116f992fa091904d9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>**<ref refid="MRFeatureRefine_8h_1a7888ae695a3eb20116f992fa091904d9" kindref="member">MR_RefineParameters_GetMutable_faceRegion</ref>(<ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="80"><highlight class="normal"></highlight></codeline>
-<codeline lineno="85" refid="MRFeatureRefine_8h_1aa3706425d5b2cb4e182608a8413174d8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRFeatureRefine_8h_1aa3706425d5b2cb4e182608a8413174d8" kindref="member">MR_RefineParameters_Get_vertRegion</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="31" refid="MRFeatureRefine_8h_1adaa2e52647f8d8239e69ed3d9c27e3b0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRFeatureRefine_8h_1adaa2e52647f8d8239e69ed3d9c27e3b0" kindref="member">MR_RefineParameters_Get_distanceLimit</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="MRFeatureRefine_8h_1a5e79da0c2cd4fb51aa19c512186dc4f7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFeatureRefine_8h_1a5e79da0c2cd4fb51aa19c512186dc4f7" kindref="member">MR_RefineParameters_Set_distanceLimit</ref>(<ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="MRFeatureRefine_8h_1a4712d1003680e29f381f55129e32ee52" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRFeatureRefine_8h_1a4712d1003680e29f381f55129e32ee52" kindref="member">MR_RefineParameters_GetMutable_distanceLimit</ref>(<ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="MRFeatureRefine_8h_1ae5c2089001c6667b511160ced47af0d3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRFeatureRefine_8h_1ae5c2089001c6667b511160ced47af0d3" kindref="member">MR_RefineParameters_Get_normalTolerance</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="MRFeatureRefine_8h_1a6a7dbd608d6626d8bb91f3baf18799e7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFeatureRefine_8h_1a6a7dbd608d6626d8bb91f3baf18799e7" kindref="member">MR_RefineParameters_Set_normalTolerance</ref>(<ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="MRFeatureRefine_8h_1aa10ff8d228887deadd722fc7b0fec5e7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRFeatureRefine_8h_1aa10ff8d228887deadd722fc7b0fec5e7" kindref="member">MR_RefineParameters_GetMutable_normalTolerance</ref>(<ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="MRFeatureRefine_8h_1a1cadd36b703b64941c803674bf0c611e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRFeatureRefine_8h_1a1cadd36b703b64941c803674bf0c611e" kindref="member">MR_RefineParameters_Get_faceRegion</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="MRFeatureRefine_8h_1aced0b8504c943a2c8e495d95dfbf9deb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFeatureRefine_8h_1aced0b8504c943a2c8e495d95dfbf9deb" kindref="member">MR_RefineParameters_Set_faceRegion</ref>(<ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="MRFeatureRefine_8h_1a7888ae695a3eb20116f992fa091904d9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>**<ref refid="MRFeatureRefine_8h_1a7888ae695a3eb20116f992fa091904d9" kindref="member">MR_RefineParameters_GetMutable_faceRegion</ref>(<ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="86"><highlight class="normal"></highlight></codeline>
-<codeline lineno="92" refid="MRFeatureRefine_8h_1ac8706cc0029754c4f79be0a2aa4f7296" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFeatureRefine_8h_1ac8706cc0029754c4f79be0a2aa4f7296" kindref="member">MR_RefineParameters_Set_vertRegion</ref>(<ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="92" refid="MRFeatureRefine_8h_1aa3706425d5b2cb4e182608a8413174d8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRFeatureRefine_8h_1aa3706425d5b2cb4e182608a8413174d8" kindref="member">MR_RefineParameters_Get_vertRegion</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="93"><highlight class="normal"></highlight></codeline>
-<codeline lineno="98" refid="MRFeatureRefine_8h_1a03235805e06e33f62169e5d2ecc76dcd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>**<ref refid="MRFeatureRefine_8h_1a03235805e06e33f62169e5d2ecc76dcd" kindref="member">MR_RefineParameters_GetMutable_vertRegion</ref>(<ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="99"><highlight class="normal"></highlight></codeline>
-<codeline lineno="104" refid="MRFeatureRefine_8h_1af8378cf5c9e43e77f3042af17cb53461" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRFeatureRefine_8h_1af8378cf5c9e43e77f3042af17cb53461" kindref="member">MR_RefineParameters_Get_maxIterations</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="105"><highlight class="normal"></highlight></codeline>
-<codeline lineno="110" refid="MRFeatureRefine_8h_1ae413454027b4cf473d50eaa0ab22c77d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFeatureRefine_8h_1ae413454027b4cf473d50eaa0ab22c77d" kindref="member">MR_RefineParameters_Set_maxIterations</ref>(<ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="111"><highlight class="normal"></highlight></codeline>
-<codeline lineno="116" refid="MRFeatureRefine_8h_1aa9d3751cbc1057d24989f6c51c21f1c3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRFeatureRefine_8h_1aa9d3751cbc1057d24989f6c51c21f1c3" kindref="member">MR_RefineParameters_GetMutable_maxIterations</ref>(<ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="117"><highlight class="normal"></highlight></codeline>
-<codeline lineno="122" refid="MRFeatureRefine_8h_1a52fd98204be22b7939af76b72d49bc9c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRFeatureRefine_8h_1a52fd98204be22b7939af76b72d49bc9c" kindref="member">MR_RefineParameters_Get_callback</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="123"><highlight class="normal"></highlight></codeline>
-<codeline lineno="129" refid="MRFeatureRefine_8h_1a6bf7c5ad45f470facbf57d978dd63dbc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFeatureRefine_8h_1a6bf7c5ad45f470facbf57d978dd63dbc" kindref="member">MR_RefineParameters_Set_callback</ref>(<ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="130"><highlight class="normal"></highlight></codeline>
-<codeline lineno="135" refid="MRFeatureRefine_8h_1a5373cd3436f3e7ee8d3b7842dda5a9e4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRFeatureRefine_8h_1a5373cd3436f3e7ee8d3b7842dda5a9e4" kindref="member">MR_RefineParameters_GetMutable_callback</ref>(<ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="136"><highlight class="normal"></highlight></codeline>
-<codeline lineno="139" refid="MRFeatureRefine_8h_1a02fc5d08e1eca787ccbf9a02fe04309c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*<ref refid="MRFeatureRefine_8h_1a02fc5d08e1eca787ccbf9a02fe04309c" kindref="member">MR_RefineParameters_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="140"><highlight class="normal"></highlight></codeline>
-<codeline lineno="144" refid="MRFeatureRefine_8h_1a65e1fd689c0e88e9c77ef91ec0c1e0de" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*<ref refid="MRFeatureRefine_8h_1a65e1fd689c0e88e9c77ef91ec0c1e0de" kindref="member">MR_RefineParameters_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="145"><highlight class="normal"></highlight></codeline>
-<codeline lineno="152" refid="MRFeatureRefine_8h_1a1f7d2d030bf278d0bf198cfb71ac6cc4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*<ref refid="MRFeatureRefine_8h_1a1f7d2d030bf278d0bf198cfb71ac6cc4" kindref="member">MR_RefineParameters_ConstructFrom</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>distanceLimit,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>normalTolerance,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*faceRegion,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*vertRegion,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maxIterations,<sp/>MR_PassBy<sp/>callback_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*callback);</highlight></codeline>
-<codeline lineno="153"><highlight class="normal"></highlight></codeline>
-<codeline lineno="156" refid="MRFeatureRefine_8h_1a629e7e8e94146de175b75d7f8d775acf" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*<ref refid="MRFeatureRefine_8h_1a629e7e8e94146de175b75d7f8d775acf" kindref="member">MR_RefineParameters_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="99" refid="MRFeatureRefine_8h_1ac8706cc0029754c4f79be0a2aa4f7296" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFeatureRefine_8h_1ac8706cc0029754c4f79be0a2aa4f7296" kindref="member">MR_RefineParameters_Set_vertRegion</ref>(<ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106" refid="MRFeatureRefine_8h_1a03235805e06e33f62169e5d2ecc76dcd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>**<ref refid="MRFeatureRefine_8h_1a03235805e06e33f62169e5d2ecc76dcd" kindref="member">MR_RefineParameters_GetMutable_vertRegion</ref>(<ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="MRFeatureRefine_8h_1af8378cf5c9e43e77f3042af17cb53461" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRFeatureRefine_8h_1af8378cf5c9e43e77f3042af17cb53461" kindref="member">MR_RefineParameters_Get_maxIterations</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119" refid="MRFeatureRefine_8h_1ae413454027b4cf473d50eaa0ab22c77d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFeatureRefine_8h_1ae413454027b4cf473d50eaa0ab22c77d" kindref="member">MR_RefineParameters_Set_maxIterations</ref>(<ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126" refid="MRFeatureRefine_8h_1aa9d3751cbc1057d24989f6c51c21f1c3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRFeatureRefine_8h_1aa9d3751cbc1057d24989f6c51c21f1c3" kindref="member">MR_RefineParameters_GetMutable_maxIterations</ref>(<ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="MRFeatureRefine_8h_1a52fd98204be22b7939af76b72d49bc9c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRFeatureRefine_8h_1a52fd98204be22b7939af76b72d49bc9c" kindref="member">MR_RefineParameters_Get_callback</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140" refid="MRFeatureRefine_8h_1a6bf7c5ad45f470facbf57d978dd63dbc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFeatureRefine_8h_1a6bf7c5ad45f470facbf57d978dd63dbc" kindref="member">MR_RefineParameters_Set_callback</ref>(<ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147" refid="MRFeatureRefine_8h_1a5373cd3436f3e7ee8d3b7842dda5a9e4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRFeatureRefine_8h_1a5373cd3436f3e7ee8d3b7842dda5a9e4" kindref="member">MR_RefineParameters_GetMutable_callback</ref>(<ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151" refid="MRFeatureRefine_8h_1a02fc5d08e1eca787ccbf9a02fe04309c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*<ref refid="MRFeatureRefine_8h_1a02fc5d08e1eca787ccbf9a02fe04309c" kindref="member">MR_RefineParameters_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156" refid="MRFeatureRefine_8h_1a65e1fd689c0e88e9c77ef91ec0c1e0de" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*<ref refid="MRFeatureRefine_8h_1a65e1fd689c0e88e9c77ef91ec0c1e0de" kindref="member">MR_RefineParameters_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="157"><highlight class="normal"></highlight></codeline>
-<codeline lineno="160" refid="MRFeatureRefine_8h_1a85c88942de50f0c8d1ffe01aaa83abe5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*<ref refid="MRFeatureRefine_8h_1a85c88942de50f0c8d1ffe01aaa83abe5" kindref="member">MR_RefineParameters_OffsetMutablePtr</ref>(<ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="161"><highlight class="normal"></highlight></codeline>
-<codeline lineno="165" refid="MRFeatureRefine_8h_1ab02201615d7d407073fb3be477c782af" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*<ref refid="MRFeatureRefine_8h_1ab02201615d7d407073fb3be477c782af" kindref="member">MR_RefineParameters_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="166"><highlight class="normal"></highlight></codeline>
-<codeline lineno="168" refid="MRFeatureRefine_8h_1a5776b8d25c970579804c50c09426e682" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFeatureRefine_8h_1a5776b8d25c970579804c50c09426e682" kindref="member">MR_RefineParameters_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="164" refid="MRFeatureRefine_8h_1a1f7d2d030bf278d0bf198cfb71ac6cc4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*<ref refid="MRFeatureRefine_8h_1a1f7d2d030bf278d0bf198cfb71ac6cc4" kindref="member">MR_RefineParameters_ConstructFrom</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>distanceLimit,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>normalTolerance,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*faceRegion,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*vertRegion,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maxIterations,<sp/>MR_PassBy<sp/>callback_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*callback);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168" refid="MRFeatureRefine_8h_1a629e7e8e94146de175b75d7f8d775acf" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*<ref refid="MRFeatureRefine_8h_1a629e7e8e94146de175b75d7f8d775acf" kindref="member">MR_RefineParameters_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="169"><highlight class="normal"></highlight></codeline>
-<codeline lineno="171" refid="MRFeatureRefine_8h_1ac72c4e2e03be424a11595ac6e0bbc2f1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFeatureRefine_8h_1ac72c4e2e03be424a11595ac6e0bbc2f1" kindref="member">MR_RefineParameters_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="172"><highlight class="normal"></highlight></codeline>
-<codeline lineno="178" refid="MRFeatureRefine_8h_1ab29f29d8e796872bbdcecc199aa4db2d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*<ref refid="MRFeatureRefine_8h_1ab29f29d8e796872bbdcecc199aa4db2d" kindref="member">MR_RefineParameters_AssignFromAnother</ref>(<ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="179"><highlight class="normal"></highlight></codeline>
-<codeline lineno="187" refid="MRFeatureRefine_8h_1adb7c24cf33dac98bc007e009f7960cd5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatureRefine_8h_1a3cbb89d785ab27152bda514d59009cb5" kindref="member">MR_expected_MR_AffineXf3f_std_string</ref><sp/>*<ref refid="MRFeatureRefine_8h_1adb7c24cf33dac98bc007e009f7960cd5" kindref="member">MR_refineFeatureObject_MR_Mesh</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aff93746de8efe15fd5fa764838b71e9b" kindref="member">MR_FeatureObject</ref><sp/>*featObj,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*params);</highlight></codeline>
-<codeline lineno="188"><highlight class="normal"></highlight></codeline>
-<codeline lineno="196" refid="MRFeatureRefine_8h_1a17e841a1235c0700ac619c44c9f01e0b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatureRefine_8h_1a3cbb89d785ab27152bda514d59009cb5" kindref="member">MR_expected_MR_AffineXf3f_std_string</ref><sp/>*<ref refid="MRFeatureRefine_8h_1a17e841a1235c0700ac619c44c9f01e0b" kindref="member">MR_refineFeatureObject_MR_PointCloud</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aff93746de8efe15fd5fa764838b71e9b" kindref="member">MR_FeatureObject</ref><sp/>*featObj,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*pointCloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*params);</highlight></codeline>
-<codeline lineno="197"><highlight class="normal"></highlight></codeline>
-<codeline lineno="198"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="199"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="200"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="172" refid="MRFeatureRefine_8h_1a85c88942de50f0c8d1ffe01aaa83abe5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*<ref refid="MRFeatureRefine_8h_1a85c88942de50f0c8d1ffe01aaa83abe5" kindref="member">MR_RefineParameters_OffsetMutablePtr</ref>(<ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177" refid="MRFeatureRefine_8h_1ab02201615d7d407073fb3be477c782af" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*<ref refid="MRFeatureRefine_8h_1ab02201615d7d407073fb3be477c782af" kindref="member">MR_RefineParameters_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180" refid="MRFeatureRefine_8h_1a5776b8d25c970579804c50c09426e682" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFeatureRefine_8h_1a5776b8d25c970579804c50c09426e682" kindref="member">MR_RefineParameters_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183" refid="MRFeatureRefine_8h_1ac72c4e2e03be424a11595ac6e0bbc2f1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFeatureRefine_8h_1ac72c4e2e03be424a11595ac6e0bbc2f1" kindref="member">MR_RefineParameters_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190" refid="MRFeatureRefine_8h_1ab29f29d8e796872bbdcecc199aa4db2d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*<ref refid="MRFeatureRefine_8h_1ab29f29d8e796872bbdcecc199aa4db2d" kindref="member">MR_RefineParameters_AssignFromAnother</ref>(<ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199" refid="MRFeatureRefine_8h_1adb7c24cf33dac98bc007e009f7960cd5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatureRefine_8h_1a3cbb89d785ab27152bda514d59009cb5" kindref="member">MR_expected_MR_AffineXf3f_std_string</ref><sp/>*<ref refid="MRFeatureRefine_8h_1adb7c24cf33dac98bc007e009f7960cd5" kindref="member">MR_refineFeatureObject_MR_Mesh</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aff93746de8efe15fd5fa764838b71e9b" kindref="member">MR_FeatureObject</ref><sp/>*featObj,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="208" refid="MRFeatureRefine_8h_1a17e841a1235c0700ac619c44c9f01e0b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatureRefine_8h_1a3cbb89d785ab27152bda514d59009cb5" kindref="member">MR_expected_MR_AffineXf3f_std_string</ref><sp/>*<ref refid="MRFeatureRefine_8h_1a17e841a1235c0700ac619c44c9f01e0b" kindref="member">MR_refineFeatureObject_MR_PointCloud</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aff93746de8efe15fd5fa764838b71e9b" kindref="member">MR_FeatureObject</ref><sp/>*featObj,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*pointCloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatureRefine_8h_1af3fe4ceb634b24b88e2c790c4365dcd7" kindref="member">MR_RefineParameters</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatureRefine.h"/>
   </compounddef>

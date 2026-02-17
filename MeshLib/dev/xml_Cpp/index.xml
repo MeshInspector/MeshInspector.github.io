@@ -872,10 +872,10 @@
     <member refid="classMR_1_1Buffer_1a639284e16d0d26e25ac330e5e04651ca" kind="function"><name>empty</name></member>
     <member refid="classMR_1_1Buffer_1a2f01b559e5cafefd57bef4c73f59b669" kind="function"><name>clear</name></member>
     <member refid="classMR_1_1Buffer_1ab1bc4a40918912e001d6da1bf1595d36" kind="function"><name>resize</name></member>
-    <member refid="classMR_1_1Buffer_1a9db6d53dd2501eb585f56eb189af4340" kind="function"><name>operator[]</name></member>
-    <member refid="classMR_1_1Buffer_1ac20d3e206804590699b1e944ebe0bb1d" kind="function"><name>operator[]</name></member>
-    <member refid="classMR_1_1Buffer_1a41da905f71d8b9c53aa517dae7af261a" kind="function"><name>data</name></member>
-    <member refid="classMR_1_1Buffer_1a68a63a004e6c105cbf0daf5ec4b1ec96" kind="function"><name>data</name></member>
+    <member refid="classMR_1_1Buffer_1a66aeaf02d13592c3ada67644f64737d9" kind="function"><name>operator[]</name></member>
+    <member refid="classMR_1_1Buffer_1af470e40945b997fc7f6e66ab968a9d48" kind="function"><name>operator[]</name></member>
+    <member refid="classMR_1_1Buffer_1a79d249b54f548c80301087afb680c68c" kind="function"><name>data</name></member>
+    <member refid="classMR_1_1Buffer_1a85588234942220c37b208e5c064486b3" kind="function"><name>data</name></member>
     <member refid="classMR_1_1Buffer_1a6fa2be8099e8b9ba78c8a4ca991103be" kind="function"><name>beginId</name></member>
     <member refid="classMR_1_1Buffer_1a0aae7e1ae916ef6da5cd9f342f93207c" kind="function"><name>backId</name></member>
     <member refid="classMR_1_1Buffer_1abfa0b936734c36dff600039214adb66f" kind="function"><name>endId</name></member>
@@ -4001,17 +4001,17 @@
     <member refid="classMR_1_1Heap_1aeae6302fc85941aabe1b0162258851b4" kind="variable"><name>heap_</name></member>
     <member refid="classMR_1_1Heap_1a9eb358dc5a4f0d0907ebf1397be937f6" kind="variable"><name>id2PosInHeap_</name></member>
     <member refid="classMR_1_1Heap_1a1a9506e21e2b8f84d7c4f23873e5fe8b" kind="variable"><name>pred_</name></member>
-    <member refid="group__BasicGroup_1ga484758be506c83b8a42bbb37f7761507" kind="function"><name>Heap</name></member>
-    <member refid="group__BasicGroup_1gad25d3f2e0a2385b7458ee0a7229d6130" kind="function"><name>Heap</name></member>
+    <member refid="group__BasicGroup_1ga9313e4c55061c6256011bd32a616752e" kind="function"><name>Heap</name></member>
+    <member refid="group__BasicGroup_1ga26381c3d0e45502caae2e269f988a3f8" kind="function"><name>Heap</name></member>
     <member refid="classMR_1_1Heap_1a516d00eb9620f9cdb1f5c43c0810f744" kind="function"><name>size</name></member>
-    <member refid="group__BasicGroup_1ga1850d4188a12bb75802dc364f7309bd6" kind="function"><name>resize</name></member>
-    <member refid="classMR_1_1Heap_1abc98f8ae44b5055bed877900deb567d6" kind="function"><name>value</name></member>
-    <member refid="classMR_1_1Heap_1a7d993f1a0fb45abb27e62ceee5a1dbe6" kind="function"><name>top</name></member>
-    <member refid="group__BasicGroup_1ga4dedcc9253b2c45a7d8a9417d1c19362" kind="function"><name>setValue</name></member>
-    <member refid="group__BasicGroup_1ga967a46dde0718e3a1b167f25dfc62251" kind="function"><name>setLargerValue</name></member>
-    <member refid="group__BasicGroup_1ga8b871063e6c314fad7809432d2f74b64" kind="function"><name>setSmallerValue</name></member>
+    <member refid="group__BasicGroup_1ga2dc347cff75def29aeb2eaa76f066a84" kind="function"><name>resize</name></member>
+    <member refid="classMR_1_1Heap_1abb8cd2f765625c9a0997a2cc6ec78e3c" kind="function"><name>value</name></member>
+    <member refid="classMR_1_1Heap_1a1df97b93103894341efd76f393c597fb" kind="function"><name>top</name></member>
+    <member refid="group__BasicGroup_1ga113ac866225ab4355eef002299a93671" kind="function"><name>setValue</name></member>
+    <member refid="group__BasicGroup_1ga63073f7e258e45cf224a470df850692a" kind="function"><name>setLargerValue</name></member>
+    <member refid="group__BasicGroup_1ga5ce1725f1cb927e3e594d52b5a565ed7" kind="function"><name>setSmallerValue</name></member>
     <member refid="classMR_1_1Heap_1af4f46522c9ccfd4ade826452c287a15d" kind="function"><name>increaseValue</name></member>
-    <member refid="classMR_1_1Heap_1a1f246bfe3c0676ad56a521a5b696d195" kind="function"><name>setTopValue</name></member>
+    <member refid="classMR_1_1Heap_1adb81421ba706699de893596855455c2a" kind="function"><name>setTopValue</name></member>
     <member refid="group__BasicGroup_1ga8cc005841a554f35bd3b412da9244b20" kind="function"><name>less_</name></member>
     <member refid="group__BasicGroup_1gaf57eb736d2eb7b803bd2dddfbed172f6" kind="function"><name>lift_</name></member>
   </compound>
@@ -5088,15 +5088,15 @@
     <member refid="structMR_1_1MapOrHashMap_1a2406ff7e1c972a394a1b2375af1feb33" kind="variable"><name>var</name></member>
     <member refid="structMR_1_1MapOrHashMap_1a2f5d8d5d984f6fbc7736118c4803e703" kind="function"><name>createMap</name></member>
     <member refid="structMR_1_1MapOrHashMap_1af367d90b270a0bb9def39834f2a0e686" kind="function"><name>createHashMap</name></member>
-    <member refid="structMR_1_1MapOrHashMap_1a77ede25bfe03db7b0c3a5176323e042a" kind="function"><name>setMap</name></member>
-    <member refid="structMR_1_1MapOrHashMap_1ac7cc040fc165f15635860672b4c426d7" kind="function"><name>setHashMap</name></member>
+    <member refid="structMR_1_1MapOrHashMap_1a00c1a5cbe4993ea2fe7958753f256c2d" kind="function"><name>setMap</name></member>
+    <member refid="structMR_1_1MapOrHashMap_1aed9c7dee115bec118b5c146c71feeead" kind="function"><name>setHashMap</name></member>
     <member refid="structMR_1_1MapOrHashMap_1a7a15020a8ce32845565aeffab264051d" kind="function"><name>resizeReserve</name></member>
-    <member refid="structMR_1_1MapOrHashMap_1a6d4eb8a403de0495a024d7afa51cbd6c" kind="function"><name>pushBack</name></member>
+    <member refid="structMR_1_1MapOrHashMap_1a581685c400655d0cf9441498a051e38a" kind="function"><name>pushBack</name></member>
     <member refid="structMR_1_1MapOrHashMap_1a99f74cd2edd6dab050ffad6466cdf191" kind="function"><name>forEach</name></member>
-    <member refid="structMR_1_1MapOrHashMap_1a1061c0b8db208cf5af14eb2760cb3703" kind="function"><name>getMap</name></member>
-    <member refid="structMR_1_1MapOrHashMap_1a9027fa8effc674e94506993cc5c1ee2e" kind="function"><name>getMap</name></member>
-    <member refid="structMR_1_1MapOrHashMap_1a3bc5077bb60649a52a86a2736ff6a57e" kind="function"><name>getHashMap</name></member>
-    <member refid="structMR_1_1MapOrHashMap_1a2aded678aafca023ae711c2dcad233e5" kind="function"><name>getHashMap</name></member>
+    <member refid="structMR_1_1MapOrHashMap_1a60c491f3b471bedb23f0615dc24f0fc5" kind="function"><name>getMap</name></member>
+    <member refid="structMR_1_1MapOrHashMap_1abfe1d6849d40b95fb756affcd2a49f49" kind="function"><name>getMap</name></member>
+    <member refid="structMR_1_1MapOrHashMap_1ad24c7a779069c7e074b47d8e3d3400ae" kind="function"><name>getHashMap</name></member>
+    <member refid="structMR_1_1MapOrHashMap_1a0c1e6a6e4c0590ec6918e29c93d59b8e" kind="function"><name>getHashMap</name></member>
     <member refid="structMR_1_1MapOrHashMap_1ab6a52148cc818bc6c42e287a95ef61b8" kind="function"><name>clear</name></member>
   </compound>
   <compound refid="structMR_1_1BooleanResultMapper_1_1Maps" kind="struct"><name>MR::BooleanResultMapper::Maps</name>
@@ -8759,12 +8759,12 @@
     <member refid="classMR_1_1PriorityQueue_1a47b9b9b360a49542db0f23581dd7d26b" kind="variable"><name>pred_</name></member>
     <member refid="classMR_1_1PriorityQueue_1aae44e735cc86835adbb6d48ff4a446ab" kind="function"><name>PriorityQueue</name></member>
     <member refid="classMR_1_1PriorityQueue_1aebd81e426914ebd5fa07ba5e4bfa0142" kind="function"><name>PriorityQueue</name></member>
-    <member refid="classMR_1_1PriorityQueue_1a7bf03b4612ec1dfe18e90b99153030cc" kind="function"><name>PriorityQueue</name></member>
+    <member refid="classMR_1_1PriorityQueue_1a0a3fa89180c853554002ef654d27fa4b" kind="function"><name>PriorityQueue</name></member>
     <member refid="classMR_1_1PriorityQueue_1a10d6af2f304f8f8ce7d09de3b272a283" kind="function"><name>empty</name></member>
     <member refid="classMR_1_1PriorityQueue_1ab6d4bc3f087a1d5b9e3acf5c3334f1af" kind="function"><name>size</name></member>
-    <member refid="classMR_1_1PriorityQueue_1af82d3663565c02f63678292a87e97192" kind="function"><name>top</name></member>
-    <member refid="classMR_1_1PriorityQueue_1a0a493610b54c4c312a6522dfd1a22b8d" kind="function"><name>push</name></member>
-    <member refid="classMR_1_1PriorityQueue_1ac59724ac4d832ab0bd70f42d9c2170d1" kind="function"><name>push</name></member>
+    <member refid="classMR_1_1PriorityQueue_1a3973d3d98fabe3ab995b0773b4594bd4" kind="function"><name>top</name></member>
+    <member refid="classMR_1_1PriorityQueue_1a2e187afc12c2e65ace2f15cc047a4347" kind="function"><name>push</name></member>
+    <member refid="classMR_1_1PriorityQueue_1af459afbfa15d0c2d31e4deb76c8c0ba6" kind="function"><name>push</name></member>
     <member refid="classMR_1_1PriorityQueue_1a14e51732a3a52902181ca4b3d1f28374" kind="function"><name>emplace</name></member>
     <member refid="classMR_1_1PriorityQueue_1ada44a589fd04a828763560decb38cdf8" kind="function"><name>pop</name></member>
     <member refid="classMR_1_1PriorityQueue_1ac3768af1b2c1c1f02a594537e7ca9105" kind="function"><name>onPush_</name></member>
@@ -12064,26 +12064,26 @@
     <member refid="classMR_1_1Vector_1a8a23a61e0e9734a4a33ad686080db6b0" kind="function"><name>resizeNoInit</name></member>
     <member refid="classMR_1_1Vector_1a291f08448069b69e4286d064907e6fdd" kind="function"><name>capacity</name></member>
     <member refid="classMR_1_1Vector_1a74f2d276465f6183ec4068d124cbb596" kind="function"><name>reserve</name></member>
-    <member refid="classMR_1_1Vector_1a8b3429bd5756af47e08186ebef6acd7e" kind="function"><name>operator[]</name></member>
-    <member refid="classMR_1_1Vector_1a3a03ee463d5f6122ac940a592ac9ec88" kind="function"><name>operator[]</name></member>
+    <member refid="classMR_1_1Vector_1a349375d06b5b75e3b26f9587fe0584f5" kind="function"><name>operator[]</name></member>
+    <member refid="classMR_1_1Vector_1a6bae4e482e7ead78efad9465a5ac085d" kind="function"><name>operator[]</name></member>
     <member refid="classMR_1_1Vector_1a291ed0f8042c268b0aa65b87497daca1" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector_1a8d2ff338e3ecf6232044e755e5145fde" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector_1af0951dea97b2041bcf0b554bf3f92408" kind="function"><name>autoResizeSet</name></member>
     <member refid="classMR_1_1Vector_1ac42f813829d695e418e088932eacfd6c" kind="function"><name>autoResizeSet</name></member>
     <member refid="classMR_1_1Vector_1a34cbfbd253ebde3284a83172a4443540" kind="function"><name>autoResizeAt</name></member>
-    <member refid="classMR_1_1Vector_1a78fa1b6365aa64b3aec65883530dc735" kind="function"><name>push_back</name></member>
-    <member refid="classMR_1_1Vector_1afc885715482436dc55e4e61a60ef05dc" kind="function"><name>push_back</name></member>
+    <member refid="classMR_1_1Vector_1a5ea16d2aeaa1f2e2d683aade3c67794c" kind="function"><name>push_back</name></member>
+    <member refid="classMR_1_1Vector_1a05637c5798b92bebed2ff7a28c610317" kind="function"><name>push_back</name></member>
     <member refid="classMR_1_1Vector_1a06fae7c424bf43fc3c4cbbf624496400" kind="function"><name>pop_back</name></member>
     <member refid="classMR_1_1Vector_1a0d377a848db9d73675bc1849a0810eac" kind="function"><name>MR_REQUIRES_IF_SUPPORTED</name></member>
-    <member refid="classMR_1_1Vector_1af6959f781909eba002ffffbc6fe37c1f" kind="function"><name>front</name></member>
-    <member refid="classMR_1_1Vector_1a19509cb3f6dbf95c9f90c51a0b1c5a3c" kind="function"><name>front</name></member>
-    <member refid="classMR_1_1Vector_1afe49f6b723cf6b2b08dfe4d50ddd1c53" kind="function"><name>back</name></member>
-    <member refid="classMR_1_1Vector_1aa4bcfcbca3642d15aa0cdec1055c4472" kind="function"><name>back</name></member>
+    <member refid="classMR_1_1Vector_1a45f2bc56cf356b515e4663756f9603d0" kind="function"><name>front</name></member>
+    <member refid="classMR_1_1Vector_1a94dc9dbf3a73cbe2587df726910c0c62" kind="function"><name>front</name></member>
+    <member refid="classMR_1_1Vector_1a46444b5dbe2a6683e69b0da7019a275a" kind="function"><name>back</name></member>
+    <member refid="classMR_1_1Vector_1a00e105c75d03f3e463940689fbbc9971" kind="function"><name>back</name></member>
     <member refid="classMR_1_1Vector_1a77de89f2d4e174400377d487cb85aa88" kind="function"><name>beginId</name></member>
     <member refid="classMR_1_1Vector_1a8c55eb98bf2596f633ff35ce1f8fe00b" kind="function"><name>backId</name></member>
     <member refid="classMR_1_1Vector_1affe4aad8fd23742b0de456abb1921fc0" kind="function"><name>endId</name></member>
-    <member refid="classMR_1_1Vector_1a52816f431d630dedbc20620deacb5b47" kind="function"><name>data</name></member>
-    <member refid="classMR_1_1Vector_1ab7e19dc6b4addbb584ffa28779aa7c9c" kind="function"><name>data</name></member>
+    <member refid="classMR_1_1Vector_1aade5514343c87eb684306b423c1c7243" kind="function"><name>data</name></member>
+    <member refid="classMR_1_1Vector_1a3aff297b5a977389219718cb0c834eb7" kind="function"><name>data</name></member>
     <member refid="classMR_1_1Vector_1ae03333f72ab69a79829ae5f0d6d426ef" kind="function"><name>swap</name></member>
     <member refid="classMR_1_1Vector_1a8adb58b328ca5465266d3859a7bc1d72" kind="function"><name>heapBytes</name></member>
   </compound>
@@ -14512,7 +14512,7 @@
     <member refid="group__BoxGroup_1ga38d4182b91d82686467e35af47b71fe0" kind="function"><name>findSortedBoxDims</name></member>
     <member refid="group__BoxGroup_1ga053696cba1348e4b44c49f0751433c8e" kind="function"><name>get</name></member>
     <member refid="group__BoxGroup_1ga76c5563a8f378f26e9e7cd06542fc0bf" kind="function"><name>get</name></member>
-    <member refid="namespaceMR_1a43427e0d96ff10e6af29370a3b0d7c17" kind="function"><name>getAt</name></member>
+    <member refid="namespaceMR_1a6925a647a7b6367122e6ae1212993a2b" kind="function"><name>getAt</name></member>
     <member refid="namespaceMR_1a3bd81207bb5dccdfe9533eae31414e16" kind="function"><name>begin</name></member>
     <member refid="namespaceMR_1aff3156c83a0cd4f80c755c47b577c1c9" kind="function"><name>begin</name></member>
     <member refid="namespaceMR_1a484bb1d73bd93c876842593fe3441211" kind="function"><name>end</name></member>
@@ -17253,6 +17253,13 @@
     <member refid="MRMacros_8h_1adb4b71f9ebce86e54868bd967010ebbb" kind="define"><name>MR_REQUIRES_IF_SUPPORTED</name></member>
     <member refid="MRMacros_8h_1aa4077bf89cb8ad6b60d3d1d989cc5361" kind="define"><name>MR_SAME_TYPE_TEMPLATE_PARAM</name></member>
     <member refid="MRMacros_8h_1adc8a2290a0ad34bf18acb8498b4bb91a" kind="define"><name>MR_NO_UNIQUE_ADDRESS</name></member>
+    <member refid="MRMacros_8h_1a5a14b15e367904df16d7473d4e5a33ea" kind="define"><name>MR_LIFETIMEBOUND</name></member>
+    <member refid="MRMacros_8h_1a39cc255fe35857a435c1f7857797b105" kind="define"><name>MR_LIFETIME_CAPTURE_BY</name></member>
+    <member refid="MRMacros_8h_1acf6c6b95060436517349016ba1997ced" kind="define"><name>MR_THIS_LIFETIME_CAPTURE_BY</name></member>
+    <member refid="MRMacros_8h_1ac4deec6386dbf5b5f121aaa2beb16cec" kind="define"><name>MR_LIFETIMEBOUND_NESTED</name></member>
+    <member refid="MRMacros_8h_1ae5183c759a85bf4bf2bfebf125c3b783" kind="define"><name>MR_THIS_LIFETIMEBOUND_NESTED</name></member>
+    <member refid="MRMacros_8h_1abac943cb4e78c29b3a46edd18cffe800" kind="define"><name>MR_LIFETIME_CAPTURE_BY_NESTED</name></member>
+    <member refid="MRMacros_8h_1a565fe9a8b72db5a6310b31aeaa3b5d39" kind="define"><name>MR_THIS_LIFETIME_CAPTURE_BY_NESTED</name></member>
     <member refid="MRMacros_8h_1a0284b6bf2a09937d49518593207b00a6" kind="define"><name>MR_LEGACY_MSVC_PREPROCESSOR</name></member>
     <member refid="MRMacros_8h_1a11806a80fef697ddb9a820cc22204f3b" kind="define"><name>MR_TRIM_LEADING_COMMA</name></member>
     <member refid="MRMacros_8h_1acaebd39479bb9677a7e966765a052de4" kind="define"><name>DETAIL_MR_TRIM_LEADING_COMMA_</name></member>
@@ -18590,13 +18597,13 @@
     <member refid="group__BasicGroup_1gad352239f809241e329ff312b293854bd" kind="function"><name>unregisterThreadRootTimeRecord</name></member>
     <member refid="group__BasicGroup_1gabefbd707048572a74df60a453534dbab" kind="function"><name>getMapping</name></member>
     <member refid="group__BasicGroup_1ga37348afa24bcbc43d3a71e35e02267d6" kind="function"><name>getMapping</name></member>
-    <member refid="group__BasicGroup_1ga484758be506c83b8a42bbb37f7761507" kind="function"><name>Heap</name></member>
-    <member refid="group__BasicGroup_1gad25d3f2e0a2385b7458ee0a7229d6130" kind="function"><name>Heap</name></member>
-    <member refid="group__BasicGroup_1ga1850d4188a12bb75802dc364f7309bd6" kind="function"><name>resize</name></member>
-    <member refid="group__BasicGroup_1ga4dedcc9253b2c45a7d8a9417d1c19362" kind="function"><name>setValue</name></member>
-    <member refid="group__BasicGroup_1ga967a46dde0718e3a1b167f25dfc62251" kind="function"><name>setLargerValue</name></member>
+    <member refid="group__BasicGroup_1ga9313e4c55061c6256011bd32a616752e" kind="function"><name>Heap</name></member>
+    <member refid="group__BasicGroup_1ga26381c3d0e45502caae2e269f988a3f8" kind="function"><name>Heap</name></member>
+    <member refid="group__BasicGroup_1ga2dc347cff75def29aeb2eaa76f066a84" kind="function"><name>resize</name></member>
+    <member refid="group__BasicGroup_1ga113ac866225ab4355eef002299a93671" kind="function"><name>setValue</name></member>
+    <member refid="group__BasicGroup_1ga63073f7e258e45cf224a470df850692a" kind="function"><name>setLargerValue</name></member>
     <member refid="group__BasicGroup_1gaf57eb736d2eb7b803bd2dddfbed172f6" kind="function"><name>lift_</name></member>
-    <member refid="group__BasicGroup_1ga8b871063e6c314fad7809432d2f74b64" kind="function"><name>setSmallerValue</name></member>
+    <member refid="group__BasicGroup_1ga5ce1725f1cb927e3e594d52b5a565ed7" kind="function"><name>setSmallerValue</name></member>
     <member refid="group__BasicGroup_1ga8cc005841a554f35bd3b412da9244b20" kind="function"><name>less_</name></member>
   </compound>
   <compound refid="group__BoxGroup" kind="group"><name>BoxGroup</name>

@@ -659,7 +659,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if true then for every basis loop, findSmallestMetricCoLoop will be called; it typically results in shorter tunnels found, but requires more time per iteration, and more iterations to find all tunnels Returns a pointer to a member variable of class <code>MR::DetectTunnelSettings</code> named <code>buildCoLoops</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if true then for every basis loop, findSmallestMetricCoLoop will be called; it typically results in shorter tunnels found, but requires more time per iteration, and more iterations to find all tunnels Returns a pointer to a member variable of class <code>MR::DetectTunnelSettings</code> named <code>buildCoLoops</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -677,7 +677,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if ( buildCoLoops ) then some tunnel loops can be equivalent (e.g. they cut the same handle twice), this option activates their filtering out, but it is very slow Returns a pointer to a member variable of class <code>MR::DetectTunnelSettings</code> named <code>filterEquivalentCoLoops</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if ( buildCoLoops ) then some tunnel loops can be equivalent (e.g. they cut the same handle twice), this option activates their filtering out, but it is very slow Returns a pointer to a member variable of class <code>MR::DetectTunnelSettings</code> named <code>filterEquivalentCoLoops</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -695,7 +695,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximal number of iterations to detect all tunnels; on a big mesh with many tunnels even one iteration can take a while Returns a pointer to a member variable of class <code>MR::DetectTunnelSettings</code> named <code>maxIters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>maximal number of iterations to detect all tunnels; on a big mesh with many tunnels even one iteration can take a while Returns a pointer to a member variable of class <code>MR::DetectTunnelSettings</code> named <code>maxIters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -713,7 +713,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximal euclidean length of tunnel loops to detect Returns a pointer to a member variable of class <code>MR::DetectTunnelSettings</code> named <code>maxTunnelLength</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>maximal euclidean length of tunnel loops to detect Returns a pointer to a member variable of class <code>MR::DetectTunnelSettings</code> named <code>maxTunnelLength</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -731,7 +731,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>edge metric that will be used in optimizations, if co-loops are enabled then this metric must be not-negative, if no metric is given then either discreteMinusAbsMeanCurvatureMetric (if buildCoLoops = false) or edgeLengthMetric (if buildCoLoops = true) will be used, using caching via edgeTableSymMetric function can improve the performance, especially in buildCoLoops = true mode Returns a pointer to a member variable of class <code>MR::DetectTunnelSettings</code> named <code>metric</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>edge metric that will be used in optimizations, if co-loops are enabled then this metric must be not-negative, if no metric is given then either discreteMinusAbsMeanCurvatureMetric (if buildCoLoops = false) or edgeLengthMetric (if buildCoLoops = true) will be used, using caching via edgeTableSymMetric function can improve the performance, especially in buildCoLoops = true mode Returns a pointer to a member variable of class <code>MR::DetectTunnelSettings</code> named <code>metric</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -749,7 +749,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>to report algorithm progress and cancel from outside Returns a pointer to a member variable of class <code>MR::DetectTunnelSettings</code> named <code>progress</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>to report algorithm progress and cancel from outside Returns a pointer to a member variable of class <code>MR::DetectTunnelSettings</code> named <code>progress</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -767,7 +767,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if true then for every basis loop, findSmallestMetricCoLoop will be called; it typically results in shorter tunnels found, but requires more time per iteration, and more iterations to find all tunnels Returns a mutable pointer to a member variable of class <code>MR::DetectTunnelSettings</code> named <code>buildCoLoops</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if true then for every basis loop, findSmallestMetricCoLoop will be called; it typically results in shorter tunnels found, but requires more time per iteration, and more iterations to find all tunnels Returns a mutable pointer to a member variable of class <code>MR::DetectTunnelSettings</code> named <code>buildCoLoops</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -785,7 +785,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if ( buildCoLoops ) then some tunnel loops can be equivalent (e.g. they cut the same handle twice), this option activates their filtering out, but it is very slow Returns a mutable pointer to a member variable of class <code>MR::DetectTunnelSettings</code> named <code>filterEquivalentCoLoops</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if ( buildCoLoops ) then some tunnel loops can be equivalent (e.g. they cut the same handle twice), this option activates their filtering out, but it is very slow Returns a mutable pointer to a member variable of class <code>MR::DetectTunnelSettings</code> named <code>filterEquivalentCoLoops</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -803,7 +803,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximal number of iterations to detect all tunnels; on a big mesh with many tunnels even one iteration can take a while Returns a mutable pointer to a member variable of class <code>MR::DetectTunnelSettings</code> named <code>maxIters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>maximal number of iterations to detect all tunnels; on a big mesh with many tunnels even one iteration can take a while Returns a mutable pointer to a member variable of class <code>MR::DetectTunnelSettings</code> named <code>maxIters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -821,7 +821,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximal euclidean length of tunnel loops to detect Returns a mutable pointer to a member variable of class <code>MR::DetectTunnelSettings</code> named <code>maxTunnelLength</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>maximal euclidean length of tunnel loops to detect Returns a mutable pointer to a member variable of class <code>MR::DetectTunnelSettings</code> named <code>maxTunnelLength</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -839,7 +839,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>edge metric that will be used in optimizations, if co-loops are enabled then this metric must be not-negative, if no metric is given then either discreteMinusAbsMeanCurvatureMetric (if buildCoLoops = false) or edgeLengthMetric (if buildCoLoops = true) will be used, using caching via edgeTableSymMetric function can improve the performance, especially in buildCoLoops = true mode Returns a mutable pointer to a member variable of class <code>MR::DetectTunnelSettings</code> named <code>metric</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>edge metric that will be used in optimizations, if co-loops are enabled then this metric must be not-negative, if no metric is given then either discreteMinusAbsMeanCurvatureMetric (if buildCoLoops = false) or edgeLengthMetric (if buildCoLoops = true) will be used, using caching via edgeTableSymMetric function can improve the performance, especially in buildCoLoops = true mode Returns a mutable pointer to a member variable of class <code>MR::DetectTunnelSettings</code> named <code>metric</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -857,7 +857,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>to report algorithm progress and cancel from outside Returns a mutable pointer to a member variable of class <code>MR::DetectTunnelSettings</code> named <code>progress</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>to report algorithm progress and cancel from outside Returns a mutable pointer to a member variable of class <code>MR::DetectTunnelSettings</code> named <code>progress</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>

@@ -779,7 +779,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>barycentric coordinates</p>
-<p>a in [0,1], a=0 =&gt; point is on next( e ) edge, a=1 =&gt; point is in dest( e ) b in [0,1], b=0 =&gt; point is on e edge, b=1 =&gt; point is in dest( next( e ) ) a+b in [0,1], a+b=0 =&gt; point is in org( e ), a+b=1 =&gt; point is on prev( e.sym() ) edge Returns a pointer to a member variable of class <code>MR::MeshTriPoint</code> named <code>bary</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>a in [0,1], a=0 =&gt; point is on next( e ) edge, a=1 =&gt; point is in dest( e ) b in [0,1], b=0 =&gt; point is on e edge, b=1 =&gt; point is in dest( next( e ) ) a+b in [0,1], a+b=0 =&gt; point is in org( e ), a+b=1 =&gt; point is on prev( e.sym() ) edge Returns a pointer to a member variable of class <code>MR::MeshTriPoint</code> named <code>bary</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -816,7 +816,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>barycentric coordinates</p>
-<p>a in [0,1], a=0 =&gt; point is on next( e ) edge, a=1 =&gt; point is in dest( e ) b in [0,1], b=0 =&gt; point is on e edge, b=1 =&gt; point is in dest( next( e ) ) a+b in [0,1], a+b=0 =&gt; point is in org( e ), a+b=1 =&gt; point is on prev( e.sym() ) edge Returns a mutable pointer to a member variable of class <code>MR::MeshTriPoint</code> named <code>bary</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>a in [0,1], a=0 =&gt; point is on next( e ) edge, a=1 =&gt; point is in dest( e ) b in [0,1], b=0 =&gt; point is on e edge, b=1 =&gt; point is in dest( next( e ) ) a+b in [0,1], a+b=0 =&gt; point is in org( e ), a+b=1 =&gt; point is on prev( e.sym() ) edge Returns a mutable pointer to a member variable of class <code>MR::MeshTriPoint</code> named <code>bary</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1055,7 +1055,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>left face of this edge is considered Returns a mutable pointer to a member variable of class <code>MR::MeshTriPoint</code> named <code>e</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>left face of this edge is considered Returns a mutable pointer to a member variable of class <code>MR::MeshTriPoint</code> named <code>e</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1122,7 +1122,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::WeightedVertex::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. left face of this edge is considered Returns a pointer to a member variable of class <code>MR::MeshTriPoint</code> named <code>e</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::WeightedVertex::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. left face of this edge is considered Returns a pointer to a member variable of class <code>MR::MeshTriPoint</code> named <code>e</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1254,7 +1254,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::WeightedVertex</code> named <code>v</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::WeightedVertex</code> named <code>v</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1272,7 +1272,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::WeightedVertex</code> named <code>weight</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::WeightedVertex</code> named <code>weight</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1290,7 +1290,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::WeightedVertex</code> named <code>v</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::WeightedVertex</code> named <code>v</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1308,7 +1308,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::WeightedVertex</code> named <code>weight</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::WeightedVertex</code> named <code>weight</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>

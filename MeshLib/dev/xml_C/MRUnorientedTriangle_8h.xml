@@ -80,11 +80,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::UnorientedTriangle</computeroutput> named <computeroutput>verts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::UnorientedTriangle</computeroutput> named <computeroutput>verts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" line="26" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" declline="26" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" line="27" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" declline="27" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MRUnorientedTriangle_8h_1a2cdd56f9005d43ce0bbf5ec4357ea0e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -106,7 +106,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" line="32" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" declline="32" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" line="33" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" declline="33" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRUnorientedTriangle_8h_1a31e44df4ed6582a8049a7cac8ee69a75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRSeparationPoint_8h_1a93a0c4d7b47d7dae609a79a31bf54018" kindref="member">MR_std_array_MR_VertId_3</ref> *</type>
@@ -120,11 +120,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::UnorientedTriangle</computeroutput> named <computeroutput>verts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::UnorientedTriangle</computeroutput> named <computeroutput>verts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" line="37" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" declline="37" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" line="39" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" declline="39" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRUnorientedTriangle_8h_1aa444fc4dfebb79d2f006309ecda49efa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref> *</type>
@@ -142,7 +142,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" line="43" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" declline="43" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" line="45" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" declline="45" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MRUnorientedTriangle_8h_1a68722fa57caa2e32168fb7af496595fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref> *</type>
@@ -164,7 +164,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" line="47" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" declline="47" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" line="49" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" declline="49" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRUnorientedTriangle_8h_1aaa12a3a29005cedbc1f2f6aa5cab2119" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref> *</type>
@@ -186,7 +186,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" line="51" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" declline="51" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" line="53" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" declline="53" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MRUnorientedTriangle_8h_1aa5ec7eb59f586f40bc5944e284379e1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref> *</type>
@@ -208,7 +208,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" line="59" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" declline="59" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" line="61" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" declline="61" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MRUnorientedTriangle_8h_1aaf5479349a6e173ce56d85aa3c432674" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -226,7 +226,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" line="62" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" declline="62" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" line="64" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" declline="64" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRUnorientedTriangle_8h_1ad782ee101f136d647eed2a41e55f6430" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -244,7 +244,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" line="65" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" declline="65" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" line="67" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" declline="67" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRUnorientedTriangle_8h_1a2ba35a57297946739b295026d61cbb37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRSeparationPoint_8h_1a93a0c4d7b47d7dae609a79a31bf54018" kindref="member">MR_std_array_MR_VertId_3</ref> *</type>
@@ -262,7 +262,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" line="70" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" declline="70" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" line="72" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" declline="72" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRUnorientedTriangle_8h_1a32976cbe6235bd1b49a93cafa3095110" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRSeparationPoint_8h_1a93a0c4d7b47d7dae609a79a31bf54018" kindref="member">MR_std_array_MR_VertId_3</ref> *</type>
@@ -280,7 +280,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" line="75" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" declline="75" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" line="77" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" declline="77" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MRUnorientedTriangle_8h_1a0f57b4982b8b12751754594bc79c3e83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref> *</type>
@@ -302,7 +302,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" line="83" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" declline="83" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" line="85" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" declline="85" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MRUnorientedTriangle_8h_1aac92566ba7db9f068c7228cd036bd9a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRSeparationPoint_8h_1a93a0c4d7b47d7dae609a79a31bf54018" kindref="member">MR_std_array_MR_VertId_3</ref></type>
@@ -320,7 +320,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" line="88" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" declline="88" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" line="90" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" declline="90" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRUnorientedTriangle_8h_1a88657ce16a87c5c372da7d403f06bb16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref> *</type>
@@ -342,7 +342,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" line="93" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" declline="93" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" line="95" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" declline="95" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRUnorientedTriangle_8h_1aa830abc44906fd9fb39f4521d7b15428" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref> *</type>
@@ -364,7 +364,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" line="98" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" declline="98" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" line="100" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" declline="100" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRUnorientedTriangle_8h_1a71801f991d662d46273414e0551d92cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool</type>
@@ -386,7 +386,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" line="103" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" declline="103" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" line="105" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h" declline="105" declcolumn="14"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -412,41 +412,41 @@
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
 <codeline lineno="21" refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref>;</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26" refid="MRUnorientedTriangle_8h_1a70959cf48fd72ee34af799fe34ca3765" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSeparationPoint_8h_1a93a0c4d7b47d7dae609a79a31bf54018" kindref="member">MR_std_array_MR_VertId_3</ref><sp/>*<ref refid="MRUnorientedTriangle_8h_1a70959cf48fd72ee34af799fe34ca3765" kindref="member">MR_UnorientedTriangle_Get_verts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32" refid="MRUnorientedTriangle_8h_1a2cdd56f9005d43ce0bbf5ec4357ea0e2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUnorientedTriangle_8h_1a2cdd56f9005d43ce0bbf5ec4357ea0e2" kindref="member">MR_UnorientedTriangle_Set_verts</ref>(<ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*_this,<sp/><ref refid="MRSeparationPoint_8h_1a93a0c4d7b47d7dae609a79a31bf54018" kindref="member">MR_std_array_MR_VertId_3</ref><sp/>value);</highlight></codeline>
-<codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37" refid="MRUnorientedTriangle_8h_1a31e44df4ed6582a8049a7cac8ee69a75" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSeparationPoint_8h_1a93a0c4d7b47d7dae609a79a31bf54018" kindref="member">MR_std_array_MR_VertId_3</ref><sp/>*<ref refid="MRUnorientedTriangle_8h_1a31e44df4ed6582a8049a7cac8ee69a75" kindref="member">MR_UnorientedTriangle_GetMutable_verts</ref>(<ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43" refid="MRUnorientedTriangle_8h_1aa444fc4dfebb79d2f006309ecda49efa" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*<ref refid="MRUnorientedTriangle_8h_1aa444fc4dfebb79d2f006309ecda49efa" kindref="member">MR_UnorientedTriangle_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="44"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47" refid="MRUnorientedTriangle_8h_1a68722fa57caa2e32168fb7af496595fe" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*<ref refid="MRUnorientedTriangle_8h_1a68722fa57caa2e32168fb7af496595fe" kindref="member">MR_UnorientedTriangle_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"></highlight></codeline>
-<codeline lineno="51" refid="MRUnorientedTriangle_8h_1aaa12a3a29005cedbc1f2f6aa5cab2119" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*<ref refid="MRUnorientedTriangle_8h_1aaa12a3a29005cedbc1f2f6aa5cab2119" kindref="member">MR_UnorientedTriangle_OffsetMutablePtr</ref>(<ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="59" refid="MRUnorientedTriangle_8h_1aa5ec7eb59f586f40bc5944e284379e1d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*<ref refid="MRUnorientedTriangle_8h_1aa5ec7eb59f586f40bc5944e284379e1d" kindref="member">MR_UnorientedTriangle_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSeparationPoint_8h_1a93a0c4d7b47d7dae609a79a31bf54018" kindref="member">MR_std_array_MR_VertId_3</ref><sp/>*inVs,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*outFlipped);</highlight></codeline>
-<codeline lineno="60"><highlight class="normal"></highlight></codeline>
-<codeline lineno="62" refid="MRUnorientedTriangle_8h_1aaf5479349a6e173ce56d85aa3c432674" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUnorientedTriangle_8h_1aaf5479349a6e173ce56d85aa3c432674" kindref="member">MR_UnorientedTriangle_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="63"><highlight class="normal"></highlight></codeline>
-<codeline lineno="65" refid="MRUnorientedTriangle_8h_1ad782ee101f136d647eed2a41e55f6430" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUnorientedTriangle_8h_1ad782ee101f136d647eed2a41e55f6430" kindref="member">MR_UnorientedTriangle_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="66"><highlight class="normal"></highlight></codeline>
-<codeline lineno="70" refid="MRUnorientedTriangle_8h_1a2ba35a57297946739b295026d61cbb37" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSeparationPoint_8h_1a93a0c4d7b47d7dae609a79a31bf54018" kindref="member">MR_std_array_MR_VertId_3</ref><sp/>*<ref refid="MRUnorientedTriangle_8h_1a2ba35a57297946739b295026d61cbb37" kindref="member">MR_UnorientedTriangle_ConvertTo_std_array_MR_VertId_3_ref</ref>(<ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="71"><highlight class="normal"></highlight></codeline>
-<codeline lineno="75" refid="MRUnorientedTriangle_8h_1a32976cbe6235bd1b49a93cafa3095110" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSeparationPoint_8h_1a93a0c4d7b47d7dae609a79a31bf54018" kindref="member">MR_std_array_MR_VertId_3</ref><sp/>*<ref refid="MRUnorientedTriangle_8h_1a32976cbe6235bd1b49a93cafa3095110" kindref="member">MR_UnorientedTriangle_ConvertTo_const_std_array_MR_VertId_3_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="76"><highlight class="normal"></highlight></codeline>
-<codeline lineno="83" refid="MRUnorientedTriangle_8h_1a0f57b4982b8b12751754594bc79c3e83" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*<ref refid="MRUnorientedTriangle_8h_1a0f57b4982b8b12751754594bc79c3e83" kindref="member">MR_UnorientedTriangle_AssignFromAnother</ref>(<ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="84"><highlight class="normal"></highlight></codeline>
-<codeline lineno="88" refid="MRUnorientedTriangle_8h_1aac92566ba7db9f068c7228cd036bd9a6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSeparationPoint_8h_1a93a0c4d7b47d7dae609a79a31bf54018" kindref="member">MR_std_array_MR_VertId_3</ref><sp/><ref refid="MRUnorientedTriangle_8h_1aac92566ba7db9f068c7228cd036bd9a6" kindref="member">MR_UnorientedTriangle_getFlipped</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="89"><highlight class="normal"></highlight></codeline>
-<codeline lineno="93" refid="MRUnorientedTriangle_8h_1a88657ce16a87c5c372da7d403f06bb16" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRUnorientedTriangle_8h_1a88657ce16a87c5c372da7d403f06bb16" kindref="member">MR_UnorientedTriangle_index_mut</ref>(<ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*_this,<sp/>MR_uint64_t<sp/>i);</highlight></codeline>
-<codeline lineno="94"><highlight class="normal"></highlight></codeline>
-<codeline lineno="98" refid="MRUnorientedTriangle_8h_1aa830abc44906fd9fb39f4521d7b15428" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRUnorientedTriangle_8h_1aa830abc44906fd9fb39f4521d7b15428" kindref="member">MR_UnorientedTriangle_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*_this,<sp/>MR_uint64_t<sp/>i);</highlight></codeline>
-<codeline lineno="99"><highlight class="normal"></highlight></codeline>
-<codeline lineno="103" refid="MRUnorientedTriangle_8h_1a71801f991d662d46273414e0551d92cf" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRUnorientedTriangle_8h_1a71801f991d662d46273414e0551d92cf" kindref="member">MR_equal_MR_UnorientedTriangle</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*b);</highlight></codeline>
-<codeline lineno="104"><highlight class="normal"></highlight></codeline>
-<codeline lineno="105"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="106"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="107"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="27" refid="MRUnorientedTriangle_8h_1a70959cf48fd72ee34af799fe34ca3765" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSeparationPoint_8h_1a93a0c4d7b47d7dae609a79a31bf54018" kindref="member">MR_std_array_MR_VertId_3</ref><sp/>*<ref refid="MRUnorientedTriangle_8h_1a70959cf48fd72ee34af799fe34ca3765" kindref="member">MR_UnorientedTriangle_Get_verts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="MRUnorientedTriangle_8h_1a2cdd56f9005d43ce0bbf5ec4357ea0e2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUnorientedTriangle_8h_1a2cdd56f9005d43ce0bbf5ec4357ea0e2" kindref="member">MR_UnorientedTriangle_Set_verts</ref>(<ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*_this,<sp/><ref refid="MRSeparationPoint_8h_1a93a0c4d7b47d7dae609a79a31bf54018" kindref="member">MR_std_array_MR_VertId_3</ref><sp/>value);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="MRUnorientedTriangle_8h_1a31e44df4ed6582a8049a7cac8ee69a75" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSeparationPoint_8h_1a93a0c4d7b47d7dae609a79a31bf54018" kindref="member">MR_std_array_MR_VertId_3</ref><sp/>*<ref refid="MRUnorientedTriangle_8h_1a31e44df4ed6582a8049a7cac8ee69a75" kindref="member">MR_UnorientedTriangle_GetMutable_verts</ref>(<ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="MRUnorientedTriangle_8h_1aa444fc4dfebb79d2f006309ecda49efa" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*<ref refid="MRUnorientedTriangle_8h_1aa444fc4dfebb79d2f006309ecda49efa" kindref="member">MR_UnorientedTriangle_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="MRUnorientedTriangle_8h_1a68722fa57caa2e32168fb7af496595fe" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*<ref refid="MRUnorientedTriangle_8h_1a68722fa57caa2e32168fb7af496595fe" kindref="member">MR_UnorientedTriangle_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="MRUnorientedTriangle_8h_1aaa12a3a29005cedbc1f2f6aa5cab2119" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*<ref refid="MRUnorientedTriangle_8h_1aaa12a3a29005cedbc1f2f6aa5cab2119" kindref="member">MR_UnorientedTriangle_OffsetMutablePtr</ref>(<ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="MRUnorientedTriangle_8h_1aa5ec7eb59f586f40bc5944e284379e1d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*<ref refid="MRUnorientedTriangle_8h_1aa5ec7eb59f586f40bc5944e284379e1d" kindref="member">MR_UnorientedTriangle_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSeparationPoint_8h_1a93a0c4d7b47d7dae609a79a31bf54018" kindref="member">MR_std_array_MR_VertId_3</ref><sp/>*inVs,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*outFlipped);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="MRUnorientedTriangle_8h_1aaf5479349a6e173ce56d85aa3c432674" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUnorientedTriangle_8h_1aaf5479349a6e173ce56d85aa3c432674" kindref="member">MR_UnorientedTriangle_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="MRUnorientedTriangle_8h_1ad782ee101f136d647eed2a41e55f6430" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUnorientedTriangle_8h_1ad782ee101f136d647eed2a41e55f6430" kindref="member">MR_UnorientedTriangle_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="MRUnorientedTriangle_8h_1a2ba35a57297946739b295026d61cbb37" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSeparationPoint_8h_1a93a0c4d7b47d7dae609a79a31bf54018" kindref="member">MR_std_array_MR_VertId_3</ref><sp/>*<ref refid="MRUnorientedTriangle_8h_1a2ba35a57297946739b295026d61cbb37" kindref="member">MR_UnorientedTriangle_ConvertTo_std_array_MR_VertId_3_ref</ref>(<ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="MRUnorientedTriangle_8h_1a32976cbe6235bd1b49a93cafa3095110" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSeparationPoint_8h_1a93a0c4d7b47d7dae609a79a31bf54018" kindref="member">MR_std_array_MR_VertId_3</ref><sp/>*<ref refid="MRUnorientedTriangle_8h_1a32976cbe6235bd1b49a93cafa3095110" kindref="member">MR_UnorientedTriangle_ConvertTo_const_std_array_MR_VertId_3_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="MRUnorientedTriangle_8h_1a0f57b4982b8b12751754594bc79c3e83" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*<ref refid="MRUnorientedTriangle_8h_1a0f57b4982b8b12751754594bc79c3e83" kindref="member">MR_UnorientedTriangle_AssignFromAnother</ref>(<ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="MRUnorientedTriangle_8h_1aac92566ba7db9f068c7228cd036bd9a6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSeparationPoint_8h_1a93a0c4d7b47d7dae609a79a31bf54018" kindref="member">MR_std_array_MR_VertId_3</ref><sp/><ref refid="MRUnorientedTriangle_8h_1aac92566ba7db9f068c7228cd036bd9a6" kindref="member">MR_UnorientedTriangle_getFlipped</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="MRUnorientedTriangle_8h_1a88657ce16a87c5c372da7d403f06bb16" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRUnorientedTriangle_8h_1a88657ce16a87c5c372da7d403f06bb16" kindref="member">MR_UnorientedTriangle_index_mut</ref>(<ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*_this,<sp/>MR_uint64_t<sp/>i);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="MRUnorientedTriangle_8h_1aa830abc44906fd9fb39f4521d7b15428" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRUnorientedTriangle_8h_1aa830abc44906fd9fb39f4521d7b15428" kindref="member">MR_UnorientedTriangle_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*_this,<sp/>MR_uint64_t<sp/>i);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105" refid="MRUnorientedTriangle_8h_1a71801f991d662d46273414e0551d92cf" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRUnorientedTriangle_8h_1a71801f991d662d46273414e0551d92cf" kindref="member">MR_equal_MR_UnorientedTriangle</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnorientedTriangle.h"/>
   </compounddef>

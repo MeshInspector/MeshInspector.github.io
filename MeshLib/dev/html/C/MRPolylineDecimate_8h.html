@@ -908,7 +908,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Max different (as distance) between original contour and result contour Returns a pointer to a member variable of class <code>MR::DecimatePolylineResult</code> named <code>errorIntroduced</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Max different (as distance) between original contour and result contour Returns a pointer to a member variable of class <code>MR::DecimatePolylineResult</code> named <code>errorIntroduced</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -974,7 +974,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Max different (as distance) between original contour and result contour Returns a mutable pointer to a member variable of class <code>MR::DecimatePolylineResult</code> named <code>errorIntroduced</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Max different (as distance) between original contour and result contour Returns a mutable pointer to a member variable of class <code>MR::DecimatePolylineResult</code> named <code>errorIntroduced</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -996,7 +996,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Number deleted verts. Same as the number of performed collapses Returns a mutable pointer to a member variable of class <code>MR::DecimatePolylineResult</code> named <code>vertsDeleted</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Number deleted verts. Same as the number of performed collapses Returns a mutable pointer to a member variable of class <code>MR::DecimatePolylineResult</code> named <code>vertsDeleted</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1211,7 +1211,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The user can provide this optional callback for adjusting error introduced by this edge collapse and the collapse position. </p>
-<p>On input the callback gets the squared error and position computed by standard means, and callback can modify any of them. The larger the error, the later this edge will be collapsed. This callback can be called from many threads in parallel and must be thread-safe. This callback can be called many times for each edge before real collapsing, and it is important to make the same adjustment. Returns a pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</code> named <code>adjustCollapse</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>On input the callback gets the squared error and position computed by standard means, and callback can modify any of them. The larger the error, the later this edge will be collapsed. This callback can be called from many threads in parallel and must be thread-safe. This callback can be called many times for each edge before real collapsing, and it is important to make the same adjustment. Returns a pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</code> named <code>adjustCollapse</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1229,7 +1229,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Limit on the number of deleted vertices Returns a pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</code> named <code>maxDeletedVertices</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Limit on the number of deleted vertices Returns a pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</code> named <code>maxDeletedVertices</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1247,7 +1247,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Maximal possible edge length created during decimation Returns a pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</code> named <code>maxEdgeLen</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Maximal possible edge length created during decimation Returns a pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</code> named <code>maxEdgeLen</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1265,7 +1265,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Limit from above on the maximum distance from moved vertices to original contour Returns a pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</code> named <code>maxError</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Limit from above on the maximum distance from moved vertices to original contour Returns a pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</code> named <code>maxError</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1283,7 +1283,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if true then after each edge collapse the position of remaining vertex is optimized to minimize local shape change, if false then the edge is collapsed in one of its vertices, which keeps its position Returns a pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</code> named <code>optimizeVertexPos</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if true then after each edge collapse the position of remaining vertex is optimized to minimize local shape change, if false then the edge is collapsed in one of its vertices, which keeps its position Returns a pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</code> named <code>optimizeVertexPos</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1303,7 +1303,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The user can provide this optional callback that is invoked immediately before edge collapse;. </p>
-<p>It receives the edge being collapsed: its destination vertex will disappear, and its origin vertex will get new position (provided as the second argument) after collapse; If the callback returns false, then the collapse is prohibited Returns a pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</code> named <code>preCollapse</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>It receives the edge being collapsed: its destination vertex will disappear, and its origin vertex will get new position (provided as the second argument) after collapse; If the callback returns false, then the collapse is prohibited Returns a pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</code> named <code>preCollapse</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1321,7 +1321,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Region of the polyline to be decimated, it is updated during the operation Remain nullptr to include the whole polyline Returns a pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</code> named <code>region</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Region of the polyline to be decimated, it is updated during the operation Remain nullptr to include the whole polyline Returns a pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</code> named <code>region</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1339,7 +1339,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Stabilizer is dimensionless coefficient. The larger is stabilizer, the more Decimator will strive to retain the density of input points. If stabilizer is zero, then only the shape of input line will be preserved. Returns a pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</code> named <code>stabilizer</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Stabilizer is dimensionless coefficient. The larger is stabilizer, the more Decimator will strive to retain the density of input points. If stabilizer is zero, then only the shape of input line will be preserved. Returns a pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</code> named <code>stabilizer</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1357,7 +1357,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Whether to allow collapsing edges with at least one vertex on the end of not-closed polyline (or on region boundary if region is given); if touchBdVertices is false then boundary vertices are strictly fixed Returns a pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</code> named <code>touchBdVertices</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Whether to allow collapsing edges with at least one vertex on the end of not-closed polyline (or on region boundary if region is given); if touchBdVertices is false then boundary vertices are strictly fixed Returns a pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</code> named <code>touchBdVertices</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1377,7 +1377,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>If not null, then on input: if the vector is not empty then it is taken for initialization instead of form computation for all vertices; on output: quadratic form for each remaining vertex is returned there. </p>
-<p>Returns a pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</code> named <code>vertForms</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</code> named <code>vertForms</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1397,7 +1397,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The user can provide this optional callback for adjusting error introduced by this edge collapse and the collapse position. </p>
-<p>On input the callback gets the squared error and position computed by standard means, and callback can modify any of them. The larger the error, the later this edge will be collapsed. This callback can be called from many threads in parallel and must be thread-safe. This callback can be called many times for each edge before real collapsing, and it is important to make the same adjustment. Returns a mutable pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</code> named <code>adjustCollapse</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>On input the callback gets the squared error and position computed by standard means, and callback can modify any of them. The larger the error, the later this edge will be collapsed. This callback can be called from many threads in parallel and must be thread-safe. This callback can be called many times for each edge before real collapsing, and it is important to make the same adjustment. Returns a mutable pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</code> named <code>adjustCollapse</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1415,7 +1415,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Limit on the number of deleted vertices Returns a mutable pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</code> named <code>maxDeletedVertices</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Limit on the number of deleted vertices Returns a mutable pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</code> named <code>maxDeletedVertices</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1433,7 +1433,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Maximal possible edge length created during decimation Returns a mutable pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</code> named <code>maxEdgeLen</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Maximal possible edge length created during decimation Returns a mutable pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</code> named <code>maxEdgeLen</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1451,7 +1451,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Limit from above on the maximum distance from moved vertices to original contour Returns a mutable pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</code> named <code>maxError</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Limit from above on the maximum distance from moved vertices to original contour Returns a mutable pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</code> named <code>maxError</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1469,7 +1469,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if true then after each edge collapse the position of remaining vertex is optimized to minimize local shape change, if false then the edge is collapsed in one of its vertices, which keeps its position Returns a mutable pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</code> named <code>optimizeVertexPos</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if true then after each edge collapse the position of remaining vertex is optimized to minimize local shape change, if false then the edge is collapsed in one of its vertices, which keeps its position Returns a mutable pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</code> named <code>optimizeVertexPos</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1489,7 +1489,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The user can provide this optional callback that is invoked immediately before edge collapse;. </p>
-<p>It receives the edge being collapsed: its destination vertex will disappear, and its origin vertex will get new position (provided as the second argument) after collapse; If the callback returns false, then the collapse is prohibited Returns a mutable pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</code> named <code>preCollapse</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>It receives the edge being collapsed: its destination vertex will disappear, and its origin vertex will get new position (provided as the second argument) after collapse; If the callback returns false, then the collapse is prohibited Returns a mutable pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</code> named <code>preCollapse</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1507,7 +1507,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Region of the polyline to be decimated, it is updated during the operation Remain nullptr to include the whole polyline Returns a mutable pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</code> named <code>region</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Region of the polyline to be decimated, it is updated during the operation Remain nullptr to include the whole polyline Returns a mutable pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</code> named <code>region</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1525,7 +1525,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Stabilizer is dimensionless coefficient. The larger is stabilizer, the more Decimator will strive to retain the density of input points. If stabilizer is zero, then only the shape of input line will be preserved. Returns a mutable pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</code> named <code>stabilizer</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Stabilizer is dimensionless coefficient. The larger is stabilizer, the more Decimator will strive to retain the density of input points. If stabilizer is zero, then only the shape of input line will be preserved. Returns a mutable pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</code> named <code>stabilizer</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1543,7 +1543,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Whether to allow collapsing edges with at least one vertex on the end of not-closed polyline (or on region boundary if region is given); if touchBdVertices is false then boundary vertices are strictly fixed Returns a mutable pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</code> named <code>touchBdVertices</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Whether to allow collapsing edges with at least one vertex on the end of not-closed polyline (or on region boundary if region is given); if touchBdVertices is false then boundary vertices are strictly fixed Returns a mutable pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</code> named <code>touchBdVertices</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1563,7 +1563,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>If not null, then on input: if the vector is not empty then it is taken for initialization instead of form computation for all vertices; on output: quadratic form for each remaining vertex is returned there. </p>
-<p>Returns a mutable pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</code> named <code>vertForms</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector2f&gt;</code> named <code>vertForms</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1870,7 +1870,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. Number deleted verts. Same as the number of performed collapses Returns a pointer to a member variable of class <code>MR::DecimatePolylineResult</code> named <code>vertsDeleted</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. Number deleted verts. Same as the number of performed collapses Returns a pointer to a member variable of class <code>MR::DecimatePolylineResult</code> named <code>vertsDeleted</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2058,7 +2058,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The user can provide this optional callback for adjusting error introduced by this edge collapse and the collapse position. </p>
-<p>On input the callback gets the squared error and position computed by standard means, and callback can modify any of them. The larger the error, the later this edge will be collapsed. This callback can be called from many threads in parallel and must be thread-safe. This callback can be called many times for each edge before real collapsing, and it is important to make the same adjustment. Returns a pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</code> named <code>adjustCollapse</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>On input the callback gets the squared error and position computed by standard means, and callback can modify any of them. The larger the error, the later this edge will be collapsed. This callback can be called from many threads in parallel and must be thread-safe. This callback can be called many times for each edge before real collapsing, and it is important to make the same adjustment. Returns a pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</code> named <code>adjustCollapse</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2076,7 +2076,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Limit on the number of deleted vertices Returns a pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</code> named <code>maxDeletedVertices</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Limit on the number of deleted vertices Returns a pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</code> named <code>maxDeletedVertices</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2094,7 +2094,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Maximal possible edge length created during decimation Returns a pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</code> named <code>maxEdgeLen</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Maximal possible edge length created during decimation Returns a pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</code> named <code>maxEdgeLen</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2112,7 +2112,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Limit from above on the maximum distance from moved vertices to original contour Returns a pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</code> named <code>maxError</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Limit from above on the maximum distance from moved vertices to original contour Returns a pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</code> named <code>maxError</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2130,7 +2130,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if true then after each edge collapse the position of remaining vertex is optimized to minimize local shape change, if false then the edge is collapsed in one of its vertices, which keeps its position Returns a pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</code> named <code>optimizeVertexPos</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if true then after each edge collapse the position of remaining vertex is optimized to minimize local shape change, if false then the edge is collapsed in one of its vertices, which keeps its position Returns a pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</code> named <code>optimizeVertexPos</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2150,7 +2150,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The user can provide this optional callback that is invoked immediately before edge collapse;. </p>
-<p>It receives the edge being collapsed: its destination vertex will disappear, and its origin vertex will get new position (provided as the second argument) after collapse; If the callback returns false, then the collapse is prohibited Returns a pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</code> named <code>preCollapse</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>It receives the edge being collapsed: its destination vertex will disappear, and its origin vertex will get new position (provided as the second argument) after collapse; If the callback returns false, then the collapse is prohibited Returns a pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</code> named <code>preCollapse</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2168,7 +2168,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Region of the polyline to be decimated, it is updated during the operation Remain nullptr to include the whole polyline Returns a pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</code> named <code>region</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Region of the polyline to be decimated, it is updated during the operation Remain nullptr to include the whole polyline Returns a pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</code> named <code>region</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2186,7 +2186,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Stabilizer is dimensionless coefficient. The larger is stabilizer, the more Decimator will strive to retain the density of input points. If stabilizer is zero, then only the shape of input line will be preserved. Returns a pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</code> named <code>stabilizer</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Stabilizer is dimensionless coefficient. The larger is stabilizer, the more Decimator will strive to retain the density of input points. If stabilizer is zero, then only the shape of input line will be preserved. Returns a pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</code> named <code>stabilizer</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2204,7 +2204,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Whether to allow collapsing edges with at least one vertex on the end of not-closed polyline (or on region boundary if region is given); if touchBdVertices is false then boundary vertices are strictly fixed Returns a pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</code> named <code>touchBdVertices</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Whether to allow collapsing edges with at least one vertex on the end of not-closed polyline (or on region boundary if region is given); if touchBdVertices is false then boundary vertices are strictly fixed Returns a pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</code> named <code>touchBdVertices</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2224,7 +2224,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>If not null, then on input: if the vector is not empty then it is taken for initialization instead of form computation for all vertices; on output: quadratic form for each remaining vertex is returned there. </p>
-<p>Returns a pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</code> named <code>vertForms</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</code> named <code>vertForms</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2244,7 +2244,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The user can provide this optional callback for adjusting error introduced by this edge collapse and the collapse position. </p>
-<p>On input the callback gets the squared error and position computed by standard means, and callback can modify any of them. The larger the error, the later this edge will be collapsed. This callback can be called from many threads in parallel and must be thread-safe. This callback can be called many times for each edge before real collapsing, and it is important to make the same adjustment. Returns a mutable pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</code> named <code>adjustCollapse</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>On input the callback gets the squared error and position computed by standard means, and callback can modify any of them. The larger the error, the later this edge will be collapsed. This callback can be called from many threads in parallel and must be thread-safe. This callback can be called many times for each edge before real collapsing, and it is important to make the same adjustment. Returns a mutable pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</code> named <code>adjustCollapse</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2262,7 +2262,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Limit on the number of deleted vertices Returns a mutable pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</code> named <code>maxDeletedVertices</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Limit on the number of deleted vertices Returns a mutable pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</code> named <code>maxDeletedVertices</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2280,7 +2280,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Maximal possible edge length created during decimation Returns a mutable pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</code> named <code>maxEdgeLen</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Maximal possible edge length created during decimation Returns a mutable pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</code> named <code>maxEdgeLen</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2298,7 +2298,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Limit from above on the maximum distance from moved vertices to original contour Returns a mutable pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</code> named <code>maxError</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Limit from above on the maximum distance from moved vertices to original contour Returns a mutable pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</code> named <code>maxError</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2316,7 +2316,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if true then after each edge collapse the position of remaining vertex is optimized to minimize local shape change, if false then the edge is collapsed in one of its vertices, which keeps its position Returns a mutable pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</code> named <code>optimizeVertexPos</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if true then after each edge collapse the position of remaining vertex is optimized to minimize local shape change, if false then the edge is collapsed in one of its vertices, which keeps its position Returns a mutable pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</code> named <code>optimizeVertexPos</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2336,7 +2336,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The user can provide this optional callback that is invoked immediately before edge collapse;. </p>
-<p>It receives the edge being collapsed: its destination vertex will disappear, and its origin vertex will get new position (provided as the second argument) after collapse; If the callback returns false, then the collapse is prohibited Returns a mutable pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</code> named <code>preCollapse</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>It receives the edge being collapsed: its destination vertex will disappear, and its origin vertex will get new position (provided as the second argument) after collapse; If the callback returns false, then the collapse is prohibited Returns a mutable pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</code> named <code>preCollapse</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2354,7 +2354,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Region of the polyline to be decimated, it is updated during the operation Remain nullptr to include the whole polyline Returns a mutable pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</code> named <code>region</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Region of the polyline to be decimated, it is updated during the operation Remain nullptr to include the whole polyline Returns a mutable pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</code> named <code>region</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2372,7 +2372,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Stabilizer is dimensionless coefficient. The larger is stabilizer, the more Decimator will strive to retain the density of input points. If stabilizer is zero, then only the shape of input line will be preserved. Returns a mutable pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</code> named <code>stabilizer</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Stabilizer is dimensionless coefficient. The larger is stabilizer, the more Decimator will strive to retain the density of input points. If stabilizer is zero, then only the shape of input line will be preserved. Returns a mutable pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</code> named <code>stabilizer</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2390,7 +2390,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Whether to allow collapsing edges with at least one vertex on the end of not-closed polyline (or on region boundary if region is given); if touchBdVertices is false then boundary vertices are strictly fixed Returns a mutable pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</code> named <code>touchBdVertices</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Whether to allow collapsing edges with at least one vertex on the end of not-closed polyline (or on region boundary if region is given); if touchBdVertices is false then boundary vertices are strictly fixed Returns a mutable pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</code> named <code>touchBdVertices</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2410,7 +2410,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>If not null, then on input: if the vector is not empty then it is taken for initialization instead of form computation for all vertices; on output: quadratic form for each remaining vertex is returned there. </p>
-<p>Returns a mutable pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</code> named <code>vertForms</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;</code> named <code>vertForms</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>

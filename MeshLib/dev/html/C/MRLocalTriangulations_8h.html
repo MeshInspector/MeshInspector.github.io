@@ -267,7 +267,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ada13e4b258c2a90afff5a7686458dddf" id="r_ada13e4b258c2a90afff5a7686458dddf"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#af107f676713b508200b63fe3433068fe">MR_FanRecord</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada13e4b258c2a90afff5a7686458dddf">MR_FanRecordWithCenter_UpcastTo_MR_FanRecord</a> (const <a class="el" href="#a6470bbf7955a538b98d6e87dcead239b">MR_FanRecordWithCenter</a> *object)</td></tr>
 <tr class="separator:ada13e4b258c2a90afff5a7686458dddf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a126fce78215b931a6efaa5b03a463d3e" id="r_a126fce78215b931a6efaa5b03a463d3e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#af107f676713b508200b63fe3433068fe">MR_FanRecord</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a126fce78215b931a6efaa5b03a463d3e">MR_FanRecordWithCenter_MutableUpcastTo_MR_FanRecord</a> (<a class="el" href="#a6470bbf7955a538b98d6e87dcead239b">MR_FanRecordWithCenter</a> *object)</td></tr>
-<tr class="memdesc:a126fce78215b931a6efaa5b03a463d3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code>MR::FanRecordWithCenter</code> to its base class <code>MR::FanRecord</code>.  <br /></td></tr>
 <tr class="separator:a126fce78215b931a6efaa5b03a463d3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9594b7deb3736ed0720424338e41ef84" id="r_a9594b7deb3736ed0720424338e41ef84"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a6470bbf7955a538b98d6e87dcead239b">MR_FanRecordWithCenter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9594b7deb3736ed0720424338e41ef84">MR_FanRecordWithCenter_ConstructFromAnother</a> (const <a class="el" href="#a6470bbf7955a538b98d6e87dcead239b">MR_FanRecordWithCenter</a> *_other)</td></tr>
 <tr class="separator:a9594b7deb3736ed0720424338e41ef84"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -797,7 +796,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::AllLocalTriangulations</code> named <code>fanRecords</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::AllLocalTriangulations</code> named <code>fanRecords</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -815,7 +814,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::AllLocalTriangulations</code> named <code>neighbors</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::AllLocalTriangulations</code> named <code>neighbors</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -833,7 +832,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::AllLocalTriangulations</code> named <code>fanRecords</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::AllLocalTriangulations</code> named <code>fanRecords</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -851,7 +850,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::AllLocalTriangulations</code> named <code>neighbors</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::AllLocalTriangulations</code> named <code>neighbors</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1200,7 +1199,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>first border edge (invalid if the center point is not on the boundary); triangle associated with this point is absent Returns a pointer to a member variable of class <code>MR::FanRecord</code> named <code>border</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>first border edge (invalid if the center point is not on the boundary); triangle associated with this point is absent Returns a pointer to a member variable of class <code>MR::FanRecord</code> named <code>border</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1218,7 +1217,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the position of first neigbor in LocalTriangulations::neighbours Returns a pointer to a member variable of class <code>MR::FanRecord</code> named <code>firstNei</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the position of first neigbor in LocalTriangulations::neighbours Returns a pointer to a member variable of class <code>MR::FanRecord</code> named <code>firstNei</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1236,7 +1235,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>first border edge (invalid if the center point is not on the boundary); triangle associated with this point is absent Returns a mutable pointer to a member variable of class <code>MR::FanRecord</code> named <code>border</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>first border edge (invalid if the center point is not on the boundary); triangle associated with this point is absent Returns a mutable pointer to a member variable of class <code>MR::FanRecord</code> named <code>border</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1254,7 +1253,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the position of first neigbor in LocalTriangulations::neighbours Returns a mutable pointer to a member variable of class <code>MR::FanRecord</code> named <code>firstNei</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the position of first neigbor in LocalTriangulations::neighbours Returns a mutable pointer to a member variable of class <code>MR::FanRecord</code> named <code>firstNei</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1272,7 +1271,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code>MR::FanRecord</code> to a derived class <code>MR::FanRecordWithCenter</code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. </p>
+<p>Downcasts an instance of <code>MR::FanRecord</code> to a derived class <code>MR::FanRecordWithCenter</code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <code>object</code> might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -1378,7 +1377,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code>MR::FanRecord</code> to a derived class <code>MR::FanRecordWithCenter</code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. </p>
+<p>Downcasts an instance of <code>MR::FanRecord</code> to a derived class <code>MR::FanRecordWithCenter</code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <code>object</code> might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -1537,7 +1536,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>first border edge (invalid if the center point is not on the boundary); triangle associated with this point is absent Returns a pointer to a member variable of class <code>MR::FanRecordWithCenter</code> named <code>border</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>first border edge (invalid if the center point is not on the boundary); triangle associated with this point is absent Returns a pointer to a member variable of class <code>MR::FanRecordWithCenter</code> named <code>border</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1555,7 +1554,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>center point in the fan Returns a pointer to a member variable of class <code>MR::FanRecordWithCenter</code> named <code>center</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>center point in the fan Returns a pointer to a member variable of class <code>MR::FanRecordWithCenter</code> named <code>center</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1573,7 +1572,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the position of first neigbor in LocalTriangulations::neighbours Returns a pointer to a member variable of class <code>MR::FanRecordWithCenter</code> named <code>firstNei</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the position of first neigbor in LocalTriangulations::neighbours Returns a pointer to a member variable of class <code>MR::FanRecordWithCenter</code> named <code>firstNei</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1591,7 +1590,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>first border edge (invalid if the center point is not on the boundary); triangle associated with this point is absent Returns a mutable pointer to a member variable of class <code>MR::FanRecordWithCenter</code> named <code>border</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>first border edge (invalid if the center point is not on the boundary); triangle associated with this point is absent Returns a mutable pointer to a member variable of class <code>MR::FanRecordWithCenter</code> named <code>border</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1609,7 +1608,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>center point in the fan Returns a mutable pointer to a member variable of class <code>MR::FanRecordWithCenter</code> named <code>center</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>center point in the fan Returns a mutable pointer to a member variable of class <code>MR::FanRecordWithCenter</code> named <code>center</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1627,7 +1626,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the position of first neigbor in LocalTriangulations::neighbours Returns a mutable pointer to a member variable of class <code>MR::FanRecordWithCenter</code> named <code>firstNei</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the position of first neigbor in LocalTriangulations::neighbours Returns a mutable pointer to a member variable of class <code>MR::FanRecordWithCenter</code> named <code>firstNei</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1645,8 +1644,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Upcasts an instance of <code>MR::FanRecordWithCenter</code> to its base class <code>MR::FanRecord</code>. </p>
+<p>Upcasts an instance of <code>MR::FanRecordWithCenter</code> to its base class <code>MR::FanRecord</code>. The reference to the parameter <code>object</code> might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -1774,7 +1772,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Upcasts an instance of <code>MR::FanRecordWithCenter</code> to its base class <code>MR::FanRecord</code>. This version is acting on mutable pointers. </p>
+<p>Upcasts an instance of <code>MR::FanRecordWithCenter</code> to its base class <code>MR::FanRecord</code>. This version is acting on mutable pointers. The reference to the parameter <code>object</code> might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -2092,7 +2090,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::SomeLocalTriangulations</code> named <code>fanRecords</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::SomeLocalTriangulations</code> named <code>fanRecords</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2110,7 +2108,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::SomeLocalTriangulations</code> named <code>maxCenterId</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::SomeLocalTriangulations</code> named <code>maxCenterId</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2128,7 +2126,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::SomeLocalTriangulations</code> named <code>neighbors</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::SomeLocalTriangulations</code> named <code>neighbors</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2146,7 +2144,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::SomeLocalTriangulations</code> named <code>fanRecords</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::SomeLocalTriangulations</code> named <code>fanRecords</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2164,7 +2162,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::SomeLocalTriangulations</code> named <code>maxCenterId</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::SomeLocalTriangulations</code> named <code>maxCenterId</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2182,7 +2180,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::SomeLocalTriangulations</code> named <code>neighbors</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::SomeLocalTriangulations</code> named <code>neighbors</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>

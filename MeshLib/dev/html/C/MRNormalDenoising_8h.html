@@ -627,7 +627,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>0.001 - sharp edges, 0.01 - moderate edges, 0.1 - smooth edges Returns a pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>beta</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>0.001 - sharp edges, 0.01 - moderate edges, 0.1 - smooth edges Returns a pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>beta</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -645,7 +645,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>to get the progress and optionally cancel Returns a pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>cb</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>to get the progress and optionally cancel Returns a pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>cb</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -663,7 +663,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>use approximated computation, which is much faster than precise solution Returns a pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>fastIndicatorComputation</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>use approximated computation, which is much faster than precise solution Returns a pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>fastIndicatorComputation</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -681,7 +681,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the amount of smoothing: 0 - no smoothing, 1 - average smoothing, ... Returns a pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>gamma</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the amount of smoothing: 0 - no smoothing, 1 - average smoothing, ... Returns a pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>gamma</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -699,7 +699,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>how much resulting points must be attracted to initial points (e.g. to avoid general shrinkage), must be &gt; 0 Returns a pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>guideWeight</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>how much resulting points must be attracted to initial points (e.g. to avoid general shrinkage), must be &gt; 0 Returns a pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>guideWeight</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -717,7 +717,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if true then maximal displacement of each point during denoising will be limited Returns a pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>limitNearInitial</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if true then maximal displacement of each point during denoising will be limited Returns a pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>limitNearInitial</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -735,7 +735,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximum distance between a point and its position before relaxation, ignored if limitNearInitial = false Returns a pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>maxInitialDist</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>maximum distance between a point and its position before relaxation, ignored if limitNearInitial = false Returns a pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>maxInitialDist</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -753,7 +753,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the number of iterations to smooth normals and find creases; the more the better quality, but longer computation Returns a pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>normalIters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the number of iterations to smooth normals and find creases; the more the better quality, but longer computation Returns a pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>normalIters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -771,7 +771,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optionally returns creases found during smoothing Returns a pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>outCreases</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>optionally returns creases found during smoothing Returns a pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>outCreases</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -789,7 +789,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the number of iterations to update vertex coordinates from found normals; the more the better quality, but longer computation Returns a pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>pointIters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the number of iterations to update vertex coordinates from found normals; the more the better quality, but longer computation Returns a pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>pointIters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -807,7 +807,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>0.001 - sharp edges, 0.01 - moderate edges, 0.1 - smooth edges Returns a mutable pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>beta</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>0.001 - sharp edges, 0.01 - moderate edges, 0.1 - smooth edges Returns a mutable pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>beta</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -825,7 +825,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>to get the progress and optionally cancel Returns a mutable pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>cb</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>to get the progress and optionally cancel Returns a mutable pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>cb</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -843,7 +843,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>use approximated computation, which is much faster than precise solution Returns a mutable pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>fastIndicatorComputation</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>use approximated computation, which is much faster than precise solution Returns a mutable pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>fastIndicatorComputation</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -861,7 +861,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the amount of smoothing: 0 - no smoothing, 1 - average smoothing, ... Returns a mutable pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>gamma</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the amount of smoothing: 0 - no smoothing, 1 - average smoothing, ... Returns a mutable pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>gamma</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -879,7 +879,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>how much resulting points must be attracted to initial points (e.g. to avoid general shrinkage), must be &gt; 0 Returns a mutable pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>guideWeight</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>how much resulting points must be attracted to initial points (e.g. to avoid general shrinkage), must be &gt; 0 Returns a mutable pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>guideWeight</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -897,7 +897,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if true then maximal displacement of each point during denoising will be limited Returns a mutable pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>limitNearInitial</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if true then maximal displacement of each point during denoising will be limited Returns a mutable pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>limitNearInitial</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -915,7 +915,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximum distance between a point and its position before relaxation, ignored if limitNearInitial = false Returns a mutable pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>maxInitialDist</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>maximum distance between a point and its position before relaxation, ignored if limitNearInitial = false Returns a mutable pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>maxInitialDist</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -933,7 +933,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the number of iterations to smooth normals and find creases; the more the better quality, but longer computation Returns a mutable pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>normalIters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the number of iterations to smooth normals and find creases; the more the better quality, but longer computation Returns a mutable pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>normalIters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -951,7 +951,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optionally returns creases found during smoothing Returns a mutable pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>outCreases</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>optionally returns creases found during smoothing Returns a mutable pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>outCreases</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -969,7 +969,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the number of iterations to update vertex coordinates from found normals; the more the better quality, but longer computation Returns a mutable pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>pointIters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the number of iterations to update vertex coordinates from found normals; the more the better quality, but longer computation Returns a mutable pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>pointIters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>

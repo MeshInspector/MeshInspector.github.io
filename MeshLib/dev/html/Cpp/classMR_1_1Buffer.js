@@ -11,13 +11,13 @@ var classMR_1_1Buffer =
     [ "beginId", "classMR_1_1Buffer.html#a6fa2be8099e8b9ba78c8a4ca991103be", null ],
     [ "capacity", "classMR_1_1Buffer.html#af6b75ad9972a297c57f5ac949f0062ef", null ],
     [ "clear", "classMR_1_1Buffer.html#a2f01b559e5cafefd57bef4c73f59b669", null ],
-    [ "data", "classMR_1_1Buffer.html#a41da905f71d8b9c53aa517dae7af261a", null ],
-    [ "data", "classMR_1_1Buffer.html#a68a63a004e6c105cbf0daf5ec4b1ec96", null ],
+    [ "data", "classMR_1_1Buffer.html#a85588234942220c37b208e5c064486b3", null ],
+    [ "data", "classMR_1_1Buffer.html#a79d249b54f548c80301087afb680c68c", null ],
     [ "empty", "classMR_1_1Buffer.html#a639284e16d0d26e25ac330e5e04651ca", null ],
     [ "endId", "classMR_1_1Buffer.html#abfa0b936734c36dff600039214adb66f", null ],
     [ "heapBytes", "classMR_1_1Buffer.html#a7351432c6f65b963c17560ef8054076c", null ],
-    [ "operator[]", "classMR_1_1Buffer.html#ac20d3e206804590699b1e944ebe0bb1d", null ],
-    [ "operator[]", "classMR_1_1Buffer.html#a9db6d53dd2501eb585f56eb189af4340", null ],
+    [ "operator[]", "classMR_1_1Buffer.html#a66aeaf02d13592c3ada67644f64737d9", null ],
+    [ "operator[]", "classMR_1_1Buffer.html#af470e40945b997fc7f6e66ab968a9d48", null ],
     [ "resize", "classMR_1_1Buffer.html#ab1bc4a40918912e001d6da1bf1595d36", null ],
     [ "size", "classMR_1_1Buffer.html#a40bf924b784b4438431f70517b950d70", null ]
 ];

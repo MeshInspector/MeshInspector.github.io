@@ -1037,7 +1037,7 @@ If meshes are not closed in intersecting zone some boolean operations are not al
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::BooleanParameters</code> named <code>cb</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::BooleanParameters</code> named <code>cb</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1055,7 +1055,7 @@ If meshes are not closed in intersecting zone some boolean operations are not al
         </tr>
       </table>
 </div><div class="memdoc">
-<p>If this option is enabled boolean will try to cut meshes even if there are self-intersections in intersecting area it might work in some cases, but in general it might prevent fast error report and lead to other errors along the way </p><dl class="section warning"><dt>Warning</dt><dd>not recommended in most cases Returns a pointer to a member variable of class <code>MR::BooleanParameters</code> named <code>forceCut</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </dd></dl>
+<p>If this option is enabled boolean will try to cut meshes even if there are self-intersections in intersecting area it might work in some cases, but in general it might prevent fast error report and lead to other errors along the way </p><dl class="section warning"><dt>Warning</dt><dd>not recommended in most cases Returns a pointer to a member variable of class <code>MR::BooleanParameters</code> named <code>forceCut</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </dd></dl>
 
 </div>
 </div>
@@ -1073,7 +1073,7 @@ If meshes are not closed in intersecting zone some boolean operations are not al
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Optional output structure to map mesh <code>A</code> and mesh <code>B</code> topology to result mesh topology Returns a pointer to a member variable of class <code>MR::BooleanParameters</code> named <code>mapper</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Optional output structure to map mesh <code>A</code> and mesh <code>B</code> topology to result mesh topology Returns a pointer to a member variable of class <code>MR::BooleanParameters</code> named <code>mapper</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1091,7 +1091,7 @@ If meshes are not closed in intersecting zone some boolean operations are not al
         </tr>
       </table>
 </div><div class="memdoc">
-<p>By default produce valid operation on disconnected components if set merge all non-intersecting components Returns a pointer to a member variable of class <code>MR::BooleanParameters</code> named <code>mergeAllNonIntersectingComponents</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>By default produce valid operation on disconnected components if set merge all non-intersecting components Returns a pointer to a member variable of class <code>MR::BooleanParameters</code> named <code>mergeAllNonIntersectingComponents</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1109,7 +1109,7 @@ If meshes are not closed in intersecting zone some boolean operations are not al
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Optional output cut edges of booleaned meshes Returns a pointer to a member variable of class <code>MR::BooleanParameters</code> named <code>outCutEdges</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Optional output cut edges of booleaned meshes Returns a pointer to a member variable of class <code>MR::BooleanParameters</code> named <code>outCutEdges</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1127,7 +1127,7 @@ If meshes are not closed in intersecting zone some boolean operations are not al
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Optional precut output of meshA, if present - does not perform boolean and just return them Returns a pointer to a member variable of class <code>MR::BooleanParameters</code> named <code>outPreCutA</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Optional precut output of meshA, if present - does not perform boolean and just return them Returns a pointer to a member variable of class <code>MR::BooleanParameters</code> named <code>outPreCutA</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1145,7 +1145,7 @@ If meshes are not closed in intersecting zone some boolean operations are not al
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Optional precut output of meshB, if present - does not perform boolean and just return them Returns a pointer to a member variable of class <code>MR::BooleanParameters</code> named <code>outPreCutB</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Optional precut output of meshB, if present - does not perform boolean and just return them Returns a pointer to a member variable of class <code>MR::BooleanParameters</code> named <code>outPreCutB</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1163,7 +1163,7 @@ If meshes are not closed in intersecting zone some boolean operations are not al
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Transform from mesh <code>B</code> space to mesh <code>A</code> space Returns a pointer to a member variable of class <code>MR::BooleanParameters</code> named <code>rigidB2A</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Transform from mesh <code>B</code> space to mesh <code>A</code> space Returns a pointer to a member variable of class <code>MR::BooleanParameters</code> named <code>rigidB2A</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1181,7 +1181,7 @@ If meshes are not closed in intersecting zone some boolean operations are not al
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::BooleanParameters</code> named <code>cb</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::BooleanParameters</code> named <code>cb</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1199,7 +1199,7 @@ If meshes are not closed in intersecting zone some boolean operations are not al
         </tr>
       </table>
 </div><div class="memdoc">
-<p>If this option is enabled boolean will try to cut meshes even if there are self-intersections in intersecting area it might work in some cases, but in general it might prevent fast error report and lead to other errors along the way </p><dl class="section warning"><dt>Warning</dt><dd>not recommended in most cases Returns a mutable pointer to a member variable of class <code>MR::BooleanParameters</code> named <code>forceCut</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </dd></dl>
+<p>If this option is enabled boolean will try to cut meshes even if there are self-intersections in intersecting area it might work in some cases, but in general it might prevent fast error report and lead to other errors along the way </p><dl class="section warning"><dt>Warning</dt><dd>not recommended in most cases Returns a mutable pointer to a member variable of class <code>MR::BooleanParameters</code> named <code>forceCut</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </dd></dl>
 
 </div>
 </div>
@@ -1217,7 +1217,7 @@ If meshes are not closed in intersecting zone some boolean operations are not al
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Optional output structure to map mesh <code>A</code> and mesh <code>B</code> topology to result mesh topology Returns a mutable pointer to a member variable of class <code>MR::BooleanParameters</code> named <code>mapper</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Optional output structure to map mesh <code>A</code> and mesh <code>B</code> topology to result mesh topology Returns a mutable pointer to a member variable of class <code>MR::BooleanParameters</code> named <code>mapper</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1235,7 +1235,7 @@ If meshes are not closed in intersecting zone some boolean operations are not al
         </tr>
       </table>
 </div><div class="memdoc">
-<p>By default produce valid operation on disconnected components if set merge all non-intersecting components Returns a mutable pointer to a member variable of class <code>MR::BooleanParameters</code> named <code>mergeAllNonIntersectingComponents</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>By default produce valid operation on disconnected components if set merge all non-intersecting components Returns a mutable pointer to a member variable of class <code>MR::BooleanParameters</code> named <code>mergeAllNonIntersectingComponents</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1253,7 +1253,7 @@ If meshes are not closed in intersecting zone some boolean operations are not al
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Optional output cut edges of booleaned meshes Returns a mutable pointer to a member variable of class <code>MR::BooleanParameters</code> named <code>outCutEdges</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Optional output cut edges of booleaned meshes Returns a mutable pointer to a member variable of class <code>MR::BooleanParameters</code> named <code>outCutEdges</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1271,7 +1271,7 @@ If meshes are not closed in intersecting zone some boolean operations are not al
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Optional precut output of meshA, if present - does not perform boolean and just return them Returns a mutable pointer to a member variable of class <code>MR::BooleanParameters</code> named <code>outPreCutA</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Optional precut output of meshA, if present - does not perform boolean and just return them Returns a mutable pointer to a member variable of class <code>MR::BooleanParameters</code> named <code>outPreCutA</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1289,7 +1289,7 @@ If meshes are not closed in intersecting zone some boolean operations are not al
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Optional precut output of meshB, if present - does not perform boolean and just return them Returns a mutable pointer to a member variable of class <code>MR::BooleanParameters</code> named <code>outPreCutB</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Optional precut output of meshB, if present - does not perform boolean and just return them Returns a mutable pointer to a member variable of class <code>MR::BooleanParameters</code> named <code>outPreCutB</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1307,7 +1307,7 @@ If meshes are not closed in intersecting zone some boolean operations are not al
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Transform from mesh <code>B</code> space to mesh <code>A</code> space Returns a mutable pointer to a member variable of class <code>MR::BooleanParameters</code> named <code>rigidB2A</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Transform from mesh <code>B</code> space to mesh <code>A</code> space Returns a mutable pointer to a member variable of class <code>MR::BooleanParameters</code> named <code>rigidB2A</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1705,7 +1705,7 @@ If meshes are not closed in intersecting zone some boolean operations are not al
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::BooleanPreCutResult</code> named <code>contours</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::BooleanPreCutResult</code> named <code>contours</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1723,7 +1723,7 @@ If meshes are not closed in intersecting zone some boolean operations are not al
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::BooleanPreCutResult</code> named <code>mesh</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::BooleanPreCutResult</code> named <code>mesh</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1741,7 +1741,7 @@ If meshes are not closed in intersecting zone some boolean operations are not al
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::BooleanPreCutResult</code> named <code>contours</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::BooleanPreCutResult</code> named <code>contours</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1759,7 +1759,7 @@ If meshes are not closed in intersecting zone some boolean operations are not al
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::BooleanPreCutResult</code> named <code>mesh</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::BooleanPreCutResult</code> named <code>mesh</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2104,7 +2104,7 @@ If meshes are not closed in intersecting zone some boolean operations are not al
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Holds error message, empty if boolean succeed Returns a pointer to a member variable of class <code>MR::BooleanResult</code> named <code>errorString</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Holds error message, empty if boolean succeed Returns a pointer to a member variable of class <code>MR::BooleanResult</code> named <code>errorString</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2122,7 +2122,7 @@ If meshes are not closed in intersecting zone some boolean operations are not al
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Result mesh of boolean operation, if error occurred it would be empty Returns a pointer to a member variable of class <code>MR::BooleanResult</code> named <code>mesh</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Result mesh of boolean operation, if error occurred it would be empty Returns a pointer to a member variable of class <code>MR::BooleanResult</code> named <code>mesh</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2140,7 +2140,7 @@ If meshes are not closed in intersecting zone some boolean operations are not al
         </tr>
       </table>
 </div><div class="memdoc">
-<p>If input contours have intersections, this face bit set presents faces of mesh <code>A</code> on which contours intersect Returns a pointer to a member variable of class <code>MR::BooleanResult</code> named <code>meshABadContourFaces</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>If input contours have intersections, this face bit set presents faces of mesh <code>A</code> on which contours intersect Returns a pointer to a member variable of class <code>MR::BooleanResult</code> named <code>meshABadContourFaces</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2158,7 +2158,7 @@ If meshes are not closed in intersecting zone some boolean operations are not al
         </tr>
       </table>
 </div><div class="memdoc">
-<p>If input contours have intersections, this face bit set presents faces of mesh <code>B</code> on which contours intersect Returns a pointer to a member variable of class <code>MR::BooleanResult</code> named <code>meshBBadContourFaces</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>If input contours have intersections, this face bit set presents faces of mesh <code>B</code> on which contours intersect Returns a pointer to a member variable of class <code>MR::BooleanResult</code> named <code>meshBBadContourFaces</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2176,7 +2176,7 @@ If meshes are not closed in intersecting zone some boolean operations are not al
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Holds error message, empty if boolean succeed Returns a mutable pointer to a member variable of class <code>MR::BooleanResult</code> named <code>errorString</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Holds error message, empty if boolean succeed Returns a mutable pointer to a member variable of class <code>MR::BooleanResult</code> named <code>errorString</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2194,7 +2194,7 @@ If meshes are not closed in intersecting zone some boolean operations are not al
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Result mesh of boolean operation, if error occurred it would be empty Returns a mutable pointer to a member variable of class <code>MR::BooleanResult</code> named <code>mesh</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Result mesh of boolean operation, if error occurred it would be empty Returns a mutable pointer to a member variable of class <code>MR::BooleanResult</code> named <code>mesh</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2212,7 +2212,7 @@ If meshes are not closed in intersecting zone some boolean operations are not al
         </tr>
       </table>
 </div><div class="memdoc">
-<p>If input contours have intersections, this face bit set presents faces of mesh <code>A</code> on which contours intersect Returns a mutable pointer to a member variable of class <code>MR::BooleanResult</code> named <code>meshABadContourFaces</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>If input contours have intersections, this face bit set presents faces of mesh <code>A</code> on which contours intersect Returns a mutable pointer to a member variable of class <code>MR::BooleanResult</code> named <code>meshABadContourFaces</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2230,7 +2230,7 @@ If meshes are not closed in intersecting zone some boolean operations are not al
         </tr>
       </table>
 </div><div class="memdoc">
-<p>If input contours have intersections, this face bit set presents faces of mesh <code>B</code> on which contours intersect Returns a mutable pointer to a member variable of class <code>MR::BooleanResult</code> named <code>meshBBadContourFaces</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>If input contours have intersections, this face bit set presents faces of mesh <code>B</code> on which contours intersect Returns a mutable pointer to a member variable of class <code>MR::BooleanResult</code> named <code>meshBBadContourFaces</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2583,7 +2583,7 @@ If meshes are not closed in intersecting zone some boolean operations are not al
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::BooleanResultPoints</code> named <code>intersectionPoints</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::BooleanResultPoints</code> named <code>intersectionPoints</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2601,7 +2601,7 @@ If meshes are not closed in intersecting zone some boolean operations are not al
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::BooleanResultPoints</code> named <code>meshAVerts</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::BooleanResultPoints</code> named <code>meshAVerts</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2619,7 +2619,7 @@ If meshes are not closed in intersecting zone some boolean operations are not al
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::BooleanResultPoints</code> named <code>meshBVerts</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::BooleanResultPoints</code> named <code>meshBVerts</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2637,7 +2637,7 @@ If meshes are not closed in intersecting zone some boolean operations are not al
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::BooleanResultPoints</code> named <code>intersectionPoints</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::BooleanResultPoints</code> named <code>intersectionPoints</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2655,7 +2655,7 @@ If meshes are not closed in intersecting zone some boolean operations are not al
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::BooleanResultPoints</code> named <code>meshAVerts</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::BooleanResultPoints</code> named <code>meshAVerts</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2673,7 +2673,7 @@ If meshes are not closed in intersecting zone some boolean operations are not al
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::BooleanResultPoints</code> named <code>meshBVerts</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::BooleanResultPoints</code> named <code>meshBVerts</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2838,7 +2838,7 @@ If meshes are not closed in intersecting zone some boolean operations are not al
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::BooleanResult::operator*</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::BooleanResult::operator*</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -2856,7 +2856,7 @@ If meshes are not closed in intersecting zone some boolean operations are not al
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::BooleanResult::operator*</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from method <code>MR::BooleanResult::operator*</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved in the return value. </p>
 
 </div>
 </div>

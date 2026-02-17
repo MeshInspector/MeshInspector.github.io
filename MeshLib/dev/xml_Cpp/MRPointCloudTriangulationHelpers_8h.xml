@@ -16,6 +16,8 @@
       <node id="21">
         <label>MRBuffer.h</label>
         <link refid="MRBuffer_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
         <childnode refid="22" relation="include">
         </childnode>
         <childnode refid="16" relation="include">
@@ -29,10 +31,10 @@
         <childnode refid="18" relation="include">
         </childnode>
       </node>
-      <node id="6">
+      <node id="7">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
         <link refid="MRCanonicalTypedefs_8h"/>
-        <childnode refid="7" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
       </node>
       <node id="20">
@@ -42,7 +44,7 @@
       <node id="25">
         <label>MRExpected.h</label>
         <link refid="MRExpected_8h"/>
-        <childnode refid="4" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="2" relation="include">
         </childnode>
@@ -54,7 +56,7 @@
       <node id="29">
         <label>MRFewSmallest.h</label>
         <link refid="MRFewSmallest_8h"/>
-        <childnode refid="4" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="30" relation="include">
         </childnode>
@@ -66,9 +68,9 @@
       <node id="16">
         <label>MRId.h</label>
         <link refid="MRId_8h"/>
-        <childnode refid="4" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
@@ -79,16 +81,16 @@
         <childnode refid="19" relation="include">
         </childnode>
       </node>
-      <node id="7">
-        <label>MRMesh/MRMacros.h</label>
+      <node id="4">
+        <label>MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
-      <node id="4">
+      <node id="5">
         <label>MRMeshFwd.h</label>
         <link refid="MRMeshFwd_8h"/>
-        <childnode refid="5" relation="include">
-        </childnode>
         <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="2" relation="include">
         </childnode>
@@ -108,13 +110,13 @@
       <node id="22">
         <label>MRNoDefInit.h</label>
         <link refid="MRNoDefInit_8h"/>
-        <childnode refid="4" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="27">
         <label>MRPointCloudPart.h</label>
         <link refid="MRPointCloudPart_8h"/>
-        <childnode refid="4" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -144,7 +146,7 @@
       <node id="24">
         <label>MRPointsProject.h</label>
         <link refid="MRPointsProject_8h"/>
-        <childnode refid="4" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="25" relation="include">
         </childnode>
@@ -158,9 +160,9 @@
       <node id="14">
         <label>MRResizeNoInit.h</label>
         <link refid="MRResizeNoInit_8h"/>
-        <childnode refid="4" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
@@ -170,6 +172,8 @@
         <link refid="MRVector_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
         <childnode refid="14" relation="include">
         </childnode>
         <childnode refid="2" relation="include">
@@ -177,7 +181,7 @@
         <childnode refid="13" relation="include">
         </childnode>
       </node>
-      <node id="5">
+      <node id="6">
         <label>config.h</label>
         <link refid="MRMesh_2config_8h"/>
       </node>

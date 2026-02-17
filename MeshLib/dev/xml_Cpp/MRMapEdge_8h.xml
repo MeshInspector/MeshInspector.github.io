@@ -8,6 +8,8 @@
       <node id="19">
         <label>MRBuffer.h</label>
         <link refid="MRBuffer_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
         <childnode refid="20" relation="include">
         </childnode>
         <childnode refid="21" relation="include">
@@ -21,18 +23,18 @@
         <childnode refid="23" relation="include">
         </childnode>
       </node>
-      <node id="6">
+      <node id="7">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
         <link refid="MRCanonicalTypedefs_8h"/>
-        <childnode refid="7" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="21">
         <label>MRId.h</label>
         <link refid="MRId_8h"/>
-        <childnode refid="4" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
@@ -43,8 +45,8 @@
         <childnode refid="24" relation="include">
         </childnode>
       </node>
-      <node id="7">
-        <label>MRMesh/MRMacros.h</label>
+      <node id="3">
+        <label>MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
       <node id="1">
@@ -60,17 +62,19 @@
         <link refid="MRMapOrHashMap_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
         <childnode refid="17" relation="include">
         </childnode>
         <childnode refid="18" relation="include">
         </childnode>
       </node>
-      <node id="4">
+      <node id="5">
         <label>MRMeshFwd.h</label>
         <link refid="MRMeshFwd_8h"/>
-        <childnode refid="5" relation="include">
-        </childnode>
         <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
@@ -90,23 +94,25 @@
       <node id="20">
         <label>MRNoDefInit.h</label>
         <link refid="MRNoDefInit_8h"/>
-        <childnode refid="4" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="15">
         <label>MRResizeNoInit.h</label>
         <link refid="MRResizeNoInit_8h"/>
-        <childnode refid="4" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
       </node>
-      <node id="3">
+      <node id="4">
         <label>MRVector.h</label>
         <link refid="MRVector_8h"/>
-        <childnode refid="4" relation="include">
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
@@ -115,7 +121,7 @@
         <childnode refid="14" relation="include">
         </childnode>
       </node>
-      <node id="5">
+      <node id="6">
         <label>config.h</label>
         <link refid="MRMesh_2config_8h"/>
       </node>
@@ -227,7 +233,7 @@
 <codeline lineno="63"><highlight class="normal"></highlight></codeline>
 <codeline lineno="65" refid="namespaceMR_1a8bc2c26fd2fc5169edc6c5b75559005d" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>UndirectedEdgeId<sp/><ref refid="namespaceMR_1afea1c6e74e1a6a4ed14dc7fcf09b24df" kindref="member">mapEdge</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>UndirectedEdgeBMap<sp/>&amp;<sp/>map,<sp/>UndirectedEdgeId<sp/>src<sp/>)</highlight></codeline>
 <codeline lineno="66"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a43427e0d96ff10e6af29370a3b0d7c17" kindref="member">getAt</ref>(<sp/>map.b,<sp/>src<sp/>);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1a6925a647a7b6367122e6ae1212993a2b" kindref="member">getAt</ref>(<sp/>map.b,<sp/>src<sp/>);</highlight></codeline>
 <codeline lineno="68"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"></highlight></codeline>
 <codeline lineno="71" refid="namespaceMR_1ab1d2f80b1c61df595390f0a811296879" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>UndirectedEdgeBitSet<sp/><ref refid="namespaceMR_1ab1d2f80b1c61df595390f0a811296879" kindref="member">mapEdges</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>WholeEdgeMap<sp/>&amp;<sp/>map,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>UndirectedEdgeBitSet<sp/>&amp;<sp/>src<sp/>);</highlight></codeline>

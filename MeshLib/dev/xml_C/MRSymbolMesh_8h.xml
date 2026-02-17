@@ -218,11 +218,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::SymbolMeshParams</computeroutput> named <computeroutput>text</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::SymbolMeshParams</computeroutput> named <computeroutput>text</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="43" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="43" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="44" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="44" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRSymbolMesh_8h_1a7e6ce16a1d8f7a024dbc61b3b547b8bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -248,7 +248,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="52" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="52" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="53" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="53" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRSymbolMesh_8h_1a98a5719f6bc745e38e7f44db0d76e704" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
@@ -262,11 +262,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::SymbolMeshParams</computeroutput> named <computeroutput>text</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::SymbolMeshParams</computeroutput> named <computeroutput>text</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="58" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="58" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="60" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="60" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRSymbolMesh_8h_1a5105aaf4769e74395f97f1114f01dba0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const int *</type>
@@ -280,11 +280,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::SymbolMeshParams</computeroutput> named <computeroutput>fontDetalization</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::SymbolMeshParams</computeroutput> named <computeroutput>fontDetalization</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="64" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="64" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="67" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="67" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRSymbolMesh_8h_1a4a28abd812bf439aa8eae0b62ef68af8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -306,7 +306,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="70" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="70" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="73" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="73" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRSymbolMesh_8h_1a21b5febf929fb61e939f57a0b546f2f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API int *</type>
@@ -320,11 +320,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::SymbolMeshParams</computeroutput> named <computeroutput>fontDetalization</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::SymbolMeshParams</computeroutput> named <computeroutput>fontDetalization</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="76" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="76" declcolumn="13"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="80" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="80" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="MRSymbolMesh_8h_1a05d42535a26d839b223fc1f654c28e87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref> *</type>
@@ -338,11 +338,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::SymbolMeshParams</computeroutput> named <computeroutput>symbolsDistanceAdditionalOffset</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::SymbolMeshParams</computeroutput> named <computeroutput>symbolsDistanceAdditionalOffset</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="84" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="84" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="89" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="89" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRSymbolMesh_8h_1a45390f0c2d2dbcb8ec15753a0d5943bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -364,7 +364,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="93" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="93" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="98" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="98" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRSymbolMesh_8h_1a9e56beace1cdecabcfaf86e62bb4bf85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref> *</type>
@@ -378,11 +378,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::SymbolMeshParams</computeroutput> named <computeroutput>symbolsDistanceAdditionalOffset</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::SymbolMeshParams</computeroutput> named <computeroutput>symbolsDistanceAdditionalOffset</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="101" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="101" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="107" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="107" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRSymbolMesh_8h_1a0db1e1c88e1fdf89419bda9af14d807e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const float *</type>
@@ -396,11 +396,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::SymbolMeshParams</computeroutput> named <computeroutput>symbolsThicknessOffsetModifier</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::SymbolMeshParams</computeroutput> named <computeroutput>symbolsThicknessOffsetModifier</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="108" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="108" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="115" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="115" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRSymbolMesh_8h_1a182ddc89d20eb4debc91c00e0405b839" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -422,7 +422,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="115" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="115" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="122" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="122" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRSymbolMesh_8h_1a48617ce07f1377e74acf5eb29877271d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float *</type>
@@ -436,11 +436,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::SymbolMeshParams</computeroutput> named <computeroutput>symbolsThicknessOffsetModifier</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::SymbolMeshParams</computeroutput> named <computeroutput>symbolsThicknessOffsetModifier</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="122" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="122" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="130" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="130" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRSymbolMesh_8h_1a9410b0f64b1c830a2fa90c3cb99f308e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRSymbolMesh_8h_1a5f3ea33c07a887155afc8586d50ad7cd" kindref="member">MR_AlignType</ref> *</type>
@@ -454,11 +454,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::SymbolMeshParams</computeroutput> named <computeroutput>align</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::SymbolMeshParams</computeroutput> named <computeroutput>align</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="128" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="128" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="137" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="137" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MRSymbolMesh_8h_1a1a5f11da0a1c24023c5ac48fa79cdd0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -480,7 +480,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="135" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="135" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="144" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="144" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRSymbolMesh_8h_1a8ab47ac8756526d83cb05aec4479a511" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRSymbolMesh_8h_1a5f3ea33c07a887155afc8586d50ad7cd" kindref="member">MR_AlignType</ref> *</type>
@@ -494,11 +494,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::SymbolMeshParams</computeroutput> named <computeroutput>align</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::SymbolMeshParams</computeroutput> named <computeroutput>align</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="141" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="141" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="151" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="151" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRSymbolMesh_8h_1a96d7821b4849ed4fd0522775f5815a30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref> *</type>
@@ -512,11 +512,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::SymbolMeshParams</computeroutput> named <computeroutput>pathToFontFile</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::SymbolMeshParams</computeroutput> named <computeroutput>pathToFontFile</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="147" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="147" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="158" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="158" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRSymbolMesh_8h_1a2c18e7cfd3a2f9d2fb37722323598b9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -542,7 +542,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="155" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="155" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="166" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="166" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRSymbolMesh_8h_1a8df1211887764215d8cb191c08e669f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref> *</type>
@@ -556,11 +556,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::SymbolMeshParams</computeroutput> named <computeroutput>pathToFontFile</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::SymbolMeshParams</computeroutput> named <computeroutput>pathToFontFile</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="161" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="161" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="173" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="173" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRSymbolMesh_8h_1a53d18c24cd19cdf4ad49fc2203653160" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref> *</type>
@@ -577,7 +577,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="165" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="165" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="177" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="177" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRSymbolMesh_8h_1a5a379edc580d81c3afd80a5f7b6aeb5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref> *</type>
@@ -595,7 +595,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="170" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="170" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="182" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="182" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRSymbolMesh_8h_1a1f9c1ca18c2cd839bd6ae186ef023287" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref> *</type>
@@ -641,7 +641,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="182" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="182" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="194" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="194" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRSymbolMesh_8h_1a1293bbcd04ee143f9359628f2fd9b1db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref> *</type>
@@ -663,7 +663,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="186" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="186" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="198" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="198" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRSymbolMesh_8h_1a0cbab972a133d438058e74eddad6dcdd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref> *</type>
@@ -685,7 +685,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="190" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="190" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="202" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="202" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRSymbolMesh_8h_1a966dda210fe301f835a50c2bdde128e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRAlignTextToMesh_8h_1a248de3625afa5f345225a9c64501932b" kindref="member">MR_TextMeshAlignParams</ref> *</type>
@@ -699,11 +699,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Downcasts an instance of <computeroutput>MR::SymbolMeshParams</computeroutput> to a derived class <computeroutput>MR::TextMeshAlignParams</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. </para>
+<para>Downcasts an instance of <computeroutput>MR::SymbolMeshParams</computeroutput> to a derived class <computeroutput>MR::TextMeshAlignParams</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="195" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="195" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="208" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="208" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRSymbolMesh_8h_1a373db4a1f3a1b4c561886ab1a0bcb0fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAlignTextToMesh_8h_1a248de3625afa5f345225a9c64501932b" kindref="member">MR_TextMeshAlignParams</ref> *</type>
@@ -717,11 +717,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Downcasts an instance of <computeroutput>MR::SymbolMeshParams</computeroutput> to a derived class <computeroutput>MR::TextMeshAlignParams</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. </para>
+<para>Downcasts an instance of <computeroutput>MR::SymbolMeshParams</computeroutput> to a derived class <computeroutput>MR::TextMeshAlignParams</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="199" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="199" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="213" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="213" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRSymbolMesh_8h_1a64f2f876777f598e300794a3c7544574" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref> *</type>
@@ -743,7 +743,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="204" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="204" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="218" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="218" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRSymbolMesh_8h_1af2a15f9689b0a5626ab85c8ed876d3ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -761,7 +761,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="207" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="207" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="221" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="221" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRSymbolMesh_8h_1a4a30fc0b46c12b3b041a8538fe18dbd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -779,7 +779,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="210" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="210" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="224" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="224" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRSymbolMesh_8h_1a858c3b44a606138390f119b0c09b1cda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref> *</type>
@@ -805,7 +805,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="217" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="217" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="231" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="231" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRSymbolMesh_8h_1a340b6b430d5655dbeb2ad06db6cc8000" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRSymbolMesh_8h_1afdcb1f8d5602f1f7db00a97d0b5dd528" kindref="member">MR_expected_std_vector_std_vector_MR_Vector2f_std_string</ref> *</type>
@@ -823,7 +823,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="223" column="66" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="223" declcolumn="66"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="237" column="66" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="237" declcolumn="66"/>
       </memberdef>
       <memberdef kind="function" id="MRSymbolMesh_8h_1a8a38738ab2c8cd01c15235d0b2e01c32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref> *</type>
@@ -841,7 +841,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="229" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="229" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" line="243" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h" declline="243" declcolumn="40"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -881,99 +881,99 @@
 <codeline lineno="37" refid="MRSymbolMesh_8h_1ac975336596f7c9e967f6b55ea89db7a4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRSymbolMesh_8h_1ac975336596f7c9e967f6b55ea89db7a4" kindref="member">MR_SymbolMeshParams_Get_MaxGeneratedFontHeight</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Text<sp/>that<sp/>will<sp/>be<sp/>made<sp/>mesh</highlight></codeline>
-<codeline lineno="43" refid="MRSymbolMesh_8h_1a89f422c3ade674d01131bfcea5750b30" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRSymbolMesh_8h_1a89f422c3ade674d01131bfcea5750b30" kindref="member">MR_SymbolMeshParams_Get_text</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="44"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Text<sp/>that<sp/>will<sp/>be<sp/>made<sp/>mesh</highlight></codeline>
-<codeline lineno="52" refid="MRSymbolMesh_8h_1a7e6ce16a1d8f7a024dbc61b3b547b8bf" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSymbolMesh_8h_1a7e6ce16a1d8f7a024dbc61b3b547b8bf" kindref="member">MR_SymbolMeshParams_Set_text</ref>(<ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value_end);</highlight></codeline>
-<codeline lineno="53"><highlight class="normal"></highlight></codeline>
-<codeline lineno="54"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Text<sp/>that<sp/>will<sp/>be<sp/>made<sp/>mesh</highlight></codeline>
-<codeline lineno="58" refid="MRSymbolMesh_8h_1a98a5719f6bc745e38e7f44db0d76e704" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRSymbolMesh_8h_1a98a5719f6bc745e38e7f44db0d76e704" kindref="member">MR_SymbolMeshParams_GetMutable_text</ref>(<ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="59"><highlight class="normal"></highlight></codeline>
-<codeline lineno="60"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Detailization<sp/>of<sp/>Bezier<sp/>curves<sp/>on<sp/>font<sp/>glyphs</highlight></codeline>
-<codeline lineno="64" refid="MRSymbolMesh_8h_1a5105aaf4769e74395f97f1114f01dba0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRSymbolMesh_8h_1a5105aaf4769e74395f97f1114f01dba0" kindref="member">MR_SymbolMeshParams_Get_fontDetalization</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="65"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Detailization<sp/>of<sp/>Bezier<sp/>curves<sp/>on<sp/>font<sp/>glyphs</highlight></codeline>
-<codeline lineno="70" refid="MRSymbolMesh_8h_1a4a28abd812bf439aa8eae0b62ef68af8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSymbolMesh_8h_1a4a28abd812bf439aa8eae0b62ef68af8" kindref="member">MR_SymbolMeshParams_Set_fontDetalization</ref>(<ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="71"><highlight class="normal"></highlight></codeline>
-<codeline lineno="72"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Detailization<sp/>of<sp/>Bezier<sp/>curves<sp/>on<sp/>font<sp/>glyphs</highlight></codeline>
-<codeline lineno="76" refid="MRSymbolMesh_8h_1a21b5febf929fb61e939f57a0b546f2f8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRSymbolMesh_8h_1a21b5febf929fb61e939f57a0b546f2f8" kindref="member">MR_SymbolMeshParams_GetMutable_fontDetalization</ref>(<ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="77"><highlight class="normal"></highlight></codeline>
-<codeline lineno="78"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Additional<sp/>offset<sp/>between<sp/>symbols</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="79"><highlight class="normal"></highlight><highlight class="comment">//<sp/>X:<sp/>In<sp/>symbol<sp/>size:<sp/>1.0f<sp/>adds<sp/>one<sp/>&quot;space&quot;,<sp/>0.5<sp/>adds<sp/>half<sp/>&quot;space&quot;.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="80"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Y:<sp/>In<sp/>symbol<sp/>size:<sp/>1.0f<sp/>adds<sp/>one<sp/>base<sp/>height,<sp/>0.5<sp/>adds<sp/>half<sp/>base<sp/>height</highlight></codeline>
-<codeline lineno="84" refid="MRSymbolMesh_8h_1a05d42535a26d839b223fc1f654c28e87" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*<ref refid="MRSymbolMesh_8h_1a05d42535a26d839b223fc1f654c28e87" kindref="member">MR_SymbolMeshParams_Get_symbolsDistanceAdditionalOffset</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="85"><highlight class="normal"></highlight></codeline>
-<codeline lineno="86"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Additional<sp/>offset<sp/>between<sp/>symbols</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="87"><highlight class="normal"></highlight><highlight class="comment">//<sp/>X:<sp/>In<sp/>symbol<sp/>size:<sp/>1.0f<sp/>adds<sp/>one<sp/>&quot;space&quot;,<sp/>0.5<sp/>adds<sp/>half<sp/>&quot;space&quot;.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="88"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Y:<sp/>In<sp/>symbol<sp/>size:<sp/>1.0f<sp/>adds<sp/>one<sp/>base<sp/>height,<sp/>0.5<sp/>adds<sp/>half<sp/>base<sp/>height</highlight></codeline>
-<codeline lineno="93" refid="MRSymbolMesh_8h_1a45390f0c2d2dbcb8ec15753a0d5943bd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSymbolMesh_8h_1a45390f0c2d2dbcb8ec15753a0d5943bd" kindref="member">MR_SymbolMeshParams_Set_symbolsDistanceAdditionalOffset</ref>(<ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*_this,<sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>value);</highlight></codeline>
-<codeline lineno="94"><highlight class="normal"></highlight></codeline>
-<codeline lineno="95"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Additional<sp/>offset<sp/>between<sp/>symbols</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="96"><highlight class="normal"></highlight><highlight class="comment">//<sp/>X:<sp/>In<sp/>symbol<sp/>size:<sp/>1.0f<sp/>adds<sp/>one<sp/>&quot;space&quot;,<sp/>0.5<sp/>adds<sp/>half<sp/>&quot;space&quot;.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="97"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Y:<sp/>In<sp/>symbol<sp/>size:<sp/>1.0f<sp/>adds<sp/>one<sp/>base<sp/>height,<sp/>0.5<sp/>adds<sp/>half<sp/>base<sp/>height</highlight></codeline>
-<codeline lineno="101" refid="MRSymbolMesh_8h_1a9e56beace1cdecabcfaf86e62bb4bf85" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*<ref refid="MRSymbolMesh_8h_1a9e56beace1cdecabcfaf86e62bb4bf85" kindref="member">MR_SymbolMeshParams_GetMutable_symbolsDistanceAdditionalOffset</ref>(<ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="102"><highlight class="normal"></highlight></codeline>
-<codeline lineno="103"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Symbols<sp/>thickness<sp/>will<sp/>be<sp/>modified<sp/>by<sp/>this<sp/>value<sp/>(newThickness<sp/>=<sp/>modifier*baseSymbolHeight<sp/>+<sp/>defaultThickness)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="104"><highlight class="normal"></highlight><highlight class="comment">//<sp/>note:<sp/>changing<sp/>this<sp/>to<sp/>non-zero<sp/>values<sp/>cause<sp/>costly<sp/>calculations</highlight></codeline>
-<codeline lineno="108" refid="MRSymbolMesh_8h_1a0db1e1c88e1fdf89419bda9af14d807e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRSymbolMesh_8h_1a0db1e1c88e1fdf89419bda9af14d807e" kindref="member">MR_SymbolMeshParams_Get_symbolsThicknessOffsetModifier</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="109"><highlight class="normal"></highlight></codeline>
-<codeline lineno="110"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Symbols<sp/>thickness<sp/>will<sp/>be<sp/>modified<sp/>by<sp/>this<sp/>value<sp/>(newThickness<sp/>=<sp/>modifier*baseSymbolHeight<sp/>+<sp/>defaultThickness)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="111"><highlight class="normal"></highlight><highlight class="comment">//<sp/>note:<sp/>changing<sp/>this<sp/>to<sp/>non-zero<sp/>values<sp/>cause<sp/>costly<sp/>calculations</highlight></codeline>
-<codeline lineno="115" refid="MRSymbolMesh_8h_1a182ddc89d20eb4debc91c00e0405b839" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSymbolMesh_8h_1a182ddc89d20eb4debc91c00e0405b839" kindref="member">MR_SymbolMeshParams_Set_symbolsThicknessOffsetModifier</ref>(<ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="44" refid="MRSymbolMesh_8h_1a89f422c3ade674d01131bfcea5750b30" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRSymbolMesh_8h_1a89f422c3ade674d01131bfcea5750b30" kindref="member">MR_SymbolMeshParams_Get_text</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Text<sp/>that<sp/>will<sp/>be<sp/>made<sp/>mesh</highlight></codeline>
+<codeline lineno="53" refid="MRSymbolMesh_8h_1a7e6ce16a1d8f7a024dbc61b3b547b8bf" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSymbolMesh_8h_1a7e6ce16a1d8f7a024dbc61b3b547b8bf" kindref="member">MR_SymbolMeshParams_Set_text</ref>(<ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value_end);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Text<sp/>that<sp/>will<sp/>be<sp/>made<sp/>mesh</highlight></codeline>
+<codeline lineno="60" refid="MRSymbolMesh_8h_1a98a5719f6bc745e38e7f44db0d76e704" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRSymbolMesh_8h_1a98a5719f6bc745e38e7f44db0d76e704" kindref="member">MR_SymbolMeshParams_GetMutable_text</ref>(<ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Detailization<sp/>of<sp/>Bezier<sp/>curves<sp/>on<sp/>font<sp/>glyphs</highlight></codeline>
+<codeline lineno="67" refid="MRSymbolMesh_8h_1a5105aaf4769e74395f97f1114f01dba0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRSymbolMesh_8h_1a5105aaf4769e74395f97f1114f01dba0" kindref="member">MR_SymbolMeshParams_Get_fontDetalization</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Detailization<sp/>of<sp/>Bezier<sp/>curves<sp/>on<sp/>font<sp/>glyphs</highlight></codeline>
+<codeline lineno="73" refid="MRSymbolMesh_8h_1a4a28abd812bf439aa8eae0b62ef68af8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSymbolMesh_8h_1a4a28abd812bf439aa8eae0b62ef68af8" kindref="member">MR_SymbolMeshParams_Set_fontDetalization</ref>(<ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Detailization<sp/>of<sp/>Bezier<sp/>curves<sp/>on<sp/>font<sp/>glyphs</highlight></codeline>
+<codeline lineno="80" refid="MRSymbolMesh_8h_1a21b5febf929fb61e939f57a0b546f2f8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRSymbolMesh_8h_1a21b5febf929fb61e939f57a0b546f2f8" kindref="member">MR_SymbolMeshParams_GetMutable_fontDetalization</ref>(<ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Additional<sp/>offset<sp/>between<sp/>symbols</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="comment">//<sp/>X:<sp/>In<sp/>symbol<sp/>size:<sp/>1.0f<sp/>adds<sp/>one<sp/>&quot;space&quot;,<sp/>0.5<sp/>adds<sp/>half<sp/>&quot;space&quot;.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Y:<sp/>In<sp/>symbol<sp/>size:<sp/>1.0f<sp/>adds<sp/>one<sp/>base<sp/>height,<sp/>0.5<sp/>adds<sp/>half<sp/>base<sp/>height</highlight></codeline>
+<codeline lineno="89" refid="MRSymbolMesh_8h_1a05d42535a26d839b223fc1f654c28e87" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*<ref refid="MRSymbolMesh_8h_1a05d42535a26d839b223fc1f654c28e87" kindref="member">MR_SymbolMeshParams_Get_symbolsDistanceAdditionalOffset</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Additional<sp/>offset<sp/>between<sp/>symbols</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="comment">//<sp/>X:<sp/>In<sp/>symbol<sp/>size:<sp/>1.0f<sp/>adds<sp/>one<sp/>&quot;space&quot;,<sp/>0.5<sp/>adds<sp/>half<sp/>&quot;space&quot;.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Y:<sp/>In<sp/>symbol<sp/>size:<sp/>1.0f<sp/>adds<sp/>one<sp/>base<sp/>height,<sp/>0.5<sp/>adds<sp/>half<sp/>base<sp/>height</highlight></codeline>
+<codeline lineno="98" refid="MRSymbolMesh_8h_1a45390f0c2d2dbcb8ec15753a0d5943bd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSymbolMesh_8h_1a45390f0c2d2dbcb8ec15753a0d5943bd" kindref="member">MR_SymbolMeshParams_Set_symbolsDistanceAdditionalOffset</ref>(<ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*_this,<sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>value);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Additional<sp/>offset<sp/>between<sp/>symbols</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight><highlight class="comment">//<sp/>X:<sp/>In<sp/>symbol<sp/>size:<sp/>1.0f<sp/>adds<sp/>one<sp/>&quot;space&quot;,<sp/>0.5<sp/>adds<sp/>half<sp/>&quot;space&quot;.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Y:<sp/>In<sp/>symbol<sp/>size:<sp/>1.0f<sp/>adds<sp/>one<sp/>base<sp/>height,<sp/>0.5<sp/>adds<sp/>half<sp/>base<sp/>height</highlight></codeline>
+<codeline lineno="107" refid="MRSymbolMesh_8h_1a9e56beace1cdecabcfaf86e62bb4bf85" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*<ref refid="MRSymbolMesh_8h_1a9e56beace1cdecabcfaf86e62bb4bf85" kindref="member">MR_SymbolMeshParams_GetMutable_symbolsDistanceAdditionalOffset</ref>(<ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Symbols<sp/>thickness<sp/>will<sp/>be<sp/>modified<sp/>by<sp/>this<sp/>value<sp/>(newThickness<sp/>=<sp/>modifier*baseSymbolHeight<sp/>+<sp/>defaultThickness)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight><highlight class="comment">//<sp/>note:<sp/>changing<sp/>this<sp/>to<sp/>non-zero<sp/>values<sp/>cause<sp/>costly<sp/>calculations</highlight></codeline>
+<codeline lineno="115" refid="MRSymbolMesh_8h_1a0db1e1c88e1fdf89419bda9af14d807e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRSymbolMesh_8h_1a0db1e1c88e1fdf89419bda9af14d807e" kindref="member">MR_SymbolMeshParams_Get_symbolsThicknessOffsetModifier</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="116"><highlight class="normal"></highlight></codeline>
 <codeline lineno="117"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Symbols<sp/>thickness<sp/>will<sp/>be<sp/>modified<sp/>by<sp/>this<sp/>value<sp/>(newThickness<sp/>=<sp/>modifier*baseSymbolHeight<sp/>+<sp/>defaultThickness)</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="118"><highlight class="normal"></highlight><highlight class="comment">//<sp/>note:<sp/>changing<sp/>this<sp/>to<sp/>non-zero<sp/>values<sp/>cause<sp/>costly<sp/>calculations</highlight></codeline>
-<codeline lineno="122" refid="MRSymbolMesh_8h_1a48617ce07f1377e74acf5eb29877271d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRSymbolMesh_8h_1a48617ce07f1377e74acf5eb29877271d" kindref="member">MR_SymbolMeshParams_GetMutable_symbolsThicknessOffsetModifier</ref>(<ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="122" refid="MRSymbolMesh_8h_1a182ddc89d20eb4debc91c00e0405b839" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSymbolMesh_8h_1a182ddc89d20eb4debc91c00e0405b839" kindref="member">MR_SymbolMeshParams_Set_symbolsThicknessOffsetModifier</ref>(<ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="123"><highlight class="normal"></highlight></codeline>
-<codeline lineno="124"><highlight class="normal"></highlight><highlight class="comment">//<sp/>alignment<sp/>of<sp/>the<sp/>text<sp/>inside<sp/>bbox</highlight></codeline>
-<codeline lineno="128" refid="MRSymbolMesh_8h_1a9410b0f64b1c830a2fa90c3cb99f308e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSymbolMesh_8h_1a5f3ea33c07a887155afc8586d50ad7cd" kindref="member">MR_AlignType</ref><sp/>*<ref refid="MRSymbolMesh_8h_1a9410b0f64b1c830a2fa90c3cb99f308e" kindref="member">MR_SymbolMeshParams_Get_align</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="129"><highlight class="normal"></highlight></codeline>
-<codeline lineno="130"><highlight class="normal"></highlight><highlight class="comment">//<sp/>alignment<sp/>of<sp/>the<sp/>text<sp/>inside<sp/>bbox</highlight></codeline>
-<codeline lineno="135" refid="MRSymbolMesh_8h_1a1a5f11da0a1c24023c5ac48fa79cdd0b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSymbolMesh_8h_1a1a5f11da0a1c24023c5ac48fa79cdd0b" kindref="member">MR_SymbolMeshParams_Set_align</ref>(<ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*_this,<sp/><ref refid="MRSymbolMesh_8h_1a5f3ea33c07a887155afc8586d50ad7cd" kindref="member">MR_AlignType</ref><sp/>value);</highlight></codeline>
-<codeline lineno="136"><highlight class="normal"></highlight></codeline>
-<codeline lineno="137"><highlight class="normal"></highlight><highlight class="comment">//<sp/>alignment<sp/>of<sp/>the<sp/>text<sp/>inside<sp/>bbox</highlight></codeline>
-<codeline lineno="141" refid="MRSymbolMesh_8h_1a8ab47ac8756526d83cb05aec4479a511" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSymbolMesh_8h_1a5f3ea33c07a887155afc8586d50ad7cd" kindref="member">MR_AlignType</ref><sp/>*<ref refid="MRSymbolMesh_8h_1a8ab47ac8756526d83cb05aec4479a511" kindref="member">MR_SymbolMeshParams_GetMutable_align</ref>(<ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="142"><highlight class="normal"></highlight></codeline>
-<codeline lineno="143"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Path<sp/>to<sp/>font<sp/>file</highlight></codeline>
-<codeline lineno="147" refid="MRSymbolMesh_8h_1a96d7821b4849ed4fd0522775f5815a30" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref><sp/>*<ref refid="MRSymbolMesh_8h_1a96d7821b4849ed4fd0522775f5815a30" kindref="member">MR_SymbolMeshParams_Get_pathToFontFile</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="148"><highlight class="normal"></highlight></codeline>
-<codeline lineno="149"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Path<sp/>to<sp/>font<sp/>file</highlight></codeline>
-<codeline lineno="155" refid="MRSymbolMesh_8h_1a2c18e7cfd3a2f9d2fb37722323598b9c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSymbolMesh_8h_1a2c18e7cfd3a2f9d2fb37722323598b9c" kindref="member">MR_SymbolMeshParams_Set_pathToFontFile</ref>(<ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value_end);</highlight></codeline>
-<codeline lineno="156"><highlight class="normal"></highlight></codeline>
-<codeline lineno="157"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Path<sp/>to<sp/>font<sp/>file</highlight></codeline>
-<codeline lineno="161" refid="MRSymbolMesh_8h_1a8df1211887764215d8cb191c08e669f1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref><sp/>*<ref refid="MRSymbolMesh_8h_1a8df1211887764215d8cb191c08e669f1" kindref="member">MR_SymbolMeshParams_GetMutable_pathToFontFile</ref>(<ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="162"><highlight class="normal"></highlight></codeline>
-<codeline lineno="165" refid="MRSymbolMesh_8h_1a53d18c24cd19cdf4ad49fc2203653160" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*<ref refid="MRSymbolMesh_8h_1a53d18c24cd19cdf4ad49fc2203653160" kindref="member">MR_SymbolMeshParams_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="166"><highlight class="normal"></highlight></codeline>
-<codeline lineno="170" refid="MRSymbolMesh_8h_1a5a379edc580d81c3afd80a5f7b6aeb5c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*<ref refid="MRSymbolMesh_8h_1a5a379edc580d81c3afd80a5f7b6aeb5c" kindref="member">MR_SymbolMeshParams_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="171"><highlight class="normal"></highlight></codeline>
-<codeline lineno="182" refid="MRSymbolMesh_8h_1a1f9c1ca18c2cd839bd6ae186ef023287" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*<ref refid="MRSymbolMesh_8h_1a1f9c1ca18c2cd839bd6ae186ef023287" kindref="member">MR_SymbolMeshParams_ConstructFrom</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*text,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*text_end,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fontDetalization,<sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>symbolsDistanceAdditionalOffset,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>symbolsThicknessOffsetModifier,<sp/><ref refid="MRSymbolMesh_8h_1a5f3ea33c07a887155afc8586d50ad7cd" kindref="member">MR_AlignType</ref><sp/>align,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*pathToFontFile,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*pathToFontFile_end);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Symbols<sp/>thickness<sp/>will<sp/>be<sp/>modified<sp/>by<sp/>this<sp/>value<sp/>(newThickness<sp/>=<sp/>modifier*baseSymbolHeight<sp/>+<sp/>defaultThickness)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight><highlight class="comment">//<sp/>note:<sp/>changing<sp/>this<sp/>to<sp/>non-zero<sp/>values<sp/>cause<sp/>costly<sp/>calculations</highlight></codeline>
+<codeline lineno="130" refid="MRSymbolMesh_8h_1a48617ce07f1377e74acf5eb29877271d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRSymbolMesh_8h_1a48617ce07f1377e74acf5eb29877271d" kindref="member">MR_SymbolMeshParams_GetMutable_symbolsThicknessOffsetModifier</ref>(<ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight><highlight class="comment">//<sp/>alignment<sp/>of<sp/>the<sp/>text<sp/>inside<sp/>bbox</highlight></codeline>
+<codeline lineno="137" refid="MRSymbolMesh_8h_1a9410b0f64b1c830a2fa90c3cb99f308e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSymbolMesh_8h_1a5f3ea33c07a887155afc8586d50ad7cd" kindref="member">MR_AlignType</ref><sp/>*<ref refid="MRSymbolMesh_8h_1a9410b0f64b1c830a2fa90c3cb99f308e" kindref="member">MR_SymbolMeshParams_Get_align</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight><highlight class="comment">//<sp/>alignment<sp/>of<sp/>the<sp/>text<sp/>inside<sp/>bbox</highlight></codeline>
+<codeline lineno="144" refid="MRSymbolMesh_8h_1a1a5f11da0a1c24023c5ac48fa79cdd0b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSymbolMesh_8h_1a1a5f11da0a1c24023c5ac48fa79cdd0b" kindref="member">MR_SymbolMeshParams_Set_align</ref>(<ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*_this,<sp/><ref refid="MRSymbolMesh_8h_1a5f3ea33c07a887155afc8586d50ad7cd" kindref="member">MR_AlignType</ref><sp/>value);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight><highlight class="comment">//<sp/>alignment<sp/>of<sp/>the<sp/>text<sp/>inside<sp/>bbox</highlight></codeline>
+<codeline lineno="151" refid="MRSymbolMesh_8h_1a8ab47ac8756526d83cb05aec4479a511" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSymbolMesh_8h_1a5f3ea33c07a887155afc8586d50ad7cd" kindref="member">MR_AlignType</ref><sp/>*<ref refid="MRSymbolMesh_8h_1a8ab47ac8756526d83cb05aec4479a511" kindref="member">MR_SymbolMeshParams_GetMutable_align</ref>(<ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Path<sp/>to<sp/>font<sp/>file</highlight></codeline>
+<codeline lineno="158" refid="MRSymbolMesh_8h_1a96d7821b4849ed4fd0522775f5815a30" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref><sp/>*<ref refid="MRSymbolMesh_8h_1a96d7821b4849ed4fd0522775f5815a30" kindref="member">MR_SymbolMeshParams_Get_pathToFontFile</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Path<sp/>to<sp/>font<sp/>file</highlight></codeline>
+<codeline lineno="166" refid="MRSymbolMesh_8h_1a2c18e7cfd3a2f9d2fb37722323598b9c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSymbolMesh_8h_1a2c18e7cfd3a2f9d2fb37722323598b9c" kindref="member">MR_SymbolMeshParams_Set_pathToFontFile</ref>(<ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value_end);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Path<sp/>to<sp/>font<sp/>file</highlight></codeline>
+<codeline lineno="173" refid="MRSymbolMesh_8h_1a8df1211887764215d8cb191c08e669f1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref><sp/>*<ref refid="MRSymbolMesh_8h_1a8df1211887764215d8cb191c08e669f1" kindref="member">MR_SymbolMeshParams_GetMutable_pathToFontFile</ref>(<ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177" refid="MRSymbolMesh_8h_1a53d18c24cd19cdf4ad49fc2203653160" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*<ref refid="MRSymbolMesh_8h_1a53d18c24cd19cdf4ad49fc2203653160" kindref="member">MR_SymbolMeshParams_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="MRSymbolMesh_8h_1a5a379edc580d81c3afd80a5f7b6aeb5c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*<ref refid="MRSymbolMesh_8h_1a5a379edc580d81c3afd80a5f7b6aeb5c" kindref="member">MR_SymbolMeshParams_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="183"><highlight class="normal"></highlight></codeline>
-<codeline lineno="186" refid="MRSymbolMesh_8h_1a1293bbcd04ee143f9359628f2fd9b1db" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*<ref refid="MRSymbolMesh_8h_1a1293bbcd04ee143f9359628f2fd9b1db" kindref="member">MR_SymbolMeshParams_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="187"><highlight class="normal"></highlight></codeline>
-<codeline lineno="190" refid="MRSymbolMesh_8h_1a0cbab972a133d438058e74eddad6dcdd" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*<ref refid="MRSymbolMesh_8h_1a0cbab972a133d438058e74eddad6dcdd" kindref="member">MR_SymbolMeshParams_OffsetMutablePtr</ref>(<ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="191"><highlight class="normal"></highlight></codeline>
-<codeline lineno="195" refid="MRSymbolMesh_8h_1a966dda210fe301f835a50c2bdde128e2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignTextToMesh_8h_1a248de3625afa5f345225a9c64501932b" kindref="member">MR_TextMeshAlignParams</ref><sp/>*<ref refid="MRSymbolMesh_8h_1a966dda210fe301f835a50c2bdde128e2" kindref="member">MR_SymbolMeshParams_StaticDowncastTo_MR_TextMeshAlignParams</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="196"><highlight class="normal"></highlight></codeline>
-<codeline lineno="199" refid="MRSymbolMesh_8h_1a373db4a1f3a1b4c561886ab1a0bcb0fa" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAlignTextToMesh_8h_1a248de3625afa5f345225a9c64501932b" kindref="member">MR_TextMeshAlignParams</ref><sp/>*<ref refid="MRSymbolMesh_8h_1a373db4a1f3a1b4c561886ab1a0bcb0fa" kindref="member">MR_SymbolMeshParams_MutableStaticDowncastTo_MR_TextMeshAlignParams</ref>(<ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="200"><highlight class="normal"></highlight></codeline>
-<codeline lineno="204" refid="MRSymbolMesh_8h_1a64f2f876777f598e300794a3c7544574" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*<ref refid="MRSymbolMesh_8h_1a64f2f876777f598e300794a3c7544574" kindref="member">MR_SymbolMeshParams_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="205"><highlight class="normal"></highlight></codeline>
-<codeline lineno="207" refid="MRSymbolMesh_8h_1af2a15f9689b0a5626ab85c8ed876d3ff" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSymbolMesh_8h_1af2a15f9689b0a5626ab85c8ed876d3ff" kindref="member">MR_SymbolMeshParams_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="208"><highlight class="normal"></highlight></codeline>
-<codeline lineno="210" refid="MRSymbolMesh_8h_1a4a30fc0b46c12b3b041a8538fe18dbd7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSymbolMesh_8h_1a4a30fc0b46c12b3b041a8538fe18dbd7" kindref="member">MR_SymbolMeshParams_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="211"><highlight class="normal"></highlight></codeline>
-<codeline lineno="217" refid="MRSymbolMesh_8h_1a858c3b44a606138390f119b0c09b1cda" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*<ref refid="MRSymbolMesh_8h_1a858c3b44a606138390f119b0c09b1cda" kindref="member">MR_SymbolMeshParams_AssignFromAnother</ref>(<ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="218"><highlight class="normal"></highlight></codeline>
-<codeline lineno="219"><highlight class="normal"></highlight><highlight class="comment">//<sp/>converts<sp/>text<sp/>string<sp/>into<sp/>set<sp/>of<sp/>contours</highlight></codeline>
-<codeline lineno="223" refid="MRSymbolMesh_8h_1a340b6b430d5655dbeb2ad06db6cc8000" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSymbolMesh_8h_1afdcb1f8d5602f1f7db00a97d0b5dd528" kindref="member">MR_expected_std_vector_std_vector_MR_Vector2f_std_string</ref><sp/>*<ref refid="MRSymbolMesh_8h_1a340b6b430d5655dbeb2ad06db6cc8000" kindref="member">MR_createSymbolContours</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*params);</highlight></codeline>
-<codeline lineno="224"><highlight class="normal"></highlight></codeline>
-<codeline lineno="225"><highlight class="normal"></highlight><highlight class="comment">//<sp/>converts<sp/>text<sp/>string<sp/>into<sp/>Z-facing<sp/>symbol<sp/>mesh</highlight></codeline>
-<codeline lineno="229" refid="MRSymbolMesh_8h_1a8a38738ab2c8cd01c15235d0b2e01c32" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/>*<ref refid="MRSymbolMesh_8h_1a8a38738ab2c8cd01c15235d0b2e01c32" kindref="member">MR_createSymbolsMesh</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*params);</highlight></codeline>
-<codeline lineno="230"><highlight class="normal"></highlight></codeline>
-<codeline lineno="231"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="232"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="233"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="194" refid="MRSymbolMesh_8h_1a1f9c1ca18c2cd839bd6ae186ef023287" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*<ref refid="MRSymbolMesh_8h_1a1f9c1ca18c2cd839bd6ae186ef023287" kindref="member">MR_SymbolMeshParams_ConstructFrom</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*text,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*text_end,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fontDetalization,<sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>symbolsDistanceAdditionalOffset,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>symbolsThicknessOffsetModifier,<sp/><ref refid="MRSymbolMesh_8h_1a5f3ea33c07a887155afc8586d50ad7cd" kindref="member">MR_AlignType</ref><sp/>align,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*pathToFontFile,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*pathToFontFile_end);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="198" refid="MRSymbolMesh_8h_1a1293bbcd04ee143f9359628f2fd9b1db" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*<ref refid="MRSymbolMesh_8h_1a1293bbcd04ee143f9359628f2fd9b1db" kindref="member">MR_SymbolMeshParams_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202" refid="MRSymbolMesh_8h_1a0cbab972a133d438058e74eddad6dcdd" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*<ref refid="MRSymbolMesh_8h_1a0cbab972a133d438058e74eddad6dcdd" kindref="member">MR_SymbolMeshParams_OffsetMutablePtr</ref>(<ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="208" refid="MRSymbolMesh_8h_1a966dda210fe301f835a50c2bdde128e2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignTextToMesh_8h_1a248de3625afa5f345225a9c64501932b" kindref="member">MR_TextMeshAlignParams</ref><sp/>*<ref refid="MRSymbolMesh_8h_1a966dda210fe301f835a50c2bdde128e2" kindref="member">MR_SymbolMeshParams_StaticDowncastTo_MR_TextMeshAlignParams</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213" refid="MRSymbolMesh_8h_1a373db4a1f3a1b4c561886ab1a0bcb0fa" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAlignTextToMesh_8h_1a248de3625afa5f345225a9c64501932b" kindref="member">MR_TextMeshAlignParams</ref><sp/>*<ref refid="MRSymbolMesh_8h_1a373db4a1f3a1b4c561886ab1a0bcb0fa" kindref="member">MR_SymbolMeshParams_MutableStaticDowncastTo_MR_TextMeshAlignParams</ref>(<ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight></codeline>
+<codeline lineno="218" refid="MRSymbolMesh_8h_1a64f2f876777f598e300794a3c7544574" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*<ref refid="MRSymbolMesh_8h_1a64f2f876777f598e300794a3c7544574" kindref="member">MR_SymbolMeshParams_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221" refid="MRSymbolMesh_8h_1af2a15f9689b0a5626ab85c8ed876d3ff" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSymbolMesh_8h_1af2a15f9689b0a5626ab85c8ed876d3ff" kindref="member">MR_SymbolMeshParams_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="224" refid="MRSymbolMesh_8h_1a4a30fc0b46c12b3b041a8538fe18dbd7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSymbolMesh_8h_1a4a30fc0b46c12b3b041a8538fe18dbd7" kindref="member">MR_SymbolMeshParams_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231" refid="MRSymbolMesh_8h_1a858c3b44a606138390f119b0c09b1cda" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*<ref refid="MRSymbolMesh_8h_1a858c3b44a606138390f119b0c09b1cda" kindref="member">MR_SymbolMeshParams_AssignFromAnother</ref>(<ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight><highlight class="comment">//<sp/>converts<sp/>text<sp/>string<sp/>into<sp/>set<sp/>of<sp/>contours</highlight></codeline>
+<codeline lineno="237" refid="MRSymbolMesh_8h_1a340b6b430d5655dbeb2ad06db6cc8000" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSymbolMesh_8h_1afdcb1f8d5602f1f7db00a97d0b5dd528" kindref="member">MR_expected_std_vector_std_vector_MR_Vector2f_std_string</ref><sp/>*<ref refid="MRSymbolMesh_8h_1a340b6b430d5655dbeb2ad06db6cc8000" kindref="member">MR_createSymbolContours</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight><highlight class="comment">//<sp/>converts<sp/>text<sp/>string<sp/>into<sp/>Z-facing<sp/>symbol<sp/>mesh</highlight></codeline>
+<codeline lineno="243" refid="MRSymbolMesh_8h_1a8a38738ab2c8cd01c15235d0b2e01c32" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/>*<ref refid="MRSymbolMesh_8h_1a8a38738ab2c8cd01c15235d0b2e01c32" kindref="member">MR_createSymbolsMesh</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignTextToMesh_8h_1adc08a6832856be67ef1c2acff16c9f59" kindref="member">MR_SymbolMeshParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"></highlight></codeline>
+<codeline lineno="245"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="246"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCSymbolMesh/MRSymbolMesh.h"/>
   </compounddef>

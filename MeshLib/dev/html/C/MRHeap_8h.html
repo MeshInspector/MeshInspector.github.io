@@ -330,7 +330,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>constructs heap from given elements (id's shall not repeat and have spaces, but can be arbitrary shuffled) Generated from constructor <code>MR::Heap&lt;float, MR::GraphVertId, std::greater&lt;float&gt;&gt;::Heap</code>. The reference to the parameter <code>elms</code> might be preserved in the constructed object. The reference to the parameter <code>pred</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ac76373de44027d52a93e521288336fa9" title="Destroys a heap-allocated instance of MR_Heap_float_MR_GraphVertId_std_greater_float....">MR_Heap_float_MR_GraphVertId_std_greater_float_Destroy()</a></code> to free it when you're done using it. </p>
+<p>constructs heap from given elements (id's shall not repeat and have spaces, but can be arbitrary shuffled) Generated from constructor <code>MR::Heap&lt;float, MR::GraphVertId, std::greater&lt;float&gt;&gt;::Heap</code>. The reference to things referred to by the parameter <code>elms</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ac76373de44027d52a93e521288336fa9" title="Destroys a heap-allocated instance of MR_Heap_float_MR_GraphVertId_std_greater_float....">MR_Heap_float_MR_GraphVertId_std_greater_float_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -352,7 +352,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>constructs heap for given number of elements, assigning given default value to each element Generated from constructor <code>MR::Heap&lt;float, MR::GraphVertId, std::greater&lt;float&gt;&gt;::Heap</code>. The reference to the parameter <code>size</code> might be preserved in the constructed object. Parameter <code>def</code> has a default argument: <code>{}</code>, pass a null pointer to use it. The reference to the parameter <code>pred</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ac76373de44027d52a93e521288336fa9" title="Destroys a heap-allocated instance of MR_Heap_float_MR_GraphVertId_std_greater_float....">MR_Heap_float_MR_GraphVertId_std_greater_float_Destroy()</a></code> to free it when you're done using it. </p>
+<p>constructs heap for given number of elements, assigning given default value to each element Generated from constructor <code>MR::Heap&lt;float, MR::GraphVertId, std::greater&lt;float&gt;&gt;::Heap</code>. Parameter <code>def</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ac76373de44027d52a93e521288336fa9" title="Destroys a heap-allocated instance of MR_Heap_float_MR_GraphVertId_std_greater_float....">MR_Heap_float_MR_GraphVertId_std_greater_float_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -566,7 +566,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::Heap&lt;float, MR::GraphVertId, std::greater&lt;float&gt;&gt;::Element</code> named <code>id</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::Heap&lt;float, MR::GraphVertId, std::greater&lt;float&gt;&gt;::Element</code> named <code>id</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -584,7 +584,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::Heap&lt;float, MR::GraphVertId, std::greater&lt;float&gt;&gt;::Element</code> named <code>val</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::Heap&lt;float, MR::GraphVertId, std::greater&lt;float&gt;&gt;::Element</code> named <code>val</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -602,7 +602,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::Heap&lt;float, MR::GraphVertId, std::greater&lt;float&gt;&gt;::Element</code> named <code>id</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::Heap&lt;float, MR::GraphVertId, std::greater&lt;float&gt;&gt;::Element</code> named <code>id</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -620,7 +620,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::Heap&lt;float, MR::GraphVertId, std::greater&lt;float&gt;&gt;::Element</code> named <code>val</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::Heap&lt;float, MR::GraphVertId, std::greater&lt;float&gt;&gt;::Element</code> named <code>val</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -806,7 +806,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>sets new value to given element, which shall be larger/smaller than the current value Generated from method <code>MR::Heap&lt;float, MR::GraphVertId, std::greater&lt;float&gt;&gt;::setLargerValue</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>newVal</code> can not be null. It is a single object. </p>
+<p>sets new value to given element, which shall be larger/smaller than the current value Generated from method <code>MR::Heap&lt;float, MR::GraphVertId, std::greater&lt;float&gt;&gt;::setLargerValue</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>newVal</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>newVal</code> (if any) might be preserved in this object. </p>
 
 </div>
 </div>
@@ -833,7 +833,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <code>MR::Heap&lt;float, MR::GraphVertId, std::greater&lt;float&gt;&gt;::setSmallerValue</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>newVal</code> can not be null. It is a single object. </p>
+<p>Generated from method <code>MR::Heap&lt;float, MR::GraphVertId, std::greater&lt;float&gt;&gt;::setSmallerValue</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>newVal</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>newVal</code> (if any) might be preserved in this object. </p>
 
 </div>
 </div>
@@ -855,7 +855,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>sets new value to the current top element, returning its previous value Generated from method <code>MR::Heap&lt;float, MR::GraphVertId, std::greater&lt;float&gt;&gt;::setTopValue</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>newVal</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#adce8a8a4771709dba628122118ab6db6" title="Destroys a heap-allocated instance of MR_Heap_float_MR_GraphVertId_std_greater_float_Element....">MR_Heap_float_MR_GraphVertId_std_greater_float_Element_Destroy()</a></code> to free it when you're done using it. </p>
+<p>sets new value to the current top element, returning its previous value Generated from method <code>MR::Heap&lt;float, MR::GraphVertId, std::greater&lt;float&gt;&gt;::setTopValue</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>newVal</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>newVal</code> (if any) might be preserved in this object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#adce8a8a4771709dba628122118ab6db6" title="Destroys a heap-allocated instance of MR_Heap_float_MR_GraphVertId_std_greater_float_Element....">MR_Heap_float_MR_GraphVertId_std_greater_float_Element_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -882,7 +882,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>sets new value to given element Generated from method <code>MR::Heap&lt;float, MR::GraphVertId, std::greater&lt;float&gt;&gt;::setValue</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>newVal</code> can not be null. It is a single object. </p>
+<p>sets new value to given element Generated from method <code>MR::Heap&lt;float, MR::GraphVertId, std::greater&lt;float&gt;&gt;::setValue</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>newVal</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>newVal</code> (if any) might be preserved in this object. </p>
 
 </div>
 </div>
@@ -918,7 +918,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the element with the largest value Generated from method <code>MR::Heap&lt;float, MR::GraphVertId, std::greater&lt;float&gt;&gt;::top</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>returns the element with the largest value Generated from method <code>MR::Heap&lt;float, MR::GraphVertId, std::greater&lt;float&gt;&gt;::top</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -940,7 +940,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the value associated with given element Generated from method <code>MR::Heap&lt;float, MR::GraphVertId, std::greater&lt;float&gt;&gt;::value</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>returns the value associated with given element Generated from method <code>MR::Heap&lt;float, MR::GraphVertId, std::greater&lt;float&gt;&gt;::value</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved in the return value. </p>
 
 </div>
 </div>

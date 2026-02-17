@@ -301,11 +301,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Downcasts an instance of <computeroutput>MR::RectIndexer</computeroutput> to a derived class <computeroutput>MR::DistanceMap</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. </para>
+<para>Downcasts an instance of <computeroutput>MR::RectIndexer</computeroutput> to a derived class <computeroutput>MR::DistanceMap</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="63" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="63" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="64" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="64" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRRectIndexer_8h_1adfc2955bd5916742ab7dd4728978acb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref> *</type>
@@ -319,11 +319,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Downcasts an instance of <computeroutput>MR::RectIndexer</computeroutput> to a derived class <computeroutput>MR::DistanceMap</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. </para>
+<para>Downcasts an instance of <computeroutput>MR::RectIndexer</computeroutput> to a derived class <computeroutput>MR::DistanceMap</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="67" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="67" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="69" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="69" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="MRRectIndexer_8h_1a9c4d18935321ef3c5a4a722277791bca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref> *</type>
@@ -337,11 +337,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Downcasts an instance of <computeroutput>MR::RectIndexer</computeroutput> to a derived class <computeroutput>MR::Matrix&lt;float&gt;</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. </para>
+<para>Downcasts an instance of <computeroutput>MR::RectIndexer</computeroutput> to a derived class <computeroutput>MR::Matrix&lt;float&gt;</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="72" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="72" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="75" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="75" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MRRectIndexer_8h_1a4b652a3d7fe490467290f21780b33987" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref> *</type>
@@ -355,11 +355,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Downcasts an instance of <computeroutput>MR::RectIndexer</computeroutput> to a derived class <computeroutput>MR::Matrix&lt;float&gt;</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. </para>
+<para>Downcasts an instance of <computeroutput>MR::RectIndexer</computeroutput> to a derived class <computeroutput>MR::Matrix&lt;float&gt;</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="76" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="76" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="80" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="80" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRRectIndexer_8h_1a7741bd754627a153f5219bac95bab589" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref> *</type>
@@ -377,7 +377,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="82" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="82" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="86" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="86" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="MRRectIndexer_8h_1abde9e7fc48fd8d657f7e250ad992023b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref> *</type>
@@ -395,7 +395,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="88" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="88" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="92" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="92" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="MRRectIndexer_8h_1a296cd76770fbf3653eecba832f9ce10c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -413,7 +413,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="91" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="91" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="95" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="95" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRRectIndexer_8h_1a164ebfe364f69b21f80aa4d209b63801" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -431,7 +431,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="94" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="94" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="98" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="98" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRRectIndexer_8h_1afcb61fc17dfeca6c36baba2a92a8a544" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref> *</type>
@@ -453,7 +453,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="102" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="102" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="106" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="106" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="MRRectIndexer_8h_1ad19580d4052f35721c9afdbaf3be74c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -475,7 +475,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="107" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="107" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="111" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="111" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRRectIndexer_8h_1a4996a06e4713aaabd0add2117f58efb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref> *</type>
@@ -493,7 +493,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="112" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="112" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="116" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="116" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRRectIndexer_8h_1a1f9095d7c54eb6bd6424b108518d297b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API MR_uint64_t</type>
@@ -511,7 +511,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="116" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="116" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="120" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="120" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRRectIndexer_8h_1ae823480ba633697b40ac5f71010278f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref></type>
@@ -533,7 +533,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="120" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="120" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="124" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="124" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRRectIndexer_8h_1a2a4fa5ae1c9ee8d3658ced1944aa638f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref></type>
@@ -555,7 +555,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="124" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="124" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="128" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="128" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRRectIndexer_8h_1a42959ab3aa093eb4b9ed280584f794c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__PixelId" kindref="compound">MR_PixelId</ref></type>
@@ -577,7 +577,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="129" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="129" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="133" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="133" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRRectIndexer_8h_1a656a084921950c88d1d8ba4acd56a83e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API MR_uint64_t</type>
@@ -599,7 +599,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="134" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="134" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="138" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="138" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRRectIndexer_8h_1acc8314171f38bb63f61e7cfa37c31a5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool</type>
@@ -625,7 +625,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="139" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="139" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="143" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="143" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRRectIndexer_8h_1abc2c9777792225a2964016594ab5bee0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool</type>
@@ -651,7 +651,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="145" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="145" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="149" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="149" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRRectIndexer_8h_1a431d9a12ae1af635e63d4a62fa68c8e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__PixelId" kindref="compound">MR_PixelId</ref></type>
@@ -677,7 +677,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="150" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="150" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="154" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="154" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRRectIndexer_8h_1a2a3997cec3831f653abd32bedcbd3b02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__PixelId" kindref="compound">MR_PixelId</ref></type>
@@ -707,7 +707,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="155" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="155" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="159" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="159" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRRectIndexer_8h_1a96bb28ee56b22338a63ace6eb77fef96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -733,7 +733,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="162" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="162" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="166" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="166" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRRectIndexer_8h_1a99bd26041e9f4b810bb537d152a466c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -759,7 +759,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="169" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="169" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="173" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="173" declcolumn="14"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -809,53 +809,53 @@
 <codeline lineno="55"><highlight class="normal"></highlight></codeline>
 <codeline lineno="58" refid="MRRectIndexer_8h_1a3683479ee7c3662ecc2ddc0ae8970493" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*<ref refid="MRRectIndexer_8h_1a3683479ee7c3662ecc2ddc0ae8970493" kindref="member">MR_RectIndexer_OffsetMutablePtr</ref>(<ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="59"><highlight class="normal"></highlight></codeline>
-<codeline lineno="63" refid="MRRectIndexer_8h_1ada56d6dda1e1707af2253c1e93e62287" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*<ref refid="MRRectIndexer_8h_1ada56d6dda1e1707af2253c1e93e62287" kindref="member">MR_RectIndexer_StaticDowncastTo_MR_DistanceMap</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="64"><highlight class="normal"></highlight></codeline>
-<codeline lineno="67" refid="MRRectIndexer_8h_1adfc2955bd5916742ab7dd4728978acb0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*<ref refid="MRRectIndexer_8h_1adfc2955bd5916742ab7dd4728978acb0" kindref="member">MR_RectIndexer_MutableStaticDowncastTo_MR_DistanceMap</ref>(<ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="68"><highlight class="normal"></highlight></codeline>
-<codeline lineno="72" refid="MRRectIndexer_8h_1a9c4d18935321ef3c5a4a722277791bca" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*<ref refid="MRRectIndexer_8h_1a9c4d18935321ef3c5a4a722277791bca" kindref="member">MR_RectIndexer_StaticDowncastTo_MR_Matrix_float</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="73"><highlight class="normal"></highlight></codeline>
-<codeline lineno="76" refid="MRRectIndexer_8h_1a4b652a3d7fe490467290f21780b33987" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*<ref refid="MRRectIndexer_8h_1a4b652a3d7fe490467290f21780b33987" kindref="member">MR_RectIndexer_MutableStaticDowncastTo_MR_Matrix_float</ref>(<ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="77"><highlight class="normal"></highlight></codeline>
-<codeline lineno="82" refid="MRRectIndexer_8h_1a7741bd754627a153f5219bac95bab589" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*<ref refid="MRRectIndexer_8h_1a7741bd754627a153f5219bac95bab589" kindref="member">MR_RectIndexer_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="83"><highlight class="normal"></highlight></codeline>
-<codeline lineno="88" refid="MRRectIndexer_8h_1abde9e7fc48fd8d657f7e250ad992023b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*<ref refid="MRRectIndexer_8h_1abde9e7fc48fd8d657f7e250ad992023b" kindref="member">MR_RectIndexer_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*dims);</highlight></codeline>
-<codeline lineno="89"><highlight class="normal"></highlight></codeline>
-<codeline lineno="91" refid="MRRectIndexer_8h_1a296cd76770fbf3653eecba832f9ce10c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRectIndexer_8h_1a296cd76770fbf3653eecba832f9ce10c" kindref="member">MR_RectIndexer_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="92"><highlight class="normal"></highlight></codeline>
-<codeline lineno="94" refid="MRRectIndexer_8h_1a164ebfe364f69b21f80aa4d209b63801" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRectIndexer_8h_1a164ebfe364f69b21f80aa4d209b63801" kindref="member">MR_RectIndexer_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="95"><highlight class="normal"></highlight></codeline>
-<codeline lineno="102" refid="MRRectIndexer_8h_1afcb61fc17dfeca6c36baba2a92a8a544" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*<ref refid="MRRectIndexer_8h_1afcb61fc17dfeca6c36baba2a92a8a544" kindref="member">MR_RectIndexer_AssignFromAnother</ref>(<ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="103"><highlight class="normal"></highlight></codeline>
-<codeline lineno="107" refid="MRRectIndexer_8h_1ad19580d4052f35721c9afdbaf3be74c3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRectIndexer_8h_1ad19580d4052f35721c9afdbaf3be74c3" kindref="member">MR_RectIndexer_resize</ref>(<ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*dims);</highlight></codeline>
-<codeline lineno="108"><highlight class="normal"></highlight></codeline>
-<codeline lineno="112" refid="MRRectIndexer_8h_1a4996a06e4713aaabd0add2117f58efb4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*<ref refid="MRRectIndexer_8h_1a4996a06e4713aaabd0add2117f58efb4" kindref="member">MR_RectIndexer_dims</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="113"><highlight class="normal"></highlight></codeline>
-<codeline lineno="116" refid="MRRectIndexer_8h_1a1f9095d7c54eb6bd6424b108518d297b" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRRectIndexer_8h_1a1f9095d7c54eb6bd6424b108518d297b" kindref="member">MR_RectIndexer_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="64" refid="MRRectIndexer_8h_1ada56d6dda1e1707af2253c1e93e62287" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*<ref refid="MRRectIndexer_8h_1ada56d6dda1e1707af2253c1e93e62287" kindref="member">MR_RectIndexer_StaticDowncastTo_MR_DistanceMap</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="MRRectIndexer_8h_1adfc2955bd5916742ab7dd4728978acb0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*<ref refid="MRRectIndexer_8h_1adfc2955bd5916742ab7dd4728978acb0" kindref="member">MR_RectIndexer_MutableStaticDowncastTo_MR_DistanceMap</ref>(<ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="MRRectIndexer_8h_1a9c4d18935321ef3c5a4a722277791bca" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*<ref refid="MRRectIndexer_8h_1a9c4d18935321ef3c5a4a722277791bca" kindref="member">MR_RectIndexer_StaticDowncastTo_MR_Matrix_float</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="MRRectIndexer_8h_1a4b652a3d7fe490467290f21780b33987" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*<ref refid="MRRectIndexer_8h_1a4b652a3d7fe490467290f21780b33987" kindref="member">MR_RectIndexer_MutableStaticDowncastTo_MR_Matrix_float</ref>(<ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="MRRectIndexer_8h_1a7741bd754627a153f5219bac95bab589" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*<ref refid="MRRectIndexer_8h_1a7741bd754627a153f5219bac95bab589" kindref="member">MR_RectIndexer_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92" refid="MRRectIndexer_8h_1abde9e7fc48fd8d657f7e250ad992023b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*<ref refid="MRRectIndexer_8h_1abde9e7fc48fd8d657f7e250ad992023b" kindref="member">MR_RectIndexer_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*dims);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="MRRectIndexer_8h_1a296cd76770fbf3653eecba832f9ce10c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRectIndexer_8h_1a296cd76770fbf3653eecba832f9ce10c" kindref="member">MR_RectIndexer_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="MRRectIndexer_8h_1a164ebfe364f69b21f80aa4d209b63801" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRectIndexer_8h_1a164ebfe364f69b21f80aa4d209b63801" kindref="member">MR_RectIndexer_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106" refid="MRRectIndexer_8h_1afcb61fc17dfeca6c36baba2a92a8a544" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*<ref refid="MRRectIndexer_8h_1afcb61fc17dfeca6c36baba2a92a8a544" kindref="member">MR_RectIndexer_AssignFromAnother</ref>(<ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111" refid="MRRectIndexer_8h_1ad19580d4052f35721c9afdbaf3be74c3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRectIndexer_8h_1ad19580d4052f35721c9afdbaf3be74c3" kindref="member">MR_RectIndexer_resize</ref>(<ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*dims);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116" refid="MRRectIndexer_8h_1a4996a06e4713aaabd0add2117f58efb4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*<ref refid="MRRectIndexer_8h_1a4996a06e4713aaabd0add2117f58efb4" kindref="member">MR_RectIndexer_dims</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="117"><highlight class="normal"></highlight></codeline>
-<codeline lineno="120" refid="MRRectIndexer_8h_1ae823480ba633697b40ac5f71010278f6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/><ref refid="MRRectIndexer_8h_1ae823480ba633697b40ac5f71010278f6" kindref="member">MR_RectIndexer_toPos_MR_PixelId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*_this,<sp/><ref refid="structMR__PixelId" kindref="compound">MR_PixelId</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="120" refid="MRRectIndexer_8h_1a1f9095d7c54eb6bd6424b108518d297b" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRRectIndexer_8h_1a1f9095d7c54eb6bd6424b108518d297b" kindref="member">MR_RectIndexer_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="121"><highlight class="normal"></highlight></codeline>
-<codeline lineno="124" refid="MRRectIndexer_8h_1a2a4fa5ae1c9ee8d3658ced1944aa638f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/><ref refid="MRRectIndexer_8h_1a2a4fa5ae1c9ee8d3658ced1944aa638f" kindref="member">MR_RectIndexer_toPos_uint64_t</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*_this,<sp/>MR_uint64_t<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="124" refid="MRRectIndexer_8h_1ae823480ba633697b40ac5f71010278f6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/><ref refid="MRRectIndexer_8h_1ae823480ba633697b40ac5f71010278f6" kindref="member">MR_RectIndexer_toPos_MR_PixelId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*_this,<sp/><ref refid="structMR__PixelId" kindref="compound">MR_PixelId</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="125"><highlight class="normal"></highlight></codeline>
-<codeline lineno="129" refid="MRRectIndexer_8h_1a42959ab3aa093eb4b9ed280584f794c4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__PixelId" kindref="compound">MR_PixelId</ref><sp/><ref refid="MRRectIndexer_8h_1a42959ab3aa093eb4b9ed280584f794c4" kindref="member">MR_RectIndexer_toPixelId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*pos);</highlight></codeline>
-<codeline lineno="130"><highlight class="normal"></highlight></codeline>
-<codeline lineno="134" refid="MRRectIndexer_8h_1a656a084921950c88d1d8ba4acd56a83e" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRRectIndexer_8h_1a656a084921950c88d1d8ba4acd56a83e" kindref="member">MR_RectIndexer_toIndex</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*pos);</highlight></codeline>
-<codeline lineno="135"><highlight class="normal"></highlight></codeline>
-<codeline lineno="139" refid="MRRectIndexer_8h_1acc8314171f38bb63f61e7cfa37c31a5b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRRectIndexer_8h_1acc8314171f38bb63f61e7cfa37c31a5b" kindref="member">MR_RectIndexer_areNeigbors_MR_PixelId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*_this,<sp/><ref refid="structMR__PixelId" kindref="compound">MR_PixelId</ref><sp/>v0,<sp/><ref refid="structMR__PixelId" kindref="compound">MR_PixelId</ref><sp/>v1);</highlight></codeline>
-<codeline lineno="140"><highlight class="normal"></highlight></codeline>
-<codeline lineno="145" refid="MRRectIndexer_8h_1abc2c9777792225a2964016594ab5bee0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRRectIndexer_8h_1abc2c9777792225a2964016594ab5bee0" kindref="member">MR_RectIndexer_areNeigbors_MR_Vector2i</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*pos0,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*pos1);</highlight></codeline>
-<codeline lineno="146"><highlight class="normal"></highlight></codeline>
-<codeline lineno="150" refid="MRRectIndexer_8h_1a431d9a12ae1af635e63d4a62fa68c8e8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__PixelId" kindref="compound">MR_PixelId</ref><sp/><ref refid="MRRectIndexer_8h_1a431d9a12ae1af635e63d4a62fa68c8e8" kindref="member">MR_RectIndexer_getNeighbor_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*_this,<sp/><ref refid="structMR__PixelId" kindref="compound">MR_PixelId</ref><sp/>v,<sp/><ref refid="MRRectIndexer_8h_1a9da9bad660b3fc045413d2d5cfe0597b" kindref="member">MR_OutEdge2</ref><sp/>toNei);</highlight></codeline>
-<codeline lineno="151"><highlight class="normal"></highlight></codeline>
-<codeline lineno="155" refid="MRRectIndexer_8h_1a2a3997cec3831f653abd32bedcbd3b02" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__PixelId" kindref="compound">MR_PixelId</ref><sp/><ref refid="MRRectIndexer_8h_1a2a3997cec3831f653abd32bedcbd3b02" kindref="member">MR_RectIndexer_getNeighbor_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*_this,<sp/><ref refid="structMR__PixelId" kindref="compound">MR_PixelId</ref><sp/>v,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*pos,<sp/><ref refid="MRRectIndexer_8h_1a9da9bad660b3fc045413d2d5cfe0597b" kindref="member">MR_OutEdge2</ref><sp/>toNei);</highlight></codeline>
-<codeline lineno="156"><highlight class="normal"></highlight></codeline>
-<codeline lineno="162" refid="MRRectIndexer_8h_1a96bb28ee56b22338a63ace6eb77fef96" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRectIndexer_8h_1a96bb28ee56b22338a63ace6eb77fef96" kindref="member">MR_expandPixelMask</ref>(<ref refid="MRBitSet_8h_1afa3a86d9b655499ff627de90d4de265e" kindref="member">MR_PixelBitSet</ref><sp/>*mask,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*indexer,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*expansion);</highlight></codeline>
-<codeline lineno="163"><highlight class="normal"></highlight></codeline>
-<codeline lineno="169" refid="MRRectIndexer_8h_1a99bd26041e9f4b810bb537d152a466c1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRectIndexer_8h_1a99bd26041e9f4b810bb537d152a466c1" kindref="member">MR_shrinkPixelMask</ref>(<ref refid="MRBitSet_8h_1afa3a86d9b655499ff627de90d4de265e" kindref="member">MR_PixelBitSet</ref><sp/>*mask,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*indexer,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*shrinkage);</highlight></codeline>
-<codeline lineno="170"><highlight class="normal"></highlight></codeline>
-<codeline lineno="171"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="172"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="173"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="128" refid="MRRectIndexer_8h_1a2a4fa5ae1c9ee8d3658ced1944aa638f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/><ref refid="MRRectIndexer_8h_1a2a4fa5ae1c9ee8d3658ced1944aa638f" kindref="member">MR_RectIndexer_toPos_uint64_t</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*_this,<sp/>MR_uint64_t<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="MRRectIndexer_8h_1a42959ab3aa093eb4b9ed280584f794c4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__PixelId" kindref="compound">MR_PixelId</ref><sp/><ref refid="MRRectIndexer_8h_1a42959ab3aa093eb4b9ed280584f794c4" kindref="member">MR_RectIndexer_toPixelId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*pos);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138" refid="MRRectIndexer_8h_1a656a084921950c88d1d8ba4acd56a83e" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRRectIndexer_8h_1a656a084921950c88d1d8ba4acd56a83e" kindref="member">MR_RectIndexer_toIndex</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*pos);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="MRRectIndexer_8h_1acc8314171f38bb63f61e7cfa37c31a5b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRRectIndexer_8h_1acc8314171f38bb63f61e7cfa37c31a5b" kindref="member">MR_RectIndexer_areNeigbors_MR_PixelId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*_this,<sp/><ref refid="structMR__PixelId" kindref="compound">MR_PixelId</ref><sp/>v0,<sp/><ref refid="structMR__PixelId" kindref="compound">MR_PixelId</ref><sp/>v1);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149" refid="MRRectIndexer_8h_1abc2c9777792225a2964016594ab5bee0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRRectIndexer_8h_1abc2c9777792225a2964016594ab5bee0" kindref="member">MR_RectIndexer_areNeigbors_MR_Vector2i</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*pos0,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*pos1);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154" refid="MRRectIndexer_8h_1a431d9a12ae1af635e63d4a62fa68c8e8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__PixelId" kindref="compound">MR_PixelId</ref><sp/><ref refid="MRRectIndexer_8h_1a431d9a12ae1af635e63d4a62fa68c8e8" kindref="member">MR_RectIndexer_getNeighbor_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*_this,<sp/><ref refid="structMR__PixelId" kindref="compound">MR_PixelId</ref><sp/>v,<sp/><ref refid="MRRectIndexer_8h_1a9da9bad660b3fc045413d2d5cfe0597b" kindref="member">MR_OutEdge2</ref><sp/>toNei);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="MRRectIndexer_8h_1a2a3997cec3831f653abd32bedcbd3b02" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__PixelId" kindref="compound">MR_PixelId</ref><sp/><ref refid="MRRectIndexer_8h_1a2a3997cec3831f653abd32bedcbd3b02" kindref="member">MR_RectIndexer_getNeighbor_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*_this,<sp/><ref refid="structMR__PixelId" kindref="compound">MR_PixelId</ref><sp/>v,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*pos,<sp/><ref refid="MRRectIndexer_8h_1a9da9bad660b3fc045413d2d5cfe0597b" kindref="member">MR_OutEdge2</ref><sp/>toNei);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166" refid="MRRectIndexer_8h_1a96bb28ee56b22338a63ace6eb77fef96" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRectIndexer_8h_1a96bb28ee56b22338a63ace6eb77fef96" kindref="member">MR_expandPixelMask</ref>(<ref refid="MRBitSet_8h_1afa3a86d9b655499ff627de90d4de265e" kindref="member">MR_PixelBitSet</ref><sp/>*mask,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*indexer,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*expansion);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173" refid="MRRectIndexer_8h_1a99bd26041e9f4b810bb537d152a466c1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRectIndexer_8h_1a99bd26041e9f4b810bb537d152a466c1" kindref="member">MR_shrinkPixelMask</ref>(<ref refid="MRBitSet_8h_1afa3a86d9b655499ff627de90d4de265e" kindref="member">MR_PixelBitSet</ref><sp/>*mask,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*indexer,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*shrinkage);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h"/>
   </compounddef>

@@ -268,7 +268,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ab24458e952212b36dcefd28a22554103" id="r_ab24458e952212b36dcefd28a22554103"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a89c8051ab9f8ef3cd2f86752938a9e07">MR_DistanceToMeshOptions</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab24458e952212b36dcefd28a22554103">MR_SignedDistanceToMeshOptions_UpcastTo_MR_DistanceToMeshOptions</a> (const <a class="el" href="#a6b93dbd7a6e09a951ab6ce3a94906586">MR_SignedDistanceToMeshOptions</a> *object)</td></tr>
 <tr class="separator:ab24458e952212b36dcefd28a22554103"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a22a261d911dd00217ff8232e453ea502" id="r_a22a261d911dd00217ff8232e453ea502"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a89c8051ab9f8ef3cd2f86752938a9e07">MR_DistanceToMeshOptions</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22a261d911dd00217ff8232e453ea502">MR_SignedDistanceToMeshOptions_MutableUpcastTo_MR_DistanceToMeshOptions</a> (<a class="el" href="#a6b93dbd7a6e09a951ab6ce3a94906586">MR_SignedDistanceToMeshOptions</a> *object)</td></tr>
-<tr class="memdesc:a22a261d911dd00217ff8232e453ea502"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code>MR::SignedDistanceToMeshOptions</code> to its base class <code>MR::DistanceToMeshOptions</code>.  <br /></td></tr>
 <tr class="separator:a22a261d911dd00217ff8232e453ea502"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa6924366a6fa2f7a72907f1005c4661" id="r_aaa6924366a6fa2f7a72907f1005c4661"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a6b93dbd7a6e09a951ab6ce3a94906586">MR_SignedDistanceToMeshOptions</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa6924366a6fa2f7a72907f1005c4661">MR_SignedDistanceToMeshOptions_ConstructFromAnother</a> (const <a class="el" href="#a6b93dbd7a6e09a951ab6ce3a94906586">MR_SignedDistanceToMeshOptions</a> *_other)</td></tr>
 <tr class="separator:aaa6924366a6fa2f7a72907f1005c4661"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -478,7 +477,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximum squared distance from a point to mesh to be computed precisely Returns a pointer to a member variable of class <code>MR::DistanceToMeshOptions</code> named <code>maxDistSq</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>maximum squared distance from a point to mesh to be computed precisely Returns a pointer to a member variable of class <code>MR::DistanceToMeshOptions</code> named <code>maxDistSq</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -496,7 +495,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>minimum squared distance from a point to mesh to be computed precisely Returns a pointer to a member variable of class <code>MR::DistanceToMeshOptions</code> named <code>minDistSq</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>minimum squared distance from a point to mesh to be computed precisely Returns a pointer to a member variable of class <code>MR::DistanceToMeshOptions</code> named <code>minDistSq</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -514,7 +513,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>what to do if actual distance is outside [min, max) range: true - return std::nullopt for std::optional&lt;float&gt; or NaN for float, false - return approximate value of the distance (with correct sign in case of SignDetectionMode::HoleWindingRule); please note that in HoleWindingRule the sign can change even for too small or too large distances, so if you would like to get closed mesh from marching cubes, set false here Returns a pointer to a member variable of class <code>MR::DistanceToMeshOptions</code> named <code>nullOutsideMinMax</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>what to do if actual distance is outside [min, max) range: true - return std::nullopt for std::optional&lt;float&gt; or NaN for float, false - return approximate value of the distance (with correct sign in case of SignDetectionMode::HoleWindingRule); please note that in HoleWindingRule the sign can change even for too small or too large distances, so if you would like to get closed mesh from marching cubes, set false here Returns a pointer to a member variable of class <code>MR::DistanceToMeshOptions</code> named <code>nullOutsideMinMax</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -532,7 +531,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>only for SignDetectionMode::HoleWindingRule: determines the precision of fast approximation: the more the better, minimum value is 1 Returns a pointer to a member variable of class <code>MR::DistanceToMeshOptions</code> named <code>windingNumberBeta</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>only for SignDetectionMode::HoleWindingRule: determines the precision of fast approximation: the more the better, minimum value is 1 Returns a pointer to a member variable of class <code>MR::DistanceToMeshOptions</code> named <code>windingNumberBeta</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -550,7 +549,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>only for SignDetectionMode::HoleWindingRule: positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes Returns a pointer to a member variable of class <code>MR::DistanceToMeshOptions</code> named <code>windingNumberThreshold</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>only for SignDetectionMode::HoleWindingRule: positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes Returns a pointer to a member variable of class <code>MR::DistanceToMeshOptions</code> named <code>windingNumberThreshold</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -568,7 +567,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximum squared distance from a point to mesh to be computed precisely Returns a mutable pointer to a member variable of class <code>MR::DistanceToMeshOptions</code> named <code>maxDistSq</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>maximum squared distance from a point to mesh to be computed precisely Returns a mutable pointer to a member variable of class <code>MR::DistanceToMeshOptions</code> named <code>maxDistSq</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -586,7 +585,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>minimum squared distance from a point to mesh to be computed precisely Returns a mutable pointer to a member variable of class <code>MR::DistanceToMeshOptions</code> named <code>minDistSq</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>minimum squared distance from a point to mesh to be computed precisely Returns a mutable pointer to a member variable of class <code>MR::DistanceToMeshOptions</code> named <code>minDistSq</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -604,7 +603,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>what to do if actual distance is outside [min, max) range: true - return std::nullopt for std::optional&lt;float&gt; or NaN for float, false - return approximate value of the distance (with correct sign in case of SignDetectionMode::HoleWindingRule); please note that in HoleWindingRule the sign can change even for too small or too large distances, so if you would like to get closed mesh from marching cubes, set false here Returns a mutable pointer to a member variable of class <code>MR::DistanceToMeshOptions</code> named <code>nullOutsideMinMax</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>what to do if actual distance is outside [min, max) range: true - return std::nullopt for std::optional&lt;float&gt; or NaN for float, false - return approximate value of the distance (with correct sign in case of SignDetectionMode::HoleWindingRule); please note that in HoleWindingRule the sign can change even for too small or too large distances, so if you would like to get closed mesh from marching cubes, set false here Returns a mutable pointer to a member variable of class <code>MR::DistanceToMeshOptions</code> named <code>nullOutsideMinMax</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -622,7 +621,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>only for SignDetectionMode::HoleWindingRule: determines the precision of fast approximation: the more the better, minimum value is 1 Returns a mutable pointer to a member variable of class <code>MR::DistanceToMeshOptions</code> named <code>windingNumberBeta</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>only for SignDetectionMode::HoleWindingRule: determines the precision of fast approximation: the more the better, minimum value is 1 Returns a mutable pointer to a member variable of class <code>MR::DistanceToMeshOptions</code> named <code>windingNumberBeta</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -640,7 +639,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>only for SignDetectionMode::HoleWindingRule: positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes Returns a mutable pointer to a member variable of class <code>MR::DistanceToMeshOptions</code> named <code>windingNumberThreshold</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>only for SignDetectionMode::HoleWindingRule: positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes Returns a mutable pointer to a member variable of class <code>MR::DistanceToMeshOptions</code> named <code>windingNumberThreshold</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -658,7 +657,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code>MR::DistanceToMeshOptions</code> to a derived class <code>MR::SignedDistanceToMeshOptions</code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. </p>
+<p>Downcasts an instance of <code>MR::DistanceToMeshOptions</code> to a derived class <code>MR::SignedDistanceToMeshOptions</code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <code>object</code> might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -830,7 +829,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code>MR::DistanceToMeshOptions</code> to a derived class <code>MR::SignedDistanceToMeshOptions</code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. </p>
+<p>Downcasts an instance of <code>MR::DistanceToMeshOptions</code> to a derived class <code>MR::SignedDistanceToMeshOptions</code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <code>object</code> might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -962,7 +961,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximum squared distance from a point to mesh to be computed precisely Returns a pointer to a member variable of class <code>MR::SignedDistanceToMeshOptions</code> named <code>maxDistSq</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>maximum squared distance from a point to mesh to be computed precisely Returns a pointer to a member variable of class <code>MR::SignedDistanceToMeshOptions</code> named <code>maxDistSq</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -980,7 +979,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>minimum squared distance from a point to mesh to be computed precisely Returns a pointer to a member variable of class <code>MR::SignedDistanceToMeshOptions</code> named <code>minDistSq</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>minimum squared distance from a point to mesh to be computed precisely Returns a pointer to a member variable of class <code>MR::SignedDistanceToMeshOptions</code> named <code>minDistSq</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -998,7 +997,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>what to do if actual distance is outside [min, max) range: true - return std::nullopt for std::optional&lt;float&gt; or NaN for float, false - return approximate value of the distance (with correct sign in case of SignDetectionMode::HoleWindingRule); please note that in HoleWindingRule the sign can change even for too small or too large distances, so if you would like to get closed mesh from marching cubes, set false here Returns a pointer to a member variable of class <code>MR::SignedDistanceToMeshOptions</code> named <code>nullOutsideMinMax</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>what to do if actual distance is outside [min, max) range: true - return std::nullopt for std::optional&lt;float&gt; or NaN for float, false - return approximate value of the distance (with correct sign in case of SignDetectionMode::HoleWindingRule); please note that in HoleWindingRule the sign can change even for too small or too large distances, so if you would like to get closed mesh from marching cubes, set false here Returns a pointer to a member variable of class <code>MR::SignedDistanceToMeshOptions</code> named <code>nullOutsideMinMax</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1016,7 +1015,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the method to compute distance sign Returns a pointer to a member variable of class <code>MR::SignedDistanceToMeshOptions</code> named <code>signMode</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the method to compute distance sign Returns a pointer to a member variable of class <code>MR::SignedDistanceToMeshOptions</code> named <code>signMode</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1034,7 +1033,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>only for SignDetectionMode::HoleWindingRule: determines the precision of fast approximation: the more the better, minimum value is 1 Returns a pointer to a member variable of class <code>MR::SignedDistanceToMeshOptions</code> named <code>windingNumberBeta</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>only for SignDetectionMode::HoleWindingRule: determines the precision of fast approximation: the more the better, minimum value is 1 Returns a pointer to a member variable of class <code>MR::SignedDistanceToMeshOptions</code> named <code>windingNumberBeta</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1052,7 +1051,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>only for SignDetectionMode::HoleWindingRule: positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes Returns a pointer to a member variable of class <code>MR::SignedDistanceToMeshOptions</code> named <code>windingNumberThreshold</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>only for SignDetectionMode::HoleWindingRule: positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes Returns a pointer to a member variable of class <code>MR::SignedDistanceToMeshOptions</code> named <code>windingNumberThreshold</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1070,7 +1069,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximum squared distance from a point to mesh to be computed precisely Returns a mutable pointer to a member variable of class <code>MR::SignedDistanceToMeshOptions</code> named <code>maxDistSq</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>maximum squared distance from a point to mesh to be computed precisely Returns a mutable pointer to a member variable of class <code>MR::SignedDistanceToMeshOptions</code> named <code>maxDistSq</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1088,7 +1087,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>minimum squared distance from a point to mesh to be computed precisely Returns a mutable pointer to a member variable of class <code>MR::SignedDistanceToMeshOptions</code> named <code>minDistSq</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>minimum squared distance from a point to mesh to be computed precisely Returns a mutable pointer to a member variable of class <code>MR::SignedDistanceToMeshOptions</code> named <code>minDistSq</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1106,7 +1105,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>what to do if actual distance is outside [min, max) range: true - return std::nullopt for std::optional&lt;float&gt; or NaN for float, false - return approximate value of the distance (with correct sign in case of SignDetectionMode::HoleWindingRule); please note that in HoleWindingRule the sign can change even for too small or too large distances, so if you would like to get closed mesh from marching cubes, set false here Returns a mutable pointer to a member variable of class <code>MR::SignedDistanceToMeshOptions</code> named <code>nullOutsideMinMax</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>what to do if actual distance is outside [min, max) range: true - return std::nullopt for std::optional&lt;float&gt; or NaN for float, false - return approximate value of the distance (with correct sign in case of SignDetectionMode::HoleWindingRule); please note that in HoleWindingRule the sign can change even for too small or too large distances, so if you would like to get closed mesh from marching cubes, set false here Returns a mutable pointer to a member variable of class <code>MR::SignedDistanceToMeshOptions</code> named <code>nullOutsideMinMax</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1124,7 +1123,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the method to compute distance sign Returns a mutable pointer to a member variable of class <code>MR::SignedDistanceToMeshOptions</code> named <code>signMode</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the method to compute distance sign Returns a mutable pointer to a member variable of class <code>MR::SignedDistanceToMeshOptions</code> named <code>signMode</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1142,7 +1141,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>only for SignDetectionMode::HoleWindingRule: determines the precision of fast approximation: the more the better, minimum value is 1 Returns a mutable pointer to a member variable of class <code>MR::SignedDistanceToMeshOptions</code> named <code>windingNumberBeta</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>only for SignDetectionMode::HoleWindingRule: determines the precision of fast approximation: the more the better, minimum value is 1 Returns a mutable pointer to a member variable of class <code>MR::SignedDistanceToMeshOptions</code> named <code>windingNumberBeta</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1160,7 +1159,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>only for SignDetectionMode::HoleWindingRule: positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes Returns a mutable pointer to a member variable of class <code>MR::SignedDistanceToMeshOptions</code> named <code>windingNumberThreshold</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>only for SignDetectionMode::HoleWindingRule: positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes Returns a mutable pointer to a member variable of class <code>MR::SignedDistanceToMeshOptions</code> named <code>windingNumberThreshold</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1178,8 +1177,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Upcasts an instance of <code>MR::SignedDistanceToMeshOptions</code> to its base class <code>MR::DistanceToMeshOptions</code>. </p>
+<p>Upcasts an instance of <code>MR::SignedDistanceToMeshOptions</code> to its base class <code>MR::DistanceToMeshOptions</code>. The reference to the parameter <code>object</code> might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -1373,7 +1371,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Upcasts an instance of <code>MR::SignedDistanceToMeshOptions</code> to its base class <code>MR::DistanceToMeshOptions</code>. This version is acting on mutable pointers. </p>
+<p>Upcasts an instance of <code>MR::SignedDistanceToMeshOptions</code> to its base class <code>MR::DistanceToMeshOptions</code>. This version is acting on mutable pointers. The reference to the parameter <code>object</code> might be preserved in the return value. </p>
 
 </div>
 </div>

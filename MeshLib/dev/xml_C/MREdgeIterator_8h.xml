@@ -290,11 +290,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::UndirectedEdgeIterator::operator*</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+<para>Generated from method <computeroutput>MR::UndirectedEdgeIterator::operator*</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved in the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeIterator.h" line="73" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeIterator.h" declline="73" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeIterator.h" line="74" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeIterator.h" declline="74" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MREdgeIterator_8h_1a326f00595942206f50b03b11ae4fa707" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool</type>
@@ -316,7 +316,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeIterator.h" line="78" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeIterator.h" declline="78" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeIterator.h" line="79" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeIterator.h" declline="79" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MREdgeIterator_8h_1a08d7ddadf6123cd015ce1a3dad42b676" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool</type>
@@ -338,7 +338,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeIterator.h" line="83" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeIterator.h" declline="83" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeIterator.h" line="84" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeIterator.h" declline="84" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MREdgeIterator_8h_1afe9a108ed04bdd1f08944d8ab6d1566a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref> *</type>
@@ -356,7 +356,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeIterator.h" line="88" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeIterator.h" declline="88" declcolumn="52"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeIterator.h" line="89" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeIterator.h" declline="89" declcolumn="52"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -404,17 +404,17 @@
 <codeline lineno="65"><highlight class="normal"></highlight></codeline>
 <codeline lineno="69" refid="MREdgeIterator_8h_1aefdca821e0490a18251c939642ec61f9" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREdgeIterator_8h_1adc8078d2c099930a4e1cfd69ad02cad5" kindref="member">MR_UndirectedEdgeIterator</ref><sp/>*<ref refid="MREdgeIterator_8h_1aefdca821e0490a18251c939642ec61f9" kindref="member">MR_incr_MR_UndirectedEdgeIterator</ref>(<ref refid="MREdgeIterator_8h_1adc8078d2c099930a4e1cfd69ad02cad5" kindref="member">MR_UndirectedEdgeIterator</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="70"><highlight class="normal"></highlight></codeline>
-<codeline lineno="73" refid="MREdgeIterator_8h_1aa4e667a9d2b5d9af31adcceb0732626b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/><ref refid="MREdgeIterator_8h_1aa4e667a9d2b5d9af31adcceb0732626b" kindref="member">MR_deref_MR_UndirectedEdgeIterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeIterator_8h_1adc8078d2c099930a4e1cfd69ad02cad5" kindref="member">MR_UndirectedEdgeIterator</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="74"><highlight class="normal"></highlight></codeline>
-<codeline lineno="78" refid="MREdgeIterator_8h_1a326f00595942206f50b03b11ae4fa707" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MREdgeIterator_8h_1a326f00595942206f50b03b11ae4fa707" kindref="member">MR_equal_MR_UndirectedEdgeIterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeIterator_8h_1adc8078d2c099930a4e1cfd69ad02cad5" kindref="member">MR_UndirectedEdgeIterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeIterator_8h_1adc8078d2c099930a4e1cfd69ad02cad5" kindref="member">MR_UndirectedEdgeIterator</ref><sp/>*b);</highlight></codeline>
-<codeline lineno="79"><highlight class="normal"></highlight></codeline>
-<codeline lineno="83" refid="MREdgeIterator_8h_1a08d7ddadf6123cd015ce1a3dad42b676" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MREdgeIterator_8h_1a08d7ddadf6123cd015ce1a3dad42b676" kindref="member">MR_not_equal_MR_UndirectedEdgeIterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeIterator_8h_1adc8078d2c099930a4e1cfd69ad02cad5" kindref="member">MR_UndirectedEdgeIterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeIterator_8h_1adc8078d2c099930a4e1cfd69ad02cad5" kindref="member">MR_UndirectedEdgeIterator</ref><sp/>*b);</highlight></codeline>
-<codeline lineno="84"><highlight class="normal"></highlight></codeline>
-<codeline lineno="88" refid="MREdgeIterator_8h_1afe9a108ed04bdd1f08944d8ab6d1566a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref><sp/>*<ref refid="MREdgeIterator_8h_1afe9a108ed04bdd1f08944d8ab6d1566a" kindref="member">MR_undirectedEdges_MR_MeshTopology</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology);</highlight></codeline>
-<codeline lineno="89"><highlight class="normal"></highlight></codeline>
-<codeline lineno="90"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="91"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="92"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="74" refid="MREdgeIterator_8h_1aa4e667a9d2b5d9af31adcceb0732626b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/><ref refid="MREdgeIterator_8h_1aa4e667a9d2b5d9af31adcceb0732626b" kindref="member">MR_deref_MR_UndirectedEdgeIterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeIterator_8h_1adc8078d2c099930a4e1cfd69ad02cad5" kindref="member">MR_UndirectedEdgeIterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="MREdgeIterator_8h_1a326f00595942206f50b03b11ae4fa707" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MREdgeIterator_8h_1a326f00595942206f50b03b11ae4fa707" kindref="member">MR_equal_MR_UndirectedEdgeIterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeIterator_8h_1adc8078d2c099930a4e1cfd69ad02cad5" kindref="member">MR_UndirectedEdgeIterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeIterator_8h_1adc8078d2c099930a4e1cfd69ad02cad5" kindref="member">MR_UndirectedEdgeIterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="MREdgeIterator_8h_1a08d7ddadf6123cd015ce1a3dad42b676" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MREdgeIterator_8h_1a08d7ddadf6123cd015ce1a3dad42b676" kindref="member">MR_not_equal_MR_UndirectedEdgeIterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeIterator_8h_1adc8078d2c099930a4e1cfd69ad02cad5" kindref="member">MR_UndirectedEdgeIterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeIterator_8h_1adc8078d2c099930a4e1cfd69ad02cad5" kindref="member">MR_UndirectedEdgeIterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="MREdgeIterator_8h_1afe9a108ed04bdd1f08944d8ab6d1566a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref><sp/>*<ref refid="MREdgeIterator_8h_1afe9a108ed04bdd1f08944d8ab6d1566a" kindref="member">MR_undirectedEdges_MR_MeshTopology</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeIterator.h"/>
   </compounddef>

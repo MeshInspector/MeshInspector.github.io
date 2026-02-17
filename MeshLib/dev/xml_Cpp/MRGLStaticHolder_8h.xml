@@ -12,6 +12,8 @@
       <node id="15">
         <label>MRMesh/MRBuffer.h</label>
         <link refid="MRBuffer_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
         <childnode refid="16" relation="include">
         </childnode>
         <childnode refid="17" relation="include">

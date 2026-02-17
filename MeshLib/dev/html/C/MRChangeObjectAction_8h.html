@@ -180,7 +180,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a50c5d5498e11e973a17c6601cd030d5f" id="r_a50c5d5498e11e973a17c6601cd030d5f"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50c5d5498e11e973a17c6601cd030d5f">MR_ChangeObjectAction_UpcastTo_MR_HistoryAction</a> (const <a class="el" href="#ace428deca741a051d6044c38fa0c124a">MR_ChangeObjectAction</a> *object)</td></tr>
 <tr class="separator:a50c5d5498e11e973a17c6601cd030d5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26a9d35809c48d69cdabdfa6d5c6443b" id="r_a26a9d35809c48d69cdabdfa6d5c6443b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26a9d35809c48d69cdabdfa6d5c6443b">MR_ChangeObjectAction_MutableUpcastTo_MR_HistoryAction</a> (<a class="el" href="#ace428deca741a051d6044c38fa0c124a">MR_ChangeObjectAction</a> *object)</td></tr>
-<tr class="memdesc:a26a9d35809c48d69cdabdfa6d5c6443b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code>MR::ChangeObjectAction</code> to its base class <code>MR::HistoryAction</code>.  <br /></td></tr>
 <tr class="separator:a26a9d35809c48d69cdabdfa6d5c6443b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29306a834793ac0490847c6f28ba6f12" id="r_a29306a834793ac0490847c6f28ba6f12"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ace428deca741a051d6044c38fa0c124a">MR_ChangeObjectAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29306a834793ac0490847c6f28ba6f12">MR_ChangeObjectAction_Construct</a> (const char *name, const char *name_end, const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *obj)</td></tr>
 <tr class="separator:a29306a834793ac0490847c6f28ba6f12"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -426,8 +425,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Upcasts an instance of <code>MR::ChangeObjectAction</code> to its base class <code>MR::HistoryAction</code>. </p>
+<p>Upcasts an instance of <code>MR::ChangeObjectAction</code> to its base class <code>MR::HistoryAction</code>. The reference to the parameter <code>object</code> might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -507,7 +505,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Upcasts an instance of <code>MR::ChangeObjectAction</code> to its base class <code>MR::HistoryAction</code>. This version is acting on mutable pointers. </p>
+<p>Upcasts an instance of <code>MR::ChangeObjectAction</code> to its base class <code>MR::HistoryAction</code>. This version is acting on mutable pointers. The reference to the parameter <code>object</code> might be preserved in the return value. </p>
 
 </div>
 </div>

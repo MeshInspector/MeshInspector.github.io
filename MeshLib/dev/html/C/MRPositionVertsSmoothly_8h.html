@@ -756,7 +756,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>whether to increase the pressure gradually during the iterations (recommended for best quality) Returns a pointer to a member variable of class <code>MR::InflateSettings</code> named <code>gradualPressureGrowth</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>whether to increase the pressure gradually during the iterations (recommended for best quality) Returns a pointer to a member variable of class <code>MR::InflateSettings</code> named <code>gradualPressureGrowth</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -774,7 +774,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the number of internal iterations (&gt;=1); larger number of iterations makes the performance slower, but the quality better Returns a pointer to a member variable of class <code>MR::InflateSettings</code> named <code>iterations</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the number of internal iterations (&gt;=1); larger number of iterations makes the performance slower, but the quality better Returns a pointer to a member variable of class <code>MR::InflateSettings</code> named <code>iterations</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -792,7 +792,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>smooths the area before starting inflation; please set to false only if the region is known to be already smooth Returns a pointer to a member variable of class <code>MR::InflateSettings</code> named <code>preSmooth</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>smooths the area before starting inflation; please set to false only if the region is known to be already smooth Returns a pointer to a member variable of class <code>MR::InflateSettings</code> named <code>preSmooth</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -810,7 +810,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the amount of pressure applied to mesh region: positive pressure moves the vertices outside, negative - inside; please specify a value by magnitude about the region diagonal Returns a pointer to a member variable of class <code>MR::InflateSettings</code> named <code>pressure</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the amount of pressure applied to mesh region: positive pressure moves the vertices outside, negative - inside; please specify a value by magnitude about the region diagonal Returns a pointer to a member variable of class <code>MR::InflateSettings</code> named <code>pressure</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -828,7 +828,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>whether to increase the pressure gradually during the iterations (recommended for best quality) Returns a mutable pointer to a member variable of class <code>MR::InflateSettings</code> named <code>gradualPressureGrowth</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>whether to increase the pressure gradually during the iterations (recommended for best quality) Returns a mutable pointer to a member variable of class <code>MR::InflateSettings</code> named <code>gradualPressureGrowth</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -846,7 +846,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the number of internal iterations (&gt;=1); larger number of iterations makes the performance slower, but the quality better Returns a mutable pointer to a member variable of class <code>MR::InflateSettings</code> named <code>iterations</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the number of internal iterations (&gt;=1); larger number of iterations makes the performance slower, but the quality better Returns a mutable pointer to a member variable of class <code>MR::InflateSettings</code> named <code>iterations</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -864,7 +864,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>smooths the area before starting inflation; please set to false only if the region is known to be already smooth Returns a mutable pointer to a member variable of class <code>MR::InflateSettings</code> named <code>preSmooth</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>smooths the area before starting inflation; please set to false only if the region is known to be already smooth Returns a mutable pointer to a member variable of class <code>MR::InflateSettings</code> named <code>preSmooth</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -882,7 +882,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the amount of pressure applied to mesh region: positive pressure moves the vertices outside, negative - inside; please specify a value by magnitude about the region diagonal Returns a mutable pointer to a member variable of class <code>MR::InflateSettings</code> named <code>pressure</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the amount of pressure applied to mesh region: positive pressure moves the vertices outside, negative - inside; please specify a value by magnitude about the region diagonal Returns a mutable pointer to a member variable of class <code>MR::InflateSettings</code> named <code>pressure</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1287,7 +1287,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if specified then it is used for edge weights instead of default 1 Returns a pointer to a member variable of class <code>MR::PositionVertsSmoothlyParams</code> named <code>edgeWeights</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if specified then it is used for edge weights instead of default 1 Returns a pointer to a member variable of class <code>MR::PositionVertsSmoothlyParams</code> named <code>edgeWeights</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1305,7 +1305,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>which vertices on mesh are smoothed, nullptr means all vertices; it must not include all vertices of a mesh connected component unless stabilizer &gt; 0 Returns a pointer to a member variable of class <code>MR::PositionVertsSmoothlyParams</code> named <code>region</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>which vertices on mesh are smoothed, nullptr means all vertices; it must not include all vertices of a mesh connected component unless stabilizer &gt; 0 Returns a pointer to a member variable of class <code>MR::PositionVertsSmoothlyParams</code> named <code>region</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1323,7 +1323,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the more the value, the bigger attraction of each vertex to its original position Returns a pointer to a member variable of class <code>MR::PositionVertsSmoothlyParams</code> named <code>stabilizer</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the more the value, the bigger attraction of each vertex to its original position Returns a pointer to a member variable of class <code>MR::PositionVertsSmoothlyParams</code> named <code>stabilizer</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1341,7 +1341,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional additional shifts of each vertex relative to smooth position Returns a pointer to a member variable of class <code>MR::PositionVertsSmoothlyParams</code> named <code>vertShifts</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>optional additional shifts of each vertex relative to smooth position Returns a pointer to a member variable of class <code>MR::PositionVertsSmoothlyParams</code> named <code>vertShifts</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1359,7 +1359,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if specified then it is used instead of <code>stabilizer</code> Returns a pointer to a member variable of class <code>MR::PositionVertsSmoothlyParams</code> named <code>vertStabilizers</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if specified then it is used instead of <code>stabilizer</code> Returns a pointer to a member variable of class <code>MR::PositionVertsSmoothlyParams</code> named <code>vertStabilizers</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1377,7 +1377,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if specified then it is used for edge weights instead of default 1 Returns a mutable pointer to a member variable of class <code>MR::PositionVertsSmoothlyParams</code> named <code>edgeWeights</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if specified then it is used for edge weights instead of default 1 Returns a mutable pointer to a member variable of class <code>MR::PositionVertsSmoothlyParams</code> named <code>edgeWeights</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1395,7 +1395,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>which vertices on mesh are smoothed, nullptr means all vertices; it must not include all vertices of a mesh connected component unless stabilizer &gt; 0 Returns a mutable pointer to a member variable of class <code>MR::PositionVertsSmoothlyParams</code> named <code>region</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>which vertices on mesh are smoothed, nullptr means all vertices; it must not include all vertices of a mesh connected component unless stabilizer &gt; 0 Returns a mutable pointer to a member variable of class <code>MR::PositionVertsSmoothlyParams</code> named <code>region</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1413,7 +1413,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the more the value, the bigger attraction of each vertex to its original position Returns a mutable pointer to a member variable of class <code>MR::PositionVertsSmoothlyParams</code> named <code>stabilizer</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the more the value, the bigger attraction of each vertex to its original position Returns a mutable pointer to a member variable of class <code>MR::PositionVertsSmoothlyParams</code> named <code>stabilizer</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1431,7 +1431,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional additional shifts of each vertex relative to smooth position Returns a mutable pointer to a member variable of class <code>MR::PositionVertsSmoothlyParams</code> named <code>vertShifts</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>optional additional shifts of each vertex relative to smooth position Returns a mutable pointer to a member variable of class <code>MR::PositionVertsSmoothlyParams</code> named <code>vertShifts</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1449,7 +1449,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if specified then it is used instead of <code>stabilizer</code> Returns a mutable pointer to a member variable of class <code>MR::PositionVertsSmoothlyParams</code> named <code>vertStabilizers</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if specified then it is used instead of <code>stabilizer</code> Returns a mutable pointer to a member variable of class <code>MR::PositionVertsSmoothlyParams</code> named <code>vertStabilizers</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1926,7 +1926,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::SpacingSettings</code> named <code>dist</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::SpacingSettings</code> named <code>dist</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1944,7 +1944,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if this predicated is given, then all inverted faces will be converted in degenerate faces at the end of each iteration Returns a pointer to a member variable of class <code>MR::SpacingSettings</code> named <code>isInverted</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if this predicated is given, then all inverted faces will be converted in degenerate faces at the end of each iteration Returns a pointer to a member variable of class <code>MR::SpacingSettings</code> named <code>isInverted</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1962,7 +1962,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximum sum of minus negative weights, if it is exceeded then stabilizer is increased automatically Returns a pointer to a member variable of class <code>MR::SpacingSettings</code> named <code>maxSumNegW</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>maximum sum of minus negative weights, if it is exceeded then stabilizer is increased automatically Returns a pointer to a member variable of class <code>MR::SpacingSettings</code> named <code>maxSumNegW</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1980,7 +1980,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the algorithm is iterative, the more iterations the closer result to exact solution Returns a pointer to a member variable of class <code>MR::SpacingSettings</code> named <code>numIters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the algorithm is iterative, the more iterations the closer result to exact solution Returns a pointer to a member variable of class <code>MR::SpacingSettings</code> named <code>numIters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1998,7 +1998,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>vertices to be moved by the algorithm, nullptr means all valid vertices Returns a pointer to a member variable of class <code>MR::SpacingSettings</code> named <code>region</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>vertices to be moved by the algorithm, nullptr means all valid vertices Returns a pointer to a member variable of class <code>MR::SpacingSettings</code> named <code>region</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2016,7 +2016,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>too small number here can lead to instability, too large - to slow convergence Returns a pointer to a member variable of class <code>MR::SpacingSettings</code> named <code>stabilizer</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>too small number here can lead to instability, too large - to slow convergence Returns a pointer to a member variable of class <code>MR::SpacingSettings</code> named <code>stabilizer</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2034,7 +2034,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::SpacingSettings</code> named <code>dist</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::SpacingSettings</code> named <code>dist</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2052,7 +2052,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if this predicated is given, then all inverted faces will be converted in degenerate faces at the end of each iteration Returns a mutable pointer to a member variable of class <code>MR::SpacingSettings</code> named <code>isInverted</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if this predicated is given, then all inverted faces will be converted in degenerate faces at the end of each iteration Returns a mutable pointer to a member variable of class <code>MR::SpacingSettings</code> named <code>isInverted</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2070,7 +2070,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximum sum of minus negative weights, if it is exceeded then stabilizer is increased automatically Returns a mutable pointer to a member variable of class <code>MR::SpacingSettings</code> named <code>maxSumNegW</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>maximum sum of minus negative weights, if it is exceeded then stabilizer is increased automatically Returns a mutable pointer to a member variable of class <code>MR::SpacingSettings</code> named <code>maxSumNegW</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2088,7 +2088,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the algorithm is iterative, the more iterations the closer result to exact solution Returns a mutable pointer to a member variable of class <code>MR::SpacingSettings</code> named <code>numIters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the algorithm is iterative, the more iterations the closer result to exact solution Returns a mutable pointer to a member variable of class <code>MR::SpacingSettings</code> named <code>numIters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2106,7 +2106,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>vertices to be moved by the algorithm, nullptr means all valid vertices Returns a mutable pointer to a member variable of class <code>MR::SpacingSettings</code> named <code>region</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>vertices to be moved by the algorithm, nullptr means all valid vertices Returns a mutable pointer to a member variable of class <code>MR::SpacingSettings</code> named <code>region</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2124,7 +2124,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>too small number here can lead to instability, too large - to slow convergence Returns a mutable pointer to a member variable of class <code>MR::SpacingSettings</code> named <code>stabilizer</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>too small number here can lead to instability, too large - to slow convergence Returns a mutable pointer to a member variable of class <code>MR::SpacingSettings</code> named <code>stabilizer</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>

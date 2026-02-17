@@ -544,7 +544,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the number of cells in X and Y dimensions; the number of vertices will be at most (X+1)*(Y+1) Returns a pointer to a member variable of class <code>MR::GridSettings</code> named <code>dim</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the number of cells in X and Y dimensions; the number of vertices will be at most (X+1)*(Y+1) Returns a pointer to a member variable of class <code>MR::GridSettings</code> named <code>dim</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -562,7 +562,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>grid coordinates of lower-left vertex and triangle-type to faceId; all 3 vertices and all 3 edges of valid face must be valid as well; index is 2 * ( x + y * settings.dim.x ) + triType Returns a pointer to a member variable of class <code>MR::GridSettings</code> named <code>faceIds</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>grid coordinates of lower-left vertex and triangle-type to faceId; all 3 vertices and all 3 edges of valid face must be valid as well; index is 2 * ( x + y * settings.dim.x ) + triType Returns a pointer to a member variable of class <code>MR::GridSettings</code> named <code>faceIds</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -580,7 +580,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>grid coordinates of lower-left vertex and edge-type to edgeId with the origin in this vertex; both vertices of valid edge must be valid as well; index is 4 * ( x + y * ( settings.dim.x + 1 ) ) + edgeType Returns a pointer to a member variable of class <code>MR::GridSettings</code> named <code>uedgeIds</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>grid coordinates of lower-left vertex and edge-type to edgeId with the origin in this vertex; both vertices of valid edge must be valid as well; index is 4 * ( x + y * ( settings.dim.x + 1 ) ) + edgeType Returns a pointer to a member variable of class <code>MR::GridSettings</code> named <code>uedgeIds</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -598,7 +598,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>grid coordinates to vertex Id; invalid vertex Id means that this vertex is missing in grid; index is x + y * ( settings.dim.x + 1 ) Returns a pointer to a member variable of class <code>MR::GridSettings</code> named <code>vertIds</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>grid coordinates to vertex Id; invalid vertex Id means that this vertex is missing in grid; index is x + y * ( settings.dim.x + 1 ) Returns a pointer to a member variable of class <code>MR::GridSettings</code> named <code>vertIds</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -616,7 +616,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the number of cells in X and Y dimensions; the number of vertices will be at most (X+1)*(Y+1) Returns a mutable pointer to a member variable of class <code>MR::GridSettings</code> named <code>dim</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the number of cells in X and Y dimensions; the number of vertices will be at most (X+1)*(Y+1) Returns a mutable pointer to a member variable of class <code>MR::GridSettings</code> named <code>dim</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -634,7 +634,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>grid coordinates of lower-left vertex and triangle-type to faceId; all 3 vertices and all 3 edges of valid face must be valid as well; index is 2 * ( x + y * settings.dim.x ) + triType Returns a mutable pointer to a member variable of class <code>MR::GridSettings</code> named <code>faceIds</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>grid coordinates of lower-left vertex and triangle-type to faceId; all 3 vertices and all 3 edges of valid face must be valid as well; index is 2 * ( x + y * settings.dim.x ) + triType Returns a mutable pointer to a member variable of class <code>MR::GridSettings</code> named <code>faceIds</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -652,7 +652,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>grid coordinates of lower-left vertex and edge-type to edgeId with the origin in this vertex; both vertices of valid edge must be valid as well; index is 4 * ( x + y * ( settings.dim.x + 1 ) ) + edgeType Returns a mutable pointer to a member variable of class <code>MR::GridSettings</code> named <code>uedgeIds</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>grid coordinates of lower-left vertex and edge-type to edgeId with the origin in this vertex; both vertices of valid edge must be valid as well; index is 4 * ( x + y * ( settings.dim.x + 1 ) ) + edgeType Returns a mutable pointer to a member variable of class <code>MR::GridSettings</code> named <code>uedgeIds</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -670,7 +670,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>grid coordinates to vertex Id; invalid vertex Id means that this vertex is missing in grid; index is x + y * ( settings.dim.x + 1 ) Returns a mutable pointer to a member variable of class <code>MR::GridSettings</code> named <code>vertIds</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>grid coordinates to vertex Id; invalid vertex Id means that this vertex is missing in grid; index is x + y * ( settings.dim.x + 1 ) Returns a mutable pointer to a member variable of class <code>MR::GridSettings</code> named <code>vertIds</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>

@@ -142,11 +142,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional out map from input points to output Returns a pointer to a member variable of class <computeroutput>MR::DividePointCloudOptionalOutput</computeroutput> named <computeroutput>outVmap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>optional out map from input points to output Returns a pointer to a member variable of class <computeroutput>MR::DividePointCloudOptionalOutput</computeroutput> named <computeroutput>outVmap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" line="34" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" declline="34" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" line="35" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" declline="35" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRPointCloudDivideWithPlane_8h_1aad2a43cc6609ab8d4066b1facfe79a35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -168,7 +168,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" line="41" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" declline="41" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" line="42" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" declline="42" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPointCloudDivideWithPlane_8h_1a49211536f8a79618752533796fc80901" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref> **</type>
@@ -182,11 +182,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional out map from input points to output Returns a mutable pointer to a member variable of class <computeroutput>MR::DividePointCloudOptionalOutput</computeroutput> named <computeroutput>outVmap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>optional out map from input points to output Returns a mutable pointer to a member variable of class <computeroutput>MR::DividePointCloudOptionalOutput</computeroutput> named <computeroutput>outVmap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" line="47" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" declline="47" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" line="49" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" declline="49" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRPointCloudDivideWithPlane_8h_1a66ab65eb4e3c0eddb7ac318475829ed9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *const *</type>
@@ -200,11 +200,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional out other part of the point cloud Returns a pointer to a member variable of class <computeroutput>MR::DividePointCloudOptionalOutput</computeroutput> named <computeroutput>otherPart</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>optional out other part of the point cloud Returns a pointer to a member variable of class <computeroutput>MR::DividePointCloudOptionalOutput</computeroutput> named <computeroutput>otherPart</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" line="53" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" declline="53" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" line="56" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" declline="56" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRPointCloudDivideWithPlane_8h_1a24d34e5b39f74feb3f750bd4af1e34e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -226,7 +226,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" line="60" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" declline="60" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" line="63" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" declline="63" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPointCloudDivideWithPlane_8h_1a86a4f8ea581560c3d89286b546767584" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> **</type>
@@ -240,11 +240,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional out other part of the point cloud Returns a mutable pointer to a member variable of class <computeroutput>MR::DividePointCloudOptionalOutput</computeroutput> named <computeroutput>otherPart</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>optional out other part of the point cloud Returns a mutable pointer to a member variable of class <computeroutput>MR::DividePointCloudOptionalOutput</computeroutput> named <computeroutput>otherPart</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" line="66" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" declline="66" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" line="70" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" declline="70" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRPointCloudDivideWithPlane_8h_1a4aa998cca2c1ab77f281b09a92ea5d36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref> *const *</type>
@@ -258,11 +258,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional out map from input points to other part output Returns a pointer to a member variable of class <computeroutput>MR::DividePointCloudOptionalOutput</computeroutput> named <computeroutput>otherOutVmap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>optional out map from input points to other part output Returns a pointer to a member variable of class <computeroutput>MR::DividePointCloudOptionalOutput</computeroutput> named <computeroutput>otherOutVmap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" line="72" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" declline="72" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" line="77" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" declline="77" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRPointCloudDivideWithPlane_8h_1afb90cd51da7139261e560fc3ef08e8bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -284,7 +284,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" line="79" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" declline="79" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" line="84" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" declline="84" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPointCloudDivideWithPlane_8h_1a9746c40f7c7f654f3e42e82c7f585e38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref> **</type>
@@ -298,11 +298,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional out map from input points to other part output Returns a mutable pointer to a member variable of class <computeroutput>MR::DividePointCloudOptionalOutput</computeroutput> named <computeroutput>otherOutVmap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>optional out map from input points to other part output Returns a mutable pointer to a member variable of class <computeroutput>MR::DividePointCloudOptionalOutput</computeroutput> named <computeroutput>otherOutVmap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" line="85" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" declline="85" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" line="91" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" declline="91" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRPointCloudDivideWithPlane_8h_1a311c83d628c1a2fc3a6a360c5193b7e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref> *</type>
@@ -319,7 +319,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" line="89" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" declline="89" declcolumn="43"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" line="95" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" declline="95" declcolumn="43"/>
       </memberdef>
       <memberdef kind="function" id="MRPointCloudDivideWithPlane_8h_1a1b3a6191fcfcb4ef4538e14f7a19c757" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref> *</type>
@@ -337,7 +337,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" line="94" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" declline="94" declcolumn="43"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" line="100" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" declline="100" declcolumn="43"/>
       </memberdef>
       <memberdef kind="function" id="MRPointCloudDivideWithPlane_8h_1ada78f6792cab8e4b27f0cc8e473a6851" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref> *</type>
@@ -363,7 +363,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" line="102" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" declline="102" declcolumn="43"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" line="108" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" declline="108" declcolumn="43"/>
       </memberdef>
       <memberdef kind="function" id="MRPointCloudDivideWithPlane_8h_1ac2a85235dac6e532c0c0143a464dc4dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref> *</type>
@@ -385,7 +385,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" line="106" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" declline="106" declcolumn="49"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" line="112" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" declline="112" declcolumn="49"/>
       </memberdef>
       <memberdef kind="function" id="MRPointCloudDivideWithPlane_8h_1afe9b7d1e7c1c0f8760c8ca4b186fba24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref> *</type>
@@ -407,7 +407,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" line="110" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" declline="110" declcolumn="43"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" line="116" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" declline="116" declcolumn="43"/>
       </memberdef>
       <memberdef kind="function" id="MRPointCloudDivideWithPlane_8h_1a0c3447da794b15be7a189c8c4bbab486" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref> *</type>
@@ -425,7 +425,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" line="116" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" declline="116" declcolumn="43"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" line="122" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" declline="122" declcolumn="43"/>
       </memberdef>
       <memberdef kind="function" id="MRPointCloudDivideWithPlane_8h_1a77f45354e4d3ed29662de955fa25104d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -443,7 +443,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" line="119" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" declline="119" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" line="125" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" declline="125" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPointCloudDivideWithPlane_8h_1a0f7527194c64ee234a6401e1cbe52115" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -461,7 +461,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" line="122" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" declline="122" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" line="128" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" declline="128" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPointCloudDivideWithPlane_8h_1a8c7a1d1b7cc332eeeb184456d9c49c4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref> *</type>
@@ -483,7 +483,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" line="130" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" declline="130" declcolumn="43"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" line="136" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" declline="136" declcolumn="43"/>
       </memberdef>
       <memberdef kind="function" id="MRPointCloudDivideWithPlane_8h_1afb4666a02cb50a0dc71479d823772243" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *</type>
@@ -536,7 +536,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" line="143" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" declline="143" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" line="149" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h" declline="149" declcolumn="23"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -564,47 +564,47 @@
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
 <codeline lineno="28" refid="MRPointCloudDivideWithPlane_8h_1afc230a69179f7251dcc7df3cde2e43fe" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*<ref refid="MRPointCloudDivideWithPlane_8h_1afc230a69179f7251dcc7df3cde2e43fe" kindref="member">MR_findHalfSpacePoints</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*pc,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*plane);</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34" refid="MRPointCloudDivideWithPlane_8h_1a87550b90819fe18bb4398ba7bcb93de8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPointCloudDivideWithPlane_8h_1a87550b90819fe18bb4398ba7bcb93de8" kindref="member">MR_DividePointCloudOptionalOutput_Get_outVmap</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41" refid="MRPointCloudDivideWithPlane_8h_1aad2a43cc6609ab8d4066b1facfe79a35" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudDivideWithPlane_8h_1aad2a43cc6609ab8d4066b1facfe79a35" kindref="member">MR_DividePointCloudOptionalOutput_Set_outVmap</ref>(<ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref><sp/>*_this,<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47" refid="MRPointCloudDivideWithPlane_8h_1a49211536f8a79618752533796fc80901" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>**<ref refid="MRPointCloudDivideWithPlane_8h_1a49211536f8a79618752533796fc80901" kindref="member">MR_DividePointCloudOptionalOutput_GetMutable_outVmap</ref>(<ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"></highlight></codeline>
-<codeline lineno="53" refid="MRPointCloudDivideWithPlane_8h_1a66ab65eb4e3c0eddb7ac318475829ed9" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPointCloudDivideWithPlane_8h_1a66ab65eb4e3c0eddb7ac318475829ed9" kindref="member">MR_DividePointCloudOptionalOutput_Get_otherPart</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="54"><highlight class="normal"></highlight></codeline>
-<codeline lineno="60" refid="MRPointCloudDivideWithPlane_8h_1a24d34e5b39f74feb3f750bd4af1e34e9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudDivideWithPlane_8h_1a24d34e5b39f74feb3f750bd4af1e34e9" kindref="member">MR_DividePointCloudOptionalOutput_Set_otherPart</ref>(<ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref><sp/>*_this,<sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="61"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66" refid="MRPointCloudDivideWithPlane_8h_1a86a4f8ea581560c3d89286b546767584" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>**<ref refid="MRPointCloudDivideWithPlane_8h_1a86a4f8ea581560c3d89286b546767584" kindref="member">MR_DividePointCloudOptionalOutput_GetMutable_otherPart</ref>(<ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="67"><highlight class="normal"></highlight></codeline>
-<codeline lineno="72" refid="MRPointCloudDivideWithPlane_8h_1a4aa998cca2c1ab77f281b09a92ea5d36" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPointCloudDivideWithPlane_8h_1a4aa998cca2c1ab77f281b09a92ea5d36" kindref="member">MR_DividePointCloudOptionalOutput_Get_otherOutVmap</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="73"><highlight class="normal"></highlight></codeline>
-<codeline lineno="79" refid="MRPointCloudDivideWithPlane_8h_1afb90cd51da7139261e560fc3ef08e8bd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudDivideWithPlane_8h_1afb90cd51da7139261e560fc3ef08e8bd" kindref="member">MR_DividePointCloudOptionalOutput_Set_otherOutVmap</ref>(<ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref><sp/>*_this,<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="80"><highlight class="normal"></highlight></codeline>
-<codeline lineno="85" refid="MRPointCloudDivideWithPlane_8h_1a9746c40f7c7f654f3e42e82c7f585e38" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>**<ref refid="MRPointCloudDivideWithPlane_8h_1a9746c40f7c7f654f3e42e82c7f585e38" kindref="member">MR_DividePointCloudOptionalOutput_GetMutable_otherOutVmap</ref>(<ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="86"><highlight class="normal"></highlight></codeline>
-<codeline lineno="89" refid="MRPointCloudDivideWithPlane_8h_1a311c83d628c1a2fc3a6a360c5193b7e8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref><sp/>*<ref refid="MRPointCloudDivideWithPlane_8h_1a311c83d628c1a2fc3a6a360c5193b7e8" kindref="member">MR_DividePointCloudOptionalOutput_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="90"><highlight class="normal"></highlight></codeline>
-<codeline lineno="94" refid="MRPointCloudDivideWithPlane_8h_1a1b3a6191fcfcb4ef4538e14f7a19c757" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref><sp/>*<ref refid="MRPointCloudDivideWithPlane_8h_1a1b3a6191fcfcb4ef4538e14f7a19c757" kindref="member">MR_DividePointCloudOptionalOutput_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="95"><highlight class="normal"></highlight></codeline>
-<codeline lineno="102" refid="MRPointCloudDivideWithPlane_8h_1ada78f6792cab8e4b27f0cc8e473a6851" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref><sp/>*<ref refid="MRPointCloudDivideWithPlane_8h_1ada78f6792cab8e4b27f0cc8e473a6851" kindref="member">MR_DividePointCloudOptionalOutput_ConstructFrom</ref>(<ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*outVmap,<sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*otherPart,<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*otherOutVmap);</highlight></codeline>
-<codeline lineno="103"><highlight class="normal"></highlight></codeline>
-<codeline lineno="106" refid="MRPointCloudDivideWithPlane_8h_1ac2a85235dac6e532c0c0143a464dc4dc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref><sp/>*<ref refid="MRPointCloudDivideWithPlane_8h_1ac2a85235dac6e532c0c0143a464dc4dc" kindref="member">MR_DividePointCloudOptionalOutput_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="107"><highlight class="normal"></highlight></codeline>
-<codeline lineno="110" refid="MRPointCloudDivideWithPlane_8h_1afe9b7d1e7c1c0f8760c8ca4b186fba24" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref><sp/>*<ref refid="MRPointCloudDivideWithPlane_8h_1afe9b7d1e7c1c0f8760c8ca4b186fba24" kindref="member">MR_DividePointCloudOptionalOutput_OffsetMutablePtr</ref>(<ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="111"><highlight class="normal"></highlight></codeline>
-<codeline lineno="116" refid="MRPointCloudDivideWithPlane_8h_1a0c3447da794b15be7a189c8c4bbab486" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref><sp/>*<ref refid="MRPointCloudDivideWithPlane_8h_1a0c3447da794b15be7a189c8c4bbab486" kindref="member">MR_DividePointCloudOptionalOutput_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="35" refid="MRPointCloudDivideWithPlane_8h_1a87550b90819fe18bb4398ba7bcb93de8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPointCloudDivideWithPlane_8h_1a87550b90819fe18bb4398ba7bcb93de8" kindref="member">MR_DividePointCloudOptionalOutput_Get_outVmap</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="MRPointCloudDivideWithPlane_8h_1aad2a43cc6609ab8d4066b1facfe79a35" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudDivideWithPlane_8h_1aad2a43cc6609ab8d4066b1facfe79a35" kindref="member">MR_DividePointCloudOptionalOutput_Set_outVmap</ref>(<ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref><sp/>*_this,<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="MRPointCloudDivideWithPlane_8h_1a49211536f8a79618752533796fc80901" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>**<ref refid="MRPointCloudDivideWithPlane_8h_1a49211536f8a79618752533796fc80901" kindref="member">MR_DividePointCloudOptionalOutput_GetMutable_outVmap</ref>(<ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="MRPointCloudDivideWithPlane_8h_1a66ab65eb4e3c0eddb7ac318475829ed9" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPointCloudDivideWithPlane_8h_1a66ab65eb4e3c0eddb7ac318475829ed9" kindref="member">MR_DividePointCloudOptionalOutput_Get_otherPart</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="MRPointCloudDivideWithPlane_8h_1a24d34e5b39f74feb3f750bd4af1e34e9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudDivideWithPlane_8h_1a24d34e5b39f74feb3f750bd4af1e34e9" kindref="member">MR_DividePointCloudOptionalOutput_Set_otherPart</ref>(<ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref><sp/>*_this,<sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="MRPointCloudDivideWithPlane_8h_1a86a4f8ea581560c3d89286b546767584" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>**<ref refid="MRPointCloudDivideWithPlane_8h_1a86a4f8ea581560c3d89286b546767584" kindref="member">MR_DividePointCloudOptionalOutput_GetMutable_otherPart</ref>(<ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="MRPointCloudDivideWithPlane_8h_1a4aa998cca2c1ab77f281b09a92ea5d36" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPointCloudDivideWithPlane_8h_1a4aa998cca2c1ab77f281b09a92ea5d36" kindref="member">MR_DividePointCloudOptionalOutput_Get_otherOutVmap</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="MRPointCloudDivideWithPlane_8h_1afb90cd51da7139261e560fc3ef08e8bd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudDivideWithPlane_8h_1afb90cd51da7139261e560fc3ef08e8bd" kindref="member">MR_DividePointCloudOptionalOutput_Set_otherOutVmap</ref>(<ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref><sp/>*_this,<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="MRPointCloudDivideWithPlane_8h_1a9746c40f7c7f654f3e42e82c7f585e38" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>**<ref refid="MRPointCloudDivideWithPlane_8h_1a9746c40f7c7f654f3e42e82c7f585e38" kindref="member">MR_DividePointCloudOptionalOutput_GetMutable_otherOutVmap</ref>(<ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="MRPointCloudDivideWithPlane_8h_1a311c83d628c1a2fc3a6a360c5193b7e8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref><sp/>*<ref refid="MRPointCloudDivideWithPlane_8h_1a311c83d628c1a2fc3a6a360c5193b7e8" kindref="member">MR_DividePointCloudOptionalOutput_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="MRPointCloudDivideWithPlane_8h_1a1b3a6191fcfcb4ef4538e14f7a19c757" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref><sp/>*<ref refid="MRPointCloudDivideWithPlane_8h_1a1b3a6191fcfcb4ef4538e14f7a19c757" kindref="member">MR_DividePointCloudOptionalOutput_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="MRPointCloudDivideWithPlane_8h_1ada78f6792cab8e4b27f0cc8e473a6851" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref><sp/>*<ref refid="MRPointCloudDivideWithPlane_8h_1ada78f6792cab8e4b27f0cc8e473a6851" kindref="member">MR_DividePointCloudOptionalOutput_ConstructFrom</ref>(<ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*outVmap,<sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*otherPart,<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*otherOutVmap);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="MRPointCloudDivideWithPlane_8h_1ac2a85235dac6e532c0c0143a464dc4dc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref><sp/>*<ref refid="MRPointCloudDivideWithPlane_8h_1ac2a85235dac6e532c0c0143a464dc4dc" kindref="member">MR_DividePointCloudOptionalOutput_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116" refid="MRPointCloudDivideWithPlane_8h_1afe9b7d1e7c1c0f8760c8ca4b186fba24" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref><sp/>*<ref refid="MRPointCloudDivideWithPlane_8h_1afe9b7d1e7c1c0f8760c8ca4b186fba24" kindref="member">MR_DividePointCloudOptionalOutput_OffsetMutablePtr</ref>(<ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="117"><highlight class="normal"></highlight></codeline>
-<codeline lineno="119" refid="MRPointCloudDivideWithPlane_8h_1a77f45354e4d3ed29662de955fa25104d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudDivideWithPlane_8h_1a77f45354e4d3ed29662de955fa25104d" kindref="member">MR_DividePointCloudOptionalOutput_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="120"><highlight class="normal"></highlight></codeline>
-<codeline lineno="122" refid="MRPointCloudDivideWithPlane_8h_1a0f7527194c64ee234a6401e1cbe52115" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudDivideWithPlane_8h_1a0f7527194c64ee234a6401e1cbe52115" kindref="member">MR_DividePointCloudOptionalOutput_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="122" refid="MRPointCloudDivideWithPlane_8h_1a0c3447da794b15be7a189c8c4bbab486" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref><sp/>*<ref refid="MRPointCloudDivideWithPlane_8h_1a0c3447da794b15be7a189c8c4bbab486" kindref="member">MR_DividePointCloudOptionalOutput_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="123"><highlight class="normal"></highlight></codeline>
-<codeline lineno="130" refid="MRPointCloudDivideWithPlane_8h_1a8c7a1d1b7cc332eeeb184456d9c49c4e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref><sp/>*<ref refid="MRPointCloudDivideWithPlane_8h_1a8c7a1d1b7cc332eeeb184456d9c49c4e" kindref="member">MR_DividePointCloudOptionalOutput_AssignFromAnother</ref>(<ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="131"><highlight class="normal"></highlight></codeline>
-<codeline lineno="143" refid="MRPointCloudDivideWithPlane_8h_1afb4666a02cb50a0dc71479d823772243" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*<ref refid="MRPointCloudDivideWithPlane_8h_1afb4666a02cb50a0dc71479d823772243" kindref="member">MR_divideWithPlane</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*plane,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref><sp/>*optOut);</highlight></codeline>
-<codeline lineno="144"><highlight class="normal"></highlight></codeline>
-<codeline lineno="145"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="146"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="147"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="125" refid="MRPointCloudDivideWithPlane_8h_1a77f45354e4d3ed29662de955fa25104d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudDivideWithPlane_8h_1a77f45354e4d3ed29662de955fa25104d" kindref="member">MR_DividePointCloudOptionalOutput_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128" refid="MRPointCloudDivideWithPlane_8h_1a0f7527194c64ee234a6401e1cbe52115" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudDivideWithPlane_8h_1a0f7527194c64ee234a6401e1cbe52115" kindref="member">MR_DividePointCloudOptionalOutput_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="MRPointCloudDivideWithPlane_8h_1a8c7a1d1b7cc332eeeb184456d9c49c4e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref><sp/>*<ref refid="MRPointCloudDivideWithPlane_8h_1a8c7a1d1b7cc332eeeb184456d9c49c4e" kindref="member">MR_DividePointCloudOptionalOutput_AssignFromAnother</ref>(<ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149" refid="MRPointCloudDivideWithPlane_8h_1afb4666a02cb50a0dc71479d823772243" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*<ref refid="MRPointCloudDivideWithPlane_8h_1afb4666a02cb50a0dc71479d823772243" kindref="member">MR_divideWithPlane</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*plane,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointCloudDivideWithPlane_8h_1ab0d92f1cdb13a1672ea66177f4074a43" kindref="member">MR_DividePointCloudOptionalOutput</ref><sp/>*optOut);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointCloudDivideWithPlane.h"/>
   </compounddef>

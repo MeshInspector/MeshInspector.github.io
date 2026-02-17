@@ -941,7 +941,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if set - used to transform contours form its local space to mesh local space Returns a pointer to a member variable of class <code>MR::CutByProjectionSettings</code> named <code>cont2mesh</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if set - used to transform contours form its local space to mesh local space Returns a pointer to a member variable of class <code>MR::CutByProjectionSettings</code> named <code>cont2mesh</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -959,7 +959,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>direction of projection (in mesh space) Returns a pointer to a member variable of class <code>MR::CutByProjectionSettings</code> named <code>direction</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>direction of projection (in mesh space) Returns a pointer to a member variable of class <code>MR::CutByProjectionSettings</code> named <code>direction</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -977,7 +977,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if set - used to transform contours form its local space to mesh local space Returns a mutable pointer to a member variable of class <code>MR::CutByProjectionSettings</code> named <code>cont2mesh</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if set - used to transform contours form its local space to mesh local space Returns a mutable pointer to a member variable of class <code>MR::CutByProjectionSettings</code> named <code>cont2mesh</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -995,7 +995,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>direction of projection (in mesh space) Returns a mutable pointer to a member variable of class <code>MR::CutByProjectionSettings</code> named <code>direction</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>direction of projection (in mesh space) Returns a mutable pointer to a member variable of class <code>MR::CutByProjectionSettings</code> named <code>direction</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1399,7 +1399,7 @@ it might be useful to subdivide mesh before cut, to avoid issues related to lone
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::CutMeshParameters</code> named <code>forceFillMode</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::CutMeshParameters</code> named <code>forceFillMode</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1417,7 +1417,7 @@ it might be useful to subdivide mesh before cut, to avoid issues related to lone
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Optional output map for each new edge introduced after cut maps edge from old topology or old face Returns a pointer to a member variable of class <code>MR::CutMeshParameters</code> named <code>new2oldEdgesMap</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Optional output map for each new edge introduced after cut maps edge from old topology or old face Returns a pointer to a member variable of class <code>MR::CutMeshParameters</code> named <code>new2oldEdgesMap</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1435,7 +1435,7 @@ it might be useful to subdivide mesh before cut, to avoid issues related to lone
         </tr>
       </table>
 </div><div class="memdoc">
-<p>This is optional output - map from newly generated faces to old faces (N-1) Returns a pointer to a member variable of class <code>MR::CutMeshParameters</code> named <code>new2OldMap</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>This is optional output - map from newly generated faces to old faces (N-1) Returns a pointer to a member variable of class <code>MR::CutMeshParameters</code> named <code>new2OldMap</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1454,7 +1454,7 @@ it might be useful to subdivide mesh before cut, to avoid issues related to lone
       </table>
 </div><div class="memdoc">
 <p>This is optional input for better contours resolving<br  />
-it provides additional info from other mesh used in boolean operation, useful to solve some degeneration </p><dl class="section note"><dt>Note</dt><dd>Most likely you don't need this in case you call MR::cutMesh manualy, use case of it is MR::boolean Returns a pointer to a member variable of class <code>MR::CutMeshParameters</code> named <code>sortData</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </dd></dl>
+it provides additional info from other mesh used in boolean operation, useful to solve some degeneration </p><dl class="section note"><dt>Note</dt><dd>Most likely you don't need this in case you call MR::cutMesh manualy, use case of it is MR::boolean Returns a pointer to a member variable of class <code>MR::CutMeshParameters</code> named <code>sortData</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </dd></dl>
 
 </div>
 </div>
@@ -1472,7 +1472,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::CutMeshParameters</code> named <code>forceFillMode</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::CutMeshParameters</code> named <code>forceFillMode</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1490,7 +1490,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Optional output map for each new edge introduced after cut maps edge from old topology or old face Returns a mutable pointer to a member variable of class <code>MR::CutMeshParameters</code> named <code>new2oldEdgesMap</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Optional output map for each new edge introduced after cut maps edge from old topology or old face Returns a mutable pointer to a member variable of class <code>MR::CutMeshParameters</code> named <code>new2oldEdgesMap</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1508,7 +1508,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </tr>
       </table>
 </div><div class="memdoc">
-<p>This is optional output - map from newly generated faces to old faces (N-1) Returns a mutable pointer to a member variable of class <code>MR::CutMeshParameters</code> named <code>new2OldMap</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>This is optional output - map from newly generated faces to old faces (N-1) Returns a mutable pointer to a member variable of class <code>MR::CutMeshParameters</code> named <code>new2OldMap</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1527,7 +1527,7 @@ it provides additional info from other mesh used in boolean operation, useful to
       </table>
 </div><div class="memdoc">
 <p>This is optional input for better contours resolving<br  />
-it provides additional info from other mesh used in boolean operation, useful to solve some degeneration </p><dl class="section note"><dt>Note</dt><dd>Most likely you don't need this in case you call MR::cutMesh manualy, use case of it is MR::boolean Returns a mutable pointer to a member variable of class <code>MR::CutMeshParameters</code> named <code>sortData</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </dd></dl>
+it provides additional info from other mesh used in boolean operation, useful to solve some degeneration </p><dl class="section note"><dt>Note</dt><dd>Most likely you don't need this in case you call MR::cutMesh manualy, use case of it is MR::boolean Returns a mutable pointer to a member variable of class <code>MR::CutMeshParameters</code> named <code>sortData</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </dd></dl>
 
 </div>
 </div>
@@ -1833,7 +1833,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Bitset of bad triangles - triangles where input contours have intersections and cannot be cut and filled in a good way </p><dl class="section see"><dt>See also</dt><dd>MR::CutMeshParameters Returns a pointer to a member variable of class <code>MR::CutMeshResult</code> named <code>fbsWithContourIntersections</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </dd></dl>
+<p>Bitset of bad triangles - triangles where input contours have intersections and cannot be cut and filled in a good way </p><dl class="section see"><dt>See also</dt><dd>MR::CutMeshParameters Returns a pointer to a member variable of class <code>MR::CutMeshResult</code> named <code>fbsWithContourIntersections</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </dd></dl>
 
 </div>
 </div>
@@ -1851,7 +1851,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Paths of new edges on mesh, they represent same contours as input, but already cut Returns a pointer to a member variable of class <code>MR::CutMeshResult</code> named <code>resultCut</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Paths of new edges on mesh, they represent same contours as input, but already cut Returns a pointer to a member variable of class <code>MR::CutMeshResult</code> named <code>resultCut</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1869,7 +1869,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Bitset of bad triangles - triangles where input contours have intersections and cannot be cut and filled in a good way </p><dl class="section see"><dt>See also</dt><dd>MR::CutMeshParameters Returns a mutable pointer to a member variable of class <code>MR::CutMeshResult</code> named <code>fbsWithContourIntersections</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </dd></dl>
+<p>Bitset of bad triangles - triangles where input contours have intersections and cannot be cut and filled in a good way </p><dl class="section see"><dt>See also</dt><dd>MR::CutMeshParameters Returns a mutable pointer to a member variable of class <code>MR::CutMeshResult</code> named <code>fbsWithContourIntersections</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </dd></dl>
 
 </div>
 </div>
@@ -1887,7 +1887,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Paths of new edges on mesh, they represent same contours as input, but already cut Returns a mutable pointer to a member variable of class <code>MR::CutMeshResult</code> named <code>resultCut</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Paths of new edges on mesh, they represent same contours as input, but already cut Returns a mutable pointer to a member variable of class <code>MR::CutMeshResult</code> named <code>resultCut</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2158,7 +2158,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maps every edge appeared during subdivision to an original edge before mesh subdivision; for splitEdges[key]=true, the value is arbitrary oriented original edge, for which key-edge is its part; for splitEdges[key]=false, the value is an original triangle Returns a pointer to a member variable of class <code>MR::NewEdgesMap</code> named <code>map</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>maps every edge appeared during subdivision to an original edge before mesh subdivision; for splitEdges[key]=true, the value is arbitrary oriented original edge, for which key-edge is its part; for splitEdges[key]=false, the value is an original triangle Returns a pointer to a member variable of class <code>MR::NewEdgesMap</code> named <code>map</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2176,7 +2176,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </tr>
       </table>
 </div><div class="memdoc">
-<p>true here means that a subdivided edge is a part of some original edge edge before mesh subdivision; false here is both for unmodified edges and for new edges introduced within original triangles Returns a pointer to a member variable of class <code>MR::NewEdgesMap</code> named <code>splitEdges</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>true here means that a subdivided edge is a part of some original edge edge before mesh subdivision; false here is both for unmodified edges and for new edges introduced within original triangles Returns a pointer to a member variable of class <code>MR::NewEdgesMap</code> named <code>splitEdges</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2194,7 +2194,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maps every edge appeared during subdivision to an original edge before mesh subdivision; for splitEdges[key]=true, the value is arbitrary oriented original edge, for which key-edge is its part; for splitEdges[key]=false, the value is an original triangle Returns a mutable pointer to a member variable of class <code>MR::NewEdgesMap</code> named <code>map</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>maps every edge appeared during subdivision to an original edge before mesh subdivision; for splitEdges[key]=true, the value is arbitrary oriented original edge, for which key-edge is its part; for splitEdges[key]=false, the value is an original triangle Returns a mutable pointer to a member variable of class <code>MR::NewEdgesMap</code> named <code>map</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2212,7 +2212,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </tr>
       </table>
 </div><div class="memdoc">
-<p>true here means that a subdivided edge is a part of some original edge edge before mesh subdivision; false here is both for unmodified edges and for new edges introduced within original triangles Returns a mutable pointer to a member variable of class <code>MR::NewEdgesMap</code> named <code>splitEdges</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>true here means that a subdivided edge is a part of some original edge edge before mesh subdivision; false here is both for unmodified edges and for new edges introduced within original triangles Returns a mutable pointer to a member variable of class <code>MR::NewEdgesMap</code> named <code>splitEdges</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>

@@ -248,11 +248,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Upcasts an instance of <computeroutput>MR::ChangeVisualizePropertyAction</computeroutput> to its base class <computeroutput>MR::HistoryAction</computeroutput>. This version is acting on mutable pointers. </para>
+<para>Upcasts an instance of <computeroutput>MR::ChangeVisualizePropertyAction</computeroutput> to its base class <computeroutput>MR::HistoryAction</computeroutput>. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="61" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="61" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="62" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="62" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeObjectFields_8h_1a56477e3ddfafc1945b79559fcae078c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
@@ -264,13 +264,13 @@
           <declname>object</declname>
         </param>
         <briefdescription>
-<para>Upcasts an instance of <computeroutput>MR::ChangeVisualizePropertyAction</computeroutput> to its base class <computeroutput>MR::HistoryAction</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
+<para>Upcasts an instance of <computeroutput>MR::ChangeVisualizePropertyAction</computeroutput> to its base class <computeroutput>MR::HistoryAction</computeroutput>. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="64" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="64" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="66" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="66" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeObjectFields_8h_1a921e91fce29308ef89858c108077ff36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRChangeObjectFields_8h_1a4afb08efd011be59bb864b94c4ebf52d" kindref="member">MR_ChangeVisualizePropertyAction</ref> *</type>
@@ -300,7 +300,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="76" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="76" declcolumn="42"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="78" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="78" declcolumn="42"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeObjectFields_8h_1a1de3b33843d5c3a11d92d9583d43c81c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRChangeObjectFields_8h_1a4afb08efd011be59bb864b94c4ebf52d" kindref="member">MR_ChangeVisualizePropertyAction</ref> *</type>
@@ -334,7 +334,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="90" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="90" declcolumn="42"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="92" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="92" declcolumn="42"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeObjectFields_8h_1a7c32fe5f9ba92a508543fd3ed55947de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -352,7 +352,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="93" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="93" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="95" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="95" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeObjectFields_8h_1a398635812fb7bcb2e404388cc54d93c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -370,7 +370,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="96" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="96" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="98" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="98" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeObjectFields_8h_1a8b70234ce92138b4ce91710e1e6c1f1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRChangeObjectFields_8h_1a4afb08efd011be59bb864b94c4ebf52d" kindref="member">MR_ChangeVisualizePropertyAction</ref> *</type>
@@ -396,7 +396,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="103" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="103" declcolumn="42"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="105" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="105" declcolumn="42"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeObjectFields_8h_1a8ad25e5030ca9a1411490e535d355d75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
@@ -414,7 +414,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="108" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="108" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="110" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="110" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeObjectFields_8h_1aa6d5be832c92ad3b4369d60753ae2a3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -436,7 +436,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="112" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="112" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="114" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="114" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeObjectFields_8h_1a6379e8a3f0243401d8bd1ba58b8f5771" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -454,7 +454,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="116" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="116" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="118" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="118" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeObjectFields_8h_1a6ab76dc216828a51f1ed817758d72a47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API MR_uint64_t</type>
@@ -472,7 +472,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="120" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="120" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="122" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="122" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeObjectFields_8h_1a7d4c8dacfeeaa2d9ced1c6fe8e541d67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRChangeObjectFields_8h_1a3c8a62a77fc87e1cfe3466ebab05e93b" kindref="member">MR_ChangeObjectSelectedAction</ref> *</type>
@@ -494,7 +494,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="125" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="125" declcolumn="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="127" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="127" declcolumn="39"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeObjectFields_8h_1afb27b5481c07d72a4b5ed1431e7735a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRChangeObjectFields_8h_1a3c8a62a77fc87e1cfe3466ebab05e93b" kindref="member">MR_ChangeObjectSelectedAction</ref> *</type>
@@ -516,7 +516,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="129" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="129" declcolumn="45"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="131" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="131" declcolumn="45"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeObjectFields_8h_1acf36e78173ef9448e00ca242373d60e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRChangeObjectFields_8h_1a3c8a62a77fc87e1cfe3466ebab05e93b" kindref="member">MR_ChangeObjectSelectedAction</ref> *</type>
@@ -538,7 +538,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="133" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="133" declcolumn="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="135" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="135" declcolumn="39"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeObjectFields_8h_1a743388848d3167f7a814043a2dbb102d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
@@ -552,11 +552,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Upcasts an instance of <computeroutput>MR::ChangeObjectSelectedAction</computeroutput> to its base class <computeroutput>MR::HistoryAction</computeroutput>. This version is acting on mutable pointers. </para>
+<para>Upcasts an instance of <computeroutput>MR::ChangeObjectSelectedAction</computeroutput> to its base class <computeroutput>MR::HistoryAction</computeroutput>. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="137" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="137" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="140" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="140" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeObjectFields_8h_1ab09573db8ddf8f585b5e0bb6c45834c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
@@ -568,13 +568,13 @@
           <declname>object</declname>
         </param>
         <briefdescription>
-<para>Upcasts an instance of <computeroutput>MR::ChangeObjectSelectedAction</computeroutput> to its base class <computeroutput>MR::HistoryAction</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
+<para>Upcasts an instance of <computeroutput>MR::ChangeObjectSelectedAction</computeroutput> to its base class <computeroutput>MR::HistoryAction</computeroutput>. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="140" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="140" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="144" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="144" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeObjectFields_8h_1a89726c35731b41f86a35140febe82714" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRChangeObjectFields_8h_1a3c8a62a77fc87e1cfe3466ebab05e93b" kindref="member">MR_ChangeObjectSelectedAction</ref> *</type>
@@ -600,7 +600,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="150" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="150" declcolumn="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="154" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="154" declcolumn="39"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeObjectFields_8h_1a615957f3d6ac15e0621878ae47c037c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRChangeObjectFields_8h_1a3c8a62a77fc87e1cfe3466ebab05e93b" kindref="member">MR_ChangeObjectSelectedAction</ref> *</type>
@@ -630,7 +630,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="160" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="160" declcolumn="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="164" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="164" declcolumn="39"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeObjectFields_8h_1ae0a81c49758cda15487630e5c2dc66a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -648,7 +648,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="163" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="163" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="167" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="167" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeObjectFields_8h_1ad16538bc18ae1c6dd0a54ed2b5ce24b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -666,7 +666,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="166" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="166" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="170" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="170" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeObjectFields_8h_1a413deb79f9d56aac280e7c7800bddca1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRChangeObjectFields_8h_1a3c8a62a77fc87e1cfe3466ebab05e93b" kindref="member">MR_ChangeObjectSelectedAction</ref> *</type>
@@ -692,7 +692,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="173" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="173" declcolumn="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="177" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="177" declcolumn="39"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeObjectFields_8h_1aa06411aac0c4a24697eb8d539a397064" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
@@ -710,7 +710,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="178" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="178" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="182" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="182" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeObjectFields_8h_1a748827de720e9767611856a80d23140d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -732,7 +732,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="182" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="182" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="186" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="186" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeObjectFields_8h_1aa149b105696850c1b904eab17fb3b8ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -750,7 +750,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="186" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="186" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="190" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="190" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeObjectFields_8h_1a9d9c6f3711efa948f0bd0e8fde0d8b8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API MR_uint64_t</type>
@@ -768,7 +768,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="190" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="190" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="194" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="194" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeObjectFields_8h_1a7025ba0d07fa197396422878cf3b60bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRChangeObjectFields_8h_1a0f1ed9a0636ff98ed899be7e3b9601ad" kindref="member">MR_ChangeObjectVisibilityAction</ref> *</type>
@@ -790,7 +790,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="195" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="195" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="199" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="199" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeObjectFields_8h_1a60a046d570dd4b2306d887d72c82b765" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRChangeObjectFields_8h_1a0f1ed9a0636ff98ed899be7e3b9601ad" kindref="member">MR_ChangeObjectVisibilityAction</ref> *</type>
@@ -812,7 +812,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="199" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="199" declcolumn="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="203" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="203" declcolumn="47"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeObjectFields_8h_1a4bd2a708a461fa5041cda12498073ea9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRChangeObjectFields_8h_1a0f1ed9a0636ff98ed899be7e3b9601ad" kindref="member">MR_ChangeObjectVisibilityAction</ref> *</type>
@@ -834,7 +834,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="203" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="203" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="207" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="207" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeObjectFields_8h_1acf6ea39a67ce3d22469d3335395aedb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
@@ -848,11 +848,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Upcasts an instance of <computeroutput>MR::ChangeObjectVisibilityAction</computeroutput> to its base class <computeroutput>MR::HistoryAction</computeroutput>. This version is acting on mutable pointers. </para>
+<para>Upcasts an instance of <computeroutput>MR::ChangeObjectVisibilityAction</computeroutput> to its base class <computeroutput>MR::HistoryAction</computeroutput>. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="207" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="207" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="212" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="212" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeObjectFields_8h_1aebf99d91e5a8c1dafe7a76fff556d5ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
@@ -864,13 +864,13 @@
           <declname>object</declname>
         </param>
         <briefdescription>
-<para>Upcasts an instance of <computeroutput>MR::ChangeObjectVisibilityAction</computeroutput> to its base class <computeroutput>MR::HistoryAction</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
+<para>Upcasts an instance of <computeroutput>MR::ChangeObjectVisibilityAction</computeroutput> to its base class <computeroutput>MR::HistoryAction</computeroutput>. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="210" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="210" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="216" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="216" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeObjectFields_8h_1a81645ab23d4b1900ea98ed1d336b5d87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRChangeObjectFields_8h_1a0f1ed9a0636ff98ed899be7e3b9601ad" kindref="member">MR_ChangeObjectVisibilityAction</ref> *</type>
@@ -896,7 +896,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="220" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="220" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="226" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="226" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeObjectFields_8h_1a6ee83a12167de794ae5ce7a7c71950bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRChangeObjectFields_8h_1a0f1ed9a0636ff98ed899be7e3b9601ad" kindref="member">MR_ChangeObjectVisibilityAction</ref> *</type>
@@ -926,7 +926,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="232" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="232" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="238" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="238" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeObjectFields_8h_1a7baaf4c7132648ebfec9aacf6232132f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -944,7 +944,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="235" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="235" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="241" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="241" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeObjectFields_8h_1a7bf90b5caa1cba3fe77aef94e3644580" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -962,7 +962,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="238" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="238" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="244" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="244" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeObjectFields_8h_1a02cb726ecd7a83a934dc740c9894e053" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRChangeObjectFields_8h_1a0f1ed9a0636ff98ed899be7e3b9601ad" kindref="member">MR_ChangeObjectVisibilityAction</ref> *</type>
@@ -988,7 +988,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="245" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="245" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="251" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="251" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeObjectFields_8h_1a0a65d4e77fe05dd55c9a56d05dad13c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
@@ -1006,7 +1006,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="250" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="250" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="256" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="256" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeObjectFields_8h_1ad89d6c7242be43468a5740271c215942" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1028,7 +1028,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="254" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="254" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="260" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="260" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeObjectFields_8h_1a10a287939aabb54b291b6ff0e051f087" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1046,7 +1046,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="258" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="258" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="264" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="264" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeObjectFields_8h_1aa1fd1b0f91ad4a0768c30fb2fda2b629" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API MR_uint64_t</type>
@@ -1064,7 +1064,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="262" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="262" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" line="268" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h" declline="268" declcolumn="21"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1105,87 +1105,87 @@
 <codeline lineno="54"><highlight class="normal"></highlight></codeline>
 <codeline lineno="57" refid="MRChangeObjectFields_8h_1a4fa24cb3104fc61b70652de200fea700" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeObjectFields_8h_1a4afb08efd011be59bb864b94c4ebf52d" kindref="member">MR_ChangeVisualizePropertyAction</ref><sp/>*<ref refid="MRChangeObjectFields_8h_1a4fa24cb3104fc61b70652de200fea700" kindref="member">MR_ChangeVisualizePropertyAction_OffsetMutablePtr</ref>(<ref refid="MRChangeObjectFields_8h_1a4afb08efd011be59bb864b94c4ebf52d" kindref="member">MR_ChangeVisualizePropertyAction</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="58"><highlight class="normal"></highlight></codeline>
-<codeline lineno="61" refid="MRChangeObjectFields_8h_1ac6266fdd23f65ea5b70bf6c1bc5ceb93" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangeObjectFields_8h_1ac6266fdd23f65ea5b70bf6c1bc5ceb93" kindref="member">MR_ChangeVisualizePropertyAction_UpcastTo_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1a4afb08efd011be59bb864b94c4ebf52d" kindref="member">MR_ChangeVisualizePropertyAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="62"><highlight class="normal"></highlight></codeline>
-<codeline lineno="64" refid="MRChangeObjectFields_8h_1a56477e3ddfafc1945b79559fcae078c1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangeObjectFields_8h_1a56477e3ddfafc1945b79559fcae078c1" kindref="member">MR_ChangeVisualizePropertyAction_MutableUpcastTo_MR_HistoryAction</ref>(<ref refid="MRChangeObjectFields_8h_1a4afb08efd011be59bb864b94c4ebf52d" kindref="member">MR_ChangeVisualizePropertyAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="65"><highlight class="normal"></highlight></codeline>
-<codeline lineno="76" refid="MRChangeObjectFields_8h_1a921e91fce29308ef89858c108077ff36" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeObjectFields_8h_1a4afb08efd011be59bb864b94c4ebf52d" kindref="member">MR_ChangeVisualizePropertyAction</ref><sp/>*<ref refid="MRChangeObjectFields_8h_1a921e91fce29308ef89858c108077ff36" kindref="member">MR_ChangeVisualizePropertyAction_Construct_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1aa4b9828f4113d20d85483568f977c8ff" kindref="member">MR_std_shared_ptr_MR_VisualObject</ref><sp/>*obj,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a47309f5020d832f0d5effdd481071a1e" kindref="member">MR_AnyVisualizeMaskEnum</ref><sp/>*visualizeMaskType);</highlight></codeline>
-<codeline lineno="77"><highlight class="normal"></highlight></codeline>
-<codeline lineno="90" refid="MRChangeObjectFields_8h_1a1de3b33843d5c3a11d92d9583d43c81c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeObjectFields_8h_1a4afb08efd011be59bb864b94c4ebf52d" kindref="member">MR_ChangeVisualizePropertyAction</ref><sp/>*<ref refid="MRChangeObjectFields_8h_1a1de3b33843d5c3a11d92d9583d43c81c" kindref="member">MR_ChangeVisualizePropertyAction_Construct_4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1aa4b9828f4113d20d85483568f977c8ff" kindref="member">MR_std_shared_ptr_MR_VisualObject</ref><sp/>*obj,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a47309f5020d832f0d5effdd481071a1e" kindref="member">MR_AnyVisualizeMaskEnum</ref><sp/>*visualizeMaskType,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a85b2b5f875361920283d305645987092" kindref="member">MR_ViewportMask</ref><sp/>*newMask);</highlight></codeline>
-<codeline lineno="91"><highlight class="normal"></highlight></codeline>
-<codeline lineno="93" refid="MRChangeObjectFields_8h_1a7c32fe5f9ba92a508543fd3ed55947de" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1a7c32fe5f9ba92a508543fd3ed55947de" kindref="member">MR_ChangeVisualizePropertyAction_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1a4afb08efd011be59bb864b94c4ebf52d" kindref="member">MR_ChangeVisualizePropertyAction</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="94"><highlight class="normal"></highlight></codeline>
-<codeline lineno="96" refid="MRChangeObjectFields_8h_1a398635812fb7bcb2e404388cc54d93c0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1a398635812fb7bcb2e404388cc54d93c0" kindref="member">MR_ChangeVisualizePropertyAction_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1a4afb08efd011be59bb864b94c4ebf52d" kindref="member">MR_ChangeVisualizePropertyAction</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="97"><highlight class="normal"></highlight></codeline>
-<codeline lineno="103" refid="MRChangeObjectFields_8h_1a8b70234ce92138b4ce91710e1e6c1f1f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeObjectFields_8h_1a4afb08efd011be59bb864b94c4ebf52d" kindref="member">MR_ChangeVisualizePropertyAction</ref><sp/>*<ref refid="MRChangeObjectFields_8h_1a8b70234ce92138b4ce91710e1e6c1f1f" kindref="member">MR_ChangeVisualizePropertyAction_AssignFromAnother</ref>(<ref refid="MRChangeObjectFields_8h_1a4afb08efd011be59bb864b94c4ebf52d" kindref="member">MR_ChangeVisualizePropertyAction</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRChangeObjectFields_8h_1a4afb08efd011be59bb864b94c4ebf52d" kindref="member">MR_ChangeVisualizePropertyAction</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="104"><highlight class="normal"></highlight></codeline>
-<codeline lineno="108" refid="MRChangeObjectFields_8h_1a8ad25e5030ca9a1411490e535d355d75" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRChangeObjectFields_8h_1a8ad25e5030ca9a1411490e535d355d75" kindref="member">MR_ChangeVisualizePropertyAction_name</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1a4afb08efd011be59bb864b94c4ebf52d" kindref="member">MR_ChangeVisualizePropertyAction</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="109"><highlight class="normal"></highlight></codeline>
-<codeline lineno="112" refid="MRChangeObjectFields_8h_1aa6d5be832c92ad3b4369d60753ae2a3a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1aa6d5be832c92ad3b4369d60753ae2a3a" kindref="member">MR_ChangeVisualizePropertyAction_action</ref>(<ref refid="MRChangeObjectFields_8h_1a4afb08efd011be59bb864b94c4ebf52d" kindref="member">MR_ChangeVisualizePropertyAction</ref><sp/>*_this,<sp/><ref refid="MRHistoryAction_8h_1a1412f92a5edcca34d4a7f907dd216741" kindref="member">MR_HistoryAction_Type</ref><sp/>_1);</highlight></codeline>
-<codeline lineno="113"><highlight class="normal"></highlight></codeline>
-<codeline lineno="116" refid="MRChangeObjectFields_8h_1a6379e8a3f0243401d8bd1ba58b8f5771" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1a6379e8a3f0243401d8bd1ba58b8f5771" kindref="member">MR_ChangeVisualizePropertyAction_setObjectDirty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1aa4b9828f4113d20d85483568f977c8ff" kindref="member">MR_std_shared_ptr_MR_VisualObject</ref><sp/>*_1);</highlight></codeline>
-<codeline lineno="117"><highlight class="normal"></highlight></codeline>
-<codeline lineno="120" refid="MRChangeObjectFields_8h_1a6ab76dc216828a51f1ed817758d72a47" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRChangeObjectFields_8h_1a6ab76dc216828a51f1ed817758d72a47" kindref="member">MR_ChangeVisualizePropertyAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1a4afb08efd011be59bb864b94c4ebf52d" kindref="member">MR_ChangeVisualizePropertyAction</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="121"><highlight class="normal"></highlight></codeline>
-<codeline lineno="125" refid="MRChangeObjectFields_8h_1a7d4c8dacfeeaa2d9ced1c6fe8e541d67" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeObjectFields_8h_1a3c8a62a77fc87e1cfe3466ebab05e93b" kindref="member">MR_ChangeObjectSelectedAction</ref><sp/>*<ref refid="MRChangeObjectFields_8h_1a7d4c8dacfeeaa2d9ced1c6fe8e541d67" kindref="member">MR_ChangeObjectSelectedAction_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRChangeObjectFields_8h_1a3c8a62a77fc87e1cfe3466ebab05e93b" kindref="member">MR_ChangeObjectSelectedAction</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="126"><highlight class="normal"></highlight></codeline>
-<codeline lineno="129" refid="MRChangeObjectFields_8h_1afb27b5481c07d72a4b5ed1431e7735a2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1a3c8a62a77fc87e1cfe3466ebab05e93b" kindref="member">MR_ChangeObjectSelectedAction</ref><sp/>*<ref refid="MRChangeObjectFields_8h_1afb27b5481c07d72a4b5ed1431e7735a2" kindref="member">MR_ChangeObjectSelectedAction_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1a3c8a62a77fc87e1cfe3466ebab05e93b" kindref="member">MR_ChangeObjectSelectedAction</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="130"><highlight class="normal"></highlight></codeline>
-<codeline lineno="133" refid="MRChangeObjectFields_8h_1acf36e78173ef9448e00ca242373d60e2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeObjectFields_8h_1a3c8a62a77fc87e1cfe3466ebab05e93b" kindref="member">MR_ChangeObjectSelectedAction</ref><sp/>*<ref refid="MRChangeObjectFields_8h_1acf36e78173ef9448e00ca242373d60e2" kindref="member">MR_ChangeObjectSelectedAction_OffsetMutablePtr</ref>(<ref refid="MRChangeObjectFields_8h_1a3c8a62a77fc87e1cfe3466ebab05e93b" kindref="member">MR_ChangeObjectSelectedAction</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="134"><highlight class="normal"></highlight></codeline>
-<codeline lineno="137" refid="MRChangeObjectFields_8h_1a743388848d3167f7a814043a2dbb102d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangeObjectFields_8h_1a743388848d3167f7a814043a2dbb102d" kindref="member">MR_ChangeObjectSelectedAction_UpcastTo_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1a3c8a62a77fc87e1cfe3466ebab05e93b" kindref="member">MR_ChangeObjectSelectedAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="138"><highlight class="normal"></highlight></codeline>
-<codeline lineno="140" refid="MRChangeObjectFields_8h_1ab09573db8ddf8f585b5e0bb6c45834c4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangeObjectFields_8h_1ab09573db8ddf8f585b5e0bb6c45834c4" kindref="member">MR_ChangeObjectSelectedAction_MutableUpcastTo_MR_HistoryAction</ref>(<ref refid="MRChangeObjectFields_8h_1a3c8a62a77fc87e1cfe3466ebab05e93b" kindref="member">MR_ChangeObjectSelectedAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="62" refid="MRChangeObjectFields_8h_1ac6266fdd23f65ea5b70bf6c1bc5ceb93" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangeObjectFields_8h_1ac6266fdd23f65ea5b70bf6c1bc5ceb93" kindref="member">MR_ChangeVisualizePropertyAction_UpcastTo_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1a4afb08efd011be59bb864b94c4ebf52d" kindref="member">MR_ChangeVisualizePropertyAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="MRChangeObjectFields_8h_1a56477e3ddfafc1945b79559fcae078c1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangeObjectFields_8h_1a56477e3ddfafc1945b79559fcae078c1" kindref="member">MR_ChangeVisualizePropertyAction_MutableUpcastTo_MR_HistoryAction</ref>(<ref refid="MRChangeObjectFields_8h_1a4afb08efd011be59bb864b94c4ebf52d" kindref="member">MR_ChangeVisualizePropertyAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="MRChangeObjectFields_8h_1a921e91fce29308ef89858c108077ff36" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeObjectFields_8h_1a4afb08efd011be59bb864b94c4ebf52d" kindref="member">MR_ChangeVisualizePropertyAction</ref><sp/>*<ref refid="MRChangeObjectFields_8h_1a921e91fce29308ef89858c108077ff36" kindref="member">MR_ChangeVisualizePropertyAction_Construct_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1aa4b9828f4113d20d85483568f977c8ff" kindref="member">MR_std_shared_ptr_MR_VisualObject</ref><sp/>*obj,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a47309f5020d832f0d5effdd481071a1e" kindref="member">MR_AnyVisualizeMaskEnum</ref><sp/>*visualizeMaskType);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92" refid="MRChangeObjectFields_8h_1a1de3b33843d5c3a11d92d9583d43c81c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeObjectFields_8h_1a4afb08efd011be59bb864b94c4ebf52d" kindref="member">MR_ChangeVisualizePropertyAction</ref><sp/>*<ref refid="MRChangeObjectFields_8h_1a1de3b33843d5c3a11d92d9583d43c81c" kindref="member">MR_ChangeVisualizePropertyAction_Construct_4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1aa4b9828f4113d20d85483568f977c8ff" kindref="member">MR_std_shared_ptr_MR_VisualObject</ref><sp/>*obj,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a47309f5020d832f0d5effdd481071a1e" kindref="member">MR_AnyVisualizeMaskEnum</ref><sp/>*visualizeMaskType,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a85b2b5f875361920283d305645987092" kindref="member">MR_ViewportMask</ref><sp/>*newMask);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="MRChangeObjectFields_8h_1a7c32fe5f9ba92a508543fd3ed55947de" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1a7c32fe5f9ba92a508543fd3ed55947de" kindref="member">MR_ChangeVisualizePropertyAction_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1a4afb08efd011be59bb864b94c4ebf52d" kindref="member">MR_ChangeVisualizePropertyAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="MRChangeObjectFields_8h_1a398635812fb7bcb2e404388cc54d93c0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1a398635812fb7bcb2e404388cc54d93c0" kindref="member">MR_ChangeVisualizePropertyAction_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1a4afb08efd011be59bb864b94c4ebf52d" kindref="member">MR_ChangeVisualizePropertyAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105" refid="MRChangeObjectFields_8h_1a8b70234ce92138b4ce91710e1e6c1f1f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeObjectFields_8h_1a4afb08efd011be59bb864b94c4ebf52d" kindref="member">MR_ChangeVisualizePropertyAction</ref><sp/>*<ref refid="MRChangeObjectFields_8h_1a8b70234ce92138b4ce91710e1e6c1f1f" kindref="member">MR_ChangeVisualizePropertyAction_AssignFromAnother</ref>(<ref refid="MRChangeObjectFields_8h_1a4afb08efd011be59bb864b94c4ebf52d" kindref="member">MR_ChangeVisualizePropertyAction</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRChangeObjectFields_8h_1a4afb08efd011be59bb864b94c4ebf52d" kindref="member">MR_ChangeVisualizePropertyAction</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="MRChangeObjectFields_8h_1a8ad25e5030ca9a1411490e535d355d75" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRChangeObjectFields_8h_1a8ad25e5030ca9a1411490e535d355d75" kindref="member">MR_ChangeVisualizePropertyAction_name</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1a4afb08efd011be59bb864b94c4ebf52d" kindref="member">MR_ChangeVisualizePropertyAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114" refid="MRChangeObjectFields_8h_1aa6d5be832c92ad3b4369d60753ae2a3a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1aa6d5be832c92ad3b4369d60753ae2a3a" kindref="member">MR_ChangeVisualizePropertyAction_action</ref>(<ref refid="MRChangeObjectFields_8h_1a4afb08efd011be59bb864b94c4ebf52d" kindref="member">MR_ChangeVisualizePropertyAction</ref><sp/>*_this,<sp/><ref refid="MRHistoryAction_8h_1a1412f92a5edcca34d4a7f907dd216741" kindref="member">MR_HistoryAction_Type</ref><sp/>_1);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="MRChangeObjectFields_8h_1a6379e8a3f0243401d8bd1ba58b8f5771" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1a6379e8a3f0243401d8bd1ba58b8f5771" kindref="member">MR_ChangeVisualizePropertyAction_setObjectDirty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1aa4b9828f4113d20d85483568f977c8ff" kindref="member">MR_std_shared_ptr_MR_VisualObject</ref><sp/>*_1);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="MRChangeObjectFields_8h_1a6ab76dc216828a51f1ed817758d72a47" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRChangeObjectFields_8h_1a6ab76dc216828a51f1ed817758d72a47" kindref="member">MR_ChangeVisualizePropertyAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1a4afb08efd011be59bb864b94c4ebf52d" kindref="member">MR_ChangeVisualizePropertyAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="MRChangeObjectFields_8h_1a7d4c8dacfeeaa2d9ced1c6fe8e541d67" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeObjectFields_8h_1a3c8a62a77fc87e1cfe3466ebab05e93b" kindref="member">MR_ChangeObjectSelectedAction</ref><sp/>*<ref refid="MRChangeObjectFields_8h_1a7d4c8dacfeeaa2d9ced1c6fe8e541d67" kindref="member">MR_ChangeObjectSelectedAction_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRChangeObjectFields_8h_1a3c8a62a77fc87e1cfe3466ebab05e93b" kindref="member">MR_ChangeObjectSelectedAction</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131" refid="MRChangeObjectFields_8h_1afb27b5481c07d72a4b5ed1431e7735a2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1a3c8a62a77fc87e1cfe3466ebab05e93b" kindref="member">MR_ChangeObjectSelectedAction</ref><sp/>*<ref refid="MRChangeObjectFields_8h_1afb27b5481c07d72a4b5ed1431e7735a2" kindref="member">MR_ChangeObjectSelectedAction_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1a3c8a62a77fc87e1cfe3466ebab05e93b" kindref="member">MR_ChangeObjectSelectedAction</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135" refid="MRChangeObjectFields_8h_1acf36e78173ef9448e00ca242373d60e2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeObjectFields_8h_1a3c8a62a77fc87e1cfe3466ebab05e93b" kindref="member">MR_ChangeObjectSelectedAction</ref><sp/>*<ref refid="MRChangeObjectFields_8h_1acf36e78173ef9448e00ca242373d60e2" kindref="member">MR_ChangeObjectSelectedAction_OffsetMutablePtr</ref>(<ref refid="MRChangeObjectFields_8h_1a3c8a62a77fc87e1cfe3466ebab05e93b" kindref="member">MR_ChangeObjectSelectedAction</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140" refid="MRChangeObjectFields_8h_1a743388848d3167f7a814043a2dbb102d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangeObjectFields_8h_1a743388848d3167f7a814043a2dbb102d" kindref="member">MR_ChangeObjectSelectedAction_UpcastTo_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1a3c8a62a77fc87e1cfe3466ebab05e93b" kindref="member">MR_ChangeObjectSelectedAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="141"><highlight class="normal"></highlight></codeline>
-<codeline lineno="150" refid="MRChangeObjectFields_8h_1a89726c35731b41f86a35140febe82714" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeObjectFields_8h_1a3c8a62a77fc87e1cfe3466ebab05e93b" kindref="member">MR_ChangeObjectSelectedAction</ref><sp/>*<ref refid="MRChangeObjectFields_8h_1a89726c35731b41f86a35140febe82714" kindref="member">MR_ChangeObjectSelectedAction_Construct_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref><sp/>*obj);</highlight></codeline>
-<codeline lineno="151"><highlight class="normal"></highlight></codeline>
-<codeline lineno="160" refid="MRChangeObjectFields_8h_1a615957f3d6ac15e0621878ae47c037c8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeObjectFields_8h_1a3c8a62a77fc87e1cfe3466ebab05e93b" kindref="member">MR_ChangeObjectSelectedAction</ref><sp/>*<ref refid="MRChangeObjectFields_8h_1a615957f3d6ac15e0621878ae47c037c8" kindref="member">MR_ChangeObjectSelectedAction_Construct_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref><sp/>*obj,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>newValue);</highlight></codeline>
-<codeline lineno="161"><highlight class="normal"></highlight></codeline>
-<codeline lineno="163" refid="MRChangeObjectFields_8h_1ae0a81c49758cda15487630e5c2dc66a0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1ae0a81c49758cda15487630e5c2dc66a0" kindref="member">MR_ChangeObjectSelectedAction_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1a3c8a62a77fc87e1cfe3466ebab05e93b" kindref="member">MR_ChangeObjectSelectedAction</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="164"><highlight class="normal"></highlight></codeline>
-<codeline lineno="166" refid="MRChangeObjectFields_8h_1ad16538bc18ae1c6dd0a54ed2b5ce24b6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1ad16538bc18ae1c6dd0a54ed2b5ce24b6" kindref="member">MR_ChangeObjectSelectedAction_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1a3c8a62a77fc87e1cfe3466ebab05e93b" kindref="member">MR_ChangeObjectSelectedAction</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="167"><highlight class="normal"></highlight></codeline>
-<codeline lineno="173" refid="MRChangeObjectFields_8h_1a413deb79f9d56aac280e7c7800bddca1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeObjectFields_8h_1a3c8a62a77fc87e1cfe3466ebab05e93b" kindref="member">MR_ChangeObjectSelectedAction</ref><sp/>*<ref refid="MRChangeObjectFields_8h_1a413deb79f9d56aac280e7c7800bddca1" kindref="member">MR_ChangeObjectSelectedAction_AssignFromAnother</ref>(<ref refid="MRChangeObjectFields_8h_1a3c8a62a77fc87e1cfe3466ebab05e93b" kindref="member">MR_ChangeObjectSelectedAction</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRChangeObjectFields_8h_1a3c8a62a77fc87e1cfe3466ebab05e93b" kindref="member">MR_ChangeObjectSelectedAction</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="174"><highlight class="normal"></highlight></codeline>
-<codeline lineno="178" refid="MRChangeObjectFields_8h_1aa06411aac0c4a24697eb8d539a397064" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRChangeObjectFields_8h_1aa06411aac0c4a24697eb8d539a397064" kindref="member">MR_ChangeObjectSelectedAction_name</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1a3c8a62a77fc87e1cfe3466ebab05e93b" kindref="member">MR_ChangeObjectSelectedAction</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="179"><highlight class="normal"></highlight></codeline>
-<codeline lineno="182" refid="MRChangeObjectFields_8h_1a748827de720e9767611856a80d23140d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1a748827de720e9767611856a80d23140d" kindref="member">MR_ChangeObjectSelectedAction_action</ref>(<ref refid="MRChangeObjectFields_8h_1a3c8a62a77fc87e1cfe3466ebab05e93b" kindref="member">MR_ChangeObjectSelectedAction</ref><sp/>*_this,<sp/><ref refid="MRHistoryAction_8h_1a1412f92a5edcca34d4a7f907dd216741" kindref="member">MR_HistoryAction_Type</ref><sp/>_1);</highlight></codeline>
+<codeline lineno="144" refid="MRChangeObjectFields_8h_1ab09573db8ddf8f585b5e0bb6c45834c4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangeObjectFields_8h_1ab09573db8ddf8f585b5e0bb6c45834c4" kindref="member">MR_ChangeObjectSelectedAction_MutableUpcastTo_MR_HistoryAction</ref>(<ref refid="MRChangeObjectFields_8h_1a3c8a62a77fc87e1cfe3466ebab05e93b" kindref="member">MR_ChangeObjectSelectedAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154" refid="MRChangeObjectFields_8h_1a89726c35731b41f86a35140febe82714" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeObjectFields_8h_1a3c8a62a77fc87e1cfe3466ebab05e93b" kindref="member">MR_ChangeObjectSelectedAction</ref><sp/>*<ref refid="MRChangeObjectFields_8h_1a89726c35731b41f86a35140febe82714" kindref="member">MR_ChangeObjectSelectedAction_Construct_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref><sp/>*obj);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164" refid="MRChangeObjectFields_8h_1a615957f3d6ac15e0621878ae47c037c8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeObjectFields_8h_1a3c8a62a77fc87e1cfe3466ebab05e93b" kindref="member">MR_ChangeObjectSelectedAction</ref><sp/>*<ref refid="MRChangeObjectFields_8h_1a615957f3d6ac15e0621878ae47c037c8" kindref="member">MR_ChangeObjectSelectedAction_Construct_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref><sp/>*obj,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>newValue);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167" refid="MRChangeObjectFields_8h_1ae0a81c49758cda15487630e5c2dc66a0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1ae0a81c49758cda15487630e5c2dc66a0" kindref="member">MR_ChangeObjectSelectedAction_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1a3c8a62a77fc87e1cfe3466ebab05e93b" kindref="member">MR_ChangeObjectSelectedAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170" refid="MRChangeObjectFields_8h_1ad16538bc18ae1c6dd0a54ed2b5ce24b6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1ad16538bc18ae1c6dd0a54ed2b5ce24b6" kindref="member">MR_ChangeObjectSelectedAction_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1a3c8a62a77fc87e1cfe3466ebab05e93b" kindref="member">MR_ChangeObjectSelectedAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177" refid="MRChangeObjectFields_8h_1a413deb79f9d56aac280e7c7800bddca1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeObjectFields_8h_1a3c8a62a77fc87e1cfe3466ebab05e93b" kindref="member">MR_ChangeObjectSelectedAction</ref><sp/>*<ref refid="MRChangeObjectFields_8h_1a413deb79f9d56aac280e7c7800bddca1" kindref="member">MR_ChangeObjectSelectedAction_AssignFromAnother</ref>(<ref refid="MRChangeObjectFields_8h_1a3c8a62a77fc87e1cfe3466ebab05e93b" kindref="member">MR_ChangeObjectSelectedAction</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRChangeObjectFields_8h_1a3c8a62a77fc87e1cfe3466ebab05e93b" kindref="member">MR_ChangeObjectSelectedAction</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="MRChangeObjectFields_8h_1aa06411aac0c4a24697eb8d539a397064" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRChangeObjectFields_8h_1aa06411aac0c4a24697eb8d539a397064" kindref="member">MR_ChangeObjectSelectedAction_name</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1a3c8a62a77fc87e1cfe3466ebab05e93b" kindref="member">MR_ChangeObjectSelectedAction</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="183"><highlight class="normal"></highlight></codeline>
-<codeline lineno="186" refid="MRChangeObjectFields_8h_1aa149b105696850c1b904eab17fb3b8ae" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1aa149b105696850c1b904eab17fb3b8ae" kindref="member">MR_ChangeObjectSelectedAction_setObjectDirty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref><sp/>*_1);</highlight></codeline>
+<codeline lineno="186" refid="MRChangeObjectFields_8h_1a748827de720e9767611856a80d23140d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1a748827de720e9767611856a80d23140d" kindref="member">MR_ChangeObjectSelectedAction_action</ref>(<ref refid="MRChangeObjectFields_8h_1a3c8a62a77fc87e1cfe3466ebab05e93b" kindref="member">MR_ChangeObjectSelectedAction</ref><sp/>*_this,<sp/><ref refid="MRHistoryAction_8h_1a1412f92a5edcca34d4a7f907dd216741" kindref="member">MR_HistoryAction_Type</ref><sp/>_1);</highlight></codeline>
 <codeline lineno="187"><highlight class="normal"></highlight></codeline>
-<codeline lineno="190" refid="MRChangeObjectFields_8h_1a9d9c6f3711efa948f0bd0e8fde0d8b8b" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRChangeObjectFields_8h_1a9d9c6f3711efa948f0bd0e8fde0d8b8b" kindref="member">MR_ChangeObjectSelectedAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1a3c8a62a77fc87e1cfe3466ebab05e93b" kindref="member">MR_ChangeObjectSelectedAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="190" refid="MRChangeObjectFields_8h_1aa149b105696850c1b904eab17fb3b8ae" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1aa149b105696850c1b904eab17fb3b8ae" kindref="member">MR_ChangeObjectSelectedAction_setObjectDirty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref><sp/>*_1);</highlight></codeline>
 <codeline lineno="191"><highlight class="normal"></highlight></codeline>
-<codeline lineno="195" refid="MRChangeObjectFields_8h_1a7025ba0d07fa197396422878cf3b60bd" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeObjectFields_8h_1a0f1ed9a0636ff98ed899be7e3b9601ad" kindref="member">MR_ChangeObjectVisibilityAction</ref><sp/>*<ref refid="MRChangeObjectFields_8h_1a7025ba0d07fa197396422878cf3b60bd" kindref="member">MR_ChangeObjectVisibilityAction_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRChangeObjectFields_8h_1a0f1ed9a0636ff98ed899be7e3b9601ad" kindref="member">MR_ChangeObjectVisibilityAction</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="196"><highlight class="normal"></highlight></codeline>
-<codeline lineno="199" refid="MRChangeObjectFields_8h_1a60a046d570dd4b2306d887d72c82b765" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1a0f1ed9a0636ff98ed899be7e3b9601ad" kindref="member">MR_ChangeObjectVisibilityAction</ref><sp/>*<ref refid="MRChangeObjectFields_8h_1a60a046d570dd4b2306d887d72c82b765" kindref="member">MR_ChangeObjectVisibilityAction_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1a0f1ed9a0636ff98ed899be7e3b9601ad" kindref="member">MR_ChangeObjectVisibilityAction</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="194" refid="MRChangeObjectFields_8h_1a9d9c6f3711efa948f0bd0e8fde0d8b8b" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRChangeObjectFields_8h_1a9d9c6f3711efa948f0bd0e8fde0d8b8b" kindref="member">MR_ChangeObjectSelectedAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1a3c8a62a77fc87e1cfe3466ebab05e93b" kindref="member">MR_ChangeObjectSelectedAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199" refid="MRChangeObjectFields_8h_1a7025ba0d07fa197396422878cf3b60bd" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeObjectFields_8h_1a0f1ed9a0636ff98ed899be7e3b9601ad" kindref="member">MR_ChangeObjectVisibilityAction</ref><sp/>*<ref refid="MRChangeObjectFields_8h_1a7025ba0d07fa197396422878cf3b60bd" kindref="member">MR_ChangeObjectVisibilityAction_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRChangeObjectFields_8h_1a0f1ed9a0636ff98ed899be7e3b9601ad" kindref="member">MR_ChangeObjectVisibilityAction</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="200"><highlight class="normal"></highlight></codeline>
-<codeline lineno="203" refid="MRChangeObjectFields_8h_1a4bd2a708a461fa5041cda12498073ea9" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeObjectFields_8h_1a0f1ed9a0636ff98ed899be7e3b9601ad" kindref="member">MR_ChangeObjectVisibilityAction</ref><sp/>*<ref refid="MRChangeObjectFields_8h_1a4bd2a708a461fa5041cda12498073ea9" kindref="member">MR_ChangeObjectVisibilityAction_OffsetMutablePtr</ref>(<ref refid="MRChangeObjectFields_8h_1a0f1ed9a0636ff98ed899be7e3b9601ad" kindref="member">MR_ChangeObjectVisibilityAction</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="203" refid="MRChangeObjectFields_8h_1a60a046d570dd4b2306d887d72c82b765" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1a0f1ed9a0636ff98ed899be7e3b9601ad" kindref="member">MR_ChangeObjectVisibilityAction</ref><sp/>*<ref refid="MRChangeObjectFields_8h_1a60a046d570dd4b2306d887d72c82b765" kindref="member">MR_ChangeObjectVisibilityAction_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1a0f1ed9a0636ff98ed899be7e3b9601ad" kindref="member">MR_ChangeObjectVisibilityAction</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="204"><highlight class="normal"></highlight></codeline>
-<codeline lineno="207" refid="MRChangeObjectFields_8h_1acf6ea39a67ce3d22469d3335395aedb2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangeObjectFields_8h_1acf6ea39a67ce3d22469d3335395aedb2" kindref="member">MR_ChangeObjectVisibilityAction_UpcastTo_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1a0f1ed9a0636ff98ed899be7e3b9601ad" kindref="member">MR_ChangeObjectVisibilityAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="207" refid="MRChangeObjectFields_8h_1a4bd2a708a461fa5041cda12498073ea9" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeObjectFields_8h_1a0f1ed9a0636ff98ed899be7e3b9601ad" kindref="member">MR_ChangeObjectVisibilityAction</ref><sp/>*<ref refid="MRChangeObjectFields_8h_1a4bd2a708a461fa5041cda12498073ea9" kindref="member">MR_ChangeObjectVisibilityAction_OffsetMutablePtr</ref>(<ref refid="MRChangeObjectFields_8h_1a0f1ed9a0636ff98ed899be7e3b9601ad" kindref="member">MR_ChangeObjectVisibilityAction</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="208"><highlight class="normal"></highlight></codeline>
-<codeline lineno="210" refid="MRChangeObjectFields_8h_1aebf99d91e5a8c1dafe7a76fff556d5ec" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangeObjectFields_8h_1aebf99d91e5a8c1dafe7a76fff556d5ec" kindref="member">MR_ChangeObjectVisibilityAction_MutableUpcastTo_MR_HistoryAction</ref>(<ref refid="MRChangeObjectFields_8h_1a0f1ed9a0636ff98ed899be7e3b9601ad" kindref="member">MR_ChangeObjectVisibilityAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="211"><highlight class="normal"></highlight></codeline>
-<codeline lineno="220" refid="MRChangeObjectFields_8h_1a81645ab23d4b1900ea98ed1d336b5d87" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeObjectFields_8h_1a0f1ed9a0636ff98ed899be7e3b9601ad" kindref="member">MR_ChangeObjectVisibilityAction</ref><sp/>*<ref refid="MRChangeObjectFields_8h_1a81645ab23d4b1900ea98ed1d336b5d87" kindref="member">MR_ChangeObjectVisibilityAction_Construct_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref><sp/>*obj);</highlight></codeline>
-<codeline lineno="221"><highlight class="normal"></highlight></codeline>
-<codeline lineno="232" refid="MRChangeObjectFields_8h_1a6ee83a12167de794ae5ce7a7c71950bf" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeObjectFields_8h_1a0f1ed9a0636ff98ed899be7e3b9601ad" kindref="member">MR_ChangeObjectVisibilityAction</ref><sp/>*<ref refid="MRChangeObjectFields_8h_1a6ee83a12167de794ae5ce7a7c71950bf" kindref="member">MR_ChangeObjectVisibilityAction_Construct_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref><sp/>*obj,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a85b2b5f875361920283d305645987092" kindref="member">MR_ViewportMask</ref><sp/>*newVisibilityMask);</highlight></codeline>
-<codeline lineno="233"><highlight class="normal"></highlight></codeline>
-<codeline lineno="235" refid="MRChangeObjectFields_8h_1a7baaf4c7132648ebfec9aacf6232132f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1a7baaf4c7132648ebfec9aacf6232132f" kindref="member">MR_ChangeObjectVisibilityAction_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1a0f1ed9a0636ff98ed899be7e3b9601ad" kindref="member">MR_ChangeObjectVisibilityAction</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="236"><highlight class="normal"></highlight></codeline>
-<codeline lineno="238" refid="MRChangeObjectFields_8h_1a7bf90b5caa1cba3fe77aef94e3644580" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1a7bf90b5caa1cba3fe77aef94e3644580" kindref="member">MR_ChangeObjectVisibilityAction_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1a0f1ed9a0636ff98ed899be7e3b9601ad" kindref="member">MR_ChangeObjectVisibilityAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="212" refid="MRChangeObjectFields_8h_1acf6ea39a67ce3d22469d3335395aedb2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangeObjectFields_8h_1acf6ea39a67ce3d22469d3335395aedb2" kindref="member">MR_ChangeObjectVisibilityAction_UpcastTo_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1a0f1ed9a0636ff98ed899be7e3b9601ad" kindref="member">MR_ChangeObjectVisibilityAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight></codeline>
+<codeline lineno="216" refid="MRChangeObjectFields_8h_1aebf99d91e5a8c1dafe7a76fff556d5ec" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangeObjectFields_8h_1aebf99d91e5a8c1dafe7a76fff556d5ec" kindref="member">MR_ChangeObjectVisibilityAction_MutableUpcastTo_MR_HistoryAction</ref>(<ref refid="MRChangeObjectFields_8h_1a0f1ed9a0636ff98ed899be7e3b9601ad" kindref="member">MR_ChangeObjectVisibilityAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="226" refid="MRChangeObjectFields_8h_1a81645ab23d4b1900ea98ed1d336b5d87" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeObjectFields_8h_1a0f1ed9a0636ff98ed899be7e3b9601ad" kindref="member">MR_ChangeObjectVisibilityAction</ref><sp/>*<ref refid="MRChangeObjectFields_8h_1a81645ab23d4b1900ea98ed1d336b5d87" kindref="member">MR_ChangeObjectVisibilityAction_Construct_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref><sp/>*obj);</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight></codeline>
+<codeline lineno="238" refid="MRChangeObjectFields_8h_1a6ee83a12167de794ae5ce7a7c71950bf" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeObjectFields_8h_1a0f1ed9a0636ff98ed899be7e3b9601ad" kindref="member">MR_ChangeObjectVisibilityAction</ref><sp/>*<ref refid="MRChangeObjectFields_8h_1a6ee83a12167de794ae5ce7a7c71950bf" kindref="member">MR_ChangeObjectVisibilityAction_Construct_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref><sp/>*obj,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a85b2b5f875361920283d305645987092" kindref="member">MR_ViewportMask</ref><sp/>*newVisibilityMask);</highlight></codeline>
 <codeline lineno="239"><highlight class="normal"></highlight></codeline>
-<codeline lineno="245" refid="MRChangeObjectFields_8h_1a02cb726ecd7a83a934dc740c9894e053" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeObjectFields_8h_1a0f1ed9a0636ff98ed899be7e3b9601ad" kindref="member">MR_ChangeObjectVisibilityAction</ref><sp/>*<ref refid="MRChangeObjectFields_8h_1a02cb726ecd7a83a934dc740c9894e053" kindref="member">MR_ChangeObjectVisibilityAction_AssignFromAnother</ref>(<ref refid="MRChangeObjectFields_8h_1a0f1ed9a0636ff98ed899be7e3b9601ad" kindref="member">MR_ChangeObjectVisibilityAction</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRChangeObjectFields_8h_1a0f1ed9a0636ff98ed899be7e3b9601ad" kindref="member">MR_ChangeObjectVisibilityAction</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="246"><highlight class="normal"></highlight></codeline>
-<codeline lineno="250" refid="MRChangeObjectFields_8h_1a0a65d4e77fe05dd55c9a56d05dad13c6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRChangeObjectFields_8h_1a0a65d4e77fe05dd55c9a56d05dad13c6" kindref="member">MR_ChangeObjectVisibilityAction_name</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1a0f1ed9a0636ff98ed899be7e3b9601ad" kindref="member">MR_ChangeObjectVisibilityAction</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="251"><highlight class="normal"></highlight></codeline>
-<codeline lineno="254" refid="MRChangeObjectFields_8h_1ad89d6c7242be43468a5740271c215942" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1ad89d6c7242be43468a5740271c215942" kindref="member">MR_ChangeObjectVisibilityAction_action</ref>(<ref refid="MRChangeObjectFields_8h_1a0f1ed9a0636ff98ed899be7e3b9601ad" kindref="member">MR_ChangeObjectVisibilityAction</ref><sp/>*_this,<sp/><ref refid="MRHistoryAction_8h_1a1412f92a5edcca34d4a7f907dd216741" kindref="member">MR_HistoryAction_Type</ref><sp/>_1);</highlight></codeline>
-<codeline lineno="255"><highlight class="normal"></highlight></codeline>
-<codeline lineno="258" refid="MRChangeObjectFields_8h_1a10a287939aabb54b291b6ff0e051f087" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1a10a287939aabb54b291b6ff0e051f087" kindref="member">MR_ChangeObjectVisibilityAction_setObjectDirty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref><sp/>*_1);</highlight></codeline>
-<codeline lineno="259"><highlight class="normal"></highlight></codeline>
-<codeline lineno="262" refid="MRChangeObjectFields_8h_1aa1fd1b0f91ad4a0768c30fb2fda2b629" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRChangeObjectFields_8h_1aa1fd1b0f91ad4a0768c30fb2fda2b629" kindref="member">MR_ChangeObjectVisibilityAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1a0f1ed9a0636ff98ed899be7e3b9601ad" kindref="member">MR_ChangeObjectVisibilityAction</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="263"><highlight class="normal"></highlight></codeline>
-<codeline lineno="264"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="265"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="266"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="241" refid="MRChangeObjectFields_8h_1a7baaf4c7132648ebfec9aacf6232132f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1a7baaf4c7132648ebfec9aacf6232132f" kindref="member">MR_ChangeObjectVisibilityAction_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1a0f1ed9a0636ff98ed899be7e3b9601ad" kindref="member">MR_ChangeObjectVisibilityAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244" refid="MRChangeObjectFields_8h_1a7bf90b5caa1cba3fe77aef94e3644580" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1a7bf90b5caa1cba3fe77aef94e3644580" kindref="member">MR_ChangeObjectVisibilityAction_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1a0f1ed9a0636ff98ed899be7e3b9601ad" kindref="member">MR_ChangeObjectVisibilityAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"></highlight></codeline>
+<codeline lineno="251" refid="MRChangeObjectFields_8h_1a02cb726ecd7a83a934dc740c9894e053" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeObjectFields_8h_1a0f1ed9a0636ff98ed899be7e3b9601ad" kindref="member">MR_ChangeObjectVisibilityAction</ref><sp/>*<ref refid="MRChangeObjectFields_8h_1a02cb726ecd7a83a934dc740c9894e053" kindref="member">MR_ChangeObjectVisibilityAction_AssignFromAnother</ref>(<ref refid="MRChangeObjectFields_8h_1a0f1ed9a0636ff98ed899be7e3b9601ad" kindref="member">MR_ChangeObjectVisibilityAction</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRChangeObjectFields_8h_1a0f1ed9a0636ff98ed899be7e3b9601ad" kindref="member">MR_ChangeObjectVisibilityAction</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="256" refid="MRChangeObjectFields_8h_1a0a65d4e77fe05dd55c9a56d05dad13c6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRChangeObjectFields_8h_1a0a65d4e77fe05dd55c9a56d05dad13c6" kindref="member">MR_ChangeObjectVisibilityAction_name</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1a0f1ed9a0636ff98ed899be7e3b9601ad" kindref="member">MR_ChangeObjectVisibilityAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"></highlight></codeline>
+<codeline lineno="260" refid="MRChangeObjectFields_8h_1ad89d6c7242be43468a5740271c215942" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1ad89d6c7242be43468a5740271c215942" kindref="member">MR_ChangeObjectVisibilityAction_action</ref>(<ref refid="MRChangeObjectFields_8h_1a0f1ed9a0636ff98ed899be7e3b9601ad" kindref="member">MR_ChangeObjectVisibilityAction</ref><sp/>*_this,<sp/><ref refid="MRHistoryAction_8h_1a1412f92a5edcca34d4a7f907dd216741" kindref="member">MR_HistoryAction_Type</ref><sp/>_1);</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"></highlight></codeline>
+<codeline lineno="264" refid="MRChangeObjectFields_8h_1a10a287939aabb54b291b6ff0e051f087" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1a10a287939aabb54b291b6ff0e051f087" kindref="member">MR_ChangeObjectVisibilityAction_setObjectDirty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref><sp/>*_1);</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"></highlight></codeline>
+<codeline lineno="268" refid="MRChangeObjectFields_8h_1aa1fd1b0f91ad4a0768c30fb2fda2b629" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRChangeObjectFields_8h_1aa1fd1b0f91ad4a0768c30fb2fda2b629" kindref="member">MR_ChangeObjectVisibilityAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeObjectFields_8h_1a0f1ed9a0636ff98ed899be7e3b9601ad" kindref="member">MR_ChangeObjectVisibilityAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"></highlight></codeline>
+<codeline lineno="270"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="271"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeObjectFields.h"/>
   </compounddef>

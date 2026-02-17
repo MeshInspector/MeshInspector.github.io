@@ -204,11 +204,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>how to triangulate the hole, must be specified by the user Returns a pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>triangulateParams</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>how to triangulate the hole, must be specified by the user Returns a pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>triangulateParams</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="34" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="34" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="35" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="35" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1ab5e0296af47593f684980f691d80143c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -234,7 +234,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="41" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="41" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="42" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="42" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1ae3411a95acb44ba899af394e71c242c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFillHoleNicely_8h_1aac50ce209302ca1c9b23e6ea4dcfd3b4" kindref="member">MR_FillHoleParams</ref> *</type>
@@ -248,11 +248,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>how to triangulate the hole, must be specified by the user Returns a mutable pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>triangulateParams</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>how to triangulate the hole, must be specified by the user Returns a mutable pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>triangulateParams</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="47" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="47" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="49" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="49" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1a47e125ad8ba1ae4b38a139794b337b8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const bool *</type>
@@ -266,11 +266,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>If false then additional vertices are created inside the patch for best mesh quality Returns a pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>triangulateOnly</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>If false then additional vertices are created inside the patch for best mesh quality Returns a pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>triangulateOnly</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="53" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="53" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="56" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="56" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1a6e29032ba5f70e6f74ee1ada98a7e6ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -292,7 +292,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="59" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="59" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="62" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="62" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1ace83f14ecda58bb62495b0a35e22ae02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool *</type>
@@ -306,11 +306,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>If false then additional vertices are created inside the patch for best mesh quality Returns a mutable pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>triangulateOnly</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>If false then additional vertices are created inside the patch for best mesh quality Returns a mutable pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>triangulateOnly</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="65" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="65" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="69" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="69" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1a73cc35e9c49fbdd839e081c8b1711e14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref> *const *</type>
@@ -324,11 +324,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>in triangulateOnly = false mode, edges specified by this bit-set will never be flipped, but they can be split so it is updated during the operation Returns a pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>notFlippable</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>in triangulateOnly = false mode, edges specified by this bit-set will never be flipped, but they can be split so it is updated during the operation Returns a pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>notFlippable</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="71" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="71" declcolumn="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="76" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="76" declcolumn="39"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1af76a7088a7d350b03f93558647c13d2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -350,7 +350,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="78" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="78" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="83" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="83" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1ad21a761fb2430c5c604cc029eb51d7d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref> **</type>
@@ -364,11 +364,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>in triangulateOnly = false mode, edges specified by this bit-set will never be flipped, but they can be split so it is updated during the operation Returns a mutable pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>notFlippable</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>in triangulateOnly = false mode, edges specified by this bit-set will never be flipped, but they can be split so it is updated during the operation Returns a mutable pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>notFlippable</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="84" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="84" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="90" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="90" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1a85d9130ff30e297da0c49d5f9c6e6e89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const float *</type>
@@ -382,11 +382,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Subdivision is stopped when all edges inside or on the boundary of the region are not longer than this value Returns a pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>maxEdgeLen</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Subdivision is stopped when all edges inside or on the boundary of the region are not longer than this value Returns a pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>maxEdgeLen</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="90" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="90" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="97" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="97" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1a6f3533f96f28e85cc90af55e1119e870" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -408,7 +408,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="96" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="96" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="103" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="103" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1a8277e978d1e255195e6816a18aae4cba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float *</type>
@@ -422,11 +422,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Subdivision is stopped when all edges inside or on the boundary of the region are not longer than this value Returns a mutable pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>maxEdgeLen</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Subdivision is stopped when all edges inside or on the boundary of the region are not longer than this value Returns a mutable pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>maxEdgeLen</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="102" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="102" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="110" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="110" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1a32a9ed436fb2439ab1b2c92683927023" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const int *</type>
@@ -440,11 +440,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Maximum number of edge splits allowed during subdivision Returns a pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>maxEdgeSplits</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Maximum number of edge splits allowed during subdivision Returns a pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>maxEdgeSplits</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="108" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="108" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="117" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="117" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1a9cf9c96577abe68f60837e3b236b7775" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -466,7 +466,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="114" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="114" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="123" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="123" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1a723bf0a04ed62d5972ba3cd0a7a2cd40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API int *</type>
@@ -480,11 +480,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Maximum number of edge splits allowed during subdivision Returns a mutable pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>maxEdgeSplits</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Maximum number of edge splits allowed during subdivision Returns a mutable pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>maxEdgeSplits</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="120" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="120" declcolumn="13"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="130" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="130" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1a2d79cce6011d3fe9ac407dbf6a2664ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const float *</type>
@@ -498,11 +498,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Improves local mesh triangulation by doing edge flips if it does not change dihedral angle more than on this value (in radians) Returns a pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>maxAngleChangeAfterFlip</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Improves local mesh triangulation by doing edge flips if it does not change dihedral angle more than on this value (in radians) Returns a pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>maxAngleChangeAfterFlip</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="126" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="126" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="137" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="137" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1ab780e7084262ccef332749c15212b4b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -524,7 +524,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="132" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="132" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="143" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="143" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1af5636d4044f782e973aa5ccabb429c67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float *</type>
@@ -538,11 +538,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Improves local mesh triangulation by doing edge flips if it does not change dihedral angle more than on this value (in radians) Returns a mutable pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>maxAngleChangeAfterFlip</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Improves local mesh triangulation by doing edge flips if it does not change dihedral angle more than on this value (in radians) Returns a mutable pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>maxAngleChangeAfterFlip</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="138" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="138" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="150" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="150" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1a4542b5be7b62576ce607b2a4ec67ec07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const bool *</type>
@@ -556,11 +556,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Whether to make patch over the hole smooth both inside and on its boundary with existed surface Returns a pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>smoothCurvature</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Whether to make patch over the hole smooth both inside and on its boundary with existed surface Returns a pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>smoothCurvature</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="144" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="144" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="157" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="157" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1ade1dfd5344e3c131de5cccdc133eac84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -582,7 +582,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="150" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="150" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="163" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="163" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1a9ebb889372128db4eea0d994291fed9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool *</type>
@@ -596,11 +596,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Whether to make patch over the hole smooth both inside and on its boundary with existed surface Returns a mutable pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>smoothCurvature</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Whether to make patch over the hole smooth both inside and on its boundary with existed surface Returns a mutable pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>smoothCurvature</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="156" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="156" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="170" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="170" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1ab376b5de5a3ca99d149f51bb62766621" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const bool *</type>
@@ -614,11 +614,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Additionally smooth 3 layers of vertices near hole boundary both inside and outside of the hole Returns a pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>naturalSmooth</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Additionally smooth 3 layers of vertices near hole boundary both inside and outside of the hole Returns a pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>naturalSmooth</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="162" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="162" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="177" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="177" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1ae7720d85f43ee72f5327e78f14896b7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -640,7 +640,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="168" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="168" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="183" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="183" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1a83097cc5c3e7d3e22d4a86d175e9b603" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool *</type>
@@ -654,11 +654,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Additionally smooth 3 layers of vertices near hole boundary both inside and outside of the hole Returns a mutable pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>naturalSmooth</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Additionally smooth 3 layers of vertices near hole boundary both inside and outside of the hole Returns a mutable pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>naturalSmooth</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="174" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="174" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="190" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="190" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1a8bd232dca7f6b7e889ea1c97c0f5ff0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRFillHoleNicely_8h_1a5406af15a4ce0b3061cd59f056e30578" kindref="member">MR_std_function_bool_from_MR_EdgeId</ref> *</type>
@@ -672,11 +672,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>(If this is set) this function is called in subdivision each time edge (e) is going to split, if it returns false then this split will be skipped Returns a pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>beforeEdgeSplit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>(If this is set) this function is called in subdivision each time edge (e) is going to split, if it returns false then this split will be skipped Returns a pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>beforeEdgeSplit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="180" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="180" declcolumn="51"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="197" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="197" declcolumn="51"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1ab8f4519ad1a08c86c2cd3208e6260c66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -702,7 +702,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="187" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="187" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="204" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="204" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1acccc7b9c1a0910292080454a0fdf9f3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFillHoleNicely_8h_1a5406af15a4ce0b3061cd59f056e30578" kindref="member">MR_std_function_bool_from_MR_EdgeId</ref> *</type>
@@ -716,11 +716,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>(If this is set) this function is called in subdivision each time edge (e) is going to split, if it returns false then this split will be skipped Returns a mutable pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>beforeEdgeSplit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>(If this is set) this function is called in subdivision each time edge (e) is going to split, if it returns false then this split will be skipped Returns a mutable pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>beforeEdgeSplit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="193" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="193" declcolumn="45"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="211" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="211" declcolumn="45"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1aa706c930fcb6434c9370774d8394ab5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref> *</type>
@@ -734,11 +734,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>(If this is set) this function is called in subdivision each time edge (e) is split into (e1-&gt;e), but before the ring is made Delone Returns a pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>onEdgeSplit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>(If this is set) this function is called in subdivision each time edge (e) is split into (e1-&gt;e), but before the ring is made Delone Returns a pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>onEdgeSplit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="199" column="61" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="199" declcolumn="61"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="218" column="61" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="218" declcolumn="61"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1a55b4c09c3aadf9d5ec55ae6ba9daad89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -764,7 +764,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="206" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="206" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="225" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="225" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1a88b27a6cbedcf5c84099b0f035b8b236" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref> *</type>
@@ -778,11 +778,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>(If this is set) this function is called in subdivision each time edge (e) is split into (e1-&gt;e), but before the ring is made Delone Returns a mutable pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>onEdgeSplit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>(If this is set) this function is called in subdivision each time edge (e) is split into (e1-&gt;e), but before the ring is made Delone Returns a mutable pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>onEdgeSplit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="212" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="212" declcolumn="55"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="232" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="232" declcolumn="55"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1ab502877acc987c9cb004d827d95efcab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MREnums_8h_1a9a47d4f1ed7f02b8923ccde473d7ab50" kindref="member">MR_EdgeWeights</ref> *</type>
@@ -796,11 +796,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>edge weighting scheme for smoothCurvature mode Returns a pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>edgeWeights</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>edge weighting scheme for smoothCurvature mode Returns a pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>edgeWeights</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="218" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="218" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="239" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="239" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1a2bbbc82eabd00ed4dc7be4549871d170" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -822,7 +822,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="225" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="225" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="246" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="246" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1a3b9977f9b0fbdabdc9567494fe0b6f43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MREnums_8h_1a9a47d4f1ed7f02b8923ccde473d7ab50" kindref="member">MR_EdgeWeights</ref> *</type>
@@ -836,11 +836,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>edge weighting scheme for smoothCurvature mode Returns a mutable pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>edgeWeights</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>edge weighting scheme for smoothCurvature mode Returns a mutable pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>edgeWeights</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="231" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="231" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="253" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="253" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1ab6cce011c702d0b347a4b16c74c943b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MREnums_8h_1ae6b0258254d005d6b726579dd8ae29b3" kindref="member">MR_VertexMass</ref> *</type>
@@ -854,11 +854,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>vertex mass scheme for smoothCurvature mode Returns a pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>vmass</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>vertex mass scheme for smoothCurvature mode Returns a pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>vmass</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="237" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="237" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="260" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="260" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1a1017085705f3746ceea800f6115676df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -880,7 +880,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="244" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="244" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="267" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="267" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1a082d311afe820f7b77307040f088692a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MREnums_8h_1ae6b0258254d005d6b726579dd8ae29b3" kindref="member">MR_VertexMass</ref> *</type>
@@ -894,11 +894,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>vertex mass scheme for smoothCurvature mode Returns a mutable pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>vmass</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>vertex mass scheme for smoothCurvature mode Returns a mutable pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>vmass</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="250" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="250" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="274" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="274" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1ad71fe9b08805bef53c4482aab7983497" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref> *const *</type>
@@ -912,11 +912,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional uv-coordinates of vertices; if provided then elements corresponding to new vertices will be added there Returns a pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>uvCoords</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>optional uv-coordinates of vertices; if provided then elements corresponding to new vertices will be added there Returns a pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>uvCoords</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="256" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="256" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="281" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="281" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1aaf320b467ec84c08b4f015742baec14a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -938,7 +938,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="263" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="263" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="288" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="288" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1a22a0d23ebd9ff4330fbf1281adf1ea92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref> **</type>
@@ -952,11 +952,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional uv-coordinates of vertices; if provided then elements corresponding to new vertices will be added there Returns a mutable pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>uvCoords</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>optional uv-coordinates of vertices; if provided then elements corresponding to new vertices will be added there Returns a mutable pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>uvCoords</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="269" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="269" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="295" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="295" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1ad8f1f8d97cbe529a3b629caf783ea8b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> *const *</type>
@@ -970,11 +970,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional colors of vertices; if provided then elements corresponding to new vertices will be added there Returns a pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>colorMap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>optional colors of vertices; if provided then elements corresponding to new vertices will be added there Returns a pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>colorMap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="275" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="275" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="302" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="302" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1a8e0c5b3de60afa49fb2835c718969fa0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -996,7 +996,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="282" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="282" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="309" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="309" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1acd03f61925010b547468f8b9511878fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> **</type>
@@ -1010,11 +1010,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional colors of vertices; if provided then elements corresponding to new vertices will be added there Returns a mutable pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>colorMap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>optional colors of vertices; if provided then elements corresponding to new vertices will be added there Returns a mutable pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>colorMap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="288" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="288" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="316" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="316" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1a005636c8fd17fd6c0e1341f445d03b18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref> *const *</type>
@@ -1028,11 +1028,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional colors of faces; if provided then elements corresponding to new faces will be added there Returns a pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>faceColors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>optional colors of faces; if provided then elements corresponding to new faces will be added there Returns a pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>faceColors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="294" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="294" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="323" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="323" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1ab3f125756cf5182b9139a022db08844b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1054,7 +1054,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="301" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="301" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="330" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="330" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1a7d1f4d3ba6fca6a32def4eeb5d68a41d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref> **</type>
@@ -1068,11 +1068,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional colors of faces; if provided then elements corresponding to new faces will be added there Returns a mutable pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>faceColors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>optional colors of faces; if provided then elements corresponding to new faces will be added there Returns a mutable pointer to a member variable of class <computeroutput>MR::FillHoleNicelySettings</computeroutput> named <computeroutput>faceColors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="307" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="307" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="337" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="337" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1aede06964c8730d3f04ffd2f61ba4b3e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
@@ -1089,7 +1089,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="311" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="311" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="341" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="341" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1aaf23876b801472bf026e45287122fa22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
@@ -1107,7 +1107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="316" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="316" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="346" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="346" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1ab2a3b6d42a8c70a2df99c12d200df452" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
@@ -1193,7 +1193,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="330" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="330" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="360" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="360" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1af9b7c1ec7f8e10521c6196b8a8722a95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
@@ -1215,7 +1215,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="334" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="334" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="364" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="364" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1aa31cc67434c6833e73e60376463fc21e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
@@ -1237,7 +1237,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="338" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="338" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="368" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="368" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1a4408c3477ba03690cc4e1535732a5e88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
@@ -1259,7 +1259,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="343" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="343" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="373" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="373" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1a67771281432dc871ebcd3d18bd7b1794" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1277,7 +1277,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="346" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="346" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="376" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="376" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1a9de48941a230f6e0031462d89600ebb1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1295,7 +1295,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="349" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="349" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="379" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="379" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1a49994e3b5782817eb1af33b628246d79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref> *</type>
@@ -1321,7 +1321,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="356" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="356" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="386" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="386" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRFillHoleNicely_8h_1aad4bf2948424d03f9069844d877608d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *</type>
@@ -1349,7 +1349,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="366" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="366" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" line="396" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h" declline="396" declcolumn="23"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1384,119 +1384,119 @@
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
 <codeline lineno="28" refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref>;</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34" refid="MRFillHoleNicely_8h_1a67b8cdb54298cf10acb5f0174b33c25c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1aac50ce209302ca1c9b23e6ea4dcfd3b4" kindref="member">MR_FillHoleParams</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1a67b8cdb54298cf10acb5f0174b33c25c" kindref="member">MR_FillHoleNicelySettings_Get_triangulateParams</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41" refid="MRFillHoleNicely_8h_1ab5e0296af47593f684980f691d80143c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1ab5e0296af47593f684980f691d80143c" kindref="member">MR_FillHoleNicelySettings_Set_triangulateParams</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRFillHoleNicely_8h_1aac50ce209302ca1c9b23e6ea4dcfd3b4" kindref="member">MR_FillHoleParams</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47" refid="MRFillHoleNicely_8h_1ae3411a95acb44ba899af394e71c242c2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillHoleNicely_8h_1aac50ce209302ca1c9b23e6ea4dcfd3b4" kindref="member">MR_FillHoleParams</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1ae3411a95acb44ba899af394e71c242c2" kindref="member">MR_FillHoleNicelySettings_GetMutable_triangulateParams</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"></highlight></codeline>
-<codeline lineno="53" refid="MRFillHoleNicely_8h_1a47e125ad8ba1ae4b38a139794b337b8f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRFillHoleNicely_8h_1a47e125ad8ba1ae4b38a139794b337b8f" kindref="member">MR_FillHoleNicelySettings_Get_triangulateOnly</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="54"><highlight class="normal"></highlight></codeline>
-<codeline lineno="59" refid="MRFillHoleNicely_8h_1a6e29032ba5f70e6f74ee1ada98a7e6ff" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6e29032ba5f70e6f74ee1ada98a7e6ff" kindref="member">MR_FillHoleNicelySettings_Set_triangulateOnly</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="60"><highlight class="normal"></highlight></codeline>
-<codeline lineno="65" refid="MRFillHoleNicely_8h_1ace83f14ecda58bb62495b0a35e22ae02" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRFillHoleNicely_8h_1ace83f14ecda58bb62495b0a35e22ae02" kindref="member">MR_FillHoleNicelySettings_GetMutable_triangulateOnly</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="66"><highlight class="normal"></highlight></codeline>
-<codeline lineno="71" refid="MRFillHoleNicely_8h_1a73cc35e9c49fbdd839e081c8b1711e14" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRFillHoleNicely_8h_1a73cc35e9c49fbdd839e081c8b1711e14" kindref="member">MR_FillHoleNicelySettings_Get_notFlippable</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="72"><highlight class="normal"></highlight></codeline>
-<codeline lineno="78" refid="MRFillHoleNicely_8h_1af76a7088a7d350b03f93558647c13d2d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1af76a7088a7d350b03f93558647c13d2d" kindref="member">MR_FillHoleNicelySettings_Set_notFlippable</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this,<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="79"><highlight class="normal"></highlight></codeline>
-<codeline lineno="84" refid="MRFillHoleNicely_8h_1ad21a761fb2430c5c604cc029eb51d7d2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>**<ref refid="MRFillHoleNicely_8h_1ad21a761fb2430c5c604cc029eb51d7d2" kindref="member">MR_FillHoleNicelySettings_GetMutable_notFlippable</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="85"><highlight class="normal"></highlight></codeline>
-<codeline lineno="90" refid="MRFillHoleNicely_8h_1a85d9130ff30e297da0c49d5f9c6e6e89" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRFillHoleNicely_8h_1a85d9130ff30e297da0c49d5f9c6e6e89" kindref="member">MR_FillHoleNicelySettings_Get_maxEdgeLen</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="35" refid="MRFillHoleNicely_8h_1a67b8cdb54298cf10acb5f0174b33c25c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1aac50ce209302ca1c9b23e6ea4dcfd3b4" kindref="member">MR_FillHoleParams</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1a67b8cdb54298cf10acb5f0174b33c25c" kindref="member">MR_FillHoleNicelySettings_Get_triangulateParams</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="MRFillHoleNicely_8h_1ab5e0296af47593f684980f691d80143c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1ab5e0296af47593f684980f691d80143c" kindref="member">MR_FillHoleNicelySettings_Set_triangulateParams</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRFillHoleNicely_8h_1aac50ce209302ca1c9b23e6ea4dcfd3b4" kindref="member">MR_FillHoleParams</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="MRFillHoleNicely_8h_1ae3411a95acb44ba899af394e71c242c2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillHoleNicely_8h_1aac50ce209302ca1c9b23e6ea4dcfd3b4" kindref="member">MR_FillHoleParams</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1ae3411a95acb44ba899af394e71c242c2" kindref="member">MR_FillHoleNicelySettings_GetMutable_triangulateParams</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="MRFillHoleNicely_8h_1a47e125ad8ba1ae4b38a139794b337b8f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRFillHoleNicely_8h_1a47e125ad8ba1ae4b38a139794b337b8f" kindref="member">MR_FillHoleNicelySettings_Get_triangulateOnly</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="MRFillHoleNicely_8h_1a6e29032ba5f70e6f74ee1ada98a7e6ff" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6e29032ba5f70e6f74ee1ada98a7e6ff" kindref="member">MR_FillHoleNicelySettings_Set_triangulateOnly</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="MRFillHoleNicely_8h_1ace83f14ecda58bb62495b0a35e22ae02" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRFillHoleNicely_8h_1ace83f14ecda58bb62495b0a35e22ae02" kindref="member">MR_FillHoleNicelySettings_GetMutable_triangulateOnly</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="MRFillHoleNicely_8h_1a73cc35e9c49fbdd839e081c8b1711e14" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRFillHoleNicely_8h_1a73cc35e9c49fbdd839e081c8b1711e14" kindref="member">MR_FillHoleNicelySettings_Get_notFlippable</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="MRFillHoleNicely_8h_1af76a7088a7d350b03f93558647c13d2d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1af76a7088a7d350b03f93558647c13d2d" kindref="member">MR_FillHoleNicelySettings_Set_notFlippable</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this,<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="MRFillHoleNicely_8h_1ad21a761fb2430c5c604cc029eb51d7d2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>**<ref refid="MRFillHoleNicely_8h_1ad21a761fb2430c5c604cc029eb51d7d2" kindref="member">MR_FillHoleNicelySettings_GetMutable_notFlippable</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="91"><highlight class="normal"></highlight></codeline>
-<codeline lineno="96" refid="MRFillHoleNicely_8h_1a6f3533f96f28e85cc90af55e1119e870" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6f3533f96f28e85cc90af55e1119e870" kindref="member">MR_FillHoleNicelySettings_Set_maxEdgeLen</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="97"><highlight class="normal"></highlight></codeline>
-<codeline lineno="102" refid="MRFillHoleNicely_8h_1a8277e978d1e255195e6816a18aae4cba" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRFillHoleNicely_8h_1a8277e978d1e255195e6816a18aae4cba" kindref="member">MR_FillHoleNicelySettings_GetMutable_maxEdgeLen</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="103"><highlight class="normal"></highlight></codeline>
-<codeline lineno="108" refid="MRFillHoleNicely_8h_1a32a9ed436fb2439ab1b2c92683927023" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRFillHoleNicely_8h_1a32a9ed436fb2439ab1b2c92683927023" kindref="member">MR_FillHoleNicelySettings_Get_maxEdgeSplits</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="109"><highlight class="normal"></highlight></codeline>
-<codeline lineno="114" refid="MRFillHoleNicely_8h_1a9cf9c96577abe68f60837e3b236b7775" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a9cf9c96577abe68f60837e3b236b7775" kindref="member">MR_FillHoleNicelySettings_Set_maxEdgeSplits</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="115"><highlight class="normal"></highlight></codeline>
-<codeline lineno="120" refid="MRFillHoleNicely_8h_1a723bf0a04ed62d5972ba3cd0a7a2cd40" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRFillHoleNicely_8h_1a723bf0a04ed62d5972ba3cd0a7a2cd40" kindref="member">MR_FillHoleNicelySettings_GetMutable_maxEdgeSplits</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="121"><highlight class="normal"></highlight></codeline>
-<codeline lineno="126" refid="MRFillHoleNicely_8h_1a2d79cce6011d3fe9ac407dbf6a2664ec" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRFillHoleNicely_8h_1a2d79cce6011d3fe9ac407dbf6a2664ec" kindref="member">MR_FillHoleNicelySettings_Get_maxAngleChangeAfterFlip</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="127"><highlight class="normal"></highlight></codeline>
-<codeline lineno="132" refid="MRFillHoleNicely_8h_1ab780e7084262ccef332749c15212b4b0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1ab780e7084262ccef332749c15212b4b0" kindref="member">MR_FillHoleNicelySettings_Set_maxAngleChangeAfterFlip</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="133"><highlight class="normal"></highlight></codeline>
-<codeline lineno="138" refid="MRFillHoleNicely_8h_1af5636d4044f782e973aa5ccabb429c67" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRFillHoleNicely_8h_1af5636d4044f782e973aa5ccabb429c67" kindref="member">MR_FillHoleNicelySettings_GetMutable_maxAngleChangeAfterFlip</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="139"><highlight class="normal"></highlight></codeline>
-<codeline lineno="144" refid="MRFillHoleNicely_8h_1a4542b5be7b62576ce607b2a4ec67ec07" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRFillHoleNicely_8h_1a4542b5be7b62576ce607b2a4ec67ec07" kindref="member">MR_FillHoleNicelySettings_Get_smoothCurvature</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="145"><highlight class="normal"></highlight></codeline>
-<codeline lineno="150" refid="MRFillHoleNicely_8h_1ade1dfd5344e3c131de5cccdc133eac84" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1ade1dfd5344e3c131de5cccdc133eac84" kindref="member">MR_FillHoleNicelySettings_Set_smoothCurvature</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="97" refid="MRFillHoleNicely_8h_1a85d9130ff30e297da0c49d5f9c6e6e89" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRFillHoleNicely_8h_1a85d9130ff30e297da0c49d5f9c6e6e89" kindref="member">MR_FillHoleNicelySettings_Get_maxEdgeLen</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="MRFillHoleNicely_8h_1a6f3533f96f28e85cc90af55e1119e870" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6f3533f96f28e85cc90af55e1119e870" kindref="member">MR_FillHoleNicelySettings_Set_maxEdgeLen</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="MRFillHoleNicely_8h_1a8277e978d1e255195e6816a18aae4cba" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRFillHoleNicely_8h_1a8277e978d1e255195e6816a18aae4cba" kindref="member">MR_FillHoleNicelySettings_GetMutable_maxEdgeLen</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="MRFillHoleNicely_8h_1a32a9ed436fb2439ab1b2c92683927023" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRFillHoleNicely_8h_1a32a9ed436fb2439ab1b2c92683927023" kindref="member">MR_FillHoleNicelySettings_Get_maxEdgeSplits</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123" refid="MRFillHoleNicely_8h_1a9cf9c96577abe68f60837e3b236b7775" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a9cf9c96577abe68f60837e3b236b7775" kindref="member">MR_FillHoleNicelySettings_Set_maxEdgeSplits</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="MRFillHoleNicely_8h_1a723bf0a04ed62d5972ba3cd0a7a2cd40" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRFillHoleNicely_8h_1a723bf0a04ed62d5972ba3cd0a7a2cd40" kindref="member">MR_FillHoleNicelySettings_GetMutable_maxEdgeSplits</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="MRFillHoleNicely_8h_1a2d79cce6011d3fe9ac407dbf6a2664ec" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRFillHoleNicely_8h_1a2d79cce6011d3fe9ac407dbf6a2664ec" kindref="member">MR_FillHoleNicelySettings_Get_maxAngleChangeAfterFlip</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="MRFillHoleNicely_8h_1ab780e7084262ccef332749c15212b4b0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1ab780e7084262ccef332749c15212b4b0" kindref="member">MR_FillHoleNicelySettings_Set_maxAngleChangeAfterFlip</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150" refid="MRFillHoleNicely_8h_1af5636d4044f782e973aa5ccabb429c67" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRFillHoleNicely_8h_1af5636d4044f782e973aa5ccabb429c67" kindref="member">MR_FillHoleNicelySettings_GetMutable_maxAngleChangeAfterFlip</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="151"><highlight class="normal"></highlight></codeline>
-<codeline lineno="156" refid="MRFillHoleNicely_8h_1a9ebb889372128db4eea0d994291fed9a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRFillHoleNicely_8h_1a9ebb889372128db4eea0d994291fed9a" kindref="member">MR_FillHoleNicelySettings_GetMutable_smoothCurvature</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="157"><highlight class="normal"></highlight></codeline>
-<codeline lineno="162" refid="MRFillHoleNicely_8h_1ab376b5de5a3ca99d149f51bb62766621" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRFillHoleNicely_8h_1ab376b5de5a3ca99d149f51bb62766621" kindref="member">MR_FillHoleNicelySettings_Get_naturalSmooth</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="163"><highlight class="normal"></highlight></codeline>
-<codeline lineno="168" refid="MRFillHoleNicely_8h_1ae7720d85f43ee72f5327e78f14896b7b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1ae7720d85f43ee72f5327e78f14896b7b" kindref="member">MR_FillHoleNicelySettings_Set_naturalSmooth</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="169"><highlight class="normal"></highlight></codeline>
-<codeline lineno="174" refid="MRFillHoleNicely_8h_1a83097cc5c3e7d3e22d4a86d175e9b603" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRFillHoleNicely_8h_1a83097cc5c3e7d3e22d4a86d175e9b603" kindref="member">MR_FillHoleNicelySettings_GetMutable_naturalSmooth</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="175"><highlight class="normal"></highlight></codeline>
-<codeline lineno="180" refid="MRFillHoleNicely_8h_1a8bd232dca7f6b7e889ea1c97c0f5ff0f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a5406af15a4ce0b3061cd59f056e30578" kindref="member">MR_std_function_bool_from_MR_EdgeId</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1a8bd232dca7f6b7e889ea1c97c0f5ff0f" kindref="member">MR_FillHoleNicelySettings_Get_beforeEdgeSplit</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="181"><highlight class="normal"></highlight></codeline>
-<codeline lineno="187" refid="MRFillHoleNicely_8h_1ab8f4519ad1a08c86c2cd3208e6260c66" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1ab8f4519ad1a08c86c2cd3208e6260c66" kindref="member">MR_FillHoleNicelySettings_Set_beforeEdgeSplit</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRFillHoleNicely_8h_1a5406af15a4ce0b3061cd59f056e30578" kindref="member">MR_std_function_bool_from_MR_EdgeId</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="188"><highlight class="normal"></highlight></codeline>
-<codeline lineno="193" refid="MRFillHoleNicely_8h_1acccc7b9c1a0910292080454a0fdf9f3f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillHoleNicely_8h_1a5406af15a4ce0b3061cd59f056e30578" kindref="member">MR_std_function_bool_from_MR_EdgeId</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1acccc7b9c1a0910292080454a0fdf9f3f" kindref="member">MR_FillHoleNicelySettings_GetMutable_beforeEdgeSplit</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="194"><highlight class="normal"></highlight></codeline>
-<codeline lineno="199" refid="MRFillHoleNicely_8h_1aa706c930fcb6434c9370774d8394ab5a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1aa706c930fcb6434c9370774d8394ab5a" kindref="member">MR_FillHoleNicelySettings_Get_onEdgeSplit</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="200"><highlight class="normal"></highlight></codeline>
-<codeline lineno="206" refid="MRFillHoleNicely_8h_1a55b4c09c3aadf9d5ec55ae6ba9daad89" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a55b4c09c3aadf9d5ec55ae6ba9daad89" kindref="member">MR_FillHoleNicelySettings_Set_onEdgeSplit</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="207"><highlight class="normal"></highlight></codeline>
-<codeline lineno="212" refid="MRFillHoleNicely_8h_1a88b27a6cbedcf5c84099b0f035b8b236" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1a88b27a6cbedcf5c84099b0f035b8b236" kindref="member">MR_FillHoleNicelySettings_GetMutable_onEdgeSplit</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="213"><highlight class="normal"></highlight></codeline>
-<codeline lineno="218" refid="MRFillHoleNicely_8h_1ab502877acc987c9cb004d827d95efcab" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnums_8h_1a9a47d4f1ed7f02b8923ccde473d7ab50" kindref="member">MR_EdgeWeights</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1ab502877acc987c9cb004d827d95efcab" kindref="member">MR_FillHoleNicelySettings_Get_edgeWeights</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="157" refid="MRFillHoleNicely_8h_1a4542b5be7b62576ce607b2a4ec67ec07" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRFillHoleNicely_8h_1a4542b5be7b62576ce607b2a4ec67ec07" kindref="member">MR_FillHoleNicelySettings_Get_smoothCurvature</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163" refid="MRFillHoleNicely_8h_1ade1dfd5344e3c131de5cccdc133eac84" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1ade1dfd5344e3c131de5cccdc133eac84" kindref="member">MR_FillHoleNicelySettings_Set_smoothCurvature</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170" refid="MRFillHoleNicely_8h_1a9ebb889372128db4eea0d994291fed9a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRFillHoleNicely_8h_1a9ebb889372128db4eea0d994291fed9a" kindref="member">MR_FillHoleNicelySettings_GetMutable_smoothCurvature</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177" refid="MRFillHoleNicely_8h_1ab376b5de5a3ca99d149f51bb62766621" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRFillHoleNicely_8h_1ab376b5de5a3ca99d149f51bb62766621" kindref="member">MR_FillHoleNicelySettings_Get_naturalSmooth</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183" refid="MRFillHoleNicely_8h_1ae7720d85f43ee72f5327e78f14896b7b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1ae7720d85f43ee72f5327e78f14896b7b" kindref="member">MR_FillHoleNicelySettings_Set_naturalSmooth</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190" refid="MRFillHoleNicely_8h_1a83097cc5c3e7d3e22d4a86d175e9b603" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRFillHoleNicely_8h_1a83097cc5c3e7d3e22d4a86d175e9b603" kindref="member">MR_FillHoleNicelySettings_GetMutable_naturalSmooth</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197" refid="MRFillHoleNicely_8h_1a8bd232dca7f6b7e889ea1c97c0f5ff0f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a5406af15a4ce0b3061cd59f056e30578" kindref="member">MR_std_function_bool_from_MR_EdgeId</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1a8bd232dca7f6b7e889ea1c97c0f5ff0f" kindref="member">MR_FillHoleNicelySettings_Get_beforeEdgeSplit</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204" refid="MRFillHoleNicely_8h_1ab8f4519ad1a08c86c2cd3208e6260c66" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1ab8f4519ad1a08c86c2cd3208e6260c66" kindref="member">MR_FillHoleNicelySettings_Set_beforeEdgeSplit</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRFillHoleNicely_8h_1a5406af15a4ce0b3061cd59f056e30578" kindref="member">MR_std_function_bool_from_MR_EdgeId</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211" refid="MRFillHoleNicely_8h_1acccc7b9c1a0910292080454a0fdf9f3f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillHoleNicely_8h_1a5406af15a4ce0b3061cd59f056e30578" kindref="member">MR_std_function_bool_from_MR_EdgeId</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1acccc7b9c1a0910292080454a0fdf9f3f" kindref="member">MR_FillHoleNicelySettings_GetMutable_beforeEdgeSplit</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="218" refid="MRFillHoleNicely_8h_1aa706c930fcb6434c9370774d8394ab5a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1aa706c930fcb6434c9370774d8394ab5a" kindref="member">MR_FillHoleNicelySettings_Get_onEdgeSplit</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="219"><highlight class="normal"></highlight></codeline>
-<codeline lineno="225" refid="MRFillHoleNicely_8h_1a2bbbc82eabd00ed4dc7be4549871d170" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a2bbbc82eabd00ed4dc7be4549871d170" kindref="member">MR_FillHoleNicelySettings_Set_edgeWeights</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this,<sp/><ref refid="MREnums_8h_1a9a47d4f1ed7f02b8923ccde473d7ab50" kindref="member">MR_EdgeWeights</ref><sp/>value);</highlight></codeline>
+<codeline lineno="225" refid="MRFillHoleNicely_8h_1a55b4c09c3aadf9d5ec55ae6ba9daad89" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a55b4c09c3aadf9d5ec55ae6ba9daad89" kindref="member">MR_FillHoleNicelySettings_Set_onEdgeSplit</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="226"><highlight class="normal"></highlight></codeline>
-<codeline lineno="231" refid="MRFillHoleNicely_8h_1a3b9977f9b0fbdabdc9567494fe0b6f43" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREnums_8h_1a9a47d4f1ed7f02b8923ccde473d7ab50" kindref="member">MR_EdgeWeights</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1a3b9977f9b0fbdabdc9567494fe0b6f43" kindref="member">MR_FillHoleNicelySettings_GetMutable_edgeWeights</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="232"><highlight class="normal"></highlight></codeline>
-<codeline lineno="237" refid="MRFillHoleNicely_8h_1ab6cce011c702d0b347a4b16c74c943b5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnums_8h_1ae6b0258254d005d6b726579dd8ae29b3" kindref="member">MR_VertexMass</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1ab6cce011c702d0b347a4b16c74c943b5" kindref="member">MR_FillHoleNicelySettings_Get_vmass</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="238"><highlight class="normal"></highlight></codeline>
-<codeline lineno="244" refid="MRFillHoleNicely_8h_1a1017085705f3746ceea800f6115676df" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a1017085705f3746ceea800f6115676df" kindref="member">MR_FillHoleNicelySettings_Set_vmass</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this,<sp/><ref refid="MREnums_8h_1ae6b0258254d005d6b726579dd8ae29b3" kindref="member">MR_VertexMass</ref><sp/>value);</highlight></codeline>
-<codeline lineno="245"><highlight class="normal"></highlight></codeline>
-<codeline lineno="250" refid="MRFillHoleNicely_8h_1a082d311afe820f7b77307040f088692a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREnums_8h_1ae6b0258254d005d6b726579dd8ae29b3" kindref="member">MR_VertexMass</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1a082d311afe820f7b77307040f088692a" kindref="member">MR_FillHoleNicelySettings_GetMutable_vmass</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="251"><highlight class="normal"></highlight></codeline>
-<codeline lineno="256" refid="MRFillHoleNicely_8h_1ad71fe9b08805bef53c4482aab7983497" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRFillHoleNicely_8h_1ad71fe9b08805bef53c4482aab7983497" kindref="member">MR_FillHoleNicelySettings_Get_uvCoords</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="257"><highlight class="normal"></highlight></codeline>
-<codeline lineno="263" refid="MRFillHoleNicely_8h_1aaf320b467ec84c08b4f015742baec14a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1aaf320b467ec84c08b4f015742baec14a" kindref="member">MR_FillHoleNicelySettings_Set_uvCoords</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this,<sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="264"><highlight class="normal"></highlight></codeline>
-<codeline lineno="269" refid="MRFillHoleNicely_8h_1a22a0d23ebd9ff4330fbf1281adf1ea92" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/>**<ref refid="MRFillHoleNicely_8h_1a22a0d23ebd9ff4330fbf1281adf1ea92" kindref="member">MR_FillHoleNicelySettings_GetMutable_uvCoords</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="270"><highlight class="normal"></highlight></codeline>
-<codeline lineno="275" refid="MRFillHoleNicely_8h_1ad8f1f8d97cbe529a3b629caf783ea8b1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRFillHoleNicely_8h_1ad8f1f8d97cbe529a3b629caf783ea8b1" kindref="member">MR_FillHoleNicelySettings_Get_colorMap</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="276"><highlight class="normal"></highlight></codeline>
-<codeline lineno="282" refid="MRFillHoleNicely_8h_1a8e0c5b3de60afa49fb2835c718969fa0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a8e0c5b3de60afa49fb2835c718969fa0" kindref="member">MR_FillHoleNicelySettings_Set_colorMap</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this,<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="283"><highlight class="normal"></highlight></codeline>
-<codeline lineno="288" refid="MRFillHoleNicely_8h_1acd03f61925010b547468f8b9511878fc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>**<ref refid="MRFillHoleNicely_8h_1acd03f61925010b547468f8b9511878fc" kindref="member">MR_FillHoleNicelySettings_GetMutable_colorMap</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="232" refid="MRFillHoleNicely_8h_1a88b27a6cbedcf5c84099b0f035b8b236" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1a88b27a6cbedcf5c84099b0f035b8b236" kindref="member">MR_FillHoleNicelySettings_GetMutable_onEdgeSplit</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight></codeline>
+<codeline lineno="239" refid="MRFillHoleNicely_8h_1ab502877acc987c9cb004d827d95efcab" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnums_8h_1a9a47d4f1ed7f02b8923ccde473d7ab50" kindref="member">MR_EdgeWeights</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1ab502877acc987c9cb004d827d95efcab" kindref="member">MR_FillHoleNicelySettings_Get_edgeWeights</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight></codeline>
+<codeline lineno="246" refid="MRFillHoleNicely_8h_1a2bbbc82eabd00ed4dc7be4549871d170" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a2bbbc82eabd00ed4dc7be4549871d170" kindref="member">MR_FillHoleNicelySettings_Set_edgeWeights</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this,<sp/><ref refid="MREnums_8h_1a9a47d4f1ed7f02b8923ccde473d7ab50" kindref="member">MR_EdgeWeights</ref><sp/>value);</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight></codeline>
+<codeline lineno="253" refid="MRFillHoleNicely_8h_1a3b9977f9b0fbdabdc9567494fe0b6f43" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREnums_8h_1a9a47d4f1ed7f02b8923ccde473d7ab50" kindref="member">MR_EdgeWeights</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1a3b9977f9b0fbdabdc9567494fe0b6f43" kindref="member">MR_FillHoleNicelySettings_GetMutable_edgeWeights</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"></highlight></codeline>
+<codeline lineno="260" refid="MRFillHoleNicely_8h_1ab6cce011c702d0b347a4b16c74c943b5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnums_8h_1ae6b0258254d005d6b726579dd8ae29b3" kindref="member">MR_VertexMass</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1ab6cce011c702d0b347a4b16c74c943b5" kindref="member">MR_FillHoleNicelySettings_Get_vmass</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267" refid="MRFillHoleNicely_8h_1a1017085705f3746ceea800f6115676df" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a1017085705f3746ceea800f6115676df" kindref="member">MR_FillHoleNicelySettings_Set_vmass</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this,<sp/><ref refid="MREnums_8h_1ae6b0258254d005d6b726579dd8ae29b3" kindref="member">MR_VertexMass</ref><sp/>value);</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="274" refid="MRFillHoleNicely_8h_1a082d311afe820f7b77307040f088692a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREnums_8h_1ae6b0258254d005d6b726579dd8ae29b3" kindref="member">MR_VertexMass</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1a082d311afe820f7b77307040f088692a" kindref="member">MR_FillHoleNicelySettings_GetMutable_vmass</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"></highlight></codeline>
+<codeline lineno="281" refid="MRFillHoleNicely_8h_1ad71fe9b08805bef53c4482aab7983497" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRFillHoleNicely_8h_1ad71fe9b08805bef53c4482aab7983497" kindref="member">MR_FillHoleNicelySettings_Get_uvCoords</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"></highlight></codeline>
+<codeline lineno="288" refid="MRFillHoleNicely_8h_1aaf320b467ec84c08b4f015742baec14a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1aaf320b467ec84c08b4f015742baec14a" kindref="member">MR_FillHoleNicelySettings_Set_uvCoords</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this,<sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="289"><highlight class="normal"></highlight></codeline>
-<codeline lineno="294" refid="MRFillHoleNicely_8h_1a005636c8fd17fd6c0e1341f445d03b18" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRFillHoleNicely_8h_1a005636c8fd17fd6c0e1341f445d03b18" kindref="member">MR_FillHoleNicelySettings_Get_faceColors</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="295"><highlight class="normal"></highlight></codeline>
-<codeline lineno="301" refid="MRFillHoleNicely_8h_1ab3f125756cf5182b9139a022db08844b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1ab3f125756cf5182b9139a022db08844b" kindref="member">MR_FillHoleNicelySettings_Set_faceColors</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this,<sp/><ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="302"><highlight class="normal"></highlight></codeline>
-<codeline lineno="307" refid="MRFillHoleNicely_8h_1a7d1f4d3ba6fca6a32def4eeb5d68a41d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref><sp/>**<ref refid="MRFillHoleNicely_8h_1a7d1f4d3ba6fca6a32def4eeb5d68a41d" kindref="member">MR_FillHoleNicelySettings_GetMutable_faceColors</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="308"><highlight class="normal"></highlight></codeline>
-<codeline lineno="311" refid="MRFillHoleNicely_8h_1aede06964c8730d3f04ffd2f61ba4b3e4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1aede06964c8730d3f04ffd2f61ba4b3e4" kindref="member">MR_FillHoleNicelySettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="312"><highlight class="normal"></highlight></codeline>
-<codeline lineno="316" refid="MRFillHoleNicely_8h_1aaf23876b801472bf026e45287122fa22" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1aaf23876b801472bf026e45287122fa22" kindref="member">MR_FillHoleNicelySettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="295" refid="MRFillHoleNicely_8h_1a22a0d23ebd9ff4330fbf1281adf1ea92" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/>**<ref refid="MRFillHoleNicely_8h_1a22a0d23ebd9ff4330fbf1281adf1ea92" kindref="member">MR_FillHoleNicelySettings_GetMutable_uvCoords</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"></highlight></codeline>
+<codeline lineno="302" refid="MRFillHoleNicely_8h_1ad8f1f8d97cbe529a3b629caf783ea8b1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRFillHoleNicely_8h_1ad8f1f8d97cbe529a3b629caf783ea8b1" kindref="member">MR_FillHoleNicelySettings_Get_colorMap</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"></highlight></codeline>
+<codeline lineno="309" refid="MRFillHoleNicely_8h_1a8e0c5b3de60afa49fb2835c718969fa0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a8e0c5b3de60afa49fb2835c718969fa0" kindref="member">MR_FillHoleNicelySettings_Set_colorMap</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this,<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"></highlight></codeline>
+<codeline lineno="316" refid="MRFillHoleNicely_8h_1acd03f61925010b547468f8b9511878fc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>**<ref refid="MRFillHoleNicely_8h_1acd03f61925010b547468f8b9511878fc" kindref="member">MR_FillHoleNicelySettings_GetMutable_colorMap</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="317"><highlight class="normal"></highlight></codeline>
-<codeline lineno="330" refid="MRFillHoleNicely_8h_1ab2a3b6d42a8c70a2df99c12d200df452" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1ab2a3b6d42a8c70a2df99c12d200df452" kindref="member">MR_FillHoleNicelySettings_ConstructFrom</ref>(MR_PassBy<sp/>triangulateParams_pass_by,<sp/><ref refid="MRFillHoleNicely_8h_1aac50ce209302ca1c9b23e6ea4dcfd3b4" kindref="member">MR_FillHoleParams</ref><sp/>*triangulateParams,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>triangulateOnly,<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*notFlippable,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxEdgeLen,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maxEdgeSplits,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxAngleChangeAfterFlip,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>smoothCurvature,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>naturalSmooth,<sp/>MR_PassBy<sp/>beforeEdgeSplit_pass_by,<sp/><ref refid="MRFillHoleNicely_8h_1a5406af15a4ce0b3061cd59f056e30578" kindref="member">MR_std_function_bool_from_MR_EdgeId</ref><sp/>*beforeEdgeSplit,<sp/>MR_PassBy<sp/>onEdgeSplit_pass_by,<sp/><ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref><sp/>*onEdgeSplit,<sp/><ref refid="MREnums_8h_1a9a47d4f1ed7f02b8923ccde473d7ab50" kindref="member">MR_EdgeWeights</ref><sp/>edgeWeights,<sp/><ref refid="MREnums_8h_1ae6b0258254d005d6b726579dd8ae29b3" kindref="member">MR_VertexMass</ref><sp/>vmass,<sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/>*uvCoords,<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*colorMap,<sp/><ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref><sp/>*faceColors);</highlight></codeline>
+<codeline lineno="323" refid="MRFillHoleNicely_8h_1a005636c8fd17fd6c0e1341f445d03b18" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRFillHoleNicely_8h_1a005636c8fd17fd6c0e1341f445d03b18" kindref="member">MR_FillHoleNicelySettings_Get_faceColors</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"></highlight></codeline>
+<codeline lineno="330" refid="MRFillHoleNicely_8h_1ab3f125756cf5182b9139a022db08844b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1ab3f125756cf5182b9139a022db08844b" kindref="member">MR_FillHoleNicelySettings_Set_faceColors</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this,<sp/><ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="331"><highlight class="normal"></highlight></codeline>
-<codeline lineno="334" refid="MRFillHoleNicely_8h_1af9b7c1ec7f8e10521c6196b8a8722a95" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1af9b7c1ec7f8e10521c6196b8a8722a95" kindref="member">MR_FillHoleNicelySettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="335"><highlight class="normal"></highlight></codeline>
-<codeline lineno="338" refid="MRFillHoleNicely_8h_1aa31cc67434c6833e73e60376463fc21e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1aa31cc67434c6833e73e60376463fc21e" kindref="member">MR_FillHoleNicelySettings_OffsetMutablePtr</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="339"><highlight class="normal"></highlight></codeline>
-<codeline lineno="343" refid="MRFillHoleNicely_8h_1a4408c3477ba03690cc4e1535732a5e88" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1a4408c3477ba03690cc4e1535732a5e88" kindref="member">MR_FillHoleNicelySettings_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="344"><highlight class="normal"></highlight></codeline>
-<codeline lineno="346" refid="MRFillHoleNicely_8h_1a67771281432dc871ebcd3d18bd7b1794" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a67771281432dc871ebcd3d18bd7b1794" kindref="member">MR_FillHoleNicelySettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="337" refid="MRFillHoleNicely_8h_1a7d1f4d3ba6fca6a32def4eeb5d68a41d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref><sp/>**<ref refid="MRFillHoleNicely_8h_1a7d1f4d3ba6fca6a32def4eeb5d68a41d" kindref="member">MR_FillHoleNicelySettings_GetMutable_faceColors</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"></highlight></codeline>
+<codeline lineno="341" refid="MRFillHoleNicely_8h_1aede06964c8730d3f04ffd2f61ba4b3e4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1aede06964c8730d3f04ffd2f61ba4b3e4" kindref="member">MR_FillHoleNicelySettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"></highlight></codeline>
+<codeline lineno="346" refid="MRFillHoleNicely_8h_1aaf23876b801472bf026e45287122fa22" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1aaf23876b801472bf026e45287122fa22" kindref="member">MR_FillHoleNicelySettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="347"><highlight class="normal"></highlight></codeline>
-<codeline lineno="349" refid="MRFillHoleNicely_8h_1a9de48941a230f6e0031462d89600ebb1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a9de48941a230f6e0031462d89600ebb1" kindref="member">MR_FillHoleNicelySettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="350"><highlight class="normal"></highlight></codeline>
-<codeline lineno="356" refid="MRFillHoleNicely_8h_1a49994e3b5782817eb1af33b628246d79" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1a49994e3b5782817eb1af33b628246d79" kindref="member">MR_FillHoleNicelySettings_AssignFromAnother</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="357"><highlight class="normal"></highlight></codeline>
-<codeline lineno="366" refid="MRFillHoleNicely_8h_1aad4bf2948424d03f9069844d877608d7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1aad4bf2948424d03f9069844d877608d7" kindref="member">MR_fillHoleNicely</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>holeEdge,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*settings);</highlight></codeline>
-<codeline lineno="367"><highlight class="normal"></highlight></codeline>
-<codeline lineno="368"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="369"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="370"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="360" refid="MRFillHoleNicely_8h_1ab2a3b6d42a8c70a2df99c12d200df452" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1ab2a3b6d42a8c70a2df99c12d200df452" kindref="member">MR_FillHoleNicelySettings_ConstructFrom</ref>(MR_PassBy<sp/>triangulateParams_pass_by,<sp/><ref refid="MRFillHoleNicely_8h_1aac50ce209302ca1c9b23e6ea4dcfd3b4" kindref="member">MR_FillHoleParams</ref><sp/>*triangulateParams,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>triangulateOnly,<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*notFlippable,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxEdgeLen,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maxEdgeSplits,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxAngleChangeAfterFlip,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>smoothCurvature,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>naturalSmooth,<sp/>MR_PassBy<sp/>beforeEdgeSplit_pass_by,<sp/><ref refid="MRFillHoleNicely_8h_1a5406af15a4ce0b3061cd59f056e30578" kindref="member">MR_std_function_bool_from_MR_EdgeId</ref><sp/>*beforeEdgeSplit,<sp/>MR_PassBy<sp/>onEdgeSplit_pass_by,<sp/><ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref><sp/>*onEdgeSplit,<sp/><ref refid="MREnums_8h_1a9a47d4f1ed7f02b8923ccde473d7ab50" kindref="member">MR_EdgeWeights</ref><sp/>edgeWeights,<sp/><ref refid="MREnums_8h_1ae6b0258254d005d6b726579dd8ae29b3" kindref="member">MR_VertexMass</ref><sp/>vmass,<sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/>*uvCoords,<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*colorMap,<sp/><ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref><sp/>*faceColors);</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"></highlight></codeline>
+<codeline lineno="364" refid="MRFillHoleNicely_8h_1af9b7c1ec7f8e10521c6196b8a8722a95" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1af9b7c1ec7f8e10521c6196b8a8722a95" kindref="member">MR_FillHoleNicelySettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="365"><highlight class="normal"></highlight></codeline>
+<codeline lineno="368" refid="MRFillHoleNicely_8h_1aa31cc67434c6833e73e60376463fc21e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1aa31cc67434c6833e73e60376463fc21e" kindref="member">MR_FillHoleNicelySettings_OffsetMutablePtr</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="369"><highlight class="normal"></highlight></codeline>
+<codeline lineno="373" refid="MRFillHoleNicely_8h_1a4408c3477ba03690cc4e1535732a5e88" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1a4408c3477ba03690cc4e1535732a5e88" kindref="member">MR_FillHoleNicelySettings_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="374"><highlight class="normal"></highlight></codeline>
+<codeline lineno="376" refid="MRFillHoleNicely_8h_1a67771281432dc871ebcd3d18bd7b1794" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a67771281432dc871ebcd3d18bd7b1794" kindref="member">MR_FillHoleNicelySettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="377"><highlight class="normal"></highlight></codeline>
+<codeline lineno="379" refid="MRFillHoleNicely_8h_1a9de48941a230f6e0031462d89600ebb1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a9de48941a230f6e0031462d89600ebb1" kindref="member">MR_FillHoleNicelySettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="380"><highlight class="normal"></highlight></codeline>
+<codeline lineno="386" refid="MRFillHoleNicely_8h_1a49994e3b5782817eb1af33b628246d79" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1a49994e3b5782817eb1af33b628246d79" kindref="member">MR_FillHoleNicelySettings_AssignFromAnother</ref>(<ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="387"><highlight class="normal"></highlight></codeline>
+<codeline lineno="396" refid="MRFillHoleNicely_8h_1aad4bf2948424d03f9069844d877608d7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*<ref refid="MRFillHoleNicely_8h_1aad4bf2948424d03f9069844d877608d7" kindref="member">MR_fillHoleNicely</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>holeEdge,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1a6720c1f4bfb8b7b2de8f2278c5a22ca4" kindref="member">MR_FillHoleNicelySettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="397"><highlight class="normal"></highlight></codeline>
+<codeline lineno="398"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="399"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="400"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFillHoleNicely.h"/>
   </compounddef>

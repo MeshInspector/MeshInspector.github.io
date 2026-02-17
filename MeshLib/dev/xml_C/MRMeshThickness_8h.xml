@@ -214,7 +214,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>returns the distance from each vertex along minus normal to the nearest mesh intersection (or FLT_MAX if no intersection found) Generated from function <computeroutput>MR::computeRayThicknessAtVertices</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>progress</computeroutput> is a single object. Parameter <computeroutput>progress</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_optional_MR_VertScalars_Destroy()</computeroutput> to free it when you&apos;re done using it. relative position on mesh Returns a pointer to a member variable of class <computeroutput>MR::MeshPoint</computeroutput> named <computeroutput>triPoint</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>returns the distance from each vertex along minus normal to the nearest mesh intersection (or FLT_MAX if no intersection found) Generated from function <computeroutput>MR::computeRayThicknessAtVertices</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>progress</computeroutput> is a single object. Parameter <computeroutput>progress</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_optional_MR_VertScalars_Destroy()</computeroutput> to free it when you&apos;re done using it. relative position on mesh Returns a pointer to a member variable of class <computeroutput>MR::MeshPoint</computeroutput> named <computeroutput>triPoint</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -236,7 +236,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="51" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="51" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="52" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="52" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1a9fc658dec6a3d4c6e5ecd3076b3a4f68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -254,11 +254,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>relative position on mesh Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshPoint</computeroutput> named <computeroutput>triPoint</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>relative position on mesh Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshPoint</computeroutput> named <computeroutput>triPoint</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="59" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="59" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="60" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="60" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1a2b543321ba1e21e6012ba2968d1984d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref> *</type>
@@ -272,11 +272,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>3d coordinates Returns a pointer to a member variable of class <computeroutput>MR::MeshPoint</computeroutput> named <computeroutput>pt</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>3d coordinates Returns a pointer to a member variable of class <computeroutput>MR::MeshPoint</computeroutput> named <computeroutput>pt</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="65" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="65" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="67" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="67" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1a61e9397a57002a2f02ec21b820e7198d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
@@ -294,7 +294,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="71" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="71" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="74" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="74" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1ab5f128e9484a7fb62cce1da1c8bd2e23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -312,11 +312,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>3d coordinates Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshPoint</computeroutput> named <computeroutput>pt</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>3d coordinates Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshPoint</computeroutput> named <computeroutput>pt</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="78" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="78" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="81" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="81" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1abbc6b577629a6f96b5128c75c43404fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
@@ -330,11 +330,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>unit direction inside the mesh = minus normal Returns a pointer to a member variable of class <computeroutput>MR::MeshPoint</computeroutput> named <computeroutput>inDir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>unit direction inside the mesh = minus normal Returns a pointer to a member variable of class <computeroutput>MR::MeshPoint</computeroutput> named <computeroutput>inDir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="84" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="84" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="88" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="88" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1afd7ed43d2da998e59264a345f0cf9a50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
@@ -352,7 +352,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="90" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="90" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="95" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="95" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1ab21aaab7e96222631883894974bbefba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -370,11 +370,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>unit direction inside the mesh = minus normal Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshPoint</computeroutput> named <computeroutput>inDir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>unit direction inside the mesh = minus normal Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshPoint</computeroutput> named <computeroutput>inDir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="97" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="97" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="102" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="102" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1a45f6a74773c571fca18fad2d218836c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
@@ -388,11 +388,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>predicate that returns true for mesh faces not-incident to the point Returns a pointer to a member variable of class <computeroutput>MR::MeshPoint</computeroutput> named <computeroutput>notIncidentFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>predicate that returns true for mesh faces not-incident to the point Returns a pointer to a member variable of class <computeroutput>MR::MeshPoint</computeroutput> named <computeroutput>notIncidentFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="103" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="103" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="109" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="109" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1a81674080fd5ee8e4b3ecb838618b758d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MREnumNeighbours_8h_1a63aa216938f28c268d3a921062bf6621" kindref="member">MR_std_function_bool_from_MR_FaceId</ref> *</type>
@@ -410,7 +410,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="109" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="109" declcolumn="51"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="116" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="116" declcolumn="51"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1a20edd518a99eb22039241b233df7565b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -432,11 +432,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>predicate that returns true for mesh faces not-incident to the point Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshPoint</computeroutput> named <computeroutput>notIncidentFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>predicate that returns true for mesh faces not-incident to the point Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshPoint</computeroutput> named <computeroutput>notIncidentFaces</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="116" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="116" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="123" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="123" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1a806de04e2e7fe99ccaedab351a06d498" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MREnumNeighbours_8h_1a63aa216938f28c268d3a921062bf6621" kindref="member">MR_std_function_bool_from_MR_FaceId</ref> *</type>
@@ -453,7 +453,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="122" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="122" declcolumn="45"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="130" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="130" declcolumn="45"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1a7ddaf4b342bf0611c207d8b228289f68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref> *</type>
@@ -470,7 +470,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="126" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="126" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="134" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="134" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1aafedd9dadddd99560d37c0c6d94d8fa5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref> *</type>
@@ -488,7 +488,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="131" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="131" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="139" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="139" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1aa620d4a74239718b1e3afe7747794634" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref> *</type>
@@ -522,7 +522,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="141" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="141" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="149" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="149" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1a502bc40a57ceecaa55a740571febdd6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref> *</type>
@@ -544,7 +544,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="145" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="145" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="153" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="153" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1ae0591589375a8603e4b861dc65a65b97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref> *</type>
@@ -566,7 +566,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="149" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="149" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="157" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="157" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1a2b7dc32b31a81d429e7e117da6c30715" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref> *</type>
@@ -588,7 +588,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="154" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="154" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="162" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="162" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1a0ddbb29ae35906994085c576f9c4190e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -606,7 +606,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="157" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="157" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="165" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="165" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1a5687203b158dee8f3ae0b683b32e80f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -624,7 +624,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="160" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="160" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="168" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="168" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1abe4b79230b016f9f66138cd769f366af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref> *</type>
@@ -650,7 +650,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="167" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="167" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="175" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="175" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1a05c6dee8196bc9cbc9a6741d9b4080d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -676,7 +676,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="173" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="173" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="181" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="181" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1ad2a0b3ad4eb8c461407e4588801b65cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshIntersect_8h_1ac8e02ba4ec98b4ca68dfb88ed4fb6564" kindref="member">MR_MeshIntersectionResult</ref> *</type>
@@ -702,7 +702,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="181" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="181" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="189" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="189" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1aa34d56b5973a5d6eb6e44f4091f93f9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshIntersect_8h_1ac8e02ba4ec98b4ca68dfb88ed4fb6564" kindref="member">MR_MeshIntersectionResult</ref> *</type>
@@ -728,7 +728,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="187" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="187" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="195" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="195" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1a4d6ecf81fbe7ab0534f93049a8844474" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const bool *</type>
@@ -742,11 +742,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if false then searches for the maximal inscribed sphere in mesh; if true then searches for both a) maximal inscribed sphere, and b) maximal sphere outside the mesh touching it at two points; and returns the smaller of two, and if it is b) then with minus sign Returns a pointer to a member variable of class <computeroutput>MR::InSphereSearchSettings</computeroutput> named <computeroutput>insideAndOutside</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>if false then searches for the maximal inscribed sphere in mesh; if true then searches for both a) maximal inscribed sphere, and b) maximal sphere outside the mesh touching it at two points; and returns the smaller of two, and if it is b) then with minus sign Returns a pointer to a member variable of class <computeroutput>MR::InSphereSearchSettings</computeroutput> named <computeroutput>insideAndOutside</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="195" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="195" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="204" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="204" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1ac5d8e266e58db62b670642fc6ed09a75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -768,7 +768,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="203" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="203" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="212" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="212" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1a0801eb8df9048f2eed0b9ed46d633e6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool *</type>
@@ -782,11 +782,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>if false then searches for the maximal inscribed sphere in mesh; if true then searches for both a) maximal inscribed sphere, and b) maximal sphere outside the mesh touching it at two points; and returns the smaller of two, and if it is b) then with minus sign Returns a mutable pointer to a member variable of class <computeroutput>MR::InSphereSearchSettings</computeroutput> named <computeroutput>insideAndOutside</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>if false then searches for the maximal inscribed sphere in mesh; if true then searches for both a) maximal inscribed sphere, and b) maximal sphere outside the mesh touching it at two points; and returns the smaller of two, and if it is b) then with minus sign Returns a mutable pointer to a member variable of class <computeroutput>MR::InSphereSearchSettings</computeroutput> named <computeroutput>insideAndOutside</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="211" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="211" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="221" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="221" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1a261115695bbf74672211383a4921178f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const float *</type>
@@ -800,11 +800,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>maximum allowed radius of the sphere; for almost closed meshes the article recommends maxRadius = 0.5f * std::min( { boxSize.x, boxSize.y, boxSize.z } ) Returns a pointer to a member variable of class <computeroutput>MR::InSphereSearchSettings</computeroutput> named <computeroutput>maxRadius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>maximum allowed radius of the sphere; for almost closed meshes the article recommends maxRadius = 0.5f * std::min( { boxSize.x, boxSize.y, boxSize.z } ) Returns a pointer to a member variable of class <computeroutput>MR::InSphereSearchSettings</computeroutput> named <computeroutput>maxRadius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="218" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="218" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="229" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="229" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1a5679e1d183b38ebbdd177cbc89bcf1b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -826,7 +826,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="225" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="225" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="236" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="236" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1a22b3f572bf7d2077cab406baa7905003" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float *</type>
@@ -840,11 +840,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>maximum allowed radius of the sphere; for almost closed meshes the article recommends maxRadius = 0.5f * std::min( { boxSize.x, boxSize.y, boxSize.z } ) Returns a mutable pointer to a member variable of class <computeroutput>MR::InSphereSearchSettings</computeroutput> named <computeroutput>maxRadius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>maximum allowed radius of the sphere; for almost closed meshes the article recommends maxRadius = 0.5f * std::min( { boxSize.x, boxSize.y, boxSize.z } ) Returns a mutable pointer to a member variable of class <computeroutput>MR::InSphereSearchSettings</computeroutput> named <computeroutput>maxRadius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="232" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="232" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="244" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="244" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1a69d5bb41c622b6c6d905ff33802d8e25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const int *</type>
@@ -858,11 +858,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>maximum number of shrinking iterations for one triangle Returns a pointer to a member variable of class <computeroutput>MR::InSphereSearchSettings</computeroutput> named <computeroutput>maxIters</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>maximum number of shrinking iterations for one triangle Returns a pointer to a member variable of class <computeroutput>MR::InSphereSearchSettings</computeroutput> named <computeroutput>maxIters</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="238" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="238" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="251" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="251" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1a55c8d544639869f82969dbd1bbef2d9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -884,7 +884,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="244" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="244" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="257" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="257" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1ad0b0ce0649e68e24225e3ea712887588" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API int *</type>
@@ -898,11 +898,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>maximum number of shrinking iterations for one triangle Returns a mutable pointer to a member variable of class <computeroutput>MR::InSphereSearchSettings</computeroutput> named <computeroutput>maxIters</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>maximum number of shrinking iterations for one triangle Returns a mutable pointer to a member variable of class <computeroutput>MR::InSphereSearchSettings</computeroutput> named <computeroutput>maxIters</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="250" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="250" declcolumn="13"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="264" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="264" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1aca2b0b103bf9729b38c8c28f0b84196a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const float *</type>
@@ -916,11 +916,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>iterations stop if next radius is larger than minShrinkage times previous radius Returns a pointer to a member variable of class <computeroutput>MR::InSphereSearchSettings</computeroutput> named <computeroutput>minShrinkage</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>iterations stop if next radius is larger than minShrinkage times previous radius Returns a pointer to a member variable of class <computeroutput>MR::InSphereSearchSettings</computeroutput> named <computeroutput>minShrinkage</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="256" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="256" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="271" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="271" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1ab81fabb79d6d44fc9157f8c6caf4bc22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -942,7 +942,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="262" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="262" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="277" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="277" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1a2fb468371528919562ebf66a12d0ab49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float *</type>
@@ -956,11 +956,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>iterations stop if next radius is larger than minShrinkage times previous radius Returns a mutable pointer to a member variable of class <computeroutput>MR::InSphereSearchSettings</computeroutput> named <computeroutput>minShrinkage</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>iterations stop if next radius is larger than minShrinkage times previous radius Returns a mutable pointer to a member variable of class <computeroutput>MR::InSphereSearchSettings</computeroutput> named <computeroutput>minShrinkage</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="268" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="268" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="284" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="284" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1aff6332d65d7fc66cf46b4419f577e680" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const float *</type>
@@ -974,11 +974,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>minimum cosine of the angle between two unit directions: 1) search unit direction (m.inDir), 2) unit direction from sphere&apos;s center to the other found touch point; -1 value means no filtering by this angle; the increase of this value helps avoiding too small spheres on noisy surfaces Returns a pointer to a member variable of class <computeroutput>MR::InSphereSearchSettings</computeroutput> named <computeroutput>minAngleCos</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>minimum cosine of the angle between two unit directions: 1) search unit direction (m.inDir), 2) unit direction from sphere&apos;s center to the other found touch point; -1 value means no filtering by this angle; the increase of this value helps avoiding too small spheres on noisy surfaces Returns a pointer to a member variable of class <computeroutput>MR::InSphereSearchSettings</computeroutput> named <computeroutput>minAngleCos</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="278" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="278" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="295" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="295" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1ae74cfd24c0edecd75647cc57ba64f719" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1000,7 +1000,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="288" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="288" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="305" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="305" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1a009bc17df2e5acd3f3bfd08690e9b8b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float *</type>
@@ -1014,11 +1014,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>minimum cosine of the angle between two unit directions: 1) search unit direction (m.inDir), 2) unit direction from sphere&apos;s center to the other found touch point; -1 value means no filtering by this angle; the increase of this value helps avoiding too small spheres on noisy surfaces Returns a mutable pointer to a member variable of class <computeroutput>MR::InSphereSearchSettings</computeroutput> named <computeroutput>minAngleCos</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>minimum cosine of the angle between two unit directions: 1) search unit direction (m.inDir), 2) unit direction from sphere&apos;s center to the other found touch point; -1 value means no filtering by this angle; the increase of this value helps avoiding too small spheres on noisy surfaces Returns a mutable pointer to a member variable of class <computeroutput>MR::InSphereSearchSettings</computeroutput> named <computeroutput>minAngleCos</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="298" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="298" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="316" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="316" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1a3a6c9f050f8dbc3bc7b4a1cb8fe2452f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref> *</type>
@@ -1035,7 +1035,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="302" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="302" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="320" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="320" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1acc830327656a7ecabf706f0510451bfc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref> *</type>
@@ -1053,7 +1053,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="307" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="307" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="325" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="325" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1a2a1519982dac77807c187a354f159f8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref> *</type>
@@ -1087,7 +1087,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="312" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="312" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="330" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="330" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1a624115e46cb2a90e8bb64c3a4fb4349b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref> *</type>
@@ -1109,7 +1109,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="316" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="316" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="334" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="334" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1a6bdeaa588f7f56531a72a17bbfefe1af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref> *</type>
@@ -1131,7 +1131,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="320" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="320" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="338" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="338" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1ae84193c2a1497607d1b554342de590a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref> *</type>
@@ -1149,7 +1149,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="326" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="326" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="344" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="344" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1ac7c330eeb256a78d7506540253310abe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1167,7 +1167,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="329" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="329" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="347" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="347" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1a3c052bc71ff310b2f5d7c3200c03d545" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1185,7 +1185,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="332" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="332" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="350" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="350" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1a9deec6661a621a9f3bfd33da640135b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref> *</type>
@@ -1207,7 +1207,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="340" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="340" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="358" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="358" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1a8d3568cf94b4a3cfce1891f15ece6229" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
@@ -1221,11 +1221,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::InSphere</computeroutput> named <computeroutput>center</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::InSphere</computeroutput> named <computeroutput>center</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="345" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="345" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="364" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="364" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1ae5c9d04f0f81d28e467875f5dd0eca2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1247,7 +1247,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="351" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="351" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="370" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="370" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1a98ce35ca1b46a41d745f4a619805608b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
@@ -1261,11 +1261,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::InSphere</computeroutput> named <computeroutput>center</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::InSphere</computeroutput> named <computeroutput>center</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="356" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="356" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="376" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="376" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1a71e56d20576d4d475d462f0a10756edb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const float *</type>
@@ -1279,11 +1279,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::InSphere</computeroutput> named <computeroutput>radius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::InSphere</computeroutput> named <computeroutput>radius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="361" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="361" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="382" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="382" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1a4b71aab39c8c4c42ce31743d89860d4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1305,7 +1305,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="366" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="366" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="387" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="387" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1ab3e06e026a34980c49d4645bb04645bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float *</type>
@@ -1319,11 +1319,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::InSphere</computeroutput> named <computeroutput>radius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. excluding input point and incident triangles, distSq - squared distance to sphere&apos;s center Returns a pointer to a member variable of class <computeroutput>MR::InSphere</computeroutput> named <computeroutput>oppositeTouchPoint</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::InSphere</computeroutput> named <computeroutput>radius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. excluding input point and incident triangles, distSq - squared distance to sphere&apos;s center Returns a pointer to a member variable of class <computeroutput>MR::InSphere</computeroutput> named <computeroutput>oppositeTouchPoint</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="371" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="371" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="393" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="393" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1a6d38d919c2d4ad4327654141e1766fc2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRMesh_8h_1a3fb763c49c691080a2aac500c768c001" kindref="member">MR_MeshProjectionResult</ref> *</type>
@@ -1341,7 +1341,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="377" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="377" declcolumn="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="400" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="400" declcolumn="39"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1adabd73709549e6e925c91afef1c28562" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1359,11 +1359,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>excluding input point and incident triangles, distSq - squared distance to sphere&apos;s center Returns a mutable pointer to a member variable of class <computeroutput>MR::InSphere</computeroutput> named <computeroutput>oppositeTouchPoint</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>excluding input point and incident triangles, distSq - squared distance to sphere&apos;s center Returns a mutable pointer to a member variable of class <computeroutput>MR::InSphere</computeroutput> named <computeroutput>oppositeTouchPoint</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="385" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="385" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="408" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="408" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1aae23ad247a272473e377610856592582" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMesh_8h_1a3fb763c49c691080a2aac500c768c001" kindref="member">MR_MeshProjectionResult</ref> *</type>
@@ -1380,7 +1380,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="391" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="391" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="415" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="415" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1a2ef40b17e95a2cb617b591894f0af865" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref> *</type>
@@ -1397,7 +1397,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="395" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="395" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="419" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="419" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1a09b37d94e8fc26dc0392f3d686b8fb06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref> *</type>
@@ -1415,7 +1415,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="400" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="400" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="424" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="424" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1a358b305b46950d1d41bf4e8571e1f6fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref> *</type>
@@ -1441,7 +1441,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="408" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="408" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="432" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="432" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1a9c788a2054b540bd106dcdc40d61cbb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref> *</type>
@@ -1463,7 +1463,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="412" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="412" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="436" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="436" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1a424df7634bb88d2136010df04df6aa39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref> *</type>
@@ -1485,7 +1485,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="416" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="416" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="440" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="440" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1a5228129cfbc71b3c9a5de63c490088fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref> *</type>
@@ -1503,7 +1503,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="422" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="422" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="446" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="446" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1a1d6f3206b83f6da2677c20f88632bd34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1521,7 +1521,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="425" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="425" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="449" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="449" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1a90176feffbd102c4736223b4c8ae7d51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1539,7 +1539,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="428" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="428" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="452" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="452" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1ad2bb4f55d61a0887f430af6cdb487b28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref> *</type>
@@ -1561,7 +1561,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="436" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="436" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="460" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="460" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1a4400255f59fb8feebeb654cf4261b96f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref> *</type>
@@ -1587,7 +1587,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="444" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="444" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="468" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="468" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1aa11802cf700da11502108fb181de1d8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref> *</type>
@@ -1613,7 +1613,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="450" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="450" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="474" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="474" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshThickness_8h_1af89f59f39bfe4168e61a26832e0db034" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshThickness_8h_1aba93fea86ae074ee1b7541e7729dca55" kindref="member">MR_std_optional_MR_VertScalars</ref> *</type>
@@ -1639,7 +1639,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="459" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="459" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" line="483" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h" declline="483" declcolumn="40"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1678,147 +1678,147 @@
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
 <codeline lineno="45" refid="MRMeshThickness_8h_1a82c96bf67634cb3d357bff140211b1a0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshThickness_8h_1aba93fea86ae074ee1b7541e7729dca55" kindref="member">MR_std_optional_MR_VertScalars</ref><sp/>*<ref refid="MRMeshThickness_8h_1a82c96bf67634cb3d357bff140211b1a0" kindref="member">MR_computeRayThicknessAtVertices</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progress);</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
-<codeline lineno="51" refid="MRMeshThickness_8h_1a35992d1c8cf2d3c395522ca89128e0db" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*<ref refid="MRMeshThickness_8h_1a35992d1c8cf2d3c395522ca89128e0db" kindref="member">MR_MeshPoint_Get_triPoint</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="59" refid="MRMeshThickness_8h_1a9fc658dec6a3d4c6e5ecd3076b3a4f68" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a9fc658dec6a3d4c6e5ecd3076b3a4f68" kindref="member">MR_MeshPoint_Set_triPoint</ref>(<ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="60"><highlight class="normal"></highlight></codeline>
-<codeline lineno="65" refid="MRMeshThickness_8h_1a2b543321ba1e21e6012ba2968d1984d6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*<ref refid="MRMeshThickness_8h_1a2b543321ba1e21e6012ba2968d1984d6" kindref="member">MR_MeshPoint_GetMutable_triPoint</ref>(<ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="66"><highlight class="normal"></highlight></codeline>
-<codeline lineno="71" refid="MRMeshThickness_8h_1a61e9397a57002a2f02ec21b820e7198d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRMeshThickness_8h_1a61e9397a57002a2f02ec21b820e7198d" kindref="member">MR_MeshPoint_Get_pt</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="72"><highlight class="normal"></highlight></codeline>
-<codeline lineno="78" refid="MRMeshThickness_8h_1ab5f128e9484a7fb62cce1da1c8bd2e23" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1ab5f128e9484a7fb62cce1da1c8bd2e23" kindref="member">MR_MeshPoint_Set_pt</ref>(<ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>value);</highlight></codeline>
-<codeline lineno="79"><highlight class="normal"></highlight></codeline>
-<codeline lineno="84" refid="MRMeshThickness_8h_1abbc6b577629a6f96b5128c75c43404fd" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRMeshThickness_8h_1abbc6b577629a6f96b5128c75c43404fd" kindref="member">MR_MeshPoint_GetMutable_pt</ref>(<ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="85"><highlight class="normal"></highlight></codeline>
-<codeline lineno="90" refid="MRMeshThickness_8h_1afd7ed43d2da998e59264a345f0cf9a50" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRMeshThickness_8h_1afd7ed43d2da998e59264a345f0cf9a50" kindref="member">MR_MeshPoint_Get_inDir</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="91"><highlight class="normal"></highlight></codeline>
-<codeline lineno="97" refid="MRMeshThickness_8h_1ab21aaab7e96222631883894974bbefba" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1ab21aaab7e96222631883894974bbefba" kindref="member">MR_MeshPoint_Set_inDir</ref>(<ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>value);</highlight></codeline>
-<codeline lineno="98"><highlight class="normal"></highlight></codeline>
-<codeline lineno="103" refid="MRMeshThickness_8h_1a45f6a74773c571fca18fad2d218836c2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRMeshThickness_8h_1a45f6a74773c571fca18fad2d218836c2" kindref="member">MR_MeshPoint_GetMutable_inDir</ref>(<ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="104"><highlight class="normal"></highlight></codeline>
-<codeline lineno="109" refid="MRMeshThickness_8h_1a81674080fd5ee8e4b3ecb838618b758d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1a63aa216938f28c268d3a921062bf6621" kindref="member">MR_std_function_bool_from_MR_FaceId</ref><sp/>*<ref refid="MRMeshThickness_8h_1a81674080fd5ee8e4b3ecb838618b758d" kindref="member">MR_MeshPoint_Get_notIncidentFaces</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="52" refid="MRMeshThickness_8h_1a35992d1c8cf2d3c395522ca89128e0db" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*<ref refid="MRMeshThickness_8h_1a35992d1c8cf2d3c395522ca89128e0db" kindref="member">MR_MeshPoint_Get_triPoint</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="MRMeshThickness_8h_1a9fc658dec6a3d4c6e5ecd3076b3a4f68" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a9fc658dec6a3d4c6e5ecd3076b3a4f68" kindref="member">MR_MeshPoint_Set_triPoint</ref>(<ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="MRMeshThickness_8h_1a2b543321ba1e21e6012ba2968d1984d6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*<ref refid="MRMeshThickness_8h_1a2b543321ba1e21e6012ba2968d1984d6" kindref="member">MR_MeshPoint_GetMutable_triPoint</ref>(<ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="MRMeshThickness_8h_1a61e9397a57002a2f02ec21b820e7198d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRMeshThickness_8h_1a61e9397a57002a2f02ec21b820e7198d" kindref="member">MR_MeshPoint_Get_pt</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="MRMeshThickness_8h_1ab5f128e9484a7fb62cce1da1c8bd2e23" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1ab5f128e9484a7fb62cce1da1c8bd2e23" kindref="member">MR_MeshPoint_Set_pt</ref>(<ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>value);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="MRMeshThickness_8h_1abbc6b577629a6f96b5128c75c43404fd" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRMeshThickness_8h_1abbc6b577629a6f96b5128c75c43404fd" kindref="member">MR_MeshPoint_GetMutable_pt</ref>(<ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="MRMeshThickness_8h_1afd7ed43d2da998e59264a345f0cf9a50" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRMeshThickness_8h_1afd7ed43d2da998e59264a345f0cf9a50" kindref="member">MR_MeshPoint_Get_inDir</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102" refid="MRMeshThickness_8h_1ab21aaab7e96222631883894974bbefba" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1ab21aaab7e96222631883894974bbefba" kindref="member">MR_MeshPoint_Set_inDir</ref>(<ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>value);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109" refid="MRMeshThickness_8h_1a45f6a74773c571fca18fad2d218836c2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRMeshThickness_8h_1a45f6a74773c571fca18fad2d218836c2" kindref="member">MR_MeshPoint_GetMutable_inDir</ref>(<ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="110"><highlight class="normal"></highlight></codeline>
-<codeline lineno="116" refid="MRMeshThickness_8h_1a20edd518a99eb22039241b233df7565b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a20edd518a99eb22039241b233df7565b" kindref="member">MR_MeshPoint_Set_notIncidentFaces</ref>(<ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MREnumNeighbours_8h_1a63aa216938f28c268d3a921062bf6621" kindref="member">MR_std_function_bool_from_MR_FaceId</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="116" refid="MRMeshThickness_8h_1a81674080fd5ee8e4b3ecb838618b758d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1a63aa216938f28c268d3a921062bf6621" kindref="member">MR_std_function_bool_from_MR_FaceId</ref><sp/>*<ref refid="MRMeshThickness_8h_1a81674080fd5ee8e4b3ecb838618b758d" kindref="member">MR_MeshPoint_Get_notIncidentFaces</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="117"><highlight class="normal"></highlight></codeline>
-<codeline lineno="122" refid="MRMeshThickness_8h_1a806de04e2e7fe99ccaedab351a06d498" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREnumNeighbours_8h_1a63aa216938f28c268d3a921062bf6621" kindref="member">MR_std_function_bool_from_MR_FaceId</ref><sp/>*<ref refid="MRMeshThickness_8h_1a806de04e2e7fe99ccaedab351a06d498" kindref="member">MR_MeshPoint_GetMutable_notIncidentFaces</ref>(<ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="123"><highlight class="normal"></highlight></codeline>
-<codeline lineno="126" refid="MRMeshThickness_8h_1a7ddaf4b342bf0611c207d8b228289f68" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*<ref refid="MRMeshThickness_8h_1a7ddaf4b342bf0611c207d8b228289f68" kindref="member">MR_MeshPoint_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="127"><highlight class="normal"></highlight></codeline>
-<codeline lineno="131" refid="MRMeshThickness_8h_1aafedd9dadddd99560d37c0c6d94d8fa5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*<ref refid="MRMeshThickness_8h_1aafedd9dadddd99560d37c0c6d94d8fa5" kindref="member">MR_MeshPoint_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="132"><highlight class="normal"></highlight></codeline>
-<codeline lineno="141" refid="MRMeshThickness_8h_1aa620d4a74239718b1e3afe7747794634" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*<ref refid="MRMeshThickness_8h_1aa620d4a74239718b1e3afe7747794634" kindref="member">MR_MeshPoint_ConstructFrom</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*triPoint,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>pt,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>inDir,<sp/>MR_PassBy<sp/>notIncidentFaces_pass_by,<sp/><ref refid="MREnumNeighbours_8h_1a63aa216938f28c268d3a921062bf6621" kindref="member">MR_std_function_bool_from_MR_FaceId</ref><sp/>*notIncidentFaces);</highlight></codeline>
-<codeline lineno="142"><highlight class="normal"></highlight></codeline>
-<codeline lineno="145" refid="MRMeshThickness_8h_1a502bc40a57ceecaa55a740571febdd6e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*<ref refid="MRMeshThickness_8h_1a502bc40a57ceecaa55a740571febdd6e" kindref="member">MR_MeshPoint_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="146"><highlight class="normal"></highlight></codeline>
-<codeline lineno="149" refid="MRMeshThickness_8h_1ae0591589375a8603e4b861dc65a65b97" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*<ref refid="MRMeshThickness_8h_1ae0591589375a8603e4b861dc65a65b97" kindref="member">MR_MeshPoint_OffsetMutablePtr</ref>(<ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="123" refid="MRMeshThickness_8h_1a20edd518a99eb22039241b233df7565b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a20edd518a99eb22039241b233df7565b" kindref="member">MR_MeshPoint_Set_notIncidentFaces</ref>(<ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MREnumNeighbours_8h_1a63aa216938f28c268d3a921062bf6621" kindref="member">MR_std_function_bool_from_MR_FaceId</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="MRMeshThickness_8h_1a806de04e2e7fe99ccaedab351a06d498" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREnumNeighbours_8h_1a63aa216938f28c268d3a921062bf6621" kindref="member">MR_std_function_bool_from_MR_FaceId</ref><sp/>*<ref refid="MRMeshThickness_8h_1a806de04e2e7fe99ccaedab351a06d498" kindref="member">MR_MeshPoint_GetMutable_notIncidentFaces</ref>(<ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134" refid="MRMeshThickness_8h_1a7ddaf4b342bf0611c207d8b228289f68" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*<ref refid="MRMeshThickness_8h_1a7ddaf4b342bf0611c207d8b228289f68" kindref="member">MR_MeshPoint_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139" refid="MRMeshThickness_8h_1aafedd9dadddd99560d37c0c6d94d8fa5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*<ref refid="MRMeshThickness_8h_1aafedd9dadddd99560d37c0c6d94d8fa5" kindref="member">MR_MeshPoint_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149" refid="MRMeshThickness_8h_1aa620d4a74239718b1e3afe7747794634" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*<ref refid="MRMeshThickness_8h_1aa620d4a74239718b1e3afe7747794634" kindref="member">MR_MeshPoint_ConstructFrom</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*triPoint,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>pt,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>inDir,<sp/>MR_PassBy<sp/>notIncidentFaces_pass_by,<sp/><ref refid="MREnumNeighbours_8h_1a63aa216938f28c268d3a921062bf6621" kindref="member">MR_std_function_bool_from_MR_FaceId</ref><sp/>*notIncidentFaces);</highlight></codeline>
 <codeline lineno="150"><highlight class="normal"></highlight></codeline>
-<codeline lineno="154" refid="MRMeshThickness_8h_1a2b7dc32b31a81d429e7e117da6c30715" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*<ref refid="MRMeshThickness_8h_1a2b7dc32b31a81d429e7e117da6c30715" kindref="member">MR_MeshPoint_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="155"><highlight class="normal"></highlight></codeline>
-<codeline lineno="157" refid="MRMeshThickness_8h_1a0ddbb29ae35906994085c576f9c4190e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a0ddbb29ae35906994085c576f9c4190e" kindref="member">MR_MeshPoint_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="153" refid="MRMeshThickness_8h_1a502bc40a57ceecaa55a740571febdd6e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*<ref refid="MRMeshThickness_8h_1a502bc40a57ceecaa55a740571febdd6e" kindref="member">MR_MeshPoint_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157" refid="MRMeshThickness_8h_1ae0591589375a8603e4b861dc65a65b97" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*<ref refid="MRMeshThickness_8h_1ae0591589375a8603e4b861dc65a65b97" kindref="member">MR_MeshPoint_OffsetMutablePtr</ref>(<ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="158"><highlight class="normal"></highlight></codeline>
-<codeline lineno="160" refid="MRMeshThickness_8h_1a5687203b158dee8f3ae0b683b32e80f6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a5687203b158dee8f3ae0b683b32e80f6" kindref="member">MR_MeshPoint_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="161"><highlight class="normal"></highlight></codeline>
-<codeline lineno="167" refid="MRMeshThickness_8h_1abe4b79230b016f9f66138cd769f366af" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*<ref refid="MRMeshThickness_8h_1abe4b79230b016f9f66138cd769f366af" kindref="member">MR_MeshPoint_AssignFromAnother</ref>(<ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="168"><highlight class="normal"></highlight></codeline>
-<codeline lineno="173" refid="MRMeshThickness_8h_1a05c6dee8196bc9cbc9a6741d9b4080d7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a05c6dee8196bc9cbc9a6741d9b4080d7" kindref="member">MR_MeshPoint_set</ref>(<ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*p);</highlight></codeline>
-<codeline lineno="174"><highlight class="normal"></highlight></codeline>
-<codeline lineno="181" refid="MRMeshThickness_8h_1ad2a0b3ad4eb8c461407e4588801b65cf" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshIntersect_8h_1ac8e02ba4ec98b4ca68dfb88ed4fb6564" kindref="member">MR_MeshIntersectionResult</ref><sp/>*<ref refid="MRMeshThickness_8h_1ad2a0b3ad4eb8c461407e4588801b65cf" kindref="member">MR_rayInsideIntersect_MR_MeshPoint</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*m,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*rayEnd);</highlight></codeline>
+<codeline lineno="162" refid="MRMeshThickness_8h_1a2b7dc32b31a81d429e7e117da6c30715" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*<ref refid="MRMeshThickness_8h_1a2b7dc32b31a81d429e7e117da6c30715" kindref="member">MR_MeshPoint_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165" refid="MRMeshThickness_8h_1a0ddbb29ae35906994085c576f9c4190e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a0ddbb29ae35906994085c576f9c4190e" kindref="member">MR_MeshPoint_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168" refid="MRMeshThickness_8h_1a5687203b158dee8f3ae0b683b32e80f6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a5687203b158dee8f3ae0b683b32e80f6" kindref="member">MR_MeshPoint_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175" refid="MRMeshThickness_8h_1abe4b79230b016f9f66138cd769f366af" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*<ref refid="MRMeshThickness_8h_1abe4b79230b016f9f66138cd769f366af" kindref="member">MR_MeshPoint_AssignFromAnother</ref>(<ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="181" refid="MRMeshThickness_8h_1a05c6dee8196bc9cbc9a6741d9b4080d7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a05c6dee8196bc9cbc9a6741d9b4080d7" kindref="member">MR_MeshPoint_set</ref>(<ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*p);</highlight></codeline>
 <codeline lineno="182"><highlight class="normal"></highlight></codeline>
-<codeline lineno="187" refid="MRMeshThickness_8h_1aa34d56b5973a5d6eb6e44f4091f93f9c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshIntersect_8h_1ac8e02ba4ec98b4ca68dfb88ed4fb6564" kindref="member">MR_MeshIntersectionResult</ref><sp/>*<ref refid="MRMeshThickness_8h_1aa34d56b5973a5d6eb6e44f4091f93f9c" kindref="member">MR_rayInsideIntersect_MR_VertId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>v,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*rayEnd);</highlight></codeline>
-<codeline lineno="188"><highlight class="normal"></highlight></codeline>
-<codeline lineno="195" refid="MRMeshThickness_8h_1a4d6ecf81fbe7ab0534f93049a8844474" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshThickness_8h_1a4d6ecf81fbe7ab0534f93049a8844474" kindref="member">MR_InSphereSearchSettings_Get_insideAndOutside</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="189" refid="MRMeshThickness_8h_1ad2a0b3ad4eb8c461407e4588801b65cf" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshIntersect_8h_1ac8e02ba4ec98b4ca68dfb88ed4fb6564" kindref="member">MR_MeshIntersectionResult</ref><sp/>*<ref refid="MRMeshThickness_8h_1ad2a0b3ad4eb8c461407e4588801b65cf" kindref="member">MR_rayInsideIntersect_MR_MeshPoint</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*m,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*rayEnd);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195" refid="MRMeshThickness_8h_1aa34d56b5973a5d6eb6e44f4091f93f9c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshIntersect_8h_1ac8e02ba4ec98b4ca68dfb88ed4fb6564" kindref="member">MR_MeshIntersectionResult</ref><sp/>*<ref refid="MRMeshThickness_8h_1aa34d56b5973a5d6eb6e44f4091f93f9c" kindref="member">MR_rayInsideIntersect_MR_VertId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>v,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*rayEnd);</highlight></codeline>
 <codeline lineno="196"><highlight class="normal"></highlight></codeline>
-<codeline lineno="203" refid="MRMeshThickness_8h_1ac5d8e266e58db62b670642fc6ed09a75" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1ac5d8e266e58db62b670642fc6ed09a75" kindref="member">MR_InSphereSearchSettings_Set_insideAndOutside</ref>(<ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="204"><highlight class="normal"></highlight></codeline>
-<codeline lineno="211" refid="MRMeshThickness_8h_1a0801eb8df9048f2eed0b9ed46d633e6d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshThickness_8h_1a0801eb8df9048f2eed0b9ed46d633e6d" kindref="member">MR_InSphereSearchSettings_GetMutable_insideAndOutside</ref>(<ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="212"><highlight class="normal"></highlight></codeline>
-<codeline lineno="218" refid="MRMeshThickness_8h_1a261115695bbf74672211383a4921178f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshThickness_8h_1a261115695bbf74672211383a4921178f" kindref="member">MR_InSphereSearchSettings_Get_maxRadius</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="219"><highlight class="normal"></highlight></codeline>
-<codeline lineno="225" refid="MRMeshThickness_8h_1a5679e1d183b38ebbdd177cbc89bcf1b9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a5679e1d183b38ebbdd177cbc89bcf1b9" kindref="member">MR_InSphereSearchSettings_Set_maxRadius</ref>(<ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="226"><highlight class="normal"></highlight></codeline>
-<codeline lineno="232" refid="MRMeshThickness_8h_1a22b3f572bf7d2077cab406baa7905003" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshThickness_8h_1a22b3f572bf7d2077cab406baa7905003" kindref="member">MR_InSphereSearchSettings_GetMutable_maxRadius</ref>(<ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="233"><highlight class="normal"></highlight></codeline>
-<codeline lineno="238" refid="MRMeshThickness_8h_1a69d5bb41c622b6c6d905ff33802d8e25" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshThickness_8h_1a69d5bb41c622b6c6d905ff33802d8e25" kindref="member">MR_InSphereSearchSettings_Get_maxIters</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="239"><highlight class="normal"></highlight></codeline>
-<codeline lineno="244" refid="MRMeshThickness_8h_1a55c8d544639869f82969dbd1bbef2d9e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a55c8d544639869f82969dbd1bbef2d9e" kindref="member">MR_InSphereSearchSettings_Set_maxIters</ref>(<ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="204" refid="MRMeshThickness_8h_1a4d6ecf81fbe7ab0534f93049a8844474" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshThickness_8h_1a4d6ecf81fbe7ab0534f93049a8844474" kindref="member">MR_InSphereSearchSettings_Get_insideAndOutside</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212" refid="MRMeshThickness_8h_1ac5d8e266e58db62b670642fc6ed09a75" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1ac5d8e266e58db62b670642fc6ed09a75" kindref="member">MR_InSphereSearchSettings_Set_insideAndOutside</ref>(<ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221" refid="MRMeshThickness_8h_1a0801eb8df9048f2eed0b9ed46d633e6d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshThickness_8h_1a0801eb8df9048f2eed0b9ed46d633e6d" kindref="member">MR_InSphereSearchSettings_GetMutable_insideAndOutside</ref>(<ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="229" refid="MRMeshThickness_8h_1a261115695bbf74672211383a4921178f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshThickness_8h_1a261115695bbf74672211383a4921178f" kindref="member">MR_InSphereSearchSettings_Get_maxRadius</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="236" refid="MRMeshThickness_8h_1a5679e1d183b38ebbdd177cbc89bcf1b9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a5679e1d183b38ebbdd177cbc89bcf1b9" kindref="member">MR_InSphereSearchSettings_Set_maxRadius</ref>(<ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244" refid="MRMeshThickness_8h_1a22b3f572bf7d2077cab406baa7905003" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshThickness_8h_1a22b3f572bf7d2077cab406baa7905003" kindref="member">MR_InSphereSearchSettings_GetMutable_maxRadius</ref>(<ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="245"><highlight class="normal"></highlight></codeline>
-<codeline lineno="250" refid="MRMeshThickness_8h_1ad0b0ce0649e68e24225e3ea712887588" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshThickness_8h_1ad0b0ce0649e68e24225e3ea712887588" kindref="member">MR_InSphereSearchSettings_GetMutable_maxIters</ref>(<ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="251"><highlight class="normal"></highlight></codeline>
-<codeline lineno="256" refid="MRMeshThickness_8h_1aca2b0b103bf9729b38c8c28f0b84196a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshThickness_8h_1aca2b0b103bf9729b38c8c28f0b84196a" kindref="member">MR_InSphereSearchSettings_Get_minShrinkage</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="257"><highlight class="normal"></highlight></codeline>
-<codeline lineno="262" refid="MRMeshThickness_8h_1ab81fabb79d6d44fc9157f8c6caf4bc22" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1ab81fabb79d6d44fc9157f8c6caf4bc22" kindref="member">MR_InSphereSearchSettings_Set_minShrinkage</ref>(<ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="263"><highlight class="normal"></highlight></codeline>
-<codeline lineno="268" refid="MRMeshThickness_8h_1a2fb468371528919562ebf66a12d0ab49" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshThickness_8h_1a2fb468371528919562ebf66a12d0ab49" kindref="member">MR_InSphereSearchSettings_GetMutable_minShrinkage</ref>(<ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="269"><highlight class="normal"></highlight></codeline>
-<codeline lineno="278" refid="MRMeshThickness_8h_1aff6332d65d7fc66cf46b4419f577e680" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshThickness_8h_1aff6332d65d7fc66cf46b4419f577e680" kindref="member">MR_InSphereSearchSettings_Get_minAngleCos</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="279"><highlight class="normal"></highlight></codeline>
-<codeline lineno="288" refid="MRMeshThickness_8h_1ae74cfd24c0edecd75647cc57ba64f719" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1ae74cfd24c0edecd75647cc57ba64f719" kindref="member">MR_InSphereSearchSettings_Set_minAngleCos</ref>(<ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="289"><highlight class="normal"></highlight></codeline>
-<codeline lineno="298" refid="MRMeshThickness_8h_1a009bc17df2e5acd3f3bfd08690e9b8b5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshThickness_8h_1a009bc17df2e5acd3f3bfd08690e9b8b5" kindref="member">MR_InSphereSearchSettings_GetMutable_minAngleCos</ref>(<ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="299"><highlight class="normal"></highlight></codeline>
-<codeline lineno="302" refid="MRMeshThickness_8h_1a3a6c9f050f8dbc3bc7b4a1cb8fe2452f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*<ref refid="MRMeshThickness_8h_1a3a6c9f050f8dbc3bc7b4a1cb8fe2452f" kindref="member">MR_InSphereSearchSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="303"><highlight class="normal"></highlight></codeline>
-<codeline lineno="307" refid="MRMeshThickness_8h_1acc830327656a7ecabf706f0510451bfc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*<ref refid="MRMeshThickness_8h_1acc830327656a7ecabf706f0510451bfc" kindref="member">MR_InSphereSearchSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="308"><highlight class="normal"></highlight></codeline>
-<codeline lineno="312" refid="MRMeshThickness_8h_1a2a1519982dac77807c187a354f159f8e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*<ref refid="MRMeshThickness_8h_1a2a1519982dac77807c187a354f159f8e" kindref="member">MR_InSphereSearchSettings_ConstructFrom</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>insideAndOutside,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxRadius,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maxIters,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>minShrinkage,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>minAngleCos);</highlight></codeline>
-<codeline lineno="313"><highlight class="normal"></highlight></codeline>
-<codeline lineno="316" refid="MRMeshThickness_8h_1a624115e46cb2a90e8bb64c3a4fb4349b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*<ref refid="MRMeshThickness_8h_1a624115e46cb2a90e8bb64c3a4fb4349b" kindref="member">MR_InSphereSearchSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="251" refid="MRMeshThickness_8h_1a69d5bb41c622b6c6d905ff33802d8e25" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshThickness_8h_1a69d5bb41c622b6c6d905ff33802d8e25" kindref="member">MR_InSphereSearchSettings_Get_maxIters</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="257" refid="MRMeshThickness_8h_1a55c8d544639869f82969dbd1bbef2d9e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a55c8d544639869f82969dbd1bbef2d9e" kindref="member">MR_InSphereSearchSettings_Set_maxIters</ref>(<ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"></highlight></codeline>
+<codeline lineno="264" refid="MRMeshThickness_8h_1ad0b0ce0649e68e24225e3ea712887588" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshThickness_8h_1ad0b0ce0649e68e24225e3ea712887588" kindref="member">MR_InSphereSearchSettings_GetMutable_maxIters</ref>(<ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"></highlight></codeline>
+<codeline lineno="271" refid="MRMeshThickness_8h_1aca2b0b103bf9729b38c8c28f0b84196a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshThickness_8h_1aca2b0b103bf9729b38c8c28f0b84196a" kindref="member">MR_InSphereSearchSettings_Get_minShrinkage</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight></codeline>
+<codeline lineno="277" refid="MRMeshThickness_8h_1ab81fabb79d6d44fc9157f8c6caf4bc22" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1ab81fabb79d6d44fc9157f8c6caf4bc22" kindref="member">MR_InSphereSearchSettings_Set_minShrinkage</ref>(<ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"></highlight></codeline>
+<codeline lineno="284" refid="MRMeshThickness_8h_1a2fb468371528919562ebf66a12d0ab49" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshThickness_8h_1a2fb468371528919562ebf66a12d0ab49" kindref="member">MR_InSphereSearchSettings_GetMutable_minShrinkage</ref>(<ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"></highlight></codeline>
+<codeline lineno="295" refid="MRMeshThickness_8h_1aff6332d65d7fc66cf46b4419f577e680" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshThickness_8h_1aff6332d65d7fc66cf46b4419f577e680" kindref="member">MR_InSphereSearchSettings_Get_minAngleCos</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"></highlight></codeline>
+<codeline lineno="305" refid="MRMeshThickness_8h_1ae74cfd24c0edecd75647cc57ba64f719" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1ae74cfd24c0edecd75647cc57ba64f719" kindref="member">MR_InSphereSearchSettings_Set_minAngleCos</ref>(<ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"></highlight></codeline>
+<codeline lineno="316" refid="MRMeshThickness_8h_1a009bc17df2e5acd3f3bfd08690e9b8b5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshThickness_8h_1a009bc17df2e5acd3f3bfd08690e9b8b5" kindref="member">MR_InSphereSearchSettings_GetMutable_minAngleCos</ref>(<ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="317"><highlight class="normal"></highlight></codeline>
-<codeline lineno="320" refid="MRMeshThickness_8h_1a6bdeaa588f7f56531a72a17bbfefe1af" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*<ref refid="MRMeshThickness_8h_1a6bdeaa588f7f56531a72a17bbfefe1af" kindref="member">MR_InSphereSearchSettings_OffsetMutablePtr</ref>(<ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="320" refid="MRMeshThickness_8h_1a3a6c9f050f8dbc3bc7b4a1cb8fe2452f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*<ref refid="MRMeshThickness_8h_1a3a6c9f050f8dbc3bc7b4a1cb8fe2452f" kindref="member">MR_InSphereSearchSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="321"><highlight class="normal"></highlight></codeline>
-<codeline lineno="326" refid="MRMeshThickness_8h_1ae84193c2a1497607d1b554342de590a2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*<ref refid="MRMeshThickness_8h_1ae84193c2a1497607d1b554342de590a2" kindref="member">MR_InSphereSearchSettings_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="327"><highlight class="normal"></highlight></codeline>
-<codeline lineno="329" refid="MRMeshThickness_8h_1ac7c330eeb256a78d7506540253310abe" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1ac7c330eeb256a78d7506540253310abe" kindref="member">MR_InSphereSearchSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="330"><highlight class="normal"></highlight></codeline>
-<codeline lineno="332" refid="MRMeshThickness_8h_1a3c052bc71ff310b2f5d7c3200c03d545" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a3c052bc71ff310b2f5d7c3200c03d545" kindref="member">MR_InSphereSearchSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="333"><highlight class="normal"></highlight></codeline>
-<codeline lineno="340" refid="MRMeshThickness_8h_1a9deec6661a621a9f3bfd33da640135b4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*<ref refid="MRMeshThickness_8h_1a9deec6661a621a9f3bfd33da640135b4" kindref="member">MR_InSphereSearchSettings_AssignFromAnother</ref>(<ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="341"><highlight class="normal"></highlight></codeline>
-<codeline lineno="345" refid="MRMeshThickness_8h_1a8d3568cf94b4a3cfce1891f15ece6229" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRMeshThickness_8h_1a8d3568cf94b4a3cfce1891f15ece6229" kindref="member">MR_InSphere_Get_center</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="346"><highlight class="normal"></highlight></codeline>
-<codeline lineno="351" refid="MRMeshThickness_8h_1ae5c9d04f0f81d28e467875f5dd0eca2e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1ae5c9d04f0f81d28e467875f5dd0eca2e" kindref="member">MR_InSphere_Set_center</ref>(<ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>value);</highlight></codeline>
-<codeline lineno="352"><highlight class="normal"></highlight></codeline>
-<codeline lineno="356" refid="MRMeshThickness_8h_1a98ce35ca1b46a41d745f4a619805608b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRMeshThickness_8h_1a98ce35ca1b46a41d745f4a619805608b" kindref="member">MR_InSphere_GetMutable_center</ref>(<ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="357"><highlight class="normal"></highlight></codeline>
-<codeline lineno="361" refid="MRMeshThickness_8h_1a71e56d20576d4d475d462f0a10756edb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshThickness_8h_1a71e56d20576d4d475d462f0a10756edb" kindref="member">MR_InSphere_Get_radius</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="362"><highlight class="normal"></highlight></codeline>
-<codeline lineno="366" refid="MRMeshThickness_8h_1a4b71aab39c8c4c42ce31743d89860d4d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a4b71aab39c8c4c42ce31743d89860d4d" kindref="member">MR_InSphere_Set_radius</ref>(<ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="367"><highlight class="normal"></highlight></codeline>
-<codeline lineno="371" refid="MRMeshThickness_8h_1ab3e06e026a34980c49d4645bb04645bc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshThickness_8h_1ab3e06e026a34980c49d4645bb04645bc" kindref="member">MR_InSphere_GetMutable_radius</ref>(<ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="372"><highlight class="normal"></highlight></codeline>
-<codeline lineno="377" refid="MRMeshThickness_8h_1a6d38d919c2d4ad4327654141e1766fc2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1a3fb763c49c691080a2aac500c768c001" kindref="member">MR_MeshProjectionResult</ref><sp/>*<ref refid="MRMeshThickness_8h_1a6d38d919c2d4ad4327654141e1766fc2" kindref="member">MR_InSphere_Get_oppositeTouchPoint</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="378"><highlight class="normal"></highlight></codeline>
-<codeline lineno="385" refid="MRMeshThickness_8h_1adabd73709549e6e925c91afef1c28562" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1adabd73709549e6e925c91afef1c28562" kindref="member">MR_InSphere_Set_oppositeTouchPoint</ref>(<ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1a3fb763c49c691080a2aac500c768c001" kindref="member">MR_MeshProjectionResult</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="386"><highlight class="normal"></highlight></codeline>
-<codeline lineno="391" refid="MRMeshThickness_8h_1aae23ad247a272473e377610856592582" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMesh_8h_1a3fb763c49c691080a2aac500c768c001" kindref="member">MR_MeshProjectionResult</ref><sp/>*<ref refid="MRMeshThickness_8h_1aae23ad247a272473e377610856592582" kindref="member">MR_InSphere_GetMutable_oppositeTouchPoint</ref>(<ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="392"><highlight class="normal"></highlight></codeline>
-<codeline lineno="395" refid="MRMeshThickness_8h_1a2ef40b17e95a2cb617b591894f0af865" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref><sp/>*<ref refid="MRMeshThickness_8h_1a2ef40b17e95a2cb617b591894f0af865" kindref="member">MR_InSphere_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="396"><highlight class="normal"></highlight></codeline>
-<codeline lineno="400" refid="MRMeshThickness_8h_1a09b37d94e8fc26dc0392f3d686b8fb06" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref><sp/>*<ref refid="MRMeshThickness_8h_1a09b37d94e8fc26dc0392f3d686b8fb06" kindref="member">MR_InSphere_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="325" refid="MRMeshThickness_8h_1acc830327656a7ecabf706f0510451bfc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*<ref refid="MRMeshThickness_8h_1acc830327656a7ecabf706f0510451bfc" kindref="member">MR_InSphereSearchSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="326"><highlight class="normal"></highlight></codeline>
+<codeline lineno="330" refid="MRMeshThickness_8h_1a2a1519982dac77807c187a354f159f8e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*<ref refid="MRMeshThickness_8h_1a2a1519982dac77807c187a354f159f8e" kindref="member">MR_InSphereSearchSettings_ConstructFrom</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>insideAndOutside,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxRadius,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maxIters,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>minShrinkage,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>minAngleCos);</highlight></codeline>
+<codeline lineno="331"><highlight class="normal"></highlight></codeline>
+<codeline lineno="334" refid="MRMeshThickness_8h_1a624115e46cb2a90e8bb64c3a4fb4349b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*<ref refid="MRMeshThickness_8h_1a624115e46cb2a90e8bb64c3a4fb4349b" kindref="member">MR_InSphereSearchSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"></highlight></codeline>
+<codeline lineno="338" refid="MRMeshThickness_8h_1a6bdeaa588f7f56531a72a17bbfefe1af" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*<ref refid="MRMeshThickness_8h_1a6bdeaa588f7f56531a72a17bbfefe1af" kindref="member">MR_InSphereSearchSettings_OffsetMutablePtr</ref>(<ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"></highlight></codeline>
+<codeline lineno="344" refid="MRMeshThickness_8h_1ae84193c2a1497607d1b554342de590a2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*<ref refid="MRMeshThickness_8h_1ae84193c2a1497607d1b554342de590a2" kindref="member">MR_InSphereSearchSettings_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="345"><highlight class="normal"></highlight></codeline>
+<codeline lineno="347" refid="MRMeshThickness_8h_1ac7c330eeb256a78d7506540253310abe" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1ac7c330eeb256a78d7506540253310abe" kindref="member">MR_InSphereSearchSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="348"><highlight class="normal"></highlight></codeline>
+<codeline lineno="350" refid="MRMeshThickness_8h_1a3c052bc71ff310b2f5d7c3200c03d545" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a3c052bc71ff310b2f5d7c3200c03d545" kindref="member">MR_InSphereSearchSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"></highlight></codeline>
+<codeline lineno="358" refid="MRMeshThickness_8h_1a9deec6661a621a9f3bfd33da640135b4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*<ref refid="MRMeshThickness_8h_1a9deec6661a621a9f3bfd33da640135b4" kindref="member">MR_InSphereSearchSettings_AssignFromAnother</ref>(<ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="359"><highlight class="normal"></highlight></codeline>
+<codeline lineno="364" refid="MRMeshThickness_8h_1a8d3568cf94b4a3cfce1891f15ece6229" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRMeshThickness_8h_1a8d3568cf94b4a3cfce1891f15ece6229" kindref="member">MR_InSphere_Get_center</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="365"><highlight class="normal"></highlight></codeline>
+<codeline lineno="370" refid="MRMeshThickness_8h_1ae5c9d04f0f81d28e467875f5dd0eca2e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1ae5c9d04f0f81d28e467875f5dd0eca2e" kindref="member">MR_InSphere_Set_center</ref>(<ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>value);</highlight></codeline>
+<codeline lineno="371"><highlight class="normal"></highlight></codeline>
+<codeline lineno="376" refid="MRMeshThickness_8h_1a98ce35ca1b46a41d745f4a619805608b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRMeshThickness_8h_1a98ce35ca1b46a41d745f4a619805608b" kindref="member">MR_InSphere_GetMutable_center</ref>(<ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="377"><highlight class="normal"></highlight></codeline>
+<codeline lineno="382" refid="MRMeshThickness_8h_1a71e56d20576d4d475d462f0a10756edb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshThickness_8h_1a71e56d20576d4d475d462f0a10756edb" kindref="member">MR_InSphere_Get_radius</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="383"><highlight class="normal"></highlight></codeline>
+<codeline lineno="387" refid="MRMeshThickness_8h_1a4b71aab39c8c4c42ce31743d89860d4d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a4b71aab39c8c4c42ce31743d89860d4d" kindref="member">MR_InSphere_Set_radius</ref>(<ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="388"><highlight class="normal"></highlight></codeline>
+<codeline lineno="393" refid="MRMeshThickness_8h_1ab3e06e026a34980c49d4645bb04645bc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshThickness_8h_1ab3e06e026a34980c49d4645bb04645bc" kindref="member">MR_InSphere_GetMutable_radius</ref>(<ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="394"><highlight class="normal"></highlight></codeline>
+<codeline lineno="400" refid="MRMeshThickness_8h_1a6d38d919c2d4ad4327654141e1766fc2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1a3fb763c49c691080a2aac500c768c001" kindref="member">MR_MeshProjectionResult</ref><sp/>*<ref refid="MRMeshThickness_8h_1a6d38d919c2d4ad4327654141e1766fc2" kindref="member">MR_InSphere_Get_oppositeTouchPoint</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="401"><highlight class="normal"></highlight></codeline>
-<codeline lineno="408" refid="MRMeshThickness_8h_1a358b305b46950d1d41bf4e8571e1f6fa" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref><sp/>*<ref refid="MRMeshThickness_8h_1a358b305b46950d1d41bf4e8571e1f6fa" kindref="member">MR_InSphere_ConstructFrom</ref>(<ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>center,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1a3fb763c49c691080a2aac500c768c001" kindref="member">MR_MeshProjectionResult</ref><sp/>*oppositeTouchPoint);</highlight></codeline>
+<codeline lineno="408" refid="MRMeshThickness_8h_1adabd73709549e6e925c91afef1c28562" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1adabd73709549e6e925c91afef1c28562" kindref="member">MR_InSphere_Set_oppositeTouchPoint</ref>(<ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1a3fb763c49c691080a2aac500c768c001" kindref="member">MR_MeshProjectionResult</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="409"><highlight class="normal"></highlight></codeline>
-<codeline lineno="412" refid="MRMeshThickness_8h_1a9c788a2054b540bd106dcdc40d61cbb4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref><sp/>*<ref refid="MRMeshThickness_8h_1a9c788a2054b540bd106dcdc40d61cbb4" kindref="member">MR_InSphere_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="413"><highlight class="normal"></highlight></codeline>
-<codeline lineno="416" refid="MRMeshThickness_8h_1a424df7634bb88d2136010df04df6aa39" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref><sp/>*<ref refid="MRMeshThickness_8h_1a424df7634bb88d2136010df04df6aa39" kindref="member">MR_InSphere_OffsetMutablePtr</ref>(<ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="417"><highlight class="normal"></highlight></codeline>
-<codeline lineno="422" refid="MRMeshThickness_8h_1a5228129cfbc71b3c9a5de63c490088fe" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref><sp/>*<ref refid="MRMeshThickness_8h_1a5228129cfbc71b3c9a5de63c490088fe" kindref="member">MR_InSphere_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="423"><highlight class="normal"></highlight></codeline>
-<codeline lineno="425" refid="MRMeshThickness_8h_1a1d6f3206b83f6da2677c20f88632bd34" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a1d6f3206b83f6da2677c20f88632bd34" kindref="member">MR_InSphere_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="426"><highlight class="normal"></highlight></codeline>
-<codeline lineno="428" refid="MRMeshThickness_8h_1a90176feffbd102c4736223b4c8ae7d51" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a90176feffbd102c4736223b4c8ae7d51" kindref="member">MR_InSphere_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="429"><highlight class="normal"></highlight></codeline>
-<codeline lineno="436" refid="MRMeshThickness_8h_1ad2bb4f55d61a0887f430af6cdb487b28" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref><sp/>*<ref refid="MRMeshThickness_8h_1ad2bb4f55d61a0887f430af6cdb487b28" kindref="member">MR_InSphere_AssignFromAnother</ref>(<ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="415" refid="MRMeshThickness_8h_1aae23ad247a272473e377610856592582" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMesh_8h_1a3fb763c49c691080a2aac500c768c001" kindref="member">MR_MeshProjectionResult</ref><sp/>*<ref refid="MRMeshThickness_8h_1aae23ad247a272473e377610856592582" kindref="member">MR_InSphere_GetMutable_oppositeTouchPoint</ref>(<ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="416"><highlight class="normal"></highlight></codeline>
+<codeline lineno="419" refid="MRMeshThickness_8h_1a2ef40b17e95a2cb617b591894f0af865" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref><sp/>*<ref refid="MRMeshThickness_8h_1a2ef40b17e95a2cb617b591894f0af865" kindref="member">MR_InSphere_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="420"><highlight class="normal"></highlight></codeline>
+<codeline lineno="424" refid="MRMeshThickness_8h_1a09b37d94e8fc26dc0392f3d686b8fb06" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref><sp/>*<ref refid="MRMeshThickness_8h_1a09b37d94e8fc26dc0392f3d686b8fb06" kindref="member">MR_InSphere_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="425"><highlight class="normal"></highlight></codeline>
+<codeline lineno="432" refid="MRMeshThickness_8h_1a358b305b46950d1d41bf4e8571e1f6fa" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref><sp/>*<ref refid="MRMeshThickness_8h_1a358b305b46950d1d41bf4e8571e1f6fa" kindref="member">MR_InSphere_ConstructFrom</ref>(<ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>center,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1a3fb763c49c691080a2aac500c768c001" kindref="member">MR_MeshProjectionResult</ref><sp/>*oppositeTouchPoint);</highlight></codeline>
+<codeline lineno="433"><highlight class="normal"></highlight></codeline>
+<codeline lineno="436" refid="MRMeshThickness_8h_1a9c788a2054b540bd106dcdc40d61cbb4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref><sp/>*<ref refid="MRMeshThickness_8h_1a9c788a2054b540bd106dcdc40d61cbb4" kindref="member">MR_InSphere_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="437"><highlight class="normal"></highlight></codeline>
-<codeline lineno="444" refid="MRMeshThickness_8h_1a4400255f59fb8feebeb654cf4261b96f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref><sp/>*<ref refid="MRMeshThickness_8h_1a4400255f59fb8feebeb654cf4261b96f" kindref="member">MR_findInSphere_MR_MeshPoint</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*m,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*settings);</highlight></codeline>
-<codeline lineno="445"><highlight class="normal"></highlight></codeline>
-<codeline lineno="450" refid="MRMeshThickness_8h_1aa11802cf700da11502108fb181de1d8d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref><sp/>*<ref refid="MRMeshThickness_8h_1aa11802cf700da11502108fb181de1d8d" kindref="member">MR_findInSphere_MR_VertId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>v,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*settings);</highlight></codeline>
-<codeline lineno="451"><highlight class="normal"></highlight></codeline>
-<codeline lineno="459" refid="MRMeshThickness_8h_1af89f59f39bfe4168e61a26832e0db034" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshThickness_8h_1aba93fea86ae074ee1b7541e7729dca55" kindref="member">MR_std_optional_MR_VertScalars</ref><sp/>*<ref refid="MRMeshThickness_8h_1af89f59f39bfe4168e61a26832e0db034" kindref="member">MR_computeInSphereThicknessAtVertices</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*settings,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progress);</highlight></codeline>
-<codeline lineno="460"><highlight class="normal"></highlight></codeline>
-<codeline lineno="461"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="462"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="463"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="440" refid="MRMeshThickness_8h_1a424df7634bb88d2136010df04df6aa39" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref><sp/>*<ref refid="MRMeshThickness_8h_1a424df7634bb88d2136010df04df6aa39" kindref="member">MR_InSphere_OffsetMutablePtr</ref>(<ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="441"><highlight class="normal"></highlight></codeline>
+<codeline lineno="446" refid="MRMeshThickness_8h_1a5228129cfbc71b3c9a5de63c490088fe" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref><sp/>*<ref refid="MRMeshThickness_8h_1a5228129cfbc71b3c9a5de63c490088fe" kindref="member">MR_InSphere_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="447"><highlight class="normal"></highlight></codeline>
+<codeline lineno="449" refid="MRMeshThickness_8h_1a1d6f3206b83f6da2677c20f88632bd34" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a1d6f3206b83f6da2677c20f88632bd34" kindref="member">MR_InSphere_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="450"><highlight class="normal"></highlight></codeline>
+<codeline lineno="452" refid="MRMeshThickness_8h_1a90176feffbd102c4736223b4c8ae7d51" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a90176feffbd102c4736223b4c8ae7d51" kindref="member">MR_InSphere_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="453"><highlight class="normal"></highlight></codeline>
+<codeline lineno="460" refid="MRMeshThickness_8h_1ad2bb4f55d61a0887f430af6cdb487b28" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref><sp/>*<ref refid="MRMeshThickness_8h_1ad2bb4f55d61a0887f430af6cdb487b28" kindref="member">MR_InSphere_AssignFromAnother</ref>(<ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="461"><highlight class="normal"></highlight></codeline>
+<codeline lineno="468" refid="MRMeshThickness_8h_1a4400255f59fb8feebeb654cf4261b96f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref><sp/>*<ref refid="MRMeshThickness_8h_1a4400255f59fb8feebeb654cf4261b96f" kindref="member">MR_findInSphere_MR_MeshPoint</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1a96993a9b1e805a05df6587a97f4eb328" kindref="member">MR_MeshPoint</ref><sp/>*m,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="469"><highlight class="normal"></highlight></codeline>
+<codeline lineno="474" refid="MRMeshThickness_8h_1aa11802cf700da11502108fb181de1d8d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshThickness_8h_1a60fe47d47390ca23e8eb9de38160da31" kindref="member">MR_InSphere</ref><sp/>*<ref refid="MRMeshThickness_8h_1aa11802cf700da11502108fb181de1d8d" kindref="member">MR_findInSphere_MR_VertId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>v,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="475"><highlight class="normal"></highlight></codeline>
+<codeline lineno="483" refid="MRMeshThickness_8h_1af89f59f39bfe4168e61a26832e0db034" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshThickness_8h_1aba93fea86ae074ee1b7541e7729dca55" kindref="member">MR_std_optional_MR_VertScalars</ref><sp/>*<ref refid="MRMeshThickness_8h_1af89f59f39bfe4168e61a26832e0db034" kindref="member">MR_computeInSphereThicknessAtVertices</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshThickness_8h_1ae13c4b6aa6fb6ac34ea25071268a339a" kindref="member">MR_InSphereSearchSettings</ref><sp/>*settings,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progress);</highlight></codeline>
+<codeline lineno="484"><highlight class="normal"></highlight></codeline>
+<codeline lineno="485"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="486"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="487"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshThickness.h"/>
   </compounddef>

@@ -644,11 +644,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::TeethMaskToDirectionVolumeConvertor::ProcessResult</computeroutput> named <computeroutput>volume</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::TeethMaskToDirectionVolumeConvertor::ProcessResult</computeroutput> named <computeroutput>volume</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" line="134" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" declline="134" declcolumn="52"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" line="135" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" declline="135" declcolumn="52"/>
       </memberdef>
       <memberdef kind="function" id="MRTeethMaskToDirectionVolume_8h_1a2e3d2c3eb6391f76af32eb0ead762bd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -674,7 +674,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" line="140" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" declline="140" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" line="141" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" declline="141" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRTeethMaskToDirectionVolume_8h_1a218713967d7651b497e9b2f012a70048" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRTeethMaskToDirectionVolume_8h_1a141bfd9c399b4067c50ea9b395c34036" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3</ref> *</type>
@@ -688,11 +688,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::TeethMaskToDirectionVolumeConvertor::ProcessResult</computeroutput> named <computeroutput>volume</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::TeethMaskToDirectionVolumeConvertor::ProcessResult</computeroutput> named <computeroutput>volume</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" line="145" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" declline="145" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" line="147" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" declline="147" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MRTeethMaskToDirectionVolume_8h_1a878e92734466502a3c1f69adc2c332d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
@@ -706,11 +706,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::TeethMaskToDirectionVolumeConvertor::ProcessResult</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::TeethMaskToDirectionVolumeConvertor::ProcessResult</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" line="150" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" declline="150" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" line="153" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" declline="153" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRTeethMaskToDirectionVolume_8h_1a6f3758e285f020d5c6f33a0898a1fd55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -732,7 +732,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" line="156" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" declline="156" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" line="159" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" declline="159" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRTeethMaskToDirectionVolume_8h_1a630d4fc134b2174c7475c22ac8959ce5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
@@ -746,11 +746,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::TeethMaskToDirectionVolumeConvertor::ProcessResult</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::TeethMaskToDirectionVolumeConvertor::ProcessResult</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" line="161" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" declline="161" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" line="165" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" declline="165" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRTeethMaskToDirectionVolume_8h_1a0a616bb9594f73581f26b7b350aa0c8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRTeethMaskToDirectionVolume_8h_1a23d9f9dfce98967576082c7b44d0f0cd" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</ref> *</type>
@@ -767,7 +767,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" line="165" column="62" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" declline="165" declcolumn="62"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" line="169" column="62" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" declline="169" declcolumn="62"/>
       </memberdef>
       <memberdef kind="function" id="MRTeethMaskToDirectionVolume_8h_1abbc9a08ff2df92b17e58076a56c3bfba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRTeethMaskToDirectionVolume_8h_1a23d9f9dfce98967576082c7b44d0f0cd" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</ref> *</type>
@@ -785,7 +785,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" line="170" column="62" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" declline="170" declcolumn="62"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" line="174" column="62" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" declline="174" declcolumn="62"/>
       </memberdef>
       <memberdef kind="function" id="MRTeethMaskToDirectionVolume_8h_1a4d80a5d2b45e8e2d2354b7b505a119c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRTeethMaskToDirectionVolume_8h_1a23d9f9dfce98967576082c7b44d0f0cd" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</ref> *</type>
@@ -811,7 +811,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" line="177" column="62" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" declline="177" declcolumn="62"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" line="181" column="62" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" declline="181" declcolumn="62"/>
       </memberdef>
       <memberdef kind="function" id="MRTeethMaskToDirectionVolume_8h_1a4ef9e9dfc729831e2bc673dc4f417339" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRTeethMaskToDirectionVolume_8h_1a23d9f9dfce98967576082c7b44d0f0cd" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</ref> *</type>
@@ -833,7 +833,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" line="181" column="68" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" declline="181" declcolumn="68"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" line="185" column="68" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" declline="185" declcolumn="68"/>
       </memberdef>
       <memberdef kind="function" id="MRTeethMaskToDirectionVolume_8h_1a38d888f69dd533b9403128df2307711f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRTeethMaskToDirectionVolume_8h_1a23d9f9dfce98967576082c7b44d0f0cd" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</ref> *</type>
@@ -855,7 +855,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" line="185" column="62" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" declline="185" declcolumn="62"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" line="189" column="62" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" declline="189" declcolumn="62"/>
       </memberdef>
       <memberdef kind="function" id="MRTeethMaskToDirectionVolume_8h_1a23799a124c354bec54db015b40077287" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRTeethMaskToDirectionVolume_8h_1a23d9f9dfce98967576082c7b44d0f0cd" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</ref> *</type>
@@ -877,7 +877,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" line="190" column="62" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" declline="190" declcolumn="62"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" line="194" column="62" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" declline="194" declcolumn="62"/>
       </memberdef>
       <memberdef kind="function" id="MRTeethMaskToDirectionVolume_8h_1a0b42cfed72ec071767baaf3dfb4f2132" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -895,7 +895,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" line="193" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" declline="193" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" line="197" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" declline="197" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRTeethMaskToDirectionVolume_8h_1a8798ff5f49faa799dd73964a221f7e94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -913,7 +913,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" line="196" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" declline="196" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" line="200" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" declline="200" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRTeethMaskToDirectionVolume_8h_1a6bc762bc101073a24ee3b8c0c41e119b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRTeethMaskToDirectionVolume_8h_1a23d9f9dfce98967576082c7b44d0f0cd" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</ref> *</type>
@@ -939,7 +939,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" line="203" column="62" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" declline="203" declcolumn="62"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" line="207" column="62" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" declline="207" declcolumn="62"/>
       </memberdef>
       <memberdef kind="function" id="MRTeethMaskToDirectionVolume_8h_1adea6204ceb9eed908120b614a1c31360" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshToDistanceVolume_8h_1a3554f92b96c0a2d817a822991c8b2bfc" kindref="member">MR_expected_std_array_MR_SimpleVolumeMinMax_3_std_string</ref> *</type>
@@ -961,7 +961,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" line="211" column="66" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" declline="211" declcolumn="66"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" line="215" column="66" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h" declline="215" declcolumn="66"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1033,41 +1033,41 @@
 <codeline lineno="124"><highlight class="normal"></highlight></codeline>
 <codeline lineno="129" refid="MRTeethMaskToDirectionVolume_8h_1aefc76f1f049fee37d25bad8ae672a692" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTeethMaskToDirectionVolume_8h_1ab456714ac10941c863782f86be8c4e59" kindref="member">MR_expected_MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_std_string</ref><sp/>*<ref refid="MRTeethMaskToDirectionVolume_8h_1aefc76f1f049fee37d25bad8ae672a692" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_convertAll</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTeethMaskToDirectionVolume_8h_1aa30b1977d5827fa4332728b958ee1381" kindref="member">MR_TeethMaskToDirectionVolumeConvertor</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="130"><highlight class="normal"></highlight></codeline>
-<codeline lineno="134" refid="MRTeethMaskToDirectionVolume_8h_1a6a9438765f0d6b2099f5c8cc99a41b1f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTeethMaskToDirectionVolume_8h_1a141bfd9c399b4067c50ea9b395c34036" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3</ref><sp/>*<ref refid="MRTeethMaskToDirectionVolume_8h_1a6a9438765f0d6b2099f5c8cc99a41b1f" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_Get_volume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTeethMaskToDirectionVolume_8h_1a23d9f9dfce98967576082c7b44d0f0cd" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="135"><highlight class="normal"></highlight></codeline>
-<codeline lineno="140" refid="MRTeethMaskToDirectionVolume_8h_1a2e3d2c3eb6391f76af32eb0ead762bd3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTeethMaskToDirectionVolume_8h_1a2e3d2c3eb6391f76af32eb0ead762bd3" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_Set_volume</ref>(<ref refid="MRTeethMaskToDirectionVolume_8h_1a23d9f9dfce98967576082c7b44d0f0cd" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRTeethMaskToDirectionVolume_8h_1a141bfd9c399b4067c50ea9b395c34036" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="141"><highlight class="normal"></highlight></codeline>
-<codeline lineno="145" refid="MRTeethMaskToDirectionVolume_8h_1a218713967d7651b497e9b2f012a70048" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTeethMaskToDirectionVolume_8h_1a141bfd9c399b4067c50ea9b395c34036" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3</ref><sp/>*<ref refid="MRTeethMaskToDirectionVolume_8h_1a218713967d7651b497e9b2f012a70048" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_GetMutable_volume</ref>(<ref refid="MRTeethMaskToDirectionVolume_8h_1a23d9f9dfce98967576082c7b44d0f0cd" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="146"><highlight class="normal"></highlight></codeline>
-<codeline lineno="150" refid="MRTeethMaskToDirectionVolume_8h_1a878e92734466502a3c1f69adc2c332d7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*<ref refid="MRTeethMaskToDirectionVolume_8h_1a878e92734466502a3c1f69adc2c332d7" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_Get_xf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTeethMaskToDirectionVolume_8h_1a23d9f9dfce98967576082c7b44d0f0cd" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="151"><highlight class="normal"></highlight></codeline>
-<codeline lineno="156" refid="MRTeethMaskToDirectionVolume_8h_1a6f3758e285f020d5c6f33a0898a1fd55" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTeethMaskToDirectionVolume_8h_1a6f3758e285f020d5c6f33a0898a1fd55" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_Set_xf</ref>(<ref refid="MRTeethMaskToDirectionVolume_8h_1a23d9f9dfce98967576082c7b44d0f0cd" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</ref><sp/>*_this,<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>value);</highlight></codeline>
-<codeline lineno="157"><highlight class="normal"></highlight></codeline>
-<codeline lineno="161" refid="MRTeethMaskToDirectionVolume_8h_1a630d4fc134b2174c7475c22ac8959ce5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*<ref refid="MRTeethMaskToDirectionVolume_8h_1a630d4fc134b2174c7475c22ac8959ce5" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_GetMutable_xf</ref>(<ref refid="MRTeethMaskToDirectionVolume_8h_1a23d9f9dfce98967576082c7b44d0f0cd" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="162"><highlight class="normal"></highlight></codeline>
-<codeline lineno="165" refid="MRTeethMaskToDirectionVolume_8h_1a0a616bb9594f73581f26b7b350aa0c8d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTeethMaskToDirectionVolume_8h_1a23d9f9dfce98967576082c7b44d0f0cd" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</ref><sp/>*<ref refid="MRTeethMaskToDirectionVolume_8h_1a0a616bb9594f73581f26b7b350aa0c8d" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="135" refid="MRTeethMaskToDirectionVolume_8h_1a6a9438765f0d6b2099f5c8cc99a41b1f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTeethMaskToDirectionVolume_8h_1a141bfd9c399b4067c50ea9b395c34036" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3</ref><sp/>*<ref refid="MRTeethMaskToDirectionVolume_8h_1a6a9438765f0d6b2099f5c8cc99a41b1f" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_Get_volume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTeethMaskToDirectionVolume_8h_1a23d9f9dfce98967576082c7b44d0f0cd" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141" refid="MRTeethMaskToDirectionVolume_8h_1a2e3d2c3eb6391f76af32eb0ead762bd3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTeethMaskToDirectionVolume_8h_1a2e3d2c3eb6391f76af32eb0ead762bd3" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_Set_volume</ref>(<ref refid="MRTeethMaskToDirectionVolume_8h_1a23d9f9dfce98967576082c7b44d0f0cd" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRTeethMaskToDirectionVolume_8h_1a141bfd9c399b4067c50ea9b395c34036" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147" refid="MRTeethMaskToDirectionVolume_8h_1a218713967d7651b497e9b2f012a70048" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTeethMaskToDirectionVolume_8h_1a141bfd9c399b4067c50ea9b395c34036" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3</ref><sp/>*<ref refid="MRTeethMaskToDirectionVolume_8h_1a218713967d7651b497e9b2f012a70048" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_GetMutable_volume</ref>(<ref refid="MRTeethMaskToDirectionVolume_8h_1a23d9f9dfce98967576082c7b44d0f0cd" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153" refid="MRTeethMaskToDirectionVolume_8h_1a878e92734466502a3c1f69adc2c332d7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*<ref refid="MRTeethMaskToDirectionVolume_8h_1a878e92734466502a3c1f69adc2c332d7" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_Get_xf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTeethMaskToDirectionVolume_8h_1a23d9f9dfce98967576082c7b44d0f0cd" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="MRTeethMaskToDirectionVolume_8h_1a6f3758e285f020d5c6f33a0898a1fd55" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTeethMaskToDirectionVolume_8h_1a6f3758e285f020d5c6f33a0898a1fd55" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_Set_xf</ref>(<ref refid="MRTeethMaskToDirectionVolume_8h_1a23d9f9dfce98967576082c7b44d0f0cd" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</ref><sp/>*_this,<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>value);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165" refid="MRTeethMaskToDirectionVolume_8h_1a630d4fc134b2174c7475c22ac8959ce5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*<ref refid="MRTeethMaskToDirectionVolume_8h_1a630d4fc134b2174c7475c22ac8959ce5" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_GetMutable_xf</ref>(<ref refid="MRTeethMaskToDirectionVolume_8h_1a23d9f9dfce98967576082c7b44d0f0cd" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="166"><highlight class="normal"></highlight></codeline>
-<codeline lineno="170" refid="MRTeethMaskToDirectionVolume_8h_1abbc9a08ff2df92b17e58076a56c3bfba" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTeethMaskToDirectionVolume_8h_1a23d9f9dfce98967576082c7b44d0f0cd" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</ref><sp/>*<ref refid="MRTeethMaskToDirectionVolume_8h_1abbc9a08ff2df92b17e58076a56c3bfba" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="171"><highlight class="normal"></highlight></codeline>
-<codeline lineno="177" refid="MRTeethMaskToDirectionVolume_8h_1a4d80a5d2b45e8e2d2354b7b505a119c1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTeethMaskToDirectionVolume_8h_1a23d9f9dfce98967576082c7b44d0f0cd" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</ref><sp/>*<ref refid="MRTeethMaskToDirectionVolume_8h_1a4d80a5d2b45e8e2d2354b7b505a119c1" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_ConstructFrom</ref>(MR_PassBy<sp/>volume_pass_by,<sp/><ref refid="MRTeethMaskToDirectionVolume_8h_1a141bfd9c399b4067c50ea9b395c34036" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3</ref><sp/>*volume,<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>xf);</highlight></codeline>
-<codeline lineno="178"><highlight class="normal"></highlight></codeline>
-<codeline lineno="181" refid="MRTeethMaskToDirectionVolume_8h_1a4ef9e9dfc729831e2bc673dc4f417339" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTeethMaskToDirectionVolume_8h_1a23d9f9dfce98967576082c7b44d0f0cd" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</ref><sp/>*<ref refid="MRTeethMaskToDirectionVolume_8h_1a4ef9e9dfc729831e2bc673dc4f417339" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTeethMaskToDirectionVolume_8h_1a23d9f9dfce98967576082c7b44d0f0cd" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="169" refid="MRTeethMaskToDirectionVolume_8h_1a0a616bb9594f73581f26b7b350aa0c8d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTeethMaskToDirectionVolume_8h_1a23d9f9dfce98967576082c7b44d0f0cd" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</ref><sp/>*<ref refid="MRTeethMaskToDirectionVolume_8h_1a0a616bb9594f73581f26b7b350aa0c8d" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174" refid="MRTeethMaskToDirectionVolume_8h_1abbc9a08ff2df92b17e58076a56c3bfba" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTeethMaskToDirectionVolume_8h_1a23d9f9dfce98967576082c7b44d0f0cd" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</ref><sp/>*<ref refid="MRTeethMaskToDirectionVolume_8h_1abbc9a08ff2df92b17e58076a56c3bfba" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="181" refid="MRTeethMaskToDirectionVolume_8h_1a4d80a5d2b45e8e2d2354b7b505a119c1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTeethMaskToDirectionVolume_8h_1a23d9f9dfce98967576082c7b44d0f0cd" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</ref><sp/>*<ref refid="MRTeethMaskToDirectionVolume_8h_1a4d80a5d2b45e8e2d2354b7b505a119c1" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_ConstructFrom</ref>(MR_PassBy<sp/>volume_pass_by,<sp/><ref refid="MRTeethMaskToDirectionVolume_8h_1a141bfd9c399b4067c50ea9b395c34036" kindref="member">MR_std_array_MR_SimpleVolumeMinMax_3</ref><sp/>*volume,<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>xf);</highlight></codeline>
 <codeline lineno="182"><highlight class="normal"></highlight></codeline>
-<codeline lineno="185" refid="MRTeethMaskToDirectionVolume_8h_1a38d888f69dd533b9403128df2307711f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTeethMaskToDirectionVolume_8h_1a23d9f9dfce98967576082c7b44d0f0cd" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</ref><sp/>*<ref refid="MRTeethMaskToDirectionVolume_8h_1a38d888f69dd533b9403128df2307711f" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_OffsetMutablePtr</ref>(<ref refid="MRTeethMaskToDirectionVolume_8h_1a23d9f9dfce98967576082c7b44d0f0cd" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="185" refid="MRTeethMaskToDirectionVolume_8h_1a4ef9e9dfc729831e2bc673dc4f417339" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTeethMaskToDirectionVolume_8h_1a23d9f9dfce98967576082c7b44d0f0cd" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</ref><sp/>*<ref refid="MRTeethMaskToDirectionVolume_8h_1a4ef9e9dfc729831e2bc673dc4f417339" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTeethMaskToDirectionVolume_8h_1a23d9f9dfce98967576082c7b44d0f0cd" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="186"><highlight class="normal"></highlight></codeline>
-<codeline lineno="190" refid="MRTeethMaskToDirectionVolume_8h_1a23799a124c354bec54db015b40077287" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTeethMaskToDirectionVolume_8h_1a23d9f9dfce98967576082c7b44d0f0cd" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</ref><sp/>*<ref refid="MRTeethMaskToDirectionVolume_8h_1a23799a124c354bec54db015b40077287" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRTeethMaskToDirectionVolume_8h_1a23d9f9dfce98967576082c7b44d0f0cd" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="191"><highlight class="normal"></highlight></codeline>
-<codeline lineno="193" refid="MRTeethMaskToDirectionVolume_8h_1a0b42cfed72ec071767baaf3dfb4f2132" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTeethMaskToDirectionVolume_8h_1a0b42cfed72ec071767baaf3dfb4f2132" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTeethMaskToDirectionVolume_8h_1a23d9f9dfce98967576082c7b44d0f0cd" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="194"><highlight class="normal"></highlight></codeline>
-<codeline lineno="196" refid="MRTeethMaskToDirectionVolume_8h_1a8798ff5f49faa799dd73964a221f7e94" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTeethMaskToDirectionVolume_8h_1a8798ff5f49faa799dd73964a221f7e94" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTeethMaskToDirectionVolume_8h_1a23d9f9dfce98967576082c7b44d0f0cd" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="197"><highlight class="normal"></highlight></codeline>
-<codeline lineno="203" refid="MRTeethMaskToDirectionVolume_8h_1a6bc762bc101073a24ee3b8c0c41e119b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTeethMaskToDirectionVolume_8h_1a23d9f9dfce98967576082c7b44d0f0cd" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</ref><sp/>*<ref refid="MRTeethMaskToDirectionVolume_8h_1a6bc762bc101073a24ee3b8c0c41e119b" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_AssignFromAnother</ref>(<ref refid="MRTeethMaskToDirectionVolume_8h_1a23d9f9dfce98967576082c7b44d0f0cd" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRTeethMaskToDirectionVolume_8h_1a23d9f9dfce98967576082c7b44d0f0cd" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="204"><highlight class="normal"></highlight></codeline>
-<codeline lineno="211" refid="MRTeethMaskToDirectionVolume_8h_1adea6204ceb9eed908120b614a1c31360" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshToDistanceVolume_8h_1a3554f92b96c0a2d817a822991c8b2bfc" kindref="member">MR_expected_std_array_MR_SimpleVolumeMinMax_3_std_string</ref><sp/>*<ref refid="MRTeethMaskToDirectionVolume_8h_1adea6204ceb9eed908120b614a1c31360" kindref="member">MR_teethMaskToDirectionVolume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/>*volume,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionContour_8h_1a39843253e49249719b6defbb7948aa79" kindref="member">MR_std_vector_int</ref><sp/>*additionalIds);</highlight></codeline>
-<codeline lineno="212"><highlight class="normal"></highlight></codeline>
-<codeline lineno="213"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="214"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="215"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="189" refid="MRTeethMaskToDirectionVolume_8h_1a38d888f69dd533b9403128df2307711f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTeethMaskToDirectionVolume_8h_1a23d9f9dfce98967576082c7b44d0f0cd" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</ref><sp/>*<ref refid="MRTeethMaskToDirectionVolume_8h_1a38d888f69dd533b9403128df2307711f" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_OffsetMutablePtr</ref>(<ref refid="MRTeethMaskToDirectionVolume_8h_1a23d9f9dfce98967576082c7b44d0f0cd" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194" refid="MRTeethMaskToDirectionVolume_8h_1a23799a124c354bec54db015b40077287" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTeethMaskToDirectionVolume_8h_1a23d9f9dfce98967576082c7b44d0f0cd" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</ref><sp/>*<ref refid="MRTeethMaskToDirectionVolume_8h_1a23799a124c354bec54db015b40077287" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRTeethMaskToDirectionVolume_8h_1a23d9f9dfce98967576082c7b44d0f0cd" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197" refid="MRTeethMaskToDirectionVolume_8h_1a0b42cfed72ec071767baaf3dfb4f2132" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTeethMaskToDirectionVolume_8h_1a0b42cfed72ec071767baaf3dfb4f2132" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTeethMaskToDirectionVolume_8h_1a23d9f9dfce98967576082c7b44d0f0cd" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200" refid="MRTeethMaskToDirectionVolume_8h_1a8798ff5f49faa799dd73964a221f7e94" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTeethMaskToDirectionVolume_8h_1a8798ff5f49faa799dd73964a221f7e94" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTeethMaskToDirectionVolume_8h_1a23d9f9dfce98967576082c7b44d0f0cd" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207" refid="MRTeethMaskToDirectionVolume_8h_1a6bc762bc101073a24ee3b8c0c41e119b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTeethMaskToDirectionVolume_8h_1a23d9f9dfce98967576082c7b44d0f0cd" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</ref><sp/>*<ref refid="MRTeethMaskToDirectionVolume_8h_1a6bc762bc101073a24ee3b8c0c41e119b" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_AssignFromAnother</ref>(<ref refid="MRTeethMaskToDirectionVolume_8h_1a23d9f9dfce98967576082c7b44d0f0cd" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRTeethMaskToDirectionVolume_8h_1a23d9f9dfce98967576082c7b44d0f0cd" kindref="member">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215" refid="MRTeethMaskToDirectionVolume_8h_1adea6204ceb9eed908120b614a1c31360" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshToDistanceVolume_8h_1a3554f92b96c0a2d817a822991c8b2bfc" kindref="member">MR_expected_std_array_MR_SimpleVolumeMinMax_3_std_string</ref><sp/>*<ref refid="MRTeethMaskToDirectionVolume_8h_1adea6204ceb9eed908120b614a1c31360" kindref="member">MR_teethMaskToDirectionVolume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/>*volume,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionContour_8h_1a39843253e49249719b6defbb7948aa79" kindref="member">MR_std_vector_int</ref><sp/>*additionalIds);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="218"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRTeethMaskToDirectionVolume.h"/>
   </compounddef>
