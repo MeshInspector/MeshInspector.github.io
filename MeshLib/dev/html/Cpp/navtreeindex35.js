@@ -1,5 +1,6 @@
 var NAVTREEINDEX35 =
 {
+"classMR_1_1PluginCloseOnEscPressed.html":[6,0,2,0,2,512],
 "classMR_1_1PluginCloseOnEscPressed.html#a1cbeb11bd052199cb41ec5ae88ea4971":[6,0,1,0,1,530,0],
 "classMR_1_1PluginCloseOnEscPressed.html#a1cbeb11bd052199cb41ec5ae88ea4971":[6,0,2,0,2,512,0],
 "classMR_1_1PluginCloseOnSelectedObjectRemove.html":[6,0,1,0,1,531],
@@ -248,6 +249,5 @@ var NAVTREEINDEX35 =
 "classMR_1_1PrecipitationSimulator.html#a1ff436805e728c27089cf75e5d98c90fa72a8744509ab6e486c5019b1175f2e9b":[6,0,2,0,2,560,1,1],
 "classMR_1_1PrecipitationSimulator.html#a1ff436805e728c27089cf75e5d98c90faa20ddccbb6f808ec42cd66323e6c6061":[6,0,1,0,1,578,1,0],
 "classMR_1_1PrecipitationSimulator.html#a1ff436805e728c27089cf75e5d98c90faa20ddccbb6f808ec42cd66323e6c6061":[6,0,2,0,2,560,1,0],
-"classMR_1_1PrecipitationSimulator.html#a868e5e5616edae5787beab77d64681a4":[6,0,1,0,1,578,2],
-"classMR_1_1PrecipitationSimulator.html#a868e5e5616edae5787beab77d64681a4":[6,0,2,0,2,560,2]
+"classMR_1_1PrecipitationSimulator.html#a868e5e5616edae5787beab77d64681a4":[6,0,1,0,1,578,2]
 };

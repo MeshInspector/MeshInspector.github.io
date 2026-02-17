@@ -1,5 +1,6 @@
 var NAVTREEINDEX32 =
 {
+"classMR_1_1ObjectMeshHolder.html#ac9c4f457b06a88041861aa3e40ea3fc3":[6,0,1,0,1,477,31],
 "classMR_1_1ObjectMeshHolder.html#ac9c4f457b06a88041861aa3e40ea3fc3":[6,0,2,0,2,459,31],
 "classMR_1_1ObjectMeshHolder.html#acb6fda2cf6c7571a2377f2589cf588e4":[6,0,1,0,1,477,143],
 "classMR_1_1ObjectMeshHolder.html#acb6fda2cf6c7571a2377f2589cf588e4":[6,0,2,0,2,459,143],
@@ -248,6 +249,5 @@ var NAVTREEINDEX32 =
 "classMR_1_1ObjectTransformWidget.html#a3134eccba5998667c2b96764ceb6d88f":[6,0,1,0,1,482,11],
 "classMR_1_1ObjectTransformWidget.html#a3134eccba5998667c2b96764ceb6d88f":[6,0,2,0,2,464,11],
 "classMR_1_1ObjectTransformWidget.html#a3582cec258b537faa908e62e50ca0eb8":[6,0,1,0,1,482,15],
-"classMR_1_1ObjectTransformWidget.html#a3582cec258b537faa908e62e50ca0eb8":[6,0,2,0,2,464,15],
-"classMR_1_1ObjectTransformWidget.html#a80fb43258823d107074fb68a3f1c411d":[6,0,1,0,1,482,4]
+"classMR_1_1ObjectTransformWidget.html#a3582cec258b537faa908e62e50ca0eb8":[6,0,2,0,2,464,15]
 };

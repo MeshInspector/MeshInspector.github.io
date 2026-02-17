@@ -1,5 +1,8 @@
 var NAVTREEINDEX83 =
 {
+"structMR_1_1PointCloudPart.html":[6,0,1,0,1,539],
+"structMR_1_1PointCloudPart.html":[6,0,2,0,2,521],
+"structMR_1_1PointCloudPart.html#a15a31f379a5e9fe7e7f2c58e7e1b0207":[6,0,1,0,1,539,2],
 "structMR_1_1PointCloudPart.html#a15a31f379a5e9fe7e7f2c58e7e1b0207":[6,0,2,0,2,521,2],
 "structMR_1_1PointCloudPart.html#a85d4aad70140445a8b9ebadbc4382363":[6,0,1,0,1,539,3],
 "structMR_1_1PointCloudPart.html#a85d4aad70140445a8b9ebadbc4382363":[6,0,2,0,2,521,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX83 =
 "structMR_1_1PolylineProjectionResult.html#a81f4cd1607e7835a737edcf9011740d8":[6,0,0,1,32,2],
 "structMR_1_1PolylineProjectionResult.html#a954df3a650cf8eeea5e253acae8126bd":[6,0,0,1,32,4],
 "structMR_1_1PolylineProjectionResult3Arg.html":[6,0,0,1,33],
-"structMR_1_1PolylineProjectionResult3Arg.html#a2cf18e52c58f017c162f7f60ad2c514e":[6,0,0,1,33,0],
-"structMR_1_1PolylineProjectionWithOffsetResult.html":[6,0,0,1,34],
-"structMR_1_1PolylineProjectionWithOffsetResult.html#a11d0a9e4090b200e7152c1d2000db9c3":[6,0,0,1,34,1],
-"structMR_1_1PolylineProjectionWithOffsetResult.html#ac03c6975d60108034bbd6964a751d08d":[6,0,0,1,34,2]
+"structMR_1_1PolylineProjectionResult3Arg.html#a2cf18e52c58f017c162f7f60ad2c514e":[6,0,0,1,33,0]
 };

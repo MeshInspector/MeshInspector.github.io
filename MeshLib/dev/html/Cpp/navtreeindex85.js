@@ -1,5 +1,8 @@
 var NAVTREEINDEX85 =
 {
+"structMR_1_1Quaternion.html#afde85af8bb0b46b18e7c0b7f9ab0a2be":[6,0,0,0,21,16],
+"structMR_1_1RangeSize.html":[6,0,1,0,1,599],
+"structMR_1_1RangeSize.html":[6,0,2,0,2,581],
 "structMR_1_1RangeSize.html#a5dde8b6f1f684eac4b8bf2c2bc72386e":[6,0,1,0,1,599,0],
 "structMR_1_1RangeSize.html#a5dde8b6f1f684eac4b8bf2c2bc72386e":[6,0,2,0,2,581,0],
 "structMR_1_1RangeSize.html#a8d9671c602785383a783dc97504805ec":[6,0,1,0,1,599,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX85 =
 "structMR_1_1RibbonMenuUIConfig.html#ad25116ab1883c906d084fc3b87abde3a":[6,0,1,0,1,640,6],
 "structMR_1_1RibbonMenuUIConfig.html#ad25116ab1883c906d084fc3b87abde3a":[6,0,2,0,2,622,6],
 "structMR_1_1RibbonMenuUIConfig.html#ada3dc6fefe89d1d4909cbf31a7aae2ce":[6,0,1,0,1,640,3],
-"structMR_1_1RibbonMenuUIConfig.html#ada3dc6fefe89d1d4909cbf31a7aae2ce":[6,0,2,0,2,622,3],
-"structMR_1_1RibbonMenuUIConfig.html#ae6822db982eca1e5929cebbf20f784a9":[6,0,1,0,1,640,4],
-"structMR_1_1RibbonMenuUIConfig.html#ae6822db982eca1e5929cebbf20f784a9":[6,0,2,0,2,622,4],
-"structMR_1_1RibbonMenu_1_1DialogItemPtr.html":[6,0,1,0,1,634,0]
+"structMR_1_1RibbonMenuUIConfig.html#ada3dc6fefe89d1d4909cbf31a7aae2ce":[6,0,2,0,2,622,3]
 };

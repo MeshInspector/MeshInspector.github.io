@@ -328,6 +328,7 @@ var dir_a3aa1b05a239568a771698a86e4943fe =
     [ "MRSymMatrix4.cs", "MRSymMatrix4_8cs.html", "MRSymMatrix4_8cs" ],
     [ "MRSystem.cs", "MRSystem_8cs.html", "MRSystem_8cs" ],
     [ "MRSystemPath.cs", "MRSystemPath_8cs.html", "MRSystemPath_8cs" ],
+    [ "MRTelemetry.cs", "MRTelemetry_8cs.html", "MRTelemetry_8cs" ],
     [ "MRTerrainTriangulation.cs", "MRTerrainTriangulation_8cs.html", "MRTerrainTriangulation_8cs" ],
     [ "MRTextureColors.cs", "MRTextureColors_8cs.html", "MRTextureColors_8cs" ],
     [ "MRTiffIO.cs", "MRTiffIO_8cs.html", "MRTiffIO_8cs" ],

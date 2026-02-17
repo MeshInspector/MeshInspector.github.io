@@ -6187,6 +6187,8 @@ same leafs are skipped and different leafs area processed with <code>processLeaf
 <tr class="memitem:a1e251c5988273136d8a8cf12655f3f0d" id="r_a1e251c5988273136d8a8cf12655f3f0d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e251c5988273136d8a8cf12655f3f0d">setupLoggerByDefault</a> (const std::function&lt; void()&gt; &amp;customLogSinkAdder={})</td></tr>
 <tr class="memdesc:a1e251c5988273136d8a8cf12655f3f0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">_WIN32  <br /></td></tr>
 <tr class="separator:a1e251c5988273136d8a8cf12655f3f0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a097e1d5f272059dda5a7aa233cf20a58" id="r_a097e1d5f272059dda5a7aa233cf20a58"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a097e1d5f272059dda5a7aa233cf20a58">intLog2</a> (size_t n)</td></tr>
+<tr class="separator:a097e1d5f272059dda5a7aa233cf20a58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abebe86de5d47fc21de1ad73e06bdbc3d" id="r_abebe86de5d47fc21de1ad73e06bdbc3d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abebe86de5d47fc21de1ad73e06bdbc3d">terrainTriangulation</a> (std::vector&lt; Vector3f &gt; points, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
 <tr class="separator:abebe86de5d47fc21de1ad73e06bdbc3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a228fd3f15dfd62cae2cd96578e019c9d" id="r_a228fd3f15dfd62cae2cd96578e019c9d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; <a class="el" href="#a6f8b9797e8968735a685a81d8a6064d6">UVCoord</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a228fd3f15dfd62cae2cd96578e019c9d">findVertexUV</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, VertId v, const TriCornerUVCoords &amp;triCornerUvCoords)</td></tr>
@@ -27463,6 +27465,32 @@ requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt
 </div><div class="memdoc">
 
 <p>interpolates several points lying on the same straight line with one move </p>
+
+</div>
+</div>
+<a id="a097e1d5f272059dda5a7aa233cf20a58" name="a097e1d5f272059dda5a7aa233cf20a58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a097e1d5f272059dda5a7aa233cf20a58">&#9670;&#160;</a></span>intLog2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::intLog2 </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>n</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>integer binary logarithm: 0 -&gt; 0 1 -&gt; 1 [2,4) -&gt; 2 [4,8) -&gt; 3 ... </p>
 
 </div>
 </div>

@@ -4140,6 +4140,8 @@ Functions</h2></td></tr>
 <tr class="separator:aae99dbb95077aa4ff7f5dabcc4919dd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14ecdb3db5f62202a07bcdfac67b5274" id="r_a14ecdb3db5f62202a07bcdfac67b5274"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14ecdb3db5f62202a07bcdfac67b5274">inflate1</a> (<a class="el" href="classmrmeshpy_1_1MeshTopology.html">MeshTopology</a> topology, <a class="el" href="classmrmeshpy_1_1VertCoords.html">VertCoords</a> points, <a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a> verts, float pressure)</td></tr>
 <tr class="separator:a14ecdb3db5f62202a07bcdfac67b5274"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a607f7f6599751fa947cdd45b09d34f08" id="r_a607f7f6599751fa947cdd45b09d34f08"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a607f7f6599751fa947cdd45b09d34f08">intLog2</a> (int n)</td></tr>
+<tr class="separator:a607f7f6599751fa947cdd45b09d34f08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1031a3594a208de8eeb82e7295b8638" id="r_ae1031a3594a208de8eeb82e7295b8638"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1031a3594a208de8eeb82e7295b8638">interpolateArcs</a> (<a class="el" href="classmrmeshpy_1_1std__vector__GCommand.html">std_vector_GCommand</a> commands, <a class="el" href="classmrmeshpy_1_1ArcInterpolationParams.html">ArcInterpolationParams</a> params, <a class="el" href="classmrmeshpy_1_1Axis.html">Axis</a> axis)</td></tr>
 <tr class="separator:ae1031a3594a208de8eeb82e7295b8638"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a68e31268226515ddddf724fc783171a8" id="r_a68e31268226515ddddf724fc783171a8"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68e31268226515ddddf724fc783171a8">interpolateLines</a> (<a class="el" href="classmrmeshpy_1_1std__vector__GCommand.html">std_vector_GCommand</a> commands, <a class="el" href="classmrmeshpy_1_1LineInterpolationParams.html">LineInterpolationParams</a> params, <a class="el" href="classmrmeshpy_1_1Axis.html">Axis</a> axis)</td></tr>
@@ -26164,6 +26166,29 @@ this function makes just 1 iteration of inflation and is used inside inflate(...
 </div><div class="memdoc">
 <pre class="fragment">finds an intersection between a segm1 and a segm2
 \\return nullopt if they don't intersect (even if they match)
+</pre> 
+</div>
+</div>
+<a id="a607f7f6599751fa947cdd45b09d34f08" name="a607f7f6599751fa947cdd45b09d34f08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a607f7f6599751fa947cdd45b09d34f08">&#9670;&#160;</a></span>intLog2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int mrmeshpy.intLog2 </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>n</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">integer binary logarithm:
+  0   -&gt; 0
+  1   -&gt; 1
+[2,4) -&gt; 2
+[4,8) -&gt; 3
+...
 </pre> 
 </div>
 </div>

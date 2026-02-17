@@ -1,5 +1,7 @@
 var NAVTREEINDEX57 =
 {
+"classMR_1_1UndirectedEdgeBitSet.html#a016d87ef640a83900ae3733c5f4b6a6c":[6,3,0,0,0,824,16],
+"classMR_1_1UndirectedEdgeBitSet.html#a0f7278f489b5fee16a4b167fd4eb1294":[6,3,0,0,0,824,34],
 "classMR_1_1UndirectedEdgeBitSet.html#a15e54f09cf88b104a4c7ba03208792ce":[6,3,0,0,0,824,21],
 "classMR_1_1UndirectedEdgeBitSet.html#a1a3f887d90ff82e455c811bfa973200c":[6,3,0,0,0,824,25],
 "classMR_1_1UndirectedEdgeBitSet.html#a1b7ae46c6d19da7c0409ad7ba9000bca":[6,3,0,0,0,824,11],
@@ -247,7 +249,5 @@ var NAVTREEINDEX57 =
 "classMR_1_1UniteManyMeshesParams.html#a668909b2d53ed0fad4957214adb83e45":[6,3,0,0,0,841,13],
 "classMR_1_1UniteManyMeshesParams.html#a8a91c6fcf487572f2193c3c107618ec6":[6,3,0,0,0,841,8],
 "classMR_1_1UniteManyMeshesParams.html#aa12e1ae1c6766e3f88a784b07c049492":[6,3,0,0,0,841,2],
-"classMR_1_1UniteManyMeshesParams.html#ab85360fc04e5214a35a95f729e284611":[6,3,0,0,0,841,7],
-"classMR_1_1UniteManyMeshesParams.html#abbb81aab4b16d07b9becb1072530e145":[6,3,0,0,0,841,5],
-"classMR_1_1UniteManyMeshesParams.html#ae00a3f9f613a35c9b53418babe9a5143":[6,3,0,0,0,841,3]
+"classMR_1_1UniteManyMeshesParams.html#ab85360fc04e5214a35a95f729e284611":[6,3,0,0,0,841,7]
 };

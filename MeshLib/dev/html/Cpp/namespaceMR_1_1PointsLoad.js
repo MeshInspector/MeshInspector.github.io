@@ -24,5 +24,6 @@ var namespaceMR_1_1PointsLoad =
     [ "fromSceneE57File", "namespaceMR_1_1PointsLoad.html#ad5e9f8e6672cc948a2e5206a91b2b261", null ],
     [ "fromText", "group__IOGroup.html#gaff1fcad8c4a57da6a7dc90d9fb1f2a56", null ],
     [ "fromText", "group__IOGroup.html#gab1a6e8a21cedba988c7ecaea8eda8d2c", null ],
-    [ "loadObjectFromE57", "namespaceMR_1_1PointsLoad.html#a0b7a6c4b1858171ee10c0d0af8ebd77b", null ]
+    [ "loadObjectFromE57", "namespaceMR_1_1PointsLoad.html#a0b7a6c4b1858171ee10c0d0af8ebd77b", null ],
+    [ "telemetryLogSize", "group__IOGroup.html#ga7f50d8551f5f8f8aaa9a7175d5f639cc", null ]
 ];

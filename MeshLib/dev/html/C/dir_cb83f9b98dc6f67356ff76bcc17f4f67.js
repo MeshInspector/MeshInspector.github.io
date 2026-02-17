@@ -328,6 +328,7 @@ var dir_cb83f9b98dc6f67356ff76bcc17f4f67 =
     [ "MRSymMatrix4.h", "MRSymMatrix4_8h.html", "MRSymMatrix4_8h" ],
     [ "MRSystem.h", "MRSystem_8h.html", "MRSystem_8h" ],
     [ "MRSystemPath.h", "MRSystemPath_8h.html", "MRSystemPath_8h" ],
+    [ "MRTelemetry.h", "MRTelemetry_8h.html", "MRTelemetry_8h" ],
     [ "MRTerrainTriangulation.h", "MRTerrainTriangulation_8h.html", "MRTerrainTriangulation_8h" ],
     [ "MRTextureColors.h", "MRTextureColors_8h.html", "MRTextureColors_8h" ],
     [ "MRTiffIO.h", "MRTiffIO_8h.html", "MRTiffIO_8h" ],

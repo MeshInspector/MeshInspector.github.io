@@ -27782,6 +27782,25 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSystem.h" line="113" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSystem.h" declline="113" declcolumn="17"/>
       </memberdef>
+      <memberdef kind="function" id="namespaceMR_1a097e1d5f272059dda5a7aa233cf20a58" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int MR::intLog2</definition>
+        <argsstring>(size_t n)</argsstring>
+        <name>intLog2</name>
+        <qualifiedname>MR::intLog2</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>integer binary logarithm: 0 -&gt; 0 1 -&gt; 1 [2,4) -&gt; 2 [4,8) -&gt; 3 ... </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTelemetry.h" line="19" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTelemetry.h" bodystart="19" bodyend="28"/>
+      </memberdef>
       <memberdef kind="function" id="namespaceMR_1abebe86de5d47fc21de1ad73e06bdbc3d" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> <ref refid="namespaceMR_1a6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
         <definition>MRMESH_API Expected&lt; Mesh &gt; MR::terrainTriangulation</definition>

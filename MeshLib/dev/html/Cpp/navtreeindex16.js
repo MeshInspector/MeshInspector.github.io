@@ -1,5 +1,6 @@
 var NAVTREEINDEX16 =
 {
+"classMR_1_1AsyncRequest.html#a3801cd6efcd7bb32ee149dd407b78ba6":[6,0,2,0,2,53,2],
 "classMR_1_1AsyncTimer.html":[6,0,1,0,1,72],
 "classMR_1_1AsyncTimer.html":[6,0,2,0,2,54],
 "classMR_1_1AsyncTimer.html#a22c22547b9f3f454f3bfeb6f368eb6c8":[6,0,1,0,1,72,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX16 =
 "classMR_1_1CaptureScreenshotToClipBoardMenuItem.html#aa9768034e77b25ffed92bf08fbe11321":[6,0,1,0,1,101,1],
 "classMR_1_1CaptureScreenshotToClipBoardMenuItem.html#aa9768034e77b25ffed92bf08fbe11321":[6,0,2,0,2,83,1],
 "classMR_1_1CaptureScreenshotToClipBoardMenuItem.html#ab5b55d341a1d4daeb4b334eff9b98614":[6,0,1,0,1,101,2],
-"classMR_1_1CaptureScreenshotToClipBoardMenuItem.html#ab5b55d341a1d4daeb4b334eff9b98614":[6,0,2,0,2,83,2],
-"classMR_1_1CaptureUIScreenshotMenuItem.html":[6,0,1,0,1,102]
+"classMR_1_1CaptureScreenshotToClipBoardMenuItem.html#ab5b55d341a1d4daeb4b334eff9b98614":[6,0,2,0,2,83,2]
 };

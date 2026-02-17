@@ -1,5 +1,6 @@
 var NAVTREEINDEX34 =
 {
+"classMR_1_1ParallelProgressReporter.html":[6,0,2,0,2,497],
 "classMR_1_1ParallelProgressReporter.html#a14f01226cb9a140ad5be9540453a8eed":[6,0,1,0,1,515,4],
 "classMR_1_1ParallelProgressReporter.html#a14f01226cb9a140ad5be9540453a8eed":[6,0,2,0,2,497,4],
 "classMR_1_1ParallelProgressReporter.html#a2c6d0ee3e32d318d2f21e81a65c786fb":[6,0,1,0,1,515,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX34 =
 "classMR_1_1PluginCloseOnChangePointCloud.html#ad910ff2766e17a565cfa33cb6eefc831":[6,0,2,0,2,511,3],
 "classMR_1_1PluginCloseOnChangePointCloud.html#ae215a7b0b1f5259e0bc87855f0b2e740":[6,0,1,0,1,529,0],
 "classMR_1_1PluginCloseOnChangePointCloud.html#ae215a7b0b1f5259e0bc87855f0b2e740":[6,0,2,0,2,511,0],
-"classMR_1_1PluginCloseOnEscPressed.html":[6,0,1,0,1,530],
-"classMR_1_1PluginCloseOnEscPressed.html":[6,0,2,0,2,512]
+"classMR_1_1PluginCloseOnEscPressed.html":[6,0,1,0,1,530]
 };

@@ -42,6 +42,7 @@ var group__IOGroup =
     [ "MR::VoxelsSave::gridToVdb", "group__IOGroup.html#ga8e29fc2e07717e64d35c1baafabcb446", null ],
     [ "MR::VoxelsSave::saveAllSlicesToImage", "group__IOGroup.html#ga369d03f6b945767a7f3fff153969a695", null ],
     [ "MR::VoxelsSave::saveSliceToImage", "group__IOGroup.html#ga71f97bec2215ef7c561b5de6d82dfe53", null ],
+    [ "MR::PointsLoad::telemetryLogSize", "group__IOGroup.html#ga7f50d8551f5f8f8aaa9a7175d5f639cc", null ],
     [ "MR::VoxelsSave::toAnySupportedFormat", "group__IOGroup.html#ga479f7166483b9a6ae878a9eaaaf3b2c2", null ],
     [ "MR::VoxelsSave::toGav", "group__IOGroup.html#gad119eb5a04825967c784f81d0add0afe", null ],
     [ "MR::VoxelsSave::toGav", "group__IOGroup.html#ga3fc609b9748c17d4d66dba1569809141", null ],

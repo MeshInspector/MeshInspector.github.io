@@ -1,5 +1,7 @@
 var NAVTREEINDEX38 =
 {
+"classMR_1_1MeshEqualizeTriAreasParams.html#a0d7884a31c110e494ce2b39bb1adcfdc":[6,3,0,0,0,498,5],
+"classMR_1_1MeshEqualizeTriAreasParams.html#a4fb112503135759cf22128f08bb4d23e":[6,3,0,0,0,498,2],
 "classMR_1_1MeshEqualizeTriAreasParams.html#a5c0ecfb59473911cc9c1063d29626651":[6,3,0,0,0,498,9],
 "classMR_1_1MeshEqualizeTriAreasParams.html#a6f1292ae2f55809386e260ad626cb1f5":[6,3,0,0,0,498,13],
 "classMR_1_1MeshEqualizeTriAreasParams.html#a81f3754b3040a5da12e8e02b5a7081c5":[6,3,0,0,0,498,12],
@@ -247,7 +249,5 @@ var NAVTREEINDEX38 =
 "classMR_1_1MeshProjectionTransforms.html#a3c9a86fd036f439ff8f39543d517dc0f":[6,3,0,0,0,520,1],
 "classMR_1_1MeshProjectionTransforms.html#a64aa7f05b3996015abedc6dca49c2b2e":[6,3,0,0,0,520,4],
 "classMR_1_1MeshProjectionTransforms.html#a8a8866c79ad2da34fc9e2ea41a57f855":[6,3,0,0,0,520,5],
-"classMR_1_1MeshProjectionTransforms.html#af0268f5a9d643447694303101feb8bb8":[6,3,0,0,0,520,3],
-"classMR_1_1MeshRelaxParams.html":[6,3,0,0,0,521],
-"classMR_1_1MeshRelaxParams.html#a28439f2daaf3650ca84dd0f33d0515bd":[6,3,0,0,0,521,6]
+"classMR_1_1MeshProjectionTransforms.html#af0268f5a9d643447694303101feb8bb8":[6,3,0,0,0,520,3]
 };

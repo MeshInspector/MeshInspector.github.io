@@ -1,5 +1,8 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1ConstantCuspParams.html":[6,0,1,0,1,169],
+"structMR_1_1ConstantCuspParams.html":[6,0,2,0,2,151],
+"structMR_1_1ConstantCuspParams.html#ae516e612489724b0fd33771eac4c5843":[6,0,1,0,1,169,0],
 "structMR_1_1ConstantCuspParams.html#ae516e612489724b0fd33771eac4c5843":[6,0,2,0,2,151,0],
 "structMR_1_1ContourToDistanceMapParams.html":[6,0,0,5,4],
 "structMR_1_1ContourToDistanceMapParams.html#a2259024cb221dfbdaa806a2a0a213bbc":[6,0,0,5,4,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1Dipole.html#ae70faa532d5372a7fa0e32336cc6df35":[6,0,2,0,2,183,3],
 "structMR_1_1DirectionWidget_1_1Arrow.html":[6,0,1,0,1,202,0],
 "structMR_1_1DirectionWidget_1_1Arrow.html":[6,0,2,0,2,184,0],
-"structMR_1_1DirectionWidget_1_1Arrow.html#a0ecb81851105a8eb427a1f270b7659a2":[6,0,1,0,1,202,0,1],
-"structMR_1_1DirectionWidget_1_1Arrow.html#a0ecb81851105a8eb427a1f270b7659a2":[6,0,2,0,2,184,0,1],
-"structMR_1_1DirectionWidget_1_1Arrow.html#a2f55bff335dea2ab2a6b581fe070bef4":[6,0,1,0,1,202,0,0],
-"structMR_1_1DirectionWidget_1_1Arrow.html#a2f55bff335dea2ab2a6b581fe070bef4":[6,0,2,0,2,184,0,0]
+"structMR_1_1DirectionWidget_1_1Arrow.html#a0ecb81851105a8eb427a1f270b7659a2":[6,0,1,0,1,202,0,1]
 };

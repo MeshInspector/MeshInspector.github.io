@@ -1,5 +1,8 @@
 var NAVTREEINDEX86 =
 {
+"structMR_1_1RibbonMenuUIConfig.html#ae6822db982eca1e5929cebbf20f784a9":[6,0,1,0,1,640,4],
+"structMR_1_1RibbonMenuUIConfig.html#ae6822db982eca1e5929cebbf20f784a9":[6,0,2,0,2,622,4],
+"structMR_1_1RibbonMenu_1_1DialogItemPtr.html":[6,0,1,0,1,634,0],
 "structMR_1_1RibbonMenu_1_1DialogItemPtr.html":[6,0,2,0,2,616,0],
 "structMR_1_1RibbonMenu_1_1DialogItemPtr.html#a81cacb5c7aa2d35d0b873c9a48145777":[6,0,1,0,1,634,0,0],
 "structMR_1_1RibbonMenu_1_1DialogItemPtr.html#a81cacb5c7aa2d35d0b873c9a48145777":[6,0,2,0,2,616,0,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX86 =
 "structMR_1_1SegmPoint.html#a852616535cc51c188a52c77b3f324a6e":[6,0,0,0,22,1],
 "structMR_1_1SegmPoint.html#a87266fccf15374e6dc7587544c028d63":[6,0,0,0,22,4],
 "structMR_1_1SegmPoint.html#aa8dd11ef62ac9009f3b27a0dc5371bcc":[6,0,0,0,22,8],
-"structMR_1_1SegmPoint.html#aa9b427c351c923636029040aa207f718":[6,0,0,0,22,0],
-"structMR_1_1SegmPoint.html#ad9eb72a4d4775622305ebd86274183c9":[6,0,0,0,22,5],
-"structMR_1_1SegmentSegmentIntersectResult.html":[6,0,1,0,1,689],
-"structMR_1_1SegmentSegmentIntersectResult.html":[6,0,2,0,2,671]
+"structMR_1_1SegmPoint.html#aa9b427c351c923636029040aa207f718":[6,0,0,0,22,0]
 };

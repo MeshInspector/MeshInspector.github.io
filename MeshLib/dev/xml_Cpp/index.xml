@@ -15527,6 +15527,7 @@
     <member refid="namespaceMR_1a69dd7a0499b29eb5608d05713b8feb72" kind="function"><name>getCurrentStacktrace</name></member>
     <member refid="namespaceMR_1a3ba2aca05f28a3dd3c05cb49fbf09b66" kind="function"><name>getSystemMemory</name></member>
     <member refid="namespaceMR_1a1e251c5988273136d8a8cf12655f3f0d" kind="function"><name>setupLoggerByDefault</name></member>
+    <member refid="namespaceMR_1a097e1d5f272059dda5a7aa233cf20a58" kind="function"><name>intLog2</name></member>
     <member refid="namespaceMR_1abebe86de5d47fc21de1ad73e06bdbc3d" kind="function"><name>terrainTriangulation</name></member>
     <member refid="namespaceMR_1a228fd3f15dfd62cae2cd96578e019c9d" kind="function"><name>findVertexUV</name></member>
     <member refid="namespaceMR_1a66d4d2959eb1a39fea41beb266bc070f" kind="function"><name>findVertexUVs</name></member>
@@ -16386,6 +16387,7 @@
     <member refid="group__IOGroup_1ga750d0574c9ee2875720273d1f4c73e62" kind="function"><name>fromDxf</name></member>
     <member refid="group__IOGroup_1gab0f629849bb97f655fcf29a1b3afd9fa" kind="function"><name>fromAnySupportedFormat</name></member>
     <member refid="group__IOGroup_1ga9a63511b8cba2da2a8c8373fefc0a384" kind="function"><name>fromAnySupportedFormat</name></member>
+    <member refid="group__IOGroup_1ga7f50d8551f5f8f8aaa9a7175d5f639cc" kind="function"><name>telemetryLogSize</name></member>
   </compound>
   <compound refid="namespaceMR_1_1PointsSave" kind="namespace"><name>MR::PointsSave</name>
     <member refid="namespaceMR_1_1PointsSave_1a356417aed0685b9e9741744f7b357eba" kind="typedef"><name>PointsFileSaver</name></member>
@@ -18497,6 +18499,7 @@
     <member refid="group__IOGroup_1ga750d0574c9ee2875720273d1f4c73e62" kind="function"><name>fromDxf</name></member>
     <member refid="group__IOGroup_1gab0f629849bb97f655fcf29a1b3afd9fa" kind="function"><name>fromAnySupportedFormat</name></member>
     <member refid="group__IOGroup_1ga9a63511b8cba2da2a8c8373fefc0a384" kind="function"><name>fromAnySupportedFormat</name></member>
+    <member refid="group__IOGroup_1ga7f50d8551f5f8f8aaa9a7175d5f639cc" kind="function"><name>telemetryLogSize</name></member>
     <member refid="group__IOGroup_1gaba5fa9d2b1947f916a3629cde580c30f" kind="function"><name>toRawAutoname</name></member>
     <member refid="group__IOGroup_1gae7faa074ac0a027170b7339a76da566a" kind="function"><name>toRawAutoname</name></member>
     <member refid="group__IOGroup_1gaf3e337da226cefb117434f836e5305cc" kind="function"><name>gridToRawAutoname</name></member>

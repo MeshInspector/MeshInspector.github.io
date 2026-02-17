@@ -2186,6 +2186,7 @@ var classMR =
     [ "interpolateArcs", "classMR.html#a34a6ea2c67931d38bb4b06bd5186954c", null ],
     [ "interpolateLines", "classMR.html#a9dec6805b39c94e9e51511945b4d2671", null ],
     [ "intersection", "classMR.html#a15226665c3c4f5712216c9efbbd54c53", null ],
+    [ "intLog2", "classMR.html#ac2091012d96811141303e82411e06b9e", null ],
     [ "isClosed", "classMR.html#a18cc976ad51cc9f637b0dbeacaebd246", null ],
     [ "isClosed", "classMR.html#a652296f3d4742fa5373b47f6e53f140c", null ],
     [ "isConsistentlyOriented", "classMR.html#a8412b7d585ad2ee514e3fa15f5202597", null ],

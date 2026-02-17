@@ -308,6 +308,25 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsLoad.h" line="39" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsLoad.h" declline="39" declcolumn="21"/>
       </memberdef>
+      <memberdef kind="function" id="group__IOGroup_1ga7f50d8551f5f8f8aaa9a7175d5f639cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MR_BIND_IGNORE <ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref> void</type>
+        <definition>MR_BIND_IGNORE MRMESH_API void MR::PointsLoad::telemetryLogSize</definition>
+        <argsstring>(const PointCloud &amp;cloud)</argsstring>
+        <name>telemetryLogSize</name>
+        <qualifiedname>MR::PointsLoad::telemetryLogSize</qualifiedname>
+        <param>
+          <type>const PointCloud &amp;</type>
+          <declname>cloud</declname>
+        </param>
+        <briefdescription>
+<para>emits telemetry signal with the integer logarithm of the number of points </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsLoad.h" line="42" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsLoad.h" declline="42" declcolumn="32"/>
+      </memberdef>
       <memberdef kind="function" id="group__IOGroup_1gaba5fa9d2b1947f916a3629cde580c30f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref> Expected&lt; void &gt;</type>
         <definition>MRVOXELS_API Expected&lt; void &gt; MR::VoxelsSave::toRawAutoname</definition>

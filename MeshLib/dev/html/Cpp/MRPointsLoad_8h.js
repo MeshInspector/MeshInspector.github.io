@@ -11,5 +11,6 @@ var MRPointsLoad_8h =
     [ "fromPts", "MRPointsLoad_8h.html#ga365add9d0f24601d5f6b167a7401409c", null ],
     [ "fromPts", "MRPointsLoad_8h.html#ga76499883ce907d382fed5d9522aadaa8", null ],
     [ "fromText", "MRPointsLoad_8h.html#gaff1fcad8c4a57da6a7dc90d9fb1f2a56", null ],
-    [ "fromText", "MRPointsLoad_8h.html#gab1a6e8a21cedba988c7ecaea8eda8d2c", null ]
+    [ "fromText", "MRPointsLoad_8h.html#gab1a6e8a21cedba988c7ecaea8eda8d2c", null ],
+    [ "telemetryLogSize", "MRPointsLoad_8h.html#ga7f50d8551f5f8f8aaa9a7175d5f639cc", null ]
 ];

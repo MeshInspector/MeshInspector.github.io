@@ -1,5 +1,8 @@
 var NAVTREEINDEX64 =
 {
+"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a4d9c5d17e18eddc0250a2891edbaaa95":[6,0,1,0,1,41,9,24],
+"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a50faca3ede80078a742d8d38dc4aecab":[6,0,1,0,1,41,9,14],
+"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a51051623b92f12d20be6b1cb0b6415b7":[6,0,1,0,1,41,9,17],
 "namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a5193f3c136e1dd90d3667140abe07142":[6,0,1,0,1,41,9,16],
 "namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a62b6b78ca42168fc955fdefacf122dbc":[6,0,1,0,1,41,9,21],
 "namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a67fe3715dd2312900f17fdaef28f483d":[6,0,1,0,1,41,9,28],
@@ -246,8 +249,5 @@ var NAVTREEINDEX64 =
 "namespacemembers_func_e.html":[6,0,1,1,1,4],
 "namespacemembers_func_f.html":[6,0,1,1,1,5],
 "namespacemembers_func_g.html":[6,0,1,1,1,6],
-"namespacemembers_func_h.html":[6,0,1,1,1,7],
-"namespacemembers_func_i.html":[6,0,1,1,1,8],
-"namespacemembers_func_l.html":[6,0,1,1,1,9],
-"namespacemembers_func_m.html":[6,0,1,1,1,10]
+"namespacemembers_func_h.html":[6,0,1,1,1,7]
 };

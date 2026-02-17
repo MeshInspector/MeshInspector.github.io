@@ -34393,6 +34393,25 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystem.cs" line="383" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystem.cs" bodystart="383" bodyend="388"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1ac2091012d96811141303e82411e06b9e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int MR.intLog2</definition>
+        <argsstring>(ulong n)</argsstring>
+        <name>intLog2</name>
+        <qualifiedname>MR.intLog2</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>integer binary logarithm: 0 -&gt; 0 1 -&gt; 1 [2,4) -&gt; 2 [4,8) -&gt; 3 ... Generated from function <computeroutput><ref refid="classMR_1ac2091012d96811141303e82411e06b9e" kindref="member">MR.intLog2</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTelemetry.cs" line="12" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTelemetry.cs" bodystart="12" bodyend="17"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1a2cd1cb06095f4b41afe2fa7b597f0c9b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
         <definition>static unsafe MR.Mesh MR.terrainTriangulation</definition>
@@ -41753,6 +41772,7 @@ If the triangles are disjoint, p and q give the closest points of s and t respec
       <member refid="classMR_1a34a6ea2c67931d38bb4b06bd5186954c" prot="public" virt="non-virtual"><scope>MR</scope><name>interpolateArcs</name></member>
       <member refid="classMR_1a9dec6805b39c94e9e51511945b4d2671" prot="public" virt="non-virtual"><scope>MR</scope><name>interpolateLines</name></member>
       <member refid="classMR_1a15226665c3c4f5712216c9efbbd54c53" prot="public" virt="non-virtual"><scope>MR</scope><name>intersection</name></member>
+      <member refid="classMR_1ac2091012d96811141303e82411e06b9e" prot="public" virt="non-virtual"><scope>MR</scope><name>intLog2</name></member>
       <member refid="classMR_1aa6e3da0dca345c474015ada44a130757" prot="public" virt="non-virtual"><scope>MR</scope><name>InvLengthUnit</name></member>
       <member refid="classMR_1a18cc976ad51cc9f637b0dbeacaebd246" prot="public" virt="non-virtual"><scope>MR</scope><name>isClosed</name></member>
       <member refid="classMR_1a652296f3d4742fa5373b47f6e53f140c" prot="public" virt="non-virtual"><scope>MR</scope><name>isClosed</name></member>

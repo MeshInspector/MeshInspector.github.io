@@ -11917,6 +11917,7 @@
     <member refid="classMR_1adb68534e2128242ce5c257b66b5bdb05" kind="function"><name>getCurrentStacktrace</name></member>
     <member refid="classMR_1a34d0923d10cae0f85d0f3dbf27b15198" kind="function"><name>getSystemMemory</name></member>
     <member refid="classMR_1af9254dfa389ff98b68a1b7cce3af476b" kind="function"><name>setupLoggerByDefault</name></member>
+    <member refid="classMR_1ac2091012d96811141303e82411e06b9e" kind="function"><name>intLog2</name></member>
     <member refid="classMR_1a2cd1cb06095f4b41afe2fa7b597f0c9b" kind="function"><name>terrainTriangulation</name></member>
     <member refid="classMR_1a7cd260780645bc9fb94b14b47ca7ca10" kind="function"><name>findVertexUV</name></member>
     <member refid="classMR_1aa7880a792cc8204ab77e68904f70fb26" kind="function"><name>findVertexUVs</name></member>
@@ -21340,6 +21341,8 @@
   <compound refid="MRSystem_8cs" kind="file"><name>MRSystem.cs</name>
   </compound>
   <compound refid="MRSystemPath_8cs" kind="file"><name>MRSystemPath.cs</name>
+  </compound>
+  <compound refid="MRTelemetry_8cs" kind="file"><name>MRTelemetry.cs</name>
   </compound>
   <compound refid="MRTerrainTriangulation_8cs" kind="file"><name>MRTerrainTriangulation.cs</name>
   </compound>

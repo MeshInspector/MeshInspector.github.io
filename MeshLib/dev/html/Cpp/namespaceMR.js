@@ -2558,6 +2558,7 @@ var namespaceMR =
     [ "intersection", "group__IntersectionGroup.html#ga09243a2c7d047fea71d5b6ee805bb486", null ],
     [ "intersection", "group__IntersectionGroup.html#ga5aa33ccde105060c1f523292e81dfcbf", null ],
     [ "intersection", "group__IntersectionGroup.html#ga0de20b6f8f6b0d5d0ac0b878f9a3d8f3", null ],
+    [ "intLog2", "namespaceMR.html#a097e1d5f272059dda5a7aa233cf20a58", null ],
     [ "isClosed", "namespaceMR.html#a250501cf8de3c016cf374b34455c335f", null ],
     [ "isClosed", "namespaceMR.html#acd259cc34db34b6aee3060c1baf8822d", null ],
     [ "isConsistentlyOriented", "namespaceMR.html#aef90160b1b7fa1c26c631887ca58c13f", null ],

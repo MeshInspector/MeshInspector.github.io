@@ -1,5 +1,8 @@
 var NAVTREEINDEX87 =
 {
+"structMR_1_1SegmPoint.html#ad9eb72a4d4775622305ebd86274183c9":[6,0,0,0,22,5],
+"structMR_1_1SegmentSegmentIntersectResult.html":[6,0,1,0,1,689],
+"structMR_1_1SegmentSegmentIntersectResult.html":[6,0,2,0,2,671],
 "structMR_1_1SegmentSegmentIntersectResult.html#a80259f73338ce5812b3cd0466379f9b6":[6,0,1,0,1,689,0],
 "structMR_1_1SegmentSegmentIntersectResult.html#a80259f73338ce5812b3cd0466379f9b6":[6,0,2,0,2,671,0],
 "structMR_1_1SegmentSegmentIntersectResult.html#ad55a194e9fc76257f3bb95f35d4495c5":[6,0,1,0,1,689,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX87 =
 "structMR_1_1Sphere.html#add65b61b54645bbb73e26a98f44d9c12":[6,0,0,0,23,2],
 "structMR_1_1SphereParams.html":[6,0,1,0,1,722],
 "structMR_1_1SphereParams.html":[6,0,2,0,2,704],
-"structMR_1_1SphereParams.html#a6e99b625718037bc438cd04e6865ac95":[6,0,1,0,1,722,0],
-"structMR_1_1SphereParams.html#a6e99b625718037bc438cd04e6865ac95":[6,0,2,0,2,704,0],
-"structMR_1_1SphereParams.html#aa39f9a9bdcc770f1cd4abffcf9594f51":[6,0,1,0,1,722,1],
-"structMR_1_1SphereParams.html#aa39f9a9bdcc770f1cd4abffcf9594f51":[6,0,2,0,2,704,1]
+"structMR_1_1SphereParams.html#a6e99b625718037bc438cd04e6865ac95":[6,0,1,0,1,722,0]
 };

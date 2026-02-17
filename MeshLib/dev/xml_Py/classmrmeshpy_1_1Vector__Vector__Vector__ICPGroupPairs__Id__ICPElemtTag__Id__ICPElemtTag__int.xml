@@ -959,7 +959,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
     </briefdescription>
     <detaileddescription>
 <para><verbatim>Generated from:  MR::Vector&lt;MR::Vector&lt;MR::Vector&lt;MR::ICPGroupPairs, MR::Id&lt;MR::ICPElemtTag&gt;&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;, int&gt;
-Aliases:  MultiwayICP.PairsPerLayer, Vector_ICPPairsGrid_ICPLayer, MultiwayICP.PairsPerLayer
+Aliases:  Vector_ICPPairsGrid_ICPLayer, MultiwayICP.PairsPerLayer, MultiwayICP.PairsPerLayer
 
 
  \\brief std::vector&lt;T&gt;-like container that requires specific indexing type,

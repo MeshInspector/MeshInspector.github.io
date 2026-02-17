@@ -1,5 +1,6 @@
 var NAVTREEINDEX36 =
 {
+"classMR_1_1PrecipitationSimulator.html#a868e5e5616edae5787beab77d64681a4":[6,0,2,0,2,560,2],
 "classMR_1_1PriorityQueue.html":[6,0,1,0,1,584],
 "classMR_1_1PriorityQueue.html":[6,0,2,0,2,566],
 "classMR_1_1PriorityQueue.html#a0a3fa89180c853554002ef654d27fa4b":[6,0,1,0,1,584,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX36 =
 "classMR_1_1RecentFilesStore.html":[6,0,2,0,2,585],
 "classMR_1_1RecentFilesStore.html#a1875cd68c58a0a3c20766750d0768342":[6,0,1,0,1,603,4],
 "classMR_1_1RecentFilesStore.html#a1875cd68c58a0a3c20766750d0768342":[6,0,2,0,2,585,4],
-"classMR_1_1RecentFilesStore.html#a1f48973b157bca4ee2c0e34407310654":[6,0,1,0,1,603,2],
-"classMR_1_1RecentFilesStore.html#a1f48973b157bca4ee2c0e34407310654":[6,0,2,0,2,585,2]
+"classMR_1_1RecentFilesStore.html#a1f48973b157bca4ee2c0e34407310654":[6,0,1,0,1,603,2]
 };
