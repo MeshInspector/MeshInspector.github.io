@@ -1,6 +1,5 @@
 var NAVTREEINDEX70 =
 {
-"structMR_1_1EdgeLengthMesh.html":[6,0,0,7,0],
 "structMR_1_1EdgeLengthMesh.html#a167ce08d19e1c861f1c9a08360456195":[6,0,0,7,0,1],
 "structMR_1_1EdgeLengthMesh.html#a1b96a29808fed26956890232f3996c95":[6,0,0,7,0,2],
 "structMR_1_1EdgeLengthMesh.html#a3b8d293f6ee11394128c078fc11bead8":[6,0,0,7,0,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX70 =
 "structMR_1_1Features_1_1MeasureResult.html#ab9a02bda2fc92c73a0d7d637ba562a7eafd6f633ddb4b5a2220cba15cebe96b8c":[6,0,2,0,2,2,2,3,4],
 "structMR_1_1Features_1_1MeasureResult.html#ae91b71d479c6bb30a6e9b3068dd1d0c2":[6,0,1,0,1,6,2,8],
 "structMR_1_1Features_1_1MeasureResult.html#ae91b71d479c6bb30a6e9b3068dd1d0c2":[6,0,2,0,2,2,2,8],
-"structMR_1_1Features_1_1MeasureResult_1_1Angle.html":[6,0,1,0,1,6,2,0]
+"structMR_1_1Features_1_1MeasureResult_1_1Angle.html":[6,0,1,0,1,6,2,0],
+"structMR_1_1Features_1_1MeasureResult_1_1Angle.html":[6,0,2,0,2,2,2,0]
 };

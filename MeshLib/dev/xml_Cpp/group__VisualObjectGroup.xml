@@ -55,18 +55,9 @@
 <para>gl normals </para>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="group__VisualObjectGroup_1gga03255e831f4895337e7cf27d64e51269ad29e189e07ab368b8c42c681ca3cf611" prot="public">
-          <name>DIRTY_CORNERS_RENDER_NORMAL</name>
-          <initializer>= 0x0010</initializer>
-          <briefdescription>
-<para>gl normals </para>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
         <enumvalue id="group__VisualObjectGroup_1gga03255e831f4895337e7cf27d64e51269a48d2a0f89c21288fc6f9acde5fb8338d" prot="public">
           <name>DIRTY_RENDER_NORMALS</name>
-          <initializer>= DIRTY_VERTS_RENDER_NORMAL | DIRTY_FACES_RENDER_NORMAL | DIRTY_CORNERS_RENDER_NORMAL</initializer>
+          <initializer>= DIRTY_VERTS_RENDER_NORMAL | DIRTY_FACES_RENDER_NORMAL</initializer>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
@@ -182,7 +173,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="74" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" bodystart="75" bodyend="96"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="74" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" bodystart="75" bodyend="95"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="typedef">

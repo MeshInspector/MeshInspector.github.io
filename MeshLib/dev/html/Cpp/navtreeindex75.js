@@ -1,6 +1,5 @@
 var NAVTREEINDEX75 =
 {
-"structMR_1_1ImGuiMenu_1_1TagEditorState.html#abaec0c0a0a46426ec7ec96e959e4f421":[6,0,1,0,1,325,2,2],
 "structMR_1_1ImGuiMenu_1_1TagEditorState.html#abaec0c0a0a46426ec7ec96e959e4f421":[6,0,2,0,2,307,2,2],
 "structMR_1_1ImGuiMenu_1_1TagEditorState.html#ac6de01ecc7438107c57d834ed8291c86":[6,0,1,0,1,325,2,3],
 "structMR_1_1ImGuiMenu_1_1TagEditorState.html#ac6de01ecc7438107c57d834ed8291c86":[6,0,2,0,2,307,2,3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX75 =
 "structMR_1_1LineSegm.html#ac7639a48742e5c77367777128549d36e":[6,0,1,0,1,367,4],
 "structMR_1_1LineSegm.html#ac7639a48742e5c77367777128549d36e":[6,0,2,0,2,349,4],
 "structMR_1_1LineSegm.html#af25a41f042c3bade3e1bd129c6c69702":[6,0,1,0,1,367,2],
-"structMR_1_1LineSegm.html#af25a41f042c3bade3e1bd129c6c69702":[6,0,2,0,2,349,2]
+"structMR_1_1LineSegm.html#af25a41f042c3bade3e1bd129c6c69702":[6,0,2,0,2,349,2],
+"structMR_1_1LineSegm.html#afcb4423f5becc13fff968c531455f4e8":[6,0,1,0,1,367,9]
 };

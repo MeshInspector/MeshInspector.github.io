@@ -1,6 +1,5 @@
 var NAVTREEINDEX132 =
 {
-"MRWatershedGraph_8h.html#a0735f2f86ea9bea1ae3ebfaf895fa412":[6,2,1,0,0,0,1,355,106],
 "MRWatershedGraph_8h.html#a079ab5e20553b533e3557e267f8f2b1c":[6,2,1,0,0,0,1,355,95],
 "MRWatershedGraph_8h.html#a0a8fce915e977690a3d42099ec9e10bc":[6,2,1,0,0,0,1,355,85],
 "MRWatershedGraph_8h.html#a0d5f2960328f8b3453b7fbe94660974a":[6,2,1,0,0,0,1,355,48],
@@ -249,5 +248,6 @@ var NAVTREEINDEX132 =
 "MRWeightedPointsShell_8h.html#afeabc302754f176c03033e1bb97f7701":[6,2,1,0,0,0,3,39,50],
 "MRWeightedPointsShell_8h_source.html":[6,2,1,0,0,0,3,39],
 "MRXfBasedCache_8h.html":[6,2,1,0,0,0,1,356],
-"MRXfBasedCache_8h.html#a0ea0d138657614378b336bb7cf3258b1":[6,2,1,0,0,0,1,356,12]
+"MRXfBasedCache_8h.html#a0ea0d138657614378b336bb7cf3258b1":[6,2,1,0,0,0,1,356,12],
+"MRXfBasedCache_8h.html#a196a12babd38147090d98cd03d908923":[6,2,1,0,0,0,1,356,11]
 };

@@ -1,6 +1,5 @@
 var NAVTREEINDEX83 =
 {
-"structMR_1_1PointCloudPart.html#ac812c96a021ba648662385f7f041a995":[6,0,2,0,2,521,0],
 "structMR_1_1PointCloudPart.html#adb49365fb60e376e6302ffa62d2b534a":[6,0,1,0,1,539,4],
 "structMR_1_1PointCloudPart.html#adb49365fb60e376e6302ffa62d2b534a":[6,0,2,0,2,521,4],
 "structMR_1_1PointCloudRelaxParams.html":[6,0,0,12,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX83 =
 "structMR_1_1PolylineSubdivideSettings.html#a41c3020ba21d66919d363b5e261b2666":[6,0,0,15,0,2],
 "structMR_1_1PolylineSubdivideSettings.html#a508f0caa9ead99ba37cd6a62babca39f":[6,0,0,15,0,0],
 "structMR_1_1PolylineSubdivideSettings.html#a6fb7e5a3cc422db6b191956e2e931bff":[6,0,0,15,0,3],
-"structMR_1_1PolylineSubdivideSettings.html#a90d24e3763062fee365e69daf9f74b23":[6,0,0,15,0,6]
+"structMR_1_1PolylineSubdivideSettings.html#a90d24e3763062fee365e69daf9f74b23":[6,0,0,15,0,6],
+"structMR_1_1PolylineSubdivideSettings.html#a99ce30c33108d826ab31a84dcfb796e9":[6,0,0,15,0,4]
 };

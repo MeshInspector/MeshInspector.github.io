@@ -117,7 +117,6 @@ var group__VisualObjectGroup =
       [ "MR::DIRTY_UV", "group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a877972448d284e00b0ce05682f39dbb6", null ],
       [ "MR::DIRTY_VERTS_RENDER_NORMAL", "group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a7901e85f6ada294be0794acc817a1914", null ],
       [ "MR::DIRTY_FACES_RENDER_NORMAL", "group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a23f7dbe9a82e38743db156f56a7b30d3", null ],
-      [ "MR::DIRTY_CORNERS_RENDER_NORMAL", "group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269ad29e189e07ab368b8c42c681ca3cf611", null ],
       [ "MR::DIRTY_RENDER_NORMALS", "group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a48d2a0f89c21288fc6f9acde5fb8338d", null ],
       [ "MR::DIRTY_SELECTION", "group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a1f9525826d3c360ff36177637df2a4d2", null ],
       [ "MR::DIRTY_TEXTURE", "group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a16187984f5e9329e2eefbdce7ce0585d", null ],
