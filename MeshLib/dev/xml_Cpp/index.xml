@@ -10629,6 +10629,12 @@
   <compound refid="classMR_1_1SharedThreadSafeOwner" kind="class"><name>MR::SharedThreadSafeOwner</name>
     <member refid="classMR_1_1SharedThreadSafeOwner_1ae8d2334dd2da39e55eef03a5ae803b26" kind="variable"><name>obj_</name></member>
     <member refid="classMR_1_1SharedThreadSafeOwner_1a2106f9fe07900596de16656227038ef8" kind="variable"><name>construction_</name></member>
+    <member refid="classMR_1_1SharedThreadSafeOwner_1a8995944307cf671d99c829868deb25e6" kind="function"><name>SharedThreadSafeOwner</name></member>
+    <member refid="classMR_1_1SharedThreadSafeOwner_1afa5ec1ced35153097d3d49fe215f738f" kind="function"><name>SharedThreadSafeOwner</name></member>
+    <member refid="classMR_1_1SharedThreadSafeOwner_1a8b0d2894eb94fc40e39205782e2ff6c7" kind="function"><name>operator=</name></member>
+    <member refid="classMR_1_1SharedThreadSafeOwner_1afed1ab2b9ace0edf703e8f601f0a9fb8" kind="function"><name>SharedThreadSafeOwner</name></member>
+    <member refid="classMR_1_1SharedThreadSafeOwner_1a88840a789e5d3fdf6d9e530e4d4b6784" kind="function"><name>operator=</name></member>
+    <member refid="classMR_1_1SharedThreadSafeOwner_1a18d730bee7fb09eda8b715038f96714a" kind="function"><name>~SharedThreadSafeOwner</name></member>
     <member refid="classMR_1_1SharedThreadSafeOwner_1a0e3ad4008e5871020312edfeef6a8ddf" kind="function"><name>reset</name></member>
     <member refid="classMR_1_1SharedThreadSafeOwner_1a0967bda588492731c2eee9efd06f85c4" kind="function"><name>get</name></member>
     <member refid="classMR_1_1SharedThreadSafeOwner_1a5e3f86e91882b6b1f32c3bff31d263a6" kind="function"><name>getPtr</name></member>

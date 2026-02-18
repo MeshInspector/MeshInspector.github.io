@@ -1,5 +1,11 @@
 var NAVTREEINDEX47 =
 {
+"classMR_1_1Viewer.html#a79903d8243abfd135d4c770623022ef3":[6,0,2,0,2,796,150],
+"classMR_1_1Viewer.html#a7a5a19ca84a8ba99f086c440d5e6403b":[6,0,1,0,1,814,161],
+"classMR_1_1Viewer.html#a7a5a19ca84a8ba99f086c440d5e6403b":[6,0,2,0,2,796,161],
+"classMR_1_1Viewer.html#a7cb04be7931c10a1a93bb386ba1f7bb6":[6,0,1,0,1,814,156],
+"classMR_1_1Viewer.html#a7cb04be7931c10a1a93bb386ba1f7bb6":[6,0,2,0,2,796,156],
+"classMR_1_1Viewer.html#a7ccea0f47c749b27fc3a4ab8dc91026c":[6,0,1,0,1,814,155],
 "classMR_1_1Viewer.html#a7ccea0f47c749b27fc3a4ab8dc91026c":[6,0,2,0,2,796,155],
 "classMR_1_1Viewer.html#a7cd2146e20850a36ad9e15bd8f3b2ced":[6,0,1,0,1,814,98],
 "classMR_1_1Viewer.html#a7cd2146e20850a36ad9e15bd8f3b2ced":[6,0,2,0,2,796,98],
@@ -243,11 +249,5 @@ var NAVTREEINDEX47 =
 "classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76a75dd5f1160a3f02b6fae89c54361a1b3":[6,0,2,0,2,799,0,2],
 "classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76aa0b0293a2db49f5f93c15a62e095c819":[6,0,1,0,1,817,0,1],
 "classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76aa0b0293a2db49f5f93c15a62e095c819":[6,0,2,0,2,799,0,1],
-"classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76ae76139f4dbe2f91f14577bcccc1baf77":[6,0,1,0,1,817,0,4],
-"classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76ae76139f4dbe2f91f14577bcccc1baf77":[6,0,2,0,2,799,0,4],
-"classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76ae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,1,0,1,817,0,5],
-"classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76ae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,2,0,2,799,0,5],
-"classMR_1_1ViewerSettingsManager.html#a0dca5c0c64723897642af29dc8fef964":[6,0,1,0,1,817,4],
-"classMR_1_1ViewerSettingsManager.html#a0dca5c0c64723897642af29dc8fef964":[6,0,2,0,2,799,4],
-"classMR_1_1ViewerSettingsManager.html#a29f9662501e741d7d1fc74ed9c625795":[6,0,1,0,1,817,11]
+"classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76ae76139f4dbe2f91f14577bcccc1baf77":[6,0,1,0,1,817,0,4]
 };

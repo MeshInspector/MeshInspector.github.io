@@ -1,5 +1,11 @@
 var NAVTREEINDEX90 =
 {
+"structMR_1_1TransparencyMode.html#aa9bc33f5eeaa24b171e44533af4de142":[6,0,1,0,1,773,7],
+"structMR_1_1TransparencyMode.html#aa9bc33f5eeaa24b171e44533af4de142":[6,0,2,0,2,755,7],
+"structMR_1_1TransparencyMode.html#ace104b53c144673ddef1e4151a3a1cf0":[6,0,1,0,1,773,4],
+"structMR_1_1TransparencyMode.html#ace104b53c144673ddef1e4151a3a1cf0":[6,0,2,0,2,755,4],
+"structMR_1_1TransparencyMode.html#acef2ea274f971cc74df7a2fd99b36015":[6,0,1,0,1,773,1],
+"structMR_1_1TransparencyMode.html#acef2ea274f971cc74df7a2fd99b36015":[6,0,2,0,2,755,1],
 "structMR_1_1TransparencyMode.html#ad5ce7dfebc8414530e9eee5461a1f289":[6,0,1,0,1,773,0],
 "structMR_1_1TransparencyMode.html#ad5ce7dfebc8414530e9eee5461a1f289":[6,0,2,0,2,755,0],
 "structMR_1_1TriIntersectResult.html":[6,0,0,0,10,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX90 =
 "structMR_1_1UI_1_1SaveChangesPopupSettings.html":[6,0,1,0,1,44,15],
 "structMR_1_1UI_1_1SaveChangesPopupSettings.html":[6,0,2,0,2,28,13],
 "structMR_1_1UI_1_1SaveChangesPopupSettings.html#a1ddd1fee272b8d5ab0de85e419cc5c9c":[6,0,1,0,1,44,15,1],
-"structMR_1_1UI_1_1SaveChangesPopupSettings.html#a1ddd1fee272b8d5ab0de85e419cc5c9c":[6,0,2,0,2,28,13,1],
-"structMR_1_1UI_1_1SaveChangesPopupSettings.html#a229fd015ed069a04dae134c45b2ed91d":[6,0,1,0,1,44,15,3],
-"structMR_1_1UI_1_1SaveChangesPopupSettings.html#a229fd015ed069a04dae134c45b2ed91d":[6,0,2,0,2,28,13,3],
-"structMR_1_1UI_1_1SaveChangesPopupSettings.html#a5fb9895320349dc61434ad43c17fd24a":[6,0,1,0,1,44,15,5],
-"structMR_1_1UI_1_1SaveChangesPopupSettings.html#a5fb9895320349dc61434ad43c17fd24a":[6,0,2,0,2,28,13,5],
-"structMR_1_1UI_1_1SaveChangesPopupSettings.html#a6cd2f6a77d991bb28d74320269e1c849":[6,0,1,0,1,44,15,6],
-"structMR_1_1UI_1_1SaveChangesPopupSettings.html#a6cd2f6a77d991bb28d74320269e1c849":[6,0,2,0,2,28,13,6]
+"structMR_1_1UI_1_1SaveChangesPopupSettings.html#a1ddd1fee272b8d5ab0de85e419cc5c9c":[6,0,2,0,2,28,13,1]
 };

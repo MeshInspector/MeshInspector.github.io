@@ -1,5 +1,11 @@
 var NAVTREEINDEX75 =
 {
+"structMR_1_1ImGuiMenu_1_1LabelParams.html#a9b6fa31d0eca45b8885f1594a2bf3f4a":[6,0,2,0,2,307,0,0],
+"structMR_1_1ImGuiMenu_1_1LabelParams.html#adf0278292ff9ea06a7b310f6c39c237b":[6,0,1,0,1,325,0,1],
+"structMR_1_1ImGuiMenu_1_1LabelParams.html#adf0278292ff9ea06a7b310f6c39c237b":[6,0,2,0,2,307,0,1],
+"structMR_1_1ImGuiMenu_1_1SelectionInformationStyle.html":[6,0,1,0,1,325,1],
+"structMR_1_1ImGuiMenu_1_1SelectionInformationStyle.html":[6,0,2,0,2,307,1],
+"structMR_1_1ImGuiMenu_1_1SelectionInformationStyle.html#a0be879df50c239a2a8f15bd641a8a129":[6,0,1,0,1,325,1,3],
 "structMR_1_1ImGuiMenu_1_1SelectionInformationStyle.html#a0be879df50c239a2a8f15bd641a8a129":[6,0,2,0,2,307,1,3],
 "structMR_1_1ImGuiMenu_1_1SelectionInformationStyle.html#a14e060dc9ad54344946cd90b6ff34e8a":[6,0,1,0,1,325,1,5],
 "structMR_1_1ImGuiMenu_1_1SelectionInformationStyle.html#a14e060dc9ad54344946cd90b6ff34e8a":[6,0,2,0,2,307,1,5],
@@ -243,11 +249,5 @@ var NAVTREEINDEX75 =
 "structMR_1_1LineInterpolationParams.html#a00b2d591ecca68af7d6e8cbd8d119b05":[6,0,2,0,2,347,1],
 "structMR_1_1LineInterpolationParams.html#a56f66f6964e1a35b9ad98d4ea792c248":[6,0,1,0,1,365,0],
 "structMR_1_1LineInterpolationParams.html#a56f66f6964e1a35b9ad98d4ea792c248":[6,0,2,0,2,347,0],
-"structMR_1_1LineInterpolationParams.html#a588b14865af06878e86ac78f0f16a5e2":[6,0,1,0,1,365,2],
-"structMR_1_1LineInterpolationParams.html#a588b14865af06878e86ac78f0f16a5e2":[6,0,2,0,2,347,2],
-"structMR_1_1LineSegm.html":[6,0,1,0,1,367],
-"structMR_1_1LineSegm.html":[6,0,2,0,2,349],
-"structMR_1_1LineSegm.html#a012f7dcffa0f21fdd89da4726c09fef7":[6,0,1,0,1,367,1],
-"structMR_1_1LineSegm.html#a012f7dcffa0f21fdd89da4726c09fef7":[6,0,2,0,2,349,1],
-"structMR_1_1LineSegm.html#a086b850940021667f55efa192653d966":[6,0,1,0,1,367,5]
+"structMR_1_1LineInterpolationParams.html#a588b14865af06878e86ac78f0f16a5e2":[6,0,1,0,1,365,2]
 };

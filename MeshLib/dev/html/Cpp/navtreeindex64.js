@@ -1,5 +1,11 @@
 var NAVTREEINDEX64 =
 {
+"namespaceMR_1_1SelfIntersections.html#a31221cba193e98804d912de6685cd94a":[6,0,1,0,1,40,1],
+"namespaceMR_1_1SpaceMouse.html":[6,0,1,0,1,41],
+"namespaceMR_1_1SpaceMouse.html#a0125a493583e2d875e2b9cb7607f9ef0":[6,0,1,0,1,41,7],
+"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191":[6,0,1,0,1,41,9],
+"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a0449de604a44d5f7f5e7807469982f24":[6,0,1,0,1,41,9,22],
+"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a045cc455f7698a9ccdf262bde6183cb1":[6,0,1,0,1,41,9,18],
 "namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a0d2387373cd1f88af245ff8a45265edc":[6,0,1,0,1,41,9,27],
 "namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a176c5b2ad8eb21c6d5933cabdbbd5568":[6,0,1,0,1,41,9,29],
 "namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a28ca45022d33f2817d3af8e5d4768e7e":[6,0,1,0,1,41,9,19],
@@ -243,11 +249,5 @@ var NAVTREEINDEX64 =
 "namespacemembers_b.html":[6,0,1,1,0,1],
 "namespacemembers_c.html":[6,0,1,1,0,2],
 "namespacemembers_d.html":[6,0,1,1,0,3],
-"namespacemembers_e.html":[6,0,1,1,0,4],
-"namespacemembers_enum.html":[6,0,1,1,4],
-"namespacemembers_eval.html":[6,0,1,1,5],
-"namespacemembers_f.html":[6,0,1,1,0,5],
-"namespacemembers_func.html":[6,0,1,1,1],
-"namespacemembers_func.html":[6,0,1,1,1,0],
-"namespacemembers_func_b.html":[6,0,1,1,1,1]
+"namespacemembers_e.html":[6,0,1,1,0,4]
 };

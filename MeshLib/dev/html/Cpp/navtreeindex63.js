@@ -1,5 +1,11 @@
 var NAVTREEINDEX63 =
 {
+"namespaceMR_1_1Features.html#aeeb9d21a824a2dd94d682b54ab1862d2":[6,0,1,0,1,6,17],
+"namespaceMR_1_1Features_1_1Primitives.html":[6,0,1,0,1,6,0],
+"namespaceMR_1_1Features_1_1Primitives.html#a37df2f34cbcd3fec213859b3ca57d3b6":[6,0,1,0,1,6,0,2],
+"namespaceMR_1_1Features_1_1Primitives.html#a955a7f843d9b5df0f393ec7699ada624":[6,0,1,0,1,6,0,3],
+"namespaceMR_1_1Features_1_1Traits.html":[6,0,1,0,1,6,1],
+"namespaceMR_1_1FileDialog.html":[6,0,1,0,1,7],
 "namespaceMR_1_1FileDialog.html#a6236a401964ba52cc8c681800b9016b6":[6,0,1,0,1,7,1],
 "namespaceMR_1_1FileDialog.html#aff1ca147e48327b0475511d0b7b84957":[6,0,1,0,1,7,2],
 "namespaceMR_1_1FillingSurface.html":[6,0,1,0,1,8],
@@ -243,11 +249,5 @@ var NAVTREEINDEX63 =
 "namespaceMR_1_1SceneSave.html":[6,0,1,0,1,39],
 "namespaceMR_1_1SceneSave.html#a608a6e40cd6fd4e4c380794e4f48e3cd":[6,0,1,0,1,39,0],
 "namespaceMR_1_1SelfIntersections.html":[6,0,1,0,1,40],
-"namespaceMR_1_1SelfIntersections.html#a24ad77f8c120ef0bda1b37e38b622319":[6,0,1,0,1,40,2],
-"namespaceMR_1_1SelfIntersections.html#a31221cba193e98804d912de6685cd94a":[6,0,1,0,1,40,1],
-"namespaceMR_1_1SpaceMouse.html":[6,0,1,0,1,41],
-"namespaceMR_1_1SpaceMouse.html#a0125a493583e2d875e2b9cb7607f9ef0":[6,0,1,0,1,41,7],
-"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191":[6,0,1,0,1,41,9],
-"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a0449de604a44d5f7f5e7807469982f24":[6,0,1,0,1,41,9,22],
-"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a045cc455f7698a9ccdf262bde6183cb1":[6,0,1,0,1,41,9,18]
+"namespaceMR_1_1SelfIntersections.html#a24ad77f8c120ef0bda1b37e38b622319":[6,0,1,0,1,40,2]
 };

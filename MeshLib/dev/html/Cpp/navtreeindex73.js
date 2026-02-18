@@ -1,5 +1,11 @@
 var NAVTREEINDEX73 =
 {
+"structMR_1_1GcodeProcessor_1_1MoveAction.html#a85b84c7e86dfe85baf10dcab2f46c9d6":[6,0,2,0,2,269,2,0],
+"structMR_1_1GcodeProcessor_1_1MoveAction.html#a9c37820f22dbbb3c0a9fc9b01369abbc":[6,0,1,0,1,287,2,1],
+"structMR_1_1GcodeProcessor_1_1MoveAction.html#a9c37820f22dbbb3c0a9fc9b01369abbc":[6,0,2,0,2,269,2,1],
+"structMR_1_1GcodeProcessor_1_1MoveAction.html#afb16d620b32465be3a1f27d50c1640d3":[6,0,1,0,1,287,2,2],
+"structMR_1_1GcodeProcessor_1_1MoveAction.html#afb16d620b32465be3a1f27d50c1640d3":[6,0,2,0,2,269,2,2],
+"structMR_1_1GeneralOffsetParameters.html":[6,0,1,0,1,290],
 "structMR_1_1GeneralOffsetParameters.html":[6,0,2,0,2,272],
 "structMR_1_1GeneralOffsetParameters.html#a32b4506f0ab7b7a76f0e3b1ce34a94d1":[6,0,1,0,1,290,1],
 "structMR_1_1GeneralOffsetParameters.html#a32b4506f0ab7b7a76f0e3b1ce34a94d1":[6,0,2,0,2,272,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX73 =
 "structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html#aa3013a0de4fe197926b96f4683065a23":[6,0,2,0,2,7,0,2],
 "structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html#abac2cff41f1bc2c17f07184162976b9f":[6,0,1,0,1,16,0,1],
 "structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html#abac2cff41f1bc2c17f07184162976b9f":[6,0,2,0,2,7,0,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html":[6,0,1,0,1,16,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html":[6,0,2,0,2,7,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html#a3d5c40490eaf4234be2239ce7055eae5":[6,0,1,0,1,16,1,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html#a3d5c40490eaf4234be2239ce7055eae5":[6,0,2,0,2,7,1,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html#aa8200aa3ad605ff04ee257334721e45f":[6,0,1,0,1,16,1,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html#aa8200aa3ad605ff04ee257334721e45f":[6,0,2,0,2,7,1,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult.html":[6,0,1,0,1,16,2]
+"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html":[6,0,1,0,1,16,1]
 };

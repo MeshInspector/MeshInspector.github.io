@@ -1,5 +1,11 @@
 var NAVTREEINDEX74 =
 {
+"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html":[6,0,2,0,2,7,1],
+"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html#a3d5c40490eaf4234be2239ce7055eae5":[6,0,1,0,1,16,1,0],
+"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html#a3d5c40490eaf4234be2239ce7055eae5":[6,0,2,0,2,7,1,0],
+"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html#aa8200aa3ad605ff04ee257334721e45f":[6,0,1,0,1,16,1,1],
+"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html#aa8200aa3ad605ff04ee257334721e45f":[6,0,2,0,2,7,1,1],
+"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult.html":[6,0,1,0,1,16,2],
 "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult.html":[6,0,2,0,2,7,2],
 "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult.html#a1c78e55a9990e6cbd07c33abe73a74ea":[6,0,1,0,1,16,2,1],
 "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult.html#a1c78e55a9990e6cbd07c33abe73a74ea":[6,0,2,0,2,7,2,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX74 =
 "structMR_1_1ImGuiMenu_1_1LabelParams.html":[6,0,2,0,2,307,0],
 "structMR_1_1ImGuiMenu_1_1LabelParams.html#a011f5f577a8b08a9aa41429b0dbe5387":[6,0,1,0,1,325,0,2],
 "structMR_1_1ImGuiMenu_1_1LabelParams.html#a011f5f577a8b08a9aa41429b0dbe5387":[6,0,2,0,2,307,0,2],
-"structMR_1_1ImGuiMenu_1_1LabelParams.html#a9b6fa31d0eca45b8885f1594a2bf3f4a":[6,0,1,0,1,325,0,0],
-"structMR_1_1ImGuiMenu_1_1LabelParams.html#a9b6fa31d0eca45b8885f1594a2bf3f4a":[6,0,2,0,2,307,0,0],
-"structMR_1_1ImGuiMenu_1_1LabelParams.html#adf0278292ff9ea06a7b310f6c39c237b":[6,0,1,0,1,325,0,1],
-"structMR_1_1ImGuiMenu_1_1LabelParams.html#adf0278292ff9ea06a7b310f6c39c237b":[6,0,2,0,2,307,0,1],
-"structMR_1_1ImGuiMenu_1_1SelectionInformationStyle.html":[6,0,1,0,1,325,1],
-"structMR_1_1ImGuiMenu_1_1SelectionInformationStyle.html":[6,0,2,0,2,307,1],
-"structMR_1_1ImGuiMenu_1_1SelectionInformationStyle.html#a0be879df50c239a2a8f15bd641a8a129":[6,0,1,0,1,325,1,3]
+"structMR_1_1ImGuiMenu_1_1LabelParams.html#a9b6fa31d0eca45b8885f1594a2bf3f4a":[6,0,1,0,1,325,0,0]
 };

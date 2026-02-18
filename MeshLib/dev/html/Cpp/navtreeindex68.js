@@ -1,5 +1,11 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1ConeFittingFunctor.html#ad11690cdf0c6a6de76d2859de79fa518":[6,0,1,0,1,165,3],
+"structMR_1_1ConeFittingFunctor.html#ad11690cdf0c6a6de76d2859de79fa518":[6,0,2,0,2,147,3],
+"structMR_1_1ConeFittingFunctor.html#aedc71caa1d99e08276a1064f710e7005":[6,0,1,0,1,165,2],
+"structMR_1_1ConeFittingFunctor.html#aedc71caa1d99e08276a1064f710e7005":[6,0,2,0,2,147,2],
+"structMR_1_1ConnectionHolder.html":[6,0,1,0,1,168],
+"structMR_1_1ConnectionHolder.html":[6,0,2,0,2,150],
 "structMR_1_1ConnectionHolder.html#a56827c58cd144995185b539aad6929d4":[6,0,1,0,1,168,2],
 "structMR_1_1ConnectionHolder.html#a56827c58cd144995185b539aad6929d4":[6,0,2,0,2,150,2],
 "structMR_1_1ConnectionHolder.html#a99ffc44dd73f73e2e907b7ab5bb38aaf":[6,0,1,0,1,168,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1DetectTunnelSettings.html#ae823ab96c2d11f1cccba5d61003a1202":[6,0,0,16,4,0,5],
 "structMR_1_1Dipole.html":[6,0,1,0,1,201],
 "structMR_1_1Dipole.html":[6,0,2,0,2,183],
-"structMR_1_1Dipole.html#a778dc3bfc3f81905b9e4922c640bb584":[6,0,1,0,1,201,4],
-"structMR_1_1Dipole.html#a778dc3bfc3f81905b9e4922c640bb584":[6,0,2,0,2,183,4],
-"structMR_1_1Dipole.html#a804c3991b7713194228966805194c66a":[6,0,1,0,1,201,2],
-"structMR_1_1Dipole.html#a804c3991b7713194228966805194c66a":[6,0,2,0,2,183,2],
-"structMR_1_1Dipole.html#a94e65877ccc74f50e4cf0028f9ae95ae":[6,0,1,0,1,201,0],
-"structMR_1_1Dipole.html#a94e65877ccc74f50e4cf0028f9ae95ae":[6,0,2,0,2,183,0],
-"structMR_1_1Dipole.html#aae5226baaa9fd2fef60b3940f4d0951f":[6,0,1,0,1,201,1]
+"structMR_1_1Dipole.html#a778dc3bfc3f81905b9e4922c640bb584":[6,0,1,0,1,201,4]
 };
