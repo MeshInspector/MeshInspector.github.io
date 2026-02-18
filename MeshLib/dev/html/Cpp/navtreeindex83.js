@@ -1,5 +1,11 @@
 var NAVTREEINDEX83 =
 {
+"structMR_1_1PointCloud.html#ac58b0b5f3bf2f48f46f9fe30e054b7cb":[6,0,0,12,0,10],
+"structMR_1_1PointCloud.html#ada79e353b7a72ed40a42bc08b60cc225":[6,0,0,12,0,2],
+"structMR_1_1PointCloud.html#af2811d551e2205169b30d34edd323c26":[6,0,0,12,0,7],
+"structMR_1_1PointCloud.html#af4769b0bcb9a9bd664aa03c8e23c0ca0":[6,0,0,12,0,6],
+"structMR_1_1PointCloudApproxRelaxParams.html":[6,0,0,12,2],
+"structMR_1_1PointCloudApproxRelaxParams.html#a5122f4607ef8eeb82d4765383d619a3d":[6,0,0,12,2,0],
 "structMR_1_1PointCloudPart.html":[6,0,1,0,1,539],
 "structMR_1_1PointCloudPart.html":[6,0,2,0,2,521],
 "structMR_1_1PointCloudPart.html#a15a31f379a5e9fe7e7f2c58e7e1b0207":[6,0,1,0,1,539,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX83 =
 "structMR_1_1PolylineMaker.html#abaa25d6997f93c9797a20cf3975b2eef":[6,0,1,0,1,558,3],
 "structMR_1_1PolylineMaker.html#abaa25d6997f93c9797a20cf3975b2eef":[6,0,2,0,2,540,3],
 "structMR_1_1PolylineProjectionResult.html":[6,0,0,1,32],
-"structMR_1_1PolylineProjectionResult.html#a575d694a03d4903a8b460aeba47cfe1c":[6,0,0,1,32,3],
-"structMR_1_1PolylineProjectionResult.html#a65b3a379e994fdd5dd100ddb4cb1d02c":[6,0,0,1,32,0],
-"structMR_1_1PolylineProjectionResult.html#a7a353323e51db61fabf08080cbe55598":[6,0,0,1,32,1],
-"structMR_1_1PolylineProjectionResult.html#a81f4cd1607e7835a737edcf9011740d8":[6,0,0,1,32,2],
-"structMR_1_1PolylineProjectionResult.html#a954df3a650cf8eeea5e253acae8126bd":[6,0,0,1,32,4],
-"structMR_1_1PolylineProjectionResult3Arg.html":[6,0,0,1,33],
-"structMR_1_1PolylineProjectionResult3Arg.html#a2cf18e52c58f017c162f7f60ad2c514e":[6,0,0,1,33,0]
+"structMR_1_1PolylineProjectionResult.html#a575d694a03d4903a8b460aeba47cfe1c":[6,0,0,1,32,3]
 };

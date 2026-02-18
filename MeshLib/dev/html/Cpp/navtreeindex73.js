@@ -1,5 +1,11 @@
 var NAVTREEINDEX73 =
 {
+"structMR_1_1GeneralOffsetParameters.html":[6,0,2,0,2,272],
+"structMR_1_1GeneralOffsetParameters.html#a32b4506f0ab7b7a76f0e3b1ce34a94d1":[6,0,1,0,1,290,1],
+"structMR_1_1GeneralOffsetParameters.html#a32b4506f0ab7b7a76f0e3b1ce34a94d1":[6,0,2,0,2,272,1],
+"structMR_1_1GeneralOffsetParameters.html#abc2615fd96d188bbdb1407d0cc0e5c84":[6,0,1,0,1,290,0],
+"structMR_1_1GeneralOffsetParameters.html#abc2615fd96d188bbdb1407d0cc0e5c84":[6,0,2,0,2,272,0],
+"structMR_1_1GeodesicPath.html":[6,0,0,16,3,0],
 "structMR_1_1GeodesicPath.html#a0a5eaad44164e2e97b2ce0685dc1a53d":[6,0,0,16,3,0,3],
 "structMR_1_1GeodesicPath.html#a500cd0125a04fdafa54081b9392409e4":[6,0,0,16,3,0,0],
 "structMR_1_1GeodesicPath.html#a8890c95d8a90898ea2d0898884bfa474":[6,0,0,16,3,0,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX73 =
 "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html#a3d5c40490eaf4234be2239ce7055eae5":[6,0,2,0,2,7,1,0],
 "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html#aa8200aa3ad605ff04ee257334721e45f":[6,0,1,0,1,16,1,1],
 "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html#aa8200aa3ad605ff04ee257334721e45f":[6,0,2,0,2,7,1,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult.html":[6,0,1,0,1,16,2],
-"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult.html":[6,0,2,0,2,7,2],
-"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult.html#a1c78e55a9990e6cbd07c33abe73a74ea":[6,0,1,0,1,16,2,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult.html#a1c78e55a9990e6cbd07c33abe73a74ea":[6,0,2,0,2,7,2,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult.html#a1e95c8b54a2ebd5b21a285d50c85255c":[6,0,1,0,1,16,2,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult.html#a1e95c8b54a2ebd5b21a285d50c85255c":[6,0,2,0,2,7,2,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams.html":[6,0,1,0,1,16,3]
+"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult.html":[6,0,1,0,1,16,2]
 };

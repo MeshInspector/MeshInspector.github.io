@@ -276,6 +276,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a21e124c25421599977ed1fc9874016e3" id="r_a21e124c25421599977ed1fc9874016e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21e124c25421599977ed1fc9874016e3">find_last</a> () const</td></tr>
 <tr class="memdesc:a21e124c25421599977ed1fc9874016e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the highest index i such that bit i is set, or npos if *this has no on bits.  <br /></td></tr>
 <tr class="separator:a21e124c25421599977ed1fc9874016e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0344c4c74d9b9a4ff11bdeae69c2ddb9" id="r_a0344c4c74d9b9a4ff11bdeae69c2ddb9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0344c4c74d9b9a4ff11bdeae69c2ddb9">find_first_not_set</a> () const</td></tr>
+<tr class="memdesc:a0344c4c74d9b9a4ff11bdeae69c2ddb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the smallest index i such that bit i is NOT set, or npos if *this has no off bits.  <br /></td></tr>
+<tr class="separator:a0344c4c74d9b9a4ff11bdeae69c2ddb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a552e222c0bee74a65f294cdbec098310" id="r_a552e222c0bee74a65f294cdbec098310"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a552e222c0bee74a65f294cdbec098310">find_next_not_set</a> (<a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a> n) const</td></tr>
+<tr class="memdesc:a552e222c0bee74a65f294cdbec098310"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the smallest index i&gt;n such that bit i is NOT set, or npos if *this has no off bits.  <br /></td></tr>
+<tr class="separator:a552e222c0bee74a65f294cdbec098310"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a560dbfd8d9c5682b9f889b33536cf811" id="r_a560dbfd8d9c5682b9f889b33536cf811"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a560dbfd8d9c5682b9f889b33536cf811">find_last_not_set</a> () const</td></tr>
+<tr class="memdesc:a560dbfd8d9c5682b9f889b33536cf811"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the highest index i such that bit i is NOT set, or npos if *this has no off bits.  <br /></td></tr>
+<tr class="separator:a560dbfd8d9c5682b9f889b33536cf811"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a274cea4a76458910a418ec9e8e3e3edf" id="r_a274cea4a76458910a418ec9e8e3e3edf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a274cea4a76458910a418ec9e8e3e3edf">nthSetBit</a> (size_t n) const</td></tr>
 <tr class="memdesc:a274cea4a76458910a418ec9e8e3e3edf"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the location of nth set bit (where the first bit corresponds to n=0) or npos if there are less bit set  <br /></td></tr>
 <tr class="separator:a274cea4a76458910a418ec9e8e3e3edf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -818,6 +827,33 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="a0344c4c74d9b9a4ff11bdeae69c2ddb9" name="a0344c4c74d9b9a4ff11bdeae69c2ddb9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0344c4c74d9b9a4ff11bdeae69c2ddb9">&#9670;&#160;</a></span>find_first_not_set()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a> MR::BitSet::find_first_not_set </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>return the smallest index i such that bit i is NOT set, or npos if *this has no off bits. </p>
+
+</div>
+</div>
 <a id="a21e124c25421599977ed1fc9874016e3" name="a21e124c25421599977ed1fc9874016e3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a21e124c25421599977ed1fc9874016e3">&#9670;&#160;</a></span>find_last()</h2>
 
@@ -845,6 +881,33 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="a560dbfd8d9c5682b9f889b33536cf811" name="a560dbfd8d9c5682b9f889b33536cf811"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a560dbfd8d9c5682b9f889b33536cf811">&#9670;&#160;</a></span>find_last_not_set()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a> MR::BitSet::find_last_not_set </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>return the highest index i such that bit i is NOT set, or npos if *this has no off bits. </p>
+
+</div>
+</div>
 <a id="ab3c6d3157f3b02affcf7def04eb60c31" name="ab3c6d3157f3b02affcf7def04eb60c31"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab3c6d3157f3b02affcf7def04eb60c31">&#9670;&#160;</a></span>find_next()</h2>
 
@@ -869,6 +932,33 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>return the smallest index i&gt;n such that bit i is set, or npos if *this has no on bits. </p>
+
+</div>
+</div>
+<a id="a552e222c0bee74a65f294cdbec098310" name="a552e222c0bee74a65f294cdbec098310"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a552e222c0bee74a65f294cdbec098310">&#9670;&#160;</a></span>find_next_not_set()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a> MR::BitSet::find_next_not_set </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>return the smallest index i&gt;n such that bit i is NOT set, or npos if *this has no off bits. </p>
 
 </div>
 </div>

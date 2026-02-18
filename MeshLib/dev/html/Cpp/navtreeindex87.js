@@ -1,5 +1,11 @@
 var NAVTREEINDEX87 =
 {
+"structMR_1_1SegmPoint.html#a61b1906606755d16e699a890189ff3f8":[6,0,0,0,22,2],
+"structMR_1_1SegmPoint.html#a6dd9ffde5068ad5458d52af3e1c33617":[6,0,0,0,22,7],
+"structMR_1_1SegmPoint.html#a852616535cc51c188a52c77b3f324a6e":[6,0,0,0,22,1],
+"structMR_1_1SegmPoint.html#a87266fccf15374e6dc7587544c028d63":[6,0,0,0,22,4],
+"structMR_1_1SegmPoint.html#aa8dd11ef62ac9009f3b27a0dc5371bcc":[6,0,0,0,22,8],
+"structMR_1_1SegmPoint.html#aa9b427c351c923636029040aa207f718":[6,0,0,0,22,0],
 "structMR_1_1SegmPoint.html#ad9eb72a4d4775622305ebd86274183c9":[6,0,0,0,22,5],
 "structMR_1_1SegmentSegmentIntersectResult.html":[6,0,1,0,1,689],
 "structMR_1_1SegmentSegmentIntersectResult.html":[6,0,2,0,2,671],
@@ -243,11 +249,5 @@ var NAVTREEINDEX87 =
 "structMR_1_1Sphere.html#a7be349cb025864bef77e267cefdccd28":[6,0,0,0,23,6],
 "structMR_1_1Sphere.html#ab3dcbfdadbd1e9018e22a979ea25c6f9":[6,0,0,0,23,0],
 "structMR_1_1Sphere.html#ac468ec719d271b81a0272c541f98c940":[6,0,0,0,23,5],
-"structMR_1_1Sphere.html#ac6fe7dcb9fbe192141cde72e7f9a3551":[6,0,0,0,23,4],
-"structMR_1_1Sphere.html#ac761a3c59ab76b111bb301d71558d5a7":[6,0,0,0,23,8],
-"structMR_1_1Sphere.html#ac91793706fe6273028dbecc98e540b1b":[6,0,0,0,23,9],
-"structMR_1_1Sphere.html#add65b61b54645bbb73e26a98f44d9c12":[6,0,0,0,23,2],
-"structMR_1_1SphereParams.html":[6,0,1,0,1,722],
-"structMR_1_1SphereParams.html":[6,0,2,0,2,704],
-"structMR_1_1SphereParams.html#a6e99b625718037bc438cd04e6865ac95":[6,0,1,0,1,722,0]
+"structMR_1_1Sphere.html#ac6fe7dcb9fbe192141cde72e7f9a3551":[6,0,0,0,23,4]
 };

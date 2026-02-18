@@ -1,5 +1,11 @@
 var NAVTREEINDEX80 =
 {
+"structMR_1_1MovementBuildBodyParams.html#a8c634d38b0c5d16e04f55c1b71976c8a":[6,0,1,0,1,436,2],
+"structMR_1_1MovementBuildBodyParams.html#a8c634d38b0c5d16e04f55c1b71976c8a":[6,0,2,0,2,418,2],
+"structMR_1_1MovementBuildBodyParams.html#adcac10de1f9f5decb27a76bc24ea210d":[6,0,1,0,1,436,1],
+"structMR_1_1MovementBuildBodyParams.html#adcac10de1f9f5decb27a76bc24ea210d":[6,0,2,0,2,418,1],
+"structMR_1_1MruFormatParameters.html":[6,0,1,0,1,440],
+"structMR_1_1MruFormatParameters.html":[6,0,2,0,2,422],
 "structMR_1_1MruFormatParameters.html#a0896b0c59237dfd0301dec798a268a29":[6,0,1,0,1,440,4],
 "structMR_1_1MruFormatParameters.html#a0896b0c59237dfd0301dec798a268a29":[6,0,2,0,2,422,4],
 "structMR_1_1MruFormatParameters.html#a54e98c48affcdf0689a304151d417c25":[6,0,1,0,1,440,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX80 =
 "structMR_1_1ObjectSave_1_1Settings.html#a44959435e399e88f5fec4d1177913925":[6,0,2,0,2,15,0,0],
 "structMR_1_1ObjectSave_1_1Settings.html#abaac448dc025a46f3ebc884adacb58ab":[6,0,1,0,1,26,0,1],
 "structMR_1_1ObjectSave_1_1Settings.html#abaac448dc025a46f3ebc884adacb58ab":[6,0,2,0,2,15,0,1],
-"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html":[6,0,0,11,14,0],
-"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a0b2551180d44dd12a9dd8b6f79cbd010":[6,0,0,11,14,0,6],
-"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a0b40e31d1a019aab3cc599a4440216cf":[6,0,0,11,14,0,2],
-"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a0b40e31d1a019aab3cc599a4440216cfa24c5f8c2189e0c426bb78f3ee753eb87":[6,0,0,11,14,0,2,2],
-"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a0b40e31d1a019aab3cc599a4440216cfa6adf97f83acf6453d4a6a4b1070f3754":[6,0,0,11,14,0,2,0],
-"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a0b40e31d1a019aab3cc599a4440216cfa95d1531d160fa0a7112f86c30a174300":[6,0,0,11,14,0,2,1],
-"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a13e9afd17c798286cf4e6db027d0ecf9":[6,0,0,11,14,0,10]
+"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html":[6,0,0,11,14,0]
 };

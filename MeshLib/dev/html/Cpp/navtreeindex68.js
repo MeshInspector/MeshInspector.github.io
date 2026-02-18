@@ -1,5 +1,11 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1ConnectionHolder.html#a56827c58cd144995185b539aad6929d4":[6,0,1,0,1,168,2],
+"structMR_1_1ConnectionHolder.html#a56827c58cd144995185b539aad6929d4":[6,0,2,0,2,150,2],
+"structMR_1_1ConnectionHolder.html#a99ffc44dd73f73e2e907b7ab5bb38aaf":[6,0,1,0,1,168,0],
+"structMR_1_1ConnectionHolder.html#a99ffc44dd73f73e2e907b7ab5bb38aaf":[6,0,2,0,2,150,0],
+"structMR_1_1ConnectionHolder.html#afe082892826d9c3fe604a038f3509c70":[6,0,1,0,1,168,1],
+"structMR_1_1ConnectionHolder.html#afe082892826d9c3fe604a038f3509c70":[6,0,2,0,2,150,1],
 "structMR_1_1ConstantCuspParams.html":[6,0,1,0,1,169],
 "structMR_1_1ConstantCuspParams.html":[6,0,2,0,2,151],
 "structMR_1_1ConstantCuspParams.html#ae516e612489724b0fd33771eac4c5843":[6,0,1,0,1,169,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1Dipole.html#a804c3991b7713194228966805194c66a":[6,0,2,0,2,183,2],
 "structMR_1_1Dipole.html#a94e65877ccc74f50e4cf0028f9ae95ae":[6,0,1,0,1,201,0],
 "structMR_1_1Dipole.html#a94e65877ccc74f50e4cf0028f9ae95ae":[6,0,2,0,2,183,0],
-"structMR_1_1Dipole.html#aae5226baaa9fd2fef60b3940f4d0951f":[6,0,1,0,1,201,1],
-"structMR_1_1Dipole.html#aae5226baaa9fd2fef60b3940f4d0951f":[6,0,2,0,2,183,1],
-"structMR_1_1Dipole.html#ae70faa532d5372a7fa0e32336cc6df35":[6,0,1,0,1,201,3],
-"structMR_1_1Dipole.html#ae70faa532d5372a7fa0e32336cc6df35":[6,0,2,0,2,183,3],
-"structMR_1_1DirectionWidget_1_1Arrow.html":[6,0,1,0,1,202,0],
-"structMR_1_1DirectionWidget_1_1Arrow.html":[6,0,2,0,2,184,0],
-"structMR_1_1DirectionWidget_1_1Arrow.html#a0ecb81851105a8eb427a1f270b7659a2":[6,0,1,0,1,202,0,1]
+"structMR_1_1Dipole.html#aae5226baaa9fd2fef60b3940f4d0951f":[6,0,1,0,1,201,1]
 };

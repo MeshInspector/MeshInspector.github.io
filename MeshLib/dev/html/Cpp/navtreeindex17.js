@@ -1,5 +1,8 @@
 var NAVTREEINDEX17 =
 {
+"classMR_1_1CaptureScreenshotToClipBoardMenuItem.html#aa9768034e77b25ffed92bf08fbe11321":[6,0,2,0,2,83,1],
+"classMR_1_1CaptureScreenshotToClipBoardMenuItem.html#ab5b55d341a1d4daeb4b334eff9b98614":[6,0,1,0,1,101,2],
+"classMR_1_1CaptureScreenshotToClipBoardMenuItem.html#ab5b55d341a1d4daeb4b334eff9b98614":[6,0,2,0,2,83,2],
 "classMR_1_1CaptureUIScreenshotMenuItem.html":[6,0,1,0,1,102],
 "classMR_1_1CaptureUIScreenshotMenuItem.html":[6,0,2,0,2,84],
 "classMR_1_1CaptureUIScreenshotMenuItem.html#af47f0463a5fddbd41cf4ef90618083b1":[6,0,1,0,1,102,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX17 =
 "classMR_1_1ChangePolylineTopologyAction.html#ad03adcbdb1b3e090ef0d0a8aa6b0d319":[6,0,0,4,24,0],
 "classMR_1_1ChangeScaleAction.html":[6,0,0,4,26],
 "classMR_1_1ChangeScaleAction.html#a4ef261e118c5b35c7f334c4c5dc65f5c":[6,0,0,4,26,3],
-"classMR_1_1ChangeScaleAction.html#a55c7a14904e79aef0cd60392a1fd9dd1":[6,0,0,4,26,2],
-"classMR_1_1ChangeScaleAction.html#a5b30db2db48c27d37a14849a1b6b0dca":[6,0,0,4,26,1],
-"classMR_1_1ChangeScaleAction.html#a7ed6dd43bb4742c5a423190cdb2b8075":[6,0,0,4,26,0],
-"classMR_1_1ChangeSceneAction.html":[6,0,0,4,27]
+"classMR_1_1ChangeScaleAction.html#a55c7a14904e79aef0cd60392a1fd9dd1":[6,0,0,4,26,2]
 };

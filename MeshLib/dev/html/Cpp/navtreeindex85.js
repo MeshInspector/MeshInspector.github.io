@@ -1,5 +1,11 @@
 var NAVTREEINDEX85 =
 {
+"structMR_1_1Quaternion.html#ab2b1ae64873308ff0f9efd8dbcffcde6":[6,0,0,0,21,22],
+"structMR_1_1Quaternion.html#abfbf2dd877c3cf929788c7f24710328b":[6,0,0,0,21,6],
+"structMR_1_1Quaternion.html#ac419a0f315e99dc10b1827824e09cddf":[6,0,0,0,21,15],
+"structMR_1_1Quaternion.html#ac98a801cf03ee64da5665501c8e7b7d8":[6,0,0,0,21,12],
+"structMR_1_1Quaternion.html#ad9b251ccd51dd9ea86e791f559ba00b1":[6,0,0,0,21,14],
+"structMR_1_1Quaternion.html#adb5df4281ceff5b0f0e031a7102a9a9e":[6,0,0,0,21,26],
 "structMR_1_1Quaternion.html#afde85af8bb0b46b18e7c0b7f9ab0a2be":[6,0,0,0,21,16],
 "structMR_1_1RangeSize.html":[6,0,1,0,1,599],
 "structMR_1_1RangeSize.html":[6,0,2,0,2,581],
@@ -243,11 +249,5 @@ var NAVTREEINDEX85 =
 "structMR_1_1RibbonMenuUIConfig.html#a859a05b1d76e85de81ee694b3b0dd341":[6,0,1,0,1,640,1],
 "structMR_1_1RibbonMenuUIConfig.html#a859a05b1d76e85de81ee694b3b0dd341":[6,0,2,0,2,622,1],
 "structMR_1_1RibbonMenuUIConfig.html#ab79facceed1e2c0b1f3a9daddcb6548e":[6,0,1,0,1,640,0],
-"structMR_1_1RibbonMenuUIConfig.html#ab79facceed1e2c0b1f3a9daddcb6548e":[6,0,2,0,2,622,0],
-"structMR_1_1RibbonMenuUIConfig.html#ad18443e86e7f3e8dee09d47d835657d6":[6,0,1,0,1,640,5],
-"structMR_1_1RibbonMenuUIConfig.html#ad18443e86e7f3e8dee09d47d835657d6":[6,0,2,0,2,622,5],
-"structMR_1_1RibbonMenuUIConfig.html#ad25116ab1883c906d084fc3b87abde3a":[6,0,1,0,1,640,6],
-"structMR_1_1RibbonMenuUIConfig.html#ad25116ab1883c906d084fc3b87abde3a":[6,0,2,0,2,622,6],
-"structMR_1_1RibbonMenuUIConfig.html#ada3dc6fefe89d1d4909cbf31a7aae2ce":[6,0,1,0,1,640,3],
-"structMR_1_1RibbonMenuUIConfig.html#ada3dc6fefe89d1d4909cbf31a7aae2ce":[6,0,2,0,2,622,3]
+"structMR_1_1RibbonMenuUIConfig.html#ab79facceed1e2c0b1f3a9daddcb6548e":[6,0,2,0,2,622,0]
 };

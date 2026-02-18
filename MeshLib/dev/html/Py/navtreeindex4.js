@@ -1,5 +1,11 @@
 var NAVTREEINDEX4 =
 {
+"classmrmeshpy_1_1BMap__UndirectedEdgeId__unsigned__long.html#a234403cd8d3d706311bca7c4a7e688eb":[6,1,0,0,2,58,0],
+"classmrmeshpy_1_1BMap__UndirectedEdgeId__unsigned__long.html#a234403cd8d3d706311bca7c4a7e688eb":[6,1,1,0,1,58,0],
+"classmrmeshpy_1_1BMap__UndirectedEdgeId__unsigned__long.html#a90a292ae31d72cbfdd63d26be8e86008":[6,1,0,0,2,58,2],
+"classmrmeshpy_1_1BMap__UndirectedEdgeId__unsigned__long.html#a90a292ae31d72cbfdd63d26be8e86008":[6,1,1,0,1,58,2],
+"classmrmeshpy_1_1BMap__UndirectedEdgeId__unsigned__long.html#abb2e03c36639cf116933795a88523d59":[6,1,0,0,2,58,3],
+"classmrmeshpy_1_1BMap__UndirectedEdgeId__unsigned__long.html#abb2e03c36639cf116933795a88523d59":[6,1,1,0,1,58,3],
 "classmrmeshpy_1_1BMap__UndirectedEdgeId__unsigned__long.html#ad757d86ccb74a29b756b075741423b37":[6,1,0,0,2,58,1],
 "classmrmeshpy_1_1BMap__UndirectedEdgeId__unsigned__long.html#ad757d86ccb74a29b756b075741423b37":[6,1,1,0,1,58,1],
 "classmrmeshpy_1_1BMap__VertId__unsigned__long.html":[6,1,0,0,2,59],
@@ -243,11 +249,5 @@ var NAVTREEINDEX4 =
 "classmrmeshpy_1_1BaseTiffParameters_1_1ValueType.html#ade7b6100dd3c230ece45095afbf67661":[6,1,0,0,2,40,1,8],
 "classmrmeshpy_1_1BaseTiffParameters_1_1ValueType.html#ade7b6100dd3c230ece45095afbf67661":[6,1,1,0,1,40,1,8],
 "classmrmeshpy_1_1BaseTiffParameters_1_1ValueType.html#ae3d7a091ea6b8a0da701e9bfd73bbbfd":[6,1,0,0,2,40,1,4],
-"classmrmeshpy_1_1BaseTiffParameters_1_1ValueType.html#ae3d7a091ea6b8a0da701e9bfd73bbbfd":[6,1,1,0,1,40,1,4],
-"classmrmeshpy_1_1BasicUiRenderTask.html":[6,1,0,0,2,41],
-"classmrmeshpy_1_1BasicUiRenderTask.html":[6,1,1,0,1,41],
-"classmrmeshpy_1_1BasicUiRenderTask.html#a1cfb53884f94aeba7d93c891720b0a17":[6,1,0,0,2,41,5],
-"classmrmeshpy_1_1BasicUiRenderTask.html#a1cfb53884f94aeba7d93c891720b0a17":[6,1,1,0,1,41,5],
-"classmrmeshpy_1_1BasicUiRenderTask.html#a6e518d63a50e09c4ca0f3bfb95f368f6":[6,1,0,0,2,41,3],
-"classmrmeshpy_1_1BasicUiRenderTask.html#a6e518d63a50e09c4ca0f3bfb95f368f6":[6,1,1,0,1,41,3]
+"classmrmeshpy_1_1BaseTiffParameters_1_1ValueType.html#ae3d7a091ea6b8a0da701e9bfd73bbbfd":[6,1,1,0,1,40,1,4]
 };

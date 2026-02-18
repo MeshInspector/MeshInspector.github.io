@@ -665,6 +665,9 @@
     <member refid="classMR_1_1BitSet_1ac8e1e2ea2d5a77114c44b2d32f3e9e8b" kind="function"><name>find_first</name></member>
     <member refid="classMR_1_1BitSet_1ab3c6d3157f3b02affcf7def04eb60c31" kind="function"><name>find_next</name></member>
     <member refid="classMR_1_1BitSet_1a21e124c25421599977ed1fc9874016e3" kind="function"><name>find_last</name></member>
+    <member refid="classMR_1_1BitSet_1a0344c4c74d9b9a4ff11bdeae69c2ddb9" kind="function"><name>find_first_not_set</name></member>
+    <member refid="classMR_1_1BitSet_1a552e222c0bee74a65f294cdbec098310" kind="function"><name>find_next_not_set</name></member>
+    <member refid="classMR_1_1BitSet_1a560dbfd8d9c5682b9f889b33536cf811" kind="function"><name>find_last_not_set</name></member>
     <member refid="classMR_1_1BitSet_1a274cea4a76458910a418ec9e8e3e3edf" kind="function"><name>nthSetBit</name></member>
     <member refid="classMR_1_1BitSet_1ad205d27f45977c18c7f10c77650523aa" kind="function"><name>is_subset_of</name></member>
     <member refid="classMR_1_1BitSet_1ac537a58da8e04ed776a89cd4463876ec" kind="function"><name>intersects</name></member>
@@ -686,6 +689,7 @@
     <member refid="classMR_1_1BitSet_1a687591bf6dd92ec050fcbbaece78884a" kind="function"><name>resetUnusedBits_</name></member>
     <member refid="classMR_1_1BitSet_1a75ca80bcdd7e22824f3e5f189e337f79" kind="function"><name>rangeOp_</name></member>
     <member refid="classMR_1_1BitSet_1a634df0204e7979e8d8e2e4c85a740c90" kind="function"><name>findSetBitAfter_</name></member>
+    <member refid="classMR_1_1BitSet_1aacd1a81791df5d867d0165178c15fabb" kind="function"><name>findNonSetBitAfter_</name></member>
     <member refid="classMR_1_1BitSet_1a9bb3254a2ecfac1b55c9a26b28043e98" kind="friend"><name>operator&lt;&lt;</name></member>
     <member refid="classMR_1_1BitSet_1a8a41de2cd0ce5e0213dfff7731981323" kind="friend"><name>operator&gt;&gt;</name></member>
   </compound>
@@ -11786,6 +11790,9 @@
     <member refid="classMR_1_1TypedBitSet_1a93118917b1035ffa4c1f6656851d726c" kind="function"><name>find_first</name></member>
     <member refid="classMR_1_1TypedBitSet_1ac30c3f40695dfa267b8d26108b22f7f2" kind="function"><name>find_next</name></member>
     <member refid="classMR_1_1TypedBitSet_1a00ffea5dfa37bddf5433b25ff8620931" kind="function"><name>find_last</name></member>
+    <member refid="classMR_1_1TypedBitSet_1a82659de629731949493377f977ce196d" kind="function"><name>find_first_not_set</name></member>
+    <member refid="classMR_1_1TypedBitSet_1a9e9b2d36de208900d099d40529a7caa6" kind="function"><name>find_next_not_set</name></member>
+    <member refid="classMR_1_1TypedBitSet_1ace1264792e4e26bf8b0706d6ad6dac97" kind="function"><name>find_last_not_set</name></member>
     <member refid="classMR_1_1TypedBitSet_1af128e7c662fdfb16768d3f19de265794" kind="function"><name>nthSetBit</name></member>
     <member refid="classMR_1_1TypedBitSet_1ab43aca8f2218844ae11fb2395bdabc9d" kind="function"><name>operator&amp;=</name></member>
     <member refid="classMR_1_1TypedBitSet_1a0355d383fd5f5e1ce7d769ea4a29a1a0" kind="function"><name>operator|=</name></member>

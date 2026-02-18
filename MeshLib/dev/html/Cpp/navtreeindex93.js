@@ -1,5 +1,11 @@
 var NAVTREEINDEX93 =
 {
+"structMR_1_1ViewerSignals.html#abb64623892545f3b6274abe20ff451cc":[6,0,1,0,1,820,19],
+"structMR_1_1ViewerSignals.html#abb64623892545f3b6274abe20ff451cc":[6,0,2,0,2,802,19],
+"structMR_1_1ViewerSignals.html#ac0c1bd273bc7918c1c5aaa17ee28185c":[6,0,1,0,1,820,5],
+"structMR_1_1ViewerSignals.html#ac0c1bd273bc7918c1c5aaa17ee28185c":[6,0,2,0,2,802,5],
+"structMR_1_1ViewerSignals.html#ac75d41fe5d8cbd28ead59eed7f502398":[6,0,1,0,1,820,24],
+"structMR_1_1ViewerSignals.html#ac75d41fe5d8cbd28ead59eed7f502398":[6,0,2,0,2,802,24],
 "structMR_1_1ViewerSignals.html#ac7c8ff367d9f3af5f2d485da5afd76fc":[6,0,1,0,1,820,45],
 "structMR_1_1ViewerSignals.html#ac7c8ff367d9f3af5f2d485da5afd76fc":[6,0,2,0,2,802,45],
 "structMR_1_1ViewerSignals.html#ac7f7aea2a410e63ed3b923af16182f30":[6,0,1,0,1,820,51],
@@ -243,11 +249,5 @@ var NAVTREEINDEX93 =
 "structMR_1_1WatershedGraph_1_1BasinInfo.html#a0b1a50cc94b8a8eb3779ca22881e63d3":[6,0,1,0,1,854,0,3],
 "structMR_1_1WatershedGraph_1_1BasinInfo.html#a0b1a50cc94b8a8eb3779ca22881e63d3":[6,0,2,0,2,836,0,3],
 "structMR_1_1WatershedGraph_1_1BasinInfo.html#a2e9b6e24cf6016e21030cbec21fb1240":[6,0,1,0,1,854,0,11],
-"structMR_1_1WatershedGraph_1_1BasinInfo.html#a2e9b6e24cf6016e21030cbec21fb1240":[6,0,2,0,2,836,0,11],
-"structMR_1_1WatershedGraph_1_1BasinInfo.html#a4ed853b22498692e3105c691d03fbd9e":[6,0,1,0,1,854,0,12],
-"structMR_1_1WatershedGraph_1_1BasinInfo.html#a4ed853b22498692e3105c691d03fbd9e":[6,0,2,0,2,836,0,12],
-"structMR_1_1WatershedGraph_1_1BasinInfo.html#a52315365a6d8090680080cd9e1d62360":[6,0,1,0,1,854,0,7],
-"structMR_1_1WatershedGraph_1_1BasinInfo.html#a52315365a6d8090680080cd9e1d62360":[6,0,2,0,2,836,0,7],
-"structMR_1_1WatershedGraph_1_1BasinInfo.html#a5c26879d176c92192f673552c21b3ea9":[6,0,1,0,1,854,0,4],
-"structMR_1_1WatershedGraph_1_1BasinInfo.html#a5c26879d176c92192f673552c21b3ea9":[6,0,2,0,2,836,0,4]
+"structMR_1_1WatershedGraph_1_1BasinInfo.html#a2e9b6e24cf6016e21030cbec21fb1240":[6,0,2,0,2,836,0,11]
 };

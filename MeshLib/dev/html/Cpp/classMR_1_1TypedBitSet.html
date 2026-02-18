@@ -219,6 +219,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac30c3f40695dfa267b8d26108b22f7f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a00ffea5dfa37bddf5433b25ff8620931" id="r_a00ffea5dfa37bddf5433b25ff8620931"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a7434b47b953a52e27cb6a6c645c7ca9e">IndexType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00ffea5dfa37bddf5433b25ff8620931">find_last</a> () const</td></tr>
 <tr class="separator:a00ffea5dfa37bddf5433b25ff8620931"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82659de629731949493377f977ce196d" id="r_a82659de629731949493377f977ce196d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a7434b47b953a52e27cb6a6c645c7ca9e">IndexType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82659de629731949493377f977ce196d">find_first_not_set</a> () const</td></tr>
+<tr class="separator:a82659de629731949493377f977ce196d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e9b2d36de208900d099d40529a7caa6" id="r_a9e9b2d36de208900d099d40529a7caa6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a7434b47b953a52e27cb6a6c645c7ca9e">IndexType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e9b2d36de208900d099d40529a7caa6">find_next_not_set</a> (<a class="el" href="#a7434b47b953a52e27cb6a6c645c7ca9e">IndexType</a> pos) const</td></tr>
+<tr class="separator:a9e9b2d36de208900d099d40529a7caa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace1264792e4e26bf8b0706d6ad6dac97" id="r_ace1264792e4e26bf8b0706d6ad6dac97"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a7434b47b953a52e27cb6a6c645c7ca9e">IndexType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace1264792e4e26bf8b0706d6ad6dac97">find_last_not_set</a> () const</td></tr>
+<tr class="separator:ace1264792e4e26bf8b0706d6ad6dac97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af128e7c662fdfb16768d3f19de265794" id="r_af128e7c662fdfb16768d3f19de265794"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a7434b47b953a52e27cb6a6c645c7ca9e">IndexType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af128e7c662fdfb16768d3f19de265794">nthSetBit</a> (size_t n) const</td></tr>
 <tr class="memdesc:af128e7c662fdfb16768d3f19de265794"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the location of nth set bit (where the first bit corresponds to n=0) or <a class="el" href="#a7434b47b953a52e27cb6a6c645c7ca9e">IndexType(npos)</a> if there are less bit set  <br /></td></tr>
 <tr class="separator:af128e7c662fdfb16768d3f19de265794"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -371,6 +377,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a21e124c25421599977ed1fc9874016e3 inherit pub_methods_classMR_1_1BitSet" id="r_a21e124c25421599977ed1fc9874016e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1BitSet.html#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1BitSet.html#a21e124c25421599977ed1fc9874016e3">find_last</a> () const</td></tr>
 <tr class="memdesc:a21e124c25421599977ed1fc9874016e3 inherit pub_methods_classMR_1_1BitSet"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the highest index i such that bit i is set, or npos if *this has no on bits.  <br /></td></tr>
 <tr class="separator:a21e124c25421599977ed1fc9874016e3 inherit pub_methods_classMR_1_1BitSet"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0344c4c74d9b9a4ff11bdeae69c2ddb9 inherit pub_methods_classMR_1_1BitSet" id="r_a0344c4c74d9b9a4ff11bdeae69c2ddb9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BitSet.html#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1BitSet.html#a0344c4c74d9b9a4ff11bdeae69c2ddb9">find_first_not_set</a> () const</td></tr>
+<tr class="memdesc:a0344c4c74d9b9a4ff11bdeae69c2ddb9 inherit pub_methods_classMR_1_1BitSet"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the smallest index i such that bit i is NOT set, or npos if *this has no off bits.  <br /></td></tr>
+<tr class="separator:a0344c4c74d9b9a4ff11bdeae69c2ddb9 inherit pub_methods_classMR_1_1BitSet"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a552e222c0bee74a65f294cdbec098310 inherit pub_methods_classMR_1_1BitSet" id="r_a552e222c0bee74a65f294cdbec098310"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BitSet.html#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1BitSet.html#a552e222c0bee74a65f294cdbec098310">find_next_not_set</a> (<a class="el" href="classMR_1_1BitSet.html#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a> n) const</td></tr>
+<tr class="memdesc:a552e222c0bee74a65f294cdbec098310 inherit pub_methods_classMR_1_1BitSet"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the smallest index i&gt;n such that bit i is NOT set, or npos if *this has no off bits.  <br /></td></tr>
+<tr class="separator:a552e222c0bee74a65f294cdbec098310 inherit pub_methods_classMR_1_1BitSet"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a560dbfd8d9c5682b9f889b33536cf811 inherit pub_methods_classMR_1_1BitSet" id="r_a560dbfd8d9c5682b9f889b33536cf811"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1BitSet.html#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1BitSet.html#a560dbfd8d9c5682b9f889b33536cf811">find_last_not_set</a> () const</td></tr>
+<tr class="memdesc:a560dbfd8d9c5682b9f889b33536cf811 inherit pub_methods_classMR_1_1BitSet"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the highest index i such that bit i is NOT set, or npos if *this has no off bits.  <br /></td></tr>
+<tr class="separator:a560dbfd8d9c5682b9f889b33536cf811 inherit pub_methods_classMR_1_1BitSet"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a274cea4a76458910a418ec9e8e3e3edf inherit pub_methods_classMR_1_1BitSet" id="r_a274cea4a76458910a418ec9e8e3e3edf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1BitSet.html#a274cea4a76458910a418ec9e8e3e3edf">nthSetBit</a> (size_t n) const</td></tr>
 <tr class="memdesc:a274cea4a76458910a418ec9e8e3e3edf inherit pub_methods_classMR_1_1BitSet"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the location of nth set bit (where the first bit corresponds to n=0) or npos if there are less bit set  <br /></td></tr>
 <tr class="separator:a274cea4a76458910a418ec9e8e3e3edf inherit pub_methods_classMR_1_1BitSet"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -722,6 +737,33 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
 
 </div>
 </div>
+<a id="a82659de629731949493377f977ce196d" name="a82659de629731949493377f977ce196d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82659de629731949493377f977ce196d">&#9670;&#160;</a></span>find_first_not_set()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a7434b47b953a52e27cb6a6c645c7ca9e">IndexType</a> <a class="el" href="classMR_1_1TypedBitSet.html">MR::TypedBitSet</a>&lt; <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::find_first_not_set </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a00ffea5dfa37bddf5433b25ff8620931" name="a00ffea5dfa37bddf5433b25ff8620931"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a00ffea5dfa37bddf5433b25ff8620931">&#9670;&#160;</a></span>find_last()</h2>
 
@@ -749,6 +791,33 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
 
 </div>
 </div>
+<a id="ace1264792e4e26bf8b0706d6ad6dac97" name="ace1264792e4e26bf8b0706d6ad6dac97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace1264792e4e26bf8b0706d6ad6dac97">&#9670;&#160;</a></span>find_last_not_set()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a7434b47b953a52e27cb6a6c645c7ca9e">IndexType</a> <a class="el" href="classMR_1_1TypedBitSet.html">MR::TypedBitSet</a>&lt; <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::find_last_not_set </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ac30c3f40695dfa267b8d26108b22f7f2" name="ac30c3f40695dfa267b8d26108b22f7f2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac30c3f40695dfa267b8d26108b22f7f2">&#9670;&#160;</a></span>find_next()</h2>
 
@@ -762,6 +831,33 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="#a7434b47b953a52e27cb6a6c645c7ca9e">IndexType</a> <a class="el" href="classMR_1_1TypedBitSet.html">MR::TypedBitSet</a>&lt; <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::find_next </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a7434b47b953a52e27cb6a6c645c7ca9e">IndexType</a></td>          <td class="paramname"><span class="paramname"><em>pos</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9e9b2d36de208900d099d40529a7caa6" name="a9e9b2d36de208900d099d40529a7caa6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e9b2d36de208900d099d40529a7caa6">&#9670;&#160;</a></span>find_next_not_set()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a7434b47b953a52e27cb6a6c645c7ca9e">IndexType</a> <a class="el" href="classMR_1_1TypedBitSet.html">MR::TypedBitSet</a>&lt; <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::find_next_not_set </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a7434b47b953a52e27cb6a6c645c7ca9e">IndexType</a></td>          <td class="paramname"><span class="paramname"><em>pos</em></span></td><td>)</td>
           <td> const</td>
