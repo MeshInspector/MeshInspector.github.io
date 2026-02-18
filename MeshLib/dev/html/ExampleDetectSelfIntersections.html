@@ -286,33 +286,29 @@ $(function(){initNavTree('ExampleDetectSelfIntersections.html',''); initResizabl
 </div><!-- fragment --></li>
 <li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">using </span>static MR;</div>
 <div class="line"> </div>
-<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>CollisionSelf {</div>
-<div class="line"> </div>
-<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Run(<span class="keywordtype">string</span>[] args) {</div>
+<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>CollisionSelf</div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Run(<span class="keywordtype">string</span>[] args)</div>
+<div class="line">    {</div>
 <div class="line">        var mesh = <span class="keyword">new</span> MeshPart(MR.makeTorusWithSelfIntersections());</div>
 <div class="line"> </div>
 <div class="line">        Console.WriteLine(<span class="stringliteral">&quot; --- Beginning Colliding Self Test! --- &quot;</span>);</div>
-<div class="line">        var selfCollidingPairs = MR.findSelfCollidingTriangles(mesh);</div>
-<div class="line">        <span class="keywordflow">if</span> (selfCollidingPairs.empty()) {</div>
-<div class="line">            Console.WriteLine(<span class="stringliteral">&quot;Error with MR.FindSelfCollidingTriangles&quot;</span>);</div>
-<div class="line">            <span class="keywordflow">return</span>;</div>
-<div class="line">        }</div>
+<div class="line">        <span class="comment">// find self-intersecting faces pairs</span></div>
+<div class="line">        var selfCollidingPairs = findSelfCollidingTriangles(mesh);</div>
 <div class="line"> </div>
 <div class="line">        FaceFace pair; <span class="comment">// more efficient to declare outside loop</span></div>
-<div class="line">        <span class="keywordflow">for</span> (ulong i = 0; i &lt; selfCollidingPairs.size(); i++) {</div>
+<div class="line">        <span class="keywordflow">for</span> (ulong i = 0; i &lt; selfCollidingPairs.size(); i++)</div>
+<div class="line">        {</div>
 <div class="line">            pair = selfCollidingPairs[i];</div>
 <div class="line">            Console.WriteLine($<span class="stringliteral">&quot;FaceA: {pair.aFace.id} FaceB: {pair.bFace.id}&quot;</span>); <span class="comment">// print each pair</span></div>
 <div class="line">        }</div>
 <div class="line"> </div>
+<div class="line">        <span class="comment">// find bitset of self-intersecting faces</span></div>
 <div class="line">        var selfCollidingBitSet = MR.findSelfCollidingTrianglesBS(mesh);</div>
-<div class="line">        <span class="keywordflow">if</span> (!selfCollidingBitSet.any()) {</div>
-<div class="line">            Console.WriteLine(<span class="stringliteral">&quot;Error with MR.FindSelfCollidingTrianglesBS&quot;</span>);</div>
-<div class="line">            <span class="keywordflow">return</span>;</div>
-<div class="line">        }</div>
-<div class="line"> </div>
 <div class="line">        Console.WriteLine($<span class="stringliteral">&quot;{selfCollidingBitSet.count()} faces self-intersecting&quot;</span>);</div>
 <div class="line"> </div>
-<div class="line">        var isSelfColliding = !MR.findSelfCollidingTriangles(mesh).empty();</div>
+<div class="line">        <span class="comment">// fast check if mesh has self-intersections</span></div>
+<div class="line">        var isSelfColliding = MR.findSelfCollidingTriangles(mesh, outCollidingPairs: null);</div>
 <div class="line">        Console.WriteLine($<span class="stringliteral">&quot;Is self colliding: {isSelfColliding}&quot;</span>);</div>
 <div class="line">    }</div>
 <div class="line"> </div>
